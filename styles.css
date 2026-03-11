@@ -267,3 +267,181 @@ p {
     display: none;
   }
 }
+
+.config-body {
+  overflow: auto;
+  background:
+    radial-gradient(circle at top, rgba(255, 255, 255, 0.82), transparent 32%),
+    linear-gradient(180deg, #f3ece0 0%, #e7ddcf 100%);
+}
+
+.config-page {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 2rem;
+}
+
+.config-card {
+  width: min(100%, 38rem);
+  padding: 2rem;
+  border: 1px solid rgba(17, 17, 17, 0.08);
+  border-radius: 1.5rem;
+  background: rgba(255, 250, 244, 0.86);
+  box-shadow:
+    0 24px 80px rgba(71, 57, 37, 0.12),
+    inset 0 1px 0 rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(16px);
+}
+
+.config-eyebrow {
+  margin-top: 0;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(17, 17, 17, 0.55);
+}
+
+.config-title {
+  margin-top: 0.4rem;
+  font-size: clamp(2.2rem, 5vw, 3.4rem);
+  line-height: 0.95;
+}
+
+.config-copy {
+  max-width: 32rem;
+}
+
+.config-actions {
+  display: flex;
+  gap: 0.8rem;
+  margin-top: 1.5rem;
+}
+
+.config-toggle,
+.config-save {
+  appearance: none;
+  border: 0;
+  border-radius: 999px;
+  background: #111111;
+  color: #f7f6f3;
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.config-toggle {
+  min-width: 8.5rem;
+  padding: 0.88rem 1.15rem;
+}
+
+.config-toggle[data-active="true"] {
+  background: #d86139;
+}
+
+.config-toggle-secondary {
+  background: rgba(17, 17, 17, 0.14);
+  color: #111111;
+}
+
+.config-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.config-metric,
+.config-field {
+  display: block;
+  padding: 1rem 1.05rem;
+  border-radius: 1.1rem;
+  background: rgba(255, 255, 255, 0.56);
+  border: 1px solid rgba(17, 17, 17, 0.06);
+}
+
+.config-label {
+  display: block;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: rgba(17, 17, 17, 0.52);
+}
+
+.config-value {
+  display: block;
+  margin-top: 0.55rem;
+  font-size: 1.15rem;
+  line-height: 1.35;
+  color: #111111;
+}
+
+.config-value[data-state="yes"] {
+  color: #c04922;
+}
+
+.config-value[data-state="no"] {
+  color: #111111;
+}
+
+.config-field {
+  margin-top: 1rem;
+}
+
+.config-auth-form {
+  margin-top: 1.25rem;
+}
+
+.config-input-row {
+  display: flex;
+  gap: 0.7rem;
+  margin-top: 0.7rem;
+}
+
+.config-input-row input {
+  flex: 1;
+  min-width: 0;
+  padding: 0.88rem 1rem;
+  border: 1px solid rgba(17, 17, 17, 0.12);
+  border-radius: 0.95rem;
+  background: rgba(255, 255, 255, 0.88);
+  color: #111111;
+  font: inherit;
+}
+
+.config-save {
+  padding: 0.88rem 1.25rem;
+}
+
+.config-error {
+  min-height: 1.5rem;
+  margin-top: 0.75rem;
+  color: #b03d1f;
+}
+
+.config-link {
+  display: inline-flex;
+  margin-top: 1.25rem;
+  color: #111111;
+  font-weight: 700;
+}
+
+@media (max-width: 720px) {
+  .config-card {
+    padding: 1.4rem;
+  }
+
+  .config-actions,
+  .config-input-row,
+  .config-grid {
+    grid-template-columns: 1fr;
+    flex-direction: column;
+  }
+
+  .config-toggle,
+  .config-save {
+    width: 100%;
+  }
+}
