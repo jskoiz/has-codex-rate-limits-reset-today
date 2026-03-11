@@ -13,7 +13,7 @@ const mobileVideoQuery = window.matchMedia("(hover: none), (pointer: coarse), (m
 
 const params = new URLSearchParams(window.location.search);
 const requestedState = params.get("reset");
-const hasReset = requestedState === "yes";
+const hasReset = requestedState !== "no";
 
 shell.dataset.state = hasReset ? "yes" : "no";
 answerValue.textContent = hasReset ? "Yes" : "No";
