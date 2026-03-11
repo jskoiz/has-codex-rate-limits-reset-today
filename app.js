@@ -1,3 +1,5 @@
+import { fetchStatus } from "./site-api.js";
+
 const root = document.documentElement;
 const shell = document.querySelector(".page-shell");
 const answerValue = document.querySelector("#answerValue");
@@ -11,13 +13,30 @@ const heroMarkCanvas = document.querySelector("#heroMarkCanvas");
 const mediaQuery = window.matchMedia("(prefers-reduced-motion: reduce)");
 const mobileVideoQuery = window.matchMedia("(hover: none), (pointer: coarse), (max-width: 820px)");
 
-const params = new URLSearchParams(window.location.search);
-const requestedState = params.get("reset");
-const hasReset = requestedState !== "no";
+const applyState = ({ configured = true, state }) => {
+  const hasReset = state !== "no";
 
-shell.dataset.state = hasReset ? "yes" : "no";
-answerValue.textContent = hasReset ? "Yes" : "No";
-subtitle.textContent = hasReset ? "Limits reset, go crazy" : "Back to your local model peasant";
+  shell.dataset.state = hasReset ? "yes" : "no";
+  answerValue.textContent = hasReset ? "Yes" : "No";
+
+  if (!configured) {
+    subtitle.textContent = "Site config is not set up yet";
+    return;
+  }
+
+  subtitle.textContent = hasReset ? "Limits reset, go crazy" : "Back to your local model peasant";
+};
+
+const applyUnavailableState = () => {
+  shell.dataset.state = "no";
+  answerValue.textContent = "No";
+  subtitle.textContent = "Live status is temporarily unavailable";
+};
+
+fetchStatus().then(applyState).catch(applyUnavailableState);
+window.setInterval(() => {
+  fetchStatus().then(applyState).catch(() => {});
+}, 60 * 1000);
 
 const primeVideoPlayback = (video) => {
   video.muted = true;

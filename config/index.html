@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <title>Codex Reset Config</title>
+    <meta name="description" content="Hidden config for the Codex reset status page." />
+    <meta name="robots" content="noindex, nofollow" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body class="config-body">
+    <main class="config-page">
+      <section class="config-card" aria-label="Reset config">
+        <p class="config-eyebrow">Hidden config</p>
+        <h1 class="config-title">Reset status control</h1>
+        <p class="config-copy">
+          Change the public Yes/No state here. When you switch to Yes, it will automatically fall
+          back to No after the configured timer.
+        </p>
+
+        <div id="authPanel">
+          <form class="config-auth-form" id="authForm">
+            <label class="config-field" for="configPassword">
+              <span class="config-label">Admin password</span>
+              <div class="config-input-row">
+                <input
+                  id="configPassword"
+                  name="configPassword"
+                  type="password"
+                  autocomplete="current-password"
+                  required
+                />
+                <button class="config-save" type="submit">Unlock</button>
+              </div>
+            </label>
+            <p class="config-error" id="authError" aria-live="polite"></p>
+          </form>
+        </div>
+
+        <div id="controlPanel" hidden>
+          <div class="config-actions" role="group" aria-label="Status controls">
+            <button class="config-toggle" type="button" data-next-state="yes">Set Yes</button>
+            <button class="config-toggle" type="button" data-next-state="no">Set No</button>
+            <button class="config-toggle config-toggle-secondary" id="logoutButton" type="button">Lock</button>
+          </div>
+
+          <div class="config-grid" aria-label="Current config values">
+            <div class="config-metric">
+              <span class="config-label">Current state</span>
+              <strong class="config-value" id="configStatusValue">Yes</strong>
+            </div>
+            <div class="config-metric">
+              <span class="config-label">Auto-reset timer</span>
+              <strong class="config-value" id="configTimerValue">20h</strong>
+            </div>
+          </div>
+
+          <label class="config-field" for="autoResetHours">
+            <span class="config-label">Hours before Yes switches back to No</span>
+            <div class="config-input-row">
+              <input id="autoResetHours" name="autoResetHours" type="number" min="1" step="1" value="20" />
+              <button class="config-save" id="saveHoursButton" type="button">Save</button>
+            </div>
+          </label>
+        </div>
+
+        <a class="config-link" href="../">Back to main page</a>
+      </section>
+    </main>
+
+    <script type="module" src="../config-page.js"></script>
+  </body>
+</html>
