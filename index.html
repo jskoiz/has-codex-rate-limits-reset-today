@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <title>Did Codex Reset Today?</title>
+    <meta
+      name="description"
+      content="A near-literal Codex hero parody that answers the only question that matters."
+    />
+    <script>
+      (() => {
+        const prefersCanvasVideo =
+          typeof window.matchMedia === "function" &&
+          window.matchMedia("(hover: none), (pointer: coarse), (max-width: 820px)").matches;
+
+        if (prefersCanvasVideo) {
+          document.documentElement.dataset.videoMode = "canvas";
+        }
+      })();
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell" data-state="no">
+      <div class="video-shell" aria-hidden="true">
+        <canvas class="hero-video-canvas" id="heroVideoCanvas" aria-hidden="true"></canvas>
+        <video
+          class="hero-video"
+          autoplay
+          muted
+          loop
+          playsinline
+          webkit-playsinline="true"
+          disablepictureinpicture
+          disableremoteplayback
+          preload="auto"
+          tabindex="-1"
+          crossorigin="anonymous"
+        >
+          <source src="https://cdn.openai.com/ctf-cdn/floral_a.mp4" type="video/mp4" />
+        </video>
+      </div>
+
+      <canvas class="ascii-field" id="asciiField" aria-hidden="true"></canvas>
+      <div class="cursor-aura" aria-hidden="true"></div>
+
+      <main class="hero">
+        <section class="hero-copy" aria-label="Codex reset status">
+          <div class="hero-mark-shell" aria-hidden="true">
+            <canvas class="hero-mark-canvas" id="heroMarkCanvas" aria-hidden="true"></canvas>
+            <video
+              class="hero-mark-video"
+              muted
+              playsinline
+              webkit-playsinline="true"
+              disablepictureinpicture
+              disableremoteplayback
+              preload="auto"
+              tabindex="-1"
+              crossorigin="anonymous"
+            >
+              <source src="https://cdn.openai.com/cap/76B4ISvLjfcSygxIvoMqyl/7d037d99808d419313b42980eb181ecg.mp4" type="video/mp4" />
+            </video>
+          </div>
+
+          <h1 id="answerValue">No</h1>
+          <p id="subtitle">Back to your local model peasant</p>
+          <a class="hero-cta" href="./">Refresh status</a>
+        </section>
+      </main>
+    </div>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
