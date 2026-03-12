@@ -24,13 +24,13 @@ const applyState = ({ configured = true, state }) => {
     return;
   }
 
-  subtitle.textContent = hasReset ? "Limits reset, go crazy" : "Go back to your local models";
+  subtitle.textContent = hasReset ? "Limits reset, go crazy" : "Back to your local model peasant";
 };
 
 const applyUnavailableState = () => {
   shell.dataset.state = "no";
   answerValue.textContent = "No";
-  subtitle.textContent = "Go back to your local models";
+  subtitle.textContent = "Back to your local model peasant";
 };
 
 fetchStatus().then(applyState).catch(applyUnavailableState);
