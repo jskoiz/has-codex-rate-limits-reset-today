@@ -166,7 +166,11 @@ const createPendingReview = (tweet, classification) => ({
 const createAutomationLogEntry = (tweet, classification) => ({
   confidence: classification.confidence,
   evaluatedAt: Date.now(),
+  inputTokens: classification.usage?.inputTokens || 0,
+  outputTokens: classification.usage?.outputTokens || 0,
   rationale: classification.rationale,
+  reasoningTokens: classification.usage?.reasoningTokens || 0,
+  totalTokens: classification.usage?.totalTokens || 0,
   tweetId: tweet.id,
   tweetText: tweet.fullText,
   tweetUrl: tweet.url,
@@ -178,6 +182,18 @@ const appendAutomationLog = (automationState, tweet, classification) => {
   const previousEntries = Array.isArray(automationState?.recentEvaluations) ? automationState.recentEvaluations : [];
 
   return [nextEntry, ...previousEntries.filter((entry) => entry?.tweetId !== tweet.id)].slice(0, 20);
+};
+
+const updateTokenUsageTotals = (automationState, classification) => {
+  const usage = classification.usage || {};
+  const totals = automationState?.tokenUsage || {};
+
+  return {
+    totalInputTokens: (totals.totalInputTokens || 0) + (usage.inputTokens || 0),
+    totalOutputTokens: (totals.totalOutputTokens || 0) + (usage.outputTokens || 0),
+    totalReasoningTokens: (totals.totalReasoningTokens || 0) + (usage.reasoningTokens || 0),
+    totalTokens: (totals.totalTokens || 0) + (usage.totalTokens || 0),
+  };
 };
 
 const clearAutomationError = async () => {
@@ -284,6 +300,12 @@ const classifyTweet = async (tweet) => {
   return {
     confidence: typeof parsed.confidence === "number" ? parsed.confidence : null,
     rationale: typeof parsed.rationale === "string" ? parsed.rationale.trim() : "",
+    usage: {
+      inputTokens: response.usage?.input_tokens || 0,
+      outputTokens: response.usage?.output_tokens || 0,
+      reasoningTokens: response.usage?.output_tokens_details?.reasoning_tokens || 0,
+      totalTokens: response.usage?.total_tokens || 0,
+    },
     verdict: parsed.verdict,
   };
 };
@@ -333,6 +355,7 @@ const markTweetAsNotReset = async (tweet, classification) =>
       lastError: null,
       lastSeenTweetId: tweet.id,
       recentEvaluations: appendAutomationLog(state.automation, tweet, classification),
+      tokenUsage: updateTokenUsageTotals(state.automation, classification),
     },
   }));
 
@@ -346,6 +369,7 @@ const markTweetForManualReview = async (tweet, classification) =>
       lastSeenTweetId: tweet.id,
       pendingReview: createPendingReview(tweet, classification),
       recentEvaluations: appendAutomationLog(state.automation, tweet, classification),
+      tokenUsage: updateTokenUsageTotals(state.automation, classification),
     },
   }));
 
@@ -363,6 +387,7 @@ const markTweetAsResetConfirmed = async (tweet, classification) =>
         lastSeenTweetId: tweet.id,
         pendingReview: null,
         recentEvaluations: appendAutomationLog(state.automation, tweet, classification),
+        tokenUsage: updateTokenUsageTotals(state.automation, classification),
       },
     };
   });
