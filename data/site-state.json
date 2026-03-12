@@ -1,13 +1,13 @@
 {
   "auth": {
     "loginFailures": [],
-    "sessions": []
-  },
-  "automation": {
-    "lastDecision": null,
-    "lastError": "require() of ES Module /var/task/node_modules/@exodus/bytes/encoding-lite.js from /var/task/node_modules/html-encoding-sniffer/lib/html-encoding-sniffer.js not supported.\nInstead change the require of encoding-lite.js in /var/task/node_modules/html-encoding-sniffer/lib/html-encoding-sniffer.js to a dynamic import() which is available in all CommonJS modules.",
-    "lastSeenTweetId": null,
-    "pendingReview": null
+    "sessions": [
+      {
+        "createdAt": 1773347437917,
+        "exp": 1773390637917,
+        "id": "0c785d1f8ecd976195080b7d223d278dcc31"
+      }
+    ]
   },
   "currentState": "no",
   "autoResetHours": 20,
