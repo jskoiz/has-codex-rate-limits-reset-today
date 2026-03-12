@@ -115,6 +115,11 @@ const getGithubConfig = () => {
   };
 };
 
+const getRawGithubUrl = () => {
+  const github = getGithubConfig();
+  return `https://raw.githubusercontent.com/${github.owner}/${github.repo}/${github.branch}/${SITE_STATE_PATH}`;
+};
+
 const isGithubConfigured = () => {
   const github = getGithubConfig();
   return Boolean(github.token && github.owner && github.repo && github.branch);
@@ -146,25 +151,45 @@ const readFromGithub = async () => {
     return null;
   }
 
-  const github = getGithubConfig();
-  const response = await githubRequest(
-    `/repos/${github.owner}/${github.repo}/contents/${SITE_STATE_PATH}?ref=${encodeURIComponent(github.branch)}`,
-  );
+  const response = await fetch(getRawGithubUrl(), {
+    headers: {
+      Accept: "application/json",
+      Authorization: `Bearer ${getGithubConfig().token}`,
+      "User-Agent": "codex-limit-site",
+    },
+  });
 
   if (response.status === 404) {
     return null;
   }
 
   if (!response.ok) {
-    throw new Error(`GitHub read failed with ${response.status}`);
+    throw new Error(`GitHub raw read failed with ${response.status}`);
+  }
+
+  return {
+    sha: null,
+    value: await response.json(),
+  };
+};
+
+const readGithubContentMeta = async () => {
+  const github = getGithubConfig();
+  const response = await githubRequest(
+    `/repos/${github.owner}/${github.repo}/contents/${SITE_STATE_PATH}?ref=${encodeURIComponent(github.branch)}`,
+  );
+
+  if (response.status === 404) {
+    return { sha: null };
+  }
+
+  if (!response.ok) {
+    throw new Error(`GitHub content read failed with ${response.status}`);
   }
 
   const payload = await response.json();
-  const content = payload?.content ? Buffer.from(payload.content, "base64").toString("utf8") : "{}";
-
   return {
     sha: payload?.sha || null,
-    value: JSON.parse(content),
   };
 };
 
@@ -187,7 +212,7 @@ export const readSiteState = async () => {
 
 export const writeSiteState = async (nextState) => {
   const github = getGithubConfig();
-  const current = await readSiteState();
+  const current = await readGithubContentMeta();
   const normalizedState = normalizeStoredState(nextState);
   const response = await githubRequest(`/repos/${github.owner}/${github.repo}/contents/${SITE_STATE_PATH}`, {
     method: "PUT",
