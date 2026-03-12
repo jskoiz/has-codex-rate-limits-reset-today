@@ -1,5 +1,7 @@
 import { fetchAdminConfig, loginAdmin, logoutAdmin, updateAdminConfig } from "./site-api.js";
 
+const DEFAULT_NO_SUBTITLE = "Limits have not reset yet.";
+
 const authPanel = document.querySelector("#authPanel");
 const controlPanel = document.querySelector("#controlPanel");
 const authForm = document.querySelector("#authForm");
@@ -92,7 +94,7 @@ const createSubtitleRow = (value, index) => {
   input.className = "config-subtitle-input";
   input.type = "text";
   input.value = value;
-  input.placeholder = "Back to your local model peasant";
+  input.placeholder = DEFAULT_NO_SUBTITLE;
   input.setAttribute("aria-label", `No subtitle ${index + 1}`);
   input.addEventListener("input", (event) => {
     currentNoSubtitles[index] = event.target.value;
@@ -118,12 +120,10 @@ const renderSubtitleInputs = () => {
     return;
   }
 
-  const normalizedSubtitles = currentNoSubtitles
-    .map((value) => (typeof value === "string" ? value : ""))
-    .filter((value, index, array) => index < array.length);
+  const normalizedSubtitles = currentNoSubtitles.map((value) => (typeof value === "string" ? value : ""));
 
   if (normalizedSubtitles.length === 0) {
-    normalizedSubtitles.push("Back to your local model peasant");
+    normalizedSubtitles.push(DEFAULT_NO_SUBTITLE);
   }
 
   currentNoSubtitles = normalizedSubtitles;

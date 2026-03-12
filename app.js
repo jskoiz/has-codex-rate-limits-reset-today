@@ -1,7 +1,8 @@
 import { fetchStatus } from "./site-api.js";
 
+const DEFAULT_NO_SUBTITLE = "Limits have not reset yet.";
+
 const root = document.documentElement;
-const shell = document.querySelector(".page-shell");
 const answerValue = document.querySelector("#answerValue");
 const subtitle = document.querySelector("#subtitle");
 const asciiField = document.querySelector("#asciiField");
@@ -15,17 +16,16 @@ const mobileVideoQuery = window.matchMedia("(hover: none), (pointer: coarse), (m
 
 const pickRandomSubtitle = (subtitles) => {
   if (!Array.isArray(subtitles) || subtitles.length === 0) {
-    return "Back to your local model peasant";
+    return DEFAULT_NO_SUBTITLE;
   }
 
   const index = Math.floor(Math.random() * subtitles.length);
-  return subtitles[index] || "Back to your local model peasant";
+  return subtitles[index] || DEFAULT_NO_SUBTITLE;
 };
 
 const applyState = ({ configured = true, noSubtitles = [], state }) => {
   const hasReset = state !== "no";
 
-  shell.dataset.state = hasReset ? "yes" : "no";
   answerValue.textContent = hasReset ? "Yes" : "No";
 
   if (!configured) {
@@ -37,9 +37,8 @@ const applyState = ({ configured = true, noSubtitles = [], state }) => {
 };
 
 const applyUnavailableState = () => {
-  shell.dataset.state = "no";
   answerValue.textContent = "No";
-  subtitle.textContent = "Back to your local model peasant";
+  subtitle.textContent = DEFAULT_NO_SUBTITLE;
 };
 
 fetchStatus().then(applyState).catch(applyUnavailableState);
@@ -72,18 +71,14 @@ const primeVideoPlayback = (video) => {
 primeVideoPlayback(heroVideo);
 
 const resumeVideos = () => {
-  [heroVideo].forEach((video) => {
-    if (!video) {
-      return;
-    }
+  if (!heroVideo || !heroVideo.paused) {
+    return;
+  }
 
-    if (video.paused) {
-      const playAttempt = video.play();
-      if (playAttempt?.catch) {
-        playAttempt.catch(() => {});
-      }
-    }
-  });
+  const playAttempt = heroVideo.play();
+  if (playAttempt?.catch) {
+    playAttempt.catch(() => {});
+  }
 };
 
 document.addEventListener("visibilitychange", () => {
@@ -101,6 +96,11 @@ const createVideoCanvasRenderer = (video, canvas, measureBounds) => {
   }
 
   const ctx = canvas.getContext("2d", { alpha: true });
+
+  if (!ctx) {
+    return null;
+  }
+
   const dpr = Math.min(window.devicePixelRatio || 1, 2);
   let drawWidth = 0;
   let drawHeight = 0;
@@ -146,7 +146,6 @@ const createVideoCanvasRenderer = (video, canvas, measureBounds) => {
       ctx.drawImage(video, sourceX, sourceY, sourceWidth, sourceHeight, 0, 0, drawWidth, drawHeight);
     } catch (_error) {
       root.dataset.videoMode = "native";
-      shell.dataset.videoMode = "native";
     }
   };
 
@@ -155,7 +154,6 @@ const createVideoCanvasRenderer = (video, canvas, measureBounds) => {
 };
 
 const videoCanvasRenderers = [];
-let heroMarkRenderer = null;
 
 const resizeVideoCanvases = () => {
   videoCanvasRenderers.forEach((renderer) => renderer.resize());
@@ -168,7 +166,6 @@ const renderVideoCanvases = () => {
 
 if (mobileVideoQuery.matches) {
   root.dataset.videoMode = "canvas";
-  shell.dataset.videoMode = "canvas";
 
   const heroRenderer = createVideoCanvasRenderer(
     document.querySelector(".hero-video"),
@@ -181,10 +178,9 @@ if (mobileVideoQuery.matches) {
   }
 } else {
   root.dataset.videoMode = "native";
-  shell.dataset.videoMode = "native";
 }
 
-heroMarkRenderer = createVideoCanvasRenderer(
+const heroMarkRenderer = createVideoCanvasRenderer(
   heroMarkVideo,
   heroMarkCanvas,
   () => {
