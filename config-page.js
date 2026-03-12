@@ -11,6 +11,7 @@ const stateButtons = Array.from(document.querySelectorAll("[data-next-state]"));
 const hoursInput = document.querySelector("#autoResetHours");
 const statusValue = document.querySelector("#configStatusValue");
 const timerValue = document.querySelector("#configTimerValue");
+const configNotice = document.querySelector("#configNotice");
 const saveButton = document.querySelector("#saveHoursButton");
 const logoutButton = document.querySelector("#logoutButton");
 const subtitleList = document.querySelector("#subtitleList");
@@ -23,6 +24,7 @@ const automationPendingValue = document.querySelector("#automationPendingValue")
 const automationErrorValue = document.querySelector("#automationErrorValue");
 const automationStatusNote = document.querySelector("#automationStatusNote");
 let currentNoSubtitles = [];
+let noticeTimeoutId = null;
 
 const formatDateTime = (value) => {
   if (!value) {
@@ -110,18 +112,62 @@ const showControls = () => {
   authError.textContent = "";
 };
 
-const runConfigAction = async (callback) => {
+const clearNotice = () => {
+  if (!configNotice) {
+    return;
+  }
+
+  if (noticeTimeoutId) {
+    window.clearTimeout(noticeTimeoutId);
+    noticeTimeoutId = null;
+  }
+
+  configNotice.textContent = "";
+  configNotice.dataset.tone = "";
+};
+
+const showNotice = (message, tone = "success") => {
+  if (!configNotice) {
+    return;
+  }
+
+  if (noticeTimeoutId) {
+    window.clearTimeout(noticeTimeoutId);
+  }
+
+  configNotice.textContent = message;
+  configNotice.dataset.tone = tone;
+
+  if (tone === "success") {
+    noticeTimeoutId = window.setTimeout(() => {
+      configNotice.textContent = "";
+      configNotice.dataset.tone = "";
+      noticeTimeoutId = null;
+    }, 4000);
+  } else {
+    noticeTimeoutId = null;
+  }
+};
+
+const runConfigAction = async (callback, successMessage = "") => {
   authError.textContent = "";
+  clearNotice();
 
   try {
-    await callback();
+    const result = await callback();
+
+    if (successMessage) {
+      showNotice(successMessage, "success");
+    }
+
+    return result;
   } catch (error) {
     if (error?.status === 401) {
       showAuth("Session expired");
       return;
     }
 
-    authError.textContent = error.message || "Unable to update config";
+    showNotice(error.message || "Unable to update config", "error");
   }
 };
 
@@ -154,6 +200,7 @@ const createSubtitleRow = (value, index) => {
   input.placeholder = DEFAULT_NO_SUBTITLE;
   input.setAttribute("aria-label", `No subtitle ${index + 1}`);
   input.addEventListener("input", (event) => {
+    clearNotice();
     currentNoSubtitles[index] = event.target.value;
   });
 
@@ -203,6 +250,7 @@ const refreshConfig = async () => {
 authForm?.addEventListener("submit", async (event) => {
   event.preventDefault();
   authError.textContent = "";
+  clearNotice();
 
   try {
     await loginAdmin(authInput.value);
@@ -218,7 +266,7 @@ stateButtons.forEach((button) => {
     await runConfigAction(async () => {
       const config = await updateAdminConfig({ state: button.dataset.nextState });
       renderConfig(config);
-    });
+    }, `State updated to ${button.dataset.nextState === "yes" ? "Yes" : "No"}.`);
   });
 });
 
@@ -229,10 +277,15 @@ saveButton?.addEventListener("click", async () => {
       autoResetHours: hoursInput.value,
     });
     renderConfig(config);
-  });
+  }, "Auto-reset timer saved.");
+});
+
+hoursInput?.addEventListener("input", () => {
+  clearNotice();
 });
 
 addSubtitleButton?.addEventListener("click", () => {
+  clearNotice();
   currentNoSubtitles.push("");
   renderSubtitleInputs();
 });
@@ -243,7 +296,7 @@ saveSubtitlesButton?.addEventListener("click", async () => {
       noSubtitles: currentNoSubtitles,
     });
     renderConfig(config);
-  });
+  }, "Subtitles saved.");
 });
 
 hoursInput?.addEventListener("keydown", async (event) => {
@@ -258,7 +311,7 @@ hoursInput?.addEventListener("keydown", async (event) => {
       autoResetHours: hoursInput.value,
     });
     renderConfig(config);
-  });
+  }, "Auto-reset timer saved.");
 });
 
 logoutButton?.addEventListener("click", async () => {
