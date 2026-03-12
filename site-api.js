@@ -51,3 +51,11 @@ export const updateAdminConfig = async (payload) =>
       method: "POST",
     }),
   );
+
+export const runAutomationMonitor = async () =>
+  parseJson(
+    await fetch("/api/admin/automation", {
+      credentials: "same-origin",
+      method: "POST",
+    }),
+  );

@@ -4,6 +4,12 @@
   "noSubtitles": [
     "Limits have not reset yet."
   ],
+  "automation": {
+    "lastSeenTweetId": null,
+    "lastDecision": null,
+    "pendingReview": null,
+    "lastError": null
+  },
   "resetAt": null,
   "updatedAt": 1773328694301
 }
