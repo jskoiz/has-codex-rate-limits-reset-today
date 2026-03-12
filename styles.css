@@ -412,6 +412,21 @@ p {
   color: #b03d1f;
 }
 
+.config-notice {
+  min-height: 1.5rem;
+  margin: 0 0 1rem;
+  font-weight: 700;
+  color: #6f6a63;
+}
+
+.config-notice[data-tone="success"] {
+  color: #1f7a45;
+}
+
+.config-notice[data-tone="error"] {
+  color: #b03d1f;
+}
+
 .config-subtitle-header {
   display: flex;
   align-items: center;
