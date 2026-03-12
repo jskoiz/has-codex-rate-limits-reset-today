@@ -1,6 +1,6 @@
 {
-  "currentState": "yes",
+  "currentState": "no",
   "autoResetHours": 20,
-  "resetAt": 1773335789338,
-  "updatedAt": 1773263789338
+  "resetAt": null,
+  "updatedAt": 1773328663640
 }
