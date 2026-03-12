@@ -3,17 +3,17 @@
     "loginFailures": [],
     "sessions": []
   },
+  "automation": {
+    "lastDecision": null,
+    "lastError": null,
+    "lastSeenTweetId": "1991291685343760850",
+    "pendingReview": null
+  },
   "currentState": "no",
   "autoResetHours": 20,
   "noSubtitles": [
     "Back to your local model peasant"
   ],
-  "automation": {
-    "lastSeenTweetId": null,
-    "lastDecision": null,
-    "pendingReview": null,
-    "lastError": null
-  },
   "resetAt": null,
   "updatedAt": 1773348349945
 }
