@@ -12,7 +12,7 @@ import {
 const unauthorized = () => jsonResponse({ error: "Unauthorized" }, 401);
 
 export async function GET(request) {
-  if (!isAuthorizedRequest(request)) {
+  if (!(await isAuthorizedRequest(request))) {
     return unauthorized();
   }
 
@@ -33,7 +33,7 @@ export async function GET(request) {
 }
 
 export async function POST(request) {
-  if (!isAuthorizedRequest(request)) {
+  if (!(await isAuthorizedRequest(request))) {
     return unauthorized();
   }
 
