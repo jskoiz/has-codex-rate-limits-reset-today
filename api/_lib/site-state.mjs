@@ -8,6 +8,7 @@ const LOGIN_FAILURE_WINDOW_MS = 15 * 60 * 1000;
 const LOGIN_LOCKOUT_MS = 30 * 60 * 1000;
 const MAX_LOGIN_ATTEMPTS = 5;
 const MAX_TRACKED_LOGIN_FAILURES = 128;
+const MAX_GITHUB_WRITE_ATTEMPTS = 3;
 const SITE_STATE_PATH = "data/site-state.json";
 
 const jsonHeaders = {
@@ -286,46 +287,71 @@ export const readSiteState = async () => {
 export const writeSiteState = async (nextState) => {
   const github = getGithubConfig();
   const normalizedState = normalizeStoredState(nextState);
-  const currentSha = typeof nextState?.sha === "string" ? nextState.sha : (await readGithubContentMeta()).sha;
-  const response = await githubRequest(`/repos/${github.owner}/${github.repo}/contents/${SITE_STATE_PATH}`, {
-    method: "PUT",
-    headers: {
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify({
-      branch: github.branch,
-      content: Buffer.from(JSON.stringify(normalizedState, null, 2) + "\n").toString("base64"),
-      message: `Update site state to ${normalizedState.currentState}`,
-      sha: currentSha || undefined,
-    }),
-  });
+  let currentSha = typeof nextState?.sha === "string" ? nextState.sha : (await readGithubContentMeta()).sha;
 
-  if (!response.ok) {
+  for (let attempt = 0; attempt < MAX_GITHUB_WRITE_ATTEMPTS; attempt += 1) {
+    const response = await githubRequest(`/repos/${github.owner}/${github.repo}/contents/${SITE_STATE_PATH}`, {
+      method: "PUT",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        branch: github.branch,
+        content: Buffer.from(JSON.stringify(normalizedState, null, 2) + "\n").toString("base64"),
+        message: `Update site state to ${normalizedState.currentState}`,
+        sha: currentSha || undefined,
+      }),
+    });
+
+    if (response.ok) {
+      return;
+    }
+
     const errorText = await response.text();
-    throw new Error(`GitHub write failed with ${response.status}: ${errorText}`);
+    const isConflict = response.status === 409 || response.status === 422;
+
+    if (!isConflict || attempt === MAX_GITHUB_WRITE_ATTEMPTS - 1) {
+      throw new Error(`GitHub write failed with ${response.status}: ${errorText}`);
+    }
+
+    currentSha = (await readGithubContentMeta()).sha;
   }
 };
 
 export const updateSiteState = async (buildNextState) => {
-  const current = await readSiteState();
-  const nextState = await buildNextState(current);
+  let lastError = null;
 
-  if (!nextState) {
-    return current;
+  for (let attempt = 0; attempt < MAX_GITHUB_WRITE_ATTEMPTS; attempt += 1) {
+    const current = await readSiteState();
+    const nextState = await buildNextState(current);
+
+    if (!nextState) {
+      return current;
+    }
+
+    const normalizedState = normalizeStoredState(nextState);
+
+    try {
+      await writeSiteState({
+        ...normalizedState,
+        sha: current.sha,
+      });
+
+      return {
+        ...normalizedState,
+        configured: current.configured,
+        sha: current.sha,
+      };
+    } catch (error) {
+      lastError = error;
+
+      if (attempt === MAX_GITHUB_WRITE_ATTEMPTS - 1) {
+        throw error;
+      }
+    }
   }
 
-  const normalizedState = normalizeStoredState(nextState);
-
-  await writeSiteState({
-    ...normalizedState,
-    sha: current.sha,
-  });
-
-  return {
-    ...normalizedState,
-    configured: current.configured,
-    sha: current.sha,
-  };
+  throw lastError;
 };
 
 export const buildNextState = async (updates, currentState = null) => {
