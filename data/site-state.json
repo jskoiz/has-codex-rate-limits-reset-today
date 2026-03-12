@@ -1,15 +1,13 @@
 {
   "auth": {
-    "loginFailures": [
-      {
-        "count": 1,
-        "firstFailedAt": 1773347537897,
-        "key": "e340ef48ecaa8f9c24640b15fcec035c46b3427cb3fcd484ad414e238232db87",
-        "lastFailedAt": 1773347537897,
-        "lockedUntil": null
-      }
-    ],
+    "loginFailures": [],
     "sessions": []
+  },
+  "automation": {
+    "lastDecision": null,
+    "lastError": null,
+    "lastSeenTweetId": "1991291685343760850",
+    "pendingReview": null
   },
   "currentState": "no",
   "autoResetHours": 20,
