@@ -484,6 +484,28 @@ p {
   margin-top: 0.95rem;
 }
 
+.config-inline-action {
+  padding: 0.7rem 1rem;
+}
+
+.config-automation-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 0.9rem;
+}
+
+.config-value-compact {
+  font-size: 0.98rem;
+  line-height: 1.45;
+  word-break: break-word;
+}
+
+.config-note {
+  margin: 0.95rem 0 0;
+  color: rgba(17, 17, 17, 0.6);
+}
+
 .config-link {
   display: inline-flex;
   margin-top: 1.25rem;
@@ -498,7 +520,8 @@ p {
 
   .config-actions,
   .config-input-row,
-  .config-grid {
+  .config-grid,
+  .config-automation-grid {
     grid-template-columns: 1fr;
     flex-direction: column;
   }
