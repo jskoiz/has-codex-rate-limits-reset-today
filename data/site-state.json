@@ -1,6 +1,9 @@
 {
   "currentState": "no",
   "autoResetHours": 20,
+  "noSubtitles": [
+    "Back to your local model peasant"
+  ],
   "resetAt": null,
   "updatedAt": 1773328694301
 }

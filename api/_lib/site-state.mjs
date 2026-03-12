@@ -1,6 +1,7 @@
 import crypto from "node:crypto";
 
 const DEFAULT_AUTO_RESET_HOURS = 20;
+const DEFAULT_NO_SUBTITLES = ["Back to your local model peasant"];
 const ADMIN_COOKIE_NAME = "site_admin_session";
 const SESSION_TTL_SECONDS = 60 * 60 * 12;
 const SITE_STATE_PATH = "data/site-state.json";
@@ -87,15 +88,29 @@ const normalizeHours = (value) => {
   return Number.isFinite(numericValue) && numericValue > 0 ? numericValue : DEFAULT_AUTO_RESET_HOURS;
 };
 
+const normalizeNoSubtitles = (value) => {
+  if (!Array.isArray(value)) {
+    return [...DEFAULT_NO_SUBTITLES];
+  }
+
+  const subtitles = value
+    .map((entry) => (typeof entry === "string" ? entry.trim() : ""))
+    .filter(Boolean);
+
+  return subtitles.length > 0 ? subtitles : [...DEFAULT_NO_SUBTITLES];
+};
+
 const normalizeStoredState = (value) => {
   const currentState = normalizeState(value?.currentState);
   const autoResetHours = normalizeHours(value?.autoResetHours);
+  const noSubtitles = normalizeNoSubtitles(value?.noSubtitles);
   const resetAt = Number.isFinite(value?.resetAt) ? value.resetAt : null;
   const updatedAt = Number.isFinite(value?.updatedAt) ? value.updatedAt : null;
 
   return {
     currentState,
     autoResetHours,
+    noSubtitles,
     resetAt: currentState === "yes" ? resetAt : null,
     updatedAt,
   };
@@ -205,6 +220,7 @@ export const readSiteState = async () => {
     currentState: isExpired ? "no" : storedState.currentState,
     storedState: storedState.currentState,
     autoResetHours: storedState.autoResetHours,
+    noSubtitles: storedState.noSubtitles,
     resetAt: isExpired ? null : storedState.resetAt,
     sha: githubPayload?.sha || null,
     updatedAt: storedState.updatedAt,
@@ -239,6 +255,7 @@ export const buildNextState = async (updates) => {
   const next = {
     currentState: normalizeState(updates.state ?? current.currentState),
     autoResetHours: normalizeHours(updates.autoResetHours ?? current.autoResetHours),
+    noSubtitles: normalizeNoSubtitles(updates.noSubtitles ?? current.noSubtitles),
     resetAt: current.resetAt,
     updatedAt: Date.now(),
   };
@@ -287,3 +304,4 @@ export const isAuthorizedRequest = (request) => {
 export const getAdminPassword = () => process.env.SITE_ADMIN_PASSWORD || "";
 
 export const getDefaultAutoResetHours = () => DEFAULT_AUTO_RESET_HOURS;
+export const getDefaultNoSubtitles = () => [...DEFAULT_NO_SUBTITLES];

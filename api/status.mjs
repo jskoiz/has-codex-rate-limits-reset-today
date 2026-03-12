@@ -1,4 +1,4 @@
-import { getDefaultAutoResetHours, jsonResponse, readSiteState } from "./_lib/site-state.mjs";
+import { getDefaultAutoResetHours, getDefaultNoSubtitles, jsonResponse, readSiteState } from "./_lib/site-state.mjs";
 
 export async function GET() {
   try {
@@ -7,6 +7,7 @@ export async function GET() {
     return jsonResponse({
       autoResetHours: state.autoResetHours || getDefaultAutoResetHours(),
       configured: state.configured,
+      noSubtitles: state.noSubtitles || getDefaultNoSubtitles(),
       resetAt: state.resetAt,
       state: state.currentState,
       updatedAt: state.updatedAt,
@@ -17,6 +18,7 @@ export async function GET() {
         autoResetHours: getDefaultAutoResetHours(),
         configured: false,
         error: error instanceof Error ? error.message : "Unknown status error",
+        noSubtitles: getDefaultNoSubtitles(),
         resetAt: null,
         state: "no",
         updatedAt: null,
