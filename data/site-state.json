@@ -1,7 +1,13 @@
 {
   "auth": {
     "loginFailures": [],
-    "sessions": []
+    "sessions": [
+      {
+        "createdAt": 1773351418400,
+        "exp": 1773394618400,
+        "id": "d7a30e954878bc073e36bbcf4b91f346f078"
+      }
+    ]
   },
   "automation": {
     "lastDecision": null,
