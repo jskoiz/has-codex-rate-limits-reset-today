@@ -89,6 +89,14 @@ const formatAutomationVerdictShort = (value) => {
 
 const formatTokenCount = (value) => new Intl.NumberFormat().format(Number.isFinite(value) ? value : 0);
 
+const buildTweetUrl = (tweetId) => {
+  if (!tweetId) {
+    return null;
+  }
+
+  return `https://x.com/thsottiaux/status/${tweetId}`;
+};
+
 const setLinkState = (element, href, text, fallbackText) => {
   if (!element) {
     return;
@@ -257,7 +265,7 @@ const renderAutomation = (automation = {}) => {
 
   setLinkState(
     automationLastSeenValue,
-    automation.lastSeenTweetUrl,
+    automation.lastSeenTweetUrl || buildTweetUrl(automation.lastSeenTweetId),
     "Open tweet on X",
     automation.lastSeenTweetId ? "Link unavailable" : "Not set",
   );
