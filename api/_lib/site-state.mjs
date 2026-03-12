@@ -331,11 +331,6 @@ const getGithubConfig = () => {
   };
 };
 
-const getRawGithubUrl = () => {
-  const github = getGithubConfig();
-  return `https://raw.githubusercontent.com/${github.owner}/${github.repo}/${github.branch}/${SITE_STATE_PATH}?ts=${Date.now()}`;
-};
-
 const isGithubConfigured = () => {
   const github = getGithubConfig();
   return Boolean(github.token && github.owner && github.repo && github.branch);
@@ -367,14 +362,10 @@ const readFromGithub = async () => {
     return null;
   }
 
-  const response = await fetch(getRawGithubUrl(), {
-    cache: "no-store",
-    headers: {
-      Accept: "application/json",
-      Authorization: `Bearer ${getGithubConfig().token}`,
-      "User-Agent": "codex-limit-site",
-    },
-  });
+  const github = getGithubConfig();
+  const response = await githubRequest(
+    `/repos/${github.owner}/${github.repo}/contents/${SITE_STATE_PATH}?ref=${encodeURIComponent(github.branch)}`,
+  );
 
   if (response.status === 404) {
     return null;
@@ -384,9 +375,19 @@ const readFromGithub = async () => {
     throw new Error(`GitHub raw read failed with ${response.status}`);
   }
 
+  const payload = await response.json();
+  const encodedContent = typeof payload?.content === "string" ? payload.content.replace(/\n/g, "") : "";
+
+  if (!encodedContent) {
+    return {
+      sha: payload?.sha || null,
+      value: null,
+    };
+  }
+
   return {
-    sha: null,
-    value: await response.json(),
+    sha: payload?.sha || null,
+    value: JSON.parse(Buffer.from(encodedContent, "base64").toString("utf8")),
   };
 };
 
