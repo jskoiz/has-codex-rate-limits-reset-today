@@ -117,7 +117,7 @@ const getGithubConfig = () => {
 
 const getRawGithubUrl = () => {
   const github = getGithubConfig();
-  return `https://raw.githubusercontent.com/${github.owner}/${github.repo}/${github.branch}/${SITE_STATE_PATH}`;
+  return `https://raw.githubusercontent.com/${github.owner}/${github.repo}/${github.branch}/${SITE_STATE_PATH}?ts=${Date.now()}`;
 };
 
 const isGithubConfigured = () => {
@@ -152,6 +152,7 @@ const readFromGithub = async () => {
   }
 
   const response = await fetch(getRawGithubUrl(), {
+    cache: "no-store",
     headers: {
       Accept: "application/json",
       Authorization: `Bearer ${getGithubConfig().token}`,
