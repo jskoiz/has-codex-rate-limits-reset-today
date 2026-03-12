@@ -190,7 +190,11 @@ const normalizeAutomationLogEntry = (value) => {
   return {
     confidence: normalizeConfidence(value?.confidence),
     evaluatedAt: value.evaluatedAt,
+    inputTokens: Number.isFinite(value?.inputTokens) ? value.inputTokens : 0,
+    outputTokens: Number.isFinite(value?.outputTokens) ? value.outputTokens : 0,
     rationale: typeof value?.rationale === "string" ? value.rationale.trim() : "",
+    reasoningTokens: Number.isFinite(value?.reasoningTokens) ? value.reasoningTokens : 0,
+    totalTokens: Number.isFinite(value?.totalTokens) ? value.totalTokens : 0,
     tweetId,
     tweetText,
     tweetUrl,
@@ -204,6 +208,12 @@ export const getDefaultAutomationState = () => ({
   lastSeenTweetId: null,
   pendingReview: null,
   recentEvaluations: [],
+  tokenUsage: {
+    totalInputTokens: 0,
+    totalOutputTokens: 0,
+    totalReasoningTokens: 0,
+    totalTokens: 0,
+  },
 });
 
 const normalizeAutomationState = (value) => {
@@ -223,6 +233,13 @@ const normalizeAutomationState = (value) => {
           .sort((left, right) => right.evaluatedAt - left.evaluatedAt)
           .slice(0, MAX_AUTOMATION_LOG_ENTRIES)
       : [],
+    tokenUsage: {
+      totalInputTokens: Number.isFinite(value?.tokenUsage?.totalInputTokens) ? value.tokenUsage.totalInputTokens : 0,
+      totalOutputTokens: Number.isFinite(value?.tokenUsage?.totalOutputTokens) ? value.tokenUsage.totalOutputTokens : 0,
+      totalReasoningTokens:
+        Number.isFinite(value?.tokenUsage?.totalReasoningTokens) ? value.tokenUsage.totalReasoningTokens : 0,
+      totalTokens: Number.isFinite(value?.tokenUsage?.totalTokens) ? value.tokenUsage.totalTokens : 0,
+    },
   };
 };
 

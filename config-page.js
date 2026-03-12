@@ -22,6 +22,10 @@ const automationLastSeenValue = document.querySelector("#automationLastSeenValue
 const automationDecisionValue = document.querySelector("#automationDecisionValue");
 const automationPendingValue = document.querySelector("#automationPendingValue");
 const automationErrorValue = document.querySelector("#automationErrorValue");
+const automationInputTokensValue = document.querySelector("#automationInputTokensValue");
+const automationOutputTokensValue = document.querySelector("#automationOutputTokensValue");
+const automationReasoningTokensValue = document.querySelector("#automationReasoningTokensValue");
+const automationTotalTokensValue = document.querySelector("#automationTotalTokensValue");
 const automationStatusNote = document.querySelector("#automationStatusNote");
 const automationLog = document.querySelector("#automationLog");
 let currentNoSubtitles = [];
@@ -64,6 +68,8 @@ const formatAutomationVerdict = (value) => {
   return "Review";
 };
 
+const formatTokenCount = (value) => new Intl.NumberFormat().format(Number.isFinite(value) ? value : 0);
+
 const renderAutomation = (automation = {}) => {
   if (!automationLastSeenValue) {
     return;
@@ -87,6 +93,10 @@ const renderAutomation = (automation = {}) => {
   }
 
   automationErrorValue.textContent = automation.lastError || "None";
+  automationInputTokensValue.textContent = formatTokenCount(automation.tokenUsage?.totalInputTokens || 0);
+  automationOutputTokensValue.textContent = formatTokenCount(automation.tokenUsage?.totalOutputTokens || 0);
+  automationReasoningTokensValue.textContent = formatTokenCount(automation.tokenUsage?.totalReasoningTokens || 0);
+  automationTotalTokensValue.textContent = formatTokenCount(automation.tokenUsage?.totalTokens || 0);
 
   if (!automationLog) {
     return;
@@ -121,6 +131,10 @@ const renderAutomation = (automation = {}) => {
       reason.className = "config-log-reason";
       reason.textContent = entry.rationale || "No rationale recorded.";
 
+      const usage = document.createElement("p");
+      usage.className = "config-log-usage";
+      usage.textContent = `${formatAutomationVerdict(entry.verdict)} · ${formatTokenCount(entry.totalTokens || 0)} tokens`;
+
       const tweetLink = document.createElement("a");
       tweetLink.className = "config-log-link";
       tweetLink.href = entry.tweetUrl;
@@ -128,7 +142,7 @@ const renderAutomation = (automation = {}) => {
       tweetLink.rel = "noreferrer";
       tweetLink.textContent = truncateText(entry.tweetText, 140);
 
-      item.append(header, reason, tweetLink);
+      item.append(header, reason, usage, tweetLink);
       return item;
     }),
   );
