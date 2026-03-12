@@ -163,6 +163,23 @@ const createPendingReview = (tweet, classification) => ({
   tweetUrl: tweet.url,
 });
 
+const createAutomationLogEntry = (tweet, classification) => ({
+  confidence: classification.confidence,
+  evaluatedAt: Date.now(),
+  rationale: classification.rationale,
+  tweetId: tweet.id,
+  tweetText: tweet.fullText,
+  tweetUrl: tweet.url,
+  verdict: classification.verdict,
+});
+
+const appendAutomationLog = (automationState, tweet, classification) => {
+  const nextEntry = createAutomationLogEntry(tweet, classification);
+  const previousEntries = Array.isArray(automationState?.recentEvaluations) ? automationState.recentEvaluations : [];
+
+  return [nextEntry, ...previousEntries.filter((entry) => entry?.tweetId !== tweet.id)].slice(0, 20);
+};
+
 const clearAutomationError = async () => {
   const current = await readSiteState();
 
@@ -315,6 +332,7 @@ const markTweetAsNotReset = async (tweet, classification) =>
       lastDecision: createDecisionRecord(tweet, classification),
       lastError: null,
       lastSeenTweetId: tweet.id,
+      recentEvaluations: appendAutomationLog(state.automation, tweet, classification),
     },
   }));
 
@@ -327,6 +345,7 @@ const markTweetForManualReview = async (tweet, classification) =>
       lastError: null,
       lastSeenTweetId: tweet.id,
       pendingReview: createPendingReview(tweet, classification),
+      recentEvaluations: appendAutomationLog(state.automation, tweet, classification),
     },
   }));
 
@@ -343,6 +362,7 @@ const markTweetAsResetConfirmed = async (tweet, classification) =>
         lastError: null,
         lastSeenTweetId: tweet.id,
         pendingReview: null,
+        recentEvaluations: appendAutomationLog(state.automation, tweet, classification),
       },
     };
   });
