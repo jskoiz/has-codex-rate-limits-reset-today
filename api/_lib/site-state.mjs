@@ -306,8 +306,30 @@ export const writeSiteState = async (nextState) => {
   }
 };
 
-export const buildNextState = async (updates) => {
+export const updateSiteState = async (buildNextState) => {
   const current = await readSiteState();
+  const nextState = await buildNextState(current);
+
+  if (!nextState) {
+    return current;
+  }
+
+  const normalizedState = normalizeStoredState(nextState);
+
+  await writeSiteState({
+    ...normalizedState,
+    sha: current.sha,
+  });
+
+  return {
+    ...normalizedState,
+    configured: current.configured,
+    sha: current.sha,
+  };
+};
+
+export const buildNextState = async (updates, currentState = null) => {
+  const current = currentState || (await readSiteState());
   const next = {
     auth: current.auth,
     currentState: normalizeState(updates.state ?? current.currentState),
