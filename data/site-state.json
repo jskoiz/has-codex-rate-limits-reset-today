@@ -1,15 +1,12 @@
 {
   "auth": {
-    "loginFailures": [
-      {
-        "count": 1,
-        "firstFailedAt": 1773352722351,
-        "key": "e340ef48ecaa8f9c24640b15fcec035c46b3427cb3fcd484ad414e238232db87",
-        "lastFailedAt": 1773352722351,
-        "lockedUntil": null
-      }
-    ],
+    "loginFailures": [],
     "sessions": [
+      {
+        "createdAt": 1773352727692,
+        "exp": 1773395927692,
+        "id": "afc1e93e4068aae4668856d17b5de79dae27"
+      },
       {
         "createdAt": 1773352081765,
         "exp": 1773395281765,
