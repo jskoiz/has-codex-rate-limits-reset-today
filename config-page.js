@@ -1,4 +1,4 @@
-import { fetchAdminConfig, loginAdmin, logoutAdmin, updateAdminConfig } from "./site-api.js";
+import { fetchAdminConfig, loginAdmin, logoutAdmin, runAutomationMonitor, updateAdminConfig } from "./site-api.js";
 
 const DEFAULT_NO_SUBTITLE = "Limits have not reset yet.";
 
@@ -17,8 +17,64 @@ const logoutButton = document.querySelector("#logoutButton");
 const subtitleList = document.querySelector("#subtitleList");
 const addSubtitleButton = document.querySelector("#addSubtitleButton");
 const saveSubtitlesButton = document.querySelector("#saveSubtitlesButton");
+const runAutomationButton = document.querySelector("#runAutomationButton");
+const automationLastSeenValue = document.querySelector("#automationLastSeenValue");
+const automationDecisionValue = document.querySelector("#automationDecisionValue");
+const automationPendingValue = document.querySelector("#automationPendingValue");
+const automationErrorValue = document.querySelector("#automationErrorValue");
+const automationStatusNote = document.querySelector("#automationStatusNote");
 let currentNoSubtitles = [];
 let noticeTimeoutId = null;
+
+const formatDateTime = (value) => {
+  if (!value) {
+    return "Not set";
+  }
+
+  const timestamp = typeof value === "number" ? value : Date.parse(value);
+
+  if (!Number.isFinite(timestamp)) {
+    return "Not set";
+  }
+
+  return new Intl.DateTimeFormat(undefined, {
+    dateStyle: "medium",
+    timeStyle: "short",
+  }).format(timestamp);
+};
+
+const truncateText = (value, maxLength = 120) => {
+  if (!value) {
+    return "";
+  }
+
+  return value.length > maxLength ? `${value.slice(0, maxLength - 1)}…` : value;
+};
+
+const renderAutomation = (automation = {}) => {
+  if (!automationLastSeenValue) {
+    return;
+  }
+
+  automationLastSeenValue.textContent = automation.lastSeenTweetId || "Not set";
+
+  if (automation.lastDecision?.verdict) {
+    const verdict = automation.lastDecision.verdict.replaceAll("_", " ");
+    const decidedAt = formatDateTime(automation.lastDecision.decidedAt);
+    automationDecisionValue.textContent = `${verdict} at ${decidedAt}`;
+  } else {
+    automationDecisionValue.textContent = "None yet";
+  }
+
+  if (automation.pendingReview?.tweetId) {
+    const createdAt = formatDateTime(automation.pendingReview.createdAt);
+    automationPendingValue.textContent = `${createdAt} · ${truncateText(automation.pendingReview.tweetText, 72)}`;
+  } else {
+    automationPendingValue.textContent = "None";
+  }
+
+  automationErrorValue.textContent = automation.lastError || "None";
+};
 
 const formatResetTime = (timestamp) => {
   if (!timestamp) {
@@ -122,6 +178,7 @@ const renderConfig = (config) => {
   hoursInput.value = String(config.autoResetHours);
   timerValue.textContent = config.state === "yes" ? formatResetTime(config.resetAt) : "State is No";
   currentNoSubtitles = Array.isArray(config.noSubtitles) ? [...config.noSubtitles] : [];
+  renderAutomation(config.automation);
 
   stateButtons.forEach((button) => {
     const isActive = button.dataset.nextState === config.state;
@@ -261,6 +318,23 @@ logoutButton?.addEventListener("click", async () => {
   await runConfigAction(async () => {
     await logoutAdmin();
     showAuth();
+  });
+});
+
+runAutomationButton?.addEventListener("click", async () => {
+  await runConfigAction(async () => {
+    runAutomationButton.disabled = true;
+    automationStatusNote.textContent = "Running monitor now...";
+
+    try {
+      const result = await runAutomationMonitor();
+      await refreshConfig();
+
+      const outcome = result?.outcome ? result.outcome.replaceAll("_", " ") : "completed";
+      automationStatusNote.textContent = `Last manual run: ${outcome}`;
+    } finally {
+      runAutomationButton.disabled = false;
+    }
   });
 });
 

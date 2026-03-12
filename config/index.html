@@ -66,6 +66,32 @@
             </div>
           </div>
 
+          <section class="config-field" aria-label="Automation status">
+            <div class="config-subtitle-header">
+              <span class="config-label">Automation monitor</span>
+              <button class="config-save config-inline-action" id="runAutomationButton" type="button">Run now</button>
+            </div>
+            <div class="config-automation-grid">
+              <div>
+                <span class="config-label">Last seen tweet</span>
+                <strong class="config-value config-value-compact" id="automationLastSeenValue">Not set</strong>
+              </div>
+              <div>
+                <span class="config-label">Last decision</span>
+                <strong class="config-value config-value-compact" id="automationDecisionValue">None yet</strong>
+              </div>
+              <div>
+                <span class="config-label">Pending review</span>
+                <strong class="config-value config-value-compact" id="automationPendingValue">None</strong>
+              </div>
+              <div>
+                <span class="config-label">Last error</span>
+                <strong class="config-value config-value-compact" id="automationErrorValue">None</strong>
+              </div>
+            </div>
+            <p class="config-note" id="automationStatusNote">Polls every 5 minutes via GitHub Actions.</p>
+          </section>
+
           <label class="config-field" for="autoResetHours">
             <span class="config-label">Hours before Yes switches back to No</span>
             <div class="config-input-row">

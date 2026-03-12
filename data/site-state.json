@@ -8,6 +8,12 @@
   "noSubtitles": [
     "Back to your local model peasant"
   ],
+  "automation": {
+    "lastSeenTweetId": null,
+    "lastDecision": null,
+    "pendingReview": null,
+    "lastError": null
+  },
   "resetAt": null,
   "updatedAt": 1773348349945
 }

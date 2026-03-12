@@ -8,6 +8,7 @@ const LOGIN_FAILURE_WINDOW_MS = 15 * 60 * 1000;
 const LOGIN_LOCKOUT_MS = 30 * 60 * 1000;
 const MAX_LOGIN_ATTEMPTS = 5;
 const MAX_TRACKED_LOGIN_FAILURES = 128;
+const MAX_ACTIVE_SESSIONS = 32;
 const MAX_GITHUB_WRITE_ATTEMPTS = 3;
 const SITE_STATE_PATH = "data/site-state.json";
 
@@ -115,8 +116,99 @@ const normalizeNoSubtitles = (value) => {
   return subtitles.length > 0 ? subtitles : [...DEFAULT_NO_SUBTITLES];
 };
 
+const normalizeConfidence = (value) => {
+  const numericValue = Number(value);
+
+  if (!Number.isFinite(numericValue)) {
+    return null;
+  }
+
+  return Math.max(0, Math.min(1, numericValue));
+};
+
+const normalizeAutomationDecision = (value) => {
+  if (!value || typeof value !== "object") {
+    return null;
+  }
+
+  const verdict = ["reset_confirmed", "not_reset", "uncertain"].includes(value?.verdict) ? value.verdict : null;
+  const tweetId = typeof value?.tweetId === "string" ? value.tweetId : null;
+  const tweetUrl = typeof value?.tweetUrl === "string" ? value.tweetUrl : null;
+
+  if (!verdict || !tweetId || !tweetUrl) {
+    return null;
+  }
+
+  return {
+    confidence: normalizeConfidence(value?.confidence),
+    decidedAt: Number.isFinite(value?.decidedAt) ? value.decidedAt : null,
+    rationale: typeof value?.rationale === "string" ? value.rationale.trim() : "",
+    tweetId,
+    tweetUrl,
+    verdict,
+  };
+};
+
+const normalizePendingReview = (value) => {
+  if (!value || typeof value !== "object") {
+    return null;
+  }
+
+  const tweetId = typeof value?.tweetId === "string" ? value.tweetId : null;
+  const tweetText = typeof value?.tweetText === "string" ? value.tweetText.trim() : "";
+  const tweetUrl = typeof value?.tweetUrl === "string" ? value.tweetUrl : null;
+
+  if (!tweetId || !tweetText || !tweetUrl || !Number.isFinite(value?.createdAt)) {
+    return null;
+  }
+
+  return {
+    confidence: normalizeConfidence(value?.confidence),
+    createdAt: value.createdAt,
+    rationale: typeof value?.rationale === "string" ? value.rationale.trim() : "",
+    tweetId,
+    tweetText,
+    tweetUrl,
+  };
+};
+
+export const getDefaultAutomationState = () => ({
+  lastDecision: null,
+  lastError: null,
+  lastSeenTweetId: null,
+  pendingReview: null,
+});
+
+const normalizeAutomationState = (value) => {
+  const defaults = getDefaultAutomationState();
+  const lastError = typeof value?.lastError === "string" ? value.lastError.trim() : "";
+
+  return {
+    ...defaults,
+    lastDecision: normalizeAutomationDecision(value?.lastDecision),
+    lastError: lastError || null,
+    lastSeenTweetId: typeof value?.lastSeenTweetId === "string" ? value.lastSeenTweetId : null,
+    pendingReview: normalizePendingReview(value?.pendingReview),
+  };
+};
+
 const normalizeAuthState = (value, now = Date.now()) => {
+  const sessionMap = new Map();
   const loginFailureMap = new Map();
+
+  if (Array.isArray(value?.sessions)) {
+    value.sessions.forEach((entry) => {
+      if (typeof entry?.id !== "string" || !Number.isFinite(entry?.exp) || entry.exp <= now) {
+        return;
+      }
+
+      sessionMap.set(entry.id, {
+        createdAt: Number.isFinite(entry?.createdAt) ? entry.createdAt : now,
+        exp: entry.exp,
+        id: entry.id,
+      });
+    });
+  }
 
   if (Array.isArray(value?.loginFailures)) {
     value.loginFailures.forEach((entry) => {
@@ -148,7 +240,9 @@ const normalizeAuthState = (value, now = Date.now()) => {
     loginFailures: Array.from(loginFailureMap.values())
       .sort((left, right) => right.lastFailedAt - left.lastFailedAt)
       .slice(0, MAX_TRACKED_LOGIN_FAILURES),
-    sessions: [],
+    sessions: Array.from(sessionMap.values())
+      .sort((left, right) => right.createdAt - left.createdAt)
+      .slice(0, MAX_ACTIVE_SESSIONS),
   };
 };
 
@@ -159,9 +253,11 @@ const normalizeStoredState = (value) => {
   const resetAt = Number.isFinite(value?.resetAt) ? value.resetAt : null;
   const updatedAt = Number.isFinite(value?.updatedAt) ? value.updatedAt : null;
   const auth = normalizeAuthState(value?.auth);
+  const automation = normalizeAutomationState(value?.automation);
 
   return {
     auth,
+    automation,
     currentState,
     autoResetHours,
     noSubtitles,
@@ -272,58 +368,57 @@ const readStoredSiteState = async () => {
   };
 };
 
-export const readSiteState = async () => {
-  const storedState = await readStoredSiteState();
+const withAppliedExpiration = (state) => {
   const now = Date.now();
-  const isExpired = storedState.currentState === "yes" && storedState.resetAt && now >= storedState.resetAt;
+  const isExpired = state.currentState === "yes" && state.resetAt && now >= state.resetAt;
 
   return {
-    ...storedState,
-    currentState: isExpired ? "no" : storedState.currentState,
-    resetAt: isExpired ? null : storedState.resetAt,
+    ...state,
+    currentState: isExpired ? "no" : state.currentState,
+    resetAt: isExpired ? null : state.resetAt,
   };
+};
+
+export const readSiteState = async () => {
+  return withAppliedExpiration(await readStoredSiteState());
+};
+
+const createGithubWriteError = (status, errorText) => {
+  const error = new Error(`GitHub write failed with ${status}: ${errorText}`);
+  error.isConflict = status === 409 || status === 422;
+  error.status = status;
+  return error;
 };
 
 export const writeSiteState = async (nextState) => {
   const github = getGithubConfig();
   const normalizedState = normalizeStoredState(nextState);
-  let currentSha = typeof nextState?.sha === "string" ? nextState.sha : (await readGithubContentMeta()).sha;
+  const currentSha = typeof nextState?.sha === "string" ? nextState.sha : (await readGithubContentMeta()).sha;
+  const response = await githubRequest(`/repos/${github.owner}/${github.repo}/contents/${SITE_STATE_PATH}`, {
+    method: "PUT",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
+      branch: github.branch,
+      content: Buffer.from(JSON.stringify(normalizedState, null, 2) + "\n").toString("base64"),
+      message: `Update site state to ${normalizedState.currentState}`,
+      sha: currentSha || undefined,
+    }),
+  });
 
-  for (let attempt = 0; attempt < MAX_GITHUB_WRITE_ATTEMPTS; attempt += 1) {
-    const response = await githubRequest(`/repos/${github.owner}/${github.repo}/contents/${SITE_STATE_PATH}`, {
-      method: "PUT",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        branch: github.branch,
-        content: Buffer.from(JSON.stringify(normalizedState, null, 2) + "\n").toString("base64"),
-        message: `Update site state to ${normalizedState.currentState}`,
-        sha: currentSha || undefined,
-      }),
-    });
-
-    if (response.ok) {
-      return;
-    }
-
+  if (!response.ok) {
     const errorText = await response.text();
-    const isConflict = response.status === 409 || response.status === 422;
-
-    if (!isConflict || attempt === MAX_GITHUB_WRITE_ATTEMPTS - 1) {
-      throw new Error(`GitHub write failed with ${response.status}: ${errorText}`);
-    }
-
-    currentSha = (await readGithubContentMeta()).sha;
+    throw createGithubWriteError(response.status, errorText);
   }
 };
 
-export const updateSiteState = async (buildNextState) => {
+export const updateSiteState = async (transform) => {
   let lastError = null;
 
   for (let attempt = 0; attempt < MAX_GITHUB_WRITE_ATTEMPTS; attempt += 1) {
     const current = await readSiteState();
-    const nextState = await buildNextState(current);
+    const nextState = await transform(current);
 
     if (!nextState) {
       return current;
@@ -338,14 +433,16 @@ export const updateSiteState = async (buildNextState) => {
       });
 
       return {
-        ...normalizedState,
-        configured: current.configured,
-        sha: current.sha,
+        ...withAppliedExpiration({
+          ...normalizedState,
+          configured: current.configured,
+          sha: current.sha,
+        }),
       };
     } catch (error) {
       lastError = error;
 
-      if (attempt === MAX_GITHUB_WRITE_ATTEMPTS - 1) {
+      if (!error?.isConflict || attempt === MAX_GITHUB_WRITE_ATTEMPTS - 1) {
         throw error;
       }
     }
@@ -358,6 +455,7 @@ export const buildNextState = async (updates, currentState = null) => {
   const current = currentState || (await readSiteState());
   const next = {
     auth: current.auth,
+    automation: current.automation,
     currentState: normalizeState(updates.state ?? current.currentState),
     autoResetHours: normalizeHours(updates.autoResetHours ?? current.autoResetHours),
     noSubtitles: normalizeNoSubtitles(updates.noSubtitles ?? current.noSubtitles),
@@ -448,17 +546,20 @@ export const getLoginThrottle = async (request) => {
 };
 
 export const recordFailedLogin = async (request) => {
-  const current = await readStoredSiteState();
   const now = Date.now();
   const key = getLoginAttemptKey(request);
-  const nextAuth = normalizeAuthState({
-    loginFailures: buildNextLoginFailureState(current.auth.loginFailures, key, now),
-    sessions: current.auth.sessions,
-  }, now);
+  let nextAuth = null;
 
-  await writeSiteState({
-    ...current,
-    auth: nextAuth,
+  await updateSiteState((current) => {
+    nextAuth = normalizeAuthState({
+      loginFailures: buildNextLoginFailureState(current.auth.loginFailures, key, now),
+      sessions: current.auth.sessions,
+    }, now);
+
+    return {
+      ...current,
+      auth: nextAuth,
+    };
   });
 
   const entry = nextAuth.loginFailures.find((failure) => failure.key === key);
@@ -481,7 +582,7 @@ export const issueAdminSession = async (request) => {
   await updateSiteState((current) => {
     const nextAuth = normalizeAuthState({
       loginFailures: current.auth.loginFailures.filter((entry) => entry.key !== loginAttemptKey),
-      sessions: [],
+      sessions: [...current.auth.sessions, session],
     }, now);
 
     return {
@@ -495,12 +596,44 @@ export const issueAdminSession = async (request) => {
 
 export const revokeAdminSession = async (request) => {
   const cookies = parseCookieHeader(request.headers.get("cookie"));
-  return Boolean(readSessionTokenPayload(cookies[ADMIN_COOKIE_NAME]));
+  const payload = readSessionTokenPayload(cookies[ADMIN_COOKIE_NAME]);
+
+  if (!payload) {
+    return false;
+  }
+
+  let revoked = false;
+
+  await updateSiteState((current) => {
+    const nextSessions = current.auth.sessions.filter((entry) => entry.id !== payload.sid);
+    revoked = nextSessions.length !== current.auth.sessions.length;
+
+    if (!revoked) {
+      return null;
+    }
+
+    return {
+      ...current,
+      auth: normalizeAuthState({
+        loginFailures: current.auth.loginFailures,
+        sessions: nextSessions,
+      }),
+    };
+  });
+
+  return revoked;
 };
 
 export const isAuthorizedRequest = async (request) => {
   const cookies = parseCookieHeader(request.headers.get("cookie"));
-  return Boolean(readSessionTokenPayload(cookies[ADMIN_COOKIE_NAME]));
+  const payload = readSessionTokenPayload(cookies[ADMIN_COOKIE_NAME]);
+
+  if (!payload) {
+    return false;
+  }
+
+  const current = await readStoredSiteState();
+  return current.auth.sessions.some((entry) => entry.id === payload.sid && entry.exp === payload.exp);
 };
 
 export const getAdminPassword = () => process.env.SITE_ADMIN_PASSWORD || "";
