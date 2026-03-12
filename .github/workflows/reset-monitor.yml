@@ -15,4 +15,5 @@ jobs:
         run: |
           curl --fail-with-body --silent --show-error \
             -H "Authorization: Bearer ${CRON_SECRET}" \
+            -X POST \
             "https://hascodexratelimitreset.today/api/automation/poll"

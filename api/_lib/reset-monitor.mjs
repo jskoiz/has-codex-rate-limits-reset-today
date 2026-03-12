@@ -44,13 +44,14 @@ Keep the rationale brief and concrete.
 
 const getBaseUrl = () => (process.env.SITE_BASE_URL || "").replace(/\/+$/, "");
 
-const getReviewEmail = () => process.env.AI_REVIEW_EMAIL || "jskoizumI@gmail.com";
+const getReviewEmail = () => (process.env.AI_REVIEW_EMAIL || "").trim();
 
 const getRequiredConfigError = () => {
   const missing = [
     ["OPENAI_API_KEY", process.env.OPENAI_API_KEY],
     ["RESEND_API_KEY", process.env.RESEND_API_KEY],
     ["RESEND_FROM_EMAIL", process.env.RESEND_FROM_EMAIL],
+    ["AI_REVIEW_EMAIL", getReviewEmail()],
     ["SITE_BASE_URL", getBaseUrl()],
   ]
     .filter(([, value]) => !value)
@@ -356,21 +357,31 @@ export const isAuthorizedAutomationRequest = (request) => {
   return request.headers.get("authorization") === `Bearer ${secret}`;
 };
 
-export const runResetMonitor = async () => {
+export const runResetMonitor = async (deps = {}) => {
   const configError = getRequiredConfigError();
+  const readState = deps.readSiteState || readSiteState;
+  const fetchTweets = deps.fetchLatestTimelineTweets || fetchLatestTimelineTweets;
+  const classify = deps.classifyTweet || classifyTweet;
+  const sendEmail = deps.sendReviewEmail || sendReviewEmail;
+  const clearError = deps.clearAutomationError || clearAutomationError;
+  const recordError = deps.recordAutomationError || recordAutomationError;
+  const seedWatermark = deps.seedTimelineWatermark || seedTimelineWatermark;
+  const markNotReset = deps.markTweetAsNotReset || markTweetAsNotReset;
+  const markReview = deps.markTweetForManualReview || markTweetForManualReview;
+  const markResetConfirmed = deps.markTweetAsResetConfirmed || markTweetAsResetConfirmed;
 
   if (configError) {
     throw new Error(configError);
   }
 
   try {
-    const currentState = await readSiteState();
-    const timelineTweets = await fetchLatestTimelineTweets();
+    const currentState = await readState();
+    const timelineTweets = await fetchTweets();
     const authoredTweets = timelineTweets.filter(isAuthoredTimelineTweet);
     const newestTweet = getNewestTweet(authoredTweets);
 
     if (!newestTweet) {
-      await clearAutomationError();
+      await clearError();
 
       return {
         outcome: "no_tweets",
@@ -379,7 +390,7 @@ export const runResetMonitor = async () => {
     }
 
     if (!currentState.automation.lastSeenTweetId) {
-      await seedTimelineWatermark(newestTweet);
+      await seedWatermark(newestTweet);
 
       return {
         lastSeenTweetId: newestTweet.id,
@@ -391,7 +402,7 @@ export const runResetMonitor = async () => {
     const unseenTweets = getUnseenTweets(authoredTweets, currentState.automation.lastSeenTweetId);
 
     if (unseenTweets.length === 0) {
-      await clearAutomationError();
+      await clearError();
 
       return {
         outcome: "no_new_tweets",
@@ -402,16 +413,16 @@ export const runResetMonitor = async () => {
     let processedCount = 0;
 
     for (const tweet of unseenTweets) {
-      const classification = await classifyTweet(tweet);
+      const classification = await classify(tweet);
       processedCount += 1;
 
       if (classification.verdict === "not_reset") {
-        await markTweetAsNotReset(tweet, classification);
+        await markNotReset(tweet, classification);
         continue;
       }
 
       if (classification.verdict === "reset_confirmed") {
-        await markTweetAsResetConfirmed(tweet, classification);
+        await markResetConfirmed(tweet, classification);
 
         return {
           outcome: "reset_confirmed",
@@ -421,8 +432,8 @@ export const runResetMonitor = async () => {
         };
       }
 
-      await sendReviewEmail(tweet, classification);
-      await markTweetForManualReview(tweet, classification);
+      await sendEmail(tweet, classification);
+      await markReview(tweet, classification);
 
       return {
         outcome: "review_requested",
@@ -440,7 +451,7 @@ export const runResetMonitor = async () => {
     };
   } catch (error) {
     const message = error instanceof Error ? error.message : "Unknown reset monitor error";
-    await recordAutomationError(message);
+    await recordError(message);
     throw error;
   }
 };

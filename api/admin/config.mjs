@@ -52,6 +52,7 @@ export async function POST(request) {
 
     return jsonResponse({
       autoResetHours: nextState.autoResetHours,
+      automation: nextState.automation || getDefaultAutomationState(),
       noSubtitles: nextState.noSubtitles,
       ok: true,
       resetAt: nextState.resetAt,
