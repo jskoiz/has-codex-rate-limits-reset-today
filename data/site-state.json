@@ -11,6 +11,11 @@
     ],
     "sessions": [
       {
+        "createdAt": 1773351884130,
+        "exp": 1773395084130,
+        "id": "4c7a4d8e1ff73c2b466ec857e7fa1380dc38"
+      },
+      {
         "createdAt": 1773351883684,
         "exp": 1773395083684,
         "id": "50e6b4ea1ccad17eb20779ff95baa2a0b868"
