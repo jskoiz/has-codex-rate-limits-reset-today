@@ -12,6 +12,7 @@ I put the whole thing together in Codex as a small end-to-end project: UI, API r
 
 - Static frontend with plain HTML, CSS, and JavaScript
 - Vercel serverless functions for the API
+- GitHub Actions for the automated tweet monitor
 - GitHub as the backing store for the shared site state
 - Cookie-based admin auth for the config page
 
@@ -22,8 +23,11 @@ I put the whole thing together in Codex as a small end-to-end project: UI, API r
 - `/config` is the admin page for updating the state and timer
 - `/api/admin/session` handles login/logout
 - `/api/admin/config` reads and writes config after auth
+- `/api/admin/automation` manually runs the tweet monitor from the admin panel
+- `/api/automation/poll` checks new `@thsottiaux` tweets, classifies them with OpenAI, and can switch the public state to `yes`
 
 When the state is set to `yes`, the app also stores a reset time so it can automatically fall back to `no` after the configured number of hours.
+When the AI is uncertain about a new tweet, the app emails a review link to the configured address and leaves the public state unchanged.
 
 ## Deployment
 
@@ -39,8 +43,16 @@ The app is connected to a GitHub repository for persistent state. Deployment exp
 - `GITHUB_REPO_BRANCH`
 - `SITE_ADMIN_PASSWORD`
 - `SITE_SESSION_SECRET`
+- `OPENAI_API_KEY`
+- `OPENAI_REASONING_MODEL`
+- `RESEND_API_KEY`
+- `RESEND_FROM_EMAIL`
+- `AI_REVIEW_EMAIL`
+- `SITE_BASE_URL`
+- `CRON_SECRET`
 
 The tracked state lives in `data/site-state.json`.
+The included GitHub Actions workflow polls `/api/automation/poll` every 5 minutes.
 
 ## License
 
