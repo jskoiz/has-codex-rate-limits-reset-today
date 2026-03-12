@@ -6,7 +6,7 @@ import {
   jsonResponse,
   readJsonBody,
   readSiteState,
-  writeSiteState,
+  updateSiteState,
 } from "../_lib/site-state.mjs";
 
 const unauthorized = () => jsonResponse({ error: "Unauthorized" }, 401);
@@ -39,14 +39,14 @@ export async function POST(request) {
 
   try {
     const body = await readJsonBody(request);
-    const nextState = await buildNextState({
-      applyTimerToCurrentState: Boolean(body?.applyTimerToCurrentState),
-      autoResetHours: body?.autoResetHours,
-      noSubtitles: body?.noSubtitles,
-      state: body?.state,
-    });
-
-    await writeSiteState(nextState);
+    const nextState = await updateSiteState((current) =>
+      buildNextState({
+        applyTimerToCurrentState: Boolean(body?.applyTimerToCurrentState),
+        autoResetHours: body?.autoResetHours,
+        noSubtitles: body?.noSubtitles,
+        state: body?.state,
+      }, current),
+    );
 
     return jsonResponse({
       autoResetHours: nextState.autoResetHours,
