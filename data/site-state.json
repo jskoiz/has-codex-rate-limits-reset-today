@@ -3,6 +3,11 @@
     "loginFailures": [],
     "sessions": [
       {
+        "createdAt": 1773358678399,
+        "exp": 1773401878399,
+        "id": "6ac2fb7974b5554f5b1db190ff0125cfef91"
+      },
+      {
         "createdAt": 1773352727692,
         "exp": 1773395927692,
         "id": "afc1e93e4068aae4668856d17b5de79dae27"
@@ -33,6 +38,7 @@
     "lastDecision": null,
     "lastError": null,
     "lastSeenTweetId": "1991291685343760850",
+    "lastSeenTweetUrl": null,
     "pendingReview": null,
     "recentEvaluations": [],
     "tokenUsage": {
