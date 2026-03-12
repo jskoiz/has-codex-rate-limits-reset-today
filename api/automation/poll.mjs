@@ -1,7 +1,7 @@
 import { isAuthorizedAutomationRequest, runResetMonitor } from "../_lib/reset-monitor.mjs";
 import { jsonResponse } from "../_lib/site-state.mjs";
 
-export async function GET(request) {
+export async function POST(request) {
   if (!isAuthorizedAutomationRequest(request)) {
     return jsonResponse({ error: "Unauthorized" }, 401);
   }
