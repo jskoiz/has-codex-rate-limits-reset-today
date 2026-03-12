@@ -1,6 +1,7 @@
 import {
   buildNextState,
   getDefaultAutoResetHours,
+  getDefaultNoSubtitles,
   isAuthorizedRequest,
   jsonResponse,
   readJsonBody,
@@ -21,6 +22,7 @@ export async function GET(request) {
     return jsonResponse({
       autoResetHours: state.autoResetHours || getDefaultAutoResetHours(),
       configured: state.configured,
+      noSubtitles: state.noSubtitles || getDefaultNoSubtitles(),
       resetAt: state.resetAt,
       state: state.currentState,
       updatedAt: state.updatedAt,
@@ -40,6 +42,7 @@ export async function POST(request) {
     const nextState = await buildNextState({
       applyTimerToCurrentState: Boolean(body?.applyTimerToCurrentState),
       autoResetHours: body?.autoResetHours,
+      noSubtitles: body?.noSubtitles,
       state: body?.state,
     });
 
@@ -47,6 +50,7 @@ export async function POST(request) {
 
     return jsonResponse({
       autoResetHours: nextState.autoResetHours,
+      noSubtitles: nextState.noSubtitles,
       ok: true,
       resetAt: nextState.resetAt,
       state: nextState.currentState,

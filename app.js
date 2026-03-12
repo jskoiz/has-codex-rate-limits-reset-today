@@ -13,7 +13,16 @@ const heroMarkCanvas = document.querySelector("#heroMarkCanvas");
 const mediaQuery = window.matchMedia("(prefers-reduced-motion: reduce)");
 const mobileVideoQuery = window.matchMedia("(hover: none), (pointer: coarse), (max-width: 820px)");
 
-const applyState = ({ configured = true, state }) => {
+const pickRandomSubtitle = (subtitles) => {
+  if (!Array.isArray(subtitles) || subtitles.length === 0) {
+    return "Back to your local model peasant";
+  }
+
+  const index = Math.floor(Math.random() * subtitles.length);
+  return subtitles[index] || "Back to your local model peasant";
+};
+
+const applyState = ({ configured = true, noSubtitles = [], state }) => {
   const hasReset = state !== "no";
 
   shell.dataset.state = hasReset ? "yes" : "no";
@@ -24,7 +33,7 @@ const applyState = ({ configured = true, state }) => {
     return;
   }
 
-  subtitle.textContent = hasReset ? "Limits reset, go crazy" : "Back to your local model peasant";
+  subtitle.textContent = hasReset ? "Limits reset, go crazy" : pickRandomSubtitle(noSubtitles);
 };
 
 const applyUnavailableState = () => {

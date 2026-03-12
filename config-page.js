@@ -11,6 +11,10 @@ const statusValue = document.querySelector("#configStatusValue");
 const timerValue = document.querySelector("#configTimerValue");
 const saveButton = document.querySelector("#saveHoursButton");
 const logoutButton = document.querySelector("#logoutButton");
+const subtitleList = document.querySelector("#subtitleList");
+const addSubtitleButton = document.querySelector("#addSubtitleButton");
+const saveSubtitlesButton = document.querySelector("#saveSubtitlesButton");
+let currentNoSubtitles = [];
 
 const formatResetTime = (timestamp) => {
   if (!timestamp) {
@@ -69,12 +73,61 @@ const renderConfig = (config) => {
   statusValue.dataset.state = config.state;
   hoursInput.value = String(config.autoResetHours);
   timerValue.textContent = config.state === "yes" ? formatResetTime(config.resetAt) : "State is No";
+  currentNoSubtitles = Array.isArray(config.noSubtitles) ? [...config.noSubtitles] : [];
 
   stateButtons.forEach((button) => {
     const isActive = button.dataset.nextState === config.state;
     button.dataset.active = String(isActive);
     button.setAttribute("aria-pressed", String(isActive));
   });
+
+  renderSubtitleInputs();
+};
+
+const createSubtitleRow = (value, index) => {
+  const row = document.createElement("div");
+  row.className = "config-subtitle-row";
+
+  const input = document.createElement("input");
+  input.className = "config-subtitle-input";
+  input.type = "text";
+  input.value = value;
+  input.placeholder = "Back to your local model peasant";
+  input.setAttribute("aria-label", `No subtitle ${index + 1}`);
+  input.addEventListener("input", (event) => {
+    currentNoSubtitles[index] = event.target.value;
+  });
+
+  const removeButton = document.createElement("button");
+  removeButton.className = "config-icon-button";
+  removeButton.type = "button";
+  removeButton.textContent = "−";
+  removeButton.setAttribute("aria-label", `Remove subtitle ${index + 1}`);
+  removeButton.disabled = currentNoSubtitles.length <= 1;
+  removeButton.addEventListener("click", () => {
+    currentNoSubtitles.splice(index, 1);
+    renderSubtitleInputs();
+  });
+
+  row.append(input, removeButton);
+  return row;
+};
+
+const renderSubtitleInputs = () => {
+  if (!subtitleList) {
+    return;
+  }
+
+  const normalizedSubtitles = currentNoSubtitles
+    .map((value) => (typeof value === "string" ? value : ""))
+    .filter((value, index, array) => index < array.length);
+
+  if (normalizedSubtitles.length === 0) {
+    normalizedSubtitles.push("Back to your local model peasant");
+  }
+
+  currentNoSubtitles = normalizedSubtitles;
+  subtitleList.replaceChildren(...currentNoSubtitles.map((value, index) => createSubtitleRow(value, index)));
 };
 
 const refreshConfig = async () => {
@@ -117,6 +170,20 @@ saveButton?.addEventListener("click", async () => {
     const config = await updateAdminConfig({
       applyTimerToCurrentState: true,
       autoResetHours: hoursInput.value,
+    });
+    renderConfig(config);
+  });
+});
+
+addSubtitleButton?.addEventListener("click", () => {
+  currentNoSubtitles.push("");
+  renderSubtitleInputs();
+});
+
+saveSubtitlesButton?.addEventListener("click", async () => {
+  await runConfigAction(async () => {
+    const config = await updateAdminConfig({
+      noSubtitles: currentNoSubtitles,
     });
     renderConfig(config);
   });

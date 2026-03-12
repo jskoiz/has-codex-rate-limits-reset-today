@@ -421,6 +421,63 @@ p {
   color: #b03d1f;
 }
 
+.config-subtitle-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.config-subtitle-list {
+  display: grid;
+  gap: 0.8rem;
+  margin-top: 0.8rem;
+}
+
+.config-subtitle-row {
+  display: flex;
+  gap: 0.7rem;
+  align-items: center;
+}
+
+.config-subtitle-input {
+  flex: 1;
+  min-width: 0;
+  padding: 0.88rem 1rem;
+  border: 1px solid rgba(17, 17, 17, 0.12);
+  border-radius: 0.95rem;
+  background: rgba(255, 255, 255, 0.88);
+  color: #111111;
+  font: inherit;
+}
+
+.config-icon-button {
+  appearance: none;
+  border: 0;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 999px;
+  background: #111111;
+  color: #f7f6f3;
+  font: inherit;
+  font-size: 1.7rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.config-icon-button:disabled {
+  cursor: not-allowed;
+  opacity: 0.4;
+}
+
+.config-icon-button-add {
+  flex-shrink: 0;
+}
+
+.config-subtitle-save {
+  margin-top: 0.95rem;
+}
+
 .config-link {
   display: inline-flex;
   margin-top: 1.25rem;
