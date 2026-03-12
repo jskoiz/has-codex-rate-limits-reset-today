@@ -4,6 +4,11 @@ const DEFAULT_AUTO_RESET_HOURS = 20;
 const DEFAULT_NO_SUBTITLES = ["Back to your local model peasant"];
 const ADMIN_COOKIE_NAME = "site_admin_session";
 const SESSION_TTL_SECONDS = 60 * 60 * 12;
+const LOGIN_FAILURE_WINDOW_MS = 15 * 60 * 1000;
+const LOGIN_LOCKOUT_MS = 30 * 60 * 1000;
+const MAX_LOGIN_ATTEMPTS = 5;
+const MAX_TRACKED_LOGIN_FAILURES = 128;
+const MAX_ACTIVE_SESSIONS = 32;
 const SITE_STATE_PATH = "data/site-state.json";
 
 const jsonHeaders = {
@@ -43,7 +48,9 @@ const createSignature = (payload, secret) =>
 
 const getSessionSecret = () => process.env.SITE_SESSION_SECRET || process.env.ADMIN_SESSION_SECRET || "";
 
-const createSessionToken = () => {
+const hashValue = (value) => crypto.createHash("sha256").update(value).digest("hex");
+
+const createSessionToken = (session) => {
   const secret = getSessionSecret();
 
   if (!secret) {
@@ -51,19 +58,20 @@ const createSessionToken = () => {
   }
 
   const payload = JSON.stringify({
-    exp: Date.now() + SESSION_TTL_SECONDS * 1000,
+    exp: session.exp,
     nonce: crypto.randomBytes(12).toString("hex"),
+    sid: session.id,
   });
   const encodedPayload = base64UrlEncode(payload);
   const signature = createSignature(encodedPayload, secret);
   return `${encodedPayload}.${signature}`;
 };
 
-const verifySessionToken = (token) => {
+const readSessionTokenPayload = (token) => {
   const secret = getSessionSecret();
 
   if (!secret || !token || !token.includes(".")) {
-    return false;
+    return null;
   }
 
   const [encodedPayload, providedSignature] = token.split(".");
@@ -71,13 +79,20 @@ const verifySessionToken = (token) => {
 
   try {
     if (!crypto.timingSafeEqual(Buffer.from(providedSignature), Buffer.from(expectedSignature))) {
-      return false;
+      return null;
     }
 
     const payload = JSON.parse(base64UrlDecode(encodedPayload));
-    return Number.isFinite(payload?.exp) && payload.exp > Date.now();
+    if (!Number.isFinite(payload?.exp) || payload.exp <= Date.now() || typeof payload?.sid !== "string") {
+      return null;
+    }
+
+    return {
+      exp: payload.exp,
+      sid: payload.sid,
+    };
   } catch (_error) {
-    return false;
+    return null;
   }
 };
 
@@ -100,14 +115,70 @@ const normalizeNoSubtitles = (value) => {
   return subtitles.length > 0 ? subtitles : [...DEFAULT_NO_SUBTITLES];
 };
 
+const normalizeAuthState = (value, now = Date.now()) => {
+  const sessionMap = new Map();
+  const loginFailureMap = new Map();
+
+  if (Array.isArray(value?.sessions)) {
+    value.sessions.forEach((entry) => {
+      if (typeof entry?.id !== "string" || !Number.isFinite(entry?.exp) || entry.exp <= now) {
+        return;
+      }
+
+      sessionMap.set(entry.id, {
+        createdAt: Number.isFinite(entry?.createdAt) ? entry.createdAt : now,
+        exp: entry.exp,
+        id: entry.id,
+      });
+    });
+  }
+
+  if (Array.isArray(value?.loginFailures)) {
+    value.loginFailures.forEach((entry) => {
+      if (typeof entry?.key !== "string") {
+        return;
+      }
+
+      const count = Math.max(0, Math.floor(Number(entry?.count) || 0));
+      const firstFailedAt = Number.isFinite(entry?.firstFailedAt) ? entry.firstFailedAt : now;
+      const lastFailedAt = Number.isFinite(entry?.lastFailedAt) ? entry.lastFailedAt : firstFailedAt;
+      const lockedUntil = Number.isFinite(entry?.lockedUntil) ? entry.lockedUntil : null;
+      const isStillRelevant = (lockedUntil && lockedUntil > now) || now - lastFailedAt <= LOGIN_FAILURE_WINDOW_MS;
+
+      if (!count || !isStillRelevant) {
+        return;
+      }
+
+      loginFailureMap.set(entry.key, {
+        count,
+        firstFailedAt,
+        key: entry.key,
+        lastFailedAt,
+        lockedUntil,
+      });
+    });
+  }
+
+  return {
+    loginFailures: Array.from(loginFailureMap.values())
+      .sort((left, right) => right.lastFailedAt - left.lastFailedAt)
+      .slice(0, MAX_TRACKED_LOGIN_FAILURES),
+    sessions: Array.from(sessionMap.values())
+      .sort((left, right) => right.createdAt - left.createdAt)
+      .slice(0, MAX_ACTIVE_SESSIONS),
+  };
+};
+
 const normalizeStoredState = (value) => {
   const currentState = normalizeState(value?.currentState);
   const autoResetHours = normalizeHours(value?.autoResetHours);
   const noSubtitles = normalizeNoSubtitles(value?.noSubtitles);
   const resetAt = Number.isFinite(value?.resetAt) ? value.resetAt : null;
   const updatedAt = Number.isFinite(value?.updatedAt) ? value.updatedAt : null;
+  const auth = normalizeAuthState(value?.auth);
 
   return {
+    auth,
     currentState,
     autoResetHours,
     noSubtitles,
@@ -209,28 +280,32 @@ const readGithubContentMeta = async () => {
   };
 };
 
-export const readSiteState = async () => {
+const readStoredSiteState = async () => {
   const githubPayload = await readFromGithub();
-  const storedState = normalizeStoredState(githubPayload?.value || {});
+  return {
+    configured: isGithubConfigured(),
+    sha: githubPayload?.sha || null,
+    ...normalizeStoredState(githubPayload?.value || {}),
+  };
+};
+
+export const readSiteState = async () => {
+  const storedState = await readStoredSiteState();
   const now = Date.now();
   const isExpired = storedState.currentState === "yes" && storedState.resetAt && now >= storedState.resetAt;
 
   return {
-    configured: isGithubConfigured(),
+    ...storedState,
     currentState: isExpired ? "no" : storedState.currentState,
-    storedState: storedState.currentState,
-    autoResetHours: storedState.autoResetHours,
-    noSubtitles: storedState.noSubtitles,
     resetAt: isExpired ? null : storedState.resetAt,
-    sha: githubPayload?.sha || null,
-    updatedAt: storedState.updatedAt,
+    storedState: storedState.currentState,
   };
 };
 
 export const writeSiteState = async (nextState) => {
   const github = getGithubConfig();
-  const current = await readGithubContentMeta();
   const normalizedState = normalizeStoredState(nextState);
+  const currentSha = typeof nextState?.sha === "string" ? nextState.sha : (await readGithubContentMeta()).sha;
   const response = await githubRequest(`/repos/${github.owner}/${github.repo}/contents/${SITE_STATE_PATH}`, {
     method: "PUT",
     headers: {
@@ -240,7 +315,7 @@ export const writeSiteState = async (nextState) => {
       branch: github.branch,
       content: Buffer.from(JSON.stringify(normalizedState, null, 2) + "\n").toString("base64"),
       message: `Update site state to ${normalizedState.currentState}`,
-      sha: current.sha || undefined,
+      sha: currentSha || undefined,
     }),
   });
 
@@ -253,10 +328,12 @@ export const writeSiteState = async (nextState) => {
 export const buildNextState = async (updates) => {
   const current = await readSiteState();
   const next = {
+    auth: current.auth,
     currentState: normalizeState(updates.state ?? current.currentState),
     autoResetHours: normalizeHours(updates.autoResetHours ?? current.autoResetHours),
     noSubtitles: normalizeNoSubtitles(updates.noSubtitles ?? current.noSubtitles),
     resetAt: current.resetAt,
+    sha: current.sha,
     updatedAt: Date.now(),
   };
 
@@ -268,7 +345,10 @@ export const buildNextState = async (updates) => {
     next.resetAt = Date.now() + next.autoResetHours * 60 * 60 * 1000;
   }
 
-  return normalizeStoredState(next);
+  return {
+    ...normalizeStoredState(next),
+    sha: current.sha,
+  };
 };
 
 export const readJsonBody = async (request) => {
@@ -288,17 +368,133 @@ export const jsonResponse = (body, status = 200, extraHeaders = {}) =>
     },
   });
 
-export const clearAdminSessionCookie = () =>
-  `${ADMIN_COOKIE_NAME}=; Path=/; HttpOnly; SameSite=Lax; Max-Age=0`;
-
-export const createAdminSessionCookie = () => {
+export const clearAdminSessionCookie = () => {
   const secureAttribute = process.env.VERCEL_ENV === "development" ? "" : "; Secure";
-  return `${ADMIN_COOKIE_NAME}=${createSessionToken()}; Path=/; HttpOnly${secureAttribute}; SameSite=Lax; Max-Age=${SESSION_TTL_SECONDS}`;
+  return `${ADMIN_COOKIE_NAME}=; Path=/; HttpOnly${secureAttribute}; SameSite=Lax; Max-Age=0`;
 };
 
-export const isAuthorizedRequest = (request) => {
+export const createAdminSessionCookie = (session) => {
+  const secureAttribute = process.env.VERCEL_ENV === "development" ? "" : "; Secure";
+  return `${ADMIN_COOKIE_NAME}=${createSessionToken(session)}; Path=/; HttpOnly${secureAttribute}; SameSite=Lax; Max-Age=${SESSION_TTL_SECONDS}`;
+};
+
+const getLoginAttemptKey = (request) => {
+  const forwardedFor = request.headers.get("x-forwarded-for") || "";
+  const clientAddress = forwardedFor.split(",")[0]?.trim() || request.headers.get("x-real-ip") || "unknown";
+  const userAgent = request.headers.get("user-agent") || "unknown";
+
+  return hashValue(`${getSessionSecret()}:${clientAddress}:${userAgent}`);
+};
+
+const buildNextLoginFailureState = (entries, key, now) => {
+  const remainingEntries = entries.filter((entry) => entry.key !== key);
+  const existingEntry = entries.find((entry) => entry.key === key);
+  const shouldResetWindow = !existingEntry || now - existingEntry.lastFailedAt > LOGIN_FAILURE_WINDOW_MS;
+  const nextCount = shouldResetWindow ? 1 : existingEntry.count + 1;
+  const nextEntry = {
+    count: nextCount,
+    firstFailedAt: shouldResetWindow ? now : existingEntry.firstFailedAt,
+    key,
+    lastFailedAt: now,
+    lockedUntil: nextCount >= MAX_LOGIN_ATTEMPTS ? now + LOGIN_LOCKOUT_MS : null,
+  };
+
+  return normalizeAuthState({
+    loginFailures: [...remainingEntries, nextEntry],
+    sessions: [],
+  }, now).loginFailures;
+};
+
+export const getLoginThrottle = async (request) => {
+  const current = await readStoredSiteState();
+  const key = getLoginAttemptKey(request);
+  const now = Date.now();
+  const entry = current.auth.loginFailures.find((failure) => failure.key === key);
+  const lockedUntil = entry?.lockedUntil && entry.lockedUntil > now ? entry.lockedUntil : null;
+
+  return {
+    isLocked: Boolean(lockedUntil),
+    retryAfterSeconds: lockedUntil ? Math.ceil((lockedUntil - now) / 1000) : null,
+  };
+};
+
+export const recordFailedLogin = async (request) => {
+  const current = await readStoredSiteState();
+  const now = Date.now();
+  const key = getLoginAttemptKey(request);
+  const nextAuth = normalizeAuthState({
+    loginFailures: buildNextLoginFailureState(current.auth.loginFailures, key, now),
+    sessions: current.auth.sessions,
+  }, now);
+
+  await writeSiteState({
+    ...current,
+    auth: nextAuth,
+  });
+
+  const entry = nextAuth.loginFailures.find((failure) => failure.key === key);
+
+  return {
+    isLocked: Boolean(entry?.lockedUntil && entry.lockedUntil > now),
+    retryAfterSeconds:
+      entry?.lockedUntil && entry.lockedUntil > now ? Math.ceil((entry.lockedUntil - now) / 1000) : null,
+  };
+};
+
+export const issueAdminSession = async (request) => {
+  const current = await readStoredSiteState();
+  const now = Date.now();
+  const session = {
+    createdAt: now,
+    exp: now + SESSION_TTL_SECONDS * 1000,
+    id: crypto.randomBytes(18).toString("hex"),
+  };
+  const loginAttemptKey = getLoginAttemptKey(request);
+  const nextAuth = normalizeAuthState({
+    loginFailures: current.auth.loginFailures.filter((entry) => entry.key !== loginAttemptKey),
+    sessions: [...current.auth.sessions, session],
+  }, now);
+
+  await writeSiteState({
+    ...current,
+    auth: nextAuth,
+  });
+
+  return createAdminSessionCookie(session);
+};
+
+export const revokeAdminSession = async (request) => {
   const cookies = parseCookieHeader(request.headers.get("cookie"));
-  return verifySessionToken(cookies[ADMIN_COOKIE_NAME]);
+  const payload = readSessionTokenPayload(cookies[ADMIN_COOKIE_NAME]);
+
+  if (!payload) {
+    return false;
+  }
+
+  const current = await readStoredSiteState();
+  const nextAuth = normalizeAuthState({
+    loginFailures: current.auth.loginFailures,
+    sessions: current.auth.sessions.filter((entry) => entry.id !== payload.sid),
+  });
+
+  await writeSiteState({
+    ...current,
+    auth: nextAuth,
+  });
+
+  return true;
+};
+
+export const isAuthorizedRequest = async (request) => {
+  const cookies = parseCookieHeader(request.headers.get("cookie"));
+  const payload = readSessionTokenPayload(cookies[ADMIN_COOKIE_NAME]);
+
+  if (!payload) {
+    return false;
+  }
+
+  const current = await readStoredSiteState();
+  return current.auth.sessions.some((entry) => entry.id === payload.sid && entry.exp === payload.exp);
 };
 
 export const getAdminPassword = () => process.env.SITE_ADMIN_PASSWORD || "";

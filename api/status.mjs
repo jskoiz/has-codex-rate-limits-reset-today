@@ -13,11 +13,13 @@ export async function GET() {
       updatedAt: state.updatedAt,
     });
   } catch (error) {
+    console.error("Unable to load public status", error);
+
     return jsonResponse(
       {
         autoResetHours: getDefaultAutoResetHours(),
         configured: false,
-        error: error instanceof Error ? error.message : "Unknown status error",
+        error: "Status is temporarily unavailable",
         noSubtitles: getDefaultNoSubtitles(),
         resetAt: null,
         state: "no",
