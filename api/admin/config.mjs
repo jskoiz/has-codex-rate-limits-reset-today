@@ -12,6 +12,12 @@ import {
 
 const unauthorized = () => jsonResponse({ error: "Unauthorized" }, 401);
 
+const getVercelAnalyticsUrl = () => {
+  const value = process.env.VERCEL_ANALYTICS_DASHBOARD_URL || process.env.VERCEL_ANALYTICS_URL || "";
+  const trimmed = value.trim();
+  return trimmed || null;
+};
+
 export async function GET(request) {
   if (!(await isAuthorizedRequest(request))) {
     return unauthorized();
@@ -28,6 +34,7 @@ export async function GET(request) {
       resetAt: state.resetAt,
       state: state.currentState,
       updatedAt: state.updatedAt,
+      vercelAnalyticsUrl: getVercelAnalyticsUrl(),
     });
   } catch (error) {
     return jsonResponse({ error: error instanceof Error ? error.message : "Unknown config error" }, 500);
@@ -58,6 +65,7 @@ export async function POST(request) {
       resetAt: nextState.resetAt,
       state: nextState.currentState,
       updatedAt: nextState.updatedAt,
+      vercelAnalyticsUrl: getVercelAnalyticsUrl(),
     });
   } catch (error) {
     return jsonResponse({ error: error instanceof Error ? error.message : "Unknown write error" }, 500);
