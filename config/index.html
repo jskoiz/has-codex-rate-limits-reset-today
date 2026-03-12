@@ -20,16 +20,18 @@
   <body class="config-body">
     <main class="config-page">
       <section class="config-card" aria-label="Reset config">
-        <p class="config-eyebrow">Admin config</p>
-        <h1 class="config-title">Reset status control</h1>
-        <p class="config-copy">
-          Change the public Yes/No state here. When you switch to Yes, it will automatically fall
-          back to No after the configured timer.
-        </p>
+        <div class="config-header">
+          <div>
+            <p class="config-eyebrow">Admin config</p>
+            <h1 class="config-title">Reset operations</h1>
+            <p class="config-copy">Live controls, automation health, and tweet review in one place.</p>
+          </div>
+          <a class="config-link config-link-top" href="../">Open public page</a>
+        </div>
 
         <div id="authPanel">
           <form class="config-auth-form" id="authForm">
-            <label class="config-field" for="configPassword">
+            <label class="config-field config-auth-field" for="configPassword">
               <span class="config-label">Admin password</span>
               <div class="config-input-row">
                 <input
@@ -49,89 +51,153 @@
         <div id="controlPanel" hidden>
           <p class="config-notice" id="configNotice" aria-live="polite"></p>
 
+          <section class="config-summary-grid" aria-label="Current config values">
+            <article class="config-metric config-metric-emphasis">
+              <span class="config-label">Current state</span>
+              <strong class="config-value config-value-xl" id="configStatusValue">Yes</strong>
+              <span class="config-metric-meta">Public page status</span>
+            </article>
+            <article class="config-metric">
+              <span class="config-label">Reset countdown</span>
+              <strong class="config-value config-value-compact" id="configTimerValue">20h</strong>
+              <span class="config-metric-meta" id="configResetMetaValue">Timer starts when the state is Yes.</span>
+            </article>
+            <article class="config-metric">
+              <span class="config-label">Last config change</span>
+              <strong class="config-value config-value-compact" id="configUpdatedValue">Not set</strong>
+              <span class="config-metric-meta">Manual state, timer, or subtitle update</span>
+            </article>
+            <article class="config-metric">
+              <span class="config-label">Automation health</span>
+              <strong class="config-value config-value-compact" id="automationHealthValue">Healthy</strong>
+              <span class="config-metric-meta" id="automationHealthMeta">Polling every 5 minutes via GitHub Actions.</span>
+            </article>
+          </section>
+
           <div class="config-actions" role="group" aria-label="Status controls">
             <button class="config-toggle" type="button" data-next-state="yes">Set Yes</button>
             <button class="config-toggle" type="button" data-next-state="no">Set No</button>
+            <button class="config-toggle config-toggle-secondary" id="runAutomationButton" type="button">Run now</button>
             <button class="config-toggle config-toggle-secondary" id="logoutButton" type="button">Lock</button>
           </div>
 
-          <div class="config-grid" aria-label="Current config values">
-            <div class="config-metric">
-              <span class="config-label">Current state</span>
-              <strong class="config-value" id="configStatusValue">Yes</strong>
-            </div>
-            <div class="config-metric">
-              <span class="config-label">Auto-reset timer</span>
-              <strong class="config-value" id="configTimerValue">20h</strong>
-            </div>
+          <section class="config-grid config-grid-metrics" aria-label="Operational metrics">
+            <article class="config-metric">
+              <span class="config-label">Last decision</span>
+              <strong class="config-value config-value-compact" id="automationDecisionValue">None yet</strong>
+            </article>
+            <article class="config-metric">
+              <span class="config-label">Last seen tweet</span>
+              <a
+                class="config-value config-value-link config-value-compact"
+                id="automationLastSeenValue"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Not set
+              </a>
+            </article>
+            <article class="config-metric">
+              <span class="config-label">Pending review</span>
+              <a
+                class="config-value config-value-link config-value-compact"
+                id="automationPendingValue"
+                target="_blank"
+                rel="noreferrer"
+              >
+                None
+              </a>
+            </article>
+            <article class="config-metric">
+              <span class="config-label">Last error</span>
+              <strong class="config-value config-value-compact" id="automationErrorValue">None</strong>
+            </article>
+            <article class="config-metric config-metric-span-2">
+              <span class="config-label">Token usage</span>
+              <div class="config-token-grid">
+                <div>
+                  <span class="config-token-label">Input</span>
+                  <strong class="config-token-value" id="automationInputTokensValue">0</strong>
+                </div>
+                <div>
+                  <span class="config-token-label">Output</span>
+                  <strong class="config-token-value" id="automationOutputTokensValue">0</strong>
+                </div>
+                <div>
+                  <span class="config-token-label">Reasoning</span>
+                  <strong class="config-token-value" id="automationReasoningTokensValue">0</strong>
+                </div>
+                <div>
+                  <span class="config-token-label">Total</span>
+                  <strong class="config-token-value" id="automationTotalTokensValue">0</strong>
+                </div>
+              </div>
+            </article>
+            <article class="config-metric">
+              <div class="config-subtitle-header">
+                <span class="config-label">Traffic</span>
+                <a
+                  class="config-chip-link"
+                  id="vercelAnalyticsLink"
+                  target="_blank"
+                  rel="noreferrer"
+                  hidden
+                >
+                  Open Vercel Analytics
+                </a>
+              </div>
+              <strong class="config-value config-value-compact" id="trafficValue">Vercel Analytics</strong>
+              <span class="config-metric-meta" id="trafficMetaValue">
+                Use the Vercel dashboard for visitor and pageview totals.
+              </span>
+            </article>
+          </section>
+
+          <div class="config-secondary-grid">
+            <section class="config-field" aria-label="Auto-reset timer">
+              <div class="config-subtitle-header">
+                <span class="config-label">Timer</span>
+                <span class="config-chip">Auto-reset</span>
+              </div>
+              <p class="config-note config-note-tight">Hours before Yes switches back to No.</p>
+              <div class="config-input-row">
+                <input id="autoResetHours" name="autoResetHours" type="number" min="1" step="1" value="20" />
+                <button class="config-save" id="saveHoursButton" type="button">Save</button>
+              </div>
+            </section>
+
+            <details class="config-field config-field-collapsible" aria-label="No-state subtitles">
+              <summary class="config-details-summary">
+                <span>
+                  <span class="config-label">No-state subtitles</span>
+                  <span class="config-metric-meta">Edit the rotating copy shown on the public No screen.</span>
+                </span>
+                <span class="config-details-toggle">Edit</span>
+              </summary>
+              <div class="config-subtitle-list" id="subtitleList"></div>
+              <div class="config-subtitle-actions">
+                <button
+                  class="config-icon-button config-icon-button-add"
+                  id="addSubtitleButton"
+                  type="button"
+                  aria-label="Add subtitle"
+                >
+                  +
+                </button>
+                <button class="config-save config-subtitle-save" id="saveSubtitlesButton" type="button">Save subtitles</button>
+              </div>
+            </details>
           </div>
 
           <section class="config-field" aria-label="Automation status">
             <div class="config-subtitle-header">
-              <span class="config-label">Automation monitor</span>
-              <button class="config-save config-inline-action" id="runAutomationButton" type="button">Run now</button>
-            </div>
-            <div class="config-automation-grid">
-              <div>
-                <span class="config-label">Last seen tweet</span>
-                <strong class="config-value config-value-compact" id="automationLastSeenValue">Not set</strong>
-              </div>
-              <div>
-                <span class="config-label">Last decision</span>
-                <strong class="config-value config-value-compact" id="automationDecisionValue">None yet</strong>
-              </div>
-              <div>
-                <span class="config-label">Pending review</span>
-                <strong class="config-value config-value-compact" id="automationPendingValue">None</strong>
-              </div>
-              <div>
-                <span class="config-label">Last error</span>
-                <strong class="config-value config-value-compact" id="automationErrorValue">None</strong>
-              </div>
-            </div>
-            <div class="config-automation-grid">
-              <div>
-                <span class="config-label">Total input tokens</span>
-                <strong class="config-value config-value-compact" id="automationInputTokensValue">0</strong>
-              </div>
-              <div>
-                <span class="config-label">Total output tokens</span>
-                <strong class="config-value config-value-compact" id="automationOutputTokensValue">0</strong>
-              </div>
-              <div>
-                <span class="config-label">Reasoning tokens</span>
-                <strong class="config-value config-value-compact" id="automationReasoningTokensValue">0</strong>
-              </div>
-              <div>
-                <span class="config-label">Total tokens</span>
-                <strong class="config-value config-value-compact" id="automationTotalTokensValue">0</strong>
-              </div>
+              <span class="config-label">Automation activity</span>
+              <span class="config-chip">Tweet monitor</span>
             </div>
             <p class="config-note" id="automationStatusNote">Polls every 5 minutes via GitHub Actions.</p>
             <div class="config-log" id="automationLog" aria-live="polite"></div>
           </section>
-
-          <label class="config-field" for="autoResetHours">
-            <span class="config-label">Hours before Yes switches back to No</span>
-            <div class="config-input-row">
-              <input id="autoResetHours" name="autoResetHours" type="number" min="1" step="1" value="20" />
-              <button class="config-save" id="saveHoursButton" type="button">Save</button>
-            </div>
-          </label>
-
-          <section class="config-field" aria-label="No-state subtitles">
-            <div class="config-subtitle-header">
-              <span class="config-label">Random subtitles for the No screen</span>
-              <button class="config-icon-button config-icon-button-add" id="addSubtitleButton" type="button" aria-label="Add subtitle">
-                +
-              </button>
-            </div>
-            <div class="config-subtitle-list" id="subtitleList"></div>
-            <button class="config-save config-subtitle-save" id="saveSubtitlesButton" type="button">Save subtitles</button>
-          </section>
         </div>
-
-        <a class="config-link" href="../">Back to main page</a>
       </section>
     </main>
 

@@ -343,6 +343,7 @@ const seedTimelineWatermark = async (tweet) =>
       ...state.automation,
       lastError: null,
       lastSeenTweetId: tweet.id,
+      lastSeenTweetUrl: tweet.url,
     },
   }));
 
@@ -354,6 +355,7 @@ const markTweetAsNotReset = async (tweet, classification) =>
       lastDecision: createDecisionRecord(tweet, classification),
       lastError: null,
       lastSeenTweetId: tweet.id,
+      lastSeenTweetUrl: tweet.url,
       recentEvaluations: appendAutomationLog(state.automation, tweet, classification),
       tokenUsage: updateTokenUsageTotals(state.automation, classification),
     },
@@ -367,6 +369,7 @@ const markTweetForManualReview = async (tweet, classification) =>
       lastDecision: createDecisionRecord(tweet, classification),
       lastError: null,
       lastSeenTweetId: tweet.id,
+      lastSeenTweetUrl: tweet.url,
       pendingReview: createPendingReview(tweet, classification),
       recentEvaluations: appendAutomationLog(state.automation, tweet, classification),
       tokenUsage: updateTokenUsageTotals(state.automation, classification),
@@ -385,6 +388,7 @@ const markTweetAsResetConfirmed = async (tweet, classification) =>
         lastDecision: createDecisionRecord(tweet, classification),
         lastError: null,
         lastSeenTweetId: tweet.id,
+        lastSeenTweetUrl: tweet.url,
         pendingReview: null,
         recentEvaluations: appendAutomationLog(state.automation, tweet, classification),
         tokenUsage: updateTokenUsageTotals(state.automation, classification),

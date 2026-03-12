@@ -202,10 +202,25 @@ const normalizeAutomationLogEntry = (value) => {
   };
 };
 
+const deriveLastSeenTweetUrl = (lastSeenTweetId, sources = []) => {
+  if (!lastSeenTweetId) {
+    return null;
+  }
+
+  for (const source of sources) {
+    if (source?.tweetId === lastSeenTweetId && typeof source?.tweetUrl === "string") {
+      return source.tweetUrl;
+    }
+  }
+
+  return null;
+};
+
 export const getDefaultAutomationState = () => ({
   lastDecision: null,
   lastError: null,
   lastSeenTweetId: null,
+  lastSeenTweetUrl: null,
   pendingReview: null,
   recentEvaluations: [],
   tokenUsage: {
@@ -219,20 +234,28 @@ export const getDefaultAutomationState = () => ({
 const normalizeAutomationState = (value) => {
   const defaults = getDefaultAutomationState();
   const lastError = typeof value?.lastError === "string" ? value.lastError.trim() : "";
+  const lastDecision = normalizeAutomationDecision(value?.lastDecision);
+  const pendingReview = normalizePendingReview(value?.pendingReview);
+  const recentEvaluations = Array.isArray(value?.recentEvaluations)
+    ? value.recentEvaluations
+        .map(normalizeAutomationLogEntry)
+        .filter(Boolean)
+        .sort((left, right) => right.evaluatedAt - left.evaluatedAt)
+        .slice(0, MAX_AUTOMATION_LOG_ENTRIES)
+    : [];
+  const lastSeenTweetId = typeof value?.lastSeenTweetId === "string" ? value.lastSeenTweetId : null;
+  const persistedLastSeenTweetUrl =
+    typeof value?.lastSeenTweetUrl === "string" ? value.lastSeenTweetUrl.trim() : "";
 
   return {
     ...defaults,
-    lastDecision: normalizeAutomationDecision(value?.lastDecision),
+    lastDecision,
     lastError: lastError || null,
-    lastSeenTweetId: typeof value?.lastSeenTweetId === "string" ? value.lastSeenTweetId : null,
-    pendingReview: normalizePendingReview(value?.pendingReview),
-    recentEvaluations: Array.isArray(value?.recentEvaluations)
-      ? value.recentEvaluations
-          .map(normalizeAutomationLogEntry)
-          .filter(Boolean)
-          .sort((left, right) => right.evaluatedAt - left.evaluatedAt)
-          .slice(0, MAX_AUTOMATION_LOG_ENTRIES)
-      : [],
+    lastSeenTweetId,
+    lastSeenTweetUrl:
+      persistedLastSeenTweetUrl || deriveLastSeenTweetUrl(lastSeenTweetId, [pendingReview, lastDecision, ...recentEvaluations]),
+    pendingReview,
+    recentEvaluations,
     tokenUsage: {
       totalInputTokens: Number.isFinite(value?.tokenUsage?.totalInputTokens) ? value.tokenUsage.totalInputTokens : 0,
       totalOutputTokens: Number.isFinite(value?.tokenUsage?.totalOutputTokens) ? value.tokenUsage.totalOutputTokens : 0,
@@ -297,7 +320,7 @@ const normalizeAuthState = (value, now = Date.now()) => {
   };
 };
 
-const normalizeStoredState = (value) => {
+export const normalizeStoredState = (value) => {
   const currentState = normalizeState(value?.currentState);
   const autoResetHours = normalizeHours(value?.autoResetHours);
   const noSubtitles = normalizeNoSubtitles(value?.noSubtitles);
