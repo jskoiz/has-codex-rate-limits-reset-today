@@ -17,6 +17,8 @@ The site stores:
 - `resetAt`
 - `updatedAt`
 
+The state file may also include internal `auth` metadata used for admin session revocation and login throttling. That data is managed by the API and should not be edited manually.
+
 When state is `yes`, the public status automatically resolves to `no` once `resetAt` has passed. No cron job is required.
 
 ## Required Vercel Environment Variables
