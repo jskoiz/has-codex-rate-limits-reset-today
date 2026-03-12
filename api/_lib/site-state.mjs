@@ -10,6 +10,7 @@ const MAX_LOGIN_ATTEMPTS = 5;
 const MAX_TRACKED_LOGIN_FAILURES = 128;
 const MAX_ACTIVE_SESSIONS = 32;
 const MAX_GITHUB_WRITE_ATTEMPTS = 3;
+const MAX_AUTOMATION_LOG_ENTRIES = 20;
 const SITE_STATE_PATH = "data/site-state.json";
 
 const jsonHeaders = {
@@ -172,11 +173,37 @@ const normalizePendingReview = (value) => {
   };
 };
 
+const normalizeAutomationLogEntry = (value) => {
+  if (!value || typeof value !== "object") {
+    return null;
+  }
+
+  const verdict = ["reset_confirmed", "not_reset", "uncertain"].includes(value?.verdict) ? value.verdict : null;
+  const tweetId = typeof value?.tweetId === "string" ? value.tweetId : null;
+  const tweetUrl = typeof value?.tweetUrl === "string" ? value.tweetUrl : null;
+  const tweetText = typeof value?.tweetText === "string" ? value.tweetText.trim() : "";
+
+  if (!verdict || !tweetId || !tweetUrl || !tweetText || !Number.isFinite(value?.evaluatedAt)) {
+    return null;
+  }
+
+  return {
+    confidence: normalizeConfidence(value?.confidence),
+    evaluatedAt: value.evaluatedAt,
+    rationale: typeof value?.rationale === "string" ? value.rationale.trim() : "",
+    tweetId,
+    tweetText,
+    tweetUrl,
+    verdict,
+  };
+};
+
 export const getDefaultAutomationState = () => ({
   lastDecision: null,
   lastError: null,
   lastSeenTweetId: null,
   pendingReview: null,
+  recentEvaluations: [],
 });
 
 const normalizeAutomationState = (value) => {
@@ -189,6 +216,13 @@ const normalizeAutomationState = (value) => {
     lastError: lastError || null,
     lastSeenTweetId: typeof value?.lastSeenTweetId === "string" ? value.lastSeenTweetId : null,
     pendingReview: normalizePendingReview(value?.pendingReview),
+    recentEvaluations: Array.isArray(value?.recentEvaluations)
+      ? value.recentEvaluations
+          .map(normalizeAutomationLogEntry)
+          .filter(Boolean)
+          .sort((left, right) => right.evaluatedAt - left.evaluatedAt)
+          .slice(0, MAX_AUTOMATION_LOG_ENTRIES)
+      : [],
   };
 };
 

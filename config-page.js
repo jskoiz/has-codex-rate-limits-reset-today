@@ -23,6 +23,7 @@ const automationDecisionValue = document.querySelector("#automationDecisionValue
 const automationPendingValue = document.querySelector("#automationPendingValue");
 const automationErrorValue = document.querySelector("#automationErrorValue");
 const automationStatusNote = document.querySelector("#automationStatusNote");
+const automationLog = document.querySelector("#automationLog");
 let currentNoSubtitles = [];
 let noticeTimeoutId = null;
 
@@ -51,6 +52,18 @@ const truncateText = (value, maxLength = 120) => {
   return value.length > maxLength ? `${value.slice(0, maxLength - 1)}…` : value;
 };
 
+const formatAutomationVerdict = (value) => {
+  if (value === "reset_confirmed") {
+    return "Yes";
+  }
+
+  if (value === "not_reset") {
+    return "No";
+  }
+
+  return "Review";
+};
+
 const renderAutomation = (automation = {}) => {
   if (!automationLastSeenValue) {
     return;
@@ -74,6 +87,51 @@ const renderAutomation = (automation = {}) => {
   }
 
   automationErrorValue.textContent = automation.lastError || "None";
+
+  if (!automationLog) {
+    return;
+  }
+
+  const entries = Array.isArray(automation.recentEvaluations) ? automation.recentEvaluations : [];
+
+  if (entries.length === 0) {
+    automationLog.innerHTML = '<p class="config-note">No tweet evaluations logged yet.</p>';
+    return;
+  }
+
+  automationLog.replaceChildren(
+    ...entries.map((entry) => {
+      const item = document.createElement("article");
+      item.className = "config-log-item";
+
+      const header = document.createElement("div");
+      header.className = "config-log-header";
+
+      const verdict = document.createElement("strong");
+      verdict.className = "config-log-verdict";
+      verdict.textContent = formatAutomationVerdict(entry.verdict);
+
+      const timestamp = document.createElement("span");
+      timestamp.className = "config-log-meta";
+      timestamp.textContent = formatDateTime(entry.evaluatedAt);
+
+      header.append(verdict, timestamp);
+
+      const reason = document.createElement("p");
+      reason.className = "config-log-reason";
+      reason.textContent = entry.rationale || "No rationale recorded.";
+
+      const tweetLink = document.createElement("a");
+      tweetLink.className = "config-log-link";
+      tweetLink.href = entry.tweetUrl;
+      tweetLink.target = "_blank";
+      tweetLink.rel = "noreferrer";
+      tweetLink.textContent = truncateText(entry.tweetText, 140);
+
+      item.append(header, reason, tweetLink);
+      return item;
+    }),
+  );
 };
 
 const formatResetTime = (timestamp) => {
