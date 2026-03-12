@@ -1,41 +1,47 @@
 # Codex Limit
 
-Static site on Vercel with a global Yes/No status backed by a single GitHub state file.
+This was a fun project I made in Codex because the Codex limits keep generously getting reset.
 
-## Architecture
+Thanks to the good folks at OpenAI, including [@thsottiaux](https://x.com/thsottiaux), who helps make sure users have the best experience possible.
 
-- `/` is a static page that fetches live status from `/api/status`
-- `/config` is a hidden admin page that unlocks with a password
-- `/api/status` reads the global state from GitHub
-- `/api/admin/session` creates or clears the admin session cookie
-- `/api/admin/config` reads and writes the global state after auth
+## Built With Codex
 
-The site stores:
+I put the whole thing together in Codex as a small end-to-end project: UI, API routes, admin flow, state storage, and deployment setup.
 
-- `currentState`
-- `autoResetHours`
-- `resetAt`
-- `updatedAt`
+## Stack
 
-The state file may also include internal `auth` metadata used for admin session revocation and login throttling. That data is managed by the API and should not be edited manually.
+- Static frontend with plain HTML, CSS, and JavaScript
+- Vercel serverless functions for the API
+- GitHub as the backing store for the shared site state
+- Cookie-based admin auth for the config page
 
-When state is `yes`, the public status automatically resolves to `no` once `resetAt` has passed. No cron job is required.
+## How It Works
 
-## Required Vercel Environment Variables
+- `/` shows the public Yes/No status
+- `/api/status` reads the current state from `data/site-state.json`
+- `/config` is the admin page for updating the state and timer
+- `/api/admin/session` handles login/logout
+- `/api/admin/config` reads and writes config after auth
+
+When the state is set to `yes`, the app also stores a reset time so it can automatically fall back to `no` after the configured number of hours.
+
+## Deployment
+
+The site is deployed on Vercel. The frontend is served statically, and the API runs through Vercel functions.
+
+## Configuration
+
+The app is connected to a GitHub repository for persistent state. Deployment expects these environment variables:
 
 - `GITHUB_TOKEN`
-  Token with `repo` scope so the Vercel functions can read and update the repository file.
 - `GITHUB_REPO_OWNER`
-  GitHub repository owner, for example `jskoiz`.
 - `GITHUB_REPO_NAME`
-  GitHub repository name, for example `codex-limit`.
 - `GITHUB_REPO_BRANCH`
-  Branch used for the state file, typically `main`.
 - `SITE_ADMIN_PASSWORD`
-  Password required to unlock `/config`.
 - `SITE_SESSION_SECRET`
-  Long random secret used to sign the admin session cookie.
 
-## State File
+The tracked state lives in `data/site-state.json`.
 
-The site reads and writes [data/site-state.json](/Users/jerry/Desktop/codex limit/data/site-state.json#L1).
+## License
+
+Open source under the MIT License. See `LICENSE`.

@@ -1,7 +1,7 @@
 import crypto from "node:crypto";
 
 const DEFAULT_AUTO_RESET_HOURS = 20;
-const DEFAULT_NO_SUBTITLES = ["Back to your local model peasant"];
+const DEFAULT_NO_SUBTITLES = ["Limits have not reset yet."];
 const ADMIN_COOKIE_NAME = "site_admin_session";
 const SESSION_TTL_SECONDS = 60 * 60 * 12;
 const LOGIN_FAILURE_WINDOW_MS = 15 * 60 * 1000;
@@ -298,7 +298,6 @@ export const readSiteState = async () => {
     ...storedState,
     currentState: isExpired ? "no" : storedState.currentState,
     resetAt: isExpired ? null : storedState.resetAt,
-    storedState: storedState.currentState,
   };
 };
 
@@ -373,7 +372,7 @@ export const clearAdminSessionCookie = () => {
   return `${ADMIN_COOKIE_NAME}=; Path=/; HttpOnly${secureAttribute}; SameSite=Lax; Max-Age=0`;
 };
 
-export const createAdminSessionCookie = (session) => {
+const createAdminSessionCookie = (session) => {
   const secureAttribute = process.env.VERCEL_ENV === "development" ? "" : "; Secure";
   return `${ADMIN_COOKIE_NAME}=${createSessionToken(session)}; Path=/; HttpOnly${secureAttribute}; SameSite=Lax; Max-Age=${SESSION_TTL_SECONDS}`;
 };
