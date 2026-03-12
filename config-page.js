@@ -10,7 +10,9 @@ const authError = document.querySelector("#authError");
 const stateButtons = Array.from(document.querySelectorAll("[data-next-state]"));
 const hoursInput = document.querySelector("#autoResetHours");
 const statusValue = document.querySelector("#configStatusValue");
+const configUpdatedValue = document.querySelector("#configUpdatedValue");
 const timerValue = document.querySelector("#configTimerValue");
+const resetMetaValue = document.querySelector("#configResetMetaValue");
 const configNotice = document.querySelector("#configNotice");
 const saveButton = document.querySelector("#saveHoursButton");
 const logoutButton = document.querySelector("#logoutButton");
@@ -18,6 +20,8 @@ const subtitleList = document.querySelector("#subtitleList");
 const addSubtitleButton = document.querySelector("#addSubtitleButton");
 const saveSubtitlesButton = document.querySelector("#saveSubtitlesButton");
 const runAutomationButton = document.querySelector("#runAutomationButton");
+const automationHealthValue = document.querySelector("#automationHealthValue");
+const automationHealthMeta = document.querySelector("#automationHealthMeta");
 const automationLastSeenValue = document.querySelector("#automationLastSeenValue");
 const automationDecisionValue = document.querySelector("#automationDecisionValue");
 const automationPendingValue = document.querySelector("#automationPendingValue");
@@ -28,6 +32,9 @@ const automationReasoningTokensValue = document.querySelector("#automationReason
 const automationTotalTokensValue = document.querySelector("#automationTotalTokensValue");
 const automationStatusNote = document.querySelector("#automationStatusNote");
 const automationLog = document.querySelector("#automationLog");
+const trafficValue = document.querySelector("#trafficValue");
+const trafficMetaValue = document.querySelector("#trafficMetaValue");
+const vercelAnalyticsLink = document.querySelector("#vercelAnalyticsLink");
 let currentNoSubtitles = [];
 let noticeTimeoutId = null;
 
@@ -58,6 +65,18 @@ const truncateText = (value, maxLength = 120) => {
 
 const formatAutomationVerdict = (value) => {
   if (value === "reset_confirmed") {
+    return "Reset confirmed";
+  }
+
+  if (value === "not_reset") {
+    return "Not reset";
+  }
+
+  return "Needs review";
+};
+
+const formatAutomationVerdictShort = (value) => {
+  if (value === "reset_confirmed") {
     return "Yes";
   }
 
@@ -70,34 +89,111 @@ const formatAutomationVerdict = (value) => {
 
 const formatTokenCount = (value) => new Intl.NumberFormat().format(Number.isFinite(value) ? value : 0);
 
-const renderAutomation = (automation = {}) => {
-  if (!automationLastSeenValue) {
+const setLinkState = (element, href, text, fallbackText) => {
+  if (!element) {
     return;
   }
 
-  automationLastSeenValue.textContent = automation.lastSeenTweetId || "Not set";
+  if (href) {
+    element.href = href;
+    element.textContent = text;
+    element.dataset.empty = "false";
+    element.removeAttribute("aria-disabled");
+    return;
+  }
 
-  if (automation.lastDecision?.verdict) {
-    const verdict = automation.lastDecision.verdict.replaceAll("_", " ");
-    const decidedAt = formatDateTime(automation.lastDecision.decidedAt);
-    automationDecisionValue.textContent = `${verdict} at ${decidedAt}`;
-  } else {
-    automationDecisionValue.textContent = "None yet";
+  element.textContent = fallbackText;
+  element.dataset.empty = "true";
+  element.setAttribute("aria-disabled", "true");
+  element.removeAttribute("href");
+};
+
+const getResetDisplay = (state, resetAt) => {
+  if (state !== "yes") {
+    return {
+      meta: "Timer starts when the state is Yes.",
+      value: "State is No",
+    };
+  }
+
+  if (!resetAt) {
+    return {
+      meta: "Save the timer to schedule the fallback.",
+      value: "No timer running",
+    };
+  }
+
+  const remainingMs = resetAt - Date.now();
+
+  if (remainingMs <= 0) {
+    return {
+      meta: `Reset scheduled ${formatDateTime(resetAt)}.`,
+      value: "Switching now",
+    };
+  }
+
+  const totalMinutes = Math.ceil(remainingMs / (60 * 1000));
+  const hours = Math.floor(totalMinutes / 60);
+  const minutes = totalMinutes % 60;
+  const timeLeft = hours > 0 ? `${hours}h ${minutes}m left` : `${minutes}m left`;
+
+  return {
+    meta: `Resets ${formatDateTime(resetAt)}.`,
+    value: timeLeft,
+  };
+};
+
+const getAutomationHealth = (automation = {}) => {
+  if (automation.lastError) {
+    return {
+      meta: automation.lastError,
+      tone: "error",
+      value: "Error",
+    };
   }
 
   if (automation.pendingReview?.tweetId) {
-    const createdAt = formatDateTime(automation.pendingReview.createdAt);
-    automationPendingValue.textContent = `${createdAt} · ${truncateText(automation.pendingReview.tweetText, 72)}`;
-  } else {
-    automationPendingValue.textContent = "None";
+    return {
+      meta: `Pending since ${formatDateTime(automation.pendingReview.createdAt)}.`,
+      tone: "warning",
+      value: "Review needed",
+    };
   }
 
-  automationErrorValue.textContent = automation.lastError || "None";
-  automationInputTokensValue.textContent = formatTokenCount(automation.tokenUsage?.totalInputTokens || 0);
-  automationOutputTokensValue.textContent = formatTokenCount(automation.tokenUsage?.totalOutputTokens || 0);
-  automationReasoningTokensValue.textContent = formatTokenCount(automation.tokenUsage?.totalReasoningTokens || 0);
-  automationTotalTokensValue.textContent = formatTokenCount(automation.tokenUsage?.totalTokens || 0);
+  if (automation.lastDecision?.decidedAt) {
+    return {
+      meta: `Last decision ${formatDateTime(automation.lastDecision.decidedAt)}.`,
+      tone: "success",
+      value: "Healthy",
+    };
+  }
 
+  return {
+    meta: "Polling every 5 minutes via GitHub Actions.",
+    tone: "muted",
+    value: "Healthy",
+  };
+};
+
+const renderTraffic = (vercelAnalyticsUrl) => {
+  if (!trafficValue || !trafficMetaValue || !vercelAnalyticsLink) {
+    return;
+  }
+
+  trafficValue.textContent = vercelAnalyticsUrl ? "Dashboard linked" : "Dashboard not linked";
+  trafficMetaValue.textContent = vercelAnalyticsUrl
+    ? "Use Vercel Analytics for visitor and pageview totals."
+    : "Add VERCEL_ANALYTICS_URL to jump straight into your analytics dashboard.";
+  vercelAnalyticsLink.hidden = !vercelAnalyticsUrl;
+
+  if (vercelAnalyticsUrl) {
+    vercelAnalyticsLink.href = vercelAnalyticsUrl;
+  } else {
+    vercelAnalyticsLink.removeAttribute("href");
+  }
+};
+
+const renderAutomationLog = (automation = {}) => {
   if (!automationLog) {
     return;
   }
@@ -119,7 +215,8 @@ const renderAutomation = (automation = {}) => {
 
       const verdict = document.createElement("strong");
       verdict.className = "config-log-verdict";
-      verdict.textContent = formatAutomationVerdict(entry.verdict);
+      verdict.textContent = formatAutomationVerdictShort(entry.verdict);
+      verdict.dataset.tone = entry.verdict;
 
       const timestamp = document.createElement("span");
       timestamp.className = "config-log-meta";
@@ -148,28 +245,49 @@ const renderAutomation = (automation = {}) => {
   );
 };
 
-const formatResetTime = (timestamp) => {
-  if (!timestamp) {
-    return "No timer running";
+const renderAutomation = (automation = {}) => {
+  if (!automationHealthValue) {
+    return;
   }
 
-  const remainingMs = timestamp - Date.now();
+  const health = getAutomationHealth(automation);
+  automationHealthValue.textContent = health.value;
+  automationHealthValue.dataset.tone = health.tone;
+  automationHealthMeta.textContent = health.meta;
 
-  if (remainingMs <= 0) {
-    return "Switching back to No now";
+  setLinkState(
+    automationLastSeenValue,
+    automation.lastSeenTweetUrl,
+    "Open tweet on X",
+    automation.lastSeenTweetId ? "Link unavailable" : "Not set",
+  );
+
+  if (automation.lastDecision?.verdict) {
+    automationDecisionValue.textContent = `${formatAutomationVerdict(automation.lastDecision.verdict)} · ${formatDateTime(automation.lastDecision.decidedAt)}`;
+  } else {
+    automationDecisionValue.textContent = "None yet";
   }
 
-  const totalMinutes = Math.ceil(remainingMs / (60 * 1000));
-  const hours = Math.floor(totalMinutes / 60);
-  const minutes = totalMinutes % 60;
-  const absoluteTime = new Intl.DateTimeFormat(undefined, {
-    dateStyle: "medium",
-    timeStyle: "short",
-  }).format(timestamp);
+  if (automation.pendingReview?.tweetId) {
+    const summary = `${formatDateTime(automation.pendingReview.createdAt)} · ${truncateText(automation.pendingReview.tweetText, 56)}`;
+    setLinkState(automationPendingValue, automation.pendingReview.tweetUrl, summary, "None");
+  } else {
+    setLinkState(automationPendingValue, null, "", "None");
+  }
 
-  return hours > 0
-    ? `${hours}h ${minutes}m left, resets ${absoluteTime}`
-    : `${minutes}m left, resets ${absoluteTime}`;
+  automationErrorValue.textContent = automation.lastError || "None";
+  automationErrorValue.dataset.tone = automation.lastError ? "error" : "muted";
+  automationInputTokensValue.textContent = formatTokenCount(automation.tokenUsage?.totalInputTokens || 0);
+  automationOutputTokensValue.textContent = formatTokenCount(automation.tokenUsage?.totalOutputTokens || 0);
+  automationReasoningTokensValue.textContent = formatTokenCount(automation.tokenUsage?.totalReasoningTokens || 0);
+  automationTotalTokensValue.textContent = formatTokenCount(automation.tokenUsage?.totalTokens || 0);
+  automationStatusNote.textContent = automation.lastError
+    ? `Latest issue: ${automation.lastError}`
+    : automation.pendingReview?.tweetId
+      ? "Pending manual review for the most recent tweet."
+      : "Polls every 5 minutes via GitHub Actions.";
+
+  renderAutomationLog(automation);
 };
 
 const showAuth = (message = "") => {
@@ -236,10 +354,11 @@ const runConfigAction = async (callback, successMessage = "") => {
   } catch (error) {
     if (error?.status === 401) {
       showAuth("Session expired");
-      return;
+      return null;
     }
 
     showNotice(error.message || "Unable to update config", "error");
+    return null;
   }
 };
 
@@ -247,10 +366,16 @@ const renderConfig = (config) => {
   showControls();
   statusValue.textContent = config.state === "yes" ? "Yes" : "No";
   statusValue.dataset.state = config.state;
+  configUpdatedValue.textContent = formatDateTime(config.updatedAt);
   hoursInput.value = String(config.autoResetHours);
-  timerValue.textContent = config.state === "yes" ? formatResetTime(config.resetAt) : "State is No";
   currentNoSubtitles = Array.isArray(config.noSubtitles) ? [...config.noSubtitles] : [];
+
+  const resetDisplay = getResetDisplay(config.state, config.resetAt);
+  timerValue.textContent = resetDisplay.value;
+  resetMetaValue.textContent = resetDisplay.meta;
+
   renderAutomation(config.automation);
+  renderTraffic(config.vercelAnalyticsUrl);
 
   stateButtons.forEach((button) => {
     const isActive = button.dataset.nextState === config.state;
@@ -319,6 +444,16 @@ const refreshConfig = async () => {
   }
 };
 
+const saveHours = async () => {
+  await runConfigAction(async () => {
+    const config = await updateAdminConfig({
+      applyTimerToCurrentState: true,
+      autoResetHours: hoursInput.value,
+    });
+    renderConfig(config);
+  }, "Auto-reset timer saved.");
+};
+
 authForm?.addEventListener("submit", async (event) => {
   event.preventDefault();
   authError.textContent = "";
@@ -342,18 +477,19 @@ stateButtons.forEach((button) => {
   });
 });
 
-saveButton?.addEventListener("click", async () => {
-  await runConfigAction(async () => {
-    const config = await updateAdminConfig({
-      applyTimerToCurrentState: true,
-      autoResetHours: hoursInput.value,
-    });
-    renderConfig(config);
-  }, "Auto-reset timer saved.");
-});
+saveButton?.addEventListener("click", saveHours);
 
 hoursInput?.addEventListener("input", () => {
   clearNotice();
+});
+
+hoursInput?.addEventListener("keydown", async (event) => {
+  if (event.key !== "Enter") {
+    return;
+  }
+
+  event.preventDefault();
+  await saveHours();
 });
 
 addSubtitleButton?.addEventListener("click", () => {
@@ -369,21 +505,6 @@ saveSubtitlesButton?.addEventListener("click", async () => {
     });
     renderConfig(config);
   }, "Subtitles saved.");
-});
-
-hoursInput?.addEventListener("keydown", async (event) => {
-  if (event.key !== "Enter") {
-    return;
-  }
-
-  event.preventDefault();
-  await runConfigAction(async () => {
-    const config = await updateAdminConfig({
-      applyTimerToCurrentState: true,
-      autoResetHours: hoursInput.value,
-    });
-    renderConfig(config);
-  }, "Auto-reset timer saved.");
 });
 
 logoutButton?.addEventListener("click", async () => {
