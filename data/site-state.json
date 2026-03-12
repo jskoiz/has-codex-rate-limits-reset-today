@@ -1,9 +1,9 @@
 {
-  "currentState": "yes",
+  "currentState": "no",
   "autoResetHours": 20,
   "noSubtitles": [
     "Limits have not reset yet."
   ],
-  "resetAt": 1773400669223,
-  "updatedAt": 1773328669223
+  "resetAt": null,
+  "updatedAt": 1773328675103
 }
