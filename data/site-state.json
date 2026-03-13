@@ -2,8 +2,9 @@
   "currentState": "no",
   "autoResetHours": 20,
   "noSubtitles": [
-    "Back to your local model peasant"
+    "Back to your local model peasant",
+    "But that's okay, because everything is running smoothly..right?"
   ],
   "resetAt": null,
-  "updatedAt": 1773348349945
+  "updatedAt": 1773433590655
 }
