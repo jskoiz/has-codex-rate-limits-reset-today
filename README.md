@@ -13,7 +13,7 @@ I put the whole thing together in Codex as a small end-to-end project: UI, API r
 - Static frontend with plain HTML, CSS, and JavaScript
 - Vercel serverless functions for the API
 - GitHub Actions for the automated tweet monitor
-- GitHub as the backing store for the shared site state
+- GitHub as the backing store for the shared public site state
 - Cookie-based admin auth for the config page
 
 ## How It Works
@@ -28,6 +28,7 @@ I put the whole thing together in Codex as a small end-to-end project: UI, API r
 
 When the state is set to `yes`, the app also stores a reset time so it can automatically fall back to `no` after the configured number of hours.
 When the AI is uncertain about a new tweet, the app emails a review link to the configured address and leaves the public state unchanged.
+The tracked `data/site-state.json` file now contains only the public status fields plus an encrypted private blob for admin sessions and automation internals, so raw auth and review metadata are not exposed if the repo is public.
 
 ## Deployment
 
@@ -41,8 +42,11 @@ The app is connected to a GitHub repository for persistent state. Deployment exp
 - `GITHUB_REPO_OWNER`
 - `GITHUB_REPO_NAME`
 - `GITHUB_REPO_BRANCH`
+- `GITHUB_COMMIT_NAME`
+- `GITHUB_COMMIT_EMAIL`
 - `SITE_ADMIN_PASSWORD`
 - `SITE_SESSION_SECRET`
+- `SITE_PRIVATE_STATE_SECRET`
 - `RETTIWT_API_KEY`
 - `OPENAI_API_KEY`
 - `OPENAI_REASONING_MODEL`
@@ -52,7 +56,7 @@ The app is connected to a GitHub repository for persistent state. Deployment exp
 - `SITE_BASE_URL`
 - `CRON_SECRET`
 
-The tracked state lives in `data/site-state.json`.
+The tracked public state lives in `data/site-state.json`.
 The included GitHub Actions workflow polls `/api/automation/poll` every 5 minutes.
 
 `RETTIWT_API_KEY` is used to search `@thsottiaux` tweets from the past day, which is more reliable than the guest timeline feed for this monitor.

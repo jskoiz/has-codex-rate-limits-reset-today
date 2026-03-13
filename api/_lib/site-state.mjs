@@ -11,7 +11,10 @@ const MAX_TRACKED_LOGIN_FAILURES = 128;
 const MAX_ACTIVE_SESSIONS = 32;
 const MAX_GITHUB_WRITE_ATTEMPTS = 3;
 const MAX_AUTOMATION_LOG_ENTRIES = 20;
+const PRIVATE_STATE_VERSION = 1;
 const SITE_STATE_PATH = "data/site-state.json";
+const DEFAULT_GITHUB_COMMIT_NAME = "codex-limit-bot";
+const DEFAULT_GITHUB_COMMIT_EMAIL = "codex-limit-bot@users.noreply.github.com";
 
 const jsonHeaders = {
   "content-type": "application/json; charset=utf-8",
@@ -49,6 +52,8 @@ const createSignature = (payload, secret) =>
   crypto.createHmac("sha256", secret).update(payload).digest("base64url");
 
 const getSessionSecret = () => process.env.SITE_SESSION_SECRET || process.env.ADMIN_SESSION_SECRET || "";
+
+const getPrivateStateSecret = () => process.env.SITE_PRIVATE_STATE_SECRET || getSessionSecret();
 
 const hashValue = (value) => crypto.createHash("sha256").update(value).digest("hex");
 
@@ -320,23 +325,131 @@ const normalizeAuthState = (value, now = Date.now()) => {
   };
 };
 
-export const normalizeStoredState = (value) => {
+const normalizePublicState = (value) => {
   const currentState = normalizeState(value?.currentState);
-  const autoResetHours = normalizeHours(value?.autoResetHours);
-  const noSubtitles = normalizeNoSubtitles(value?.noSubtitles);
-  const resetAt = Number.isFinite(value?.resetAt) ? value.resetAt : null;
-  const updatedAt = Number.isFinite(value?.updatedAt) ? value.updatedAt : null;
-  const auth = normalizeAuthState(value?.auth);
-  const automation = normalizeAutomationState(value?.automation);
 
   return {
-    auth,
-    automation,
     currentState,
-    autoResetHours,
-    noSubtitles,
-    resetAt: currentState === "yes" ? resetAt : null,
-    updatedAt,
+    autoResetHours: normalizeHours(value?.autoResetHours),
+    noSubtitles: normalizeNoSubtitles(value?.noSubtitles),
+    resetAt: currentState === "yes" && Number.isFinite(value?.resetAt) ? value.resetAt : null,
+    updatedAt: Number.isFinite(value?.updatedAt) ? value.updatedAt : null,
+  };
+};
+
+const normalizePrivateState = (value) => ({
+  auth: normalizeAuthState(value?.auth),
+  automation: normalizeAutomationState(value?.automation),
+});
+
+const createPrivateStateKey = (secret) => crypto.createHash("sha256").update(secret).digest();
+
+const encryptPrivateState = (value) => {
+  const secret = getPrivateStateSecret();
+
+  if (!secret) {
+    throw new Error("Missing SITE_PRIVATE_STATE_SECRET or SITE_SESSION_SECRET environment variable");
+  }
+
+  const iv = crypto.randomBytes(12);
+  const cipher = crypto.createCipheriv("aes-256-gcm", createPrivateStateKey(secret), iv);
+  const plaintext = JSON.stringify(normalizePrivateState(value));
+  const ciphertext = Buffer.concat([cipher.update(plaintext, "utf8"), cipher.final()]);
+  const tag = cipher.getAuthTag();
+
+  return {
+    ciphertext: ciphertext.toString("base64url"),
+    iv: iv.toString("base64url"),
+    tag: tag.toString("base64url"),
+    version: PRIVATE_STATE_VERSION,
+  };
+};
+
+const decryptPrivateState = (value) => {
+  if (!value || typeof value !== "object") {
+    return normalizePrivateState({});
+  }
+
+  const ciphertext = typeof value?.ciphertext === "string" ? value.ciphertext : "";
+  const iv = typeof value?.iv === "string" ? value.iv : "";
+  const tag = typeof value?.tag === "string" ? value.tag : "";
+
+  if (!ciphertext || !iv || !tag) {
+    return normalizePrivateState({});
+  }
+
+  if (value.version !== PRIVATE_STATE_VERSION) {
+    throw new Error(`Unsupported private state version: ${value.version}`);
+  }
+
+  const secret = getPrivateStateSecret();
+
+  if (!secret) {
+    throw new Error("Missing SITE_PRIVATE_STATE_SECRET or SITE_SESSION_SECRET environment variable");
+  }
+
+  try {
+    const decipher = crypto.createDecipheriv(
+      "aes-256-gcm",
+      createPrivateStateKey(secret),
+      Buffer.from(iv, "base64url"),
+    );
+    decipher.setAuthTag(Buffer.from(tag, "base64url"));
+
+    const plaintext = Buffer.concat([
+      decipher.update(Buffer.from(ciphertext, "base64url")),
+      decipher.final(),
+    ]).toString("utf8");
+
+    return normalizePrivateState(JSON.parse(plaintext));
+  } catch (error) {
+    throw new Error(`Unable to decrypt private state: ${error instanceof Error ? error.message : "Unknown error"}`);
+  }
+};
+
+const getStoredPrivateState = (value) => {
+  if (value?.privateState && typeof value.privateState === "object") {
+    return decryptPrivateState(value.privateState);
+  }
+
+  return normalizePrivateState({
+    auth: value?.auth,
+    automation: value?.automation,
+  });
+};
+
+export const normalizeStoredState = (value) => ({
+  ...normalizePublicState(value),
+  ...getStoredPrivateState(value),
+});
+
+export const serializeStoredState = (value) => {
+  const normalizedState = normalizeStoredState(value);
+
+  return {
+    ...normalizePublicState(normalizedState),
+    privateState: encryptPrivateState(normalizedState),
+  };
+};
+
+const getTrimmedEnv = (key, fallback = "") => {
+  const value = process.env[key];
+  return typeof value === "string" ? value.trim() : fallback;
+};
+
+const getGithubCommitMetadata = () => {
+  const commitName = getTrimmedEnv("GITHUB_COMMIT_NAME", DEFAULT_GITHUB_COMMIT_NAME);
+  const commitEmail = getTrimmedEnv("GITHUB_COMMIT_EMAIL", DEFAULT_GITHUB_COMMIT_EMAIL);
+
+  return {
+    author: {
+      email: getTrimmedEnv("GITHUB_AUTHOR_EMAIL", commitEmail),
+      name: getTrimmedEnv("GITHUB_AUTHOR_NAME", commitName),
+    },
+    committer: {
+      email: getTrimmedEnv("GITHUB_COMMITTER_EMAIL", commitEmail),
+      name: getTrimmedEnv("GITHUB_COMMITTER_NAME", commitName),
+    },
   };
 };
 
@@ -347,6 +460,7 @@ const getGithubConfig = () => {
   const branch = process.env.GITHUB_REPO_BRANCH || "main";
 
   return {
+    ...getGithubCommitMetadata(),
     branch,
     owner,
     repo,
@@ -468,6 +582,7 @@ const createGithubWriteError = (status, errorText) => {
 export const writeSiteState = async (nextState) => {
   const github = getGithubConfig();
   const normalizedState = normalizeStoredState(nextState);
+  const serializedState = serializeStoredState(normalizedState);
   const currentSha = typeof nextState?.sha === "string" ? nextState.sha : (await readGithubContentMeta()).sha;
   const response = await githubRequest(`/repos/${github.owner}/${github.repo}/contents/${SITE_STATE_PATH}`, {
     method: "PUT",
@@ -475,8 +590,10 @@ export const writeSiteState = async (nextState) => {
       "Content-Type": "application/json",
     },
     body: JSON.stringify({
+      author: github.author,
       branch: github.branch,
-      content: Buffer.from(JSON.stringify(normalizedState, null, 2) + "\n").toString("base64"),
+      committer: github.committer,
+      content: Buffer.from(JSON.stringify(serializedState, null, 2) + "\n").toString("base64"),
       message: `Update site state to ${normalizedState.currentState}`,
       sha: currentSha || undefined,
     }),

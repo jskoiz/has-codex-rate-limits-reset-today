@@ -1,7 +1,29 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 
-import { getDefaultAutomationState, normalizeStoredState } from "../api/_lib/site-state.mjs";
+import { getDefaultAutomationState, normalizeStoredState, serializeStoredState } from "../api/_lib/site-state.mjs";
+
+const withPrivateStateEnv = async (fn) => {
+  const previous = {
+    SITE_PRIVATE_STATE_SECRET: process.env.SITE_PRIVATE_STATE_SECRET,
+    SITE_SESSION_SECRET: process.env.SITE_SESSION_SECRET,
+  };
+
+  process.env.SITE_PRIVATE_STATE_SECRET = "private-state-test-secret";
+  process.env.SITE_SESSION_SECRET = "session-test-secret";
+
+  try {
+    return await fn();
+  } finally {
+    for (const [key, value] of Object.entries(previous)) {
+      if (value === undefined) {
+        delete process.env[key];
+      } else {
+        process.env[key] = value;
+      }
+    }
+  }
+};
 
 test("default automation state includes a nullable last seen tweet URL", () => {
   const automation = getDefaultAutomationState();
@@ -40,4 +62,42 @@ test("normalizeStoredState derives a legacy last seen tweet URL from recent auto
 
   assert.equal(state.automation.lastSeenTweetId, "123");
   assert.equal(state.automation.lastSeenTweetUrl, "https://x.com/thsottiaux/status/123");
+});
+
+test("serializeStoredState keeps auth and automation data encrypted", async () => {
+  await withPrivateStateEnv(async () => {
+    const stored = serializeStoredState({
+      auth: {
+        sessions: [
+          {
+            createdAt: 10,
+            exp: Date.now() + 60_000,
+            id: "session-1",
+          },
+        ],
+      },
+      automation: {
+        lastSeenTweetId: "123",
+        lastSeenTweetUrl: "https://x.com/thsottiaux/status/123",
+      },
+      autoResetHours: 6,
+      currentState: "yes",
+      noSubtitles: ["Not yet"],
+      resetAt: 20,
+      updatedAt: 30,
+    });
+
+    assert.equal("auth" in stored, false);
+    assert.equal("automation" in stored, false);
+    assert.equal(typeof stored.privateState?.ciphertext, "string");
+    assert.equal(typeof stored.privateState?.iv, "string");
+    assert.equal(typeof stored.privateState?.tag, "string");
+
+    const roundTrip = normalizeStoredState(stored);
+
+    assert.equal(roundTrip.currentState, "yes");
+    assert.equal(roundTrip.auth.sessions[0]?.id, "session-1");
+    assert.equal(roundTrip.automation.lastSeenTweetId, "123");
+    assert.equal(roundTrip.automation.lastSeenTweetUrl, "https://x.com/thsottiaux/status/123");
+  });
 });
