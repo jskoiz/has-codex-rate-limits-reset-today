@@ -40,4 +40,26 @@ jobs:
         run: vercel build --prod --token="${{ secrets.VERCEL_TOKEN }}"
 
       - name: Deploy production output
-        run: vercel deploy --prebuilt --prod --token="${{ secrets.VERCEL_TOKEN }}"
+        run: |
+          set -euo pipefail
+          log_file="$(mktemp)"
+          trap 'rm -f "$log_file"' EXIT
+
+          set +e
+          vercel deploy --prebuilt --prod --token="${{ secrets.VERCEL_TOKEN }}" >"$log_file" 2>&1
+          deploy_status=$?
+          set -e
+
+          cat "$log_file"
+          deployment_url="$(grep -Eo 'https://[^ ]+\\.vercel\\.app' "$log_file" | tail -n 1)"
+
+          if [ -z "$deployment_url" ]; then
+            exit "$deploy_status"
+          fi
+
+          if [ "$deploy_status" -ne 0 ]; then
+            echo "Vercel CLI exited with $deploy_status; confirming deployment state for $deployment_url."
+          fi
+
+          vercel inspect "$deployment_url" --wait --timeout 5m --format=json --token="${{ secrets.VERCEL_TOKEN }}" \
+            | jq -e '.readyState == "READY"'
