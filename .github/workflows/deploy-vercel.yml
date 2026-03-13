@@ -51,7 +51,7 @@ jobs:
           set -e
 
           cat "$log_file"
-          deployment_url="$(grep -Eo 'https://[^ ]+\\.vercel\\.app' "$log_file" | tail -n 1)"
+          deployment_url="$(grep -Eo 'https://[^ ]+\.vercel\.app' "$log_file" | tail -n 1 || true)"
 
           if [ -z "$deployment_url" ]; then
             exit "$deploy_status"
