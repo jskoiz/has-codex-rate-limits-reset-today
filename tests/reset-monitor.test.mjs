@@ -26,6 +26,7 @@ const withAutomationEnv = async (fn) => {
   const previous = {
     AI_REVIEW_EMAIL: process.env.AI_REVIEW_EMAIL,
     OPENAI_API_KEY: process.env.OPENAI_API_KEY,
+    RETTIWT_API_KEY: process.env.RETTIWT_API_KEY,
     RESEND_API_KEY: process.env.RESEND_API_KEY,
     RESEND_FROM_EMAIL: process.env.RESEND_FROM_EMAIL,
     SITE_BASE_URL: process.env.SITE_BASE_URL,
@@ -36,6 +37,7 @@ const withAutomationEnv = async (fn) => {
   process.env.RESEND_FROM_EMAIL = "sender@example.com";
   process.env.AI_REVIEW_EMAIL = "reviewer@example.com";
   process.env.SITE_BASE_URL = "https://example.com";
+  process.env.RETTIWT_API_KEY = "test-rettiwt";
 
   try {
     return await fn();

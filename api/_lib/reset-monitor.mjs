@@ -5,7 +5,8 @@ import { buildNextState, readSiteState, updateSiteState } from "./site-state.mjs
 
 const TARGET_USERNAME = "thsottiaux";
 const DEFAULT_MODEL = "gpt-5.4";
-const TIMELINE_BATCH_SIZE = 10;
+const RECENT_TWEET_LOOKBACK_DAYS = 1;
+const SEARCH_BATCH_SIZE = 20;
 
 let openaiClient = null;
 let resendClient = null;
@@ -45,9 +46,11 @@ Keep the rationale brief and concrete.
 const getBaseUrl = () => (process.env.SITE_BASE_URL || "").replace(/\/+$/, "");
 
 const getReviewEmail = () => (process.env.AI_REVIEW_EMAIL || "").trim();
+const getRettiwtApiKey = () => (process.env.RETTIWT_API_KEY || "").trim();
 
 const getRequiredConfigError = () => {
   const missing = [
+    ["RETTIWT_API_KEY", getRettiwtApiKey()],
     ["OPENAI_API_KEY", process.env.OPENAI_API_KEY],
     ["RESEND_API_KEY", process.env.RESEND_API_KEY],
     ["RESEND_FROM_EMAIL", process.env.RESEND_FROM_EMAIL],
@@ -232,13 +235,21 @@ const recordAutomationError = async (message) => {
   }
 };
 
-const fetchLatestTimelineTweets = async () => {
-  const Rettiwt = await getRettiwt();
-  const rettiwt = new Rettiwt();
-  const user = await rettiwt.user.details(TARGET_USERNAME);
-  const timeline = await rettiwt.user.timeline(user.id, TIMELINE_BATCH_SIZE);
+const getRecentTweetSearchStartDate = () =>
+  new Date(Date.now() - RECENT_TWEET_LOOKBACK_DAYS * 24 * 60 * 60 * 1000);
 
-  return Array.isArray(timeline?.list) ? timeline.list : [];
+const fetchRecentTweets = async () => {
+  const Rettiwt = await getRettiwt();
+  const rettiwt = new Rettiwt({ apiKey: getRettiwtApiKey() });
+  const searchResults = await rettiwt.tweet.search(
+    {
+      fromUsers: [TARGET_USERNAME],
+      startDate: getRecentTweetSearchStartDate(),
+    },
+    SEARCH_BATCH_SIZE,
+  );
+
+  return Array.isArray(searchResults?.list) ? searchResults.list : [];
 };
 
 const classifyTweet = async (tweet) => {
@@ -409,7 +420,7 @@ export const isAuthorizedAutomationRequest = (request) => {
 export const runResetMonitor = async (deps = {}) => {
   const configError = getRequiredConfigError();
   const readState = deps.readSiteState || readSiteState;
-  const fetchTweets = deps.fetchLatestTimelineTweets || fetchLatestTimelineTweets;
+  const fetchTweets = deps.fetchRecentTweets || deps.fetchLatestTimelineTweets || fetchRecentTweets;
   const classify = deps.classifyTweet || classifyTweet;
   const sendEmail = deps.sendReviewEmail || sendReviewEmail;
   const clearError = deps.clearAutomationError || clearAutomationError;

@@ -43,6 +43,7 @@ The app is connected to a GitHub repository for persistent state. Deployment exp
 - `GITHUB_REPO_BRANCH`
 - `SITE_ADMIN_PASSWORD`
 - `SITE_SESSION_SECRET`
+- `RETTIWT_API_KEY`
 - `OPENAI_API_KEY`
 - `OPENAI_REASONING_MODEL`
 - `RESEND_API_KEY`
@@ -53,6 +54,8 @@ The app is connected to a GitHub repository for persistent state. Deployment exp
 
 The tracked state lives in `data/site-state.json`.
 The included GitHub Actions workflow polls `/api/automation/poll` every 5 minutes.
+
+`RETTIWT_API_KEY` is used to search `@thsottiaux` tweets from the past day, which is more reliable than the guest timeline feed for this monitor.
 
 ## License
 
