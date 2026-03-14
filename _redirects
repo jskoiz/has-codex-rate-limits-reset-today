@@ -1,3 +1,2 @@
-/config /config.html 200
 /config/ /config 301
-/config/index.html /config 301
+/config.html /config 301
