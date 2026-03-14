@@ -1,0 +1,51 @@
+name: Deploy Cloudflare Pages
+
+on:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - "data/site-state.json"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: deploy-cloudflare-pages-production
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    env:
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_PAGES_PROJECT_NAME: ${{ vars.CLOUDFLARE_PAGES_PROJECT_NAME }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Setup Node
+        uses: actions/setup-node@v6
+        with:
+          node-version-file: ".nvmrc"
+          package-manager-cache: true
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install Wrangler
+        run: npm install --global wrangler@4.56.0
+
+      - name: Deploy to Cloudflare Pages
+        run: |
+          test -n "$CLOUDFLARE_ACCOUNT_ID"
+          test -n "$CLOUDFLARE_API_TOKEN"
+          test -n "$CLOUDFLARE_PAGES_PROJECT_NAME"
+
+          wrangler pages deploy . \
+            --project-name "$CLOUDFLARE_PAGES_PROJECT_NAME" \
+            --branch main \
+            --functions functions \
+            --commit-hash "${GITHUB_SHA}"

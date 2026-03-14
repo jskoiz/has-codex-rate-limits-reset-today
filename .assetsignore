@@ -1,0 +1,16 @@
+.claude/
+.github/
+.git/
+.gitignore
+.vercel/
+AGENTS.md
+LICENSE
+README.md
+api/
+functions/
+node_modules/
+package-lock.json
+package.json
+tests/
+vercel.json
+wrangler.toml

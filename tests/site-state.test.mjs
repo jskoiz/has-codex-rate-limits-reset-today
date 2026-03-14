@@ -1,7 +1,12 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 
-import { getDefaultAutomationState, normalizeStoredState, serializeStoredState } from "../api/_lib/site-state.mjs";
+import {
+  clearAdminSessionCookie,
+  getDefaultAutomationState,
+  normalizeStoredState,
+  serializeStoredState,
+} from "../api/_lib/site-state.mjs";
 
 const withPrivateStateEnv = async (fn) => {
   const previous = {
@@ -100,4 +105,12 @@ test("serializeStoredState keeps auth and automation data encrypted", async () =
     assert.equal(roundTrip.automation.lastSeenTweetId, "123");
     assert.equal(roundTrip.automation.lastSeenTweetUrl, "https://x.com/thsottiaux/status/123");
   });
+});
+
+test("clearAdminSessionCookie sets Secure only for HTTPS requests", () => {
+  const httpsCookie = clearAdminSessionCookie(new Request("https://example.com/config"));
+  const httpCookie = clearAdminSessionCookie(new Request("http://localhost:8788/config"));
+
+  assert.match(httpsCookie, /; Secure/);
+  assert.doesNotMatch(httpCookie, /; Secure/);
 });

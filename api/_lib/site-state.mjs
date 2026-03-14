@@ -17,8 +17,14 @@ const DEFAULT_GITHUB_COMMIT_NAME = "codex-limit-bot";
 const DEFAULT_GITHUB_COMMIT_EMAIL = "codex-limit-bot@users.noreply.github.com";
 
 const jsonHeaders = {
+  "cache-control": "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0",
+  "cdn-cache-control": "no-store",
   "content-type": "application/json; charset=utf-8",
-  "cache-control": "no-store",
+  expires: "0",
+  pragma: "no-cache",
+  "referrer-policy": "strict-origin-when-cross-origin",
+  "x-content-type-options": "nosniff",
+  "x-frame-options": "DENY",
 };
 
 const base64UrlEncode = (value) => Buffer.from(value).toString("base64url");
@@ -687,13 +693,31 @@ export const jsonResponse = (body, status = 200, extraHeaders = {}) =>
     },
   });
 
-export const clearAdminSessionCookie = () => {
-  const secureAttribute = process.env.VERCEL_ENV === "development" ? "" : "; Secure";
+const isSecureRequest = (request) => {
+  const forwardedProto = request?.headers?.get("x-forwarded-proto")?.split(",")[0]?.trim();
+
+  if (forwardedProto) {
+    return forwardedProto === "https";
+  }
+
+  if (request?.url) {
+    try {
+      return new URL(request.url).protocol === "https:";
+    } catch (_error) {
+      return process.env.NODE_ENV !== "development";
+    }
+  }
+
+  return process.env.NODE_ENV !== "development";
+};
+
+export const clearAdminSessionCookie = (request) => {
+  const secureAttribute = isSecureRequest(request) ? "; Secure" : "";
   return `${ADMIN_COOKIE_NAME}=; Path=/; HttpOnly${secureAttribute}; SameSite=Lax; Max-Age=0`;
 };
 
-const createAdminSessionCookie = (session) => {
-  const secureAttribute = process.env.VERCEL_ENV === "development" ? "" : "; Secure";
+const createAdminSessionCookie = (session, request) => {
+  const secureAttribute = isSecureRequest(request) ? "; Secure" : "";
   return `${ADMIN_COOKIE_NAME}=${createSessionToken(session)}; Path=/; HttpOnly${secureAttribute}; SameSite=Lax; Max-Age=${SESSION_TTL_SECONDS}`;
 };
 
@@ -783,7 +807,7 @@ export const issueAdminSession = async (request) => {
     };
   });
 
-  return createAdminSessionCookie(session);
+  return createAdminSessionCookie(session, request);
 };
 
 export const revokeAdminSession = async (request) => {

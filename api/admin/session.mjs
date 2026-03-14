@@ -62,7 +62,7 @@ export async function DELETE(request) {
     { ok: true },
     200,
     {
-      "set-cookie": clearAdminSessionCookie(),
+      "set-cookie": clearAdminSessionCookie(request),
     },
   );
 }

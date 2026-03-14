@@ -34,7 +34,7 @@ const automationStatusNote = document.querySelector("#automationStatusNote");
 const automationLog = document.querySelector("#automationLog");
 const trafficValue = document.querySelector("#trafficValue");
 const trafficMetaValue = document.querySelector("#trafficMetaValue");
-const vercelAnalyticsLink = document.querySelector("#vercelAnalyticsLink");
+const analyticsLink = document.querySelector("#analyticsLink");
 let currentNoSubtitles = [];
 let noticeTimeoutId = null;
 
@@ -183,21 +183,21 @@ const getAutomationHealth = (automation = {}) => {
   };
 };
 
-const renderTraffic = (vercelAnalyticsUrl) => {
-  if (!trafficValue || !trafficMetaValue || !vercelAnalyticsLink) {
+const renderTraffic = (analyticsUrl) => {
+  if (!trafficValue || !trafficMetaValue || !analyticsLink) {
     return;
   }
 
-  trafficValue.textContent = vercelAnalyticsUrl ? "Dashboard linked" : "Dashboard not linked";
-  trafficMetaValue.textContent = vercelAnalyticsUrl
-    ? "Use Vercel Analytics for visitor and pageview totals."
-    : "Add VERCEL_ANALYTICS_URL to jump straight into your analytics dashboard.";
-  vercelAnalyticsLink.hidden = !vercelAnalyticsUrl;
+  trafficValue.textContent = analyticsUrl ? "Dashboard linked" : "Dashboard not linked";
+  trafficMetaValue.textContent = analyticsUrl
+    ? "Use your analytics dashboard for visitor and pageview totals."
+    : "Add SITE_ANALYTICS_URL to jump straight into your traffic dashboard.";
+  analyticsLink.hidden = !analyticsUrl;
 
-  if (vercelAnalyticsUrl) {
-    vercelAnalyticsLink.href = vercelAnalyticsUrl;
+  if (analyticsUrl) {
+    analyticsLink.href = analyticsUrl;
   } else {
-    vercelAnalyticsLink.removeAttribute("href");
+    analyticsLink.removeAttribute("href");
   }
 };
 
@@ -383,7 +383,7 @@ const renderConfig = (config) => {
   resetMetaValue.textContent = resetDisplay.meta;
 
   renderAutomation(config.automation);
-  renderTraffic(config.vercelAnalyticsUrl);
+  renderTraffic(config.analyticsUrl || config.vercelAnalyticsUrl);
 
   stateButtons.forEach((button) => {
     const isActive = button.dataset.nextState === config.state;

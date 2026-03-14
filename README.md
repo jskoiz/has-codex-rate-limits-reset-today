@@ -11,7 +11,7 @@ I put the whole thing together in Codex as a small end-to-end project: UI, API r
 ## Stack
 
 - Static frontend with plain HTML, CSS, and JavaScript
-- Vercel serverless functions for the API
+- Cloudflare Pages Functions for the API
 - GitHub Actions for the automated tweet monitor
 - GitHub as the backing store for the shared public site state
 - Cookie-based admin auth for the config page
@@ -32,7 +32,15 @@ The tracked `data/site-state.json` file now contains only the public status fiel
 
 ## Deployment
 
-The site is deployed on Vercel. The frontend is served statically, and the API runs through Vercel functions.
+The site is deployed on Cloudflare Pages. The frontend is served statically, and the API runs through Pages Functions under `functions/api/*`.
+
+Static asset headers live in `_headers`, clean URL redirects live in `_redirects`, and Cloudflare Pages runtime settings live in `wrangler.toml`.
+
+Deployments run from GitHub Actions using Wrangler. Set these CI secrets and variables for the deploy workflow:
+
+- `CLOUDFLARE_API_TOKEN`
+- `CLOUDFLARE_ACCOUNT_ID`
+- `CLOUDFLARE_PAGES_PROJECT_NAME`
 
 ## Configuration
 
@@ -53,6 +61,7 @@ The app is connected to a GitHub repository for persistent state. Deployment exp
 - `RESEND_API_KEY`
 - `RESEND_FROM_EMAIL`
 - `AI_REVIEW_EMAIL`
+- `SITE_ANALYTICS_URL` (optional)
 - `SITE_BASE_URL`
 - `CRON_SECRET`
 
