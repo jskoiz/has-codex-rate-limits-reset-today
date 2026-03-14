@@ -68,9 +68,9 @@ const parseCookieHeader = (cookieHeader) => {
 const createSignature = (payload, secret) =>
   crypto.createHmac("sha256", secret).update(payload).digest("base64url");
 
-const getSessionSecret = () => getEnvValue("SITE_SESSION_SECRET", getEnvValue("ADMIN_SESSION_SECRET", ""));
+const getSessionSecret = () => getEnvValue("SITE_SESSION_SECRET", "").trim() || getEnvValue("ADMIN_SESSION_SECRET", "").trim();
 
-const getPrivateStateSecret = () => getEnvValue("SITE_PRIVATE_STATE_SECRET", getSessionSecret());
+const getPrivateStateSecret = () => getEnvValue("SITE_PRIVATE_STATE_SECRET", "").trim() || getSessionSecret();
 
 const hashValue = (value) => crypto.createHash("sha256").update(value).digest("hex");
 
