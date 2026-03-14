@@ -27,6 +27,17 @@ const jsonHeaders = {
   "x-frame-options": "DENY",
 };
 
+export const getEnvValue = (key, fallback = "") => {
+  const runtimeValue = globalThis.__CF_PAGES_ENV__?.[key];
+
+  if (typeof runtimeValue === "string") {
+    return runtimeValue;
+  }
+
+  const envValue = process.env[key];
+  return typeof envValue === "string" ? envValue : fallback;
+};
+
 const base64UrlEncode = (value) => Buffer.from(value).toString("base64url");
 
 const base64UrlDecode = (value) => Buffer.from(value, "base64url").toString("utf8");
@@ -57,9 +68,9 @@ const parseCookieHeader = (cookieHeader) => {
 const createSignature = (payload, secret) =>
   crypto.createHmac("sha256", secret).update(payload).digest("base64url");
 
-const getSessionSecret = () => process.env.SITE_SESSION_SECRET || process.env.ADMIN_SESSION_SECRET || "";
+const getSessionSecret = () => getEnvValue("SITE_SESSION_SECRET", getEnvValue("ADMIN_SESSION_SECRET", ""));
 
-const getPrivateStateSecret = () => process.env.SITE_PRIVATE_STATE_SECRET || getSessionSecret();
+const getPrivateStateSecret = () => getEnvValue("SITE_PRIVATE_STATE_SECRET", getSessionSecret());
 
 const hashValue = (value) => crypto.createHash("sha256").update(value).digest("hex");
 
@@ -439,8 +450,7 @@ export const serializeStoredState = (value) => {
 };
 
 const getTrimmedEnv = (key, fallback = "") => {
-  const value = process.env[key];
-  return typeof value === "string" ? value.trim() : fallback;
+  return getEnvValue(key, fallback).trim();
 };
 
 const getGithubCommitMetadata = () => {
@@ -704,11 +714,11 @@ const isSecureRequest = (request) => {
     try {
       return new URL(request.url).protocol === "https:";
     } catch (_error) {
-      return process.env.NODE_ENV !== "development";
+      return getEnvValue("NODE_ENV", "") !== "development";
     }
   }
 
-  return process.env.NODE_ENV !== "development";
+  return getEnvValue("NODE_ENV", "") !== "development";
 };
 
 export const clearAdminSessionCookie = (request) => {
@@ -852,7 +862,7 @@ export const isAuthorizedRequest = async (request) => {
   return current.auth.sessions.some((entry) => entry.id === payload.sid && entry.exp === payload.exp);
 };
 
-export const getAdminPassword = () => process.env.SITE_ADMIN_PASSWORD || "";
+export const getAdminPassword = () => getEnvValue("SITE_ADMIN_PASSWORD", "");
 
 export const getDefaultAutoResetHours = () => DEFAULT_AUTO_RESET_HOURS;
 export const getDefaultNoSubtitles = () => [...DEFAULT_NO_SUBTITLES];

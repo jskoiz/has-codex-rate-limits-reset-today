@@ -1,7 +1,7 @@
 import OpenAI from "openai";
 import { Resend } from "resend";
 
-import { buildNextState, readSiteState, updateSiteState } from "./site-state.mjs";
+import { buildNextState, getEnvValue, readSiteState, updateSiteState } from "./site-state.mjs";
 
 const TARGET_USERNAME = "thsottiaux";
 const DEFAULT_MODEL = "gpt-5.4";
@@ -43,17 +43,17 @@ Prefer caution over guessing. Replies and quote tweets may provide context, but 
 Keep the rationale brief and concrete.
 `.trim();
 
-const getBaseUrl = () => (process.env.SITE_BASE_URL || "").replace(/\/+$/, "");
+const getBaseUrl = () => getEnvValue("SITE_BASE_URL", "").replace(/\/+$/, "");
 
-const getReviewEmail = () => (process.env.AI_REVIEW_EMAIL || "").trim();
-const getRettiwtApiKey = () => (process.env.RETTIWT_API_KEY || "").trim();
+const getReviewEmail = () => getEnvValue("AI_REVIEW_EMAIL", "").trim();
+const getRettiwtApiKey = () => getEnvValue("RETTIWT_API_KEY", "").trim();
 
 const getRequiredConfigError = () => {
   const missing = [
     ["RETTIWT_API_KEY", getRettiwtApiKey()],
-    ["OPENAI_API_KEY", process.env.OPENAI_API_KEY],
-    ["RESEND_API_KEY", process.env.RESEND_API_KEY],
-    ["RESEND_FROM_EMAIL", process.env.RESEND_FROM_EMAIL],
+    ["OPENAI_API_KEY", getEnvValue("OPENAI_API_KEY", "")],
+    ["RESEND_API_KEY", getEnvValue("RESEND_API_KEY", "")],
+    ["RESEND_FROM_EMAIL", getEnvValue("RESEND_FROM_EMAIL", "")],
     ["AI_REVIEW_EMAIL", getReviewEmail()],
     ["SITE_BASE_URL", getBaseUrl()],
   ]
@@ -70,7 +70,7 @@ const getRequiredConfigError = () => {
 const getOpenAIClient = () => {
   if (!openaiClient) {
     openaiClient = new OpenAI({
-      apiKey: process.env.OPENAI_API_KEY,
+      apiKey: getEnvValue("OPENAI_API_KEY", ""),
     });
   }
 
@@ -79,7 +79,7 @@ const getOpenAIClient = () => {
 
 const getResendClient = () => {
   if (!resendClient) {
-    resendClient = new Resend(process.env.RESEND_API_KEY);
+    resendClient = new Resend(getEnvValue("RESEND_API_KEY", ""));
   }
 
   return resendClient;
@@ -254,7 +254,7 @@ const fetchRecentTweets = async () => {
 
 const classifyTweet = async (tweet) => {
   const response = await getOpenAIClient().responses.create({
-    model: process.env.OPENAI_REASONING_MODEL || DEFAULT_MODEL,
+    model: getEnvValue("OPENAI_REASONING_MODEL", "") || DEFAULT_MODEL,
     reasoning: {
       effort: "medium",
     },
@@ -324,7 +324,7 @@ const classifyTweet = async (tweet) => {
 const sendReviewEmail = async (tweet, classification) => {
   const configUrl = `${getBaseUrl()}/config`;
   const { error } = await getResendClient().emails.send({
-    from: process.env.RESEND_FROM_EMAIL,
+    from: getEnvValue("RESEND_FROM_EMAIL", ""),
     subject: "Review possible Codex reset tweet",
     text: [
       "The Codex reset monitor found a tweet that might indicate limits were reset.",
@@ -408,7 +408,7 @@ const markTweetAsResetConfirmed = async (tweet, classification) =>
   });
 
 export const isAuthorizedAutomationRequest = (request) => {
-  const secret = process.env.CRON_SECRET || "";
+  const secret = getEnvValue("CRON_SECRET", "");
 
   if (!secret) {
     return false;

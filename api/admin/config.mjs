@@ -3,6 +3,7 @@ import {
   getDefaultAutoResetHours,
   getDefaultAutomationState,
   getDefaultNoSubtitles,
+  getEnvValue,
   isAuthorizedRequest,
   jsonResponse,
   readJsonBody,
@@ -14,7 +15,9 @@ const unauthorized = () => jsonResponse({ error: "Unauthorized" }, 401);
 
 const getAnalyticsUrl = () => {
   const value =
-    process.env.SITE_ANALYTICS_URL || process.env.VERCEL_ANALYTICS_DASHBOARD_URL || process.env.VERCEL_ANALYTICS_URL || "";
+    getEnvValue("SITE_ANALYTICS_URL", "") ||
+    getEnvValue("VERCEL_ANALYTICS_DASHBOARD_URL", "") ||
+    getEnvValue("VERCEL_ANALYTICS_URL", "");
   const trimmed = value.trim();
   return trimmed || null;
 };

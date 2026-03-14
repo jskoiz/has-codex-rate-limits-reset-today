@@ -1,4 +1,6 @@
 const assignCloudflareEnv = (env = {}) => {
+  globalThis.__CF_PAGES_ENV__ = env;
+
   if (!globalThis.process?.env) {
     return;
   }
