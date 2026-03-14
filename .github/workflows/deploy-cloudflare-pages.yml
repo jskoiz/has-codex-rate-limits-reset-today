@@ -47,5 +47,4 @@ jobs:
           wrangler pages deploy . \
             --project-name "$CLOUDFLARE_PAGES_PROJECT_NAME" \
             --branch main \
-            --functions functions \
             --commit-hash "${GITHUB_SHA}"
