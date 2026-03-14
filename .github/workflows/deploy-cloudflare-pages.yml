@@ -48,3 +48,7 @@ jobs:
             --project-name "$CLOUDFLARE_PAGES_PROJECT_NAME" \
             --branch main \
             --commit-hash "${GITHUB_SHA}"
+
+      - name: Deploy apex proxy Worker
+        run: |
+          wrangler deploy --config wrangler.apex-proxy.toml
