@@ -1,0 +1,70 @@
+name: Cutover Cloudflare DNS
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  cutover:
+    runs-on: ubuntu-latest
+    env:
+      ZONE_ID: eee29bf21e42f45be376df2e0847a214
+      APEX_NAME: hascodexratelimitreset.today
+      WWW_NAME: www.hascodexratelimitreset.today
+      VPS_IPV4: 44.240.202.85
+      VPS_IPV6: 2600:1f14:2138:e800:d858:cfc:d48a:2dda
+    steps:
+      - name: Rewrite apex DNS to Lightsail
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: |
+          set -euo pipefail
+
+          api() {
+            curl -fsS \
+              -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
+              -H "Content-Type: application/json" \
+              "$@"
+          }
+
+          delete_name_records() {
+            local name="$1"
+            local ids
+            ids=$(api "https://api.cloudflare.com/client/v4/zones/$ZONE_ID/dns_records?name=$name&per_page=100" | jq -r '.result[]?.id')
+            if [ -z "$ids" ]; then
+              return
+            fi
+
+            while IFS= read -r id; do
+              [ -n "$id" ] || continue
+              api -X DELETE "https://api.cloudflare.com/client/v4/zones/$ZONE_ID/dns_records/$id" >/dev/null
+            done <<< "$ids"
+          }
+
+          delete_name_records "$APEX_NAME"
+          delete_name_records "$WWW_NAME"
+
+          api -X POST "https://api.cloudflare.com/client/v4/zones/$ZONE_ID/dns_records" \
+            --data "{\"type\":\"A\",\"name\":\"$APEX_NAME\",\"content\":\"$VPS_IPV4\",\"ttl\":120,\"proxied\":false}" >/dev/null
+
+          api -X POST "https://api.cloudflare.com/client/v4/zones/$ZONE_ID/dns_records" \
+            --data "{\"type\":\"AAAA\",\"name\":\"$APEX_NAME\",\"content\":\"$VPS_IPV6\",\"ttl\":120,\"proxied\":false}" >/dev/null
+
+          api -X POST "https://api.cloudflare.com/client/v4/zones/$ZONE_ID/dns_records" \
+            --data "{\"type\":\"CNAME\",\"name\":\"$WWW_NAME\",\"content\":\"$APEX_NAME\",\"ttl\":120,\"proxied\":false}" >/dev/null
+
+      - name: Show resulting records
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        run: |
+          set -euo pipefail
+          curl -fsS \
+            -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
+            "https://api.cloudflare.com/client/v4/zones/$ZONE_ID/dns_records?name=$APEX_NAME&per_page=100"
+          echo
+          echo ---
+          curl -fsS \
+            -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN" \
+            "https://api.cloudflare.com/client/v4/zones/$ZONE_ID/dns_records?name=$WWW_NAME&per_page=100"
