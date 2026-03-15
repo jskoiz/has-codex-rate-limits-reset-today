@@ -33,7 +33,7 @@ The tracked `data/site-state.json` file now contains only the public status fiel
 
 ## Deployment
 
-The production app is deployed to a Lightsail VPS and runs as a `systemd` service via `node server.mjs`.
+The production app is deployed to a Lightsail VPS and runs as a `systemd` service via `node server.mjs` behind Caddy.
 
 The Cloudflare worker now only exists as a temporary edge bridge while the domain is still attached there. It is not the primary runtime anymore.
 

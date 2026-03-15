@@ -70,7 +70,7 @@ jobs:
           SITE_SESSION_SECRET=${{ secrets.SITE_SESSION_SECRET }}
           NODE_ENV=production
           HOST=0.0.0.0
-          PORT=80
+          PORT=3000
           EOF
 
       - name: Write systemd unit
