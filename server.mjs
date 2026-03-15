@@ -87,6 +87,11 @@ const toFetchRequest = (request, url) => {
     }
   }
 
+  const remoteAddress = request.socket?.remoteAddress;
+  if (remoteAddress && !headers.has("x-client-ip")) {
+    headers.set("x-client-ip", remoteAddress);
+  }
+
   const init = {
     headers,
     method: request.method || "GET",

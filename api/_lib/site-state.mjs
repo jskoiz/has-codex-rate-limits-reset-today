@@ -733,7 +733,12 @@ const createAdminSessionCookie = (session, request) => {
 
 const getLoginAttemptKey = (request) => {
   const forwardedFor = request.headers.get("x-forwarded-for") || "";
-  const clientAddress = forwardedFor.split(",")[0]?.trim() || request.headers.get("x-real-ip") || "unknown";
+  const clientAddress =
+    forwardedFor.split(",")[0]?.trim() ||
+    request.headers.get("cf-connecting-ip") ||
+    request.headers.get("x-real-ip") ||
+    request.headers.get("x-client-ip") ||
+    "unknown";
   const userAgent = request.headers.get("user-agent") || "unknown";
 
   return hashValue(`${getSessionSecret()}:${clientAddress}:${userAgent}`);
