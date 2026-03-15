@@ -1,11 +1,6 @@
 name: Deploy Cloudflare Pages
 
 on:
-  push:
-    branches:
-      - main
-    paths-ignore:
-      - "data/site-state.json"
   workflow_dispatch:
 
 permissions:
