@@ -1,31 +1,22 @@
-const PAGES_ORIGIN = "has-codex-rate-limits-reset-today.pages.dev";
+const VPS_ORIGIN = "http://44.240.202.85";
 
 const shouldIncludeBody = (method) => method !== "GET" && method !== "HEAD";
 
-const rewriteLocation = (location, requestUrl) => {
-  if (!location) {
-    return location;
-  }
-
-  const target = new URL(location, `https://${PAGES_ORIGIN}`);
-  if (target.hostname !== PAGES_ORIGIN) {
-    return location;
-  }
-
-  target.protocol = requestUrl.protocol;
-  target.host = requestUrl.host;
-  return target.toString();
-};
+const buildOriginUrl = (requestUrl) => new URL(`${requestUrl.pathname}${requestUrl.search}`, VPS_ORIGIN);
 
 export default {
   async fetch(request) {
     const requestUrl = new URL(request.url);
-    const upstreamUrl = new URL(request.url);
-    upstreamUrl.protocol = "https:";
-    upstreamUrl.hostname = PAGES_ORIGIN;
+    const isApiRequest = requestUrl.pathname.startsWith("/api/");
+
+    if (!isApiRequest) {
+      return Response.redirect(buildOriginUrl(requestUrl), 307);
+    }
+
+    const upstreamUrl = buildOriginUrl(requestUrl);
 
     const headers = new Headers(request.headers);
-    headers.set("host", PAGES_ORIGIN);
+    headers.set("host", upstreamUrl.host);
     headers.set("x-forwarded-host", requestUrl.host);
     headers.set("x-forwarded-proto", requestUrl.protocol.replace(/:$/, ""));
 
@@ -37,12 +28,7 @@ export default {
     });
 
     const response = new Response(upstreamResponse.body, upstreamResponse);
-    const location = response.headers.get("location");
-    if (location) {
-      response.headers.set("location", rewriteLocation(location, requestUrl));
-    }
-
-    response.headers.set("x-codex-proxy", "cloudflare-apex");
+    response.headers.set("x-codex-proxy", "cloudflare-apex-vps");
     return response;
   },
 };
