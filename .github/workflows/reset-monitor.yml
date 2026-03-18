@@ -13,7 +13,9 @@ jobs:
         env:
           CRON_SECRET: ${{ secrets.CRON_SECRET }}
         run: |
+          clean_secret="${CRON_SECRET#\"}"
+          clean_secret="${clean_secret%\"}"
           curl --fail-with-body --silent --show-error \
-            -H "Authorization: Bearer ${CRON_SECRET}" \
+            -H "Authorization: Bearer ${clean_secret}" \
             -X POST \
             "https://hascodexratelimitreset.today/api/automation/poll"
