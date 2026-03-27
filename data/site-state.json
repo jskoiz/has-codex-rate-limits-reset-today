@@ -10,17 +10,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1774601002164,
-      "rationale": "The tweet is a joke/comment about the Codex team using Codex and says nothing about limits, caps, or usage resetting.",
-      "tweetId": "2037345739203059861",
-      "tweetUrl": "https://x.com/thsottiaux/status/2037345739203059861",
+      "decidedAt": 1774601006831,
+      "rationale": "This is a conversational reply expressing enthusiasm and does not mention limits, caps, resets, or availability.",
+      "tweetId": "2037345896334242029",
+      "tweetUrl": "https://x.com/thsottiaux/status/2037345896334242029",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2037345739203059861",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2037345739203059861",
+    "lastSeenTweetId": "2037345896334242029",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2037345896334242029",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1774601006831,
+        "inputTokens": 293,
+        "outputTokens": 78,
+        "rationale": "This is a conversational reply expressing enthusiasm and does not mention limits, caps, resets, or availability.",
+        "reasoningTokens": 30,
+        "totalTokens": 371,
+        "tweetId": "2037345896334242029",
+        "tweetText": "@tforschbach Super awesome!!",
+        "tweetUrl": "https://x.com/thsottiaux/status/2037345896334242029",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1774601002164,
@@ -62,13 +75,28 @@
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 1064,
-      "totalOutputTokens": 271,
-      "totalReasoningTokens": 113,
-      "totalTokens": 1335
+      "totalInputTokens": 1357,
+      "totalOutputTokens": 349,
+      "totalReasoningTokens": 143,
+      "totalTokens": 1706
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1774601006831,
+      "inputTokens": 293,
+      "message": "",
+      "outputTokens": 78,
+      "rationale": "This is a conversational reply expressing enthusiasm and does not mention limits, caps, resets, or availability.",
+      "reasoningTokens": 30,
+      "totalTokens": 371,
+      "tweetId": "2037345896334242029",
+      "tweetText": "@tforschbach Super awesome!!",
+      "tweetUrl": "https://x.com/thsottiaux/status/2037345896334242029",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1774601002164,
@@ -116,9 +144,9 @@
     }
   ],
   "privateState": {
-    "ciphertext": "VfuHfSf-_qxvHrMs7CYhk7gLbItSlGqlydhn5p4J5bSUaeg252IotwQrYA",
-    "iv": "AM25lNpC3W77sXWi",
-    "tag": "P8R9skCzPOujoMmFkXMTVw",
+    "ciphertext": "CNIgGkj7qs3ZjgVyWuTdsa40kxHKi2fM-Ltm9im7YE-bBidFwerDO_u7Cw",
+    "iv": "bDVhUJor3wxI8rKw",
+    "tag": "iH2V01NnDbgb_ABfN5CJMQ",
     "version": 1
   }
 }
