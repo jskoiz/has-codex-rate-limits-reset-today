@@ -5,22 +5,35 @@
     "Back to your local model peasant",
     "But that's okay, because everything is running smoothly..right?"
   ],
-  "resetAt": 1774665442403,
-  "updatedAt": 1774593442403,
+  "resetAt": 1774673009855,
+  "updatedAt": 1774601009855,
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1774601006831,
-      "rationale": "This is a conversational reply expressing enthusiasm and does not mention limits, caps, resets, or availability.",
-      "tweetId": "2037345896334242029",
-      "tweetUrl": "https://x.com/thsottiaux/status/2037345896334242029",
-      "verdict": "not_reset"
+      "decidedAt": 1774601009856,
+      "rationale": "The tweet explicitly says Codex usage limits were reset across all plans and users can build unlimited things now.",
+      "tweetId": "2037346989244096581",
+      "tweetUrl": "https://x.com/thsottiaux/status/2037346989244096581",
+      "verdict": "reset_confirmed"
     },
     "lastError": null,
-    "lastSeenTweetId": "2037345896334242029",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2037345896334242029",
+    "lastSeenTweetId": "2037346989244096581",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2037346989244096581",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1774601009856,
+        "inputTokens": 334,
+        "outputTokens": 48,
+        "rationale": "The tweet explicitly says Codex usage limits were reset across all plans and users can build unlimited things now.",
+        "reasoningTokens": 0,
+        "totalTokens": 382,
+        "tweetId": "2037346989244096581",
+        "tweetText": "Hello. We have reset Codex usage limits across all plans to let everyone experiment with the magnificent plugins we just launched, and because it had been a while! \n\nYou can just build unlimited things with Codex. Have fun!",
+        "tweetUrl": "https://x.com/thsottiaux/status/2037346989244096581",
+        "verdict": "reset_confirmed"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1774601006831,
@@ -75,13 +88,28 @@
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 1357,
-      "totalOutputTokens": 349,
+      "totalInputTokens": 1691,
+      "totalOutputTokens": 397,
       "totalReasoningTokens": 143,
-      "totalTokens": 1706
+      "totalTokens": 2088
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1774601009856,
+      "inputTokens": 334,
+      "message": "",
+      "outputTokens": 48,
+      "rationale": "The tweet explicitly says Codex usage limits were reset across all plans and users can build unlimited things now.",
+      "reasoningTokens": 0,
+      "totalTokens": 382,
+      "tweetId": "2037346989244096581",
+      "tweetText": "Hello. We have reset Codex usage limits across all plans to let everyone experiment with the magnificent plugins we just launched, and because it had been a while! \n\nYou can just build unlimited things with Codex. Have fun!",
+      "tweetUrl": "https://x.com/thsottiaux/status/2037346989244096581",
+      "type": "reset_confirmed",
+      "verdict": "reset_confirmed"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1774601006831,
@@ -144,9 +172,9 @@
     }
   ],
   "privateState": {
-    "ciphertext": "CNIgGkj7qs3ZjgVyWuTdsa40kxHKi2fM-Ltm9im7YE-bBidFwerDO_u7Cw",
-    "iv": "bDVhUJor3wxI8rKw",
-    "tag": "iH2V01NnDbgb_ABfN5CJMQ",
+    "ciphertext": "D54uKYKZpKvxoJsnNLWP0kZW6s7CIkAaUAUvDpugaBK93Ck_aEABBOIL1g",
+    "iv": "hkbukdAvn5Rb2Idb",
+    "tag": "poFqU1tbRJJmyvOsCvSHAg",
     "version": 1
   }
 }
