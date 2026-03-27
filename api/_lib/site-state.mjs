@@ -426,7 +426,12 @@ const decryptPrivateState = (value) => {
 
 const getStoredPrivateState = (value) => {
   if (value?.privateState && typeof value.privateState === "object") {
-    return decryptPrivateState(value.privateState);
+    try {
+      return decryptPrivateState(value.privateState);
+    } catch (error) {
+      console.error("Unable to read private state, resetting private fields", error);
+      return normalizePrivateState({});
+    }
   }
 
   return normalizePrivateState({

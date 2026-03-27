@@ -107,6 +107,44 @@ test("serializeStoredState keeps auth and automation data encrypted", async () =
   });
 });
 
+test("normalizeStoredState preserves public fields when private state cannot be decrypted", async () => {
+  await withPrivateStateEnv(async () => {
+    const stored = serializeStoredState({
+      auth: {
+        sessions: [
+          {
+            createdAt: 10,
+            exp: Date.now() + 60_000,
+            id: "session-1",
+          },
+        ],
+      },
+      automation: {
+        lastSeenTweetId: "123",
+        lastSeenTweetUrl: "https://x.com/thsottiaux/status/123",
+      },
+      autoResetHours: 6,
+      currentState: "yes",
+      noSubtitles: ["Not yet"],
+      resetAt: 20,
+      updatedAt: 30,
+    });
+
+    process.env.SITE_PRIVATE_STATE_SECRET = "different-private-state-secret";
+
+    const recovered = normalizeStoredState(stored);
+
+    assert.equal(recovered.currentState, "yes");
+    assert.equal(recovered.autoResetHours, 6);
+    assert.deepEqual(recovered.noSubtitles, ["Not yet"]);
+    assert.equal(recovered.resetAt, 20);
+    assert.equal(recovered.updatedAt, 30);
+    assert.equal(recovered.auth.sessions.length, 0);
+    assert.equal(recovered.automation.lastSeenTweetId, null);
+    assert.equal(recovered.automation.lastSeenTweetUrl, null);
+  });
+});
+
 test("clearAdminSessionCookie sets Secure only for HTTPS requests", () => {
   const httpsCookie = clearAdminSessionCookie(new Request("https://example.com/config"));
   const httpCookie = clearAdminSessionCookie(new Request("http://localhost:8788/config"));
