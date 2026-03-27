@@ -10,17 +10,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1774600994350,
-      "rationale": "The tweet is about Codex plugins/integrations and account access, not about rate limits, caps, or usage resetting.",
-      "tweetId": "2037310992284311940",
-      "tweetUrl": "https://x.com/thsottiaux/status/2037310992284311940",
+      "decidedAt": 1774600998518,
+      "rationale": "The tweet discusses a Codex-related automation/project and says nothing about limits, caps, availability, or a reset.",
+      "tweetId": "2037311561765937307",
+      "tweetUrl": "https://x.com/thsottiaux/status/2037311561765937307",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2037310992284311940",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2037310992284311940",
+    "lastSeenTweetId": "2037311561765937307",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2037311561765937307",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1774600998518,
+        "inputTokens": 321,
+        "outputTokens": 101,
+        "rationale": "The tweet discusses a Codex-related automation/project and says nothing about limits, caps, availability, or a reset.",
+        "reasoningTokens": 50,
+        "totalTokens": 422,
+        "tweetId": "2037311561765937307",
+        "tweetText": "A fun one: I combined it with a skill and automation to physically print a one-page update on public discourse around Codex that I can read together with my morning coffee.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2037311561765937307",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1774600994350,
@@ -36,13 +49,28 @@
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 429,
-      "totalOutputTokens": 73,
-      "totalReasoningTokens": 20,
-      "totalTokens": 502
+      "totalInputTokens": 750,
+      "totalOutputTokens": 174,
+      "totalReasoningTokens": 70,
+      "totalTokens": 924
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1774600998518,
+      "inputTokens": 321,
+      "message": "",
+      "outputTokens": 101,
+      "rationale": "The tweet discusses a Codex-related automation/project and says nothing about limits, caps, availability, or a reset.",
+      "reasoningTokens": 50,
+      "totalTokens": 422,
+      "tweetId": "2037311561765937307",
+      "tweetText": "A fun one: I combined it with a skill and automation to physically print a one-page update on public discourse around Codex that I can read together with my morning coffee.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2037311561765937307",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1774600994350,
@@ -60,9 +88,9 @@
     }
   ],
   "privateState": {
-    "ciphertext": "EfdFQDQAU1tFOcCHbVqXdYCJgx8TKO2ej6W2So6va-AOzWYQdI6PSogt_g",
-    "iv": "kaWysplJxMzyjS_M",
-    "tag": "e5oamScpQSibOWxcHr4y1Q",
+    "ciphertext": "6ZmMsw7wTsPKM_g78hXIJn6O-sWmW0qYjOYBDcZggkIc3gy4nOFzfZt35g",
+    "iv": "6L3AfE_G1e1Dk1ig",
+    "tag": "a7P5H3m4cxqftDSKweZjmg",
     "version": 1
   }
 }
