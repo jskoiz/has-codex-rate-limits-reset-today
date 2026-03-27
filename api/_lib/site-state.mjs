@@ -357,7 +357,6 @@ const normalizePublicState = (value) => {
 
 const normalizePrivateState = (value) => ({
   auth: normalizeAuthState(value?.auth),
-  automation: normalizeAutomationState(value?.automation),
 });
 
 const createPrivateStateKey = (secret) => crypto.createHash("sha256").update(secret).digest();
@@ -419,7 +418,7 @@ const decryptPrivateState = (value) => {
       decipher.final(),
     ]).toString("utf8");
 
-    return normalizePrivateState(JSON.parse(plaintext));
+    return JSON.parse(plaintext);
   } catch (error) {
     throw new Error(`Unable to decrypt private state: ${error instanceof Error ? error.message : "Unknown error"}`);
   }
@@ -428,29 +427,46 @@ const decryptPrivateState = (value) => {
 const getStoredPrivateState = (value) => {
   if (value?.privateState && typeof value.privateState === "object") {
     try {
-      return decryptPrivateState(value.privateState);
+      const decrypted = decryptPrivateState(value.privateState);
+
+      return {
+        auth: normalizeAuthState(decrypted?.auth),
+        automation: normalizeAutomationState(decrypted?.automation ?? value?.automation),
+      };
     } catch (error) {
       console.error("Unable to read private state, resetting private fields", error);
-      return normalizePrivateState({});
+      return {
+        ...normalizePrivateState({}),
+        automation: normalizeAutomationState(value?.automation),
+      };
     }
   }
 
-  return normalizePrivateState({
-    auth: value?.auth,
-    automation: value?.automation,
-  });
+  return {
+    ...normalizePrivateState({
+      auth: value?.auth,
+    }),
+    automation: normalizeAutomationState(value?.automation),
+  };
 };
 
-export const normalizeStoredState = (value) => ({
-  ...normalizePublicState(value),
-  ...getStoredPrivateState(value),
-});
+export const normalizeStoredState = (value) => {
+  const publicState = normalizePublicState(value);
+  const privateState = getStoredPrivateState(value);
+
+  return {
+    ...publicState,
+    auth: privateState.auth,
+    automation: privateState.automation || getDefaultAutomationState(),
+  };
+};
 
 export const serializeStoredState = (value) => {
   const normalizedState = normalizeStoredState(value);
 
   return {
     ...normalizePublicState(normalizedState),
+    automation: normalizedState.automation,
     privateState: encryptPrivateState(normalizedState),
   };
 };

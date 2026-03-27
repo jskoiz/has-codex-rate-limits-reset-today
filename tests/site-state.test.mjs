@@ -1,5 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
+import crypto from "node:crypto";
 
 import {
   clearAdminSessionCookie,
@@ -95,7 +96,7 @@ test("serializeStoredState keeps auth and automation data encrypted", async () =
     });
 
     assert.equal("auth" in stored, false);
-    assert.equal("automation" in stored, false);
+    assert.equal(stored.automation.lastSeenTweetId, "123");
     assert.equal(typeof stored.privateState?.ciphertext, "string");
     assert.equal(typeof stored.privateState?.iv, "string");
     assert.equal(typeof stored.privateState?.tag, "string");
@@ -106,6 +107,52 @@ test("serializeStoredState keeps auth and automation data encrypted", async () =
     assert.equal(roundTrip.auth.sessions[0]?.id, "session-1");
     assert.equal(roundTrip.automation.lastSeenTweetId, "123");
     assert.equal(roundTrip.automation.lastSeenTweetUrl, "https://x.com/thsottiaux/status/123");
+  });
+});
+
+test("normalizeStoredState reads legacy automation history from encrypted private state", async () => {
+  await withPrivateStateEnv(async () => {
+    const secret = crypto.createHash("sha256").update(process.env.SITE_PRIVATE_STATE_SECRET).digest();
+    const iv = crypto.randomBytes(12);
+    const cipher = crypto.createCipheriv("aes-256-gcm", secret, iv);
+    const plaintext = JSON.stringify({
+      auth: {
+        sessions: [],
+      },
+      automation: {
+        lastDecision: {
+          confidence: 0.91,
+          decidedAt: 50,
+          rationale: "explicit reset",
+          tweetId: "555",
+          tweetUrl: "https://x.com/thsottiaux/status/555",
+          verdict: "reset_confirmed",
+        },
+        lastSeenTweetId: "555",
+        lastSeenTweetUrl: "https://x.com/thsottiaux/status/555",
+      },
+    });
+    const ciphertext = Buffer.concat([cipher.update(plaintext, "utf8"), cipher.final()]);
+    const tag = cipher.getAuthTag();
+
+    const legacyStored = {
+      autoResetHours: 6,
+      currentState: "yes",
+      noSubtitles: ["Not yet"],
+      privateState: {
+        ciphertext: ciphertext.toString("base64url"),
+        iv: iv.toString("base64url"),
+        tag: tag.toString("base64url"),
+        version: 1,
+      },
+      resetAt: 20,
+      updatedAt: 30,
+    };
+
+    const roundTrip = normalizeStoredState(legacyStored);
+
+    assert.equal(roundTrip.automation.lastSeenTweetId, "555");
+    assert.equal(roundTrip.automation.lastDecision?.tweetId, "555");
   });
 });
 
@@ -142,8 +189,8 @@ test("normalizeStoredState preserves public fields when private state cannot be 
     assert.equal(recovered.resetAt, 20);
     assert.equal(recovered.updatedAt, 30);
     assert.equal(recovered.auth.sessions.length, 0);
-    assert.equal(recovered.automation.lastSeenTweetId, null);
-    assert.equal(recovered.automation.lastSeenTweetUrl, null);
+    assert.equal(recovered.automation.lastSeenTweetId, "123");
+    assert.equal(recovered.automation.lastSeenTweetUrl, "https://x.com/thsottiaux/status/123");
   });
 });
 
