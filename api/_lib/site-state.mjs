@@ -15,6 +15,7 @@ const PRIVATE_STATE_VERSION = 1;
 const SITE_STATE_PATH = "data/site-state.json";
 const DEFAULT_GITHUB_COMMIT_NAME = "codex-limit-bot";
 const DEFAULT_GITHUB_COMMIT_EMAIL = "codex-limit-bot@users.noreply.github.com";
+const loginFailureStore = new Map();
 
 const jsonHeaders = {
   "cache-control": "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0",
@@ -768,11 +769,25 @@ const buildNextLoginFailureState = (entries, key, now) => {
   }, now).loginFailures;
 };
 
+const readLoginFailureStore = (now = Date.now()) => {
+  const normalized = normalizeAuthState({
+    loginFailures: Array.from(loginFailureStore.values()),
+    sessions: [],
+  }, now).loginFailures;
+
+  loginFailureStore.clear();
+
+  normalized.forEach((entry) => {
+    loginFailureStore.set(entry.key, entry);
+  });
+
+  return normalized;
+};
+
 export const getLoginThrottle = async (request) => {
-  const current = await readStoredSiteState();
   const key = getLoginAttemptKey(request);
   const now = Date.now();
-  const entry = current.auth.loginFailures.find((failure) => failure.key === key);
+  const entry = readLoginFailureStore(now).find((failure) => failure.key === key);
   const lockedUntil = entry?.lockedUntil && entry.lockedUntil > now ? entry.lockedUntil : null;
 
   return {
@@ -784,21 +799,12 @@ export const getLoginThrottle = async (request) => {
 export const recordFailedLogin = async (request) => {
   const now = Date.now();
   const key = getLoginAttemptKey(request);
-  let nextAuth = null;
-
-  await updateSiteState((current) => {
-    nextAuth = normalizeAuthState({
-      loginFailures: buildNextLoginFailureState(current.auth.loginFailures, key, now),
-      sessions: current.auth.sessions,
-    }, now);
-
-    return {
-      ...current,
-      auth: nextAuth,
-    };
+  const nextFailures = buildNextLoginFailureState(readLoginFailureStore(now), key, now);
+  loginFailureStore.clear();
+  nextFailures.forEach((entry) => {
+    loginFailureStore.set(entry.key, entry);
   });
-
-  const entry = nextAuth.loginFailures.find((failure) => failure.key === key);
+  const entry = nextFailures.find((failure) => failure.key === key);
 
   return {
     isLocked: Boolean(entry?.lockedUntil && entry.lockedUntil > now),
@@ -815,16 +821,10 @@ export const issueAdminSession = async (request) => {
     id: crypto.randomBytes(18).toString("hex"),
   };
   const loginAttemptKey = getLoginAttemptKey(request);
-  await updateSiteState((current) => {
-    const nextAuth = normalizeAuthState({
-      loginFailures: current.auth.loginFailures.filter((entry) => entry.key !== loginAttemptKey),
-      sessions: [...current.auth.sessions, session],
-    }, now);
-
-    return {
-      ...current,
-      auth: nextAuth,
-    };
+  const nextFailures = readLoginFailureStore(now).filter((entry) => entry.key !== loginAttemptKey);
+  loginFailureStore.clear();
+  nextFailures.forEach((entry) => {
+    loginFailureStore.set(entry.key, entry);
   });
 
   return createAdminSessionCookie(session, request);
@@ -832,44 +832,12 @@ export const issueAdminSession = async (request) => {
 
 export const revokeAdminSession = async (request) => {
   const cookies = parseCookieHeader(request.headers.get("cookie"));
-  const payload = readSessionTokenPayload(cookies[ADMIN_COOKIE_NAME]);
-
-  if (!payload) {
-    return false;
-  }
-
-  let revoked = false;
-
-  await updateSiteState((current) => {
-    const nextSessions = current.auth.sessions.filter((entry) => entry.id !== payload.sid);
-    revoked = nextSessions.length !== current.auth.sessions.length;
-
-    if (!revoked) {
-      return null;
-    }
-
-    return {
-      ...current,
-      auth: normalizeAuthState({
-        loginFailures: current.auth.loginFailures,
-        sessions: nextSessions,
-      }),
-    };
-  });
-
-  return revoked;
+  return Boolean(readSessionTokenPayload(cookies[ADMIN_COOKIE_NAME]));
 };
 
 export const isAuthorizedRequest = async (request) => {
   const cookies = parseCookieHeader(request.headers.get("cookie"));
-  const payload = readSessionTokenPayload(cookies[ADMIN_COOKIE_NAME]);
-
-  if (!payload) {
-    return false;
-  }
-
-  const current = await readStoredSiteState();
-  return current.auth.sessions.some((entry) => entry.id === payload.sid && entry.exp === payload.exp);
+  return Boolean(readSessionTokenPayload(cookies[ADMIN_COOKIE_NAME]));
 };
 
 export const getAdminPassword = () => getEnvValue("SITE_ADMIN_PASSWORD", "");

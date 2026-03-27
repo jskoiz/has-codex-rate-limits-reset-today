@@ -4,6 +4,8 @@ import assert from "node:assert/strict";
 import {
   clearAdminSessionCookie,
   getDefaultAutomationState,
+  isAuthorizedRequest,
+  issueAdminSession,
   normalizeStoredState,
   serializeStoredState,
 } from "../api/_lib/site-state.mjs";
@@ -151,4 +153,28 @@ test("clearAdminSessionCookie sets Secure only for HTTPS requests", () => {
 
   assert.match(httpsCookie, /; Secure/);
   assert.doesNotMatch(httpCookie, /; Secure/);
+});
+
+test("issueAdminSession creates a stateless cookie accepted by isAuthorizedRequest", async () => {
+  await withPrivateStateEnv(async () => {
+    const request = new Request("https://example.com/config", {
+      headers: {
+        "user-agent": "site-state-test",
+        "x-forwarded-for": "127.0.0.1",
+      },
+    });
+
+    const cookie = await issueAdminSession(request);
+    const token = cookie.match(/site_admin_session=([^;]+)/)?.[1];
+
+    assert.ok(token);
+
+    const authorized = await isAuthorizedRequest(new Request("https://example.com/config", {
+      headers: {
+        cookie: `site_admin_session=${token}`,
+      },
+    }));
+
+    assert.equal(authorized, true);
+  });
 });
