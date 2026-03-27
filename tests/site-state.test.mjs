@@ -5,6 +5,7 @@ import crypto from "node:crypto";
 import {
   clearAdminSessionCookie,
   getDefaultAutomationState,
+  getDefaultAutomationEvents,
   isAuthorizedRequest,
   issueAdminSession,
   normalizeStoredState,
@@ -40,6 +41,10 @@ test("default automation state includes a nullable last seen tweet URL", () => {
   assert.equal(automation.lastSeenTweetUrl, null);
 });
 
+test("default automation events are empty", () => {
+  assert.deepEqual(getDefaultAutomationEvents(), []);
+});
+
 test("normalizeStoredState preserves a persisted last seen tweet URL", () => {
   const state = normalizeStoredState({
     automation: {
@@ -72,7 +77,7 @@ test("normalizeStoredState derives a legacy last seen tweet URL from recent auto
   assert.equal(state.automation.lastSeenTweetUrl, "https://x.com/thsottiaux/status/123");
 });
 
-test("serializeStoredState keeps auth and automation data encrypted", async () => {
+test("serializeStoredState keeps auth encrypted and automation durable", async () => {
   await withPrivateStateEnv(async () => {
     const stored = serializeStoredState({
       auth: {
@@ -88,6 +93,16 @@ test("serializeStoredState keeps auth and automation data encrypted", async () =
         lastSeenTweetId: "123",
         lastSeenTweetUrl: "https://x.com/thsottiaux/status/123",
       },
+      automationEvents: [
+        {
+          createdAt: 40,
+          tweetId: "123",
+          tweetText: "limits are back",
+          tweetUrl: "https://x.com/thsottiaux/status/123",
+          type: "reset_confirmed",
+          verdict: "reset_confirmed",
+        },
+      ],
       autoResetHours: 6,
       currentState: "yes",
       noSubtitles: ["Not yet"],
@@ -107,6 +122,8 @@ test("serializeStoredState keeps auth and automation data encrypted", async () =
     assert.equal(roundTrip.auth.sessions[0]?.id, "session-1");
     assert.equal(roundTrip.automation.lastSeenTweetId, "123");
     assert.equal(roundTrip.automation.lastSeenTweetUrl, "https://x.com/thsottiaux/status/123");
+    assert.equal(roundTrip.automationEvents[0]?.tweetId, "123");
+    assert.equal(roundTrip.automationEvents[0]?.type, "reset_confirmed");
   });
 });
 
@@ -153,6 +170,7 @@ test("normalizeStoredState reads legacy automation history from encrypted privat
 
     assert.equal(roundTrip.automation.lastSeenTweetId, "555");
     assert.equal(roundTrip.automation.lastDecision?.tweetId, "555");
+    assert.equal(roundTrip.automationEvents.length, 0);
   });
 });
 
@@ -192,6 +210,26 @@ test("normalizeStoredState preserves public fields when private state cannot be 
     assert.equal(recovered.automation.lastSeenTweetId, "123");
     assert.equal(recovered.automation.lastSeenTweetUrl, "https://x.com/thsottiaux/status/123");
   });
+});
+
+test("normalizeStoredState derives automation events from durable evaluation history", () => {
+  const state = normalizeStoredState({
+    automation: {
+      recentEvaluations: [
+        {
+          evaluatedAt: 50,
+          rationale: "clear reset statement",
+          tweetId: "456",
+          tweetText: "limits reset",
+          tweetUrl: "https://x.com/thsottiaux/status/456",
+          verdict: "reset_confirmed",
+        },
+      ],
+    },
+  });
+
+  assert.equal(state.automationEvents[0]?.type, "reset_confirmed");
+  assert.equal(state.automationEvents[0]?.tweetId, "456");
 });
 
 test("clearAdminSessionCookie sets Secure only for HTTPS requests", () => {

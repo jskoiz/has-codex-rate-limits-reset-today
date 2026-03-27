@@ -7,6 +7,7 @@ const TARGET_USERNAME = "thsottiaux";
 const DEFAULT_MODEL = "gpt-5.4";
 const RECENT_TWEET_LOOKBACK_DAYS = 1;
 const SEARCH_BATCH_SIZE = 20;
+const MAX_AUTOMATION_EVENT_ENTRIES = 40;
 
 let openaiClient = null;
 let resendClient = null;
@@ -225,6 +226,55 @@ const updateTokenUsageTotals = (automationState, classification) => {
   };
 };
 
+const getAutomationEvents = (state) => (Array.isArray(state?.automationEvents) ? state.automationEvents : []);
+
+const getAutomationEventKey = (event) =>
+  [
+    event?.type || "",
+    event?.tweetId || "",
+    event?.verdict || "",
+    event?.message || "",
+  ].join(":");
+
+const appendAutomationEvent = (events, nextEvent) => {
+  const nextKey = getAutomationEventKey(nextEvent);
+  const previousEvents = Array.isArray(events) ? events : [];
+
+  return [nextEvent, ...previousEvents.filter((entry) => getAutomationEventKey(entry) !== nextKey)].slice(
+    0,
+    MAX_AUTOMATION_EVENT_ENTRIES,
+  );
+};
+
+const createErrorEvent = (message) => ({
+  createdAt: Date.now(),
+  message,
+  type: "error",
+});
+
+const createSeedEvent = (tweet) => ({
+  createdAt: Date.now(),
+  tweetId: tweet.id,
+  tweetText: tweet.fullText,
+  tweetUrl: tweet.url,
+  type: "seeded",
+});
+
+const createClassificationEvent = (type, tweet, classification) => ({
+  confidence: classification.confidence,
+  createdAt: Date.now(),
+  inputTokens: classification.usage?.inputTokens || 0,
+  outputTokens: classification.usage?.outputTokens || 0,
+  rationale: classification.rationale,
+  reasoningTokens: classification.usage?.reasoningTokens || 0,
+  totalTokens: classification.usage?.totalTokens || 0,
+  tweetId: tweet.id,
+  tweetText: tweet.fullText,
+  tweetUrl: tweet.url,
+  type,
+  verdict: classification.verdict,
+});
+
 const clearAutomationError = async () => {
   const current = await readSiteState();
 
@@ -254,6 +304,7 @@ const recordAutomationError = async (message) => {
           ...state.automation,
           lastError: message,
         },
+        automationEvents: appendAutomationEvent(getAutomationEvents(state), createErrorEvent(message)),
       };
     });
   } catch (error) {
@@ -400,6 +451,7 @@ const seedTimelineWatermark = async (tweet) =>
       lastSeenTweetId: tweet.id,
       lastSeenTweetUrl: tweet.url,
     },
+    automationEvents: appendAutomationEvent(getAutomationEvents(state), createSeedEvent(tweet)),
   }));
 
 const markTweetAsNotReset = async (tweet, classification) =>
@@ -414,6 +466,10 @@ const markTweetAsNotReset = async (tweet, classification) =>
       recentEvaluations: appendAutomationLog(state.automation, tweet, classification),
       tokenUsage: updateTokenUsageTotals(state.automation, classification),
     },
+    automationEvents: appendAutomationEvent(
+      getAutomationEvents(state),
+      createClassificationEvent("not_reset", tweet, classification),
+    ),
   }));
 
 const markTweetForManualReview = async (tweet, classification) =>
@@ -429,6 +485,10 @@ const markTweetForManualReview = async (tweet, classification) =>
       recentEvaluations: appendAutomationLog(state.automation, tweet, classification),
       tokenUsage: updateTokenUsageTotals(state.automation, classification),
     },
+    automationEvents: appendAutomationEvent(
+      getAutomationEvents(state),
+      createClassificationEvent("review_requested", tweet, classification),
+    ),
   }));
 
 const markTweetAsResetConfirmed = async (tweet, classification) =>
@@ -448,6 +508,10 @@ const markTweetAsResetConfirmed = async (tweet, classification) =>
         recentEvaluations: appendAutomationLog(state.automation, tweet, classification),
         tokenUsage: updateTokenUsageTotals(state.automation, classification),
       },
+      automationEvents: appendAutomationEvent(
+        getAutomationEvents(state),
+        createClassificationEvent("reset_confirmed", tweet, classification),
+      ),
     };
   });
 

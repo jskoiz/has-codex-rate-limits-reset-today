@@ -750,6 +750,26 @@ p {
   margin-top: 0.25rem;
 }
 
+.config-history-state {
+  margin: 0.35rem 0 0;
+  padding: 0.45rem 0.6rem;
+  border: 1px solid #2a2a2a;
+  background: #131313;
+  color: #bbb;
+  font-size: 0.74rem;
+  line-height: 1.45;
+}
+
+.config-history-state[data-tone="warning"] {
+  border-color: rgba(245, 166, 35, 0.25);
+  background: rgba(245, 166, 35, 0.08);
+  color: #f5a623;
+}
+
+.config-history-state[data-tone="muted"] {
+  color: #888;
+}
+
 .config-log {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -786,6 +806,14 @@ p {
 
 .config-log-verdict[data-tone="not_reset"] {
   color: #999;
+}
+
+.config-log-verdict[data-tone="error"] {
+  color: #ff7b72;
+}
+
+.config-log-verdict[data-tone="seeded"] {
+  color: #8ab4f8;
 }
 
 .config-log-meta {

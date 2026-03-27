@@ -31,6 +31,7 @@ const automationOutputTokensValue = document.querySelector("#automationOutputTok
 const automationReasoningTokensValue = document.querySelector("#automationReasoningTokensValue");
 const automationTotalTokensValue = document.querySelector("#automationTotalTokensValue");
 const automationStatusNote = document.querySelector("#automationStatusNote");
+const automationHistoryState = document.querySelector("#automationHistoryState");
 const automationLog = document.querySelector("#automationLog");
 const automationModelValue = document.querySelector("#automationModelValue");
 let currentNoSubtitles = [];
@@ -82,6 +83,46 @@ const formatAutomationVerdictShort = (value) => {
   }
 
   return "Review";
+};
+
+const formatAutomationEventLabel = (event) => {
+  if (event?.type === "reset_confirmed") {
+    return "Yes";
+  }
+
+  if (event?.type === "not_reset") {
+    return "No";
+  }
+
+  if (event?.type === "review_requested") {
+    return "Review";
+  }
+
+  if (event?.type === "error") {
+    return "Error";
+  }
+
+  return "Seeded";
+};
+
+const getAutomationEventTone = (event) => {
+  if (event?.type === "reset_confirmed") {
+    return "reset_confirmed";
+  }
+
+  if (event?.type === "review_requested") {
+    return "uncertain";
+  }
+
+  if (event?.type === "error") {
+    return "error";
+  }
+
+  if (event?.type === "seeded") {
+    return "seeded";
+  }
+
+  return "not_reset";
 };
 
 const formatTokenCount = (value) => new Intl.NumberFormat().format(Number.isFinite(value) ? value : 0);
@@ -180,15 +221,144 @@ const getAutomationHealth = (automation = {}) => {
   };
 };
 
-const renderAutomationLog = (automation = {}) => {
+const getAutomationHistoryState = (automation = {}, automationEvents = []) => {
+  const entries = Array.isArray(automation.recentEvaluations) ? automation.recentEvaluations : [];
+  const durableEvents = Array.isArray(automationEvents) ? automationEvents : [];
+  const durableEvaluationEvents = durableEvents.filter((event) =>
+    ["not_reset", "reset_confirmed", "review_requested"].includes(event?.type),
+  );
+  const durableSeedEvent = durableEvents.find((event) => event?.type === "seeded");
+
+  if (entries.length === 0 && durableEvaluationEvents.length > 0) {
+    return {
+      kind: "reset",
+      tone: "warning",
+      title: "Recovered from summary reset",
+      text: "The live summary was cleared, but the durable activity log is still available below.",
+    };
+  }
+
+  if (entries.length === 0 && durableSeedEvent && !automation.lastDecision?.tweetId && !automation.pendingReview?.tweetId) {
+    return {
+      kind: "seeded",
+      tone: "muted",
+      title: "Waiting for first classification",
+      text: "The monitor has seeded its watermark and is waiting for the next unseen tweet to classify.",
+    };
+  }
+
+  if (
+    !automation.lastSeenTweetId &&
+    entries.length === 0 &&
+    durableEvents.length === 0 &&
+    !automation.lastDecision?.tweetId &&
+    !automation.pendingReview?.tweetId &&
+    (automation.tokenUsage?.totalTokens || 0) === 0
+  ) {
+    return {
+      kind: "empty",
+      tone: "muted",
+      title: "No history yet",
+      text: "The monitor has not recorded any tweet evaluations on this state file yet.",
+    };
+  }
+
+  if (automation.lastSeenTweetId && entries.length === 0 && durableEvents.length === 0 && !automation.lastDecision?.tweetId) {
+    return {
+      kind: "reset",
+      tone: "warning",
+      title: "History reset or recovered",
+      text: "A tweet watermark exists, but no evaluation history is available on this state file.",
+    };
+  }
+
+  return null;
+};
+
+const renderAutomationEventLog = (automationEvents = []) => {
+  const entries = Array.isArray(automationEvents) ? automationEvents : [];
+
+  automationLog.replaceChildren(
+    ...entries.map((entry) => {
+      const item = document.createElement("article");
+      item.className = "config-log-item";
+
+      const header = document.createElement("div");
+      header.className = "config-log-header";
+
+      const verdict = document.createElement("strong");
+      verdict.className = "config-log-verdict";
+      verdict.textContent = formatAutomationEventLabel(entry);
+      verdict.dataset.tone = getAutomationEventTone(entry);
+
+      const timestamp = document.createElement("span");
+      timestamp.className = "config-log-meta";
+      timestamp.textContent = formatDateTime(entry.createdAt);
+
+      header.append(verdict, timestamp);
+
+      const reason = document.createElement("p");
+      reason.className = "config-log-reason";
+      reason.textContent =
+        entry.type === "error"
+          ? entry.message || "Monitor error"
+          : entry.type === "seeded"
+            ? "Timeline watermark seeded on the newest seen tweet."
+            : entry.rationale || "No rationale recorded.";
+
+      const usage = document.createElement("p");
+      usage.className = "config-log-usage";
+      usage.textContent =
+        entry.type === "error"
+          ? "Automation error"
+          : `${formatAutomationEventLabel(entry)} · ${formatTokenCount(entry.totalTokens || 0)} tokens`;
+
+      item.append(header, reason, usage);
+
+      if (entry.tweetUrl) {
+        const tweetLink = document.createElement("a");
+        tweetLink.className = "config-log-link";
+        tweetLink.href = entry.tweetUrl;
+        tweetLink.target = "_blank";
+        tweetLink.rel = "noreferrer";
+        tweetLink.textContent = truncateText(entry.tweetText || entry.tweetUrl, 140);
+        item.append(tweetLink);
+      }
+
+      return item;
+    }),
+  );
+};
+
+const renderAutomationLog = (automation = {}, automationEvents = []) => {
   if (!automationLog) {
     return;
   }
 
   const entries = Array.isArray(automation.recentEvaluations) ? automation.recentEvaluations : [];
+  const historyState = getAutomationHistoryState(automation, automationEvents);
+
+  if (automationHistoryState) {
+    if (historyState) {
+      automationHistoryState.hidden = false;
+      automationHistoryState.textContent = `${historyState.title}. ${historyState.text}`;
+      automationHistoryState.dataset.tone = historyState.tone;
+    } else {
+      automationHistoryState.hidden = true;
+      automationHistoryState.textContent = "";
+      automationHistoryState.dataset.tone = "";
+    }
+  }
 
   if (entries.length === 0) {
-    automationLog.innerHTML = '<p class="config-note">No tweet evaluations logged yet.</p>';
+    if (Array.isArray(automationEvents) && automationEvents.length > 0) {
+      renderAutomationEventLog(automationEvents);
+      return;
+    }
+
+    automationLog.innerHTML = `<p class="config-note">${historyState?.kind === "reset"
+      ? "No in-memory summary entries are available. The next classified tweet will rebuild them."
+      : "No tweet evaluations logged yet."}</p>`;
     return;
   }
 
@@ -232,7 +402,7 @@ const renderAutomationLog = (automation = {}) => {
   );
 };
 
-const renderAutomation = (automation = {}) => {
+const renderAutomation = (automation = {}, automationEvents = []) => {
   if (!automationHealthValue) {
     return;
   }
@@ -268,13 +438,20 @@ const renderAutomation = (automation = {}) => {
   automationOutputTokensValue.textContent = formatTokenCount(automation.tokenUsage?.totalOutputTokens || 0);
   automationReasoningTokensValue.textContent = formatTokenCount(automation.tokenUsage?.totalReasoningTokens || 0);
   automationTotalTokensValue.textContent = formatTokenCount(automation.tokenUsage?.totalTokens || 0);
+  const historyState = getAutomationHistoryState(automation, automationEvents);
   automationStatusNote.textContent = automation.lastError
     ? `Latest issue: ${automation.lastError}`
-    : automation.pendingReview?.tweetId
-      ? "Pending manual review for the most recent tweet."
-      : "Polls every 5 minutes via GitHub Actions.";
+    : historyState?.kind === "reset"
+      ? "Summary state was reset. Showing the durable activity history below."
+      : historyState?.kind === "seeded"
+        ? "Watermark seeded. Waiting for the next unseen tweet to classify."
+      : historyState?.kind === "empty"
+        ? "No tweet history yet. Polls every 5 minutes via GitHub Actions."
+        : automation.pendingReview?.tweetId
+          ? "Pending manual review for the most recent tweet."
+          : "Polls every 5 minutes via GitHub Actions.";
 
-  renderAutomationLog(automation);
+  renderAutomationLog(automation, automationEvents);
 };
 
 const showAuth = (message = "") => {
@@ -367,7 +544,7 @@ const renderConfig = (config) => {
   timerValue.textContent = resetDisplay.value;
   resetMetaValue.textContent = resetDisplay.meta;
 
-  renderAutomation(config.automation);
+  renderAutomation(config.automation, config.automationEvents || []);
 
   if (automationModelValue) {
     automationModelValue.textContent = config.reasoningModel || "--";

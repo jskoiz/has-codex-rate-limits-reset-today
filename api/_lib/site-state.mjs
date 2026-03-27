@@ -11,6 +11,7 @@ const MAX_TRACKED_LOGIN_FAILURES = 128;
 const MAX_ACTIVE_SESSIONS = 32;
 const MAX_GITHUB_WRITE_ATTEMPTS = 3;
 const MAX_AUTOMATION_LOG_ENTRIES = 20;
+const MAX_AUTOMATION_EVENT_ENTRIES = 40;
 const PRIVATE_STATE_VERSION = 1;
 const SITE_STATE_PATH = "data/site-state.json";
 const DEFAULT_GITHUB_COMMIT_NAME = "codex-limit-bot";
@@ -254,6 +255,8 @@ export const getDefaultAutomationState = () => ({
   },
 });
 
+export const getDefaultAutomationEvents = () => [];
+
 const normalizeAutomationState = (value) => {
   const defaults = getDefaultAutomationState();
   const lastError = typeof value?.lastError === "string" ? value.lastError.trim() : "";
@@ -287,6 +290,74 @@ const normalizeAutomationState = (value) => {
       totalTokens: Number.isFinite(value?.tokenUsage?.totalTokens) ? value.tokenUsage.totalTokens : 0,
     },
   };
+};
+
+const normalizeAutomationEvent = (value) => {
+  if (!value || typeof value !== "object") {
+    return null;
+  }
+
+  const type = ["error", "not_reset", "reset_confirmed", "review_requested", "seeded"].includes(value?.type)
+    ? value.type
+    : null;
+  const createdAt = Number.isFinite(value?.createdAt) ? value.createdAt : null;
+
+  if (!type || !createdAt) {
+    return null;
+  }
+
+  const tweetId = typeof value?.tweetId === "string" ? value.tweetId : null;
+  const tweetUrl = typeof value?.tweetUrl === "string" ? value.tweetUrl : null;
+  const tweetText = typeof value?.tweetText === "string" ? value.tweetText.trim() : "";
+
+  return {
+    confidence: normalizeConfidence(value?.confidence),
+    createdAt,
+    inputTokens: Number.isFinite(value?.inputTokens) ? value.inputTokens : 0,
+    message: typeof value?.message === "string" ? value.message.trim() : "",
+    outputTokens: Number.isFinite(value?.outputTokens) ? value.outputTokens : 0,
+    rationale: typeof value?.rationale === "string" ? value.rationale.trim() : "",
+    reasoningTokens: Number.isFinite(value?.reasoningTokens) ? value.reasoningTokens : 0,
+    totalTokens: Number.isFinite(value?.totalTokens) ? value.totalTokens : 0,
+    tweetId,
+    tweetText,
+    tweetUrl,
+    type,
+    verdict: ["reset_confirmed", "not_reset", "uncertain"].includes(value?.verdict) ? value.verdict : null,
+  };
+};
+
+const normalizeAutomationEvents = (value) => {
+  if (!Array.isArray(value)) {
+    return [];
+  }
+
+  return value
+    .map(normalizeAutomationEvent)
+    .filter(Boolean)
+    .sort((left, right) => right.createdAt - left.createdAt)
+    .slice(0, MAX_AUTOMATION_EVENT_ENTRIES);
+};
+
+const deriveAutomationEvents = (automationState) => {
+  const evaluations = Array.isArray(automationState?.recentEvaluations) ? automationState.recentEvaluations : [];
+
+  return normalizeAutomationEvents(
+    evaluations.map((entry) => ({
+      confidence: entry.confidence,
+      createdAt: entry.evaluatedAt,
+      inputTokens: entry.inputTokens,
+      outputTokens: entry.outputTokens,
+      rationale: entry.rationale,
+      reasoningTokens: entry.reasoningTokens,
+      totalTokens: entry.totalTokens,
+      tweetId: entry.tweetId,
+      tweetText: entry.tweetText,
+      tweetUrl: entry.tweetUrl,
+      type: entry.verdict === "reset_confirmed" ? "reset_confirmed" : entry.verdict === "uncertain" ? "review_requested" : "not_reset",
+      verdict: entry.verdict,
+    })),
+  );
 };
 
 const normalizeAuthState = (value, now = Date.now()) => {
@@ -424,40 +495,31 @@ const decryptPrivateState = (value) => {
   }
 };
 
-const getStoredPrivateState = (value) => {
-  if (value?.privateState && typeof value.privateState === "object") {
-    try {
-      const decrypted = decryptPrivateState(value.privateState);
-
-      return {
-        auth: normalizeAuthState(decrypted?.auth),
-        automation: normalizeAutomationState(decrypted?.automation ?? value?.automation),
-      };
-    } catch (error) {
-      console.error("Unable to read private state, resetting private fields", error);
-      return {
-        ...normalizePrivateState({}),
-        automation: normalizeAutomationState(value?.automation),
-      };
-    }
+const readLegacyPrivateState = (value) => {
+  if (!value?.privateState || typeof value.privateState !== "object") {
+    return null;
   }
 
-  return {
-    ...normalizePrivateState({
-      auth: value?.auth,
-    }),
-    automation: normalizeAutomationState(value?.automation),
-  };
+  try {
+    return decryptPrivateState(value.privateState);
+  } catch (error) {
+    console.error("Unable to read private state, resetting private fields", error);
+    return null;
+  }
 };
 
 export const normalizeStoredState = (value) => {
   const publicState = normalizePublicState(value);
-  const privateState = getStoredPrivateState(value);
+  const legacyPrivateState = readLegacyPrivateState(value);
+  const hasPrivateState = Boolean(value?.privateState && typeof value.privateState === "object");
+  const automation = normalizeAutomationState(value?.automation ?? legacyPrivateState?.automation);
+  const automationEvents = normalizeAutomationEvents(value?.automationEvents);
 
   return {
     ...publicState,
-    auth: privateState.auth,
-    automation: privateState.automation || getDefaultAutomationState(),
+    auth: hasPrivateState ? normalizeAuthState(legacyPrivateState?.auth) : normalizeAuthState(value?.auth),
+    automation,
+    automationEvents: automationEvents.length > 0 ? automationEvents : deriveAutomationEvents(automation),
   };
 };
 
@@ -467,7 +529,10 @@ export const serializeStoredState = (value) => {
   return {
     ...normalizePublicState(normalizedState),
     automation: normalizedState.automation,
-    privateState: encryptPrivateState(normalizedState),
+    automationEvents: normalizeAutomationEvents(normalizedState.automationEvents),
+    privateState: encryptPrivateState({
+      auth: normalizedState.auth,
+    }),
   };
 };
 
@@ -686,6 +751,7 @@ export const buildNextState = async (updates, currentState = null) => {
   const next = {
     auth: current.auth,
     automation: current.automation,
+    automationEvents: current.automationEvents,
     currentState: normalizeState(updates.state ?? current.currentState),
     autoResetHours: normalizeHours(updates.autoResetHours ?? current.autoResetHours),
     noSubtitles: normalizeNoSubtitles(updates.noSubtitles ?? current.noSubtitles),

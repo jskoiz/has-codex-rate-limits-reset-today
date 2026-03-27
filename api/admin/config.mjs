@@ -2,6 +2,7 @@ import {
   buildNextState,
   getDefaultAutoResetHours,
   getDefaultAutomationState,
+  getDefaultAutomationEvents,
   getDefaultNoSubtitles,
   getEnvValue,
   isAuthorizedRequest,
@@ -36,6 +37,7 @@ export async function GET(request) {
     return jsonResponse({
       autoResetHours: state.autoResetHours || getDefaultAutoResetHours(),
       automation: state.automation || getDefaultAutomationState(),
+      automationEvents: state.automationEvents || getDefaultAutomationEvents(),
       configured: state.configured,
       noSubtitles: state.noSubtitles || getDefaultNoSubtitles(),
       resetAt: state.resetAt,
@@ -69,6 +71,7 @@ export async function POST(request) {
     return jsonResponse({
       autoResetHours: nextState.autoResetHours,
       automation: nextState.automation || getDefaultAutomationState(),
+      automationEvents: nextState.automationEvents || getDefaultAutomationEvents(),
       noSubtitles: nextState.noSubtitles,
       ok: true,
       resetAt: nextState.resetAt,
