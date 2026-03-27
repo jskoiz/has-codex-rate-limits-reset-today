@@ -13,7 +13,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="../styles.css" />
@@ -55,7 +55,7 @@
           <section class="config-summary-grid" aria-label="Current config values">
             <article class="config-metric config-metric-emphasis">
               <span class="config-label">Current state</span>
-              <strong class="config-value config-value-xl" id="configStatusValue">Yes</strong>
+              <strong class="config-value config-value-xl" id="configStatusValue"><span class="config-status-dot"></span>Yes</strong>
               <span class="config-metric-meta">Public page status</span>
             </article>
             <article class="config-metric">
@@ -64,16 +64,18 @@
               <span class="config-metric-meta" id="configResetMetaValue">Timer starts when the state is Yes.</span>
             </article>
             <article class="config-metric">
-              <span class="config-label">Last config change</span>
+              <span class="config-label">Last change</span>
               <strong class="config-value config-value-compact" id="configUpdatedValue">Not set</strong>
-              <span class="config-metric-meta">Manual state, timer, or subtitle update</span>
+              <span class="config-metric-meta">State, timer, or subtitle</span>
             </article>
             <article class="config-metric">
-              <span class="config-label">Automation health</span>
+              <span class="config-label">Health</span>
               <strong class="config-value config-value-compact" id="automationHealthValue">Healthy</strong>
-              <span class="config-metric-meta" id="automationHealthMeta">Polling every 5 minutes via GitHub Actions.</span>
+              <span class="config-metric-meta" id="automationHealthMeta">Polls every 5m via GH Actions</span>
             </article>
           </section>
+
+          <hr class="config-divider" />
 
           <div class="config-actions" role="group" aria-label="Status controls">
             <button class="config-toggle" type="button" data-next-state="yes">Set Yes</button>
@@ -82,6 +84,8 @@
             <button class="config-toggle config-toggle-secondary" id="logoutButton" type="button">Lock</button>
           </div>
 
+          <hr class="config-divider" />
+
           <section class="config-grid config-grid-metrics" aria-label="Operational metrics">
             <article class="config-metric">
               <span class="config-label">Last decision</span>
@@ -89,70 +93,34 @@
             </article>
             <article class="config-metric">
               <span class="config-label">Last seen tweet</span>
-              <a
-                class="config-value config-value-link config-value-compact"
-                id="automationLastSeenValue"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Not set
-              </a>
+              <a class="config-value config-value-link config-value-compact" id="automationLastSeenValue" target="_blank" rel="noreferrer">Not set</a>
             </article>
             <article class="config-metric">
               <span class="config-label">Pending review</span>
-              <a
-                class="config-value config-value-link config-value-compact"
-                id="automationPendingValue"
-                target="_blank"
-                rel="noreferrer"
-              >
-                None
-              </a>
+              <a class="config-value config-value-link config-value-compact" id="automationPendingValue" target="_blank" rel="noreferrer">None</a>
             </article>
             <article class="config-metric">
               <span class="config-label">Last error</span>
               <strong class="config-value config-value-compact" id="automationErrorValue">None</strong>
             </article>
-            <article class="config-metric config-metric-span-2">
-              <span class="config-label">Token usage</span>
-              <div class="config-token-grid">
-                <div>
-                  <span class="config-token-label">Input</span>
-                  <strong class="config-token-value" id="automationInputTokensValue">0</strong>
-                </div>
-                <div>
-                  <span class="config-token-label">Output</span>
-                  <strong class="config-token-value" id="automationOutputTokensValue">0</strong>
-                </div>
-                <div>
-                  <span class="config-token-label">Reasoning</span>
-                  <strong class="config-token-value" id="automationReasoningTokensValue">0</strong>
-                </div>
-                <div>
-                  <span class="config-token-label">Total</span>
-                  <strong class="config-token-value" id="automationTotalTokensValue">0</strong>
-                </div>
-              </div>
-            </article>
-            <article class="config-metric">
-              <div class="config-subtitle-header">
-                <span class="config-label">Traffic</span>
-                <a
-                  class="config-chip-link"
-                  id="analyticsLink"
-                  target="_blank"
-                  rel="noreferrer"
-                  hidden
-                >
-                  Open analytics
-                </a>
-              </div>
-              <strong class="config-value config-value-compact" id="trafficValue">Traffic dashboard</strong>
-              <span class="config-metric-meta" id="trafficMetaValue">
-                Use your analytics dashboard for visitor and pageview totals.
-              </span>
-            </article>
           </section>
+          <section class="config-token-bar" aria-label="Token usage and model">
+            <span class="config-label">Tokens</span>
+            <span class="config-token-inline">
+              <span>IN: <strong id="automationInputTokensValue">0</strong></span>
+              <span class="config-token-sep">|</span>
+              <span>OUT: <strong id="automationOutputTokensValue">0</strong></span>
+              <span class="config-token-sep">|</span>
+              <span>RSN: <strong id="automationReasoningTokensValue">0</strong></span>
+              <span class="config-token-sep">|</span>
+              <span>TOT: <strong id="automationTotalTokensValue">0</strong></span>
+            </span>
+            <span class="config-token-sep">|</span>
+            <span class="config-label">Model</span>
+            <strong class="config-token-model" id="automationModelValue">--</strong>
+          </section>
+
+          <hr class="config-divider" />
 
           <div class="config-secondary-grid">
             <section class="config-field" aria-label="Auto-reset timer">
@@ -177,18 +145,13 @@
               </summary>
               <div class="config-subtitle-list" id="subtitleList"></div>
               <div class="config-subtitle-actions">
-                <button
-                  class="config-icon-button config-icon-button-add"
-                  id="addSubtitleButton"
-                  type="button"
-                  aria-label="Add subtitle"
-                >
-                  +
-                </button>
+                <button class="config-icon-button config-icon-button-add" id="addSubtitleButton" type="button" aria-label="Add subtitle">+</button>
                 <button class="config-save config-subtitle-save" id="saveSubtitlesButton" type="button">Save subtitles</button>
               </div>
             </details>
           </div>
+
+          <hr class="config-divider" />
 
           <section class="config-field" aria-label="Automation status">
             <div class="config-subtitle-header">
