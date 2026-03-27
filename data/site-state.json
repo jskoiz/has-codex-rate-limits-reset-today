@@ -10,8 +10,8 @@
   "automation": {
     "lastDecision": null,
     "lastError": null,
-    "lastSeenTweetId": "2037348557729210806",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2037348557729210806",
+    "lastSeenTweetId": "2034792658405818662",
+    "lastSeenTweetUrl": null,
     "pendingReview": null,
     "recentEvaluations": [],
     "tokenUsage": {
@@ -21,23 +21,7 @@
       "totalTokens": 0
     }
   },
-  "automationEvents": [
-    {
-      "confidence": 0,
-      "createdAt": 1774600710295,
-      "inputTokens": 0,
-      "message": "",
-      "outputTokens": 0,
-      "rationale": "",
-      "reasoningTokens": 0,
-      "totalTokens": 0,
-      "tweetId": "2037348557729210806",
-      "tweetText": "@rishirsv @ajambrosino what happened to the poor popout windows",
-      "tweetUrl": "https://x.com/thsottiaux/status/2037348557729210806",
-      "type": "seeded",
-      "verdict": null
-    }
-  ],
+  "automationEvents": [],
   "privateState": {
     "ciphertext": "DHz_3UyIcehPxnJ4Q66n78jpiwt7q6TK2Cxem9c0MO6jA2WE6708hs3gEQ",
     "iv": "wQlh8Qdyu7FumRgh",
