@@ -9,16 +9,16 @@
   "updatedAt": 1774601009855,
   "automation": {
     "lastDecision": {
-      "confidence": 0.96,
-      "decidedAt": 1774601015813,
-      "rationale": "The post text is only a link and provides no explicit indication that any Codex or ChatGPT limit/reset occurred.",
-      "tweetId": "2037347004616204413",
-      "tweetUrl": "https://x.com/thsottiaux/status/2037347004616204413",
-      "verdict": "uncertain"
+      "confidence": 0.99,
+      "decidedAt": 1774601021783,
+      "rationale": "A brief reply saying “Enhance”; it does not mention limits, caps, resets, or availability.",
+      "tweetId": "2037348456038297834",
+      "tweetUrl": "https://x.com/thsottiaux/status/2037348456038297834",
+      "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2037347004616204413",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2037347004616204413",
+    "lastSeenTweetId": "2037348456038297834",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2037348456038297834",
     "pendingReview": {
       "confidence": 0.96,
       "createdAt": 1774601015813,
@@ -28,6 +28,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2037347004616204413"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1774601021783,
+        "inputTokens": 291,
+        "outputTokens": 88,
+        "rationale": "A brief reply saying “Enhance”; it does not mention limits, caps, resets, or availability.",
+        "reasoningTokens": 39,
+        "totalTokens": 379,
+        "tweetId": "2037348456038297834",
+        "tweetText": "@Fullmoon211 Enhance",
+        "tweetUrl": "https://x.com/thsottiaux/status/2037348456038297834",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.96,
         "evaluatedAt": 1774601015813,
@@ -108,13 +121,28 @@
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 1989,
-      "totalOutputTokens": 511,
-      "totalReasoningTokens": 206,
-      "totalTokens": 2500
+      "totalInputTokens": 2280,
+      "totalOutputTokens": 599,
+      "totalReasoningTokens": 245,
+      "totalTokens": 2879
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1774601021783,
+      "inputTokens": 291,
+      "message": "",
+      "outputTokens": 88,
+      "rationale": "A brief reply saying “Enhance”; it does not mention limits, caps, resets, or availability.",
+      "reasoningTokens": 39,
+      "totalTokens": 379,
+      "tweetId": "2037348456038297834",
+      "tweetText": "@Fullmoon211 Enhance",
+      "tweetUrl": "https://x.com/thsottiaux/status/2037348456038297834",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.96,
       "createdAt": 1774601015813,
@@ -207,9 +235,9 @@
     }
   ],
   "privateState": {
-    "ciphertext": "bPRdG9u-gjetYMgNDcjE-qx0wCAbyLslEz1RbUW7rMyTw_x8I7iXuwYjBw",
-    "iv": "jC9T3FktI8hQIJyC",
-    "tag": "zBpGM4HZyddDrm_zgEfGsw",
+    "ciphertext": "dkuAvJ9MOFxTm7aArJWLMqXAkwxa0A5mG5cUpcVSmDxt2pKp9V0d8qcWhQ",
+    "iv": "svBvyeRgTOEca0ec",
+    "tag": "jHjpk5Rp2UDMq3k1WPIvPQ",
     "version": 1
   }
 }
