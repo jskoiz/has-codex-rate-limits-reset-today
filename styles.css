@@ -303,14 +303,14 @@ p {
 
 .config-page {
   min-height: 100vh;
-  padding: 0;
+  padding: 1.5rem 2.5rem;
 }
 
 .config-card {
-  width: 100%;
-  min-height: 100vh;
-  padding: 0.75rem 0.75rem;
-  border: none;
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 1rem 1.5rem;
+  border: 1px solid #1e1e1e;
   border-top: 2px solid #3ddc84;
   background: #0f0f0f;
 }
