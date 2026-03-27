@@ -220,3 +220,28 @@ test("runResetMonitor records errors before rethrowing", async () => {
 
   assert.deepEqual(recorded, ["timeline failed"]);
 });
+
+test("runResetMonitor records wrapped provider errors without collapsing to unknown", async () => {
+  const recorded = [];
+
+  await withAutomationEnv(() =>
+    assert.rejects(
+      runResetMonitor({
+        fetchLatestTimelineTweets: async () => {
+          throw new Error("Tweet fetch failed: Unknown error (Couldn't get KEY_BYTE indices)");
+        },
+        readSiteState: async () => ({
+          automation: {
+            lastSeenTweetId: "100",
+          },
+        }),
+        recordAutomationError: async (message) => {
+          recorded.push(message);
+        },
+      }),
+      /Tweet fetch failed: Unknown error \(Couldn't get KEY_BYTE indices\)/,
+    ),
+  );
+
+  assert.deepEqual(recorded, ["Tweet fetch failed: Unknown error (Couldn't get KEY_BYTE indices)"]);
+});

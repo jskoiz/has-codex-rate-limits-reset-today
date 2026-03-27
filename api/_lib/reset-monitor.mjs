@@ -94,6 +94,32 @@ const getRettiwt = async () => {
   return module.Rettiwt;
 };
 
+const getErrorMessage = (error) => {
+  if (error instanceof Error && error.message) {
+    return error.message;
+  }
+
+  if (typeof error === "string" && error) {
+    return error;
+  }
+
+  return "";
+};
+
+const describeAutomationError = (error, fallback = "Unknown reset monitor error") => {
+  const message = getErrorMessage(error);
+  const causeMessage =
+    typeof error?.cause === "object" && error?.cause
+      ? getErrorMessage(error.cause)
+      : "";
+
+  if (causeMessage && message && message !== causeMessage) {
+    return `${message} (${causeMessage})`;
+  }
+
+  return message || causeMessage || fallback;
+};
+
 export const compareTweetIds = (left, right) => {
   try {
     const leftId = BigInt(left);
@@ -239,111 +265,129 @@ const getRecentTweetSearchStartDate = () =>
   new Date(Date.now() - RECENT_TWEET_LOOKBACK_DAYS * 24 * 60 * 60 * 1000);
 
 const fetchRecentTweets = async () => {
-  const Rettiwt = await getRettiwt();
-  const rettiwt = new Rettiwt({ apiKey: getRettiwtApiKey() });
-  const searchResults = await rettiwt.tweet.search(
-    {
-      fromUsers: [TARGET_USERNAME],
-      startDate: getRecentTweetSearchStartDate(),
-    },
-    SEARCH_BATCH_SIZE,
-  );
+  try {
+    const Rettiwt = await getRettiwt();
+    const rettiwt = new Rettiwt({ apiKey: getRettiwtApiKey() });
+    const searchResults = await rettiwt.tweet.search(
+      {
+        fromUsers: [TARGET_USERNAME],
+        startDate: getRecentTweetSearchStartDate(),
+      },
+      SEARCH_BATCH_SIZE,
+    );
 
-  return Array.isArray(searchResults?.list) ? searchResults.list : [];
+    return Array.isArray(searchResults?.list) ? searchResults.list : [];
+  } catch (error) {
+    throw new Error(`Tweet fetch failed: ${describeAutomationError(error, "Unknown Rettiwt error")}`, {
+      cause: error,
+    });
+  }
 };
 
 const classifyTweet = async (tweet) => {
-  const response = await getOpenAIClient().responses.create({
-    model: getEnvValue("OPENAI_REASONING_MODEL", "") || DEFAULT_MODEL,
-    reasoning: {
-      effort: "medium",
-    },
-    input: [
-      {
-        content: [
-          {
-            text: classificationInstructions,
-            type: "input_text",
-          },
-        ],
-        role: "system",
+  try {
+    const response = await getOpenAIClient().responses.create({
+      model: getEnvValue("OPENAI_REASONING_MODEL", "") || DEFAULT_MODEL,
+      reasoning: {
+        effort: "medium",
       },
-      {
-        content: [
-          {
-            text: JSON.stringify(
-              {
-                tweet: {
-                  createdAt: tweet.createdAt,
-                  fullText: tweet.fullText,
-                  isReply: Boolean(tweet.replyTo),
-                  quotedText: tweet.quoted?.fullText || null,
-                  url: tweet.url,
+      input: [
+        {
+          content: [
+            {
+              text: classificationInstructions,
+              type: "input_text",
+            },
+          ],
+          role: "system",
+        },
+        {
+          content: [
+            {
+              text: JSON.stringify(
+                {
+                  tweet: {
+                    createdAt: tweet.createdAt,
+                    fullText: tweet.fullText,
+                    isReply: Boolean(tweet.replyTo),
+                    quotedText: tweet.quoted?.fullText || null,
+                    url: tweet.url,
+                  },
                 },
-              },
-              null,
-              2,
-            ),
-            type: "input_text",
-          },
-        ],
-        role: "user",
+                null,
+                2,
+              ),
+              type: "input_text",
+            },
+          ],
+          role: "user",
+        },
+      ],
+      text: {
+        format: {
+          name: "tweet_reset_classification",
+          schema: classificationSchema,
+          strict: true,
+          type: "json_schema",
+        },
       },
-    ],
-    text: {
-      format: {
-        name: "tweet_reset_classification",
-        schema: classificationSchema,
-        strict: true,
-        type: "json_schema",
+    });
+
+    const rawOutput = response.output_text?.trim();
+
+    if (!rawOutput) {
+      throw new Error("OpenAI returned an empty classification response");
+    }
+
+    const parsed = JSON.parse(rawOutput);
+
+    return {
+      confidence: typeof parsed.confidence === "number" ? parsed.confidence : null,
+      rationale: typeof parsed.rationale === "string" ? parsed.rationale.trim() : "",
+      usage: {
+        inputTokens: response.usage?.input_tokens || 0,
+        outputTokens: response.usage?.output_tokens || 0,
+        reasoningTokens: response.usage?.output_tokens_details?.reasoning_tokens || 0,
+        totalTokens: response.usage?.total_tokens || 0,
       },
-    },
-  });
-
-  const rawOutput = response.output_text?.trim();
-
-  if (!rawOutput) {
-    throw new Error("OpenAI returned an empty classification response");
+      verdict: parsed.verdict,
+    };
+  } catch (error) {
+    throw new Error(`Tweet classification failed: ${describeAutomationError(error, "Unknown OpenAI error")}`, {
+      cause: error,
+    });
   }
-
-  const parsed = JSON.parse(rawOutput);
-
-  return {
-    confidence: typeof parsed.confidence === "number" ? parsed.confidence : null,
-    rationale: typeof parsed.rationale === "string" ? parsed.rationale.trim() : "",
-    usage: {
-      inputTokens: response.usage?.input_tokens || 0,
-      outputTokens: response.usage?.output_tokens || 0,
-      reasoningTokens: response.usage?.output_tokens_details?.reasoning_tokens || 0,
-      totalTokens: response.usage?.total_tokens || 0,
-    },
-    verdict: parsed.verdict,
-  };
 };
 
 const sendReviewEmail = async (tweet, classification) => {
   const configUrl = `${getBaseUrl()}/config`;
-  const { error } = await getResendClient().emails.send({
-    from: getEnvValue("RESEND_FROM_EMAIL", ""),
-    subject: "Review possible Codex reset tweet",
-    text: [
-      "The Codex reset monitor found a tweet that might indicate limits were reset.",
-      "",
-      `Tweet URL: ${tweet.url}`,
-      `Posted: ${tweet.createdAt}`,
-      "",
-      "Tweet text:",
-      tweet.fullText,
-      "",
-      `AI rationale: ${classification.rationale || "No rationale provided."}`,
-      "",
-      `Review it in the admin page: ${configUrl}`,
-    ].join("\n"),
-    to: [getReviewEmail()],
-  });
+  try {
+    const { error } = await getResendClient().emails.send({
+      from: getEnvValue("RESEND_FROM_EMAIL", ""),
+      subject: "Review possible Codex reset tweet",
+      text: [
+        "The Codex reset monitor found a tweet that might indicate limits were reset.",
+        "",
+        `Tweet URL: ${tweet.url}`,
+        `Posted: ${tweet.createdAt}`,
+        "",
+        "Tweet text:",
+        tweet.fullText,
+        "",
+        `AI rationale: ${classification.rationale || "No rationale provided."}`,
+        "",
+        `Review it in the admin page: ${configUrl}`,
+      ].join("\n"),
+      to: [getReviewEmail()],
+    });
 
-  if (error) {
-    throw new Error(error.message || "Unable to send review email");
+    if (error) {
+      throw new Error(error.message || "Unable to send review email");
+    }
+  } catch (error) {
+    throw new Error(`Review email failed: ${describeAutomationError(error, "Unknown Resend error")}`, {
+      cause: error,
+    });
   }
 };
 
@@ -510,7 +554,7 @@ export const runResetMonitor = async (deps = {}) => {
       tweetUrl: unseenTweets[unseenTweets.length - 1].url,
     };
   } catch (error) {
-    const message = error instanceof Error ? error.message : "Unknown reset monitor error";
+    const message = describeAutomationError(error);
     await recordError(message);
     throw error;
   }
