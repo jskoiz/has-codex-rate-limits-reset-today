@@ -283,144 +283,169 @@ p {
   }
 }
 
+/* ── Config dashboard ── */
+
 .config-body {
-  overflow: auto;
-  background:
-    radial-gradient(circle at top, rgba(255, 255, 255, 0.82), transparent 28%),
-    linear-gradient(180deg, #f3ece0 0%, #e4d9cb 100%);
+  overflow-x: hidden;
+  overflow-y: auto;
+  background: #0a0a0a;
+  font-family: "JetBrains Mono", "SF Mono", "Fira Code", "Cascadia Code", monospace;
+  color: #e0e0e0;
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
+
+.config-body *,
+.config-body *::before,
+.config-body *::after {
+  box-sizing: border-box;
 }
 
 .config-page {
   min-height: 100vh;
-  display: grid;
-  place-items: center;
-  padding: 1.5rem;
+  padding: 0;
 }
 
 .config-card {
-  width: min(100%, 70rem);
-  padding: 1.4rem;
-  border: 1px solid rgba(17, 17, 17, 0.08);
-  border-radius: 1.65rem;
-  background: rgba(255, 250, 244, 0.86);
-  box-shadow:
-    0 24px 80px rgba(71, 57, 37, 0.12),
-    inset 0 1px 0 rgba(255, 255, 255, 0.7);
-  backdrop-filter: blur(16px);
+  width: 100%;
+  min-height: 100vh;
+  padding: 0.75rem 0.75rem;
+  border: none;
+  border-top: 2px solid #3ddc84;
+  background: #0f0f0f;
 }
 
 .config-header {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-between;
-  gap: 1.25rem;
+  gap: 1rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid #1e1e1e;
 }
 
 .config-eyebrow {
-  margin-top: 0;
-  font-size: 0.78rem;
-  font-weight: 700;
-  letter-spacing: 0.12em;
+  margin: 0;
+  font-size: 0.65rem;
+  font-weight: 500;
+  letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: rgba(17, 17, 17, 0.55);
+  color: #666;
 }
 
 .config-title {
-  margin-top: 0.3rem;
-  font-size: clamp(2.4rem, 5vw, 4rem);
-  line-height: 0.92;
+  margin: 0.15rem 0 0;
+  font-family: "JetBrains Mono", "SF Mono", "Fira Code", monospace;
+  font-size: 1.1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  color: #e0e0e0;
 }
 
 .config-copy {
-  max-width: 31rem;
-  margin: 0.45rem 0 0;
+  margin: 0.2rem 0 0;
+  font-size: 0.75rem;
+  color: #666;
 }
 
 .config-auth-form {
-  margin-top: 1rem;
+  margin-top: 0.75rem;
 }
 
 .config-actions {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 0.8rem;
-  margin-top: 0.9rem;
+  gap: 1px;
+  margin-top: 0;
 }
 
 .config-toggle,
 .config-save {
   appearance: none;
-  border: 0;
-  border-radius: 999px;
-  background: #111111;
-  color: #f7f6f3;
+  border: 1px solid #333;
+  border-radius: 0;
+  background: #1a1a1a;
+  color: #e0e0e0;
   font: inherit;
-  font-weight: 700;
+  font-size: 0.78rem;
+  font-weight: 600;
   cursor: pointer;
-  transition:
-    transform 160ms ease,
-    background-color 160ms ease,
-    color 160ms ease,
-    opacity 160ms ease;
+  transition: background-color 120ms ease, border-color 120ms ease;
+}
+
+.config-toggle:hover,
+.config-save:hover {
+  background: #252525;
+  border-color: #444;
 }
 
 .config-toggle {
   width: 100%;
-  min-height: 3.15rem;
-  padding: 0.88rem 1rem;
+  min-height: 1.9rem;
+  padding: 0.35rem 0.6rem;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
 }
 
 .config-toggle[data-active="true"] {
-  background: #d86139;
+  background: #e0e0e0;
+  border-color: #e0e0e0;
+  color: #0a0a0a;
 }
 
 .config-toggle-secondary {
-  background: rgba(17, 17, 17, 0.14);
-  color: #111111;
+  background: #111;
+  border-color: #2a2a2a;
+  color: #999;
 }
 
-.config-toggle:hover,
-.config-save:hover,
+.config-toggle-secondary:hover {
+  color: #e0e0e0;
+}
+
 .config-icon-button:hover,
 .config-chip-link:hover {
-  transform: translateY(-1px);
+  background: #252525;
 }
 
 .config-summary-grid,
 .config-grid,
 .config-secondary-grid {
   display: grid;
-  gap: 0.8rem;
+  gap: 1px;
 }
 
 .config-summary-grid {
   grid-template-columns: repeat(4, minmax(0, 1fr));
-  margin-top: 1rem;
+  margin-top: 0.75rem;
 }
 
 .config-grid {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  margin-top: 0.8rem;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  margin-top: 0.5rem;
 }
 
 .config-secondary-grid {
   grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.05fr);
-  margin-top: 0.8rem;
+  margin-top: 0.5rem;
 }
 
 .config-metric,
 .config-field {
   display: block;
-  padding: 0.95rem 1rem;
-  border-radius: 1.15rem;
-  background: rgba(255, 255, 255, 0.58);
-  border: 1px solid rgba(17, 17, 17, 0.06);
+  padding: 0.5rem 0.6rem;
+  border: 1px solid #1e1e1e;
+  background: #111;
+  min-width: 0;
+  overflow: hidden;
 }
 
 .config-metric-emphasis {
-  background:
-    linear-gradient(180deg, rgba(255, 255, 255, 0.76), rgba(255, 255, 255, 0.54)),
-    rgba(255, 255, 255, 0.58);
+  border-color: #2a2a2a;
+  background: #141414;
 }
 
 .config-metric-span-2 {
@@ -429,65 +454,67 @@ p {
 
 .config-label {
   display: block;
-  font-size: 0.76rem;
-  font-weight: 700;
-  letter-spacing: 0.04em;
+  font-size: 0.65rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: rgba(17, 17, 17, 0.52);
+  color: #555;
 }
 
 .config-value {
   display: block;
-  margin-top: 0.45rem;
-  font-size: 1.02rem;
-  line-height: 1.35;
-  color: #111111;
+  margin-top: 0.25rem;
+  font-size: 0.88rem;
+  font-weight: 600;
+  line-height: 1.3;
+  color: #e0e0e0;
 }
 
 .config-value-xl {
-  font-size: clamp(1.85rem, 3vw, 2.4rem);
+  font-size: 1.5rem;
+  font-weight: 700;
   line-height: 1;
 }
 
 .config-value[data-state="yes"] {
-  color: #c04922;
+  color: #e06040;
 }
 
 .config-value[data-state="no"] {
-  color: #111111;
+  color: #e0e0e0;
 }
 
 .config-value[data-tone="success"] {
-  color: #1f7a45;
+  color: #3ddc84;
 }
 
 .config-value[data-tone="warning"] {
-  color: #c25f2a;
+  color: #f5a623;
 }
 
 .config-value[data-tone="error"] {
-  color: #b03d1f;
+  color: #e05050;
 }
 
 .config-value[data-tone="muted"] {
-  color: #111111;
+  color: #777;
 }
 
 .config-value-link {
-  color: #111111;
+  color: #8ab4f8;
   text-decoration: underline;
-  text-decoration-color: rgba(17, 17, 17, 0.18);
+  text-decoration-color: rgba(138, 180, 248, 0.3);
   text-underline-offset: 0.16em;
 }
 
 .config-value-link[data-empty="true"] {
-  color: rgba(17, 17, 17, 0.58);
+  color: #555;
   text-decoration: none;
   pointer-events: none;
 }
 
 .config-field {
-  margin-top: 0.8rem;
+  margin-top: 0.5rem;
 }
 
 .config-auth-field {
@@ -496,83 +523,92 @@ p {
 
 .config-input-row {
   display: flex;
-  gap: 0.7rem;
-  margin-top: 0.65rem;
+  gap: 0.5rem;
+  margin-top: 0.4rem;
 }
 
 .config-input-row input,
 .config-subtitle-input {
   flex: 1;
   min-width: 0;
-  padding: 0.82rem 0.95rem;
-  border: 1px solid rgba(17, 17, 17, 0.12);
-  border-radius: 0.95rem;
-  background: rgba(255, 255, 255, 0.88);
-  color: #111111;
+  padding: 0.5rem 0.6rem;
+  border: 1px solid #2a2a2a;
+  border-radius: 0;
+  background: #0a0a0a;
+  color: #e0e0e0;
   font: inherit;
+  font-size: 0.8rem;
+}
+
+.config-input-row input:focus,
+.config-subtitle-input:focus {
+  outline: none;
+  border-color: #444;
 }
 
 .config-save {
-  padding: 0.82rem 1.1rem;
+  padding: 0.5rem 0.85rem;
 }
 
 .config-error {
-  min-height: 1.5rem;
-  margin-top: 0.65rem;
-  color: #b03d1f;
+  min-height: 1.2rem;
+  margin-top: 0.4rem;
+  font-size: 0.78rem;
+  color: #e05050;
 }
 
 .config-notice {
-  min-height: 1.5rem;
-  margin: 0 0 0.7rem;
-  font-weight: 700;
-  color: #6f6a63;
+  min-height: 1.2rem;
+  margin: 0 0 0.5rem;
+  font-weight: 600;
+  font-size: 0.78rem;
+  color: #777;
 }
 
 .config-notice[data-tone="success"] {
-  color: #1f7a45;
+  color: #3ddc84;
 }
 
 .config-notice[data-tone="error"] {
-  color: #b03d1f;
+  color: #e05050;
 }
 
 .config-subtitle-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 0.75rem;
+  gap: 0.5rem;
 }
 
 .config-subtitle-list {
   display: grid;
-  gap: 0.75rem;
-  margin-top: 0.85rem;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
 }
 
 .config-subtitle-row {
   display: flex;
-  gap: 0.7rem;
+  gap: 0.5rem;
   align-items: center;
 }
 
 .config-icon-button {
   appearance: none;
-  border: 0;
-  width: 2.8rem;
-  height: 2.8rem;
-  border-radius: 999px;
-  background: #111111;
-  color: #f7f6f3;
+  border: 1px solid #333;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 0;
+  background: #1a1a1a;
+  color: #e0e0e0;
   font: inherit;
-  font-size: 1.7rem;
+  font-size: 1.1rem;
   line-height: 1;
   cursor: pointer;
 }
 
 .config-icon-button:disabled {
   cursor: not-allowed;
-  opacity: 0.4;
+  opacity: 0.3;
 }
 
 .config-icon-button-add {
@@ -582,54 +618,96 @@ p {
 .config-subtitle-actions {
   display: flex;
   align-items: center;
-  gap: 0.75rem;
-  margin-top: 0.85rem;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
 }
 
 .config-subtitle-save {
   width: auto;
 }
 
-.config-token-grid {
-  display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 0.7rem;
-  margin-top: 0.7rem;
+.config-token-inline {
+  display: flex;
+  align-items: baseline;
+  gap: 0.4rem;
+  margin-top: 0.3rem;
+  font-size: 0.78rem;
+  color: #777;
 }
 
-.config-token-grid > div {
-  padding: 0.7rem 0.75rem;
-  border-radius: 0.95rem;
-  background: rgba(17, 17, 17, 0.04);
+.config-token-inline strong {
+  color: #e0e0e0;
+  font-weight: 600;
 }
 
-.config-token-label {
-  display: block;
-  font-size: 0.72rem;
-  font-weight: 700;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  color: rgba(17, 17, 17, 0.48);
+.config-token-sep {
+  color: #333;
 }
 
-.config-token-value {
-  display: block;
-  margin-top: 0.35rem;
-  font-size: 1rem;
+.config-status-dot {
+  display: inline-block;
+  width: 0.5rem;
+  height: 0.5rem;
+  margin-right: 0.35rem;
+  background: #555;
+  vertical-align: middle;
+}
+
+[data-state="yes"] .config-status-dot {
+  background: #3ddc84;
+  box-shadow: 0 0 6px rgba(61, 220, 132, 0.5);
+}
+
+[data-state="no"] .config-status-dot {
+  background: #555;
+}
+
+.config-divider {
+  border: none;
+  border-top: 1px solid #1e1e1e;
+  margin: 0.6rem 0;
+}
+
+.config-token-bar {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.45rem 0.75rem;
+  border: 1px solid #1e1e1e;
+  background: #0c0c0c;
+  margin-top: 0.5rem;
+  font-size: 0.75rem;
+}
+
+.config-token-bar .config-label {
+  display: inline;
+  font-size: 0.65rem;
+}
+
+.config-token-model {
+  color: #8ab4f8;
+  font-weight: 600;
+  font-size: 0.75rem;
 }
 
 .config-value-compact {
-  font-size: 0.96rem;
-  line-height: 1.45;
+  font-size: 0.82rem;
+  line-height: 1.4;
   word-break: break-word;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .config-metric-meta {
   display: block;
-  margin-top: 0.38rem;
-  color: rgba(17, 17, 17, 0.58);
-  font-size: 0.82rem;
-  line-height: 1.45;
+  margin-top: 0.2rem;
+  color: #555;
+  font-size: 0.65rem;
+  line-height: 1.35;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .config-chip,
@@ -637,15 +715,14 @@ p {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-height: 1.9rem;
-  padding: 0.25rem 0.75rem;
-  border-radius: 999px;
-  border: 1px solid rgba(17, 17, 17, 0.08);
-  background: rgba(17, 17, 17, 0.05);
-  color: #111111;
-  font-size: 0.74rem;
-  font-weight: 700;
-  letter-spacing: 0.01em;
+  min-height: 1.5rem;
+  padding: 0.15rem 0.5rem;
+  border: 1px solid #2a2a2a;
+  background: #1a1a1a;
+  color: #999;
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
   text-decoration: none;
 }
 
@@ -653,103 +730,110 @@ p {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-height: 1.9rem;
-  padding: 0.25rem 0.75rem;
-  border-radius: 999px;
-  background: rgba(17, 17, 17, 0.05);
-  color: #111111;
-  font-size: 0.74rem;
-  font-weight: 700;
+  min-height: 1.5rem;
+  padding: 0.15rem 0.5rem;
+  border: 1px solid #2a2a2a;
+  background: #1a1a1a;
+  color: #999;
+  font-size: 0.65rem;
+  font-weight: 600;
+  cursor: pointer;
 }
 
 .config-note {
-  margin: 0.75rem 0 0;
-  color: rgba(17, 17, 17, 0.6);
+  margin: 0.4rem 0 0;
+  color: #555;
+  font-size: 0.75rem;
 }
 
 .config-note-tight {
-  margin-top: 0.45rem;
+  margin-top: 0.25rem;
 }
 
 .config-log {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 0.75rem;
-  margin-top: 0.9rem;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
 }
 
 .config-log-item {
-  padding: 0.85rem 0.9rem;
-  border: 1px solid rgba(17, 17, 17, 0.08);
-  border-radius: 1rem;
-  background: rgba(255, 255, 255, 0.7);
+  padding: 0.6rem 0.65rem;
+  border: 1px solid #1e1e1e;
+  background: #0f0f0f;
 }
 
 .config-log-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 0.75rem;
+  gap: 0.5rem;
 }
 
 .config-log-verdict {
-  font-size: 0.95rem;
+  font-size: 0.82rem;
+  font-weight: 600;
   line-height: 1.3;
 }
 
 .config-log-verdict[data-tone="reset_confirmed"] {
-  color: #1f7a45;
+  color: #3ddc84;
 }
 
 .config-log-verdict[data-tone="uncertain"] {
-  color: #c25f2a;
+  color: #f5a623;
 }
 
 .config-log-verdict[data-tone="not_reset"] {
-  color: #111111;
+  color: #999;
 }
 
 .config-log-meta {
-  color: rgba(17, 17, 17, 0.55);
-  font-size: 0.84rem;
+  color: #555;
+  font-size: 0.72rem;
 }
 
 .config-log-reason {
-  margin: 0.45rem 0 0;
-  color: rgba(17, 17, 17, 0.82);
-  font-size: 0.94rem;
-  line-height: 1.5;
+  margin: 0.3rem 0 0;
+  color: #aaa;
+  font-size: 0.78rem;
+  line-height: 1.45;
 }
 
 .config-log-usage {
-  margin: 0.35rem 0 0;
-  color: rgba(17, 17, 17, 0.6);
-  font-size: 0.84rem;
-  line-height: 1.4;
+  margin: 0.2rem 0 0;
+  color: #555;
+  font-size: 0.72rem;
+  line-height: 1.35;
 }
 
 .config-log-link {
   display: inline-flex;
-  margin-top: 0.45rem;
-  color: rgba(17, 17, 17, 0.74);
-  font-size: 0.87rem;
-  line-height: 1.5;
-  text-decoration-color: rgba(17, 17, 17, 0.18);
+  margin-top: 0.3rem;
+  color: #8ab4f8;
+  font-size: 0.75rem;
+  line-height: 1.45;
+  text-decoration-color: rgba(138, 180, 248, 0.3);
 }
 
 .config-link {
   display: inline-flex;
-  color: #111111;
-  font-weight: 700;
+  color: #e0e0e0;
+  font-weight: 600;
+  font-size: 0.78rem;
   text-decoration: none;
 }
 
 .config-link-top {
   flex-shrink: 0;
-  min-height: 2.5rem;
-  padding: 0.7rem 1rem;
-  border-radius: 999px;
-  background: rgba(17, 17, 17, 0.06);
+  min-height: 2rem;
+  padding: 0.4rem 0.75rem;
+  border: 1px solid #2a2a2a;
+  background: #1a1a1a;
+}
+
+.config-link-top:hover {
+  background: #252525;
 }
 
 .config-field-collapsible {
@@ -761,8 +845,8 @@ p {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 1rem;
-  padding: 0.95rem 1rem;
+  gap: 0.75rem;
+  padding: 0.6rem 0.75rem;
   cursor: pointer;
   list-style: none;
 }
@@ -772,18 +856,19 @@ p {
 }
 
 .config-field-collapsible[open] .config-details-toggle {
-  background: #111111;
-  color: #f7f6f3;
+  background: #e0e0e0;
+  color: #0a0a0a;
+  border-color: #e0e0e0;
 }
 
 .config-field-collapsible[open] .config-subtitle-list,
 .config-field-collapsible[open] .config-subtitle-actions {
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
 }
 
 .config-field-collapsible[open] .config-subtitle-actions {
-  padding-bottom: 1rem;
+  padding-bottom: 0.75rem;
 }
 
 @media (max-width: 980px) {
@@ -796,15 +881,18 @@ p {
     grid-template-columns: 1fr;
   }
 
-  .config-token-grid,
   .config-log {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .config-token-bar {
+    flex-wrap: wrap;
   }
 }
 
 @media (max-width: 720px) {
   .config-card {
-    padding: 1.15rem;
+    padding: 0.75rem;
   }
 
   .config-header {
@@ -816,7 +904,6 @@ p {
   .config-grid,
   .config-actions,
   .config-input-row,
-  .config-token-grid,
   .config-log {
     grid-template-columns: 1fr;
     flex-direction: column;

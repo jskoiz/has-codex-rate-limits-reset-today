@@ -420,7 +420,8 @@ const decryptPrivateState = (value) => {
 
     return normalizePrivateState(JSON.parse(plaintext));
   } catch (error) {
-    throw new Error(`Unable to decrypt private state: ${error instanceof Error ? error.message : "Unknown error"}`);
+    console.warn(`Unable to decrypt private state: ${error instanceof Error ? error.message : "Unknown error"}`);
+    return normalizePrivateState({});
   }
 };
 

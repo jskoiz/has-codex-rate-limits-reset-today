@@ -32,9 +32,7 @@ const automationReasoningTokensValue = document.querySelector("#automationReason
 const automationTotalTokensValue = document.querySelector("#automationTotalTokensValue");
 const automationStatusNote = document.querySelector("#automationStatusNote");
 const automationLog = document.querySelector("#automationLog");
-const trafficValue = document.querySelector("#trafficValue");
-const trafficMetaValue = document.querySelector("#trafficMetaValue");
-const analyticsLink = document.querySelector("#analyticsLink");
+const automationModelValue = document.querySelector("#automationModelValue");
 let currentNoSubtitles = [];
 let noticeTimeoutId = null;
 
@@ -49,10 +47,9 @@ const formatDateTime = (value) => {
     return "Not set";
   }
 
-  return new Intl.DateTimeFormat(undefined, {
-    dateStyle: "medium",
-    timeStyle: "short",
-  }).format(timestamp);
+  const d = new Date(timestamp);
+  const pad = (n) => String(n).padStart(2, "0");
+  return `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())} ${pad(d.getHours())}:${pad(d.getMinutes())}`;
 };
 
 const truncateText = (value, maxLength = 120) => {
@@ -181,24 +178,6 @@ const getAutomationHealth = (automation = {}) => {
     tone: "muted",
     value: "Healthy",
   };
-};
-
-const renderTraffic = (analyticsUrl) => {
-  if (!trafficValue || !trafficMetaValue || !analyticsLink) {
-    return;
-  }
-
-  trafficValue.textContent = analyticsUrl ? "Dashboard linked" : "Dashboard not linked";
-  trafficMetaValue.textContent = analyticsUrl
-    ? "Use your analytics dashboard for visitor and pageview totals."
-    : "Add SITE_ANALYTICS_URL to jump straight into your traffic dashboard.";
-  analyticsLink.hidden = !analyticsUrl;
-
-  if (analyticsUrl) {
-    analyticsLink.href = analyticsUrl;
-  } else {
-    analyticsLink.removeAttribute("href");
-  }
 };
 
 const renderAutomationLog = (automation = {}) => {
@@ -372,7 +351,13 @@ const runConfigAction = async (callback, successMessage = "") => {
 
 const renderConfig = (config) => {
   showControls();
-  statusValue.textContent = config.state === "yes" ? "Yes" : "No";
+  const dot = statusValue.querySelector(".config-status-dot");
+  if (dot) {
+    statusValue.childNodes.forEach((n) => { if (n !== dot) n.remove(); });
+    statusValue.append(config.state === "yes" ? "Yes" : "No");
+  } else {
+    statusValue.textContent = config.state === "yes" ? "Yes" : "No";
+  }
   statusValue.dataset.state = config.state;
   configUpdatedValue.textContent = formatDateTime(config.updatedAt);
   hoursInput.value = String(config.autoResetHours);
@@ -383,7 +368,10 @@ const renderConfig = (config) => {
   resetMetaValue.textContent = resetDisplay.meta;
 
   renderAutomation(config.automation);
-  renderTraffic(config.analyticsUrl || config.vercelAnalyticsUrl);
+
+  if (automationModelValue) {
+    automationModelValue.textContent = config.reasoningModel || "--";
+  }
 
   stateButtons.forEach((button) => {
     const isActive = button.dataset.nextState === config.state;

@@ -13,6 +13,9 @@ import {
 
 const unauthorized = () => jsonResponse({ error: "Unauthorized" }, 401);
 
+const getReasoningModel = () =>
+  getEnvValue("OPENAI_REASONING_MODEL", "") || "gpt-5.4";
+
 const getAnalyticsUrl = () => {
   const value =
     getEnvValue("SITE_ANALYTICS_URL", "") ||
@@ -40,6 +43,7 @@ export async function GET(request) {
       updatedAt: state.updatedAt,
       analyticsUrl: getAnalyticsUrl(),
       vercelAnalyticsUrl: getAnalyticsUrl(),
+      reasoningModel: getReasoningModel(),
     });
   } catch (error) {
     return jsonResponse({ error: error instanceof Error ? error.message : "Unknown config error" }, 500);
@@ -72,6 +76,7 @@ export async function POST(request) {
       updatedAt: nextState.updatedAt,
       analyticsUrl: getAnalyticsUrl(),
       vercelAnalyticsUrl: getAnalyticsUrl(),
+      reasoningModel: getReasoningModel(),
     });
   } catch (error) {
     return jsonResponse({ error: error instanceof Error ? error.message : "Unknown write error" }, 500);
