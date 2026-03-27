@@ -9,18 +9,38 @@
   "updatedAt": 1774601009855,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1774601009856,
-      "rationale": "The tweet explicitly says Codex usage limits were reset across all plans and users can build unlimited things now.",
-      "tweetId": "2037346989244096581",
-      "tweetUrl": "https://x.com/thsottiaux/status/2037346989244096581",
-      "verdict": "reset_confirmed"
+      "confidence": 0.96,
+      "decidedAt": 1774601015813,
+      "rationale": "The post text is only a link and provides no explicit indication that any Codex or ChatGPT limit/reset occurred.",
+      "tweetId": "2037347004616204413",
+      "tweetUrl": "https://x.com/thsottiaux/status/2037347004616204413",
+      "verdict": "uncertain"
     },
     "lastError": null,
-    "lastSeenTweetId": "2037346989244096581",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2037346989244096581",
-    "pendingReview": null,
+    "lastSeenTweetId": "2037347004616204413",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2037347004616204413",
+    "pendingReview": {
+      "confidence": 0.96,
+      "createdAt": 1774601015813,
+      "rationale": "The post text is only a link and provides no explicit indication that any Codex or ChatGPT limit/reset occurred.",
+      "tweetId": "2037347004616204413",
+      "tweetText": "https://t.co/iQAo6liXFK",
+      "tweetUrl": "https://x.com/thsottiaux/status/2037347004616204413"
+    },
     "recentEvaluations": [
+      {
+        "confidence": 0.96,
+        "evaluatedAt": 1774601015813,
+        "inputTokens": 298,
+        "outputTokens": 114,
+        "rationale": "The post text is only a link and provides no explicit indication that any Codex or ChatGPT limit/reset occurred.",
+        "reasoningTokens": 63,
+        "totalTokens": 412,
+        "tweetId": "2037347004616204413",
+        "tweetText": "https://t.co/iQAo6liXFK",
+        "tweetUrl": "https://x.com/thsottiaux/status/2037347004616204413",
+        "verdict": "uncertain"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1774601009856,
@@ -88,13 +108,28 @@
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 1691,
-      "totalOutputTokens": 397,
-      "totalReasoningTokens": 143,
-      "totalTokens": 2088
+      "totalInputTokens": 1989,
+      "totalOutputTokens": 511,
+      "totalReasoningTokens": 206,
+      "totalTokens": 2500
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.96,
+      "createdAt": 1774601015813,
+      "inputTokens": 298,
+      "message": "",
+      "outputTokens": 114,
+      "rationale": "The post text is only a link and provides no explicit indication that any Codex or ChatGPT limit/reset occurred.",
+      "reasoningTokens": 63,
+      "totalTokens": 412,
+      "tweetId": "2037347004616204413",
+      "tweetText": "https://t.co/iQAo6liXFK",
+      "tweetUrl": "https://x.com/thsottiaux/status/2037347004616204413",
+      "type": "review_requested",
+      "verdict": "uncertain"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1774601009856,
@@ -172,9 +207,9 @@
     }
   ],
   "privateState": {
-    "ciphertext": "D54uKYKZpKvxoJsnNLWP0kZW6s7CIkAaUAUvDpugaBK93Ck_aEABBOIL1g",
-    "iv": "hkbukdAvn5Rb2Idb",
-    "tag": "poFqU1tbRJJmyvOsCvSHAg",
+    "ciphertext": "bPRdG9u-gjetYMgNDcjE-qx0wCAbyLslEz1RbUW7rMyTw_x8I7iXuwYjBw",
+    "iv": "jC9T3FktI8hQIJyC",
+    "tag": "zBpGM4HZyddDrm_zgEfGsw",
     "version": 1
   }
 }
