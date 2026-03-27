@@ -8,24 +8,61 @@
   "resetAt": 1774665442403,
   "updatedAt": 1774593442403,
   "automation": {
-    "lastDecision": null,
+    "lastDecision": {
+      "confidence": 0.99,
+      "decidedAt": 1774600994350,
+      "rationale": "The tweet is about Codex plugins/integrations and account access, not about rate limits, caps, or usage resetting.",
+      "tweetId": "2037310992284311940",
+      "tweetUrl": "https://x.com/thsottiaux/status/2037310992284311940",
+      "verdict": "not_reset"
+    },
     "lastError": null,
-    "lastSeenTweetId": "2034792658405818662",
-    "lastSeenTweetUrl": null,
+    "lastSeenTweetId": "2037310992284311940",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2037310992284311940",
     "pendingReview": null,
-    "recentEvaluations": [],
+    "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1774600994350,
+        "inputTokens": 429,
+        "outputTokens": 73,
+        "rationale": "The tweet is about Codex plugins/integrations and account access, not about rate limits, caps, or usage resetting.",
+        "reasoningTokens": 20,
+        "totalTokens": 502,
+        "tweetId": "2037310992284311940",
+        "tweetText": "Boom. Plugins! Codex now has access to most things it couldn’t reach before and all super easy behind the same with you use for your ChatGPT account.\n\nI use this for *everything*, from managing my calendar, triaging incoming bugs, keeping up to date with what everyone is doing at the company and so much more",
+        "tweetUrl": "https://x.com/thsottiaux/status/2037310992284311940",
+        "verdict": "not_reset"
+      }
+    ],
     "tokenUsage": {
-      "totalInputTokens": 0,
-      "totalOutputTokens": 0,
-      "totalReasoningTokens": 0,
-      "totalTokens": 0
+      "totalInputTokens": 429,
+      "totalOutputTokens": 73,
+      "totalReasoningTokens": 20,
+      "totalTokens": 502
     }
   },
-  "automationEvents": [],
+  "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1774600994350,
+      "inputTokens": 429,
+      "message": "",
+      "outputTokens": 73,
+      "rationale": "The tweet is about Codex plugins/integrations and account access, not about rate limits, caps, or usage resetting.",
+      "reasoningTokens": 20,
+      "totalTokens": 502,
+      "tweetId": "2037310992284311940",
+      "tweetText": "Boom. Plugins! Codex now has access to most things it couldn’t reach before and all super easy behind the same with you use for your ChatGPT account.\n\nI use this for *everything*, from managing my calendar, triaging incoming bugs, keeping up to date with what everyone is doing at the company and so much more",
+      "tweetUrl": "https://x.com/thsottiaux/status/2037310992284311940",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    }
+  ],
   "privateState": {
-    "ciphertext": "DHz_3UyIcehPxnJ4Q66n78jpiwt7q6TK2Cxem9c0MO6jA2WE6708hs3gEQ",
-    "iv": "wQlh8Qdyu7FumRgh",
-    "tag": "Wmeq4EmsgM5jfrmijWn43g",
+    "ciphertext": "EfdFQDQAU1tFOcCHbVqXdYCJgx8TKO2ej6W2So6va-AOzWYQdI6PSogt_g",
+    "iv": "kaWysplJxMzyjS_M",
+    "tag": "e5oamScpQSibOWxcHr4y1Q",
     "version": 1
   }
 }
