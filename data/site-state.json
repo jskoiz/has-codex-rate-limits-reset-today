@@ -10,15 +10,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1774601021783,
-      "rationale": "A brief reply saying “Enhance”; it does not mention limits, caps, resets, or availability.",
-      "tweetId": "2037348456038297834",
-      "tweetUrl": "https://x.com/thsottiaux/status/2037348456038297834",
+      "decidedAt": 1774601024729,
+      "rationale": "Reply about popout windows; no mention of limits, caps, reset, or availability returning.",
+      "tweetId": "2037348557729210806",
+      "tweetUrl": "https://x.com/thsottiaux/status/2037348557729210806",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2037348456038297834",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2037348456038297834",
+    "lastSeenTweetId": "2037348557729210806",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2037348557729210806",
     "pendingReview": {
       "confidence": 0.96,
       "createdAt": 1774601015813,
@@ -28,6 +28,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2037347004616204413"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1774601024729,
+        "inputTokens": 304,
+        "outputTokens": 70,
+        "rationale": "Reply about popout windows; no mention of limits, caps, reset, or availability returning.",
+        "reasoningTokens": 23,
+        "totalTokens": 374,
+        "tweetId": "2037348557729210806",
+        "tweetText": "@rishirsv @ajambrosino what happened to the poor popout windows",
+        "tweetUrl": "https://x.com/thsottiaux/status/2037348557729210806",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1774601021783,
@@ -121,13 +134,28 @@
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 2280,
-      "totalOutputTokens": 599,
-      "totalReasoningTokens": 245,
-      "totalTokens": 2879
+      "totalInputTokens": 2584,
+      "totalOutputTokens": 669,
+      "totalReasoningTokens": 268,
+      "totalTokens": 3253
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1774601024729,
+      "inputTokens": 304,
+      "message": "",
+      "outputTokens": 70,
+      "rationale": "Reply about popout windows; no mention of limits, caps, reset, or availability returning.",
+      "reasoningTokens": 23,
+      "totalTokens": 374,
+      "tweetId": "2037348557729210806",
+      "tweetText": "@rishirsv @ajambrosino what happened to the poor popout windows",
+      "tweetUrl": "https://x.com/thsottiaux/status/2037348557729210806",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1774601021783,
@@ -235,9 +263,9 @@
     }
   ],
   "privateState": {
-    "ciphertext": "dkuAvJ9MOFxTm7aArJWLMqXAkwxa0A5mG5cUpcVSmDxt2pKp9V0d8qcWhQ",
-    "iv": "svBvyeRgTOEca0ec",
-    "tag": "jHjpk5Rp2UDMq3k1WPIvPQ",
+    "ciphertext": "q7mXwIWM5-4jyttdIse_urb1lJioOxGWUtQEb-XCq9gmbS0fMlZLNsCX_g",
+    "iv": "SGp6MCQ1-gojHOnH",
+    "tag": "-j1F3U5a13Pyn3iVAAJFsA",
     "version": 1
   }
 }
