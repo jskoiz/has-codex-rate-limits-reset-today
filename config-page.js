@@ -1,6 +1,7 @@
 import { fetchAdminConfig, loginAdmin, logoutAdmin, runAutomationMonitor, updateAdminConfig } from "./site-api.js";
 
 const DEFAULT_NO_SUBTITLE = "Limits have not reset yet.";
+const DEFAULT_YES_SUBTITLE = "Limits reset, go crazy";
 
 const authPanel = document.querySelector("#authPanel");
 const controlPanel = document.querySelector("#controlPanel");
@@ -16,10 +17,14 @@ const resetMetaValue = document.querySelector("#configResetMetaValue");
 const configNotice = document.querySelector("#configNotice");
 const saveButton = document.querySelector("#saveHoursButton");
 const logoutButton = document.querySelector("#logoutButton");
-const subtitleList = document.querySelector("#subtitleList");
-const addSubtitleButton = document.querySelector("#addSubtitleButton");
+const noSubtitleList = document.querySelector("#noSubtitleList");
+const yesSubtitleList = document.querySelector("#yesSubtitleList");
+const addNoSubtitleButton = document.querySelector("#addNoSubtitleButton");
+const addYesSubtitleButton = document.querySelector("#addYesSubtitleButton");
 const saveSubtitlesButton = document.querySelector("#saveSubtitlesButton");
 const runAutomationButton = document.querySelector("#runAutomationButton");
+const reviewResetButton = document.querySelector("#reviewResetButton");
+const reviewNotResetButton = document.querySelector("#reviewNotResetButton");
 const automationHealthValue = document.querySelector("#automationHealthValue");
 const automationHealthMeta = document.querySelector("#automationHealthMeta");
 const automationLastSeenValue = document.querySelector("#automationLastSeenValue");
@@ -35,6 +40,7 @@ const automationHistoryState = document.querySelector("#automationHistoryState")
 const automationLog = document.querySelector("#automationLog");
 const automationModelValue = document.querySelector("#automationModelValue");
 let currentNoSubtitles = [];
+let currentYesSubtitles = [];
 let noticeTimeoutId = null;
 
 const formatDateTime = (value) => {
@@ -198,7 +204,11 @@ const getAutomationHealth = (automation = {}) => {
     };
   }
 
-  if (automation.pendingReview?.tweetId) {
+  const lastDecisionAt = Number.isFinite(automation.lastDecision?.decidedAt) ? automation.lastDecision.decidedAt : 0;
+  const pendingReviewAt = Number.isFinite(automation.pendingReview?.createdAt) ? automation.pendingReview.createdAt : 0;
+  const hasUnresolvedReview = automation.pendingReview?.tweetId && pendingReviewAt >= lastDecisionAt;
+
+  if (hasUnresolvedReview) {
     return {
       meta: `Pending since ${formatDateTime(automation.pendingReview.createdAt)}.`,
       tone: "warning",
@@ -425,11 +435,23 @@ const renderAutomation = (automation = {}, automationEvents = []) => {
     automationDecisionValue.textContent = "None yet";
   }
 
-  if (automation.pendingReview?.tweetId) {
+  const lastDecisionAt = Number.isFinite(automation.lastDecision?.decidedAt) ? automation.lastDecision.decidedAt : 0;
+  const pendingReviewAt = Number.isFinite(automation.pendingReview?.createdAt) ? automation.pendingReview.createdAt : 0;
+  const hasPendingReview = Boolean(automation.pendingReview?.tweetId && pendingReviewAt >= lastDecisionAt);
+
+  if (hasPendingReview) {
     const summary = `${formatDateTime(automation.pendingReview.createdAt)} · ${truncateText(automation.pendingReview.tweetText, 56)}`;
     setLinkState(automationPendingValue, automation.pendingReview.tweetUrl, summary, "None");
   } else {
     setLinkState(automationPendingValue, null, "", "None");
+  }
+
+  if (reviewResetButton) {
+    reviewResetButton.hidden = !hasPendingReview;
+  }
+
+  if (reviewNotResetButton) {
+    reviewNotResetButton.hidden = !hasPendingReview;
   }
 
   automationErrorValue.textContent = automation.lastError || "None";
@@ -447,7 +469,7 @@ const renderAutomation = (automation = {}, automationEvents = []) => {
         ? "Watermark seeded. Waiting for the next unseen tweet to classify."
       : historyState?.kind === "empty"
         ? "No tweet history yet. Polls every 5 minutes via GitHub Actions."
-        : automation.pendingReview?.tweetId
+        : hasPendingReview
           ? "Pending manual review for the most recent tweet."
           : "Polls every 5 minutes via GitHub Actions.";
 
@@ -539,6 +561,7 @@ const renderConfig = (config) => {
   configUpdatedValue.textContent = formatDateTime(config.updatedAt);
   hoursInput.value = String(config.autoResetHours);
   currentNoSubtitles = Array.isArray(config.noSubtitles) ? [...config.noSubtitles] : [];
+  currentYesSubtitles = Array.isArray(config.yesSubtitles) ? [...config.yesSubtitles] : [];
 
   const resetDisplay = getResetDisplay(config.state, config.resetAt);
   timerValue.textContent = resetDisplay.value;
@@ -556,10 +579,18 @@ const renderConfig = (config) => {
     button.setAttribute("aria-pressed", String(isActive));
   });
 
-  renderSubtitleInputs();
+  renderSubtitleInputs("no");
+  renderSubtitleInputs("yes");
 };
 
-const createSubtitleRow = (value, index) => {
+const getSubtitleState = (tone) => (tone === "yes" ? currentYesSubtitles : currentNoSubtitles);
+
+const getSubtitleDefault = (tone) => (tone === "yes" ? DEFAULT_YES_SUBTITLE : DEFAULT_NO_SUBTITLE);
+
+const getSubtitleList = (tone) => (tone === "yes" ? yesSubtitleList : noSubtitleList);
+
+const createSubtitleRow = (tone, value, index) => {
+  const subtitleState = getSubtitleState(tone);
   const row = document.createElement("div");
   row.className = "config-subtitle-row";
 
@@ -567,41 +598,49 @@ const createSubtitleRow = (value, index) => {
   input.className = "config-subtitle-input";
   input.type = "text";
   input.value = value;
-  input.placeholder = DEFAULT_NO_SUBTITLE;
-  input.setAttribute("aria-label", `No subtitle ${index + 1}`);
+  input.placeholder = getSubtitleDefault(tone);
+  input.setAttribute("aria-label", `${tone === "yes" ? "Yes" : "No"} subtitle ${index + 1}`);
   input.addEventListener("input", (event) => {
     clearNotice();
-    currentNoSubtitles[index] = event.target.value;
+    subtitleState[index] = event.target.value;
   });
 
   const removeButton = document.createElement("button");
   removeButton.className = "config-icon-button";
   removeButton.type = "button";
   removeButton.textContent = "−";
-  removeButton.setAttribute("aria-label", `Remove subtitle ${index + 1}`);
-  removeButton.disabled = currentNoSubtitles.length <= 1;
+  removeButton.setAttribute("aria-label", `Remove ${tone === "yes" ? "Yes" : "No"} subtitle ${index + 1}`);
+  removeButton.disabled = subtitleState.length <= 1;
   removeButton.addEventListener("click", () => {
-    currentNoSubtitles.splice(index, 1);
-    renderSubtitleInputs();
+    subtitleState.splice(index, 1);
+    renderSubtitleInputs(tone);
   });
 
   row.append(input, removeButton);
   return row;
 };
 
-const renderSubtitleInputs = () => {
+const renderSubtitleInputs = (tone) => {
+  const subtitleList = getSubtitleList(tone);
+
   if (!subtitleList) {
     return;
   }
 
-  const normalizedSubtitles = currentNoSubtitles.map((value) => (typeof value === "string" ? value : ""));
+  const subtitleState = getSubtitleState(tone);
+  const normalizedSubtitles = subtitleState.map((value) => (typeof value === "string" ? value : ""));
 
   if (normalizedSubtitles.length === 0) {
-    normalizedSubtitles.push(DEFAULT_NO_SUBTITLE);
+    normalizedSubtitles.push(getSubtitleDefault(tone));
   }
 
-  currentNoSubtitles = normalizedSubtitles;
-  subtitleList.replaceChildren(...currentNoSubtitles.map((value, index) => createSubtitleRow(value, index)));
+  if (tone === "yes") {
+    currentYesSubtitles = normalizedSubtitles;
+  } else {
+    currentNoSubtitles = normalizedSubtitles;
+  }
+
+  subtitleList.replaceChildren(...normalizedSubtitles.map((value, index) => createSubtitleRow(tone, value, index)));
 };
 
 const refreshConfig = async () => {
@@ -665,16 +704,23 @@ hoursInput?.addEventListener("keydown", async (event) => {
   await saveHours();
 });
 
-addSubtitleButton?.addEventListener("click", () => {
+addNoSubtitleButton?.addEventListener("click", () => {
   clearNotice();
   currentNoSubtitles.push("");
-  renderSubtitleInputs();
+  renderSubtitleInputs("no");
+});
+
+addYesSubtitleButton?.addEventListener("click", () => {
+  clearNotice();
+  currentYesSubtitles.push("");
+  renderSubtitleInputs("yes");
 });
 
 saveSubtitlesButton?.addEventListener("click", async () => {
   await runConfigAction(async () => {
     const config = await updateAdminConfig({
       noSubtitles: currentNoSubtitles,
+      yesSubtitles: currentYesSubtitles,
     });
     renderConfig(config);
   }, "Subtitles saved.");
@@ -702,6 +748,23 @@ runAutomationButton?.addEventListener("click", async () => {
       runAutomationButton.disabled = false;
     }
   });
+});
+
+const resolvePendingReview = async (verdict) => {
+  await runConfigAction(async () => {
+    const config = await updateAdminConfig({
+      manualReviewVerdict: verdict,
+    });
+    renderConfig(config);
+  }, `Pending review marked ${verdict === "reset_confirmed" ? "Yes" : "No"}.`);
+};
+
+reviewResetButton?.addEventListener("click", async () => {
+  await resolvePendingReview("reset_confirmed");
+});
+
+reviewNotResetButton?.addEventListener("click", async () => {
+  await resolvePendingReview("not_reset");
 });
 
 refreshConfig();

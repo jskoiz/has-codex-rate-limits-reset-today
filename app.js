@@ -1,6 +1,7 @@
 import { fetchStatus } from "./site-api.js";
 
 const DEFAULT_NO_SUBTITLE = "Limits have not reset yet.";
+const DEFAULT_YES_SUBTITLE = "Limits reset, go crazy";
 
 const root = document.documentElement;
 const answerValue = document.querySelector("#answerValue");
@@ -23,7 +24,7 @@ const pickRandomSubtitle = (subtitles) => {
   return subtitles[index] || DEFAULT_NO_SUBTITLE;
 };
 
-const applyState = ({ configured = true, noSubtitles = [], state }) => {
+const applyState = ({ configured = true, noSubtitles = [], state, yesSubtitles = [] }) => {
   const hasReset = state !== "no";
 
   answerValue.textContent = hasReset ? "Yes" : "No";
@@ -33,7 +34,7 @@ const applyState = ({ configured = true, noSubtitles = [], state }) => {
     return;
   }
 
-  subtitle.textContent = hasReset ? "Limits reset, go crazy" : pickRandomSubtitle(noSubtitles);
+  subtitle.textContent = hasReset ? pickRandomSubtitle(yesSubtitles.length ? yesSubtitles : [DEFAULT_YES_SUBTITLE]) : pickRandomSubtitle(noSubtitles);
 };
 
 const applyUnavailableState = () => {

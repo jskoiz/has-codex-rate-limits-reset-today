@@ -2,6 +2,7 @@ import crypto from "node:crypto";
 
 const DEFAULT_AUTO_RESET_HOURS = 20;
 const DEFAULT_NO_SUBTITLES = ["Limits have not reset yet."];
+const DEFAULT_YES_SUBTITLES = ["Limits reset, go crazy"];
 const ADMIN_COOKIE_NAME = "site_admin_session";
 const SESSION_TTL_SECONDS = 60 * 60 * 12;
 const LOGIN_FAILURE_WINDOW_MS = 15 * 60 * 1000;
@@ -139,6 +140,18 @@ const normalizeNoSubtitles = (value) => {
     .filter(Boolean);
 
   return subtitles.length > 0 ? subtitles : [...DEFAULT_NO_SUBTITLES];
+};
+
+const normalizeYesSubtitles = (value) => {
+  if (!Array.isArray(value)) {
+    return [...DEFAULT_YES_SUBTITLES];
+  }
+
+  const subtitles = value
+    .map((entry) => (typeof entry === "string" ? entry.trim() : ""))
+    .filter(Boolean);
+
+  return subtitles.length > 0 ? subtitles : [...DEFAULT_YES_SUBTITLES];
 };
 
 const normalizeConfidence = (value) => {
@@ -421,6 +434,7 @@ const normalizePublicState = (value) => {
     currentState,
     autoResetHours: normalizeHours(value?.autoResetHours),
     noSubtitles: normalizeNoSubtitles(value?.noSubtitles),
+    yesSubtitles: normalizeYesSubtitles(value?.yesSubtitles),
     resetAt: currentState === "yes" && Number.isFinite(value?.resetAt) ? value.resetAt : null,
     updatedAt: Number.isFinite(value?.updatedAt) ? value.updatedAt : null,
   };
@@ -755,6 +769,7 @@ export const buildNextState = async (updates, currentState = null) => {
     currentState: normalizeState(updates.state ?? current.currentState),
     autoResetHours: normalizeHours(updates.autoResetHours ?? current.autoResetHours),
     noSubtitles: normalizeNoSubtitles(updates.noSubtitles ?? current.noSubtitles),
+    yesSubtitles: normalizeYesSubtitles(updates.yesSubtitles ?? current.yesSubtitles),
     resetAt: current.resetAt,
     sha: current.sha,
     updatedAt: Date.now(),
@@ -926,3 +941,4 @@ export const getAdminPassword = () => getEnvValue("SITE_ADMIN_PASSWORD", "");
 
 export const getDefaultAutoResetHours = () => DEFAULT_AUTO_RESET_HOURS;
 export const getDefaultNoSubtitles = () => [...DEFAULT_NO_SUBTITLES];
+export const getDefaultYesSubtitles = () => [...DEFAULT_YES_SUBTITLES];

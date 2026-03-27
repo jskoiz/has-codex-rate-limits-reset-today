@@ -123,7 +123,7 @@
           <hr class="config-divider" />
 
           <div class="config-secondary-grid">
-            <section class="config-field" aria-label="Auto-reset timer">
+            <section class="config-field config-field-timer" aria-label="Auto-reset timer">
               <div class="config-subtitle-header">
                 <span class="config-label">Timer</span>
                 <span class="config-chip">Auto-reset</span>
@@ -135,20 +135,30 @@
               </div>
             </section>
 
-            <details class="config-field config-field-collapsible" aria-label="No-state subtitles">
-              <summary class="config-details-summary">
-                <span>
-                  <span class="config-label">No-state subtitles</span>
-                  <span class="config-metric-meta">Edit the rotating copy shown on the public No screen.</span>
-                </span>
-                <span class="config-details-toggle">Edit</span>
-              </summary>
-              <div class="config-subtitle-list" id="subtitleList"></div>
+            <section class="config-field" aria-label="Yes-state subtitles">
+              <div class="config-subtitle-header">
+                <span class="config-label">Yes subtitles</span>
+                <span class="config-chip">Public Yes</span>
+              </div>
+              <p class="config-note config-note-tight">Visible copy rotation for the public Yes state.</p>
+              <div class="config-subtitle-list" id="yesSubtitleList"></div>
               <div class="config-subtitle-actions">
-                <button class="config-icon-button config-icon-button-add" id="addSubtitleButton" type="button" aria-label="Add subtitle">+</button>
+                <button class="config-icon-button config-icon-button-add" id="addYesSubtitleButton" type="button" aria-label="Add Yes subtitle">+</button>
+              </div>
+            </section>
+
+            <section class="config-field" aria-label="No-state subtitles">
+              <div class="config-subtitle-header">
+                <span class="config-label">No subtitles</span>
+                <span class="config-chip">Public No</span>
+              </div>
+              <p class="config-note config-note-tight">Visible copy rotation for the public No state.</p>
+              <div class="config-subtitle-list" id="noSubtitleList"></div>
+              <div class="config-subtitle-actions">
+                <button class="config-icon-button config-icon-button-add" id="addNoSubtitleButton" type="button" aria-label="Add No subtitle">+</button>
                 <button class="config-save config-subtitle-save" id="saveSubtitlesButton" type="button">Save subtitles</button>
               </div>
-            </details>
+            </section>
           </div>
 
           <hr class="config-divider" />
@@ -159,6 +169,10 @@
               <span class="config-chip">Tweet monitor</span>
             </div>
             <p class="config-note" id="automationStatusNote">Polls every 5 minutes via GitHub Actions.</p>
+            <div class="config-review-actions" role="group" aria-label="Pending review actions">
+              <button class="config-toggle" id="reviewResetButton" type="button" hidden>Mark Yes</button>
+              <button class="config-toggle config-toggle-secondary" id="reviewNotResetButton" type="button" hidden>Mark No</button>
+            </div>
             <p class="config-history-state" id="automationHistoryState" hidden></p>
             <div class="config-log" id="automationLog" aria-live="polite"></div>
           </section>

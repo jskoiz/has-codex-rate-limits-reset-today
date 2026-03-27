@@ -106,6 +106,7 @@ test("serializeStoredState keeps auth encrypted and automation durable", async (
       autoResetHours: 6,
       currentState: "yes",
       noSubtitles: ["Not yet"],
+      yesSubtitles: ["It is back"],
       resetAt: 20,
       updatedAt: 30,
     });
@@ -124,6 +125,7 @@ test("serializeStoredState keeps auth encrypted and automation durable", async (
     assert.equal(roundTrip.automation.lastSeenTweetUrl, "https://x.com/thsottiaux/status/123");
     assert.equal(roundTrip.automationEvents[0]?.tweetId, "123");
     assert.equal(roundTrip.automationEvents[0]?.type, "reset_confirmed");
+    assert.deepEqual(roundTrip.yesSubtitles, ["It is back"]);
   });
 });
 
@@ -156,6 +158,7 @@ test("normalizeStoredState reads legacy automation history from encrypted privat
       autoResetHours: 6,
       currentState: "yes",
       noSubtitles: ["Not yet"],
+      yesSubtitles: ["It is back"],
       privateState: {
         ciphertext: ciphertext.toString("base64url"),
         iv: iv.toString("base64url"),
@@ -193,6 +196,7 @@ test("normalizeStoredState preserves public fields when private state cannot be 
       autoResetHours: 6,
       currentState: "yes",
       noSubtitles: ["Not yet"],
+      yesSubtitles: ["It is back"],
       resetAt: 20,
       updatedAt: 30,
     });
@@ -204,6 +208,7 @@ test("normalizeStoredState preserves public fields when private state cannot be 
     assert.equal(recovered.currentState, "yes");
     assert.equal(recovered.autoResetHours, 6);
     assert.deepEqual(recovered.noSubtitles, ["Not yet"]);
+    assert.deepEqual(recovered.yesSubtitles, ["It is back"]);
     assert.equal(recovered.resetAt, 20);
     assert.equal(recovered.updatedAt, 30);
     assert.equal(recovered.auth.sessions.length, 0);

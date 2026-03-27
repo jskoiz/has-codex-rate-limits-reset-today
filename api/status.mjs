@@ -1,4 +1,10 @@
-import { getDefaultAutoResetHours, getDefaultNoSubtitles, jsonResponse, readSiteState } from "./_lib/site-state.mjs";
+import {
+  getDefaultAutoResetHours,
+  getDefaultNoSubtitles,
+  getDefaultYesSubtitles,
+  jsonResponse,
+  readSiteState,
+} from "./_lib/site-state.mjs";
 
 export async function GET() {
   try {
@@ -8,6 +14,7 @@ export async function GET() {
       autoResetHours: state.autoResetHours || getDefaultAutoResetHours(),
       configured: state.configured,
       noSubtitles: state.noSubtitles || getDefaultNoSubtitles(),
+      yesSubtitles: state.yesSubtitles || getDefaultYesSubtitles(),
       resetAt: state.resetAt,
       state: state.currentState,
       updatedAt: state.updatedAt,
@@ -21,6 +28,7 @@ export async function GET() {
         configured: false,
         error: "Status is temporarily unavailable",
         noSubtitles: getDefaultNoSubtitles(),
+        yesSubtitles: getDefaultYesSubtitles(),
         resetAt: null,
         state: "no",
         updatedAt: null,
