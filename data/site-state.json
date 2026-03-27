@@ -5,8 +5,12 @@
     "Back to your local model peasant",
     "But that's okay, because everything is running smoothly..right?"
   ],
+  "yesSubtitles": [
+    "Limits reset, go crazy",
+    "You can just build things."
+  ],
   "resetAt": 1774673009855,
-  "updatedAt": 1774601009855,
+  "updatedAt": 1774603352830,
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
@@ -263,9 +267,9 @@
     }
   ],
   "privateState": {
-    "ciphertext": "q7mXwIWM5-4jyttdIse_urb1lJioOxGWUtQEb-XCq9gmbS0fMlZLNsCX_g",
-    "iv": "SGp6MCQ1-gojHOnH",
-    "tag": "-j1F3U5a13Pyn3iVAAJFsA",
+    "ciphertext": "JJ5HQ95ex_bOCaXQF_GZEj1wfUlQEGe5VJE6N6bpkR7bVKjITxetTBCfgw",
+    "iv": "oZD2WedCSndP6P8q",
+    "tag": "l-De191-dxpz3qPnqu4TZg",
     "version": 1
   }
 }
