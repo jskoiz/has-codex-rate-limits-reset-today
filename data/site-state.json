@@ -7,10 +7,41 @@
   ],
   "resetAt": 1774665442403,
   "updatedAt": 1774593442403,
+  "automation": {
+    "lastDecision": null,
+    "lastError": null,
+    "lastSeenTweetId": "2037348557729210806",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2037348557729210806",
+    "pendingReview": null,
+    "recentEvaluations": [],
+    "tokenUsage": {
+      "totalInputTokens": 0,
+      "totalOutputTokens": 0,
+      "totalReasoningTokens": 0,
+      "totalTokens": 0
+    }
+  },
+  "automationEvents": [
+    {
+      "confidence": 0,
+      "createdAt": 1774600710295,
+      "inputTokens": 0,
+      "message": "",
+      "outputTokens": 0,
+      "rationale": "",
+      "reasoningTokens": 0,
+      "totalTokens": 0,
+      "tweetId": "2037348557729210806",
+      "tweetText": "@rishirsv @ajambrosino what happened to the poor popout windows",
+      "tweetUrl": "https://x.com/thsottiaux/status/2037348557729210806",
+      "type": "seeded",
+      "verdict": null
+    }
+  ],
   "privateState": {
-    "ciphertext": "REP_WUwYJPuzK4OHaaLKGxyJCDHsewzXP0vF9TmilCBQMN2N3LoQWS7VBWKfMg0xv6g8ZN8NLrgPNiiX6F4FMFoxmk09RbBc4Llqk3-OpHfPLQp0X6h-e3VA7t5gtDygSt7PsDnbwhvk8VK3JiXcaDUb61y9YYQVVTx6kz2TREeoYLOVnatP7sa47iEUwusTpxHTe8xeFiE1cUAAf_wqp61yswkoShqrllb0Hx68Ao1q2nB1WUYY0hVRP8732IMxH-FXYKbca2yP05jxM8UQudrnWwSPwzYNoZ0_tffaPvJUAbiOLBuggJ2I6gepWbGyz4USWz1oc_obb-UKNcuDfJOSdzS4g8IBS4mj1uoX8h2UB_T7IRmrM7z8GmIBPHfGOqnJPCQytOkrAAWx_CMSEeSTypc1pc5pCnSzd2f-NIJQaYCXvE77xjNG-7ScoPibUdwlTMJ61of95BnZN40gqq2JRX8qyZrep-G89wifYyOpjMosqI-bSEd52YU4AkhYVlZ3BW-dvqT2FgrgYaE2RZZYHZpQeJ6prWiWwUmk9p8LdyAZER6kiQaTKwW5wgxoLZN2qCuf8YAV8V3perZgQPVlxHEZ-0nsho3XfGgAi0bxFLAz",
-    "iv": "iIKic9BYgkPFn53e",
-    "tag": "6y4HnFtWsqYqV78eakdFHA",
+    "ciphertext": "DHz_3UyIcehPxnJ4Q66n78jpiwt7q6TK2Cxem9c0MO6jA2WE6708hs3gEQ",
+    "iv": "wQlh8Qdyu7FumRgh",
+    "tag": "Wmeq4EmsgM5jfrmijWn43g",
     "version": 1
   }
 }
