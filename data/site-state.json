@@ -10,17 +10,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1774600998518,
-      "rationale": "The tweet discusses a Codex-related automation/project and says nothing about limits, caps, availability, or a reset.",
-      "tweetId": "2037311561765937307",
-      "tweetUrl": "https://x.com/thsottiaux/status/2037311561765937307",
+      "decidedAt": 1774601002164,
+      "rationale": "The tweet is a joke/comment about the Codex team using Codex and says nothing about limits, caps, or usage resetting.",
+      "tweetId": "2037345739203059861",
+      "tweetUrl": "https://x.com/thsottiaux/status/2037345739203059861",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2037311561765937307",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2037311561765937307",
+    "lastSeenTweetId": "2037345739203059861",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2037345739203059861",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1774601002164,
+        "inputTokens": 314,
+        "outputTokens": 97,
+        "rationale": "The tweet is a joke/comment about the Codex team using Codex and says nothing about limits, caps, or usage resetting.",
+        "reasoningTokens": 43,
+        "totalTokens": 411,
+        "tweetId": "2037345739203059861",
+        "tweetText": "Codex team prompting codex",
+        "tweetUrl": "https://x.com/thsottiaux/status/2037345739203059861",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1774600998518,
@@ -49,13 +62,28 @@
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 750,
-      "totalOutputTokens": 174,
-      "totalReasoningTokens": 70,
-      "totalTokens": 924
+      "totalInputTokens": 1064,
+      "totalOutputTokens": 271,
+      "totalReasoningTokens": 113,
+      "totalTokens": 1335
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1774601002164,
+      "inputTokens": 314,
+      "message": "",
+      "outputTokens": 97,
+      "rationale": "The tweet is a joke/comment about the Codex team using Codex and says nothing about limits, caps, or usage resetting.",
+      "reasoningTokens": 43,
+      "totalTokens": 411,
+      "tweetId": "2037345739203059861",
+      "tweetText": "Codex team prompting codex",
+      "tweetUrl": "https://x.com/thsottiaux/status/2037345739203059861",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1774600998518,
@@ -88,9 +116,9 @@
     }
   ],
   "privateState": {
-    "ciphertext": "6ZmMsw7wTsPKM_g78hXIJn6O-sWmW0qYjOYBDcZggkIc3gy4nOFzfZt35g",
-    "iv": "6L3AfE_G1e1Dk1ig",
-    "tag": "a7P5H3m4cxqftDSKweZjmg",
+    "ciphertext": "VfuHfSf-_qxvHrMs7CYhk7gLbItSlGqlydhn5p4J5bSUaeg252IotwQrYA",
+    "iv": "AM25lNpC3W77sXWi",
+    "tag": "P8R9skCzPOujoMmFkXMTVw",
     "version": 1
   }
 }
