@@ -1,5 +1,5 @@
 {
-  "currentState": "yes",
+  "currentState": "no",
   "autoResetHours": 20,
   "noSubtitles": [
     "Back to your local model peasant",
@@ -9,20 +9,20 @@
     "Limits reset, go crazy",
     "You can just build things."
   ],
-  "resetAt": 1774673009855,
+  "resetAt": null,
   "updatedAt": 1774603352830,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1774601024729,
-      "rationale": "Reply about popout windows; no mention of limits, caps, reset, or availability returning.",
-      "tweetId": "2037348557729210806",
-      "tweetUrl": "https://x.com/thsottiaux/status/2037348557729210806",
+      "confidence": 0.95,
+      "decidedAt": 1774682055762,
+      "rationale": "The tweet discusses capacity planning and adding more capacity, but does not say user limits or rate limits have reset or been lifted.",
+      "tweetId": "2037785955126652990",
+      "tweetUrl": "https://x.com/thsottiaux/status/2037785955126652990",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2037348557729210806",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2037348557729210806",
+    "lastSeenTweetId": "2037785955126652990",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2037785955126652990",
     "pendingReview": {
       "confidence": 0.96,
       "createdAt": 1774601015813,
@@ -32,6 +32,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2037347004616204413"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.95,
+        "evaluatedAt": 1774682055762,
+        "inputTokens": 331,
+        "outputTokens": 173,
+        "rationale": "The tweet discusses capacity planning and adding more capacity, but does not say user limits or rate limits have reset or been lifted.",
+        "reasoningTokens": 120,
+        "totalTokens": 504,
+        "tweetId": "2037785955126652990",
+        "tweetText": "Growth of codex continues to outpace our prediction (maybe we are not super good at that) and we almost ran out of capacity three days in a row. We have ramped up more significantly ahead of next week.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2037785955126652990",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1774601024729,
@@ -138,13 +151,28 @@
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 2584,
-      "totalOutputTokens": 669,
-      "totalReasoningTokens": 268,
-      "totalTokens": 3253
+      "totalInputTokens": 2915,
+      "totalOutputTokens": 842,
+      "totalReasoningTokens": 388,
+      "totalTokens": 3757
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.95,
+      "createdAt": 1774682055762,
+      "inputTokens": 331,
+      "message": "",
+      "outputTokens": 173,
+      "rationale": "The tweet discusses capacity planning and adding more capacity, but does not say user limits or rate limits have reset or been lifted.",
+      "reasoningTokens": 120,
+      "totalTokens": 504,
+      "tweetId": "2037785955126652990",
+      "tweetText": "Growth of codex continues to outpace our prediction (maybe we are not super good at that) and we almost ran out of capacity three days in a row. We have ramped up more significantly ahead of next week.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2037785955126652990",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0,
       "createdAt": 1774656106811,
@@ -282,9 +310,9 @@
     }
   ],
   "privateState": {
-    "ciphertext": "inu-gmitFaNJOW8KJr71E8Tqb83ko0cX8NxxDNnecS5WopoYH-cBxf8uPw",
-    "iv": "wKNHLu8cI2TI8e8J",
-    "tag": "J7hjVVlOzKiO9hwSn-PFvg",
+    "ciphertext": "HZA-yyQA-uR2i16uiUayjszy4mfpO-g98JA4JY12_xArlN5merLbVVYhag",
+    "iv": "bDs97fBYTpKmFgNX",
+    "tag": "eh20qPB5t-3SNpm0Nr6HFQ",
     "version": 1
   }
 }
