@@ -14,15 +14,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1774858040725,
-      "rationale": "This is just a reply asking whether someone uses the CLI or the app; it does not mention limits, caps, or availability resetting.",
-      "tweetId": "2038511294681411952",
-      "tweetUrl": "https://x.com/thsottiaux/status/2038511294681411952",
+      "decidedAt": 1774858044980,
+      "rationale": "This reply discusses adding features/progress and does not mention caps, limits, resets, or usage becoming available again.",
+      "tweetId": "2038515585328509176",
+      "tweetUrl": "https://x.com/thsottiaux/status/2038515585328509176",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2038511294681411952",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2038511294681411952",
+    "lastSeenTweetId": "2038515585328509176",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2038515585328509176",
     "pendingReview": {
       "confidence": 0.96,
       "createdAt": 1774601015813,
@@ -32,6 +32,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2037347004616204413"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1774858044980,
+        "inputTokens": 319,
+        "outputTokens": 92,
+        "rationale": "This reply discusses adding features/progress and does not mention caps, limits, resets, or usage becoming available again.",
+        "reasoningTokens": 41,
+        "totalTokens": 411,
+        "tweetId": "2038515585328509176",
+        "tweetText": "@doodlestein 1. Will add (looking at this now)\n2. Will add in the future\n3. Is already well under way",
+        "tweetUrl": "https://x.com/thsottiaux/status/2038515585328509176",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1774858040725,
@@ -177,13 +190,28 @@
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 3509,
-      "totalOutputTokens": 1020,
-      "totalReasoningTokens": 460,
-      "totalTokens": 4529
+      "totalInputTokens": 3828,
+      "totalOutputTokens": 1112,
+      "totalReasoningTokens": 501,
+      "totalTokens": 4940
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1774858044980,
+      "inputTokens": 319,
+      "message": "",
+      "outputTokens": 92,
+      "rationale": "This reply discusses adding features/progress and does not mention caps, limits, resets, or usage becoming available again.",
+      "reasoningTokens": 41,
+      "totalTokens": 411,
+      "tweetId": "2038515585328509176",
+      "tweetText": "@doodlestein 1. Will add (looking at this now)\n2. Will add in the future\n3. Is already well under way",
+      "tweetUrl": "https://x.com/thsottiaux/status/2038515585328509176",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1774858040725,
@@ -366,9 +394,9 @@
     }
   ],
   "privateState": {
-    "ciphertext": "Nu5bGVtXgGfULtdpHj7Yg1wzG__QV7E9JzxVIjcUv2_sh0sOwPwgSecH_g",
-    "iv": "ebA0MN0m2hCGcRw2",
-    "tag": "3Q4vYihO2d9AWgECypONDA",
+    "ciphertext": "xABPYZTMTr2aZFZQllOQe_lTY9ghrtYBkEommVPTm2leESaSSEAHGfQ2EA",
+    "iv": "o5_8hpI1cQXY8bSD",
+    "tag": "QcCLd_vstthDf7h-myuj8Q",
     "version": 1
   }
 }
