@@ -14,15 +14,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1774858036185,
-      "rationale": "The reply only says \"That's bait\" and gives no indication that any Codex or ChatGPT limits have reset.",
-      "tweetId": "2038504265367605412",
-      "tweetUrl": "https://x.com/thsottiaux/status/2038504265367605412",
+      "decidedAt": 1774858040725,
+      "rationale": "This is just a reply asking whether someone uses the CLI or the app; it does not mention limits, caps, or availability resetting.",
+      "tweetId": "2038511294681411952",
+      "tweetUrl": "https://x.com/thsottiaux/status/2038511294681411952",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2038504265367605412",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2038504265367605412",
+    "lastSeenTweetId": "2038511294681411952",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2038511294681411952",
     "pendingReview": {
       "confidence": 0.96,
       "createdAt": 1774601015813,
@@ -32,6 +32,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2037347004616204413"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1774858040725,
+        "inputTokens": 300,
+        "outputTokens": 94,
+        "rationale": "This is just a reply asking whether someone uses the CLI or the app; it does not mention limits, caps, or availability resetting.",
+        "reasoningTokens": 39,
+        "totalTokens": 394,
+        "tweetId": "2038511294681411952",
+        "tweetText": "@doodlestein Do you use the CLI or the App?",
+        "tweetUrl": "https://x.com/thsottiaux/status/2038511294681411952",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1774858036185,
@@ -164,13 +177,28 @@
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 3209,
-      "totalOutputTokens": 926,
-      "totalReasoningTokens": 421,
-      "totalTokens": 4135
+      "totalInputTokens": 3509,
+      "totalOutputTokens": 1020,
+      "totalReasoningTokens": 460,
+      "totalTokens": 4529
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1774858040725,
+      "inputTokens": 300,
+      "message": "",
+      "outputTokens": 94,
+      "rationale": "This is just a reply asking whether someone uses the CLI or the app; it does not mention limits, caps, or availability resetting.",
+      "reasoningTokens": 39,
+      "totalTokens": 394,
+      "tweetId": "2038511294681411952",
+      "tweetText": "@doodlestein Do you use the CLI or the App?",
+      "tweetUrl": "https://x.com/thsottiaux/status/2038511294681411952",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1774858036185,
@@ -338,9 +366,9 @@
     }
   ],
   "privateState": {
-    "ciphertext": "LyQLatngFa7r_H3MFFYRNypkEJwwWq4xlEEnbaIE5KsYHMP6c4NLiO1-LQ",
-    "iv": "po1sCi8YmkneY1ID",
-    "tag": "gXtellou-nMSK_mAGSDUEA",
+    "ciphertext": "Nu5bGVtXgGfULtdpHj7Yg1wzG__QV7E9JzxVIjcUv2_sh0sOwPwgSecH_g",
+    "iv": "ebA0MN0m2hCGcRw2",
+    "tag": "3Q4vYihO2d9AWgECypONDA",
     "version": 1
   }
 }
