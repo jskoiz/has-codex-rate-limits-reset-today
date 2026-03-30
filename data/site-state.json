@@ -14,15 +14,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1774911177312,
-      "rationale": "The tweet promotes a Codex plugin and says it works with a ChatGPT subscription; it does not mention limits, caps, or a reset.",
-      "tweetId": "2038747913078362262",
-      "tweetUrl": "https://x.com/thsottiaux/status/2038747913078362262",
+      "decidedAt": 1774911179603,
+      "rationale": "This is a personal reply with no mention of Codex, ChatGPT, limits, caps, or usage availability.",
+      "tweetId": "2038748086252810664",
+      "tweetUrl": "https://x.com/thsottiaux/status/2038748086252810664",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2038747913078362262",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2038747913078362262",
+    "lastSeenTweetId": "2038748086252810664",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2038748086252810664",
     "pendingReview": {
       "confidence": 0.96,
       "createdAt": 1774601015813,
@@ -32,6 +32,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2037347004616204413"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1774911179603,
+        "inputTokens": 294,
+        "outputTokens": 73,
+        "rationale": "This is a personal reply with no mention of Codex, ChatGPT, limits, caps, or usage availability.",
+        "reasoningTokens": 22,
+        "totalTokens": 367,
+        "tweetId": "2038748086252810664",
+        "tweetText": "@Mercuriusdream Love you back",
+        "tweetUrl": "https://x.com/thsottiaux/status/2038748086252810664",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1774911177313,
@@ -216,13 +229,28 @@
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 4535,
-      "totalOutputTokens": 1322,
-      "totalReasoningTokens": 604,
-      "totalTokens": 5857
+      "totalInputTokens": 4829,
+      "totalOutputTokens": 1395,
+      "totalReasoningTokens": 626,
+      "totalTokens": 6224
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1774911179603,
+      "inputTokens": 294,
+      "message": "",
+      "outputTokens": 73,
+      "rationale": "This is a personal reply with no mention of Codex, ChatGPT, limits, caps, or usage availability.",
+      "reasoningTokens": 22,
+      "totalTokens": 367,
+      "tweetId": "2038748086252810664",
+      "tweetText": "@Mercuriusdream Love you back",
+      "tweetUrl": "https://x.com/thsottiaux/status/2038748086252810664",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1774911177313,
@@ -450,9 +478,9 @@
     }
   ],
   "privateState": {
-    "ciphertext": "3pPvIImflyZ5AFltDZ_2rGtlKcOx_oiWGEBYZZre3ALSj3dE84P3YIVB4Q",
-    "iv": "zTHes5xy9MxZiBDV",
-    "tag": "WYcKzzUEHIvvgppGmwY01g",
+    "ciphertext": "ZSfAnAhak5ilqck7GTQvCgOjhhKhZB6sQWsZXIkgsg9eTU0ZSlGy6eKRrQ",
+    "iv": "HfsP_fJ8Q0sdz4N0",
+    "tag": "bd7s-mLw39IxEuYnLOSKRw",
     "version": 1
   }
 }
