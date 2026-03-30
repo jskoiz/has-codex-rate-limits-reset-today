@@ -13,16 +13,16 @@
   "updatedAt": 1774603352830,
   "automation": {
     "lastDecision": {
-      "confidence": 0.95,
-      "decidedAt": 1774682055762,
-      "rationale": "The tweet discusses capacity planning and adding more capacity, but does not say user limits or rate limits have reset or been lifted.",
-      "tweetId": "2037785955126652990",
-      "tweetUrl": "https://x.com/thsottiaux/status/2037785955126652990",
+      "confidence": 0.99,
+      "decidedAt": 1774858036185,
+      "rationale": "The reply only says \"That's bait\" and gives no indication that any Codex or ChatGPT limits have reset.",
+      "tweetId": "2038504265367605412",
+      "tweetUrl": "https://x.com/thsottiaux/status/2038504265367605412",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2037785955126652990",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2037785955126652990",
+    "lastSeenTweetId": "2038504265367605412",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2038504265367605412",
     "pendingReview": {
       "confidence": 0.96,
       "createdAt": 1774601015813,
@@ -32,6 +32,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2037347004616204413"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1774858036185,
+        "inputTokens": 294,
+        "outputTokens": 84,
+        "rationale": "The reply only says \"That's bait\" and gives no indication that any Codex or ChatGPT limits have reset.",
+        "reasoningTokens": 33,
+        "totalTokens": 378,
+        "tweetId": "2038504265367605412",
+        "tweetText": "@towheretobegin That's bait",
+        "tweetUrl": "https://x.com/thsottiaux/status/2038504265367605412",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.95,
         "evaluatedAt": 1774682055762,
@@ -151,13 +164,28 @@
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 2915,
-      "totalOutputTokens": 842,
-      "totalReasoningTokens": 388,
-      "totalTokens": 3757
+      "totalInputTokens": 3209,
+      "totalOutputTokens": 926,
+      "totalReasoningTokens": 421,
+      "totalTokens": 4135
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1774858036185,
+      "inputTokens": 294,
+      "message": "",
+      "outputTokens": 84,
+      "rationale": "The reply only says \"That's bait\" and gives no indication that any Codex or ChatGPT limits have reset.",
+      "reasoningTokens": 33,
+      "totalTokens": 378,
+      "tweetId": "2038504265367605412",
+      "tweetText": "@towheretobegin That's bait",
+      "tweetUrl": "https://x.com/thsottiaux/status/2038504265367605412",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0,
       "createdAt": 1774778437896,
@@ -310,9 +338,9 @@
     }
   ],
   "privateState": {
-    "ciphertext": "uY5SSELAFLvI78Kt8IT7xUkPer_EtrQNZfLo-FAaRoGLaoHDnQ4UnvzflQ",
-    "iv": "d2iHAdgSjFCxSqlR",
-    "tag": "Sy0-vig-54sfGuDKAsx0pQ",
+    "ciphertext": "LyQLatngFa7r_H3MFFYRNypkEJwwWq4xlEEnbaIE5KsYHMP6c4NLiO1-LQ",
+    "iv": "po1sCi8YmkneY1ID",
+    "tag": "gXtellou-nMSK_mAGSDUEA",
     "version": 1
   }
 }
