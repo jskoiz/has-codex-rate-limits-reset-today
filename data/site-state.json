@@ -14,15 +14,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1774858044980,
-      "rationale": "This reply discusses adding features/progress and does not mention caps, limits, resets, or usage becoming available again.",
-      "tweetId": "2038515585328509176",
-      "tweetUrl": "https://x.com/thsottiaux/status/2038515585328509176",
+      "decidedAt": 1774858049361,
+      "rationale": "Reply discussing PreToolUse and a link; no mention of limits, caps, resets, or availability returning.",
+      "tweetId": "2038516930076926140",
+      "tweetUrl": "https://x.com/thsottiaux/status/2038516930076926140",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2038515585328509176",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2038515585328509176",
+    "lastSeenTweetId": "2038516930076926140",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2038516930076926140",
     "pendingReview": {
       "confidence": 0.96,
       "createdAt": 1774601015813,
@@ -32,6 +32,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2037347004616204413"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1774858049361,
+        "inputTokens": 310,
+        "outputTokens": 121,
+        "rationale": "Reply discussing PreToolUse and a link; no mention of limits, caps, resets, or availability returning.",
+        "reasoningTokens": 71,
+        "totalTokens": 431,
+        "tweetId": "2038516930076926140",
+        "tweetText": "@doodlestein For PreToolUse, what's missing from https://t.co/oMo4ekEiFC",
+        "tweetUrl": "https://x.com/thsottiaux/status/2038516930076926140",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1774858044980,
@@ -190,13 +203,28 @@
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 3828,
-      "totalOutputTokens": 1112,
-      "totalReasoningTokens": 501,
-      "totalTokens": 4940
+      "totalInputTokens": 4138,
+      "totalOutputTokens": 1233,
+      "totalReasoningTokens": 572,
+      "totalTokens": 5371
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1774858049361,
+      "inputTokens": 310,
+      "message": "",
+      "outputTokens": 121,
+      "rationale": "Reply discussing PreToolUse and a link; no mention of limits, caps, resets, or availability returning.",
+      "reasoningTokens": 71,
+      "totalTokens": 431,
+      "tweetId": "2038516930076926140",
+      "tweetText": "@doodlestein For PreToolUse, what's missing from https://t.co/oMo4ekEiFC",
+      "tweetUrl": "https://x.com/thsottiaux/status/2038516930076926140",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1774858044980,
@@ -394,9 +422,9 @@
     }
   ],
   "privateState": {
-    "ciphertext": "xABPYZTMTr2aZFZQllOQe_lTY9ghrtYBkEommVPTm2leESaSSEAHGfQ2EA",
-    "iv": "o5_8hpI1cQXY8bSD",
-    "tag": "QcCLd_vstthDf7h-myuj8Q",
+    "ciphertext": "mYxYeOQ50zxgXAGYQ7E5y51YlPN79ck_t2D7nyy6UR0C6K4PZLifDgI9Eg",
+    "iv": "vbKUTZKoSzWAPakZ",
+    "tag": "MJYM-cF5UI0ImRbvRS3Kag",
     "version": 1
   }
 }
