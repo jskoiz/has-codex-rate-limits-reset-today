@@ -13,16 +13,16 @@
   "updatedAt": 1775030055458,
   "automation": {
     "lastDecision": {
-      "confidence": 0.95,
-      "decidedAt": 1775086289362,
-      "rationale": "Joking reply about a 'Codex reset button' but does not clearly state that Codex or ChatGPT limits/rate caps have reset or are available again.",
-      "tweetId": "2039485566815973415",
-      "tweetUrl": "https://x.com/thsottiaux/status/2039485566815973415",
+      "confidence": 0.99,
+      "decidedAt": 1775087990327,
+      "rationale": "Reply about \"blender and fridge lines\"; no mention or implication of Codex/ChatGPT limits resetting.",
+      "tweetId": "2039485932743868455",
+      "tweetUrl": "https://x.com/thsottiaux/status/2039485932743868455",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2039485566815973415",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2039485566815973415",
+    "lastSeenTweetId": "2039485932743868455",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2039485932743868455",
     "pendingReview": {
       "confidence": 0.12,
       "createdAt": 1775034319626,
@@ -32,6 +32,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2039249034507087889"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1775087990327,
+        "inputTokens": 304,
+        "outputTokens": 102,
+        "rationale": "Reply about \"blender and fridge lines\"; no mention or implication of Codex/ChatGPT limits resetting.",
+        "reasoningTokens": 51,
+        "totalTokens": 406,
+        "tweetId": "2039485932743868455",
+        "tweetText": "@lindsmccallum Will give you advance notice on the blender and fridge lines",
+        "tweetUrl": "https://x.com/thsottiaux/status/2039485932743868455",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.95,
         "evaluatedAt": 1775086289362,
@@ -278,29 +291,31 @@
         "tweetText": "https://t.co/iQAo6liXFK",
         "tweetUrl": "https://x.com/thsottiaux/status/2037347004616204413",
         "verdict": "uncertain"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1774601009856,
-        "inputTokens": 334,
-        "outputTokens": 48,
-        "rationale": "The tweet explicitly says Codex usage limits were reset across all plans and users can build unlimited things now.",
-        "reasoningTokens": 0,
-        "totalTokens": 382,
-        "tweetId": "2037346989244096581",
-        "tweetText": "Hello. We have reset Codex usage limits across all plans to let everyone experiment with the magnificent plugins we just launched, and because it had been a while! \n\nYou can just build unlimited things with Codex. Have fun!",
-        "tweetUrl": "https://x.com/thsottiaux/status/2037346989244096581",
-        "verdict": "reset_confirmed"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 7766,
-      "totalOutputTokens": 2276,
-      "totalReasoningTokens": 1019,
-      "totalTokens": 10042
+      "totalInputTokens": 8070,
+      "totalOutputTokens": 2378,
+      "totalReasoningTokens": 1070,
+      "totalTokens": 10448
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1775087990327,
+      "inputTokens": 304,
+      "message": "",
+      "outputTokens": 102,
+      "rationale": "Reply about \"blender and fridge lines\"; no mention or implication of Codex/ChatGPT limits resetting.",
+      "reasoningTokens": 51,
+      "totalTokens": 406,
+      "tweetId": "2039485932743868455",
+      "tweetText": "@lindsmccallum Will give you advance notice on the blender and fridge lines",
+      "tweetUrl": "https://x.com/thsottiaux/status/2039485932743868455",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.95,
       "createdAt": 1775086289362,
@@ -678,9 +693,9 @@
     }
   ],
   "privateState": {
-    "ciphertext": "I9-1gPEbPLfDew5d5MUiLzl4CP6FEG2IYpmIz_BOPk97qUXbwxvNGgo3HA",
-    "iv": "-Tm_po5R9IxGQs0d",
-    "tag": "8WAoa_ZausHbPmj2hM7rAw",
+    "ciphertext": "REaPDZ225ABZNkSdQsanvpNxWjG7L_cbrHZcvcMczhbH7uyYeeloJVMHYQ",
+    "iv": "2mSbzf1lCDdZu-bJ",
+    "tag": "S_hTPitT1TSbEQA_VVBBxQ",
     "version": 1
   }
 }
