@@ -13,16 +13,16 @@
   "updatedAt": 1775030055458,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1775086285581,
-      "rationale": "This is just a brief conversational reply with no mention of limits, caps, resets, or availability returning.",
-      "tweetId": "2039482359649837463",
-      "tweetUrl": "https://x.com/thsottiaux/status/2039482359649837463",
+      "confidence": 0.95,
+      "decidedAt": 1775086289362,
+      "rationale": "Joking reply about a 'Codex reset button' but does not clearly state that Codex or ChatGPT limits/rate caps have reset or are available again.",
+      "tweetId": "2039485566815973415",
+      "tweetUrl": "https://x.com/thsottiaux/status/2039485566815973415",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2039482359649837463",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2039482359649837463",
+    "lastSeenTweetId": "2039485566815973415",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2039485566815973415",
     "pendingReview": {
       "confidence": 0.12,
       "createdAt": 1775034319626,
@@ -32,6 +32,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2039249034507087889"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.95,
+        "evaluatedAt": 1775086289362,
+        "inputTokens": 306,
+        "outputTokens": 149,
+        "rationale": "Joking reply about a 'Codex reset button' but does not clearly state that Codex or ChatGPT limits/rate caps have reset or are available again.",
+        "reasoningTokens": 88,
+        "totalTokens": 455,
+        "tweetId": "2039485566815973415",
+        "tweetText": "@Polymarket 👀 I should really stop pressing that big Codex reset button on my desk",
+        "tweetUrl": "https://x.com/thsottiaux/status/2039485566815973415",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1775086285581,
@@ -278,29 +291,31 @@
         "tweetText": "Hello. We have reset Codex usage limits across all plans to let everyone experiment with the magnificent plugins we just launched, and because it had been a while! \n\nYou can just build unlimited things with Codex. Have fun!",
         "tweetUrl": "https://x.com/thsottiaux/status/2037346989244096581",
         "verdict": "reset_confirmed"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1774601006831,
-        "inputTokens": 293,
-        "outputTokens": 78,
-        "rationale": "This is a conversational reply expressing enthusiasm and does not mention limits, caps, resets, or availability.",
-        "reasoningTokens": 30,
-        "totalTokens": 371,
-        "tweetId": "2037345896334242029",
-        "tweetText": "@tforschbach Super awesome!!",
-        "tweetUrl": "https://x.com/thsottiaux/status/2037345896334242029",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 7460,
-      "totalOutputTokens": 2127,
-      "totalReasoningTokens": 931,
-      "totalTokens": 9587
+      "totalInputTokens": 7766,
+      "totalOutputTokens": 2276,
+      "totalReasoningTokens": 1019,
+      "totalTokens": 10042
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.95,
+      "createdAt": 1775086289362,
+      "inputTokens": 306,
+      "message": "",
+      "outputTokens": 149,
+      "rationale": "Joking reply about a 'Codex reset button' but does not clearly state that Codex or ChatGPT limits/rate caps have reset or are available again.",
+      "reasoningTokens": 88,
+      "totalTokens": 455,
+      "tweetId": "2039485566815973415",
+      "tweetText": "@Polymarket 👀 I should really stop pressing that big Codex reset button on my desk",
+      "tweetUrl": "https://x.com/thsottiaux/status/2039485566815973415",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1775086285581,
@@ -663,9 +678,9 @@
     }
   ],
   "privateState": {
-    "ciphertext": "_wp5uGC2pmY62guw__Gtg5jqmal4mMbsyiINy1U_qdqKT2Kmlz-d77EnWw",
-    "iv": "oYavfF92JfbjeLWL",
-    "tag": "tYMh3VyeBd2uluPDa-1igw",
+    "ciphertext": "I9-1gPEbPLfDew5d5MUiLzl4CP6FEG2IYpmIz_BOPk97qUXbwxvNGgo3HA",
+    "iv": "-Tm_po5R9IxGQs0d",
+    "tag": "8WAoa_ZausHbPmj2hM7rAw",
     "version": 1
   }
 }
