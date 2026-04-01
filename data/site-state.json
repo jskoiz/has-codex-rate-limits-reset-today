@@ -14,17 +14,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1775030055458,
-      "rationale": "The tweet explicitly says they are \"resetting the usage limits for all plans,\" meaning rate/usage caps are available again now.",
-      "tweetId": "2039248564967424483",
-      "tweetUrl": "https://x.com/thsottiaux/status/2039248564967424483",
-      "verdict": "reset_confirmed"
+      "decidedAt": 1775034315198,
+      "rationale": "Reply asking for a session ID; no mention or implication that any ChatGPT/Codex limit or cap has reset.",
+      "tweetId": "2039248828738777538",
+      "tweetUrl": "https://x.com/thsottiaux/status/2039248828738777538",
+      "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2039248564967424483",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2039248564967424483",
+    "lastSeenTweetId": "2039248828738777538",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2039248828738777538",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1775034315198,
+        "inputTokens": 303,
+        "outputTokens": 93,
+        "rationale": "Reply asking for a session ID; no mention or implication that any ChatGPT/Codex limit or cap has reset.",
+        "reasoningTokens": 41,
+        "totalTokens": 396,
+        "tweetId": "2039248828738777538",
+        "tweetText": "@andreabalducci @OpenAIDevs Do you have the session id?",
+        "tweetUrl": "https://x.com/thsottiaux/status/2039248828738777538",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1775030055458,
@@ -248,13 +261,28 @@
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 5542,
-      "totalOutputTokens": 1569,
-      "totalReasoningTokens": 692,
-      "totalTokens": 7111
+      "totalInputTokens": 5845,
+      "totalOutputTokens": 1662,
+      "totalReasoningTokens": 733,
+      "totalTokens": 7507
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1775034315198,
+      "inputTokens": 303,
+      "message": "",
+      "outputTokens": 93,
+      "rationale": "Reply asking for a session ID; no mention or implication that any ChatGPT/Codex limit or cap has reset.",
+      "reasoningTokens": 41,
+      "totalTokens": 396,
+      "tweetId": "2039248828738777538",
+      "tweetText": "@andreabalducci @OpenAIDevs Do you have the session id?",
+      "tweetUrl": "https://x.com/thsottiaux/status/2039248828738777538",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1775030055458,
@@ -527,9 +555,9 @@
     }
   ],
   "privateState": {
-    "ciphertext": "1qtIiQhw6yxcfqoARfV_zsY60PwORGsZjnW_GDzFLQ7IDLLkrOKQVjOAxg",
-    "iv": "q9kRP4h8KOXex9Ng",
-    "tag": "RLOoE3I7lWfgmu4Tci3Ddg",
+    "ciphertext": "Tuyu-kzdIbP0jUgh-t7y0Az6waWUYUUcG3po7c6I6KWCi0mU6O9s8h9REA",
+    "iv": "n4DMnyool5W1DkuE",
+    "tag": "pcb2vBRNAt_OOu7G2S2teg",
     "version": 1
   }
 }
