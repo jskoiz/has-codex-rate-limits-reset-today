@@ -1,5 +1,5 @@
 {
-  "currentState": "no",
+  "currentState": "yes",
   "autoResetHours": 20,
   "noSubtitles": [
     "Back to your local model peasant",
@@ -9,29 +9,35 @@
     "Limits reset, go crazy",
     "You can just build things."
   ],
-  "resetAt": null,
-  "updatedAt": 1774603352830,
+  "resetAt": 1775102055458,
+  "updatedAt": 1775030055458,
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1775030051808,
-      "rationale": "The tweet is about a repository being public / a code leak, not about usage limits, caps, or rate limits resetting.",
-      "tweetId": "2039246206849970633",
-      "tweetUrl": "https://x.com/thsottiaux/status/2039246206849970633",
-      "verdict": "not_reset"
+      "decidedAt": 1775030055458,
+      "rationale": "The tweet explicitly says they are \"resetting the usage limits for all plans,\" meaning rate/usage caps are available again now.",
+      "tweetId": "2039248564967424483",
+      "tweetUrl": "https://x.com/thsottiaux/status/2039248564967424483",
+      "verdict": "reset_confirmed"
     },
     "lastError": null,
-    "lastSeenTweetId": "2039246206849970633",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2039246206849970633",
-    "pendingReview": {
-      "confidence": 0.96,
-      "createdAt": 1774601015813,
-      "rationale": "The post text is only a link and provides no explicit indication that any Codex or ChatGPT limit/reset occurred.",
-      "tweetId": "2037347004616204413",
-      "tweetText": "https://t.co/iQAo6liXFK",
-      "tweetUrl": "https://x.com/thsottiaux/status/2037347004616204413"
-    },
+    "lastSeenTweetId": "2039248564967424483",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2039248564967424483",
+    "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1775030055458,
+        "inputTokens": 370,
+        "outputTokens": 83,
+        "rationale": "The tweet explicitly says they are \"resetting the usage limits for all plans,\" meaning rate/usage caps are available again now.",
+        "reasoningTokens": 28,
+        "totalTokens": 453,
+        "tweetId": "2039248564967424483",
+        "tweetText": "Our Codex dashboards are showing increased rate of users hitting rate limits and since we don't fully understand why I have made the cautious decision of resetting the usage limits for all plans. Enjoy.\n\nI also wanted to celebrate us finding a pocket of fraudulent accounts that we banned and have helped us regain some compute. The fight against abuse never stops, but it's important to mark the moment and make it a little shared victory.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2039248564967424483",
+        "verdict": "reset_confirmed"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1775030051809,
@@ -242,13 +248,28 @@
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 5172,
-      "totalOutputTokens": 1486,
-      "totalReasoningTokens": 664,
-      "totalTokens": 6658
+      "totalInputTokens": 5542,
+      "totalOutputTokens": 1569,
+      "totalReasoningTokens": 692,
+      "totalTokens": 7111
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1775030055458,
+      "inputTokens": 370,
+      "message": "",
+      "outputTokens": 83,
+      "rationale": "The tweet explicitly says they are \"resetting the usage limits for all plans,\" meaning rate/usage caps are available again now.",
+      "reasoningTokens": 28,
+      "totalTokens": 453,
+      "tweetId": "2039248564967424483",
+      "tweetText": "Our Codex dashboards are showing increased rate of users hitting rate limits and since we don't fully understand why I have made the cautious decision of resetting the usage limits for all plans. Enjoy.\n\nI also wanted to celebrate us finding a pocket of fraudulent accounts that we banned and have helped us regain some compute. The fight against abuse never stops, but it's important to mark the moment and make it a little shared victory.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2039248564967424483",
+      "type": "reset_confirmed",
+      "verdict": "reset_confirmed"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1775030051809,
@@ -506,9 +527,9 @@
     }
   ],
   "privateState": {
-    "ciphertext": "wfGxn_aG7m-DuhkCgCfI_mWfJRy9cMpG63n8lTOa2JitCXJrT_a0tcn1YA",
-    "iv": "5ESF3PZ2ZcjglKTH",
-    "tag": "EdVTxhUQbKyyYI0hWhW0wg",
+    "ciphertext": "1qtIiQhw6yxcfqoARfV_zsY60PwORGsZjnW_GDzFLQ7IDLLkrOKQVjOAxg",
+    "iv": "q9kRP4h8KOXex9Ng",
+    "tag": "RLOoE3I7lWfgmu4Tci3Ddg",
     "version": 1
   }
 }
