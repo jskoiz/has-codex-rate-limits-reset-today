@@ -14,15 +14,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1774911179603,
-      "rationale": "This is a personal reply with no mention of Codex, ChatGPT, limits, caps, or usage availability.",
-      "tweetId": "2038748086252810664",
-      "tweetUrl": "https://x.com/thsottiaux/status/2038748086252810664",
+      "decidedAt": 1775030051808,
+      "rationale": "The tweet is about a repository being public / a code leak, not about usage limits, caps, or rate limits resetting.",
+      "tweetId": "2039246206849970633",
+      "tweetUrl": "https://x.com/thsottiaux/status/2039246206849970633",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2038748086252810664",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2038748086252810664",
+    "lastSeenTweetId": "2039246206849970633",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2039246206849970633",
     "pendingReview": {
       "confidence": 0.96,
       "createdAt": 1774601015813,
@@ -32,6 +32,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2037347004616204413"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1775030051809,
+        "inputTokens": 343,
+        "outputTokens": 91,
+        "rationale": "The tweet is about a repository being public / a code leak, not about usage limits, caps, or rate limits resetting.",
+        "reasoningTokens": 38,
+        "totalTokens": 434,
+        "tweetId": "2039246206849970633",
+        "tweetText": "Whaaaa. Only realized now and apparently our repo was public since 11 months ago and noone told us?!",
+        "tweetUrl": "https://x.com/thsottiaux/status/2039246206849970633",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1774911179603,
@@ -229,13 +242,28 @@
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 4829,
-      "totalOutputTokens": 1395,
-      "totalReasoningTokens": 626,
-      "totalTokens": 6224
+      "totalInputTokens": 5172,
+      "totalOutputTokens": 1486,
+      "totalReasoningTokens": 664,
+      "totalTokens": 6658
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1775030051809,
+      "inputTokens": 343,
+      "message": "",
+      "outputTokens": 91,
+      "rationale": "The tweet is about a repository being public / a code leak, not about usage limits, caps, or rate limits resetting.",
+      "reasoningTokens": 38,
+      "totalTokens": 434,
+      "tweetId": "2039246206849970633",
+      "tweetText": "Whaaaa. Only realized now and apparently our repo was public since 11 months ago and noone told us?!",
+      "tweetUrl": "https://x.com/thsottiaux/status/2039246206849970633",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1774911179603,
@@ -478,9 +506,9 @@
     }
   ],
   "privateState": {
-    "ciphertext": "ZSfAnAhak5ilqck7GTQvCgOjhhKhZB6sQWsZXIkgsg9eTU0ZSlGy6eKRrQ",
-    "iv": "HfsP_fJ8Q0sdz4N0",
-    "tag": "bd7s-mLw39IxEuYnLOSKRw",
+    "ciphertext": "wfGxn_aG7m-DuhkCgCfI_mWfJRy9cMpG63n8lTOa2JitCXJrT_a0tcn1YA",
+    "iv": "5ESF3PZ2ZcjglKTH",
+    "tag": "EdVTxhUQbKyyYI0hWhW0wg",
     "version": 1
   }
 }
