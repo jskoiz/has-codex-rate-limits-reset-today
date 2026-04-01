@@ -14,15 +14,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1775086282263,
-      "rationale": "This is just a reply asking about cost and does not mention limits, caps, availability, or a reset.",
-      "tweetId": "2039482251633910001",
-      "tweetUrl": "https://x.com/thsottiaux/status/2039482251633910001",
+      "decidedAt": 1775086285581,
+      "rationale": "This is just a brief conversational reply with no mention of limits, caps, resets, or availability returning.",
+      "tweetId": "2039482359649837463",
+      "tweetUrl": "https://x.com/thsottiaux/status/2039482359649837463",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2039482251633910001",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2039482251633910001",
+    "lastSeenTweetId": "2039482359649837463",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2039482359649837463",
     "pendingReview": {
       "confidence": 0.12,
       "createdAt": 1775034319626,
@@ -32,6 +32,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2039249034507087889"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1775086285581,
+        "inputTokens": 293,
+        "outputTokens": 94,
+        "rationale": "This is just a brief conversational reply with no mention of limits, caps, resets, or availability returning.",
+        "reasoningTokens": 45,
+        "totalTokens": 387,
+        "tweetId": "2039482359649837463",
+        "tweetText": "@antonioleivag Of course",
+        "tweetUrl": "https://x.com/thsottiaux/status/2039482359649837463",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1775086282263,
@@ -278,29 +291,31 @@
         "tweetText": "@tforschbach Super awesome!!",
         "tweetUrl": "https://x.com/thsottiaux/status/2037345896334242029",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1774601002164,
-        "inputTokens": 314,
-        "outputTokens": 97,
-        "rationale": "The tweet is a joke/comment about the Codex team using Codex and says nothing about limits, caps, or usage resetting.",
-        "reasoningTokens": 43,
-        "totalTokens": 411,
-        "tweetId": "2037345739203059861",
-        "tweetText": "Codex team prompting codex",
-        "tweetUrl": "https://x.com/thsottiaux/status/2037345739203059861",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 7167,
-      "totalOutputTokens": 2033,
-      "totalReasoningTokens": 886,
-      "totalTokens": 9200
+      "totalInputTokens": 7460,
+      "totalOutputTokens": 2127,
+      "totalReasoningTokens": 931,
+      "totalTokens": 9587
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1775086285581,
+      "inputTokens": 293,
+      "message": "",
+      "outputTokens": 94,
+      "rationale": "This is just a brief conversational reply with no mention of limits, caps, resets, or availability returning.",
+      "reasoningTokens": 45,
+      "totalTokens": 387,
+      "tweetId": "2039482359649837463",
+      "tweetText": "@antonioleivag Of course",
+      "tweetUrl": "https://x.com/thsottiaux/status/2039482359649837463",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1775086282263,
@@ -648,9 +663,9 @@
     }
   ],
   "privateState": {
-    "ciphertext": "h6zeogTbM1g6hj_s6bE0fvRvssQB5rFFwj7HEXEctrSK7cWS5JtEjQEjXw",
-    "iv": "xJVsffiFCR8GWqiY",
-    "tag": "jV7kXnYsQ9eA9QEByjXDiA",
+    "ciphertext": "_wp5uGC2pmY62guw__Gtg5jqmal4mMbsyiINy1U_qdqKT2Kmlz-d77EnWw",
+    "iv": "oYavfF92JfbjeLWL",
+    "tag": "tYMh3VyeBd2uluPDa-1igw",
     "version": 1
   }
 }
