@@ -13,16 +13,16 @@
   "updatedAt": 1775030055458,
   "automation": {
     "lastDecision": {
-      "confidence": 0.12,
-      "decidedAt": 1775034319626,
-      "rationale": "This is just a reply saying “Yes!” with no visible context about limits or resets, so it does not clearly confirm a rate-limit reset.",
-      "tweetId": "2039249034507087889",
-      "tweetUrl": "https://x.com/thsottiaux/status/2039249034507087889",
-      "verdict": "uncertain"
+      "confidence": 0.99,
+      "decidedAt": 1775075230194,
+      "rationale": "The tweet is a product announcement/joke about Codex and does not mention limits, caps, resets, or availability returning after a rate limit.",
+      "tweetId": "2039436859055751258",
+      "tweetUrl": "https://x.com/thsottiaux/status/2039436859055751258",
+      "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2039249034507087889",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2039249034507087889",
+    "lastSeenTweetId": "2039436859055751258",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2039436859055751258",
     "pendingReview": {
       "confidence": 0.12,
       "createdAt": 1775034319626,
@@ -32,6 +32,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2039249034507087889"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1775075230194,
+        "inputTokens": 359,
+        "outputTokens": 94,
+        "rationale": "The tweet is a product announcement/joke about Codex and does not mention limits, caps, resets, or availability returning after a rate limit.",
+        "reasoningTokens": 37,
+        "totalTokens": 453,
+        "tweetId": "2039436859055751258",
+        "tweetText": "Announcing Codex. \n\nA new product from OpenAI that moves beyond coding, into cooking. We were already cooking before, but now *you* can cook too ... with Codex. It is powered by the same technology as our other Codex products. You can just cook things. https://t.co/tMnH1nn1VX",
+        "tweetUrl": "https://x.com/thsottiaux/status/2039436859055751258",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.12,
         "evaluatedAt": 1775034319626,
@@ -281,13 +294,28 @@
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 6150,
-      "totalOutputTokens": 1775,
-      "totalReasoningTokens": 789,
-      "totalTokens": 7925
+      "totalInputTokens": 6509,
+      "totalOutputTokens": 1869,
+      "totalReasoningTokens": 826,
+      "totalTokens": 8378
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1775075230195,
+      "inputTokens": 359,
+      "message": "",
+      "outputTokens": 94,
+      "rationale": "The tweet is a product announcement/joke about Codex and does not mention limits, caps, resets, or availability returning after a rate limit.",
+      "reasoningTokens": 37,
+      "totalTokens": 453,
+      "tweetId": "2039436859055751258",
+      "tweetText": "Announcing Codex. \n\nA new product from OpenAI that moves beyond coding, into cooking. We were already cooking before, but now *you* can cook too ... with Codex. It is powered by the same technology as our other Codex products. You can just cook things. https://t.co/tMnH1nn1VX",
+      "tweetUrl": "https://x.com/thsottiaux/status/2039436859055751258",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0,
       "createdAt": 1775061058590,
@@ -590,9 +618,9 @@
     }
   ],
   "privateState": {
-    "ciphertext": "5QhtB0fKDuv4cegOdmiCYhN0jvpusmw0awTC8R5VQyIA_6xV4HLcTAtepQ",
-    "iv": "mJGsGLhYsgKVzmyp",
-    "tag": "9mmiOVkDOSu5EP1--HMSMg",
+    "ciphertext": "E8eF6CbUhlayhAayOhkvqtgFQZmPIayw736W-iXCII4yXnYEcSXb9unUpA",
+    "iv": "JHoaaRM5LHn_t3Rb",
+    "tag": "2ud7gYwa-OzLuZzBUJn-AA",
     "version": 1
   }
 }
