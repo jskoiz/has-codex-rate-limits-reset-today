@@ -13,18 +13,38 @@
   "updatedAt": 1775030055458,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1775034315198,
-      "rationale": "Reply asking for a session ID; no mention or implication that any ChatGPT/Codex limit or cap has reset.",
-      "tweetId": "2039248828738777538",
-      "tweetUrl": "https://x.com/thsottiaux/status/2039248828738777538",
-      "verdict": "not_reset"
+      "confidence": 0.12,
+      "decidedAt": 1775034319626,
+      "rationale": "This is just a reply saying “Yes!” with no visible context about limits or resets, so it does not clearly confirm a rate-limit reset.",
+      "tweetId": "2039249034507087889",
+      "tweetUrl": "https://x.com/thsottiaux/status/2039249034507087889",
+      "verdict": "uncertain"
     },
     "lastError": null,
-    "lastSeenTweetId": "2039248828738777538",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2039248828738777538",
-    "pendingReview": null,
+    "lastSeenTweetId": "2039249034507087889",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2039249034507087889",
+    "pendingReview": {
+      "confidence": 0.12,
+      "createdAt": 1775034319626,
+      "rationale": "This is just a reply saying “Yes!” with no visible context about limits or resets, so it does not clearly confirm a rate-limit reset.",
+      "tweetId": "2039249034507087889",
+      "tweetText": "@GregKonush Yes!\n\nhttps://t.co/2TH56VNxnb",
+      "tweetUrl": "https://x.com/thsottiaux/status/2039249034507087889"
+    },
     "recentEvaluations": [
+      {
+        "confidence": 0.12,
+        "evaluatedAt": 1775034319626,
+        "inputTokens": 305,
+        "outputTokens": 113,
+        "rationale": "This is just a reply saying “Yes!” with no visible context about limits or resets, so it does not clearly confirm a rate-limit reset.",
+        "reasoningTokens": 56,
+        "totalTokens": 418,
+        "tweetId": "2039249034507087889",
+        "tweetText": "@GregKonush Yes!\n\nhttps://t.co/2TH56VNxnb",
+        "tweetUrl": "https://x.com/thsottiaux/status/2039249034507087889",
+        "verdict": "uncertain"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1775034315198,
@@ -261,13 +281,28 @@
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 5845,
-      "totalOutputTokens": 1662,
-      "totalReasoningTokens": 733,
-      "totalTokens": 7507
+      "totalInputTokens": 6150,
+      "totalOutputTokens": 1775,
+      "totalReasoningTokens": 789,
+      "totalTokens": 7925
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.12,
+      "createdAt": 1775034319626,
+      "inputTokens": 305,
+      "message": "",
+      "outputTokens": 113,
+      "rationale": "This is just a reply saying “Yes!” with no visible context about limits or resets, so it does not clearly confirm a rate-limit reset.",
+      "reasoningTokens": 56,
+      "totalTokens": 418,
+      "tweetId": "2039249034507087889",
+      "tweetText": "@GregKonush Yes!\n\nhttps://t.co/2TH56VNxnb",
+      "tweetUrl": "https://x.com/thsottiaux/status/2039249034507087889",
+      "type": "review_requested",
+      "verdict": "uncertain"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1775034315198,
@@ -555,9 +590,9 @@
     }
   ],
   "privateState": {
-    "ciphertext": "Tuyu-kzdIbP0jUgh-t7y0Az6waWUYUUcG3po7c6I6KWCi0mU6O9s8h9REA",
-    "iv": "n4DMnyool5W1DkuE",
-    "tag": "pcb2vBRNAt_OOu7G2S2teg",
+    "ciphertext": "5XXeLii6KupOVPlDJqwYP778v_cGWjZIM4cRf22b1uhedqANcD5TaAaWvQ",
+    "iv": "BdW4MdPeb8b_Zis-",
+    "tag": "cxRn1P6kzzPuiglHKZ-wvQ",
     "version": 1
   }
 }
