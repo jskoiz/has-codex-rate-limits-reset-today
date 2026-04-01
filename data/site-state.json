@@ -14,15 +14,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1775086279124,
-      "rationale": "The tweet is about making Codex core open-source and a public repo, not about usage caps, limits, or availability resetting.",
-      "tweetId": "2039482054686196116",
-      "tweetUrl": "https://x.com/thsottiaux/status/2039482054686196116",
+      "decidedAt": 1775086282263,
+      "rationale": "This is just a reply asking about cost and does not mention limits, caps, availability, or a reset.",
+      "tweetId": "2039482251633910001",
+      "tweetUrl": "https://x.com/thsottiaux/status/2039482251633910001",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2039482054686196116",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2039482054686196116",
+    "lastSeenTweetId": "2039482251633910001",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2039482251633910001",
     "pendingReview": {
       "confidence": 0.12,
       "createdAt": 1775034319626,
@@ -32,6 +32,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2039249034507087889"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1775086282263,
+        "inputTokens": 299,
+        "outputTokens": 81,
+        "rationale": "This is just a reply asking about cost and does not mention limits, caps, availability, or a reset.",
+        "reasoningTokens": 31,
+        "totalTokens": 380,
+        "tweetId": "2039482251633910001",
+        "tweetText": "@Anubhav_Mishra_ How much did it cost?",
+        "tweetUrl": "https://x.com/thsottiaux/status/2039482251633910001",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1775086279124,
@@ -278,29 +291,31 @@
         "tweetText": "Codex team prompting codex",
         "tweetUrl": "https://x.com/thsottiaux/status/2037345739203059861",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1774600998518,
-        "inputTokens": 321,
-        "outputTokens": 101,
-        "rationale": "The tweet discusses a Codex-related automation/project and says nothing about limits, caps, availability, or a reset.",
-        "reasoningTokens": 50,
-        "totalTokens": 422,
-        "tweetId": "2037311561765937307",
-        "tweetText": "A fun one: I combined it with a skill and automation to physically print a one-page update on public discourse around Codex that I can read together with my morning coffee.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2037311561765937307",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 6868,
-      "totalOutputTokens": 1952,
-      "totalReasoningTokens": 855,
-      "totalTokens": 8820
+      "totalInputTokens": 7167,
+      "totalOutputTokens": 2033,
+      "totalReasoningTokens": 886,
+      "totalTokens": 9200
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1775086282263,
+      "inputTokens": 299,
+      "message": "",
+      "outputTokens": 81,
+      "rationale": "This is just a reply asking about cost and does not mention limits, caps, availability, or a reset.",
+      "reasoningTokens": 31,
+      "totalTokens": 380,
+      "tweetId": "2039482251633910001",
+      "tweetText": "@Anubhav_Mishra_ How much did it cost?",
+      "tweetUrl": "https://x.com/thsottiaux/status/2039482251633910001",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1775086279125,
@@ -633,9 +648,9 @@
     }
   ],
   "privateState": {
-    "ciphertext": "L7p_WTGIsSJLZQ9v36eZalRXRRDlQ3eByf2ZgDqI9-v0L_VYAVVls2Vx8Q",
-    "iv": "dzpbPJ_3Rod1HH08",
-    "tag": "XgwlpARryF5o8pvGDFdu1A",
+    "ciphertext": "h6zeogTbM1g6hj_s6bE0fvRvssQB5rFFwj7HEXEctrSK7cWS5JtEjQEjXw",
+    "iv": "xJVsffiFCR8GWqiY",
+    "tag": "jV7kXnYsQ9eA9QEByjXDiA",
     "version": 1
   }
 }
