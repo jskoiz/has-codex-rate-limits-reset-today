@@ -13,16 +13,16 @@
   "updatedAt": 1775030055458,
   "automation": {
     "lastDecision": {
-      "confidence": 0.86,
-      "decidedAt": 1775116357178,
-      "rationale": "Reply is too vague; it only says \"Saw it on the chart\" and does not explicitly mention limits, caps, or a reset.",
-      "tweetId": "2039595373174599927",
-      "tweetUrl": "https://x.com/thsottiaux/status/2039595373174599927",
-      "verdict": "uncertain"
+      "confidence": 0.99,
+      "decidedAt": 1775169997065,
+      "rationale": "This is a product/pricing announcement about Codex seats and pay-as-you-go, not about rate limits, caps, or usage resetting.",
+      "tweetId": "2039830319302693367",
+      "tweetUrl": "https://x.com/thsottiaux/status/2039830319302693367",
+      "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2039595373174599927",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2039595373174599927",
+    "lastSeenTweetId": "2039830319302693367",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2039830319302693367",
     "pendingReview": {
       "confidence": 0.86,
       "createdAt": 1775116357178,
@@ -32,6 +32,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2039595373174599927"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1775169997065,
+        "inputTokens": 325,
+        "outputTokens": 78,
+        "rationale": "This is a product/pricing announcement about Codex seats and pay-as-you-go, not about rate limits, caps, or usage resetting.",
+        "reasoningTokens": 22,
+        "totalTokens": 403,
+        "tweetId": "2039830319302693367",
+        "tweetText": "For business and enterprise, Codex now starts at $0 seats with pay-as-you-go. It's time to build.\n\nhttps://t.co/BZOmVnL0Bt",
+        "tweetUrl": "https://x.com/thsottiaux/status/2039830319302693367",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.86,
         "evaluatedAt": 1775116357178,
@@ -278,29 +291,31 @@
         "tweetText": "Growth of codex continues to outpace our prediction (maybe we are not super good at that) and we almost ran out of capacity three days in a row. We have ramped up more significantly ahead of next week.",
         "tweetUrl": "https://x.com/thsottiaux/status/2037785955126652990",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1774601024729,
-        "inputTokens": 304,
-        "outputTokens": 70,
-        "rationale": "Reply about popout windows; no mention of limits, caps, reset, or availability returning.",
-        "reasoningTokens": 23,
-        "totalTokens": 374,
-        "tweetId": "2037348557729210806",
-        "tweetText": "@rishirsv @ajambrosino what happened to the poor popout windows",
-        "tweetUrl": "https://x.com/thsottiaux/status/2037348557729210806",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 8674,
-      "totalOutputTokens": 2772,
-      "totalReasoningTokens": 1353,
-      "totalTokens": 11446
+      "totalInputTokens": 8999,
+      "totalOutputTokens": 2850,
+      "totalReasoningTokens": 1375,
+      "totalTokens": 11849
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1775169997065,
+      "inputTokens": 325,
+      "message": "",
+      "outputTokens": 78,
+      "rationale": "This is a product/pricing announcement about Codex seats and pay-as-you-go, not about rate limits, caps, or usage resetting.",
+      "reasoningTokens": 22,
+      "totalTokens": 403,
+      "tweetId": "2039830319302693367",
+      "tweetText": "For business and enterprise, Codex now starts at $0 seats with pay-as-you-go. It's time to build.\n\nhttps://t.co/BZOmVnL0Bt",
+      "tweetUrl": "https://x.com/thsottiaux/status/2039830319302693367",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.86,
       "createdAt": 1775116357178,
@@ -723,9 +738,9 @@
     }
   ],
   "privateState": {
-    "ciphertext": "tTX9d81LpHndseOfIhFQGGDBeUDrjU9XZ2kgIdUE5u3piBctz3DRARmogA",
-    "iv": "3Wa4BDbkHSrCiViF",
-    "tag": "AD3IqbFWAbg_0iZdZWkGZQ",
+    "ciphertext": "1rNqAeVIW_nol3kGsmYCs3I5h79jUvd0_bKtAD0cuXlLm8sLcokHlENu5Q",
+    "iv": "3K1Zs04P6pkvzL0w",
+    "tag": "HjVabeU8FspopX4J3JbUlA",
     "version": 1
   }
 }
