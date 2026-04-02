@@ -13,25 +13,38 @@
   "updatedAt": 1775030055458,
   "automation": {
     "lastDecision": {
-      "confidence": 0.95,
-      "decidedAt": 1775107036339,
-      "rationale": "The tweet comments on Codex growth and timing, but does not mention limits, caps, rate limits, or usage becoming available again.",
-      "tweetId": "2039550028444991515",
-      "tweetUrl": "https://x.com/thsottiaux/status/2039550028444991515",
-      "verdict": "not_reset"
+      "confidence": 0.86,
+      "decidedAt": 1775116357178,
+      "rationale": "Reply is too vague; it only says \"Saw it on the chart\" and does not explicitly mention limits, caps, or a reset.",
+      "tweetId": "2039595373174599927",
+      "tweetUrl": "https://x.com/thsottiaux/status/2039595373174599927",
+      "verdict": "uncertain"
     },
     "lastError": null,
-    "lastSeenTweetId": "2039550028444991515",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2039550028444991515",
+    "lastSeenTweetId": "2039595373174599927",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2039595373174599927",
     "pendingReview": {
-      "confidence": 0.12,
-      "createdAt": 1775034319626,
-      "rationale": "This is just a reply saying “Yes!” with no visible context about limits or resets, so it does not clearly confirm a rate-limit reset.",
-      "tweetId": "2039249034507087889",
-      "tweetText": "@GregKonush Yes!\n\nhttps://t.co/2TH56VNxnb",
-      "tweetUrl": "https://x.com/thsottiaux/status/2039249034507087889"
+      "confidence": 0.86,
+      "createdAt": 1775116357178,
+      "rationale": "Reply is too vague; it only says \"Saw it on the chart\" and does not explicitly mention limits, caps, or a reset.",
+      "tweetId": "2039595373174599927",
+      "tweetText": "@superligious Saw it on the chart",
+      "tweetUrl": "https://x.com/thsottiaux/status/2039595373174599927"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.86,
+        "evaluatedAt": 1775116357178,
+        "inputTokens": 295,
+        "outputTokens": 233,
+        "rationale": "Reply is too vague; it only says \"Saw it on the chart\" and does not explicitly mention limits, caps, or a reset.",
+        "reasoningTokens": 177,
+        "totalTokens": 528,
+        "tweetId": "2039595373174599927",
+        "tweetText": "@superligious Saw it on the chart",
+        "tweetUrl": "https://x.com/thsottiaux/status/2039595373174599927",
+        "verdict": "uncertain"
+      },
       {
         "confidence": 0.95,
         "evaluatedAt": 1775107036339,
@@ -278,29 +291,31 @@
         "tweetText": "@rishirsv @ajambrosino what happened to the poor popout windows",
         "tweetUrl": "https://x.com/thsottiaux/status/2037348557729210806",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1774601021783,
-        "inputTokens": 291,
-        "outputTokens": 88,
-        "rationale": "A brief reply saying “Enhance”; it does not mention limits, caps, resets, or availability.",
-        "reasoningTokens": 39,
-        "totalTokens": 379,
-        "tweetId": "2037348456038297834",
-        "tweetText": "@Fullmoon211 Enhance",
-        "tweetUrl": "https://x.com/thsottiaux/status/2037348456038297834",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 8379,
-      "totalOutputTokens": 2539,
-      "totalReasoningTokens": 1176,
-      "totalTokens": 10918
+      "totalInputTokens": 8674,
+      "totalOutputTokens": 2772,
+      "totalReasoningTokens": 1353,
+      "totalTokens": 11446
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.86,
+      "createdAt": 1775116357178,
+      "inputTokens": 295,
+      "message": "",
+      "outputTokens": 233,
+      "rationale": "Reply is too vague; it only says \"Saw it on the chart\" and does not explicitly mention limits, caps, or a reset.",
+      "reasoningTokens": 177,
+      "totalTokens": 528,
+      "tweetId": "2039595373174599927",
+      "tweetText": "@superligious Saw it on the chart",
+      "tweetUrl": "https://x.com/thsottiaux/status/2039595373174599927",
+      "type": "review_requested",
+      "verdict": "uncertain"
+    },
     {
       "confidence": 0.95,
       "createdAt": 1775107036339,
@@ -708,9 +723,9 @@
     }
   ],
   "privateState": {
-    "ciphertext": "WW9tNEVgj5h1yaxTWdDTicTvQ3xI7A22ULOVUXOdNh8n4pREi5LHNqQqYg",
-    "iv": "0fgsDcfD3advSuXJ",
-    "tag": "q6r94WLuyVgZ3h50hRkzkg",
+    "ciphertext": "tTX9d81LpHndseOfIhFQGGDBeUDrjU9XZ2kgIdUE5u3piBctz3DRARmogA",
+    "iv": "3Wa4BDbkHSrCiViF",
+    "tag": "AD3IqbFWAbg_0iZdZWkGZQ",
     "version": 1
   }
 }
