@@ -14,15 +14,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1775253304082,
-      "rationale": "The tweet discusses Codex behavior during a build process, not user caps, rate limits, or availability being restored.",
-      "tweetId": "2040185497415565442",
-      "tweetUrl": "https://x.com/thsottiaux/status/2040185497415565442",
+      "decidedAt": 1775253307071,
+      "rationale": "Reply is conversational and says nothing about limits, caps, or usage becoming available again.",
+      "tweetId": "2040185809882742805",
+      "tweetUrl": "https://x.com/thsottiaux/status/2040185809882742805",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2040185497415565442",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2040185497415565442",
+    "lastSeenTweetId": "2040185809882742805",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2040185809882742805",
     "pendingReview": {
       "confidence": 0.86,
       "createdAt": 1775116357178,
@@ -32,6 +32,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2039595373174599927"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1775253307071,
+        "inputTokens": 298,
+        "outputTokens": 70,
+        "rationale": "Reply is conversational and says nothing about limits, caps, or usage becoming available again.",
+        "reasoningTokens": 25,
+        "totalTokens": 368,
+        "tweetId": "2040185809882742805",
+        "tweetText": "@varunram We're not Apple. We are OpenAI.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2040185809882742805",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1775253304082,
@@ -278,29 +291,31 @@
         "tweetText": "Ah nevermind, I actually remember we decided to have the core open-source for Codex because it would be awesome to see the ecosystem flourish as it's all so nascent and fun. And we would learn a lot in return. Phew.",
         "tweetUrl": "https://x.com/thsottiaux/status/2039482054686196116",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1775075230194,
-        "inputTokens": 359,
-        "outputTokens": 94,
-        "rationale": "The tweet is a product announcement/joke about Codex and does not mention limits, caps, resets, or availability returning after a rate limit.",
-        "reasoningTokens": 37,
-        "totalTokens": 453,
-        "tweetId": "2039436859055751258",
-        "tweetText": "Announcing Codex. \n\nA new product from OpenAI that moves beyond coding, into cooking. We were already cooking before, but now *you* can cook too ... with Codex. It is powered by the same technology as our other Codex products. You can just cook things. https://t.co/tMnH1nn1VX",
-        "tweetUrl": "https://x.com/thsottiaux/status/2039436859055751258",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 12441,
-      "totalOutputTokens": 3935,
-      "totalReasoningTokens": 1902,
-      "totalTokens": 16376
+      "totalInputTokens": 12739,
+      "totalOutputTokens": 4005,
+      "totalReasoningTokens": 1927,
+      "totalTokens": 16744
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1775253307071,
+      "inputTokens": 298,
+      "message": "",
+      "outputTokens": 70,
+      "rationale": "Reply is conversational and says nothing about limits, caps, or usage becoming available again.",
+      "reasoningTokens": 25,
+      "totalTokens": 368,
+      "tweetId": "2040185809882742805",
+      "tweetText": "@varunram We're not Apple. We are OpenAI.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2040185809882742805",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1775253304082,
@@ -885,27 +900,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2037311561765937307",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1774600994350,
-      "inputTokens": 429,
-      "message": "",
-      "outputTokens": 73,
-      "rationale": "The tweet is about Codex plugins/integrations and account access, not about rate limits, caps, or usage resetting.",
-      "reasoningTokens": 20,
-      "totalTokens": 502,
-      "tweetId": "2037310992284311940",
-      "tweetText": "Boom. Plugins! Codex now has access to most things it couldn’t reach before and all super easy behind the same with you use for your ChatGPT account.\n\nI use this for *everything*, from managing my calendar, triaging incoming bugs, keeping up to date with what everyone is doing at the company and so much more",
-      "tweetUrl": "https://x.com/thsottiaux/status/2037310992284311940",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "3-JcsdozjlAyNp9DAHuTCJ-a2Bor_9uyJOjHwUnr-tyirVpQl1j01ogSHQ",
-    "iv": "Hy1MMmTmUXSPXl6K",
-    "tag": "LrZXIp2QrKhBa7Y00vhayA",
+    "ciphertext": "tWGqyi5oQo-vrB8k6A_edr8ug3gcehbBO65D3uySil2zM5NC6YtATAuroA",
+    "iv": "TEXO7EQhoubg2CeM",
+    "tag": "diwibo78B8CQj8HeEKdlVw",
     "version": 1
   }
 }
