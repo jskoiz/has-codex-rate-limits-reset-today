@@ -14,15 +14,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1775244292987,
-      "rationale": "Reply about traffic geography; no mention of limits, caps, resets, or usage becoming available again.",
-      "tweetId": "2040135678965714952",
-      "tweetUrl": "https://x.com/thsottiaux/status/2040135678965714952",
+      "decidedAt": 1775253304082,
+      "rationale": "The tweet discusses Codex behavior during a build process, not user caps, rate limits, or availability being restored.",
+      "tweetId": "2040185497415565442",
+      "tweetUrl": "https://x.com/thsottiaux/status/2040185497415565442",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2040135678965714952",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2040135678965714952",
+    "lastSeenTweetId": "2040185497415565442",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2040185497415565442",
     "pendingReview": {
       "confidence": 0.86,
       "createdAt": 1775116357178,
@@ -32,6 +32,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2039595373174599927"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1775253304082,
+        "inputTokens": 351,
+        "outputTokens": 84,
+        "rationale": "The tweet discusses Codex behavior during a build process, not user caps, rate limits, or availability being restored.",
+        "reasoningTokens": 33,
+        "totalTokens": 435,
+        "tweetId": "2040185497415565442",
+        "tweetText": "Always fun when you notice Codex being clever in a way you don't expect. \n\nIn a session today, it was running a slow build process and got annoyed (don't we all). Before making a change it checked that progress was actually happening and did so not by checking the logs, but by checking CPU usage.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2040185497415565442",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1775244292987,
@@ -278,29 +291,31 @@
         "tweetText": "Announcing Codex. \n\nA new product from OpenAI that moves beyond coding, into cooking. We were already cooking before, but now *you* can cook too ... with Codex. It is powered by the same technology as our other Codex products. You can just cook things. https://t.co/tMnH1nn1VX",
         "tweetUrl": "https://x.com/thsottiaux/status/2039436859055751258",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.12,
-        "evaluatedAt": 1775034319626,
-        "inputTokens": 305,
-        "outputTokens": 113,
-        "rationale": "This is just a reply saying “Yes!” with no visible context about limits or resets, so it does not clearly confirm a rate-limit reset.",
-        "reasoningTokens": 56,
-        "totalTokens": 418,
-        "tweetId": "2039249034507087889",
-        "tweetText": "@GregKonush Yes!\n\nhttps://t.co/2TH56VNxnb",
-        "tweetUrl": "https://x.com/thsottiaux/status/2039249034507087889",
-        "verdict": "uncertain"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 12090,
-      "totalOutputTokens": 3851,
-      "totalReasoningTokens": 1869,
-      "totalTokens": 15941
+      "totalInputTokens": 12441,
+      "totalOutputTokens": 3935,
+      "totalReasoningTokens": 1902,
+      "totalTokens": 16376
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1775253304082,
+      "inputTokens": 351,
+      "message": "",
+      "outputTokens": 84,
+      "rationale": "The tweet discusses Codex behavior during a build process, not user caps, rate limits, or availability being restored.",
+      "reasoningTokens": 33,
+      "totalTokens": 435,
+      "tweetId": "2040185497415565442",
+      "tweetText": "Always fun when you notice Codex being clever in a way you don't expect. \n\nIn a session today, it was running a slow build process and got annoyed (don't we all). Before making a change it checked that progress was actually happening and did so not by checking the logs, but by checking CPU usage.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2040185497415565442",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1775244292988,
@@ -888,9 +903,9 @@
     }
   ],
   "privateState": {
-    "ciphertext": "y3yDLcuIosIoMmifkLZlTyg1RGs7EWDKvvTMIN7AIxzu_Qvf9kw4YZ8Cqw",
-    "iv": "rgU8lg82v-vOxse3",
-    "tag": "MDGjo8E_vquAoyGllJd6kw",
+    "ciphertext": "3-JcsdozjlAyNp9DAHuTCJ-a2Bor_9uyJOjHwUnr-tyirVpQl1j01ogSHQ",
+    "iv": "Hy1MMmTmUXSPXl6K",
+    "tag": "LrZXIp2QrKhBa7Y00vhayA",
     "version": 1
   }
 }
