@@ -13,16 +13,16 @@
   "updatedAt": 1775030055458,
   "automation": {
     "lastDecision": {
-      "confidence": 0.93,
-      "decidedAt": 1775192113070,
-      "rationale": "This reply is purely conversational and does not state or imply that any Codex or ChatGPT limit has reset.",
-      "tweetId": "2039865349127172106",
-      "tweetUrl": "https://x.com/thsottiaux/status/2039865349127172106",
+      "confidence": 0.99,
+      "decidedAt": 1775192116901,
+      "rationale": "The tweet discusses traffic patterns and possible off-peak/peak usage incentives; it does not say Codex or ChatGPT limits/caps have reset or are available again now.",
+      "tweetId": "2039893158952419779",
+      "tweetUrl": "https://x.com/thsottiaux/status/2039893158952419779",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2039865349127172106",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2039865349127172106",
+    "lastSeenTweetId": "2039893158952419779",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2039893158952419779",
     "pendingReview": {
       "confidence": 0.86,
       "createdAt": 1775116357178,
@@ -32,6 +32,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2039595373174599927"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1775192116901,
+        "inputTokens": 362,
+        "outputTokens": 101,
+        "rationale": "The tweet discusses traffic patterns and possible off-peak/peak usage incentives; it does not say Codex or ChatGPT limits/caps have reset or are available again now.",
+        "reasoningTokens": 38,
+        "totalTokens": 463,
+        "tweetId": "2039893158952419779",
+        "tweetText": "With Codex the there is quite the gulf in load between peak and off-peak times, and we would like to achieve more of a smoother traffic pattern as that would be a more optimal use of our compute. \n\nWe have ideas, but curious what you all think we should do? Would more usage during off-peak and surge multiplier during peak times make sense?",
+        "tweetUrl": "https://x.com/thsottiaux/status/2039893158952419779",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.93,
         "evaluatedAt": 1775192113070,
@@ -278,29 +291,31 @@
         "tweetText": "@doodlestein For PreToolUse, what's missing from https://t.co/oMo4ekEiFC",
         "tweetUrl": "https://x.com/thsottiaux/status/2038516930076926140",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1774858044980,
-        "inputTokens": 319,
-        "outputTokens": 92,
-        "rationale": "This reply discusses adding features/progress and does not mention caps, limits, resets, or usage becoming available again.",
-        "reasoningTokens": 41,
-        "totalTokens": 411,
-        "tweetId": "2038515585328509176",
-        "tweetText": "@doodlestein 1. Will add (looking at this now)\n2. Will add in the future\n3. Is already well under way",
-        "tweetUrl": "https://x.com/thsottiaux/status/2038515585328509176",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 9880,
-      "totalOutputTokens": 3271,
-      "totalReasoningTokens": 1648,
-      "totalTokens": 13151
+      "totalInputTokens": 10242,
+      "totalOutputTokens": 3372,
+      "totalReasoningTokens": 1686,
+      "totalTokens": 13614
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1775192116901,
+      "inputTokens": 362,
+      "message": "",
+      "outputTokens": 101,
+      "rationale": "The tweet discusses traffic patterns and possible off-peak/peak usage incentives; it does not say Codex or ChatGPT limits/caps have reset or are available again now.",
+      "reasoningTokens": 38,
+      "totalTokens": 463,
+      "tweetId": "2039893158952419779",
+      "tweetText": "With Codex the there is quite the gulf in load between peak and off-peak times, and we would like to achieve more of a smoother traffic pattern as that would be a more optimal use of our compute. \n\nWe have ideas, but curious what you all think we should do? Would more usage during off-peak and surge multiplier during peak times make sense?",
+      "tweetUrl": "https://x.com/thsottiaux/status/2039893158952419779",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.93,
       "createdAt": 1775192113071,
@@ -783,9 +798,9 @@
     }
   ],
   "privateState": {
-    "ciphertext": "nlKe2OPk2ugp4sE2mYhP5sgKpEUQI_aYcuq7IwaJQLfZW5gK3qpw4lACyw",
-    "iv": "Aj9dAcWiqp_Cqg8r",
-    "tag": "jC2nzBaIGM1BDbHYBV-5Nw",
+    "ciphertext": "y6Ch-yc6fH5XQFCWhh9lTCkh7tXQFbjTgtzCZxpApNOTIblqCf6NykE_Ow",
+    "iv": "bl3iw_7RVRxEd8aa",
+    "tag": "zhu-9f1DXbVoHyodTJClBw",
     "version": 1
   }
 }
