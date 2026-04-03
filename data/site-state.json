@@ -14,15 +14,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1775253307071,
-      "rationale": "Reply is conversational and says nothing about limits, caps, or usage becoming available again.",
-      "tweetId": "2040185809882742805",
-      "tweetUrl": "https://x.com/thsottiaux/status/2040185809882742805",
+      "decidedAt": 1775255802923,
+      "rationale": "This is a welcome/congratulatory post about someone joining the Codex team, not about usage caps, limits, or availability resetting.",
+      "tweetId": "2040187450551869863",
+      "tweetUrl": "https://x.com/thsottiaux/status/2040187450551869863",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2040185809882742805",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2040185809882742805",
+    "lastSeenTweetId": "2040187450551869863",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2040187450551869863",
     "pendingReview": {
       "confidence": 0.86,
       "createdAt": 1775116357178,
@@ -32,6 +32,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2039595373174599927"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1775255802923,
+        "inputTokens": 342,
+        "outputTokens": 91,
+        "rationale": "This is a welcome/congratulatory post about someone joining the Codex team, not about usage caps, limits, or availability resetting.",
+        "reasoningTokens": 35,
+        "totalTokens": 433,
+        "tweetId": "2040187450551869863",
+        "tweetText": "Time to build. Welcome to the team Kath! Maybe we'll get a nice little mascot now too.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2040187450551869863",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1775253307071,
@@ -278,29 +291,31 @@
         "tweetText": "@Anubhav_Mishra_ How much did it cost?",
         "tweetUrl": "https://x.com/thsottiaux/status/2039482251633910001",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1775086279124,
-        "inputTokens": 359,
-        "outputTokens": 83,
-        "rationale": "The tweet is about making Codex core open-source and a public repo, not about usage caps, limits, or availability resetting.",
-        "reasoningTokens": 29,
-        "totalTokens": 442,
-        "tweetId": "2039482054686196116",
-        "tweetText": "Ah nevermind, I actually remember we decided to have the core open-source for Codex because it would be awesome to see the ecosystem flourish as it's all so nascent and fun. And we would learn a lot in return. Phew.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2039482054686196116",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 12739,
-      "totalOutputTokens": 4005,
-      "totalReasoningTokens": 1927,
-      "totalTokens": 16744
+      "totalInputTokens": 13081,
+      "totalOutputTokens": 4096,
+      "totalReasoningTokens": 1962,
+      "totalTokens": 17177
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1775255802923,
+      "inputTokens": 342,
+      "message": "",
+      "outputTokens": 91,
+      "rationale": "This is a welcome/congratulatory post about someone joining the Codex team, not about usage caps, limits, or availability resetting.",
+      "reasoningTokens": 35,
+      "totalTokens": 433,
+      "tweetId": "2040187450551869863",
+      "tweetText": "Time to build. Welcome to the team Kath! Maybe we'll get a nice little mascot now too.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2040187450551869863",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1775253307071,
@@ -885,27 +900,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2037345739203059861",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1774600998518,
-      "inputTokens": 321,
-      "message": "",
-      "outputTokens": 101,
-      "rationale": "The tweet discusses a Codex-related automation/project and says nothing about limits, caps, availability, or a reset.",
-      "reasoningTokens": 50,
-      "totalTokens": 422,
-      "tweetId": "2037311561765937307",
-      "tweetText": "A fun one: I combined it with a skill and automation to physically print a one-page update on public discourse around Codex that I can read together with my morning coffee.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2037311561765937307",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "tWGqyi5oQo-vrB8k6A_edr8ug3gcehbBO65D3uySil2zM5NC6YtATAuroA",
-    "iv": "TEXO7EQhoubg2CeM",
-    "tag": "diwibo78B8CQj8HeEKdlVw",
+    "ciphertext": "sH8RYkH7u_sst_6xMiaXNTc0UCgJ5jwcJGdjdlZtklgeTUWSDtTVaSPhJg",
+    "iv": "ijPhYCgVoL-xqBKQ",
+    "tag": "3vjDd3Mo2B5cU5b_MyX4Dg",
     "version": 1
   }
 }
