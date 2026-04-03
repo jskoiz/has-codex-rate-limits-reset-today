@@ -14,15 +14,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1775196785049,
-      "rationale": "Reply about incentives and sleep; no mention of Codex/ChatGPT limits, caps, or availability resetting.",
-      "tweetId": "2039932107938795687",
-      "tweetUrl": "https://x.com/thsottiaux/status/2039932107938795687",
+      "decidedAt": 1775201915831,
+      "rationale": "Reply saying \"The codex effect\" does not mention limits, caps, or usage resetting.",
+      "tweetId": "2039964496870195439",
+      "tweetUrl": "https://x.com/thsottiaux/status/2039964496870195439",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2039932107938795687",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2039932107938795687",
+    "lastSeenTweetId": "2039964496870195439",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2039964496870195439",
     "pendingReview": {
       "confidence": 0.86,
       "createdAt": 1775116357178,
@@ -32,6 +32,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2039595373174599927"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1775201915831,
+        "inputTokens": 293,
+        "outputTokens": 76,
+        "rationale": "Reply saying \"The codex effect\" does not mention limits, caps, or usage resetting.",
+        "reasoningTokens": 29,
+        "totalTokens": 369,
+        "tweetId": "2039964496870195439",
+        "tweetText": "@kais_rad The codex effect",
+        "tweetUrl": "https://x.com/thsottiaux/status/2039964496870195439",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1775196785049,
@@ -278,29 +291,31 @@
         "tweetText": "Whaaaa. Only realized now and apparently our repo was public since 11 months ago and noone told us?!",
         "tweetUrl": "https://x.com/thsottiaux/status/2039246206849970633",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1774911179603,
-        "inputTokens": 294,
-        "outputTokens": 73,
-        "rationale": "This is a personal reply with no mention of Codex, ChatGPT, limits, caps, or usage availability.",
-        "reasoningTokens": 22,
-        "totalTokens": 367,
-        "tweetId": "2038748086252810664",
-        "tweetText": "@Mercuriusdream Love you back",
-        "tweetUrl": "https://x.com/thsottiaux/status/2038748086252810664",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 10904,
-      "totalOutputTokens": 3521,
-      "totalReasoningTokens": 1734,
-      "totalTokens": 14425
+      "totalInputTokens": 11197,
+      "totalOutputTokens": 3597,
+      "totalReasoningTokens": 1763,
+      "totalTokens": 14794
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1775201915831,
+      "inputTokens": 293,
+      "message": "",
+      "outputTokens": 76,
+      "rationale": "Reply saying \"The codex effect\" does not mention limits, caps, or usage resetting.",
+      "reasoningTokens": 29,
+      "totalTokens": 369,
+      "tweetId": "2039964496870195439",
+      "tweetText": "@kais_rad The codex effect",
+      "tweetUrl": "https://x.com/thsottiaux/status/2039964496870195439",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1775196785049,
@@ -828,9 +843,9 @@
     }
   ],
   "privateState": {
-    "ciphertext": "_UoOBTBXG-wYS8nXGwFnqPvQPT1L_Np4vaoAvs8IJt8Te9JHoa9F4nd5jw",
-    "iv": "f8BVv8Sbr5HrHU_q",
-    "tag": "4r7uf29qxrIZIbMJdXosTg",
+    "ciphertext": "5rrGh1jdprI_hzDhWzIN6dPtO4Dvq7PTTrRStOYRhgWb4FU7Ohoi4jgDBg",
+    "iv": "V3C8VDtC_2Yfifkl",
+    "tag": "a7g0XNNYnY4ouDo0Zxhlvw",
     "version": 1
   }
 }
