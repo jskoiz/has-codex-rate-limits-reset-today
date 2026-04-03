@@ -14,15 +14,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1775192120438,
-      "rationale": "Promotional tweet about Codex App adoption and install credits; no mention of limits, caps, or usage resetting.",
-      "tweetId": "2039901964679688437",
-      "tweetUrl": "https://x.com/thsottiaux/status/2039901964679688437",
+      "decidedAt": 1775196785049,
+      "rationale": "Reply about incentives and sleep; no mention of Codex/ChatGPT limits, caps, or availability resetting.",
+      "tweetId": "2039932107938795687",
+      "tweetUrl": "https://x.com/thsottiaux/status/2039932107938795687",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2039901964679688437",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2039901964679688437",
+    "lastSeenTweetId": "2039932107938795687",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2039932107938795687",
     "pendingReview": {
       "confidence": 0.86,
       "createdAt": 1775116357178,
@@ -32,6 +32,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2039595373174599927"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1775196785049,
+        "inputTokens": 307,
+        "outputTokens": 73,
+        "rationale": "Reply about incentives and sleep; no mention of Codex/ChatGPT limits, caps, or availability resetting.",
+        "reasoningTokens": 23,
+        "totalTokens": 380,
+        "tweetId": "2039932107938795687",
+        "tweetText": "@RonPualS Don’t want the incentives to be THAT strong that an entire nation starts sleeping differently",
+        "tweetUrl": "https://x.com/thsottiaux/status/2039932107938795687",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1775192120438,
@@ -278,29 +291,31 @@
         "tweetText": "@Mercuriusdream Love you back",
         "tweetUrl": "https://x.com/thsottiaux/status/2038748086252810664",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1774911177313,
-        "inputTokens": 397,
-        "outputTokens": 89,
-        "rationale": "The tweet promotes a Codex plugin and says it works with a ChatGPT subscription; it does not mention limits, caps, or a reset.",
-        "reasoningTokens": 32,
-        "totalTokens": 486,
-        "tweetId": "2038747913078362262",
-        "tweetText": "You can now experience the power of codex while the little orange thing keeps you company. Works with your ChatGPT subscription, just as everywhere else.\n\nClearly proof you can just build things. Have fun",
-        "tweetUrl": "https://x.com/thsottiaux/status/2038747913078362262",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 10597,
-      "totalOutputTokens": 3448,
-      "totalReasoningTokens": 1711,
-      "totalTokens": 14045
+      "totalInputTokens": 10904,
+      "totalOutputTokens": 3521,
+      "totalReasoningTokens": 1734,
+      "totalTokens": 14425
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1775196785049,
+      "inputTokens": 307,
+      "message": "",
+      "outputTokens": 73,
+      "rationale": "Reply about incentives and sleep; no mention of Codex/ChatGPT limits, caps, or availability resetting.",
+      "reasoningTokens": 23,
+      "totalTokens": 380,
+      "tweetId": "2039932107938795687",
+      "tweetText": "@RonPualS Don’t want the incentives to be THAT strong that an entire nation starts sleeping differently",
+      "tweetUrl": "https://x.com/thsottiaux/status/2039932107938795687",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1775192120438,
@@ -813,9 +828,9 @@
     }
   ],
   "privateState": {
-    "ciphertext": "1i-Ftme2BbsmrQ1cWqopfiTr_zQxq9Wkja_FZ7wKlW9wsgbT6LEwig1FWg",
-    "iv": "gAzcVLQGw6rJkQbJ",
-    "tag": "iBNCN1me2CG1ykNGC4Ep2Q",
+    "ciphertext": "_UoOBTBXG-wYS8nXGwFnqPvQPT1L_Np4vaoAvs8IJt8Te9JHoa9F4nd5jw",
+    "iv": "f8BVv8Sbr5HrHU_q",
+    "tag": "4r7uf29qxrIZIbMJdXosTg",
     "version": 1
   }
 }
