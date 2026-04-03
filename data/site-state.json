@@ -14,15 +14,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1775201915831,
-      "rationale": "Reply saying \"The codex effect\" does not mention limits, caps, or usage resetting.",
-      "tweetId": "2039964496870195439",
-      "tweetUrl": "https://x.com/thsottiaux/status/2039964496870195439",
+      "decidedAt": 1775201920588,
+      "rationale": "A conversational reply about a seat being given away; no mention or implication of limits, caps, or usage becoming available again.",
+      "tweetId": "2039965345486901273",
+      "tweetUrl": "https://x.com/thsottiaux/status/2039965345486901273",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2039964496870195439",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2039964496870195439",
+    "lastSeenTweetId": "2039965345486901273",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2039965345486901273",
     "pendingReview": {
       "confidence": 0.86,
       "createdAt": 1775116357178,
@@ -32,6 +32,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2039595373174599927"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1775201920588,
+        "inputTokens": 298,
+        "outputTokens": 102,
+        "rationale": "A conversational reply about a seat being given away; no mention or implication of limits, caps, or usage becoming available again.",
+        "reasoningTokens": 49,
+        "totalTokens": 400,
+        "tweetId": "2039965345486901273",
+        "tweetText": "@ziwenxu_ Gave your seat to someone else",
+        "tweetUrl": "https://x.com/thsottiaux/status/2039965345486901273",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1775201915831,
@@ -278,29 +291,31 @@
         "tweetText": "Our Codex dashboards are showing increased rate of users hitting rate limits and since we don't fully understand why I have made the cautious decision of resetting the usage limits for all plans. Enjoy.\n\nI also wanted to celebrate us finding a pocket of fraudulent accounts that we banned and have helped us regain some compute. The fight against abuse never stops, but it's important to mark the moment and make it a little shared victory.",
         "tweetUrl": "https://x.com/thsottiaux/status/2039248564967424483",
         "verdict": "reset_confirmed"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1775030051809,
-        "inputTokens": 343,
-        "outputTokens": 91,
-        "rationale": "The tweet is about a repository being public / a code leak, not about usage limits, caps, or rate limits resetting.",
-        "reasoningTokens": 38,
-        "totalTokens": 434,
-        "tweetId": "2039246206849970633",
-        "tweetText": "Whaaaa. Only realized now and apparently our repo was public since 11 months ago and noone told us?!",
-        "tweetUrl": "https://x.com/thsottiaux/status/2039246206849970633",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 11197,
-      "totalOutputTokens": 3597,
-      "totalReasoningTokens": 1763,
-      "totalTokens": 14794
+      "totalInputTokens": 11495,
+      "totalOutputTokens": 3699,
+      "totalReasoningTokens": 1812,
+      "totalTokens": 15194
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1775201920588,
+      "inputTokens": 298,
+      "message": "",
+      "outputTokens": 102,
+      "rationale": "A conversational reply about a seat being given away; no mention or implication of limits, caps, or usage becoming available again.",
+      "reasoningTokens": 49,
+      "totalTokens": 400,
+      "tweetId": "2039965345486901273",
+      "tweetText": "@ziwenxu_ Gave your seat to someone else",
+      "tweetUrl": "https://x.com/thsottiaux/status/2039965345486901273",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1775201915831,
@@ -843,9 +858,9 @@
     }
   ],
   "privateState": {
-    "ciphertext": "5rrGh1jdprI_hzDhWzIN6dPtO4Dvq7PTTrRStOYRhgWb4FU7Ohoi4jgDBg",
-    "iv": "V3C8VDtC_2Yfifkl",
-    "tag": "a7g0XNNYnY4ouDo0Zxhlvw",
+    "ciphertext": "HCWJff8U9_gufJNOH_pdrmOMwowskWVAOHtlP11WLIIH7oDX-DR35W8-OA",
+    "iv": "CRe2rYkAomUp7XDo",
+    "tag": "Djr801H60e8AQPShV67_lg",
     "version": 1
   }
 }
