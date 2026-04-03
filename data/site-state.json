@@ -14,15 +14,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1775201920588,
-      "rationale": "A conversational reply about a seat being given away; no mention or implication of limits, caps, or usage becoming available again.",
-      "tweetId": "2039965345486901273",
-      "tweetUrl": "https://x.com/thsottiaux/status/2039965345486901273",
+      "decidedAt": 1775201923934,
+      "rationale": "Reply saying only “Welcome”; no mention or implication of limits, caps, or reset status.",
+      "tweetId": "2039966705645179064",
+      "tweetUrl": "https://x.com/thsottiaux/status/2039966705645179064",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2039965345486901273",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2039965345486901273",
+    "lastSeenTweetId": "2039966705645179064",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2039966705645179064",
     "pendingReview": {
       "confidence": 0.86,
       "createdAt": 1775116357178,
@@ -32,6 +32,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2039595373174599927"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1775201923934,
+        "inputTokens": 290,
+        "outputTokens": 70,
+        "rationale": "Reply saying only “Welcome”; no mention or implication of limits, caps, or reset status.",
+        "reasoningTokens": 23,
+        "totalTokens": 360,
+        "tweetId": "2039966705645179064",
+        "tweetText": "@svpino Welcome",
+        "tweetUrl": "https://x.com/thsottiaux/status/2039966705645179064",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1775201920588,
@@ -278,29 +291,31 @@
         "tweetText": "@andreabalducci @OpenAIDevs Do you have the session id?",
         "tweetUrl": "https://x.com/thsottiaux/status/2039248828738777538",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1775030055458,
-        "inputTokens": 370,
-        "outputTokens": 83,
-        "rationale": "The tweet explicitly says they are \"resetting the usage limits for all plans,\" meaning rate/usage caps are available again now.",
-        "reasoningTokens": 28,
-        "totalTokens": 453,
-        "tweetId": "2039248564967424483",
-        "tweetText": "Our Codex dashboards are showing increased rate of users hitting rate limits and since we don't fully understand why I have made the cautious decision of resetting the usage limits for all plans. Enjoy.\n\nI also wanted to celebrate us finding a pocket of fraudulent accounts that we banned and have helped us regain some compute. The fight against abuse never stops, but it's important to mark the moment and make it a little shared victory.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2039248564967424483",
-        "verdict": "reset_confirmed"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 11495,
-      "totalOutputTokens": 3699,
-      "totalReasoningTokens": 1812,
-      "totalTokens": 15194
+      "totalInputTokens": 11785,
+      "totalOutputTokens": 3769,
+      "totalReasoningTokens": 1835,
+      "totalTokens": 15554
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1775201923934,
+      "inputTokens": 290,
+      "message": "",
+      "outputTokens": 70,
+      "rationale": "Reply saying only “Welcome”; no mention or implication of limits, caps, or reset status.",
+      "reasoningTokens": 23,
+      "totalTokens": 360,
+      "tweetId": "2039966705645179064",
+      "tweetText": "@svpino Welcome",
+      "tweetUrl": "https://x.com/thsottiaux/status/2039966705645179064",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1775201920588,
@@ -858,9 +873,9 @@
     }
   ],
   "privateState": {
-    "ciphertext": "HCWJff8U9_gufJNOH_pdrmOMwowskWVAOHtlP11WLIIH7oDX-DR35W8-OA",
-    "iv": "CRe2rYkAomUp7XDo",
-    "tag": "Djr801H60e8AQPShV67_lg",
+    "ciphertext": "dPHvc9AUfuPdfe27IyqjSbC8I3IsKaf7gW1XG29rAbWLIsjP-MwnVW4tzg",
+    "iv": "YFj_QcqOXkUA0XSi",
+    "tag": "X9F6r12OavbZQ5NWFO-LmA",
     "version": 1
   }
 }
