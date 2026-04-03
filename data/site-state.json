@@ -14,15 +14,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1775192101318,
-      "rationale": "This reply only says \"Codex v2\" and does not mention limits, caps, reset timing, or availability returning.",
-      "tweetId": "2039862114194686305",
-      "tweetUrl": "https://x.com/thsottiaux/status/2039862114194686305",
+      "decidedAt": 1775192105177,
+      "rationale": "A brief conversational reply with no mention of limits, caps, resets, or availability.",
+      "tweetId": "2039864182603133359",
+      "tweetUrl": "https://x.com/thsottiaux/status/2039864182603133359",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2039862114194686305",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2039862114194686305",
+    "lastSeenTweetId": "2039864182603133359",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2039864182603133359",
     "pendingReview": {
       "confidence": 0.86,
       "createdAt": 1775116357178,
@@ -32,6 +32,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2039595373174599927"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1775192105177,
+        "inputTokens": 293,
+        "outputTokens": 75,
+        "rationale": "A brief conversational reply with no mention of limits, caps, resets, or availability.",
+        "reasoningTokens": 30,
+        "totalTokens": 368,
+        "tweetId": "2039864182603133359",
+        "tweetText": "@gill_kyle Flattering",
+        "tweetUrl": "https://x.com/thsottiaux/status/2039864182603133359",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1775192101318,
@@ -278,29 +291,31 @@
         "tweetText": "@doodlestein Do you use the CLI or the App?",
         "tweetUrl": "https://x.com/thsottiaux/status/2038511294681411952",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1774858036185,
-        "inputTokens": 294,
-        "outputTokens": 84,
-        "rationale": "The reply only says \"That's bait\" and gives no indication that any Codex or ChatGPT limits have reset.",
-        "reasoningTokens": 33,
-        "totalTokens": 378,
-        "tweetId": "2038504265367605412",
-        "tweetText": "@towheretobegin That's bait",
-        "tweetUrl": "https://x.com/thsottiaux/status/2038504265367605412",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 9293,
-      "totalOutputTokens": 2941,
-      "totalReasoningTokens": 1413,
-      "totalTokens": 12234
+      "totalInputTokens": 9586,
+      "totalOutputTokens": 3016,
+      "totalReasoningTokens": 1443,
+      "totalTokens": 12602
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1775192105177,
+      "inputTokens": 293,
+      "message": "",
+      "outputTokens": 75,
+      "rationale": "A brief conversational reply with no mention of limits, caps, resets, or availability.",
+      "reasoningTokens": 30,
+      "totalTokens": 368,
+      "tweetId": "2039864182603133359",
+      "tweetText": "@gill_kyle Flattering",
+      "tweetUrl": "https://x.com/thsottiaux/status/2039864182603133359",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1775192101318,
@@ -753,9 +768,9 @@
     }
   ],
   "privateState": {
-    "ciphertext": "3OGl2xEgnisjjjI5e_LMyBopLz5UIk6mdr7b_iak-F1DUygUZmNzic5Lcg",
-    "iv": "HmwOtXL-4h3k9Grf",
-    "tag": "lOhHjG2nkPv6Tnk2Ytlgxw",
+    "ciphertext": "MG-g0pSUaQ5KABMWlBOqrh43qXI7phnKwR2DgXmI8vZHREpqysymGWvAuw",
+    "iv": "KlWZHbGxZcnr02la",
+    "tag": "osfEdMVSIMiXTNpuGIWITQ",
     "version": 1
   }
 }
