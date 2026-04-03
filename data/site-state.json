@@ -13,16 +13,16 @@
   "updatedAt": 1775030055458,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1775192105177,
-      "rationale": "A brief conversational reply with no mention of limits, caps, resets, or availability.",
-      "tweetId": "2039864182603133359",
-      "tweetUrl": "https://x.com/thsottiaux/status/2039864182603133359",
+      "confidence": 0.93,
+      "decidedAt": 1775192113070,
+      "rationale": "This reply is purely conversational and does not state or imply that any Codex or ChatGPT limit has reset.",
+      "tweetId": "2039865349127172106",
+      "tweetUrl": "https://x.com/thsottiaux/status/2039865349127172106",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2039864182603133359",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2039864182603133359",
+    "lastSeenTweetId": "2039865349127172106",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2039865349127172106",
     "pendingReview": {
       "confidence": 0.86,
       "createdAt": 1775116357178,
@@ -32,6 +32,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2039595373174599927"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.93,
+        "evaluatedAt": 1775192113070,
+        "inputTokens": 294,
+        "outputTokens": 255,
+        "rationale": "This reply is purely conversational and does not state or imply that any Codex or ChatGPT limit has reset.",
+        "reasoningTokens": 205,
+        "totalTokens": 549,
+        "tweetId": "2039865349127172106",
+        "tweetText": "@loliieeee Tell me more",
+        "tweetUrl": "https://x.com/thsottiaux/status/2039865349127172106",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1775192105177,
@@ -278,29 +291,31 @@
         "tweetText": "@doodlestein 1. Will add (looking at this now)\n2. Will add in the future\n3. Is already well under way",
         "tweetUrl": "https://x.com/thsottiaux/status/2038515585328509176",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1774858040725,
-        "inputTokens": 300,
-        "outputTokens": 94,
-        "rationale": "This is just a reply asking whether someone uses the CLI or the app; it does not mention limits, caps, or availability resetting.",
-        "reasoningTokens": 39,
-        "totalTokens": 394,
-        "tweetId": "2038511294681411952",
-        "tweetText": "@doodlestein Do you use the CLI or the App?",
-        "tweetUrl": "https://x.com/thsottiaux/status/2038511294681411952",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 9586,
-      "totalOutputTokens": 3016,
-      "totalReasoningTokens": 1443,
-      "totalTokens": 12602
+      "totalInputTokens": 9880,
+      "totalOutputTokens": 3271,
+      "totalReasoningTokens": 1648,
+      "totalTokens": 13151
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.93,
+      "createdAt": 1775192113071,
+      "inputTokens": 294,
+      "message": "",
+      "outputTokens": 255,
+      "rationale": "This reply is purely conversational and does not state or imply that any Codex or ChatGPT limit has reset.",
+      "reasoningTokens": 205,
+      "totalTokens": 549,
+      "tweetId": "2039865349127172106",
+      "tweetText": "@loliieeee Tell me more",
+      "tweetUrl": "https://x.com/thsottiaux/status/2039865349127172106",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1775192105177,
@@ -768,9 +783,9 @@
     }
   ],
   "privateState": {
-    "ciphertext": "MG-g0pSUaQ5KABMWlBOqrh43qXI7phnKwR2DgXmI8vZHREpqysymGWvAuw",
-    "iv": "KlWZHbGxZcnr02la",
-    "tag": "osfEdMVSIMiXTNpuGIWITQ",
+    "ciphertext": "nlKe2OPk2ugp4sE2mYhP5sgKpEUQI_aYcuq7IwaJQLfZW5gK3qpw4lACyw",
+    "iv": "Aj9dAcWiqp_Cqg8r",
+    "tag": "jC2nzBaIGM1BDbHYBV-5Nw",
     "version": 1
   }
 }
