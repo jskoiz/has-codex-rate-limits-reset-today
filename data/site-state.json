@@ -14,15 +14,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1775192116901,
-      "rationale": "The tweet discusses traffic patterns and possible off-peak/peak usage incentives; it does not say Codex or ChatGPT limits/caps have reset or are available again now.",
-      "tweetId": "2039893158952419779",
-      "tweetUrl": "https://x.com/thsottiaux/status/2039893158952419779",
+      "decidedAt": 1775192120438,
+      "rationale": "Promotional tweet about Codex App adoption and install credits; no mention of limits, caps, or usage resetting.",
+      "tweetId": "2039901964679688437",
+      "tweetUrl": "https://x.com/thsottiaux/status/2039901964679688437",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2039893158952419779",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2039893158952419779",
+    "lastSeenTweetId": "2039901964679688437",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2039901964679688437",
     "pendingReview": {
       "confidence": 0.86,
       "createdAt": 1775116357178,
@@ -32,6 +32,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2039595373174599927"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1775192120438,
+        "inputTokens": 355,
+        "outputTokens": 76,
+        "rationale": "Promotional tweet about Codex App adoption and install credits; no mention of limits, caps, or usage resetting.",
+        "reasoningTokens": 25,
+        "totalTokens": 431,
+        "tweetId": "2039901964679688437",
+        "tweetText": "The Codex App is now our most used surface, ahead of the VS Code extension and the CLI. No wonder it inspires a few others 👀\n\nYou can install it here https://t.co/Lwg13vEJDn + you get up to $500 in credits if you are getting started as a business or enterprise.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2039901964679688437",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1775192116901,
@@ -278,29 +291,31 @@
         "tweetText": "You can now experience the power of codex while the little orange thing keeps you company. Works with your ChatGPT subscription, just as everywhere else.\n\nClearly proof you can just build things. Have fun",
         "tweetUrl": "https://x.com/thsottiaux/status/2038747913078362262",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1774858049361,
-        "inputTokens": 310,
-        "outputTokens": 121,
-        "rationale": "Reply discussing PreToolUse and a link; no mention of limits, caps, resets, or availability returning.",
-        "reasoningTokens": 71,
-        "totalTokens": 431,
-        "tweetId": "2038516930076926140",
-        "tweetText": "@doodlestein For PreToolUse, what's missing from https://t.co/oMo4ekEiFC",
-        "tweetUrl": "https://x.com/thsottiaux/status/2038516930076926140",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 10242,
-      "totalOutputTokens": 3372,
-      "totalReasoningTokens": 1686,
-      "totalTokens": 13614
+      "totalInputTokens": 10597,
+      "totalOutputTokens": 3448,
+      "totalReasoningTokens": 1711,
+      "totalTokens": 14045
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1775192120438,
+      "inputTokens": 355,
+      "message": "",
+      "outputTokens": 76,
+      "rationale": "Promotional tweet about Codex App adoption and install credits; no mention of limits, caps, or usage resetting.",
+      "reasoningTokens": 25,
+      "totalTokens": 431,
+      "tweetId": "2039901964679688437",
+      "tweetText": "The Codex App is now our most used surface, ahead of the VS Code extension and the CLI. No wonder it inspires a few others 👀\n\nYou can install it here https://t.co/Lwg13vEJDn + you get up to $500 in credits if you are getting started as a business or enterprise.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2039901964679688437",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1775192116901,
@@ -798,9 +813,9 @@
     }
   ],
   "privateState": {
-    "ciphertext": "y6Ch-yc6fH5XQFCWhh9lTCkh7tXQFbjTgtzCZxpApNOTIblqCf6NykE_Ow",
-    "iv": "bl3iw_7RVRxEd8aa",
-    "tag": "zhu-9f1DXbVoHyodTJClBw",
+    "ciphertext": "1i-Ftme2BbsmrQ1cWqopfiTr_zQxq9Wkja_FZ7wKlW9wsgbT6LEwig1FWg",
+    "iv": "gAzcVLQGw6rJkQbJ",
+    "tag": "iBNCN1me2CG1ykNGC4Ep2Q",
     "version": 1
   }
 }
