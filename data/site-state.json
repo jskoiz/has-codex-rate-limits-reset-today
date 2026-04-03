@@ -14,15 +14,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1775169997065,
-      "rationale": "This is a product/pricing announcement about Codex seats and pay-as-you-go, not about rate limits, caps, or usage resetting.",
-      "tweetId": "2039830319302693367",
-      "tweetUrl": "https://x.com/thsottiaux/status/2039830319302693367",
+      "decidedAt": 1775192101318,
+      "rationale": "This reply only says \"Codex v2\" and does not mention limits, caps, reset timing, or availability returning.",
+      "tweetId": "2039862114194686305",
+      "tweetUrl": "https://x.com/thsottiaux/status/2039862114194686305",
       "verdict": "not_reset"
     },
-    "lastError": "Tweet fetch failed: Request failed with status code 404 (Request failed with status code 404)",
-    "lastSeenTweetId": "2039830319302693367",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2039830319302693367",
+    "lastError": null,
+    "lastSeenTweetId": "2039862114194686305",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2039862114194686305",
     "pendingReview": {
       "confidence": 0.86,
       "createdAt": 1775116357178,
@@ -32,6 +32,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2039595373174599927"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1775192101318,
+        "inputTokens": 294,
+        "outputTokens": 91,
+        "rationale": "This reply only says \"Codex v2\" and does not mention limits, caps, reset timing, or availability returning.",
+        "reasoningTokens": 38,
+        "totalTokens": 385,
+        "tweetId": "2039862114194686305",
+        "tweetText": "@rezoundous Codex v2",
+        "tweetUrl": "https://x.com/thsottiaux/status/2039862114194686305",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1775169997065,
@@ -278,29 +291,31 @@
         "tweetText": "@towheretobegin That's bait",
         "tweetUrl": "https://x.com/thsottiaux/status/2038504265367605412",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.95,
-        "evaluatedAt": 1774682055762,
-        "inputTokens": 331,
-        "outputTokens": 173,
-        "rationale": "The tweet discusses capacity planning and adding more capacity, but does not say user limits or rate limits have reset or been lifted.",
-        "reasoningTokens": 120,
-        "totalTokens": 504,
-        "tweetId": "2037785955126652990",
-        "tweetText": "Growth of codex continues to outpace our prediction (maybe we are not super good at that) and we almost ran out of capacity three days in a row. We have ramped up more significantly ahead of next week.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2037785955126652990",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 8999,
-      "totalOutputTokens": 2850,
-      "totalReasoningTokens": 1375,
-      "totalTokens": 11849
+      "totalInputTokens": 9293,
+      "totalOutputTokens": 2941,
+      "totalReasoningTokens": 1413,
+      "totalTokens": 12234
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1775192101318,
+      "inputTokens": 294,
+      "message": "",
+      "outputTokens": 91,
+      "rationale": "This reply only says \"Codex v2\" and does not mention limits, caps, reset timing, or availability returning.",
+      "reasoningTokens": 38,
+      "totalTokens": 385,
+      "tweetId": "2039862114194686305",
+      "tweetText": "@rezoundous Codex v2",
+      "tweetUrl": "https://x.com/thsottiaux/status/2039862114194686305",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0,
       "createdAt": 1775183621251,
@@ -738,9 +753,9 @@
     }
   ],
   "privateState": {
-    "ciphertext": "Hj2FLUu4gY6w8ToWNB-THSJOLm-PaDbXyIGc4-jlwcBwEV2ZVa8J5PNP_A",
-    "iv": "-QO0jujgxmPnplxC",
-    "tag": "l03FWhsboZphc6pVCyfxwQ",
+    "ciphertext": "3OGl2xEgnisjjjI5e_LMyBopLz5UIk6mdr7b_iak-F1DUygUZmNzic5Lcg",
+    "iv": "HmwOtXL-4h3k9Grf",
+    "tag": "lOhHjG2nkPv6Tnk2Ytlgxw",
     "version": 1
   }
 }
