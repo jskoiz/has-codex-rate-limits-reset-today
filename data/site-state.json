@@ -13,16 +13,16 @@
   "updatedAt": 1775030055458,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1775264305153,
-      "rationale": "The tweet discusses demand, capacity, and model efficiency in general. It does not say or imply that Codex or ChatGPT rate limits have reset or that usage is available again now.",
-      "tweetId": "2040230479392395539",
-      "tweetUrl": "https://x.com/thsottiaux/status/2040230479392395539",
+      "confidence": 0.98,
+      "decidedAt": 1775264309042,
+      "rationale": "Just a conversational reply ('LFG!') with no mention of limits, caps, reset, or availability returning.",
+      "tweetId": "2040230678122623136",
+      "tweetUrl": "https://x.com/thsottiaux/status/2040230678122623136",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2040230479392395539",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2040230479392395539",
+    "lastSeenTweetId": "2040230678122623136",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2040230678122623136",
     "pendingReview": {
       "confidence": 0.86,
       "createdAt": 1775116357178,
@@ -32,6 +32,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2039595373174599927"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.98,
+        "evaluatedAt": 1775264309042,
+        "inputTokens": 292,
+        "outputTokens": 104,
+        "rationale": "Just a conversational reply ('LFG!') with no mention of limits, caps, reset, or availability returning.",
+        "reasoningTokens": 53,
+        "totalTokens": 396,
+        "tweetId": "2040230678122623136",
+        "tweetText": "@simpsoka LFG!",
+        "tweetUrl": "https://x.com/thsottiaux/status/2040230678122623136",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1775264305153,
@@ -278,29 +291,31 @@
         "tweetText": "@Polymarket 👀 I should really stop pressing that big Codex reset button on my desk",
         "tweetUrl": "https://x.com/thsottiaux/status/2039485566815973415",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1775086285581,
-        "inputTokens": 293,
-        "outputTokens": 94,
-        "rationale": "This is just a brief conversational reply with no mention of limits, caps, resets, or availability returning.",
-        "reasoningTokens": 45,
-        "totalTokens": 387,
-        "tweetId": "2039482359649837463",
-        "tweetText": "@antonioleivag Of course",
-        "tweetUrl": "https://x.com/thsottiaux/status/2039482359649837463",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 13424,
-      "totalOutputTokens": 4187,
-      "totalReasoningTokens": 1988,
-      "totalTokens": 17611
+      "totalInputTokens": 13716,
+      "totalOutputTokens": 4291,
+      "totalReasoningTokens": 2041,
+      "totalTokens": 18007
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.98,
+      "createdAt": 1775264309042,
+      "inputTokens": 292,
+      "message": "",
+      "outputTokens": 104,
+      "rationale": "Just a conversational reply ('LFG!') with no mention of limits, caps, reset, or availability returning.",
+      "reasoningTokens": 53,
+      "totalTokens": 396,
+      "tweetId": "2040230678122623136",
+      "tweetText": "@simpsoka LFG!",
+      "tweetUrl": "https://x.com/thsottiaux/status/2040230678122623136",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1775264305153,
@@ -885,27 +900,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2037346989244096581",
       "type": "reset_confirmed",
       "verdict": "reset_confirmed"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1774601006831,
-      "inputTokens": 293,
-      "message": "",
-      "outputTokens": 78,
-      "rationale": "This is a conversational reply expressing enthusiasm and does not mention limits, caps, resets, or availability.",
-      "reasoningTokens": 30,
-      "totalTokens": 371,
-      "tweetId": "2037345896334242029",
-      "tweetText": "@tforschbach Super awesome!!",
-      "tweetUrl": "https://x.com/thsottiaux/status/2037345896334242029",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "tc2ObAngP0_KVIgLWi0VHn5bKSWvGCX6oTNBdEkD1pYU74m6K7J40rs8Tw",
-    "iv": "3RbIDYq2kJ90I1Xa",
-    "tag": "ZyfLcZQMkPFuqvkR7GO5aQ",
+    "ciphertext": "225NJnCIgu-3k1sxVlF7KNJbqIo_amhvT9r_ce_cSkpeGBzJUKtlpiF6mg",
+    "iv": "8w2X54EmMYKLhA6M",
+    "tag": "NA1aXavS3PAbc4dIY8Oj0Q",
     "version": 1
   }
 }
