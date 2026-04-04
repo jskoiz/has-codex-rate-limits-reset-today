@@ -14,15 +14,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1775255802923,
-      "rationale": "This is a welcome/congratulatory post about someone joining the Codex team, not about usage caps, limits, or availability resetting.",
-      "tweetId": "2040187450551869863",
-      "tweetUrl": "https://x.com/thsottiaux/status/2040187450551869863",
+      "decidedAt": 1775264305153,
+      "rationale": "The tweet discusses demand, capacity, and model efficiency in general. It does not say or imply that Codex or ChatGPT rate limits have reset or that usage is available again now.",
+      "tweetId": "2040230479392395539",
+      "tweetUrl": "https://x.com/thsottiaux/status/2040230479392395539",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2040187450551869863",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2040187450551869863",
+    "lastSeenTweetId": "2040230479392395539",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2040230479392395539",
     "pendingReview": {
       "confidence": 0.86,
       "createdAt": 1775116357178,
@@ -32,6 +32,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2039595373174599927"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1775264305153,
+        "inputTokens": 343,
+        "outputTokens": 91,
+        "rationale": "The tweet discusses demand, capacity, and model efficiency in general. It does not say or imply that Codex or ChatGPT rate limits have reset or that usage is available again now.",
+        "reasoningTokens": 26,
+        "totalTokens": 434,
+        "tweetId": "2040230479392395539",
+        "tweetText": "From the surge in demand on Codex and many other services, it is clear that AI companies are going to go through a phase of demand outpacing supply. Two things will be most important, having the most capacity and having the most efficient models. I believe we have both.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2040230479392395539",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1775255802923,
@@ -278,29 +291,31 @@
         "tweetText": "@antonioleivag Of course",
         "tweetUrl": "https://x.com/thsottiaux/status/2039482359649837463",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1775086282263,
-        "inputTokens": 299,
-        "outputTokens": 81,
-        "rationale": "This is just a reply asking about cost and does not mention limits, caps, availability, or a reset.",
-        "reasoningTokens": 31,
-        "totalTokens": 380,
-        "tweetId": "2039482251633910001",
-        "tweetText": "@Anubhav_Mishra_ How much did it cost?",
-        "tweetUrl": "https://x.com/thsottiaux/status/2039482251633910001",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 13081,
-      "totalOutputTokens": 4096,
-      "totalReasoningTokens": 1962,
-      "totalTokens": 17177
+      "totalInputTokens": 13424,
+      "totalOutputTokens": 4187,
+      "totalReasoningTokens": 1988,
+      "totalTokens": 17611
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1775264305153,
+      "inputTokens": 343,
+      "message": "",
+      "outputTokens": 91,
+      "rationale": "The tweet discusses demand, capacity, and model efficiency in general. It does not say or imply that Codex or ChatGPT rate limits have reset or that usage is available again now.",
+      "reasoningTokens": 26,
+      "totalTokens": 434,
+      "tweetId": "2040230479392395539",
+      "tweetText": "From the surge in demand on Codex and many other services, it is clear that AI companies are going to go through a phase of demand outpacing supply. Two things will be most important, having the most capacity and having the most efficient models. I believe we have both.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2040230479392395539",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1775255802923,
@@ -885,27 +900,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2037345896334242029",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1774601002164,
-      "inputTokens": 314,
-      "message": "",
-      "outputTokens": 97,
-      "rationale": "The tweet is a joke/comment about the Codex team using Codex and says nothing about limits, caps, or usage resetting.",
-      "reasoningTokens": 43,
-      "totalTokens": 411,
-      "tweetId": "2037345739203059861",
-      "tweetText": "Codex team prompting codex",
-      "tweetUrl": "https://x.com/thsottiaux/status/2037345739203059861",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "sH8RYkH7u_sst_6xMiaXNTc0UCgJ5jwcJGdjdlZtklgeTUWSDtTVaSPhJg",
-    "iv": "ijPhYCgVoL-xqBKQ",
-    "tag": "3vjDd3Mo2B5cU5b_MyX4Dg",
+    "ciphertext": "tc2ObAngP0_KVIgLWi0VHn5bKSWvGCX6oTNBdEkD1pYU74m6K7J40rs8Tw",
+    "iv": "3RbIDYq2kJ90I1Xa",
+    "tag": "ZyfLcZQMkPFuqvkR7GO5aQ",
     "version": 1
   }
 }
