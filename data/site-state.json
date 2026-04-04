@@ -14,15 +14,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1775264312791,
-      "rationale": "This reply is just an opinion about the GPT-5.4-Mini model and does not mention limits, caps, availability, or a reset.",
-      "tweetId": "2040231672554422781",
-      "tweetUrl": "https://x.com/thsottiaux/status/2040231672554422781",
+      "decidedAt": 1775264316438,
+      "rationale": "Reply recommending installing Codex; no mention of limits, caps, reset, or usage becoming available again.",
+      "tweetId": "2040232278824288333",
+      "tweetUrl": "https://x.com/thsottiaux/status/2040232278824288333",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2040231672554422781",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2040231672554422781",
+    "lastSeenTweetId": "2040232278824288333",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2040232278824288333",
     "pendingReview": {
       "confidence": 0.86,
       "createdAt": 1775116357178,
@@ -32,6 +32,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2039595373174599927"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1775264316438,
+        "inputTokens": 300,
+        "outputTokens": 69,
+        "rationale": "Reply recommending installing Codex; no mention of limits, caps, reset, or usage becoming available again.",
+        "reasoningTokens": 20,
+        "totalTokens": 369,
+        "tweetId": "2040232278824288333",
+        "tweetText": "@nateliason npm i -g @openai/codex",
+        "tweetUrl": "https://x.com/thsottiaux/status/2040232278824288333",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1775264312791,
@@ -278,29 +291,31 @@
         "tweetText": "Codex growth goes weeee. And it's not even next week. Who even works on April 1st.",
         "tweetUrl": "https://x.com/thsottiaux/status/2039550028444991515",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1775087990327,
-        "inputTokens": 304,
-        "outputTokens": 102,
-        "rationale": "Reply about \"blender and fridge lines\"; no mention or implication of Codex/ChatGPT limits resetting.",
-        "reasoningTokens": 51,
-        "totalTokens": 406,
-        "tweetId": "2039485932743868455",
-        "tweetText": "@lindsmccallum Will give you advance notice on the blender and fridge lines",
-        "tweetUrl": "https://x.com/thsottiaux/status/2039485932743868455",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 14017,
-      "totalOutputTokens": 4407,
-      "totalReasoningTokens": 2099,
-      "totalTokens": 18424
+      "totalInputTokens": 14317,
+      "totalOutputTokens": 4476,
+      "totalReasoningTokens": 2119,
+      "totalTokens": 18793
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1775264316438,
+      "inputTokens": 300,
+      "message": "",
+      "outputTokens": 69,
+      "rationale": "Reply recommending installing Codex; no mention of limits, caps, reset, or usage becoming available again.",
+      "reasoningTokens": 20,
+      "totalTokens": 369,
+      "tweetId": "2040232278824288333",
+      "tweetText": "@nateliason npm i -g @openai/codex",
+      "tweetUrl": "https://x.com/thsottiaux/status/2040232278824288333",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1775264312791,
@@ -885,27 +900,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2037348456038297834",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.96,
-      "createdAt": 1774601015813,
-      "inputTokens": 298,
-      "message": "",
-      "outputTokens": 114,
-      "rationale": "The post text is only a link and provides no explicit indication that any Codex or ChatGPT limit/reset occurred.",
-      "reasoningTokens": 63,
-      "totalTokens": 412,
-      "tweetId": "2037347004616204413",
-      "tweetText": "https://t.co/iQAo6liXFK",
-      "tweetUrl": "https://x.com/thsottiaux/status/2037347004616204413",
-      "type": "review_requested",
-      "verdict": "uncertain"
     }
   ],
   "privateState": {
-    "ciphertext": "o6e4wKlKmyvYgTCw2zEKX5uY6APqjeWzZN1dLVsGxPqK37u4TefpuSnOMA",
-    "iv": "qg6qiGiPPKxLv2WF",
-    "tag": "9iM6dzRns1e9V1A5ypbj5g",
+    "ciphertext": "o0aRJ7MkPRh8JsH3c1d0xw3uztr_D5CyFOqpAvrhOmCkXZCXwCQc0dhuzw",
+    "iv": "63kmc_-Jd2GCUPjw",
+    "tag": "ahZcyOWAZ3ufo0i_C-RJUQ",
     "version": 1
   }
 }
