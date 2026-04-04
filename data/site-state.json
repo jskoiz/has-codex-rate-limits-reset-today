@@ -14,15 +14,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1775264316438,
-      "rationale": "Reply recommending installing Codex; no mention of limits, caps, reset, or usage becoming available again.",
-      "tweetId": "2040232278824288333",
-      "tweetUrl": "https://x.com/thsottiaux/status/2040232278824288333",
+      "decidedAt": 1775337449836,
+      "rationale": "This reply only tags another user with an eyes emoji and gives no indication that any Codex or ChatGPT limits have reset.",
+      "tweetId": "2040535236703097246",
+      "tweetUrl": "https://x.com/thsottiaux/status/2040535236703097246",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2040232278824288333",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2040232278824288333",
+    "lastSeenTweetId": "2040535236703097246",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2040535236703097246",
     "pendingReview": {
       "confidence": 0.86,
       "createdAt": 1775116357178,
@@ -32,6 +32,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2039595373174599927"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1775337449836,
+        "inputTokens": 292,
+        "outputTokens": 87,
+        "rationale": "This reply only tags another user with an eyes emoji and gives no indication that any Codex or ChatGPT limits have reset.",
+        "reasoningTokens": 34,
+        "totalTokens": 379,
+        "tweetId": "2040535236703097246",
+        "tweetText": "@badlogicgames 👀",
+        "tweetUrl": "https://x.com/thsottiaux/status/2040535236703097246",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1775264316438,
@@ -278,29 +291,31 @@
         "tweetText": "@superligious Saw it on the chart",
         "tweetUrl": "https://x.com/thsottiaux/status/2039595373174599927",
         "verdict": "uncertain"
-      },
-      {
-        "confidence": 0.95,
-        "evaluatedAt": 1775107036339,
-        "inputTokens": 309,
-        "outputTokens": 161,
-        "rationale": "The tweet comments on Codex growth and timing, but does not mention limits, caps, rate limits, or usage becoming available again.",
-        "reasoningTokens": 106,
-        "totalTokens": 470,
-        "tweetId": "2039550028444991515",
-        "tweetText": "Codex growth goes weeee. And it's not even next week. Who even works on April 1st.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2039550028444991515",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 14317,
-      "totalOutputTokens": 4476,
-      "totalReasoningTokens": 2119,
-      "totalTokens": 18793
+      "totalInputTokens": 14609,
+      "totalOutputTokens": 4563,
+      "totalReasoningTokens": 2153,
+      "totalTokens": 19172
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1775337449836,
+      "inputTokens": 292,
+      "message": "",
+      "outputTokens": 87,
+      "rationale": "This reply only tags another user with an eyes emoji and gives no indication that any Codex or ChatGPT limits have reset.",
+      "reasoningTokens": 34,
+      "totalTokens": 379,
+      "tweetId": "2040535236703097246",
+      "tweetText": "@badlogicgames 👀",
+      "tweetUrl": "https://x.com/thsottiaux/status/2040535236703097246",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0,
       "createdAt": 1775331577092,
@@ -885,27 +900,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2037348557729210806",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1774601021783,
-      "inputTokens": 291,
-      "message": "",
-      "outputTokens": 88,
-      "rationale": "A brief reply saying “Enhance”; it does not mention limits, caps, resets, or availability.",
-      "reasoningTokens": 39,
-      "totalTokens": 379,
-      "tweetId": "2037348456038297834",
-      "tweetText": "@Fullmoon211 Enhance",
-      "tweetUrl": "https://x.com/thsottiaux/status/2037348456038297834",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "Dctd5lzeib2JGPyZfLD4WQrflvfRer2OIBxwK9Jj5f3nQ6k7YiyjD__PMg",
-    "iv": "fmrX94wsHIDeXcAg",
-    "tag": "PuULPVE_zn5J1OJtABO_9Q",
+    "ciphertext": "SUBUQRIxMW8_6OPDokHbPWU-Ljsf-chU0cWpQyBsK3mmYrlYNKMXJxRvxg",
+    "iv": "-VtOklHHozBOkYl-",
+    "tag": "UpqupJcPDKMTJMr-59mmXg",
     "version": 1
   }
 }
