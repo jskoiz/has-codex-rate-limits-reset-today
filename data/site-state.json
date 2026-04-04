@@ -20,7 +20,7 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2040232278824288333",
       "verdict": "not_reset"
     },
-    "lastError": "Tweet fetch failed: Request failed with status code 404 (Request failed with status code 404)",
+    "lastError": null,
     "lastSeenTweetId": "2040232278824288333",
     "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2040232278824288333",
     "pendingReview": {
@@ -903,9 +903,9 @@
     }
   ],
   "privateState": {
-    "ciphertext": "G5THhoEfncjkstxKBobgSmt14Ys1kbN-CE50KTj5E3dCpuWR7rExTtsBhg",
-    "iv": "7P8CYBnlU7SCQku1",
-    "tag": "9eVjkc9SnLwhIKbx9Snf3A",
+    "ciphertext": "Dctd5lzeib2JGPyZfLD4WQrflvfRer2OIBxwK9Jj5f3nQ6k7YiyjD__PMg",
+    "iv": "fmrX94wsHIDeXcAg",
+    "tag": "PuULPVE_zn5J1OJtABO_9Q",
     "version": 1
   }
 }
