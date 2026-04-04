@@ -13,16 +13,16 @@
   "updatedAt": 1775030055458,
   "automation": {
     "lastDecision": {
-      "confidence": 0.98,
-      "decidedAt": 1775264309042,
-      "rationale": "Just a conversational reply ('LFG!') with no mention of limits, caps, reset, or availability returning.",
-      "tweetId": "2040230678122623136",
-      "tweetUrl": "https://x.com/thsottiaux/status/2040230678122623136",
+      "confidence": 0.99,
+      "decidedAt": 1775264312791,
+      "rationale": "This reply is just an opinion about the GPT-5.4-Mini model and does not mention limits, caps, availability, or a reset.",
+      "tweetId": "2040231672554422781",
+      "tweetUrl": "https://x.com/thsottiaux/status/2040231672554422781",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2040230678122623136",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2040230678122623136",
+    "lastSeenTweetId": "2040231672554422781",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2040231672554422781",
     "pendingReview": {
       "confidence": 0.86,
       "createdAt": 1775116357178,
@@ -32,6 +32,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2039595373174599927"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1775264312791,
+        "inputTokens": 301,
+        "outputTokens": 116,
+        "rationale": "This reply is just an opinion about the GPT-5.4-Mini model and does not mention limits, caps, availability, or a reset.",
+        "reasoningTokens": 58,
+        "totalTokens": 417,
+        "tweetId": "2040231672554422781",
+        "tweetText": "@kenwheeler GPT-5.4-Mini is good imo",
+        "tweetUrl": "https://x.com/thsottiaux/status/2040231672554422781",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.98,
         "evaluatedAt": 1775264309042,
@@ -278,29 +291,31 @@
         "tweetText": "@lindsmccallum Will give you advance notice on the blender and fridge lines",
         "tweetUrl": "https://x.com/thsottiaux/status/2039485932743868455",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.95,
-        "evaluatedAt": 1775086289362,
-        "inputTokens": 306,
-        "outputTokens": 149,
-        "rationale": "Joking reply about a 'Codex reset button' but does not clearly state that Codex or ChatGPT limits/rate caps have reset or are available again.",
-        "reasoningTokens": 88,
-        "totalTokens": 455,
-        "tweetId": "2039485566815973415",
-        "tweetText": "@Polymarket 👀 I should really stop pressing that big Codex reset button on my desk",
-        "tweetUrl": "https://x.com/thsottiaux/status/2039485566815973415",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 13716,
-      "totalOutputTokens": 4291,
-      "totalReasoningTokens": 2041,
-      "totalTokens": 18007
+      "totalInputTokens": 14017,
+      "totalOutputTokens": 4407,
+      "totalReasoningTokens": 2099,
+      "totalTokens": 18424
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1775264312791,
+      "inputTokens": 301,
+      "message": "",
+      "outputTokens": 116,
+      "rationale": "This reply is just an opinion about the GPT-5.4-Mini model and does not mention limits, caps, availability, or a reset.",
+      "reasoningTokens": 58,
+      "totalTokens": 417,
+      "tweetId": "2040231672554422781",
+      "tweetText": "@kenwheeler GPT-5.4-Mini is good imo",
+      "tweetUrl": "https://x.com/thsottiaux/status/2040231672554422781",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.98,
       "createdAt": 1775264309042,
@@ -885,27 +900,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2037347004616204413",
       "type": "review_requested",
       "verdict": "uncertain"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1774601009856,
-      "inputTokens": 334,
-      "message": "",
-      "outputTokens": 48,
-      "rationale": "The tweet explicitly says Codex usage limits were reset across all plans and users can build unlimited things now.",
-      "reasoningTokens": 0,
-      "totalTokens": 382,
-      "tweetId": "2037346989244096581",
-      "tweetText": "Hello. We have reset Codex usage limits across all plans to let everyone experiment with the magnificent plugins we just launched, and because it had been a while! \n\nYou can just build unlimited things with Codex. Have fun!",
-      "tweetUrl": "https://x.com/thsottiaux/status/2037346989244096581",
-      "type": "reset_confirmed",
-      "verdict": "reset_confirmed"
     }
   ],
   "privateState": {
-    "ciphertext": "225NJnCIgu-3k1sxVlF7KNJbqIo_amhvT9r_ce_cSkpeGBzJUKtlpiF6mg",
-    "iv": "8w2X54EmMYKLhA6M",
-    "tag": "NA1aXavS3PAbc4dIY8Oj0Q",
+    "ciphertext": "o6e4wKlKmyvYgTCw2zEKX5uY6APqjeWzZN1dLVsGxPqK37u4TefpuSnOMA",
+    "iv": "qg6qiGiPPKxLv2WF",
+    "tag": "9iM6dzRns1e9V1A5ypbj5g",
     "version": 1
   }
 }
