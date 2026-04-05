@@ -13,16 +13,16 @@
   "updatedAt": 1775030055458,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1775371497063,
-      "rationale": "Reply about being “the fast one now”; no mention of limits, caps, reset, or availability returning.",
-      "tweetId": "2040666576031236172",
-      "tweetUrl": "https://x.com/thsottiaux/status/2040666576031236172",
+      "confidence": 0.94,
+      "decidedAt": 1775429918292,
+      "rationale": "This reply is conversational and does not explicitly mention limits, caps, usage being available again, or a reset.",
+      "tweetId": "2040924657914986883",
+      "tweetUrl": "https://x.com/thsottiaux/status/2040924657914986883",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2040666576031236172",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2040666576031236172",
+    "lastSeenTweetId": "2040924657914986883",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2040924657914986883",
     "pendingReview": {
       "confidence": 0.86,
       "createdAt": 1775116357178,
@@ -32,6 +32,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2039595373174599927"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.94,
+        "evaluatedAt": 1775429918293,
+        "inputTokens": 329,
+        "outputTokens": 184,
+        "rationale": "This reply is conversational and does not explicitly mention limits, caps, usage being available again, or a reset.",
+        "reasoningTokens": 134,
+        "totalTokens": 513,
+        "tweetId": "2040924657914986883",
+        "tweetText": "@10x_er I’m sure you have both a teaspoon, a normal spoon and a large salad spoon in your drawer.\n\nI’ll stop teasing, I agree with you and also expect this to go away.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2040924657914986883",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1775371497063,
@@ -278,29 +291,31 @@
         "tweetText": "With Codex the there is quite the gulf in load between peak and off-peak times, and we would like to achieve more of a smoother traffic pattern as that would be a more optimal use of our compute. \n\nWe have ideas, but curious what you all think we should do? Would more usage during off-peak and surge multiplier during peak times make sense?",
         "tweetUrl": "https://x.com/thsottiaux/status/2039893158952419779",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.93,
-        "evaluatedAt": 1775192113070,
-        "inputTokens": 294,
-        "outputTokens": 255,
-        "rationale": "This reply is purely conversational and does not state or imply that any Codex or ChatGPT limit has reset.",
-        "reasoningTokens": 205,
-        "totalTokens": 549,
-        "tweetId": "2039865349127172106",
-        "tweetText": "@loliieeee Tell me more",
-        "tweetUrl": "https://x.com/thsottiaux/status/2039865349127172106",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 15848,
-      "totalOutputTokens": 4893,
-      "totalReasoningTokens": 2282,
-      "totalTokens": 20741
+      "totalInputTokens": 16177,
+      "totalOutputTokens": 5077,
+      "totalReasoningTokens": 2416,
+      "totalTokens": 21254
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.94,
+      "createdAt": 1775429918293,
+      "inputTokens": 329,
+      "message": "",
+      "outputTokens": 184,
+      "rationale": "This reply is conversational and does not explicitly mention limits, caps, usage being available again, or a reset.",
+      "reasoningTokens": 134,
+      "totalTokens": 513,
+      "tweetId": "2040924657914986883",
+      "tweetText": "@10x_er I’m sure you have both a teaspoon, a normal spoon and a large salad spoon in your drawer.\n\nI’ll stop teasing, I agree with you and also expect this to go away.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2040924657914986883",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1775371497063,
@@ -885,27 +900,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2038516930076926140",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1774858044980,
-      "inputTokens": 319,
-      "message": "",
-      "outputTokens": 92,
-      "rationale": "This reply discusses adding features/progress and does not mention caps, limits, resets, or usage becoming available again.",
-      "reasoningTokens": 41,
-      "totalTokens": 411,
-      "tweetId": "2038515585328509176",
-      "tweetText": "@doodlestein 1. Will add (looking at this now)\n2. Will add in the future\n3. Is already well under way",
-      "tweetUrl": "https://x.com/thsottiaux/status/2038515585328509176",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "x8KFVzYqow8NSDRTbqetMescOkFFDeNBlO0yKKPjasJxb3hLhbFm10gVLQ",
-    "iv": "u9PEXc0XwGl6YSjW",
-    "tag": "3XEiAkVg-Kf_e5KcKnCpEA",
+    "ciphertext": "tl0Gt67I9k8DyJhqeSv7ess_ePvRRjjgKIqmwHGXqj2vnkuimZ4EG5LttA",
+    "iv": "QP6JjzlkSeq21rqS",
+    "tag": "_j3yEwzkVjQhK0V21Cdj2A",
     "version": 1
   }
 }
