@@ -14,15 +14,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1775371490183,
-      "rationale": "Reply about model design/frontend and making a mascot; no mention or implication of limits, caps, or usage reset.",
-      "tweetId": "2040666095582113819",
-      "tweetUrl": "https://x.com/thsottiaux/status/2040666095582113819",
+      "decidedAt": 1775371493659,
+      "rationale": "The tweet asks about AI subscription value versus API pricing and does not mention limits, caps, or usage becoming available again.",
+      "tweetId": "2040666459370840199",
+      "tweetUrl": "https://x.com/thsottiaux/status/2040666459370840199",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2040666095582113819",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2040666095582113819",
+    "lastSeenTweetId": "2040666459370840199",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2040666459370840199",
     "pendingReview": {
       "confidence": 0.86,
       "createdAt": 1775116357178,
@@ -32,6 +32,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2039595373174599927"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1775371493659,
+        "inputTokens": 312,
+        "outputTokens": 74,
+        "rationale": "The tweet asks about AI subscription value versus API pricing and does not mention limits, caps, or usage becoming available again.",
+        "reasoningTokens": 22,
+        "totalTokens": 386,
+        "tweetId": "2040666459370840199",
+        "tweetText": "Does anyone have a breakdown of how much value you get in your various AI subscriptions from different providers? When compared to API prices",
+        "tweetUrl": "https://x.com/thsottiaux/status/2040666459370840199",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1775371490183,
@@ -278,29 +291,31 @@
         "tweetText": "@gill_kyle Flattering",
         "tweetUrl": "https://x.com/thsottiaux/status/2039864182603133359",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1775192101318,
-        "inputTokens": 294,
-        "outputTokens": 91,
-        "rationale": "This reply only says \"Codex v2\" and does not mention limits, caps, reset timing, or availability returning.",
-        "reasoningTokens": 38,
-        "totalTokens": 385,
-        "tweetId": "2039862114194686305",
-        "tweetText": "@rezoundous Codex v2",
-        "tweetUrl": "https://x.com/thsottiaux/status/2039862114194686305",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 15237,
-      "totalOutputTokens": 4733,
-      "totalReasoningTokens": 2224,
-      "totalTokens": 19970
+      "totalInputTokens": 15549,
+      "totalOutputTokens": 4807,
+      "totalReasoningTokens": 2246,
+      "totalTokens": 20356
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1775371493659,
+      "inputTokens": 312,
+      "message": "",
+      "outputTokens": 74,
+      "rationale": "The tweet asks about AI subscription value versus API pricing and does not mention limits, caps, or usage becoming available again.",
+      "reasoningTokens": 22,
+      "totalTokens": 386,
+      "tweetId": "2040666459370840199",
+      "tweetText": "Does anyone have a breakdown of how much value you get in your various AI subscriptions from different providers? When compared to API prices",
+      "tweetUrl": "https://x.com/thsottiaux/status/2040666459370840199",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1775371490183,
@@ -885,27 +900,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2038511294681411952",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1774858036185,
-      "inputTokens": 294,
-      "message": "",
-      "outputTokens": 84,
-      "rationale": "The reply only says \"That's bait\" and gives no indication that any Codex or ChatGPT limits have reset.",
-      "reasoningTokens": 33,
-      "totalTokens": 378,
-      "tweetId": "2038504265367605412",
-      "tweetText": "@towheretobegin That's bait",
-      "tweetUrl": "https://x.com/thsottiaux/status/2038504265367605412",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "sVkkMAaeRuco37F5q8RPl27ubLPWE7Hlm1OHMEaUlyGDWxYKXOLOhVpYJw",
-    "iv": "uWMHMiaGo5Fz5nRA",
-    "tag": "91yprjfRlahQjDAyToIpOQ",
+    "ciphertext": "XKsOtvCug81PpfZyjt9xSfJ0mi9uydd7HUZn5a078SlVyyEw4WTppsCJ7Q",
+    "iv": "pNgAz8_HljgCCcjg",
+    "tag": "G5YB6KHHpfD9Jizsv1lKuA",
     "version": 1
   }
 }
