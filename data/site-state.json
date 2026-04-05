@@ -14,15 +14,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1775371493659,
-      "rationale": "The tweet asks about AI subscription value versus API pricing and does not mention limits, caps, or usage becoming available again.",
-      "tweetId": "2040666459370840199",
-      "tweetUrl": "https://x.com/thsottiaux/status/2040666459370840199",
+      "decidedAt": 1775371497063,
+      "rationale": "Reply about being “the fast one now”; no mention of limits, caps, reset, or availability returning.",
+      "tweetId": "2040666576031236172",
+      "tweetUrl": "https://x.com/thsottiaux/status/2040666576031236172",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2040666459370840199",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2040666459370840199",
+    "lastSeenTweetId": "2040666576031236172",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2040666576031236172",
     "pendingReview": {
       "confidence": 0.86,
       "createdAt": 1775116357178,
@@ -32,6 +32,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2039595373174599927"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1775371497063,
+        "inputTokens": 299,
+        "outputTokens": 86,
+        "rationale": "Reply about being “the fast one now”; no mention of limits, caps, reset, or availability returning.",
+        "reasoningTokens": 36,
+        "totalTokens": 385,
+        "tweetId": "2040666576031236172",
+        "tweetText": "@burkov Oh, we’re the fast one now? Nice",
+        "tweetUrl": "https://x.com/thsottiaux/status/2040666576031236172",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1775371493659,
@@ -278,29 +291,31 @@
         "tweetText": "@loliieeee Tell me more",
         "tweetUrl": "https://x.com/thsottiaux/status/2039865349127172106",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1775192105177,
-        "inputTokens": 293,
-        "outputTokens": 75,
-        "rationale": "A brief conversational reply with no mention of limits, caps, resets, or availability.",
-        "reasoningTokens": 30,
-        "totalTokens": 368,
-        "tweetId": "2039864182603133359",
-        "tweetText": "@gill_kyle Flattering",
-        "tweetUrl": "https://x.com/thsottiaux/status/2039864182603133359",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 15549,
-      "totalOutputTokens": 4807,
-      "totalReasoningTokens": 2246,
-      "totalTokens": 20356
+      "totalInputTokens": 15848,
+      "totalOutputTokens": 4893,
+      "totalReasoningTokens": 2282,
+      "totalTokens": 20741
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1775371497063,
+      "inputTokens": 299,
+      "message": "",
+      "outputTokens": 86,
+      "rationale": "Reply about being “the fast one now”; no mention of limits, caps, reset, or availability returning.",
+      "reasoningTokens": 36,
+      "totalTokens": 385,
+      "tweetId": "2040666576031236172",
+      "tweetText": "@burkov Oh, we’re the fast one now? Nice",
+      "tweetUrl": "https://x.com/thsottiaux/status/2040666576031236172",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1775371493659,
@@ -885,27 +900,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2038515585328509176",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1774858040725,
-      "inputTokens": 300,
-      "message": "",
-      "outputTokens": 94,
-      "rationale": "This is just a reply asking whether someone uses the CLI or the app; it does not mention limits, caps, or availability resetting.",
-      "reasoningTokens": 39,
-      "totalTokens": 394,
-      "tweetId": "2038511294681411952",
-      "tweetText": "@doodlestein Do you use the CLI or the App?",
-      "tweetUrl": "https://x.com/thsottiaux/status/2038511294681411952",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "XKsOtvCug81PpfZyjt9xSfJ0mi9uydd7HUZn5a078SlVyyEw4WTppsCJ7Q",
-    "iv": "pNgAz8_HljgCCcjg",
-    "tag": "G5YB6KHHpfD9Jizsv1lKuA",
+    "ciphertext": "x8KFVzYqow8NSDRTbqetMescOkFFDeNBlO0yKKPjasJxb3hLhbFm10gVLQ",
+    "iv": "u9PEXc0XwGl6YSjW",
+    "tag": "3XEiAkVg-Kf_e5KcKnCpEA",
     "version": 1
   }
 }
