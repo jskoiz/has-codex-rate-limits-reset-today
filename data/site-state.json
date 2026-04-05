@@ -14,15 +14,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1775371486515,
-      "rationale": "This reply is conversational/joking and says nothing about limits, caps, or usage becoming available again.",
-      "tweetId": "2040664391742587265",
-      "tweetUrl": "https://x.com/thsottiaux/status/2040664391742587265",
+      "decidedAt": 1775371490183,
+      "rationale": "Reply about model design/frontend and making a mascot; no mention or implication of limits, caps, or usage reset.",
+      "tweetId": "2040666095582113819",
+      "tweetUrl": "https://x.com/thsottiaux/status/2040666095582113819",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2040664391742587265",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2040664391742587265",
+    "lastSeenTweetId": "2040666095582113819",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2040666095582113819",
     "pendingReview": {
       "confidence": 0.86,
       "createdAt": 1775116357178,
@@ -32,6 +32,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2039595373174599927"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1775371490183,
+        "inputTokens": 323,
+        "outputTokens": 82,
+        "rationale": "Reply about model design/frontend and making a mascot; no mention or implication of limits, caps, or usage reset.",
+        "reasoningTokens": 31,
+        "totalTokens": 405,
+        "tweetId": "2040666095582113819",
+        "tweetText": "@kr0der Our plan\n\n1) make a model great at design and frontend\n2) ask it to make a great mascot\n\nand we are still at 1",
+        "tweetUrl": "https://x.com/thsottiaux/status/2040666095582113819",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1775371486515,
@@ -278,29 +291,31 @@
         "tweetText": "@rezoundous Codex v2",
         "tweetUrl": "https://x.com/thsottiaux/status/2039862114194686305",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1775169997065,
-        "inputTokens": 325,
-        "outputTokens": 78,
-        "rationale": "This is a product/pricing announcement about Codex seats and pay-as-you-go, not about rate limits, caps, or usage resetting.",
-        "reasoningTokens": 22,
-        "totalTokens": 403,
-        "tweetId": "2039830319302693367",
-        "tweetText": "For business and enterprise, Codex now starts at $0 seats with pay-as-you-go. It's time to build.\n\nhttps://t.co/BZOmVnL0Bt",
-        "tweetUrl": "https://x.com/thsottiaux/status/2039830319302693367",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 14914,
-      "totalOutputTokens": 4651,
-      "totalReasoningTokens": 2193,
-      "totalTokens": 19565
+      "totalInputTokens": 15237,
+      "totalOutputTokens": 4733,
+      "totalReasoningTokens": 2224,
+      "totalTokens": 19970
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1775371490183,
+      "inputTokens": 323,
+      "message": "",
+      "outputTokens": 82,
+      "rationale": "Reply about model design/frontend and making a mascot; no mention or implication of limits, caps, or usage reset.",
+      "reasoningTokens": 31,
+      "totalTokens": 405,
+      "tweetId": "2040666095582113819",
+      "tweetText": "@kr0der Our plan\n\n1) make a model great at design and frontend\n2) ask it to make a great mascot\n\nand we are still at 1",
+      "tweetUrl": "https://x.com/thsottiaux/status/2040666095582113819",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1775371486515,
@@ -885,27 +900,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2038504265367605412",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.95,
-      "createdAt": 1774682055762,
-      "inputTokens": 331,
-      "message": "",
-      "outputTokens": 173,
-      "rationale": "The tweet discusses capacity planning and adding more capacity, but does not say user limits or rate limits have reset or been lifted.",
-      "reasoningTokens": 120,
-      "totalTokens": 504,
-      "tweetId": "2037785955126652990",
-      "tweetText": "Growth of codex continues to outpace our prediction (maybe we are not super good at that) and we almost ran out of capacity three days in a row. We have ramped up more significantly ahead of next week.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2037785955126652990",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "I1EY923tw5vuezg5gdiTiJiXvTGR0gac8SZoRG_6htEbTbMkCZReaJ5klQ",
-    "iv": "1GKqf6ej-slNU8ch",
-    "tag": "BgXDLPDu1E060XN0NnhyBw",
+    "ciphertext": "sVkkMAaeRuco37F5q8RPl27ubLPWE7Hlm1OHMEaUlyGDWxYKXOLOhVpYJw",
+    "iv": "uWMHMiaGo5Fz5nRA",
+    "tag": "91yprjfRlahQjDAyToIpOQ",
     "version": 1
   }
 }
