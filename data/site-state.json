@@ -14,15 +14,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1775337449836,
-      "rationale": "This reply only tags another user with an eyes emoji and gives no indication that any Codex or ChatGPT limits have reset.",
-      "tweetId": "2040535236703097246",
-      "tweetUrl": "https://x.com/thsottiaux/status/2040535236703097246",
+      "decidedAt": 1775371486515,
+      "rationale": "This reply is conversational/joking and says nothing about limits, caps, or usage becoming available again.",
+      "tweetId": "2040664391742587265",
+      "tweetUrl": "https://x.com/thsottiaux/status/2040664391742587265",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2040535236703097246",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2040535236703097246",
+    "lastSeenTweetId": "2040664391742587265",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2040664391742587265",
     "pendingReview": {
       "confidence": 0.86,
       "createdAt": 1775116357178,
@@ -32,6 +32,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2039595373174599927"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1775371486515,
+        "inputTokens": 305,
+        "outputTokens": 88,
+        "rationale": "This reply is conversational/joking and says nothing about limits, caps, or usage becoming available again.",
+        "reasoningTokens": 40,
+        "totalTokens": 393,
+        "tweetId": "2040664391742587265",
+        "tweetText": "@adonis_singh It can smell the opus perfume in the circuits and tries extra hard",
+        "tweetUrl": "https://x.com/thsottiaux/status/2040664391742587265",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1775337449836,
@@ -278,29 +291,31 @@
         "tweetText": "For business and enterprise, Codex now starts at $0 seats with pay-as-you-go. It's time to build.\n\nhttps://t.co/BZOmVnL0Bt",
         "tweetUrl": "https://x.com/thsottiaux/status/2039830319302693367",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.86,
-        "evaluatedAt": 1775116357178,
-        "inputTokens": 295,
-        "outputTokens": 233,
-        "rationale": "Reply is too vague; it only says \"Saw it on the chart\" and does not explicitly mention limits, caps, or a reset.",
-        "reasoningTokens": 177,
-        "totalTokens": 528,
-        "tweetId": "2039595373174599927",
-        "tweetText": "@superligious Saw it on the chart",
-        "tweetUrl": "https://x.com/thsottiaux/status/2039595373174599927",
-        "verdict": "uncertain"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 14609,
-      "totalOutputTokens": 4563,
-      "totalReasoningTokens": 2153,
-      "totalTokens": 19172
+      "totalInputTokens": 14914,
+      "totalOutputTokens": 4651,
+      "totalReasoningTokens": 2193,
+      "totalTokens": 19565
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1775371486515,
+      "inputTokens": 305,
+      "message": "",
+      "outputTokens": 88,
+      "rationale": "This reply is conversational/joking and says nothing about limits, caps, or usage becoming available again.",
+      "reasoningTokens": 40,
+      "totalTokens": 393,
+      "tweetId": "2040664391742587265",
+      "tweetText": "@adonis_singh It can smell the opus perfume in the circuits and tries extra hard",
+      "tweetUrl": "https://x.com/thsottiaux/status/2040664391742587265",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1775337449836,
@@ -885,27 +900,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2037785955126652990",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1774601024729,
-      "inputTokens": 304,
-      "message": "",
-      "outputTokens": 70,
-      "rationale": "Reply about popout windows; no mention of limits, caps, reset, or availability returning.",
-      "reasoningTokens": 23,
-      "totalTokens": 374,
-      "tweetId": "2037348557729210806",
-      "tweetText": "@rishirsv @ajambrosino what happened to the poor popout windows",
-      "tweetUrl": "https://x.com/thsottiaux/status/2037348557729210806",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "SUBUQRIxMW8_6OPDokHbPWU-Ljsf-chU0cWpQyBsK3mmYrlYNKMXJxRvxg",
-    "iv": "-VtOklHHozBOkYl-",
-    "tag": "UpqupJcPDKMTJMr-59mmXg",
+    "ciphertext": "I1EY923tw5vuezg5gdiTiJiXvTGR0gac8SZoRG_6htEbTbMkCZReaJ5klQ",
+    "iv": "1GKqf6ej-slNU8ch",
+    "tag": "BgXDLPDu1E060XN0NnhyBw",
     "version": 1
   }
 }
