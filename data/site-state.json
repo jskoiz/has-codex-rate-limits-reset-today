@@ -13,16 +13,16 @@
   "updatedAt": 1775030055458,
   "automation": {
     "lastDecision": {
-      "confidence": 0.95,
-      "decidedAt": 1775455926496,
-      "rationale": "Reply says only \"Probably true\" with no visible context, so it does not clearly confirm limits have reset.",
-      "tweetId": "2041014631729406337",
-      "tweetUrl": "https://x.com/thsottiaux/status/2041014631729406337",
-      "verdict": "uncertain"
+      "confidence": 0.99,
+      "decidedAt": 1775462616908,
+      "rationale": "Reply about using Codex; no mention of limits, caps, reset, or availability returning.",
+      "tweetId": "2041024476096483544",
+      "tweetUrl": "https://x.com/thsottiaux/status/2041024476096483544",
+      "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2041014631729406337",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2041014631729406337",
+    "lastSeenTweetId": "2041024476096483544",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2041024476096483544",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1775455926496,
@@ -32,6 +32,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2041014631729406337"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1775462616908,
+        "inputTokens": 301,
+        "outputTokens": 86,
+        "rationale": "Reply about using Codex; no mention of limits, caps, reset, or availability returning.",
+        "reasoningTokens": 39,
+        "totalTokens": 387,
+        "tweetId": "2041024476096483544",
+        "tweetText": "@asishcodes Don’t feed codex, let it cook for you",
+        "tweetUrl": "https://x.com/thsottiaux/status/2041024476096483544",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.95,
         "evaluatedAt": 1775455926496,
@@ -278,29 +291,31 @@
         "tweetText": "Always fun when you notice Codex being clever in a way you don't expect. \n\nIn a session today, it was running a slow build process and got annoyed (don't we all). Before making a change it checked that progress was actually happening and did so not by checking the logs, but by checking CPU usage.",
         "tweetUrl": "https://x.com/thsottiaux/status/2040185497415565442",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1775244292987,
-        "inputTokens": 305,
-        "outputTokens": 82,
-        "rationale": "Reply about traffic geography; no mention of limits, caps, resets, or usage becoming available again.",
-        "reasoningTokens": 34,
-        "totalTokens": 387,
-        "tweetId": "2040135678965714952",
-        "tweetText": "@badlogicgames The assumption that most of the traffic is from the USA is funny to me",
-        "tweetUrl": "https://x.com/thsottiaux/status/2040135678965714952",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 17973,
-      "totalOutputTokens": 5855,
-      "totalReasoningTokens": 2896,
-      "totalTokens": 23828
+      "totalInputTokens": 18274,
+      "totalOutputTokens": 5941,
+      "totalReasoningTokens": 2935,
+      "totalTokens": 24215
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1775462616908,
+      "inputTokens": 301,
+      "message": "",
+      "outputTokens": 86,
+      "rationale": "Reply about using Codex; no mention of limits, caps, reset, or availability returning.",
+      "reasoningTokens": 39,
+      "totalTokens": 387,
+      "tweetId": "2041024476096483544",
+      "tweetText": "@asishcodes Don’t feed codex, let it cook for you",
+      "tweetUrl": "https://x.com/thsottiaux/status/2041024476096483544",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.95,
       "createdAt": 1775455926496,
@@ -885,27 +900,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2039436859055751258",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.12,
-      "createdAt": 1775034319626,
-      "inputTokens": 305,
-      "message": "",
-      "outputTokens": 113,
-      "rationale": "This is just a reply saying “Yes!” with no visible context about limits or resets, so it does not clearly confirm a rate-limit reset.",
-      "reasoningTokens": 56,
-      "totalTokens": 418,
-      "tweetId": "2039249034507087889",
-      "tweetText": "@GregKonush Yes!\n\nhttps://t.co/2TH56VNxnb",
-      "tweetUrl": "https://x.com/thsottiaux/status/2039249034507087889",
-      "type": "review_requested",
-      "verdict": "uncertain"
     }
   ],
   "privateState": {
-    "ciphertext": "N_NxEpZlC2SbUiBDrDjkjxavMC6hjCv7hE06P7n7cs302EnxcikD10Jkqw",
-    "iv": "0AaDGImW7fXmFVtt",
-    "tag": "ZUusixyJ0-uuzQCRcSXUCQ",
+    "ciphertext": "DfJtbWzeA_qXSuoA9I08PAvkL0bfH86qJJqftLKWdNMHqn9OY_1sdlSWLw",
+    "iv": "-N7NEJ9X9qXjOC7L",
+    "tag": "7__KMudkqOd1DtH-xU_JEw",
     "version": 1
   }
 }
