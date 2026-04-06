@@ -13,16 +13,16 @@
   "updatedAt": 1775030055458,
   "automation": {
     "lastDecision": {
-      "confidence": 0.94,
-      "decidedAt": 1775429918292,
-      "rationale": "This reply is conversational and does not explicitly mention limits, caps, usage being available again, or a reset.",
-      "tweetId": "2040924657914986883",
-      "tweetUrl": "https://x.com/thsottiaux/status/2040924657914986883",
+      "confidence": 0.99,
+      "decidedAt": 1775448929439,
+      "rationale": "This reply is conversational and does not mention limits, caps, availability, or any reset of Codex/ChatGPT usage.",
+      "tweetId": "2040971067758703047",
+      "tweetUrl": "https://x.com/thsottiaux/status/2040971067758703047",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2040924657914986883",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2040924657914986883",
+    "lastSeenTweetId": "2040971067758703047",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2040971067758703047",
     "pendingReview": {
       "confidence": 0.86,
       "createdAt": 1775116357178,
@@ -32,6 +32,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2039595373174599927"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1775448929439,
+        "inputTokens": 312,
+        "outputTokens": 69,
+        "rationale": "This reply is conversational and does not mention limits, caps, availability, or any reset of Codex/ChatGPT usage.",
+        "reasoningTokens": 16,
+        "totalTokens": 381,
+        "tweetId": "2040971067758703047",
+        "tweetText": "@Francesco_Oddo @10x_er Let me break it to you. Someone put it on the table for you",
+        "tweetUrl": "https://x.com/thsottiaux/status/2040971067758703047",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.94,
         "evaluatedAt": 1775429918293,
@@ -278,29 +291,31 @@
         "tweetText": "The Codex App is now our most used surface, ahead of the VS Code extension and the CLI. No wonder it inspires a few others 👀\n\nYou can install it here https://t.co/Lwg13vEJDn + you get up to $500 in credits if you are getting started as a business or enterprise.",
         "tweetUrl": "https://x.com/thsottiaux/status/2039901964679688437",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1775192116901,
-        "inputTokens": 362,
-        "outputTokens": 101,
-        "rationale": "The tweet discusses traffic patterns and possible off-peak/peak usage incentives; it does not say Codex or ChatGPT limits/caps have reset or are available again now.",
-        "reasoningTokens": 38,
-        "totalTokens": 463,
-        "tweetId": "2039893158952419779",
-        "tweetText": "With Codex the there is quite the gulf in load between peak and off-peak times, and we would like to achieve more of a smoother traffic pattern as that would be a more optimal use of our compute. \n\nWe have ideas, but curious what you all think we should do? Would more usage during off-peak and surge multiplier during peak times make sense?",
-        "tweetUrl": "https://x.com/thsottiaux/status/2039893158952419779",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 16177,
-      "totalOutputTokens": 5077,
-      "totalReasoningTokens": 2416,
-      "totalTokens": 21254
+      "totalInputTokens": 16489,
+      "totalOutputTokens": 5146,
+      "totalReasoningTokens": 2432,
+      "totalTokens": 21635
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1775448929439,
+      "inputTokens": 312,
+      "message": "",
+      "outputTokens": 69,
+      "rationale": "This reply is conversational and does not mention limits, caps, availability, or any reset of Codex/ChatGPT usage.",
+      "reasoningTokens": 16,
+      "totalTokens": 381,
+      "tweetId": "2040971067758703047",
+      "tweetText": "@Francesco_Oddo @10x_er Let me break it to you. Someone put it on the table for you",
+      "tweetUrl": "https://x.com/thsottiaux/status/2040971067758703047",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.94,
       "createdAt": 1775429918293,
@@ -885,27 +900,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2038747913078362262",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1774858049361,
-      "inputTokens": 310,
-      "message": "",
-      "outputTokens": 121,
-      "rationale": "Reply discussing PreToolUse and a link; no mention of limits, caps, resets, or availability returning.",
-      "reasoningTokens": 71,
-      "totalTokens": 431,
-      "tweetId": "2038516930076926140",
-      "tweetText": "@doodlestein For PreToolUse, what's missing from https://t.co/oMo4ekEiFC",
-      "tweetUrl": "https://x.com/thsottiaux/status/2038516930076926140",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "tl0Gt67I9k8DyJhqeSv7ess_ePvRRjjgKIqmwHGXqj2vnkuimZ4EG5LttA",
-    "iv": "QP6JjzlkSeq21rqS",
-    "tag": "_j3yEwzkVjQhK0V21Cdj2A",
+    "ciphertext": "x502JAQ2vTU5VZHLApCOZH2cq7WP2XwzfQPlL2wk8jE0oNQd3Ffb-jJRoA",
+    "iv": "akHGZq30a6wDvEFw",
+    "tag": "Ks75rLujnE3-hPIiDOtidg",
     "version": 1
   }
 }
