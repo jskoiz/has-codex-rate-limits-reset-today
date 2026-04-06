@@ -14,15 +14,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1775462616908,
-      "rationale": "Reply about using Codex; no mention of limits, caps, reset, or availability returning.",
-      "tweetId": "2041024476096483544",
-      "tweetUrl": "https://x.com/thsottiaux/status/2041024476096483544",
+      "decidedAt": 1775487039330,
+      "rationale": "This is praise for OpenClaw/GPT-5.4 quality and a release, not a statement about limits, caps, or usage resetting.",
+      "tweetId": "2041161694672748684",
+      "tweetUrl": "https://x.com/thsottiaux/status/2041161694672748684",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2041024476096483544",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2041024476096483544",
+    "lastSeenTweetId": "2041161694672748684",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2041161694672748684",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1775455926496,
@@ -32,6 +32,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2041014631729406337"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1775487039330,
+        "inputTokens": 321,
+        "outputTokens": 119,
+        "rationale": "This is praise for OpenClaw/GPT-5.4 quality and a release, not a statement about limits, caps, or usage resetting.",
+        "reasoningTokens": 61,
+        "totalTokens": 440,
+        "tweetId": "2041161694672748684",
+        "tweetText": "OpenClaw is now really good with GPT-5.4. Peter and team cooked",
+        "tweetUrl": "https://x.com/thsottiaux/status/2041161694672748684",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1775462616908,
@@ -278,29 +291,31 @@
         "tweetText": "@varunram We're not Apple. We are OpenAI.",
         "tweetUrl": "https://x.com/thsottiaux/status/2040185809882742805",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1775253304082,
-        "inputTokens": 351,
-        "outputTokens": 84,
-        "rationale": "The tweet discusses Codex behavior during a build process, not user caps, rate limits, or availability being restored.",
-        "reasoningTokens": 33,
-        "totalTokens": 435,
-        "tweetId": "2040185497415565442",
-        "tweetText": "Always fun when you notice Codex being clever in a way you don't expect. \n\nIn a session today, it was running a slow build process and got annoyed (don't we all). Before making a change it checked that progress was actually happening and did so not by checking the logs, but by checking CPU usage.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2040185497415565442",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 18274,
-      "totalOutputTokens": 5941,
-      "totalReasoningTokens": 2935,
-      "totalTokens": 24215
+      "totalInputTokens": 18595,
+      "totalOutputTokens": 6060,
+      "totalReasoningTokens": 2996,
+      "totalTokens": 24655
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1775487039330,
+      "inputTokens": 321,
+      "message": "",
+      "outputTokens": 119,
+      "rationale": "This is praise for OpenClaw/GPT-5.4 quality and a release, not a statement about limits, caps, or usage resetting.",
+      "reasoningTokens": 61,
+      "totalTokens": 440,
+      "tweetId": "2041161694672748684",
+      "tweetText": "OpenClaw is now really good with GPT-5.4. Peter and team cooked",
+      "tweetUrl": "https://x.com/thsottiaux/status/2041161694672748684",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1775462616908,
@@ -885,27 +900,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2039482054686196116",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1775075230195,
-      "inputTokens": 359,
-      "message": "",
-      "outputTokens": 94,
-      "rationale": "The tweet is a product announcement/joke about Codex and does not mention limits, caps, resets, or availability returning after a rate limit.",
-      "reasoningTokens": 37,
-      "totalTokens": 453,
-      "tweetId": "2039436859055751258",
-      "tweetText": "Announcing Codex. \n\nA new product from OpenAI that moves beyond coding, into cooking. We were already cooking before, but now *you* can cook too ... with Codex. It is powered by the same technology as our other Codex products. You can just cook things. https://t.co/tMnH1nn1VX",
-      "tweetUrl": "https://x.com/thsottiaux/status/2039436859055751258",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "DfJtbWzeA_qXSuoA9I08PAvkL0bfH86qJJqftLKWdNMHqn9OY_1sdlSWLw",
-    "iv": "-N7NEJ9X9qXjOC7L",
-    "tag": "7__KMudkqOd1DtH-xU_JEw",
+    "ciphertext": "YtbhoyVy4SUgtfVUVT9z9M9dFTcA1anHRh3dVYcxoZq7cB5kS8C3ZEPSCg",
+    "iv": "Xx7UgyZ1kKaDUHpj",
+    "tag": "3BwvWB557EV7GmCZi8h54g",
     "version": 1
   }
 }
