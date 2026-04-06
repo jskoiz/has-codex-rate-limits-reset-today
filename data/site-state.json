@@ -14,15 +14,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1775492940341,
-      "rationale": "A conversational reply with no mention or implication of limits, caps, or usage becoming available again.",
-      "tweetId": "2041190841524642184",
-      "tweetUrl": "https://x.com/thsottiaux/status/2041190841524642184",
+      "decidedAt": 1775496441547,
+      "rationale": "Reply only describes model variants and their tradeoffs; no mention of limits, caps, availability reset, or usage being restored.",
+      "tweetId": "2041191874539786343",
+      "tweetUrl": "https://x.com/thsottiaux/status/2041191874539786343",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2041190841524642184",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2041190841524642184",
+    "lastSeenTweetId": "2041191874539786343",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2041191874539786343",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1775455926496,
@@ -32,6 +32,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2041014631729406337"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1775496441547,
+        "inputTokens": 366,
+        "outputTokens": 78,
+        "rationale": "Reply only describes model variants and their tradeoffs; no mention of limits, caps, availability reset, or usage being restored.",
+        "reasoningTokens": 25,
+        "totalTokens": 444,
+        "tweetId": "2041191874539786343",
+        "tweetText": "@Its_Nova1012 GPT-5.4 - Best results, highest cost. Well rounded.\nGPT-5.4-Mini - Cheapest option. Fast and accurate, will notice occasional things that are too hard for it and you can switch to GPT-5.4.\nGPT-5.3-Codex - Code freak. Can use if you only care about generating code.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2041191874539786343",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1775492940341,
@@ -278,29 +291,31 @@
         "tweetText": "From the surge in demand on Codex and many other services, it is clear that AI companies are going to go through a phase of demand outpacing supply. Two things will be most important, having the most capacity and having the most efficient models. I believe we have both.",
         "tweetUrl": "https://x.com/thsottiaux/status/2040230479392395539",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1775255802923,
-        "inputTokens": 342,
-        "outputTokens": 91,
-        "rationale": "This is a welcome/congratulatory post about someone joining the Codex team, not about usage caps, limits, or availability resetting.",
-        "reasoningTokens": 35,
-        "totalTokens": 433,
-        "tweetId": "2040187450551869863",
-        "tweetText": "Time to build. Welcome to the team Kath! Maybe we'll get a nice little mascot now too.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2040187450551869863",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 18892,
-      "totalOutputTokens": 6149,
-      "totalReasoningTokens": 3038,
-      "totalTokens": 25041
+      "totalInputTokens": 19258,
+      "totalOutputTokens": 6227,
+      "totalReasoningTokens": 3063,
+      "totalTokens": 25485
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1775496441547,
+      "inputTokens": 366,
+      "message": "",
+      "outputTokens": 78,
+      "rationale": "Reply only describes model variants and their tradeoffs; no mention of limits, caps, availability reset, or usage being restored.",
+      "reasoningTokens": 25,
+      "totalTokens": 444,
+      "tweetId": "2041191874539786343",
+      "tweetText": "@Its_Nova1012 GPT-5.4 - Best results, highest cost. Well rounded.\nGPT-5.4-Mini - Cheapest option. Fast and accurate, will notice occasional things that are too hard for it and you can switch to GPT-5.4.\nGPT-5.3-Codex - Code freak. Can use if you only care about generating code.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2041191874539786343",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1775492940341,
@@ -885,27 +900,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2039482359649837463",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1775086282263,
-      "inputTokens": 299,
-      "message": "",
-      "outputTokens": 81,
-      "rationale": "This is just a reply asking about cost and does not mention limits, caps, availability, or a reset.",
-      "reasoningTokens": 31,
-      "totalTokens": 380,
-      "tweetId": "2039482251633910001",
-      "tweetText": "@Anubhav_Mishra_ How much did it cost?",
-      "tweetUrl": "https://x.com/thsottiaux/status/2039482251633910001",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "wN1HCSck8L4WFcnBA2tLpZ4FD6gChNdZZmOqBAx_fTnUt3seevQq__2Lrg",
-    "iv": "VTeQbHFeiTt77zdn",
-    "tag": "ft2PBQuXPWgwYl9VllAqAQ",
+    "ciphertext": "P2QTialjI9pe7Z1QRJ-AHKKFH_HcgY3P31juLeDO2_dmdi_H5NHC8m4eIg",
+    "iv": "TVH-Q2bdFJNTM4KB",
+    "tag": "MogzARVehVUVI4dTq4bNxQ",
     "version": 1
   }
 }
