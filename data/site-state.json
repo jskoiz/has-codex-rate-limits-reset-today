@@ -13,16 +13,16 @@
   "updatedAt": 1775030055458,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1775448937201,
-      "rationale": "The tweet is a general comment about Codex and does not mention limits, caps, resets, or availability returning.",
-      "tweetId": "2040997506927284654",
-      "tweetUrl": "https://x.com/thsottiaux/status/2040997506927284654",
+      "confidence": 0.95,
+      "decidedAt": 1775448942489,
+      "rationale": "A conversational reply about not having announced something yet; it does not mention limits, caps, resets, or restored availability.",
+      "tweetId": "2041000202417717474",
+      "tweetUrl": "https://x.com/thsottiaux/status/2041000202417717474",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2040997506927284654",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2040997506927284654",
+    "lastSeenTweetId": "2041000202417717474",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2041000202417717474",
     "pendingReview": {
       "confidence": 0.86,
       "createdAt": 1775116357178,
@@ -32,6 +32,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2039595373174599927"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.95,
+        "evaluatedAt": 1775448942489,
+        "inputTokens": 301,
+        "outputTokens": 219,
+        "rationale": "A conversational reply about not having announced something yet; it does not mention limits, caps, resets, or restored availability.",
+        "reasoningTokens": 167,
+        "totalTokens": 520,
+        "tweetId": "2041000202417717474",
+        "tweetText": "@Eduardopto We haven't even announced anything. Give us a second",
+        "tweetUrl": "https://x.com/thsottiaux/status/2041000202417717474",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1775448937201,
@@ -278,29 +291,31 @@
         "tweetText": "@ziwenxu_ Gave your seat to someone else",
         "tweetUrl": "https://x.com/thsottiaux/status/2039965345486901273",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1775201915831,
-        "inputTokens": 293,
-        "outputTokens": 76,
-        "rationale": "Reply saying \"The codex effect\" does not mention limits, caps, or usage resetting.",
-        "reasoningTokens": 29,
-        "totalTokens": 369,
-        "tweetId": "2039964496870195439",
-        "tweetText": "@kais_rad The codex effect",
-        "tweetUrl": "https://x.com/thsottiaux/status/2039964496870195439",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 17072,
-      "totalOutputTokens": 5330,
-      "totalReasoningTokens": 2521,
-      "totalTokens": 22402
+      "totalInputTokens": 17373,
+      "totalOutputTokens": 5549,
+      "totalReasoningTokens": 2688,
+      "totalTokens": 22922
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.95,
+      "createdAt": 1775448942489,
+      "inputTokens": 301,
+      "message": "",
+      "outputTokens": 219,
+      "rationale": "A conversational reply about not having announced something yet; it does not mention limits, caps, resets, or restored availability.",
+      "reasoningTokens": 167,
+      "totalTokens": 520,
+      "tweetId": "2041000202417717474",
+      "tweetText": "@Eduardopto We haven't even announced anything. Give us a second",
+      "tweetUrl": "https://x.com/thsottiaux/status/2041000202417717474",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1775448937201,
@@ -885,27 +900,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2039248564967424483",
       "type": "reset_confirmed",
       "verdict": "reset_confirmed"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1775030051809,
-      "inputTokens": 343,
-      "message": "",
-      "outputTokens": 91,
-      "rationale": "The tweet is about a repository being public / a code leak, not about usage limits, caps, or rate limits resetting.",
-      "reasoningTokens": 38,
-      "totalTokens": 434,
-      "tweetId": "2039246206849970633",
-      "tweetText": "Whaaaa. Only realized now and apparently our repo was public since 11 months ago and noone told us?!",
-      "tweetUrl": "https://x.com/thsottiaux/status/2039246206849970633",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "3UMhSYu_w_tWp2XVhpIqcOrIzvWi2S7sNq-exebPhioDyEcmJQhObHCe_w",
-    "iv": "Uw7TH2BRc7dsJLxo",
-    "tag": "9Fpx6iziNMwbV9Hs-jORGw",
+    "ciphertext": "YliYtRTH3PO_GyhnS06rUWrebgGzkKfiZSOLKFww7EAlhcCKE8TxJcaYMQ",
+    "iv": "FzfPG8IqW5Var-Tv",
+    "tag": "puBSSBxsMv_yzRzveobgZQ",
     "version": 1
   }
 }
