@@ -13,16 +13,16 @@
   "updatedAt": 1775030055458,
   "automation": {
     "lastDecision": {
-      "confidence": 0.95,
-      "decidedAt": 1775448942489,
-      "rationale": "A conversational reply about not having announced something yet; it does not mention limits, caps, resets, or restored availability.",
-      "tweetId": "2041000202417717474",
-      "tweetUrl": "https://x.com/thsottiaux/status/2041000202417717474",
+      "confidence": 0.99,
+      "decidedAt": 1775455920879,
+      "rationale": "Reply about Codex teaching someone; no mention of limits, caps, reset, or availability returning.",
+      "tweetId": "2041014438313222375",
+      "tweetUrl": "https://x.com/thsottiaux/status/2041014438313222375",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2041000202417717474",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2041000202417717474",
+    "lastSeenTweetId": "2041014438313222375",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2041014438313222375",
     "pendingReview": {
       "confidence": 0.86,
       "createdAt": 1775116357178,
@@ -32,6 +32,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2039595373174599927"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1775455920879,
+        "inputTokens": 308,
+        "outputTokens": 101,
+        "rationale": "Reply about Codex teaching someone; no mention of limits, caps, reset, or availability returning.",
+        "reasoningTokens": 53,
+        "totalTokens": 409,
+        "tweetId": "2041014438313222375",
+        "tweetText": "@thdxr Do not fret. Codex can teach you to be a wizard in 6 easy steps.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2041014438313222375",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.95,
         "evaluatedAt": 1775448942489,
@@ -278,29 +291,31 @@
         "tweetText": "@svpino Welcome",
         "tweetUrl": "https://x.com/thsottiaux/status/2039966705645179064",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1775201920588,
-        "inputTokens": 298,
-        "outputTokens": 102,
-        "rationale": "A conversational reply about a seat being given away; no mention or implication of limits, caps, or usage becoming available again.",
-        "reasoningTokens": 49,
-        "totalTokens": 400,
-        "tweetId": "2039965345486901273",
-        "tweetText": "@ziwenxu_ Gave your seat to someone else",
-        "tweetUrl": "https://x.com/thsottiaux/status/2039965345486901273",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 17373,
-      "totalOutputTokens": 5549,
-      "totalReasoningTokens": 2688,
-      "totalTokens": 22922
+      "totalInputTokens": 17681,
+      "totalOutputTokens": 5650,
+      "totalReasoningTokens": 2741,
+      "totalTokens": 23331
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1775455920879,
+      "inputTokens": 308,
+      "message": "",
+      "outputTokens": 101,
+      "rationale": "Reply about Codex teaching someone; no mention of limits, caps, reset, or availability returning.",
+      "reasoningTokens": 53,
+      "totalTokens": 409,
+      "tweetId": "2041014438313222375",
+      "tweetText": "@thdxr Do not fret. Codex can teach you to be a wizard in 6 easy steps.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2041014438313222375",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.95,
       "createdAt": 1775448942489,
@@ -885,27 +900,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2039248828738777538",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1775030055458,
-      "inputTokens": 370,
-      "message": "",
-      "outputTokens": 83,
-      "rationale": "The tweet explicitly says they are \"resetting the usage limits for all plans,\" meaning rate/usage caps are available again now.",
-      "reasoningTokens": 28,
-      "totalTokens": 453,
-      "tweetId": "2039248564967424483",
-      "tweetText": "Our Codex dashboards are showing increased rate of users hitting rate limits and since we don't fully understand why I have made the cautious decision of resetting the usage limits for all plans. Enjoy.\n\nI also wanted to celebrate us finding a pocket of fraudulent accounts that we banned and have helped us regain some compute. The fight against abuse never stops, but it's important to mark the moment and make it a little shared victory.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2039248564967424483",
-      "type": "reset_confirmed",
-      "verdict": "reset_confirmed"
     }
   ],
   "privateState": {
-    "ciphertext": "YliYtRTH3PO_GyhnS06rUWrebgGzkKfiZSOLKFww7EAlhcCKE8TxJcaYMQ",
-    "iv": "FzfPG8IqW5Var-Tv",
-    "tag": "puBSSBxsMv_yzRzveobgZQ",
+    "ciphertext": "k6c2AivnJ6NZ6Cua804xp9cblACmeilgClT5HeYK4hvU2qkcQOzCj9HnSQ",
+    "iv": "o44nPp5jTohrIlCB",
+    "tag": "JkuXF-l7g9VtlhClpPoY7A",
     "version": 1
   }
 }
