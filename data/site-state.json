@@ -14,15 +14,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1775487039330,
-      "rationale": "This is praise for OpenClaw/GPT-5.4 quality and a release, not a statement about limits, caps, or usage resetting.",
-      "tweetId": "2041161694672748684",
-      "tweetUrl": "https://x.com/thsottiaux/status/2041161694672748684",
+      "decidedAt": 1775492940341,
+      "rationale": "A conversational reply with no mention or implication of limits, caps, or usage becoming available again.",
+      "tweetId": "2041190841524642184",
+      "tweetUrl": "https://x.com/thsottiaux/status/2041190841524642184",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2041161694672748684",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2041161694672748684",
+    "lastSeenTweetId": "2041190841524642184",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2041190841524642184",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1775455926496,
@@ -32,6 +32,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2041014631729406337"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1775492940341,
+        "inputTokens": 297,
+        "outputTokens": 89,
+        "rationale": "A conversational reply with no mention or implication of limits, caps, or usage becoming available again.",
+        "reasoningTokens": 42,
+        "totalTokens": 386,
+        "tweetId": "2041190841524642184",
+        "tweetText": "@nibzard Blink twice if you need help",
+        "tweetUrl": "https://x.com/thsottiaux/status/2041190841524642184",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1775487039330,
@@ -278,29 +291,31 @@
         "tweetText": "Time to build. Welcome to the team Kath! Maybe we'll get a nice little mascot now too.",
         "tweetUrl": "https://x.com/thsottiaux/status/2040187450551869863",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1775253307071,
-        "inputTokens": 298,
-        "outputTokens": 70,
-        "rationale": "Reply is conversational and says nothing about limits, caps, or usage becoming available again.",
-        "reasoningTokens": 25,
-        "totalTokens": 368,
-        "tweetId": "2040185809882742805",
-        "tweetText": "@varunram We're not Apple. We are OpenAI.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2040185809882742805",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 18595,
-      "totalOutputTokens": 6060,
-      "totalReasoningTokens": 2996,
-      "totalTokens": 24655
+      "totalInputTokens": 18892,
+      "totalOutputTokens": 6149,
+      "totalReasoningTokens": 3038,
+      "totalTokens": 25041
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1775492940341,
+      "inputTokens": 297,
+      "message": "",
+      "outputTokens": 89,
+      "rationale": "A conversational reply with no mention or implication of limits, caps, or usage becoming available again.",
+      "reasoningTokens": 42,
+      "totalTokens": 386,
+      "tweetId": "2041190841524642184",
+      "tweetText": "@nibzard Blink twice if you need help",
+      "tweetUrl": "https://x.com/thsottiaux/status/2041190841524642184",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1775487039330,
@@ -885,27 +900,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2039482251633910001",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1775086279125,
-      "inputTokens": 359,
-      "message": "",
-      "outputTokens": 83,
-      "rationale": "The tweet is about making Codex core open-source and a public repo, not about usage caps, limits, or availability resetting.",
-      "reasoningTokens": 29,
-      "totalTokens": 442,
-      "tweetId": "2039482054686196116",
-      "tweetText": "Ah nevermind, I actually remember we decided to have the core open-source for Codex because it would be awesome to see the ecosystem flourish as it's all so nascent and fun. And we would learn a lot in return. Phew.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2039482054686196116",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "YtbhoyVy4SUgtfVUVT9z9M9dFTcA1anHRh3dVYcxoZq7cB5kS8C3ZEPSCg",
-    "iv": "Xx7UgyZ1kKaDUHpj",
-    "tag": "3BwvWB557EV7GmCZi8h54g",
+    "ciphertext": "wN1HCSck8L4WFcnBA2tLpZ4FD6gChNdZZmOqBAx_fTnUt3seevQq__2Lrg",
+    "iv": "VTeQbHFeiTt77zdn",
+    "tag": "ft2PBQuXPWgwYl9VllAqAQ",
     "version": 1
   }
 }
