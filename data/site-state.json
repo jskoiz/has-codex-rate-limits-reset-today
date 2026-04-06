@@ -13,25 +13,38 @@
   "updatedAt": 1775030055458,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1775455920879,
-      "rationale": "Reply about Codex teaching someone; no mention of limits, caps, reset, or availability returning.",
-      "tweetId": "2041014438313222375",
-      "tweetUrl": "https://x.com/thsottiaux/status/2041014438313222375",
-      "verdict": "not_reset"
+      "confidence": 0.95,
+      "decidedAt": 1775455926496,
+      "rationale": "Reply says only \"Probably true\" with no visible context, so it does not clearly confirm limits have reset.",
+      "tweetId": "2041014631729406337",
+      "tweetUrl": "https://x.com/thsottiaux/status/2041014631729406337",
+      "verdict": "uncertain"
     },
     "lastError": null,
-    "lastSeenTweetId": "2041014438313222375",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2041014438313222375",
+    "lastSeenTweetId": "2041014631729406337",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2041014631729406337",
     "pendingReview": {
-      "confidence": 0.86,
-      "createdAt": 1775116357178,
-      "rationale": "Reply is too vague; it only says \"Saw it on the chart\" and does not explicitly mention limits, caps, or a reset.",
-      "tweetId": "2039595373174599927",
-      "tweetText": "@superligious Saw it on the chart",
-      "tweetUrl": "https://x.com/thsottiaux/status/2039595373174599927"
+      "confidence": 0.95,
+      "createdAt": 1775455926496,
+      "rationale": "Reply says only \"Probably true\" with no visible context, so it does not clearly confirm limits have reset.",
+      "tweetId": "2041014631729406337",
+      "tweetText": "@kr0der Probably true",
+      "tweetUrl": "https://x.com/thsottiaux/status/2041014631729406337"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.95,
+        "evaluatedAt": 1775455926496,
+        "inputTokens": 292,
+        "outputTokens": 205,
+        "rationale": "Reply says only \"Probably true\" with no visible context, so it does not clearly confirm limits have reset.",
+        "reasoningTokens": 155,
+        "totalTokens": 497,
+        "tweetId": "2041014631729406337",
+        "tweetText": "@kr0der Probably true",
+        "tweetUrl": "https://x.com/thsottiaux/status/2041014631729406337",
+        "verdict": "uncertain"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1775455920879,
@@ -278,29 +291,31 @@
         "tweetText": "@badlogicgames The assumption that most of the traffic is from the USA is funny to me",
         "tweetUrl": "https://x.com/thsottiaux/status/2040135678965714952",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1775201923934,
-        "inputTokens": 290,
-        "outputTokens": 70,
-        "rationale": "Reply saying only “Welcome”; no mention or implication of limits, caps, or reset status.",
-        "reasoningTokens": 23,
-        "totalTokens": 360,
-        "tweetId": "2039966705645179064",
-        "tweetText": "@svpino Welcome",
-        "tweetUrl": "https://x.com/thsottiaux/status/2039966705645179064",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 17681,
-      "totalOutputTokens": 5650,
-      "totalReasoningTokens": 2741,
-      "totalTokens": 23331
+      "totalInputTokens": 17973,
+      "totalOutputTokens": 5855,
+      "totalReasoningTokens": 2896,
+      "totalTokens": 23828
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.95,
+      "createdAt": 1775455926496,
+      "inputTokens": 292,
+      "message": "",
+      "outputTokens": 205,
+      "rationale": "Reply says only \"Probably true\" with no visible context, so it does not clearly confirm limits have reset.",
+      "reasoningTokens": 155,
+      "totalTokens": 497,
+      "tweetId": "2041014631729406337",
+      "tweetText": "@kr0der Probably true",
+      "tweetUrl": "https://x.com/thsottiaux/status/2041014631729406337",
+      "type": "review_requested",
+      "verdict": "uncertain"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1775455920879,
@@ -885,27 +900,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2039249034507087889",
       "type": "review_requested",
       "verdict": "uncertain"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1775034315198,
-      "inputTokens": 303,
-      "message": "",
-      "outputTokens": 93,
-      "rationale": "Reply asking for a session ID; no mention or implication that any ChatGPT/Codex limit or cap has reset.",
-      "reasoningTokens": 41,
-      "totalTokens": 396,
-      "tweetId": "2039248828738777538",
-      "tweetText": "@andreabalducci @OpenAIDevs Do you have the session id?",
-      "tweetUrl": "https://x.com/thsottiaux/status/2039248828738777538",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "k6c2AivnJ6NZ6Cua804xp9cblACmeilgClT5HeYK4hvU2qkcQOzCj9HnSQ",
-    "iv": "o44nPp5jTohrIlCB",
-    "tag": "JkuXF-l7g9VtlhClpPoY7A",
+    "ciphertext": "N_NxEpZlC2SbUiBDrDjkjxavMC6hjCv7hE06P7n7cs302EnxcikD10Jkqw",
+    "iv": "0AaDGImW7fXmFVtt",
+    "tag": "ZUusixyJ0-uuzQCRcSXUCQ",
     "version": 1
   }
 }
