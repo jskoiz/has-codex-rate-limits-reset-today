@@ -14,15 +14,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1775496441547,
-      "rationale": "Reply only describes model variants and their tradeoffs; no mention of limits, caps, availability reset, or usage being restored.",
-      "tweetId": "2041191874539786343",
-      "tweetUrl": "https://x.com/thsottiaux/status/2041191874539786343",
+      "decidedAt": 1775541280188,
+      "rationale": "Reply praising OpenCode/GPT; no mention of limits, caps, or usage resetting.",
+      "tweetId": "2041388379871523141",
+      "tweetUrl": "https://x.com/thsottiaux/status/2041388379871523141",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2041191874539786343",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2041191874539786343",
+    "lastSeenTweetId": "2041388379871523141",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2041388379871523141",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1775455926496,
@@ -32,6 +32,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2041014631729406337"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1775541280188,
+        "inputTokens": 298,
+        "outputTokens": 94,
+        "rationale": "Reply praising OpenCode/GPT; no mention of limits, caps, or usage resetting.",
+        "reasoningTokens": 48,
+        "totalTokens": 392,
+        "tweetId": "2041388379871523141",
+        "tweetText": "@thdxr Let’s go! OpenCode ❤️ GPT",
+        "tweetUrl": "https://x.com/thsottiaux/status/2041388379871523141",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1775496441547,
@@ -278,29 +291,31 @@
         "tweetText": "@simpsoka LFG!",
         "tweetUrl": "https://x.com/thsottiaux/status/2040230678122623136",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1775264305153,
-        "inputTokens": 343,
-        "outputTokens": 91,
-        "rationale": "The tweet discusses demand, capacity, and model efficiency in general. It does not say or imply that Codex or ChatGPT rate limits have reset or that usage is available again now.",
-        "reasoningTokens": 26,
-        "totalTokens": 434,
-        "tweetId": "2040230479392395539",
-        "tweetText": "From the surge in demand on Codex and many other services, it is clear that AI companies are going to go through a phase of demand outpacing supply. Two things will be most important, having the most capacity and having the most efficient models. I believe we have both.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2040230479392395539",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 19258,
-      "totalOutputTokens": 6227,
-      "totalReasoningTokens": 3063,
-      "totalTokens": 25485
+      "totalInputTokens": 19556,
+      "totalOutputTokens": 6321,
+      "totalReasoningTokens": 3111,
+      "totalTokens": 25877
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1775541280189,
+      "inputTokens": 298,
+      "message": "",
+      "outputTokens": 94,
+      "rationale": "Reply praising OpenCode/GPT; no mention of limits, caps, or usage resetting.",
+      "reasoningTokens": 48,
+      "totalTokens": 392,
+      "tweetId": "2041388379871523141",
+      "tweetText": "@thdxr Let’s go! OpenCode ❤️ GPT",
+      "tweetUrl": "https://x.com/thsottiaux/status/2041388379871523141",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1775496441547,
@@ -885,27 +900,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2039485566815973415",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1775086285581,
-      "inputTokens": 293,
-      "message": "",
-      "outputTokens": 94,
-      "rationale": "This is just a brief conversational reply with no mention of limits, caps, resets, or availability returning.",
-      "reasoningTokens": 45,
-      "totalTokens": 387,
-      "tweetId": "2039482359649837463",
-      "tweetText": "@antonioleivag Of course",
-      "tweetUrl": "https://x.com/thsottiaux/status/2039482359649837463",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "P2QTialjI9pe7Z1QRJ-AHKKFH_HcgY3P31juLeDO2_dmdi_H5NHC8m4eIg",
-    "iv": "TVH-Q2bdFJNTM4KB",
-    "tag": "MogzARVehVUVI4dTq4bNxQ",
+    "ciphertext": "mIB_tJ8F6vCwRH9pQ47jZQzwCQMmL9l3uuuyLSOsBP4h3V1dPvZ-DLbJoQ",
+    "iv": "Oald4NOi7zqUgZ9f",
+    "tag": "TqAayOvWYg9TImpCdFTFLg",
     "version": 1
   }
 }
