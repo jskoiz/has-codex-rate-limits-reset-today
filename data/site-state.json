@@ -1,5 +1,5 @@
 {
-  "currentState": "no",
+  "currentState": "yes",
   "autoResetHours": 20,
   "noSubtitles": [
     "Back to your local model peasant",
@@ -9,29 +9,35 @@
     "Limits reset, go crazy",
     "You can just build things."
   ],
-  "resetAt": null,
-  "updatedAt": 1775030055458,
+  "resetAt": 1775677736305,
+  "updatedAt": 1775605736305,
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1775541280188,
-      "rationale": "Reply praising OpenCode/GPT; no mention of limits, caps, or usage resetting.",
-      "tweetId": "2041388379871523141",
-      "tweetUrl": "https://x.com/thsottiaux/status/2041388379871523141",
-      "verdict": "not_reset"
+      "decidedAt": 1775605736305,
+      "rationale": "The tweet explicitly says \"we’re resetting rate limits\" and tells users to enjoy now, clearly indicating usage limits have been reset.",
+      "tweetId": "2041655710346572085",
+      "tweetUrl": "https://x.com/thsottiaux/status/2041655710346572085",
+      "verdict": "reset_confirmed"
     },
     "lastError": null,
-    "lastSeenTweetId": "2041388379871523141",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2041388379871523141",
-    "pendingReview": {
-      "confidence": 0.95,
-      "createdAt": 1775455926496,
-      "rationale": "Reply says only \"Probably true\" with no visible context, so it does not clearly confirm limits have reset.",
-      "tweetId": "2041014631729406337",
-      "tweetText": "@kr0der Probably true",
-      "tweetUrl": "https://x.com/thsottiaux/status/2041014631729406337"
-    },
+    "lastSeenTweetId": "2041655710346572085",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2041655710346572085",
+    "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1775605736305,
+        "inputTokens": 376,
+        "outputTokens": 91,
+        "rationale": "The tweet explicitly says \"we’re resetting rate limits\" and tells users to enjoy now, clearly indicating usage limits have been reset.",
+        "reasoningTokens": 36,
+        "totalTokens": 467,
+        "tweetId": "2041655710346572085",
+        "tweetText": "Three million people are now using Codex weekly - up from two million a little under a month ago. Incredible to see the growth. Thank you to all of you and to the ecosystem we’re part of. To celebrate, we’re resetting rate limits so you can keep building, and we’ll reset them every additional 1M users until we reach 10M, so we can keep celebrating along the way.\n\nEnjoy and thank you!",
+        "tweetUrl": "https://x.com/thsottiaux/status/2041655710346572085",
+        "verdict": "reset_confirmed"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1775541280188,
@@ -278,29 +284,31 @@
         "tweetText": "@kenwheeler GPT-5.4-Mini is good imo",
         "tweetUrl": "https://x.com/thsottiaux/status/2040231672554422781",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.98,
-        "evaluatedAt": 1775264309042,
-        "inputTokens": 292,
-        "outputTokens": 104,
-        "rationale": "Just a conversational reply ('LFG!') with no mention of limits, caps, reset, or availability returning.",
-        "reasoningTokens": 53,
-        "totalTokens": 396,
-        "tweetId": "2040230678122623136",
-        "tweetText": "@simpsoka LFG!",
-        "tweetUrl": "https://x.com/thsottiaux/status/2040230678122623136",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 19556,
-      "totalOutputTokens": 6321,
-      "totalReasoningTokens": 3111,
-      "totalTokens": 25877
+      "totalInputTokens": 19932,
+      "totalOutputTokens": 6412,
+      "totalReasoningTokens": 3147,
+      "totalTokens": 26344
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1775605736305,
+      "inputTokens": 376,
+      "message": "",
+      "outputTokens": 91,
+      "rationale": "The tweet explicitly says \"we’re resetting rate limits\" and tells users to enjoy now, clearly indicating usage limits have been reset.",
+      "reasoningTokens": 36,
+      "totalTokens": 467,
+      "tweetId": "2041655710346572085",
+      "tweetText": "Three million people are now using Codex weekly - up from two million a little under a month ago. Incredible to see the growth. Thank you to all of you and to the ecosystem we’re part of. To celebrate, we’re resetting rate limits so you can keep building, and we’ll reset them every additional 1M users until we reach 10M, so we can keep celebrating along the way.\n\nEnjoy and thank you!",
+      "tweetUrl": "https://x.com/thsottiaux/status/2041655710346572085",
+      "type": "reset_confirmed",
+      "verdict": "reset_confirmed"
+    },
     {
       "confidence": 0,
       "createdAt": 1775580562187,
@@ -885,27 +893,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2039485932743868455",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.95,
-      "createdAt": 1775086289362,
-      "inputTokens": 306,
-      "message": "",
-      "outputTokens": 149,
-      "rationale": "Joking reply about a 'Codex reset button' but does not clearly state that Codex or ChatGPT limits/rate caps have reset or are available again.",
-      "reasoningTokens": 88,
-      "totalTokens": 455,
-      "tweetId": "2039485566815973415",
-      "tweetText": "@Polymarket 👀 I should really stop pressing that big Codex reset button on my desk",
-      "tweetUrl": "https://x.com/thsottiaux/status/2039485566815973415",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "ok2yuAKDD1K4E_PIzbtkVg8jZwJnkrFpqT_T8OBxQOWwJ0DHVgwL8TDTZA",
-    "iv": "PwCQFDqgev0BQpis",
-    "tag": "0KOTpffh4SI5hsLd2JcqEg",
+    "ciphertext": "PYWLwc7Ynq0pkGQEB32njnufjFGHid9Q-WeYhzDB3blKQ5vTEK_1yJYKNQ",
+    "iv": "FczdK6Gej2YZPT8U",
+    "tag": "WrHj8qz_hWMsw9GjabfSfQ",
     "version": 1
   }
 }
