@@ -21,7 +21,8 @@ const noSubtitleList = document.querySelector("#noSubtitleList");
 const yesSubtitleList = document.querySelector("#yesSubtitleList");
 const addNoSubtitleButton = document.querySelector("#addNoSubtitleButton");
 const addYesSubtitleButton = document.querySelector("#addYesSubtitleButton");
-const saveSubtitlesButton = document.querySelector("#saveSubtitlesButton");
+const saveNoSubtitlesButton = document.querySelector("#saveNoSubtitlesButton");
+const saveYesSubtitlesButton = document.querySelector("#saveYesSubtitlesButton");
 const runAutomationButton = document.querySelector("#runAutomationButton");
 const reviewResetButton = document.querySelector("#reviewResetButton");
 const reviewNotResetButton = document.querySelector("#reviewNotResetButton");
@@ -604,6 +605,14 @@ const createSubtitleRow = (tone, value, index) => {
     clearNotice();
     subtitleState[index] = event.target.value;
   });
+  input.addEventListener("keydown", async (event) => {
+    if (event.key !== "Enter") {
+      return;
+    }
+
+    event.preventDefault();
+    await saveSubtitles();
+  });
 
   const removeButton = document.createElement("button");
   removeButton.className = "config-icon-button";
@@ -654,6 +663,16 @@ const refreshConfig = async () => {
 
     showAuth(error.message || "Unable to load config");
   }
+};
+
+const saveSubtitles = async () => {
+  await runConfigAction(async () => {
+    const config = await updateAdminConfig({
+      noSubtitles: currentNoSubtitles,
+      yesSubtitles: currentYesSubtitles,
+    });
+    renderConfig(config);
+  }, "Subtitles saved.");
 };
 
 const saveHours = async () => {
@@ -716,15 +735,8 @@ addYesSubtitleButton?.addEventListener("click", () => {
   renderSubtitleInputs("yes");
 });
 
-saveSubtitlesButton?.addEventListener("click", async () => {
-  await runConfigAction(async () => {
-    const config = await updateAdminConfig({
-      noSubtitles: currentNoSubtitles,
-      yesSubtitles: currentYesSubtitles,
-    });
-    renderConfig(config);
-  }, "Subtitles saved.");
-});
+saveNoSubtitlesButton?.addEventListener("click", saveSubtitles);
+saveYesSubtitlesButton?.addEventListener("click", saveSubtitles);
 
 logoutButton?.addEventListener("click", async () => {
   await runConfigAction(async () => {
