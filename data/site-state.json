@@ -13,17 +13,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1775634512918,
-      "rationale": "The post is just a brief reply with no mention of limits, caps, reset, or availability returning.",
-      "tweetId": "2041749947385815109",
-      "tweetUrl": "https://x.com/thsottiaux/status/2041749947385815109",
+      "decidedAt": 1775634516740,
+      "rationale": "This tweet is a general personal/status update and does not mention rate limits, caps, resets, or usage availability.",
+      "tweetId": "2041751911964274753",
+      "tweetUrl": "https://x.com/thsottiaux/status/2041751911964274753",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2041749947385815109",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2041749947385815109",
+    "lastSeenTweetId": "2041751911964274753",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2041751911964274753",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1775634516740,
+        "inputTokens": 305,
+        "outputTokens": 49,
+        "rationale": "This tweet is a general personal/status update and does not mention rate limits, caps, resets, or usage availability.",
+        "reasoningTokens": 0,
+        "totalTokens": 354,
+        "tweetId": "2041751911964274753",
+        "tweetText": "Unreasonably excited about things. The next few weeks will be intense (and fun!).",
+        "tweetUrl": "https://x.com/thsottiaux/status/2041751911964274753",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1775634512918,
@@ -270,29 +283,31 @@
         "tweetText": "@badlogicgames 👀",
         "tweetUrl": "https://x.com/thsottiaux/status/2040535236703097246",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1775264316438,
-        "inputTokens": 300,
-        "outputTokens": 69,
-        "rationale": "Reply recommending installing Codex; no mention of limits, caps, reset, or usage becoming available again.",
-        "reasoningTokens": 20,
-        "totalTokens": 369,
-        "tweetId": "2040232278824288333",
-        "tweetText": "@nateliason npm i -g @openai/codex",
-        "tweetUrl": "https://x.com/thsottiaux/status/2040232278824288333",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 20226,
-      "totalOutputTokens": 6487,
+      "totalInputTokens": 20531,
+      "totalOutputTokens": 6536,
       "totalReasoningTokens": 3173,
-      "totalTokens": 26713
+      "totalTokens": 27067
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1775634516740,
+      "inputTokens": 305,
+      "message": "",
+      "outputTokens": 49,
+      "rationale": "This tweet is a general personal/status update and does not mention rate limits, caps, resets, or usage availability.",
+      "reasoningTokens": 0,
+      "totalTokens": 354,
+      "tweetId": "2041751911964274753",
+      "tweetText": "Unreasonably excited about things. The next few weeks will be intense (and fun!).",
+      "tweetUrl": "https://x.com/thsottiaux/status/2041751911964274753",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1775634512918,
@@ -877,27 +892,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2039595373174599927",
       "type": "review_requested",
       "verdict": "uncertain"
-    },
-    {
-      "confidence": 0.95,
-      "createdAt": 1775107036339,
-      "inputTokens": 309,
-      "message": "",
-      "outputTokens": 161,
-      "rationale": "The tweet comments on Codex growth and timing, but does not mention limits, caps, rate limits, or usage becoming available again.",
-      "reasoningTokens": 106,
-      "totalTokens": 470,
-      "tweetId": "2039550028444991515",
-      "tweetText": "Codex growth goes weeee. And it's not even next week. Who even works on April 1st.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2039550028444991515",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "dMsY_EoD4jnWT1p05Oy2iJ1Ix4iK83Q8uxFEQroS5bXeFyd--bElRjSikg",
-    "iv": "Hz66iLrwwTDw98sg",
-    "tag": "7Bzz4FLsm18mmmOB3Klk3g",
+    "ciphertext": "N5m0DhIMqdkVI_2FXNoZc5T_zBtXbzEgcC3MAdKUzqTQt9FR-NYNui3-8A",
+    "iv": "mHTwXe0uhHEJdTkc",
+    "tag": "w3E-lAy2DZJE73jgXSx8JQ",
     "version": 1
   }
 }
