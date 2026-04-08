@@ -13,17 +13,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1775634516740,
-      "rationale": "This tweet is a general personal/status update and does not mention rate limits, caps, resets, or usage availability.",
-      "tweetId": "2041751911964274753",
-      "tweetUrl": "https://x.com/thsottiaux/status/2041751911964274753",
+      "decidedAt": 1775670385473,
+      "rationale": "This is just a reply asking about the user's plan and does not state or imply that any limits or caps have reset.",
+      "tweetId": "2041927798416404869",
+      "tweetUrl": "https://x.com/thsottiaux/status/2041927798416404869",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2041751911964274753",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2041751911964274753",
+    "lastSeenTweetId": "2041927798416404869",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2041927798416404869",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1775670385473,
+        "inputTokens": 301,
+        "outputTokens": 81,
+        "rationale": "This is just a reply asking about the user's plan and does not state or imply that any limits or caps have reset.",
+        "reasoningTokens": 29,
+        "totalTokens": 382,
+        "tweetId": "2041927798416404869",
+        "tweetText": "@mcmagify @PaytonHalas Which plan are you on?",
+        "tweetUrl": "https://x.com/thsottiaux/status/2041927798416404869",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1775634516740,
@@ -270,29 +283,31 @@
         "tweetText": "@adonis_singh It can smell the opus perfume in the circuits and tries extra hard",
         "tweetUrl": "https://x.com/thsottiaux/status/2040664391742587265",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1775337449836,
-        "inputTokens": 292,
-        "outputTokens": 87,
-        "rationale": "This reply only tags another user with an eyes emoji and gives no indication that any Codex or ChatGPT limits have reset.",
-        "reasoningTokens": 34,
-        "totalTokens": 379,
-        "tweetId": "2040535236703097246",
-        "tweetText": "@badlogicgames 👀",
-        "tweetUrl": "https://x.com/thsottiaux/status/2040535236703097246",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 20531,
-      "totalOutputTokens": 6536,
-      "totalReasoningTokens": 3173,
-      "totalTokens": 27067
+      "totalInputTokens": 20832,
+      "totalOutputTokens": 6617,
+      "totalReasoningTokens": 3202,
+      "totalTokens": 27449
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1775670385473,
+      "inputTokens": 301,
+      "message": "",
+      "outputTokens": 81,
+      "rationale": "This is just a reply asking about the user's plan and does not state or imply that any limits or caps have reset.",
+      "reasoningTokens": 29,
+      "totalTokens": 382,
+      "tweetId": "2041927798416404869",
+      "tweetText": "@mcmagify @PaytonHalas Which plan are you on?",
+      "tweetUrl": "https://x.com/thsottiaux/status/2041927798416404869",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0,
       "createdAt": 1775649471743,
@@ -877,27 +892,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2039830319302693367",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.86,
-      "createdAt": 1775116357178,
-      "inputTokens": 295,
-      "message": "",
-      "outputTokens": 233,
-      "rationale": "Reply is too vague; it only says \"Saw it on the chart\" and does not explicitly mention limits, caps, or a reset.",
-      "reasoningTokens": 177,
-      "totalTokens": 528,
-      "tweetId": "2039595373174599927",
-      "tweetText": "@superligious Saw it on the chart",
-      "tweetUrl": "https://x.com/thsottiaux/status/2039595373174599927",
-      "type": "review_requested",
-      "verdict": "uncertain"
     }
   ],
   "privateState": {
-    "ciphertext": "E239pAQP76Flhe374toyCMtyqlOHBAcGrj1NxhdEKZd1yiRFZH6G6bUyag",
-    "iv": "10DE385k9CAWaAdy",
-    "tag": "0A0UhKHh3yHSaZbwz7egVw",
+    "ciphertext": "MnxE5GWmzikPzzuziWlDABLbHacYwupQC2SbBOQPG161X4YcUonSrCsjvg",
+    "iv": "iyMXEiulhgHbBWFT",
+    "tag": "zxjzFmgosumY59l35_nvGA",
     "version": 1
   }
 }
