@@ -13,17 +13,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1775605736305,
-      "rationale": "The tweet explicitly says \"we’re resetting rate limits\" and tells users to enjoy now, clearly indicating usage limits have been reset.",
-      "tweetId": "2041655710346572085",
-      "tweetUrl": "https://x.com/thsottiaux/status/2041655710346572085",
-      "verdict": "reset_confirmed"
+      "decidedAt": 1775634512918,
+      "rationale": "The post is just a brief reply with no mention of limits, caps, reset, or availability returning.",
+      "tweetId": "2041749947385815109",
+      "tweetUrl": "https://x.com/thsottiaux/status/2041749947385815109",
+      "verdict": "not_reset"
     },
-    "lastError": "Tweet fetch failed: Request failed with status code 404 (Request failed with status code 404)",
-    "lastSeenTweetId": "2041655710346572085",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2041655710346572085",
+    "lastError": null,
+    "lastSeenTweetId": "2041749947385815109",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2041749947385815109",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1775634512918,
+        "inputTokens": 294,
+        "outputTokens": 75,
+        "rationale": "The post is just a brief reply with no mention of limits, caps, reset, or availability returning.",
+        "reasoningTokens": 26,
+        "totalTokens": 369,
+        "tweetId": "2041749947385815109",
+        "tweetText": "@adonis_singh Uhm",
+        "tweetUrl": "https://x.com/thsottiaux/status/2041749947385815109",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1775605736305,
@@ -270,29 +283,31 @@
         "tweetText": "@nateliason npm i -g @openai/codex",
         "tweetUrl": "https://x.com/thsottiaux/status/2040232278824288333",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1775264312791,
-        "inputTokens": 301,
-        "outputTokens": 116,
-        "rationale": "This reply is just an opinion about the GPT-5.4-Mini model and does not mention limits, caps, availability, or a reset.",
-        "reasoningTokens": 58,
-        "totalTokens": 417,
-        "tweetId": "2040231672554422781",
-        "tweetText": "@kenwheeler GPT-5.4-Mini is good imo",
-        "tweetUrl": "https://x.com/thsottiaux/status/2040231672554422781",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 19932,
-      "totalOutputTokens": 6412,
-      "totalReasoningTokens": 3147,
-      "totalTokens": 26344
+      "totalInputTokens": 20226,
+      "totalOutputTokens": 6487,
+      "totalReasoningTokens": 3173,
+      "totalTokens": 26713
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1775634512918,
+      "inputTokens": 294,
+      "message": "",
+      "outputTokens": 75,
+      "rationale": "The post is just a brief reply with no mention of limits, caps, reset, or availability returning.",
+      "reasoningTokens": 26,
+      "totalTokens": 369,
+      "tweetId": "2041749947385815109",
+      "tweetText": "@adonis_singh Uhm",
+      "tweetUrl": "https://x.com/thsottiaux/status/2041749947385815109",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0,
       "createdAt": 1775627840304,
@@ -877,27 +892,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2039550028444991515",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1775087990327,
-      "inputTokens": 304,
-      "message": "",
-      "outputTokens": 102,
-      "rationale": "Reply about \"blender and fridge lines\"; no mention or implication of Codex/ChatGPT limits resetting.",
-      "reasoningTokens": 51,
-      "totalTokens": 406,
-      "tweetId": "2039485932743868455",
-      "tweetText": "@lindsmccallum Will give you advance notice on the blender and fridge lines",
-      "tweetUrl": "https://x.com/thsottiaux/status/2039485932743868455",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "qN1WVOyucG21APFbQtmYTYWTljIDdTjQeAn8Qxr-eCJfDAX6vXv2UAO1bg",
-    "iv": "Srd1WLladhYrFMTc",
-    "tag": "pzGHwnDucxQncSbEg-pVIg",
+    "ciphertext": "dMsY_EoD4jnWT1p05Oy2iJ1Ix4iK83Q8uxFEQroS5bXeFyd--bElRjSikg",
+    "iv": "Hz66iLrwwTDw98sg",
+    "tag": "7Bzz4FLsm18mmmOB3Klk3g",
     "version": 1
   }
 }
