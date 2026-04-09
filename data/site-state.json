@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1775764030820,
-      "rationale": "Reply is conversational and contains no mention of limits, caps, availability, or resets.",
-      "tweetId": "2042320395051941979",
-      "tweetUrl": "https://x.com/thsottiaux/status/2042320395051941979",
+      "decidedAt": 1775764035047,
+      "rationale": "Reply is conversational and contains no mention of ChatGPT/Codex limits, caps, availability, or resets.",
+      "tweetId": "2042321315093434686",
+      "tweetUrl": "https://x.com/thsottiaux/status/2042321315093434686",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2042320395051941979",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2042320395051941979",
+    "lastSeenTweetId": "2042321315093434686",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2042321315093434686",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1775764035048,
+        "inputTokens": 304,
+        "outputTokens": 96,
+        "rationale": "Reply is conversational and contains no mention of ChatGPT/Codex limits, caps, availability, or resets.",
+        "reasoningTokens": 46,
+        "totalTokens": 400,
+        "tweetId": "2042321315093434686",
+        "tweetText": "@badlogicgames as nice as hundreds of thousands of people chanting in unison can be",
+        "tweetUrl": "https://x.com/thsottiaux/status/2042321315093434686",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1775764030820,
@@ -272,29 +285,31 @@
         "tweetText": "@kr0der Probably true",
         "tweetUrl": "https://x.com/thsottiaux/status/2041014631729406337",
         "verdict": "uncertain"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1775455920879,
-        "inputTokens": 308,
-        "outputTokens": 101,
-        "rationale": "Reply about Codex teaching someone; no mention of limits, caps, reset, or availability returning.",
-        "reasoningTokens": 53,
-        "totalTokens": 409,
-        "tweetId": "2041014438313222375",
-        "tweetText": "@thdxr Do not fret. Codex can teach you to be a wizard in 6 easy steps.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2041014438313222375",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 23734,
-      "totalOutputTokens": 7658,
-      "totalReasoningTokens": 3803,
-      "totalTokens": 31392
+      "totalInputTokens": 24038,
+      "totalOutputTokens": 7754,
+      "totalReasoningTokens": 3849,
+      "totalTokens": 31792
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1775764035048,
+      "inputTokens": 304,
+      "message": "",
+      "outputTokens": 96,
+      "rationale": "Reply is conversational and contains no mention of ChatGPT/Codex limits, caps, availability, or resets.",
+      "reasoningTokens": 46,
+      "totalTokens": 400,
+      "tweetId": "2042321315093434686",
+      "tweetText": "@badlogicgames as nice as hundreds of thousands of people chanting in unison can be",
+      "tweetUrl": "https://x.com/thsottiaux/status/2042321315093434686",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1775764030820,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2040135678965714952",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1775201923934,
-      "inputTokens": 290,
-      "message": "",
-      "outputTokens": 70,
-      "rationale": "Reply saying only “Welcome”; no mention or implication of limits, caps, or reset status.",
-      "reasoningTokens": 23,
-      "totalTokens": 360,
-      "tweetId": "2039966705645179064",
-      "tweetText": "@svpino Welcome",
-      "tweetUrl": "https://x.com/thsottiaux/status/2039966705645179064",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "G7is3QWiLn2Do_65piuS9Z9n1We6ojMpAfLPGyaeDbA-2lo_gmpCi3VVaA",
-    "iv": "sJqzrW0Tv1AuGtD4",
-    "tag": "S9rRY5QHeuRomLH5gY8u5w",
+    "ciphertext": "79Ac0qcVwJoQKqvxTaZId0gTnizy3i0X5k_51sJ4OmRRgNuZ8hN9lpxMAg",
+    "iv": "airdtD8b_AM4uVJ5",
+    "tag": "_2OAS101fsAw_m8H-2aJZA",
     "version": 1
   }
 }
