@@ -10,22 +10,35 @@
     "Limits reset, go crazy",
     "You can just build things"
   ],
-  "resetAt": 1775831532261,
-  "updatedAt": 1775760668477,
+  "resetAt": 1775836047465,
+  "updatedAt": 1775764047465,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1775764035047,
-      "rationale": "Reply is conversational and contains no mention of ChatGPT/Codex limits, caps, availability, or resets.",
-      "tweetId": "2042321315093434686",
-      "tweetUrl": "https://x.com/thsottiaux/status/2042321315093434686",
-      "verdict": "not_reset"
+      "confidence": 0.87,
+      "decidedAt": 1775764047465,
+      "rationale": "The quoted post explicitly says Codex rate limits are being reset now; the new tweet discusses when the next reset will be needed, implying a reset has already happened.",
+      "tweetId": "2042325164902531427",
+      "tweetUrl": "https://x.com/thsottiaux/status/2042325164902531427",
+      "verdict": "reset_confirmed"
     },
     "lastError": null,
-    "lastSeenTweetId": "2042321315093434686",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2042321315093434686",
+    "lastSeenTweetId": "2042325164902531427",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2042325164902531427",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.87,
+        "evaluatedAt": 1775764047465,
+        "inputTokens": 426,
+        "outputTokens": 578,
+        "rationale": "The quoted post explicitly says Codex rate limits are being reset now; the new tweet discusses when the next reset will be needed, implying a reset has already happened.",
+        "reasoningTokens": 516,
+        "totalTokens": 1004,
+        "tweetId": "2042325164902531427",
+        "tweetText": "At the current codex growth pace, we will owe you all another reset in less than two weeks. Would be funny to reach a state where these happen more than once a week before we reach 10M. Scrambling to get the capacity online.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2042325164902531427",
+        "verdict": "reset_confirmed"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1775764035048,
@@ -272,29 +285,31 @@
         "tweetText": "@asishcodes Don’t feed codex, let it cook for you",
         "tweetUrl": "https://x.com/thsottiaux/status/2041024476096483544",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.95,
-        "evaluatedAt": 1775455926496,
-        "inputTokens": 292,
-        "outputTokens": 205,
-        "rationale": "Reply says only \"Probably true\" with no visible context, so it does not clearly confirm limits have reset.",
-        "reasoningTokens": 155,
-        "totalTokens": 497,
-        "tweetId": "2041014631729406337",
-        "tweetText": "@kr0der Probably true",
-        "tweetUrl": "https://x.com/thsottiaux/status/2041014631729406337",
-        "verdict": "uncertain"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 24038,
-      "totalOutputTokens": 7754,
-      "totalReasoningTokens": 3849,
-      "totalTokens": 31792
+      "totalInputTokens": 24464,
+      "totalOutputTokens": 8332,
+      "totalReasoningTokens": 4365,
+      "totalTokens": 32796
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.87,
+      "createdAt": 1775764047465,
+      "inputTokens": 426,
+      "message": "",
+      "outputTokens": 578,
+      "rationale": "The quoted post explicitly says Codex rate limits are being reset now; the new tweet discusses when the next reset will be needed, implying a reset has already happened.",
+      "reasoningTokens": 516,
+      "totalTokens": 1004,
+      "tweetId": "2042325164902531427",
+      "tweetText": "At the current codex growth pace, we will owe you all another reset in less than two weeks. Would be funny to reach a state where these happen more than once a week before we reach 10M. Scrambling to get the capacity online.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2042325164902531427",
+      "type": "reset_confirmed",
+      "verdict": "reset_confirmed"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1775764035048,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2040185497415565442",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1775244292988,
-      "inputTokens": 305,
-      "message": "",
-      "outputTokens": 82,
-      "rationale": "Reply about traffic geography; no mention of limits, caps, resets, or usage becoming available again.",
-      "reasoningTokens": 34,
-      "totalTokens": 387,
-      "tweetId": "2040135678965714952",
-      "tweetText": "@badlogicgames The assumption that most of the traffic is from the USA is funny to me",
-      "tweetUrl": "https://x.com/thsottiaux/status/2040135678965714952",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "79Ac0qcVwJoQKqvxTaZId0gTnizy3i0X5k_51sJ4OmRRgNuZ8hN9lpxMAg",
-    "iv": "airdtD8b_AM4uVJ5",
-    "tag": "_2OAS101fsAw_m8H-2aJZA",
+    "ciphertext": "QQimxpNT7BvCUUQ9MQhwhhe5PQABCfgb6LEtRMtyY6W5IHMqrhCBu-IeCw",
+    "iv": "AQLY5KaT73BQTIk6",
+    "tag": "WLmhnrK6QUOX_2C9FVcDDg",
     "version": 1
   }
 }
