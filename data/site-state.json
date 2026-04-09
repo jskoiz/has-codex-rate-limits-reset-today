@@ -7,10 +7,11 @@
     "cmon tibo..please"
   ],
   "yesSubtitles": [
-    "Thanks @sama"
+    "Thanks @sama",
+    "Limits reset, go crazy"
   ],
   "resetAt": null,
-  "updatedAt": 1775753304595,
+  "updatedAt": 1775753316599,
   "automation": {
     "lastDecision": {
       "confidence": 0.96,
@@ -903,9 +904,9 @@
     }
   ],
   "privateState": {
-    "ciphertext": "bvCOAJ5bR5HWzjX250ff7l7ZrjgE14y7eMIQb-FUBjS5B8wDcVMbSIUCsg",
-    "iv": "sfSfEY6kk9N35v44",
-    "tag": "sWbfiuI06JB3C1OYlmnCcw",
+    "ciphertext": "SW497JqWBW3nHrhMI14UEXTGplB6GUhh__h6OpU8a7mr9tiCtAzvutG3oA",
+    "iv": "xQBpbRnatF7L1dNC",
+    "tag": "bflHrL8Gpq2ZmNcym6w3Mw",
     "version": 1
   }
 }
