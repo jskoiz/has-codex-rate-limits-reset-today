@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1775764027900,
-      "rationale": "This discusses extending a 2X limits promotion for Pro plans, not that rate limits have reset or become available again now.",
-      "tweetId": "2042299561247670325",
-      "tweetUrl": "https://x.com/thsottiaux/status/2042299561247670325",
+      "decidedAt": 1775764030820,
+      "rationale": "Reply is conversational and contains no mention of limits, caps, availability, or resets.",
+      "tweetId": "2042320395051941979",
+      "tweetUrl": "https://x.com/thsottiaux/status/2042320395051941979",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2042299561247670325",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2042299561247670325",
+    "lastSeenTweetId": "2042320395051941979",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2042320395051941979",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1775764030820,
+        "inputTokens": 298,
+        "outputTokens": 80,
+        "rationale": "Reply is conversational and contains no mention of limits, caps, availability, or resets.",
+        "reasoningTokens": 35,
+        "totalTokens": 378,
+        "tweetId": "2042320395051941979",
+        "tweetText": "@PaulNeverovsky we know our people when we see them",
+        "tweetUrl": "https://x.com/thsottiaux/status/2042320395051941979",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1775764027900,
@@ -272,29 +285,31 @@
         "tweetText": "@thdxr Do not fret. Codex can teach you to be a wizard in 6 easy steps.",
         "tweetUrl": "https://x.com/thsottiaux/status/2041014438313222375",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.95,
-        "evaluatedAt": 1775448942489,
-        "inputTokens": 301,
-        "outputTokens": 219,
-        "rationale": "A conversational reply about not having announced something yet; it does not mention limits, caps, resets, or restored availability.",
-        "reasoningTokens": 167,
-        "totalTokens": 520,
-        "tweetId": "2041000202417717474",
-        "tweetText": "@Eduardopto We haven't even announced anything. Give us a second",
-        "tweetUrl": "https://x.com/thsottiaux/status/2041000202417717474",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 23436,
-      "totalOutputTokens": 7578,
-      "totalReasoningTokens": 3768,
-      "totalTokens": 31014
+      "totalInputTokens": 23734,
+      "totalOutputTokens": 7658,
+      "totalReasoningTokens": 3803,
+      "totalTokens": 31392
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1775764030820,
+      "inputTokens": 298,
+      "message": "",
+      "outputTokens": 80,
+      "rationale": "Reply is conversational and contains no mention of limits, caps, availability, or resets.",
+      "reasoningTokens": 35,
+      "totalTokens": 378,
+      "tweetId": "2042320395051941979",
+      "tweetText": "@PaulNeverovsky we know our people when we see them",
+      "tweetUrl": "https://x.com/thsottiaux/status/2042320395051941979",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1775764027900,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2039966705645179064",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1775201920588,
-      "inputTokens": 298,
-      "message": "",
-      "outputTokens": 102,
-      "rationale": "A conversational reply about a seat being given away; no mention or implication of limits, caps, or usage becoming available again.",
-      "reasoningTokens": 49,
-      "totalTokens": 400,
-      "tweetId": "2039965345486901273",
-      "tweetText": "@ziwenxu_ Gave your seat to someone else",
-      "tweetUrl": "https://x.com/thsottiaux/status/2039965345486901273",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "K__lV5utkvsLSspELVewB0LatnC5SIdlPqX8kgpMaJ7DTazx84qtkCzUag",
-    "iv": "jEApnOWvTsaoX5A4",
-    "tag": "-Q_iDotbYReutR_Ud3KFvw",
+    "ciphertext": "G7is3QWiLn2Do_65piuS9Z9n1We6ojMpAfLPGyaeDbA-2lo_gmpCi3VVaA",
+    "iv": "sJqzrW0Tv1AuGtD4",
+    "tag": "S9rRY5QHeuRomLH5gY8u5w",
     "version": 1
   }
 }
