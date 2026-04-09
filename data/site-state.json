@@ -14,18 +14,31 @@
   "updatedAt": 1775760668477,
   "automation": {
     "lastDecision": {
-      "confidence": 0.97,
-      "decidedAt": 1775759532261,
-      "rationale": "The tweet explicitly says \"we are resetting the limits again,\" directly indicating usage limits are being reset now.",
-      "tweetId": "2042299371602264319",
-      "tweetUrl": "https://x.com/thsottiaux/status/2042299371602264319",
-      "verdict": "reset_confirmed"
+      "confidence": 0.99,
+      "decidedAt": 1775764027900,
+      "rationale": "This discusses extending a 2X limits promotion for Pro plans, not that rate limits have reset or become available again now.",
+      "tweetId": "2042299561247670325",
+      "tweetUrl": "https://x.com/thsottiaux/status/2042299561247670325",
+      "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2042299371602264319",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2042299371602264319",
+    "lastSeenTweetId": "2042299561247670325",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2042299561247670325",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1775764027900,
+        "inputTokens": 305,
+        "outputTokens": 81,
+        "rationale": "This discusses extending a 2X limits promotion for Pro plans, not that rate limits have reset or become available again now.",
+        "reasoningTokens": 28,
+        "totalTokens": 386,
+        "tweetId": "2042299561247670325",
+        "tweetText": "Pro $100 and $200 come with 2X limits promotion, which we are extending",
+        "tweetUrl": "https://x.com/thsottiaux/status/2042299561247670325",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.97,
         "evaluatedAt": 1775759532261,
@@ -272,29 +285,31 @@
         "tweetText": "@Eduardopto We haven't even announced anything. Give us a second",
         "tweetUrl": "https://x.com/thsottiaux/status/2041000202417717474",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1775448937201,
-        "inputTokens": 293,
-        "outputTokens": 49,
-        "rationale": "The tweet is a general comment about Codex and does not mention limits, caps, resets, or availability returning.",
-        "reasoningTokens": 0,
-        "totalTokens": 342,
-        "tweetId": "2040997506927284654",
-        "tweetText": "Codex is for wizards",
-        "tweetUrl": "https://x.com/thsottiaux/status/2040997506927284654",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 23131,
-      "totalOutputTokens": 7497,
-      "totalReasoningTokens": 3740,
-      "totalTokens": 30628
+      "totalInputTokens": 23436,
+      "totalOutputTokens": 7578,
+      "totalReasoningTokens": 3768,
+      "totalTokens": 31014
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1775764027900,
+      "inputTokens": 305,
+      "message": "",
+      "outputTokens": 81,
+      "rationale": "This discusses extending a 2X limits promotion for Pro plans, not that rate limits have reset or become available again now.",
+      "reasoningTokens": 28,
+      "totalTokens": 386,
+      "tweetId": "2042299561247670325",
+      "tweetText": "Pro $100 and $200 come with 2X limits promotion, which we are extending",
+      "tweetUrl": "https://x.com/thsottiaux/status/2042299561247670325",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.97,
       "createdAt": 1775759532261,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2039965345486901273",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1775201915831,
-      "inputTokens": 293,
-      "message": "",
-      "outputTokens": 76,
-      "rationale": "Reply saying \"The codex effect\" does not mention limits, caps, or usage resetting.",
-      "reasoningTokens": 29,
-      "totalTokens": 369,
-      "tweetId": "2039964496870195439",
-      "tweetText": "@kais_rad The codex effect",
-      "tweetUrl": "https://x.com/thsottiaux/status/2039964496870195439",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "K_S6H0X2XbNJbpNsVmGEfhYyIgy6wf8wvHkHOOyTlyulEqgqra8ywwoXkw",
-    "iv": "sqK5RhNUCSyvezDi",
-    "tag": "IxmmGCHyeVb1dK23hzLJvA",
+    "ciphertext": "K__lV5utkvsLSspELVewB0LatnC5SIdlPqX8kgpMaJ7DTazx84qtkCzUag",
+    "iv": "jEApnOWvTsaoX5A4",
+    "tag": "-Q_iDotbYReutR_Ud3KFvw",
     "version": 1
   }
 }
