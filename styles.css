@@ -241,6 +241,10 @@ p {
   text-align: left;
 }
 
+.automation-trace[data-mode="inactive"] {
+  width: min(32rem, calc(100% - 4.5rem));
+}
+
 .automation-trace-grid {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
@@ -272,7 +276,7 @@ p {
 
 .automation-trace-card:hover::after,
 .automation-trace-card:focus-within::after {
-  background: rgba(255, 255, 255, 0.06);
+  background: rgba(255, 255, 255, 0.1);
 }
 
 .automation-trace-link {
@@ -283,6 +287,24 @@ p {
   grid-area: reason;
 }
 
+.automation-trace-card-inactive {
+  display: none;
+  border-right: 0;
+  border-bottom: 1px solid rgba(17, 17, 17, 0.08);
+  padding-top: 0.62rem;
+  padding-bottom: 0.64rem;
+  color: inherit;
+  text-decoration: none;
+}
+
+.automation-trace-card-inactive-latest {
+  grid-area: inactive-latest;
+}
+
+.automation-trace-card-inactive-reset {
+  grid-area: inactive-reset;
+}
+
 .automation-trace-card-inline-full {
   grid-area: tokens;
 }
@@ -291,6 +313,39 @@ p {
 .automation-trace-card-reason {
   min-height: 8.5rem;
   border-bottom: 1px solid rgba(17, 17, 17, 0.08);
+}
+
+.automation-trace[data-mode="inactive"] .automation-trace-link,
+.automation-trace[data-mode="inactive"] .automation-trace-card-reason {
+  min-height: 7.2rem;
+}
+
+.automation-trace[data-mode="inactive"] .automation-trace-grid {
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "inactive-latest"
+    "tokens"
+    "inactive-reset";
+}
+
+.automation-trace[data-mode="inactive"] .automation-trace-card-inactive {
+  display: block;
+}
+
+.automation-trace[data-mode="inactive"] .automation-trace-link {
+  display: none;
+}
+
+.automation-trace[data-mode="inactive"] .automation-trace-card-reason {
+  display: none;
+}
+
+.automation-trace[data-mode="inactive"] .automation-trace-card-inline-full {
+  border-bottom: 1px solid rgba(17, 17, 17, 0.08);
+}
+
+.automation-trace[data-mode="inactive"] .automation-trace-card-inactive-reset {
+  border-bottom: 0;
 }
 
 .automation-trace-card-reason,
@@ -319,6 +374,10 @@ p {
 }
 
 .automation-trace-link[data-empty="true"] {
+  pointer-events: none;
+}
+
+.automation-trace-card-inactive[data-empty="true"] {
   pointer-events: none;
 }
 
@@ -374,6 +433,54 @@ p {
   margin: 0;
 }
 
+.automation-trace-inline-status {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.22rem;
+  color: var(--ghost-ink);
+  font-size: 0.7rem;
+  font-variant-numeric: tabular-nums;
+  white-space: normal;
+}
+
+.automation-trace-status-row {
+  display: flex;
+  align-items: baseline;
+  gap: 0.88rem 1.05rem;
+  min-width: 0;
+  white-space: nowrap;
+}
+
+.automation-trace-status-item {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.32rem;
+  min-width: 0;
+}
+
+.automation-trace-label-inline {
+  color: var(--ghost-ink);
+  font-size: 0.65rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.automation-trace-value-inline {
+  color: var(--ghost-ink-strong);
+  font-size: 0.74rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.automation-trace-value-inline[data-state="yes"] {
+  color: #269c58;
+}
+
+.automation-trace-value-inline[data-state="no"] {
+  color: #f5a623;
+}
+
 .automation-trace-reason {
   margin: 0;
   max-width: none;
@@ -407,6 +514,10 @@ p {
   font-size: 0.7rem;
   font-variant-numeric: tabular-nums;
   white-space: nowrap;
+}
+
+.automation-trace-inline-tokens [hidden] {
+  display: none;
 }
 
 .automation-trace-inline-tokens strong {
@@ -475,6 +586,10 @@ p {
   .automation-trace {
     width: min(54rem, calc(100% - 3rem));
   }
+
+  .automation-trace[data-mode="inactive"] {
+    width: min(31rem, calc(100% - 3rem));
+  }
 }
 
 @media (max-width: 720px) {
@@ -522,6 +637,16 @@ p {
     border-right: 0;
   }
 
+  .automation-trace[data-mode="inactive"] .automation-trace-link,
+  .automation-trace[data-mode="inactive"] .automation-trace-card-reason {
+    min-height: 0;
+  }
+
+  .automation-trace[data-mode="inactive"] .automation-trace-card-inactive {
+    padding-top: 0.54rem;
+    padding-bottom: 0.56rem;
+  }
+
   .automation-trace-link,
   .automation-trace-card-reason {
     min-height: 0;
@@ -561,6 +686,28 @@ p {
     gap: 0.45rem;
     flex-wrap: wrap;
     white-space: normal;
+  }
+
+  .automation-trace-inline-status {
+    gap: 0.2rem;
+  }
+
+  .automation-trace-status-row {
+    gap: 0.24rem 0.7rem;
+    flex-wrap: wrap;
+    white-space: normal;
+  }
+
+  .automation-trace-status-item {
+    flex-wrap: wrap;
+  }
+
+  .automation-trace-label-inline {
+    font-size: 0.54rem;
+  }
+
+  .automation-trace-value-inline {
+    font-size: 0.66rem;
   }
 
   .automation-trace-reason-foot {

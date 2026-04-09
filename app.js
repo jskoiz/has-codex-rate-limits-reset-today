@@ -7,13 +7,22 @@ const DEFAULT_YES_SUBTITLE = "Limits reset, go crazy";
 const root = document.documentElement;
 const answerValue = document.querySelector("#answerValue");
 const subtitle = document.querySelector("#subtitle");
+const automationTrace = document.querySelector(".automation-trace");
 const automationTweetLabel = document.querySelector("#automationTweetLabel");
 const automationTweetLink = document.querySelector("#automationTweetLink");
 const automationTweetText = document.querySelector("#automationTweetText");
 const automationTweetMeta = document.querySelector("#automationTweetMeta");
+const automationReasoningLabel = document.querySelector("#automationReasoningLabel");
 const automationVerdictValue = document.querySelector("#automationVerdictValue");
 const automationVerdictMeta = document.querySelector("#automationVerdictMeta");
 const automationReasoningValue = document.querySelector("#automationReasoningValue");
+const automationInactiveLatestCard = document.querySelector("#automationInactiveLatestCard");
+const automationInactiveResetCard = document.querySelector("#automationInactiveResetCard");
+const automationInactiveLatestLabel = document.querySelector("#automationInactiveLatestLabel");
+const automationInactiveLatestTime = document.querySelector("#automationInactiveLatestTime");
+const automationInactiveVerdictValue = document.querySelector("#automationInactiveVerdictValue");
+const automationInactiveResetTime = document.querySelector("#automationInactiveResetTime");
+const automationTokensLabel = document.querySelector("#automationTokensLabel");
 const automationInputTokensValue = document.querySelector("#automationInputTokensValue");
 const automationModelValue = document.querySelector("#automationModelValue");
 const automationOutputTokensValue = document.querySelector("#automationOutputTokensValue");
@@ -79,12 +88,58 @@ const formatAutomationVerdict = (value) => {
   return "Monitoring";
 };
 
+const decodeHtmlEntities = (value) => {
+  if (!value) {
+    return "";
+  }
+
+  return value.replace(/&(#x?[0-9a-f]+|[a-z]+);/gi, (_match, entity) => {
+    const normalized = String(entity).toLowerCase();
+
+    if (normalized === "amp") {
+      return "&";
+    }
+
+    if (normalized === "lt") {
+      return "<";
+    }
+
+    if (normalized === "gt") {
+      return ">";
+    }
+
+    if (normalized === "quot") {
+      return '"';
+    }
+
+    if (normalized === "apos" || normalized === "#39" || normalized === "#x27") {
+      return "'";
+    }
+
+    if (normalized === "nbsp") {
+      return " ";
+    }
+
+    if (normalized.startsWith("#x")) {
+      const codePoint = Number.parseInt(normalized.slice(2), 16);
+      return Number.isFinite(codePoint) ? String.fromCodePoint(codePoint) : `&${entity};`;
+    }
+
+    if (normalized.startsWith("#")) {
+      const codePoint = Number.parseInt(normalized.slice(1), 10);
+      return Number.isFinite(codePoint) ? String.fromCodePoint(codePoint) : `&${entity};`;
+    }
+
+    return `&${entity};`;
+  });
+};
+
 const normalizeInlineText = (value) => {
   if (!value) {
     return "";
   }
 
-  return value.replace(/\s+/g, " ").trim();
+  return decodeHtmlEntities(value).replace(/\s+/g, " ").trim();
 };
 
 const truncateText = (value, maxLength = 144) => {
@@ -104,6 +159,7 @@ const setLinkState = (element, href, fallbackText) => {
     element.href = href;
     element.dataset.empty = "false";
     element.removeAttribute("aria-disabled");
+    element.removeAttribute("aria-label");
     return;
   }
 
@@ -116,20 +172,54 @@ const setLinkState = (element, href, fallbackText) => {
   }
 };
 
+const setInactiveCardState = (visible) => {
+  if (automationInactiveLatestCard) {
+    automationInactiveLatestCard.hidden = !visible;
+  }
+
+  if (automationInactiveResetCard) {
+    automationInactiveResetCard.hidden = !visible;
+  }
+};
+
+const hasDistinctLatestCheck = (summary) => {
+  if (!summary?.latest) {
+    return false;
+  }
+
+  if (!summary.lastReset) {
+    return true;
+  }
+
+  return (
+    summary.latest.tweetId !== summary.lastReset.tweetId ||
+    summary.latest.verdict !== summary.lastReset.verdict ||
+    summary.latest.checkedAt !== summary.lastReset.checkedAt
+  );
+};
+
 const applyAutomationSummary = (summary = null) => {
   if (!automationTweetText) {
     return;
   }
 
   if (!summary) {
+    if (automationTrace) {
+      automationTrace.dataset.mode = "empty";
+    }
+    setInactiveCardState(false);
     setLinkState(automationTweetLink, null, "Waiting for first tracked post");
     automationTweetLabel.textContent = "Last tweet seen by thsottiaux";
     automationTweetText.textContent = "Waiting for first tracked post";
     automationTweetMeta.textContent = "Monitor is live.";
+    automationReasoningLabel.textContent = "Reasoning";
     automationVerdictValue.textContent = "Monitoring";
     automationVerdictValue.dataset.state = "";
     automationVerdictMeta.textContent = "No classification yet.";
     automationReasoningValue.textContent = DEFAULT_AUTOMATION_REASON;
+    automationTokensLabel.textContent = "TOKENS USED:";
+    setLinkState(automationInactiveLatestCard, null, "Waiting for first tracked post");
+    setLinkState(automationInactiveResetCard, null, "Awaiting reset");
     automationInputTokensValue.textContent = "0";
     automationModelValue.textContent = "CHATGPT-5.4";
     automationOutputTokensValue.textContent = "0";
@@ -137,26 +227,71 @@ const applyAutomationSummary = (summary = null) => {
     return;
   }
 
+  const displayEntry = summary.lastReset || summary.latest || summary;
+  const latestEntry = summary.latest || summary;
+  const latestCheckIsDistinct = summary.mode === "inactive" && hasDistinctLatestCheck(summary);
+  const tokenSource = summary.mode === "inactive" ? latestEntry || displayEntry : displayEntry;
+  const isPinnedReset = Boolean(summary.lastReset) || displayEntry.verdict === "reset_confirmed";
+  const isCollapsedInactive = summary.mode === "inactive" && isPinnedReset;
   const tweetText =
-    truncateText(normalizeInlineText(summary.tweetText), 132) ||
-    (summary.tweetId ? `Tracked post ${summary.tweetId}` : "Tracked post");
-  const checkedAtText = formatDateTime(summary.checkedAt);
-  const confidenceText = Number.isFinite(summary.confidence) ? `${Math.round(summary.confidence * 100)}% conf` : null;
-  const trackedUsername = getTrackedUsername(summary.tweetUrl);
+    truncateText(normalizeInlineText(displayEntry.tweetText), 132) ||
+    (displayEntry.tweetId ? `Tracked post ${displayEntry.tweetId}` : "Tracked post");
+  const checkedAtText = formatDateTime(displayEntry.checkedAt);
+  const confidenceText = Number.isFinite(displayEntry.confidence) ? `${Math.round(displayEntry.confidence * 100)}% conf` : null;
+  const trackedUsername = getTrackedUsername(displayEntry.tweetUrl);
 
-  setLinkState(automationTweetLink, summary.tweetUrl, tweetText);
-  automationTweetLabel.textContent = `Last tweet seen by ${trackedUsername}`;
+  if (automationTrace) {
+    automationTrace.dataset.mode = isCollapsedInactive ? "inactive" : summary.mode || "active";
+  }
+  setInactiveCardState(isCollapsedInactive);
+
+  setLinkState(automationTweetLink, displayEntry.tweetUrl, tweetText);
+  automationTweetLabel.textContent =
+    isCollapsedInactive
+      ? `Last reset tweet by ${trackedUsername}`
+      : isPinnedReset
+        ? `Reset tweet by ${trackedUsername}`
+        : `Last tweet seen by ${trackedUsername}`;
   automationTweetText.textContent = tweetText;
-  automationTweetMeta.textContent = summary.tweetUrl ? checkedAtText : "Waiting for first linked post.";
-  automationVerdictValue.textContent = formatAutomationVerdict(summary.verdict);
+  automationTweetMeta.textContent =
+    displayEntry.tweetUrl && isCollapsedInactive ? `Confirmed ${checkedAtText}` : checkedAtText;
+  automationReasoningLabel.textContent = isCollapsedInactive
+    ? `Last reset reasoning · ${checkedAtText}`
+    : "Reasoning";
+  automationVerdictValue.textContent = formatAutomationVerdict(displayEntry.verdict);
   automationVerdictValue.dataset.state =
-    summary.verdict === "reset_confirmed" ? "yes" : summary.verdict === "not_reset" ? "no" : "review";
+    displayEntry.verdict === "reset_confirmed" ? "yes" : displayEntry.verdict === "not_reset" ? "no" : "review";
   automationVerdictMeta.textContent = confidenceText || "Live classification";
-  automationReasoningValue.textContent = truncateText(normalizeInlineText(summary.rationale), 260) || DEFAULT_AUTOMATION_REASON;
-  automationInputTokensValue.textContent = formatTokenCount(summary.usage?.inputTokens || 0);
+  automationReasoningValue.textContent =
+    truncateText(normalizeInlineText(displayEntry.rationale), 260) || DEFAULT_AUTOMATION_REASON;
+  if (isCollapsedInactive) {
+    const latestUsername = getTrackedUsername(latestEntry?.tweetUrl || displayEntry.tweetUrl);
+    automationInactiveLatestLabel.textContent = `Last @${latestUsername} tweet seen at:`;
+    automationInactiveLatestTime.textContent = formatDateTime(latestEntry?.checkedAt || displayEntry.checkedAt);
+    automationInactiveVerdictValue.textContent = "No";
+    automationInactiveVerdictValue.dataset.state = "no";
+    setLinkState(
+      automationInactiveLatestCard,
+      latestEntry?.tweetUrl || displayEntry.tweetUrl,
+      automationInactiveLatestTime.textContent,
+    );
+    automationInactiveResetTime.textContent = formatDateTime(summary.lastReset?.checkedAt || displayEntry.checkedAt);
+    setLinkState(
+      automationInactiveResetCard,
+      summary.lastReset?.tweetUrl || displayEntry.tweetUrl,
+      automationInactiveResetTime.textContent,
+    );
+    automationTokensLabel.textContent = "LATEST CHECK COST:";
+  } else {
+    automationInactiveVerdictValue.dataset.state = "";
+    setLinkState(automationInactiveLatestCard, null, "Waiting for first tracked post");
+    setLinkState(automationInactiveResetCard, null, "Awaiting reset");
+    automationTokensLabel.textContent = "TOKENS USED:";
+  }
+  automationInputTokensValue.textContent = formatTokenCount(tokenSource.usage?.inputTokens || 0);
   automationModelValue.textContent = String(summary.model || "chatgpt-5.4").toUpperCase();
-  automationOutputTokensValue.textContent = formatTokenCount(summary.usage?.outputTokens || 0);
-  automationReasoningTokensValue.textContent = formatTokenCount(summary.usage?.reasoningTokens || 0);
+  automationOutputTokensValue.textContent = formatTokenCount(tokenSource.usage?.outputTokens || 0);
+  automationReasoningTokensValue.textContent = formatTokenCount(tokenSource.usage?.reasoningTokens || 0);
 };
 
 const applyState = ({ automationSummary = null, configured = true, noSubtitles = [], state, yesSubtitles = [] }) => {

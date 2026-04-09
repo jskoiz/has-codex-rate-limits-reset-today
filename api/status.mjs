@@ -7,19 +7,69 @@ import {
   readSiteState,
 } from "./_lib/site-state.mjs";
 
-export const createPublicAutomationSummary = (automation = {}) => {
-  const latestEvaluation = Array.isArray(automation.recentEvaluations) ? automation.recentEvaluations[0] : null;
-  const latestEntry = latestEvaluation || automation.pendingReview || automation.lastDecision;
-
-  if (!latestEntry && !automation.lastSeenTweetId && !automation.lastError) {
+const createPublicSummaryEntry = (entry = null, fallback = {}) => {
+  if (!entry && !fallback.tweetId && !fallback.tweetUrl) {
     return null;
   }
 
   return {
-    checkedAt: latestEntry?.evaluatedAt || latestEntry?.createdAt || latestEntry?.decidedAt || null,
-    confidence: Number.isFinite(latestEntry?.confidence) ? latestEntry.confidence : null,
+    checkedAt: entry?.evaluatedAt || entry?.createdAt || entry?.decidedAt || null,
+    confidence: Number.isFinite(entry?.confidence) ? entry.confidence : null,
+    rationale: typeof entry?.rationale === "string" ? entry.rationale : "",
+    tweetId: entry?.tweetId || fallback.tweetId || null,
+    tweetText: typeof entry?.tweetText === "string" ? entry.tweetText : "",
+    tweetUrl: entry?.tweetUrl || fallback.tweetUrl || null,
+    usage: {
+      inputTokens: Number.isFinite(entry?.inputTokens) ? entry.inputTokens : 0,
+      outputTokens: Number.isFinite(entry?.outputTokens) ? entry.outputTokens : 0,
+      reasoningTokens: Number.isFinite(entry?.reasoningTokens) ? entry.reasoningTokens : 0,
+      totalTokens: Number.isFinite(entry?.totalTokens) ? entry.totalTokens : 0,
+    },
+    verdict: entry?.verdict || null,
+  };
+};
+
+const getLatestAutomationEntry = (automation = {}) => {
+  const latestEvaluation = Array.isArray(automation.recentEvaluations) ? automation.recentEvaluations[0] : null;
+
+  return latestEvaluation || automation.pendingReview || automation.lastDecision || null;
+};
+
+const getLatestResetEntry = (automation = {}) => {
+  const recentReset = Array.isArray(automation.recentEvaluations)
+    ? automation.recentEvaluations.find((entry) => entry?.verdict === "reset_confirmed") || null
+    : null;
+
+  if (recentReset) {
+    return recentReset;
+  }
+
+  return automation.lastDecision?.verdict === "reset_confirmed" ? automation.lastDecision : null;
+};
+
+export const createPublicAutomationSummary = (automation = {}, currentState = "no") => {
+  const latestEntry = getLatestAutomationEntry(automation);
+  const lastResetEntry = getLatestResetEntry(automation);
+  const displayEntry = lastResetEntry || latestEntry;
+
+  if (!displayEntry && !automation.lastSeenTweetId && !automation.lastError) {
+    return null;
+  }
+
+  const fallbackTweet = {
+    tweetId: automation.lastSeenTweetId || null,
+    tweetUrl: automation.lastSeenTweetUrl || null,
+  };
+  const displaySummary = createPublicSummaryEntry(displayEntry, fallbackTweet);
+  const latestSummary = createPublicSummaryEntry(latestEntry, fallbackTweet);
+  const lastResetSummary = createPublicSummaryEntry(lastResetEntry, fallbackTweet);
+
+  return {
+    ...displaySummary,
+    mode: currentState === "no" ? "inactive" : "active",
     lastError: automation.lastError || null,
-    rationale: typeof latestEntry?.rationale === "string" ? latestEntry.rationale : "",
+    latest: latestSummary,
+    lastReset: lastResetSummary,
     totals: {
       inputTokens: Number.isFinite(automation.tokenUsage?.totalInputTokens) ? automation.tokenUsage.totalInputTokens : 0,
       outputTokens: Number.isFinite(automation.tokenUsage?.totalOutputTokens) ? automation.tokenUsage.totalOutputTokens : 0,
@@ -29,16 +79,6 @@ export const createPublicAutomationSummary = (automation = {}) => {
       totalTokens: Number.isFinite(automation.tokenUsage?.totalTokens) ? automation.tokenUsage.totalTokens : 0,
     },
     model: getEnvValue("OPENAI_REASONING_MODEL", "") || "chatgpt-5.4",
-    tweetId: latestEntry?.tweetId || automation.lastSeenTweetId || null,
-    tweetText: typeof latestEntry?.tweetText === "string" ? latestEntry.tweetText : "",
-    tweetUrl: latestEntry?.tweetUrl || automation.lastSeenTweetUrl || null,
-    usage: {
-      inputTokens: Number.isFinite(latestEntry?.inputTokens) ? latestEntry.inputTokens : 0,
-      outputTokens: Number.isFinite(latestEntry?.outputTokens) ? latestEntry.outputTokens : 0,
-      reasoningTokens: Number.isFinite(latestEntry?.reasoningTokens) ? latestEntry.reasoningTokens : 0,
-      totalTokens: Number.isFinite(latestEntry?.totalTokens) ? latestEntry.totalTokens : 0,
-    },
-    verdict: latestEntry?.verdict || null,
   };
 };
 
@@ -48,7 +88,7 @@ export async function GET() {
 
     return jsonResponse({
       autoResetHours: state.autoResetHours || getDefaultAutoResetHours(),
-      automationSummary: createPublicAutomationSummary(state.automation),
+      automationSummary: createPublicAutomationSummary(state.automation, state.currentState),
       configured: state.configured,
       noSubtitles: state.noSubtitles || getDefaultNoSubtitles(),
       yesSubtitles: state.yesSubtitles || getDefaultYesSubtitles(),

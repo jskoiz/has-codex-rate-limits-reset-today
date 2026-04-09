@@ -95,7 +95,7 @@
               </a>
 
               <article class="automation-trace-card automation-trace-card-reason">
-                <span class="automation-trace-label">Reasoning</span>
+                <span class="automation-trace-label" id="automationReasoningLabel">Reasoning</span>
                 <p class="automation-trace-reason" id="automationReasoningValue">Fresh posts get scored here.</p>
                 <div class="automation-trace-reason-foot">
                   <span class="automation-trace-label">Verdict</span>
@@ -106,9 +106,49 @@
                 </div>
               </article>
 
+              <a
+                class="automation-trace-card automation-trace-card-inactive automation-trace-card-inactive-latest"
+                id="automationInactiveLatestCard"
+                target="_blank"
+                rel="noreferrer"
+                hidden
+              >
+                <div class="automation-trace-inline automation-trace-inline-status" aria-label="Latest inactive automation summary">
+                  <div class="automation-trace-status-row">
+                    <span class="automation-trace-status-item">
+                      <span class="automation-trace-label-inline" id="automationInactiveLatestLabel">Last @thsottiaux tweet seen at:</span>
+                      <strong class="automation-trace-value-inline" id="automationInactiveLatestTime">Awaiting first pass</strong>
+                    </span>
+                    <span class="automation-trace-status-item">
+                      <span class="automation-trace-label-inline">Verdict:</span>
+                      <strong class="automation-trace-value-inline" id="automationInactiveVerdictValue">No</strong>
+                    </span>
+                  </div>
+                </div>
+              </a>
+
+              <a
+                class="automation-trace-card automation-trace-card-inactive automation-trace-card-inactive-reset"
+                id="automationInactiveResetCard"
+                target="_blank"
+                rel="noreferrer"
+                hidden
+              >
+                <div class="automation-trace-inline automation-trace-inline-status" aria-label="Last yes verdict summary">
+                  <div class="automation-trace-status-row">
+                    <span class="automation-trace-status-item">
+                      <span class="automation-trace-label-inline">Last</span>
+                      <span class="automation-trace-value-inline" data-state="yes">Yes</span>
+                      <span class="automation-trace-label-inline">verdict seen:</span>
+                      <strong class="automation-trace-value-inline" id="automationInactiveResetTime">Awaiting reset</strong>
+                    </span>
+                  </div>
+                </div>
+              </a>
+
               <article class="automation-trace-card automation-trace-card-inline automation-trace-card-inline-full">
                 <div class="automation-trace-inline automation-trace-inline-tokens" aria-label="Last pass token usage">
-                  <span>TOKENS USED:</span>
+                  <span id="automationTokensLabel">TOKENS USED:</span>
                   <span>IN <strong id="automationInputTokensValue">0</strong></span>
                   <span>OUT <strong id="automationOutputTokensValue">0</strong></span>
                   <span>RSN <strong id="automationReasoningTokensValue">0</strong></span>

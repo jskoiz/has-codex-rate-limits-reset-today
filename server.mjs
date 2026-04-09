@@ -164,7 +164,7 @@ const serveLocalStatusSnapshot = async (request, response, pathname) => {
   const state = await readLocalStatusSnapshot();
   const payload = {
     autoResetHours: state.autoResetHours || getDefaultAutoResetHours(),
-    automationSummary: createPublicAutomationSummary(state.automation),
+    automationSummary: createPublicAutomationSummary(state.automation, state.currentState),
     configured: true,
     noSubtitles: state.noSubtitles || getDefaultNoSubtitles(),
     resetAt: state.resetAt,
