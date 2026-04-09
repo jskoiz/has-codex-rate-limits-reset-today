@@ -35,6 +35,9 @@ const heroVideoCanvas = document.querySelector("#heroVideoCanvas");
 const heroMarkCanvas = document.querySelector("#heroMarkCanvas");
 const mediaQuery = window.matchMedia("(prefers-reduced-motion: reduce)");
 const mobileVideoQuery = window.matchMedia("(hover: none), (pointer: coarse), (max-width: 820px)");
+const liveAgeElements = [];
+let latestStatusPayload = null;
+let statusRefreshInFlight = null;
 
 const pickRandomSubtitle = (subtitles) => {
   if (!Array.isArray(subtitles) || subtitles.length === 0) {
@@ -59,6 +62,27 @@ const formatDateTime = (value) => {
   const d = new Date(timestamp);
   const pad = (n) => String(n).padStart(2, "0");
   return `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())} ${pad(d.getHours())}:${pad(d.getMinutes())}`;
+};
+
+const formatElapsedAge = (value) => {
+  const timestamp = typeof value === "number" ? value : Date.parse(value);
+
+  if (!Number.isFinite(timestamp)) {
+    return "Awaiting first pass";
+  }
+
+  const totalSeconds = Math.max(0, Math.floor((Date.now() - timestamp) / 1000));
+  const pad = (n) => String(n).padStart(2, "0");
+  const days = Math.floor(totalSeconds / 86400);
+  const hours = Math.floor((totalSeconds % 86400) / 3600);
+  const minutes = Math.floor((totalSeconds % 3600) / 60);
+  const seconds = totalSeconds % 60;
+
+  if (days > 0) {
+    return `${pad(days)}:${pad(hours)}:${pad(minutes)} ago`;
+  }
+
+  return `${pad(hours)}:${pad(minutes)}:${pad(seconds)} ago`;
 };
 
 const formatTokenCount = (value) => new Intl.NumberFormat().format(Number.isFinite(value) ? value : 0);
@@ -182,6 +206,50 @@ const setInactiveCardState = (visible) => {
   }
 };
 
+const setLiveAgeText = (element, value, prefix = "") => {
+  if (!element) {
+    return;
+  }
+
+  const timestamp = typeof value === "number" ? value : Date.parse(value);
+
+  if (!Number.isFinite(timestamp)) {
+    delete element.dataset.liveAgeTimestamp;
+    delete element.dataset.liveAgePrefix;
+    element.textContent = prefix ? `${prefix}Awaiting first pass` : "Awaiting first pass";
+    return;
+  }
+
+  element.dataset.liveAgeTimestamp = String(timestamp);
+  element.dataset.liveAgePrefix = prefix;
+  element.textContent = `${prefix}${formatElapsedAge(timestamp)}`;
+
+  if (!liveAgeElements.includes(element)) {
+    liveAgeElements.push(element);
+  }
+};
+
+const refreshLiveAgeText = () => {
+  for (const element of liveAgeElements) {
+    const timestamp = Number(element.dataset.liveAgeTimestamp);
+
+    if (!Number.isFinite(timestamp)) {
+      continue;
+    }
+
+    element.textContent = `${element.dataset.liveAgePrefix || ""}${formatElapsedAge(timestamp)}`;
+  }
+};
+
+const parseTimestamp = (value) => {
+  if (typeof value === "number" && Number.isFinite(value)) {
+    return value;
+  }
+
+  const parsed = Date.parse(value);
+  return Number.isFinite(parsed) ? parsed : null;
+};
+
 const hasDistinctLatestCheck = (summary) => {
   if (!summary?.latest) {
     return false;
@@ -220,6 +288,12 @@ const applyAutomationSummary = (summary = null) => {
     automationTokensLabel.textContent = "TOKENS USED:";
     setLinkState(automationInactiveLatestCard, null, "Waiting for first tracked post");
     setLinkState(automationInactiveResetCard, null, "Awaiting reset");
+    delete automationTweetMeta.dataset.liveAgeTimestamp;
+    delete automationTweetMeta.dataset.liveAgePrefix;
+    delete automationInactiveLatestTime.dataset.liveAgeTimestamp;
+    delete automationInactiveLatestTime.dataset.liveAgePrefix;
+    delete automationInactiveResetTime.dataset.liveAgeTimestamp;
+    delete automationInactiveResetTime.dataset.liveAgePrefix;
     automationInputTokensValue.textContent = "0";
     automationModelValue.textContent = "CHATGPT-5.4";
     automationOutputTokensValue.textContent = "0";
@@ -253,8 +327,7 @@ const applyAutomationSummary = (summary = null) => {
         ? `Reset tweet by ${trackedUsername}`
         : `Last tweet seen by ${trackedUsername}`;
   automationTweetText.textContent = tweetText;
-  automationTweetMeta.textContent =
-    displayEntry.tweetUrl && isCollapsedInactive ? `Confirmed ${checkedAtText}` : checkedAtText;
+  setLiveAgeText(automationTweetMeta, displayEntry.checkedAt, "Seen ");
   automationReasoningLabel.textContent = isCollapsedInactive
     ? `Last reset reasoning · ${checkedAtText}`
     : "Reasoning";
@@ -266,8 +339,8 @@ const applyAutomationSummary = (summary = null) => {
     truncateText(normalizeInlineText(displayEntry.rationale), 260) || DEFAULT_AUTOMATION_REASON;
   if (isCollapsedInactive) {
     const latestUsername = getTrackedUsername(latestEntry?.tweetUrl || displayEntry.tweetUrl);
-    automationInactiveLatestLabel.textContent = `Last @${latestUsername} tweet seen at:`;
-    automationInactiveLatestTime.textContent = formatDateTime(latestEntry?.checkedAt || displayEntry.checkedAt);
+    automationInactiveLatestLabel.textContent = `Last @${latestUsername} tweet:`;
+    setLiveAgeText(automationInactiveLatestTime, latestEntry?.checkedAt || displayEntry.checkedAt, "Seen ");
     automationInactiveVerdictValue.textContent = "No";
     automationInactiveVerdictValue.dataset.state = "no";
     setLinkState(
@@ -275,17 +348,21 @@ const applyAutomationSummary = (summary = null) => {
       latestEntry?.tweetUrl || displayEntry.tweetUrl,
       automationInactiveLatestTime.textContent,
     );
-    automationInactiveResetTime.textContent = formatDateTime(summary.lastReset?.checkedAt || displayEntry.checkedAt);
+    setLiveAgeText(automationInactiveResetTime, summary.lastReset?.checkedAt || displayEntry.checkedAt);
     setLinkState(
       automationInactiveResetCard,
       summary.lastReset?.tweetUrl || displayEntry.tweetUrl,
-      automationInactiveResetTime.textContent,
+      `Last Yes verdict ${formatElapsedAge(summary.lastReset?.checkedAt || displayEntry.checkedAt)}`,
     );
     automationTokensLabel.textContent = "LATEST CHECK COST:";
   } else {
     automationInactiveVerdictValue.dataset.state = "";
     setLinkState(automationInactiveLatestCard, null, "Waiting for first tracked post");
     setLinkState(automationInactiveResetCard, null, "Awaiting reset");
+    delete automationInactiveLatestTime.dataset.liveAgeTimestamp;
+    delete automationInactiveLatestTime.dataset.liveAgePrefix;
+    delete automationInactiveResetTime.dataset.liveAgeTimestamp;
+    delete automationInactiveResetTime.dataset.liveAgePrefix;
     automationTokensLabel.textContent = "TOKENS USED:";
   }
   automationInputTokensValue.textContent = formatTokenCount(tokenSource.usage?.inputTokens || 0);
@@ -294,7 +371,8 @@ const applyAutomationSummary = (summary = null) => {
   automationReasoningTokensValue.textContent = formatTokenCount(tokenSource.usage?.reasoningTokens || 0);
 };
 
-const applyState = ({ automationSummary = null, configured = true, noSubtitles = [], state, yesSubtitles = [] }) => {
+const applyState = ({ automationSummary = null, configured = true, noSubtitles = [], resetAt = null, state, yesSubtitles = [] }) => {
+  latestStatusPayload = { automationSummary, configured, noSubtitles, resetAt, state, yesSubtitles };
   const hasReset = state !== "no";
 
   answerValue.textContent = hasReset ? "Yes" : "No";
@@ -309,15 +387,51 @@ const applyState = ({ automationSummary = null, configured = true, noSubtitles =
 };
 
 const applyUnavailableState = () => {
+  latestStatusPayload = null;
   answerValue.textContent = "No";
   subtitle.textContent = DEFAULT_NO_SUBTITLE;
   applyAutomationSummary(null);
 };
 
-fetchStatus().then(applyState).catch(applyUnavailableState);
+const refreshStatus = async (quiet = false) => {
+  if (statusRefreshInFlight) {
+    return statusRefreshInFlight;
+  }
+
+  statusRefreshInFlight = fetchStatus()
+    .then((payload) => {
+      applyState(payload);
+      return payload;
+    })
+    .catch((error) => {
+      if (!quiet) {
+        applyUnavailableState();
+      }
+
+      throw error;
+    })
+    .finally(() => {
+      statusRefreshInFlight = null;
+    });
+
+  return statusRefreshInFlight;
+};
+
+const syncLivePresentation = () => {
+  refreshLiveAgeText();
+
+  const resetAt = parseTimestamp(latestStatusPayload?.resetAt);
+
+  if (latestStatusPayload?.state === "yes" && resetAt && Date.now() >= resetAt) {
+    refreshStatus(true).catch(() => {});
+  }
+};
+
+refreshStatus().catch(() => {});
 window.setInterval(() => {
-  fetchStatus().then(applyState).catch(() => {});
+  refreshStatus(true).catch(() => {});
 }, 60 * 1000);
+window.setInterval(syncLivePresentation, 1000);
 
 const primeVideoPlayback = (video) => {
   video.muted = true;

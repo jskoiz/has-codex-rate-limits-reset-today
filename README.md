@@ -21,6 +21,7 @@ Admin config UI:
 - Supports manual state changes and an auto-reset timer
 - Polls recent `@thsottiaux` tweets and classifies whether they indicate a reset
 - Sends uncertain tweets to manual review instead of flipping the public page automatically
+- Exposes a compact public automation summary that adapts to active `yes` and inactive `no` states
 
 ## Architecture
 
@@ -32,6 +33,16 @@ Admin config UI:
 - Tweet monitor: `api/_lib/reset-monitor.mjs`
 
 The public state file contains the public fields plus an encrypted private blob for session and automation internals.
+
+## Public Summary UX
+
+The public home page intentionally keeps the hero simple, then shows a compact automation summary underneath.
+
+- When the site is `yes`, the summary pins the reset-confirming tweet, shows the model rationale, and displays live relative age text like `Seen 01:22:51 ago`.
+- When the site is `no`, the summary collapses into a smaller three-row trace: latest tweet seen and `No` verdict, latest check cost, and the last `Yes` verdict seen.
+- The active `yes` state still auto-reverts to `no` after the configured timer window. The client also watches `resetAt` live so the page can swap layouts as soon as that window expires.
+
+More detail: [docs/public-summary.md](./docs/public-summary.md)
 
 ## Routes
 
@@ -102,6 +113,7 @@ There is also a one-off `Cutover Cloudflare DNS` workflow for DNS changes.
 - `RETTIWT_API_KEY` is used to fetch recent tweets more reliably than the guest timeline.
 - When the state is set to `yes`, the app stores `resetAt` and automatically falls back to `no` after the configured window.
 - When the model is uncertain, the monitor creates a manual review item instead of auto-switching the public page.
+- The public summary uses the latest confirmed reset when `yes` is active, and a compact latest-check trace when the site has already returned to `no`.
 
 ## License
 

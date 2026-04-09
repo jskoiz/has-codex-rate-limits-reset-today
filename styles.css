@@ -276,7 +276,7 @@ p {
 
 .automation-trace-card:hover::after,
 .automation-trace-card:focus-within::after {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.12);
 }
 
 .automation-trace-link {
@@ -370,6 +370,7 @@ p {
 
 .automation-trace-link {
   color: inherit;
+  cursor: pointer;
   text-decoration: none;
 }
 
@@ -379,6 +380,10 @@ p {
 
 .automation-trace-card-inactive[data-empty="true"] {
   pointer-events: none;
+}
+
+.automation-trace-card-inactive {
+  cursor: pointer;
 }
 
 .automation-trace-label {
