@@ -13,17 +13,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1775712284980,
-      "rationale": "This reply is conversational and does not mention limits, caps, resets, or availability returning.",
-      "tweetId": "2042109518042284324",
-      "tweetUrl": "https://x.com/thsottiaux/status/2042109518042284324",
+      "decidedAt": 1775717746887,
+      "rationale": "This reply discusses feedback on a PAYG flow and says nothing about limits, caps, or usage resetting.",
+      "tweetId": "2042125759683481754",
+      "tweetUrl": "https://x.com/thsottiaux/status/2042125759683481754",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2042109518042284324",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2042109518042284324",
+    "lastSeenTweetId": "2042125759683481754",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2042125759683481754",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1775717746887,
+        "inputTokens": 310,
+        "outputTokens": 76,
+        "rationale": "This reply discusses feedback on a PAYG flow and says nothing about limits, caps, or usage resetting.",
+        "reasoningTokens": 27,
+        "totalTokens": 386,
+        "tweetId": "2042125759683481754",
+        "tweetText": "@zeeg @codex Would love your feedback on the PAYG flow, sorry it's not smooth as butter here yet",
+        "tweetUrl": "https://x.com/thsottiaux/status/2042125759683481754",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1775712284980,
@@ -270,29 +283,31 @@
         "tweetText": "@10x_er I’m sure you have both a teaspoon, a normal spoon and a large salad spoon in your drawer.\n\nI’ll stop teasing, I agree with you and also expect this to go away.",
         "tweetUrl": "https://x.com/thsottiaux/status/2040924657914986883",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1775371497063,
-        "inputTokens": 299,
-        "outputTokens": 86,
-        "rationale": "Reply about being “the fast one now”; no mention of limits, caps, reset, or availability returning.",
-        "reasoningTokens": 36,
-        "totalTokens": 385,
-        "tweetId": "2040666576031236172",
-        "tweetText": "@burkov Oh, we’re the fast one now? Nice",
-        "tweetUrl": "https://x.com/thsottiaux/status/2040666576031236172",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 21754,
-      "totalOutputTokens": 7086,
-      "totalReasoningTokens": 3521,
-      "totalTokens": 28840
+      "totalInputTokens": 22064,
+      "totalOutputTokens": 7162,
+      "totalReasoningTokens": 3548,
+      "totalTokens": 29226
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1775717746887,
+      "inputTokens": 310,
+      "message": "",
+      "outputTokens": 76,
+      "rationale": "This reply discusses feedback on a PAYG flow and says nothing about limits, caps, or usage resetting.",
+      "reasoningTokens": 27,
+      "totalTokens": 386,
+      "tweetId": "2042125759683481754",
+      "tweetText": "@zeeg @codex Would love your feedback on the PAYG flow, sorry it's not smooth as butter here yet",
+      "tweetUrl": "https://x.com/thsottiaux/status/2042125759683481754",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1775712284980,
@@ -877,27 +892,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2039893158952419779",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.93,
-      "createdAt": 1775192113071,
-      "inputTokens": 294,
-      "message": "",
-      "outputTokens": 255,
-      "rationale": "This reply is purely conversational and does not state or imply that any Codex or ChatGPT limit has reset.",
-      "reasoningTokens": 205,
-      "totalTokens": 549,
-      "tweetId": "2039865349127172106",
-      "tweetText": "@loliieeee Tell me more",
-      "tweetUrl": "https://x.com/thsottiaux/status/2039865349127172106",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "iATt5zkvW5PnEgRNSLglrtLU0rQ41ZNVezmVUrAll0pFi7UT7gRjr4Kb3Q",
-    "iv": "GdHOQET2SqQLg1oA",
-    "tag": "AZntaB01IgkFwlzvJAR6qw",
+    "ciphertext": "Mm5n2v3MOvhDuTvqAAkkVxF5RPvLkFQimjsvfQrCiq5f93MVFYRkscyUww",
+    "iv": "88NiKNyERnJyJqsE",
+    "tag": "QHipjgDwz5xsD-i552U6kw",
     "version": 1
   }
 }
