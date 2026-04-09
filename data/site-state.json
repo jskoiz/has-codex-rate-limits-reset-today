@@ -3,13 +3,14 @@
   "autoResetHours": 20,
   "noSubtitles": [
     "Back to your local model peasant",
-    "But that's okay, because everything is running smoothly..right?"
+    "But that's okay, because everything is running smoothly..right?",
+    "cmon tibo..please"
   ],
   "yesSubtitles": [
     "Thanks @sama"
   ],
   "resetAt": null,
-  "updatedAt": 1775606839925,
+  "updatedAt": 1775753304595,
   "automation": {
     "lastDecision": {
       "confidence": 0.96,
@@ -902,9 +903,9 @@
     }
   ],
   "privateState": {
-    "ciphertext": "ZCioj5fVJkdiV6mAMYRtXDbBx3Ck87fvoIxU59_L6bjyb81uVZP7qMOwOQ",
-    "iv": "92HWT0GBjIp5U0Gs",
-    "tag": "eRu-2FlBtGGUPbGG2cVlYg",
+    "ciphertext": "bvCOAJ5bR5HWzjX250ff7l7ZrjgE14y7eMIQb-FUBjS5B8wDcVMbSIUCsg",
+    "iv": "sfSfEY6kk9N35v44",
+    "tag": "sWbfiuI06JB3C1OYlmnCcw",
     "version": 1
   }
 }
