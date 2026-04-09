@@ -13,17 +13,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1775717746887,
-      "rationale": "This reply discusses feedback on a PAYG flow and says nothing about limits, caps, or usage resetting.",
-      "tweetId": "2042125759683481754",
-      "tweetUrl": "https://x.com/thsottiaux/status/2042125759683481754",
+      "decidedAt": 1775750874150,
+      "rationale": "Reply saying \"tiny commits\"; no mention of limits, caps, resets, or availability returning.",
+      "tweetId": "2042259243403985275",
+      "tweetUrl": "https://x.com/thsottiaux/status/2042259243403985275",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2042125759683481754",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2042125759683481754",
+    "lastSeenTweetId": "2042259243403985275",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2042259243403985275",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1775750874150,
+        "inputTokens": 293,
+        "outputTokens": 78,
+        "rationale": "Reply saying \"tiny commits\"; no mention of limits, caps, resets, or availability returning.",
+        "reasoningTokens": 30,
+        "totalTokens": 371,
+        "tweetId": "2042259243403985275",
+        "tweetText": "@ajambrosino tiny commits",
+        "tweetUrl": "https://x.com/thsottiaux/status/2042259243403985275",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1775717746887,
@@ -270,29 +283,31 @@
         "tweetText": "@Francesco_Oddo @10x_er Let me break it to you. Someone put it on the table for you",
         "tweetUrl": "https://x.com/thsottiaux/status/2040971067758703047",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.94,
-        "evaluatedAt": 1775429918293,
-        "inputTokens": 329,
-        "outputTokens": 184,
-        "rationale": "This reply is conversational and does not explicitly mention limits, caps, usage being available again, or a reset.",
-        "reasoningTokens": 134,
-        "totalTokens": 513,
-        "tweetId": "2040924657914986883",
-        "tweetText": "@10x_er I’m sure you have both a teaspoon, a normal spoon and a large salad spoon in your drawer.\n\nI’ll stop teasing, I agree with you and also expect this to go away.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2040924657914986883",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 22064,
-      "totalOutputTokens": 7162,
-      "totalReasoningTokens": 3548,
-      "totalTokens": 29226
+      "totalInputTokens": 22357,
+      "totalOutputTokens": 7240,
+      "totalReasoningTokens": 3578,
+      "totalTokens": 29597
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1775750874150,
+      "inputTokens": 293,
+      "message": "",
+      "outputTokens": 78,
+      "rationale": "Reply saying \"tiny commits\"; no mention of limits, caps, resets, or availability returning.",
+      "reasoningTokens": 30,
+      "totalTokens": 371,
+      "tweetId": "2042259243403985275",
+      "tweetText": "@ajambrosino tiny commits",
+      "tweetUrl": "https://x.com/thsottiaux/status/2042259243403985275",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1775717746887,
@@ -877,27 +892,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2039901964679688437",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1775192116901,
-      "inputTokens": 362,
-      "message": "",
-      "outputTokens": 101,
-      "rationale": "The tweet discusses traffic patterns and possible off-peak/peak usage incentives; it does not say Codex or ChatGPT limits/caps have reset or are available again now.",
-      "reasoningTokens": 38,
-      "totalTokens": 463,
-      "tweetId": "2039893158952419779",
-      "tweetText": "With Codex the there is quite the gulf in load between peak and off-peak times, and we would like to achieve more of a smoother traffic pattern as that would be a more optimal use of our compute. \n\nWe have ideas, but curious what you all think we should do? Would more usage during off-peak and surge multiplier during peak times make sense?",
-      "tweetUrl": "https://x.com/thsottiaux/status/2039893158952419779",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "Mm5n2v3MOvhDuTvqAAkkVxF5RPvLkFQimjsvfQrCiq5f93MVFYRkscyUww",
-    "iv": "88NiKNyERnJyJqsE",
-    "tag": "QHipjgDwz5xsD-i552U6kw",
+    "ciphertext": "j5zRu-BN7tsnlZCwWXxrPrIwOtHdpZWSfHx82h6ViOVvhpRQcrBOkymwhw",
+    "iv": "Y4UuMaue26kOUYpY",
+    "tag": "V26ubQqTL4U2JSya25Wepw",
     "version": 1
   }
 }
