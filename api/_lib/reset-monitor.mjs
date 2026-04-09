@@ -8,6 +8,7 @@ const DEFAULT_MODEL = "gpt-5.4";
 const RECENT_TWEET_LOOKBACK_DAYS = 1;
 const SEARCH_BATCH_SIZE = 20;
 const MAX_AUTOMATION_EVENT_ENTRIES = 40;
+const MAX_PUBLIC_RATIONALE_LENGTH = 120;
 
 let openaiClient = null;
 let resendClient = null;
@@ -36,12 +37,14 @@ const classificationSchema = {
 const classificationInstructions = `
 You classify tweets from @thsottiaux about whether Codex or ChatGPT rate limits have reset.
 
-Return "reset_confirmed" only when the tweet clearly says or directly implies that user limits, caps, or rate limits have reset, been lifted, or usage is available again now.
+Return "reset_confirmed" only when the tweet or its quoted post clearly says or directly implies that user limits, caps, or rate limits have reset, been lifted, or usage is available again now.
 Return "not_reset" when the tweet is unrelated, promotional, conversational, or does not mean limits were reset.
 Return "uncertain" when the tweet could plausibly be about a reset but is not explicit enough to safely auto-switch the public site.
 
 Prefer caution over guessing. Replies and quote tweets may provide context, but if the reset meaning is not clear from this post and its quoted text, use "uncertain".
-Keep the rationale brief and concrete.
+If the main post talks about a future or next reset, that alone is not a current reset.
+If a quoted post is the evidence for "reset_confirmed", say that explicitly in the rationale.
+Keep the rationale to one short sentence suitable for a compact public UI.
 `.trim();
 
 const getBaseUrl = () => getEnvValue("SITE_BASE_URL", "").replace(/\/+$/, "");
@@ -173,6 +176,84 @@ export const getUnseenTweets = (tweets, lastSeenTweetId) => {
   return sortTweetsAscending(
     uniqueTweets.filter((tweet) => !lastSeenTweetId || compareTweetIds(tweet.id, lastSeenTweetId) > 0),
   );
+};
+
+const normalizeWhitespace = (value) => (typeof value === "string" ? value.replace(/\s+/g, " ").trim() : "");
+
+const truncateRationale = (value, maxLength = MAX_PUBLIC_RATIONALE_LENGTH) => {
+  if (value.length <= maxLength) {
+    return value;
+  }
+
+  const clipped = value.slice(0, maxLength - 1).trimEnd();
+  const boundary = clipped.lastIndexOf(" ");
+  const shortened = boundary > 48 ? clipped.slice(0, boundary) : clipped;
+
+  return `${shortened.trimEnd()}…`;
+};
+
+const hasExplicitResetLanguage = (value) => {
+  const text = normalizeWhitespace(value).toLowerCase();
+
+  if (!text) {
+    return false;
+  }
+
+  return (
+    /\b(limit|limits|rate limit|rate limits|cap|caps)\b/.test(text) &&
+    (/\breset\b/.test(text) ||
+      /\bresetting\b/.test(text) ||
+      /\bresets\b/.test(text) ||
+      /\bbeen reset\b/.test(text) ||
+      /\bare reset\b/.test(text))
+  );
+};
+
+const isFutureResetDiscussion = (value) => {
+  const text = normalizeWhitespace(value).toLowerCase();
+
+  if (!text) {
+    return false;
+  }
+
+  return [
+    /\bnext reset\b/,
+    /\banother reset\b/,
+    /\bwhen\b[^.]{0,48}\breset\b/,
+    /\bwill\b[^.]{0,48}\breset\b/,
+    /\bin less than\b[^.]{0,48}\breset\b/,
+  ].some((pattern) => pattern.test(text));
+};
+
+const getFallbackRationale = (verdict) => {
+  if (verdict === "reset_confirmed") {
+    return "Post clearly confirms limits are reset now.";
+  }
+
+  if (verdict === "uncertain") {
+    return "Possible reset signal, but not explicit enough to auto-switch.";
+  }
+
+  return "Post does not confirm a reset.";
+};
+
+const normalizeClassification = (tweet, classification = {}) => {
+  const normalized = {
+    ...classification,
+    rationale: normalizeWhitespace(classification.rationale),
+  };
+  const mainText = tweet?.fullText || "";
+  const quotedText = tweet?.quoted?.fullText || "";
+
+  if (normalized.verdict === "reset_confirmed" && isFutureResetDiscussion(mainText) && hasExplicitResetLanguage(quotedText)) {
+    normalized.rationale = "Quoted post confirms limits already reset; this post discusses the next reset.";
+  } else if (!normalized.rationale) {
+    normalized.rationale = getFallbackRationale(normalized.verdict);
+  }
+
+  normalized.rationale = truncateRationale(normalized.rationale);
+
+  return normalized;
 };
 
 const createDecisionRecord = (tweet, classification) => ({
@@ -361,7 +442,9 @@ const classifyTweet = async (tweet) => {
                     createdAt: tweet.createdAt,
                     fullText: tweet.fullText,
                     isReply: Boolean(tweet.replyTo),
+                    quotedCreatedAt: tweet.quoted?.createdAt || null,
                     quotedText: tweet.quoted?.fullText || null,
+                    quotedUrl: tweet.quoted?.url || null,
                     url: tweet.url,
                   },
                 },
@@ -392,7 +475,7 @@ const classifyTweet = async (tweet) => {
 
     const parsed = JSON.parse(rawOutput);
 
-    return {
+    return normalizeClassification(tweet, {
       confidence: typeof parsed.confidence === "number" ? parsed.confidence : null,
       rationale: typeof parsed.rationale === "string" ? parsed.rationale.trim() : "",
       usage: {
@@ -402,7 +485,7 @@ const classifyTweet = async (tweet) => {
         totalTokens: response.usage?.total_tokens || 0,
       },
       verdict: parsed.verdict,
-    };
+    });
   } catch (error) {
     throw new Error(`Tweet classification failed: ${describeAutomationError(error, "Unknown OpenAI error")}`, {
       cause: error,
@@ -581,7 +664,7 @@ export const runResetMonitor = async (deps = {}) => {
     let processedCount = 0;
 
     for (const tweet of unseenTweets) {
-      const classification = await classify(tweet);
+      const classification = normalizeClassification(tweet, await classify(tweet));
       processedCount += 1;
 
       if (classification.verdict === "not_reset") {

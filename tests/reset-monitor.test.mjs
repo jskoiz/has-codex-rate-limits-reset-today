@@ -196,6 +196,73 @@ test("runResetMonitor requests manual review for uncertain tweets", async () => 
   });
 });
 
+test("runResetMonitor uses quoted reset context for future-looking tweets with a short public rationale", async () => {
+  const stored = [];
+  const tweet = createTweet("401", {
+    fullText:
+      "At the current codex growth pace, we will owe you all another reset in less than two weeks.",
+    quoted: {
+      createdAt: "2026-04-07T16:33:00.000Z",
+      fullText: "To celebrate, we're resetting rate limits so you can keep building.",
+      url: "https://x.com/thsottiaux/status/399",
+    },
+  });
+
+  await withAutomationEnv(() =>
+    runResetMonitor({
+      classifyTweet: async () => ({
+        confidence: 0.87,
+        rationale:
+          "The quoted post explicitly says Codex rate limits are being reset now; the new tweet discusses when the next reset will be needed, implying a reset has already happened.",
+        verdict: "reset_confirmed",
+      }),
+      fetchLatestTimelineTweets: async () => [tweet],
+      markTweetAsResetConfirmed: async (_tweet, classification) => {
+        stored.push(classification);
+      },
+      readSiteState: async () => ({
+        automation: {
+          lastSeenTweetId: "400",
+        },
+      }),
+    }),
+  );
+
+  assert.equal(stored.length, 1);
+  assert.equal(stored[0].rationale, "Quoted post confirms limits already reset; this post discusses the next reset.");
+  assert.equal(stored[0].verdict, "reset_confirmed");
+});
+
+test("runResetMonitor trims long rationales before they reach public state", async () => {
+  const stored = [];
+  const tweet = createTweet("402");
+
+  await withAutomationEnv(() =>
+    runResetMonitor({
+      classifyTweet: async () => ({
+        confidence: 0.42,
+        rationale:
+          "This post talks around rate limits in a way that could be interpreted as a reset signal, but it never clearly states limits are available again right now for users.",
+        verdict: "uncertain",
+      }),
+      fetchLatestTimelineTweets: async () => [tweet],
+      markTweetForManualReview: async (_tweet, classification) => {
+        stored.push(classification);
+      },
+      readSiteState: async () => ({
+        automation: {
+          lastSeenTweetId: "401",
+        },
+      }),
+      sendReviewEmail: async () => {},
+    }),
+  );
+
+  assert.equal(stored.length, 1);
+  assert.ok(stored[0].rationale.length <= 120);
+  assert.match(stored[0].rationale, /…$/);
+});
+
 test("runResetMonitor records errors before rethrowing", async () => {
   const recorded = [];
 
