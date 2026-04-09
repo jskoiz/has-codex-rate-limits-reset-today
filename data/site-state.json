@@ -1,5 +1,5 @@
 {
-  "currentState": "no",
+  "currentState": "yes",
   "autoResetHours": 20,
   "noSubtitles": [
     "Back to your local model peasant",
@@ -11,29 +11,35 @@
     "Limits reset, go crazy",
     "You can just build things"
   ],
-  "resetAt": null,
-  "updatedAt": 1775753323653,
+  "resetAt": 1775831532261,
+  "updatedAt": 1775759532261,
   "automation": {
     "lastDecision": {
-      "confidence": 0.96,
-      "decidedAt": 1775750879901,
-      "rationale": "This reply is too vague to indicate anything about limits, caps, or availability resetting.",
-      "tweetId": "2042264240673947823",
-      "tweetUrl": "https://x.com/thsottiaux/status/2042264240673947823",
-      "verdict": "uncertain"
+      "confidence": 0.97,
+      "decidedAt": 1775759532261,
+      "rationale": "The tweet explicitly says \"we are resetting the limits again,\" directly indicating usage limits are being reset now.",
+      "tweetId": "2042299371602264319",
+      "tweetUrl": "https://x.com/thsottiaux/status/2042299371602264319",
+      "verdict": "reset_confirmed"
     },
     "lastError": null,
-    "lastSeenTweetId": "2042264240673947823",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2042264240673947823",
-    "pendingReview": {
-      "confidence": 0.96,
-      "createdAt": 1775750879901,
-      "rationale": "This reply is too vague to indicate anything about limits, caps, or availability resetting.",
-      "tweetId": "2042264240673947823",
-      "tweetText": "@LLMJunky Uhm!",
-      "tweetUrl": "https://x.com/thsottiaux/status/2042264240673947823"
-    },
+    "lastSeenTweetId": "2042299371602264319",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2042299371602264319",
+    "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.97,
+        "evaluatedAt": 1775759532261,
+        "inputTokens": 482,
+        "outputTokens": 99,
+        "rationale": "The tweet explicitly says \"we are resetting the limits again,\" directly indicating usage limits are being reset now.",
+        "reasoningTokens": 49,
+        "totalTokens": 581,
+        "tweetId": "2042299371602264319",
+        "tweetText": "We did it, say hi to the $100 plan! \n\nIt should be the sweet spot for a ton of you. It comes with a ton of codex usage. And yes we are resetting the limits again too as I mentioned yesterday. Let’s keep building!",
+        "tweetUrl": "https://x.com/thsottiaux/status/2042299371602264319",
+        "verdict": "reset_confirmed"
+      },
       {
         "confidence": 0.96,
         "evaluatedAt": 1775750879901,
@@ -280,29 +286,31 @@
         "tweetText": "Codex is for wizards",
         "tweetUrl": "https://x.com/thsottiaux/status/2040997506927284654",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1775448934196,
-        "inputTokens": 290,
-        "outputTokens": 135,
-        "rationale": "A brief conversational reply with no mention or implication of limits, caps, or reset status.",
-        "reasoningTokens": 89,
-        "totalTokens": 425,
-        "tweetId": "2040997238659510445",
-        "tweetText": "@shoyer ok",
-        "tweetUrl": "https://x.com/thsottiaux/status/2040997238659510445",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 22649,
-      "totalOutputTokens": 7398,
-      "totalReasoningTokens": 3691,
-      "totalTokens": 30047
+      "totalInputTokens": 23131,
+      "totalOutputTokens": 7497,
+      "totalReasoningTokens": 3740,
+      "totalTokens": 30628
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.97,
+      "createdAt": 1775759532261,
+      "inputTokens": 482,
+      "message": "",
+      "outputTokens": 99,
+      "rationale": "The tweet explicitly says \"we are resetting the limits again,\" directly indicating usage limits are being reset now.",
+      "reasoningTokens": 49,
+      "totalTokens": 581,
+      "tweetId": "2042299371602264319",
+      "tweetText": "We did it, say hi to the $100 plan! \n\nIt should be the sweet spot for a ton of you. It comes with a ton of codex usage. And yes we are resetting the limits again too as I mentioned yesterday. Let’s keep building!",
+      "tweetUrl": "https://x.com/thsottiaux/status/2042299371602264319",
+      "type": "reset_confirmed",
+      "verdict": "reset_confirmed"
+    },
     {
       "confidence": 0.96,
       "createdAt": 1775750879901,
@@ -887,27 +895,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2039964496870195439",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1775196785049,
-      "inputTokens": 307,
-      "message": "",
-      "outputTokens": 73,
-      "rationale": "Reply about incentives and sleep; no mention of Codex/ChatGPT limits, caps, or availability resetting.",
-      "reasoningTokens": 23,
-      "totalTokens": 380,
-      "tweetId": "2039932107938795687",
-      "tweetText": "@RonPualS Don’t want the incentives to be THAT strong that an entire nation starts sleeping differently",
-      "tweetUrl": "https://x.com/thsottiaux/status/2039932107938795687",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "krWuuPmOkmxT5HlW37hudayjVLaAlvnkJJTtCyMwYlcFtTNXCYVloipk1g",
-    "iv": "1aFgvdZqTEzDjFTD",
-    "tag": "Mp9QdNZ7KUr7eZaCuEUMJA",
+    "ciphertext": "dbKobez6J0SUMzpPdP3zJt4pWKanJBtkjeaVnB5mvU2n5BmDQDP0fZwv1Q",
+    "iv": "5fjMPBNFa5MCF4SZ",
+    "tag": "XlUgsRQtTFaEKQEzXHrJjw",
     "version": 1
   }
 }
