@@ -4,6 +4,14 @@ import path from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
 import { Readable } from "node:stream";
 
+import { createPublicAutomationSummary } from "./api/status.mjs";
+import {
+  getDefaultAutoResetHours,
+  getDefaultNoSubtitles,
+  getDefaultYesSubtitles,
+  normalizeStoredState,
+} from "./api/_lib/site-state.mjs";
+
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
@@ -121,6 +129,63 @@ const sendFetchResponse = async (nodeResponse, fetchResponse, requestMethod) => 
   send(nodeResponse, fetchResponse.status, headers, body, requestMethod);
 };
 
+const hasGithubConfig = () =>
+  [
+    process.env.GITHUB_REPO_BRANCH,
+    process.env.GITHUB_REPO_NAME,
+    process.env.GITHUB_REPO_OWNER,
+    process.env.GITHUB_TOKEN,
+  ].every((value) => typeof value === "string" && value.trim());
+
+const withAppliedExpiration = (state) => {
+  const isExpired = state.currentState === "yes" && state.resetAt && Date.now() >= state.resetAt;
+
+  return {
+    ...state,
+    currentState: isExpired ? "no" : state.currentState,
+    resetAt: isExpired ? null : state.resetAt,
+  };
+};
+
+const readLocalStatusSnapshot = async () => {
+  try {
+    const raw = await fs.readFile(path.join(__dirname, "data/site-state.json"), "utf8");
+    return withAppliedExpiration(normalizeStoredState(JSON.parse(raw)));
+  } catch (_error) {
+    return withAppliedExpiration(normalizeStoredState({}));
+  }
+};
+
+const serveLocalStatusSnapshot = async (request, response, pathname) => {
+  if (pathname !== "/api/status" || hasGithubConfig()) {
+    return false;
+  }
+
+  const state = await readLocalStatusSnapshot();
+  const payload = {
+    autoResetHours: state.autoResetHours || getDefaultAutoResetHours(),
+    automationSummary: createPublicAutomationSummary(state.automation),
+    configured: true,
+    noSubtitles: state.noSubtitles || getDefaultNoSubtitles(),
+    resetAt: state.resetAt,
+    state: state.currentState,
+    updatedAt: state.updatedAt,
+    yesSubtitles: state.yesSubtitles || getDefaultYesSubtitles(),
+  };
+
+  send(
+    response,
+    200,
+    {
+      ...pageHeaders,
+      "content-type": "application/json; charset=utf-8",
+    },
+    Buffer.from(JSON.stringify(payload)),
+    request.method,
+  );
+  return true;
+};
+
 const serveStaticFile = async (request, response, pathname) => {
   const asset = PUBLIC_FILES.get(pathname);
   if (!asset) {
@@ -200,6 +265,10 @@ const server = http.createServer(async (request, response) => {
     if (pathname === "/config.html") {
       response.writeHead(301, { location: "/config" });
       response.end();
+      return;
+    }
+
+    if (await serveLocalStatusSnapshot(request, response, pathname)) {
       return;
     }
 

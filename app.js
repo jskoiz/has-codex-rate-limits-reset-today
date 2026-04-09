@@ -1,11 +1,23 @@
 import { fetchStatus } from "./site-api.js";
 
+const DEFAULT_AUTOMATION_REASON = "Fresh posts get scored here.";
 const DEFAULT_NO_SUBTITLE = "Limits have not reset yet.";
 const DEFAULT_YES_SUBTITLE = "Limits reset, go crazy";
 
 const root = document.documentElement;
 const answerValue = document.querySelector("#answerValue");
 const subtitle = document.querySelector("#subtitle");
+const automationTweetLabel = document.querySelector("#automationTweetLabel");
+const automationTweetLink = document.querySelector("#automationTweetLink");
+const automationTweetText = document.querySelector("#automationTweetText");
+const automationTweetMeta = document.querySelector("#automationTweetMeta");
+const automationVerdictValue = document.querySelector("#automationVerdictValue");
+const automationVerdictMeta = document.querySelector("#automationVerdictMeta");
+const automationReasoningValue = document.querySelector("#automationReasoningValue");
+const automationInputTokensValue = document.querySelector("#automationInputTokensValue");
+const automationModelValue = document.querySelector("#automationModelValue");
+const automationOutputTokensValue = document.querySelector("#automationOutputTokensValue");
+const automationReasoningTokensValue = document.querySelector("#automationReasoningTokensValue");
 const asciiField = document.querySelector("#asciiField");
 const heroVideo = document.querySelector(".hero-video");
 const heroMarkShell = document.querySelector(".hero-mark-shell");
@@ -24,10 +36,134 @@ const pickRandomSubtitle = (subtitles) => {
   return subtitles[index] || DEFAULT_NO_SUBTITLE;
 };
 
-const applyState = ({ configured = true, noSubtitles = [], state, yesSubtitles = [] }) => {
+const formatDateTime = (value) => {
+  if (!value) {
+    return "Awaiting first pass";
+  }
+
+  const timestamp = typeof value === "number" ? value : Date.parse(value);
+
+  if (!Number.isFinite(timestamp)) {
+    return "Awaiting first pass";
+  }
+
+  const d = new Date(timestamp);
+  const pad = (n) => String(n).padStart(2, "0");
+  return `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())} ${pad(d.getHours())}:${pad(d.getMinutes())}`;
+};
+
+const formatTokenCount = (value) => new Intl.NumberFormat().format(Number.isFinite(value) ? value : 0);
+
+const getTrackedUsername = (tweetUrl) => {
+  if (!tweetUrl) {
+    return "thsottiaux";
+  }
+
+  const match = tweetUrl.match(/x\.com\/([^/]+)\/status/i);
+  return match?.[1] || "thsottiaux";
+};
+
+const formatAutomationVerdict = (value) => {
+  if (value === "reset_confirmed") {
+    return "Yes";
+  }
+
+  if (value === "not_reset") {
+    return "No";
+  }
+
+  if (value === "uncertain") {
+    return "Review";
+  }
+
+  return "Monitoring";
+};
+
+const normalizeInlineText = (value) => {
+  if (!value) {
+    return "";
+  }
+
+  return value.replace(/\s+/g, " ").trim();
+};
+
+const truncateText = (value, maxLength = 144) => {
+  if (!value) {
+    return "";
+  }
+
+  return value.length > maxLength ? `${value.slice(0, maxLength - 1)}…` : value;
+};
+
+const setLinkState = (element, href, fallbackText) => {
+  if (!element) {
+    return;
+  }
+
+  if (href) {
+    element.href = href;
+    element.dataset.empty = "false";
+    element.removeAttribute("aria-disabled");
+    return;
+  }
+
+  element.dataset.empty = "true";
+  element.setAttribute("aria-disabled", "true");
+  element.removeAttribute("href");
+
+  if (fallbackText) {
+    element.setAttribute("aria-label", fallbackText);
+  }
+};
+
+const applyAutomationSummary = (summary = null) => {
+  if (!automationTweetText) {
+    return;
+  }
+
+  if (!summary) {
+    setLinkState(automationTweetLink, null, "Waiting for first tracked post");
+    automationTweetLabel.textContent = "Last tweet seen by thsottiaux";
+    automationTweetText.textContent = "Waiting for first tracked post";
+    automationTweetMeta.textContent = "Monitor is live.";
+    automationVerdictValue.textContent = "Monitoring";
+    automationVerdictValue.dataset.state = "";
+    automationVerdictMeta.textContent = "No classification yet.";
+    automationReasoningValue.textContent = DEFAULT_AUTOMATION_REASON;
+    automationInputTokensValue.textContent = "0";
+    automationModelValue.textContent = "CHATGPT-5.4";
+    automationOutputTokensValue.textContent = "0";
+    automationReasoningTokensValue.textContent = "0";
+    return;
+  }
+
+  const tweetText =
+    truncateText(normalizeInlineText(summary.tweetText), 132) ||
+    (summary.tweetId ? `Tracked post ${summary.tweetId}` : "Tracked post");
+  const checkedAtText = formatDateTime(summary.checkedAt);
+  const confidenceText = Number.isFinite(summary.confidence) ? `${Math.round(summary.confidence * 100)}% conf` : null;
+  const trackedUsername = getTrackedUsername(summary.tweetUrl);
+
+  setLinkState(automationTweetLink, summary.tweetUrl, tweetText);
+  automationTweetLabel.textContent = `Last tweet seen by ${trackedUsername}`;
+  automationTweetText.textContent = tweetText;
+  automationTweetMeta.textContent = summary.tweetUrl ? checkedAtText : "Waiting for first linked post.";
+  automationVerdictValue.textContent = formatAutomationVerdict(summary.verdict);
+  automationVerdictValue.dataset.state =
+    summary.verdict === "reset_confirmed" ? "yes" : summary.verdict === "not_reset" ? "no" : "review";
+  automationVerdictMeta.textContent = confidenceText || "Live classification";
+  automationReasoningValue.textContent = truncateText(normalizeInlineText(summary.rationale), 260) || DEFAULT_AUTOMATION_REASON;
+  automationInputTokensValue.textContent = formatTokenCount(summary.usage?.inputTokens || 0);
+  automationModelValue.textContent = String(summary.model || "chatgpt-5.4").toUpperCase();
+  automationOutputTokensValue.textContent = formatTokenCount(summary.usage?.outputTokens || 0);
+  automationReasoningTokensValue.textContent = formatTokenCount(summary.usage?.reasoningTokens || 0);
+};
+
+const applyState = ({ automationSummary = null, configured = true, noSubtitles = [], state, yesSubtitles = [] }) => {
   const hasReset = state !== "no";
 
   answerValue.textContent = hasReset ? "Yes" : "No";
+  applyAutomationSummary(automationSummary);
 
   if (!configured) {
     subtitle.textContent = "Site config is not set up yet";
@@ -40,6 +176,7 @@ const applyState = ({ configured = true, noSubtitles = [], state, yesSubtitles =
 const applyUnavailableState = () => {
   answerValue.textContent = "No";
   subtitle.textContent = DEFAULT_NO_SUBTITLE;
+  applyAutomationSummary(null);
 };
 
 fetchStatus().then(applyState).catch(applyUnavailableState);
