@@ -1,5 +1,5 @@
 {
-  "currentState": "yes",
+  "currentState": "no",
   "autoResetHours": 20,
   "noSubtitles": [
     "Back to your local model peasant",
@@ -8,22 +8,35 @@
   "yesSubtitles": [
     "Thanks @sama"
   ],
-  "resetAt": 1775678044608,
+  "resetAt": null,
   "updatedAt": 1775606839925,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1775670385473,
-      "rationale": "This is just a reply asking about the user's plan and does not state or imply that any limits or caps have reset.",
-      "tweetId": "2041927798416404869",
-      "tweetUrl": "https://x.com/thsottiaux/status/2041927798416404869",
+      "confidence": 0.97,
+      "decidedAt": 1775704842315,
+      "rationale": "The tweet discusses a Codex reset that happened yesterday and says another reset will happen tomorrow, not that limits have reset now.",
+      "tweetId": "2042067902392942790",
+      "tweetUrl": "https://x.com/thsottiaux/status/2042067902392942790",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2041927798416404869",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2041927798416404869",
+    "lastSeenTweetId": "2042067902392942790",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2042067902392942790",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.97,
+        "evaluatedAt": 1775704842315,
+        "inputTokens": 330,
+        "outputTokens": 283,
+        "rationale": "The tweet discusses a Codex reset that happened yesterday and says another reset will happen tomorrow, not that limits have reset now.",
+        "reasoningTokens": 230,
+        "totalTokens": 613,
+        "tweetId": "2042067902392942790",
+        "tweetText": "I realize yesterday’s Codex reset came in a bit at an unfortunate time given the last one was almost perfectly a week ago. To really celebrate the 3M I’ll reset again tomorrow. Thanks for the feedback!",
+        "tweetUrl": "https://x.com/thsottiaux/status/2042067902392942790",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1775670385473,
@@ -270,29 +283,31 @@
         "tweetText": "@kr0der Our plan\n\n1) make a model great at design and frontend\n2) ask it to make a great mascot\n\nand we are still at 1",
         "tweetUrl": "https://x.com/thsottiaux/status/2040666095582113819",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1775371486515,
-        "inputTokens": 305,
-        "outputTokens": 88,
-        "rationale": "This reply is conversational/joking and says nothing about limits, caps, or usage becoming available again.",
-        "reasoningTokens": 40,
-        "totalTokens": 393,
-        "tweetId": "2040664391742587265",
-        "tweetText": "@adonis_singh It can smell the opus perfume in the circuits and tries extra hard",
-        "tweetUrl": "https://x.com/thsottiaux/status/2040664391742587265",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 20832,
-      "totalOutputTokens": 6617,
-      "totalReasoningTokens": 3202,
-      "totalTokens": 27449
+      "totalInputTokens": 21162,
+      "totalOutputTokens": 6900,
+      "totalReasoningTokens": 3432,
+      "totalTokens": 28062
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.97,
+      "createdAt": 1775704842316,
+      "inputTokens": 330,
+      "message": "",
+      "outputTokens": 283,
+      "rationale": "The tweet discusses a Codex reset that happened yesterday and says another reset will happen tomorrow, not that limits have reset now.",
+      "reasoningTokens": 230,
+      "totalTokens": 613,
+      "tweetId": "2042067902392942790",
+      "tweetText": "I realize yesterday’s Codex reset came in a bit at an unfortunate time given the last one was almost perfectly a week ago. To really celebrate the 3M I’ll reset again tomorrow. Thanks for the feedback!",
+      "tweetUrl": "https://x.com/thsottiaux/status/2042067902392942790",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1775670385473,
@@ -877,27 +892,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2039862114194686305",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1775169997065,
-      "inputTokens": 325,
-      "message": "",
-      "outputTokens": 78,
-      "rationale": "This is a product/pricing announcement about Codex seats and pay-as-you-go, not about rate limits, caps, or usage resetting.",
-      "reasoningTokens": 22,
-      "totalTokens": 403,
-      "tweetId": "2039830319302693367",
-      "tweetText": "For business and enterprise, Codex now starts at $0 seats with pay-as-you-go. It's time to build.\n\nhttps://t.co/BZOmVnL0Bt",
-      "tweetUrl": "https://x.com/thsottiaux/status/2039830319302693367",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "MnxE5GWmzikPzzuziWlDABLbHacYwupQC2SbBOQPG161X4YcUonSrCsjvg",
-    "iv": "iyMXEiulhgHbBWFT",
-    "tag": "zxjzFmgosumY59l35_nvGA",
+    "ciphertext": "KZlUQtG-wtCTfVSBXUN_IfQW-bc6CtOCncZksxHIiTGzvf3WhRULD70KeQ",
+    "iv": "J0k0j41jphIM1JM4",
+    "tag": "yS_5163orzGu80RPVvyaeQ",
     "version": 1
   }
 }
