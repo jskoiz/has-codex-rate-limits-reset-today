@@ -26,12 +26,14 @@ body {
   font-family: "Manrope", "Avenir Next", "Segoe UI", sans-serif;
   overflow-x: hidden;
   overflow-y: auto;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .page-shell {
   position: relative;
   min-height: 100vh;
   isolation: isolate;
+  background: #f4efe5;
 }
 
 .video-shell {
@@ -476,6 +478,18 @@ p {
 }
 
 @media (max-width: 720px) {
+  .page-shell::after {
+    content: "";
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: max(3px, env(safe-area-inset-bottom));
+    background: #f4efe5;
+    pointer-events: none;
+    z-index: 3;
+  }
+
   .page-content {
     padding: 0.35rem 0 calc(2.8rem + env(safe-area-inset-bottom));
   }

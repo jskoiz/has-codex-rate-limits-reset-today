@@ -381,9 +381,11 @@ if (heroMarkVideo) {
 }
 
 if (heroMarkShell) {
-  heroMarkShell.addEventListener("pointerenter", playHeroMark, { passive: true });
-  heroMarkShell.addEventListener("click", playHeroMark);
-  heroMarkShell.addEventListener("touchstart", playHeroMark, { passive: true });
+  if (!mobileVideoQuery.matches) {
+    heroMarkShell.addEventListener("pointerenter", playHeroMark, { passive: true });
+    heroMarkShell.addEventListener("click", playHeroMark);
+    heroMarkShell.addEventListener("touchstart", playHeroMark, { passive: true });
+  }
 }
 
 if (!mediaQuery.matches) {
