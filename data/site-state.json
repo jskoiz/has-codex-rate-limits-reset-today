@@ -12,18 +12,38 @@
   "updatedAt": 1775606839925,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1775750874150,
-      "rationale": "Reply saying \"tiny commits\"; no mention of limits, caps, resets, or availability returning.",
-      "tweetId": "2042259243403985275",
-      "tweetUrl": "https://x.com/thsottiaux/status/2042259243403985275",
-      "verdict": "not_reset"
+      "confidence": 0.96,
+      "decidedAt": 1775750879901,
+      "rationale": "This reply is too vague to indicate anything about limits, caps, or availability resetting.",
+      "tweetId": "2042264240673947823",
+      "tweetUrl": "https://x.com/thsottiaux/status/2042264240673947823",
+      "verdict": "uncertain"
     },
     "lastError": null,
-    "lastSeenTweetId": "2042259243403985275",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2042259243403985275",
-    "pendingReview": null,
+    "lastSeenTweetId": "2042264240673947823",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2042264240673947823",
+    "pendingReview": {
+      "confidence": 0.96,
+      "createdAt": 1775750879901,
+      "rationale": "This reply is too vague to indicate anything about limits, caps, or availability resetting.",
+      "tweetId": "2042264240673947823",
+      "tweetText": "@LLMJunky Uhm!",
+      "tweetUrl": "https://x.com/thsottiaux/status/2042264240673947823"
+    },
     "recentEvaluations": [
+      {
+        "confidence": 0.96,
+        "evaluatedAt": 1775750879901,
+        "inputTokens": 292,
+        "outputTokens": 158,
+        "rationale": "This reply is too vague to indicate anything about limits, caps, or availability resetting.",
+        "reasoningTokens": 113,
+        "totalTokens": 450,
+        "tweetId": "2042264240673947823",
+        "tweetText": "@LLMJunky Uhm!",
+        "tweetUrl": "https://x.com/thsottiaux/status/2042264240673947823",
+        "verdict": "uncertain"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1775750874150,
@@ -270,29 +290,31 @@
         "tweetText": "@shoyer ok",
         "tweetUrl": "https://x.com/thsottiaux/status/2040997238659510445",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1775448929439,
-        "inputTokens": 312,
-        "outputTokens": 69,
-        "rationale": "This reply is conversational and does not mention limits, caps, availability, or any reset of Codex/ChatGPT usage.",
-        "reasoningTokens": 16,
-        "totalTokens": 381,
-        "tweetId": "2040971067758703047",
-        "tweetText": "@Francesco_Oddo @10x_er Let me break it to you. Someone put it on the table for you",
-        "tweetUrl": "https://x.com/thsottiaux/status/2040971067758703047",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 22357,
-      "totalOutputTokens": 7240,
-      "totalReasoningTokens": 3578,
-      "totalTokens": 29597
+      "totalInputTokens": 22649,
+      "totalOutputTokens": 7398,
+      "totalReasoningTokens": 3691,
+      "totalTokens": 30047
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.96,
+      "createdAt": 1775750879901,
+      "inputTokens": 292,
+      "message": "",
+      "outputTokens": 158,
+      "rationale": "This reply is too vague to indicate anything about limits, caps, or availability resetting.",
+      "reasoningTokens": 113,
+      "totalTokens": 450,
+      "tweetId": "2042264240673947823",
+      "tweetText": "@LLMJunky Uhm!",
+      "tweetUrl": "https://x.com/thsottiaux/status/2042264240673947823",
+      "type": "review_requested",
+      "verdict": "uncertain"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1775750874150,
@@ -877,27 +899,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2039932107938795687",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1775192120438,
-      "inputTokens": 355,
-      "message": "",
-      "outputTokens": 76,
-      "rationale": "Promotional tweet about Codex App adoption and install credits; no mention of limits, caps, or usage resetting.",
-      "reasoningTokens": 25,
-      "totalTokens": 431,
-      "tweetId": "2039901964679688437",
-      "tweetText": "The Codex App is now our most used surface, ahead of the VS Code extension and the CLI. No wonder it inspires a few others 👀\n\nYou can install it here https://t.co/Lwg13vEJDn + you get up to $500 in credits if you are getting started as a business or enterprise.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2039901964679688437",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "j5zRu-BN7tsnlZCwWXxrPrIwOtHdpZWSfHx82h6ViOVvhpRQcrBOkymwhw",
-    "iv": "Y4UuMaue26kOUYpY",
-    "tag": "V26ubQqTL4U2JSya25Wepw",
+    "ciphertext": "ZCioj5fVJkdiV6mAMYRtXDbBx3Ck87fvoIxU59_L6bjyb81uVZP7qMOwOQ",
+    "iv": "92HWT0GBjIp5U0Gs",
+    "tag": "eRu-2FlBtGGUPbGG2cVlYg",
     "version": 1
   }
 }
