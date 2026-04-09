@@ -14,18 +14,31 @@
   "updatedAt": 1775764047465,
   "automation": {
     "lastDecision": {
-      "confidence": 0.87,
-      "decidedAt": 1775764047465,
-      "rationale": "The quoted post explicitly says Codex rate limits are being reset now; the new tweet discusses when the next reset will be needed, implying a reset has already happened.",
-      "tweetId": "2042325164902531427",
-      "tweetUrl": "https://x.com/thsottiaux/status/2042325164902531427",
-      "verdict": "reset_confirmed"
+      "confidence": 0.99,
+      "decidedAt": 1775767001040,
+      "rationale": "This reply discusses plan tiers and does not indicate any limit or rate-cap reset.",
+      "tweetId": "2042325303406768397",
+      "tweetUrl": "https://x.com/thsottiaux/status/2042325303406768397",
+      "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2042325164902531427",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2042325164902531427",
+    "lastSeenTweetId": "2042325303406768397",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2042325303406768397",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1775767001040,
+        "inputTokens": 367,
+        "outputTokens": 113,
+        "rationale": "This reply discusses plan tiers and does not indicate any limit or rate-cap reset.",
+        "reasoningTokens": 69,
+        "totalTokens": 480,
+        "tweetId": "2042325303406768397",
+        "tweetText": "@ai_for_success that was the small plan, big plan is still coming",
+        "tweetUrl": "https://x.com/thsottiaux/status/2042325303406768397",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.87,
         "evaluatedAt": 1775764047465,
@@ -272,29 +285,31 @@
         "tweetText": "OpenClaw is now really good with GPT-5.4. Peter and team cooked",
         "tweetUrl": "https://x.com/thsottiaux/status/2041161694672748684",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1775462616908,
-        "inputTokens": 301,
-        "outputTokens": 86,
-        "rationale": "Reply about using Codex; no mention of limits, caps, reset, or availability returning.",
-        "reasoningTokens": 39,
-        "totalTokens": 387,
-        "tweetId": "2041024476096483544",
-        "tweetText": "@asishcodes Don’t feed codex, let it cook for you",
-        "tweetUrl": "https://x.com/thsottiaux/status/2041024476096483544",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 24464,
-      "totalOutputTokens": 8332,
-      "totalReasoningTokens": 4365,
-      "totalTokens": 32796
+      "totalInputTokens": 24831,
+      "totalOutputTokens": 8445,
+      "totalReasoningTokens": 4434,
+      "totalTokens": 33276
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1775767001040,
+      "inputTokens": 367,
+      "message": "",
+      "outputTokens": 113,
+      "rationale": "This reply discusses plan tiers and does not indicate any limit or rate-cap reset.",
+      "reasoningTokens": 69,
+      "totalTokens": 480,
+      "tweetId": "2042325303406768397",
+      "tweetText": "@ai_for_success that was the small plan, big plan is still coming",
+      "tweetUrl": "https://x.com/thsottiaux/status/2042325303406768397",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.87,
       "createdAt": 1775764047465,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2040185809882742805",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1775253304082,
-      "inputTokens": 351,
-      "message": "",
-      "outputTokens": 84,
-      "rationale": "The tweet discusses Codex behavior during a build process, not user caps, rate limits, or availability being restored.",
-      "reasoningTokens": 33,
-      "totalTokens": 435,
-      "tweetId": "2040185497415565442",
-      "tweetText": "Always fun when you notice Codex being clever in a way you don't expect. \n\nIn a session today, it was running a slow build process and got annoyed (don't we all). Before making a change it checked that progress was actually happening and did so not by checking the logs, but by checking CPU usage.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2040185497415565442",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "QQimxpNT7BvCUUQ9MQhwhhe5PQABCfgb6LEtRMtyY6W5IHMqrhCBu-IeCw",
-    "iv": "AQLY5KaT73BQTIk6",
-    "tag": "WLmhnrK6QUOX_2C9FVcDDg",
+    "ciphertext": "k5t834rh8FkdRQPCqX-GeWQdSxqBFr40NkIw-2LIr3YxVbZsHUYDfNjFkQ",
+    "iv": "ZhpD6tHLXkYACUAA",
+    "tag": "Nnbha9Aau-_muRCP-YoaTw",
     "version": 1
   }
 }
