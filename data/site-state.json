@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1775794815850,
+      "decidedAt": 1775794819400,
       "rationale": "This is just a conversational reply and does not mention limits, caps, or availability resetting.",
-      "tweetId": "2042421938606477801",
-      "tweetUrl": "https://x.com/thsottiaux/status/2042421938606477801",
+      "tweetId": "2042423093688484322",
+      "tweetUrl": "https://x.com/thsottiaux/status/2042423093688484322",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2042421938606477801",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2042421938606477801",
+    "lastSeenTweetId": "2042423093688484322",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2042423093688484322",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1775794819400,
+        "inputTokens": 367,
+        "outputTokens": 64,
+        "rationale": "This is just a conversational reply and does not mention limits, caps, or availability resetting.",
+        "reasoningTokens": 18,
+        "totalTokens": 431,
+        "tweetId": "2042423093688484322",
+        "tweetText": "@joannejang Would recognize our JT even if he were 4 pixels",
+        "tweetUrl": "https://x.com/thsottiaux/status/2042423093688484322",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1775794815850,
@@ -272,29 +285,31 @@
         "tweetText": "@thdxr Let’s go! OpenCode ❤️ GPT",
         "tweetUrl": "https://x.com/thsottiaux/status/2041388379871523141",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1775496441547,
-        "inputTokens": 366,
-        "outputTokens": 78,
-        "rationale": "Reply only describes model variants and their tradeoffs; no mention of limits, caps, availability reset, or usage being restored.",
-        "reasoningTokens": 25,
-        "totalTokens": 444,
-        "tweetId": "2041191874539786343",
-        "tweetText": "@Its_Nova1012 GPT-5.4 - Best results, highest cost. Well rounded.\nGPT-5.4-Mini - Cheapest option. Fast and accurate, will notice occasional things that are too hard for it and you can switch to GPT-5.4.\nGPT-5.3-Codex - Code freak. Can use if you only care about generating code.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2041191874539786343",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 25572,
-      "totalOutputTokens": 8582,
-      "totalReasoningTokens": 4481,
-      "totalTokens": 34154
+      "totalInputTokens": 25939,
+      "totalOutputTokens": 8646,
+      "totalReasoningTokens": 4499,
+      "totalTokens": 34585
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1775794819400,
+      "inputTokens": 367,
+      "message": "",
+      "outputTokens": 64,
+      "rationale": "This is just a conversational reply and does not mention limits, caps, or availability resetting.",
+      "reasoningTokens": 18,
+      "totalTokens": 431,
+      "tweetId": "2042423093688484322",
+      "tweetText": "@joannejang Would recognize our JT even if he were 4 pixels",
+      "tweetUrl": "https://x.com/thsottiaux/status/2042423093688484322",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1775794815851,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2040230678122623136",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1775264305153,
-      "inputTokens": 343,
-      "message": "",
-      "outputTokens": 91,
-      "rationale": "The tweet discusses demand, capacity, and model efficiency in general. It does not say or imply that Codex or ChatGPT rate limits have reset or that usage is available again now.",
-      "reasoningTokens": 26,
-      "totalTokens": 434,
-      "tweetId": "2040230479392395539",
-      "tweetText": "From the surge in demand on Codex and many other services, it is clear that AI companies are going to go through a phase of demand outpacing supply. Two things will be most important, having the most capacity and having the most efficient models. I believe we have both.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2040230479392395539",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "wTdxjFWlZjgXUIDBX2iWqCIbx9eVQkhndpnQegXthIvKKGJrzzQuKwOYFA",
-    "iv": "AvrAKGba5njvgPVT",
-    "tag": "MA4ncmo4ICwRp3o4frRTCw",
+    "ciphertext": "yd0RAbHbASoJXvKmO5QLirhJt9nyYnS2Qlk3SOSsIjHHnxTYQxAJdpf1LA",
+    "iv": "ToLp4qEm7CFux-al",
+    "tag": "e4hO_UfQvpBnnaRZevgxag",
     "version": 1
   }
 }
