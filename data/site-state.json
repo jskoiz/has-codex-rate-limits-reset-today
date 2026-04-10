@@ -14,18 +14,38 @@
   "updatedAt": 1775764047465,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1775794824821,
-      "rationale": "This is a joking reply and does not mention limits, caps, or usage becoming available again.",
-      "tweetId": "2042433439224512751",
-      "tweetUrl": "https://x.com/thsottiaux/status/2042433439224512751",
-      "verdict": "not_reset"
+      "confidence": 0.84,
+      "decidedAt": 1775794840802,
+      "rationale": "It mentions a new Codex plan helping users, but does not explicitly say limits or caps reset now.",
+      "tweetId": "2042436086392373392",
+      "tweetUrl": "https://x.com/thsottiaux/status/2042436086392373392",
+      "verdict": "uncertain"
     },
     "lastError": null,
-    "lastSeenTweetId": "2042433439224512751",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2042433439224512751",
-    "pendingReview": null,
+    "lastSeenTweetId": "2042436086392373392",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2042436086392373392",
+    "pendingReview": {
+      "confidence": 0.84,
+      "createdAt": 1775794840802,
+      "rationale": "It mentions a new Codex plan helping users, but does not explicitly say limits or caps reset now.",
+      "tweetId": "2042436086392373392",
+      "tweetText": "I get so many personal thank you emails for something and it’s not even a feature. All we needed apparently was a new codex plan. Can we rest now? https://t.co/d0iDjZo4By",
+      "tweetUrl": "https://x.com/thsottiaux/status/2042436086392373392"
+    },
     "recentEvaluations": [
+      {
+        "confidence": 0.84,
+        "evaluatedAt": 1775794840802,
+        "inputTokens": 398,
+        "outputTokens": 211,
+        "rationale": "It mentions a new Codex plan helping users, but does not explicitly say limits or caps reset now.",
+        "reasoningTokens": 162,
+        "totalTokens": 609,
+        "tweetId": "2042436086392373392",
+        "tweetText": "I get so many personal thank you emails for something and it’s not even a feature. All we needed apparently was a new codex plan. Can we rest now? https://t.co/d0iDjZo4By",
+        "tweetUrl": "https://x.com/thsottiaux/status/2042436086392373392",
+        "verdict": "uncertain"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1775794824821,
@@ -272,29 +292,31 @@
         "tweetText": "Unreasonably excited about things. The next few weeks will be intense (and fun!).",
         "tweetUrl": "https://x.com/thsottiaux/status/2041751911964274753",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1775634512918,
-        "inputTokens": 294,
-        "outputTokens": 75,
-        "rationale": "The post is just a brief reply with no mention of limits, caps, reset, or availability returning.",
-        "reasoningTokens": 26,
-        "totalTokens": 369,
-        "tweetId": "2041749947385815109",
-        "tweetText": "@adonis_singh Uhm",
-        "tweetUrl": "https://x.com/thsottiaux/status/2041749947385815109",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 26669,
-      "totalOutputTokens": 8793,
-      "totalReasoningTokens": 4553,
-      "totalTokens": 35462
+      "totalInputTokens": 27067,
+      "totalOutputTokens": 9004,
+      "totalReasoningTokens": 4715,
+      "totalTokens": 36071
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.84,
+      "createdAt": 1775794840802,
+      "inputTokens": 398,
+      "message": "",
+      "outputTokens": 211,
+      "rationale": "It mentions a new Codex plan helping users, but does not explicitly say limits or caps reset now.",
+      "reasoningTokens": 162,
+      "totalTokens": 609,
+      "tweetId": "2042436086392373392",
+      "tweetText": "I get so many personal thank you emails for something and it’s not even a feature. All we needed apparently was a new codex plan. Can we rest now? https://t.co/d0iDjZo4By",
+      "tweetUrl": "https://x.com/thsottiaux/status/2042436086392373392",
+      "type": "review_requested",
+      "verdict": "uncertain"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1775794824822,
@@ -879,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2040535236703097246",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1775264316438,
-      "inputTokens": 300,
-      "message": "",
-      "outputTokens": 69,
-      "rationale": "Reply recommending installing Codex; no mention of limits, caps, reset, or usage becoming available again.",
-      "reasoningTokens": 20,
-      "totalTokens": 369,
-      "tweetId": "2040232278824288333",
-      "tweetText": "@nateliason npm i -g @openai/codex",
-      "tweetUrl": "https://x.com/thsottiaux/status/2040232278824288333",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "euAjBB2Kd36NsNbRKKOcAShhGl_I7gjs1uc6g-yA88bb6D2BqQukDAkI6Q",
-    "iv": "PaXqR9VpYuk269my",
-    "tag": "k5vkYRNn-TTKvG1MapkrJw",
+    "ciphertext": "C88IIVaAevmEomvWk7c5QNxsDTrvC9Yo0rOD5jCQmfRLCgwjV4F7ASVNFw",
+    "iv": "q6Zij9wKUkNGnlKK",
+    "tag": "6I1Z0DYxWAMWUQaNAn4vCw",
     "version": 1
   }
 }
