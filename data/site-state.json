@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1775794822437,
-      "rationale": "This reply is conversational and does not mention limits, caps, or usage becoming available again.",
-      "tweetId": "2042433280386138120",
-      "tweetUrl": "https://x.com/thsottiaux/status/2042433280386138120",
+      "decidedAt": 1775794824821,
+      "rationale": "This is a joking reply and does not mention limits, caps, or usage becoming available again.",
+      "tweetId": "2042433439224512751",
+      "tweetUrl": "https://x.com/thsottiaux/status/2042433439224512751",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2042433280386138120",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2042433280386138120",
+    "lastSeenTweetId": "2042433439224512751",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2042433439224512751",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1775794824821,
+        "inputTokens": 368,
+        "outputTokens": 69,
+        "rationale": "This is a joking reply and does not mention limits, caps, or usage becoming available again.",
+        "reasoningTokens": 22,
+        "totalTokens": 437,
+        "tweetId": "2042433439224512751",
+        "tweetText": "@jxnlco If you keep complaining I’ll add Jason the 2nd",
+        "tweetUrl": "https://x.com/thsottiaux/status/2042433439224512751",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1775794822437,
@@ -272,29 +285,31 @@
         "tweetText": "@adonis_singh Uhm",
         "tweetUrl": "https://x.com/thsottiaux/status/2041749947385815109",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1775605736305,
-        "inputTokens": 376,
-        "outputTokens": 91,
-        "rationale": "The tweet explicitly says \"we’re resetting rate limits\" and tells users to enjoy now, clearly indicating usage limits have been reset.",
-        "reasoningTokens": 36,
-        "totalTokens": 467,
-        "tweetId": "2041655710346572085",
-        "tweetText": "Three million people are now using Codex weekly - up from two million a little under a month ago. Incredible to see the growth. Thank you to all of you and to the ecosystem we’re part of. To celebrate, we’re resetting rate limits so you can keep building, and we’ll reset them every additional 1M users until we reach 10M, so we can keep celebrating along the way.\n\nEnjoy and thank you!",
-        "tweetUrl": "https://x.com/thsottiaux/status/2041655710346572085",
-        "verdict": "reset_confirmed"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 26301,
-      "totalOutputTokens": 8724,
-      "totalReasoningTokens": 4531,
-      "totalTokens": 35025
+      "totalInputTokens": 26669,
+      "totalOutputTokens": 8793,
+      "totalReasoningTokens": 4553,
+      "totalTokens": 35462
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1775794824822,
+      "inputTokens": 368,
+      "message": "",
+      "outputTokens": 69,
+      "rationale": "This is a joking reply and does not mention limits, caps, or usage becoming available again.",
+      "reasoningTokens": 22,
+      "totalTokens": 437,
+      "tweetId": "2042433439224512751",
+      "tweetText": "@jxnlco If you keep complaining I’ll add Jason the 2nd",
+      "tweetUrl": "https://x.com/thsottiaux/status/2042433439224512751",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1775794822437,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2040232278824288333",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1775264312791,
-      "inputTokens": 301,
-      "message": "",
-      "outputTokens": 116,
-      "rationale": "This reply is just an opinion about the GPT-5.4-Mini model and does not mention limits, caps, availability, or a reset.",
-      "reasoningTokens": 58,
-      "totalTokens": 417,
-      "tweetId": "2040231672554422781",
-      "tweetText": "@kenwheeler GPT-5.4-Mini is good imo",
-      "tweetUrl": "https://x.com/thsottiaux/status/2040231672554422781",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "gPgDuR4nQrWgxeieHXPMzBhqWQErrI5HZ3xYWgStlPHmKje5B1_5vbp2Hg",
-    "iv": "LYuhOt_SCJRCRlLq",
-    "tag": "Wm7S70BTkPjO2JyIlnnw1g",
+    "ciphertext": "euAjBB2Kd36NsNbRKKOcAShhGl_I7gjs1uc6g-yA88bb6D2BqQukDAkI6Q",
+    "iv": "PaXqR9VpYuk269my",
+    "tag": "k5vkYRNn-TTKvG1MapkrJw",
     "version": 1
   }
 }
