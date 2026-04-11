@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1775934184077,
-      "rationale": "This reply is just a conversational question and does not mention limits, caps, or availability resetting.",
-      "tweetId": "2043035072744558963",
-      "tweetUrl": "https://x.com/thsottiaux/status/2043035072744558963",
+      "decidedAt": 1775943167998,
+      "rationale": "This post clarifies ChatGPT Pro plan usage amounts and a pricing-page misunderstanding, not that any limits have…",
+      "tweetId": "2043075353242218768",
+      "tweetUrl": "https://x.com/thsottiaux/status/2043075353242218768",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2043035072744558963",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2043035072744558963",
+    "lastSeenTweetId": "2043075353242218768",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2043075353242218768",
     "pendingReview": {
       "confidence": 0.84,
       "createdAt": 1775794840802,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2042436086392373392"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1775943167998,
+        "inputTokens": 780,
+        "outputTokens": 93,
+        "rationale": "This post clarifies ChatGPT Pro plan usage amounts and a pricing-page misunderstanding, not that any limits have…",
+        "reasoningTokens": 37,
+        "totalTokens": 873,
+        "tweetId": "2043075353242218768",
+        "tweetText": "Hi! Getting a lot of questions on Pro plan rate limits, so I wanted to clarify a few things:\n\n- Your Pro $100 plan includes at least 10x Plus usage, till May 31 with the 2X usage boost.\n- Your Pro $200 plan includes at least 20x Plus usage, till May 31 with the 2X usage boost. This is also the SAME usage this plan had since the 2x promo in February; we previously didn't document this explicitly.\n\nNow to address the confusion. Our pricing page says \"5x or 20x usage\", and many of you very understandably took it to mean \"10x and 40x\" given then 2X usage boost.  That's our fault. We mixed up two things in a confusing way on that page - (1) sharing that the Pro $100 launched with a 2x boost, making it 10x Plus till May 31 and (2) sharing that Pro $200 retained its 2x boost and sharing for the first time that this equates to 20x Plus.\n\nWe're going to update our pricing pages to make this clearer. Sorry it wasn't as clear as it should have in the first place.🫥",
+        "tweetUrl": "https://x.com/thsottiaux/status/2043075353242218768",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1775934184077,
@@ -279,29 +292,31 @@
         "tweetText": "@kr0der Giving away the secrets",
         "tweetUrl": "https://x.com/thsottiaux/status/2042109518042284324",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.98,
-        "evaluatedAt": 1775712281498,
-        "inputTokens": 298,
-        "outputTokens": 114,
-        "rationale": "This is just a brief conversational reply and does not mention limits, caps, reset, or usage becoming available again.",
-        "reasoningTokens": 63,
-        "totalTokens": 412,
-        "tweetId": "2042102141381439555",
-        "tweetText": "@thestoicccoder @thdxr uhm",
-        "tweetUrl": "https://x.com/thsottiaux/status/2042102141381439555",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 28200,
-      "totalOutputTokens": 9246,
-      "totalReasoningTokens": 4820,
-      "totalTokens": 37446
+      "totalInputTokens": 28980,
+      "totalOutputTokens": 9339,
+      "totalReasoningTokens": 4857,
+      "totalTokens": 38319
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1775943167999,
+      "inputTokens": 780,
+      "message": "",
+      "outputTokens": 93,
+      "rationale": "This post clarifies ChatGPT Pro plan usage amounts and a pricing-page misunderstanding, not that any limits have…",
+      "reasoningTokens": 37,
+      "totalTokens": 873,
+      "tweetId": "2043075353242218768",
+      "tweetText": "Hi! Getting a lot of questions on Pro plan rate limits, so I wanted to clarify a few things:\n\n- Your Pro $100 plan includes at least 10x Plus usage, till May 31 with the 2X usage boost.\n- Your Pro $200 plan includes at least 20x Plus usage, till May 31 with the 2X usage boost. This is also the SAME usage this plan had since the 2x promo in February; we previously didn't document this explicitly.\n\nNow to address the confusion. Our pricing page says \"5x or 20x usage\", and many of you very understandably took it to mean \"10x and 40x\" given then 2X usage boost.  That's our fault. We mixed up two things in a confusing way on that page - (1) sharing that the Pro $100 launched with a 2x boost, making it 10x Plus till May 31 and (2) sharing that Pro $200 retained its 2x boost and sharing for the first time that this equates to 20x Plus.\n\nWe're going to update our pricing pages to make this clearer. Sorry it wasn't as clear as it should have in the first place.🫥",
+      "tweetUrl": "https://x.com/thsottiaux/status/2043075353242218768",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1775934184077,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2040924657914986883",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1775371497063,
-      "inputTokens": 299,
-      "message": "",
-      "outputTokens": 86,
-      "rationale": "Reply about being “the fast one now”; no mention of limits, caps, reset, or availability returning.",
-      "reasoningTokens": 36,
-      "totalTokens": 385,
-      "tweetId": "2040666576031236172",
-      "tweetText": "@burkov Oh, we’re the fast one now? Nice",
-      "tweetUrl": "https://x.com/thsottiaux/status/2040666576031236172",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "--XV1sftmb_uLF5XIhntDJ7iYgEnDvUhzr1saadvd6GUXe0V3lmk4btmcg",
-    "iv": "fzCcxQpqN8bsnD2t",
-    "tag": "QTm6xOuhJtsnpi37pW3DeA",
+    "ciphertext": "AJwlCvYoyGWb8m-L6XIQnMY5eLLt0lqVHZfGKX7b61qgnOAL6Lw9kXvFbA",
+    "iv": "g45MquBQ1291jrdh",
+    "tag": "JcC52uOOBIRdA1m1qRc6aQ",
     "version": 1
   }
 }
