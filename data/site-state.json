@@ -21,7 +21,7 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2042844420677210595",
       "verdict": "not_reset"
     },
-    "lastError": null,
+    "lastError": "Tweet fetch failed: Cannot read properties of undefined (reading 'errors') (Cannot read properties of undefined (reading 'errors'))",
     "lastSeenTweetId": "2042844420677210595",
     "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2042844420677210595",
     "pendingReview": {
@@ -302,6 +302,21 @@
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0,
+      "createdAt": 1775905479787,
+      "inputTokens": 0,
+      "message": "Tweet fetch failed: Cannot read properties of undefined (reading 'errors') (Cannot read properties of undefined (reading 'errors'))",
+      "outputTokens": 0,
+      "rationale": "",
+      "reasoningTokens": 0,
+      "totalTokens": 0,
+      "tweetId": null,
+      "tweetText": "",
+      "tweetUrl": null,
+      "type": "error",
+      "verdict": null
+    },
     {
       "confidence": 0.99,
       "createdAt": 1775888011520,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2040666459370840199",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1775371490183,
-      "inputTokens": 323,
-      "message": "",
-      "outputTokens": 82,
-      "rationale": "Reply about model design/frontend and making a mascot; no mention or implication of limits, caps, or usage reset.",
-      "reasoningTokens": 31,
-      "totalTokens": 405,
-      "tweetId": "2040666095582113819",
-      "tweetText": "@kr0der Our plan\n\n1) make a model great at design and frontend\n2) ask it to make a great mascot\n\nand we are still at 1",
-      "tweetUrl": "https://x.com/thsottiaux/status/2040666095582113819",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "I6X-vBuHWSLXgfbNw_17PnwTIQo3EqfGvK3sGAQflV-06RxNmtJeN9DC3g",
-    "iv": "YnpUjbEMSegMPesS",
-    "tag": "cMIVW49tCeQAyQs7cAW36w",
+    "ciphertext": "b8z-Tz5jf8eWTj97w6ApMjfb1NY2PlKSa5-heDMDTQVdpydlcUczmwJRWQ",
+    "iv": "BzddTJy6nlV4JV0H",
+    "tag": "ot0vWRSSvv3qV_6OgRzoOg",
     "version": 1
   }
 }
