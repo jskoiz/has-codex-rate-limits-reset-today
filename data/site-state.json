@@ -21,7 +21,7 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2042844420677210595",
       "verdict": "not_reset"
     },
-    "lastError": "Tweet fetch failed: Cannot read properties of undefined (reading 'errors') (Cannot read properties of undefined (reading 'errors'))",
+    "lastError": null,
     "lastSeenTweetId": "2042844420677210595",
     "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2042844420677210595",
     "pendingReview": {
@@ -904,9 +904,9 @@
     }
   ],
   "privateState": {
-    "ciphertext": "b8z-Tz5jf8eWTj97w6ApMjfb1NY2PlKSa5-heDMDTQVdpydlcUczmwJRWQ",
-    "iv": "BzddTJy6nlV4JV0H",
-    "tag": "ot0vWRSSvv3qV_6OgRzoOg",
+    "ciphertext": "fa8GknNCGQAp11RZWoWCVvrIcif0wqz3TB8gn0vhMuTNIxTKKAFhGA80vQ",
+    "iv": "pLqSI_JjeJBZSrhP",
+    "tag": "p0hXosz2oRF6piG7M0Icew",
     "version": 1
   }
 }
