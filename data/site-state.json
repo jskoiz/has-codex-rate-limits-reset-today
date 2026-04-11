@@ -1,5 +1,5 @@
 {
-  "currentState": "yes",
+  "currentState": "no",
   "autoResetHours": 20,
   "noSubtitles": [
     "Back to your local model peasant",
@@ -10,20 +10,20 @@
     "Limits reset, go crazy",
     "You can just build things"
   ],
-  "resetAt": 1775836047465,
+  "resetAt": null,
   "updatedAt": 1775764047465,
   "automation": {
     "lastDecision": {
-      "confidence": 0.84,
-      "decidedAt": 1775794840802,
-      "rationale": "It mentions a new Codex plan helping users, but does not explicitly say limits or caps reset now.",
-      "tweetId": "2042436086392373392",
-      "tweetUrl": "https://x.com/thsottiaux/status/2042436086392373392",
-      "verdict": "uncertain"
+      "confidence": 0.99,
+      "decidedAt": 1775884171709,
+      "rationale": "This is casual commentary and does not mention any Codex or ChatGPT limit reset.",
+      "tweetId": "2042822766957903929",
+      "tweetUrl": "https://x.com/thsottiaux/status/2042822766957903929",
+      "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2042436086392373392",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2042436086392373392",
+    "lastSeenTweetId": "2042822766957903929",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2042822766957903929",
     "pendingReview": {
       "confidence": 0.84,
       "createdAt": 1775794840802,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2042436086392373392"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1775884171709,
+        "inputTokens": 373,
+        "outputTokens": 71,
+        "rationale": "This is casual commentary and does not mention any Codex or ChatGPT limit reset.",
+        "reasoningTokens": 26,
+        "totalTokens": 444,
+        "tweetId": "2042822766957903929",
+        "tweetText": "I’m having cheesecake again and thinking about codex. But next week will be about more than cooking",
+        "tweetUrl": "https://x.com/thsottiaux/status/2042822766957903929",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.84,
         "evaluatedAt": 1775794840802,
@@ -279,29 +292,31 @@
         "tweetText": "@mcmagify @PaytonHalas Which plan are you on?",
         "tweetUrl": "https://x.com/thsottiaux/status/2041927798416404869",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1775634516740,
-        "inputTokens": 305,
-        "outputTokens": 49,
-        "rationale": "This tweet is a general personal/status update and does not mention rate limits, caps, resets, or usage availability.",
-        "reasoningTokens": 0,
-        "totalTokens": 354,
-        "tweetId": "2041751911964274753",
-        "tweetText": "Unreasonably excited about things. The next few weeks will be intense (and fun!).",
-        "tweetUrl": "https://x.com/thsottiaux/status/2041751911964274753",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 27067,
-      "totalOutputTokens": 9004,
-      "totalReasoningTokens": 4715,
-      "totalTokens": 36071
+      "totalInputTokens": 27440,
+      "totalOutputTokens": 9075,
+      "totalReasoningTokens": 4741,
+      "totalTokens": 36515
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1775884171709,
+      "inputTokens": 373,
+      "message": "",
+      "outputTokens": 71,
+      "rationale": "This is casual commentary and does not mention any Codex or ChatGPT limit reset.",
+      "reasoningTokens": 26,
+      "totalTokens": 444,
+      "tweetId": "2042822766957903929",
+      "tweetText": "I’m having cheesecake again and thinking about codex. But next week will be about more than cooking",
+      "tweetUrl": "https://x.com/thsottiaux/status/2042822766957903929",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.84,
       "createdAt": 1775794840802,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2040664391742587265",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1775337449836,
-      "inputTokens": 292,
-      "message": "",
-      "outputTokens": 87,
-      "rationale": "This reply only tags another user with an eyes emoji and gives no indication that any Codex or ChatGPT limits have reset.",
-      "reasoningTokens": 34,
-      "totalTokens": 379,
-      "tweetId": "2040535236703097246",
-      "tweetText": "@badlogicgames 👀",
-      "tweetUrl": "https://x.com/thsottiaux/status/2040535236703097246",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "C88IIVaAevmEomvWk7c5QNxsDTrvC9Yo0rOD5jCQmfRLCgwjV4F7ASVNFw",
-    "iv": "q6Zij9wKUkNGnlKK",
-    "tag": "6I1Z0DYxWAMWUQaNAn4vCw",
+    "ciphertext": "UsjrQzVX_g4qLgg55woRdwUu4_tDOjhB88XF_fjlEjS9ZChcJKnlzyJY0w",
+    "iv": "zhY1Z034eQJj7v_3",
+    "tag": "DSRuaJ03xuxlnkyM6MoEXg",
     "version": 1
   }
 }
