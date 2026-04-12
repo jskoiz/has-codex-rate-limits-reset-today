@@ -21,7 +21,7 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2043234415032369162",
       "verdict": "not_reset"
     },
-    "lastError": null,
+    "lastError": "Tweet fetch failed: Request failed with status code 404 (Request failed with status code 404)",
     "lastSeenTweetId": "2043234415032369162",
     "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2043234415032369162",
     "pendingReview": {
@@ -303,6 +303,21 @@
   },
   "automationEvents": [
     {
+      "confidence": 0,
+      "createdAt": 1776005659066,
+      "inputTokens": 0,
+      "message": "Tweet fetch failed: Request failed with status code 404 (Request failed with status code 404)",
+      "outputTokens": 0,
+      "rationale": "",
+      "reasoningTokens": 0,
+      "totalTokens": 0,
+      "tweetId": null,
+      "tweetText": "",
+      "tweetUrl": null,
+      "type": "error",
+      "verdict": null
+    },
+    {
       "confidence": 0.99,
       "createdAt": 1775980582380,
       "inputTokens": 359,
@@ -346,21 +361,6 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2043177597434306699",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0,
-      "createdAt": 1775962153452,
-      "inputTokens": 0,
-      "message": "Tweet fetch failed: Request failed with status code 404 (Request failed with status code 404)",
-      "outputTokens": 0,
-      "rationale": "",
-      "reasoningTokens": 0,
-      "totalTokens": 0,
-      "tweetId": null,
-      "tweetText": "",
-      "tweetUrl": null,
-      "type": "error",
-      "verdict": null
     },
     {
       "confidence": 0.99,
@@ -904,9 +904,9 @@
     }
   ],
   "privateState": {
-    "ciphertext": "iU2KAygUNbcB9e5cp-hjA818EV742HZULVouL70dCcFL_avL8PxACkx62w",
-    "iv": "A743GvKY5pzVTVxp",
-    "tag": "w2KEH-ub6E0VdybHrl2p0A",
+    "ciphertext": "SO6gD0OOHqIwOkshCzKBjH5AQuf0QHziDIHuwMf9Ib49cIqipvgooknrmA",
+    "iv": "zmCTScKOxUr5fN2G",
+    "tag": "JULfDnM2EY7jcz_eZ073hw",
     "version": 1
   }
 }
