@@ -14,16 +14,16 @@
   "updatedAt": 1775764047465,
   "automation": {
     "lastDecision": {
-      "confidence": 0.97,
-      "decidedAt": 1775970824262,
-      "rationale": "This only says a model is available and does not indicate any rate-limit or usage cap reset.",
-      "tweetId": "2043178598136516698",
-      "tweetUrl": "https://x.com/thsottiaux/status/2043178598136516698",
+      "confidence": 0.99,
+      "decidedAt": 1775980582380,
+      "rationale": "This reply is conversational and does not mention limits, caps, or availability resetting.",
+      "tweetId": "2043234415032369162",
+      "tweetUrl": "https://x.com/thsottiaux/status/2043234415032369162",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2043178598136516698",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2043178598136516698",
+    "lastSeenTweetId": "2043234415032369162",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2043234415032369162",
     "pendingReview": {
       "confidence": 0.84,
       "createdAt": 1775794840802,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2042436086392373392"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1775980582380,
+        "inputTokens": 359,
+        "outputTokens": 83,
+        "rationale": "This reply is conversational and does not mention limits, caps, or availability resetting.",
+        "reasoningTokens": 39,
+        "totalTokens": 442,
+        "tweetId": "2043234415032369162",
+        "tweetText": "@pcshipp Welcome to productivity",
+        "tweetUrl": "https://x.com/thsottiaux/status/2043234415032369162",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.97,
         "evaluatedAt": 1775970824262,
@@ -279,29 +292,31 @@
         "tweetText": "@LLMJunky Uhm!",
         "tweetUrl": "https://x.com/thsottiaux/status/2042264240673947823",
         "verdict": "uncertain"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1775750874150,
-        "inputTokens": 293,
-        "outputTokens": 78,
-        "rationale": "Reply saying \"tiny commits\"; no mention of limits, caps, resets, or availability returning.",
-        "reasoningTokens": 30,
-        "totalTokens": 371,
-        "tweetId": "2042259243403985275",
-        "tweetText": "@ajambrosino tiny commits",
-        "tweetUrl": "https://x.com/thsottiaux/status/2042259243403985275",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 29722,
-      "totalOutputTokens": 9478,
-      "totalReasoningTokens": 4907,
-      "totalTokens": 39200
+      "totalInputTokens": 30081,
+      "totalOutputTokens": 9561,
+      "totalReasoningTokens": 4946,
+      "totalTokens": 39642
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1775980582380,
+      "inputTokens": 359,
+      "message": "",
+      "outputTokens": 83,
+      "rationale": "This reply is conversational and does not mention limits, caps, or availability resetting.",
+      "reasoningTokens": 39,
+      "totalTokens": 442,
+      "tweetId": "2043234415032369162",
+      "tweetText": "@pcshipp Welcome to productivity",
+      "tweetUrl": "https://x.com/thsottiaux/status/2043234415032369162",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.97,
       "createdAt": 1775970824262,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2040997506927284654",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1775448934196,
-      "inputTokens": 290,
-      "message": "",
-      "outputTokens": 135,
-      "rationale": "A brief conversational reply with no mention or implication of limits, caps, or reset status.",
-      "reasoningTokens": 89,
-      "totalTokens": 425,
-      "tweetId": "2040997238659510445",
-      "tweetText": "@shoyer ok",
-      "tweetUrl": "https://x.com/thsottiaux/status/2040997238659510445",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "ELUOYXDTatHoMlcZaw5J01ep1Knhlzn3zFKt0iAegnlzdyfIYTpRSO9dOw",
-    "iv": "BOvaBIsM2Qc02CFc",
-    "tag": "EtL5Nqs3Tpn-pmcVxefKpA",
+    "ciphertext": "iU2KAygUNbcB9e5cp-hjA818EV742HZULVouL70dCcFL_avL8PxACkx62w",
+    "iv": "A743GvKY5pzVTVxp",
+    "tag": "w2KEH-ub6E0VdybHrl2p0A",
     "version": 1
   }
 }
