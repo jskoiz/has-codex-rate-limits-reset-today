@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1775943167998,
-      "rationale": "This post clarifies ChatGPT Pro plan usage amounts and a pricing-page misunderstanding, not that any limits have…",
-      "tweetId": "2043075353242218768",
-      "tweetUrl": "https://x.com/thsottiaux/status/2043075353242218768",
+      "decidedAt": 1775970820943,
+      "rationale": "This post is just a naming joke and does not mention limits or availability resetting.",
+      "tweetId": "2043177597434306699",
+      "tweetUrl": "https://x.com/thsottiaux/status/2043177597434306699",
       "verdict": "not_reset"
     },
-    "lastError": "Tweet fetch failed: Request failed with status code 404 (Request failed with status code 404)",
-    "lastSeenTweetId": "2043075353242218768",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2043075353242218768",
+    "lastError": null,
+    "lastSeenTweetId": "2043177597434306699",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2043177597434306699",
     "pendingReview": {
       "confidence": 0.84,
       "createdAt": 1775794840802,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2042436086392373392"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1775970820943,
+        "inputTokens": 370,
+        "outputTokens": 42,
+        "rationale": "This post is just a naming joke and does not mention limits or availability resetting.",
+        "reasoningTokens": 0,
+        "totalTokens": 412,
+        "tweetId": "2043177597434306699",
+        "tweetText": "Imagine the alternate reality where we named GPT-5.4-Pro something like Fable.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2043177597434306699",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1775943167998,
@@ -279,29 +292,31 @@
         "tweetText": "@zeeg @codex Would love your feedback on the PAYG flow, sorry it's not smooth as butter here yet",
         "tweetUrl": "https://x.com/thsottiaux/status/2042125759683481754",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1775712284980,
-        "inputTokens": 294,
-        "outputTokens": 72,
-        "rationale": "This reply is conversational and does not mention limits, caps, resets, or availability returning.",
-        "reasoningTokens": 26,
-        "totalTokens": 366,
-        "tweetId": "2042109518042284324",
-        "tweetText": "@kr0der Giving away the secrets",
-        "tweetUrl": "https://x.com/thsottiaux/status/2042109518042284324",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 28980,
-      "totalOutputTokens": 9339,
+      "totalInputTokens": 29350,
+      "totalOutputTokens": 9381,
       "totalReasoningTokens": 4857,
-      "totalTokens": 38319
+      "totalTokens": 38731
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1775970820943,
+      "inputTokens": 370,
+      "message": "",
+      "outputTokens": 42,
+      "rationale": "This post is just a naming joke and does not mention limits or availability resetting.",
+      "reasoningTokens": 0,
+      "totalTokens": 412,
+      "tweetId": "2043177597434306699",
+      "tweetText": "Imagine the alternate reality where we named GPT-5.4-Pro something like Fable.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2043177597434306699",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0,
       "createdAt": 1775962153452,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2040971067758703047",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.94,
-      "createdAt": 1775429918293,
-      "inputTokens": 329,
-      "message": "",
-      "outputTokens": 184,
-      "rationale": "This reply is conversational and does not explicitly mention limits, caps, usage being available again, or a reset.",
-      "reasoningTokens": 134,
-      "totalTokens": 513,
-      "tweetId": "2040924657914986883",
-      "tweetText": "@10x_er I’m sure you have both a teaspoon, a normal spoon and a large salad spoon in your drawer.\n\nI’ll stop teasing, I agree with you and also expect this to go away.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2040924657914986883",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "ICIEdbYc52Fq95Lv0czCz1OO3dqyhmr4Wjnrt2AwF8Omsu0tpgsPRS2Zzw",
-    "iv": "CeUXMnKr70xWguX5",
-    "tag": "DFtxPX0TlFcPAMfOEnJBiw",
+    "ciphertext": "swepd3aKMReUr_o9nunr9i0fiC3FYH-6D1FbNTUbHUzcSp_-GZ8bAJiIxw",
+    "iv": "jiwcjVH7kHTZWgsO",
+    "tag": "iiyBlF8J6LYBEO04gZlfbg",
     "version": 1
   }
 }
