@@ -14,16 +14,16 @@
   "updatedAt": 1775764047465,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1775970820943,
-      "rationale": "This post is just a naming joke and does not mention limits or availability resetting.",
-      "tweetId": "2043177597434306699",
-      "tweetUrl": "https://x.com/thsottiaux/status/2043177597434306699",
+      "confidence": 0.97,
+      "decidedAt": 1775970824262,
+      "rationale": "This only says a model is available and does not indicate any rate-limit or usage cap reset.",
+      "tweetId": "2043178598136516698",
+      "tweetUrl": "https://x.com/thsottiaux/status/2043178598136516698",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2043177597434306699",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2043177597434306699",
+    "lastSeenTweetId": "2043178598136516698",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2043178598136516698",
     "pendingReview": {
       "confidence": 0.84,
       "createdAt": 1775794840802,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2042436086392373392"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.97,
+        "evaluatedAt": 1775970824262,
+        "inputTokens": 372,
+        "outputTokens": 97,
+        "rationale": "This only says a model is available and does not indicate any rate-limit or usage cap reset.",
+        "reasoningTokens": 50,
+        "totalTokens": 469,
+        "tweetId": "2043178598136516698",
+        "tweetText": "5.4-Pro is available in https://t.co/owRkSXnNx2",
+        "tweetUrl": "https://x.com/thsottiaux/status/2043178598136516698",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1775970820943,
@@ -279,29 +292,31 @@
         "tweetText": "@ajambrosino tiny commits",
         "tweetUrl": "https://x.com/thsottiaux/status/2042259243403985275",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1775717746887,
-        "inputTokens": 310,
-        "outputTokens": 76,
-        "rationale": "This reply discusses feedback on a PAYG flow and says nothing about limits, caps, or usage resetting.",
-        "reasoningTokens": 27,
-        "totalTokens": 386,
-        "tweetId": "2042125759683481754",
-        "tweetText": "@zeeg @codex Would love your feedback on the PAYG flow, sorry it's not smooth as butter here yet",
-        "tweetUrl": "https://x.com/thsottiaux/status/2042125759683481754",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 29350,
-      "totalOutputTokens": 9381,
-      "totalReasoningTokens": 4857,
-      "totalTokens": 38731
+      "totalInputTokens": 29722,
+      "totalOutputTokens": 9478,
+      "totalReasoningTokens": 4907,
+      "totalTokens": 39200
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.97,
+      "createdAt": 1775970824262,
+      "inputTokens": 372,
+      "message": "",
+      "outputTokens": 97,
+      "rationale": "This only says a model is available and does not indicate any rate-limit or usage cap reset.",
+      "reasoningTokens": 50,
+      "totalTokens": 469,
+      "tweetId": "2043178598136516698",
+      "tweetText": "5.4-Pro is available in https://t.co/owRkSXnNx2",
+      "tweetUrl": "https://x.com/thsottiaux/status/2043178598136516698",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1775970820943,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2040997238659510445",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1775448929439,
-      "inputTokens": 312,
-      "message": "",
-      "outputTokens": 69,
-      "rationale": "This reply is conversational and does not mention limits, caps, availability, or any reset of Codex/ChatGPT usage.",
-      "reasoningTokens": 16,
-      "totalTokens": 381,
-      "tweetId": "2040971067758703047",
-      "tweetText": "@Francesco_Oddo @10x_er Let me break it to you. Someone put it on the table for you",
-      "tweetUrl": "https://x.com/thsottiaux/status/2040971067758703047",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "swepd3aKMReUr_o9nunr9i0fiC3FYH-6D1FbNTUbHUzcSp_-GZ8bAJiIxw",
-    "iv": "jiwcjVH7kHTZWgsO",
-    "tag": "iiyBlF8J6LYBEO04gZlfbg",
+    "ciphertext": "ELUOYXDTatHoMlcZaw5J01ep1Knhlzn3zFKt0iAegnlzdyfIYTpRSO9dOw",
+    "iv": "BOvaBIsM2Qc02CFc",
+    "tag": "EtL5Nqs3Tpn-pmcVxefKpA",
     "version": 1
   }
 }
