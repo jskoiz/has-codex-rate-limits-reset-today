@@ -14,16 +14,16 @@
   "updatedAt": 1775764047465,
   "automation": {
     "lastDecision": {
-      "confidence": 0.98,
-      "decidedAt": 1776060084746,
-      "rationale": "This reply is vague and does not say limits or usage have reset or become available again.",
-      "tweetId": "2043517052019966376",
-      "tweetUrl": "https://x.com/thsottiaux/status/2043517052019966376",
+      "confidence": 0.99,
+      "decidedAt": 1776060088112,
+      "rationale": "This is a general comment about internal Codex App usage, not about limits or availability resetting.",
+      "tweetId": "2043517277455491430",
+      "tweetUrl": "https://x.com/thsottiaux/status/2043517277455491430",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2043517052019966376",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2043517052019966376",
+    "lastSeenTweetId": "2043517277455491430",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2043517277455491430",
     "pendingReview": {
       "confidence": 0.97,
       "createdAt": 1776050754948,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2043515694265024558"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1776060088112,
+        "inputTokens": 367,
+        "outputTokens": 92,
+        "rationale": "This is a general comment about internal Codex App usage, not about limits or availability resetting.",
+        "reasoningTokens": 45,
+        "totalTokens": 459,
+        "tweetId": "2043517277455491430",
+        "tweetText": "Codex App has achieved take-off internally. I can hear the fans",
+        "tweetUrl": "https://x.com/thsottiaux/status/2043517277455491430",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.98,
         "evaluatedAt": 1776060084746,
@@ -279,29 +292,31 @@
         "tweetText": "At the current codex growth pace, we will owe you all another reset in less than two weeks. Would be funny to reach a state where these happen more than once a week before we reach 10M. Scrambling to get the capacity online.",
         "tweetUrl": "https://x.com/thsottiaux/status/2042325164902531427",
         "verdict": "reset_confirmed"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1775764035048,
-        "inputTokens": 304,
-        "outputTokens": 96,
-        "rationale": "Reply is conversational and contains no mention of ChatGPT/Codex limits, caps, availability, or resets.",
-        "reasoningTokens": 46,
-        "totalTokens": 400,
-        "tweetId": "2042321315093434686",
-        "tweetText": "@badlogicgames as nice as hundreds of thousands of people chanting in unison can be",
-        "tweetUrl": "https://x.com/thsottiaux/status/2042321315093434686",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 31537,
-      "totalOutputTokens": 9959,
-      "totalReasoningTokens": 5165,
-      "totalTokens": 41496
+      "totalInputTokens": 31904,
+      "totalOutputTokens": 10051,
+      "totalReasoningTokens": 5210,
+      "totalTokens": 41955
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1776060088112,
+      "inputTokens": 367,
+      "message": "",
+      "outputTokens": 92,
+      "rationale": "This is a general comment about internal Codex App usage, not about limits or availability resetting.",
+      "reasoningTokens": 45,
+      "totalTokens": 459,
+      "tweetId": "2043517277455491430",
+      "tweetText": "Codex App has achieved take-off internally. I can hear the fans",
+      "tweetUrl": "https://x.com/thsottiaux/status/2043517277455491430",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.98,
       "createdAt": 1776060084746,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2041161694672748684",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1775462616908,
-      "inputTokens": 301,
-      "message": "",
-      "outputTokens": 86,
-      "rationale": "Reply about using Codex; no mention of limits, caps, reset, or availability returning.",
-      "reasoningTokens": 39,
-      "totalTokens": 387,
-      "tweetId": "2041024476096483544",
-      "tweetText": "@asishcodes Don’t feed codex, let it cook for you",
-      "tweetUrl": "https://x.com/thsottiaux/status/2041024476096483544",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "F9czgN0FkFCey4uxmL4JAQwYqOekBTioGFbRC-wcUsN9tS1Eob0TbUGnWA",
-    "iv": "86ExoEhISf_yKBlV",
-    "tag": "PWyORK4d9UNXqY2biqZ_AA",
+    "ciphertext": "D5yGZ3xC-WDqiAvyhfm3UfDGi-Gm1_RuV4irOuishKisAfO1qAsJ1kT9kA",
+    "iv": "vwtsTqvJzwCUAf1D",
+    "tag": "SkXqF4owEe7qqmvCMJ6Fsg",
     "version": 1
   }
 }
