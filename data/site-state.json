@@ -14,25 +14,38 @@
   "updatedAt": 1775764047465,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1775980582380,
-      "rationale": "This reply is conversational and does not mention limits, caps, or availability resetting.",
-      "tweetId": "2043234415032369162",
-      "tweetUrl": "https://x.com/thsottiaux/status/2043234415032369162",
-      "verdict": "not_reset"
+      "confidence": 0.97,
+      "decidedAt": 1776050754948,
+      "rationale": "This reply alone does not clearly say any Codex or ChatGPT limit has reset.",
+      "tweetId": "2043515694265024558",
+      "tweetUrl": "https://x.com/thsottiaux/status/2043515694265024558",
+      "verdict": "uncertain"
     },
     "lastError": null,
-    "lastSeenTweetId": "2043234415032369162",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2043234415032369162",
+    "lastSeenTweetId": "2043515694265024558",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2043515694265024558",
     "pendingReview": {
-      "confidence": 0.84,
-      "createdAt": 1775794840802,
-      "rationale": "It mentions a new Codex plan helping users, but does not explicitly say limits or caps reset now.",
-      "tweetId": "2042436086392373392",
-      "tweetText": "I get so many personal thank you emails for something and it’s not even a feature. All we needed apparently was a new codex plan. Can we rest now? https://t.co/d0iDjZo4By",
-      "tweetUrl": "https://x.com/thsottiaux/status/2042436086392373392"
+      "confidence": 0.97,
+      "createdAt": 1776050754948,
+      "rationale": "This reply alone does not clearly say any Codex or ChatGPT limit has reset.",
+      "tweetId": "2043515694265024558",
+      "tweetText": "@pashmerepat 👀",
+      "tweetUrl": "https://x.com/thsottiaux/status/2043515694265024558"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.97,
+        "evaluatedAt": 1776050754948,
+        "inputTokens": 359,
+        "outputTokens": 156,
+        "rationale": "This reply alone does not clearly say any Codex or ChatGPT limit has reset.",
+        "reasoningTokens": 111,
+        "totalTokens": 515,
+        "tweetId": "2043515694265024558",
+        "tweetText": "@pashmerepat 👀",
+        "tweetUrl": "https://x.com/thsottiaux/status/2043515694265024558",
+        "verdict": "uncertain"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1775980582380,
@@ -279,29 +292,31 @@
         "tweetText": "We did it, say hi to the $100 plan! \n\nIt should be the sweet spot for a ton of you. It comes with a ton of codex usage. And yes we are resetting the limits again too as I mentioned yesterday. Let’s keep building!",
         "tweetUrl": "https://x.com/thsottiaux/status/2042299371602264319",
         "verdict": "reset_confirmed"
-      },
-      {
-        "confidence": 0.96,
-        "evaluatedAt": 1775750879901,
-        "inputTokens": 292,
-        "outputTokens": 158,
-        "rationale": "This reply is too vague to indicate anything about limits, caps, or availability resetting.",
-        "reasoningTokens": 113,
-        "totalTokens": 450,
-        "tweetId": "2042264240673947823",
-        "tweetText": "@LLMJunky Uhm!",
-        "tweetUrl": "https://x.com/thsottiaux/status/2042264240673947823",
-        "verdict": "uncertain"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 30081,
-      "totalOutputTokens": 9561,
-      "totalReasoningTokens": 4946,
-      "totalTokens": 39642
+      "totalInputTokens": 30440,
+      "totalOutputTokens": 9717,
+      "totalReasoningTokens": 5057,
+      "totalTokens": 40157
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.97,
+      "createdAt": 1776050754948,
+      "inputTokens": 359,
+      "message": "",
+      "outputTokens": 156,
+      "rationale": "This reply alone does not clearly say any Codex or ChatGPT limit has reset.",
+      "reasoningTokens": 111,
+      "totalTokens": 515,
+      "tweetId": "2043515694265024558",
+      "tweetText": "@pashmerepat 👀",
+      "tweetUrl": "https://x.com/thsottiaux/status/2043515694265024558",
+      "type": "review_requested",
+      "verdict": "uncertain"
+    },
     {
       "confidence": 0,
       "createdAt": 1776005659066,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2041000202417717474",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1775448937201,
-      "inputTokens": 293,
-      "message": "",
-      "outputTokens": 49,
-      "rationale": "The tweet is a general comment about Codex and does not mention limits, caps, resets, or availability returning.",
-      "reasoningTokens": 0,
-      "totalTokens": 342,
-      "tweetId": "2040997506927284654",
-      "tweetText": "Codex is for wizards",
-      "tweetUrl": "https://x.com/thsottiaux/status/2040997506927284654",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "2LcUsbgtVIXYW23Z4yQG436BmILMMIXk6ztkTAUfh_RXHzvmssQcwXYT2w",
-    "iv": "hX1jNPKzg1XtWK-C",
-    "tag": "asDBDg5O4AtFstjqbmKBhA",
+    "ciphertext": "puRJBHF4IS6BvkmDJ1PCuWe8GR-vyaCdNJWftWXbtsEST8NWLP3BCevBEg",
+    "iv": "RQJ571qkPjmi43E5",
+    "tag": "ilFp3ozJE8PhCxV2tkBDSg",
     "version": 1
   }
 }
