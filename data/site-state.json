@@ -14,16 +14,16 @@
   "updatedAt": 1775764047465,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1776060081445,
-      "rationale": "This reply is just a conversational question and says nothing about any limits or reset.",
-      "tweetId": "2043516247028257265",
-      "tweetUrl": "https://x.com/thsottiaux/status/2043516247028257265",
+      "confidence": 0.98,
+      "decidedAt": 1776060084746,
+      "rationale": "This reply is vague and does not say limits or usage have reset or become available again.",
+      "tweetId": "2043517052019966376",
+      "tweetUrl": "https://x.com/thsottiaux/status/2043517052019966376",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2043516247028257265",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2043516247028257265",
+    "lastSeenTweetId": "2043517052019966376",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2043517052019966376",
     "pendingReview": {
       "confidence": 0.97,
       "createdAt": 1776050754948,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2043515694265024558"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.98,
+        "evaluatedAt": 1776060084746,
+        "inputTokens": 363,
+        "outputTokens": 77,
+        "rationale": "This reply is vague and does not say limits or usage have reset or become available again.",
+        "reasoningTokens": 31,
+        "totalTokens": 440,
+        "tweetId": "2043517052019966376",
+        "tweetText": "@daniel_nguyenx Making room for bigger things",
+        "tweetUrl": "https://x.com/thsottiaux/status/2043517052019966376",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1776060081445,
@@ -279,29 +292,31 @@
         "tweetText": "@badlogicgames as nice as hundreds of thousands of people chanting in unison can be",
         "tweetUrl": "https://x.com/thsottiaux/status/2042321315093434686",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1775764030820,
-        "inputTokens": 298,
-        "outputTokens": 80,
-        "rationale": "Reply is conversational and contains no mention of limits, caps, availability, or resets.",
-        "reasoningTokens": 35,
-        "totalTokens": 378,
-        "tweetId": "2042320395051941979",
-        "tweetText": "@PaulNeverovsky we know our people when we see them",
-        "tweetUrl": "https://x.com/thsottiaux/status/2042320395051941979",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 31174,
-      "totalOutputTokens": 9882,
-      "totalReasoningTokens": 5134,
-      "totalTokens": 41056
+      "totalInputTokens": 31537,
+      "totalOutputTokens": 9959,
+      "totalReasoningTokens": 5165,
+      "totalTokens": 41496
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.98,
+      "createdAt": 1776060084746,
+      "inputTokens": 363,
+      "message": "",
+      "outputTokens": 77,
+      "rationale": "This reply is vague and does not say limits or usage have reset or become available again.",
+      "reasoningTokens": 31,
+      "totalTokens": 440,
+      "tweetId": "2043517052019966376",
+      "tweetText": "@daniel_nguyenx Making room for bigger things",
+      "tweetUrl": "https://x.com/thsottiaux/status/2043517052019966376",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1776060081445,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2041024476096483544",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.95,
-      "createdAt": 1775455926496,
-      "inputTokens": 292,
-      "message": "",
-      "outputTokens": 205,
-      "rationale": "Reply says only \"Probably true\" with no visible context, so it does not clearly confirm limits have reset.",
-      "reasoningTokens": 155,
-      "totalTokens": 497,
-      "tweetId": "2041014631729406337",
-      "tweetText": "@kr0der Probably true",
-      "tweetUrl": "https://x.com/thsottiaux/status/2041014631729406337",
-      "type": "review_requested",
-      "verdict": "uncertain"
     }
   ],
   "privateState": {
-    "ciphertext": "1S3gH88nDQ2hjzuy0iJdiIP4Cn9LrKNMFcFCvDjyofXTRH4XQRR_CQm9qA",
-    "iv": "Yy62hoXqVlh4-hyh",
-    "tag": "sMz1habxpHBHkqahC1nR7w",
+    "ciphertext": "F9czgN0FkFCey4uxmL4JAQwYqOekBTioGFbRC-wcUsN9tS1Eob0TbUGnWA",
+    "iv": "86ExoEhISf_yKBlV",
+    "tag": "PWyORK4d9UNXqY2biqZ_AA",
     "version": 1
   }
 }
