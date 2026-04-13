@@ -14,16 +14,16 @@
   "updatedAt": 1775764047465,
   "automation": {
     "lastDecision": {
-      "confidence": 0.97,
-      "decidedAt": 1776050754948,
-      "rationale": "This reply alone does not clearly say any Codex or ChatGPT limit has reset.",
-      "tweetId": "2043515694265024558",
-      "tweetUrl": "https://x.com/thsottiaux/status/2043515694265024558",
-      "verdict": "uncertain"
+      "confidence": 0.99,
+      "decidedAt": 1776060078162,
+      "rationale": "This reply discusses steering behavior and does not mention limits, caps, or resets.",
+      "tweetId": "2043516024470053218",
+      "tweetUrl": "https://x.com/thsottiaux/status/2043516024470053218",
+      "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2043515694265024558",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2043515694265024558",
+    "lastSeenTweetId": "2043516024470053218",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2043516024470053218",
     "pendingReview": {
       "confidence": 0.97,
       "createdAt": 1776050754948,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2043515694265024558"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1776060078162,
+        "inputTokens": 363,
+        "outputTokens": 89,
+        "rationale": "This reply discusses steering behavior and does not mention limits, caps, or resets.",
+        "reasoningTokens": 45,
+        "totalTokens": 452,
+        "tweetId": "2043516024470053218",
+        "tweetText": "@Johnnydazhu Isn't that just mid-turn steering?",
+        "tweetUrl": "https://x.com/thsottiaux/status/2043516024470053218",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.97,
         "evaluatedAt": 1776050754948,
@@ -279,29 +292,31 @@
         "tweetText": "Pro $100 and $200 come with 2X limits promotion, which we are extending",
         "tweetUrl": "https://x.com/thsottiaux/status/2042299561247670325",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.97,
-        "evaluatedAt": 1775759532261,
-        "inputTokens": 482,
-        "outputTokens": 99,
-        "rationale": "The tweet explicitly says \"we are resetting the limits again,\" directly indicating usage limits are being reset now.",
-        "reasoningTokens": 49,
-        "totalTokens": 581,
-        "tweetId": "2042299371602264319",
-        "tweetText": "We did it, say hi to the $100 plan! \n\nIt should be the sweet spot for a ton of you. It comes with a ton of codex usage. And yes we are resetting the limits again too as I mentioned yesterday. Let’s keep building!",
-        "tweetUrl": "https://x.com/thsottiaux/status/2042299371602264319",
-        "verdict": "reset_confirmed"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 30440,
-      "totalOutputTokens": 9717,
-      "totalReasoningTokens": 5057,
-      "totalTokens": 40157
+      "totalInputTokens": 30803,
+      "totalOutputTokens": 9806,
+      "totalReasoningTokens": 5102,
+      "totalTokens": 40609
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1776060078162,
+      "inputTokens": 363,
+      "message": "",
+      "outputTokens": 89,
+      "rationale": "This reply discusses steering behavior and does not mention limits, caps, or resets.",
+      "reasoningTokens": 45,
+      "totalTokens": 452,
+      "tweetId": "2043516024470053218",
+      "tweetText": "@Johnnydazhu Isn't that just mid-turn steering?",
+      "tweetUrl": "https://x.com/thsottiaux/status/2043516024470053218",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.97,
       "createdAt": 1776050754948,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2041014438313222375",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.95,
-      "createdAt": 1775448942489,
-      "inputTokens": 301,
-      "message": "",
-      "outputTokens": 219,
-      "rationale": "A conversational reply about not having announced something yet; it does not mention limits, caps, resets, or restored availability.",
-      "reasoningTokens": 167,
-      "totalTokens": 520,
-      "tweetId": "2041000202417717474",
-      "tweetText": "@Eduardopto We haven't even announced anything. Give us a second",
-      "tweetUrl": "https://x.com/thsottiaux/status/2041000202417717474",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "puRJBHF4IS6BvkmDJ1PCuWe8GR-vyaCdNJWftWXbtsEST8NWLP3BCevBEg",
-    "iv": "RQJ571qkPjmi43E5",
-    "tag": "ilFp3ozJE8PhCxV2tkBDSg",
+    "ciphertext": "L8BmVjUd_pkjJPULmxPUkXuSlabl1YIyqKD-nHWAqek1U9SX3u_jouDC8Q",
+    "iv": "BnbuT8z3MptRk-5P",
+    "tag": "G1gO25wNte8yihN2ee-AZQ",
     "version": 1
   }
 }
