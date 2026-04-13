@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1776060078162,
-      "rationale": "This reply discusses steering behavior and does not mention limits, caps, or resets.",
-      "tweetId": "2043516024470053218",
-      "tweetUrl": "https://x.com/thsottiaux/status/2043516024470053218",
+      "decidedAt": 1776060081445,
+      "rationale": "This reply is just a conversational question and says nothing about any limits or reset.",
+      "tweetId": "2043516247028257265",
+      "tweetUrl": "https://x.com/thsottiaux/status/2043516247028257265",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2043516024470053218",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2043516024470053218",
+    "lastSeenTweetId": "2043516247028257265",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2043516247028257265",
     "pendingReview": {
       "confidence": 0.97,
       "createdAt": 1776050754948,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2043515694265024558"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1776060081445,
+        "inputTokens": 371,
+        "outputTokens": 76,
+        "rationale": "This reply is just a conversational question and says nothing about any limits or reset.",
+        "reasoningTokens": 32,
+        "totalTokens": 447,
+        "tweetId": "2043516247028257265",
+        "tweetText": "@ajambrosino @amorriscode @rileybrown You're working on Claude Code now?",
+        "tweetUrl": "https://x.com/thsottiaux/status/2043516247028257265",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1776060078162,
@@ -279,29 +292,31 @@
         "tweetText": "@PaulNeverovsky we know our people when we see them",
         "tweetUrl": "https://x.com/thsottiaux/status/2042320395051941979",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1775764027900,
-        "inputTokens": 305,
-        "outputTokens": 81,
-        "rationale": "This discusses extending a 2X limits promotion for Pro plans, not that rate limits have reset or become available again now.",
-        "reasoningTokens": 28,
-        "totalTokens": 386,
-        "tweetId": "2042299561247670325",
-        "tweetText": "Pro $100 and $200 come with 2X limits promotion, which we are extending",
-        "tweetUrl": "https://x.com/thsottiaux/status/2042299561247670325",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 30803,
-      "totalOutputTokens": 9806,
-      "totalReasoningTokens": 5102,
-      "totalTokens": 40609
+      "totalInputTokens": 31174,
+      "totalOutputTokens": 9882,
+      "totalReasoningTokens": 5134,
+      "totalTokens": 41056
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1776060081445,
+      "inputTokens": 371,
+      "message": "",
+      "outputTokens": 76,
+      "rationale": "This reply is just a conversational question and says nothing about any limits or reset.",
+      "reasoningTokens": 32,
+      "totalTokens": 447,
+      "tweetId": "2043516247028257265",
+      "tweetText": "@ajambrosino @amorriscode @rileybrown You're working on Claude Code now?",
+      "tweetUrl": "https://x.com/thsottiaux/status/2043516247028257265",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1776060078162,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2041014631729406337",
       "type": "review_requested",
       "verdict": "uncertain"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1775455920879,
-      "inputTokens": 308,
-      "message": "",
-      "outputTokens": 101,
-      "rationale": "Reply about Codex teaching someone; no mention of limits, caps, reset, or availability returning.",
-      "reasoningTokens": 53,
-      "totalTokens": 409,
-      "tweetId": "2041014438313222375",
-      "tweetText": "@thdxr Do not fret. Codex can teach you to be a wizard in 6 easy steps.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2041014438313222375",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "L8BmVjUd_pkjJPULmxPUkXuSlabl1YIyqKD-nHWAqek1U9SX3u_jouDC8Q",
-    "iv": "BnbuT8z3MptRk-5P",
-    "tag": "G1gO25wNte8yihN2ee-AZQ",
+    "ciphertext": "1S3gH88nDQ2hjzuy0iJdiIP4Cn9LrKNMFcFCvDjyofXTRH4XQRR_CQm9qA",
+    "iv": "Yy62hoXqVlh4-hyh",
+    "tag": "sMz1habxpHBHkqahC1nR7w",
     "version": 1
   }
 }
