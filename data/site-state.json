@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1776202329527,
-      "rationale": "This is just a welcoming reply and does not mention any limit or rate-limit reset.",
-      "tweetId": "2044165955979489473",
-      "tweetUrl": "https://x.com/thsottiaux/status/2044165955979489473",
+      "decidedAt": 1776202333706,
+      "rationale": "This is just a reply asking about iPad availability, not about limits or a reset.",
+      "tweetId": "2044166666570084375",
+      "tweetUrl": "https://x.com/thsottiaux/status/2044166666570084375",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2044165955979489473",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2044165955979489473",
+    "lastSeenTweetId": "2044166666570084375",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2044166666570084375",
     "pendingReview": {
       "confidence": 0.97,
       "createdAt": 1776050754948,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2043515694265024558"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1776202333706,
+        "inputTokens": 363,
+        "outputTokens": 92,
+        "rationale": "This is just a reply asking about iPad availability, not about limits or a reset.",
+        "reasoningTokens": 46,
+        "totalTokens": 455,
+        "tweetId": "2044166666570084375",
+        "tweetText": "@amorriscode Is it available on my iPad?",
+        "tweetUrl": "https://x.com/thsottiaux/status/2044166666570084375",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1776202329527,
@@ -279,29 +292,31 @@
         "tweetText": "@jxnlco If you keep complaining I’ll add Jason the 2nd",
         "tweetUrl": "https://x.com/thsottiaux/status/2042433439224512751",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1775794822437,
-        "inputTokens": 362,
-        "outputTokens": 78,
-        "rationale": "This reply is conversational and does not mention limits, caps, or usage becoming available again.",
-        "reasoningTokens": 32,
-        "totalTokens": 440,
-        "tweetId": "2042433280386138120",
-        "tweetText": "@chetaslua small part of the big plans",
-        "tweetUrl": "https://x.com/thsottiaux/status/2042433280386138120",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 33763,
-      "totalOutputTokens": 10497,
-      "totalReasoningTokens": 5429,
-      "totalTokens": 44260
+      "totalInputTokens": 34126,
+      "totalOutputTokens": 10589,
+      "totalReasoningTokens": 5475,
+      "totalTokens": 44715
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1776202333706,
+      "inputTokens": 363,
+      "message": "",
+      "outputTokens": 92,
+      "rationale": "This is just a reply asking about iPad availability, not about limits or a reset.",
+      "reasoningTokens": 46,
+      "totalTokens": 455,
+      "tweetId": "2044166666570084375",
+      "tweetText": "@amorriscode Is it available on my iPad?",
+      "tweetUrl": "https://x.com/thsottiaux/status/2044166666570084375",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1776202329527,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2041751911964274753",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1775634512918,
-      "inputTokens": 294,
-      "message": "",
-      "outputTokens": 75,
-      "rationale": "The post is just a brief reply with no mention of limits, caps, reset, or availability returning.",
-      "reasoningTokens": 26,
-      "totalTokens": 369,
-      "tweetId": "2041749947385815109",
-      "tweetText": "@adonis_singh Uhm",
-      "tweetUrl": "https://x.com/thsottiaux/status/2041749947385815109",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "5rmu2j1logDSWYT4aR91ZPFyMeGxquOEVltq2AIpgGdTB7ZeEMKyHLMnnQ",
-    "iv": "H1jLq3l4sM5p0R4Z",
-    "tag": "iCNwZTrEuMZWxwtPIwfXAA",
+    "ciphertext": "vlGpvMl4cgDS_4-z795T-mHSMlQzX0bJJRHgo4a1cV7v4NYK-iSbmbsDSg",
+    "iv": "yqtsCuf82GMZ6cMN",
+    "tag": "azxC7XMdsDBddUwdeedHpA",
     "version": 1
   }
 }
