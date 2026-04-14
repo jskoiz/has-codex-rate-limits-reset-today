@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1776202321910,
-      "rationale": "This post is a product announcement and does not mention limits, caps, or usage becoming available again.",
-      "tweetId": "2044165674881490947",
-      "tweetUrl": "https://x.com/thsottiaux/status/2044165674881490947",
+      "decidedAt": 1776202326593,
+      "rationale": "This reply is conversational and does not mention limits, caps, or usage resetting.",
+      "tweetId": "2044165754254438680",
+      "tweetUrl": "https://x.com/thsottiaux/status/2044165754254438680",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2044165674881490947",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2044165674881490947",
+    "lastSeenTweetId": "2044165754254438680",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2044165754254438680",
     "pendingReview": {
       "confidence": 0.97,
       "createdAt": 1776050754948,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2043515694265024558"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1776202326593,
+        "inputTokens": 364,
+        "outputTokens": 106,
+        "rationale": "This reply is conversational and does not mention limits, caps, or usage resetting.",
+        "reasoningTokens": 62,
+        "totalTokens": 470,
+        "tweetId": "2044165754254438680",
+        "tweetText": "@DimeNaranja @OpenAI It's the little things",
+        "tweetUrl": "https://x.com/thsottiaux/status/2044165754254438680",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1776202321910,
@@ -279,29 +292,31 @@
         "tweetText": "@joannejang Would recognize our JT even if he were 4 pixels",
         "tweetUrl": "https://x.com/thsottiaux/status/2042423093688484322",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1775794815850,
-        "inputTokens": 363,
-        "outputTokens": 71,
-        "rationale": "This is just a conversational reply and does not mention limits, caps, or availability resetting.",
-        "reasoningTokens": 25,
-        "totalTokens": 434,
-        "tweetId": "2042421938606477801",
-        "tweetText": "@theo They really used the microscope for that one",
-        "tweetUrl": "https://x.com/thsottiaux/status/2042421938606477801",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 33036,
-      "totalOutputTokens": 10318,
-      "totalReasoningTokens": 5339,
-      "totalTokens": 43354
+      "totalInputTokens": 33400,
+      "totalOutputTokens": 10424,
+      "totalReasoningTokens": 5401,
+      "totalTokens": 43824
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1776202326594,
+      "inputTokens": 364,
+      "message": "",
+      "outputTokens": 106,
+      "rationale": "This reply is conversational and does not mention limits, caps, or usage resetting.",
+      "reasoningTokens": 62,
+      "totalTokens": 470,
+      "tweetId": "2044165754254438680",
+      "tweetText": "@DimeNaranja @OpenAI It's the little things",
+      "tweetUrl": "https://x.com/thsottiaux/status/2044165754254438680",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1776202321910,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2041655710346572085",
       "type": "reset_confirmed",
       "verdict": "reset_confirmed"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1775541280189,
-      "inputTokens": 298,
-      "message": "",
-      "outputTokens": 94,
-      "rationale": "Reply praising OpenCode/GPT; no mention of limits, caps, or usage resetting.",
-      "reasoningTokens": 48,
-      "totalTokens": 392,
-      "tweetId": "2041388379871523141",
-      "tweetText": "@thdxr Let’s go! OpenCode ❤️ GPT",
-      "tweetUrl": "https://x.com/thsottiaux/status/2041388379871523141",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "z6C4j20EBs31S1Brv1YKRiS-SXKQNBYMHyHw-ZqXF97t33oRuyJ6XdkXqA",
-    "iv": "4yYTAtGfmWRpqvY0",
-    "tag": "TB6PGeu7NK_Fa-tpWu8-Hg",
+    "ciphertext": "LKG_i1IBYYXnEq69meOqcByvl_BiomV20HM8MJNxW1Syg9nSYR8dHArclg",
+    "iv": "ESbo_Jr8ncsTbjrK",
+    "tag": "v3NugDKsxWSZ-1hD1T37tw",
     "version": 1
   }
 }
