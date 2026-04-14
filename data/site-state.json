@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1776138005655,
-      "rationale": "This reply does not mention limits, caps, or usage becoming available again.",
-      "tweetId": "2043852660219228432",
-      "tweetUrl": "https://x.com/thsottiaux/status/2043852660219228432",
+      "decidedAt": 1776145847830,
+      "rationale": "It says a reset will happen later at 4M, not that limits have reset now.",
+      "tweetId": "2043920132096045143",
+      "tweetUrl": "https://x.com/thsottiaux/status/2043920132096045143",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2043852660219228432",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2043852660219228432",
+    "lastSeenTweetId": "2043920132096045143",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2043920132096045143",
     "pendingReview": {
       "confidence": 0.97,
       "createdAt": 1776050754948,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2043515694265024558"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1776145847830,
+        "inputTokens": 378,
+        "outputTokens": 107,
+        "rationale": "It says a reset will happen later at 4M, not that limits have reset now.",
+        "reasoningTokens": 60,
+        "totalTokens": 485,
+        "tweetId": "2043920132096045143",
+        "tweetText": "@assppvenn @rohanvarma I am monitoring the situation and will reset as soon as we hit 4M",
+        "tweetUrl": "https://x.com/thsottiaux/status/2043920132096045143",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1776138005655,
@@ -279,29 +292,31 @@
         "tweetText": "@Pranit not a &lt;banana&gt;, just a &lt;strawberry&gt;\n\ni see you",
         "tweetUrl": "https://x.com/thsottiaux/status/2042332964705669630",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1775767001040,
-        "inputTokens": 367,
-        "outputTokens": 113,
-        "rationale": "This reply discusses plan tiers and does not indicate any limit or rate-cap reset.",
-        "reasoningTokens": 69,
-        "totalTokens": 480,
-        "tweetId": "2042325303406768397",
-        "tweetText": "@ai_for_success that was the small plan, big plan is still coming",
-        "tweetUrl": "https://x.com/thsottiaux/status/2042325303406768397",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 32266,
-      "totalOutputTokens": 10134,
-      "totalReasoningTokens": 5250,
-      "totalTokens": 42400
+      "totalInputTokens": 32644,
+      "totalOutputTokens": 10241,
+      "totalReasoningTokens": 5310,
+      "totalTokens": 42885
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1776145847831,
+      "inputTokens": 378,
+      "message": "",
+      "outputTokens": 107,
+      "rationale": "It says a reset will happen later at 4M, not that limits have reset now.",
+      "reasoningTokens": 60,
+      "totalTokens": 485,
+      "tweetId": "2043920132096045143",
+      "tweetText": "@assppvenn @rohanvarma I am monitoring the situation and will reset as soon as we hit 4M",
+      "tweetUrl": "https://x.com/thsottiaux/status/2043920132096045143",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1776138005655,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2041191874539786343",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1775492940341,
-      "inputTokens": 297,
-      "message": "",
-      "outputTokens": 89,
-      "rationale": "A conversational reply with no mention or implication of limits, caps, or usage becoming available again.",
-      "reasoningTokens": 42,
-      "totalTokens": 386,
-      "tweetId": "2041190841524642184",
-      "tweetText": "@nibzard Blink twice if you need help",
-      "tweetUrl": "https://x.com/thsottiaux/status/2041190841524642184",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "eIjl-tDavnRFvwVLHALNzxu-qVvrphGgcph6cQSbdWoftwD926P0tJsvwg",
-    "iv": "9umTUyxJcj9JAyNa",
-    "tag": "a8szHsgjX1sfkgK0tFV0eg",
+    "ciphertext": "nyC8-zMgmlJwa16Rb1YrkHTnoBYgXs0TZzwjhuNxEgHRRE33xglibjxRtQ",
+    "iv": "NrLfklfbLFWWlLAC",
+    "tag": "31SbinQcaDx9suEWKSaN7Q",
     "version": 1
   }
 }
