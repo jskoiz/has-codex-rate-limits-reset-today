@@ -14,25 +14,38 @@
   "updatedAt": 1775764047465,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1776267694874,
-      "rationale": "This reply is conversational and does not mention limits, caps, or usage becoming available again.",
-      "tweetId": "2044422877093749125",
-      "tweetUrl": "https://x.com/thsottiaux/status/2044422877093749125",
-      "verdict": "not_reset"
+      "confidence": 0.94,
+      "decidedAt": 1776283799472,
+      "rationale": "This reply says “yes” without mentioning limits or resets, so the reset meaning is not clear from this post alone.",
+      "tweetId": "2044507067877355804",
+      "tweetUrl": "https://x.com/thsottiaux/status/2044507067877355804",
+      "verdict": "uncertain"
     },
-    "lastError": "Tweet fetch failed: Request failed with status code 404 (Request failed with status code 404)",
-    "lastSeenTweetId": "2044422877093749125",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2044422877093749125",
+    "lastError": null,
+    "lastSeenTweetId": "2044507067877355804",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2044507067877355804",
     "pendingReview": {
-      "confidence": 0.97,
-      "createdAt": 1776050754948,
-      "rationale": "This reply alone does not clearly say any Codex or ChatGPT limit has reset.",
-      "tweetId": "2043515694265024558",
-      "tweetText": "@pashmerepat 👀",
-      "tweetUrl": "https://x.com/thsottiaux/status/2043515694265024558"
+      "confidence": 0.94,
+      "createdAt": 1776283799472,
+      "rationale": "This reply says “yes” without mentioning limits or resets, so the reset meaning is not clear from this post alone.",
+      "tweetId": "2044507067877355804",
+      "tweetText": "@asaio87 You could have asked codex, but yes!\n\nhttps://t.co/GcLMmuC6dg",
+      "tweetUrl": "https://x.com/thsottiaux/status/2044507067877355804"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.94,
+        "evaluatedAt": 1776283799472,
+        "inputTokens": 379,
+        "outputTokens": 178,
+        "rationale": "This reply says “yes” without mentioning limits or resets, so the reset meaning is not clear from this post alone.",
+        "reasoningTokens": 126,
+        "totalTokens": 557,
+        "tweetId": "2044507067877355804",
+        "tweetText": "@asaio87 You could have asked codex, but yes!\n\nhttps://t.co/GcLMmuC6dg",
+        "tweetUrl": "https://x.com/thsottiaux/status/2044507067877355804",
+        "verdict": "uncertain"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1776267694874,
@@ -279,29 +292,31 @@
         "tweetText": "I’m having cheesecake again and thinking about codex. But next week will be about more than cooking",
         "tweetUrl": "https://x.com/thsottiaux/status/2042822766957903929",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.84,
-        "evaluatedAt": 1775794840802,
-        "inputTokens": 398,
-        "outputTokens": 211,
-        "rationale": "It mentions a new Codex plan helping users, but does not explicitly say limits or caps reset now.",
-        "reasoningTokens": 162,
-        "totalTokens": 609,
-        "tweetId": "2042436086392373392",
-        "tweetText": "I get so many personal thank you emails for something and it’s not even a feature. All we needed apparently was a new codex plan. Can we rest now? https://t.co/d0iDjZo4By",
-        "tweetUrl": "https://x.com/thsottiaux/status/2042436086392373392",
-        "verdict": "uncertain"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 34497,
-      "totalOutputTokens": 10657,
-      "totalReasoningTokens": 5497,
-      "totalTokens": 45154
+      "totalInputTokens": 34876,
+      "totalOutputTokens": 10835,
+      "totalReasoningTokens": 5623,
+      "totalTokens": 45711
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.94,
+      "createdAt": 1776283799472,
+      "inputTokens": 379,
+      "message": "",
+      "outputTokens": 178,
+      "rationale": "This reply says “yes” without mentioning limits or resets, so the reset meaning is not clear from this post alone.",
+      "reasoningTokens": 126,
+      "totalTokens": 557,
+      "tweetId": "2044507067877355804",
+      "tweetText": "@asaio87 You could have asked codex, but yes!\n\nhttps://t.co/GcLMmuC6dg",
+      "tweetUrl": "https://x.com/thsottiaux/status/2044507067877355804",
+      "type": "review_requested",
+      "verdict": "uncertain"
+    },
     {
       "confidence": 0,
       "createdAt": 1776280147915,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2042067902392942790",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1775670385473,
-      "inputTokens": 301,
-      "message": "",
-      "outputTokens": 81,
-      "rationale": "This is just a reply asking about the user's plan and does not state or imply that any limits or caps have reset.",
-      "reasoningTokens": 29,
-      "totalTokens": 382,
-      "tweetId": "2041927798416404869",
-      "tweetText": "@mcmagify @PaytonHalas Which plan are you on?",
-      "tweetUrl": "https://x.com/thsottiaux/status/2041927798416404869",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "Qbn5dQutf98sQxCvLNS7hF83DXa4OVAeK-R2ZYQQCy7TXsewJqVb9LWuLA",
-    "iv": "ayv_szK3nGVmB6I4",
-    "tag": "fkLwFU4yzA6Ck5POoW4n5w",
+    "ciphertext": "uVj_iwb7atB-FEADN4vp-YgKumzrRf6Lk1GwVOGfLM24-FUUww8xARgVhQ",
+    "iv": "vaDyNMjmPy91ZLrG",
+    "tag": "9Ug-ftYf-Gz8PVMymMTjlg",
     "version": 1
   }
 }
