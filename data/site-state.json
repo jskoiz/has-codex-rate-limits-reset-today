@@ -14,16 +14,16 @@
   "updatedAt": 1775764047465,
   "automation": {
     "lastDecision": {
-      "confidence": 0.98,
-      "decidedAt": 1776287241327,
-      "rationale": "This reply is just conversational and does not mention limits, caps, or availability resetting.",
-      "tweetId": "2044510245998023117",
-      "tweetUrl": "https://x.com/thsottiaux/status/2044510245998023117",
+      "confidence": 0.99,
+      "decidedAt": 1776297235841,
+      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+      "tweetId": "2044537562686230935",
+      "tweetUrl": "https://x.com/thsottiaux/status/2044537562686230935",
       "verdict": "not_reset"
     },
-    "lastError": "Tweet fetch failed: Request failed with status code 404 (Request failed with status code 404)",
-    "lastSeenTweetId": "2044510245998023117",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2044510245998023117",
+    "lastError": null,
+    "lastSeenTweetId": "2044537562686230935",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2044537562686230935",
     "pendingReview": {
       "confidence": 0.94,
       "createdAt": 1776283799472,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2044507067877355804"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1776297235841,
+        "inputTokens": 374,
+        "outputTokens": 69,
+        "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+        "reasoningTokens": 25,
+        "totalTokens": 443,
+        "tweetId": "2044537562686230935",
+        "tweetText": "@wiigg @reach_vb @AndrewGinns @MarcMontanari Build things you just can",
+        "tweetUrl": "https://x.com/thsottiaux/status/2044537562686230935",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.98,
         "evaluatedAt": 1776287241327,
@@ -279,29 +292,31 @@
         "tweetText": "Hi! Getting a lot of questions on Pro plan rate limits, so I wanted to clarify a few things:\n\n- Your Pro $100 plan includes at least 10x Plus usage, till May 31 with the 2X usage boost.\n- Your Pro $200 plan includes at least 20x Plus usage, till May 31 with the 2X usage boost. This is also the SAME usage this plan had since the 2x promo in February; we previously didn't document this explicitly.\n\nNow to address the confusion. Our pricing page says \"5x or 20x usage\", and many of you very understandably took it to mean \"10x and 40x\" given then 2X usage boost.  That's our fault. We mixed up two things in a confusing way on that page - (1) sharing that the Pro $100 launched with a 2x boost, making it 10x Plus till May 31 and (2) sharing that Pro $200 retained its 2x boost and sharing for the first time that this equates to 20x Plus.\n\nWe're going to update our pricing pages to make this clearer. Sorry it wasn't as clear as it should have in the first place.🫥",
         "tweetUrl": "https://x.com/thsottiaux/status/2043075353242218768",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1775934184077,
-        "inputTokens": 373,
-        "outputTokens": 73,
-        "rationale": "This reply is just a conversational question and does not mention limits, caps, or availability resetting.",
-        "reasoningTokens": 26,
-        "totalTokens": 446,
-        "tweetId": "2043035072744558963",
-        "tweetText": "@danveloper Tell me more. What do you need from it that you’re not managing to make work?",
-        "tweetUrl": "https://x.com/thsottiaux/status/2043035072744558963",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 35614,
-      "totalOutputTokens": 11045,
-      "totalReasoningTokens": 5743,
-      "totalTokens": 46659
+      "totalInputTokens": 35988,
+      "totalOutputTokens": 11114,
+      "totalReasoningTokens": 5768,
+      "totalTokens": 47102
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1776297235841,
+      "inputTokens": 374,
+      "message": "",
+      "outputTokens": 69,
+      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+      "reasoningTokens": 25,
+      "totalTokens": 443,
+      "tweetId": "2044537562686230935",
+      "tweetText": "@wiigg @reach_vb @AndrewGinns @MarcMontanari Build things you just can",
+      "tweetUrl": "https://x.com/thsottiaux/status/2044537562686230935",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0,
       "createdAt": 1776293910848,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2042125759683481754",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1775712284980,
-      "inputTokens": 294,
-      "message": "",
-      "outputTokens": 72,
-      "rationale": "This reply is conversational and does not mention limits, caps, resets, or availability returning.",
-      "reasoningTokens": 26,
-      "totalTokens": 366,
-      "tweetId": "2042109518042284324",
-      "tweetText": "@kr0der Giving away the secrets",
-      "tweetUrl": "https://x.com/thsottiaux/status/2042109518042284324",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "pfbhtVj87HfFAohxIfCkoZ3gg3IdzrkaEGDCjTRrghy6AVgv8CywrXrMYQ",
-    "iv": "QnmJ4b9BDrFNtMGj",
-    "tag": "_nA2k2tvt6xMtc4ldSyygA",
+    "ciphertext": "AHS3QF0FgEFMDR1ITNAdleUCGBK7xs8DEhlDh4GUWYVgRTSeHgqdHAMGXg",
+    "iv": "wIOFx_nlT9IvheU6",
+    "tag": "Eb6X864nHgNnCS6PRaR7Fw",
     "version": 1
   }
 }
