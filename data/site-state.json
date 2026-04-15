@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1776202333706,
-      "rationale": "This is just a reply asking about iPad availability, not about limits or a reset.",
-      "tweetId": "2044166666570084375",
-      "tweetUrl": "https://x.com/thsottiaux/status/2044166666570084375",
+      "decidedAt": 1776267694874,
+      "rationale": "This reply is conversational and does not mention limits, caps, or usage becoming available again.",
+      "tweetId": "2044422877093749125",
+      "tweetUrl": "https://x.com/thsottiaux/status/2044422877093749125",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2044166666570084375",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2044166666570084375",
+    "lastSeenTweetId": "2044422877093749125",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2044422877093749125",
     "pendingReview": {
       "confidence": 0.97,
       "createdAt": 1776050754948,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2043515694265024558"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1776267694874,
+        "inputTokens": 371,
+        "outputTokens": 68,
+        "rationale": "This reply is conversational and does not mention limits, caps, or usage becoming available again.",
+        "reasoningTokens": 22,
+        "totalTokens": 439,
+        "tweetId": "2044422877093749125",
+        "tweetText": "@badlogicgames @steipete May the good slop prevail over the bad slop",
+        "tweetUrl": "https://x.com/thsottiaux/status/2044422877093749125",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1776202333706,
@@ -279,29 +292,31 @@
         "tweetText": "I get so many personal thank you emails for something and it’s not even a feature. All we needed apparently was a new codex plan. Can we rest now? https://t.co/d0iDjZo4By",
         "tweetUrl": "https://x.com/thsottiaux/status/2042436086392373392",
         "verdict": "uncertain"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1775794824821,
-        "inputTokens": 368,
-        "outputTokens": 69,
-        "rationale": "This is a joking reply and does not mention limits, caps, or usage becoming available again.",
-        "reasoningTokens": 22,
-        "totalTokens": 437,
-        "tweetId": "2042433439224512751",
-        "tweetText": "@jxnlco If you keep complaining I’ll add Jason the 2nd",
-        "tweetUrl": "https://x.com/thsottiaux/status/2042433439224512751",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 34126,
-      "totalOutputTokens": 10589,
-      "totalReasoningTokens": 5475,
-      "totalTokens": 44715
+      "totalInputTokens": 34497,
+      "totalOutputTokens": 10657,
+      "totalReasoningTokens": 5497,
+      "totalTokens": 45154
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1776267694874,
+      "inputTokens": 371,
+      "message": "",
+      "outputTokens": 68,
+      "rationale": "This reply is conversational and does not mention limits, caps, or usage becoming available again.",
+      "reasoningTokens": 22,
+      "totalTokens": 439,
+      "tweetId": "2044422877093749125",
+      "tweetText": "@badlogicgames @steipete May the good slop prevail over the bad slop",
+      "tweetUrl": "https://x.com/thsottiaux/status/2044422877093749125",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1776202333706,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2041927798416404869",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1775634516740,
-      "inputTokens": 305,
-      "message": "",
-      "outputTokens": 49,
-      "rationale": "This tweet is a general personal/status update and does not mention rate limits, caps, resets, or usage availability.",
-      "reasoningTokens": 0,
-      "totalTokens": 354,
-      "tweetId": "2041751911964274753",
-      "tweetText": "Unreasonably excited about things. The next few weeks will be intense (and fun!).",
-      "tweetUrl": "https://x.com/thsottiaux/status/2041751911964274753",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "vlGpvMl4cgDS_4-z795T-mHSMlQzX0bJJRHgo4a1cV7v4NYK-iSbmbsDSg",
-    "iv": "yqtsCuf82GMZ6cMN",
-    "tag": "azxC7XMdsDBddUwdeedHpA",
+    "ciphertext": "VJEDclXYo3ufhIKTp8TJ20akUhU5hFe-tJLECyDfnuvgfSpXhM5DLXD0zg",
+    "iv": "mhlLyo_bXvYJBHn4",
+    "tag": "nj_kPFcVv3QghlBcSsf1Ig",
     "version": 1
   }
 }
