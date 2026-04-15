@@ -14,16 +14,16 @@
   "updatedAt": 1775764047465,
   "automation": {
     "lastDecision": {
-      "confidence": 0.94,
-      "decidedAt": 1776283799472,
-      "rationale": "This reply says “yes” without mentioning limits or resets, so the reset meaning is not clear from this post alone.",
-      "tweetId": "2044507067877355804",
-      "tweetUrl": "https://x.com/thsottiaux/status/2044507067877355804",
-      "verdict": "uncertain"
+      "confidence": 0.99,
+      "decidedAt": 1776287236586,
+      "rationale": "This reply is a general comment about value and says nothing about limits or a reset.",
+      "tweetId": "2044509354813194494",
+      "tweetUrl": "https://x.com/thsottiaux/status/2044509354813194494",
+      "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2044507067877355804",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2044507067877355804",
+    "lastSeenTweetId": "2044509354813194494",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2044509354813194494",
     "pendingReview": {
       "confidence": 0.94,
       "createdAt": 1776283799472,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2044507067877355804"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1776287236586,
+        "inputTokens": 378,
+        "outputTokens": 81,
+        "rationale": "This reply is a general comment about value and says nothing about limits or a reset.",
+        "reasoningTokens": 36,
+        "totalTokens": 459,
+        "tweetId": "2044509354813194494",
+        "tweetText": "@justbyte_ Only if you like to be productive and also have money left in your bank account at the end of the month",
+        "tweetUrl": "https://x.com/thsottiaux/status/2044509354813194494",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.94,
         "evaluatedAt": 1776283799472,
@@ -279,29 +292,31 @@
         "tweetText": "@Sagar_Trivedi @OpenAI Every month actually. Together with a training on how to answer to strangers online. And another one on how to train SoTA models.",
         "tweetUrl": "https://x.com/thsottiaux/status/2042844420677210595",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1775884171709,
-        "inputTokens": 373,
-        "outputTokens": 71,
-        "rationale": "This is casual commentary and does not mention any Codex or ChatGPT limit reset.",
-        "reasoningTokens": 26,
-        "totalTokens": 444,
-        "tweetId": "2042822766957903929",
-        "tweetText": "I’m having cheesecake again and thinking about codex. But next week will be about more than cooking",
-        "tweetUrl": "https://x.com/thsottiaux/status/2042822766957903929",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 34876,
-      "totalOutputTokens": 10835,
-      "totalReasoningTokens": 5623,
-      "totalTokens": 45711
+      "totalInputTokens": 35254,
+      "totalOutputTokens": 10916,
+      "totalReasoningTokens": 5659,
+      "totalTokens": 46170
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1776287236587,
+      "inputTokens": 378,
+      "message": "",
+      "outputTokens": 81,
+      "rationale": "This reply is a general comment about value and says nothing about limits or a reset.",
+      "reasoningTokens": 36,
+      "totalTokens": 459,
+      "tweetId": "2044509354813194494",
+      "tweetText": "@justbyte_ Only if you like to be productive and also have money left in your bank account at the end of the month",
+      "tweetUrl": "https://x.com/thsottiaux/status/2044509354813194494",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.94,
       "createdAt": 1776283799472,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2042102141381439555",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.97,
-      "createdAt": 1775704842316,
-      "inputTokens": 330,
-      "message": "",
-      "outputTokens": 283,
-      "rationale": "The tweet discusses a Codex reset that happened yesterday and says another reset will happen tomorrow, not that limits have reset now.",
-      "reasoningTokens": 230,
-      "totalTokens": 613,
-      "tweetId": "2042067902392942790",
-      "tweetText": "I realize yesterday’s Codex reset came in a bit at an unfortunate time given the last one was almost perfectly a week ago. To really celebrate the 3M I’ll reset again tomorrow. Thanks for the feedback!",
-      "tweetUrl": "https://x.com/thsottiaux/status/2042067902392942790",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "uVj_iwb7atB-FEADN4vp-YgKumzrRf6Lk1GwVOGfLM24-FUUww8xARgVhQ",
-    "iv": "vaDyNMjmPy91ZLrG",
-    "tag": "9Ug-ftYf-Gz8PVMymMTjlg",
+    "ciphertext": "DsHaUd-iasPsilgUJuXRypuWlBqhktb3KE6ns8BuxxjMIhBIId2mYcnnPA",
+    "iv": "ltqySQn5lF5shJDt",
+    "tag": "KnEDixRgjTiJ5-ZC0ax_LA",
     "version": 1
   }
 }
