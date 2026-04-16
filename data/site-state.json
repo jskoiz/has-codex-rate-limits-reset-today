@@ -14,16 +14,16 @@
   "updatedAt": 1775764047465,
   "automation": {
     "lastDecision": {
-      "confidence": 0.98,
-      "decidedAt": 1776373001813,
-      "rationale": "This reply is just conversational and does not mention limits, caps, or a reset.",
-      "tweetId": "2044879347950240051",
-      "tweetUrl": "https://x.com/thsottiaux/status/2044879347950240051",
+      "confidence": 0.99,
+      "decidedAt": 1776373007119,
+      "rationale": "This reply discusses feature availability by region and platform, not any limit or cap reset.",
+      "tweetId": "2044879705174839440",
+      "tweetUrl": "https://x.com/thsottiaux/status/2044879705174839440",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2044879347950240051",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2044879347950240051",
+    "lastSeenTweetId": "2044879705174839440",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2044879705174839440",
     "pendingReview": {
       "confidence": 0.14,
       "createdAt": 1776361407342,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2044826340709515324"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1776373007119,
+        "inputTokens": 376,
+        "outputTokens": 77,
+        "rationale": "This reply discusses feature availability by region and platform, not any limit or cap reset.",
+        "reasoningTokens": 32,
+        "totalTokens": 453,
+        "tweetId": "2044879705174839440",
+        "tweetText": "@mark_k Available worldwide except UK &amp; EU. And available for all platforms, with computer use only on Mac.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2044879705174839440",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.98,
         "evaluatedAt": 1776373001813,
@@ -279,29 +292,31 @@
         "tweetText": "@joannejang you need a skill for that",
         "tweetUrl": "https://x.com/thsottiaux/status/2044579877685493925",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1776297235841,
-        "inputTokens": 374,
-        "outputTokens": 69,
-        "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-        "reasoningTokens": 25,
-        "totalTokens": 443,
-        "tweetId": "2044537562686230935",
-        "tweetText": "@wiigg @reach_vb @AndrewGinns @MarcMontanari Build things you just can",
-        "tweetUrl": "https://x.com/thsottiaux/status/2044537562686230935",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 43110,
-      "totalOutputTokens": 13034,
-      "totalReasoningTokens": 6821,
-      "totalTokens": 56144
+      "totalInputTokens": 43486,
+      "totalOutputTokens": 13111,
+      "totalReasoningTokens": 6853,
+      "totalTokens": 56597
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1776373007119,
+      "inputTokens": 376,
+      "message": "",
+      "outputTokens": 77,
+      "rationale": "This reply discusses feature availability by region and platform, not any limit or cap reset.",
+      "reasoningTokens": 32,
+      "totalTokens": 453,
+      "tweetId": "2044879705174839440",
+      "tweetText": "@mark_k Available worldwide except UK &amp; EU. And available for all platforms, with computer use only on Mac.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2044879705174839440",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.98,
       "createdAt": 1776373001813,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2043177597434306699",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1775943167999,
-      "inputTokens": 780,
-      "message": "",
-      "outputTokens": 93,
-      "rationale": "This post clarifies ChatGPT Pro plan usage amounts and a pricing-page misunderstanding, not that any limits have…",
-      "reasoningTokens": 37,
-      "totalTokens": 873,
-      "tweetId": "2043075353242218768",
-      "tweetText": "Hi! Getting a lot of questions on Pro plan rate limits, so I wanted to clarify a few things:\n\n- Your Pro $100 plan includes at least 10x Plus usage, till May 31 with the 2X usage boost.\n- Your Pro $200 plan includes at least 20x Plus usage, till May 31 with the 2X usage boost. This is also the SAME usage this plan had since the 2x promo in February; we previously didn't document this explicitly.\n\nNow to address the confusion. Our pricing page says \"5x or 20x usage\", and many of you very understandably took it to mean \"10x and 40x\" given then 2X usage boost.  That's our fault. We mixed up two things in a confusing way on that page - (1) sharing that the Pro $100 launched with a 2x boost, making it 10x Plus till May 31 and (2) sharing that Pro $200 retained its 2x boost and sharing for the first time that this equates to 20x Plus.\n\nWe're going to update our pricing pages to make this clearer. Sorry it wasn't as clear as it should have in the first place.🫥",
-      "tweetUrl": "https://x.com/thsottiaux/status/2043075353242218768",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "MnPja7Imolkirw51L8Eddb9HNboOMgdoY7LdKylhm63eebgPqkWM8s_GxA",
-    "iv": "P9WZOl6oi-kFNCFa",
-    "tag": "fy3Sm9OxJn8KPI8XGQzfLA",
+    "ciphertext": "-FnKtpLq0VuCVB2UPg2F6mvsatIAkgFozbmugLavA8SIReJ41sJPSLgFBQ",
+    "iv": "9ma_cexQKXTBQOPj",
+    "tag": "DXvmrUy7I00RoMBQO7E32Q",
     "version": 1
   }
 }
