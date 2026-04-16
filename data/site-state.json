@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1776369321247,
-      "rationale": "This reply is unrelated to any Codex or ChatGPT limit reset.",
-      "tweetId": "2044862020680626186",
-      "tweetUrl": "https://x.com/thsottiaux/status/2044862020680626186",
+      "decidedAt": 1776369326996,
+      "rationale": "This is general praise of Codex and does not mention limits, caps, or a reset.",
+      "tweetId": "2044865335204196753",
+      "tweetUrl": "https://x.com/thsottiaux/status/2044865335204196753",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2044862020680626186",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2044862020680626186",
+    "lastSeenTweetId": "2044865335204196753",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2044865335204196753",
     "pendingReview": {
       "confidence": 0.14,
       "createdAt": 1776361407342,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2044826340709515324"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1776369326996,
+        "inputTokens": 387,
+        "outputTokens": 83,
+        "rationale": "This is general praise of Codex and does not mention limits, caps, or a reset.",
+        "reasoningTokens": 36,
+        "totalTokens": 470,
+        "tweetId": "2044865335204196753",
+        "tweetText": "Codex\n\nCompute efficient ✅\nAlways up, never down ✅\nBest at hardcore engineering ✅\nCrazy good app, first to escape the terminal ✅",
+        "tweetUrl": "https://x.com/thsottiaux/status/2044865335204196753",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1776369321247,
@@ -279,29 +292,31 @@
         "tweetText": "@DimeNaranja @OpenAI It's the little things",
         "tweetUrl": "https://x.com/thsottiaux/status/2044165754254438680",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1776202321910,
-        "inputTokens": 392,
-        "outputTokens": 77,
-        "rationale": "This post is a product announcement and does not mention limits, caps, or usage becoming available again.",
-        "reasoningTokens": 29,
-        "totalTokens": 469,
-        "tweetId": "2044165674881490947",
-        "tweetText": "Today we are introducing GPT-5.4-Cyber and expanding our Trusted Access for Cyber (TAC) program. \n\nhttps://t.co/NMBWRgPSr8",
-        "tweetUrl": "https://x.com/thsottiaux/status/2044165674881490947",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 40179,
-      "totalOutputTokens": 12192,
-      "totalReasoningTokens": 6342,
-      "totalTokens": 52371
+      "totalInputTokens": 40566,
+      "totalOutputTokens": 12275,
+      "totalReasoningTokens": 6378,
+      "totalTokens": 52841
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1776369326996,
+      "inputTokens": 387,
+      "message": "",
+      "outputTokens": 83,
+      "rationale": "This is general praise of Codex and does not mention limits, caps, or a reset.",
+      "reasoningTokens": 36,
+      "totalTokens": 470,
+      "tweetId": "2044865335204196753",
+      "tweetText": "Codex\n\nCompute efficient ✅\nAlways up, never down ✅\nBest at hardcore engineering ✅\nCrazy good app, first to escape the terminal ✅",
+      "tweetUrl": "https://x.com/thsottiaux/status/2044865335204196753",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1776369321247,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2042433280386138120",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1775794819400,
-      "inputTokens": 367,
-      "message": "",
-      "outputTokens": 64,
-      "rationale": "This is just a conversational reply and does not mention limits, caps, or availability resetting.",
-      "reasoningTokens": 18,
-      "totalTokens": 431,
-      "tweetId": "2042423093688484322",
-      "tweetText": "@joannejang Would recognize our JT even if he were 4 pixels",
-      "tweetUrl": "https://x.com/thsottiaux/status/2042423093688484322",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "ibYznl1J9WtMMBcJAz-iW5FLJwxy-Wg1RnAT4eBiRWGS2qE5juOGAyRUdQ",
-    "iv": "X3ukTFnfWh9D4PLO",
-    "tag": "CG8xi9KmokII6Lds7OG_9g",
+    "ciphertext": "RHfFQ9OMr45EztK5FrI9MiY0VqlF0uuL7JPkgbBnwdzWtEtjHcIE-iC9CQ",
+    "iv": "hoVOjVqSzsJ5rQ75",
+    "tag": "PCDgNnFEIL5hEHTEVRpFMA",
     "version": 1
   }
 }
