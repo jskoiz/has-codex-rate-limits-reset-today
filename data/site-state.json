@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1776355709168,
-      "rationale": "This is just a casual remark and does not mention limits, caps, or usage becoming available again.",
-      "tweetId": "2044803491332526287",
-      "tweetUrl": "https://x.com/thsottiaux/status/2044803491332526287",
+      "decidedAt": 1776361397662,
+      "rationale": "This reply is just conversational and gives no indication that any limits have reset.",
+      "tweetId": "2044813419908624604",
+      "tweetUrl": "https://x.com/thsottiaux/status/2044813419908624604",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2044803491332526287",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2044803491332526287",
+    "lastSeenTweetId": "2044813419908624604",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2044813419908624604",
     "pendingReview": {
       "confidence": 0.94,
       "createdAt": 1776283799472,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2044507067877355804"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1776361397662,
+        "inputTokens": 357,
+        "outputTokens": 108,
+        "rationale": "This reply is just conversational and gives no indication that any limits have reset.",
+        "reasoningTokens": 65,
+        "totalTokens": 465,
+        "tweetId": "2044813419908624604",
+        "tweetText": "@KaiXCreator Guess",
+        "tweetUrl": "https://x.com/thsottiaux/status/2044813419908624604",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1776355709168,
@@ -279,29 +292,31 @@
         "tweetText": "@Johnnydazhu Isn't that just mid-turn steering?",
         "tweetUrl": "https://x.com/thsottiaux/status/2043516024470053218",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.97,
-        "evaluatedAt": 1776050754948,
-        "inputTokens": 359,
-        "outputTokens": 156,
-        "rationale": "This reply alone does not clearly say any Codex or ChatGPT limit has reset.",
-        "reasoningTokens": 111,
-        "totalTokens": 515,
-        "tweetId": "2043515694265024558",
-        "tweetText": "@pashmerepat 👀",
-        "tweetUrl": "https://x.com/thsottiaux/status/2043515694265024558",
-        "verdict": "uncertain"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 37447,
-      "totalOutputTokens": 11438,
-      "totalReasoningTokens": 5908,
-      "totalTokens": 48885
+      "totalInputTokens": 37804,
+      "totalOutputTokens": 11546,
+      "totalReasoningTokens": 5973,
+      "totalTokens": 49350
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1776361397662,
+      "inputTokens": 357,
+      "message": "",
+      "outputTokens": 108,
+      "rationale": "This reply is just conversational and gives no indication that any limits have reset.",
+      "reasoningTokens": 65,
+      "totalTokens": 465,
+      "tweetId": "2044813419908624604",
+      "tweetText": "@KaiXCreator Guess",
+      "tweetUrl": "https://x.com/thsottiaux/status/2044813419908624604",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1776355709169,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2042320395051941979",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1775764027900,
-      "inputTokens": 305,
-      "message": "",
-      "outputTokens": 81,
-      "rationale": "This discusses extending a 2X limits promotion for Pro plans, not that rate limits have reset or become available again now.",
-      "reasoningTokens": 28,
-      "totalTokens": 386,
-      "tweetId": "2042299561247670325",
-      "tweetText": "Pro $100 and $200 come with 2X limits promotion, which we are extending",
-      "tweetUrl": "https://x.com/thsottiaux/status/2042299561247670325",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "xPTDBtqCPpunVAhrreiflJw75QLGONkOjpVQZ-6ensqqcDMKW-l3BayLCA",
-    "iv": "6NtXYp9TR_DfS7A2",
-    "tag": "pUSq91XVJ4fbjmodCEmpOw",
+    "ciphertext": "J9iL6sAc-QurvPGzpt1lTo0q5NMhOR44P_pOwC9T1MqEGmPxLHgIKo127A",
+    "iv": "7ADkpGfj1qRPY83j",
+    "tag": "t3plLOuRxim3y0Y-QWUj7Q",
     "version": 1
   }
 }
