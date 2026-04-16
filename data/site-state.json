@@ -14,25 +14,38 @@
   "updatedAt": 1775764047465,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1776361401820,
-      "rationale": "This post is a feature announcement and does not mention rate limits, caps, or usage resetting.",
-      "tweetId": "2044826325173879269",
-      "tweetUrl": "https://x.com/thsottiaux/status/2044826325173879269",
-      "verdict": "not_reset"
+      "confidence": 0.14,
+      "decidedAt": 1776361407342,
+      "rationale": "This reply contains only a link, so there is no explicit evidence here that limits have reset.",
+      "tweetId": "2044826340709515324",
+      "tweetUrl": "https://x.com/thsottiaux/status/2044826340709515324",
+      "verdict": "uncertain"
     },
     "lastError": null,
-    "lastSeenTweetId": "2044826325173879269",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2044826325173879269",
+    "lastSeenTweetId": "2044826340709515324",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2044826340709515324",
     "pendingReview": {
-      "confidence": 0.94,
-      "createdAt": 1776283799472,
-      "rationale": "This reply says “yes” without mentioning limits or resets, so the reset meaning is not clear from this post alone.",
-      "tweetId": "2044507067877355804",
-      "tweetText": "@asaio87 You could have asked codex, but yes!\n\nhttps://t.co/GcLMmuC6dg",
-      "tweetUrl": "https://x.com/thsottiaux/status/2044507067877355804"
+      "confidence": 0.14,
+      "createdAt": 1776361407342,
+      "rationale": "This reply contains only a link, so there is no explicit evidence here that limits have reset.",
+      "tweetId": "2044826340709515324",
+      "tweetText": "https://t.co/sTrAlcmsDf",
+      "tweetUrl": "https://x.com/thsottiaux/status/2044826340709515324"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.14,
+        "evaluatedAt": 1776361407342,
+        "inputTokens": 362,
+        "outputTokens": 148,
+        "rationale": "This reply contains only a link, so there is no explicit evidence here that limits have reset.",
+        "reasoningTokens": 101,
+        "totalTokens": 510,
+        "tweetId": "2044826340709515324",
+        "tweetText": "https://t.co/sTrAlcmsDf",
+        "tweetUrl": "https://x.com/thsottiaux/status/2044826340709515324",
+        "verdict": "uncertain"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1776361401820,
@@ -279,29 +292,31 @@
         "tweetText": "@daniel_nguyenx Making room for bigger things",
         "tweetUrl": "https://x.com/thsottiaux/status/2043517052019966376",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1776060081445,
-        "inputTokens": 371,
-        "outputTokens": 76,
-        "rationale": "This reply is just a conversational question and says nothing about any limits or reset.",
-        "reasoningTokens": 32,
-        "totalTokens": 447,
-        "tweetId": "2043516247028257265",
-        "tweetText": "@ajambrosino @amorriscode @rileybrown You're working on Claude Code now?",
-        "tweetUrl": "https://x.com/thsottiaux/status/2043516247028257265",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 38219,
-      "totalOutputTokens": 11619,
-      "totalReasoningTokens": 5999,
-      "totalTokens": 49838
+      "totalInputTokens": 38581,
+      "totalOutputTokens": 11767,
+      "totalReasoningTokens": 6100,
+      "totalTokens": 50348
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.14,
+      "createdAt": 1776361407342,
+      "inputTokens": 362,
+      "message": "",
+      "outputTokens": 148,
+      "rationale": "This reply contains only a link, so there is no explicit evidence here that limits have reset.",
+      "reasoningTokens": 101,
+      "totalTokens": 510,
+      "tweetId": "2044826340709515324",
+      "tweetText": "https://t.co/sTrAlcmsDf",
+      "tweetUrl": "https://x.com/thsottiaux/status/2044826340709515324",
+      "type": "review_requested",
+      "verdict": "uncertain"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1776361401820,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2042325164902531427",
       "type": "reset_confirmed",
       "verdict": "reset_confirmed"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1775764035048,
-      "inputTokens": 304,
-      "message": "",
-      "outputTokens": 96,
-      "rationale": "Reply is conversational and contains no mention of ChatGPT/Codex limits, caps, availability, or resets.",
-      "reasoningTokens": 46,
-      "totalTokens": 400,
-      "tweetId": "2042321315093434686",
-      "tweetText": "@badlogicgames as nice as hundreds of thousands of people chanting in unison can be",
-      "tweetUrl": "https://x.com/thsottiaux/status/2042321315093434686",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "EqzaprbhU-LLGATgdBYhkBiPJF2H1WiLkoo9sVn_ulyNYuwysycZRMBing",
-    "iv": "3ac3rmiHPHSVqPV7",
-    "tag": "UXUBNOLYv_csgpJORxOsBQ",
+    "ciphertext": "z2FDXs2WzVwRQKy08vPjDFdK97mx_aKhw8JGfkpAg3AwA7rT5acVi4McYA",
+    "iv": "UZjU0_lfukrFX2Xh",
+    "tag": "qvQ0BV1yu5LLbnlBI2eZ5Q",
     "version": 1
   }
 }
