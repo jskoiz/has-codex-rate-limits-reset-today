@@ -14,16 +14,16 @@
   "updatedAt": 1775764047465,
   "automation": {
     "lastDecision": {
-      "confidence": 0.14,
-      "decidedAt": 1776361407342,
-      "rationale": "This reply contains only a link, so there is no explicit evidence here that limits have reset.",
-      "tweetId": "2044826340709515324",
-      "tweetUrl": "https://x.com/thsottiaux/status/2044826340709515324",
-      "verdict": "uncertain"
+      "confidence": 0.98,
+      "decidedAt": 1776365437162,
+      "rationale": "This reply mentions \"/compact\" and does not indicate any limits or caps have reset.",
+      "tweetId": "2044827358239261028",
+      "tweetUrl": "https://x.com/thsottiaux/status/2044827358239261028",
+      "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2044826340709515324",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2044826340709515324",
+    "lastSeenTweetId": "2044827358239261028",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2044827358239261028",
     "pendingReview": {
       "confidence": 0.14,
       "createdAt": 1776361407342,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2044826340709515324"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.98,
+        "evaluatedAt": 1776365437162,
+        "inputTokens": 359,
+        "outputTokens": 166,
+        "rationale": "This reply mentions \"/compact\" and does not indicate any limits or caps have reset.",
+        "reasoningTokens": 120,
+        "totalTokens": 525,
+        "tweetId": "2044827358239261028",
+        "tweetText": "Ah, and /compact also",
+        "tweetUrl": "https://x.com/thsottiaux/status/2044827358239261028",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.14,
         "evaluatedAt": 1776361407342,
@@ -279,29 +292,31 @@
         "tweetText": "Codex App has achieved take-off internally. I can hear the fans",
         "tweetUrl": "https://x.com/thsottiaux/status/2043517277455491430",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.98,
-        "evaluatedAt": 1776060084746,
-        "inputTokens": 363,
-        "outputTokens": 77,
-        "rationale": "This reply is vague and does not say limits or usage have reset or become available again.",
-        "reasoningTokens": 31,
-        "totalTokens": 440,
-        "tweetId": "2043517052019966376",
-        "tweetText": "@daniel_nguyenx Making room for bigger things",
-        "tweetUrl": "https://x.com/thsottiaux/status/2043517052019966376",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 38581,
-      "totalOutputTokens": 11767,
-      "totalReasoningTokens": 6100,
-      "totalTokens": 50348
+      "totalInputTokens": 38940,
+      "totalOutputTokens": 11933,
+      "totalReasoningTokens": 6220,
+      "totalTokens": 50873
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.98,
+      "createdAt": 1776365437162,
+      "inputTokens": 359,
+      "message": "",
+      "outputTokens": 166,
+      "rationale": "This reply mentions \"/compact\" and does not indicate any limits or caps have reset.",
+      "reasoningTokens": 120,
+      "totalTokens": 525,
+      "tweetId": "2044827358239261028",
+      "tweetText": "Ah, and /compact also",
+      "tweetUrl": "https://x.com/thsottiaux/status/2044827358239261028",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.14,
       "createdAt": 1776361407342,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2042325303406768397",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.87,
-      "createdAt": 1775764047465,
-      "inputTokens": 426,
-      "message": "",
-      "outputTokens": 578,
-      "rationale": "The quoted post explicitly says Codex rate limits are being reset now; the new tweet discusses when the next reset will be needed, implying a reset has already happened.",
-      "reasoningTokens": 516,
-      "totalTokens": 1004,
-      "tweetId": "2042325164902531427",
-      "tweetText": "At the current codex growth pace, we will owe you all another reset in less than two weeks. Would be funny to reach a state where these happen more than once a week before we reach 10M. Scrambling to get the capacity online.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2042325164902531427",
-      "type": "reset_confirmed",
-      "verdict": "reset_confirmed"
     }
   ],
   "privateState": {
-    "ciphertext": "z2FDXs2WzVwRQKy08vPjDFdK97mx_aKhw8JGfkpAg3AwA7rT5acVi4McYA",
-    "iv": "UZjU0_lfukrFX2Xh",
-    "tag": "qvQ0BV1yu5LLbnlBI2eZ5Q",
+    "ciphertext": "Fe3Fvubj7Cpa9Miemav1ih5ajBRpd8ccMVfmJq7t2vl9HgCqGH1iKODUMg",
+    "iv": "uYc3wD-ur7jeLz-n",
+    "tag": "gn-_Nz1fg7w2HIu56Ly8og",
     "version": 1
   }
 }
