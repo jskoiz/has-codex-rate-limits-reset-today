@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1776361397662,
-      "rationale": "This reply is just conversational and gives no indication that any limits have reset.",
-      "tweetId": "2044813419908624604",
-      "tweetUrl": "https://x.com/thsottiaux/status/2044813419908624604",
+      "decidedAt": 1776361401820,
+      "rationale": "This post is a feature announcement and does not mention rate limits, caps, or usage resetting.",
+      "tweetId": "2044826325173879269",
+      "tweetUrl": "https://x.com/thsottiaux/status/2044826325173879269",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2044813419908624604",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2044813419908624604",
+    "lastSeenTweetId": "2044826325173879269",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2044826325173879269",
     "pendingReview": {
       "confidence": 0.94,
       "createdAt": 1776283799472,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2044507067877355804"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1776361401820,
+        "inputTokens": 415,
+        "outputTokens": 73,
+        "rationale": "This post is a feature announcement and does not mention rate limits, caps, or usage resetting.",
+        "reasoningTokens": 26,
+        "totalTokens": 488,
+        "tweetId": "2044826325173879269",
+        "tweetText": "Codex just got a lot more powerful.\n\nComputer use, in-app browser, image generation and editing, 90+ new plugins to connect to everything, multi-terminal, SSH into devboxes, thread automations, rich document editing. Learns from experience and proactively suggestions work. And a ton more.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2044826325173879269",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1776361397662,
@@ -279,29 +292,31 @@
         "tweetText": "@ajambrosino @amorriscode @rileybrown You're working on Claude Code now?",
         "tweetUrl": "https://x.com/thsottiaux/status/2043516247028257265",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1776060078162,
-        "inputTokens": 363,
-        "outputTokens": 89,
-        "rationale": "This reply discusses steering behavior and does not mention limits, caps, or resets.",
-        "reasoningTokens": 45,
-        "totalTokens": 452,
-        "tweetId": "2043516024470053218",
-        "tweetText": "@Johnnydazhu Isn't that just mid-turn steering?",
-        "tweetUrl": "https://x.com/thsottiaux/status/2043516024470053218",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 37804,
-      "totalOutputTokens": 11546,
-      "totalReasoningTokens": 5973,
-      "totalTokens": 49350
+      "totalInputTokens": 38219,
+      "totalOutputTokens": 11619,
+      "totalReasoningTokens": 5999,
+      "totalTokens": 49838
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1776361401820,
+      "inputTokens": 415,
+      "message": "",
+      "outputTokens": 73,
+      "rationale": "This post is a feature announcement and does not mention rate limits, caps, or usage resetting.",
+      "reasoningTokens": 26,
+      "totalTokens": 488,
+      "tweetId": "2044826325173879269",
+      "tweetText": "Codex just got a lot more powerful.\n\nComputer use, in-app browser, image generation and editing, 90+ new plugins to connect to everything, multi-terminal, SSH into devboxes, thread automations, rich document editing. Learns from experience and proactively suggestions work. And a ton more.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2044826325173879269",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1776361397662,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2042321315093434686",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1775764030820,
-      "inputTokens": 298,
-      "message": "",
-      "outputTokens": 80,
-      "rationale": "Reply is conversational and contains no mention of limits, caps, availability, or resets.",
-      "reasoningTokens": 35,
-      "totalTokens": 378,
-      "tweetId": "2042320395051941979",
-      "tweetText": "@PaulNeverovsky we know our people when we see them",
-      "tweetUrl": "https://x.com/thsottiaux/status/2042320395051941979",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "J9iL6sAc-QurvPGzpt1lTo0q5NMhOR44P_pOwC9T1MqEGmPxLHgIKo127A",
-    "iv": "7ADkpGfj1qRPY83j",
-    "tag": "t3plLOuRxim3y0Y-QWUj7Q",
+    "ciphertext": "EqzaprbhU-LLGATgdBYhkBiPJF2H1WiLkoo9sVn_ulyNYuwysycZRMBing",
+    "iv": "3ac3rmiHPHSVqPV7",
+    "tag": "UXUBNOLYv_csgpJORxOsBQ",
     "version": 1
   }
 }
