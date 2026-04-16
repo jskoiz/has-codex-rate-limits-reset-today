@@ -14,16 +14,16 @@
   "updatedAt": 1775764047465,
   "automation": {
     "lastDecision": {
-      "confidence": 0.98,
-      "decidedAt": 1776365437162,
-      "rationale": "This reply mentions \"/compact\" and does not indicate any limits or caps have reset.",
-      "tweetId": "2044827358239261028",
-      "tweetUrl": "https://x.com/thsottiaux/status/2044827358239261028",
+      "confidence": 0.99,
+      "decidedAt": 1776365442081,
+      "rationale": "This post and its quoted tweet are about Codex features and capabilities, not rate limits or caps resetting.",
+      "tweetId": "2044829513520197900",
+      "tweetUrl": "https://x.com/thsottiaux/status/2044829513520197900",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2044827358239261028",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2044827358239261028",
+    "lastSeenTweetId": "2044829513520197900",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2044829513520197900",
     "pendingReview": {
       "confidence": 0.14,
       "createdAt": 1776361407342,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2044826340709515324"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1776365442081,
+        "inputTokens": 518,
+        "outputTokens": 92,
+        "rationale": "This post and its quoted tweet are about Codex features and capabilities, not rate limits or caps resetting.",
+        "reasoningTokens": 43,
+        "totalTokens": 610,
+        "tweetId": "2044829513520197900",
+        "tweetText": "There is an incredible team behind all this. The Mac computer use is the amazing work by @AriX and team and it truly delights. Under the hood is a little marvel of Mac technology.\n\nCapable of working in the background without disrupting your flow and achieving precision actions by allowing the codex agent to leverage a lot more than pure pixels.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2044829513520197900",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.98,
         "evaluatedAt": 1776365437162,
@@ -279,29 +292,31 @@
         "tweetText": "@rohanvarma Negative 42 I think",
         "tweetUrl": "https://x.com/thsottiaux/status/2043852660219228432",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1776060088112,
-        "inputTokens": 367,
-        "outputTokens": 92,
-        "rationale": "This is a general comment about internal Codex App usage, not about limits or availability resetting.",
-        "reasoningTokens": 45,
-        "totalTokens": 459,
-        "tweetId": "2043517277455491430",
-        "tweetText": "Codex App has achieved take-off internally. I can hear the fans",
-        "tweetUrl": "https://x.com/thsottiaux/status/2043517277455491430",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 38940,
-      "totalOutputTokens": 11933,
-      "totalReasoningTokens": 6220,
-      "totalTokens": 50873
+      "totalInputTokens": 39458,
+      "totalOutputTokens": 12025,
+      "totalReasoningTokens": 6263,
+      "totalTokens": 51483
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1776365442081,
+      "inputTokens": 518,
+      "message": "",
+      "outputTokens": 92,
+      "rationale": "This post and its quoted tweet are about Codex features and capabilities, not rate limits or caps resetting.",
+      "reasoningTokens": 43,
+      "totalTokens": 610,
+      "tweetId": "2044829513520197900",
+      "tweetText": "There is an incredible team behind all this. The Mac computer use is the amazing work by @AriX and team and it truly delights. Under the hood is a little marvel of Mac technology.\n\nCapable of working in the background without disrupting your flow and achieving precision actions by allowing the codex agent to leverage a lot more than pure pixels.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2044829513520197900",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.98,
       "createdAt": 1776365437162,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2042332964705669630",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1775767001040,
-      "inputTokens": 367,
-      "message": "",
-      "outputTokens": 113,
-      "rationale": "This reply discusses plan tiers and does not indicate any limit or rate-cap reset.",
-      "reasoningTokens": 69,
-      "totalTokens": 480,
-      "tweetId": "2042325303406768397",
-      "tweetText": "@ai_for_success that was the small plan, big plan is still coming",
-      "tweetUrl": "https://x.com/thsottiaux/status/2042325303406768397",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "Fe3Fvubj7Cpa9Miemav1ih5ajBRpd8ccMVfmJq7t2vl9HgCqGH1iKODUMg",
-    "iv": "uYc3wD-ur7jeLz-n",
-    "tag": "gn-_Nz1fg7w2HIu56Ly8og",
+    "ciphertext": "4RBNndnOEba_KDSW8Jn4cYIRY7X0zdU0bEktp2BHU1VqTc0RMUhEcm_9PQ",
+    "iv": "YOn02vTVdKjVrIGf",
+    "tag": "tOHtTc4BqL91TeSZjugcmA",
     "version": 1
   }
 }
