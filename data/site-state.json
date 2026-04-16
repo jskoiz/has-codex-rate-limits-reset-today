@@ -14,16 +14,16 @@
   "updatedAt": 1775764047465,
   "automation": {
     "lastDecision": {
-      "confidence": 0.97,
-      "decidedAt": 1776373011387,
-      "rationale": "This reply only says Codex is working for the author, not that any limits or caps reset.",
-      "tweetId": "2044879832438497342",
-      "tweetUrl": "https://x.com/thsottiaux/status/2044879832438497342",
+      "confidence": 0.99,
+      "decidedAt": 1776373013829,
+      "rationale": "This reply is conversational and says nothing about limits or a reset.",
+      "tweetId": "2044879986973446223",
+      "tweetUrl": "https://x.com/thsottiaux/status/2044879986973446223",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2044879832438497342",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2044879832438497342",
+    "lastSeenTweetId": "2044879986973446223",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2044879986973446223",
     "pendingReview": {
       "confidence": 0.14,
       "createdAt": 1776361407342,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2044826340709515324"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1776373013829,
+        "inputTokens": 365,
+        "outputTokens": 79,
+        "rationale": "This reply is conversational and says nothing about limits or a reset.",
+        "reasoningTokens": 38,
+        "totalTokens": 444,
+        "tweetId": "2044879986973446223",
+        "tweetText": "@iruletheworldmo Strawberry man, I call upon you",
+        "tweetUrl": "https://x.com/thsottiaux/status/2044879986973446223",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.97,
         "evaluatedAt": 1776373011387,
@@ -279,29 +292,31 @@
         "tweetText": "@amorriscode Send me your address and I’ll send you the iPad",
         "tweetUrl": "https://x.com/thsottiaux/status/2044671544946004104",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1776307033471,
-        "inputTokens": 371,
-        "outputTokens": 78,
-        "rationale": "This is a product update about /compact in Codex, not about limits resetting.",
-        "reasoningTokens": 33,
-        "totalTokens": 449,
-        "tweetId": "2044591035532378511",
-        "tweetText": "/compact coming in Codex, we finally listened https://t.co/neLnhrxz60",
-        "tweetUrl": "https://x.com/thsottiaux/status/2044591035532378511",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 43850,
-      "totalOutputTokens": 13237,
-      "totalReasoningTokens": 6931,
-      "totalTokens": 57087
+      "totalInputTokens": 44215,
+      "totalOutputTokens": 13316,
+      "totalReasoningTokens": 6969,
+      "totalTokens": 57531
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1776373013829,
+      "inputTokens": 365,
+      "message": "",
+      "outputTokens": 79,
+      "rationale": "This reply is conversational and says nothing about limits or a reset.",
+      "reasoningTokens": 38,
+      "totalTokens": 444,
+      "tweetId": "2044879986973446223",
+      "tweetText": "@iruletheworldmo Strawberry man, I call upon you",
+      "tweetUrl": "https://x.com/thsottiaux/status/2044879986973446223",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.97,
       "createdAt": 1776373011387,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2043234415032369162",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.97,
-      "createdAt": 1775970824262,
-      "inputTokens": 372,
-      "message": "",
-      "outputTokens": 97,
-      "rationale": "This only says a model is available and does not indicate any rate-limit or usage cap reset.",
-      "reasoningTokens": 50,
-      "totalTokens": 469,
-      "tweetId": "2043178598136516698",
-      "tweetText": "5.4-Pro is available in https://t.co/owRkSXnNx2",
-      "tweetUrl": "https://x.com/thsottiaux/status/2043178598136516698",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "9-aNODVm0Zq9ys7kpV9FR3h7UJlg7yrNizNGHoXzX29kHCqWT81PBOiOyw",
-    "iv": "TVhgLJ6B5c1rfmAA",
-    "tag": "Y-V_GnFHRztNo_HRJ-08pg",
+    "ciphertext": "A7YK1mKb5y4YS9Ko-RL7akZ4bvjPVsFxjqvSRWIJBfTrkqdk_hkMbN7-1g",
+    "iv": "IzvcRMF_bIP_mi2V",
+    "tag": "OG2xKPfuNc4Y4Xh2cRGwUQ",
     "version": 1
   }
 }
