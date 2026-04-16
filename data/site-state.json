@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1776369337087,
-      "rationale": "This reply does not mention limits, caps, or usage becoming available again.",
-      "tweetId": "2044865908209041821",
-      "tweetUrl": "https://x.com/thsottiaux/status/2044865908209041821",
+      "decidedAt": 1776369340892,
+      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+      "tweetId": "2044865957815026000",
+      "tweetUrl": "https://x.com/thsottiaux/status/2044865957815026000",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2044865908209041821",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2044865908209041821",
+    "lastSeenTweetId": "2044865957815026000",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2044865957815026000",
     "pendingReview": {
       "confidence": 0.14,
       "createdAt": 1776361407342,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2044826340709515324"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1776369340892,
+        "inputTokens": 362,
+        "outputTokens": 81,
+        "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+        "reasoningTokens": 37,
+        "totalTokens": 443,
+        "tweetId": "2044865957815026000",
+        "tweetText": "@JamesBuildsTech Codex loves you back",
+        "tweetUrl": "https://x.com/thsottiaux/status/2044865957815026000",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1776369337087,
@@ -279,29 +292,31 @@
         "tweetText": "@badlogicgames @steipete May the good slop prevail over the bad slop",
         "tweetUrl": "https://x.com/thsottiaux/status/2044422877093749125",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1776202333706,
-        "inputTokens": 363,
-        "outputTokens": 92,
-        "rationale": "This is just a reply asking about iPad availability, not about limits or a reset.",
-        "reasoningTokens": 46,
-        "totalTokens": 455,
-        "tweetId": "2044166666570084375",
-        "tweetText": "@amorriscode Is it available on my iPad?",
-        "tweetUrl": "https://x.com/thsottiaux/status/2044166666570084375",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 41291,
-      "totalOutputTokens": 12546,
-      "totalReasoningTokens": 6559,
-      "totalTokens": 53837
+      "totalInputTokens": 41653,
+      "totalOutputTokens": 12627,
+      "totalReasoningTokens": 6596,
+      "totalTokens": 54280
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1776369340892,
+      "inputTokens": 362,
+      "message": "",
+      "outputTokens": 81,
+      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+      "reasoningTokens": 37,
+      "totalTokens": 443,
+      "tweetId": "2044865957815026000",
+      "tweetText": "@JamesBuildsTech Codex loves you back",
+      "tweetUrl": "https://x.com/thsottiaux/status/2044865957815026000",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1776369337087,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2042822766957903929",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.84,
-      "createdAt": 1775794840802,
-      "inputTokens": 398,
-      "message": "",
-      "outputTokens": 211,
-      "rationale": "It mentions a new Codex plan helping users, but does not explicitly say limits or caps reset now.",
-      "reasoningTokens": 162,
-      "totalTokens": 609,
-      "tweetId": "2042436086392373392",
-      "tweetText": "I get so many personal thank you emails for something and it’s not even a feature. All we needed apparently was a new codex plan. Can we rest now? https://t.co/d0iDjZo4By",
-      "tweetUrl": "https://x.com/thsottiaux/status/2042436086392373392",
-      "type": "review_requested",
-      "verdict": "uncertain"
     }
   ],
   "privateState": {
-    "ciphertext": "UGH84_nvvOD4Evc1O-qsRbaWPVMFaMQ099T6mzrdiLVOnYoIhD_k9viCyA",
-    "iv": "xmnjFI9wIWFk50yo",
-    "tag": "PKX2_xfJVwS_QyQTe_9TYw",
+    "ciphertext": "fKTon8DHCt65sn9SSs3MkYDv-2QsEgibgsXI_ZLCaWoDy-kVZpEwymUWPw",
+    "iv": "gRSVWZtHXAazhLyd",
+    "tag": "SFssxYkEX68AeTu9kAOK4g",
     "version": 1
   }
 }
