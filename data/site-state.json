@@ -14,16 +14,16 @@
   "updatedAt": 1775764047465,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1776372997268,
-      "rationale": "This reply is just an apology and does not mention limits, caps, or availability resetting.",
-      "tweetId": "2044878968059470228",
-      "tweetUrl": "https://x.com/thsottiaux/status/2044878968059470228",
+      "confidence": 0.98,
+      "decidedAt": 1776373001813,
+      "rationale": "This reply is just conversational and does not mention limits, caps, or a reset.",
+      "tweetId": "2044879347950240051",
+      "tweetUrl": "https://x.com/thsottiaux/status/2044879347950240051",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2044878968059470228",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2044878968059470228",
+    "lastSeenTweetId": "2044879347950240051",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2044879347950240051",
     "pendingReview": {
       "confidence": 0.14,
       "createdAt": 1776361407342,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2044826340709515324"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.98,
+        "evaluatedAt": 1776373001813,
+        "inputTokens": 372,
+        "outputTokens": 143,
+        "rationale": "This reply is just conversational and does not mention limits, caps, or a reset.",
+        "reasoningTokens": 98,
+        "totalTokens": 515,
+        "tweetId": "2044879347950240051",
+        "tweetText": "@simpsoka ... no way https://t.co/NQyr5e4N4F",
+        "tweetUrl": "https://x.com/thsottiaux/status/2044879347950240051",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1776372997268,
@@ -279,29 +292,31 @@
         "tweetText": "@wiigg @reach_vb @AndrewGinns @MarcMontanari Build things you just can",
         "tweetUrl": "https://x.com/thsottiaux/status/2044537562686230935",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.98,
-        "evaluatedAt": 1776287241327,
-        "inputTokens": 360,
-        "outputTokens": 129,
-        "rationale": "This reply is just conversational and does not mention limits, caps, or availability resetting.",
-        "reasoningTokens": 84,
-        "totalTokens": 489,
-        "tweetId": "2044510245998023117",
-        "tweetText": "@om_patel5 QUIETLY",
-        "tweetUrl": "https://x.com/thsottiaux/status/2044510245998023117",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 42738,
-      "totalOutputTokens": 12891,
-      "totalReasoningTokens": 6723,
-      "totalTokens": 55629
+      "totalInputTokens": 43110,
+      "totalOutputTokens": 13034,
+      "totalReasoningTokens": 6821,
+      "totalTokens": 56144
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.98,
+      "createdAt": 1776373001813,
+      "inputTokens": 372,
+      "message": "",
+      "outputTokens": 143,
+      "rationale": "This reply is just conversational and does not mention limits, caps, or a reset.",
+      "reasoningTokens": 98,
+      "totalTokens": 515,
+      "tweetId": "2044879347950240051",
+      "tweetText": "@simpsoka ... no way https://t.co/NQyr5e4N4F",
+      "tweetUrl": "https://x.com/thsottiaux/status/2044879347950240051",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1776372997268,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2043075353242218768",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1775934184077,
-      "inputTokens": 373,
-      "message": "",
-      "outputTokens": 73,
-      "rationale": "This reply is just a conversational question and does not mention limits, caps, or availability resetting.",
-      "reasoningTokens": 26,
-      "totalTokens": 446,
-      "tweetId": "2043035072744558963",
-      "tweetText": "@danveloper Tell me more. What do you need from it that you’re not managing to make work?",
-      "tweetUrl": "https://x.com/thsottiaux/status/2043035072744558963",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "f1ZDAnfBW6XuEZeie5AQvSRV4Rwfkt_VnS-B8Ogq4t2Jf5f1bWnfY7Lydg",
-    "iv": "Hx9e8ut-UdPc52Ts",
-    "tag": "3f7qeE1aQL-GX7qdxKrXdA",
+    "ciphertext": "MnPja7Imolkirw51L8Eddb9HNboOMgdoY7LdKylhm63eebgPqkWM8s_GxA",
+    "iv": "P9WZOl6oi-kFNCFa",
+    "tag": "fy3Sm9OxJn8KPI8XGQzfLA",
     "version": 1
   }
 }
