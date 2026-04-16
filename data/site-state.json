@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1776365446038,
-      "rationale": "This reply is just expressing affection for Codex and says nothing about limits or availability resetting.",
-      "tweetId": "2044830121996210247",
-      "tweetUrl": "https://x.com/thsottiaux/status/2044830121996210247",
+      "decidedAt": 1776369321247,
+      "rationale": "This reply is unrelated to any Codex or ChatGPT limit reset.",
+      "tweetId": "2044862020680626186",
+      "tweetUrl": "https://x.com/thsottiaux/status/2044862020680626186",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2044830121996210247",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2044830121996210247",
+    "lastSeenTweetId": "2044862020680626186",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2044862020680626186",
     "pendingReview": {
       "confidence": 0.14,
       "createdAt": 1776361407342,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2044826340709515324"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1776369321247,
+        "inputTokens": 359,
+        "outputTokens": 76,
+        "rationale": "This reply is unrelated to any Codex or ChatGPT limit reset.",
+        "reasoningTokens": 34,
+        "totalTokens": 435,
+        "tweetId": "2044862020680626186",
+        "tweetText": "@theo Waiting for your video",
+        "tweetUrl": "https://x.com/thsottiaux/status/2044862020680626186",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1776365446038,
@@ -279,29 +292,31 @@
         "tweetText": "Today we are introducing GPT-5.4-Cyber and expanding our Trusted Access for Cyber (TAC) program. \n\nhttps://t.co/NMBWRgPSr8",
         "tweetUrl": "https://x.com/thsottiaux/status/2044165674881490947",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1776145847830,
-        "inputTokens": 378,
-        "outputTokens": 107,
-        "rationale": "It says a reset will happen later at 4M, not that limits have reset now.",
-        "reasoningTokens": 60,
-        "totalTokens": 485,
-        "tweetId": "2043920132096045143",
-        "tweetText": "@assppvenn @rohanvarma I am monitoring the situation and will reset as soon as we hit 4M",
-        "tweetUrl": "https://x.com/thsottiaux/status/2043920132096045143",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 39820,
-      "totalOutputTokens": 12116,
-      "totalReasoningTokens": 6308,
-      "totalTokens": 51936
+      "totalInputTokens": 40179,
+      "totalOutputTokens": 12192,
+      "totalReasoningTokens": 6342,
+      "totalTokens": 52371
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1776369321247,
+      "inputTokens": 359,
+      "message": "",
+      "outputTokens": 76,
+      "rationale": "This reply is unrelated to any Codex or ChatGPT limit reset.",
+      "reasoningTokens": 34,
+      "totalTokens": 435,
+      "tweetId": "2044862020680626186",
+      "tweetText": "@theo Waiting for your video",
+      "tweetUrl": "https://x.com/thsottiaux/status/2044862020680626186",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1776365446038,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2042423093688484322",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1775794815851,
-      "inputTokens": 363,
-      "message": "",
-      "outputTokens": 71,
-      "rationale": "This is just a conversational reply and does not mention limits, caps, or availability resetting.",
-      "reasoningTokens": 25,
-      "totalTokens": 434,
-      "tweetId": "2042421938606477801",
-      "tweetText": "@theo They really used the microscope for that one",
-      "tweetUrl": "https://x.com/thsottiaux/status/2042421938606477801",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "SB3RCG5HLX6uMO3MoNU5lgVniPRzuhVqqHhGaNsTC068igO6KGVBvHqe9Q",
-    "iv": "nM8jdpNN4JscsrDs",
-    "tag": "xcN-YEM1VaMyKgs9CKbrCg",
+    "ciphertext": "ibYznl1J9WtMMBcJAz-iW5FLJwxy-Wg1RnAT4eBiRWGS2qE5juOGAyRUdQ",
+    "iv": "X3ukTFnfWh9D4PLO",
+    "tag": "CG8xi9KmokII6Lds7OG_9g",
     "version": 1
   }
 }
