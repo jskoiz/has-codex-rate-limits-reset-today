@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1776307033471,
-      "rationale": "This is a product update about /compact in Codex, not about limits resetting.",
-      "tweetId": "2044591035532378511",
-      "tweetUrl": "https://x.com/thsottiaux/status/2044591035532378511",
+      "decidedAt": 1776323248100,
+      "rationale": "This reply is about sending an iPad and does not mention limits, caps, or reset availability.",
+      "tweetId": "2044671544946004104",
+      "tweetUrl": "https://x.com/thsottiaux/status/2044671544946004104",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2044591035532378511",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2044591035532378511",
+    "lastSeenTweetId": "2044671544946004104",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2044671544946004104",
     "pendingReview": {
       "confidence": 0.94,
       "createdAt": 1776283799472,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2044507067877355804"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1776323248100,
+        "inputTokens": 368,
+        "outputTokens": 82,
+        "rationale": "This reply is about sending an iPad and does not mention limits, caps, or reset availability.",
+        "reasoningTokens": 34,
+        "totalTokens": 450,
+        "tweetId": "2044671544946004104",
+        "tweetText": "@amorriscode Send me your address and I’ll send you the iPad",
+        "tweetUrl": "https://x.com/thsottiaux/status/2044671544946004104",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1776307033471,
@@ -279,29 +292,31 @@
         "tweetText": "@pcshipp Welcome to productivity",
         "tweetUrl": "https://x.com/thsottiaux/status/2043234415032369162",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.97,
-        "evaluatedAt": 1775970824262,
-        "inputTokens": 372,
-        "outputTokens": 97,
-        "rationale": "This only says a model is available and does not indicate any rate-limit or usage cap reset.",
-        "reasoningTokens": 50,
-        "totalTokens": 469,
-        "tweetId": "2043178598136516698",
-        "tweetText": "5.4-Pro is available in https://t.co/owRkSXnNx2",
-        "tweetUrl": "https://x.com/thsottiaux/status/2043178598136516698",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 36721,
-      "totalOutputTokens": 11269,
-      "totalReasoningTokens": 5835,
-      "totalTokens": 47990
+      "totalInputTokens": 37089,
+      "totalOutputTokens": 11351,
+      "totalReasoningTokens": 5869,
+      "totalTokens": 48440
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1776323248100,
+      "inputTokens": 368,
+      "message": "",
+      "outputTokens": 82,
+      "rationale": "This reply is about sending an iPad and does not mention limits, caps, or reset availability.",
+      "reasoningTokens": 34,
+      "totalTokens": 450,
+      "tweetId": "2044671544946004104",
+      "tweetText": "@amorriscode Send me your address and I’ll send you the iPad",
+      "tweetUrl": "https://x.com/thsottiaux/status/2044671544946004104",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1776307033471,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2042299371602264319",
       "type": "reset_confirmed",
       "verdict": "reset_confirmed"
-    },
-    {
-      "confidence": 0.96,
-      "createdAt": 1775750879901,
-      "inputTokens": 292,
-      "message": "",
-      "outputTokens": 158,
-      "rationale": "This reply is too vague to indicate anything about limits, caps, or availability resetting.",
-      "reasoningTokens": 113,
-      "totalTokens": 450,
-      "tweetId": "2042264240673947823",
-      "tweetText": "@LLMJunky Uhm!",
-      "tweetUrl": "https://x.com/thsottiaux/status/2042264240673947823",
-      "type": "review_requested",
-      "verdict": "uncertain"
     }
   ],
   "privateState": {
-    "ciphertext": "lC_CJVNylG5VAWvUyR1fTVHPmftyvIwUJ9cyjEHuCQFeLenooCO9pcRSLg",
-    "iv": "es9-Agu6MRjumxj6",
-    "tag": "sx5dLDC-fP_nsZOYMH-mIA",
+    "ciphertext": "Tp7gTFEU0s6PcWgFybEUfyxtGMdC-_o5OqAsnpNLF9XsX6ouoOkXCmZxPw",
+    "iv": "ejpHuCNG5GJcHN6-",
+    "tag": "_iZtWfhIH4BvqtgLJYvR8Q",
     "version": 1
   }
 }
