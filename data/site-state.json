@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1776307029553,
-      "rationale": "This reply does not mention limits, caps, or usage becoming available again.",
-      "tweetId": "2044579877685493925",
-      "tweetUrl": "https://x.com/thsottiaux/status/2044579877685493925",
+      "decidedAt": 1776307033471,
+      "rationale": "This is a product update about /compact in Codex, not about limits resetting.",
+      "tweetId": "2044591035532378511",
+      "tweetUrl": "https://x.com/thsottiaux/status/2044591035532378511",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2044579877685493925",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2044579877685493925",
+    "lastSeenTweetId": "2044591035532378511",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2044591035532378511",
     "pendingReview": {
       "confidence": 0.94,
       "createdAt": 1776283799472,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2044507067877355804"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1776307033471,
+        "inputTokens": 371,
+        "outputTokens": 78,
+        "rationale": "This is a product update about /compact in Codex, not about limits resetting.",
+        "reasoningTokens": 33,
+        "totalTokens": 449,
+        "tweetId": "2044591035532378511",
+        "tweetText": "/compact coming in Codex, we finally listened https://t.co/neLnhrxz60",
+        "tweetUrl": "https://x.com/thsottiaux/status/2044591035532378511",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1776307029553,
@@ -279,29 +292,31 @@
         "tweetText": "5.4-Pro is available in https://t.co/owRkSXnNx2",
         "tweetUrl": "https://x.com/thsottiaux/status/2043178598136516698",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1775970820943,
-        "inputTokens": 370,
-        "outputTokens": 42,
-        "rationale": "This post is just a naming joke and does not mention limits or availability resetting.",
-        "reasoningTokens": 0,
-        "totalTokens": 412,
-        "tweetId": "2043177597434306699",
-        "tweetText": "Imagine the alternate reality where we named GPT-5.4-Pro something like Fable.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2043177597434306699",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 36350,
-      "totalOutputTokens": 11191,
-      "totalReasoningTokens": 5802,
-      "totalTokens": 47541
+      "totalInputTokens": 36721,
+      "totalOutputTokens": 11269,
+      "totalReasoningTokens": 5835,
+      "totalTokens": 47990
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1776307033471,
+      "inputTokens": 371,
+      "message": "",
+      "outputTokens": 78,
+      "rationale": "This is a product update about /compact in Codex, not about limits resetting.",
+      "reasoningTokens": 33,
+      "totalTokens": 449,
+      "tweetId": "2044591035532378511",
+      "tweetText": "/compact coming in Codex, we finally listened https://t.co/neLnhrxz60",
+      "tweetUrl": "https://x.com/thsottiaux/status/2044591035532378511",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1776307029554,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2042264240673947823",
       "type": "review_requested",
       "verdict": "uncertain"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1775750874150,
-      "inputTokens": 293,
-      "message": "",
-      "outputTokens": 78,
-      "rationale": "Reply saying \"tiny commits\"; no mention of limits, caps, resets, or availability returning.",
-      "reasoningTokens": 30,
-      "totalTokens": 371,
-      "tweetId": "2042259243403985275",
-      "tweetText": "@ajambrosino tiny commits",
-      "tweetUrl": "https://x.com/thsottiaux/status/2042259243403985275",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "A8OfzjdCHlIrb5pd_ytvoV7Rln2hVbfQu4lorlDwpLs9-ddqNsg4p_TVug",
-    "iv": "0Y2TGjb3-h3LocUB",
-    "tag": "z8qoLezqMClnw72iBo342g",
+    "ciphertext": "lC_CJVNylG5VAWvUyR1fTVHPmftyvIwUJ9cyjEHuCQFeLenooCO9pcRSLg",
+    "iv": "es9-Agu6MRjumxj6",
+    "tag": "sx5dLDC-fP_nsZOYMH-mIA",
     "version": 1
   }
 }
