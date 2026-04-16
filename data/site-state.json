@@ -14,16 +14,16 @@
   "updatedAt": 1775764047465,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1776373007119,
-      "rationale": "This reply discusses feature availability by region and platform, not any limit or cap reset.",
-      "tweetId": "2044879705174839440",
-      "tweetUrl": "https://x.com/thsottiaux/status/2044879705174839440",
+      "confidence": 0.97,
+      "decidedAt": 1776373011387,
+      "rationale": "This reply only says Codex is working for the author, not that any limits or caps reset.",
+      "tweetId": "2044879832438497342",
+      "tweetUrl": "https://x.com/thsottiaux/status/2044879832438497342",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2044879705174839440",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2044879705174839440",
+    "lastSeenTweetId": "2044879832438497342",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2044879832438497342",
     "pendingReview": {
       "confidence": 0.14,
       "createdAt": 1776361407342,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2044826340709515324"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.97,
+        "evaluatedAt": 1776373011387,
+        "inputTokens": 364,
+        "outputTokens": 126,
+        "rationale": "This reply only says Codex is working for the author, not that any limits or caps reset.",
+        "reasoningTokens": 78,
+        "totalTokens": 490,
+        "tweetId": "2044879832438497342",
+        "tweetText": "@ol_bowman No. Codex works for me.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2044879832438497342",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1776373007119,
@@ -279,29 +292,31 @@
         "tweetText": "/compact coming in Codex, we finally listened https://t.co/neLnhrxz60",
         "tweetUrl": "https://x.com/thsottiaux/status/2044591035532378511",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1776307029553,
-        "inputTokens": 362,
-        "outputTokens": 77,
-        "rationale": "This reply does not mention limits, caps, or usage becoming available again.",
-        "reasoningTokens": 34,
-        "totalTokens": 439,
-        "tweetId": "2044579877685493925",
-        "tweetText": "@joannejang you need a skill for that",
-        "tweetUrl": "https://x.com/thsottiaux/status/2044579877685493925",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 43486,
-      "totalOutputTokens": 13111,
-      "totalReasoningTokens": 6853,
-      "totalTokens": 56597
+      "totalInputTokens": 43850,
+      "totalOutputTokens": 13237,
+      "totalReasoningTokens": 6931,
+      "totalTokens": 57087
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.97,
+      "createdAt": 1776373011387,
+      "inputTokens": 364,
+      "message": "",
+      "outputTokens": 126,
+      "rationale": "This reply only says Codex is working for the author, not that any limits or caps reset.",
+      "reasoningTokens": 78,
+      "totalTokens": 490,
+      "tweetId": "2044879832438497342",
+      "tweetText": "@ol_bowman No. Codex works for me.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2044879832438497342",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1776373007119,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2043178598136516698",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1775970820943,
-      "inputTokens": 370,
-      "message": "",
-      "outputTokens": 42,
-      "rationale": "This post is just a naming joke and does not mention limits or availability resetting.",
-      "reasoningTokens": 0,
-      "totalTokens": 412,
-      "tweetId": "2043177597434306699",
-      "tweetText": "Imagine the alternate reality where we named GPT-5.4-Pro something like Fable.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2043177597434306699",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "-FnKtpLq0VuCVB2UPg2F6mvsatIAkgFozbmugLavA8SIReJ41sJPSLgFBQ",
-    "iv": "9ma_cexQKXTBQOPj",
-    "tag": "DXvmrUy7I00RoMBQO7E32Q",
+    "ciphertext": "9-aNODVm0Zq9ys7kpV9FR3h7UJlg7yrNizNGHoXzX29kHCqWT81PBOiOyw",
+    "iv": "TVhgLJ6B5c1rfmAA",
+    "tag": "Y-V_GnFHRztNo_HRJ-08pg",
     "version": 1
   }
 }
