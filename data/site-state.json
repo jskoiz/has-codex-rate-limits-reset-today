@@ -14,16 +14,16 @@
   "updatedAt": 1775764047465,
   "automation": {
     "lastDecision": {
-      "confidence": 0.95,
-      "decidedAt": 1776369332906,
-      "rationale": "This reply contains only a link and does not indicate that any rate limit or cap has reset.",
-      "tweetId": "2044865630097297898",
-      "tweetUrl": "https://x.com/thsottiaux/status/2044865630097297898",
+      "confidence": 0.99,
+      "decidedAt": 1776369337087,
+      "rationale": "This reply does not mention limits, caps, or usage becoming available again.",
+      "tweetId": "2044865908209041821",
+      "tweetUrl": "https://x.com/thsottiaux/status/2044865908209041821",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2044865630097297898",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2044865630097297898",
+    "lastSeenTweetId": "2044865908209041821",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2044865908209041821",
     "pendingReview": {
       "confidence": 0.14,
       "createdAt": 1776361407342,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2044826340709515324"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1776369337087,
+        "inputTokens": 361,
+        "outputTokens": 86,
+        "rationale": "This reply does not mention limits, caps, or usage becoming available again.",
+        "reasoningTokens": 43,
+        "totalTokens": 447,
+        "tweetId": "2044865908209041821",
+        "tweetText": "@RedardidLLM Sorry Meep",
+        "tweetUrl": "https://x.com/thsottiaux/status/2044865908209041821",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.95,
         "evaluatedAt": 1776369332906,
@@ -279,29 +292,31 @@
         "tweetText": "@amorriscode Is it available on my iPad?",
         "tweetUrl": "https://x.com/thsottiaux/status/2044166666570084375",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1776202329527,
-        "inputTokens": 363,
-        "outputTokens": 73,
-        "rationale": "This is just a welcoming reply and does not mention any limit or rate-limit reset.",
-        "reasoningTokens": 28,
-        "totalTokens": 436,
-        "tweetId": "2044165955979489473",
-        "tweetText": "@PhilippSpiess @OpenAI Welcome sir!!!",
-        "tweetUrl": "https://x.com/thsottiaux/status/2044165955979489473",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 40930,
-      "totalOutputTokens": 12460,
-      "totalReasoningTokens": 6516,
-      "totalTokens": 53390
+      "totalInputTokens": 41291,
+      "totalOutputTokens": 12546,
+      "totalReasoningTokens": 6559,
+      "totalTokens": 53837
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1776369337087,
+      "inputTokens": 361,
+      "message": "",
+      "outputTokens": 86,
+      "rationale": "This reply does not mention limits, caps, or usage becoming available again.",
+      "reasoningTokens": 43,
+      "totalTokens": 447,
+      "tweetId": "2044865908209041821",
+      "tweetText": "@RedardidLLM Sorry Meep",
+      "tweetUrl": "https://x.com/thsottiaux/status/2044865908209041821",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.95,
       "createdAt": 1776369332906,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2042436086392373392",
       "type": "review_requested",
       "verdict": "uncertain"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1775794824822,
-      "inputTokens": 368,
-      "message": "",
-      "outputTokens": 69,
-      "rationale": "This is a joking reply and does not mention limits, caps, or usage becoming available again.",
-      "reasoningTokens": 22,
-      "totalTokens": 437,
-      "tweetId": "2042433439224512751",
-      "tweetText": "@jxnlco If you keep complaining I’ll add Jason the 2nd",
-      "tweetUrl": "https://x.com/thsottiaux/status/2042433439224512751",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "9pIhny8_yPeMF63DXK55e00a4s_0FVuzPuq3uWswGeFTLrEIaSmNlYgNpg",
-    "iv": "1ACVnALfHQftoaOs",
-    "tag": "y0C-DZvyEHpPJyrLtTvNwQ",
+    "ciphertext": "UGH84_nvvOD4Evc1O-qsRbaWPVMFaMQ099T6mzrdiLVOnYoIhD_k9viCyA",
+    "iv": "xmnjFI9wIWFk50yo",
+    "tag": "PKX2_xfJVwS_QyQTe_9TYw",
     "version": 1
   }
 }
