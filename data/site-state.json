@@ -14,25 +14,38 @@
   "updatedAt": 1775764047465,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1776384247346,
-      "rationale": "This reply is conversational and does not mention limits, caps, or usage becoming available again.",
-      "tweetId": "2044926030360752477",
-      "tweetUrl": "https://x.com/thsottiaux/status/2044926030360752477",
-      "verdict": "not_reset"
+      "confidence": 0.13,
+      "decidedAt": 1776384254089,
+      "rationale": "This reply just says “Yes” and lacks enough visible context to confirm a rate-limit reset.",
+      "tweetId": "2044926508691808634",
+      "tweetUrl": "https://x.com/thsottiaux/status/2044926508691808634",
+      "verdict": "uncertain"
     },
     "lastError": null,
-    "lastSeenTweetId": "2044926030360752477",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2044926030360752477",
+    "lastSeenTweetId": "2044926508691808634",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2044926508691808634",
     "pendingReview": {
-      "confidence": 0.14,
-      "createdAt": 1776361407342,
-      "rationale": "This reply contains only a link, so there is no explicit evidence here that limits have reset.",
-      "tweetId": "2044826340709515324",
-      "tweetText": "https://t.co/sTrAlcmsDf",
-      "tweetUrl": "https://x.com/thsottiaux/status/2044826340709515324"
+      "confidence": 0.13,
+      "createdAt": 1776384254089,
+      "rationale": "This reply just says “Yes” and lacks enough visible context to confirm a rate-limit reset.",
+      "tweetId": "2044926508691808634",
+      "tweetText": "@KarunaSivam @wryter_the Yes",
+      "tweetUrl": "https://x.com/thsottiaux/status/2044926508691808634"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.13,
+        "evaluatedAt": 1776384254089,
+        "inputTokens": 364,
+        "outputTokens": 215,
+        "rationale": "This reply just says “Yes” and lacks enough visible context to confirm a rate-limit reset.",
+        "reasoningTokens": 168,
+        "totalTokens": 579,
+        "tweetId": "2044926508691808634",
+        "tweetText": "@KarunaSivam @wryter_the Yes",
+        "tweetUrl": "https://x.com/thsottiaux/status/2044926508691808634",
+        "verdict": "uncertain"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1776384247346,
@@ -279,29 +292,31 @@
         "tweetText": "@KaiXCreator Guess",
         "tweetUrl": "https://x.com/thsottiaux/status/2044813419908624604",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1776355709168,
-        "inputTokens": 358,
-        "outputTokens": 87,
-        "rationale": "This is just a casual remark and does not mention limits, caps, or usage becoming available again.",
-        "reasoningTokens": 39,
-        "totalTokens": 445,
-        "tweetId": "2044803491332526287",
-        "tweetText": "Feeling codexy today",
-        "tweetUrl": "https://x.com/thsottiaux/status/2044803491332526287",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 44587,
-      "totalOutputTokens": 13438,
-      "totalReasoningTokens": 7045,
-      "totalTokens": 58025
+      "totalInputTokens": 44951,
+      "totalOutputTokens": 13653,
+      "totalReasoningTokens": 7213,
+      "totalTokens": 58604
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.13,
+      "createdAt": 1776384254089,
+      "inputTokens": 364,
+      "message": "",
+      "outputTokens": 215,
+      "rationale": "This reply just says “Yes” and lacks enough visible context to confirm a rate-limit reset.",
+      "reasoningTokens": 168,
+      "totalTokens": 579,
+      "tweetId": "2044926508691808634",
+      "tweetText": "@KarunaSivam @wryter_the Yes",
+      "tweetUrl": "https://x.com/thsottiaux/status/2044926508691808634",
+      "type": "review_requested",
+      "verdict": "uncertain"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1776384247346,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2043516024470053218",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.97,
-      "createdAt": 1776050754948,
-      "inputTokens": 359,
-      "message": "",
-      "outputTokens": 156,
-      "rationale": "This reply alone does not clearly say any Codex or ChatGPT limit has reset.",
-      "reasoningTokens": 111,
-      "totalTokens": 515,
-      "tweetId": "2043515694265024558",
-      "tweetText": "@pashmerepat 👀",
-      "tweetUrl": "https://x.com/thsottiaux/status/2043515694265024558",
-      "type": "review_requested",
-      "verdict": "uncertain"
     }
   ],
   "privateState": {
-    "ciphertext": "EnAUdh4Ihqj8qbfEOHsPouivUYSqUChTEf3yLlpDroPqbSI4tvqc4PMYYg",
-    "iv": "XYGS4aCyaYIYFj3M",
-    "tag": "jEaxRqeJVEhvliFSWEydYg",
+    "ciphertext": "PXJavSiEkpu49JeFDksPTXViCzl3cyxHxiJwbudAdRWNAVvM63L0z-AI3Q",
+    "iv": "cfcXTGdTAUgZUNf9",
+    "tag": "9PJUmxLRVfUTMvlagH-Hbw",
     "version": 1
   }
 }
