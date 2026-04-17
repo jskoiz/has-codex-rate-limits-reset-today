@@ -21,7 +21,7 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2044926508691808634",
       "verdict": "uncertain"
     },
-    "lastError": "Tweet fetch failed: Cannot read properties of undefined (reading '0') (Cannot read properties of undefined (reading '0'))",
+    "lastError": "Tweet fetch failed: Cannot read properties of undefined (reading 'rest_id') (Cannot read properties of undefined (reading 'rest_id'))",
     "lastSeenTweetId": "2044926508691808634",
     "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2044926508691808634",
     "pendingReview": {
@@ -302,6 +302,21 @@
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0,
+      "createdAt": 1776459766854,
+      "inputTokens": 0,
+      "message": "Tweet fetch failed: Cannot read properties of undefined (reading 'rest_id') (Cannot read properties of undefined (reading 'rest_id'))",
+      "outputTokens": 0,
+      "rationale": "",
+      "reasoningTokens": 0,
+      "totalTokens": 0,
+      "tweetId": null,
+      "tweetText": "",
+      "tweetUrl": null,
+      "type": "error",
+      "verdict": null
+    },
     {
       "confidence": 0,
       "createdAt": 1776397305631,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2043517052019966376",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1776060081445,
-      "inputTokens": 371,
-      "message": "",
-      "outputTokens": 76,
-      "rationale": "This reply is just a conversational question and says nothing about any limits or reset.",
-      "reasoningTokens": 32,
-      "totalTokens": 447,
-      "tweetId": "2043516247028257265",
-      "tweetText": "@ajambrosino @amorriscode @rileybrown You're working on Claude Code now?",
-      "tweetUrl": "https://x.com/thsottiaux/status/2043516247028257265",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "1RKRKEKoQSn-ubtCsdX_Znx-dlTW2R3H_VEuREiROJFvO4sR_W-kshDZGA",
-    "iv": "thIc6RdKBvlMmAia",
-    "tag": "alEDprlwpBVBNHXGpt_B7A",
+    "ciphertext": "C9sreaXjBWgoisPItBDdHJU_A1J3RufXmYxQC8ch0_weNwJtsXLJbyApdw",
+    "iv": "i7yXum5w8EmXq0px",
+    "tag": "DtzD4oG-LQ1VOTSFPvZg6w",
     "version": 1
   }
 }
