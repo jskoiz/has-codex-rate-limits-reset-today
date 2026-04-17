@@ -21,7 +21,7 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2044926508691808634",
       "verdict": "uncertain"
     },
-    "lastError": null,
+    "lastError": "Tweet fetch failed: Cannot read properties of undefined (reading '0') (Cannot read properties of undefined (reading '0'))",
     "lastSeenTweetId": "2044926508691808634",
     "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2044926508691808634",
     "pendingReview": {
@@ -302,6 +302,21 @@
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0,
+      "createdAt": 1776397305631,
+      "inputTokens": 0,
+      "message": "Tweet fetch failed: Cannot read properties of undefined (reading '0') (Cannot read properties of undefined (reading '0'))",
+      "outputTokens": 0,
+      "rationale": "",
+      "reasoningTokens": 0,
+      "totalTokens": 0,
+      "tweetId": null,
+      "tweetText": "",
+      "tweetUrl": null,
+      "type": "error",
+      "verdict": null
+    },
     {
       "confidence": 0.13,
       "createdAt": 1776384254089,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2043516247028257265",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1776060078162,
-      "inputTokens": 363,
-      "message": "",
-      "outputTokens": 89,
-      "rationale": "This reply discusses steering behavior and does not mention limits, caps, or resets.",
-      "reasoningTokens": 45,
-      "totalTokens": 452,
-      "tweetId": "2043516024470053218",
-      "tweetText": "@Johnnydazhu Isn't that just mid-turn steering?",
-      "tweetUrl": "https://x.com/thsottiaux/status/2043516024470053218",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "PXJavSiEkpu49JeFDksPTXViCzl3cyxHxiJwbudAdRWNAVvM63L0z-AI3Q",
-    "iv": "cfcXTGdTAUgZUNf9",
-    "tag": "9PJUmxLRVfUTMvlagH-Hbw",
+    "ciphertext": "1RKRKEKoQSn-ubtCsdX_Znx-dlTW2R3H_VEuREiROJFvO4sR_W-kshDZGA",
+    "iv": "thIc6RdKBvlMmAia",
+    "tag": "alEDprlwpBVBNHXGpt_B7A",
     "version": 1
   }
 }
