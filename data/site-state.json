@@ -21,7 +21,7 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2044943514832871564",
       "verdict": "reset_confirmed"
     },
-    "lastError": null,
+    "lastError": "Tweet fetch failed: Cannot read properties of undefined (reading '0') (Cannot read properties of undefined (reading '0'))",
     "lastSeenTweetId": "2044943514832871564",
     "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2044943514832871564",
     "pendingReview": null,
@@ -296,6 +296,21 @@
   },
   "automationEvents": [
     {
+      "confidence": 0,
+      "createdAt": 1776466325137,
+      "inputTokens": 0,
+      "message": "Tweet fetch failed: Cannot read properties of undefined (reading '0') (Cannot read properties of undefined (reading '0'))",
+      "outputTokens": 0,
+      "rationale": "",
+      "reasoningTokens": 0,
+      "totalTokens": 0,
+      "tweetId": null,
+      "tweetText": "",
+      "tweetUrl": null,
+      "type": "error",
+      "verdict": null
+    },
+    {
       "confidence": 0.99,
       "createdAt": 1776463021442,
       "inputTokens": 395,
@@ -330,21 +345,6 @@
       "createdAt": 1776459766854,
       "inputTokens": 0,
       "message": "Tweet fetch failed: Cannot read properties of undefined (reading 'rest_id') (Cannot read properties of undefined (reading 'rest_id'))",
-      "outputTokens": 0,
-      "rationale": "",
-      "reasoningTokens": 0,
-      "totalTokens": 0,
-      "tweetId": null,
-      "tweetText": "",
-      "tweetUrl": null,
-      "type": "error",
-      "verdict": null
-    },
-    {
-      "confidence": 0,
-      "createdAt": 1776397305631,
-      "inputTokens": 0,
-      "message": "Tweet fetch failed: Cannot read properties of undefined (reading '0') (Cannot read properties of undefined (reading '0'))",
       "outputTokens": 0,
       "rationale": "",
       "reasoningTokens": 0,
@@ -897,9 +897,9 @@
     }
   ],
   "privateState": {
-    "ciphertext": "exTPlm5df2-LfIv28UdmO2Z5_wNPdOllm-8ITPg11ao3o7PzX4J54Uj7Cg",
-    "iv": "uigOVzJq2ERRu64F",
-    "tag": "ZsxxlaWfalwRdWTWnCICnA",
+    "ciphertext": "ELMU3ri3A3_mq6TIt0luvWbWT5ZT5ajLRMSRfqCevtdItIOZc7f9bur4jg",
+    "iv": "6QMwoj-eIsgme7T5",
+    "tag": "QXvZLTteUpTEtTbARh37qg",
     "version": 1
   }
 }
