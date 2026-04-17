@@ -1,5 +1,5 @@
 {
-  "currentState": "no",
+  "currentState": "yes",
   "autoResetHours": 20,
   "noSubtitles": [
     "Back to your local model peasant",
@@ -10,29 +10,35 @@
     "Limits reset, go crazy",
     "You can just build things"
   ],
-  "resetAt": null,
-  "updatedAt": 1775764047465,
+  "resetAt": 1776535021442,
+  "updatedAt": 1776463021442,
   "automation": {
     "lastDecision": {
-      "confidence": 0.98,
-      "decidedAt": 1776463017942,
-      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-      "tweetId": "2044927351696626070",
-      "tweetUrl": "https://x.com/thsottiaux/status/2044927351696626070",
-      "verdict": "not_reset"
+      "confidence": 0.99,
+      "decidedAt": 1776463021442,
+      "rationale": "The tweet explicitly says Codex rate limits have been reset across all plans now.",
+      "tweetId": "2044943514832871564",
+      "tweetUrl": "https://x.com/thsottiaux/status/2044943514832871564",
+      "verdict": "reset_confirmed"
     },
     "lastError": null,
-    "lastSeenTweetId": "2044927351696626070",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2044927351696626070",
-    "pendingReview": {
-      "confidence": 0.13,
-      "createdAt": 1776384254089,
-      "rationale": "This reply just says “Yes” and lacks enough visible context to confirm a rate-limit reset.",
-      "tweetId": "2044926508691808634",
-      "tweetText": "@KarunaSivam @wryter_the Yes",
-      "tweetUrl": "https://x.com/thsottiaux/status/2044926508691808634"
-    },
+    "lastSeenTweetId": "2044943514832871564",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2044943514832871564",
+    "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1776463021442,
+        "inputTokens": 395,
+        "outputTokens": 129,
+        "rationale": "The tweet explicitly says Codex rate limits have been reset across all plans now.",
+        "reasoningTokens": 84,
+        "totalTokens": 524,
+        "tweetId": "2044943514832871564",
+        "tweetText": "Hi! To celebrate its 1-year anniversary, I have allowed Codex to reset its own rate limits across all plans. Enjoy all the new features. https://t.co/xIGXQwMzpa",
+        "tweetUrl": "https://x.com/thsottiaux/status/2044943514832871564",
+        "verdict": "reset_confirmed"
+      },
       {
         "confidence": 0.98,
         "evaluatedAt": 1776463017942,
@@ -279,29 +285,31 @@
         "tweetText": "https://t.co/sTrAlcmsDf",
         "tweetUrl": "https://x.com/thsottiaux/status/2044826340709515324",
         "verdict": "uncertain"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1776361401820,
-        "inputTokens": 415,
-        "outputTokens": 73,
-        "rationale": "This post is a feature announcement and does not mention rate limits, caps, or usage resetting.",
-        "reasoningTokens": 26,
-        "totalTokens": 488,
-        "tweetId": "2044826325173879269",
-        "tweetText": "Codex just got a lot more powerful.\n\nComputer use, in-app browser, image generation and editing, 90+ new plugins to connect to everything, multi-terminal, SSH into devboxes, thread automations, rich document editing. Learns from experience and proactively suggestions work. And a ton more.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2044826325173879269",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 45310,
-      "totalOutputTokens": 13747,
-      "totalReasoningTokens": 7263,
-      "totalTokens": 59057
+      "totalInputTokens": 45705,
+      "totalOutputTokens": 13876,
+      "totalReasoningTokens": 7347,
+      "totalTokens": 59581
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1776463021442,
+      "inputTokens": 395,
+      "message": "",
+      "outputTokens": 129,
+      "rationale": "The tweet explicitly says Codex rate limits have been reset across all plans now.",
+      "reasoningTokens": 84,
+      "totalTokens": 524,
+      "tweetId": "2044943514832871564",
+      "tweetText": "Hi! To celebrate its 1-year anniversary, I have allowed Codex to reset its own rate limits across all plans. Enjoy all the new features. https://t.co/xIGXQwMzpa",
+      "tweetUrl": "https://x.com/thsottiaux/status/2044943514832871564",
+      "type": "reset_confirmed",
+      "verdict": "reset_confirmed"
+    },
     {
       "confidence": 0.98,
       "createdAt": 1776463017943,
@@ -886,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2043852660219228432",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1776060088112,
-      "inputTokens": 367,
-      "message": "",
-      "outputTokens": 92,
-      "rationale": "This is a general comment about internal Codex App usage, not about limits or availability resetting.",
-      "reasoningTokens": 45,
-      "totalTokens": 459,
-      "tweetId": "2043517277455491430",
-      "tweetText": "Codex App has achieved take-off internally. I can hear the fans",
-      "tweetUrl": "https://x.com/thsottiaux/status/2043517277455491430",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "eXbLewksm5Quax2ZewJFTRmT4NVyKK5zeSGxJvzhDMu1_-V_9bmmGNDgeQ",
-    "iv": "3FeXU6OexYmqsAQC",
-    "tag": "v1I3uXOsBggBzM3KwZcK8Q",
+    "ciphertext": "exTPlm5df2-LfIv28UdmO2Z5_wNPdOllm-8ITPg11ao3o7PzX4J54Uj7Cg",
+    "iv": "uigOVzJq2ERRu64F",
+    "tag": "ZsxxlaWfalwRdWTWnCICnA",
     "version": 1
   }
 }
