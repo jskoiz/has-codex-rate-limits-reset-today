@@ -3,6 +3,7 @@ import assert from "node:assert/strict";
 
 import {
   compareTweetIds,
+  fetchRecentTweetsFromRettiwt,
   getUnseenTweets,
   isAuthoredTimelineTweet,
   runResetMonitor,
@@ -82,6 +83,63 @@ test("getUnseenTweets filters old tweets, de-duplicates IDs, and sorts ascending
   assert.deepEqual(
     unseen.map((tweet) => tweet.id),
     ["104", "105"],
+  );
+});
+
+test("fetchRecentTweetsFromRettiwt falls back to user timelines when search fails", async () => {
+  const recentTimelineTweet = createTweet("110", {
+    createdAt: "2026-03-12T12:00:00.000Z",
+  });
+  const oldReplyTweet = createTweet("109", {
+    createdAt: "2026-03-10T12:00:00.000Z",
+  });
+  const startDate = new Date("2026-03-12T00:00:00.000Z");
+
+  const tweets = await fetchRecentTweetsFromRettiwt(
+    {
+      tweet: {
+        search: async () => {
+          throw new Error("search broke");
+        },
+      },
+      user: {
+        details: async () => ({ id: "user-1" }),
+        replies: async () => ({ list: [oldReplyTweet, recentTimelineTweet] }),
+        timeline: async () => ({ list: [recentTimelineTweet] }),
+      },
+    },
+    startDate,
+  );
+
+  assert.deepEqual(
+    tweets.map((tweet) => tweet.id),
+    ["110"],
+  );
+});
+
+test("fetchRecentTweetsFromRettiwt falls back when search returns no recent tweets", async () => {
+  const recentReplyTweet = createTweet("210", {
+    createdAt: "2026-03-12T03:00:00.000Z",
+  });
+  const startDate = new Date("2026-03-12T00:00:00.000Z");
+
+  const tweets = await fetchRecentTweetsFromRettiwt(
+    {
+      tweet: {
+        search: async () => ({ list: [] }),
+      },
+      user: {
+        details: async () => ({ id: "user-2" }),
+        replies: async () => ({ list: [recentReplyTweet] }),
+        timeline: async () => ({ list: [] }),
+      },
+    },
+    startDate,
+  );
+
+  assert.deepEqual(
+    tweets.map((tweet) => tweet.id),
+    ["210"],
   );
 });
 
