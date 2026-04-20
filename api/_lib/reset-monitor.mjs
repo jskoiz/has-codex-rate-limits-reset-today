@@ -696,7 +696,7 @@ export const runResetMonitor = async (deps = {}) => {
   const seedWatermark = deps.seedTimelineWatermark || seedTimelineWatermark;
   const markNotReset = deps.markTweetAsNotReset || markTweetAsNotReset;
   const markReview = deps.markTweetForManualReview || markTweetForManualReview;
-  const markResetConfirmed = deps.markTweetAsResetConfirmed || markResetConfirmed;
+  const markResetConfirmed = deps.markTweetAsResetConfirmed || markTweetAsResetConfirmed;
 
   if (configError) {
     throw new Error(configError);
