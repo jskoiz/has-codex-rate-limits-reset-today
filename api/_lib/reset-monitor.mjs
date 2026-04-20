@@ -145,6 +145,32 @@ export const compareTweetIds = (left, right) => {
 
 const sortTweetsAscending = (tweets) => [...tweets].sort((left, right) => compareTweetIds(left.id, right.id));
 
+const normalizeTweetBatch = (result) => (Array.isArray(result?.list) ? result.list : []);
+
+const dedupeTweetsById = (tweets) =>
+  Array.from(
+    (Array.isArray(tweets) ? tweets : []).reduce((entries, tweet) => {
+      if (tweet?.id && !entries.has(tweet.id)) {
+        entries.set(tweet.id, tweet);
+      }
+
+      return entries;
+    }, new Map()).values(),
+  );
+
+const filterTweetsByStartDate = (tweets, startDate) => {
+  const minimumTimestamp = startDate instanceof Date ? startDate.valueOf() : Number.NaN;
+
+  if (!Number.isFinite(minimumTimestamp)) {
+    return dedupeTweetsById(tweets);
+  }
+
+  return dedupeTweetsById(tweets).filter((tweet) => {
+    const createdAt = new Date(tweet?.createdAt || "").valueOf();
+    return Number.isFinite(createdAt) && createdAt >= minimumTimestamp;
+  });
+};
+
 const getNewestTweet = (tweets) =>
   tweets.reduce((newest, tweet) => {
     if (!newest) {
@@ -396,19 +422,70 @@ const recordAutomationError = async (message) => {
 const getRecentTweetSearchStartDate = () =>
   new Date(Date.now() - RECENT_TWEET_LOOKBACK_DAYS * 24 * 60 * 60 * 1000);
 
+const fetchRecentTweetsFromUserFallback = async (rettiwt, startDate) => {
+  const user = await rettiwt.user.details(TARGET_USERNAME);
+  const userId = typeof user?.id === "string" ? user.id : "";
+
+  if (!userId) {
+    throw new Error(`Unable to resolve @${TARGET_USERNAME} for timeline fallback`);
+  }
+
+  const timelineResponses = await Promise.allSettled([
+    rettiwt.user.timeline(userId, SEARCH_BATCH_SIZE),
+    rettiwt.user.replies(userId, SEARCH_BATCH_SIZE),
+  ]);
+  const tweets = filterTweetsByStartDate(
+    timelineResponses.flatMap((response) => (response.status === "fulfilled" ? normalizeTweetBatch(response.value) : [])),
+    startDate,
+  );
+
+  if (tweets.length > 0) {
+    return tweets;
+  }
+
+  const firstRejected = timelineResponses.find((response) => response.status === "rejected");
+  if (firstRejected?.status === "rejected") {
+    throw firstRejected.reason;
+  }
+
+  return [];
+};
+
+export const fetchRecentTweetsFromRettiwt = async (rettiwt, startDate = getRecentTweetSearchStartDate()) => {
+  try {
+    const searchResults = await rettiwt.tweet.search(
+      {
+        fromUsers: [TARGET_USERNAME],
+        startDate,
+      },
+      SEARCH_BATCH_SIZE,
+    );
+    const tweets = filterTweetsByStartDate(normalizeTweetBatch(searchResults), startDate);
+
+    if (tweets.length > 0) {
+      return tweets;
+    }
+  } catch (error) {
+    try {
+      return await fetchRecentTweetsFromUserFallback(rettiwt, startDate);
+    } catch (fallbackError) {
+      throw new Error(
+        `Tweet search failed: ${describeAutomationError(error, "Unknown Rettiwt search error")}; timeline fallback failed: ${describeAutomationError(fallbackError, "Unknown Rettiwt timeline error")}`,
+        {
+          cause: fallbackError,
+        },
+      );
+    }
+  }
+
+  return fetchRecentTweetsFromUserFallback(rettiwt, startDate);
+};
+
 const fetchRecentTweets = async () => {
   try {
     const Rettiwt = await getRettiwt();
     const rettiwt = new Rettiwt({ apiKey: getRettiwtApiKey() });
-    const searchResults = await rettiwt.tweet.search(
-      {
-        fromUsers: [TARGET_USERNAME],
-        startDate: getRecentTweetSearchStartDate(),
-      },
-      SEARCH_BATCH_SIZE,
-    );
-
-    return Array.isArray(searchResults?.list) ? searchResults.list : [];
+    return await fetchRecentTweetsFromRettiwt(rettiwt);
   } catch (error) {
     throw new Error(`Tweet fetch failed: ${describeAutomationError(error, "Unknown Rettiwt error")}`, {
       cause: error,
@@ -619,7 +696,7 @@ export const runResetMonitor = async (deps = {}) => {
   const seedWatermark = deps.seedTimelineWatermark || seedTimelineWatermark;
   const markNotReset = deps.markTweetAsNotReset || markTweetAsNotReset;
   const markReview = deps.markTweetForManualReview || markTweetForManualReview;
-  const markResetConfirmed = deps.markTweetAsResetConfirmed || markTweetAsResetConfirmed;
+  const markResetConfirmed = deps.markTweetAsResetConfirmed || markResetConfirmed;
 
   if (configError) {
     throw new Error(configError);
