@@ -1,5 +1,5 @@
 {
-  "currentState": "yes",
+  "currentState": "no",
   "autoResetHours": 20,
   "noSubtitles": [
     "Back to your local model peasant",
@@ -10,7 +10,7 @@
     "Limits reset, go crazy",
     "You can just build things"
   ],
-  "resetAt": 1776535021442,
+  "resetAt": null,
   "updatedAt": 1776463021442,
   "automation": {
     "lastDecision": {
@@ -21,7 +21,7 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2044943514832871564",
       "verdict": "reset_confirmed"
     },
-    "lastError": "Tweet fetch failed: Cannot read properties of undefined (reading '0') (Cannot read properties of undefined (reading '0'))",
+    "lastError": "Tweet fetch failed: Tweet search failed: Cannot read properties of undefined (reading '0'); timeline fallback failed: Cannot read properties of undefined (reading '0') (Cannot read properties of undefined (reading '0')) (Tweet search failed: Cannot read properties of undefined (reading '0'); timeline fallback failed: Cannot read properties of undefined (reading '0'))",
     "lastSeenTweetId": "2044943514832871564",
     "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2044943514832871564",
     "pendingReview": null,
@@ -295,6 +295,21 @@
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0,
+      "createdAt": 1776729529532,
+      "inputTokens": 0,
+      "message": "Tweet fetch failed: Tweet search failed: Cannot read properties of undefined (reading '0'); timeline fallback failed: Cannot read properties of undefined (reading '0') (Cannot read properties of undefined (reading '0')) (Tweet search failed: Cannot read properties of undefined (reading '0'); timeline fallback failed: Cannot read properties of undefined (reading '0'))",
+      "outputTokens": 0,
+      "rationale": "",
+      "reasoningTokens": 0,
+      "totalTokens": 0,
+      "tweetId": null,
+      "tweetText": "",
+      "tweetUrl": null,
+      "type": "error",
+      "verdict": null
+    },
     {
       "confidence": 0,
       "createdAt": 1776501295626,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2043920132096045143",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1776138005655,
-      "inputTokens": 362,
-      "message": "",
-      "outputTokens": 83,
-      "rationale": "This reply does not mention limits, caps, or usage becoming available again.",
-      "reasoningTokens": 40,
-      "totalTokens": 445,
-      "tweetId": "2043852660219228432",
-      "tweetText": "@rohanvarma Negative 42 I think",
-      "tweetUrl": "https://x.com/thsottiaux/status/2043852660219228432",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "GFmTgMXZ2uP_daE-RBWIyHEWH0Q6vR1Vb0zRnYqaUrOZXJlPHE7w08Z-qg",
-    "iv": "QieDTUutynq_l7LM",
-    "tag": "Xw6VYDvNr5mWpQazzBNr4Q",
+    "ciphertext": "V1gc2d2tGojCL7E-uDggBzZoIrCxI_agB9lsfpxm6VVV_EZgajf_g2q6Gg",
+    "iv": "3iGeASWNIEZGsOeZ",
+    "tag": "LJ4DV-jQfYAfcLARdxWGLg",
     "version": 1
   }
 }
