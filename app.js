@@ -71,18 +71,23 @@ const formatElapsedAge = (value) => {
     return "Awaiting first pass";
   }
 
-  const totalSeconds = Math.max(0, Math.floor((Date.now() - timestamp) / 1000));
-  const pad = (n) => String(n).padStart(2, "0");
-  const days = Math.floor(totalSeconds / 86400);
-  const hours = Math.floor((totalSeconds % 86400) / 3600);
-  const minutes = Math.floor((totalSeconds % 3600) / 60);
-  const seconds = totalSeconds % 60;
+  const totalMinutes = Math.max(0, Math.floor((Date.now() - timestamp) / 60000));
+  const days = Math.floor(totalMinutes / (24 * 60));
+  const hours = Math.floor((totalMinutes % (24 * 60)) / 60);
+  const minutes = totalMinutes % 60;
+  const segments = [];
 
   if (days > 0) {
-    return `${pad(days)}:${pad(hours)}:${pad(minutes)} ago`;
+    segments.push(`${days}d`);
   }
 
-  return `${pad(hours)}:${pad(minutes)}:${pad(seconds)} ago`;
+  if (hours > 0 || days > 0) {
+    segments.push(`${hours}h`);
+  }
+
+  segments.push(`${minutes}m`);
+
+  return `${segments.join(" ")} ago`;
 };
 
 const formatTokenCount = (value) => new Intl.NumberFormat().format(Number.isFinite(value) ? value : 0);
@@ -307,6 +312,9 @@ const applyAutomationSummary = (summary = null) => {
   const tokenSource = summary.mode === "inactive" ? latestEntry || displayEntry : displayEntry;
   const isPinnedReset = Boolean(summary.lastReset) || displayEntry.verdict === "reset_confirmed";
   const isCollapsedInactive = summary.mode === "inactive" && isPinnedReset;
+  const displayAgeSource = displayEntry.tweetCreatedAt || displayEntry.checkedAt;
+  const latestAgeSource = latestEntry?.tweetCreatedAt || latestEntry?.checkedAt || displayAgeSource;
+  const resetAgeSource = summary.lastReset?.tweetCreatedAt || summary.lastReset?.checkedAt || displayAgeSource;
   const tweetText =
     truncateText(normalizeInlineText(displayEntry.tweetText), 132) ||
     (displayEntry.tweetId ? `Tracked post ${displayEntry.tweetId}` : "Tracked post");
@@ -327,7 +335,7 @@ const applyAutomationSummary = (summary = null) => {
         ? `Reset tweet by ${trackedUsername}`
         : `Last tweet seen by ${trackedUsername}`;
   automationTweetText.textContent = tweetText;
-  setLiveAgeText(automationTweetMeta, displayEntry.checkedAt, "Seen ");
+  setLiveAgeText(automationTweetMeta, displayAgeSource, "Posted ");
   automationReasoningLabel.textContent = isCollapsedInactive
     ? `Last reset reasoning · ${checkedAtText}`
     : "Reasoning";
@@ -340,7 +348,7 @@ const applyAutomationSummary = (summary = null) => {
   if (isCollapsedInactive) {
     const latestUsername = getTrackedUsername(latestEntry?.tweetUrl || displayEntry.tweetUrl);
     automationInactiveLatestLabel.textContent = `Last @${latestUsername} tweet:`;
-    setLiveAgeText(automationInactiveLatestTime, latestEntry?.checkedAt || displayEntry.checkedAt, "Seen ");
+    setLiveAgeText(automationInactiveLatestTime, latestAgeSource, "Posted ");
     automationInactiveVerdictValue.textContent = "No";
     automationInactiveVerdictValue.dataset.state = "no";
     setLinkState(
@@ -348,11 +356,11 @@ const applyAutomationSummary = (summary = null) => {
       latestEntry?.tweetUrl || displayEntry.tweetUrl,
       automationInactiveLatestTime.textContent,
     );
-    setLiveAgeText(automationInactiveResetTime, summary.lastReset?.checkedAt || displayEntry.checkedAt);
+    setLiveAgeText(automationInactiveResetTime, resetAgeSource);
     setLinkState(
       automationInactiveResetCard,
       summary.lastReset?.tweetUrl || displayEntry.tweetUrl,
-      `Last Yes verdict ${formatElapsedAge(summary.lastReset?.checkedAt || displayEntry.checkedAt)}`,
+      `Last Yes verdict ${formatElapsedAge(resetAgeSource)}`,
     );
     automationTokensLabel.textContent = "LATEST CHECK COST:";
   } else {
