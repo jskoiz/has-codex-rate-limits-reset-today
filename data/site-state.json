@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1776872376148,
-      "rationale": "This reply is conversational and does not mention limits, caps, or availability resetting.",
-      "tweetId": "2046665920563839288",
-      "tweetUrl": "https://x.com/thsottiaux/status/2046665920563839288",
+      "decidedAt": 1776872378981,
+      "rationale": "This reply is just a joke about shipping features and says nothing about limits or resets.",
+      "tweetId": "2046666205260591257",
+      "tweetUrl": "https://x.com/thsottiaux/status/2046666205260591257",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2046665920563839288",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2046665920563839288",
+    "lastSeenTweetId": "2046666205260591257",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2046666205260591257",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1776872378981,
+        "inputTokens": 371,
+        "outputTokens": 72,
+        "rationale": "This reply is just a joke about shipping features and says nothing about limits or resets.",
+        "reasoningTokens": 27,
+        "totalTokens": 443,
+        "tweetId": "2046666205260591257",
+        "tweetText": "@altryne We love shipping freatures. It's like features, but free and better.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2046666205260591257",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1776872376148,
@@ -272,29 +285,31 @@
         "tweetText": "There is an incredible team behind all this. The Mac computer use is the amazing work by @AriX and team and it truly delights. Under the hood is a little marvel of Mac technology.\n\nCapable of working in the background without disrupting your flow and achieving precision actions by allowing the codex agent to leverage a lot more than pure pixels.",
         "tweetUrl": "https://x.com/thsottiaux/status/2044829513520197900",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.98,
-        "evaluatedAt": 1776365437162,
-        "inputTokens": 359,
-        "outputTokens": 166,
-        "rationale": "This reply mentions \"/compact\" and does not indicate any limits or caps have reset.",
-        "reasoningTokens": 120,
-        "totalTokens": 525,
-        "tweetId": "2044827358239261028",
-        "tweetText": "Ah, and /compact also",
-        "tweetUrl": "https://x.com/thsottiaux/status/2044827358239261028",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 46066,
-      "totalOutputTokens": 13947,
-      "totalReasoningTokens": 7374,
-      "totalTokens": 60013
+      "totalInputTokens": 46437,
+      "totalOutputTokens": 14019,
+      "totalReasoningTokens": 7401,
+      "totalTokens": 60456
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1776872378981,
+      "inputTokens": 371,
+      "message": "",
+      "outputTokens": 72,
+      "rationale": "This reply is just a joke about shipping features and says nothing about limits or resets.",
+      "reasoningTokens": 27,
+      "totalTokens": 443,
+      "tweetId": "2046666205260591257",
+      "tweetText": "@altryne We love shipping freatures. It's like features, but free and better.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2046666205260591257",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1776872376148,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2044165955979489473",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1776202326594,
-      "inputTokens": 364,
-      "message": "",
-      "outputTokens": 106,
-      "rationale": "This reply is conversational and does not mention limits, caps, or usage resetting.",
-      "reasoningTokens": 62,
-      "totalTokens": 470,
-      "tweetId": "2044165754254438680",
-      "tweetText": "@DimeNaranja @OpenAI It's the little things",
-      "tweetUrl": "https://x.com/thsottiaux/status/2044165754254438680",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "i5I-nmfHKj6VTCnjbT-d7YKcm0TXVBUUATe7ZYbrnChQPil6nVQYTOD19w",
-    "iv": "rhqrKBdQW6XGY6zn",
-    "tag": "jKKvPCawr0Y49v0Z42KW6g",
+    "ciphertext": "MnMPw9qTaekiuYpffkQ3Uocv8fXqLmQEEJrOIepFtCksVxDkx10m5OQiIA",
+    "iv": "9omdNa20eNxPRklh",
+    "tag": "l-K6LB8_sivFxtnvyOk3TA",
     "version": 1
   }
 }
