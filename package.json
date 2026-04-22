@@ -5,6 +5,7 @@
     "node": "22.x"
   },
   "scripts": {
+    "postinstall": "node scripts/patch-rettiwt.cjs",
     "start": "node server.mjs",
     "test": "node --test"
   },
