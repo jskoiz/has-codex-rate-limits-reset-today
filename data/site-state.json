@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1776883818410,
-      "rationale": "This post promotes workspace agents and does not mention any limit, cap, or rate reset.",
-      "tweetId": "2047023723459555472",
-      "tweetUrl": "https://x.com/thsottiaux/status/2047023723459555472",
+      "decidedAt": 1776883822832,
+      "rationale": "This reply discusses another topic and does not mention limits, caps, or usage becoming available again.",
+      "tweetId": "2047024660135751842",
+      "tweetUrl": "https://x.com/thsottiaux/status/2047024660135751842",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2047023723459555472",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2047023723459555472",
+    "lastSeenTweetId": "2047024660135751842",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2047024660135751842",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1776883822832,
+        "inputTokens": 381,
+        "outputTokens": 82,
+        "rationale": "This reply discusses another topic and does not mention limits, caps, or usage becoming available again.",
+        "reasoningTokens": 35,
+        "totalTokens": 463,
+        "tweetId": "2047024660135751842",
+        "tweetText": "@badlogicgames @steipete Agreed with your take here. Don't think pi is the issue and 2] should get fixed too.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2047024660135751842",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1776883818410,
@@ -272,29 +285,31 @@
         "tweetText": "@mark_k Available worldwide except UK &amp; EU. And available for all platforms, with computer use only on Mac.",
         "tweetUrl": "https://x.com/thsottiaux/status/2044879705174839440",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.98,
-        "evaluatedAt": 1776373001813,
-        "inputTokens": 372,
-        "outputTokens": 143,
-        "rationale": "This reply is just conversational and does not mention limits, caps, or a reset.",
-        "reasoningTokens": 98,
-        "totalTokens": 515,
-        "tweetId": "2044879347950240051",
-        "tweetText": "@simpsoka ... no way https://t.co/NQyr5e4N4F",
-        "tweetUrl": "https://x.com/thsottiaux/status/2044879347950240051",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 50772,
-      "totalOutputTokens": 14982,
-      "totalReasoningTokens": 7897,
-      "totalTokens": 65754
+      "totalInputTokens": 51153,
+      "totalOutputTokens": 15064,
+      "totalReasoningTokens": 7932,
+      "totalTokens": 66217
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1776883822832,
+      "inputTokens": 381,
+      "message": "",
+      "outputTokens": 82,
+      "rationale": "This reply discusses another topic and does not mention limits, caps, or usage becoming available again.",
+      "reasoningTokens": 35,
+      "totalTokens": 463,
+      "tweetId": "2047024660135751842",
+      "tweetText": "@badlogicgames @steipete Agreed with your take here. Don't think pi is the issue and 2] should get fixed too.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2047024660135751842",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1776883818410,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2044813419908624604",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1776355709169,
-      "inputTokens": 358,
-      "message": "",
-      "outputTokens": 87,
-      "rationale": "This is just a casual remark and does not mention limits, caps, or usage becoming available again.",
-      "reasoningTokens": 39,
-      "totalTokens": 445,
-      "tweetId": "2044803491332526287",
-      "tweetText": "Feeling codexy today",
-      "tweetUrl": "https://x.com/thsottiaux/status/2044803491332526287",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "bFi9xui3sB72Gabj4IaJGJ1ltB7hNSG5ON9tuhSPPuzzmnnpztubCC4sXQ",
-    "iv": "6HIWoCL2PWTl65dW",
-    "tag": "Cdh2yiIKz7j0dg2T0FET1w",
+    "ciphertext": "gRlsdYPFVGh7DU-sqfsNLHcCPGAShX8MJMBURd6Ciq1jODkuWP7xksKNMQ",
+    "iv": "4DLl6Em4tkU7xEtb",
+    "tag": "iqMlh8oQmXAZO73uiqimpQ",
     "version": 1
   }
 }
