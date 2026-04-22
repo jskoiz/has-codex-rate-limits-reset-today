@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1776883822832,
-      "rationale": "This reply discusses another topic and does not mention limits, caps, or usage becoming available again.",
-      "tweetId": "2047024660135751842",
-      "tweetUrl": "https://x.com/thsottiaux/status/2047024660135751842",
+      "decidedAt": 1776883826601,
+      "rationale": "This reply is just conversational and does not mention limits, caps, or a reset.",
+      "tweetId": "2047024731220857011",
+      "tweetUrl": "https://x.com/thsottiaux/status/2047024731220857011",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2047024660135751842",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2047024660135751842",
+    "lastSeenTweetId": "2047024731220857011",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2047024731220857011",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1776883826601,
+        "inputTokens": 365,
+        "outputTokens": 84,
+        "rationale": "This reply is just conversational and does not mention limits, caps, or a reset.",
+        "reasoningTokens": 39,
+        "totalTokens": 449,
+        "tweetId": "2047024731220857011",
+        "tweetText": "@CalimanuLoredan @steipete Do tag",
+        "tweetUrl": "https://x.com/thsottiaux/status/2047024731220857011",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1776883822832,
@@ -272,29 +285,31 @@
         "tweetText": "@ol_bowman No. Codex works for me.",
         "tweetUrl": "https://x.com/thsottiaux/status/2044879832438497342",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1776373007119,
-        "inputTokens": 376,
-        "outputTokens": 77,
-        "rationale": "This reply discusses feature availability by region and platform, not any limit or cap reset.",
-        "reasoningTokens": 32,
-        "totalTokens": 453,
-        "tweetId": "2044879705174839440",
-        "tweetText": "@mark_k Available worldwide except UK &amp; EU. And available for all platforms, with computer use only on Mac.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2044879705174839440",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 51153,
-      "totalOutputTokens": 15064,
-      "totalReasoningTokens": 7932,
-      "totalTokens": 66217
+      "totalInputTokens": 51518,
+      "totalOutputTokens": 15148,
+      "totalReasoningTokens": 7971,
+      "totalTokens": 66666
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1776883826601,
+      "inputTokens": 365,
+      "message": "",
+      "outputTokens": 84,
+      "rationale": "This reply is just conversational and does not mention limits, caps, or a reset.",
+      "reasoningTokens": 39,
+      "totalTokens": 449,
+      "tweetId": "2047024731220857011",
+      "tweetText": "@CalimanuLoredan @steipete Do tag",
+      "tweetUrl": "https://x.com/thsottiaux/status/2047024731220857011",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1776883822832,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2044826325173879269",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1776361397662,
-      "inputTokens": 357,
-      "message": "",
-      "outputTokens": 108,
-      "rationale": "This reply is just conversational and gives no indication that any limits have reset.",
-      "reasoningTokens": 65,
-      "totalTokens": 465,
-      "tweetId": "2044813419908624604",
-      "tweetText": "@KaiXCreator Guess",
-      "tweetUrl": "https://x.com/thsottiaux/status/2044813419908624604",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "gRlsdYPFVGh7DU-sqfsNLHcCPGAShX8MJMBURd6Ciq1jODkuWP7xksKNMQ",
-    "iv": "4DLl6Em4tkU7xEtb",
-    "tag": "iqMlh8oQmXAZO73uiqimpQ",
+    "ciphertext": "5guwkCVaCoNQ_fK2ntlSgmI4efZFQBPzVnPkiDEC6xT2dqnoJHHpRt_8PQ",
+    "iv": "6olixyBK5FzlKxzx",
+    "tag": "C68g8nRMD3Mvr1a5S6OaLQ",
     "version": 1
   }
 }
