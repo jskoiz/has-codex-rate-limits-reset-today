@@ -5,6 +5,7 @@ import {
   compareTweetIds,
   fetchRecentTweetsFromRettiwt,
   getUnseenTweets,
+  isAuthorizedAutomationRequest,
   isAuthoredTimelineTweet,
   runResetMonitor,
 } from "../api/_lib/reset-monitor.mjs";
@@ -114,6 +115,48 @@ test("fetchRecentTweetsFromRettiwt falls back to user timelines when search fail
   assert.deepEqual(
     tweets.map((tweet) => tweet.id),
     ["110"],
+  );
+});
+
+test("fetchRecentTweetsFromRettiwt uses the known target user id when user details lookup is broken", async () => {
+  const recentTimelineTweet = createTweet("111", {
+    createdAt: "2026-03-12T12:00:00.000Z",
+  });
+  const startDate = new Date("2026-03-12T00:00:00.000Z");
+  const calls = [];
+
+  const tweets = await fetchRecentTweetsFromRettiwt(
+    {
+      tweet: {
+        search: async () => ({ list: [] }),
+      },
+      user: {
+        details: async () => {
+          throw new Error("Cannot read properties of undefined (reading '0')");
+        },
+        replies: async (userId) => {
+          calls.push(["replies", userId]);
+          return { list: [] };
+        },
+        timeline: async (userId) => {
+          calls.push(["timeline", userId]);
+          return { list: [recentTimelineTweet] };
+        },
+      },
+    },
+    startDate,
+  );
+
+  assert.deepEqual(
+    calls,
+    [
+      ["timeline", "1953337039510003712"],
+      ["replies", "1953337039510003712"],
+    ],
+  );
+  assert.deepEqual(
+    tweets.map((tweet) => tweet.id),
+    ["111"],
   );
 });
 
@@ -369,4 +412,42 @@ test("runResetMonitor records wrapped provider errors without collapsing to unkn
   );
 
   assert.deepEqual(recorded, ["Tweet fetch failed: Unknown error (Couldn't get KEY_BYTE indices)"]);
+});
+
+test("isAuthorizedAutomationRequest accepts normalized bearer tokens", async () => {
+  const previousSecret = process.env.CRON_SECRET;
+  process.env.CRON_SECRET = '  "test-secret"  ';
+
+  try {
+    assert.equal(
+      isAuthorizedAutomationRequest({
+        headers: new Headers({
+          authorization: "Bearer test-secret",
+        }),
+      }),
+      true,
+    );
+    assert.equal(
+      isAuthorizedAutomationRequest({
+        headers: new Headers({
+          authorization: 'Bearer "test-secret"',
+        }),
+      }),
+      true,
+    );
+    assert.equal(
+      isAuthorizedAutomationRequest({
+        headers: new Headers({
+          authorization: "Bearer wrong-secret",
+        }),
+      }),
+      false,
+    );
+  } finally {
+    if (previousSecret === undefined) {
+      delete process.env.CRON_SECRET;
+    } else {
+      process.env.CRON_SECRET = previousSecret;
+    }
+  }
 });
