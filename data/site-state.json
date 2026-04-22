@@ -14,18 +14,31 @@
   "updatedAt": 1776463021442,
   "automation": {
     "lastDecision": {
-      "confidence": 0.98,
-      "decidedAt": 1776872407447,
-      "rationale": "This reply only asks a question and does not say limits or usage have reset.",
-      "tweetId": "2046724705563160898",
-      "tweetUrl": "https://x.com/thsottiaux/status/2046724705563160898",
+      "confidence": 0.99,
+      "decidedAt": 1776872411035,
+      "rationale": "This discusses plan availability and a signup test, not that any usage cap or rate limit has reset.",
+      "tweetId": "2046740759056162816",
+      "tweetUrl": "https://x.com/thsottiaux/status/2046740759056162816",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2046724705563160898",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2046724705563160898",
+    "lastSeenTweetId": "2046740759056162816",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2046740759056162816",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1776872411035,
+        "inputTokens": 509,
+        "outputTokens": 133,
+        "rationale": "This discusses plan availability and a signup test, not that any usage cap or rate limit has reset.",
+        "reasoningTokens": 85,
+        "totalTokens": 642,
+        "tweetId": "2046740759056162816",
+        "tweetText": "I don't know what they are doing over there, but Codex will continue to be available both in the FREE and PLUS ($20) plans. We have the compute and efficient models to support it. For important changes, we will engage with the community well ahead of making them.\n\nTransparency and trust are two principles we will not break, even if it means momentarily earning less. A reminder that you vote with your subscription for the values you want to see in this world.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2046740759056162816",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.98,
         "evaluatedAt": 1776872407447,
@@ -272,29 +285,31 @@
         "tweetText": "@wryter_the Spread the word",
         "tweetUrl": "https://x.com/thsottiaux/status/2044866881161711986",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1776369344828,
-        "inputTokens": 362,
-        "outputTokens": 88,
-        "rationale": "This reply is about cleaning something up and does not mention limits or a reset.",
-        "reasoningTokens": 44,
-        "totalTokens": 450,
-        "tweetId": "2044866639536312492",
-        "tweetText": "@pedromatosonv We'll clean this up",
-        "tweetUrl": "https://x.com/thsottiaux/status/2044866639536312492",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 49058,
-      "totalOutputTokens": 14671,
-      "totalReasoningTokens": 7735,
-      "totalTokens": 63729
+      "totalInputTokens": 49567,
+      "totalOutputTokens": 14804,
+      "totalReasoningTokens": 7820,
+      "totalTokens": 64371
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1776872411035,
+      "inputTokens": 509,
+      "message": "",
+      "outputTokens": 133,
+      "rationale": "This discusses plan availability and a signup test, not that any usage cap or rate limit has reset.",
+      "reasoningTokens": 85,
+      "totalTokens": 642,
+      "tweetId": "2046740759056162816",
+      "tweetText": "I don't know what they are doing over there, but Codex will continue to be available both in the FREE and PLUS ($20) plans. We have the compute and efficient models to support it. For important changes, we will engage with the community well ahead of making them.\n\nTransparency and trust are two principles we will not break, even if it means momentarily earning less. A reminder that you vote with your subscription for the values you want to see in this world.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2046740759056162816",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.98,
       "createdAt": 1776872407448,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2044591035532378511",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1776307029554,
-      "inputTokens": 362,
-      "message": "",
-      "outputTokens": 77,
-      "rationale": "This reply does not mention limits, caps, or usage becoming available again.",
-      "reasoningTokens": 34,
-      "totalTokens": 439,
-      "tweetId": "2044579877685493925",
-      "tweetText": "@joannejang you need a skill for that",
-      "tweetUrl": "https://x.com/thsottiaux/status/2044579877685493925",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "RnfUNgQIbCEg13KXLoA1ljY9ZuV7NyB69dBx9dEyAtTilEFo9JC97Inkgw",
-    "iv": "FApNlUpm_SVC7YJ6",
-    "tag": "CtnIe490kgDheFav77qNlg",
+    "ciphertext": "k3kFzAtSBgMWEWUEmbVEVfCMJ0APJfGJRA0sWJb-2PHEwpetQUg1UpKcRw",
+    "iv": "lmbmY9Uac01VjS5L",
+    "tag": "KZbc1d6_tioMGx2vjzaLEg",
     "version": 1
   }
 }
