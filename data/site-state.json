@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1776879885471,
-      "rationale": "This post is about OpenClaw/OpenAI integration and using ChatGPT with a subscription, not about any rate limit or cap…",
-      "tweetId": "2047000994354241562",
-      "tweetUrl": "https://x.com/thsottiaux/status/2047000994354241562",
+      "decidedAt": 1776883818410,
+      "rationale": "This post promotes workspace agents and does not mention any limit, cap, or rate reset.",
+      "tweetId": "2047023723459555472",
+      "tweetUrl": "https://x.com/thsottiaux/status/2047023723459555472",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2047000994354241562",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2047000994354241562",
+    "lastSeenTweetId": "2047023723459555472",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2047023723459555472",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1776883818410,
+        "inputTokens": 452,
+        "outputTokens": 70,
+        "rationale": "This post promotes workspace agents and does not mention any limit, cap, or rate reset.",
+        "reasoningTokens": 24,
+        "totalTokens": 522,
+        "tweetId": "2047023723459555472",
+        "tweetText": "Workspace agents are surprisingly powerful. Powered by Codex under the hood, the same implementation we have open-sourced here: https://t.co/2TH56VNxnb",
+        "tweetUrl": "https://x.com/thsottiaux/status/2047023723459555472",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1776879885471,
@@ -272,29 +285,31 @@
         "tweetText": "@simpsoka ... no way https://t.co/NQyr5e4N4F",
         "tweetUrl": "https://x.com/thsottiaux/status/2044879347950240051",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1776372997268,
-        "inputTokens": 363,
-        "outputTokens": 79,
-        "rationale": "This reply is just an apology and does not mention limits, caps, or availability resetting.",
-        "reasoningTokens": 33,
-        "totalTokens": 442,
-        "tweetId": "2044878968059470228",
-        "tweetText": "@badlogicgames I am sorry about the xhigh.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2044878968059470228",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 50320,
-      "totalOutputTokens": 14912,
-      "totalReasoningTokens": 7873,
-      "totalTokens": 65232
+      "totalInputTokens": 50772,
+      "totalOutputTokens": 14982,
+      "totalReasoningTokens": 7897,
+      "totalTokens": 65754
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1776883818410,
+      "inputTokens": 452,
+      "message": "",
+      "outputTokens": 70,
+      "rationale": "This post promotes workspace agents and does not mention any limit, cap, or rate reset.",
+      "reasoningTokens": 24,
+      "totalTokens": 522,
+      "tweetId": "2047023723459555472",
+      "tweetText": "Workspace agents are surprisingly powerful. Powered by Codex under the hood, the same implementation we have open-sourced here: https://t.co/2TH56VNxnb",
+      "tweetUrl": "https://x.com/thsottiaux/status/2047023723459555472",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1776879885471,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2044803491332526287",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1776323248100,
-      "inputTokens": 368,
-      "message": "",
-      "outputTokens": 82,
-      "rationale": "This reply is about sending an iPad and does not mention limits, caps, or reset availability.",
-      "reasoningTokens": 34,
-      "totalTokens": 450,
-      "tweetId": "2044671544946004104",
-      "tweetText": "@amorriscode Send me your address and I’ll send you the iPad",
-      "tweetUrl": "https://x.com/thsottiaux/status/2044671544946004104",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "3F9XHsLOcOerrwRqPOV_UwWuVr0-JpWawFdZf6qvU2PwhtXGg5e3DZ7VBQ",
-    "iv": "_vtLTARuTLXUswb0",
-    "tag": "Ljzv0Mw3QS3etGz_w9KVsA",
+    "ciphertext": "bFi9xui3sB72Gabj4IaJGJ1ltB7hNSG5ON9tuhSPPuzzmnnpztubCC4sXQ",
+    "iv": "6HIWoCL2PWTl65dW",
+    "tag": "Cdh2yiIKz7j0dg2T0FET1w",
     "version": 1
   }
 }
