@@ -4,6 +4,7 @@ import { Resend } from "resend";
 import { buildNextState, getEnvValue, readSiteState, updateSiteState } from "./site-state.mjs";
 
 const TARGET_USERNAME = "thsottiaux";
+const TARGET_USER_ID = "1953337039510003712";
 const DEFAULT_MODEL = "gpt-5.4";
 const RECENT_TWEET_LOOKBACK_DAYS = 1;
 const SEARCH_BATCH_SIZE = 20;
@@ -108,6 +109,16 @@ const getErrorMessage = (error) => {
   }
 
   return "";
+};
+
+const normalizeSecretValue = (value) =>
+  typeof value === "string" ? value.trim().replace(/^"+|"+$/g, "") : "";
+
+const getAuthorizationBearerToken = (request) => {
+  const authorization = request?.headers?.get("authorization") || "";
+  const match = authorization.match(/^Bearer\s+(.+)$/i);
+
+  return normalizeSecretValue(match?.[1] || "");
 };
 
 const describeAutomationError = (error, fallback = "Unknown reset monitor error") => {
@@ -422,13 +433,29 @@ const recordAutomationError = async (message) => {
 const getRecentTweetSearchStartDate = () =>
   new Date(Date.now() - RECENT_TWEET_LOOKBACK_DAYS * 24 * 60 * 60 * 1000);
 
-const fetchRecentTweetsFromUserFallback = async (rettiwt, startDate) => {
+const resolveTargetUserId = async (rettiwt) => {
+  const configuredUserId = normalizeSecretValue(getEnvValue("TARGET_USER_ID", ""));
+
+  if (configuredUserId) {
+    return configuredUserId;
+  }
+
+  if (TARGET_USER_ID) {
+    return TARGET_USER_ID;
+  }
+
   const user = await rettiwt.user.details(TARGET_USERNAME);
   const userId = typeof user?.id === "string" ? user.id : "";
 
-  if (!userId) {
-    throw new Error(`Unable to resolve @${TARGET_USERNAME} for timeline fallback`);
+  if (userId) {
+    return userId;
   }
+
+  throw new Error(`Unable to resolve @${TARGET_USERNAME} for timeline fallback`);
+};
+
+const fetchRecentTweetsFromUserFallback = async (rettiwt, startDate) => {
+  const userId = await resolveTargetUserId(rettiwt);
 
   const timelineResponses = await Promise.allSettled([
     rettiwt.user.timeline(userId, SEARCH_BATCH_SIZE),
@@ -676,13 +703,17 @@ const markTweetAsResetConfirmed = async (tweet, classification) =>
   });
 
 export const isAuthorizedAutomationRequest = (request) => {
-  const secret = getEnvValue("CRON_SECRET", "");
+  const providedToken = getAuthorizationBearerToken(request);
+  const configuredSecrets = [
+    getEnvValue("CRON_SECRET", ""),
+    normalizeSecretValue(getEnvValue("CRON_SECRET", "")),
+  ].filter(Boolean);
 
-  if (!secret) {
+  if (!providedToken || configuredSecrets.length === 0) {
     return false;
   }
 
-  return request.headers.get("authorization") === `Bearer ${secret}`;
+  return configuredSecrets.includes(providedToken);
 };
 
 export const runResetMonitor = async (deps = {}) => {
