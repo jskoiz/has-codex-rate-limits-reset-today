@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1776872397783,
-      "rationale": "This reply is about Intel chip support and does not mention limits, caps, or usage resetting.",
-      "tweetId": "2046706812611915879",
-      "tweetUrl": "https://x.com/thsottiaux/status/2046706812611915879",
+      "decidedAt": 1776872402391,
+      "rationale": "This reply is unrelated to ChatGPT or Codex usage limits or resets.",
+      "tweetId": "2046713247362146559",
+      "tweetUrl": "https://x.com/thsottiaux/status/2046713247362146559",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2046706812611915879",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2046706812611915879",
+    "lastSeenTweetId": "2046713247362146559",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2046713247362146559",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1776872402391,
+        "inputTokens": 365,
+        "outputTokens": 100,
+        "rationale": "This reply is unrelated to ChatGPT or Codex usage limits or resets.",
+        "reasoningTokens": 57,
+        "totalTokens": 465,
+        "tweetId": "2046713247362146559",
+        "tweetText": "@ajambrosino I thought you said you hand painted those",
+        "tweetUrl": "https://x.com/thsottiaux/status/2046713247362146559",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1776872397783,
@@ -272,29 +285,31 @@
         "tweetText": "@JamesBuildsTech Codex loves you back",
         "tweetUrl": "https://x.com/thsottiaux/status/2044865957815026000",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1776369337087,
-        "inputTokens": 361,
-        "outputTokens": 86,
-        "rationale": "This reply does not mention limits, caps, or usage becoming available again.",
-        "reasoningTokens": 43,
-        "totalTokens": 447,
-        "tweetId": "2044865908209041821",
-        "tweetText": "@RedardidLLM Sorry Meep",
-        "tweetUrl": "https://x.com/thsottiaux/status/2044865908209041821",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 48332,
-      "totalOutputTokens": 14468,
-      "totalReasoningTokens": 7619,
-      "totalTokens": 62800
+      "totalInputTokens": 48697,
+      "totalOutputTokens": 14568,
+      "totalReasoningTokens": 7676,
+      "totalTokens": 63265
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1776872402391,
+      "inputTokens": 365,
+      "message": "",
+      "outputTokens": 100,
+      "rationale": "This reply is unrelated to ChatGPT or Codex usage limits or resets.",
+      "reasoningTokens": 57,
+      "totalTokens": 465,
+      "tweetId": "2046713247362146559",
+      "tweetText": "@ajambrosino I thought you said you hand painted those",
+      "tweetUrl": "https://x.com/thsottiaux/status/2046713247362146559",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1776872397783,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2044537562686230935",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.98,
-      "createdAt": 1776287241328,
-      "inputTokens": 360,
-      "message": "",
-      "outputTokens": 129,
-      "rationale": "This reply is just conversational and does not mention limits, caps, or availability resetting.",
-      "reasoningTokens": 84,
-      "totalTokens": 489,
-      "tweetId": "2044510245998023117",
-      "tweetText": "@om_patel5 QUIETLY",
-      "tweetUrl": "https://x.com/thsottiaux/status/2044510245998023117",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "Oc35BhJmPOEaZkrFky62N5gFWGaa-IqlazBB534YXC7XpXBwWrnd9Wqk9g",
-    "iv": "5vJPYcN9TTxGIjNH",
-    "tag": "a-ukKkLZMC-17P6u0ql_LA",
+    "ciphertext": "TpHhXHI9BWr0nMJsGEjCcTBPjIb7z93ts7sVObB96pmZcROkzYsZ7RWrYA",
+    "iv": "Z6uTCfili9osGp0R",
+    "tag": "aiqI2oHQGHrBaH9fjBsXIQ",
     "version": 1
   }
 }
