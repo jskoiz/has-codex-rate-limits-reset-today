@@ -14,18 +14,31 @@
   "updatedAt": 1776463021442,
   "automation": {
     "lastDecision": {
-      "confidence": 0.98,
-      "decidedAt": 1776872383381,
-      "rationale": "This reply discusses usage cost, not a reset or restored availability of limits.",
-      "tweetId": "2046666587147837517",
-      "tweetUrl": "https://x.com/thsottiaux/status/2046666587147837517",
+      "confidence": 0.99,
+      "decidedAt": 1776872387142,
+      "rationale": "This post is a product update and user milestone, with no mention of limits, caps, or reset status.",
+      "tweetId": "2046678531695104187",
+      "tweetUrl": "https://x.com/thsottiaux/status/2046678531695104187",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2046666587147837517",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2046666587147837517",
+    "lastSeenTweetId": "2046678531695104187",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2046678531695104187",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1776872387142,
+        "inputTokens": 427,
+        "outputTokens": 79,
+        "rationale": "This post is a product update and user milestone, with no mention of limits, caps, or reset status.",
+        "reasoningTokens": 29,
+        "totalTokens": 506,
+        "tweetId": "2046678531695104187",
+        "tweetText": "New image model is now the default in Codex. It's incredible as a starting point for building websites or to generate assets for video games and codex can use it as any other tool in its toolkit.\n\nAsked Codex what it pictures my day looks like given we hit 4M active users today. https://t.co/DTIUQHGfne",
+        "tweetUrl": "https://x.com/thsottiaux/status/2046678531695104187",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.98,
         "evaluatedAt": 1776872383381,
@@ -272,29 +285,31 @@
         "tweetText": "@theo Waiting for your video",
         "tweetUrl": "https://x.com/thsottiaux/status/2044862020680626186",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1776365446038,
-        "inputTokens": 362,
-        "outputTokens": 91,
-        "rationale": "This reply is just expressing affection for Codex and says nothing about limits or availability resetting.",
-        "reasoningTokens": 45,
-        "totalTokens": 453,
-        "tweetId": "2044830121996210247",
-        "tweetText": "@nylric17 I love Codex too",
-        "tweetUrl": "https://x.com/thsottiaux/status/2044830121996210247",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 46812,
-      "totalOutputTokens": 14106,
-      "totalReasoningTokens": 7445,
-      "totalTokens": 60918
+      "totalInputTokens": 47239,
+      "totalOutputTokens": 14185,
+      "totalReasoningTokens": 7474,
+      "totalTokens": 61424
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1776872387142,
+      "inputTokens": 427,
+      "message": "",
+      "outputTokens": 79,
+      "rationale": "This post is a product update and user milestone, with no mention of limits, caps, or reset status.",
+      "reasoningTokens": 29,
+      "totalTokens": 506,
+      "tweetId": "2046678531695104187",
+      "tweetText": "New image model is now the default in Codex. It's incredible as a starting point for building websites or to generate assets for video games and codex can use it as any other tool in its toolkit.\n\nAsked Codex what it pictures my day looks like given we hit 4M active users today. https://t.co/DTIUQHGfne",
+      "tweetUrl": "https://x.com/thsottiaux/status/2046678531695104187",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.98,
       "createdAt": 1776872383381,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2044422877093749125",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1776202333706,
-      "inputTokens": 363,
-      "message": "",
-      "outputTokens": 92,
-      "rationale": "This is just a reply asking about iPad availability, not about limits or a reset.",
-      "reasoningTokens": 46,
-      "totalTokens": 455,
-      "tweetId": "2044166666570084375",
-      "tweetText": "@amorriscode Is it available on my iPad?",
-      "tweetUrl": "https://x.com/thsottiaux/status/2044166666570084375",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "T2TLYdLXH74y7OTmMn89R51mx94DKD0j7Nj6CcT6iIBRnUd_5Lj2TrQNpg",
-    "iv": "czX3fru4zhvk0L1B",
-    "tag": "PC31S7LW88V3RIMWuSlSPg",
+    "ciphertext": "IVt0PL2qefW58e1hsL4qM04c-ghQXzZR2mbfbJj3YwiCvY7nj5z2jwg8gA",
+    "iv": "R5cNrEAp_PaerR-s",
+    "tag": "xoK_OHeLaMv1wBNyp2MDtA",
     "version": 1
   }
 }
