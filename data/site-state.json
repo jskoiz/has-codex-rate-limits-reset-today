@@ -21,7 +21,7 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2047024731220857011",
       "verdict": "not_reset"
     },
-    "lastError": null,
+    "lastError": "Tweet fetch failed: Tweet search failed: Cannot read properties of undefined (reading '0'); timeline fallback failed: Cannot read properties of undefined (reading '0') (Cannot read properties of undefined (reading '0')) (Tweet search failed: Cannot read properties of undefined (reading '0'); timeline fallback failed: Cannot read properties of undefined (reading '0'))",
     "lastSeenTweetId": "2047024731220857011",
     "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2047024731220857011",
     "pendingReview": null,
@@ -296,6 +296,21 @@
   },
   "automationEvents": [
     {
+      "confidence": 0,
+      "createdAt": 1776887982258,
+      "inputTokens": 0,
+      "message": "Tweet fetch failed: Tweet search failed: Cannot read properties of undefined (reading '0'); timeline fallback failed: Cannot read properties of undefined (reading '0') (Cannot read properties of undefined (reading '0')) (Tweet search failed: Cannot read properties of undefined (reading '0'); timeline fallback failed: Cannot read properties of undefined (reading '0'))",
+      "outputTokens": 0,
+      "rationale": "",
+      "reasoningTokens": 0,
+      "totalTokens": 0,
+      "tweetId": null,
+      "tweetText": "",
+      "tweetUrl": null,
+      "type": "error",
+      "verdict": null
+    },
+    {
       "confidence": 0.99,
       "createdAt": 1776883826601,
       "inputTokens": 365,
@@ -504,21 +519,6 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2046665920563839288",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0,
-      "createdAt": 1776803538410,
-      "inputTokens": 0,
-      "message": "Tweet fetch failed: Tweet search failed: Cannot read properties of undefined (reading '0'); timeline fallback failed: Cannot read properties of undefined (reading '0') (Cannot read properties of undefined (reading '0')) (Tweet search failed: Cannot read properties of undefined (reading '0'); timeline fallback failed: Cannot read properties of undefined (reading '0'))",
-      "outputTokens": 0,
-      "rationale": "",
-      "reasoningTokens": 0,
-      "totalTokens": 0,
-      "tweetId": null,
-      "tweetText": "",
-      "tweetUrl": null,
-      "type": "error",
-      "verdict": null
     },
     {
       "confidence": 0,
@@ -897,9 +897,9 @@
     }
   ],
   "privateState": {
-    "ciphertext": "5guwkCVaCoNQ_fK2ntlSgmI4efZFQBPzVnPkiDEC6xT2dqnoJHHpRt_8PQ",
-    "iv": "6olixyBK5FzlKxzx",
-    "tag": "C68g8nRMD3Mvr1a5S6OaLQ",
+    "ciphertext": "rvPNuQIaqq6kK0MHTFeaQ3PwXIo7y7dS8wkWhD7bRDPdC-N1ooAUnytzBA",
+    "iv": "UVVE7l2hjY2E0tVV",
+    "tag": "ZVRFrOBHGpiDOHhf7fUYlQ",
     "version": 1
   }
 }
