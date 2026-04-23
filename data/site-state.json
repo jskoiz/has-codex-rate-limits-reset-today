@@ -15,16 +15,16 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1776973259373,
-      "rationale": "This post is just chatting about using GPT-5.5 and Codex, not about limits or resets.",
-      "tweetCreatedAt": "2026-04-23T18:25:38.000Z",
-      "tweetId": "2047381399242743858",
-      "tweetUrl": "https://x.com/thsottiaux/status/2047381399242743858",
+      "decidedAt": 1776973263203,
+      "rationale": "This post is a product update about new Codex features, not a statement that limits or caps reset.",
+      "tweetCreatedAt": "2026-04-23T18:47:58.000Z",
+      "tweetId": "2047387017974337611",
+      "tweetUrl": "https://x.com/thsottiaux/status/2047387017974337611",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2047381399242743858",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2047381399242743858",
+    "lastSeenTweetId": "2047387017974337611",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2047387017974337611",
     "pendingReview": {
       "confidence": 0.97,
       "createdAt": 1776967748996,
@@ -35,6 +35,20 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2047375806813573444"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1776973263203,
+        "inputTokens": 504,
+        "outputTokens": 127,
+        "rationale": "This post is a product update about new Codex features, not a statement that limits or caps reset.",
+        "reasoningTokens": 78,
+        "totalTokens": 631,
+        "tweetCreatedAt": "2026-04-23T18:47:58.000Z",
+        "tweetId": "2047387017974337611",
+        "tweetText": "Stop tweeting for a hot minute and update your Codex App to find full browser use, global dictation, non-dev mode, a new auto-review mode that is much safer than yolo, in-app docs and PDF viewer, and ... GPT-5.5.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2047387017974337611",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1776973259373,
@@ -300,30 +314,32 @@
         "tweetText": "@badlogicgames @steipete Agreed with your take here. Don't think pi is the issue and 2] should get fixed too.",
         "tweetUrl": "https://x.com/thsottiaux/status/2047024660135751842",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1776883818410,
-        "inputTokens": 452,
-        "outputTokens": 70,
-        "rationale": "This post promotes workspace agents and does not mention any limit, cap, or rate reset.",
-        "reasoningTokens": 24,
-        "totalTokens": 522,
-        "tweetCreatedAt": null,
-        "tweetId": "2047023723459555472",
-        "tweetText": "Workspace agents are surprisingly powerful. Powered by Codex under the hood, the same implementation we have open-sourced here: https://t.co/2TH56VNxnb",
-        "tweetUrl": "https://x.com/thsottiaux/status/2047023723459555472",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 57992,
-      "totalOutputTokens": 17097,
-      "totalReasoningTokens": 9145,
-      "totalTokens": 75089
+      "totalInputTokens": 58496,
+      "totalOutputTokens": 17224,
+      "totalReasoningTokens": 9223,
+      "totalTokens": 75720
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1776973263203,
+      "inputTokens": 504,
+      "message": "",
+      "outputTokens": 127,
+      "rationale": "This post is a product update about new Codex features, not a statement that limits or caps reset.",
+      "reasoningTokens": 78,
+      "totalTokens": 631,
+      "tweetCreatedAt": "2026-04-23T18:47:58.000Z",
+      "tweetId": "2047387017974337611",
+      "tweetText": "Stop tweeting for a hot minute and update your Codex App to find full browser use, global dictation, non-dev mode, a new auto-review mode that is much safer than yolo, in-app docs and PDF viewer, and ... GPT-5.5.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2047387017974337611",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1776973259373,
@@ -947,28 +963,12 @@
       "tweetUrl": null,
       "type": "error",
       "verdict": null
-    },
-    {
-      "confidence": 0.13,
-      "createdAt": 1776384254089,
-      "inputTokens": 364,
-      "message": "",
-      "outputTokens": 215,
-      "rationale": "This reply just says “Yes” and lacks enough visible context to confirm a rate-limit reset.",
-      "reasoningTokens": 168,
-      "totalTokens": 579,
-      "tweetCreatedAt": null,
-      "tweetId": "2044926508691808634",
-      "tweetText": "@KarunaSivam @wryter_the Yes",
-      "tweetUrl": "https://x.com/thsottiaux/status/2044926508691808634",
-      "type": "review_requested",
-      "verdict": "uncertain"
     }
   ],
   "privateState": {
-    "ciphertext": "bkFv_ABU5BlUq-SqoE8AbwR9C9VQh1IoFNWEHjVEgggKoZOYKMvxWtf0lg",
-    "iv": "MdQc6Z6zO_i31yqC",
-    "tag": "Aoz6oK02ApTo5OeyRO5ugQ",
+    "ciphertext": "onHvX31PECBkGLnOlNspLvVm-ZRBJggqhUuyzuMz11F_Gi6he8zkdGyP2g",
+    "iv": "aDzjtBUJ6X0qaYUb",
+    "tag": "_-yEK8Lcbxd_84S99fAguA",
     "version": 1
   }
 }
