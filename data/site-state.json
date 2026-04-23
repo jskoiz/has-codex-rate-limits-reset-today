@@ -14,19 +14,41 @@
   "updatedAt": 1776463021442,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1776967742668,
-      "rationale": "This post is about office WiFi rebooting, not ChatGPT or Codex usage limits resetting.",
-      "tweetCreatedAt": "2026-04-23T17:27:01.000Z",
-      "tweetId": "2047366644922716349",
-      "tweetUrl": "https://x.com/thsottiaux/status/2047366644922716349",
-      "verdict": "not_reset"
+      "confidence": 0.97,
+      "decidedAt": 1776967748996,
+      "rationale": "This reply only shows eyes emoji and does not clearly say any limit or cap has reset.",
+      "tweetCreatedAt": "2026-04-23T18:03:25.000Z",
+      "tweetId": "2047375806813573444",
+      "tweetUrl": "https://x.com/thsottiaux/status/2047375806813573444",
+      "verdict": "uncertain"
     },
     "lastError": null,
-    "lastSeenTweetId": "2047366644922716349",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2047366644922716349",
-    "pendingReview": null,
+    "lastSeenTweetId": "2047375806813573444",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2047375806813573444",
+    "pendingReview": {
+      "confidence": 0.97,
+      "createdAt": 1776967748996,
+      "rationale": "This reply only shows eyes emoji and does not clearly say any limit or cap has reset.",
+      "tweetCreatedAt": "2026-04-23T18:03:25.000Z",
+      "tweetId": "2047375806813573444",
+      "tweetText": "@mweinbach 👀",
+      "tweetUrl": "https://x.com/thsottiaux/status/2047375806813573444"
+    },
     "recentEvaluations": [
+      {
+        "confidence": 0.97,
+        "evaluatedAt": 1776967748996,
+        "inputTokens": 358,
+        "outputTokens": 137,
+        "rationale": "This reply only shows eyes emoji and does not clearly say any limit or cap has reset.",
+        "reasoningTokens": 91,
+        "totalTokens": 495,
+        "tweetCreatedAt": "2026-04-23T18:03:25.000Z",
+        "tweetId": "2047375806813573444",
+        "tweetText": "@mweinbach 👀",
+        "tweetUrl": "https://x.com/thsottiaux/status/2047375806813573444",
+        "verdict": "uncertain"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1776967742668,
@@ -292,30 +314,32 @@
         "tweetText": "@TheGeorgePu Codex is this true?",
         "tweetUrl": "https://x.com/thsottiaux/status/2046724705563160898",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1776872402391,
-        "inputTokens": 365,
-        "outputTokens": 100,
-        "rationale": "This reply is unrelated to ChatGPT or Codex usage limits or resets.",
-        "reasoningTokens": 57,
-        "totalTokens": 465,
-        "tweetCreatedAt": null,
-        "tweetId": "2046713247362146559",
-        "tweetText": "@ajambrosino I thought you said you hand painted those",
-        "tweetUrl": "https://x.com/thsottiaux/status/2046713247362146559",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 56450,
-      "totalOutputTokens": 16679,
-      "totalReasoningTokens": 8918,
-      "totalTokens": 73129
+      "totalInputTokens": 56808,
+      "totalOutputTokens": 16816,
+      "totalReasoningTokens": 9009,
+      "totalTokens": 73624
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.97,
+      "createdAt": 1776967748996,
+      "inputTokens": 358,
+      "message": "",
+      "outputTokens": 137,
+      "rationale": "This reply only shows eyes emoji and does not clearly say any limit or cap has reset.",
+      "reasoningTokens": 91,
+      "totalTokens": 495,
+      "tweetCreatedAt": "2026-04-23T18:03:25.000Z",
+      "tweetId": "2047375806813573444",
+      "tweetText": "@mweinbach 👀",
+      "tweetUrl": "https://x.com/thsottiaux/status/2047375806813573444",
+      "type": "review_requested",
+      "verdict": "uncertain"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1776967742668,
@@ -939,28 +963,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2044879832438497342",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1776373007119,
-      "inputTokens": 376,
-      "message": "",
-      "outputTokens": 77,
-      "rationale": "This reply discusses feature availability by region and platform, not any limit or cap reset.",
-      "reasoningTokens": 32,
-      "totalTokens": 453,
-      "tweetCreatedAt": null,
-      "tweetId": "2044879705174839440",
-      "tweetText": "@mark_k Available worldwide except UK &amp; EU. And available for all platforms, with computer use only on Mac.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2044879705174839440",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "LPnAGG_W6UjIDC05r-YTjiId8M_8_tchXIETRuIGyCEZOy48Dez6V0eJlA",
-    "iv": "hdjgC-hQV03Gznem",
-    "tag": "aNUVtQqrgYViVfWjumP1KA",
+    "ciphertext": "Xkp0UZ7Kt2P97BIKlbaG_nv9WR94XQmNZ9iXG42WeRJ-6G1QUMad-ZHtIg",
+    "iv": "GK-P7MNrLnfg4i-q",
+    "tag": "baSPxrcop-8U9X0gw3AOTA",
     "version": 1
   }
 }
