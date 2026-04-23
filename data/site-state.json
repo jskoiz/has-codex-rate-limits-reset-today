@@ -15,16 +15,16 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1776973251401,
-      "rationale": "This is just a brief reply about fixing something and does not mention any limit reset.",
-      "tweetCreatedAt": "2026-04-23T18:07:34.000Z",
-      "tweetId": "2047376850306158937",
-      "tweetUrl": "https://x.com/thsottiaux/status/2047376850306158937",
+      "decidedAt": 1776973255687,
+      "rationale": "This announces GPT-5.5 and Codex features, not that usage limits or rate limits have reset.",
+      "tweetCreatedAt": "2026-04-23T18:12:01.000Z",
+      "tweetId": "2047377969614872870",
+      "tweetUrl": "https://x.com/thsottiaux/status/2047377969614872870",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2047376850306158937",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2047376850306158937",
+    "lastSeenTweetId": "2047377969614872870",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2047377969614872870",
     "pendingReview": {
       "confidence": 0.97,
       "createdAt": 1776967748996,
@@ -35,6 +35,20 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2047375806813573444"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1776973255687,
+        "inputTokens": 414,
+        "outputTokens": 101,
+        "rationale": "This announces GPT-5.5 and Codex features, not that usage limits or rate limits have reset.",
+        "reasoningTokens": 51,
+        "totalTokens": 515,
+        "tweetCreatedAt": "2026-04-23T18:12:01.000Z",
+        "tweetId": "2047377969614872870",
+        "tweetText": "Introducing GPT-5.5... together with a ton of new Codex features (more on those in the next hour).\n\nIncluded in all paid plans and coming to API soon. Update your Codex app or CLI to use it.\n\nhttps://t.co/lgvo3KErjt",
+        "tweetUrl": "https://x.com/thsottiaux/status/2047377969614872870",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1776973251401,
@@ -300,30 +314,32 @@
         "tweetText": "Team is hard at work together with @steipete to make OpenAI models and ecosystem be the obvious way to to enjoy your claw. A lot more to come next week, but a reminder that you can use OpenClaw as part of your ChatGPT subscription today already.\n\n(also still having too much fun with ChatGPT Images 2.0 today)",
         "tweetUrl": "https://x.com/thsottiaux/status/2047000994354241562",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1776872411035,
-        "inputTokens": 509,
-        "outputTokens": 133,
-        "rationale": "This discusses plan availability and a signup test, not that any usage cap or rate limit has reset.",
-        "reasoningTokens": 85,
-        "totalTokens": 642,
-        "tweetCreatedAt": null,
-        "tweetId": "2046740759056162816",
-        "tweetText": "I don't know what they are doing over there, but Codex will continue to be available both in the FREE and PLUS ($20) plans. We have the compute and efficient models to support it. For important changes, we will engage with the community well ahead of making them.\n\nTransparency and trust are two principles we will not break, even if it means momentarily earning less. A reminder that you vote with your subscription for the values you want to see in this world.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2046740759056162816",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 57168,
-      "totalOutputTokens": 16906,
-      "totalReasoningTokens": 9054,
-      "totalTokens": 74074
+      "totalInputTokens": 57582,
+      "totalOutputTokens": 17007,
+      "totalReasoningTokens": 9105,
+      "totalTokens": 74589
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1776973255687,
+      "inputTokens": 414,
+      "message": "",
+      "outputTokens": 101,
+      "rationale": "This announces GPT-5.5 and Codex features, not that usage limits or rate limits have reset.",
+      "reasoningTokens": 51,
+      "totalTokens": 515,
+      "tweetCreatedAt": "2026-04-23T18:12:01.000Z",
+      "tweetId": "2047377969614872870",
+      "tweetText": "Introducing GPT-5.5... together with a ton of new Codex features (more on those in the next hour).\n\nIncluded in all paid plans and coming to API soon. Update your Codex app or CLI to use it.\n\nhttps://t.co/lgvo3KErjt",
+      "tweetUrl": "https://x.com/thsottiaux/status/2047377969614872870",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1776973251401,
@@ -947,28 +963,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2044926030360752477",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1776373013829,
-      "inputTokens": 365,
-      "message": "",
-      "outputTokens": 79,
-      "rationale": "This reply is conversational and says nothing about limits or a reset.",
-      "reasoningTokens": 38,
-      "totalTokens": 444,
-      "tweetCreatedAt": null,
-      "tweetId": "2044879986973446223",
-      "tweetText": "@iruletheworldmo Strawberry man, I call upon you",
-      "tweetUrl": "https://x.com/thsottiaux/status/2044879986973446223",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "bldN07RkjAy1HGg_F_y6i-4fk9mKzwm5zJyDvLP7adcNoH7penOtblPY2w",
-    "iv": "-rlmFlbGPp2nCG7O",
-    "tag": "PNUbYm-U0FJmaiZm8VL6Tw",
+    "ciphertext": "IARxvNzwH7k-tYJrKa0ZW2sTlxSKuyG56RsxWIETGv3DRuJQmHrxgEZmWA",
+    "iv": "4V3-6r5XgaUJTDwX",
+    "tag": "qylPLKExdTkuLb6vR4JyxQ",
     "version": 1
   }
 }
