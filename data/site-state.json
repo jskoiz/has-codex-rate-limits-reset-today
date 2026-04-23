@@ -22,7 +22,7 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2047093533061103888",
       "verdict": "not_reset"
     },
-    "lastError": "Tweet fetch failed: Tweet search failed: Cannot read properties of undefined (reading 'errors'); timeline fallback failed: Cannot read properties of undefined (reading 'errors') (Cannot read properties of undefined (reading 'errors')) (Tweet search failed: Cannot read properties of undefined (reading 'errors'); timeline fallback failed: Cannot read properties of undefined (reading 'errors'))",
+    "lastError": null,
     "lastSeenTweetId": "2047093533061103888",
     "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2047093533061103888",
     "pendingReview": null,
@@ -958,9 +958,9 @@
     }
   ],
   "privateState": {
-    "ciphertext": "-ozGsvaYN0wfdLci40VOmOWiqx4z1TN56SDSTh5-QnA6dwO1JD8N-uIHNg",
-    "iv": "4MVwJHQjrv2e45WS",
-    "tag": "hu8yw5nVsEjQ1rvDaF8aJQ",
+    "ciphertext": "Ugypeo-3KIsy1yGRd3Mf8oXsZSMwLUtB566rpcfKO51jl26oMj8NZF_m7w",
+    "iv": "lUtxJ1okxh3Nbeie",
+    "tag": "8zLw5_F-Qterb3Qp9rkoFg",
     "version": 1
   }
 }
