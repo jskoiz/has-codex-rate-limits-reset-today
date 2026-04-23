@@ -15,18 +15,32 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.95,
-      "decidedAt": 1776901670077,
-      "rationale": "This reply is just an emoji reaction and does not say limits or caps have reset.",
-      "tweetCreatedAt": "2026-04-22T23:21:46.000Z",
-      "tweetId": "2047093533061103888",
-      "tweetUrl": "https://x.com/thsottiaux/status/2047093533061103888",
+      "decidedAt": 1776935554735,
+      "rationale": "This says capacity is being added and service should recover soon, not that limits have reset now.",
+      "tweetCreatedAt": "2026-04-23T08:45:54.000Z",
+      "tweetId": "2047235504933052856",
+      "tweetUrl": "https://x.com/thsottiaux/status/2047235504933052856",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2047093533061103888",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2047093533061103888",
+    "lastSeenTweetId": "2047235504933052856",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2047235504933052856",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.95,
+        "evaluatedAt": 1776935554736,
+        "inputTokens": 454,
+        "outputTokens": 167,
+        "rationale": "This says capacity is being added and service should recover soon, not that limits have reset now.",
+        "reasoningTokens": 120,
+        "totalTokens": 621,
+        "tweetCreatedAt": "2026-04-23T08:45:54.000Z",
+        "tweetId": "2047235504933052856",
+        "tweetText": "Bro @doublemover. Believe it or not we got paged and are at it since 1am. Shuffling capacity and bringing more compute online. Should be back to normal shortly.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2047235504933052856",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.95,
         "evaluatedAt": 1776901670077,
@@ -292,30 +306,32 @@
         "tweetText": "@BobbyK2 @simpsoka Kath is gathering ingredients right now, cooking starts next week",
         "tweetUrl": "https://x.com/thsottiaux/status/2044926030360752477",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1776373013829,
-        "inputTokens": 365,
-        "outputTokens": 79,
-        "rationale": "This reply is conversational and says nothing about limits or a reset.",
-        "reasoningTokens": 38,
-        "totalTokens": 444,
-        "tweetCreatedAt": null,
-        "tweetId": "2044879986973446223",
-        "tweetText": "@iruletheworldmo Strawberry man, I call upon you",
-        "tweetUrl": "https://x.com/thsottiaux/status/2044879986973446223",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 51884,
-      "totalOutputTokens": 15397,
-      "totalReasoningTokens": 8175,
-      "totalTokens": 67281
+      "totalInputTokens": 52338,
+      "totalOutputTokens": 15564,
+      "totalReasoningTokens": 8295,
+      "totalTokens": 67902
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.95,
+      "createdAt": 1776935554736,
+      "inputTokens": 454,
+      "message": "",
+      "outputTokens": 167,
+      "rationale": "This says capacity is being added and service should recover soon, not that limits have reset now.",
+      "reasoningTokens": 120,
+      "totalTokens": 621,
+      "tweetCreatedAt": "2026-04-23T08:45:54.000Z",
+      "tweetId": "2047235504933052856",
+      "tweetText": "Bro @doublemover. Believe it or not we got paged and are at it since 1am. Shuffling capacity and bringing more compute online. Should be back to normal shortly.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2047235504933052856",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0,
       "createdAt": 1776923792769,
@@ -939,28 +955,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2044829513520197900",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.98,
-      "createdAt": 1776365437162,
-      "inputTokens": 359,
-      "message": "",
-      "outputTokens": 166,
-      "rationale": "This reply mentions \"/compact\" and does not indicate any limits or caps have reset.",
-      "reasoningTokens": 120,
-      "totalTokens": 525,
-      "tweetCreatedAt": null,
-      "tweetId": "2044827358239261028",
-      "tweetText": "Ah, and /compact also",
-      "tweetUrl": "https://x.com/thsottiaux/status/2044827358239261028",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "Ugypeo-3KIsy1yGRd3Mf8oXsZSMwLUtB566rpcfKO51jl26oMj8NZF_m7w",
-    "iv": "lUtxJ1okxh3Nbeie",
-    "tag": "8zLw5_F-Qterb3Qp9rkoFg",
+    "ciphertext": "mVSn7TWtADB86mjF2RrvywqC-kSodcgXKbSJfxF4xfRXk8e_Zwn2wduSSQ",
+    "iv": "eZE3XLlxfoplPq1W",
+    "tag": "8YAjU32MwsGfNXihmQAUOA",
     "version": 1
   }
 }
