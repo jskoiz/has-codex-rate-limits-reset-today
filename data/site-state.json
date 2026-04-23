@@ -14,19 +14,33 @@
   "updatedAt": 1776463021442,
   "automation": {
     "lastDecision": {
-      "confidence": 0.95,
-      "decidedAt": 1776941360661,
-      "rationale": "This mentions service recovery and stability, not user rate limits or caps resetting.",
-      "tweetCreatedAt": "2026-04-23T10:18:01.000Z",
-      "tweetId": "2047258683470758145",
-      "tweetUrl": "https://x.com/thsottiaux/status/2047258683470758145",
+      "confidence": 0.99,
+      "decidedAt": 1776941366741,
+      "rationale": "This reply is just a recommendation and does not mention limits, caps, or a reset.",
+      "tweetCreatedAt": "2026-04-23T10:21:56.000Z",
+      "tweetId": "2047259671384424910",
+      "tweetUrl": "https://x.com/thsottiaux/status/2047259671384424910",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2047258683470758145",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2047258683470758145",
+    "lastSeenTweetId": "2047259671384424910",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2047259671384424910",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1776941366741,
+        "inputTokens": 367,
+        "outputTokens": 99,
+        "rationale": "This reply is just a recommendation and does not mention limits, caps, or a reset.",
+        "reasoningTokens": 53,
+        "totalTokens": 466,
+        "tweetCreatedAt": "2026-04-23T10:21:56.000Z",
+        "tweetId": "2047259671384424910",
+        "tweetText": "@damnGruz I recommend one of them more strongly than the other",
+        "tweetUrl": "https://x.com/thsottiaux/status/2047259671384424910",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.95,
         "evaluatedAt": 1776941360661,
@@ -292,30 +306,32 @@
         "tweetText": "Hi! To celebrate its 1-year anniversary, I have allowed Codex to reset its own rate limits across all plans. Enjoy all the new features. https://t.co/xIGXQwMzpa",
         "tweetUrl": "https://x.com/thsottiaux/status/2044943514832871564",
         "verdict": "reset_confirmed"
-      },
-      {
-        "confidence": 0.98,
-        "evaluatedAt": 1776463017942,
-        "inputTokens": 359,
-        "outputTokens": 94,
-        "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-        "reasoningTokens": 50,
-        "totalTokens": 453,
-        "tweetCreatedAt": null,
-        "tweetId": "2044927351696626070",
-        "tweetText": "@gabriel1 Mark these words",
-        "tweetUrl": "https://x.com/thsottiaux/status/2044927351696626070",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 53080,
-      "totalOutputTokens": 15917,
-      "totalReasoningTokens": 8558,
-      "totalTokens": 68997
+      "totalInputTokens": 53447,
+      "totalOutputTokens": 16016,
+      "totalReasoningTokens": 8611,
+      "totalTokens": 69463
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1776941366741,
+      "inputTokens": 367,
+      "message": "",
+      "outputTokens": 99,
+      "rationale": "This reply is just a recommendation and does not mention limits, caps, or a reset.",
+      "reasoningTokens": 53,
+      "totalTokens": 466,
+      "tweetCreatedAt": "2026-04-23T10:21:56.000Z",
+      "tweetId": "2047259671384424910",
+      "tweetText": "@damnGruz I recommend one of them more strongly than the other",
+      "tweetUrl": "https://x.com/thsottiaux/status/2047259671384424910",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.95,
       "createdAt": 1776941360661,
@@ -939,28 +955,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2044865335204196753",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1776369321247,
-      "inputTokens": 359,
-      "message": "",
-      "outputTokens": 76,
-      "rationale": "This reply is unrelated to any Codex or ChatGPT limit reset.",
-      "reasoningTokens": 34,
-      "totalTokens": 435,
-      "tweetCreatedAt": null,
-      "tweetId": "2044862020680626186",
-      "tweetText": "@theo Waiting for your video",
-      "tweetUrl": "https://x.com/thsottiaux/status/2044862020680626186",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "pcJYwHtz_PPioAb2QA6NQcsnRpE6Syvd_NvlSL4ilRsDn2dbj4sSWEfxmw",
-    "iv": "Xwcqs0ZYvWbM07rV",
-    "tag": "bTB6BTZwD1K_buFx6TnivA",
+    "ciphertext": "zilwcZmZzdCBH1yCF3JTmiH179Eqp9C5RKWAi2l2o_D2_606ehHe97WZtA",
+    "iv": "ffF9ombkQXcae5Kb",
+    "tag": "P0kARQ4L5t4pAS-NSPyNnw",
     "version": 1
   }
 }
