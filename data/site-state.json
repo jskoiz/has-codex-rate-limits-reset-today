@@ -15,16 +15,16 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1776973255687,
-      "rationale": "This announces GPT-5.5 and Codex features, not that usage limits or rate limits have reset.",
-      "tweetCreatedAt": "2026-04-23T18:12:01.000Z",
-      "tweetId": "2047377969614872870",
-      "tweetUrl": "https://x.com/thsottiaux/status/2047377969614872870",
+      "decidedAt": 1776973259373,
+      "rationale": "This post is just chatting about using GPT-5.5 and Codex, not about limits or resets.",
+      "tweetCreatedAt": "2026-04-23T18:25:38.000Z",
+      "tweetId": "2047381399242743858",
+      "tweetUrl": "https://x.com/thsottiaux/status/2047381399242743858",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2047377969614872870",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2047377969614872870",
+    "lastSeenTweetId": "2047381399242743858",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2047381399242743858",
     "pendingReview": {
       "confidence": 0.97,
       "createdAt": 1776967748996,
@@ -35,6 +35,20 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2047375806813573444"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1776973259373,
+        "inputTokens": 410,
+        "outputTokens": 90,
+        "rationale": "This post is just chatting about using GPT-5.5 and Codex, not about limits or resets.",
+        "reasoningTokens": 40,
+        "totalTokens": 500,
+        "tweetCreatedAt": "2026-04-23T18:25:38.000Z",
+        "tweetId": "2047381399242743858",
+        "tweetText": "It's an incredibly powerful model, but making silly little games with GPT-5.5 and then being able to chat about the mechanics and just iterate right there in Codex is super fun and a way the team enjoys a break. https://t.co/wGiJZTJxzk",
+        "tweetUrl": "https://x.com/thsottiaux/status/2047381399242743858",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1776973255687,
@@ -300,30 +314,32 @@
         "tweetText": "Workspace agents are surprisingly powerful. Powered by Codex under the hood, the same implementation we have open-sourced here: https://t.co/2TH56VNxnb",
         "tweetUrl": "https://x.com/thsottiaux/status/2047023723459555472",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1776879885471,
-        "inputTokens": 753,
-        "outputTokens": 108,
-        "rationale": "This post is about OpenClaw/OpenAI integration and using ChatGPT with a subscription, not about any rate limit or cap…",
-        "reasoningTokens": 53,
-        "totalTokens": 861,
-        "tweetCreatedAt": null,
-        "tweetId": "2047000994354241562",
-        "tweetText": "Team is hard at work together with @steipete to make OpenAI models and ecosystem be the obvious way to to enjoy your claw. A lot more to come next week, but a reminder that you can use OpenClaw as part of your ChatGPT subscription today already.\n\n(also still having too much fun with ChatGPT Images 2.0 today)",
-        "tweetUrl": "https://x.com/thsottiaux/status/2047000994354241562",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 57582,
-      "totalOutputTokens": 17007,
-      "totalReasoningTokens": 9105,
-      "totalTokens": 74589
+      "totalInputTokens": 57992,
+      "totalOutputTokens": 17097,
+      "totalReasoningTokens": 9145,
+      "totalTokens": 75089
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1776973259373,
+      "inputTokens": 410,
+      "message": "",
+      "outputTokens": 90,
+      "rationale": "This post is just chatting about using GPT-5.5 and Codex, not about limits or resets.",
+      "reasoningTokens": 40,
+      "totalTokens": 500,
+      "tweetCreatedAt": "2026-04-23T18:25:38.000Z",
+      "tweetId": "2047381399242743858",
+      "tweetText": "It's an incredibly powerful model, but making silly little games with GPT-5.5 and then being able to chat about the mechanics and just iterate right there in Codex is super fun and a way the team enjoys a break. https://t.co/wGiJZTJxzk",
+      "tweetUrl": "https://x.com/thsottiaux/status/2047381399242743858",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1776973255687,
@@ -947,28 +963,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2044926508691808634",
       "type": "review_requested",
       "verdict": "uncertain"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1776384247346,
-      "inputTokens": 372,
-      "message": "",
-      "outputTokens": 122,
-      "rationale": "This reply is conversational and does not mention limits, caps, or usage becoming available again.",
-      "reasoningTokens": 76,
-      "totalTokens": 494,
-      "tweetCreatedAt": null,
-      "tweetId": "2044926030360752477",
-      "tweetText": "@BobbyK2 @simpsoka Kath is gathering ingredients right now, cooking starts next week",
-      "tweetUrl": "https://x.com/thsottiaux/status/2044926030360752477",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "IARxvNzwH7k-tYJrKa0ZW2sTlxSKuyG56RsxWIETGv3DRuJQmHrxgEZmWA",
-    "iv": "4V3-6r5XgaUJTDwX",
-    "tag": "qylPLKExdTkuLb6vR4JyxQ",
+    "ciphertext": "bkFv_ABU5BlUq-SqoE8AbwR9C9VQh1IoFNWEHjVEgggKoZOYKMvxWtf0lg",
+    "iv": "MdQc6Z6zO_i31yqC",
+    "tag": "Aoz6oK02ApTo5OeyRO5ugQ",
     "version": 1
   }
 }
