@@ -22,7 +22,7 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2047093533061103888",
       "verdict": "not_reset"
     },
-    "lastError": null,
+    "lastError": "Tweet fetch failed: Tweet search failed: Cannot read properties of undefined (reading 'errors'); timeline fallback failed: Cannot read properties of undefined (reading 'errors') (Cannot read properties of undefined (reading 'errors')) (Tweet search failed: Cannot read properties of undefined (reading 'errors'); timeline fallback failed: Cannot read properties of undefined (reading 'errors'))",
     "lastSeenTweetId": "2047093533061103888",
     "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2047093533061103888",
     "pendingReview": null,
@@ -316,6 +316,22 @@
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0,
+      "createdAt": 1776923792769,
+      "inputTokens": 0,
+      "message": "Tweet fetch failed: Tweet search failed: Cannot read properties of undefined (reading 'errors'); timeline fallback failed: Cannot read properties of undefined (reading 'errors') (Cannot read properties of undefined (reading 'errors')) (Tweet search failed: Cannot read properties of undefined (reading 'errors'); timeline fallback failed: Cannot read properties of undefined (reading 'errors'))",
+      "outputTokens": 0,
+      "rationale": "",
+      "reasoningTokens": 0,
+      "totalTokens": 0,
+      "tweetCreatedAt": null,
+      "tweetId": null,
+      "tweetText": "",
+      "tweetUrl": null,
+      "type": "error",
+      "verdict": null
+    },
     {
       "confidence": 0.95,
       "createdAt": 1776901670077,
@@ -939,28 +955,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2044827358239261028",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.14,
-      "createdAt": 1776361407342,
-      "inputTokens": 362,
-      "message": "",
-      "outputTokens": 148,
-      "rationale": "This reply contains only a link, so there is no explicit evidence here that limits have reset.",
-      "reasoningTokens": 101,
-      "totalTokens": 510,
-      "tweetCreatedAt": null,
-      "tweetId": "2044826340709515324",
-      "tweetText": "https://t.co/sTrAlcmsDf",
-      "tweetUrl": "https://x.com/thsottiaux/status/2044826340709515324",
-      "type": "review_requested",
-      "verdict": "uncertain"
     }
   ],
   "privateState": {
-    "ciphertext": "OfaZeNr1tUNK3zNX6I4_8tLMWrAM3IrMpGEFtv2V-tNIkhkYxfqTYL-O5A",
-    "iv": "S65_KvrbvRbIbVOD",
-    "tag": "BC5PKh7ufop_43fy6vLs6g",
+    "ciphertext": "-ozGsvaYN0wfdLci40VOmOWiqx4z1TN56SDSTh5-QnA6dwO1JD8N-uIHNg",
+    "iv": "4MVwJHQjrv2e45WS",
+    "tag": "hu8yw5nVsEjQ1rvDaF8aJQ",
     "version": 1
   }
 }
