@@ -15,18 +15,32 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1776967738657,
-      "rationale": "This reply is just a compliment about a visualization and says nothing about limits or resets.",
-      "tweetCreatedAt": "2026-04-23T17:21:05.000Z",
-      "tweetId": "2047365151691886884",
-      "tweetUrl": "https://x.com/thsottiaux/status/2047365151691886884",
+      "decidedAt": 1776967742668,
+      "rationale": "This post is about office WiFi rebooting, not ChatGPT or Codex usage limits resetting.",
+      "tweetCreatedAt": "2026-04-23T17:27:01.000Z",
+      "tweetId": "2047366644922716349",
+      "tweetUrl": "https://x.com/thsottiaux/status/2047366644922716349",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2047365151691886884",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2047365151691886884",
+    "lastSeenTweetId": "2047366644922716349",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2047366644922716349",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1776967742668,
+        "inputTokens": 364,
+        "outputTokens": 84,
+        "rationale": "This post is about office WiFi rebooting, not ChatGPT or Codex usage limits resetting.",
+        "reasoningTokens": 36,
+        "totalTokens": 448,
+        "tweetCreatedAt": "2026-04-23T17:27:01.000Z",
+        "tweetId": "2047366644922716349",
+        "tweetText": "Stay tuned, we are rebooting our office WiFi.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2047366644922716349",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1776967738657,
@@ -292,30 +306,32 @@
         "tweetText": "@ajambrosino I thought you said you hand painted those",
         "tweetUrl": "https://x.com/thsottiaux/status/2046713247362146559",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1776872397783,
-        "inputTokens": 363,
-        "outputTokens": 80,
-        "rationale": "This reply is about Intel chip support and does not mention limits, caps, or usage resetting.",
-        "reasoningTokens": 33,
-        "totalTokens": 443,
-        "tweetCreatedAt": null,
-        "tweetId": "2046706812611915879",
-        "tweetText": "@nikolasbydesign It's now supported on Intel chips",
-        "tweetUrl": "https://x.com/thsottiaux/status/2046706812611915879",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 56086,
-      "totalOutputTokens": 16595,
-      "totalReasoningTokens": 8882,
-      "totalTokens": 72681
+      "totalInputTokens": 56450,
+      "totalOutputTokens": 16679,
+      "totalReasoningTokens": 8918,
+      "totalTokens": 73129
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1776967742668,
+      "inputTokens": 364,
+      "message": "",
+      "outputTokens": 84,
+      "rationale": "This post is about office WiFi rebooting, not ChatGPT or Codex usage limits resetting.",
+      "reasoningTokens": 36,
+      "totalTokens": 448,
+      "tweetCreatedAt": "2026-04-23T17:27:01.000Z",
+      "tweetId": "2047366644922716349",
+      "tweetText": "Stay tuned, we are rebooting our office WiFi.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2047366644922716349",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1776967738657,
@@ -939,28 +955,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2044879705174839440",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.98,
-      "createdAt": 1776373001813,
-      "inputTokens": 372,
-      "message": "",
-      "outputTokens": 143,
-      "rationale": "This reply is just conversational and does not mention limits, caps, or a reset.",
-      "reasoningTokens": 98,
-      "totalTokens": 515,
-      "tweetCreatedAt": null,
-      "tweetId": "2044879347950240051",
-      "tweetText": "@simpsoka ... no way https://t.co/NQyr5e4N4F",
-      "tweetUrl": "https://x.com/thsottiaux/status/2044879347950240051",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "OxN5yWs90uTOnkdTIcZOzvTDJOSwd_o8Ot2M8nBLdrkfEOwk8IisTnwBjQ",
-    "iv": "dbZqXbVpbOhec9lL",
-    "tag": "T83cHt1TGhm7hRQss-rnfg",
+    "ciphertext": "LPnAGG_W6UjIDC05r-YTjiId8M_8_tchXIETRuIGyCEZOy48Dez6V0eJlA",
+    "iv": "hdjgC-hQV03Gznem",
+    "tag": "aNUVtQqrgYViVfWjumP1KA",
     "version": 1
   }
 }
