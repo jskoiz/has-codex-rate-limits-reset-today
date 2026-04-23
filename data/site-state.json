@@ -14,17 +14,17 @@
   "updatedAt": 1776463021442,
   "automation": {
     "lastDecision": {
-      "confidence": 0.81,
-      "decidedAt": 1776973270699,
-      "rationale": "It mentions a rollout finishing soon, but does not clearly say rate limits or caps have reset right now.",
-      "tweetCreatedAt": "2026-04-23T18:48:52.000Z",
-      "tweetId": "2047387243715916182",
-      "tweetUrl": "https://x.com/thsottiaux/status/2047387243715916182",
-      "verdict": "uncertain"
+      "confidence": 0.99,
+      "decidedAt": 1776976749207,
+      "rationale": "This reply does not mention limits, caps, or availability resetting.",
+      "tweetCreatedAt": "2026-04-23T18:51:05.000Z",
+      "tweetId": "2047387802372116526",
+      "tweetUrl": "https://x.com/thsottiaux/status/2047387802372116526",
+      "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2047387243715916182",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2047387243715916182",
+    "lastSeenTweetId": "2047387802372116526",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2047387802372116526",
     "pendingReview": {
       "confidence": 0.81,
       "createdAt": 1776973270699,
@@ -35,6 +35,20 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2047387243715916182"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1776976749207,
+        "inputTokens": 359,
+        "outputTokens": 78,
+        "rationale": "This reply does not mention limits, caps, or availability resetting.",
+        "reasoningTokens": 37,
+        "totalTokens": 437,
+        "tweetCreatedAt": "2026-04-23T18:51:05.000Z",
+        "tweetId": "2047387802372116526",
+        "tweetText": "@ajambrosino Casually",
+        "tweetUrl": "https://x.com/thsottiaux/status/2047387802372116526",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.81,
         "evaluatedAt": 1776973270699,
@@ -300,30 +314,32 @@
         "tweetText": "@48statesalbum @OpenAI @ajambrosino 👀",
         "tweetUrl": "https://x.com/thsottiaux/status/2047093533061103888",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1776883826601,
-        "inputTokens": 365,
-        "outputTokens": 84,
-        "rationale": "This reply is just conversational and does not mention limits, caps, or a reset.",
-        "reasoningTokens": 39,
-        "totalTokens": 449,
-        "tweetCreatedAt": null,
-        "tweetId": "2047024731220857011",
-        "tweetText": "@CalimanuLoredan @steipete Do tag",
-        "tweetUrl": "https://x.com/thsottiaux/status/2047024731220857011",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 58867,
-      "totalOutputTokens": 17461,
-      "totalReasoningTokens": 9411,
-      "totalTokens": 76328
+      "totalInputTokens": 59226,
+      "totalOutputTokens": 17539,
+      "totalReasoningTokens": 9448,
+      "totalTokens": 76765
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1776976749207,
+      "inputTokens": 359,
+      "message": "",
+      "outputTokens": 78,
+      "rationale": "This reply does not mention limits, caps, or availability resetting.",
+      "reasoningTokens": 37,
+      "totalTokens": 437,
+      "tweetCreatedAt": "2026-04-23T18:51:05.000Z",
+      "tweetId": "2047387802372116526",
+      "tweetText": "@ajambrosino Casually",
+      "tweetUrl": "https://x.com/thsottiaux/status/2047387802372116526",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.81,
       "createdAt": 1776973270699,
@@ -947,28 +963,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2044943514832871564",
       "type": "reset_confirmed",
       "verdict": "reset_confirmed"
-    },
-    {
-      "confidence": 0.98,
-      "createdAt": 1776463017943,
-      "inputTokens": 359,
-      "message": "",
-      "outputTokens": 94,
-      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-      "reasoningTokens": 50,
-      "totalTokens": 453,
-      "tweetCreatedAt": null,
-      "tweetId": "2044927351696626070",
-      "tweetText": "@gabriel1 Mark these words",
-      "tweetUrl": "https://x.com/thsottiaux/status/2044927351696626070",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "_oKNhLayJBZ4WQT_1I2rlXuaRRIsge_6XDaPOgMWoCb9fVbnxR29_oVQRQ",
-    "iv": "RqyfAc1u0zME1Crz",
-    "tag": "C00GSZKnMQUps9iNSxc7_w",
+    "ciphertext": "rXo1itv2Nu19pi9z7mQM1Bd8fQRMVsZ0vEL_XW3MfJWlGEVDr50n_jJOKw",
+    "iv": "ovigvEc34gYcJ3LP",
+    "tag": "oEwu0FQ5YL2jcnOgN9uRbQ",
     "version": 1
   }
 }
