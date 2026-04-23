@@ -15,18 +15,32 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1776967735601,
-      "rationale": "This reply just explains an acronym and does not mention limits or usage resetting.",
-      "tweetCreatedAt": "2026-04-23T17:16:34.000Z",
-      "tweetId": "2047364017405272074",
-      "tweetUrl": "https://x.com/thsottiaux/status/2047364017405272074",
+      "decidedAt": 1776967738657,
+      "rationale": "This reply is just a compliment about a visualization and says nothing about limits or resets.",
+      "tweetCreatedAt": "2026-04-23T17:21:05.000Z",
+      "tweetId": "2047365151691886884",
+      "tweetUrl": "https://x.com/thsottiaux/status/2047365151691886884",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2047364017405272074",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2047364017405272074",
+    "lastSeenTweetId": "2047365151691886884",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2047365151691886884",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1776967738657,
+        "inputTokens": 368,
+        "outputTokens": 74,
+        "rationale": "This reply is just a compliment about a visualization and says nothing about limits or resets.",
+        "reasoningTokens": 29,
+        "totalTokens": 442,
+        "tweetCreatedAt": "2026-04-23T17:21:05.000Z",
+        "tweetId": "2047365151691886884",
+        "tweetText": "@SrihariSriraman @badlogicgames Very cool visualization. Nice work",
+        "tweetUrl": "https://x.com/thsottiaux/status/2047365151691886884",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1776967735601,
@@ -292,30 +306,32 @@
         "tweetText": "@nikolasbydesign It's now supported on Intel chips",
         "tweetUrl": "https://x.com/thsottiaux/status/2046706812611915879",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1776872394341,
-        "inputTokens": 360,
-        "outputTokens": 95,
-        "rationale": "This reply gives no explicit indication that any Codex or ChatGPT limits have reset.",
-        "reasoningTokens": 50,
-        "totalTokens": 455,
-        "tweetCreatedAt": null,
-        "tweetId": "2046679732364956139",
-        "tweetText": "@_arohan_ So it begins.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2046679732364956139",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 55718,
-      "totalOutputTokens": 16521,
-      "totalReasoningTokens": 8853,
-      "totalTokens": 72239
+      "totalInputTokens": 56086,
+      "totalOutputTokens": 16595,
+      "totalReasoningTokens": 8882,
+      "totalTokens": 72681
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1776967738657,
+      "inputTokens": 368,
+      "message": "",
+      "outputTokens": 74,
+      "rationale": "This reply is just a compliment about a visualization and says nothing about limits or resets.",
+      "reasoningTokens": 29,
+      "totalTokens": 442,
+      "tweetCreatedAt": "2026-04-23T17:21:05.000Z",
+      "tweetId": "2047365151691886884",
+      "tweetText": "@SrihariSriraman @badlogicgames Very cool visualization. Nice work",
+      "tweetUrl": "https://x.com/thsottiaux/status/2047365151691886884",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1776967735601,
@@ -939,28 +955,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2044879347950240051",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1776372997268,
-      "inputTokens": 363,
-      "message": "",
-      "outputTokens": 79,
-      "rationale": "This reply is just an apology and does not mention limits, caps, or availability resetting.",
-      "reasoningTokens": 33,
-      "totalTokens": 442,
-      "tweetCreatedAt": null,
-      "tweetId": "2044878968059470228",
-      "tweetText": "@badlogicgames I am sorry about the xhigh.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2044878968059470228",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "XLdQki1XB8pqujAPeyIs8hygzc6FEHrwVpWUO0p31EtEOKuhQGORmzkEtA",
-    "iv": "Ifatm4LxvqtYk1Mo",
-    "tag": "OsLCsAwmpKpWFacE8hpW3A",
+    "ciphertext": "OxN5yWs90uTOnkdTIcZOzvTDJOSwd_o8Ot2M8nBLdrkfEOwk8IisTnwBjQ",
+    "iv": "dbZqXbVpbOhec9lL",
+    "tag": "T83cHt1TGhm7hRQss-rnfg",
     "version": 1
   }
 }
