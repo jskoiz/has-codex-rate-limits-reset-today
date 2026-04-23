@@ -14,19 +14,33 @@
   "updatedAt": 1776463021442,
   "automation": {
     "lastDecision": {
-      "confidence": 0.93,
-      "decidedAt": 1776935559709,
-      "rationale": "This says service traffic has recovered, not that Codex or ChatGPT usage limits have reset.",
-      "tweetCreatedAt": "2026-04-23T09:03:57.000Z",
-      "tweetId": "2047240045791457324",
-      "tweetUrl": "https://x.com/thsottiaux/status/2047240045791457324",
+      "confidence": 0.95,
+      "decidedAt": 1776941360661,
+      "rationale": "This mentions service recovery and stability, not user rate limits or caps resetting.",
+      "tweetCreatedAt": "2026-04-23T10:18:01.000Z",
+      "tweetId": "2047258683470758145",
+      "tweetUrl": "https://x.com/thsottiaux/status/2047258683470758145",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2047240045791457324",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2047240045791457324",
+    "lastSeenTweetId": "2047258683470758145",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2047258683470758145",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.95,
+        "evaluatedAt": 1776941360661,
+        "inputTokens": 370,
+        "outputTokens": 207,
+        "rationale": "This mentions service recovery and stability, not user rate limits or caps resetting.",
+        "reasoningTokens": 164,
+        "totalTokens": 577,
+        "tweetCreatedAt": "2026-04-23T10:18:01.000Z",
+        "tweetId": "2047258683470758145",
+        "tweetText": "@doublemover Image generation in codex also recovered. We are back to being stable.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2047258683470758145",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.93,
         "evaluatedAt": 1776935559709,
@@ -292,30 +306,32 @@
         "tweetText": "@gabriel1 Mark these words",
         "tweetUrl": "https://x.com/thsottiaux/status/2044927351696626070",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.13,
-        "evaluatedAt": 1776384254089,
-        "inputTokens": 364,
-        "outputTokens": 215,
-        "rationale": "This reply just says “Yes” and lacks enough visible context to confirm a rate-limit reset.",
-        "reasoningTokens": 168,
-        "totalTokens": 579,
-        "tweetCreatedAt": null,
-        "tweetId": "2044926508691808634",
-        "tweetText": "@KarunaSivam @wryter_the Yes",
-        "tweetUrl": "https://x.com/thsottiaux/status/2044926508691808634",
-        "verdict": "uncertain"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 52710,
-      "totalOutputTokens": 15710,
-      "totalReasoningTokens": 8394,
-      "totalTokens": 68420
+      "totalInputTokens": 53080,
+      "totalOutputTokens": 15917,
+      "totalReasoningTokens": 8558,
+      "totalTokens": 68997
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.95,
+      "createdAt": 1776941360661,
+      "inputTokens": 370,
+      "message": "",
+      "outputTokens": 207,
+      "rationale": "This mentions service recovery and stability, not user rate limits or caps resetting.",
+      "reasoningTokens": 164,
+      "totalTokens": 577,
+      "tweetCreatedAt": "2026-04-23T10:18:01.000Z",
+      "tweetId": "2047258683470758145",
+      "tweetText": "@doublemover Image generation in codex also recovered. We are back to being stable.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2047258683470758145",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.93,
       "createdAt": 1776935559709,
@@ -939,28 +955,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2044862020680626186",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1776365446038,
-      "inputTokens": 362,
-      "message": "",
-      "outputTokens": 91,
-      "rationale": "This reply is just expressing affection for Codex and says nothing about limits or availability resetting.",
-      "reasoningTokens": 45,
-      "totalTokens": 453,
-      "tweetCreatedAt": null,
-      "tweetId": "2044830121996210247",
-      "tweetText": "@nylric17 I love Codex too",
-      "tweetUrl": "https://x.com/thsottiaux/status/2044830121996210247",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "7gDSRcfKVNKQLCmw1UVyS-R9YDcKVBO8fBIjt3tZkMGrF-kF9bBJD3G1_g",
-    "iv": "SjiZCX_rjltxDVVg",
-    "tag": "0EbWnscxoXi9Xv72_Ln5vQ",
+    "ciphertext": "pcJYwHtz_PPioAb2QA6NQcsnRpE6Syvd_NvlSL4ilRsDn2dbj4sSWEfxmw",
+    "iv": "Xwcqs0ZYvWbM07rV",
+    "tag": "bTB6BTZwD1K_buFx6TnivA",
     "version": 1
   }
 }
