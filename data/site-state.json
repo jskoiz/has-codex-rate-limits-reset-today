@@ -14,19 +14,33 @@
   "updatedAt": 1776463021442,
   "automation": {
     "lastDecision": {
-      "confidence": 0.98,
-      "decidedAt": 1776957603587,
-      "rationale": "This reply is just conversational and does not indicate any limit or rate cap reset.",
-      "tweetCreatedAt": "2026-04-23T14:31:11.000Z",
-      "tweetId": "2047322398744310092",
-      "tweetUrl": "https://x.com/thsottiaux/status/2047322398744310092",
+      "confidence": 0.99,
+      "decidedAt": 1776963364472,
+      "rationale": "This is a casual joke about Codex and says nothing about limits or resets.",
+      "tweetCreatedAt": "2026-04-23T16:51:06.000Z",
+      "tweetId": "2047357608143761664",
+      "tweetUrl": "https://x.com/thsottiaux/status/2047357608143761664",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2047322398744310092",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2047322398744310092",
+    "lastSeenTweetId": "2047357608143761664",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2047357608143761664",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1776963364472,
+        "inputTokens": 392,
+        "outputTokens": 61,
+        "rationale": "This is a casual joke about Codex and says nothing about limits or resets.",
+        "reasoningTokens": 17,
+        "totalTokens": 453,
+        "tweetCreatedAt": "2026-04-23T16:51:06.000Z",
+        "tweetId": "2047357608143761664",
+        "tweetText": "The BART is feeling codexy today. For those not in California, the BART is the Bay Area Rapid Transit aka a train. https://t.co/xQ6nurckmj",
+        "tweetUrl": "https://x.com/thsottiaux/status/2047357608143761664",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.98,
         "evaluatedAt": 1776957603587,
@@ -292,30 +306,32 @@
         "tweetText": "New image model is now the default in Codex. It's incredible as a starting point for building websites or to generate assets for video games and codex can use it as any other tool in its toolkit.\n\nAsked Codex what it pictures my day looks like given we hit 4M active users today. https://t.co/DTIUQHGfne",
         "tweetUrl": "https://x.com/thsottiaux/status/2046678531695104187",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.98,
-        "evaluatedAt": 1776872383381,
-        "inputTokens": 375,
-        "outputTokens": 87,
-        "rationale": "This reply discusses usage cost, not a reset or restored availability of limits.",
-        "reasoningTokens": 44,
-        "totalTokens": 462,
-        "tweetCreatedAt": null,
-        "tweetId": "2046666587147837517",
-        "tweetText": "@kr0der It's really not that bad, but we preferred to be explicit that this uses more of the usage.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2046666587147837517",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 54578,
-      "totalOutputTokens": 16318,
-      "totalReasoningTokens": 8779,
-      "totalTokens": 70896
+      "totalInputTokens": 54970,
+      "totalOutputTokens": 16379,
+      "totalReasoningTokens": 8796,
+      "totalTokens": 71349
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1776963364472,
+      "inputTokens": 392,
+      "message": "",
+      "outputTokens": 61,
+      "rationale": "This is a casual joke about Codex and says nothing about limits or resets.",
+      "reasoningTokens": 17,
+      "totalTokens": 453,
+      "tweetCreatedAt": "2026-04-23T16:51:06.000Z",
+      "tweetId": "2047357608143761664",
+      "tweetText": "The BART is feeling codexy today. For those not in California, the BART is the Bay Area Rapid Transit aka a train. https://t.co/xQ6nurckmj",
+      "tweetUrl": "https://x.com/thsottiaux/status/2047357608143761664",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.98,
       "createdAt": 1776957603587,
@@ -939,28 +955,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2044866639536312492",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1776369340892,
-      "inputTokens": 362,
-      "message": "",
-      "outputTokens": 81,
-      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-      "reasoningTokens": 37,
-      "totalTokens": 443,
-      "tweetCreatedAt": null,
-      "tweetId": "2044865957815026000",
-      "tweetText": "@JamesBuildsTech Codex loves you back",
-      "tweetUrl": "https://x.com/thsottiaux/status/2044865957815026000",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "ryEmL_lrBMWbTSVF1OyG7RL4DEJ8WLuFymP7So6kMYCsYvgdyojIHnD_kA",
-    "iv": "0q9EZaXySs-8V1hT",
-    "tag": "Q-kwYgeXRT-uVuDMQa-1gQ",
+    "ciphertext": "lmxP0PK87MS2pHx_Hy6S0XzThVWgiQuS-dEkwwdOsXddJN4UjiQ-BgRcjw",
+    "iv": "oApyWlwZuTJqlSLf",
+    "tag": "1v_G-2l4E0xfVkZMvvV5hg",
     "version": 1
   }
 }
