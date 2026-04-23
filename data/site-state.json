@@ -15,16 +15,16 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1776976763487,
-      "rationale": "This reply only links to a product update about Codex features, not any limit or rate-limit reset.",
-      "tweetCreatedAt": "2026-04-23T19:17:05.000Z",
-      "tweetId": "2047394346849411291",
-      "tweetUrl": "https://x.com/thsottiaux/status/2047394346849411291",
+      "decidedAt": 1776983026837,
+      "rationale": "This reply asks for feedback details and does not indicate any limit or rate-cap reset.",
+      "tweetCreatedAt": "2026-04-23T21:46:03.000Z",
+      "tweetId": "2047431833563103714",
+      "tweetUrl": "https://x.com/thsottiaux/status/2047431833563103714",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2047394346849411291",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2047394346849411291",
+    "lastSeenTweetId": "2047431833563103714",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2047431833563103714",
     "pendingReview": {
       "confidence": 0.81,
       "createdAt": 1776973270699,
@@ -35,6 +35,20 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2047387243715916182"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1776983026837,
+        "inputTokens": 367,
+        "outputTokens": 72,
+        "rationale": "This reply asks for feedback details and does not indicate any limit or rate-cap reset.",
+        "reasoningTokens": 27,
+        "totalTokens": 439,
+        "tweetCreatedAt": "2026-04-23T21:46:03.000Z",
+        "tweetId": "2047431833563103714",
+        "tweetText": "@LeeLeepenkman Would you /feedback and share the session id?",
+        "tweetUrl": "https://x.com/thsottiaux/status/2047431833563103714",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1776976763487,
@@ -300,30 +314,32 @@
         "tweetText": "@damnGruz I recommend one of them more strongly than the other",
         "tweetUrl": "https://x.com/thsottiaux/status/2047259671384424910",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.95,
-        "evaluatedAt": 1776941360661,
-        "inputTokens": 370,
-        "outputTokens": 207,
-        "rationale": "This mentions service recovery and stability, not user rate limits or caps resetting.",
-        "reasoningTokens": 164,
-        "totalTokens": 577,
-        "tweetCreatedAt": "2026-04-23T10:18:01.000Z",
-        "tweetId": "2047258683470758145",
-        "tweetText": "@doublemover Image generation in codex also recovered. We are back to being stable.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2047258683470758145",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 60572,
-      "totalOutputTokens": 17862,
-      "totalReasoningTokens": 9626,
-      "totalTokens": 78434
+      "totalInputTokens": 60939,
+      "totalOutputTokens": 17934,
+      "totalReasoningTokens": 9653,
+      "totalTokens": 78873
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1776983026837,
+      "inputTokens": 367,
+      "message": "",
+      "outputTokens": 72,
+      "rationale": "This reply asks for feedback details and does not indicate any limit or rate-cap reset.",
+      "reasoningTokens": 27,
+      "totalTokens": 439,
+      "tweetCreatedAt": "2026-04-23T21:46:03.000Z",
+      "tweetId": "2047431833563103714",
+      "tweetText": "@LeeLeepenkman Would you /feedback and share the session id?",
+      "tweetUrl": "https://x.com/thsottiaux/status/2047431833563103714",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1776976763487,
@@ -947,28 +963,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2046665920563839288",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0,
-      "createdAt": 1776800313704,
-      "inputTokens": 0,
-      "message": "Tweet fetch failed: Tweet search failed: Request failed with status code 404; timeline fallback failed: Cannot read properties of undefined (reading '0') (Cannot read properties of undefined (reading '0')) (Tweet search failed: Request failed with status code 404; timeline fallback failed: Cannot read properties of undefined (reading '0'))",
-      "outputTokens": 0,
-      "rationale": "",
-      "reasoningTokens": 0,
-      "totalTokens": 0,
-      "tweetCreatedAt": null,
-      "tweetId": null,
-      "tweetText": "",
-      "tweetUrl": null,
-      "type": "error",
-      "verdict": null
     }
   ],
   "privateState": {
-    "ciphertext": "NptAlsga4WOlDqbyeQcsXeQfzv16WXNoQOqS1wuTcNmr-0jx5UpHGhCw4Q",
-    "iv": "9hr5S3PAB-R7Hx3N",
-    "tag": "0enP9sKTketJg3SmbyyJqg",
+    "ciphertext": "ytxAGwixLHf0gCFmzhRVZEjILiW7XaY59Y7y1dJNSY5L6TESVkkcbQspJQ",
+    "iv": "goCe-8aVGK5pYFfk",
+    "tag": "EnCHpNIXzccxanYQFgocrA",
     "version": 1
   }
 }
