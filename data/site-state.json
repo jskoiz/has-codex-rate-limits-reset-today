@@ -14,27 +14,41 @@
   "updatedAt": 1776463021442,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1776973263203,
-      "rationale": "This post is a product update about new Codex features, not a statement that limits or caps reset.",
-      "tweetCreatedAt": "2026-04-23T18:47:58.000Z",
-      "tweetId": "2047387017974337611",
-      "tweetUrl": "https://x.com/thsottiaux/status/2047387017974337611",
-      "verdict": "not_reset"
+      "confidence": 0.81,
+      "decidedAt": 1776973270699,
+      "rationale": "It mentions a rollout finishing soon, but does not clearly say rate limits or caps have reset right now.",
+      "tweetCreatedAt": "2026-04-23T18:48:52.000Z",
+      "tweetId": "2047387243715916182",
+      "tweetUrl": "https://x.com/thsottiaux/status/2047387243715916182",
+      "verdict": "uncertain"
     },
     "lastError": null,
-    "lastSeenTweetId": "2047387017974337611",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2047387017974337611",
+    "lastSeenTweetId": "2047387243715916182",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2047387243715916182",
     "pendingReview": {
-      "confidence": 0.97,
-      "createdAt": 1776967748996,
-      "rationale": "This reply only shows eyes emoji and does not clearly say any limit or cap has reset.",
-      "tweetCreatedAt": "2026-04-23T18:03:25.000Z",
-      "tweetId": "2047375806813573444",
-      "tweetText": "@mweinbach 👀",
-      "tweetUrl": "https://x.com/thsottiaux/status/2047375806813573444"
+      "confidence": 0.81,
+      "createdAt": 1776973270699,
+      "rationale": "It mentions a rollout finishing soon, but does not clearly say rate limits or caps have reset right now.",
+      "tweetCreatedAt": "2026-04-23T18:48:52.000Z",
+      "tweetId": "2047387243715916182",
+      "tweetText": "Rollout will be complete to 100% of paid users in the next 5 mins.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2047387243715916182"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.81,
+        "evaluatedAt": 1776973270699,
+        "inputTokens": 371,
+        "outputTokens": 237,
+        "rationale": "It mentions a rollout finishing soon, but does not clearly say rate limits or caps have reset right now.",
+        "reasoningTokens": 188,
+        "totalTokens": 608,
+        "tweetCreatedAt": "2026-04-23T18:48:52.000Z",
+        "tweetId": "2047387243715916182",
+        "tweetText": "Rollout will be complete to 100% of paid users in the next 5 mins.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2047387243715916182",
+        "verdict": "uncertain"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1776973263203,
@@ -300,30 +314,32 @@
         "tweetText": "@CalimanuLoredan @steipete Do tag",
         "tweetUrl": "https://x.com/thsottiaux/status/2047024731220857011",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1776883822832,
-        "inputTokens": 381,
-        "outputTokens": 82,
-        "rationale": "This reply discusses another topic and does not mention limits, caps, or usage becoming available again.",
-        "reasoningTokens": 35,
-        "totalTokens": 463,
-        "tweetCreatedAt": null,
-        "tweetId": "2047024660135751842",
-        "tweetText": "@badlogicgames @steipete Agreed with your take here. Don't think pi is the issue and 2] should get fixed too.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2047024660135751842",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 58496,
-      "totalOutputTokens": 17224,
-      "totalReasoningTokens": 9223,
-      "totalTokens": 75720
+      "totalInputTokens": 58867,
+      "totalOutputTokens": 17461,
+      "totalReasoningTokens": 9411,
+      "totalTokens": 76328
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.81,
+      "createdAt": 1776973270699,
+      "inputTokens": 371,
+      "message": "",
+      "outputTokens": 237,
+      "rationale": "It mentions a rollout finishing soon, but does not clearly say rate limits or caps have reset right now.",
+      "reasoningTokens": 188,
+      "totalTokens": 608,
+      "tweetCreatedAt": "2026-04-23T18:48:52.000Z",
+      "tweetId": "2047387243715916182",
+      "tweetText": "Rollout will be complete to 100% of paid users in the next 5 mins.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2047387243715916182",
+      "type": "review_requested",
+      "verdict": "uncertain"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1776973263203,
@@ -947,28 +963,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2044927351696626070",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0,
-      "createdAt": 1776459766854,
-      "inputTokens": 0,
-      "message": "Tweet fetch failed: Cannot read properties of undefined (reading 'rest_id') (Cannot read properties of undefined (reading 'rest_id'))",
-      "outputTokens": 0,
-      "rationale": "",
-      "reasoningTokens": 0,
-      "totalTokens": 0,
-      "tweetCreatedAt": null,
-      "tweetId": null,
-      "tweetText": "",
-      "tweetUrl": null,
-      "type": "error",
-      "verdict": null
     }
   ],
   "privateState": {
-    "ciphertext": "onHvX31PECBkGLnOlNspLvVm-ZRBJggqhUuyzuMz11F_Gi6he8zkdGyP2g",
-    "iv": "aDzjtBUJ6X0qaYUb",
-    "tag": "_-yEK8Lcbxd_84S99fAguA",
+    "ciphertext": "_oKNhLayJBZ4WQT_1I2rlXuaRRIsge_6XDaPOgMWoCb9fVbnxR29_oVQRQ",
+    "iv": "RqyfAc1u0zME1Crz",
+    "tag": "C00GSZKnMQUps9iNSxc7_w",
     "version": 1
   }
 }
