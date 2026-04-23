@@ -15,18 +15,32 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1776941370715,
-      "rationale": "This reply asks for feedback and does not mention limits, caps, or a reset.",
-      "tweetCreatedAt": "2026-04-23T10:40:59.000Z",
-      "tweetId": "2047264464823877663",
-      "tweetUrl": "https://x.com/thsottiaux/status/2047264464823877663",
+      "decidedAt": 1776957595149,
+      "rationale": "This reply discusses backend clusters and misinformation, not any reset of user limits or availability.",
+      "tweetCreatedAt": "2026-04-23T14:30:10.000Z",
+      "tweetId": "2047322142262641099",
+      "tweetUrl": "https://x.com/thsottiaux/status/2047322142262641099",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2047264464823877663",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2047264464823877663",
+    "lastSeenTweetId": "2047322142262641099",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2047322142262641099",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1776957595149,
+        "inputTokens": 409,
+        "outputTokens": 73,
+        "rationale": "This reply discusses backend clusters and misinformation, not any reset of user limits or availability.",
+        "reasoningTokens": 28,
+        "totalTokens": 482,
+        "tweetCreatedAt": "2026-04-23T14:30:10.000Z",
+        "tweetId": "2047322142262641099",
+        "tweetText": "@badlogicgames Not true. Please don't spread misinformation out there, it's already hard enough to keep facts straight! Will investigate today if there are differences but the requests should all go to the same clusters irrespective of the client (pi, opencode, openclaw, w/e).",
+        "tweetUrl": "https://x.com/thsottiaux/status/2047322142262641099",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1776941370715,
@@ -292,30 +306,32 @@
         "tweetText": "@altryne We love shipping freatures. It's like features, but free and better.",
         "tweetUrl": "https://x.com/thsottiaux/status/2046666205260591257",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1776872376148,
-        "inputTokens": 361,
-        "outputTokens": 71,
-        "rationale": "This reply is conversational and does not mention limits, caps, or availability resetting.",
-        "reasoningTokens": 27,
-        "totalTokens": 432,
-        "tweetCreatedAt": null,
-        "tweetId": "2046665920563839288",
-        "tweetText": "@krishnanrohit Yay, intelligence!",
-        "tweetUrl": "https://x.com/thsottiaux/status/2046665920563839288",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 53810,
-      "totalOutputTokens": 16098,
-      "totalReasoningTokens": 8648,
-      "totalTokens": 69908
+      "totalInputTokens": 54219,
+      "totalOutputTokens": 16171,
+      "totalReasoningTokens": 8676,
+      "totalTokens": 70390
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1776957595149,
+      "inputTokens": 409,
+      "message": "",
+      "outputTokens": 73,
+      "rationale": "This reply discusses backend clusters and misinformation, not any reset of user limits or availability.",
+      "reasoningTokens": 28,
+      "totalTokens": 482,
+      "tweetCreatedAt": "2026-04-23T14:30:10.000Z",
+      "tweetId": "2047322142262641099",
+      "tweetText": "@badlogicgames Not true. Please don't spread misinformation out there, it's already hard enough to keep facts straight! Will investigate today if there are differences but the requests should all go to the same clusters irrespective of the client (pi, opencode, openclaw, w/e).",
+      "tweetUrl": "https://x.com/thsottiaux/status/2047322142262641099",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1776941370715,
@@ -939,28 +955,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2044865908209041821",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.95,
-      "createdAt": 1776369332906,
-      "inputTokens": 364,
-      "message": "",
-      "outputTokens": 185,
-      "rationale": "This reply contains only a link and does not indicate that any rate limit or cap has reset.",
-      "reasoningTokens": 138,
-      "totalTokens": 549,
-      "tweetCreatedAt": null,
-      "tweetId": "2044865630097297898",
-      "tweetText": "https://t.co/Ye96TLS6f3",
-      "tweetUrl": "https://x.com/thsottiaux/status/2044865630097297898",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "thufxr5m7xQOHAL4IJa8anufttlm14OTV6paYQKrBydy7N4ErVbT6sDi3w",
-    "iv": "YqS33HADXisk9_Bq",
-    "tag": "vUXlN7yyQGHKWzrKR3Esxg",
+    "ciphertext": "ocY9PNnu3tmqyYF-RtGcNDue21kNynu6JK0aG0n1BKkz--xJ08Dc07Qg8Q",
+    "iv": "5bTtLHVKaytWNpnZ",
+    "tag": "QhMY9zJ7u9DYM63BTV9hJA",
     "version": 1
   }
 }
