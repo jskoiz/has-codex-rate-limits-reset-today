@@ -15,16 +15,16 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1776976758766,
-      "rationale": "This reply discusses SWE-Bench research and says nothing about ChatGPT or Codex limits resetting.",
-      "tweetCreatedAt": "2026-04-23T19:03:34.000Z",
-      "tweetId": "2047390943821869255",
-      "tweetUrl": "https://x.com/thsottiaux/status/2047390943821869255",
+      "decidedAt": 1776976763487,
+      "rationale": "This reply only links to a product update about Codex features, not any limit or rate-limit reset.",
+      "tweetCreatedAt": "2026-04-23T19:17:05.000Z",
+      "tweetId": "2047394346849411291",
+      "tweetUrl": "https://x.com/thsottiaux/status/2047394346849411291",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2047390943821869255",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2047390943821869255",
+    "lastSeenTweetId": "2047394346849411291",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2047394346849411291",
     "pendingReview": {
       "confidence": 0.81,
       "createdAt": 1776973270699,
@@ -35,6 +35,20 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2047387243715916182"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1776976763487,
+        "inputTokens": 466,
+        "outputTokens": 131,
+        "rationale": "This reply only links to a product update about Codex features, not any limit or rate-limit reset.",
+        "reasoningTokens": 82,
+        "totalTokens": 597,
+        "tweetCreatedAt": "2026-04-23T19:17:05.000Z",
+        "tweetId": "2047394346849411291",
+        "tweetText": "@J_dev363 https://t.co/P3G1YeOUDt",
+        "tweetUrl": "https://x.com/thsottiaux/status/2047394346849411291",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1776976758766,
@@ -300,30 +314,32 @@
         "tweetText": "@doublemover Image generation in codex also recovered. We are back to being stable.",
         "tweetUrl": "https://x.com/thsottiaux/status/2047258683470758145",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.93,
-        "evaluatedAt": 1776935559709,
-        "inputTokens": 372,
-        "outputTokens": 146,
-        "rationale": "This says service traffic has recovered, not that Codex or ChatGPT usage limits have reset.",
-        "reasoningTokens": 99,
-        "totalTokens": 518,
-        "tweetCreatedAt": "2026-04-23T09:03:57.000Z",
-        "tweetId": "2047240045791457324",
-        "tweetText": "@doublemover Situation is mostly recovered. We are continuing to monitor but traffic is back and healthy.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2047240045791457324",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 60106,
-      "totalOutputTokens": 17731,
-      "totalReasoningTokens": 9544,
-      "totalTokens": 77837
+      "totalInputTokens": 60572,
+      "totalOutputTokens": 17862,
+      "totalReasoningTokens": 9626,
+      "totalTokens": 78434
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1776976763487,
+      "inputTokens": 466,
+      "message": "",
+      "outputTokens": 131,
+      "rationale": "This reply only links to a product update about Codex features, not any limit or rate-limit reset.",
+      "reasoningTokens": 82,
+      "totalTokens": 597,
+      "tweetCreatedAt": "2026-04-23T19:17:05.000Z",
+      "tweetId": "2047394346849411291",
+      "tweetText": "@J_dev363 https://t.co/P3G1YeOUDt",
+      "tweetUrl": "https://x.com/thsottiaux/status/2047394346849411291",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1776976758766,
@@ -947,28 +963,12 @@
       "tweetUrl": null,
       "type": "error",
       "verdict": null
-    },
-    {
-      "confidence": 0,
-      "createdAt": 1776501295626,
-      "inputTokens": 0,
-      "message": "Tweet fetch failed: Cannot read properties of undefined (reading '0') (Cannot read properties of undefined (reading '0'))",
-      "outputTokens": 0,
-      "rationale": "",
-      "reasoningTokens": 0,
-      "totalTokens": 0,
-      "tweetCreatedAt": null,
-      "tweetId": null,
-      "tweetText": "",
-      "tweetUrl": null,
-      "type": "error",
-      "verdict": null
     }
   ],
   "privateState": {
-    "ciphertext": "biMxBuGGos6hH-4_UxeBrDyNoHMaAKK8bdPM2gDkmXCqknbnMycMfMmurQ",
-    "iv": "8rfPWPFIoPSjtePc",
-    "tag": "N_mvgIDuA3zEG9KTal3Puw",
+    "ciphertext": "NptAlsga4WOlDqbyeQcsXeQfzv16WXNoQOqS1wuTcNmr-0jx5UpHGhCw4Q",
+    "iv": "9hr5S3PAB-R7Hx3N",
+    "tag": "0enP9sKTketJg3SmbyyJqg",
     "version": 1
   }
 }
