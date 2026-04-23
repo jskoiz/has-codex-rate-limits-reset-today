@@ -15,16 +15,16 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1776976755250,
-      "rationale": "This post is about a Codex app update and new features, not rate limits or usage caps resetting.",
-      "tweetCreatedAt": "2026-04-23T18:57:12.000Z",
-      "tweetId": "2047389342809882730",
-      "tweetUrl": "https://x.com/thsottiaux/status/2047389342809882730",
+      "decidedAt": 1776976758766,
+      "rationale": "This reply discusses SWE-Bench research and says nothing about ChatGPT or Codex limits resetting.",
+      "tweetCreatedAt": "2026-04-23T19:03:34.000Z",
+      "tweetId": "2047390943821869255",
+      "tweetUrl": "https://x.com/thsottiaux/status/2047390943821869255",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2047389342809882730",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2047389342809882730",
+    "lastSeenTweetId": "2047390943821869255",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2047390943821869255",
     "pendingReview": {
       "confidence": 0.81,
       "createdAt": 1776973270699,
@@ -35,6 +35,20 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2047387243715916182"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1776976758766,
+        "inputTokens": 395,
+        "outputTokens": 93,
+        "rationale": "This reply discusses SWE-Bench research and says nothing about ChatGPT or Codex limits resetting.",
+        "reasoningTokens": 46,
+        "totalTokens": 488,
+        "tweetCreatedAt": "2026-04-23T19:03:34.000Z",
+        "tweetId": "2047390943821869255",
+        "tweetText": "@deedydas You will be missing out if you think SWE-Bench is representative of anything real. We published about this back in February.\n\nhttps://t.co/MbIIY7foOo",
+        "tweetUrl": "https://x.com/thsottiaux/status/2047390943821869255",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1776976755250,
@@ -300,30 +314,32 @@
         "tweetText": "@doublemover Situation is mostly recovered. We are continuing to monitor but traffic is back and healthy.",
         "tweetUrl": "https://x.com/thsottiaux/status/2047240045791457324",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.95,
-        "evaluatedAt": 1776935554736,
-        "inputTokens": 454,
-        "outputTokens": 167,
-        "rationale": "This says capacity is being added and service should recover soon, not that limits have reset now.",
-        "reasoningTokens": 120,
-        "totalTokens": 621,
-        "tweetCreatedAt": "2026-04-23T08:45:54.000Z",
-        "tweetId": "2047235504933052856",
-        "tweetText": "Bro @doublemover. Believe it or not we got paged and are at it since 1am. Shuffling capacity and bringing more compute online. Should be back to normal shortly.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2047235504933052856",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 59711,
-      "totalOutputTokens": 17638,
-      "totalReasoningTokens": 9498,
-      "totalTokens": 77349
+      "totalInputTokens": 60106,
+      "totalOutputTokens": 17731,
+      "totalReasoningTokens": 9544,
+      "totalTokens": 77837
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1776976758766,
+      "inputTokens": 395,
+      "message": "",
+      "outputTokens": 93,
+      "rationale": "This reply discusses SWE-Bench research and says nothing about ChatGPT or Codex limits resetting.",
+      "reasoningTokens": 46,
+      "totalTokens": 488,
+      "tweetCreatedAt": "2026-04-23T19:03:34.000Z",
+      "tweetId": "2047390943821869255",
+      "tweetText": "@deedydas You will be missing out if you think SWE-Bench is representative of anything real. We published about this back in February.\n\nhttps://t.co/MbIIY7foOo",
+      "tweetUrl": "https://x.com/thsottiaux/status/2047390943821869255",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1776976755250,
@@ -947,28 +963,12 @@
       "tweetUrl": null,
       "type": "error",
       "verdict": null
-    },
-    {
-      "confidence": 0,
-      "createdAt": 1776498577796,
-      "inputTokens": 0,
-      "message": "Tweet fetch failed: Request failed with status code 404 (Request failed with status code 404)",
-      "outputTokens": 0,
-      "rationale": "",
-      "reasoningTokens": 0,
-      "totalTokens": 0,
-      "tweetCreatedAt": null,
-      "tweetId": null,
-      "tweetText": "",
-      "tweetUrl": null,
-      "type": "error",
-      "verdict": null
     }
   ],
   "privateState": {
-    "ciphertext": "HaoTtowq_qQhP1ecYFNM8FPG6SFNyOTvGFkWU488d8drLZ1IMzqEHNtkGw",
-    "iv": "D6lUrJnucz-n6JxF",
-    "tag": "1oiOXOblJHt5_ehRdUYFsQ",
+    "ciphertext": "biMxBuGGos6hH-4_UxeBrDyNoHMaAKK8bdPM2gDkmXCqknbnMycMfMmurQ",
+    "iv": "8rfPWPFIoPSjtePc",
+    "tag": "N_mvgIDuA3zEG9KTal3Puw",
     "version": 1
   }
 }
