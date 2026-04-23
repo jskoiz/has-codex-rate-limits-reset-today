@@ -14,17 +14,17 @@
   "updatedAt": 1776463021442,
   "automation": {
     "lastDecision": {
-      "confidence": 0.98,
-      "decidedAt": 1776985937481,
-      "rationale": "This reply discusses increasing limits over time, not that any cap has reset or is available again now.",
-      "tweetCreatedAt": "2026-04-23T22:06:05.000Z",
-      "tweetId": "2047436878350307482",
-      "tweetUrl": "https://x.com/thsottiaux/status/2047436878350307482",
+      "confidence": 0.99,
+      "decidedAt": 1776985940619,
+      "rationale": "This reply promotes trying something and does not mention limits, caps, or a reset.",
+      "tweetCreatedAt": "2026-04-23T22:13:56.000Z",
+      "tweetId": "2047438852445618645",
+      "tweetUrl": "https://x.com/thsottiaux/status/2047438852445618645",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2047436878350307482",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2047436878350307482",
+    "lastSeenTweetId": "2047438852445618645",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2047438852445618645",
     "pendingReview": {
       "confidence": 0.22,
       "createdAt": 1776983032548,
@@ -35,6 +35,20 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2047433466405699683"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1776985940619,
+        "inputTokens": 380,
+        "outputTokens": 101,
+        "rationale": "This reply promotes trying something and does not mention limits, caps, or a reset.",
+        "reasoningTokens": 56,
+        "totalTokens": 481,
+        "tweetCreatedAt": "2026-04-23T22:13:56.000Z",
+        "tweetId": "2047438852445618645",
+        "tweetText": "@sandislonjsak I also worked 12 hours to bring it to you. It won't prompt itself (yet), go try it!",
+        "tweetUrl": "https://x.com/thsottiaux/status/2047438852445618645",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.98,
         "evaluatedAt": 1776985937481,
@@ -300,30 +314,32 @@
         "tweetText": "@JasonBotterill 👀",
         "tweetUrl": "https://x.com/thsottiaux/status/2047322398744310092",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1776957595149,
-        "inputTokens": 409,
-        "outputTokens": 73,
-        "rationale": "This reply discusses backend clusters and misinformation, not any reset of user limits or availability.",
-        "reasoningTokens": 28,
-        "totalTokens": 482,
-        "tweetCreatedAt": "2026-04-23T14:30:10.000Z",
-        "tweetId": "2047322142262641099",
-        "tweetText": "@badlogicgames Not true. Please don't spread misinformation out there, it's already hard enough to keep facts straight! Will investigate today if there are differences but the requests should all go to the same clusters irrespective of the client (pi, opencode, openclaw, w/e).",
-        "tweetUrl": "https://x.com/thsottiaux/status/2047322142262641099",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 61664,
-      "totalOutputTokens": 18198,
-      "totalReasoningTokens": 9827,
-      "totalTokens": 79862
+      "totalInputTokens": 62044,
+      "totalOutputTokens": 18299,
+      "totalReasoningTokens": 9883,
+      "totalTokens": 80343
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1776985940619,
+      "inputTokens": 380,
+      "message": "",
+      "outputTokens": 101,
+      "rationale": "This reply promotes trying something and does not mention limits, caps, or a reset.",
+      "reasoningTokens": 56,
+      "totalTokens": 481,
+      "tweetCreatedAt": "2026-04-23T22:13:56.000Z",
+      "tweetId": "2047438852445618645",
+      "tweetText": "@sandislonjsak I also worked 12 hours to bring it to you. It won't prompt itself (yet), go try it!",
+      "tweetUrl": "https://x.com/thsottiaux/status/2047438852445618645",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.98,
       "createdAt": 1776985937481,
@@ -947,28 +963,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2046678531695104187",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.98,
-      "createdAt": 1776872383381,
-      "inputTokens": 375,
-      "message": "",
-      "outputTokens": 87,
-      "rationale": "This reply discusses usage cost, not a reset or restored availability of limits.",
-      "reasoningTokens": 44,
-      "totalTokens": 462,
-      "tweetCreatedAt": null,
-      "tweetId": "2046666587147837517",
-      "tweetText": "@kr0der It's really not that bad, but we preferred to be explicit that this uses more of the usage.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2046666587147837517",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "WU9ziT1aGw-jSvdgSxTdyxRakUKseaFld-A8o6sj1hph0PL1IQdPtpc96g",
-    "iv": "rQ7nVrUDlTpue5vD",
-    "tag": "52G5C3cCwlVLe4lxz4I82A",
+    "ciphertext": "rWl_tAMdDpinU31n-VwmuOvBMMgrYUbJDw8dGvljw2uxfW6dG6WWiMnh2A",
+    "iv": "HDJk7w6zH7ZDHadx",
+    "tag": "HtSd9w5mDYxs7GF8la6iMg",
     "version": 1
   }
 }
