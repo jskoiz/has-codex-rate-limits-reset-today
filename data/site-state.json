@@ -15,18 +15,32 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1776963364472,
-      "rationale": "This is a casual joke about Codex and says nothing about limits or resets.",
-      "tweetCreatedAt": "2026-04-23T16:51:06.000Z",
-      "tweetId": "2047357608143761664",
-      "tweetUrl": "https://x.com/thsottiaux/status/2047357608143761664",
+      "decidedAt": 1776967731871,
+      "rationale": "This post is unrelated to ChatGPT or Codex usage limits resetting.",
+      "tweetCreatedAt": "2026-04-23T17:15:30.000Z",
+      "tweetId": "2047363748634231285",
+      "tweetUrl": "https://x.com/thsottiaux/status/2047363748634231285",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2047357608143761664",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2047357608143761664",
+    "lastSeenTweetId": "2047363748634231285",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2047363748634231285",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1776967731871,
+        "inputTokens": 382,
+        "outputTokens": 67,
+        "rationale": "This post is unrelated to ChatGPT or Codex usage limits resetting.",
+        "reasoningTokens": 25,
+        "totalTokens": 449,
+        "tweetCreatedAt": "2026-04-23T17:15:30.000Z",
+        "tweetId": "2047363748634231285",
+        "tweetText": "Some models can now count to 10. Incredible to see how far we have come. https://t.co/iFWqzTkY73",
+        "tweetUrl": "https://x.com/thsottiaux/status/2047363748634231285",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1776963364472,
@@ -292,30 +306,32 @@
         "tweetText": "@jeremyphoward @badlogicgames @simonw You have my blessing.",
         "tweetUrl": "https://x.com/thsottiaux/status/2046679199096910089",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1776872387142,
-        "inputTokens": 427,
-        "outputTokens": 79,
-        "rationale": "This post is a product update and user milestone, with no mention of limits, caps, or reset status.",
-        "reasoningTokens": 29,
-        "totalTokens": 506,
-        "tweetCreatedAt": null,
-        "tweetId": "2046678531695104187",
-        "tweetText": "New image model is now the default in Codex. It's incredible as a starting point for building websites or to generate assets for video games and codex can use it as any other tool in its toolkit.\n\nAsked Codex what it pictures my day looks like given we hit 4M active users today. https://t.co/DTIUQHGfne",
-        "tweetUrl": "https://x.com/thsottiaux/status/2046678531695104187",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 54970,
-      "totalOutputTokens": 16379,
-      "totalReasoningTokens": 8796,
-      "totalTokens": 71349
+      "totalInputTokens": 55352,
+      "totalOutputTokens": 16446,
+      "totalReasoningTokens": 8821,
+      "totalTokens": 71798
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1776967731871,
+      "inputTokens": 382,
+      "message": "",
+      "outputTokens": 67,
+      "rationale": "This post is unrelated to ChatGPT or Codex usage limits resetting.",
+      "reasoningTokens": 25,
+      "totalTokens": 449,
+      "tweetCreatedAt": "2026-04-23T17:15:30.000Z",
+      "tweetId": "2047363748634231285",
+      "tweetText": "Some models can now count to 10. Incredible to see how far we have come. https://t.co/iFWqzTkY73",
+      "tweetUrl": "https://x.com/thsottiaux/status/2047363748634231285",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1776963364472,
@@ -939,28 +955,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2044866881161711986",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1776369344828,
-      "inputTokens": 362,
-      "message": "",
-      "outputTokens": 88,
-      "rationale": "This reply is about cleaning something up and does not mention limits or a reset.",
-      "reasoningTokens": 44,
-      "totalTokens": 450,
-      "tweetCreatedAt": null,
-      "tweetId": "2044866639536312492",
-      "tweetText": "@pedromatosonv We'll clean this up",
-      "tweetUrl": "https://x.com/thsottiaux/status/2044866639536312492",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "lmxP0PK87MS2pHx_Hy6S0XzThVWgiQuS-dEkwwdOsXddJN4UjiQ-BgRcjw",
-    "iv": "oApyWlwZuTJqlSLf",
-    "tag": "1v_G-2l4E0xfVkZMvvV5hg",
+    "ciphertext": "cRZI8gNZaSiM-Y18_SWx7ETUdwV8usAJEhpr8uEVaElDohdoGvL-B8o-2A",
+    "iv": "klLqiQ_Rm_-gTDAt",
+    "tag": "ENL5H88Mm-60n3pn2mJv2w",
     "version": 1
   }
 }
