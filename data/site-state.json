@@ -15,16 +15,16 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1776985946756,
-      "rationale": "This reply just says “DM” and gives no indication that any rate limit or cap has reset.",
-      "tweetCreatedAt": "2026-04-23T22:17:10.000Z",
-      "tweetId": "2047439666887188637",
-      "tweetUrl": "https://x.com/thsottiaux/status/2047439666887188637",
+      "decidedAt": 1776985950734,
+      "rationale": "This reply comments on image quality and does not mention any limit or rate-cap reset.",
+      "tweetCreatedAt": "2026-04-23T22:24:08.000Z",
+      "tweetId": "2047441418076168480",
+      "tweetUrl": "https://x.com/thsottiaux/status/2047441418076168480",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2047439666887188637",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2047439666887188637",
+    "lastSeenTweetId": "2047441418076168480",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2047441418076168480",
     "pendingReview": {
       "confidence": 0.22,
       "createdAt": 1776983032548,
@@ -35,6 +35,20 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2047433466405699683"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1776985950734,
+        "inputTokens": 378,
+        "outputTokens": 92,
+        "rationale": "This reply comments on image quality and does not mention any limit or rate-cap reset.",
+        "reasoningTokens": 47,
+        "totalTokens": 470,
+        "tweetCreatedAt": "2026-04-23T22:24:08.000Z",
+        "tweetId": "2047441418076168480",
+        "tweetText": "@Joshua43910769 @pwealthydad Please. We have ChatGPT Images 2.0 and you give me this?",
+        "tweetUrl": "https://x.com/thsottiaux/status/2047441418076168480",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1776985946756,
@@ -300,30 +314,32 @@
         "tweetText": "@usr_bin_roygbiv BART = Bring About Rapid Transformation",
         "tweetUrl": "https://x.com/thsottiaux/status/2047364017405272074",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1776967731871,
-        "inputTokens": 382,
-        "outputTokens": 67,
-        "rationale": "This post is unrelated to ChatGPT or Codex usage limits resetting.",
-        "reasoningTokens": 25,
-        "totalTokens": 449,
-        "tweetCreatedAt": "2026-04-23T17:15:30.000Z",
-        "tweetId": "2047363748634231285",
-        "tweetText": "Some models can now count to 10. Incredible to see how far we have come. https://t.co/iFWqzTkY73",
-        "tweetUrl": "https://x.com/thsottiaux/status/2047363748634231285",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 62787,
-      "totalOutputTokens": 18481,
-      "totalReasoningTokens": 9971,
-      "totalTokens": 81268
+      "totalInputTokens": 63165,
+      "totalOutputTokens": 18573,
+      "totalReasoningTokens": 10018,
+      "totalTokens": 81738
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1776985950734,
+      "inputTokens": 378,
+      "message": "",
+      "outputTokens": 92,
+      "rationale": "This reply comments on image quality and does not mention any limit or rate-cap reset.",
+      "reasoningTokens": 47,
+      "totalTokens": 470,
+      "tweetCreatedAt": "2026-04-23T22:24:08.000Z",
+      "tweetId": "2047441418076168480",
+      "tweetText": "@Joshua43910769 @pwealthydad Please. We have ChatGPT Images 2.0 and you give me this?",
+      "tweetUrl": "https://x.com/thsottiaux/status/2047441418076168480",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1776985946756,
@@ -947,28 +963,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2046706812611915879",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1776872394341,
-      "inputTokens": 360,
-      "message": "",
-      "outputTokens": 95,
-      "rationale": "This reply gives no explicit indication that any Codex or ChatGPT limits have reset.",
-      "reasoningTokens": 50,
-      "totalTokens": 455,
-      "tweetCreatedAt": null,
-      "tweetId": "2046679732364956139",
-      "tweetText": "@_arohan_ So it begins.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2046679732364956139",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "ihMHb0aJeaklnu-YozgkZtfCq7EhvQ94u65wWIV_rk3EFDTiiUJSyiUldQ",
-    "iv": "0L7BRNCjmM7hXvP9",
-    "tag": "GEqWgmypjQrm-Fs7jpSzgQ",
+    "ciphertext": "aIwDfB4klvp4RwXxB_u_y7vyvyY8YcHT2SvpBdqWBFpVmPIhpeghtJ-c8A",
+    "iv": "vL4v2bIQxUZiIMOV",
+    "tag": "wNBoMFZTxkcmQhC6Jwhuug",
     "version": 1
   }
 }
