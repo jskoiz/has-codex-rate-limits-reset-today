@@ -14,17 +14,17 @@
   "updatedAt": 1776463021442,
   "automation": {
     "lastDecision": {
-      "confidence": 0.22,
-      "decidedAt": 1776983032548,
-      "rationale": "This reply lacks enough context to tell whether it means limits have reset.",
-      "tweetCreatedAt": "2026-04-23T21:52:32.000Z",
-      "tweetId": "2047433466405699683",
-      "tweetUrl": "https://x.com/thsottiaux/status/2047433466405699683",
-      "verdict": "uncertain"
+      "confidence": 0.98,
+      "decidedAt": 1776985937481,
+      "rationale": "This reply discusses increasing limits over time, not that any cap has reset or is available again now.",
+      "tweetCreatedAt": "2026-04-23T22:06:05.000Z",
+      "tweetId": "2047436878350307482",
+      "tweetUrl": "https://x.com/thsottiaux/status/2047436878350307482",
+      "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2047433466405699683",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2047433466405699683",
+    "lastSeenTweetId": "2047436878350307482",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2047436878350307482",
     "pendingReview": {
       "confidence": 0.22,
       "createdAt": 1776983032548,
@@ -35,6 +35,20 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2047433466405699683"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.98,
+        "evaluatedAt": 1776985937481,
+        "inputTokens": 362,
+        "outputTokens": 87,
+        "rationale": "This reply discusses increasing limits over time, not that any cap has reset or is available again now.",
+        "reasoningTokens": 39,
+        "totalTokens": 449,
+        "tweetCreatedAt": "2026-04-23T22:06:05.000Z",
+        "tweetId": "2047436878350307482",
+        "tweetText": "@benvargas We will increase this over time",
+        "tweetUrl": "https://x.com/thsottiaux/status/2047436878350307482",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.22,
         "evaluatedAt": 1776983032548,
@@ -300,30 +314,32 @@
         "tweetText": "@badlogicgames Not true. Please don't spread misinformation out there, it's already hard enough to keep facts straight! Will investigate today if there are differences but the requests should all go to the same clusters irrespective of the client (pi, opencode, openclaw, w/e).",
         "tweetUrl": "https://x.com/thsottiaux/status/2047322142262641099",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1776941370715,
-        "inputTokens": 363,
-        "outputTokens": 82,
-        "rationale": "This reply asks for feedback and does not mention limits, caps, or a reset.",
-        "reasoningTokens": 37,
-        "totalTokens": 445,
-        "tweetCreatedAt": "2026-04-23T10:40:59.000Z",
-        "tweetId": "2047264464823877663",
-        "tweetText": "@doublemover Could you /feedback on that session?",
-        "tweetUrl": "https://x.com/thsottiaux/status/2047264464823877663",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 61302,
-      "totalOutputTokens": 18111,
-      "totalReasoningTokens": 9788,
-      "totalTokens": 79413
+      "totalInputTokens": 61664,
+      "totalOutputTokens": 18198,
+      "totalReasoningTokens": 9827,
+      "totalTokens": 79862
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.98,
+      "createdAt": 1776985937481,
+      "inputTokens": 362,
+      "message": "",
+      "outputTokens": 87,
+      "rationale": "This reply discusses increasing limits over time, not that any cap has reset or is available again now.",
+      "reasoningTokens": 39,
+      "totalTokens": 449,
+      "tweetCreatedAt": "2026-04-23T22:06:05.000Z",
+      "tweetId": "2047436878350307482",
+      "tweetText": "@benvargas We will increase this over time",
+      "tweetUrl": "https://x.com/thsottiaux/status/2047436878350307482",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.22,
       "createdAt": 1776983032548,
@@ -947,28 +963,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2046666587147837517",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1776872378981,
-      "inputTokens": 371,
-      "message": "",
-      "outputTokens": 72,
-      "rationale": "This reply is just a joke about shipping features and says nothing about limits or resets.",
-      "reasoningTokens": 27,
-      "totalTokens": 443,
-      "tweetCreatedAt": null,
-      "tweetId": "2046666205260591257",
-      "tweetText": "@altryne We love shipping freatures. It's like features, but free and better.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2046666205260591257",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "hOzJR_OQ9URHoeGDRoz7ec4oN0a386SV2dxUJ4iz6LSJhw6j9SJEDdXyrA",
-    "iv": "YMYXQN_BjsmK8hoA",
-    "tag": "QFQrmWzJqvcbT36tpftgnQ",
+    "ciphertext": "WU9ziT1aGw-jSvdgSxTdyxRakUKseaFld-A8o6sj1hph0PL1IQdPtpc96g",
+    "iv": "rQ7nVrUDlTpue5vD",
+    "tag": "52G5C3cCwlVLe4lxz4I82A",
     "version": 1
   }
 }
