@@ -14,19 +14,33 @@
   "updatedAt": 1776463021442,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1776957595149,
-      "rationale": "This reply discusses backend clusters and misinformation, not any reset of user limits or availability.",
-      "tweetCreatedAt": "2026-04-23T14:30:10.000Z",
-      "tweetId": "2047322142262641099",
-      "tweetUrl": "https://x.com/thsottiaux/status/2047322142262641099",
+      "confidence": 0.98,
+      "decidedAt": 1776957603587,
+      "rationale": "This reply is just conversational and does not indicate any limit or rate cap reset.",
+      "tweetCreatedAt": "2026-04-23T14:31:11.000Z",
+      "tweetId": "2047322398744310092",
+      "tweetUrl": "https://x.com/thsottiaux/status/2047322398744310092",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2047322142262641099",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2047322142262641099",
+    "lastSeenTweetId": "2047322398744310092",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2047322398744310092",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.98,
+        "evaluatedAt": 1776957603587,
+        "inputTokens": 359,
+        "outputTokens": 147,
+        "rationale": "This reply is just conversational and does not indicate any limit or rate cap reset.",
+        "reasoningTokens": 103,
+        "totalTokens": 506,
+        "tweetCreatedAt": "2026-04-23T14:31:11.000Z",
+        "tweetId": "2047322398744310092",
+        "tweetText": "@JasonBotterill 👀",
+        "tweetUrl": "https://x.com/thsottiaux/status/2047322398744310092",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1776957595149,
@@ -292,30 +306,32 @@
         "tweetText": "@kr0der It's really not that bad, but we preferred to be explicit that this uses more of the usage.",
         "tweetUrl": "https://x.com/thsottiaux/status/2046666587147837517",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1776872378981,
-        "inputTokens": 371,
-        "outputTokens": 72,
-        "rationale": "This reply is just a joke about shipping features and says nothing about limits or resets.",
-        "reasoningTokens": 27,
-        "totalTokens": 443,
-        "tweetCreatedAt": null,
-        "tweetId": "2046666205260591257",
-        "tweetText": "@altryne We love shipping freatures. It's like features, but free and better.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2046666205260591257",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 54219,
-      "totalOutputTokens": 16171,
-      "totalReasoningTokens": 8676,
-      "totalTokens": 70390
+      "totalInputTokens": 54578,
+      "totalOutputTokens": 16318,
+      "totalReasoningTokens": 8779,
+      "totalTokens": 70896
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.98,
+      "createdAt": 1776957603587,
+      "inputTokens": 359,
+      "message": "",
+      "outputTokens": 147,
+      "rationale": "This reply is just conversational and does not indicate any limit or rate cap reset.",
+      "reasoningTokens": 103,
+      "totalTokens": 506,
+      "tweetCreatedAt": "2026-04-23T14:31:11.000Z",
+      "tweetId": "2047322398744310092",
+      "tweetText": "@JasonBotterill 👀",
+      "tweetUrl": "https://x.com/thsottiaux/status/2047322398744310092",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1776957595149,
@@ -939,28 +955,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2044865957815026000",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1776369337087,
-      "inputTokens": 361,
-      "message": "",
-      "outputTokens": 86,
-      "rationale": "This reply does not mention limits, caps, or usage becoming available again.",
-      "reasoningTokens": 43,
-      "totalTokens": 447,
-      "tweetCreatedAt": null,
-      "tweetId": "2044865908209041821",
-      "tweetText": "@RedardidLLM Sorry Meep",
-      "tweetUrl": "https://x.com/thsottiaux/status/2044865908209041821",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "ocY9PNnu3tmqyYF-RtGcNDue21kNynu6JK0aG0n1BKkz--xJ08Dc07Qg8Q",
-    "iv": "5bTtLHVKaytWNpnZ",
-    "tag": "QhMY9zJ7u9DYM63BTV9hJA",
+    "ciphertext": "ryEmL_lrBMWbTSVF1OyG7RL4DEJ8WLuFymP7So6kMYCsYvgdyojIHnD_kA",
+    "iv": "0q9EZaXySs-8V1hT",
+    "tag": "Q-kwYgeXRT-uVuDMQa-1gQ",
     "version": 1
   }
 }
