@@ -15,18 +15,32 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1776941366741,
-      "rationale": "This reply is just a recommendation and does not mention limits, caps, or a reset.",
-      "tweetCreatedAt": "2026-04-23T10:21:56.000Z",
-      "tweetId": "2047259671384424910",
-      "tweetUrl": "https://x.com/thsottiaux/status/2047259671384424910",
+      "decidedAt": 1776941370715,
+      "rationale": "This reply asks for feedback and does not mention limits, caps, or a reset.",
+      "tweetCreatedAt": "2026-04-23T10:40:59.000Z",
+      "tweetId": "2047264464823877663",
+      "tweetUrl": "https://x.com/thsottiaux/status/2047264464823877663",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2047259671384424910",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2047259671384424910",
+    "lastSeenTweetId": "2047264464823877663",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2047264464823877663",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1776941370715,
+        "inputTokens": 363,
+        "outputTokens": 82,
+        "rationale": "This reply asks for feedback and does not mention limits, caps, or a reset.",
+        "reasoningTokens": 37,
+        "totalTokens": 445,
+        "tweetCreatedAt": "2026-04-23T10:40:59.000Z",
+        "tweetId": "2047264464823877663",
+        "tweetText": "@doublemover Could you /feedback on that session?",
+        "tweetUrl": "https://x.com/thsottiaux/status/2047264464823877663",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1776941366741,
@@ -292,30 +306,32 @@
         "tweetText": "@krishnanrohit Yay, intelligence!",
         "tweetUrl": "https://x.com/thsottiaux/status/2046665920563839288",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1776463021442,
-        "inputTokens": 395,
-        "outputTokens": 129,
-        "rationale": "The tweet explicitly says Codex rate limits have been reset across all plans now.",
-        "reasoningTokens": 84,
-        "totalTokens": 524,
-        "tweetCreatedAt": null,
-        "tweetId": "2044943514832871564",
-        "tweetText": "Hi! To celebrate its 1-year anniversary, I have allowed Codex to reset its own rate limits across all plans. Enjoy all the new features. https://t.co/xIGXQwMzpa",
-        "tweetUrl": "https://x.com/thsottiaux/status/2044943514832871564",
-        "verdict": "reset_confirmed"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 53447,
-      "totalOutputTokens": 16016,
-      "totalReasoningTokens": 8611,
-      "totalTokens": 69463
+      "totalInputTokens": 53810,
+      "totalOutputTokens": 16098,
+      "totalReasoningTokens": 8648,
+      "totalTokens": 69908
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1776941370715,
+      "inputTokens": 363,
+      "message": "",
+      "outputTokens": 82,
+      "rationale": "This reply asks for feedback and does not mention limits, caps, or a reset.",
+      "reasoningTokens": 37,
+      "totalTokens": 445,
+      "tweetCreatedAt": "2026-04-23T10:40:59.000Z",
+      "tweetId": "2047264464823877663",
+      "tweetText": "@doublemover Could you /feedback on that session?",
+      "tweetUrl": "https://x.com/thsottiaux/status/2047264464823877663",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1776941366741,
@@ -939,28 +955,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2044865630097297898",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1776369326996,
-      "inputTokens": 387,
-      "message": "",
-      "outputTokens": 83,
-      "rationale": "This is general praise of Codex and does not mention limits, caps, or a reset.",
-      "reasoningTokens": 36,
-      "totalTokens": 470,
-      "tweetCreatedAt": null,
-      "tweetId": "2044865335204196753",
-      "tweetText": "Codex\n\nCompute efficient ✅\nAlways up, never down ✅\nBest at hardcore engineering ✅\nCrazy good app, first to escape the terminal ✅",
-      "tweetUrl": "https://x.com/thsottiaux/status/2044865335204196753",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "zilwcZmZzdCBH1yCF3JTmiH179Eqp9C5RKWAi2l2o_D2_606ehHe97WZtA",
-    "iv": "ffF9ombkQXcae5Kb",
-    "tag": "P0kARQ4L5t4pAS-NSPyNnw",
+    "ciphertext": "thufxr5m7xQOHAL4IJa8anufttlm14OTV6paYQKrBydy7N4ErVbT6sDi3w",
+    "iv": "YqS33HADXisk9_Bq",
+    "tag": "vUXlN7yyQGHKWzrKR3Esxg",
     "version": 1
   }
 }
