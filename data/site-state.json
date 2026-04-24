@@ -15,16 +15,16 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1777010429410,
-      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-      "tweetCreatedAt": "2026-04-24T05:18:41.000Z",
-      "tweetId": "2047545742651507168",
-      "tweetUrl": "https://x.com/thsottiaux/status/2047545742651507168",
+      "decidedAt": 1777010439237,
+      "rationale": "This reply is just correcting product names and does not mention limits or a reset.",
+      "tweetCreatedAt": "2026-04-24T05:20:34.000Z",
+      "tweetId": "2047546218138746981",
+      "tweetUrl": "https://x.com/thsottiaux/status/2047546218138746981",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2047545742651507168",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2047545742651507168",
+    "lastSeenTweetId": "2047546218138746981",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2047546218138746981",
     "pendingReview": {
       "confidence": 0.22,
       "createdAt": 1776983032548,
@@ -35,6 +35,20 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2047433466405699683"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1777010439237,
+        "inputTokens": 396,
+        "outputTokens": 98,
+        "rationale": "This reply is just correcting product names and does not mention limits or a reset.",
+        "reasoningTokens": 54,
+        "totalTokens": 494,
+        "tweetCreatedAt": "2026-04-24T05:20:34.000Z",
+        "tweetId": "2047546218138746981",
+        "tweetText": "@nicoletteduclar @moggmon Correction\n\nGPT-5.5\nImages 2.0\nCodex (which you can call codex 2 since all the major improvements if you want)",
+        "tweetUrl": "https://x.com/thsottiaux/status/2047546218138746981",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1777010429410,
@@ -300,30 +314,32 @@
         "tweetText": "@ajambrosino Casually",
         "tweetUrl": "https://x.com/thsottiaux/status/2047387802372116526",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.81,
-        "evaluatedAt": 1776973270699,
-        "inputTokens": 371,
-        "outputTokens": 237,
-        "rationale": "It mentions a rollout finishing soon, but does not clearly say rate limits or caps have reset right now.",
-        "reasoningTokens": 188,
-        "totalTokens": 608,
-        "tweetCreatedAt": "2026-04-23T18:48:52.000Z",
-        "tweetId": "2047387243715916182",
-        "tweetText": "Rollout will be complete to 100% of paid users in the next 5 mins.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2047387243715916182",
-        "verdict": "uncertain"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 66202,
-      "totalOutputTokens": 19200,
-      "totalReasoningTokens": 10281,
-      "totalTokens": 85402
+      "totalInputTokens": 66598,
+      "totalOutputTokens": 19298,
+      "totalReasoningTokens": 10335,
+      "totalTokens": 85896
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1777010439237,
+      "inputTokens": 396,
+      "message": "",
+      "outputTokens": 98,
+      "rationale": "This reply is just correcting product names and does not mention limits or a reset.",
+      "reasoningTokens": 54,
+      "totalTokens": 494,
+      "tweetCreatedAt": "2026-04-24T05:20:34.000Z",
+      "tweetId": "2047546218138746981",
+      "tweetText": "@nicoletteduclar @moggmon Correction\n\nGPT-5.5\nImages 2.0\nCodex (which you can call codex 2 since all the major improvements if you want)",
+      "tweetUrl": "https://x.com/thsottiaux/status/2047546218138746981",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1777010429410,
@@ -947,28 +963,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2047093533061103888",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0,
-      "createdAt": 1776887982258,
-      "inputTokens": 0,
-      "message": "Tweet fetch failed: Tweet search failed: Cannot read properties of undefined (reading '0'); timeline fallback failed: Cannot read properties of undefined (reading '0') (Cannot read properties of undefined (reading '0')) (Tweet search failed: Cannot read properties of undefined (reading '0'); timeline fallback failed: Cannot read properties of undefined (reading '0'))",
-      "outputTokens": 0,
-      "rationale": "",
-      "reasoningTokens": 0,
-      "totalTokens": 0,
-      "tweetCreatedAt": null,
-      "tweetId": null,
-      "tweetText": "",
-      "tweetUrl": null,
-      "type": "error",
-      "verdict": null
     }
   ],
   "privateState": {
-    "ciphertext": "u2_NPU9QThw1imJjyqvbf6unntqqJ9wNfj8ftJO0iQC-9B5_OeKJiXrF-w",
-    "iv": "iVPWw37-HCDvmBhB",
-    "tag": "jAHvGeEsz5UFDhJh5pqdQA",
+    "ciphertext": "p481Qm4YUflkvq_jArBzZOyUndzNtenMZljobR0gdRBbIypNxh6MmPWpVQ",
+    "iv": "9IosuD_gyQYE6uSp",
+    "tag": "KYhOU6yz1uxGjMxrndAUIQ",
     "version": 1
   }
 }
