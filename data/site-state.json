@@ -15,16 +15,16 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1777002443047,
-      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-      "tweetCreatedAt": "2026-04-24T02:52:45.000Z",
-      "tweetId": "2047509017745097191",
-      "tweetUrl": "https://x.com/thsottiaux/status/2047509017745097191",
+      "decidedAt": 1777010418545,
+      "rationale": "This reply is conversational and does not mention limits, caps, or usage resetting.",
+      "tweetCreatedAt": "2026-04-24T05:12:05.000Z",
+      "tweetId": "2047544082088771641",
+      "tweetUrl": "https://x.com/thsottiaux/status/2047544082088771641",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2047509017745097191",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2047509017745097191",
+    "lastSeenTweetId": "2047544082088771641",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2047544082088771641",
     "pendingReview": {
       "confidence": 0.22,
       "createdAt": 1776983032548,
@@ -35,6 +35,20 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2047433466405699683"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1777010418545,
+        "inputTokens": 359,
+        "outputTokens": 89,
+        "rationale": "This reply is conversational and does not mention limits, caps, or usage resetting.",
+        "reasoningTokens": 45,
+        "totalTokens": 448,
+        "tweetCreatedAt": "2026-04-24T05:12:05.000Z",
+        "tweetId": "2047544082088771641",
+        "tweetText": "@jxnlco Too much aura",
+        "tweetUrl": "https://x.com/thsottiaux/status/2047544082088771641",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1777002443048,
@@ -300,30 +314,32 @@
         "tweetText": "Introducing GPT-5.5... together with a ton of new Codex features (more on those in the next hour).\n\nIncluded in all paid plans and coming to API soon. Update your Codex app or CLI to use it.\n\nhttps://t.co/lgvo3KErjt",
         "tweetUrl": "https://x.com/thsottiaux/status/2047377969614872870",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1776973251401,
-        "inputTokens": 360,
-        "outputTokens": 90,
-        "rationale": "This is just a brief reply about fixing something and does not mention any limit reset.",
-        "reasoningTokens": 45,
-        "totalTokens": 450,
-        "tweetCreatedAt": "2026-04-23T18:07:34.000Z",
-        "tweetId": "2047376850306158937",
-        "tweetText": "@synthwavedd BRB fixing",
-        "tweetUrl": "https://x.com/thsottiaux/status/2047376850306158937",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 64738,
-      "totalOutputTokens": 18898,
-      "totalReasoningTokens": 10155,
-      "totalTokens": 83636
+      "totalInputTokens": 65097,
+      "totalOutputTokens": 18987,
+      "totalReasoningTokens": 10200,
+      "totalTokens": 84084
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1777010418545,
+      "inputTokens": 359,
+      "message": "",
+      "outputTokens": 89,
+      "rationale": "This reply is conversational and does not mention limits, caps, or usage resetting.",
+      "reasoningTokens": 45,
+      "totalTokens": 448,
+      "tweetCreatedAt": "2026-04-24T05:12:05.000Z",
+      "tweetId": "2047544082088771641",
+      "tweetText": "@jxnlco Too much aura",
+      "tweetUrl": "https://x.com/thsottiaux/status/2047544082088771641",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1777002443048,
@@ -947,28 +963,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2047023723459555472",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1776879885471,
-      "inputTokens": 753,
-      "message": "",
-      "outputTokens": 108,
-      "rationale": "This post is about OpenClaw/OpenAI integration and using ChatGPT with a subscription, not about any rate limit or cap…",
-      "reasoningTokens": 53,
-      "totalTokens": 861,
-      "tweetCreatedAt": null,
-      "tweetId": "2047000994354241562",
-      "tweetText": "Team is hard at work together with @steipete to make OpenAI models and ecosystem be the obvious way to to enjoy your claw. A lot more to come next week, but a reminder that you can use OpenClaw as part of your ChatGPT subscription today already.\n\n(also still having too much fun with ChatGPT Images 2.0 today)",
-      "tweetUrl": "https://x.com/thsottiaux/status/2047000994354241562",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "YwBrGFW84Sndq2V3mpUNHn-wl23g7zb63aGCZYlp4HzigGd5MJJhQuj_Ug",
-    "iv": "Q45A1QILuXPj7OMe",
-    "tag": "9mfRnBTp6JQVJQ0OoCSuAQ",
+    "ciphertext": "42brdzyKkpyype3aZhPespzrunSew-MdFK96awywSV-R6_9_XNYKsBhMjg",
+    "iv": "UwBnV64KUDNzrbSe",
+    "tag": "JFJ2qifigJKZuGjwVh8Drw",
     "version": 1
   }
 }
