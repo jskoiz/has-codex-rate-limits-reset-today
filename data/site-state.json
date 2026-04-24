@@ -15,16 +15,16 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1776985950734,
-      "rationale": "This reply comments on image quality and does not mention any limit or rate-cap reset.",
-      "tweetCreatedAt": "2026-04-23T22:24:08.000Z",
-      "tweetId": "2047441418076168480",
-      "tweetUrl": "https://x.com/thsottiaux/status/2047441418076168480",
+      "decidedAt": 1777002433026,
+      "rationale": "This post and its quote discuss GPT-5.5/Codex quality on frontend work, not limits or availability resetting.",
+      "tweetCreatedAt": "2026-04-24T00:14:02.000Z",
+      "tweetId": "2047469075803296149",
+      "tweetUrl": "https://x.com/thsottiaux/status/2047469075803296149",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2047441418076168480",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2047441418076168480",
+    "lastSeenTweetId": "2047469075803296149",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2047469075803296149",
     "pendingReview": {
       "confidence": 0.22,
       "createdAt": 1776983032548,
@@ -35,6 +35,20 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2047433466405699683"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1777002433027,
+        "inputTokens": 462,
+        "outputTokens": 105,
+        "rationale": "This post and its quote discuss GPT-5.5/Codex quality on frontend work, not limits or availability resetting.",
+        "reasoningTokens": 52,
+        "totalTokens": 567,
+        "tweetCreatedAt": "2026-04-24T00:14:02.000Z",
+        "tweetId": "2047469075803296149",
+        "tweetText": "Finally making strides on frontend, GPT-5.5 might be the one",
+        "tweetUrl": "https://x.com/thsottiaux/status/2047469075803296149",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1776985950734,
@@ -300,30 +314,32 @@
         "tweetText": "@SrihariSriraman @badlogicgames Very cool visualization. Nice work",
         "tweetUrl": "https://x.com/thsottiaux/status/2047365151691886884",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1776967735601,
-        "inputTokens": 366,
-        "outputTokens": 75,
-        "rationale": "This reply just explains an acronym and does not mention limits or usage resetting.",
-        "reasoningTokens": 32,
-        "totalTokens": 441,
-        "tweetCreatedAt": "2026-04-23T17:16:34.000Z",
-        "tweetId": "2047364017405272074",
-        "tweetText": "@usr_bin_roygbiv BART = Bring About Rapid Transformation",
-        "tweetUrl": "https://x.com/thsottiaux/status/2047364017405272074",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 63165,
-      "totalOutputTokens": 18573,
-      "totalReasoningTokens": 10018,
-      "totalTokens": 81738
+      "totalInputTokens": 63627,
+      "totalOutputTokens": 18678,
+      "totalReasoningTokens": 10070,
+      "totalTokens": 82305
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1777002433027,
+      "inputTokens": 462,
+      "message": "",
+      "outputTokens": 105,
+      "rationale": "This post and its quote discuss GPT-5.5/Codex quality on frontend work, not limits or availability resetting.",
+      "reasoningTokens": 52,
+      "totalTokens": 567,
+      "tweetCreatedAt": "2026-04-24T00:14:02.000Z",
+      "tweetId": "2047469075803296149",
+      "tweetText": "Finally making strides on frontend, GPT-5.5 might be the one",
+      "tweetUrl": "https://x.com/thsottiaux/status/2047469075803296149",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1776985950734,
@@ -947,28 +963,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2046713247362146559",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1776872397783,
-      "inputTokens": 363,
-      "message": "",
-      "outputTokens": 80,
-      "rationale": "This reply is about Intel chip support and does not mention limits, caps, or usage resetting.",
-      "reasoningTokens": 33,
-      "totalTokens": 443,
-      "tweetCreatedAt": null,
-      "tweetId": "2046706812611915879",
-      "tweetText": "@nikolasbydesign It's now supported on Intel chips",
-      "tweetUrl": "https://x.com/thsottiaux/status/2046706812611915879",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "aIwDfB4klvp4RwXxB_u_y7vyvyY8YcHT2SvpBdqWBFpVmPIhpeghtJ-c8A",
-    "iv": "vL4v2bIQxUZiIMOV",
-    "tag": "wNBoMFZTxkcmQhC6Jwhuug",
+    "ciphertext": "Kd44tUuVlgfYmhK9M3jJ0v16y9RBOByYvE3FLoXf6T07HB6HYK3bPuOBSg",
+    "iv": "KpPko5rVc-vXr-U7",
+    "tag": "cqU9cp_9BLWi4_4zJtyl7w",
     "version": 1
   }
 }
