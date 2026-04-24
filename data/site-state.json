@@ -15,16 +15,16 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1777002437039,
-      "rationale": "This reply discusses progressive nerfing, not a reset or restored availability of limits.",
-      "tweetCreatedAt": "2026-04-24T00:25:20.000Z",
-      "tweetId": "2047471919751106758",
-      "tweetUrl": "https://x.com/thsottiaux/status/2047471919751106758",
+      "decidedAt": 1777002439887,
+      "rationale": "This reply is just a suggestion and does not mention limits, caps, or usage resetting.",
+      "tweetCreatedAt": "2026-04-24T00:26:49.000Z",
+      "tweetId": "2047472292566090200",
+      "tweetUrl": "https://x.com/thsottiaux/status/2047472292566090200",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2047471919751106758",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2047471919751106758",
+    "lastSeenTweetId": "2047472292566090200",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2047472292566090200",
     "pendingReview": {
       "confidence": 0.22,
       "createdAt": 1776983032548,
@@ -35,6 +35,20 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2047433466405699683"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1777002439887,
+        "inputTokens": 364,
+        "outputTokens": 76,
+        "rationale": "This reply is just a suggestion and does not mention limits, caps, or usage resetting.",
+        "reasoningTokens": 30,
+        "totalTokens": 440,
+        "tweetCreatedAt": "2026-04-24T00:26:49.000Z",
+        "tweetId": "2047472292566090200",
+        "tweetText": "@badlogicgames May I suggest GPT-5.5",
+        "tweetUrl": "https://x.com/thsottiaux/status/2047472292566090200",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1777002437039,
@@ -300,30 +314,32 @@
         "tweetText": "@mweinbach 👀",
         "tweetUrl": "https://x.com/thsottiaux/status/2047375806813573444",
         "verdict": "uncertain"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1776967742668,
-        "inputTokens": 364,
-        "outputTokens": 84,
-        "rationale": "This post is about office WiFi rebooting, not ChatGPT or Codex usage limits resetting.",
-        "reasoningTokens": 36,
-        "totalTokens": 448,
-        "tweetCreatedAt": "2026-04-23T17:27:01.000Z",
-        "tweetId": "2047366644922716349",
-        "tweetText": "Stay tuned, we are rebooting our office WiFi.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2047366644922716349",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 64003,
-      "totalOutputTokens": 18756,
-      "totalReasoningTokens": 10103,
-      "totalTokens": 82759
+      "totalInputTokens": 64367,
+      "totalOutputTokens": 18832,
+      "totalReasoningTokens": 10133,
+      "totalTokens": 83199
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1777002439887,
+      "inputTokens": 364,
+      "message": "",
+      "outputTokens": 76,
+      "rationale": "This reply is just a suggestion and does not mention limits, caps, or usage resetting.",
+      "reasoningTokens": 30,
+      "totalTokens": 440,
+      "tweetCreatedAt": "2026-04-24T00:26:49.000Z",
+      "tweetId": "2047472292566090200",
+      "tweetText": "@badlogicgames May I suggest GPT-5.5",
+      "tweetUrl": "https://x.com/thsottiaux/status/2047472292566090200",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1777002437039,
@@ -947,28 +963,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2046740759056162816",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.98,
-      "createdAt": 1776872407448,
-      "inputTokens": 361,
-      "message": "",
-      "outputTokens": 103,
-      "rationale": "This reply only asks a question and does not say limits or usage have reset.",
-      "reasoningTokens": 59,
-      "totalTokens": 464,
-      "tweetCreatedAt": null,
-      "tweetId": "2046724705563160898",
-      "tweetText": "@TheGeorgePu Codex is this true?",
-      "tweetUrl": "https://x.com/thsottiaux/status/2046724705563160898",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "lY9GHTgV_cM9IkvgTbKvHDz4qG6FHeSiNhsqEfKX9UHJ_Lqi9DtnPqIkWg",
-    "iv": "hdMItLE7vJfaYKU9",
-    "tag": "o6zrlBgRSqjjYAUhuUNErA",
+    "ciphertext": "HElKmmJ5WBkZRHvJ1eUCYZh973U0mKiePdOaSej6UDIcHOfQv9T5Vjf2wQ",
+    "iv": "bbnNq-NPu5-MTyNo",
+    "tag": "ASdDb3m-fOGLHmEQsaQ_RQ",
     "version": 1
   }
 }
