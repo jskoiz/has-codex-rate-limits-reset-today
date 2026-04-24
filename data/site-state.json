@@ -15,16 +15,16 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1777010439237,
-      "rationale": "This reply is just correcting product names and does not mention limits or a reset.",
-      "tweetCreatedAt": "2026-04-24T05:20:34.000Z",
-      "tweetId": "2047546218138746981",
-      "tweetUrl": "https://x.com/thsottiaux/status/2047546218138746981",
+      "decidedAt": 1777010444281,
+      "rationale": "This post is just a general question and does not mention limits, caps, or a reset.",
+      "tweetCreatedAt": "2026-04-24T05:31:50.000Z",
+      "tweetId": "2047549053039493547",
+      "tweetUrl": "https://x.com/thsottiaux/status/2047549053039493547",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2047546218138746981",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2047546218138746981",
+    "lastSeenTweetId": "2047549053039493547",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2047549053039493547",
     "pendingReview": {
       "confidence": 0.22,
       "createdAt": 1776983032548,
@@ -35,6 +35,20 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2047433466405699683"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1777010444281,
+        "inputTokens": 361,
+        "outputTokens": 79,
+        "rationale": "This post is just a general question and does not mention limits, caps, or a reset.",
+        "reasoningTokens": 32,
+        "totalTokens": 440,
+        "tweetCreatedAt": "2026-04-24T05:31:50.000Z",
+        "tweetId": "2047549053039493547",
+        "tweetText": "Have you tried GPT-5.5?",
+        "tweetUrl": "https://x.com/thsottiaux/status/2047549053039493547",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1777010439237,
@@ -300,30 +314,32 @@
         "tweetText": "@sama The hardest the Codex team has ever shipped =&gt; fun little bundle. OK Sam.\n\nMore details here and already available if you update your app!\nhttps://t.co/yQYSnrJofg",
         "tweetUrl": "https://x.com/thsottiaux/status/2047389342809882730",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1776976749207,
-        "inputTokens": 359,
-        "outputTokens": 78,
-        "rationale": "This reply does not mention limits, caps, or availability resetting.",
-        "reasoningTokens": 37,
-        "totalTokens": 437,
-        "tweetCreatedAt": "2026-04-23T18:51:05.000Z",
-        "tweetId": "2047387802372116526",
-        "tweetText": "@ajambrosino Casually",
-        "tweetUrl": "https://x.com/thsottiaux/status/2047387802372116526",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 66598,
-      "totalOutputTokens": 19298,
-      "totalReasoningTokens": 10335,
-      "totalTokens": 85896
+      "totalInputTokens": 66959,
+      "totalOutputTokens": 19377,
+      "totalReasoningTokens": 10367,
+      "totalTokens": 86336
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1777010444281,
+      "inputTokens": 361,
+      "message": "",
+      "outputTokens": 79,
+      "rationale": "This post is just a general question and does not mention limits, caps, or a reset.",
+      "reasoningTokens": 32,
+      "totalTokens": 440,
+      "tweetCreatedAt": "2026-04-24T05:31:50.000Z",
+      "tweetId": "2047549053039493547",
+      "tweetText": "Have you tried GPT-5.5?",
+      "tweetUrl": "https://x.com/thsottiaux/status/2047549053039493547",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1777010439237,
@@ -947,28 +963,12 @@
       "tweetUrl": null,
       "type": "error",
       "verdict": null
-    },
-    {
-      "confidence": 0.95,
-      "createdAt": 1776901670077,
-      "inputTokens": 366,
-      "message": "",
-      "outputTokens": 249,
-      "rationale": "This reply is just an emoji reaction and does not say limits or caps have reset.",
-      "reasoningTokens": 204,
-      "totalTokens": 615,
-      "tweetCreatedAt": "2026-04-22T23:21:46.000Z",
-      "tweetId": "2047093533061103888",
-      "tweetText": "@48statesalbum @OpenAI @ajambrosino 👀",
-      "tweetUrl": "https://x.com/thsottiaux/status/2047093533061103888",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "p481Qm4YUflkvq_jArBzZOyUndzNtenMZljobR0gdRBbIypNxh6MmPWpVQ",
-    "iv": "9IosuD_gyQYE6uSp",
-    "tag": "KYhOU6yz1uxGjMxrndAUIQ",
+    "ciphertext": "EfltOgagh5Wi0xRIFBkJqovGG84gXiMJy5bffU8oaZoe4EL3BCJo-n5hCg",
+    "iv": "f4Hok1mpyLHlv1qv",
+    "tag": "mRf2A4bl2rsXAep8ghWGJg",
     "version": 1
   }
 }
