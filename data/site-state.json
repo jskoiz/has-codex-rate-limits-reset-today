@@ -15,16 +15,16 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1777002433026,
-      "rationale": "This post and its quote discuss GPT-5.5/Codex quality on frontend work, not limits or availability resetting.",
-      "tweetCreatedAt": "2026-04-24T00:14:02.000Z",
-      "tweetId": "2047469075803296149",
-      "tweetUrl": "https://x.com/thsottiaux/status/2047469075803296149",
+      "decidedAt": 1777002437039,
+      "rationale": "This reply discusses progressive nerfing, not a reset or restored availability of limits.",
+      "tweetCreatedAt": "2026-04-24T00:25:20.000Z",
+      "tweetId": "2047471919751106758",
+      "tweetUrl": "https://x.com/thsottiaux/status/2047471919751106758",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2047469075803296149",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2047469075803296149",
+    "lastSeenTweetId": "2047471919751106758",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2047471919751106758",
     "pendingReview": {
       "confidence": 0.22,
       "createdAt": 1776983032548,
@@ -35,6 +35,20 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2047433466405699683"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1777002437039,
+        "inputTokens": 376,
+        "outputTokens": 78,
+        "rationale": "This reply discusses progressive nerfing, not a reset or restored availability of limits.",
+        "reasoningTokens": 33,
+        "totalTokens": 454,
+        "tweetCreatedAt": "2026-04-24T00:25:20.000Z",
+        "tweetId": "2047471919751106758",
+        "tweetText": "@morqon @SebastienBubeck @OpenAI You can see the progressive nerfing here very clearly",
+        "tweetUrl": "https://x.com/thsottiaux/status/2047471919751106758",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1777002433027,
@@ -300,30 +314,32 @@
         "tweetText": "Stay tuned, we are rebooting our office WiFi.",
         "tweetUrl": "https://x.com/thsottiaux/status/2047366644922716349",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1776967738657,
-        "inputTokens": 368,
-        "outputTokens": 74,
-        "rationale": "This reply is just a compliment about a visualization and says nothing about limits or resets.",
-        "reasoningTokens": 29,
-        "totalTokens": 442,
-        "tweetCreatedAt": "2026-04-23T17:21:05.000Z",
-        "tweetId": "2047365151691886884",
-        "tweetText": "@SrihariSriraman @badlogicgames Very cool visualization. Nice work",
-        "tweetUrl": "https://x.com/thsottiaux/status/2047365151691886884",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 63627,
-      "totalOutputTokens": 18678,
-      "totalReasoningTokens": 10070,
-      "totalTokens": 82305
+      "totalInputTokens": 64003,
+      "totalOutputTokens": 18756,
+      "totalReasoningTokens": 10103,
+      "totalTokens": 82759
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1777002437039,
+      "inputTokens": 376,
+      "message": "",
+      "outputTokens": 78,
+      "rationale": "This reply discusses progressive nerfing, not a reset or restored availability of limits.",
+      "reasoningTokens": 33,
+      "totalTokens": 454,
+      "tweetCreatedAt": "2026-04-24T00:25:20.000Z",
+      "tweetId": "2047471919751106758",
+      "tweetText": "@morqon @SebastienBubeck @OpenAI You can see the progressive nerfing here very clearly",
+      "tweetUrl": "https://x.com/thsottiaux/status/2047471919751106758",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1777002433027,
@@ -947,28 +963,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2046724705563160898",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1776872402391,
-      "inputTokens": 365,
-      "message": "",
-      "outputTokens": 100,
-      "rationale": "This reply is unrelated to ChatGPT or Codex usage limits or resets.",
-      "reasoningTokens": 57,
-      "totalTokens": 465,
-      "tweetCreatedAt": null,
-      "tweetId": "2046713247362146559",
-      "tweetText": "@ajambrosino I thought you said you hand painted those",
-      "tweetUrl": "https://x.com/thsottiaux/status/2046713247362146559",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "Kd44tUuVlgfYmhK9M3jJ0v16y9RBOByYvE3FLoXf6T07HB6HYK3bPuOBSg",
-    "iv": "KpPko5rVc-vXr-U7",
-    "tag": "cqU9cp_9BLWi4_4zJtyl7w",
+    "ciphertext": "lY9GHTgV_cM9IkvgTbKvHDz4qG6FHeSiNhsqEfKX9UHJ_Lqi9DtnPqIkWg",
+    "iv": "hdMItLE7vJfaYKU9",
+    "tag": "o6zrlBgRSqjjYAUhuUNErA",
     "version": 1
   }
 }
