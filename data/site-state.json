@@ -15,16 +15,16 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1777010422486,
-      "rationale": "This reply discusses eval contamination and does not mention limits, caps, or usage resetting.",
-      "tweetCreatedAt": "2026-04-24T05:14:50.000Z",
-      "tweetId": "2047544775474385167",
-      "tweetUrl": "https://x.com/thsottiaux/status/2047544775474385167",
+      "decidedAt": 1777010425797,
+      "rationale": "This reply is a feature request and does not mention limits or a reset.",
+      "tweetCreatedAt": "2026-04-24T05:17:27.000Z",
+      "tweetId": "2047545432583393699",
+      "tweetUrl": "https://x.com/thsottiaux/status/2047545432583393699",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2047544775474385167",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2047544775474385167",
+    "lastSeenTweetId": "2047545432583393699",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2047545432583393699",
     "pendingReview": {
       "confidence": 0.22,
       "createdAt": 1776983032548,
@@ -35,6 +35,20 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2047433466405699683"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1777010425797,
+        "inputTokens": 367,
+        "outputTokens": 68,
+        "rationale": "This reply is a feature request and does not mention limits or a reset.",
+        "reasoningTokens": 25,
+        "totalTokens": 435,
+        "tweetCreatedAt": "2026-04-24T05:17:27.000Z",
+        "tweetId": "2047545432583393699",
+        "tweetText": "@petergyang Can you add ghost mode and multiplayer. One prompt away",
+        "tweetUrl": "https://x.com/thsottiaux/status/2047545432583393699",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1777010422486,
@@ -300,30 +314,32 @@
         "tweetText": "Stop tweeting for a hot minute and update your Codex App to find full browser use, global dictation, non-dev mode, a new auto-review mode that is much safer than yolo, in-app docs and PDF viewer, and ... GPT-5.5.",
         "tweetUrl": "https://x.com/thsottiaux/status/2047387017974337611",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1776973259373,
-        "inputTokens": 410,
-        "outputTokens": 90,
-        "rationale": "This post is just chatting about using GPT-5.5 and Codex, not about limits or resets.",
-        "reasoningTokens": 40,
-        "totalTokens": 500,
-        "tweetCreatedAt": "2026-04-23T18:25:38.000Z",
-        "tweetId": "2047381399242743858",
-        "tweetText": "It's an incredibly powerful model, but making silly little games with GPT-5.5 and then being able to chat about the mechanics and just iterate right there in Codex is super fun and a way the team enjoys a break. https://t.co/wGiJZTJxzk",
-        "tweetUrl": "https://x.com/thsottiaux/status/2047381399242743858",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 65472,
-      "totalOutputTokens": 19064,
-      "totalReasoningTokens": 10232,
-      "totalTokens": 84536
+      "totalInputTokens": 65839,
+      "totalOutputTokens": 19132,
+      "totalReasoningTokens": 10257,
+      "totalTokens": 84971
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1777010425797,
+      "inputTokens": 367,
+      "message": "",
+      "outputTokens": 68,
+      "rationale": "This reply is a feature request and does not mention limits or a reset.",
+      "reasoningTokens": 25,
+      "totalTokens": 435,
+      "tweetCreatedAt": "2026-04-24T05:17:27.000Z",
+      "tweetId": "2047545432583393699",
+      "tweetText": "@petergyang Can you add ghost mode and multiplayer. One prompt away",
+      "tweetUrl": "https://x.com/thsottiaux/status/2047545432583393699",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1777010422486,
@@ -947,28 +963,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2047024731220857011",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1776883822832,
-      "inputTokens": 381,
-      "message": "",
-      "outputTokens": 82,
-      "rationale": "This reply discusses another topic and does not mention limits, caps, or usage becoming available again.",
-      "reasoningTokens": 35,
-      "totalTokens": 463,
-      "tweetCreatedAt": null,
-      "tweetId": "2047024660135751842",
-      "tweetText": "@badlogicgames @steipete Agreed with your take here. Don't think pi is the issue and 2] should get fixed too.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2047024660135751842",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "G8-nS9OS4UPCGjaJ0q3SkqcuJqW9kRoPUhTh7qADjbIquZLSXcNkcEkcVw",
-    "iv": "HvwDqGWBAqoz8_4v",
-    "tag": "p-gAMVRYjPWvZ-z3GkErvA",
+    "ciphertext": "eLRlQE3y71x2eQuMf90xkQim7TpBEQ6T6CwxcdB_h8MJcH6uYA_6jM7nrw",
+    "iv": "YcPjsXZLGcC2ttMa",
+    "tag": "2vM0wsTWNI5AYpzqdwGVSQ",
     "version": 1
   }
 }
