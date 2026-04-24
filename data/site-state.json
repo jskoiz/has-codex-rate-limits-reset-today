@@ -22,7 +22,7 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2047549053039493547",
       "verdict": "not_reset"
     },
-    "lastError": null,
+    "lastError": "Tweet fetch failed: Tweet search failed: Unknown error; timeline fallback failed: Unknown error (Unknown error) (Tweet search failed: Unknown error; timeline fallback failed: Unknown error)",
     "lastSeenTweetId": "2047549053039493547",
     "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2047549053039493547",
     "pendingReview": {
@@ -324,6 +324,22 @@
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0,
+      "createdAt": 1777052204250,
+      "inputTokens": 0,
+      "message": "Tweet fetch failed: Tweet search failed: Unknown error; timeline fallback failed: Unknown error (Unknown error) (Tweet search failed: Unknown error; timeline fallback failed: Unknown error)",
+      "outputTokens": 0,
+      "rationale": "",
+      "reasoningTokens": 0,
+      "totalTokens": 0,
+      "tweetCreatedAt": null,
+      "tweetId": null,
+      "tweetText": "",
+      "tweetUrl": null,
+      "type": "error",
+      "verdict": null
+    },
     {
       "confidence": 0.99,
       "createdAt": 1777010444281,
@@ -947,28 +963,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2047235504933052856",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0,
-      "createdAt": 1776923792769,
-      "inputTokens": 0,
-      "message": "Tweet fetch failed: Tweet search failed: Cannot read properties of undefined (reading 'errors'); timeline fallback failed: Cannot read properties of undefined (reading 'errors') (Cannot read properties of undefined (reading 'errors')) (Tweet search failed: Cannot read properties of undefined (reading 'errors'); timeline fallback failed: Cannot read properties of undefined (reading 'errors'))",
-      "outputTokens": 0,
-      "rationale": "",
-      "reasoningTokens": 0,
-      "totalTokens": 0,
-      "tweetCreatedAt": null,
-      "tweetId": null,
-      "tweetText": "",
-      "tweetUrl": null,
-      "type": "error",
-      "verdict": null
     }
   ],
   "privateState": {
-    "ciphertext": "EfltOgagh5Wi0xRIFBkJqovGG84gXiMJy5bffU8oaZoe4EL3BCJo-n5hCg",
-    "iv": "f4Hok1mpyLHlv1qv",
-    "tag": "mRf2A4bl2rsXAep8ghWGJg",
+    "ciphertext": "Km2Pf3C5OmcUaV2cY54812QZfPJ4m3YAQqC7pSxUMZRP-IEWJy2yUfCJWw",
+    "iv": "hbzuRZP43zyh5cYE",
+    "tag": "cSqnkejmDpuQSVLmnEZ6IQ",
     "version": 1
   }
 }
