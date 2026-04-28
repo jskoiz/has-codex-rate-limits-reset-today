@@ -186,6 +186,36 @@ test("fetchRecentTweetsFromRettiwt falls back when search returns no recent twee
   );
 });
 
+test("fetchRecentTweetsFromRettiwt merges timeline tweets even when search succeeds", async () => {
+  const searchTweet = createTweet("220", {
+    createdAt: "2026-03-12T03:00:00.000Z",
+  });
+  const timelineTweet = createTweet("221", {
+    createdAt: "2026-03-12T04:00:00.000Z",
+    fullText: "I have reset Codex rate limits.",
+  });
+  const startDate = new Date("2026-03-12T00:00:00.000Z");
+
+  const tweets = await fetchRecentTweetsFromRettiwt(
+    {
+      tweet: {
+        search: async () => ({ list: [searchTweet] }),
+      },
+      user: {
+        details: async () => ({ id: "user-3" }),
+        replies: async () => ({ list: [] }),
+        timeline: async () => ({ list: [timelineTweet] }),
+      },
+    },
+    startDate,
+  );
+
+  assert.deepEqual(
+    tweets.map((tweet) => tweet.id),
+    ["220", "221"],
+  );
+});
+
 test("runResetMonitor seeds the watermark on first run", async () => {
   const calls = [];
   const newestTweet = createTweet("205");

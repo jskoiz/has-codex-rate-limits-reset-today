@@ -5,14 +5,13 @@
     "node": "22.x"
   },
   "scripts": {
-    "postinstall": "node scripts/patch-rettiwt.cjs",
     "start": "node server.mjs",
     "test": "node --test"
   },
   "dependencies": {
     "openai": "6.27.0",
     "resend": "6.9.3",
-    "rettiwt-api": "^6.2.1"
+    "rettiwt-api": "^7.0.2"
   },
   "overrides": {
     "jsdom": "26.1.0"

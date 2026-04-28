@@ -97,6 +97,36 @@ jobs:
           WantedBy=multi-user.target
           EOF
 
+          cat > codex-limit-monitor.service <<'EOF'
+          [Unit]
+          Description=Run codex-limit reset monitor poll
+          After=network-online.target codex-limit.service
+          Wants=network-online.target
+
+          [Service]
+          Type=oneshot
+          EnvironmentFile=/etc/codex-limit.env
+          ExecStart=/usr/bin/bash -lc 'curl --fail-with-body --silent --show-error --max-time 120 -H "Authorization: Bearer ${CRON_SECRET}" -X POST http://127.0.0.1:3000/api/automation/poll'
+          User=ubuntu
+          Group=ubuntu
+          WorkingDirectory=/home/ubuntu/deployments/codex-limit/current
+          EOF
+
+          cat > codex-limit-monitor.timer <<'EOF'
+          [Unit]
+          Description=Poll codex-limit reset monitor every five minutes
+
+          [Timer]
+          OnBootSec=2min
+          OnUnitActiveSec=5min
+          AccuracySec=30s
+          Persistent=true
+          Unit=codex-limit-monitor.service
+
+          [Install]
+          WantedBy=timers.target
+          EOF
+
       - name: Fetch Lightsail SSH credentials
         run: |
           aws lightsail get-instance-access-details \
@@ -123,6 +153,10 @@ jobs:
             ubuntu@"$LIGHTSAIL_INSTANCE_IP":/home/ubuntu/deployments/codex-limit/codex-limit.env
           scp -i lightsail-key -o StrictHostKeyChecking=no codex-limit.service \
             ubuntu@"$LIGHTSAIL_INSTANCE_IP":/home/ubuntu/deployments/codex-limit/codex-limit.service
+          scp -i lightsail-key -o StrictHostKeyChecking=no codex-limit-monitor.service \
+            ubuntu@"$LIGHTSAIL_INSTANCE_IP":/home/ubuntu/deployments/codex-limit/codex-limit-monitor.service
+          scp -i lightsail-key -o StrictHostKeyChecking=no codex-limit-monitor.timer \
+            ubuntu@"$LIGHTSAIL_INSTANCE_IP":/home/ubuntu/deployments/codex-limit/codex-limit-monitor.timer
 
       - name: Activate release
         run: |
@@ -134,10 +168,14 @@ jobs:
             npm ci --omit=dev
             sudo install -m 600 /home/ubuntu/deployments/codex-limit/codex-limit.env /etc/codex-limit.env
             sudo install -m 644 /home/ubuntu/deployments/codex-limit/codex-limit.service /etc/systemd/system/codex-limit.service
+            sudo install -m 644 /home/ubuntu/deployments/codex-limit/codex-limit-monitor.service /etc/systemd/system/codex-limit-monitor.service
+            sudo install -m 644 /home/ubuntu/deployments/codex-limit/codex-limit-monitor.timer /etc/systemd/system/codex-limit-monitor.timer
             sudo systemctl daemon-reload
             sudo systemctl enable codex-limit.service
             sudo systemctl restart codex-limit.service
+            sudo systemctl enable --now codex-limit-monitor.timer
             sleep 2
             systemctl is-active codex-limit.service
+            systemctl is-active codex-limit-monitor.timer
             curl -fsS http://127.0.0.1/api/status >/dev/null
           '

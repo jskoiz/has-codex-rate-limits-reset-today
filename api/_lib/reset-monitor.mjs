@@ -484,6 +484,11 @@ const fetchRecentTweetsFromUserFallback = async (rettiwt, startDate) => {
 };
 
 export const fetchRecentTweetsFromRettiwt = async (rettiwt, startDate = getRecentTweetSearchStartDate()) => {
+  let searchError = null;
+  let fallbackError = null;
+  let searchTweets = [];
+  let fallbackTweets = [];
+
   try {
     const searchResults = await rettiwt.tweet.search(
       {
@@ -492,25 +497,41 @@ export const fetchRecentTweetsFromRettiwt = async (rettiwt, startDate = getRecen
       },
       SEARCH_BATCH_SIZE,
     );
-    const tweets = filterTweetsByStartDate(normalizeTweetBatch(searchResults), startDate);
-
-    if (tweets.length > 0) {
-      return tweets;
-    }
+    searchTweets = filterTweetsByStartDate(normalizeTweetBatch(searchResults), startDate);
   } catch (error) {
-    try {
-      return await fetchRecentTweetsFromUserFallback(rettiwt, startDate);
-    } catch (fallbackError) {
-      throw new Error(
-        `Tweet search failed: ${describeAutomationError(error, "Unknown Rettiwt search error")}; timeline fallback failed: ${describeAutomationError(fallbackError, "Unknown Rettiwt timeline error")}`,
-        {
-          cause: fallbackError,
-        },
-      );
-    }
+    searchError = error;
   }
 
-  return fetchRecentTweetsFromUserFallback(rettiwt, startDate);
+  try {
+    fallbackTweets = await fetchRecentTweetsFromUserFallback(rettiwt, startDate);
+  } catch (error) {
+    fallbackError = error;
+  }
+
+  const tweets = dedupeTweetsById([...searchTweets, ...fallbackTweets]);
+
+  if (tweets.length > 0) {
+    return tweets;
+  }
+
+  if (searchError && fallbackError) {
+    throw new Error(
+      `Tweet search failed: ${describeAutomationError(searchError, "Unknown Rettiwt search error")}; timeline fallback failed: ${describeAutomationError(fallbackError, "Unknown Rettiwt timeline error")}`,
+      {
+        cause: fallbackError,
+      },
+    );
+  }
+
+  if (searchError) {
+    throw searchError;
+  }
+
+  if (fallbackError) {
+    throw fallbackError;
+  }
+
+  return [];
 };
 
 const fetchRecentTweets = async () => {
