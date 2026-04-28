@@ -15,16 +15,16 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1777402193269,
-      "rationale": "This is a casual reply and does not mention limits, caps, or availability resetting.",
-      "tweetCreatedAt": "2026-04-28T02:58:04.000Z",
-      "tweetId": "2048959909320962232",
-      "tweetUrl": "https://x.com/thsottiaux/status/2048959909320962232",
+      "decidedAt": 1777402196942,
+      "rationale": "This is an in-joke about behavior or prompting and does not mention limits or a reset.",
+      "tweetCreatedAt": "2026-04-28T05:20:41.000Z",
+      "tweetId": "2048995797845369208",
+      "tweetUrl": "https://x.com/thsottiaux/status/2048995797845369208",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2048959909320962232",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2048959909320962232",
+    "lastSeenTweetId": "2048995797845369208",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2048995797845369208",
     "pendingReview": {
       "confidence": 0.22,
       "createdAt": 1776983032548,
@@ -35,6 +35,20 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2047433466405699683"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1777402196942,
+        "inputTokens": 400,
+        "outputTokens": 95,
+        "rationale": "This is an in-joke about behavior or prompting and does not mention limits or a reset.",
+        "reasoningTokens": 48,
+        "totalTokens": 495,
+        "tweetCreatedAt": "2026-04-28T05:20:41.000Z",
+        "tweetId": "2048995797845369208",
+        "tweetText": "Never talk about goblins, gremlins, raccoons, trolls, ogres, pigeons, or other animals or creatures unless it is absolutely and unambiguously relevant to the user's query.\n\nIYKYK",
+        "tweetUrl": "https://x.com/thsottiaux/status/2048995797845369208",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1777402193270,
@@ -300,30 +314,32 @@
         "tweetText": "@sandislonjsak I also worked 12 hours to bring it to you. It won't prompt itself (yet), go try it!",
         "tweetUrl": "https://x.com/thsottiaux/status/2047438852445618645",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.98,
-        "evaluatedAt": 1776985937481,
-        "inputTokens": 362,
-        "outputTokens": 87,
-        "rationale": "This reply discusses increasing limits over time, not that any cap has reset or is available again now.",
-        "reasoningTokens": 39,
-        "totalTokens": 449,
-        "tweetCreatedAt": "2026-04-23T22:06:05.000Z",
-        "tweetId": "2047436878350307482",
-        "tweetText": "@benvargas We will increase this over time",
-        "tweetUrl": "https://x.com/thsottiaux/status/2047436878350307482",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 68783,
-      "totalOutputTokens": 19798,
-      "totalReasoningTokens": 10563,
-      "totalTokens": 88581
+      "totalInputTokens": 69183,
+      "totalOutputTokens": 19893,
+      "totalReasoningTokens": 10611,
+      "totalTokens": 89076
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1777402196942,
+      "inputTokens": 400,
+      "message": "",
+      "outputTokens": 95,
+      "rationale": "This is an in-joke about behavior or prompting and does not mention limits or a reset.",
+      "reasoningTokens": 48,
+      "totalTokens": 495,
+      "tweetCreatedAt": "2026-04-28T05:20:41.000Z",
+      "tweetId": "2048995797845369208",
+      "tweetText": "Never talk about goblins, gremlins, raccoons, trolls, ogres, pigeons, or other animals or creatures unless it is absolutely and unambiguously relevant to the user's query.\n\nIYKYK",
+      "tweetUrl": "https://x.com/thsottiaux/status/2048995797845369208",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1777402193270,
@@ -947,28 +963,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2047322398744310092",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1776957595149,
-      "inputTokens": 409,
-      "message": "",
-      "outputTokens": 73,
-      "rationale": "This reply discusses backend clusters and misinformation, not any reset of user limits or availability.",
-      "reasoningTokens": 28,
-      "totalTokens": 482,
-      "tweetCreatedAt": "2026-04-23T14:30:10.000Z",
-      "tweetId": "2047322142262641099",
-      "tweetText": "@badlogicgames Not true. Please don't spread misinformation out there, it's already hard enough to keep facts straight! Will investigate today if there are differences but the requests should all go to the same clusters irrespective of the client (pi, opencode, openclaw, w/e).",
-      "tweetUrl": "https://x.com/thsottiaux/status/2047322142262641099",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "t-aNJpdBrnS7309L_3Oq10U9MEIur_dhO4gSOoGFyjGCIqBKKWLtvGhYIw",
-    "iv": "2xCOIrgQLU07MfiT",
-    "tag": "wVFFdXlSMaBzT7HqUQUYWw",
+    "ciphertext": "cRG6bMMTi8bBVgjzCMvGoeMuTgLNaqS9FeaHxecl-CRyJAPPWUp8hMP8mg",
+    "iv": "zHSUL-Lw9gTi9IdT",
+    "tag": "26rr1t0RF57UtsRqqXXWQA",
     "version": 1
   }
 }
