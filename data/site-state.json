@@ -15,18 +15,32 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1777403760846,
-      "rationale": "This reply is about the team and does not mention limits, caps, or availability resetting.",
-      "tweetCreatedAt": "2026-04-28T07:02:13.000Z",
-      "tweetId": "2049021351663399151",
-      "tweetUrl": "https://x.com/thsottiaux/status/2049021351663399151",
+      "decidedAt": 1777403763790,
+      "rationale": "This is just a brief reply mentioning Codex and does not indicate any rate limit reset.",
+      "tweetCreatedAt": "2026-04-28T07:04:14.000Z",
+      "tweetId": "2049021858855444719",
+      "tweetUrl": "https://x.com/thsottiaux/status/2049021858855444719",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2049021351663399151",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2049021351663399151",
+    "lastSeenTweetId": "2049021858855444719",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2049021858855444719",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1777403763790,
+        "inputTokens": 360,
+        "outputTokens": 83,
+        "rationale": "This is just a brief reply mentioning Codex and does not indicate any rate limit reset.",
+        "reasoningTokens": 37,
+        "totalTokens": 443,
+        "tweetCreatedAt": "2026-04-28T07:04:14.000Z",
+        "tweetId": "2049021858855444719",
+        "tweetText": "@s_streichsbier Codex",
+        "tweetUrl": "https://x.com/thsottiaux/status/2049021858855444719",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1777403760846,
@@ -292,30 +306,32 @@
         "tweetText": "@nrehiew_ It is an eval that is less contaminated (memorized by models) and therefore more representative",
         "tweetUrl": "https://x.com/thsottiaux/status/2047544775474385167",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1777010418545,
-        "inputTokens": 359,
-        "outputTokens": 89,
-        "rationale": "This reply is conversational and does not mention limits, caps, or usage resetting.",
-        "reasoningTokens": 45,
-        "totalTokens": 448,
-        "tweetCreatedAt": "2026-04-24T05:12:05.000Z",
-        "tweetId": "2047544082088771641",
-        "tweetText": "@jxnlco Too much aura",
-        "tweetUrl": "https://x.com/thsottiaux/status/2047544082088771641",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 72328,
-      "totalOutputTokens": 20857,
-      "totalReasoningTokens": 11209,
-      "totalTokens": 93185
+      "totalInputTokens": 72688,
+      "totalOutputTokens": 20940,
+      "totalReasoningTokens": 11246,
+      "totalTokens": 93628
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1777403763790,
+      "inputTokens": 360,
+      "message": "",
+      "outputTokens": 83,
+      "rationale": "This is just a brief reply mentioning Codex and does not indicate any rate limit reset.",
+      "reasoningTokens": 37,
+      "totalTokens": 443,
+      "tweetCreatedAt": "2026-04-28T07:04:14.000Z",
+      "tweetId": "2049021858855444719",
+      "tweetText": "@s_streichsbier Codex",
+      "tweetUrl": "https://x.com/thsottiaux/status/2049021858855444719",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1777403760846,
@@ -939,28 +955,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2047381399242743858",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1776973255687,
-      "inputTokens": 414,
-      "message": "",
-      "outputTokens": 101,
-      "rationale": "This announces GPT-5.5 and Codex features, not that usage limits or rate limits have reset.",
-      "reasoningTokens": 51,
-      "totalTokens": 515,
-      "tweetCreatedAt": "2026-04-23T18:12:01.000Z",
-      "tweetId": "2047377969614872870",
-      "tweetText": "Introducing GPT-5.5... together with a ton of new Codex features (more on those in the next hour).\n\nIncluded in all paid plans and coming to API soon. Update your Codex app or CLI to use it.\n\nhttps://t.co/lgvo3KErjt",
-      "tweetUrl": "https://x.com/thsottiaux/status/2047377969614872870",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "OtqXRAbGcK-5uVuviAHEaGjH-PzsetwsRKAAxu3_x4paEjMp86uR-8tmvw",
-    "iv": "oILsxmjrpqypMfe7",
-    "tag": "Len9r6ETVLrXojDH_XITyA",
+    "ciphertext": "IjEZ2m6INW8vS8h-bEnMPGlaQ2ieGGpU01awAVv7prdQVlGigeowOA6c7g",
+    "iv": "3cZ4nUU8Jfvb7Snk",
+    "tag": "y54TwBvSwY2UnNnZk6GM1w",
     "version": 1
   }
 }
