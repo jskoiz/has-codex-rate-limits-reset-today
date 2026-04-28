@@ -15,16 +15,16 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1777010444281,
-      "rationale": "This post is just a general question and does not mention limits, caps, or a reset.",
-      "tweetCreatedAt": "2026-04-24T05:31:50.000Z",
-      "tweetId": "2047549053039493547",
-      "tweetUrl": "https://x.com/thsottiaux/status/2047549053039493547",
+      "decidedAt": 1777402177234,
+      "rationale": "This reply discusses model efficiency and does not indicate any limit or rate-cap reset.",
+      "tweetCreatedAt": "2026-04-28T02:45:32.000Z",
+      "tweetId": "2048956755233673634",
+      "tweetUrl": "https://x.com/thsottiaux/status/2048956755233673634",
       "verdict": "not_reset"
     },
-    "lastError": "Tweet fetch failed: Tweet search failed: Unknown error; timeline fallback failed: Unknown error (Unknown error) (Tweet search failed: Unknown error; timeline fallback failed: Unknown error)",
-    "lastSeenTweetId": "2047549053039493547",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2047549053039493547",
+    "lastError": null,
+    "lastSeenTweetId": "2048956755233673634",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2048956755233673634",
     "pendingReview": {
       "confidence": 0.22,
       "createdAt": 1776983032548,
@@ -35,6 +35,20 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2047433466405699683"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1777402177234,
+        "inputTokens": 362,
+        "outputTokens": 73,
+        "rationale": "This reply discusses model efficiency and does not indicate any limit or rate-cap reset.",
+        "reasoningTokens": 29,
+        "totalTokens": 435,
+        "tweetCreatedAt": "2026-04-28T02:45:32.000Z",
+        "tweetId": "2048956755233673634",
+        "tweetText": "@tmuxvim We actually have amazingly efficient models",
+        "tweetUrl": "https://x.com/thsottiaux/status/2048956755233673634",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1777010444281,
@@ -300,30 +314,32 @@
         "tweetText": "@deedydas You will be missing out if you think SWE-Bench is representative of anything real. We published about this back in February.\n\nhttps://t.co/MbIIY7foOo",
         "tweetUrl": "https://x.com/thsottiaux/status/2047390943821869255",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1776976755250,
-        "inputTokens": 485,
-        "outputTokens": 99,
-        "rationale": "This post is about a Codex app update and new features, not rate limits or usage caps resetting.",
-        "reasoningTokens": 50,
-        "totalTokens": 584,
-        "tweetCreatedAt": "2026-04-23T18:57:12.000Z",
-        "tweetId": "2047389342809882730",
-        "tweetText": "@sama The hardest the Codex team has ever shipped =&gt; fun little bundle. OK Sam.\n\nMore details here and already available if you update your app!\nhttps://t.co/yQYSnrJofg",
-        "tweetUrl": "https://x.com/thsottiaux/status/2047389342809882730",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 66959,
-      "totalOutputTokens": 19377,
-      "totalReasoningTokens": 10367,
-      "totalTokens": 86336
+      "totalInputTokens": 67321,
+      "totalOutputTokens": 19450,
+      "totalReasoningTokens": 10396,
+      "totalTokens": 86771
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1777402177234,
+      "inputTokens": 362,
+      "message": "",
+      "outputTokens": 73,
+      "rationale": "This reply discusses model efficiency and does not indicate any limit or rate-cap reset.",
+      "reasoningTokens": 29,
+      "totalTokens": 435,
+      "tweetCreatedAt": "2026-04-28T02:45:32.000Z",
+      "tweetId": "2048956755233673634",
+      "tweetText": "@tmuxvim We actually have amazingly efficient models",
+      "tweetUrl": "https://x.com/thsottiaux/status/2048956755233673634",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0,
       "createdAt": 1777052204250,
@@ -947,28 +963,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2047240045791457324",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.95,
-      "createdAt": 1776935554736,
-      "inputTokens": 454,
-      "message": "",
-      "outputTokens": 167,
-      "rationale": "This says capacity is being added and service should recover soon, not that limits have reset now.",
-      "reasoningTokens": 120,
-      "totalTokens": 621,
-      "tweetCreatedAt": "2026-04-23T08:45:54.000Z",
-      "tweetId": "2047235504933052856",
-      "tweetText": "Bro @doublemover. Believe it or not we got paged and are at it since 1am. Shuffling capacity and bringing more compute online. Should be back to normal shortly.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2047235504933052856",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "Km2Pf3C5OmcUaV2cY54812QZfPJ4m3YAQqC7pSxUMZRP-IEWJy2yUfCJWw",
-    "iv": "hbzuRZP43zyh5cYE",
-    "tag": "cSqnkejmDpuQSVLmnEZ6IQ",
+    "ciphertext": "p5CdCqATftZMg8f5FjS0a1-vjX-6K_f6ZqgoHASUkIRfRkEAl3U6iCRkMA",
+    "iv": "xAXaAQsFWcIF6bos",
+    "tag": "y2WVQjspoN42X7MMuOJDJg",
     "version": 1
   }
 }
