@@ -15,16 +15,16 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1777402177234,
-      "rationale": "This reply discusses model efficiency and does not indicate any limit or rate-cap reset.",
-      "tweetCreatedAt": "2026-04-28T02:45:32.000Z",
-      "tweetId": "2048956755233673634",
-      "tweetUrl": "https://x.com/thsottiaux/status/2048956755233673634",
+      "decidedAt": 1777402180413,
+      "rationale": "This reply only says they are fixing something and does not indicate any rate limit reset.",
+      "tweetCreatedAt": "2026-04-28T02:45:57.000Z",
+      "tweetId": "2048956856412889147",
+      "tweetUrl": "https://x.com/thsottiaux/status/2048956856412889147",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2048956755233673634",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2048956755233673634",
+    "lastSeenTweetId": "2048956856412889147",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2048956856412889147",
     "pendingReview": {
       "confidence": 0.22,
       "createdAt": 1776983032548,
@@ -35,6 +35,20 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2047433466405699683"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1777402180413,
+        "inputTokens": 359,
+        "outputTokens": 79,
+        "rationale": "This reply only says they are fixing something and does not indicate any rate limit reset.",
+        "reasoningTokens": 33,
+        "totalTokens": 438,
+        "tweetCreatedAt": "2026-04-28T02:45:57.000Z",
+        "tweetId": "2048956856412889147",
+        "tweetText": "@SIGKITTEN Fixing",
+        "tweetUrl": "https://x.com/thsottiaux/status/2048956856412889147",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1777402177234,
@@ -300,30 +314,32 @@
         "tweetText": "@J_dev363 https://t.co/P3G1YeOUDt",
         "tweetUrl": "https://x.com/thsottiaux/status/2047394346849411291",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1776976758766,
-        "inputTokens": 395,
-        "outputTokens": 93,
-        "rationale": "This reply discusses SWE-Bench research and says nothing about ChatGPT or Codex limits resetting.",
-        "reasoningTokens": 46,
-        "totalTokens": 488,
-        "tweetCreatedAt": "2026-04-23T19:03:34.000Z",
-        "tweetId": "2047390943821869255",
-        "tweetText": "@deedydas You will be missing out if you think SWE-Bench is representative of anything real. We published about this back in February.\n\nhttps://t.co/MbIIY7foOo",
-        "tweetUrl": "https://x.com/thsottiaux/status/2047390943821869255",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 67321,
-      "totalOutputTokens": 19450,
-      "totalReasoningTokens": 10396,
-      "totalTokens": 86771
+      "totalInputTokens": 67680,
+      "totalOutputTokens": 19529,
+      "totalReasoningTokens": 10429,
+      "totalTokens": 87209
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1777402180413,
+      "inputTokens": 359,
+      "message": "",
+      "outputTokens": 79,
+      "rationale": "This reply only says they are fixing something and does not indicate any rate limit reset.",
+      "reasoningTokens": 33,
+      "totalTokens": 438,
+      "tweetCreatedAt": "2026-04-28T02:45:57.000Z",
+      "tweetId": "2048956856412889147",
+      "tweetText": "@SIGKITTEN Fixing",
+      "tweetUrl": "https://x.com/thsottiaux/status/2048956856412889147",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1777402177234,
@@ -947,28 +963,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2047258683470758145",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.93,
-      "createdAt": 1776935559709,
-      "inputTokens": 372,
-      "message": "",
-      "outputTokens": 146,
-      "rationale": "This says service traffic has recovered, not that Codex or ChatGPT usage limits have reset.",
-      "reasoningTokens": 99,
-      "totalTokens": 518,
-      "tweetCreatedAt": "2026-04-23T09:03:57.000Z",
-      "tweetId": "2047240045791457324",
-      "tweetText": "@doublemover Situation is mostly recovered. We are continuing to monitor but traffic is back and healthy.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2047240045791457324",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "p5CdCqATftZMg8f5FjS0a1-vjX-6K_f6ZqgoHASUkIRfRkEAl3U6iCRkMA",
-    "iv": "xAXaAQsFWcIF6bos",
-    "tag": "y2WVQjspoN42X7MMuOJDJg",
+    "ciphertext": "z7-EFXB86LJYo9SDEDzJwblrCGgoJHmPDQwLwBR3WVuf4Ki0d6c5yqVmMw",
+    "iv": "GDkC539TciLVerhQ",
+    "tag": "O7OZn1vE0BKGreanP25Hkw",
     "version": 1
   }
 }
