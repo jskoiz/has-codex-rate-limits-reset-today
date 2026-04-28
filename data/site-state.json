@@ -1,5 +1,5 @@
 {
-  "currentState": "no",
+  "currentState": "yes",
   "autoResetHours": 20,
   "noSubtitles": [
     "Back to your local model peasant",
@@ -10,31 +10,37 @@
     "Limits reset, go crazy",
     "You can just build things"
   ],
-  "resetAt": null,
-  "updatedAt": 1776463021442,
+  "resetAt": 1777474201138,
+  "updatedAt": 1777402201138,
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1777402196942,
-      "rationale": "This is an in-joke about behavior or prompting and does not mention limits or a reset.",
-      "tweetCreatedAt": "2026-04-28T05:20:41.000Z",
-      "tweetId": "2048995797845369208",
-      "tweetUrl": "https://x.com/thsottiaux/status/2048995797845369208",
-      "verdict": "not_reset"
+      "decidedAt": 1777402201140,
+      "rationale": "The tweet explicitly says Codex rate limits were reset for all paid plans and usage is available again now.",
+      "tweetCreatedAt": "2026-04-28T05:28:43.000Z",
+      "tweetId": "2048997818673537399",
+      "tweetUrl": "https://x.com/thsottiaux/status/2048997818673537399",
+      "verdict": "reset_confirmed"
     },
     "lastError": null,
-    "lastSeenTweetId": "2048995797845369208",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2048995797845369208",
-    "pendingReview": {
-      "confidence": 0.22,
-      "createdAt": 1776983032548,
-      "rationale": "This reply lacks enough context to tell whether it means limits have reset.",
-      "tweetCreatedAt": "2026-04-23T21:52:32.000Z",
-      "tweetId": "2047433466405699683",
-      "tweetText": "@olvehe @LeeLeepenkman Already done",
-      "tweetUrl": "https://x.com/thsottiaux/status/2047433466405699683"
-    },
+    "lastSeenTweetId": "2048997818673537399",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2048997818673537399",
+    "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1777402201140,
+        "inputTokens": 424,
+        "outputTokens": 104,
+        "rationale": "The tweet explicitly says Codex rate limits were reset for all paid plans and usage is available again now.",
+        "reasoningTokens": 54,
+        "totalTokens": 528,
+        "tweetCreatedAt": "2026-04-28T05:28:43.000Z",
+        "tweetId": "2048997818673537399",
+        "tweetText": "Don't just reset Codex rate limits for fun, it costs money.\nDon't just reset Codex rate limits for fun, it costs money.\n\n... but the vibes are good ...\n\nI have reset Codex rate limits for ALL paid plans to celebrate a good week and allow everyone to build more with GPT-5.5. Enjoy",
+        "tweetUrl": "https://x.com/thsottiaux/status/2048997818673537399",
+        "verdict": "reset_confirmed"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1777402196942,
@@ -300,30 +306,32 @@
         "tweetText": "@arthurbnhm @sama @ajambrosino @embirico @Dimillian @romainhuet Midnight coding in Paris should be a movie",
         "tweetUrl": "https://x.com/thsottiaux/status/2047439522762477902",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1776985940619,
-        "inputTokens": 380,
-        "outputTokens": 101,
-        "rationale": "This reply promotes trying something and does not mention limits, caps, or a reset.",
-        "reasoningTokens": 56,
-        "totalTokens": 481,
-        "tweetCreatedAt": "2026-04-23T22:13:56.000Z",
-        "tweetId": "2047438852445618645",
-        "tweetText": "@sandislonjsak I also worked 12 hours to bring it to you. It won't prompt itself (yet), go try it!",
-        "tweetUrl": "https://x.com/thsottiaux/status/2047438852445618645",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 69183,
-      "totalOutputTokens": 19893,
-      "totalReasoningTokens": 10611,
-      "totalTokens": 89076
+      "totalInputTokens": 69607,
+      "totalOutputTokens": 19997,
+      "totalReasoningTokens": 10665,
+      "totalTokens": 89604
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1777402201140,
+      "inputTokens": 424,
+      "message": "",
+      "outputTokens": 104,
+      "rationale": "The tweet explicitly says Codex rate limits were reset for all paid plans and usage is available again now.",
+      "reasoningTokens": 54,
+      "totalTokens": 528,
+      "tweetCreatedAt": "2026-04-28T05:28:43.000Z",
+      "tweetId": "2048997818673537399",
+      "tweetText": "Don't just reset Codex rate limits for fun, it costs money.\nDon't just reset Codex rate limits for fun, it costs money.\n\n... but the vibes are good ...\n\nI have reset Codex rate limits for ALL paid plans to celebrate a good week and allow everyone to build more with GPT-5.5. Enjoy",
+      "tweetUrl": "https://x.com/thsottiaux/status/2048997818673537399",
+      "type": "reset_confirmed",
+      "verdict": "reset_confirmed"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1777402196942,
@@ -947,28 +955,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2047357608143761664",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.98,
-      "createdAt": 1776957603587,
-      "inputTokens": 359,
-      "message": "",
-      "outputTokens": 147,
-      "rationale": "This reply is just conversational and does not indicate any limit or rate cap reset.",
-      "reasoningTokens": 103,
-      "totalTokens": 506,
-      "tweetCreatedAt": "2026-04-23T14:31:11.000Z",
-      "tweetId": "2047322398744310092",
-      "tweetText": "@JasonBotterill 👀",
-      "tweetUrl": "https://x.com/thsottiaux/status/2047322398744310092",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "cRG6bMMTi8bBVgjzCMvGoeMuTgLNaqS9FeaHxecl-CRyJAPPWUp8hMP8mg",
-    "iv": "zHSUL-Lw9gTi9IdT",
-    "tag": "26rr1t0RF57UtsRqqXXWQA",
+    "ciphertext": "jtf9o0frVEzZmdm9mv0MzmHrc0LDFa8XMDTEbmKnjf5TFEAPhbyjfsckfQ",
+    "iv": "aDF9UDegnR82goPR",
+    "tag": "VNPh4b20nW2Q4-NNJZj9vg",
     "version": 1
   }
 }
