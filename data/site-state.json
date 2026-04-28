@@ -15,16 +15,16 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1777402189583,
-      "rationale": "This is a general product update and does not mention limits, caps, or availability resetting.",
-      "tweetCreatedAt": "2026-04-28T02:52:46.000Z",
-      "tweetId": "2048958572562710550",
-      "tweetUrl": "https://x.com/thsottiaux/status/2048958572562710550",
+      "decidedAt": 1777402193269,
+      "rationale": "This is a casual reply and does not mention limits, caps, or availability resetting.",
+      "tweetCreatedAt": "2026-04-28T02:58:04.000Z",
+      "tweetId": "2048959909320962232",
+      "tweetUrl": "https://x.com/thsottiaux/status/2048959909320962232",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2048958572562710550",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2048958572562710550",
+    "lastSeenTweetId": "2048959909320962232",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2048959909320962232",
     "pendingReview": {
       "confidence": 0.22,
       "createdAt": 1776983032548,
@@ -35,6 +35,20 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2047433466405699683"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1777402193270,
+        "inputTokens": 364,
+        "outputTokens": 82,
+        "rationale": "This is a casual reply and does not mention limits, caps, or availability resetting.",
+        "reasoningTokens": 37,
+        "totalTokens": 446,
+        "tweetCreatedAt": "2026-04-28T02:58:04.000Z",
+        "tweetId": "2048959909320962232",
+        "tweetText": "@jxnlco Is that why they called you Chappy",
+        "tweetUrl": "https://x.com/thsottiaux/status/2048959909320962232",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1777402189583,
@@ -300,30 +314,32 @@
         "tweetText": "@benvargas We will increase this over time",
         "tweetUrl": "https://x.com/thsottiaux/status/2047436878350307482",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.22,
-        "evaluatedAt": 1776983032548,
-        "inputTokens": 363,
-        "outputTokens": 177,
-        "rationale": "This reply lacks enough context to tell whether it means limits have reset.",
-        "reasoningTokens": 135,
-        "totalTokens": 540,
-        "tweetCreatedAt": "2026-04-23T21:52:32.000Z",
-        "tweetId": "2047433466405699683",
-        "tweetText": "@olvehe @LeeLeepenkman Already done",
-        "tweetUrl": "https://x.com/thsottiaux/status/2047433466405699683",
-        "verdict": "uncertain"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 68419,
-      "totalOutputTokens": 19716,
-      "totalReasoningTokens": 10526,
-      "totalTokens": 88135
+      "totalInputTokens": 68783,
+      "totalOutputTokens": 19798,
+      "totalReasoningTokens": 10563,
+      "totalTokens": 88581
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1777402193270,
+      "inputTokens": 364,
+      "message": "",
+      "outputTokens": 82,
+      "rationale": "This is a casual reply and does not mention limits, caps, or availability resetting.",
+      "reasoningTokens": 37,
+      "totalTokens": 446,
+      "tweetCreatedAt": "2026-04-28T02:58:04.000Z",
+      "tweetId": "2048959909320962232",
+      "tweetText": "@jxnlco Is that why they called you Chappy",
+      "tweetUrl": "https://x.com/thsottiaux/status/2048959909320962232",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1777402189583,
@@ -947,28 +963,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2047322142262641099",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1776941370715,
-      "inputTokens": 363,
-      "message": "",
-      "outputTokens": 82,
-      "rationale": "This reply asks for feedback and does not mention limits, caps, or a reset.",
-      "reasoningTokens": 37,
-      "totalTokens": 445,
-      "tweetCreatedAt": "2026-04-23T10:40:59.000Z",
-      "tweetId": "2047264464823877663",
-      "tweetText": "@doublemover Could you /feedback on that session?",
-      "tweetUrl": "https://x.com/thsottiaux/status/2047264464823877663",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "4PolohQ2hSG0TNbzkAI4_t7SluoOAGy6FPJKSj5Oa3G5AYS0q69F_EohAA",
-    "iv": "ApyaDFrZZGzN-G9h",
-    "tag": "ajH28WYsSeH19PtJVl999w",
+    "ciphertext": "t-aNJpdBrnS7309L_3Oq10U9MEIur_dhO4gSOoGFyjGCIqBKKWLtvGhYIw",
+    "iv": "2xCOIrgQLU07MfiT",
+    "tag": "wVFFdXlSMaBzT7HqUQUYWw",
     "version": 1
   }
 }
