@@ -14,17 +14,17 @@
   "updatedAt": 1777402201138,
   "automation": {
     "lastDecision": {
-      "confidence": 0.82,
-      "decidedAt": 1777403703337,
-      "rationale": "This reply suggests some change finished propagating, but it does not explicitly say limits or caps have reset.",
-      "tweetCreatedAt": "2026-04-28T05:52:57.000Z",
-      "tweetId": "2049003917023834196",
-      "tweetUrl": "https://x.com/thsottiaux/status/2049003917023834196",
-      "verdict": "uncertain"
+      "confidence": 0.99,
+      "decidedAt": 1777403736890,
+      "rationale": "This reply discusses verification of a story and does not mention limits, caps, or availability resetting.",
+      "tweetCreatedAt": "2026-04-28T05:54:59.000Z",
+      "tweetId": "2049004429102231845",
+      "tweetUrl": "https://x.com/thsottiaux/status/2049004429102231845",
+      "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2049003917023834196",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2049003917023834196",
+    "lastSeenTweetId": "2049004429102231845",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2049004429102231845",
     "pendingReview": {
       "confidence": 0.82,
       "createdAt": 1777403703337,
@@ -35,6 +35,20 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2049003917023834196"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1777403736890,
+        "inputTokens": 365,
+        "outputTokens": 91,
+        "rationale": "This reply discusses verification of a story and does not mention limits, caps, or availability resetting.",
+        "reasoningTokens": 44,
+        "totalTokens": 456,
+        "tweetCreatedAt": "2026-04-28T05:54:59.000Z",
+        "tweetId": "2049004429102231845",
+        "tweetText": "@argofowl @sama Sam verified the story. Done.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2049004429102231845",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.82,
         "evaluatedAt": 1777403703337,
@@ -300,30 +314,32 @@
         "tweetText": "@morqon @SebastienBubeck @OpenAI You can see the progressive nerfing here very clearly",
         "tweetUrl": "https://x.com/thsottiaux/status/2047471919751106758",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1777002433027,
-        "inputTokens": 462,
-        "outputTokens": 105,
-        "rationale": "This post and its quote discuss GPT-5.5/Codex quality on frontend work, not limits or availability resetting.",
-        "reasoningTokens": 52,
-        "totalTokens": 567,
-        "tweetCreatedAt": "2026-04-24T00:14:02.000Z",
-        "tweetId": "2047469075803296149",
-        "tweetText": "Finally making strides on frontend, GPT-5.5 might be the one",
-        "tweetUrl": "https://x.com/thsottiaux/status/2047469075803296149",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 70752,
-      "totalOutputTokens": 20493,
-      "totalReasoningTokens": 11025,
-      "totalTokens": 91245
+      "totalInputTokens": 71117,
+      "totalOutputTokens": 20584,
+      "totalReasoningTokens": 11069,
+      "totalTokens": 91701
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1777403736890,
+      "inputTokens": 365,
+      "message": "",
+      "outputTokens": 91,
+      "rationale": "This reply discusses verification of a story and does not mention limits, caps, or availability resetting.",
+      "reasoningTokens": 44,
+      "totalTokens": 456,
+      "tweetCreatedAt": "2026-04-28T05:54:59.000Z",
+      "tweetId": "2049004429102231845",
+      "tweetText": "@argofowl @sama Sam verified the story. Done.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2049004429102231845",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.82,
       "createdAt": 1777403703337,
@@ -947,28 +963,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2047366644922716349",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1776967738657,
-      "inputTokens": 368,
-      "message": "",
-      "outputTokens": 74,
-      "rationale": "This reply is just a compliment about a visualization and says nothing about limits or resets.",
-      "reasoningTokens": 29,
-      "totalTokens": 442,
-      "tweetCreatedAt": "2026-04-23T17:21:05.000Z",
-      "tweetId": "2047365151691886884",
-      "tweetText": "@SrihariSriraman @badlogicgames Very cool visualization. Nice work",
-      "tweetUrl": "https://x.com/thsottiaux/status/2047365151691886884",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "do2okg-6ODnpcRRgRDhrsbEAd-kW28yZR-1qAuT9cTjKRZ9_rtd6-HJ52A",
-    "iv": "CyUVYtJdTaT6rVdV",
-    "tag": "deX20F2UyW8c-2xzBcpbqA",
+    "ciphertext": "qwXK09xfQHNktHLBVmZ1zAe68XjeJZUaeyZyS8xnlWrj4FqG22MXeOQZZw",
+    "iv": "NieHma7xre2rUZE8",
+    "tag": "xd8g_9h5Hv-bwlT9amHoEg",
     "version": 1
   }
 }
