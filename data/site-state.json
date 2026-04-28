@@ -14,19 +14,33 @@
   "updatedAt": 1777402201138,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1777402201140,
-      "rationale": "The tweet explicitly says Codex rate limits were reset for all paid plans and usage is available again now.",
-      "tweetCreatedAt": "2026-04-28T05:28:43.000Z",
-      "tweetId": "2048997818673537399",
-      "tweetUrl": "https://x.com/thsottiaux/status/2048997818673537399",
-      "verdict": "reset_confirmed"
+      "confidence": 0.96,
+      "decidedAt": 1777403691327,
+      "rationale": "It mentions a reset happening shortly in the future, not that limits have reset now.",
+      "tweetCreatedAt": "2026-04-28T05:44:06.000Z",
+      "tweetId": "2049001692725731829",
+      "tweetUrl": "https://x.com/thsottiaux/status/2049001692725731829",
+      "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2048997818673537399",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2048997818673537399",
+    "lastSeenTweetId": "2049001692725731829",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2049001692725731829",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.96,
+        "evaluatedAt": 1777403691327,
+        "inputTokens": 417,
+        "outputTokens": 209,
+        "rationale": "It mentions a reset happening shortly in the future, not that limits have reset now.",
+        "reasoningTokens": 164,
+        "totalTokens": 626,
+        "tweetCreatedAt": "2026-04-28T05:44:06.000Z",
+        "tweetId": "2049001692725731829",
+        "tweetText": "@TaylorHabrock 1) You could build a whole startup in 14 hours\n2) We had so many signups over the last few days, not everyone resets in 14 hours\n3) You know we will reset shortly after too anyways to celebrate 5M\n4) ???\n5) Profit",
+        "tweetUrl": "https://x.com/thsottiaux/status/2049001692725731829",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1777402201140,
@@ -292,30 +306,32 @@
         "tweetText": "@pwealthydad DM",
         "tweetUrl": "https://x.com/thsottiaux/status/2047439666887188637",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1776985943547,
-        "inputTokens": 385,
-        "outputTokens": 92,
-        "rationale": "This reply is conversational and does not mention limits, caps, or usage becoming available again.",
-        "reasoningTokens": 46,
-        "totalTokens": 477,
-        "tweetCreatedAt": "2026-04-23T22:16:36.000Z",
-        "tweetId": "2047439522762477902",
-        "tweetText": "@arthurbnhm @sama @ajambrosino @embirico @Dimillian @romainhuet Midnight coding in Paris should be a movie",
-        "tweetUrl": "https://x.com/thsottiaux/status/2047439522762477902",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 69607,
-      "totalOutputTokens": 19997,
-      "totalReasoningTokens": 10665,
-      "totalTokens": 89604
+      "totalInputTokens": 70024,
+      "totalOutputTokens": 20206,
+      "totalReasoningTokens": 10829,
+      "totalTokens": 90230
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.96,
+      "createdAt": 1777403691327,
+      "inputTokens": 417,
+      "message": "",
+      "outputTokens": 209,
+      "rationale": "It mentions a reset happening shortly in the future, not that limits have reset now.",
+      "reasoningTokens": 164,
+      "totalTokens": 626,
+      "tweetCreatedAt": "2026-04-28T05:44:06.000Z",
+      "tweetId": "2049001692725731829",
+      "tweetText": "@TaylorHabrock 1) You could build a whole startup in 14 hours\n2) We had so many signups over the last few days, not everyone resets in 14 hours\n3) You know we will reset shortly after too anyways to celebrate 5M\n4) ???\n5) Profit",
+      "tweetUrl": "https://x.com/thsottiaux/status/2049001692725731829",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1777402201140,
@@ -939,28 +955,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2047363748634231285",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1776963364472,
-      "inputTokens": 392,
-      "message": "",
-      "outputTokens": 61,
-      "rationale": "This is a casual joke about Codex and says nothing about limits or resets.",
-      "reasoningTokens": 17,
-      "totalTokens": 453,
-      "tweetCreatedAt": "2026-04-23T16:51:06.000Z",
-      "tweetId": "2047357608143761664",
-      "tweetText": "The BART is feeling codexy today. For those not in California, the BART is the Bay Area Rapid Transit aka a train. https://t.co/xQ6nurckmj",
-      "tweetUrl": "https://x.com/thsottiaux/status/2047357608143761664",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "jtf9o0frVEzZmdm9mv0MzmHrc0LDFa8XMDTEbmKnjf5TFEAPhbyjfsckfQ",
-    "iv": "aDF9UDegnR82goPR",
-    "tag": "VNPh4b20nW2Q4-NNJZj9vg",
+    "ciphertext": "-oxqkWZXUCwDYZWEe28MIrbiLNFpBRQ9BfkdC6yRuyIqvH0nkxt17Wlu5w",
+    "iv": "3OvOlMJfQmZD_CP1",
+    "tag": "IpiJ_HTuor8THqfTJjKOQg",
     "version": 1
   }
 }
