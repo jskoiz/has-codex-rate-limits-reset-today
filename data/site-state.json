@@ -14,19 +14,41 @@
   "updatedAt": 1777402201138,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1777403696020,
-      "rationale": "This reply is just conversational and does not mention limits or a reset.",
-      "tweetCreatedAt": "2026-04-28T05:47:28.000Z",
-      "tweetId": "2049002537890500807",
-      "tweetUrl": "https://x.com/thsottiaux/status/2049002537890500807",
-      "verdict": "not_reset"
+      "confidence": 0.82,
+      "decidedAt": 1777403703337,
+      "rationale": "This reply suggests some change finished propagating, but it does not explicitly say limits or caps have reset.",
+      "tweetCreatedAt": "2026-04-28T05:52:57.000Z",
+      "tweetId": "2049003917023834196",
+      "tweetUrl": "https://x.com/thsottiaux/status/2049003917023834196",
+      "verdict": "uncertain"
     },
     "lastError": null,
-    "lastSeenTweetId": "2049002537890500807",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2049002537890500807",
-    "pendingReview": null,
+    "lastSeenTweetId": "2049003917023834196",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2049003917023834196",
+    "pendingReview": {
+      "confidence": 0.82,
+      "createdAt": 1777403703337,
+      "rationale": "This reply suggests some change finished propagating, but it does not explicitly say limits or caps have reset.",
+      "tweetCreatedAt": "2026-04-28T05:52:57.000Z",
+      "tweetId": "2049003917023834196",
+      "tweetText": "@aiDidThisToo Took time to propagate, should be done",
+      "tweetUrl": "https://x.com/thsottiaux/status/2049003917023834196"
+    },
     "recentEvaluations": [
+      {
+        "confidence": 0.82,
+        "evaluatedAt": 1777403703337,
+        "inputTokens": 365,
+        "outputTokens": 182,
+        "rationale": "This reply suggests some change finished propagating, but it does not explicitly say limits or caps have reset.",
+        "reasoningTokens": 133,
+        "totalTokens": 547,
+        "tweetCreatedAt": "2026-04-28T05:52:57.000Z",
+        "tweetId": "2049003917023834196",
+        "tweetText": "@aiDidThisToo Took time to propagate, should be done",
+        "tweetUrl": "https://x.com/thsottiaux/status/2049003917023834196",
+        "verdict": "uncertain"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1777403696020,
@@ -292,30 +314,32 @@
         "tweetText": "Finally making strides on frontend, GPT-5.5 might be the one",
         "tweetUrl": "https://x.com/thsottiaux/status/2047469075803296149",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1776985950734,
-        "inputTokens": 378,
-        "outputTokens": 92,
-        "rationale": "This reply comments on image quality and does not mention any limit or rate-cap reset.",
-        "reasoningTokens": 47,
-        "totalTokens": 470,
-        "tweetCreatedAt": "2026-04-23T22:24:08.000Z",
-        "tweetId": "2047441418076168480",
-        "tweetText": "@Joshua43910769 @pwealthydad Please. We have ChatGPT Images 2.0 and you give me this?",
-        "tweetUrl": "https://x.com/thsottiaux/status/2047441418076168480",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 70387,
-      "totalOutputTokens": 20311,
-      "totalReasoningTokens": 10892,
-      "totalTokens": 90698
+      "totalInputTokens": 70752,
+      "totalOutputTokens": 20493,
+      "totalReasoningTokens": 11025,
+      "totalTokens": 91245
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.82,
+      "createdAt": 1777403703337,
+      "inputTokens": 365,
+      "message": "",
+      "outputTokens": 182,
+      "rationale": "This reply suggests some change finished propagating, but it does not explicitly say limits or caps have reset.",
+      "reasoningTokens": 133,
+      "totalTokens": 547,
+      "tweetCreatedAt": "2026-04-28T05:52:57.000Z",
+      "tweetId": "2049003917023834196",
+      "tweetText": "@aiDidThisToo Took time to propagate, should be done",
+      "tweetUrl": "https://x.com/thsottiaux/status/2049003917023834196",
+      "type": "review_requested",
+      "verdict": "uncertain"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1777403696020,
@@ -939,28 +963,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2047365151691886884",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1776967735601,
-      "inputTokens": 366,
-      "message": "",
-      "outputTokens": 75,
-      "rationale": "This reply just explains an acronym and does not mention limits or usage resetting.",
-      "reasoningTokens": 32,
-      "totalTokens": 441,
-      "tweetCreatedAt": "2026-04-23T17:16:34.000Z",
-      "tweetId": "2047364017405272074",
-      "tweetText": "@usr_bin_roygbiv BART = Bring About Rapid Transformation",
-      "tweetUrl": "https://x.com/thsottiaux/status/2047364017405272074",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "UlQDPqANDVfhiM1r69DQuO0v5H95zuI1KCGdrWCqlc-5P-7WXyfSyCfP8Q",
-    "iv": "-lLdbwYdqwzjgqKN",
-    "tag": "mvLFlzk6Vtfs1UaO2BNhoQ",
+    "ciphertext": "do2okg-6ODnpcRRgRDhrsbEAd-kW28yZR-1qAuT9cTjKRZ9_rtd6-HJ52A",
+    "iv": "CyUVYtJdTaT6rVdV",
+    "tag": "deX20F2UyW8c-2xzBcpbqA",
     "version": 1
   }
 }
