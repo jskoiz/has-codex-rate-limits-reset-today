@@ -15,18 +15,32 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1777403745926,
-      "rationale": "The tweet explicitly says the Codex usage limit reset has happened now.",
-      "tweetCreatedAt": "2026-04-28T06:14:49.000Z",
-      "tweetId": "2049009422794408285",
-      "tweetUrl": "https://x.com/thsottiaux/status/2049009422794408285",
-      "verdict": "reset_confirmed"
+      "decidedAt": 1777403760846,
+      "rationale": "This reply is about the team and does not mention limits, caps, or availability resetting.",
+      "tweetCreatedAt": "2026-04-28T07:02:13.000Z",
+      "tweetId": "2049021351663399151",
+      "tweetUrl": "https://x.com/thsottiaux/status/2049021351663399151",
+      "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2049009422794408285",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2049009422794408285",
+    "lastSeenTweetId": "2049021351663399151",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2049021351663399151",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1777403760846,
+        "inputTokens": 364,
+        "outputTokens": 102,
+        "rationale": "This reply is about the team and does not mention limits, caps, or availability resetting.",
+        "reasoningTokens": 56,
+        "totalTokens": 466,
+        "tweetCreatedAt": "2026-04-28T07:02:13.000Z",
+        "tweetId": "2049021351663399151",
+        "tweetText": "@amritwt We do have excellent programmers on the team",
+        "tweetUrl": "https://x.com/thsottiaux/status/2049021351663399151",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1777403745926,
@@ -292,30 +306,32 @@
         "tweetText": "@jxnlco Too much aura",
         "tweetUrl": "https://x.com/thsottiaux/status/2047544082088771641",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1777002443048,
-        "inputTokens": 371,
-        "outputTokens": 66,
-        "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-        "reasoningTokens": 22,
-        "totalTokens": 437,
-        "tweetCreatedAt": "2026-04-24T02:52:45.000Z",
-        "tweetId": "2047509017745097191",
-        "tweetText": "@ajambrosino That is a bold bet Andrew, let’s see how it plays out",
-        "tweetUrl": "https://x.com/thsottiaux/status/2047509017745097191",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 71964,
-      "totalOutputTokens": 20755,
-      "totalReasoningTokens": 11153,
-      "totalTokens": 92719
+      "totalInputTokens": 72328,
+      "totalOutputTokens": 20857,
+      "totalReasoningTokens": 11209,
+      "totalTokens": 93185
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1777403760846,
+      "inputTokens": 364,
+      "message": "",
+      "outputTokens": 102,
+      "rationale": "This reply is about the team and does not mention limits, caps, or availability resetting.",
+      "reasoningTokens": 56,
+      "totalTokens": 466,
+      "tweetCreatedAt": "2026-04-28T07:02:13.000Z",
+      "tweetId": "2049021351663399151",
+      "tweetText": "@amritwt We do have excellent programmers on the team",
+      "tweetUrl": "https://x.com/thsottiaux/status/2049021351663399151",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1777403745926,
@@ -939,28 +955,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2047377969614872870",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1776973251401,
-      "inputTokens": 360,
-      "message": "",
-      "outputTokens": 90,
-      "rationale": "This is just a brief reply about fixing something and does not mention any limit reset.",
-      "reasoningTokens": 45,
-      "totalTokens": 450,
-      "tweetCreatedAt": "2026-04-23T18:07:34.000Z",
-      "tweetId": "2047376850306158937",
-      "tweetText": "@synthwavedd BRB fixing",
-      "tweetUrl": "https://x.com/thsottiaux/status/2047376850306158937",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "c-ucZHwkSFvluP-phiToE45AszHpjHsJN1JgLhwUd01XlEgwrbE3nmehQQ",
-    "iv": "lD4ipFva9HeYhYnE",
-    "tag": "tOzpMx8y11gybH42dfwF0A",
+    "ciphertext": "OtqXRAbGcK-5uVuviAHEaGjH-PzsetwsRKAAxu3_x4paEjMp86uR-8tmvw",
+    "iv": "oILsxmjrpqypMfe7",
+    "tag": "Len9r6ETVLrXojDH_XITyA",
     "version": 1
   }
 }
