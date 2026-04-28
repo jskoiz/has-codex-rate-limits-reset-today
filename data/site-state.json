@@ -10,31 +10,37 @@
     "Limits reset, go crazy",
     "You can just build things"
   ],
-  "resetAt": 1777474201138,
-  "updatedAt": 1777402201138,
+  "resetAt": 1777475745925,
+  "updatedAt": 1777403745925,
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1777403740228,
-      "rationale": "This reply discusses implementation and billing behavior, not limits resetting or becoming available again.",
-      "tweetCreatedAt": "2026-04-28T06:03:04.000Z",
-      "tweetId": "2049006463368982933",
-      "tweetUrl": "https://x.com/thsottiaux/status/2049006463368982933",
-      "verdict": "not_reset"
+      "decidedAt": 1777403745926,
+      "rationale": "The tweet explicitly says the Codex usage limit reset has happened now.",
+      "tweetCreatedAt": "2026-04-28T06:14:49.000Z",
+      "tweetId": "2049009422794408285",
+      "tweetUrl": "https://x.com/thsottiaux/status/2049009422794408285",
+      "verdict": "reset_confirmed"
     },
     "lastError": null,
-    "lastSeenTweetId": "2049006463368982933",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2049006463368982933",
-    "pendingReview": {
-      "confidence": 0.82,
-      "createdAt": 1777403703337,
-      "rationale": "This reply suggests some change finished propagating, but it does not explicitly say limits or caps have reset.",
-      "tweetCreatedAt": "2026-04-28T05:52:57.000Z",
-      "tweetId": "2049003917023834196",
-      "tweetText": "@aiDidThisToo Took time to propagate, should be done",
-      "tweetUrl": "https://x.com/thsottiaux/status/2049003917023834196"
-    },
+    "lastSeenTweetId": "2049009422794408285",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2049009422794408285",
+    "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1777403745926,
+        "inputTokens": 455,
+        "outputTokens": 100,
+        "rationale": "The tweet explicitly says the Codex usage limit reset has happened now.",
+        "reasoningTokens": 57,
+        "totalTokens": 555,
+        "tweetCreatedAt": "2026-04-28T06:14:49.000Z",
+        "tweetId": "2049009422794408285",
+        "tweetText": "@jxnlco is having too much fun lately with a Codex skill he's been cooking up to create these motion design videos. He's got it almost down to have these generated from one single prompt.\n\nAnyway, enjoy the Codex usage limit reset.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2049009422794408285",
+        "verdict": "reset_confirmed"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1777403740228,
@@ -300,30 +306,32 @@
         "tweetText": "@ajambrosino That is a bold bet Andrew, let’s see how it plays out",
         "tweetUrl": "https://x.com/thsottiaux/status/2047509017745097191",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1777002439887,
-        "inputTokens": 364,
-        "outputTokens": 76,
-        "rationale": "This reply is just a suggestion and does not mention limits, caps, or usage resetting.",
-        "reasoningTokens": 30,
-        "totalTokens": 440,
-        "tweetCreatedAt": "2026-04-24T00:26:49.000Z",
-        "tweetId": "2047472292566090200",
-        "tweetText": "@badlogicgames May I suggest GPT-5.5",
-        "tweetUrl": "https://x.com/thsottiaux/status/2047472292566090200",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 71509,
-      "totalOutputTokens": 20655,
-      "totalReasoningTokens": 11096,
-      "totalTokens": 92164
+      "totalInputTokens": 71964,
+      "totalOutputTokens": 20755,
+      "totalReasoningTokens": 11153,
+      "totalTokens": 92719
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1777403745926,
+      "inputTokens": 455,
+      "message": "",
+      "outputTokens": 100,
+      "rationale": "The tweet explicitly says the Codex usage limit reset has happened now.",
+      "reasoningTokens": 57,
+      "totalTokens": 555,
+      "tweetCreatedAt": "2026-04-28T06:14:49.000Z",
+      "tweetId": "2049009422794408285",
+      "tweetText": "@jxnlco is having too much fun lately with a Codex skill he's been cooking up to create these motion design videos. He's got it almost down to have these generated from one single prompt.\n\nAnyway, enjoy the Codex usage limit reset.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2049009422794408285",
+      "type": "reset_confirmed",
+      "verdict": "reset_confirmed"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1777403740228,
@@ -947,28 +955,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2047376850306158937",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.97,
-      "createdAt": 1776967748996,
-      "inputTokens": 358,
-      "message": "",
-      "outputTokens": 137,
-      "rationale": "This reply only shows eyes emoji and does not clearly say any limit or cap has reset.",
-      "reasoningTokens": 91,
-      "totalTokens": 495,
-      "tweetCreatedAt": "2026-04-23T18:03:25.000Z",
-      "tweetId": "2047375806813573444",
-      "tweetText": "@mweinbach 👀",
-      "tweetUrl": "https://x.com/thsottiaux/status/2047375806813573444",
-      "type": "review_requested",
-      "verdict": "uncertain"
     }
   ],
   "privateState": {
-    "ciphertext": "rUM7qsiK6L6ufK4ebsrfe_94PqBz7qDpsBttPt8AtFPNv-YVlpaFf0tQUw",
-    "iv": "pLhvsPLk4oscLpim",
-    "tag": "rZzS9_zw8mOZ21K1_jfqDA",
+    "ciphertext": "c-ucZHwkSFvluP-phiToE45AszHpjHsJN1JgLhwUd01XlEgwrbE3nmehQQ",
+    "iv": "lD4ipFva9HeYhYnE",
+    "tag": "tOzpMx8y11gybH42dfwF0A",
     "version": 1
   }
 }
