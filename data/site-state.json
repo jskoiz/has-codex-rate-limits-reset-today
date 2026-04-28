@@ -15,16 +15,16 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1777402186098,
-      "rationale": "This reply is conversational and does not mention limits, caps, or availability returning.",
-      "tweetCreatedAt": "2026-04-28T02:50:23.000Z",
-      "tweetId": "2048957972924006723",
-      "tweetUrl": "https://x.com/thsottiaux/status/2048957972924006723",
+      "decidedAt": 1777402189583,
+      "rationale": "This is a general product update and does not mention limits, caps, or availability resetting.",
+      "tweetCreatedAt": "2026-04-28T02:52:46.000Z",
+      "tweetId": "2048958572562710550",
+      "tweetUrl": "https://x.com/thsottiaux/status/2048958572562710550",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2048957972924006723",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2048957972924006723",
+    "lastSeenTweetId": "2048958572562710550",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2048958572562710550",
     "pendingReview": {
       "confidence": 0.22,
       "createdAt": 1776983032548,
@@ -35,6 +35,20 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2047433466405699683"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1777402189583,
+        "inputTokens": 371,
+        "outputTokens": 97,
+        "rationale": "This is a general product update and does not mention limits, caps, or availability resetting.",
+        "reasoningTokens": 51,
+        "totalTokens": 468,
+        "tweetCreatedAt": "2026-04-28T02:52:46.000Z",
+        "tweetId": "2048958572562710550",
+        "tweetText": "We will ship again this week. Codex has achieved escape velocity and will keep improving rapidly.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2048958572562710550",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1777402186098,
@@ -300,30 +314,32 @@
         "tweetText": "@olvehe @LeeLeepenkman Already done",
         "tweetUrl": "https://x.com/thsottiaux/status/2047433466405699683",
         "verdict": "uncertain"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1776983026837,
-        "inputTokens": 367,
-        "outputTokens": 72,
-        "rationale": "This reply asks for feedback details and does not indicate any limit or rate-cap reset.",
-        "reasoningTokens": 27,
-        "totalTokens": 439,
-        "tweetCreatedAt": "2026-04-23T21:46:03.000Z",
-        "tweetId": "2047431833563103714",
-        "tweetText": "@LeeLeepenkman Would you /feedback and share the session id?",
-        "tweetUrl": "https://x.com/thsottiaux/status/2047431833563103714",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 68048,
-      "totalOutputTokens": 19619,
-      "totalReasoningTokens": 10475,
-      "totalTokens": 87667
+      "totalInputTokens": 68419,
+      "totalOutputTokens": 19716,
+      "totalReasoningTokens": 10526,
+      "totalTokens": 88135
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1777402189583,
+      "inputTokens": 371,
+      "message": "",
+      "outputTokens": 97,
+      "rationale": "This is a general product update and does not mention limits, caps, or availability resetting.",
+      "reasoningTokens": 51,
+      "totalTokens": 468,
+      "tweetCreatedAt": "2026-04-28T02:52:46.000Z",
+      "tweetId": "2048958572562710550",
+      "tweetText": "We will ship again this week. Codex has achieved escape velocity and will keep improving rapidly.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2048958572562710550",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1777402186098,
@@ -947,28 +963,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2047264464823877663",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1776941366741,
-      "inputTokens": 367,
-      "message": "",
-      "outputTokens": 99,
-      "rationale": "This reply is just a recommendation and does not mention limits, caps, or a reset.",
-      "reasoningTokens": 53,
-      "totalTokens": 466,
-      "tweetCreatedAt": "2026-04-23T10:21:56.000Z",
-      "tweetId": "2047259671384424910",
-      "tweetText": "@damnGruz I recommend one of them more strongly than the other",
-      "tweetUrl": "https://x.com/thsottiaux/status/2047259671384424910",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "rBK2hSUazEsCynFBRTthStvSsClg3rZ2oKOxAbZkOBi7XyYzduSUogVrsg",
-    "iv": "9KYzm9b3XEh7NMtf",
-    "tag": "_n0cVfpLwP6nzKFst0QWpA",
+    "ciphertext": "4PolohQ2hSG0TNbzkAI4_t7SluoOAGy6FPJKSj5Oa3G5AYS0q69F_EohAA",
+    "iv": "ApyaDFrZZGzN-G9h",
+    "tag": "ajH28WYsSeH19PtJVl999w",
     "version": 1
   }
 }
