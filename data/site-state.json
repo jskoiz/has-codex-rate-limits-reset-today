@@ -15,16 +15,16 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1777402180413,
-      "rationale": "This reply only says they are fixing something and does not indicate any rate limit reset.",
-      "tweetCreatedAt": "2026-04-28T02:45:57.000Z",
-      "tweetId": "2048956856412889147",
-      "tweetUrl": "https://x.com/thsottiaux/status/2048956856412889147",
+      "decidedAt": 1777402186098,
+      "rationale": "This reply is conversational and does not mention limits, caps, or availability returning.",
+      "tweetCreatedAt": "2026-04-28T02:50:23.000Z",
+      "tweetId": "2048957972924006723",
+      "tweetUrl": "https://x.com/thsottiaux/status/2048957972924006723",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2048956856412889147",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2048956856412889147",
+    "lastSeenTweetId": "2048957972924006723",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2048957972924006723",
     "pendingReview": {
       "confidence": 0.22,
       "createdAt": 1776983032548,
@@ -35,6 +35,20 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2047433466405699683"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1777402186098,
+        "inputTokens": 368,
+        "outputTokens": 90,
+        "rationale": "This reply is conversational and does not mention limits, caps, or availability returning.",
+        "reasoningTokens": 46,
+        "totalTokens": 458,
+        "tweetCreatedAt": "2026-04-28T02:50:23.000Z",
+        "tweetId": "2048957972924006723",
+        "tweetText": "@SuhailKakar You’re not done. This is just the beginning",
+        "tweetUrl": "https://x.com/thsottiaux/status/2048957972924006723",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1777402180413,
@@ -300,30 +314,32 @@
         "tweetText": "@LeeLeepenkman Would you /feedback and share the session id?",
         "tweetUrl": "https://x.com/thsottiaux/status/2047431833563103714",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1776976763487,
-        "inputTokens": 466,
-        "outputTokens": 131,
-        "rationale": "This reply only links to a product update about Codex features, not any limit or rate-limit reset.",
-        "reasoningTokens": 82,
-        "totalTokens": 597,
-        "tweetCreatedAt": "2026-04-23T19:17:05.000Z",
-        "tweetId": "2047394346849411291",
-        "tweetText": "@J_dev363 https://t.co/P3G1YeOUDt",
-        "tweetUrl": "https://x.com/thsottiaux/status/2047394346849411291",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 67680,
-      "totalOutputTokens": 19529,
-      "totalReasoningTokens": 10429,
-      "totalTokens": 87209
+      "totalInputTokens": 68048,
+      "totalOutputTokens": 19619,
+      "totalReasoningTokens": 10475,
+      "totalTokens": 87667
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1777402186098,
+      "inputTokens": 368,
+      "message": "",
+      "outputTokens": 90,
+      "rationale": "This reply is conversational and does not mention limits, caps, or availability returning.",
+      "reasoningTokens": 46,
+      "totalTokens": 458,
+      "tweetCreatedAt": "2026-04-28T02:50:23.000Z",
+      "tweetId": "2048957972924006723",
+      "tweetText": "@SuhailKakar You’re not done. This is just the beginning",
+      "tweetUrl": "https://x.com/thsottiaux/status/2048957972924006723",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1777402180413,
@@ -947,28 +963,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2047259671384424910",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.95,
-      "createdAt": 1776941360661,
-      "inputTokens": 370,
-      "message": "",
-      "outputTokens": 207,
-      "rationale": "This mentions service recovery and stability, not user rate limits or caps resetting.",
-      "reasoningTokens": 164,
-      "totalTokens": 577,
-      "tweetCreatedAt": "2026-04-23T10:18:01.000Z",
-      "tweetId": "2047258683470758145",
-      "tweetText": "@doublemover Image generation in codex also recovered. We are back to being stable.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2047258683470758145",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "z7-EFXB86LJYo9SDEDzJwblrCGgoJHmPDQwLwBR3WVuf4Ki0d6c5yqVmMw",
-    "iv": "GDkC539TciLVerhQ",
-    "tag": "O7OZn1vE0BKGreanP25Hkw",
+    "ciphertext": "rBK2hSUazEsCynFBRTthStvSsClg3rZ2oKOxAbZkOBi7XyYzduSUogVrsg",
+    "iv": "9KYzm9b3XEh7NMtf",
+    "tag": "_n0cVfpLwP6nzKFst0QWpA",
     "version": 1
   }
 }
