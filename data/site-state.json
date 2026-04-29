@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1777441312284,
-      "rationale": "This reply is just conversational and does not mention limits, caps, or usage resetting.",
-      "tweetId": "2049363359271919748",
-      "tweetUrl": "https://x.com/thsottiaux/status/2049363359271919748",
+      "decidedAt": 1777473005813,
+      "rationale": "This reply discusses math proofs and does not mention limits, caps, or resets.",
+      "tweetId": "2049495873651147132",
+      "tweetUrl": "https://x.com/thsottiaux/status/2049495873651147132",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2049363359271919748",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2049363359271919748",
+    "lastSeenTweetId": "2049495873651147132",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2049495873651147132",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1777473005813,
+        "inputTokens": 364,
+        "outputTokens": 91,
+        "rationale": "This reply discusses math proofs and does not mention limits, caps, or resets.",
+        "reasoningTokens": 47,
+        "totalTokens": 455,
+        "tweetId": "2049495873651147132",
+        "tweetText": "@janaka_a Some novel math proofs require thinking very hard",
+        "tweetUrl": "https://x.com/thsottiaux/status/2049495873651147132",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1777441312284,
@@ -272,29 +285,31 @@
         "tweetText": "Have you tried GPT-5.5?",
         "tweetUrl": "https://x.com/thsottiaux/status/2047549053039493547",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1777010439237,
-        "inputTokens": 396,
-        "outputTokens": 98,
-        "rationale": "This reply is just correcting product names and does not mention limits or a reset.",
-        "reasoningTokens": 54,
-        "totalTokens": 494,
-        "tweetId": "2047546218138746981",
-        "tweetText": "@nicoletteduclar @moggmon Correction\n\nGPT-5.5\nImages 2.0\nCodex (which you can call codex 2 since all the major improvements if you want)",
-        "tweetUrl": "https://x.com/thsottiaux/status/2047546218138746981",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 73839,
-      "totalOutputTokens": 21201,
-      "totalReasoningTokens": 11371,
-      "totalTokens": 95040
+      "totalInputTokens": 74203,
+      "totalOutputTokens": 21292,
+      "totalReasoningTokens": 11418,
+      "totalTokens": 95495
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1777473005813,
+      "inputTokens": 364,
+      "message": "",
+      "outputTokens": 91,
+      "rationale": "This reply discusses math proofs and does not mention limits, caps, or resets.",
+      "reasoningTokens": 47,
+      "totalTokens": 455,
+      "tweetId": "2049495873651147132",
+      "tweetText": "@janaka_a Some novel math proofs require thinking very hard",
+      "tweetUrl": "https://x.com/thsottiaux/status/2049495873651147132",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1777441312284,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2047389342809882730",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1776976749207,
-      "inputTokens": 359,
-      "message": "",
-      "outputTokens": 78,
-      "rationale": "This reply does not mention limits, caps, or availability resetting.",
-      "reasoningTokens": 37,
-      "totalTokens": 437,
-      "tweetId": "2047387802372116526",
-      "tweetText": "@ajambrosino Casually",
-      "tweetUrl": "https://x.com/thsottiaux/status/2047387802372116526",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "Y4GptJAGEwhM5WLlqz4XTiUqrVndjFyDD4J6ZK3MuigzNw_QhcWVbiDZEw",
-    "iv": "jHA1hROevbz3ubQC",
-    "tag": "NAQn1PQH-ogKW3XnpmKs5Q",
+    "ciphertext": "Rbrwioj7iBB9ifaLK0WgKoL5QruINoZud0M4R5aoTuvTjHMZotCCiTB4aw",
+    "iv": "9T9QKpIcx7GZS4nH",
+    "tag": "cFHHvpqd533fkashgHpbHg",
     "version": 1
   }
 }
