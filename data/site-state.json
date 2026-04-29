@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1777441006285,
-      "rationale": "This reply is unrelated to any Codex or ChatGPT usage limit reset.",
-      "tweetId": "2049360992497451279",
-      "tweetUrl": "https://x.com/thsottiaux/status/2049360992497451279",
+      "decidedAt": 1777441308728,
+      "rationale": "This post discusses Codex capabilities and future usability changes, not a current limit or rate-limit reset.",
+      "tweetId": "2049362299392241784",
+      "tweetUrl": "https://x.com/thsottiaux/status/2049362299392241784",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2049360992497451279",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2049360992497451279",
+    "lastSeenTweetId": "2049362299392241784",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2049362299392241784",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1777441308728,
+        "inputTokens": 400,
+        "outputTokens": 91,
+        "rationale": "This post discusses Codex capabilities and future usability changes, not a current limit or rate-limit reset.",
+        "reasoningTokens": 43,
+        "totalTokens": 491,
+        "tweetId": "2049362299392241784",
+        "tweetText": "With some small tweaks, Codex can work for days on hard tasks. We will release some changes to make this easier to use for everyone. \n\nWhat’s the hardest task you’ve seen GPT-5.5 succeed at?",
+        "tweetUrl": "https://x.com/thsottiaux/status/2049362299392241784",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1777441006285,
@@ -272,29 +285,31 @@
         "tweetText": "@craigzLiszt How do you define lead?",
         "tweetUrl": "https://x.com/thsottiaux/status/2047545742651507168",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1777010425797,
-        "inputTokens": 367,
-        "outputTokens": 68,
-        "rationale": "This reply is a feature request and does not mention limits or a reset.",
-        "reasoningTokens": 25,
-        "totalTokens": 435,
-        "tweetId": "2047545432583393699",
-        "tweetText": "@petergyang Can you add ghost mode and multiplayer. One prompt away",
-        "tweetUrl": "https://x.com/thsottiaux/status/2047545432583393699",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 73079,
-      "totalOutputTokens": 21015,
-      "totalReasoningTokens": 11278,
-      "totalTokens": 94094
+      "totalInputTokens": 73479,
+      "totalOutputTokens": 21106,
+      "totalReasoningTokens": 11321,
+      "totalTokens": 94585
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1777441308728,
+      "inputTokens": 400,
+      "message": "",
+      "outputTokens": 91,
+      "rationale": "This post discusses Codex capabilities and future usability changes, not a current limit or rate-limit reset.",
+      "reasoningTokens": 43,
+      "totalTokens": 491,
+      "tweetId": "2049362299392241784",
+      "tweetText": "With some small tweaks, Codex can work for days on hard tasks. We will release some changes to make this easier to use for everyone. \n\nWhat’s the hardest task you’ve seen GPT-5.5 succeed at?",
+      "tweetUrl": "https://x.com/thsottiaux/status/2049362299392241784",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1777441006285,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2047387243715916182",
       "type": "review_requested",
       "verdict": "uncertain"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1776973263203,
-      "inputTokens": 504,
-      "message": "",
-      "outputTokens": 127,
-      "rationale": "This post is a product update about new Codex features, not a statement that limits or caps reset.",
-      "reasoningTokens": 78,
-      "totalTokens": 631,
-      "tweetId": "2047387017974337611",
-      "tweetText": "Stop tweeting for a hot minute and update your Codex App to find full browser use, global dictation, non-dev mode, a new auto-review mode that is much safer than yolo, in-app docs and PDF viewer, and ... GPT-5.5.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2047387017974337611",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "S1GdScZe3s2PnvsGsZXnWEhB6oCku5XOtIDmdUvSfgg2t8_2nbN0QX6VVQ",
-    "iv": "280lgocrxdrtrhmW",
-    "tag": "sOOw5jswRArCX7pGhP5D-Q",
+    "ciphertext": "Z5I4TIb2e9TRA446pH2AZiNrLPEwUKG2CYpaIAkUaI3yPT5PxvKYDuAuAw",
+    "iv": "Wv7cCeEQr881pAlF",
+    "tag": "owAkBZFlUpdI3U0KVF-ZFA",
     "version": 1
   }
 }
