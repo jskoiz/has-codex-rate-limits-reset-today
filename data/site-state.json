@@ -1,5 +1,5 @@
 {
-  "currentState": "yes",
+  "currentState": "no",
   "autoResetHours": 20,
   "noSubtitles": [
     "Back to your local model peasant",
@@ -10,22 +10,35 @@
     "Limits reset, go crazy",
     "You can just build things"
   ],
-  "resetAt": 1777475745925,
+  "resetAt": null,
   "updatedAt": 1777403745925,
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1777474558860,
-      "rationale": "This reply discusses abuse-resistant system design and does not mention limits or a reset.",
-      "tweetId": "2049501958986498138",
-      "tweetUrl": "https://x.com/thsottiaux/status/2049501958986498138",
+      "decidedAt": 1777484814090,
+      "rationale": "This is just a quote of an OpenAI DevDay promo mentioning Codex, not a limit reset.",
+      "tweetId": "2049545580125520298",
+      "tweetUrl": "https://x.com/thsottiaux/status/2049545580125520298",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2049501958986498138",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2049501958986498138",
+    "lastSeenTweetId": "2049545580125520298",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2049545580125520298",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1777484814091,
+        "inputTokens": 484,
+        "outputTokens": 98,
+        "rationale": "This is just a quote of an OpenAI DevDay promo mentioning Codex, not a limit reset.",
+        "reasoningTokens": 49,
+        "totalTokens": 582,
+        "tweetId": "2049545580125520298",
+        "tweetText": "👁️codex👁️",
+        "tweetUrl": "https://x.com/thsottiaux/status/2049545580125520298",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1777474558860,
@@ -272,29 +285,31 @@
         "tweetText": "We will ship again this week. Codex has achieved escape velocity and will keep improving rapidly.",
         "tweetUrl": "https://x.com/thsottiaux/status/2048958572562710550",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1777402186098,
-        "inputTokens": 368,
-        "outputTokens": 90,
-        "rationale": "This reply is conversational and does not mention limits, caps, or availability returning.",
-        "reasoningTokens": 46,
-        "totalTokens": 458,
-        "tweetId": "2048957972924006723",
-        "tweetText": "@SuhailKakar You’re not done. This is just the beginning",
-        "tweetUrl": "https://x.com/thsottiaux/status/2048957972924006723",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 75389,
-      "totalOutputTokens": 21625,
-      "totalReasoningTokens": 11617,
-      "totalTokens": 97014
+      "totalInputTokens": 75873,
+      "totalOutputTokens": 21723,
+      "totalReasoningTokens": 11666,
+      "totalTokens": 97596
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1777484814091,
+      "inputTokens": 484,
+      "message": "",
+      "outputTokens": 98,
+      "rationale": "This is just a quote of an OpenAI DevDay promo mentioning Codex, not a limit reset.",
+      "reasoningTokens": 49,
+      "totalTokens": 582,
+      "tweetId": "2049545580125520298",
+      "tweetText": "👁️codex👁️",
+      "tweetUrl": "https://x.com/thsottiaux/status/2049545580125520298",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1777474558860,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2047433466405699683",
       "type": "review_requested",
       "verdict": "uncertain"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1776983026837,
-      "inputTokens": 367,
-      "message": "",
-      "outputTokens": 72,
-      "rationale": "This reply asks for feedback details and does not indicate any limit or rate-cap reset.",
-      "reasoningTokens": 27,
-      "totalTokens": 439,
-      "tweetId": "2047431833563103714",
-      "tweetText": "@LeeLeepenkman Would you /feedback and share the session id?",
-      "tweetUrl": "https://x.com/thsottiaux/status/2047431833563103714",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "foUa-2KS2RUbQIingJaxooMzwIn4oMGysyCeIrU7X3znZsDBRJ-P_OIwbQ",
-    "iv": "P88aZm05BNXGb0ZX",
-    "tag": "vZRewPZC6FLxCqnexhCczw",
+    "ciphertext": "C3kNPUYA5aItf7jSrLJZK8iGc1aSjBmd7hfBkDDHIqI0SBbh5ysB2ceXmA",
+    "iv": "21jaj5WPY4m3jUVh",
+    "tag": "F2wj32uGO3kYkjeLjacCVg",
     "version": 1
   }
 }
