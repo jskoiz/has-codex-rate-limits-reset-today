@@ -14,18 +14,31 @@
   "updatedAt": 1777403745925,
   "automation": {
     "lastDecision": {
-      "confidence": 0.98,
-      "decidedAt": 1777473624496,
-      "rationale": "This reply discusses product design around avoiding interruptions, not a current rate-limit reset.",
-      "tweetId": "2049498939641217287",
-      "tweetUrl": "https://x.com/thsottiaux/status/2049498939641217287",
+      "confidence": 0.99,
+      "decidedAt": 1777474558860,
+      "rationale": "This reply discusses abuse-resistant system design and does not mention limits or a reset.",
+      "tweetId": "2049501958986498138",
+      "tweetUrl": "https://x.com/thsottiaux/status/2049501958986498138",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2049498939641217287",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2049498939641217287",
+    "lastSeenTweetId": "2049501958986498138",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2049501958986498138",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1777474558860,
+        "inputTokens": 404,
+        "outputTokens": 69,
+        "rationale": "This reply discusses abuse-resistant system design and does not mention limits or a reset.",
+        "reasoningTokens": 25,
+        "totalTokens": 473,
+        "tweetId": "2049501958986498138",
+        "tweetText": "@SIGKITTEN @Mugilan_SS @OpenAI In a naive implementation, yes. But you can actually design the system in a way where abuse is hard.\n\nIt would have been easy to discard the right experience because of concerns for abuse.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2049501958986498138",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.98,
         "evaluatedAt": 1777473624496,
@@ -272,29 +285,31 @@
         "tweetText": "@SuhailKakar You’re not done. This is just the beginning",
         "tweetUrl": "https://x.com/thsottiaux/status/2048957972924006723",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1777402180413,
-        "inputTokens": 359,
-        "outputTokens": 79,
-        "rationale": "This reply only says they are fixing something and does not indicate any rate limit reset.",
-        "reasoningTokens": 33,
-        "totalTokens": 438,
-        "tweetId": "2048956856412889147",
-        "tweetText": "@SIGKITTEN Fixing",
-        "tweetUrl": "https://x.com/thsottiaux/status/2048956856412889147",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 74985,
-      "totalOutputTokens": 21556,
-      "totalReasoningTokens": 11592,
-      "totalTokens": 96541
+      "totalInputTokens": 75389,
+      "totalOutputTokens": 21625,
+      "totalReasoningTokens": 11617,
+      "totalTokens": 97014
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1777474558860,
+      "inputTokens": 404,
+      "message": "",
+      "outputTokens": 69,
+      "rationale": "This reply discusses abuse-resistant system design and does not mention limits or a reset.",
+      "reasoningTokens": 25,
+      "totalTokens": 473,
+      "tweetId": "2049501958986498138",
+      "tweetText": "@SIGKITTEN @Mugilan_SS @OpenAI In a naive implementation, yes. But you can actually design the system in a way where abuse is hard.\n\nIt would have been easy to discard the right experience because of concerns for abuse.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2049501958986498138",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.98,
       "createdAt": 1777473624496,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2047431833563103714",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1776976763487,
-      "inputTokens": 466,
-      "message": "",
-      "outputTokens": 131,
-      "rationale": "This reply only links to a product update about Codex features, not any limit or rate-limit reset.",
-      "reasoningTokens": 82,
-      "totalTokens": 597,
-      "tweetId": "2047394346849411291",
-      "tweetText": "@J_dev363 https://t.co/P3G1YeOUDt",
-      "tweetUrl": "https://x.com/thsottiaux/status/2047394346849411291",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "h8wcTP61j7SeN7PyHnxZTCgiLAHhXWW2BKkh5Ye3pGxj_trOJT4IH97xkg",
-    "iv": "Rq5svjKJzkv1dnn5",
-    "tag": "RT_XYfuirAssNmRJZWiTqQ",
+    "ciphertext": "foUa-2KS2RUbQIingJaxooMzwIn4oMGysyCeIrU7X3znZsDBRJ-P_OIwbQ",
+    "iv": "P88aZm05BNXGb0ZX",
+    "tag": "vZRewPZC6FLxCqnexhCczw",
     "version": 1
   }
 }
