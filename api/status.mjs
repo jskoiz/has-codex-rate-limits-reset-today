@@ -16,7 +16,6 @@ const createPublicSummaryEntry = (entry = null, fallback = {}) => {
     checkedAt: entry?.evaluatedAt || entry?.createdAt || entry?.decidedAt || null,
     confidence: Number.isFinite(entry?.confidence) ? entry.confidence : null,
     rationale: typeof entry?.rationale === "string" ? entry.rationale : "",
-    tweetCreatedAt: typeof entry?.tweetCreatedAt === "string" ? entry.tweetCreatedAt : null,
     tweetId: entry?.tweetId || fallback.tweetId || null,
     tweetText: typeof entry?.tweetText === "string" ? entry.tweetText : "",
     tweetUrl: entry?.tweetUrl || fallback.tweetUrl || null,
