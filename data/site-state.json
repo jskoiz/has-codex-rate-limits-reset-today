@@ -14,18 +14,31 @@
   "updatedAt": 1777403745925,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1777473005813,
-      "rationale": "This reply discusses math proofs and does not mention limits, caps, or resets.",
-      "tweetId": "2049495873651147132",
-      "tweetUrl": "https://x.com/thsottiaux/status/2049495873651147132",
+      "confidence": 0.95,
+      "decidedAt": 1777473320814,
+      "rationale": "This reply is just a conversational suggestion and does not say limits or rate caps have reset.",
+      "tweetId": "2049497512097308869",
+      "tweetUrl": "https://x.com/thsottiaux/status/2049497512097308869",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2049495873651147132",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2049495873651147132",
+    "lastSeenTweetId": "2049497512097308869",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2049497512097308869",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.95,
+        "evaluatedAt": 1777473320814,
+        "inputTokens": 367,
+        "outputTokens": 170,
+        "rationale": "This reply is just a conversational suggestion and does not say limits or rate caps have reset.",
+        "reasoningTokens": 124,
+        "totalTokens": 537,
+        "tweetId": "2049497512097308869",
+        "tweetText": "@snapss @OpenAI @Mugilan_SS Start a new conversation?",
+        "tweetUrl": "https://x.com/thsottiaux/status/2049497512097308869",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1777473005813,
@@ -272,29 +285,31 @@
         "tweetText": "@tmuxvim We actually have amazingly efficient models",
         "tweetUrl": "https://x.com/thsottiaux/status/2048956755233673634",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1777010444281,
-        "inputTokens": 361,
-        "outputTokens": 79,
-        "rationale": "This post is just a general question and does not mention limits, caps, or a reset.",
-        "reasoningTokens": 32,
-        "totalTokens": 440,
-        "tweetId": "2047549053039493547",
-        "tweetText": "Have you tried GPT-5.5?",
-        "tweetUrl": "https://x.com/thsottiaux/status/2047549053039493547",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 74203,
-      "totalOutputTokens": 21292,
-      "totalReasoningTokens": 11418,
-      "totalTokens": 95495
+      "totalInputTokens": 74570,
+      "totalOutputTokens": 21462,
+      "totalReasoningTokens": 11542,
+      "totalTokens": 96032
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.95,
+      "createdAt": 1777473320814,
+      "inputTokens": 367,
+      "message": "",
+      "outputTokens": 170,
+      "rationale": "This reply is just a conversational suggestion and does not say limits or rate caps have reset.",
+      "reasoningTokens": 124,
+      "totalTokens": 537,
+      "tweetId": "2049497512097308869",
+      "tweetText": "@snapss @OpenAI @Mugilan_SS Start a new conversation?",
+      "tweetUrl": "https://x.com/thsottiaux/status/2049497512097308869",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1777473005813,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2047390943821869255",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1776976755250,
-      "inputTokens": 485,
-      "message": "",
-      "outputTokens": 99,
-      "rationale": "This post is about a Codex app update and new features, not rate limits or usage caps resetting.",
-      "reasoningTokens": 50,
-      "totalTokens": 584,
-      "tweetId": "2047389342809882730",
-      "tweetText": "@sama The hardest the Codex team has ever shipped =&gt; fun little bundle. OK Sam.\n\nMore details here and already available if you update your app!\nhttps://t.co/yQYSnrJofg",
-      "tweetUrl": "https://x.com/thsottiaux/status/2047389342809882730",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "Rbrwioj7iBB9ifaLK0WgKoL5QruINoZud0M4R5aoTuvTjHMZotCCiTB4aw",
-    "iv": "9T9QKpIcx7GZS4nH",
-    "tag": "cFHHvpqd533fkashgHpbHg",
+    "ciphertext": "eDGw7s4gcOIhzkUTe5h1pD9owEEYeFq3dWxTpwj7qc0JsYwO5bsLTQU2nQ",
+    "iv": "LuhwmolMaSG8oqsJ",
+    "tag": "jmeh3bCp0QzE1WP7lAzWIQ",
     "version": 1
   }
 }
