@@ -64,7 +64,6 @@ test("normalizeStoredState derives a legacy last seen tweet URL from recent auto
       recentEvaluations: [
         {
           evaluatedAt: 1,
-          tweetCreatedAt: "2026-04-16T21:58:21.000Z",
           tweetId: "123",
           tweetText: "limits are back",
           tweetUrl: "https://x.com/thsottiaux/status/123",
@@ -76,7 +75,6 @@ test("normalizeStoredState derives a legacy last seen tweet URL from recent auto
 
   assert.equal(state.automation.lastSeenTweetId, "123");
   assert.equal(state.automation.lastSeenTweetUrl, "https://x.com/thsottiaux/status/123");
-  assert.equal(state.automation.recentEvaluations[0]?.tweetCreatedAt, "2026-04-16T21:58:21.000Z");
 });
 
 test("serializeStoredState keeps auth encrypted and automation durable", async () => {

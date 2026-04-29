@@ -22,7 +22,6 @@ test("createPublicAutomationSummary pins the last reset details while the site i
         rationale: "conversational reply",
         reasoningTokens: 22,
         totalTokens: 466,
-        tweetCreatedAt: "2026-04-22T16:10:00.000Z",
         tweetId: "333",
         tweetText: "not a banana",
         tweetUrl: "https://x.com/thsottiaux/status/333",
@@ -36,7 +35,6 @@ test("createPublicAutomationSummary pins the last reset details while the site i
         rationale: "explicit reset statement",
         reasoningTokens: 36,
         totalTokens: 467,
-        tweetCreatedAt: "2026-04-16T21:58:21.000Z",
         tweetId: "222",
         tweetText: "we're resetting rate limits",
         tweetUrl: "https://x.com/thsottiaux/status/222",
@@ -52,7 +50,6 @@ test("createPublicAutomationSummary pins the last reset details while the site i
   }, "yes");
 
   assert.equal(summary.checkedAt, 100);
-  assert.equal(summary.tweetCreatedAt, "2026-04-16T21:58:21.000Z");
   assert.equal(summary.tweetId, "222");
   assert.equal(summary.tweetText, "we're resetting rate limits");
   assert.equal(summary.usage.totalTokens, 467);
@@ -75,7 +72,6 @@ test("createPublicAutomationSummary keeps the last reset pinned when the site is
         rationale: "conversational reply",
         reasoningTokens: 22,
         totalTokens: 466,
-        tweetCreatedAt: "2026-04-22T16:10:00.000Z",
         tweetId: "333",
         tweetText: "not a banana",
         tweetUrl: "https://x.com/thsottiaux/status/333",
@@ -89,7 +85,6 @@ test("createPublicAutomationSummary keeps the last reset pinned when the site is
         rationale: "explicit reset statement",
         reasoningTokens: 36,
         totalTokens: 467,
-        tweetCreatedAt: "2026-04-16T21:58:21.000Z",
         tweetId: "222",
         tweetText: "we're resetting rate limits",
         tweetUrl: "https://x.com/thsottiaux/status/222",
@@ -100,10 +95,8 @@ test("createPublicAutomationSummary keeps the last reset pinned when the site is
 
   assert.equal(summary.mode, "inactive");
   assert.equal(summary.tweetId, "222");
-  assert.equal(summary.tweetCreatedAt, "2026-04-16T21:58:21.000Z");
   assert.equal(summary.verdict, "reset_confirmed");
   assert.equal(summary.latest?.tweetId, "333");
-  assert.equal(summary.latest?.tweetCreatedAt, "2026-04-22T16:10:00.000Z");
   assert.equal(summary.latest?.verdict, "not_reset");
   assert.equal(summary.lastReset?.tweetId, "222");
 });
