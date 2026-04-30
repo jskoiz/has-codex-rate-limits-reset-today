@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1777564856947,
-      "rationale": "This is just a casual remark and does not mention any limits or reset.",
-      "tweetId": "2049880535577854338",
-      "tweetUrl": "https://x.com/thsottiaux/status/2049880535577854338",
+      "decidedAt": 1777576683977,
+      "rationale": "This post is about app improvements and updates, not limits or rate resets.",
+      "tweetId": "2049930525994066327",
+      "tweetUrl": "https://x.com/thsottiaux/status/2049930525994066327",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2049880535577854338",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2049880535577854338",
+    "lastSeenTweetId": "2049930525994066327",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2049930525994066327",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1777576683977,
+        "inputTokens": 491,
+        "outputTokens": 113,
+        "rationale": "This post is about app improvements and updates, not limits or rate resets.",
+        "reasoningTokens": 70,
+        "totalTokens": 604,
+        "tweetId": "2049930525994066327",
+        "tweetText": "Lots of improvements across the board both for coders and general work. Update your codex app to enjoy all the improvements.\n\nWe will be back next week",
+        "tweetUrl": "https://x.com/thsottiaux/status/2049930525994066327",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1777564856947,
@@ -272,29 +285,31 @@
         "tweetText": "@ishuagra02 Strongly considering this",
         "tweetUrl": "https://x.com/thsottiaux/status/2049689938929844310",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1777518663648,
-        "inputTokens": 362,
-        "outputTokens": 79,
-        "rationale": "This reply does not mention limits, caps, or any reset.",
-        "reasoningTokens": 38,
-        "totalTokens": 441,
-        "tweetId": "2049686866505724228",
-        "tweetText": "@lereschke One goblin to see here",
-        "tweetUrl": "https://x.com/thsottiaux/status/2049686866505724228",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 84821,
-      "totalOutputTokens": 23824,
-      "totalReasoningTokens": 12688,
-      "totalTokens": 108645
+      "totalInputTokens": 85312,
+      "totalOutputTokens": 23937,
+      "totalReasoningTokens": 12758,
+      "totalTokens": 109249
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1777576683977,
+      "inputTokens": 491,
+      "message": "",
+      "outputTokens": 113,
+      "rationale": "This post is about app improvements and updates, not limits or rate resets.",
+      "reasoningTokens": 70,
+      "totalTokens": 604,
+      "tweetId": "2049930525994066327",
+      "tweetText": "Lots of improvements across the board both for coders and general work. Update your codex app to enjoy all the improvements.\n\nWe will be back next week",
+      "tweetUrl": "https://x.com/thsottiaux/status/2049930525994066327",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1777564856947,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2049002537890500807",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.96,
-      "createdAt": 1777403691327,
-      "inputTokens": 417,
-      "message": "",
-      "outputTokens": 209,
-      "rationale": "It mentions a reset happening shortly in the future, not that limits have reset now.",
-      "reasoningTokens": 164,
-      "totalTokens": 626,
-      "tweetId": "2049001692725731829",
-      "tweetText": "@TaylorHabrock 1) You could build a whole startup in 14 hours\n2) We had so many signups over the last few days, not everyone resets in 14 hours\n3) You know we will reset shortly after too anyways to celebrate 5M\n4) ???\n5) Profit",
-      "tweetUrl": "https://x.com/thsottiaux/status/2049001692725731829",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "ustyilSoqhm7ALD4p74d23OVDwWQkJ1KDdFhgWNhKaqHu-dtiOSUUv9kjQ",
-    "iv": "ARmpL_nQ-2g9WCsZ",
-    "tag": "If74v_pgQ7Fuh1TkUtYJfQ",
+    "ciphertext": "MDR0Q50enLlTHw1jV7AjSiXllBTDLArI41UOaTEzafoQwjKRPENWsr8gLg",
+    "iv": "jywsnLKN9WtkaSPn",
+    "tag": "V0o2ggXRdO_mzJDyyN4i_A",
     "version": 1
   }
 }
