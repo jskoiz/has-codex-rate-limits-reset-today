@@ -14,18 +14,31 @@
   "updatedAt": 1777403745925,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1777549608744,
-      "rationale": "This reply does not mention limits, caps, or usage becoming available again.",
-      "tweetId": "2049816510777172074",
-      "tweetUrl": "https://x.com/thsottiaux/status/2049816510777172074",
+      "confidence": 0.96,
+      "decidedAt": 1777549614105,
+      "rationale": "This reply is too vague and does not say any limit or cap has reset or been lifted.",
+      "tweetId": "2049816877170589774",
+      "tweetUrl": "https://x.com/thsottiaux/status/2049816877170589774",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2049816510777172074",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2049816510777172074",
+    "lastSeenTweetId": "2049816877170589774",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2049816877170589774",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.96,
+        "evaluatedAt": 1777549614105,
+        "inputTokens": 363,
+        "outputTokens": 198,
+        "rationale": "This reply is too vague and does not say any limit or cap has reset or been lifted.",
+        "reasoningTokens": 151,
+        "totalTokens": 561,
+        "tweetId": "2049816877170589774",
+        "tweetText": "@bendee983 Prepare yourself for a world of abundance",
+        "tweetUrl": "https://x.com/thsottiaux/status/2049816877170589774",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1777549608744,
@@ -272,29 +285,31 @@
         "tweetText": "@numerounochef It's so annoying I have to read this!",
         "tweetUrl": "https://x.com/thsottiaux/status/2049686611651379587",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1777518019484,
-        "inputTokens": 397,
-        "outputTokens": 72,
-        "rationale": "This post is a general comment about OpenAI culture and says nothing about limits or resets.",
-        "reasoningTokens": 26,
-        "totalTokens": 469,
-        "tweetId": "2049684345766744401",
-        "tweetText": "A lot about OpenAI can be understood by realizing that a lot of us believe that we can at the same time deeply care, do the best work of our lives AND have fun too. No goblins to see here.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2049684345766744401",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 84100,
-      "totalOutputTokens": 23554,
-      "totalReasoningTokens": 12508,
-      "totalTokens": 107654
+      "totalInputTokens": 84463,
+      "totalOutputTokens": 23752,
+      "totalReasoningTokens": 12659,
+      "totalTokens": 108215
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.96,
+      "createdAt": 1777549614105,
+      "inputTokens": 363,
+      "message": "",
+      "outputTokens": 198,
+      "rationale": "This reply is too vague and does not say any limit or cap has reset or been lifted.",
+      "reasoningTokens": 151,
+      "totalTokens": 561,
+      "tweetId": "2049816877170589774",
+      "tweetText": "@bendee983 Prepare yourself for a world of abundance",
+      "tweetUrl": "https://x.com/thsottiaux/status/2049816877170589774",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1777549608744,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2048997818673537399",
       "type": "reset_confirmed",
       "verdict": "reset_confirmed"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1777402196942,
-      "inputTokens": 400,
-      "message": "",
-      "outputTokens": 95,
-      "rationale": "This is an in-joke about behavior or prompting and does not mention limits or a reset.",
-      "reasoningTokens": 48,
-      "totalTokens": 495,
-      "tweetId": "2048995797845369208",
-      "tweetText": "Never talk about goblins, gremlins, raccoons, trolls, ogres, pigeons, or other animals or creatures unless it is absolutely and unambiguously relevant to the user's query.\n\nIYKYK",
-      "tweetUrl": "https://x.com/thsottiaux/status/2048995797845369208",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "zSyqeN7cHcCU-P81-CRFtWGAV4tbBfTUkQycvelqyH-vhYMk9gEoZWltNw",
-    "iv": "M07fzAgEUHbKSsHp",
-    "tag": "4XS_x1Ixs9aDPlGIk2_8bA",
+    "ciphertext": "Gn82cZ8knCvpNt4JEeH1wxDvT-DeWCVoX57ZQmdqMxFOI1TJ4amjkEnjZQ",
+    "iv": "tlXv-O-j4jZk8u4X",
+    "tag": "Y4o-8ihgWoYe5Ry0bJ1K5w",
     "version": 1
   }
 }
