@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1777526085351,
-      "rationale": "This reply does not mention limits, caps, or any reset of Codex or ChatGPT usage.",
-      "tweetId": "2049718999718740458",
-      "tweetUrl": "https://x.com/thsottiaux/status/2049718999718740458",
+      "decidedAt": 1777527300356,
+      "rationale": "This reply is a general comment about Codex adoption and does not mention limits resetting.",
+      "tweetId": "2049723845662404635",
+      "tweetUrl": "https://x.com/thsottiaux/status/2049723845662404635",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2049718999718740458",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2049718999718740458",
+    "lastSeenTweetId": "2049723845662404635",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2049723845662404635",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1777527300356,
+        "inputTokens": 369,
+        "outputTokens": 79,
+        "rationale": "This reply is a general comment about Codex adoption and does not mention limits resetting.",
+        "reasoningTokens": 34,
+        "totalTokens": 448,
+        "tweetId": "2049723845662404635",
+        "tweetText": "@luke_pighetti Things will get better once everyone starts to use Codex",
+        "tweetUrl": "https://x.com/thsottiaux/status/2049723845662404635",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1777526085351,
@@ -272,29 +285,31 @@
         "tweetText": "👁️codex👁️",
         "tweetUrl": "https://x.com/thsottiaux/status/2049545580125520298",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1777474558860,
-        "inputTokens": 404,
-        "outputTokens": 69,
-        "rationale": "This reply discusses abuse-resistant system design and does not mention limits or a reset.",
-        "reasoningTokens": 25,
-        "totalTokens": 473,
-        "tweetId": "2049501958986498138",
-        "tweetText": "@SIGKITTEN @Mugilan_SS @OpenAI In a naive implementation, yes. But you can actually design the system in a way where abuse is hard.\n\nIt would have been easy to discard the right experience because of concerns for abuse.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2049501958986498138",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 82647,
-      "totalOutputTokens": 23252,
-      "totalReasoningTokens": 12385,
-      "totalTokens": 105899
+      "totalInputTokens": 83016,
+      "totalOutputTokens": 23331,
+      "totalReasoningTokens": 12419,
+      "totalTokens": 106347
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1777527300356,
+      "inputTokens": 369,
+      "message": "",
+      "outputTokens": 79,
+      "rationale": "This reply is a general comment about Codex adoption and does not mention limits resetting.",
+      "reasoningTokens": 34,
+      "totalTokens": 448,
+      "tweetId": "2049723845662404635",
+      "tweetText": "@luke_pighetti Things will get better once everyone starts to use Codex",
+      "tweetUrl": "https://x.com/thsottiaux/status/2049723845662404635",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1777526085351,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2048957972924006723",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1777402180413,
-      "inputTokens": 359,
-      "message": "",
-      "outputTokens": 79,
-      "rationale": "This reply only says they are fixing something and does not indicate any rate limit reset.",
-      "reasoningTokens": 33,
-      "totalTokens": 438,
-      "tweetId": "2048956856412889147",
-      "tweetText": "@SIGKITTEN Fixing",
-      "tweetUrl": "https://x.com/thsottiaux/status/2048956856412889147",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "_p2oR0-vzbQulLbwJdZx3BnltTGA4R5cLUBi5cxbJJ8gL7hWSkGPuWEe2Q",
-    "iv": "_nbHH4gRrZH09BnV",
-    "tag": "BM8t88m0shdHtcevi42Pew",
+    "ciphertext": "LK29f8Fa_L8hqp1-GVpnAd31ZFnXuf6dqMSweVvib4pVN6L56cIhq1Mi-Q",
+    "iv": "N5eAuc1qse85dxOE",
+    "tag": "kWe-UPq0CqsRGXqyz6X9sA",
     "version": 1
   }
 }
