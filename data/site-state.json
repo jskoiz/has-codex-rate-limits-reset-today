@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1777549301083,
-      "rationale": "This reply is just a greeting and gives no indication that any Codex or ChatGPT limits reset.",
-      "tweetId": "2049816157780316286",
-      "tweetUrl": "https://x.com/thsottiaux/status/2049816157780316286",
+      "decidedAt": 1777549608744,
+      "rationale": "This reply does not mention limits, caps, or usage becoming available again.",
+      "tweetId": "2049816510777172074",
+      "tweetUrl": "https://x.com/thsottiaux/status/2049816510777172074",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2049816157780316286",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2049816157780316286",
+    "lastSeenTweetId": "2049816510777172074",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2049816510777172074",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1777549608744,
+        "inputTokens": 362,
+        "outputTokens": 80,
+        "rationale": "This reply does not mention limits, caps, or usage becoming available again.",
+        "reasoningTokens": 37,
+        "totalTokens": 442,
+        "tweetId": "2049816510777172074",
+        "tweetText": "@badlogicgames Where do the tokens flow in?",
+        "tweetUrl": "https://x.com/thsottiaux/status/2049816510777172074",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1777549301083,
@@ -272,29 +285,31 @@
         "tweetText": "A lot about OpenAI can be understood by realizing that a lot of us believe that we can at the same time deeply care, do the best work of our lives AND have fun too. No goblins to see here.",
         "tweetUrl": "https://x.com/thsottiaux/status/2049684345766744401",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.98,
-        "evaluatedAt": 1777508718650,
-        "inputTokens": 364,
-        "outputTokens": 107,
-        "rationale": "This reply is just a conversational request and does not indicate any limit or cap has reset.",
-        "reasoningTokens": 61,
-        "totalTokens": 471,
-        "tweetId": "2049645639022305362",
-        "tweetText": "@andrew_n_carr I humbly request this too",
-        "tweetUrl": "https://x.com/thsottiaux/status/2049645639022305362",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 83738,
-      "totalOutputTokens": 23474,
-      "totalReasoningTokens": 12471,
-      "totalTokens": 107212
+      "totalInputTokens": 84100,
+      "totalOutputTokens": 23554,
+      "totalReasoningTokens": 12508,
+      "totalTokens": 107654
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1777549608744,
+      "inputTokens": 362,
+      "message": "",
+      "outputTokens": 80,
+      "rationale": "This reply does not mention limits, caps, or usage becoming available again.",
+      "reasoningTokens": 37,
+      "totalTokens": 442,
+      "tweetId": "2049816510777172074",
+      "tweetText": "@badlogicgames Where do the tokens flow in?",
+      "tweetUrl": "https://x.com/thsottiaux/status/2049816510777172074",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1777549301083,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2048995797845369208",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1777402193270,
-      "inputTokens": 364,
-      "message": "",
-      "outputTokens": 82,
-      "rationale": "This is a casual reply and does not mention limits, caps, or availability resetting.",
-      "reasoningTokens": 37,
-      "totalTokens": 446,
-      "tweetId": "2048959909320962232",
-      "tweetText": "@jxnlco Is that why they called you Chappy",
-      "tweetUrl": "https://x.com/thsottiaux/status/2048959909320962232",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "DRNT8wAchXFSpKdbMzVujBDRtjjnU4CPFVMdIGtMn_xOZfl75X7OVlcXqA",
-    "iv": "1zfFx78_hp6ZfOtA",
-    "tag": "V0SNKEK44eVcRwOXb1fBPA",
+    "ciphertext": "zSyqeN7cHcCU-P81-CRFtWGAV4tbBfTUkQycvelqyH-vhYMk9gEoZWltNw",
+    "iv": "M07fzAgEUHbKSsHp",
+    "tag": "4XS_x1Ixs9aDPlGIk2_8bA",
     "version": 1
   }
 }
