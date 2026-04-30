@@ -14,16 +14,16 @@
   "updatedAt": 1777403745925,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1777586284081,
-      "rationale": "This reply is conversational and does not mention any limits, caps, or resets.",
-      "tweetId": "2049970832244662627",
-      "tweetUrl": "https://x.com/thsottiaux/status/2049970832244662627",
+      "confidence": 0.98,
+      "decidedAt": 1777586288969,
+      "rationale": "This reply is just conversational and does not mention limits, caps, or usage resetting.",
+      "tweetId": "2049971166060876267",
+      "tweetUrl": "https://x.com/thsottiaux/status/2049971166060876267",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2049970832244662627",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2049970832244662627",
+    "lastSeenTweetId": "2049971166060876267",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2049971166060876267",
     "pendingReview": {
       "confidence": 0.84,
       "createdAt": 1777584710918,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2049964696166670671"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.98,
+        "evaluatedAt": 1777586288969,
+        "inputTokens": 362,
+        "outputTokens": 180,
+        "rationale": "This reply is just conversational and does not mention limits, caps, or usage resetting.",
+        "reasoningTokens": 135,
+        "totalTokens": 542,
+        "tweetId": "2049971166060876267",
+        "tweetText": "@danveloper Dramatic comeback. Here for it",
+        "tweetUrl": "https://x.com/thsottiaux/status/2049971166060876267",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1777586284081,
@@ -279,29 +292,31 @@
         "tweetText": "@WanderSamsara Hi Konner. Could you /feedback in a thread and share the id?",
         "tweetUrl": "https://x.com/thsottiaux/status/2049718643458809926",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.98,
-        "evaluatedAt": 1777524868154,
-        "inputTokens": 362,
-        "outputTokens": 90,
-        "rationale": "This reply is conversational and does not indicate any rate limit reset or restored availability.",
-        "reasoningTokens": 46,
-        "totalTokens": 452,
-        "tweetId": "2049713293665898924",
-        "tweetText": "@RvrsRnr You’re on to something",
-        "tweetUrl": "https://x.com/thsottiaux/status/2049713293665898924",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 89196,
-      "totalOutputTokens": 25259,
-      "totalReasoningTokens": 13619,
-      "totalTokens": 114455
+      "totalInputTokens": 89558,
+      "totalOutputTokens": 25439,
+      "totalReasoningTokens": 13754,
+      "totalTokens": 114997
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.98,
+      "createdAt": 1777586288969,
+      "inputTokens": 362,
+      "message": "",
+      "outputTokens": 180,
+      "rationale": "This reply is just conversational and does not mention limits, caps, or usage resetting.",
+      "reasoningTokens": 135,
+      "totalTokens": 542,
+      "tweetId": "2049971166060876267",
+      "tweetText": "@danveloper Dramatic comeback. Here for it",
+      "tweetUrl": "https://x.com/thsottiaux/status/2049971166060876267",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1777586284081,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2049497512097308869",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1777473005813,
-      "inputTokens": 364,
-      "message": "",
-      "outputTokens": 91,
-      "rationale": "This reply discusses math proofs and does not mention limits, caps, or resets.",
-      "reasoningTokens": 47,
-      "totalTokens": 455,
-      "tweetId": "2049495873651147132",
-      "tweetText": "@janaka_a Some novel math proofs require thinking very hard",
-      "tweetUrl": "https://x.com/thsottiaux/status/2049495873651147132",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "WHkks0RbIz6E4GdzvJ52hIwY-VSnnAv6U1SsO98nJ0Zo8618Ih4UGMbHsQ",
-    "iv": "dGhxIzipCfTFHLkw",
-    "tag": "O75rdTUT80vfqb7YClUvSg",
+    "ciphertext": "W2-vQpKkaTQXa2VA2qxRfYF0AmkEKaEkMaKhObOrhnXL8bMtaJUzOiqK3A",
+    "iv": "HToOh-w0wavN-34U",
+    "tag": "opY9QOv09WLrQVIQaukU4Q",
     "version": 1
   }
 }
