@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1777519876296,
-      "rationale": "This reply is unrelated and does not mention limits, caps, or availability resetting.",
-      "tweetId": "2049692337060852164",
-      "tweetUrl": "https://x.com/thsottiaux/status/2049692337060852164",
+      "decidedAt": 1777524222002,
+      "rationale": "This post is about Codex feature requests and does not mention limits or usage becoming available again.",
+      "tweetId": "2049710850882380004",
+      "tweetUrl": "https://x.com/thsottiaux/status/2049710850882380004",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2049692337060852164",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2049692337060852164",
+    "lastSeenTweetId": "2049710850882380004",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2049710850882380004",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1777524222002,
+        "inputTokens": 402,
+        "outputTokens": 71,
+        "rationale": "This post is about Codex feature requests and does not mention limits or usage becoming available again.",
+        "reasoningTokens": 24,
+        "totalTokens": 473,
+        "tweetId": "2049710850882380004",
+        "tweetText": "Send us feature requests for codex in the form of an images 2.0 generated image. It makes it easier for codex to implement if we decide to go for it. Saw some good ones today already that codex is cooking on.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2049710850882380004",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1777519876296,
@@ -272,29 +285,31 @@
         "tweetText": "@b_nnett Not affiliated with Codex. But we do love OSS and congrats. Keep it up and let me know when you hit 1k users and will send you something special!",
         "tweetUrl": "https://x.com/thsottiaux/status/2049360992497451279",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1777403763790,
-        "inputTokens": 360,
-        "outputTokens": 83,
-        "rationale": "This is just a brief reply mentioning Codex and does not indicate any rate limit reset.",
-        "reasoningTokens": 37,
-        "totalTokens": 443,
-        "tweetId": "2049021858855444719",
-        "tweetText": "@s_streichsbier Codex",
-        "tweetUrl": "https://x.com/thsottiaux/status/2049021858855444719",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 80057,
-      "totalOutputTokens": 22666,
-      "totalReasoningTokens": 12119,
-      "totalTokens": 102723
+      "totalInputTokens": 80459,
+      "totalOutputTokens": 22737,
+      "totalReasoningTokens": 12143,
+      "totalTokens": 103196
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1777524222002,
+      "inputTokens": 402,
+      "message": "",
+      "outputTokens": 71,
+      "rationale": "This post is about Codex feature requests and does not mention limits or usage becoming available again.",
+      "reasoningTokens": 24,
+      "totalTokens": 473,
+      "tweetId": "2049710850882380004",
+      "tweetText": "Send us feature requests for codex in the form of an images 2.0 generated image. It makes it easier for codex to implement if we decide to go for it. Saw some good ones today already that codex is cooking on.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2049710850882380004",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1777519876296,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2047545432583393699",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1777010422486,
-      "inputTokens": 375,
-      "message": "",
-      "outputTokens": 77,
-      "rationale": "This reply discusses eval contamination and does not mention limits, caps, or usage resetting.",
-      "reasoningTokens": 32,
-      "totalTokens": 452,
-      "tweetId": "2047544775474385167",
-      "tweetText": "@nrehiew_ It is an eval that is less contaminated (memorized by models) and therefore more representative",
-      "tweetUrl": "https://x.com/thsottiaux/status/2047544775474385167",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "bCH1nKoYyLh-7jPX1vg5cQive-_qRibsr2pZgnGjZXg0-UVSXO1V6I7oOQ",
-    "iv": "qJu3KMqZ79qVR-Fw",
-    "tag": "Jz_OmR5HQAGxwPk-FfPwEg",
+    "ciphertext": "34ubhqnLiQN6ZwWgTJSJdcSpB5hqNFEVRcaqKq8O39cHwuh-vaapl0j_OQ",
+    "iv": "vHgitCjvVy41ldGO",
+    "tag": "Hr60PEr-muh1X5aIK3BlIA",
     "version": 1
   }
 }
