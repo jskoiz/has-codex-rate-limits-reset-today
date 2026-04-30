@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1777519273339,
-      "rationale": "This reply is conversational and gives no indication that any limits or caps have reset.",
-      "tweetId": "2049690184460153112",
-      "tweetUrl": "https://x.com/thsottiaux/status/2049690184460153112",
+      "decidedAt": 1777519572136,
+      "rationale": "This is a blog promotion and does not mention limits, caps, or a reset.",
+      "tweetId": "2049690702452527311",
+      "tweetUrl": "https://x.com/thsottiaux/status/2049690702452527311",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2049690184460153112",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2049690184460153112",
+    "lastSeenTweetId": "2049690702452527311",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2049690702452527311",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1777519572136,
+        "inputTokens": 378,
+        "outputTokens": 75,
+        "rationale": "This is a blog promotion and does not mention limits, caps, or a reset.",
+        "reasoningTokens": 30,
+        "totalTokens": 453,
+        "tweetId": "2049690702452527311",
+        "tweetText": "Never talk about goblins. Our latest blog is live.\n\nhttps://t.co/r39VCx7TYZ",
+        "tweetUrl": "https://x.com/thsottiaux/status/2049690702452527311",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1777519273339,
@@ -272,29 +285,31 @@
         "tweetText": "@GergelyOrosz I would be surprised if this were in the client-side harness. This ought to be a back-end feature that triggers a different billing path depending on what enters the context.",
         "tweetUrl": "https://x.com/thsottiaux/status/2049006463368982933",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1777403736890,
-        "inputTokens": 365,
-        "outputTokens": 91,
-        "rationale": "This reply discusses verification of a story and does not mention limits, caps, or availability resetting.",
-        "reasoningTokens": 44,
-        "totalTokens": 456,
-        "tweetId": "2049004429102231845",
-        "tweetText": "@argofowl @sama Sam verified the story. Done.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2049004429102231845",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 78440,
-      "totalOutputTokens": 22303,
-      "totalReasoningTokens": 11940,
-      "totalTokens": 100743
+      "totalInputTokens": 78818,
+      "totalOutputTokens": 22378,
+      "totalReasoningTokens": 11970,
+      "totalTokens": 101196
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1777519572136,
+      "inputTokens": 378,
+      "message": "",
+      "outputTokens": 75,
+      "rationale": "This is a blog promotion and does not mention limits, caps, or a reset.",
+      "reasoningTokens": 30,
+      "totalTokens": 453,
+      "tweetId": "2049690702452527311",
+      "tweetText": "Never talk about goblins. Our latest blog is live.\n\nhttps://t.co/r39VCx7TYZ",
+      "tweetUrl": "https://x.com/thsottiaux/status/2049690702452527311",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1777519273339,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2047472292566090200",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1777002437039,
-      "inputTokens": 376,
-      "message": "",
-      "outputTokens": 78,
-      "rationale": "This reply discusses progressive nerfing, not a reset or restored availability of limits.",
-      "reasoningTokens": 33,
-      "totalTokens": 454,
-      "tweetId": "2047471919751106758",
-      "tweetText": "@morqon @SebastienBubeck @OpenAI You can see the progressive nerfing here very clearly",
-      "tweetUrl": "https://x.com/thsottiaux/status/2047471919751106758",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "stYJDo5HpcUDhU94JzAURNENwq4FkfJIxeBoQjZu-hZHWNMPwjrkeV1NWw",
-    "iv": "koBFZXaXgsMIjWMN",
-    "tag": "QZuBx_VJsTzxm0ygqCI9Ww",
+    "ciphertext": "eTgSI4ZjjjUoW2nvIe_KMhVnqpF6PkFXKvsvi_D2bCOr-opyyU6pCDRVAA",
+    "iv": "BJcGSnCJxoMOPmag",
+    "tag": "5dWzC_QEAjeTzHrFBnn-9A",
     "version": 1
   }
 }
