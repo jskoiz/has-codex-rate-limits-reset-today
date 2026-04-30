@@ -14,25 +14,38 @@
   "updatedAt": 1777403745925,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1777584702786,
-      "rationale": "This reply just says \"Clodex\" and does not mention any limit or reset.",
-      "tweetId": "2049963940978028624",
-      "tweetUrl": "https://x.com/thsottiaux/status/2049963940978028624",
-      "verdict": "not_reset"
+      "confidence": 0.84,
+      "decidedAt": 1777584710918,
+      "rationale": "This reply is too vague on its own to confirm that any Codex or ChatGPT limits have reset.",
+      "tweetId": "2049964696166670671",
+      "tweetUrl": "https://x.com/thsottiaux/status/2049964696166670671",
+      "verdict": "uncertain"
     },
     "lastError": null,
-    "lastSeenTweetId": "2049963940978028624",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2049963940978028624",
+    "lastSeenTweetId": "2049964696166670671",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2049964696166670671",
     "pendingReview": {
-      "confidence": 0.12,
-      "createdAt": 1777577302814,
-      "rationale": "This reply just says “Yes” without enough context to confirm a rate-limit reset.",
-      "tweetId": "2049933072028807374",
-      "tweetText": "@saaslanee Yes",
-      "tweetUrl": "https://x.com/thsottiaux/status/2049933072028807374"
+      "confidence": 0.84,
+      "createdAt": 1777584710918,
+      "rationale": "This reply is too vague on its own to confirm that any Codex or ChatGPT limits have reset.",
+      "tweetId": "2049964696166670671",
+      "tweetText": "@gakonst I feel it in the charts too",
+      "tweetUrl": "https://x.com/thsottiaux/status/2049964696166670671"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.84,
+        "evaluatedAt": 1777584710918,
+        "inputTokens": 363,
+        "outputTokens": 325,
+        "rationale": "This reply is too vague on its own to confirm that any Codex or ChatGPT limits have reset.",
+        "reasoningTokens": 276,
+        "totalTokens": 688,
+        "tweetId": "2049964696166670671",
+        "tweetText": "@gakonst I feel it in the charts too",
+        "tweetUrl": "https://x.com/thsottiaux/status/2049964696166670671",
+        "verdict": "uncertain"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1777584702786,
@@ -279,29 +292,31 @@
         "tweetText": "Send us feature requests for codex in the form of an images 2.0 generated image. It makes it easier for codex to implement if we decide to go for it. Saw some good ones today already that codex is cooking on.",
         "tweetUrl": "https://x.com/thsottiaux/status/2049710850882380004",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1777519876296,
-        "inputTokens": 360,
-        "outputTokens": 78,
-        "rationale": "This reply is unrelated and does not mention limits, caps, or availability resetting.",
-        "reasoningTokens": 34,
-        "totalTokens": 438,
-        "tweetId": "2049692337060852164",
-        "tweetText": "@ggg78g89 Goblin",
-        "tweetUrl": "https://x.com/thsottiaux/status/2049692337060852164",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 87237,
-      "totalOutputTokens": 24455,
-      "totalReasoningTokens": 13045,
-      "totalTokens": 111692
+      "totalInputTokens": 87600,
+      "totalOutputTokens": 24780,
+      "totalReasoningTokens": 13321,
+      "totalTokens": 112380
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.84,
+      "createdAt": 1777584710918,
+      "inputTokens": 363,
+      "message": "",
+      "outputTokens": 325,
+      "rationale": "This reply is too vague on its own to confirm that any Codex or ChatGPT limits have reset.",
+      "reasoningTokens": 276,
+      "totalTokens": 688,
+      "tweetId": "2049964696166670671",
+      "tweetText": "@gakonst I feel it in the charts too",
+      "tweetUrl": "https://x.com/thsottiaux/status/2049964696166670671",
+      "type": "review_requested",
+      "verdict": "uncertain"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1777584702786,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2049021858855444719",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1777403760846,
-      "inputTokens": 364,
-      "message": "",
-      "outputTokens": 102,
-      "rationale": "This reply is about the team and does not mention limits, caps, or availability resetting.",
-      "reasoningTokens": 56,
-      "totalTokens": 466,
-      "tweetId": "2049021351663399151",
-      "tweetText": "@amritwt We do have excellent programmers on the team",
-      "tweetUrl": "https://x.com/thsottiaux/status/2049021351663399151",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "93k9ShcDstd1U8CkbntE8lfU0F4M9Fv4Fd7zKFYXAZyZWCCvCGWTt1-hLA",
-    "iv": "NbLtN8QTWhbOyl-E",
-    "tag": "s4cbCbGfnm62fS79cdhSjg",
+    "ciphertext": "ySAb2hCPoGrUeAYbXDLAT_03mT_IWHJJ03_Ohsn-Mxj8iMXQ6podQwr80w",
+    "iv": "9Xes_kh1bmxZ6z_G",
+    "tag": "cMw0uaO4mmJXdoH95kSMLw",
     "version": 1
   }
 }
