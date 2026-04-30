@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1777526081424,
-      "rationale": "This reply is just asking for feedback details and does not mention any limit or cap reset.",
-      "tweetId": "2049718643458809926",
-      "tweetUrl": "https://x.com/thsottiaux/status/2049718643458809926",
+      "decidedAt": 1777526085351,
+      "rationale": "This reply does not mention limits, caps, or any reset of Codex or ChatGPT usage.",
+      "tweetId": "2049718999718740458",
+      "tweetUrl": "https://x.com/thsottiaux/status/2049718999718740458",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2049718643458809926",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2049718643458809926",
+    "lastSeenTweetId": "2049718999718740458",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2049718999718740458",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1777526085351,
+        "inputTokens": 370,
+        "outputTokens": 77,
+        "rationale": "This reply does not mention limits, caps, or any reset of Codex or ChatGPT usage.",
+        "reasoningTokens": 29,
+        "totalTokens": 447,
+        "tweetId": "2049718999718740458",
+        "tweetText": "@SteveSkojec Under which rock have you been living? We are still so early",
+        "tweetUrl": "https://x.com/thsottiaux/status/2049718999718740458",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1777526081424,
@@ -272,29 +285,31 @@
         "tweetText": "@SIGKITTEN @Mugilan_SS @OpenAI In a naive implementation, yes. But you can actually design the system in a way where abuse is hard.\n\nIt would have been easy to discard the right experience because of concerns for abuse.",
         "tweetUrl": "https://x.com/thsottiaux/status/2049501958986498138",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.98,
-        "evaluatedAt": 1777473624496,
-        "inputTokens": 415,
-        "outputTokens": 94,
-        "rationale": "This reply discusses product design around avoiding interruptions, not a current rate-limit reset.",
-        "reasoningTokens": 50,
-        "totalTokens": 509,
-        "tweetId": "2049498939641217287",
-        "tweetText": "@Mugilan_SS @OpenAI It’s the small things. When we designed this the tradeoff was between a good experience or optimize for margin and not allow to draw more usage than you technically have. \n\nWe chose to optimize for the experience as it’s really annoying to have your agent interrupted midway.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2049498939641217287",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 82277,
-      "totalOutputTokens": 23175,
-      "totalReasoningTokens": 12356,
-      "totalTokens": 105452
+      "totalInputTokens": 82647,
+      "totalOutputTokens": 23252,
+      "totalReasoningTokens": 12385,
+      "totalTokens": 105899
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1777526085351,
+      "inputTokens": 370,
+      "message": "",
+      "outputTokens": 77,
+      "rationale": "This reply does not mention limits, caps, or any reset of Codex or ChatGPT usage.",
+      "reasoningTokens": 29,
+      "totalTokens": 447,
+      "tweetId": "2049718999718740458",
+      "tweetText": "@SteveSkojec Under which rock have you been living? We are still so early",
+      "tweetUrl": "https://x.com/thsottiaux/status/2049718999718740458",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1777526081424,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2048956856412889147",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1777402177234,
-      "inputTokens": 362,
-      "message": "",
-      "outputTokens": 73,
-      "rationale": "This reply discusses model efficiency and does not indicate any limit or rate-cap reset.",
-      "reasoningTokens": 29,
-      "totalTokens": 435,
-      "tweetId": "2048956755233673634",
-      "tweetText": "@tmuxvim We actually have amazingly efficient models",
-      "tweetUrl": "https://x.com/thsottiaux/status/2048956755233673634",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "yQlihbiswy_PHh2en5-eskv0-ix_Qq8B6cbv1cVXVUmX4rD7fEGFw3jdAg",
-    "iv": "n8ZMlLBk-L-E-kgn",
-    "tag": "y-erydS654iqWZgMACUeZQ",
+    "ciphertext": "_p2oR0-vzbQulLbwJdZx3BnltTGA4R5cLUBi5cxbJJ8gL7hWSkGPuWEe2Q",
+    "iv": "_nbHH4gRrZH09BnV",
+    "tag": "BM8t88m0shdHtcevi42Pew",
     "version": 1
   }
 }
