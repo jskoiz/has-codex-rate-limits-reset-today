@@ -14,18 +14,31 @@
   "updatedAt": 1777403745925,
   "automation": {
     "lastDecision": {
-      "confidence": 0.98,
-      "decidedAt": 1777524868154,
-      "rationale": "This reply is conversational and does not indicate any rate limit reset or restored availability.",
-      "tweetId": "2049713293665898924",
-      "tweetUrl": "https://x.com/thsottiaux/status/2049713293665898924",
+      "confidence": 0.99,
+      "decidedAt": 1777526081424,
+      "rationale": "This reply is just asking for feedback details and does not mention any limit or cap reset.",
+      "tweetId": "2049718643458809926",
+      "tweetUrl": "https://x.com/thsottiaux/status/2049718643458809926",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2049713293665898924",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2049713293665898924",
+    "lastSeenTweetId": "2049718643458809926",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2049718643458809926",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1777526081424,
+        "inputTokens": 373,
+        "outputTokens": 80,
+        "rationale": "This reply is just asking for feedback details and does not mention any limit or cap reset.",
+        "reasoningTokens": 34,
+        "totalTokens": 453,
+        "tweetId": "2049718643458809926",
+        "tweetText": "@WanderSamsara Hi Konner. Could you /feedback in a thread and share the id?",
+        "tweetUrl": "https://x.com/thsottiaux/status/2049718643458809926",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.98,
         "evaluatedAt": 1777524868154,
@@ -272,29 +285,31 @@
         "tweetText": "@Mugilan_SS @OpenAI It’s the small things. When we designed this the tradeoff was between a good experience or optimize for margin and not allow to draw more usage than you technically have. \n\nWe chose to optimize for the experience as it’s really annoying to have your agent interrupted midway.",
         "tweetUrl": "https://x.com/thsottiaux/status/2049498939641217287",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.95,
-        "evaluatedAt": 1777473320814,
-        "inputTokens": 367,
-        "outputTokens": 170,
-        "rationale": "This reply is just a conversational suggestion and does not say limits or rate caps have reset.",
-        "reasoningTokens": 124,
-        "totalTokens": 537,
-        "tweetId": "2049497512097308869",
-        "tweetText": "@snapss @OpenAI @Mugilan_SS Start a new conversation?",
-        "tweetUrl": "https://x.com/thsottiaux/status/2049497512097308869",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 81904,
-      "totalOutputTokens": 23095,
-      "totalReasoningTokens": 12322,
-      "totalTokens": 104999
+      "totalInputTokens": 82277,
+      "totalOutputTokens": 23175,
+      "totalReasoningTokens": 12356,
+      "totalTokens": 105452
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1777526081424,
+      "inputTokens": 373,
+      "message": "",
+      "outputTokens": 80,
+      "rationale": "This reply is just asking for feedback details and does not mention any limit or cap reset.",
+      "reasoningTokens": 34,
+      "totalTokens": 453,
+      "tweetId": "2049718643458809926",
+      "tweetText": "@WanderSamsara Hi Konner. Could you /feedback in a thread and share the id?",
+      "tweetUrl": "https://x.com/thsottiaux/status/2049718643458809926",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.98,
       "createdAt": 1777524868154,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2048956755233673634",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0,
-      "createdAt": 1777052204250,
-      "inputTokens": 0,
-      "message": "Tweet fetch failed: Tweet search failed: Unknown error; timeline fallback failed: Unknown error (Unknown error) (Tweet search failed: Unknown error; timeline fallback failed: Unknown error)",
-      "outputTokens": 0,
-      "rationale": "",
-      "reasoningTokens": 0,
-      "totalTokens": 0,
-      "tweetId": null,
-      "tweetText": "",
-      "tweetUrl": null,
-      "type": "error",
-      "verdict": null
     }
   ],
   "privateState": {
-    "ciphertext": "_Gfz4FuMH54_GHQwoEQhaKAFftcAL1PvMA_QYwkxAQjoNdS1PR8AAnkcLw",
-    "iv": "7pujq5XTIUNby45E",
-    "tag": "z3bNtm7uW7akOSLo90h4TA",
+    "ciphertext": "yQlihbiswy_PHh2en5-eskv0-ix_Qq8B6cbv1cVXVUmX4rD7fEGFw3jdAg",
+    "iv": "n8ZMlLBk-L-E-kgn",
+    "tag": "y-erydS654iqWZgMACUeZQ",
     "version": 1
   }
 }
