@@ -14,18 +14,31 @@
   "updatedAt": 1777403745925,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1777524862920,
-      "rationale": "This reply is just casual commentary and does not mention limits, caps, or usage becoming available again.",
-      "tweetId": "2049713229996474530",
-      "tweetUrl": "https://x.com/thsottiaux/status/2049713229996474530",
+      "confidence": 0.98,
+      "decidedAt": 1777524868154,
+      "rationale": "This reply is conversational and does not indicate any rate limit reset or restored availability.",
+      "tweetId": "2049713293665898924",
+      "tweetUrl": "https://x.com/thsottiaux/status/2049713293665898924",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2049713229996474530",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2049713229996474530",
+    "lastSeenTweetId": "2049713293665898924",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2049713293665898924",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.98,
+        "evaluatedAt": 1777524868154,
+        "inputTokens": 362,
+        "outputTokens": 90,
+        "rationale": "This reply is conversational and does not indicate any rate limit reset or restored availability.",
+        "reasoningTokens": 46,
+        "totalTokens": 452,
+        "tweetId": "2049713293665898924",
+        "tweetText": "@RvrsRnr You’re on to something",
+        "tweetUrl": "https://x.com/thsottiaux/status/2049713293665898924",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1777524862920,
@@ -272,29 +285,31 @@
         "tweetText": "@snapss @OpenAI @Mugilan_SS Start a new conversation?",
         "tweetUrl": "https://x.com/thsottiaux/status/2049497512097308869",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1777473005813,
-        "inputTokens": 364,
-        "outputTokens": 91,
-        "rationale": "This reply discusses math proofs and does not mention limits, caps, or resets.",
-        "reasoningTokens": 47,
-        "totalTokens": 455,
-        "tweetId": "2049495873651147132",
-        "tweetText": "@janaka_a Some novel math proofs require thinking very hard",
-        "tweetUrl": "https://x.com/thsottiaux/status/2049495873651147132",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 81542,
-      "totalOutputTokens": 23005,
-      "totalReasoningTokens": 12276,
-      "totalTokens": 104547
+      "totalInputTokens": 81904,
+      "totalOutputTokens": 23095,
+      "totalReasoningTokens": 12322,
+      "totalTokens": 104999
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.98,
+      "createdAt": 1777524868154,
+      "inputTokens": 362,
+      "message": "",
+      "outputTokens": 90,
+      "rationale": "This reply is conversational and does not indicate any rate limit reset or restored availability.",
+      "reasoningTokens": 46,
+      "totalTokens": 452,
+      "tweetId": "2049713293665898924",
+      "tweetText": "@RvrsRnr You’re on to something",
+      "tweetUrl": "https://x.com/thsottiaux/status/2049713293665898924",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1777524862920,
@@ -879,27 +894,12 @@
       "tweetUrl": null,
       "type": "error",
       "verdict": null
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1777010444281,
-      "inputTokens": 361,
-      "message": "",
-      "outputTokens": 79,
-      "rationale": "This post is just a general question and does not mention limits, caps, or a reset.",
-      "reasoningTokens": 32,
-      "totalTokens": 440,
-      "tweetId": "2047549053039493547",
-      "tweetText": "Have you tried GPT-5.5?",
-      "tweetUrl": "https://x.com/thsottiaux/status/2047549053039493547",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "cl5EBg_gX-UGE0aacgksCwkJJENI9R8Brc4Q0lLRBZUrqLUKIhXnr9K0nA",
-    "iv": "2MfEG5GIYypYwik0",
-    "tag": "xXQd6UDW44uSxpDfBqBK_Q",
+    "ciphertext": "_Gfz4FuMH54_GHQwoEQhaKAFftcAL1PvMA_QYwkxAQjoNdS1PR8AAnkcLw",
+    "iv": "7pujq5XTIUNby45E",
+    "tag": "z3bNtm7uW7akOSLo90h4TA",
     "version": 1
   }
 }
