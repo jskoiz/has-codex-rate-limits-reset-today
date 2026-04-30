@@ -14,18 +14,31 @@
   "updatedAt": 1777403745925,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1777485106811,
-      "rationale": "This reply just says “Oops” and does not indicate any rate limit reset.",
-      "tweetId": "2049546294843375820",
-      "tweetUrl": "https://x.com/thsottiaux/status/2049546294843375820",
+      "confidence": 0.98,
+      "decidedAt": 1777508718650,
+      "rationale": "This reply is just a conversational request and does not indicate any limit or cap has reset.",
+      "tweetId": "2049645639022305362",
+      "tweetUrl": "https://x.com/thsottiaux/status/2049645639022305362",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2049546294843375820",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2049546294843375820",
+    "lastSeenTweetId": "2049645639022305362",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2049645639022305362",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.98,
+        "evaluatedAt": 1777508718650,
+        "inputTokens": 364,
+        "outputTokens": 107,
+        "rationale": "This reply is just a conversational request and does not indicate any limit or cap has reset.",
+        "reasoningTokens": 61,
+        "totalTokens": 471,
+        "tweetId": "2049645639022305362",
+        "tweetText": "@andrew_n_carr I humbly request this too",
+        "tweetUrl": "https://x.com/thsottiaux/status/2049645639022305362",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1777485106811,
@@ -272,29 +285,31 @@
         "tweetText": "Never talk about goblins, gremlins, raccoons, trolls, ogres, pigeons, or other animals or creatures unless it is absolutely and unambiguously relevant to the user's query.\n\nIYKYK",
         "tweetUrl": "https://x.com/thsottiaux/status/2048995797845369208",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1777402193270,
-        "inputTokens": 364,
-        "outputTokens": 82,
-        "rationale": "This is a casual reply and does not mention limits, caps, or availability resetting.",
-        "reasoningTokens": 37,
-        "totalTokens": 446,
-        "tweetId": "2048959909320962232",
-        "tweetText": "@jxnlco Is that why they called you Chappy",
-        "tweetUrl": "https://x.com/thsottiaux/status/2048959909320962232",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 76232,
-      "totalOutputTokens": 21800,
-      "totalReasoningTokens": 11699,
-      "totalTokens": 98032
+      "totalInputTokens": 76596,
+      "totalOutputTokens": 21907,
+      "totalReasoningTokens": 11760,
+      "totalTokens": 98503
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.98,
+      "createdAt": 1777508718650,
+      "inputTokens": 364,
+      "message": "",
+      "outputTokens": 107,
+      "rationale": "This reply is just a conversational request and does not indicate any limit or cap has reset.",
+      "reasoningTokens": 61,
+      "totalTokens": 471,
+      "tweetId": "2049645639022305362",
+      "tweetText": "@andrew_n_carr I humbly request this too",
+      "tweetUrl": "https://x.com/thsottiaux/status/2049645639022305362",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1777485106811,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2047438852445618645",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.98,
-      "createdAt": 1776985937481,
-      "inputTokens": 362,
-      "message": "",
-      "outputTokens": 87,
-      "rationale": "This reply discusses increasing limits over time, not that any cap has reset or is available again now.",
-      "reasoningTokens": 39,
-      "totalTokens": 449,
-      "tweetId": "2047436878350307482",
-      "tweetText": "@benvargas We will increase this over time",
-      "tweetUrl": "https://x.com/thsottiaux/status/2047436878350307482",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "kGYfCaabeT4_8ru9CpgBl33W4hA-yEOxIDDIGvvixUX5WpovkqguTApTVw",
-    "iv": "v0nz_Jtma1RRroBD",
-    "tag": "NPIYqpWdySsjEAfZO8qaig",
+    "ciphertext": "7Dhzh46q0R6Rtast7lrHJDsCwmToGAVEL65rlmW9PYY5LMiCX69Mer0FOg",
+    "iv": "jzGh1Qcrrnphv-Pv",
+    "tag": "y9-trWdbbb2ooLPQYqRmZg",
     "version": 1
   }
 }
