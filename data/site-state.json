@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1777524222002,
-      "rationale": "This post is about Codex feature requests and does not mention limits or usage becoming available again.",
-      "tweetId": "2049710850882380004",
-      "tweetUrl": "https://x.com/thsottiaux/status/2049710850882380004",
+      "decidedAt": 1777524543774,
+      "rationale": "This reply is just conversational and does not mention limits, caps, or a reset.",
+      "tweetId": "2049711950515638313",
+      "tweetUrl": "https://x.com/thsottiaux/status/2049711950515638313",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2049710850882380004",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2049710850882380004",
+    "lastSeenTweetId": "2049711950515638313",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2049711950515638313",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1777524543774,
+        "inputTokens": 364,
+        "outputTokens": 75,
+        "rationale": "This reply is just conversational and does not mention limits, caps, or a reset.",
+        "reasoningTokens": 30,
+        "totalTokens": 439,
+        "tweetId": "2049711950515638313",
+        "tweetText": "@dharmvir_ Codex has been nice to me",
+        "tweetUrl": "https://x.com/thsottiaux/status/2049711950515638313",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1777524222002,
@@ -272,29 +285,31 @@
         "tweetText": "With some small tweaks, Codex can work for days on hard tasks. We will release some changes to make this easier to use for everyone. \n\nWhat’s the hardest task you’ve seen GPT-5.5 succeed at?",
         "tweetUrl": "https://x.com/thsottiaux/status/2049362299392241784",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1777441006285,
-        "inputTokens": 391,
-        "outputTokens": 75,
-        "rationale": "This reply is unrelated to any Codex or ChatGPT usage limit reset.",
-        "reasoningTokens": 32,
-        "totalTokens": 466,
-        "tweetId": "2049360992497451279",
-        "tweetText": "@b_nnett Not affiliated with Codex. But we do love OSS and congrats. Keep it up and let me know when you hit 1k users and will send you something special!",
-        "tweetUrl": "https://x.com/thsottiaux/status/2049360992497451279",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 80459,
-      "totalOutputTokens": 22737,
-      "totalReasoningTokens": 12143,
-      "totalTokens": 103196
+      "totalInputTokens": 80823,
+      "totalOutputTokens": 22812,
+      "totalReasoningTokens": 12173,
+      "totalTokens": 103635
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1777524543774,
+      "inputTokens": 364,
+      "message": "",
+      "outputTokens": 75,
+      "rationale": "This reply is just conversational and does not mention limits, caps, or a reset.",
+      "reasoningTokens": 30,
+      "totalTokens": 439,
+      "tweetId": "2049711950515638313",
+      "tweetText": "@dharmvir_ Codex has been nice to me",
+      "tweetUrl": "https://x.com/thsottiaux/status/2049711950515638313",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1777524222002,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2047545742651507168",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1777010425797,
-      "inputTokens": 367,
-      "message": "",
-      "outputTokens": 68,
-      "rationale": "This reply is a feature request and does not mention limits or a reset.",
-      "reasoningTokens": 25,
-      "totalTokens": 435,
-      "tweetId": "2047545432583393699",
-      "tweetText": "@petergyang Can you add ghost mode and multiplayer. One prompt away",
-      "tweetUrl": "https://x.com/thsottiaux/status/2047545432583393699",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "34ubhqnLiQN6ZwWgTJSJdcSpB5hqNFEVRcaqKq8O39cHwuh-vaapl0j_OQ",
-    "iv": "vHgitCjvVy41ldGO",
-    "tag": "Hr60PEr-muh1X5aIK3BlIA",
+    "ciphertext": "vl4zss6ZboV5MqfugECOrJhSGanOqkqH5-KIgkT_I6l_o_lfOFG_-_GBMA",
+    "iv": "GTXctytlqospgOEr",
+    "tag": "d3NqDE-DnQ6ZMm7u0k3IBw",
     "version": 1
   }
 }
