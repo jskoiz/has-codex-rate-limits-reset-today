@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1777519270434,
-      "rationale": "This reply does not mention limits, caps, or any reset being available now.",
-      "tweetId": "2049689938929844310",
-      "tweetUrl": "https://x.com/thsottiaux/status/2049689938929844310",
+      "decidedAt": 1777519273339,
+      "rationale": "This reply is conversational and gives no indication that any limits or caps have reset.",
+      "tweetId": "2049690184460153112",
+      "tweetUrl": "https://x.com/thsottiaux/status/2049690184460153112",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2049689938929844310",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2049689938929844310",
+    "lastSeenTweetId": "2049690184460153112",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2049690184460153112",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1777519273339,
+        "inputTokens": 360,
+        "outputTokens": 84,
+        "rationale": "This reply is conversational and gives no indication that any limits or caps have reset.",
+        "reasoningTokens": 40,
+        "totalTokens": 444,
+        "tweetId": "2049690184460153112",
+        "tweetText": "@cheemp_hl I feel seen",
+        "tweetUrl": "https://x.com/thsottiaux/status/2049690184460153112",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1777519270434,
@@ -272,29 +285,31 @@
         "tweetText": "@argofowl @sama Sam verified the story. Done.",
         "tweetUrl": "https://x.com/thsottiaux/status/2049004429102231845",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.82,
-        "evaluatedAt": 1777403703337,
-        "inputTokens": 365,
-        "outputTokens": 182,
-        "rationale": "This reply suggests some change finished propagating, but it does not explicitly say limits or caps have reset.",
-        "reasoningTokens": 133,
-        "totalTokens": 547,
-        "tweetId": "2049003917023834196",
-        "tweetText": "@aiDidThisToo Took time to propagate, should be done",
-        "tweetUrl": "https://x.com/thsottiaux/status/2049003917023834196",
-        "verdict": "uncertain"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 78080,
-      "totalOutputTokens": 22219,
-      "totalReasoningTokens": 11900,
-      "totalTokens": 100299
+      "totalInputTokens": 78440,
+      "totalOutputTokens": 22303,
+      "totalReasoningTokens": 11940,
+      "totalTokens": 100743
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1777519273339,
+      "inputTokens": 360,
+      "message": "",
+      "outputTokens": 84,
+      "rationale": "This reply is conversational and gives no indication that any limits or caps have reset.",
+      "reasoningTokens": 40,
+      "totalTokens": 444,
+      "tweetId": "2049690184460153112",
+      "tweetText": "@cheemp_hl I feel seen",
+      "tweetUrl": "https://x.com/thsottiaux/status/2049690184460153112",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1777519270434,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2047471919751106758",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1777002433027,
-      "inputTokens": 462,
-      "message": "",
-      "outputTokens": 105,
-      "rationale": "This post and its quote discuss GPT-5.5/Codex quality on frontend work, not limits or availability resetting.",
-      "reasoningTokens": 52,
-      "totalTokens": 567,
-      "tweetId": "2047469075803296149",
-      "tweetText": "Finally making strides on frontend, GPT-5.5 might be the one",
-      "tweetUrl": "https://x.com/thsottiaux/status/2047469075803296149",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "tUkAXM7J4A-A7i5Mn7lfAsXUm6NHusOXjOog1Q58AO9PI8vqoUe4zvOMZQ",
-    "iv": "j2GGpU9-2lWWdsP5",
-    "tag": "C8L3kT9i5sE9R5nvhSAPuw",
+    "ciphertext": "stYJDo5HpcUDhU94JzAURNENwq4FkfJIxeBoQjZu-hZHWNMPwjrkeV1NWw",
+    "iv": "koBFZXaXgsMIjWMN",
+    "tag": "QZuBx_VJsTzxm0ygqCI9Ww",
     "version": 1
   }
 }
