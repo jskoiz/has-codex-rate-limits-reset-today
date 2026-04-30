@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1777518660604,
+      "decidedAt": 1777518663648,
       "rationale": "This reply does not mention limits, caps, or any reset.",
-      "tweetId": "2049686611651379587",
-      "tweetUrl": "https://x.com/thsottiaux/status/2049686611651379587",
+      "tweetId": "2049686866505724228",
+      "tweetUrl": "https://x.com/thsottiaux/status/2049686866505724228",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2049686611651379587",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2049686611651379587",
+    "lastSeenTweetId": "2049686866505724228",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2049686866505724228",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1777518663648,
+        "inputTokens": 362,
+        "outputTokens": 79,
+        "rationale": "This reply does not mention limits, caps, or any reset.",
+        "reasoningTokens": 38,
+        "totalTokens": 441,
+        "tweetId": "2049686866505724228",
+        "tweetText": "@lereschke One goblin to see here",
+        "tweetUrl": "https://x.com/thsottiaux/status/2049686866505724228",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1777518660604,
@@ -272,29 +285,31 @@
         "tweetText": "@paradite_ Oh, my sweet summer child",
         "tweetUrl": "https://x.com/thsottiaux/status/2049002537890500807",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.96,
-        "evaluatedAt": 1777403691327,
-        "inputTokens": 417,
-        "outputTokens": 209,
-        "rationale": "It mentions a reset happening shortly in the future, not that limits have reset now.",
-        "reasoningTokens": 164,
-        "totalTokens": 626,
-        "tweetId": "2049001692725731829",
-        "tweetText": "@TaylorHabrock 1) You could build a whole startup in 14 hours\n2) We had so many signups over the last few days, not everyone resets in 14 hours\n3) You know we will reset shortly after too anyways to celebrate 5M\n4) ???\n5) Profit",
-        "tweetUrl": "https://x.com/thsottiaux/status/2049001692725731829",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 77358,
-      "totalOutputTokens": 22061,
-      "totalReasoningTokens": 11827,
-      "totalTokens": 99419
+      "totalInputTokens": 77720,
+      "totalOutputTokens": 22140,
+      "totalReasoningTokens": 11865,
+      "totalTokens": 99860
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1777518663648,
+      "inputTokens": 362,
+      "message": "",
+      "outputTokens": 79,
+      "rationale": "This reply does not mention limits, caps, or any reset.",
+      "reasoningTokens": 38,
+      "totalTokens": 441,
+      "tweetId": "2049686866505724228",
+      "tweetText": "@lereschke One goblin to see here",
+      "tweetUrl": "https://x.com/thsottiaux/status/2049686866505724228",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1777518660604,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2047441418076168480",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1776985946756,
-      "inputTokens": 358,
-      "message": "",
-      "outputTokens": 90,
-      "rationale": "This reply just says “DM” and gives no indication that any rate limit or cap has reset.",
-      "reasoningTokens": 42,
-      "totalTokens": 448,
-      "tweetId": "2047439666887188637",
-      "tweetText": "@pwealthydad DM",
-      "tweetUrl": "https://x.com/thsottiaux/status/2047439666887188637",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "Nt03LOO4wH8Q2iOYRBUqhi7lRhzz3yJzBmJv2WxxC9G34aihbo_gWJq-NA",
-    "iv": "j3q4781w4iMsPrde",
-    "tag": "LpNCjULgldY93tHnwAGdFQ",
+    "ciphertext": "0xPp79hXU1aoUb0Yk78IMHrLCEx22Nj2npEjmdrJL1OVCLRWS0yEdWiAqw",
+    "iv": "nqE9d6CV-QVL008i",
+    "tag": "iXnIgO820HWvBPdyNbaNJQ",
     "version": 1
   }
 }
