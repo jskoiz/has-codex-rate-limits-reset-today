@@ -14,16 +14,16 @@
   "updatedAt": 1777403745925,
   "automation": {
     "lastDecision": {
-      "confidence": 0.93,
-      "decidedAt": 1777585991809,
-      "rationale": "This promotes Codex CLI and GPT-5.5 capabilities, not that rate limits or usage caps have reset.",
-      "tweetId": "2049970070873629026",
-      "tweetUrl": "https://x.com/thsottiaux/status/2049970070873629026",
+      "confidence": 0.99,
+      "decidedAt": 1777586278991,
+      "rationale": "This reply does not mention rate limits, caps, or a reset.",
+      "tweetId": "2049970393625346131",
+      "tweetUrl": "https://x.com/thsottiaux/status/2049970393625346131",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2049970070873629026",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2049970070873629026",
+    "lastSeenTweetId": "2049970393625346131",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2049970393625346131",
     "pendingReview": {
       "confidence": 0.84,
       "createdAt": 1777584710918,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2049964696166670671"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1777586278991,
+        "inputTokens": 359,
+        "outputTokens": 105,
+        "rationale": "This reply does not mention rate limits, caps, or a reset.",
+        "reasoningTokens": 63,
+        "totalTokens": 464,
+        "tweetId": "2049970393625346131",
+        "tweetText": "@Eimen_Nur Any sub",
+        "tweetUrl": "https://x.com/thsottiaux/status/2049970393625346131",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.93,
         "evaluatedAt": 1777585991809,
@@ -279,29 +292,31 @@
         "tweetText": "@Xbotter Fancy, I like it",
         "tweetUrl": "https://x.com/thsottiaux/status/2049713229996474530",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1777524859225,
-        "inputTokens": 358,
-        "outputTokens": 116,
-        "rationale": "This reply is just conversational and does not indicate any rate limit reset.",
-        "reasoningTokens": 74,
-        "totalTokens": 474,
-        "tweetId": "2049712989994156173",
-        "tweetText": "@kirso_ On it",
-        "tweetUrl": "https://x.com/thsottiaux/status/2049712989994156173",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 88474,
-      "totalOutputTokens": 25082,
-      "totalReasoningTokens": 13528,
-      "totalTokens": 113556
+      "totalInputTokens": 88833,
+      "totalOutputTokens": 25187,
+      "totalReasoningTokens": 13591,
+      "totalTokens": 114020
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1777586278991,
+      "inputTokens": 359,
+      "message": "",
+      "outputTokens": 105,
+      "rationale": "This reply does not mention rate limits, caps, or a reset.",
+      "reasoningTokens": 63,
+      "totalTokens": 464,
+      "tweetId": "2049970393625346131",
+      "tweetText": "@Eimen_Nur Any sub",
+      "tweetUrl": "https://x.com/thsottiaux/status/2049970393625346131",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.93,
       "createdAt": 1777585991809,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2049363359271919748",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1777441308728,
-      "inputTokens": 400,
-      "message": "",
-      "outputTokens": 91,
-      "rationale": "This post discusses Codex capabilities and future usability changes, not a current limit or rate-limit reset.",
-      "reasoningTokens": 43,
-      "totalTokens": 491,
-      "tweetId": "2049362299392241784",
-      "tweetText": "With some small tweaks, Codex can work for days on hard tasks. We will release some changes to make this easier to use for everyone. \n\nWhat’s the hardest task you’ve seen GPT-5.5 succeed at?",
-      "tweetUrl": "https://x.com/thsottiaux/status/2049362299392241784",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "7HvTDCaHsPn6O2B-GXTscQTouCjVYJi2rzz75BH8Me3iDlwapnjphhC36w",
-    "iv": "F997Z5pwXG0FLOyf",
-    "tag": "Jgv8RYNi737XSaKQuCrpfw",
+    "ciphertext": "CA1-MRaQy5m-e7fHDzqPneqqRoOncaRN_jeRZlynJrtL7RB4ZkIHAIY6vQ",
+    "iv": "9M-nN51jIOP8nSGM",
+    "tag": "WB7fpn--dOGTGdSLf_BHzA",
     "version": 1
   }
 }
