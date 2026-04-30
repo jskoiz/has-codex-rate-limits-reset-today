@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1777519575869,
-      "rationale": "This reply and quoted post discuss team culture and do not mention limits or availability resetting.",
-      "tweetId": "2049691101528051954",
-      "tweetUrl": "https://x.com/thsottiaux/status/2049691101528051954",
+      "decidedAt": 1777519579174,
+      "rationale": "This reply/quote only links to a blog post and does not mention limits, caps, or availability resetting.",
+      "tweetId": "2049691180406063303",
+      "tweetUrl": "https://x.com/thsottiaux/status/2049691180406063303",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2049691101528051954",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2049691101528051954",
+    "lastSeenTweetId": "2049691180406063303",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2049691180406063303",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1777519579174,
+        "inputTokens": 421,
+        "outputTokens": 99,
+        "rationale": "This reply/quote only links to a blog post and does not mention limits, caps, or availability resetting.",
+        "reasoningTokens": 49,
+        "totalTokens": 520,
+        "tweetId": "2049691180406063303",
+        "tweetText": "https://t.co/pMHWS3Ds5Y",
+        "tweetUrl": "https://x.com/thsottiaux/status/2049691180406063303",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1777519575869,
@@ -272,29 +285,31 @@
         "tweetText": "@amritwt We do have excellent programmers on the team",
         "tweetUrl": "https://x.com/thsottiaux/status/2049021351663399151",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1777403745926,
-        "inputTokens": 455,
-        "outputTokens": 100,
-        "rationale": "The tweet explicitly says the Codex usage limit reset has happened now.",
-        "reasoningTokens": 57,
-        "totalTokens": 555,
-        "tweetId": "2049009422794408285",
-        "tweetText": "@jxnlco is having too much fun lately with a Codex skill he's been cooking up to create these motion design videos. He's got it almost down to have these generated from one single prompt.\n\nAnyway, enjoy the Codex usage limit reset.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2049009422794408285",
-        "verdict": "reset_confirmed"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 79276,
-      "totalOutputTokens": 22489,
-      "totalReasoningTokens": 12036,
-      "totalTokens": 101765
+      "totalInputTokens": 79697,
+      "totalOutputTokens": 22588,
+      "totalReasoningTokens": 12085,
+      "totalTokens": 102285
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1777519579174,
+      "inputTokens": 421,
+      "message": "",
+      "outputTokens": 99,
+      "rationale": "This reply/quote only links to a blog post and does not mention limits, caps, or availability resetting.",
+      "reasoningTokens": 49,
+      "totalTokens": 520,
+      "tweetId": "2049691180406063303",
+      "tweetText": "https://t.co/pMHWS3Ds5Y",
+      "tweetUrl": "https://x.com/thsottiaux/status/2049691180406063303",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1777519575869,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2047544082088771641",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1777002443048,
-      "inputTokens": 371,
-      "message": "",
-      "outputTokens": 66,
-      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-      "reasoningTokens": 22,
-      "totalTokens": 437,
-      "tweetId": "2047509017745097191",
-      "tweetText": "@ajambrosino That is a bold bet Andrew, let’s see how it plays out",
-      "tweetUrl": "https://x.com/thsottiaux/status/2047509017745097191",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "2MsCM-_a21z9DmhI9vfcTLHFRkNQjqSNN1yG66f9k9HToC0I6d1ofrPaxA",
-    "iv": "rsQWSyU6quLHuZK9",
-    "tag": "yklD1ekpbtM3LhvqEfbuqA",
+    "ciphertext": "d9DFUHVgQJYsTctry_6FaPPW5pX06_Vbi4SHFHLFlbPZKOpYsjCu4cPoFQ",
+    "iv": "qXSd59idvNlHf-cL",
+    "tag": "wrGz49WA4DdWKTd3lFvscw",
     "version": 1
   }
 }
