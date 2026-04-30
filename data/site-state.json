@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1777527623398,
-      "rationale": "This reply is about a git tree and says nothing about limits or resets.",
-      "tweetId": "2049725134169387140",
-      "tweetUrl": "https://x.com/thsottiaux/status/2049725134169387140",
+      "decidedAt": 1777549301083,
+      "rationale": "This reply is just a greeting and gives no indication that any Codex or ChatGPT limits reset.",
+      "tweetId": "2049816157780316286",
+      "tweetUrl": "https://x.com/thsottiaux/status/2049816157780316286",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2049725134169387140",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2049725134169387140",
+    "lastSeenTweetId": "2049816157780316286",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2049816157780316286",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1777549301083,
+        "inputTokens": 359,
+        "outputTokens": 74,
+        "rationale": "This reply is just a greeting and gives no indication that any Codex or ChatGPT limits reset.",
+        "reasoningTokens": 26,
+        "totalTokens": 433,
+        "tweetId": "2049816157780316286",
+        "tweetText": "@jordymaui Hello Jordy",
+        "tweetUrl": "https://x.com/thsottiaux/status/2049816157780316286",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1777527623398,
@@ -272,29 +285,31 @@
         "tweetText": "@andrew_n_carr I humbly request this too",
         "tweetUrl": "https://x.com/thsottiaux/status/2049645639022305362",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1777485106811,
-        "inputTokens": 359,
-        "outputTokens": 77,
-        "rationale": "This reply just says “Oops” and does not indicate any rate limit reset.",
-        "reasoningTokens": 33,
-        "totalTokens": 436,
-        "tweetId": "2049546294843375820",
-        "tweetText": "@ajambrosino Oops",
-        "tweetUrl": "https://x.com/thsottiaux/status/2049546294843375820",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 83379,
-      "totalOutputTokens": 23400,
-      "totalReasoningTokens": 12445,
-      "totalTokens": 106779
+      "totalInputTokens": 83738,
+      "totalOutputTokens": 23474,
+      "totalReasoningTokens": 12471,
+      "totalTokens": 107212
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1777549301083,
+      "inputTokens": 359,
+      "message": "",
+      "outputTokens": 74,
+      "rationale": "This reply is just a greeting and gives no indication that any Codex or ChatGPT limits reset.",
+      "reasoningTokens": 26,
+      "totalTokens": 433,
+      "tweetId": "2049816157780316286",
+      "tweetText": "@jordymaui Hello Jordy",
+      "tweetUrl": "https://x.com/thsottiaux/status/2049816157780316286",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1777527623398,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2048959909320962232",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1777402189583,
-      "inputTokens": 371,
-      "message": "",
-      "outputTokens": 97,
-      "rationale": "This is a general product update and does not mention limits, caps, or availability resetting.",
-      "reasoningTokens": 51,
-      "totalTokens": 468,
-      "tweetId": "2048958572562710550",
-      "tweetText": "We will ship again this week. Codex has achieved escape velocity and will keep improving rapidly.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2048958572562710550",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "EYwFqNAGt3ECQCiUkohSTrgbvIez7Za1ixQBtFOLBjc6hLIxtAMceAEf9g",
-    "iv": "NLzoBI7dSyv0b7TB",
-    "tag": "OuylzTtpspUG066fsuREeg",
+    "ciphertext": "DRNT8wAchXFSpKdbMzVujBDRtjjnU4CPFVMdIGtMn_xOZfl75X7OVlcXqA",
+    "iv": "1zfFx78_hp6ZfOtA",
+    "tag": "V0SNKEK44eVcRwOXb1fBPA",
     "version": 1
   }
 }
