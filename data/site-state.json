@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1777519572136,
-      "rationale": "This is a blog promotion and does not mention limits, caps, or a reset.",
-      "tweetId": "2049690702452527311",
-      "tweetUrl": "https://x.com/thsottiaux/status/2049690702452527311",
+      "decidedAt": 1777519575869,
+      "rationale": "This reply and quoted post discuss team culture and do not mention limits or availability resetting.",
+      "tweetId": "2049691101528051954",
+      "tweetUrl": "https://x.com/thsottiaux/status/2049691101528051954",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2049690702452527311",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2049690702452527311",
+    "lastSeenTweetId": "2049691101528051954",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2049691101528051954",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1777519575869,
+        "inputTokens": 458,
+        "outputTokens": 111,
+        "rationale": "This reply and quoted post discuss team culture and do not mention limits or availability resetting.",
+        "reasoningTokens": 66,
+        "totalTokens": 569,
+        "tweetId": "2049691101528051954",
+        "tweetText": "The team had so much fun writing this and a really good read too!\n\nhttps://t.co/BDk7wBakTj",
+        "tweetUrl": "https://x.com/thsottiaux/status/2049691101528051954",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1777519572136,
@@ -272,29 +285,31 @@
         "tweetText": "@jxnlco is having too much fun lately with a Codex skill he's been cooking up to create these motion design videos. He's got it almost down to have these generated from one single prompt.\n\nAnyway, enjoy the Codex usage limit reset.",
         "tweetUrl": "https://x.com/thsottiaux/status/2049009422794408285",
         "verdict": "reset_confirmed"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1777403740228,
-        "inputTokens": 392,
-        "outputTokens": 71,
-        "rationale": "This reply discusses implementation and billing behavior, not limits resetting or becoming available again.",
-        "reasoningTokens": 27,
-        "totalTokens": 463,
-        "tweetId": "2049006463368982933",
-        "tweetText": "@GergelyOrosz I would be surprised if this were in the client-side harness. This ought to be a back-end feature that triggers a different billing path depending on what enters the context.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2049006463368982933",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 78818,
-      "totalOutputTokens": 22378,
-      "totalReasoningTokens": 11970,
-      "totalTokens": 101196
+      "totalInputTokens": 79276,
+      "totalOutputTokens": 22489,
+      "totalReasoningTokens": 12036,
+      "totalTokens": 101765
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1777519575869,
+      "inputTokens": 458,
+      "message": "",
+      "outputTokens": 111,
+      "rationale": "This reply and quoted post discuss team culture and do not mention limits or availability resetting.",
+      "reasoningTokens": 66,
+      "totalTokens": 569,
+      "tweetId": "2049691101528051954",
+      "tweetText": "The team had so much fun writing this and a really good read too!\n\nhttps://t.co/BDk7wBakTj",
+      "tweetUrl": "https://x.com/thsottiaux/status/2049691101528051954",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1777519572136,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2047509017745097191",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1777002439887,
-      "inputTokens": 364,
-      "message": "",
-      "outputTokens": 76,
-      "rationale": "This reply is just a suggestion and does not mention limits, caps, or usage resetting.",
-      "reasoningTokens": 30,
-      "totalTokens": 440,
-      "tweetId": "2047472292566090200",
-      "tweetText": "@badlogicgames May I suggest GPT-5.5",
-      "tweetUrl": "https://x.com/thsottiaux/status/2047472292566090200",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "eTgSI4ZjjjUoW2nvIe_KMhVnqpF6PkFXKvsvi_D2bCOr-opyyU6pCDRVAA",
-    "iv": "BJcGSnCJxoMOPmag",
-    "tag": "5dWzC_QEAjeTzHrFBnn-9A",
+    "ciphertext": "2MsCM-_a21z9DmhI9vfcTLHFRkNQjqSNN1yG66f9k9HToC0I6d1ofrPaxA",
+    "iv": "rsQWSyU6quLHuZK9",
+    "tag": "yklD1ekpbtM3LhvqEfbuqA",
     "version": 1
   }
 }
