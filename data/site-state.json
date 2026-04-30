@@ -14,16 +14,16 @@
   "updatedAt": 1777403745925,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1777585018023,
-      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-      "tweetId": "2049964866941952056",
-      "tweetUrl": "https://x.com/thsottiaux/status/2049964866941952056",
+      "confidence": 0.93,
+      "decidedAt": 1777585991809,
+      "rationale": "This promotes Codex CLI and GPT-5.5 capabilities, not that rate limits or usage caps have reset.",
+      "tweetId": "2049970070873629026",
+      "tweetUrl": "https://x.com/thsottiaux/status/2049970070873629026",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2049964866941952056",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2049964866941952056",
+    "lastSeenTweetId": "2049970070873629026",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2049970070873629026",
     "pendingReview": {
       "confidence": 0.84,
       "createdAt": 1777584710918,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2049964696166670671"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.93,
+        "evaluatedAt": 1777585991809,
+        "inputTokens": 506,
+        "outputTokens": 205,
+        "rationale": "This promotes Codex CLI and GPT-5.5 capabilities, not that rate limits or usage caps have reset.",
+        "reasoningTokens": 154,
+        "totalTokens": 711,
+        "tweetId": "2049970070873629026",
+        "tweetText": "You can now keep codex going for days. \n\nWith GPT-5.5 it will build an entire OS kernel for you if you ask, or find critical bugs in a codebase, or optimize your database schemas, or… the options are endless.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2049970070873629026",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1777585018023,
@@ -279,29 +292,31 @@
         "tweetText": "@kirso_ On it",
         "tweetUrl": "https://x.com/thsottiaux/status/2049712989994156173",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1777524543774,
-        "inputTokens": 364,
-        "outputTokens": 75,
-        "rationale": "This reply is just conversational and does not mention limits, caps, or a reset.",
-        "reasoningTokens": 30,
-        "totalTokens": 439,
-        "tweetId": "2049711950515638313",
-        "tweetText": "@dharmvir_ Codex has been nice to me",
-        "tweetUrl": "https://x.com/thsottiaux/status/2049711950515638313",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 87968,
-      "totalOutputTokens": 24877,
-      "totalReasoningTokens": 13374,
-      "totalTokens": 112845
+      "totalInputTokens": 88474,
+      "totalOutputTokens": 25082,
+      "totalReasoningTokens": 13528,
+      "totalTokens": 113556
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.93,
+      "createdAt": 1777585991809,
+      "inputTokens": 506,
+      "message": "",
+      "outputTokens": 205,
+      "rationale": "This promotes Codex CLI and GPT-5.5 capabilities, not that rate limits or usage caps have reset.",
+      "reasoningTokens": 154,
+      "totalTokens": 711,
+      "tweetId": "2049970070873629026",
+      "tweetText": "You can now keep codex going for days. \n\nWith GPT-5.5 it will build an entire OS kernel for you if you ask, or find critical bugs in a codebase, or optimize your database schemas, or… the options are endless.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2049970070873629026",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1777585018023,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2049362299392241784",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1777441006285,
-      "inputTokens": 391,
-      "message": "",
-      "outputTokens": 75,
-      "rationale": "This reply is unrelated to any Codex or ChatGPT usage limit reset.",
-      "reasoningTokens": 32,
-      "totalTokens": 466,
-      "tweetId": "2049360992497451279",
-      "tweetText": "@b_nnett Not affiliated with Codex. But we do love OSS and congrats. Keep it up and let me know when you hit 1k users and will send you something special!",
-      "tweetUrl": "https://x.com/thsottiaux/status/2049360992497451279",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "n-i_WE3dj-9AFosAqyVAXuHGIlRkfNBvXvSUlwwyhWI5LUrb7TFC2ywOTw",
-    "iv": "fbl9deNh1Mg9ZUBO",
-    "tag": "5iIVcjqymOZFhZUyOktb_A",
+    "ciphertext": "7HvTDCaHsPn6O2B-GXTscQTouCjVYJi2rzz75BH8Me3iDlwapnjphhC36w",
+    "iv": "F997Z5pwXG0FLOyf",
+    "tag": "Jgv8RYNi737XSaKQuCrpfw",
     "version": 1
   }
 }
