@@ -14,18 +14,31 @@
   "updatedAt": 1777403745925,
   "automation": {
     "lastDecision": {
-      "confidence": 0.98,
-      "decidedAt": 1777508718650,
-      "rationale": "This reply is just a conversational request and does not indicate any limit or cap has reset.",
-      "tweetId": "2049645639022305362",
-      "tweetUrl": "https://x.com/thsottiaux/status/2049645639022305362",
+      "confidence": 0.99,
+      "decidedAt": 1777518019484,
+      "rationale": "This post is a general comment about OpenAI culture and says nothing about limits or resets.",
+      "tweetId": "2049684345766744401",
+      "tweetUrl": "https://x.com/thsottiaux/status/2049684345766744401",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2049645639022305362",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2049645639022305362",
+    "lastSeenTweetId": "2049684345766744401",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2049684345766744401",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1777518019484,
+        "inputTokens": 397,
+        "outputTokens": 72,
+        "rationale": "This post is a general comment about OpenAI culture and says nothing about limits or resets.",
+        "reasoningTokens": 26,
+        "totalTokens": 469,
+        "tweetId": "2049684345766744401",
+        "tweetText": "A lot about OpenAI can be understood by realizing that a lot of us believe that we can at the same time deeply care, do the best work of our lives AND have fun too. No goblins to see here.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2049684345766744401",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.98,
         "evaluatedAt": 1777508718650,
@@ -272,29 +285,31 @@
         "tweetText": "Don't just reset Codex rate limits for fun, it costs money.\nDon't just reset Codex rate limits for fun, it costs money.\n\n... but the vibes are good ...\n\nI have reset Codex rate limits for ALL paid plans to celebrate a good week and allow everyone to build more with GPT-5.5. Enjoy",
         "tweetUrl": "https://x.com/thsottiaux/status/2048997818673537399",
         "verdict": "reset_confirmed"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1777402196942,
-        "inputTokens": 400,
-        "outputTokens": 95,
-        "rationale": "This is an in-joke about behavior or prompting and does not mention limits or a reset.",
-        "reasoningTokens": 48,
-        "totalTokens": 495,
-        "tweetId": "2048995797845369208",
-        "tweetText": "Never talk about goblins, gremlins, raccoons, trolls, ogres, pigeons, or other animals or creatures unless it is absolutely and unambiguously relevant to the user's query.\n\nIYKYK",
-        "tweetUrl": "https://x.com/thsottiaux/status/2048995797845369208",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 76596,
-      "totalOutputTokens": 21907,
-      "totalReasoningTokens": 11760,
-      "totalTokens": 98503
+      "totalInputTokens": 76993,
+      "totalOutputTokens": 21979,
+      "totalReasoningTokens": 11786,
+      "totalTokens": 98972
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1777518019485,
+      "inputTokens": 397,
+      "message": "",
+      "outputTokens": 72,
+      "rationale": "This post is a general comment about OpenAI culture and says nothing about limits or resets.",
+      "reasoningTokens": 26,
+      "totalTokens": 469,
+      "tweetId": "2049684345766744401",
+      "tweetText": "A lot about OpenAI can be understood by realizing that a lot of us believe that we can at the same time deeply care, do the best work of our lives AND have fun too. No goblins to see here.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2049684345766744401",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.98,
       "createdAt": 1777508718650,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2047439522762477902",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1776985940619,
-      "inputTokens": 380,
-      "message": "",
-      "outputTokens": 101,
-      "rationale": "This reply promotes trying something and does not mention limits, caps, or a reset.",
-      "reasoningTokens": 56,
-      "totalTokens": 481,
-      "tweetId": "2047438852445618645",
-      "tweetText": "@sandislonjsak I also worked 12 hours to bring it to you. It won't prompt itself (yet), go try it!",
-      "tweetUrl": "https://x.com/thsottiaux/status/2047438852445618645",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "7Dhzh46q0R6Rtast7lrHJDsCwmToGAVEL65rlmW9PYY5LMiCX69Mer0FOg",
-    "iv": "jzGh1Qcrrnphv-Pv",
-    "tag": "y9-trWdbbb2ooLPQYqRmZg",
+    "ciphertext": "185Y2TxUndFQEbioewRMrkme6dew8FuzyIGGjuAtQv9xk8bzH3Po6UePkg",
+    "iv": "HQiDHiCfDuQfawf9",
+    "tag": "fJioOqHG_7SUKdzE1T5zyw",
     "version": 1
   }
 }
