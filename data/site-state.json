@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1777577611476,
-      "rationale": "This is a promotional availability post about Codex, not a statement that usage caps or rate limits have reset.",
-      "tweetId": "2049933460756979719",
-      "tweetUrl": "https://x.com/thsottiaux/status/2049933460756979719",
+      "decidedAt": 1777583190656,
+      "rationale": "This reply is a joke about installing Codex and does not mention limits or a reset.",
+      "tweetId": "2049958413535441283",
+      "tweetUrl": "https://x.com/thsottiaux/status/2049958413535441283",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2049933460756979719",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2049933460756979719",
+    "lastSeenTweetId": "2049958413535441283",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2049958413535441283",
     "pendingReview": {
       "confidence": 0.12,
       "createdAt": 1777577302814,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2049933072028807374"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1777583190656,
+        "inputTokens": 376,
+        "outputTokens": 83,
+        "rationale": "This reply is a joke about installing Codex and does not mention limits or a reset.",
+        "reasoningTokens": 37,
+        "totalTokens": 459,
+        "tweetId": "2049958413535441283",
+        "tweetText": "@sachintwtss 1) Ask it to install Codex\n2) ???\n3) Profit",
+        "tweetUrl": "https://x.com/thsottiaux/status/2049958413535441283",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1777577611476,
@@ -279,29 +292,31 @@
         "tweetText": "The team had so much fun writing this and a really good read too!\n\nhttps://t.co/BDk7wBakTj",
         "tweetUrl": "https://x.com/thsottiaux/status/2049691101528051954",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1777519572136,
-        "inputTokens": 378,
-        "outputTokens": 75,
-        "rationale": "This is a blog promotion and does not mention limits, caps, or a reset.",
-        "reasoningTokens": 30,
-        "totalTokens": 453,
-        "tweetId": "2049690702452527311",
-        "tweetText": "Never talk about goblins. Our latest blog is live.\n\nhttps://t.co/r39VCx7TYZ",
-        "tweetUrl": "https://x.com/thsottiaux/status/2049690702452527311",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 86134,
-      "totalOutputTokens": 24189,
-      "totalReasoningTokens": 12915,
-      "totalTokens": 110323
+      "totalInputTokens": 86510,
+      "totalOutputTokens": 24272,
+      "totalReasoningTokens": 12952,
+      "totalTokens": 110782
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1777583190656,
+      "inputTokens": 376,
+      "message": "",
+      "outputTokens": 83,
+      "rationale": "This reply is a joke about installing Codex and does not mention limits or a reset.",
+      "reasoningTokens": 37,
+      "totalTokens": 459,
+      "tweetId": "2049958413535441283",
+      "tweetText": "@sachintwtss 1) Ask it to install Codex\n2) ???\n3) Profit",
+      "tweetUrl": "https://x.com/thsottiaux/status/2049958413535441283",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1777577611476,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2049006463368982933",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1777403736890,
-      "inputTokens": 365,
-      "message": "",
-      "outputTokens": 91,
-      "rationale": "This reply discusses verification of a story and does not mention limits, caps, or availability resetting.",
-      "reasoningTokens": 44,
-      "totalTokens": 456,
-      "tweetId": "2049004429102231845",
-      "tweetText": "@argofowl @sama Sam verified the story. Done.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2049004429102231845",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "nS14LGcOOHQfWZIl_IRr8jlNEOkrgw-Mdrd0utlX51qNgxp3QX7z4PuCYg",
-    "iv": "qy3BFQKlbEbU4989",
-    "tag": "oteGlhspxTjUSMo5-UIRHA",
+    "ciphertext": "oiXrdd3sVFAAU9Zn5V6q4Wn-B-0TJa1mY69Lq-xetaOGl9mY7dGGriQpZg",
+    "iv": "xwwWp96fhedl1mzD",
+    "tag": "aQnDKLn4vIs7UxkshoMlTQ",
     "version": 1
   }
 }
