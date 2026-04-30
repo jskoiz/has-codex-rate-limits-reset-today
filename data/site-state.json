@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1777583190656,
-      "rationale": "This reply is a joke about installing Codex and does not mention limits or a reset.",
-      "tweetId": "2049958413535441283",
-      "tweetUrl": "https://x.com/thsottiaux/status/2049958413535441283",
+      "decidedAt": 1777584402653,
+      "rationale": "This reply is just commentary about Codex popularity, not a rate-limit reset.",
+      "tweetId": "2049963292089778530",
+      "tweetUrl": "https://x.com/thsottiaux/status/2049963292089778530",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2049958413535441283",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2049958413535441283",
+    "lastSeenTweetId": "2049963292089778530",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2049963292089778530",
     "pendingReview": {
       "confidence": 0.12,
       "createdAt": 1777577302814,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2049933072028807374"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1777584402653,
+        "inputTokens": 364,
+        "outputTokens": 98,
+        "rationale": "This reply is just commentary about Codex popularity, not a rate-limit reset.",
+        "reasoningTokens": 54,
+        "totalTokens": 462,
+        "tweetId": "2049963292089778530",
+        "tweetText": "@MTSlive BREAKING: Codex is now mainstream.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2049963292089778530",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1777583190656,
@@ -279,29 +292,31 @@
         "tweetText": "https://t.co/pMHWS3Ds5Y",
         "tweetUrl": "https://x.com/thsottiaux/status/2049691180406063303",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1777519575869,
-        "inputTokens": 458,
-        "outputTokens": 111,
-        "rationale": "This reply and quoted post discuss team culture and do not mention limits or availability resetting.",
-        "reasoningTokens": 66,
-        "totalTokens": 569,
-        "tweetId": "2049691101528051954",
-        "tweetText": "The team had so much fun writing this and a really good read too!\n\nhttps://t.co/BDk7wBakTj",
-        "tweetUrl": "https://x.com/thsottiaux/status/2049691101528051954",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 86510,
-      "totalOutputTokens": 24272,
-      "totalReasoningTokens": 12952,
-      "totalTokens": 110782
+      "totalInputTokens": 86874,
+      "totalOutputTokens": 24370,
+      "totalReasoningTokens": 13006,
+      "totalTokens": 111244
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1777584402653,
+      "inputTokens": 364,
+      "message": "",
+      "outputTokens": 98,
+      "rationale": "This reply is just commentary about Codex popularity, not a rate-limit reset.",
+      "reasoningTokens": 54,
+      "totalTokens": 462,
+      "tweetId": "2049963292089778530",
+      "tweetText": "@MTSlive BREAKING: Codex is now mainstream.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2049963292089778530",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1777583190656,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2049009422794408285",
       "type": "reset_confirmed",
       "verdict": "reset_confirmed"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1777403740228,
-      "inputTokens": 392,
-      "message": "",
-      "outputTokens": 71,
-      "rationale": "This reply discusses implementation and billing behavior, not limits resetting or becoming available again.",
-      "reasoningTokens": 27,
-      "totalTokens": 463,
-      "tweetId": "2049006463368982933",
-      "tweetText": "@GergelyOrosz I would be surprised if this were in the client-side harness. This ought to be a back-end feature that triggers a different billing path depending on what enters the context.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2049006463368982933",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "oiXrdd3sVFAAU9Zn5V6q4Wn-B-0TJa1mY69Lq-xetaOGl9mY7dGGriQpZg",
-    "iv": "xwwWp96fhedl1mzD",
-    "tag": "aQnDKLn4vIs7UxkshoMlTQ",
+    "ciphertext": "f5o68FpuWfHNGxb1yGIMjFXkSlulozZmRULTm5Bqz9oEKMFB-GFfor0HTQ",
+    "iv": "wurPdmg-nRt5tjy0",
+    "tag": "bUK0O5uo7KVfSrl-8jHs9Q",
     "version": 1
   }
 }
