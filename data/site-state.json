@@ -14,16 +14,16 @@
   "updatedAt": 1777403745925,
   "automation": {
     "lastDecision": {
-      "confidence": 0.75,
-      "decidedAt": 1777674987908,
-      "rationale": "A brief reply saying \"Still early\" does not clearly indicate that any limit or cap has reset.",
-      "tweetId": "2050342995560722705",
-      "tweetUrl": "https://x.com/thsottiaux/status/2050342995560722705",
+      "confidence": 0.99,
+      "decidedAt": 1777674991328,
+      "rationale": "This reply is promotional/conversational and says nothing about limits or a reset.",
+      "tweetId": "2050343485925126572",
+      "tweetUrl": "https://x.com/thsottiaux/status/2050343485925126572",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2050342995560722705",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2050342995560722705",
+    "lastSeenTweetId": "2050343485925126572",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2050343485925126572",
     "pendingReview": {
       "confidence": 0.94,
       "createdAt": 1777668724912,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2050316372601983153"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1777674991328,
+        "inputTokens": 369,
+        "outputTokens": 97,
+        "rationale": "This reply is promotional/conversational and says nothing about limits or a reset.",
+        "reasoningTokens": 53,
+        "totalTokens": 466,
+        "tweetId": "2050343485925126572",
+        "tweetText": "@KevinNaughtonJr Install codex and get your destiny back on track",
+        "tweetUrl": "https://x.com/thsottiaux/status/2050343485925126572",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.75,
         "evaluatedAt": 1777674987908,
@@ -279,29 +292,31 @@
         "tweetText": "@rahulkemail You can create your own",
         "tweetUrl": "https://x.com/thsottiaux/status/2050285395364241670",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1777661245645,
-        "inputTokens": 374,
-        "outputTokens": 89,
-        "rationale": "This reply discusses feature availability, not limits or a reset of usage caps.",
-        "reasoningTokens": 46,
-        "totalTokens": 463,
-        "tweetId": "2050285339114459600",
-        "tweetText": "@vikascoolkarnir @sama Currently available in the Codex CLI. Coming to the app soon.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2050285339114459600",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 106442,
-      "totalOutputTokens": 29899,
-      "totalReasoningTokens": 16176,
-      "totalTokens": 136341
+      "totalInputTokens": 106811,
+      "totalOutputTokens": 29996,
+      "totalReasoningTokens": 16229,
+      "totalTokens": 136807
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1777674991328,
+      "inputTokens": 369,
+      "message": "",
+      "outputTokens": 97,
+      "rationale": "This reply is promotional/conversational and says nothing about limits or a reset.",
+      "reasoningTokens": 53,
+      "totalTokens": 466,
+      "tweetId": "2050343485925126572",
+      "tweetText": "@KevinNaughtonJr Install codex and get your destiny back on track",
+      "tweetUrl": "https://x.com/thsottiaux/status/2050343485925126572",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.75,
       "createdAt": 1777674987908,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2050055006603391057",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1777604541241,
-      "inputTokens": 359,
-      "message": "",
-      "outputTokens": 81,
-      "rationale": "This reply is just conversational and does not mention limits, caps, or reset status.",
-      "reasoningTokens": 36,
-      "totalTokens": 440,
-      "tweetId": "2050047802202567109",
-      "tweetText": "@Skeegan123 New thing?",
-      "tweetUrl": "https://x.com/thsottiaux/status/2050047802202567109",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "B6fPo20YlRA-gF3VLcJ1Bizz5APi7O2QlvXf0gXqOreUtGTC3QYnfI41-Q",
-    "iv": "IYa8ac832Yd2-hZa",
-    "tag": "a_BvGRuqYgrp_NTp4tQhYA",
+    "ciphertext": "QfMPTj3MRklp_6Ragl1LL11aOXm8gAZpnx3sHoBNO10z2ETYhAFKaxFVQQ",
+    "iv": "UqkljGNXVXy4XxQT",
+    "tag": "nntJ8kbxgq3xE8V7bhvHxA",
     "version": 1
   }
 }
