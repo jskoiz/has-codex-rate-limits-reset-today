@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1777604537014,
-      "rationale": "This is a conversational joke about Codex, not about limits or usage becoming available again.",
-      "tweetId": "2050046834002002261",
-      "tweetUrl": "https://x.com/thsottiaux/status/2050046834002002261",
+      "decidedAt": 1777604541241,
+      "rationale": "This reply is just conversational and does not mention limits, caps, or reset status.",
+      "tweetId": "2050047802202567109",
+      "tweetUrl": "https://x.com/thsottiaux/status/2050047802202567109",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2050046834002002261",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2050046834002002261",
+    "lastSeenTweetId": "2050047802202567109",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2050047802202567109",
     "pendingReview": {
       "confidence": 0.84,
       "createdAt": 1777584710918,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2049964696166670671"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1777604541241,
+        "inputTokens": 359,
+        "outputTokens": 81,
+        "rationale": "This reply is just conversational and does not mention limits, caps, or reset status.",
+        "reasoningTokens": 36,
+        "totalTokens": 440,
+        "tweetId": "2050047802202567109",
+        "tweetText": "@Skeegan123 New thing?",
+        "tweetUrl": "https://x.com/thsottiaux/status/2050047802202567109",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1777604537014,
@@ -279,29 +292,31 @@
         "tweetText": "Feeling codexy today",
         "tweetUrl": "https://x.com/thsottiaux/status/2049880535577854338",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.96,
-        "evaluatedAt": 1777549614105,
-        "inputTokens": 363,
-        "outputTokens": 198,
-        "rationale": "This reply is too vague and does not say any limit or cap has reset or been lifted.",
-        "reasoningTokens": 151,
-        "totalTokens": 561,
-        "tweetId": "2049816877170589774",
-        "tweetText": "@bendee983 Prepare yourself for a world of abundance",
-        "tweetUrl": "https://x.com/thsottiaux/status/2049816877170589774",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 91793,
-      "totalOutputTokens": 25942,
-      "totalReasoningTokens": 13985,
-      "totalTokens": 117735
+      "totalInputTokens": 92152,
+      "totalOutputTokens": 26023,
+      "totalReasoningTokens": 14021,
+      "totalTokens": 118175
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1777604541241,
+      "inputTokens": 359,
+      "message": "",
+      "outputTokens": 81,
+      "rationale": "This reply is just conversational and does not mention limits, caps, or reset status.",
+      "reasoningTokens": 36,
+      "totalTokens": 440,
+      "tweetId": "2050047802202567109",
+      "tweetText": "@Skeegan123 New thing?",
+      "tweetUrl": "https://x.com/thsottiaux/status/2050047802202567109",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1777604537014,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2049686611651379587",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1777518019485,
-      "inputTokens": 397,
-      "message": "",
-      "outputTokens": 72,
-      "rationale": "This post is a general comment about OpenAI culture and says nothing about limits or resets.",
-      "reasoningTokens": 26,
-      "totalTokens": 469,
-      "tweetId": "2049684345766744401",
-      "tweetText": "A lot about OpenAI can be understood by realizing that a lot of us believe that we can at the same time deeply care, do the best work of our lives AND have fun too. No goblins to see here.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2049684345766744401",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "_gik6Dor-d1w97chTfdrZjwMw1RtZoE15SxQwd2l7bYU2ubfpF_wjBCkKg",
-    "iv": "Ee_FbbsFID0V3aht",
-    "tag": "9_yRJfAZCjmR2SEhVxULtQ",
+    "ciphertext": "L-_9eK9YbWRXnoECrj_pvTtfF97-6BuZhOY9fQwXbuPBW1ZXZ_NYqK385w",
+    "iv": "GW9NOfIgtj6eVEa6",
+    "tag": "YW7KYNRTU3IJq-7OuDtzDQ",
     "version": 1
   }
 }
