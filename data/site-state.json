@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1777655963435,
-      "rationale": "This is just a playful comment and does not mention limits, caps, or a reset.",
-      "tweetId": "2050262559023071622",
-      "tweetUrl": "https://x.com/thsottiaux/status/2050262559023071622",
+      "decidedAt": 1777660010729,
+      "rationale": "This post is about a Codex pet feature, not rate limits or caps resetting.",
+      "tweetId": "2050280111820406795",
+      "tweetUrl": "https://x.com/thsottiaux/status/2050280111820406795",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2050262559023071622",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2050262559023071622",
+    "lastSeenTweetId": "2050280111820406795",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2050280111820406795",
     "pendingReview": {
       "confidence": 0.91,
       "createdAt": 1777610144491,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2050070488249200784"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1777660010729,
+        "inputTokens": 468,
+        "outputTokens": 82,
+        "rationale": "This post is about a Codex pet feature, not rate limits or caps resetting.",
+        "reasoningTokens": 37,
+        "totalTokens": 550,
+        "tweetId": "2050280111820406795",
+        "tweetText": "Hatch a pet now in a codex app near you. It makes me actually more productive too by having the context follow me around as I multitask.\n\nPlease no comments on us having too much fun, we are also working on capability maxing 👀",
+        "tweetUrl": "https://x.com/thsottiaux/status/2050280111820406795",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1777655963435,
@@ -279,29 +292,31 @@
         "tweetText": "@Skeegan123 New thing?",
         "tweetUrl": "https://x.com/thsottiaux/status/2050047802202567109",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1777604537014,
-        "inputTokens": 390,
-        "outputTokens": 69,
-        "rationale": "This is a conversational joke about Codex, not about limits or usage becoming available again.",
-        "reasoningTokens": 23,
-        "totalTokens": 459,
-        "tweetId": "2050046834002002261",
-        "tweetText": "Tell your neighbor they can just codex things. \n\nThen come back and share their reaction with me here. How confused are they on a scale of 1 to 10.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2050046834002002261",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 98666,
-      "totalOutputTokens": 27770,
-      "totalReasoningTokens": 14970,
-      "totalTokens": 126436
+      "totalInputTokens": 99134,
+      "totalOutputTokens": 27852,
+      "totalReasoningTokens": 15007,
+      "totalTokens": 126986
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1777660010729,
+      "inputTokens": 468,
+      "message": "",
+      "outputTokens": 82,
+      "rationale": "This post is about a Codex pet feature, not rate limits or caps resetting.",
+      "reasoningTokens": 37,
+      "totalTokens": 550,
+      "tweetId": "2050280111820406795",
+      "tweetText": "Hatch a pet now in a codex app near you. It makes me actually more productive too by having the context follow me around as I multitask.\n\nPlease no comments on us having too much fun, we are also working on capability maxing 👀",
+      "tweetUrl": "https://x.com/thsottiaux/status/2050280111820406795",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1777655963436,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2049816877170589774",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1777549608744,
-      "inputTokens": 362,
-      "message": "",
-      "outputTokens": 80,
-      "rationale": "This reply does not mention limits, caps, or usage becoming available again.",
-      "reasoningTokens": 37,
-      "totalTokens": 442,
-      "tweetId": "2049816510777172074",
-      "tweetText": "@badlogicgames Where do the tokens flow in?",
-      "tweetUrl": "https://x.com/thsottiaux/status/2049816510777172074",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "iQQEYy_OFfEsQ8wqQ_ztEzX3-gCOzEgCj2358R6KsZ58p7vo9SqCW-QBzQ",
-    "iv": "rzPbtTvxYnNg-kO3",
-    "tag": "G5jadcDf573EU0USCesuKw",
+    "ciphertext": "8W0ZG_2o21bUubypObtSFhJEXi_vIa4RyVcVV_g4R7fpFTv7BunMzfb80w",
+    "iv": "dwJI5p-fy_I8D5q4",
+    "tag": "WPTm8dyFPHenbM3OEPHjAw",
     "version": 1
   }
 }
