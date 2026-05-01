@@ -14,25 +14,38 @@
   "updatedAt": 1777403745925,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1777606416817,
-      "rationale": "This brief reply does not indicate any limit or rate-cap reset.",
-      "tweetId": "2050055542387986740",
-      "tweetUrl": "https://x.com/thsottiaux/status/2050055542387986740",
-      "verdict": "not_reset"
+      "confidence": 0.95,
+      "decidedAt": 1777606420673,
+      "rationale": "This reply is too context-dependent to tell whether any limit has actually reset.",
+      "tweetId": "2050055615997935627",
+      "tweetUrl": "https://x.com/thsottiaux/status/2050055615997935627",
+      "verdict": "uncertain"
     },
     "lastError": null,
-    "lastSeenTweetId": "2050055542387986740",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2050055542387986740",
+    "lastSeenTweetId": "2050055615997935627",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2050055615997935627",
     "pendingReview": {
-      "confidence": 0.84,
-      "createdAt": 1777584710918,
-      "rationale": "This reply is too vague on its own to confirm that any Codex or ChatGPT limits have reset.",
-      "tweetId": "2049964696166670671",
-      "tweetText": "@gakonst I feel it in the charts too",
-      "tweetUrl": "https://x.com/thsottiaux/status/2049964696166670671"
+      "confidence": 0.95,
+      "createdAt": 1777606420673,
+      "rationale": "This reply is too context-dependent to tell whether any limit has actually reset.",
+      "tweetId": "2050055615997935627",
+      "tweetText": "@Junljm Technically… it could",
+      "tweetUrl": "https://x.com/thsottiaux/status/2050055615997935627"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.95,
+        "evaluatedAt": 1777606420673,
+        "inputTokens": 361,
+        "outputTokens": 135,
+        "rationale": "This reply is too context-dependent to tell whether any limit has actually reset.",
+        "reasoningTokens": 92,
+        "totalTokens": 496,
+        "tweetId": "2050055615997935627",
+        "tweetText": "@Junljm Technically… it could",
+        "tweetUrl": "https://x.com/thsottiaux/status/2050055615997935627",
+        "verdict": "uncertain"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1777606416817,
@@ -279,29 +292,31 @@
         "tweetText": "@sachintwtss 1) Ask it to install Codex\n2) ???\n3) Profit",
         "tweetUrl": "https://x.com/thsottiaux/status/2049958413535441283",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1777577611476,
-        "inputTokens": 464,
-        "outputTokens": 98,
-        "rationale": "This is a promotional availability post about Codex, not a statement that usage caps or rate limits have reset.",
-        "reasoningTokens": 48,
-        "totalTokens": 562,
-        "tweetId": "2049933460756979719",
-        "tweetText": "This thing does more than what you think it does. Codex now available for non-coders",
-        "tweetUrl": "https://x.com/thsottiaux/status/2049933460756979719",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 93232,
-      "totalOutputTokens": 26273,
-      "totalReasoningTokens": 14141,
-      "totalTokens": 119505
+      "totalInputTokens": 93593,
+      "totalOutputTokens": 26408,
+      "totalReasoningTokens": 14233,
+      "totalTokens": 120001
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.95,
+      "createdAt": 1777606420673,
+      "inputTokens": 361,
+      "message": "",
+      "outputTokens": 135,
+      "rationale": "This reply is too context-dependent to tell whether any limit has actually reset.",
+      "reasoningTokens": 92,
+      "totalTokens": 496,
+      "tweetId": "2050055615997935627",
+      "tweetText": "@Junljm Technically… it could",
+      "tweetUrl": "https://x.com/thsottiaux/status/2050055615997935627",
+      "type": "review_requested",
+      "verdict": "uncertain"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1777606416818,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2049690702452527311",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1777519273339,
-      "inputTokens": 360,
-      "message": "",
-      "outputTokens": 84,
-      "rationale": "This reply is conversational and gives no indication that any limits or caps have reset.",
-      "reasoningTokens": 40,
-      "totalTokens": 444,
-      "tweetId": "2049690184460153112",
-      "tweetText": "@cheemp_hl I feel seen",
-      "tweetUrl": "https://x.com/thsottiaux/status/2049690184460153112",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "aIRnDGMFZW42YdlY8mKsF7STG32MFUD3zFQ7mwIz1ULqOR-dsGBMwhwlug",
-    "iv": "jVCs2O2Lguz1EZPC",
-    "tag": "aERsMbyl8bKa9tt6BPhhkQ",
+    "ciphertext": "seQiRVbEJZMt6RHWRNN4xo-Wh_W6DoErPzWirb1gTOtVeBZb98-umTmcAQ",
+    "iv": "7hklK1E5ea8wkneP",
+    "tag": "nS8lc7gNCnwCa4D12uwucQ",
     "version": 1
   }
 }
