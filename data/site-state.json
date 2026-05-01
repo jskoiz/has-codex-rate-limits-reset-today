@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1777606718637,
-      "rationale": "This reply is just conversational and does not mention limits or a reset.",
-      "tweetId": "2050055986828952035",
-      "tweetUrl": "https://x.com/thsottiaux/status/2050055986828952035",
+      "decidedAt": 1777606722601,
+      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+      "tweetId": "2050056110577684742",
+      "tweetUrl": "https://x.com/thsottiaux/status/2050056110577684742",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2050055986828952035",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2050055986828952035",
+    "lastSeenTweetId": "2050056110577684742",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2050056110577684742",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1777606420673,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2050055615997935627"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1777606722601,
+        "inputTokens": 362,
+        "outputTokens": 90,
+        "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+        "reasoningTokens": 46,
+        "totalTokens": 452,
+        "tweetId": "2050056110577684742",
+        "tweetText": "@davidlinclark You just saved Nate",
+        "tweetUrl": "https://x.com/thsottiaux/status/2050056110577684742",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1777606718637,
@@ -279,29 +292,31 @@
         "tweetText": "@YashHustle_22 Clodex",
         "tweetUrl": "https://x.com/thsottiaux/status/2049963940978028624",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1777584402653,
-        "inputTokens": 364,
-        "outputTokens": 98,
-        "rationale": "This reply is just commentary about Codex popularity, not a rate-limit reset.",
-        "reasoningTokens": 54,
-        "totalTokens": 462,
-        "tweetId": "2049963292089778530",
-        "tweetText": "@MTSlive BREAKING: Codex is now mainstream.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2049963292089778530",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 93951,
-      "totalOutputTokens": 26475,
-      "totalReasoningTokens": 14258,
-      "totalTokens": 120426
+      "totalInputTokens": 94313,
+      "totalOutputTokens": 26565,
+      "totalReasoningTokens": 14304,
+      "totalTokens": 120878
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1777606722601,
+      "inputTokens": 362,
+      "message": "",
+      "outputTokens": 90,
+      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+      "reasoningTokens": 46,
+      "totalTokens": 452,
+      "tweetId": "2050056110577684742",
+      "tweetText": "@davidlinclark You just saved Nate",
+      "tweetUrl": "https://x.com/thsottiaux/status/2050056110577684742",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1777606718637,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2049691180406063303",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1777519575869,
-      "inputTokens": 458,
-      "message": "",
-      "outputTokens": 111,
-      "rationale": "This reply and quoted post discuss team culture and do not mention limits or availability resetting.",
-      "reasoningTokens": 66,
-      "totalTokens": 569,
-      "tweetId": "2049691101528051954",
-      "tweetText": "The team had so much fun writing this and a really good read too!\n\nhttps://t.co/BDk7wBakTj",
-      "tweetUrl": "https://x.com/thsottiaux/status/2049691101528051954",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "69Z2QvKNfdWk7Q_SVspdYpqHTdnIvUgEd2GR8850ra-vyeO9TVbnFmgvIQ",
-    "iv": "HvgJ6X6iSbX7NJPL",
-    "tag": "2fs5p22ntCDAEIdhLBmc7g",
+    "ciphertext": "p8ReTpuDRXwAsPCAybUC9rKUANm9RRcWMVXdbOtkrZNxC0Pc3ZslyXsNZw",
+    "iv": "3icJWI0U6U73exMq",
+    "tag": "CqJlrlpTdWzQ8NQoRBTy8g",
     "version": 1
   }
 }
