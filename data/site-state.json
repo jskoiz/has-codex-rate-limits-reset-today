@@ -14,16 +14,16 @@
   "updatedAt": 1777403745925,
   "automation": {
     "lastDecision": {
-      "confidence": 0.98,
-      "decidedAt": 1777661881292,
-      "rationale": "This reply is just an emoji reaction and does not indicate any rate limit reset.",
-      "tweetId": "2050288176980439441",
-      "tweetUrl": "https://x.com/thsottiaux/status/2050288176980439441",
+      "confidence": 0.99,
+      "decidedAt": 1777662185898,
+      "rationale": "This reply is just conversational and does not mention limits, caps, or availability resetting.",
+      "tweetId": "2050289252878238122",
+      "tweetUrl": "https://x.com/thsottiaux/status/2050289252878238122",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2050288176980439441",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2050288176980439441",
+    "lastSeenTweetId": "2050289252878238122",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2050289252878238122",
     "pendingReview": {
       "confidence": 0.91,
       "createdAt": 1777610144491,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2050070488249200784"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1777662185898,
+        "inputTokens": 378,
+        "outputTokens": 128,
+        "rationale": "This reply is just conversational and does not mention limits, caps, or availability resetting.",
+        "reasoningTokens": 83,
+        "totalTokens": 506,
+        "tweetId": "2050289252878238122",
+        "tweetText": "@giffmana @unixpickle There must have been at least 10 VPs and 3 SVPs involved in this one",
+        "tweetUrl": "https://x.com/thsottiaux/status/2050289252878238122",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.98,
         "evaluatedAt": 1777661881292,
@@ -279,29 +292,31 @@
         "tweetText": "@davidlinclark You just saved Nate",
         "tweetUrl": "https://x.com/thsottiaux/status/2050056110577684742",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1777606718637,
-        "inputTokens": 358,
-        "outputTokens": 67,
-        "rationale": "This reply is just conversational and does not mention limits or a reset.",
-        "reasoningTokens": 25,
-        "totalTokens": 425,
-        "tweetId": "2050055986828952035",
-        "tweetText": "@SIGKITTEN haha",
-        "tweetUrl": "https://x.com/thsottiaux/status/2050055986828952035",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 100958,
-      "totalOutputTokens": 28361,
-      "totalReasoningTokens": 15302,
-      "totalTokens": 129319
+      "totalInputTokens": 101336,
+      "totalOutputTokens": 28489,
+      "totalReasoningTokens": 15385,
+      "totalTokens": 129825
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1777662185898,
+      "inputTokens": 378,
+      "message": "",
+      "outputTokens": 128,
+      "rationale": "This reply is just conversational and does not mention limits, caps, or availability resetting.",
+      "reasoningTokens": 83,
+      "totalTokens": 506,
+      "tweetId": "2050289252878238122",
+      "tweetText": "@giffmana @unixpickle There must have been at least 10 VPs and 3 SVPs involved in this one",
+      "tweetUrl": "https://x.com/thsottiaux/status/2050289252878238122",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.98,
       "createdAt": 1777661881292,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2049963292089778530",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1777583190656,
-      "inputTokens": 376,
-      "message": "",
-      "outputTokens": 83,
-      "rationale": "This reply is a joke about installing Codex and does not mention limits or a reset.",
-      "reasoningTokens": 37,
-      "totalTokens": 459,
-      "tweetId": "2049958413535441283",
-      "tweetText": "@sachintwtss 1) Ask it to install Codex\n2) ???\n3) Profit",
-      "tweetUrl": "https://x.com/thsottiaux/status/2049958413535441283",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "OQ6Ezo-mG8IIoKeqm98q4btCy92KnBoyVdKwUzJMxkElRQ76y09jUNlmgg",
-    "iv": "WRuGwFI6sEK55olp",
-    "tag": "v4WxLJ-9a0GjL_mVOSqrlQ",
+    "ciphertext": "Qnv9J19146KPz9DEQzKQPC0TJ0L6hNjwrPeDmyVz9PP9FIfuep6vwYR87w",
+    "iv": "h38TiEWAz2oq70Qa",
+    "tag": "un9Guuwm9u6xC7tJT_mQlw",
     "version": 1
   }
 }
