@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1777646338833,
-      "rationale": "This reply is conversational and says nothing about limits, caps, or usage resetting.",
-      "tweetId": "2050222981587341558",
-      "tweetUrl": "https://x.com/thsottiaux/status/2050222981587341558",
+      "decidedAt": 1777646639770,
+      "rationale": "This reply does not mention limits, caps, availability, or any reset.",
+      "tweetId": "2050224016460595397",
+      "tweetUrl": "https://x.com/thsottiaux/status/2050224016460595397",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2050222981587341558",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2050222981587341558",
+    "lastSeenTweetId": "2050224016460595397",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2050224016460595397",
     "pendingReview": {
       "confidence": 0.91,
       "createdAt": 1777610144491,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2050070488249200784"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1777646639770,
+        "inputTokens": 364,
+        "outputTokens": 89,
+        "rationale": "This reply does not mention limits, caps, availability, or any reset.",
+        "reasoningTokens": 46,
+        "totalTokens": 453,
+        "tweetId": "2050224016460595397",
+        "tweetText": "@hadi_hlk Abdul! You’re making this up!",
+        "tweetUrl": "https://x.com/thsottiaux/status/2050224016460595397",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1777646338833,
@@ -279,29 +292,31 @@
         "tweetText": "Dear audience, do you code as your professional career?",
         "tweetUrl": "https://x.com/thsottiaux/status/2050042594932183452",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1777603302889,
-        "inputTokens": 390,
-        "outputTokens": 89,
-        "rationale": "This reply discusses the meaning of “codex” and does not mention limits or a reset.",
-        "reasoningTokens": 42,
-        "totalTokens": 479,
-        "tweetId": "2050042115946876996",
-        "tweetText": "@johnpalmer @skybysoftware Really think you associate codex with code because you are primed to do that and have a bias due to technical background.\n\nLet’s see.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2050042115946876996",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 97580,
-      "totalOutputTokens": 27537,
-      "totalReasoningTokens": 14869,
-      "totalTokens": 125117
+      "totalInputTokens": 97944,
+      "totalOutputTokens": 27626,
+      "totalReasoningTokens": 14915,
+      "totalTokens": 125570
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1777646639770,
+      "inputTokens": 364,
+      "message": "",
+      "outputTokens": 89,
+      "rationale": "This reply does not mention limits, caps, availability, or any reset.",
+      "reasoningTokens": 46,
+      "totalTokens": 453,
+      "tweetId": "2050224016460595397",
+      "tweetText": "@hadi_hlk Abdul! You’re making this up!",
+      "tweetUrl": "https://x.com/thsottiaux/status/2050224016460595397",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1777646338833,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2049725134169387140",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1777527300356,
-      "inputTokens": 369,
-      "message": "",
-      "outputTokens": 79,
-      "rationale": "This reply is a general comment about Codex adoption and does not mention limits resetting.",
-      "reasoningTokens": 34,
-      "totalTokens": 448,
-      "tweetId": "2049723845662404635",
-      "tweetText": "@luke_pighetti Things will get better once everyone starts to use Codex",
-      "tweetUrl": "https://x.com/thsottiaux/status/2049723845662404635",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "iAHm3PxKgPVNldHZL6MISEuKRGvrLQ9XWLeZrzpnwg6uxKXrkZl_cCnxWw",
-    "iv": "bQVLlwt5VVOd3RHA",
-    "tag": "pBUctDPFJ2R8XXg5dnf1DA",
+    "ciphertext": "Zu4jc4V62MDa_CcUDwJhTxEgpZbOadkY7WqAGvysFMcuIBzV9QCAAze5uQ",
+    "iv": "_zRBW5QScHdoSTPv",
+    "tag": "EFTDgxBvYe38_oWgnlsfpQ",
     "version": 1
   }
 }
