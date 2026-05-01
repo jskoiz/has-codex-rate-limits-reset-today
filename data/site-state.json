@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1777607326881,
-      "rationale": "This reply is conversational and does not mention limits, caps, or availability resetting.",
-      "tweetId": "2050058578854351242",
-      "tweetUrl": "https://x.com/thsottiaux/status/2050058578854351242",
+      "decidedAt": 1777607330606,
+      "rationale": "This reply jokes about preparing a Codex release and does not mention limits or availability resetting.",
+      "tweetId": "2050059376338350484",
+      "tweetUrl": "https://x.com/thsottiaux/status/2050059376338350484",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2050058578854351242",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2050058578854351242",
+    "lastSeenTweetId": "2050059376338350484",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2050059376338350484",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1777606420673,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2050055615997935627"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1777607330606,
+        "inputTokens": 378,
+        "outputTokens": 89,
+        "rationale": "This reply jokes about preparing a Codex release and does not mention limits or availability resetting.",
+        "reasoningTokens": 43,
+        "totalTokens": 467,
+        "tweetId": "2050059376338350484",
+        "tweetText": "@flowersslop He stands outside the warroom just like that when we prepare a codex release. It makes it go faster",
+        "tweetUrl": "https://x.com/thsottiaux/status/2050059376338350484",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1777607326881,
@@ -279,29 +292,31 @@
         "tweetText": "@jpschroeder A bit much, but codex loves you back",
         "tweetUrl": "https://x.com/thsottiaux/status/2049964866941952056",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.84,
-        "evaluatedAt": 1777584710918,
-        "inputTokens": 363,
-        "outputTokens": 325,
-        "rationale": "This reply is too vague on its own to confirm that any Codex or ChatGPT limits have reset.",
-        "reasoningTokens": 276,
-        "totalTokens": 688,
-        "tweetId": "2049964696166670671",
-        "tweetText": "@gakonst I feel it in the charts too",
-        "tweetUrl": "https://x.com/thsottiaux/status/2049964696166670671",
-        "verdict": "uncertain"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 94673,
-      "totalOutputTokens": 26669,
-      "totalReasoningTokens": 14364,
-      "totalTokens": 121342
+      "totalInputTokens": 95051,
+      "totalOutputTokens": 26758,
+      "totalReasoningTokens": 14407,
+      "totalTokens": 121809
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1777607330606,
+      "inputTokens": 378,
+      "message": "",
+      "outputTokens": 89,
+      "rationale": "This reply jokes about preparing a Codex release and does not mention limits or availability resetting.",
+      "reasoningTokens": 43,
+      "totalTokens": 467,
+      "tweetId": "2050059376338350484",
+      "tweetText": "@flowersslop He stands outside the warroom just like that when we prepare a codex release. It makes it go faster",
+      "tweetUrl": "https://x.com/thsottiaux/status/2050059376338350484",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1777607326881,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2049710850882380004",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1777519876296,
-      "inputTokens": 360,
-      "message": "",
-      "outputTokens": 78,
-      "rationale": "This reply is unrelated and does not mention limits, caps, or availability resetting.",
-      "reasoningTokens": 34,
-      "totalTokens": 438,
-      "tweetId": "2049692337060852164",
-      "tweetText": "@ggg78g89 Goblin",
-      "tweetUrl": "https://x.com/thsottiaux/status/2049692337060852164",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "nZ-cmbOpNg9N5xNWMnzFF--7GJ7XcmX2DybHTvw-xD26Vxpa121WBC1w3g",
-    "iv": "_a-DUacIvNV_gr1g",
-    "tag": "IVVh0GkzE5JQEQ1VY8lXTw",
+    "ciphertext": "awPptBcz3arYAcRvjqiZzvz7i6cc_5SpxqVDZn2QK0Qm9-g3xvC0ujyFSQ",
+    "iv": "IdfDTzHjzEYkGfa6",
+    "tag": "ST9oSjoKtHlFoEdUropoDw",
     "version": 1
   }
 }
