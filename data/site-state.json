@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1777607952881,
-      "rationale": "This reply is conversational and does not mention limits, caps, or usage becoming available again.",
-      "tweetId": "2050060243636539519",
-      "tweetUrl": "https://x.com/thsottiaux/status/2050060243636539519",
+      "decidedAt": 1777607956443,
+      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+      "tweetId": "2050060661460521126",
+      "tweetUrl": "https://x.com/thsottiaux/status/2050060661460521126",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2050060243636539519",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2050060243636539519",
+    "lastSeenTweetId": "2050060661460521126",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2050060661460521126",
     "pendingReview": {
       "confidence": 0.92,
       "createdAt": 1777607641079,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2050060097813090759"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1777607956443,
+        "inputTokens": 364,
+        "outputTokens": 85,
+        "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+        "reasoningTokens": 41,
+        "totalTokens": 449,
+        "tweetId": "2050060661460521126",
+        "tweetText": "@riadbenguella At least share your wisdom with me",
+        "tweetUrl": "https://x.com/thsottiaux/status/2050060661460521126",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1777607952881,
@@ -279,29 +292,31 @@
         "tweetText": "@ajambrosino What are you shipping tomorrow sir",
         "tweetUrl": "https://x.com/thsottiaux/status/2049970832244662627",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1777586278991,
-        "inputTokens": 359,
-        "outputTokens": 105,
-        "rationale": "This reply does not mention rate limits, caps, or a reset.",
-        "reasoningTokens": 63,
-        "totalTokens": 464,
-        "tweetId": "2049970393625346131",
-        "tweetText": "@Eimen_Nur Any sub",
-        "tweetUrl": "https://x.com/thsottiaux/status/2049970393625346131",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 95771,
-      "totalOutputTokens": 27015,
-      "totalReasoningTokens": 14567,
-      "totalTokens": 122786
+      "totalInputTokens": 96135,
+      "totalOutputTokens": 27100,
+      "totalReasoningTokens": 14608,
+      "totalTokens": 123235
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1777607956443,
+      "inputTokens": 364,
+      "message": "",
+      "outputTokens": 85,
+      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+      "reasoningTokens": 41,
+      "totalTokens": 449,
+      "tweetId": "2050060661460521126",
+      "tweetText": "@riadbenguella At least share your wisdom with me",
+      "tweetUrl": "https://x.com/thsottiaux/status/2050060661460521126",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1777607952881,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2049713229996474530",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1777524859225,
-      "inputTokens": 358,
-      "message": "",
-      "outputTokens": 116,
-      "rationale": "This reply is just conversational and does not indicate any rate limit reset.",
-      "reasoningTokens": 74,
-      "totalTokens": 474,
-      "tweetId": "2049712989994156173",
-      "tweetText": "@kirso_ On it",
-      "tweetUrl": "https://x.com/thsottiaux/status/2049712989994156173",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "xQ2k4AF0j_ND_4MhRJausaEOP_KVwM-hAsXtRziqN5nh05iEF0r7MpVcyw",
-    "iv": "7GInOY3rLuSIw1Sy",
-    "tag": "5NoEuHnl7d1aHtTQhb1xjA",
+    "ciphertext": "bzip7nKhCcstjLy0kZdKrOhPwkRfPtoEZJdpQ_AQLvcQb2bh_vscADQYmg",
+    "iv": "R9muh-B-tp0-bSp6",
+    "tag": "5q5B1aPTm33Xp-6uRIJ_Yg",
     "version": 1
   }
 }
