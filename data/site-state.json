@@ -14,25 +14,38 @@
   "updatedAt": 1777403745925,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1777607330606,
-      "rationale": "This reply jokes about preparing a Codex release and does not mention limits or availability resetting.",
-      "tweetId": "2050059376338350484",
-      "tweetUrl": "https://x.com/thsottiaux/status/2050059376338350484",
-      "verdict": "not_reset"
+      "confidence": 0.92,
+      "decidedAt": 1777607641079,
+      "rationale": "This reply just says “Early!” and does not clearly state that any Codex or ChatGPT limit has reset.",
+      "tweetId": "2050060097813090759",
+      "tweetUrl": "https://x.com/thsottiaux/status/2050060097813090759",
+      "verdict": "uncertain"
     },
     "lastError": null,
-    "lastSeenTweetId": "2050059376338350484",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2050059376338350484",
+    "lastSeenTweetId": "2050060097813090759",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2050060097813090759",
     "pendingReview": {
-      "confidence": 0.95,
-      "createdAt": 1777606420673,
-      "rationale": "This reply is too context-dependent to tell whether any limit has actually reset.",
-      "tweetId": "2050055615997935627",
-      "tweetText": "@Junljm Technically… it could",
-      "tweetUrl": "https://x.com/thsottiaux/status/2050055615997935627"
+      "confidence": 0.92,
+      "createdAt": 1777607641079,
+      "rationale": "This reply just says “Early!” and does not clearly state that any Codex or ChatGPT limit has reset.",
+      "tweetId": "2050060097813090759",
+      "tweetText": "@willisdeving Early!",
+      "tweetUrl": "https://x.com/thsottiaux/status/2050060097813090759"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.92,
+        "evaluatedAt": 1777607641079,
+        "inputTokens": 358,
+        "outputTokens": 175,
+        "rationale": "This reply just says “Early!” and does not clearly state that any Codex or ChatGPT limit has reset.",
+        "reasoningTokens": 124,
+        "totalTokens": 533,
+        "tweetId": "2050060097813090759",
+        "tweetText": "@willisdeving Early!",
+        "tweetUrl": "https://x.com/thsottiaux/status/2050060097813090759",
+        "verdict": "uncertain"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1777607330606,
@@ -279,29 +292,31 @@
         "tweetText": "You can now keep codex going for days. \n\nWith GPT-5.5 it will build an entire OS kernel for you if you ask, or find critical bugs in a codebase, or optimize your database schemas, or… the options are endless.",
         "tweetUrl": "https://x.com/thsottiaux/status/2049970070873629026",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1777585018023,
-        "inputTokens": 368,
-        "outputTokens": 97,
-        "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-        "reasoningTokens": 53,
-        "totalTokens": 465,
-        "tweetId": "2049964866941952056",
-        "tweetText": "@jpschroeder A bit much, but codex loves you back",
-        "tweetUrl": "https://x.com/thsottiaux/status/2049964866941952056",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 95051,
-      "totalOutputTokens": 26758,
-      "totalReasoningTokens": 14407,
-      "totalTokens": 121809
+      "totalInputTokens": 95409,
+      "totalOutputTokens": 26933,
+      "totalReasoningTokens": 14531,
+      "totalTokens": 122342
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.92,
+      "createdAt": 1777607641079,
+      "inputTokens": 358,
+      "message": "",
+      "outputTokens": 175,
+      "rationale": "This reply just says “Early!” and does not clearly state that any Codex or ChatGPT limit has reset.",
+      "reasoningTokens": 124,
+      "totalTokens": 533,
+      "tweetId": "2050060097813090759",
+      "tweetText": "@willisdeving Early!",
+      "tweetUrl": "https://x.com/thsottiaux/status/2050060097813090759",
+      "type": "review_requested",
+      "verdict": "uncertain"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1777607330606,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2049711950515638313",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1777524222002,
-      "inputTokens": 402,
-      "message": "",
-      "outputTokens": 71,
-      "rationale": "This post is about Codex feature requests and does not mention limits or usage becoming available again.",
-      "reasoningTokens": 24,
-      "totalTokens": 473,
-      "tweetId": "2049710850882380004",
-      "tweetText": "Send us feature requests for codex in the form of an images 2.0 generated image. It makes it easier for codex to implement if we decide to go for it. Saw some good ones today already that codex is cooking on.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2049710850882380004",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "awPptBcz3arYAcRvjqiZzvz7i6cc_5SpxqVDZn2QK0Qm9-g3xvC0ujyFSQ",
-    "iv": "IdfDTzHjzEYkGfa6",
-    "tag": "ST9oSjoKtHlFoEdUropoDw",
+    "ciphertext": "W_IMv06ROKk9BLNVYhOq2a6WmldIuW4kGYZGYYwwpZq6ETqRW9w3qwj4nw",
+    "iv": "j5o-CDZWRlhBsJHg",
+    "tag": "bB9UD0f-5xRRj04Iq2cGBg",
     "version": 1
   }
 }
