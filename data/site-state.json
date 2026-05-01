@@ -14,16 +14,16 @@
   "updatedAt": 1777403745925,
   "automation": {
     "lastDecision": {
-      "confidence": 0.95,
-      "decidedAt": 1777606420673,
-      "rationale": "This reply is too context-dependent to tell whether any limit has actually reset.",
-      "tweetId": "2050055615997935627",
-      "tweetUrl": "https://x.com/thsottiaux/status/2050055615997935627",
-      "verdict": "uncertain"
+      "confidence": 0.99,
+      "decidedAt": 1777606718637,
+      "rationale": "This reply is just conversational and does not mention limits or a reset.",
+      "tweetId": "2050055986828952035",
+      "tweetUrl": "https://x.com/thsottiaux/status/2050055986828952035",
+      "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2050055615997935627",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2050055615997935627",
+    "lastSeenTweetId": "2050055986828952035",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2050055986828952035",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1777606420673,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2050055615997935627"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1777606718637,
+        "inputTokens": 358,
+        "outputTokens": 67,
+        "rationale": "This reply is just conversational and does not mention limits or a reset.",
+        "reasoningTokens": 25,
+        "totalTokens": 425,
+        "tweetId": "2050055986828952035",
+        "tweetText": "@SIGKITTEN haha",
+        "tweetUrl": "https://x.com/thsottiaux/status/2050055986828952035",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.95,
         "evaluatedAt": 1777606420673,
@@ -279,29 +292,31 @@
         "tweetText": "@MTSlive BREAKING: Codex is now mainstream.",
         "tweetUrl": "https://x.com/thsottiaux/status/2049963292089778530",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1777583190656,
-        "inputTokens": 376,
-        "outputTokens": 83,
-        "rationale": "This reply is a joke about installing Codex and does not mention limits or a reset.",
-        "reasoningTokens": 37,
-        "totalTokens": 459,
-        "tweetId": "2049958413535441283",
-        "tweetText": "@sachintwtss 1) Ask it to install Codex\n2) ???\n3) Profit",
-        "tweetUrl": "https://x.com/thsottiaux/status/2049958413535441283",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 93593,
-      "totalOutputTokens": 26408,
-      "totalReasoningTokens": 14233,
-      "totalTokens": 120001
+      "totalInputTokens": 93951,
+      "totalOutputTokens": 26475,
+      "totalReasoningTokens": 14258,
+      "totalTokens": 120426
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1777606718637,
+      "inputTokens": 358,
+      "message": "",
+      "outputTokens": 67,
+      "rationale": "This reply is just conversational and does not mention limits or a reset.",
+      "reasoningTokens": 25,
+      "totalTokens": 425,
+      "tweetId": "2050055986828952035",
+      "tweetText": "@SIGKITTEN haha",
+      "tweetUrl": "https://x.com/thsottiaux/status/2050055986828952035",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.95,
       "createdAt": 1777606420673,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2049691101528051954",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1777519572136,
-      "inputTokens": 378,
-      "message": "",
-      "outputTokens": 75,
-      "rationale": "This is a blog promotion and does not mention limits, caps, or a reset.",
-      "reasoningTokens": 30,
-      "totalTokens": 453,
-      "tweetId": "2049690702452527311",
-      "tweetText": "Never talk about goblins. Our latest blog is live.\n\nhttps://t.co/r39VCx7TYZ",
-      "tweetUrl": "https://x.com/thsottiaux/status/2049690702452527311",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "seQiRVbEJZMt6RHWRNN4xo-Wh_W6DoErPzWirb1gTOtVeBZb98-umTmcAQ",
-    "iv": "7hklK1E5ea8wkneP",
-    "tag": "nS8lc7gNCnwCa4D12uwucQ",
+    "ciphertext": "69Z2QvKNfdWk7Q_SVspdYpqHTdnIvUgEd2GR8850ra-vyeO9TVbnFmgvIQ",
+    "iv": "HvgJ6X6iSbX7NJPL",
+    "tag": "2fs5p22ntCDAEIdhLBmc7g",
     "version": 1
   }
 }
