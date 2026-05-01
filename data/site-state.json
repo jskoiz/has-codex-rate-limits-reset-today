@@ -14,16 +14,16 @@
   "updatedAt": 1777403745925,
   "automation": {
     "lastDecision": {
-      "confidence": 0.98,
-      "decidedAt": 1777586288969,
-      "rationale": "This reply is just conversational and does not mention limits, caps, or usage resetting.",
-      "tweetId": "2049971166060876267",
-      "tweetUrl": "https://x.com/thsottiaux/status/2049971166060876267",
+      "confidence": 0.99,
+      "decidedAt": 1777602082875,
+      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+      "tweetId": "2050037350877860227",
+      "tweetUrl": "https://x.com/thsottiaux/status/2050037350877860227",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2049971166060876267",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2049971166060876267",
+    "lastSeenTweetId": "2050037350877860227",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2050037350877860227",
     "pendingReview": {
       "confidence": 0.84,
       "createdAt": 1777584710918,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2049964696166670671"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1777602082875,
+        "inputTokens": 361,
+        "outputTokens": 70,
+        "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+        "reasoningTokens": 26,
+        "totalTokens": 431,
+        "tweetId": "2050037350877860227",
+        "tweetText": "@ajambrosino Such a perfect combination",
+        "tweetUrl": "https://x.com/thsottiaux/status/2050037350877860227",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.98,
         "evaluatedAt": 1777586288969,
@@ -279,29 +292,31 @@
         "tweetText": "@SteveSkojec Under which rock have you been living? We are still so early",
         "tweetUrl": "https://x.com/thsottiaux/status/2049718999718740458",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1777526081424,
-        "inputTokens": 373,
-        "outputTokens": 80,
-        "rationale": "This reply is just asking for feedback details and does not mention any limit or cap reset.",
-        "reasoningTokens": 34,
-        "totalTokens": 453,
-        "tweetId": "2049718643458809926",
-        "tweetText": "@WanderSamsara Hi Konner. Could you /feedback in a thread and share the id?",
-        "tweetUrl": "https://x.com/thsottiaux/status/2049718643458809926",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 89558,
-      "totalOutputTokens": 25439,
-      "totalReasoningTokens": 13754,
-      "totalTokens": 114997
+      "totalInputTokens": 89919,
+      "totalOutputTokens": 25509,
+      "totalReasoningTokens": 13780,
+      "totalTokens": 115428
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1777602082875,
+      "inputTokens": 361,
+      "message": "",
+      "outputTokens": 70,
+      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+      "reasoningTokens": 26,
+      "totalTokens": 431,
+      "tweetId": "2050037350877860227",
+      "tweetText": "@ajambrosino Such a perfect combination",
+      "tweetUrl": "https://x.com/thsottiaux/status/2050037350877860227",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.98,
       "createdAt": 1777586288969,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2049498939641217287",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.95,
-      "createdAt": 1777473320814,
-      "inputTokens": 367,
-      "message": "",
-      "outputTokens": 170,
-      "rationale": "This reply is just a conversational suggestion and does not say limits or rate caps have reset.",
-      "reasoningTokens": 124,
-      "totalTokens": 537,
-      "tweetId": "2049497512097308869",
-      "tweetText": "@snapss @OpenAI @Mugilan_SS Start a new conversation?",
-      "tweetUrl": "https://x.com/thsottiaux/status/2049497512097308869",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "W2-vQpKkaTQXa2VA2qxRfYF0AmkEKaEkMaKhObOrhnXL8bMtaJUzOiqK3A",
-    "iv": "HToOh-w0wavN-34U",
-    "tag": "opY9QOv09WLrQVIQaukU4Q",
+    "ciphertext": "ue94Li924DYWtR6JbaTjL6DPYiirxDve7WL5qgYbrfJUT4l8Ar2ftgwOtg",
+    "iv": "0c9CUmj9IBzpRZjT",
+    "tag": "Gx7HlgW1r76jlfOORgDxSg",
     "version": 1
   }
 }
