@@ -14,25 +14,38 @@
   "updatedAt": 1777403745925,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1777607956443,
-      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-      "tweetId": "2050060661460521126",
-      "tweetUrl": "https://x.com/thsottiaux/status/2050060661460521126",
-      "verdict": "not_reset"
+      "confidence": 0.91,
+      "decidedAt": 1777610144491,
+      "rationale": "This reply just says “Update” and does not clearly indicate any limit or cap has reset.",
+      "tweetId": "2050070488249200784",
+      "tweetUrl": "https://x.com/thsottiaux/status/2050070488249200784",
+      "verdict": "uncertain"
     },
     "lastError": null,
-    "lastSeenTweetId": "2050060661460521126",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2050060661460521126",
+    "lastSeenTweetId": "2050070488249200784",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2050070488249200784",
     "pendingReview": {
-      "confidence": 0.92,
-      "createdAt": 1777607641079,
-      "rationale": "This reply just says “Early!” and does not clearly state that any Codex or ChatGPT limit has reset.",
-      "tweetId": "2050060097813090759",
-      "tweetText": "@willisdeving Early!",
-      "tweetUrl": "https://x.com/thsottiaux/status/2050060097813090759"
+      "confidence": 0.91,
+      "createdAt": 1777610144491,
+      "rationale": "This reply just says “Update” and does not clearly indicate any limit or cap has reset.",
+      "tweetId": "2050070488249200784",
+      "tweetText": "@marcuppe Update",
+      "tweetUrl": "https://x.com/thsottiaux/status/2050070488249200784"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.91,
+        "evaluatedAt": 1777610144491,
+        "inputTokens": 357,
+        "outputTokens": 193,
+        "rationale": "This reply just says “Update” and does not clearly indicate any limit or cap has reset.",
+        "reasoningTokens": 146,
+        "totalTokens": 550,
+        "tweetId": "2050070488249200784",
+        "tweetText": "@marcuppe Update",
+        "tweetUrl": "https://x.com/thsottiaux/status/2050070488249200784",
+        "verdict": "uncertain"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1777607956443,
@@ -279,29 +292,31 @@
         "tweetText": "@danveloper Dramatic comeback. Here for it",
         "tweetUrl": "https://x.com/thsottiaux/status/2049971166060876267",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1777586284081,
-        "inputTokens": 363,
-        "outputTokens": 72,
-        "rationale": "This reply is conversational and does not mention any limits, caps, or resets.",
-        "reasoningTokens": 28,
-        "totalTokens": 435,
-        "tweetId": "2049970832244662627",
-        "tweetText": "@ajambrosino What are you shipping tomorrow sir",
-        "tweetUrl": "https://x.com/thsottiaux/status/2049970832244662627",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 96135,
-      "totalOutputTokens": 27100,
-      "totalReasoningTokens": 14608,
-      "totalTokens": 123235
+      "totalInputTokens": 96492,
+      "totalOutputTokens": 27293,
+      "totalReasoningTokens": 14754,
+      "totalTokens": 123785
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.91,
+      "createdAt": 1777610144491,
+      "inputTokens": 357,
+      "message": "",
+      "outputTokens": 193,
+      "rationale": "This reply just says “Update” and does not clearly indicate any limit or cap has reset.",
+      "reasoningTokens": 146,
+      "totalTokens": 550,
+      "tweetId": "2050070488249200784",
+      "tweetText": "@marcuppe Update",
+      "tweetUrl": "https://x.com/thsottiaux/status/2050070488249200784",
+      "type": "review_requested",
+      "verdict": "uncertain"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1777607956443,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2049713293665898924",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1777524862920,
-      "inputTokens": 361,
-      "message": "",
-      "outputTokens": 77,
-      "rationale": "This reply is just casual commentary and does not mention limits, caps, or usage becoming available again.",
-      "reasoningTokens": 29,
-      "totalTokens": 438,
-      "tweetId": "2049713229996474530",
-      "tweetText": "@Xbotter Fancy, I like it",
-      "tweetUrl": "https://x.com/thsottiaux/status/2049713229996474530",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "bzip7nKhCcstjLy0kZdKrOhPwkRfPtoEZJdpQ_AQLvcQb2bh_vscADQYmg",
-    "iv": "R9muh-B-tp0-bSp6",
-    "tag": "5q5B1aPTm33Xp-6uRIJ_Yg",
+    "ciphertext": "mtajB09LmdoLV7bpXXIKZjKkLlzO-gTgMvuKSTJO_ceYhYI3KaTUuUe9gg",
+    "iv": "0peOCrpLhPCjnxnY",
+    "tag": "362RVD1s1VQEcZ57XMKeqg",
     "version": 1
   }
 }
