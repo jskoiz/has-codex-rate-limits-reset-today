@@ -14,16 +14,16 @@
   "updatedAt": 1777403745925,
   "automation": {
     "lastDecision": {
-      "confidence": 0.94,
-      "decidedAt": 1777668724912,
-      "rationale": "This reply is too vague to tell whether any Codex or ChatGPT limit has reset.",
-      "tweetId": "2050316372601983153",
-      "tweetUrl": "https://x.com/thsottiaux/status/2050316372601983153",
-      "verdict": "uncertain"
+      "confidence": 0.99,
+      "decidedAt": 1777669030426,
+      "rationale": "This is a pronunciation joke and says nothing about limits or resets.",
+      "tweetId": "2050316660519870937",
+      "tweetUrl": "https://x.com/thsottiaux/status/2050316660519870937",
+      "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2050316372601983153",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2050316372601983153",
+    "lastSeenTweetId": "2050316660519870937",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2050316660519870937",
     "pendingReview": {
       "confidence": 0.94,
       "createdAt": 1777668724912,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2050316372601983153"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1777669030426,
+        "inputTokens": 368,
+        "outputTokens": 60,
+        "rationale": "This is a pronunciation joke and says nothing about limits or resets.",
+        "reasoningTokens": 19,
+        "totalTokens": 428,
+        "tweetId": "2050316660519870937",
+        "tweetText": "Please don't pronounce Codex, COD-ex. We are also not a fish.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2050316660519870937",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.94,
         "evaluatedAt": 1777668724912,
@@ -279,29 +292,31 @@
         "tweetText": "@marcuppe Update",
         "tweetUrl": "https://x.com/thsottiaux/status/2050070488249200784",
         "verdict": "uncertain"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1777607956443,
-        "inputTokens": 364,
-        "outputTokens": 85,
-        "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-        "reasoningTokens": 41,
-        "totalTokens": 449,
-        "tweetId": "2050060661460521126",
-        "tweetText": "@riadbenguella At least share your wisdom with me",
-        "tweetUrl": "https://x.com/thsottiaux/status/2050060661460521126",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 103165,
-      "totalOutputTokens": 28983,
-      "totalReasoningTokens": 15654,
-      "totalTokens": 132148
+      "totalInputTokens": 103533,
+      "totalOutputTokens": 29043,
+      "totalReasoningTokens": 15673,
+      "totalTokens": 132576
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1777669030426,
+      "inputTokens": 368,
+      "message": "",
+      "outputTokens": 60,
+      "rationale": "This is a pronunciation joke and says nothing about limits or resets.",
+      "reasoningTokens": 19,
+      "totalTokens": 428,
+      "tweetId": "2050316660519870937",
+      "tweetText": "Please don't pronounce Codex, COD-ex. We are also not a fish.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2050316660519870937",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.94,
       "createdAt": 1777668724912,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2049970832244662627",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1777586278991,
-      "inputTokens": 359,
-      "message": "",
-      "outputTokens": 105,
-      "rationale": "This reply does not mention rate limits, caps, or a reset.",
-      "reasoningTokens": 63,
-      "totalTokens": 464,
-      "tweetId": "2049970393625346131",
-      "tweetText": "@Eimen_Nur Any sub",
-      "tweetUrl": "https://x.com/thsottiaux/status/2049970393625346131",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "nx2SKyhOI6QnOMqk9KpfjU0gr65NFnDjySCXxKdXaILg4zHAwR035oB7eQ",
-    "iv": "sr2h3C14asFR1KJr",
-    "tag": "ngFxp2gwZ-QqE1PFnJ4zQg",
+    "ciphertext": "0g_Qa09phxv0BxNPPaZ6f82JwFtpWM6DSs6MNODPF1h9cv-E1mDizNZ3nw",
+    "iv": "uB6TfULiG2RNA3KF",
+    "tag": "E3HfaRsIjQX_g6QnWjA7rA",
     "version": 1
   }
 }
