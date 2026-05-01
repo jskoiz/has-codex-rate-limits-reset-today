@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1777602394565,
-      "rationale": "This reply is conversational and does not mention limits, caps, or usage becoming available again.",
-      "tweetId": "2050037900096807373",
-      "tweetUrl": "https://x.com/thsottiaux/status/2050037900096807373",
+      "decidedAt": 1777603302889,
+      "rationale": "This reply discusses the meaning of “codex” and does not mention limits or a reset.",
+      "tweetId": "2050042115946876996",
+      "tweetUrl": "https://x.com/thsottiaux/status/2050042115946876996",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2050037900096807373",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2050037900096807373",
+    "lastSeenTweetId": "2050042115946876996",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2050042115946876996",
     "pendingReview": {
       "confidence": 0.84,
       "createdAt": 1777584710918,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2049964696166670671"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1777603302889,
+        "inputTokens": 390,
+        "outputTokens": 89,
+        "rationale": "This reply discusses the meaning of “codex” and does not mention limits or a reset.",
+        "reasoningTokens": 42,
+        "totalTokens": 479,
+        "tweetId": "2050042115946876996",
+        "tweetText": "@johnpalmer @skybysoftware Really think you associate codex with code because you are primed to do that and have a bias due to technical background.\n\nLet’s see.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2050042115946876996",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1777602394565,
@@ -279,29 +292,31 @@
         "tweetText": "@nzmrldev That git tree looks fairly cursed",
         "tweetUrl": "https://x.com/thsottiaux/status/2049725134169387140",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1777527300356,
-        "inputTokens": 369,
-        "outputTokens": 79,
-        "rationale": "This reply is a general comment about Codex adoption and does not mention limits resetting.",
-        "reasoningTokens": 34,
-        "totalTokens": 448,
-        "tweetId": "2049723845662404635",
-        "tweetText": "@luke_pighetti Things will get better once everyone starts to use Codex",
-        "tweetUrl": "https://x.com/thsottiaux/status/2049723845662404635",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 90292,
-      "totalOutputTokens": 25589,
-      "totalReasoningTokens": 13814,
-      "totalTokens": 115881
+      "totalInputTokens": 90682,
+      "totalOutputTokens": 25678,
+      "totalReasoningTokens": 13856,
+      "totalTokens": 116360
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1777603302889,
+      "inputTokens": 390,
+      "message": "",
+      "outputTokens": 89,
+      "rationale": "This reply discusses the meaning of “codex” and does not mention limits or a reset.",
+      "reasoningTokens": 42,
+      "totalTokens": 479,
+      "tweetId": "2050042115946876996",
+      "tweetText": "@johnpalmer @skybysoftware Really think you associate codex with code because you are primed to do that and have a bias due to technical background.\n\nLet’s see.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2050042115946876996",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1777602394565,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2049545580125520298",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1777474558860,
-      "inputTokens": 404,
-      "message": "",
-      "outputTokens": 69,
-      "rationale": "This reply discusses abuse-resistant system design and does not mention limits or a reset.",
-      "reasoningTokens": 25,
-      "totalTokens": 473,
-      "tweetId": "2049501958986498138",
-      "tweetText": "@SIGKITTEN @Mugilan_SS @OpenAI In a naive implementation, yes. But you can actually design the system in a way where abuse is hard.\n\nIt would have been easy to discard the right experience because of concerns for abuse.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2049501958986498138",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "xxquchCNY8Nx6Msfq5MaHGrm818z2Jd8YnGI6b7OMg0LLGY_ypHjBPMCuw",
-    "iv": "wCQEPcaBpRMJ0lgB",
-    "tag": "eHFSTJM5HwlViIn7pMQwvw",
+    "ciphertext": "H2vU_va6sjngVx8BU7DTs2EwiZk7IADaq6hXUQuf2MTyppd29mOrLOdLYQ",
+    "iv": "C_v5GYa1hcxVAYp3",
+    "tag": "6ny9-ogHbeUm1wDmB2mlGA",
     "version": 1
   }
 }
