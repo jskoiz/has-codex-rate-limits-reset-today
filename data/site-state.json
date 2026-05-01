@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1777603306750,
-      "rationale": "This is just a general audience question and does not mention limits, caps, or usage resetting.",
-      "tweetId": "2050042594932183452",
-      "tweetUrl": "https://x.com/thsottiaux/status/2050042594932183452",
+      "decidedAt": 1777603619873,
+      "rationale": "This reply is just conversational and does not mention limits or availability resetting.",
+      "tweetId": "2050044224440352924",
+      "tweetUrl": "https://x.com/thsottiaux/status/2050044224440352924",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2050042594932183452",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2050042594932183452",
+    "lastSeenTweetId": "2050044224440352924",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2050044224440352924",
     "pendingReview": {
       "confidence": 0.84,
       "createdAt": 1777584710918,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2049964696166670671"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1777603619873,
+        "inputTokens": 358,
+        "outputTokens": 93,
+        "rationale": "This reply is just conversational and does not mention limits or availability resetting.",
+        "reasoningTokens": 51,
+        "totalTokens": 451,
+        "tweetId": "2050044224440352924",
+        "tweetText": "@ddciolac Damn",
+        "tweetUrl": "https://x.com/thsottiaux/status/2050044224440352924",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1777603306750,
@@ -279,29 +292,31 @@
         "tweetText": "@badlogicgames Where do the tokens flow in?",
         "tweetUrl": "https://x.com/thsottiaux/status/2049816510777172074",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1777549301083,
-        "inputTokens": 359,
-        "outputTokens": 74,
-        "rationale": "This reply is just a greeting and gives no indication that any Codex or ChatGPT limits reset.",
-        "reasoningTokens": 26,
-        "totalTokens": 433,
-        "tweetId": "2049816157780316286",
-        "tweetText": "@jordymaui Hello Jordy",
-        "tweetUrl": "https://x.com/thsottiaux/status/2049816157780316286",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 91045,
-      "totalOutputTokens": 25780,
-      "totalReasoningTokens": 13911,
-      "totalTokens": 116825
+      "totalInputTokens": 91403,
+      "totalOutputTokens": 25873,
+      "totalReasoningTokens": 13962,
+      "totalTokens": 117276
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1777603619873,
+      "inputTokens": 358,
+      "message": "",
+      "outputTokens": 93,
+      "rationale": "This reply is just conversational and does not mention limits or availability resetting.",
+      "reasoningTokens": 51,
+      "totalTokens": 451,
+      "tweetId": "2050044224440352924",
+      "tweetText": "@ddciolac Damn",
+      "tweetUrl": "https://x.com/thsottiaux/status/2050044224440352924",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1777603306750,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2049645639022305362",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1777485106811,
-      "inputTokens": 359,
-      "message": "",
-      "outputTokens": 77,
-      "rationale": "This reply just says “Oops” and does not indicate any rate limit reset.",
-      "reasoningTokens": 33,
-      "totalTokens": 436,
-      "tweetId": "2049546294843375820",
-      "tweetText": "@ajambrosino Oops",
-      "tweetUrl": "https://x.com/thsottiaux/status/2049546294843375820",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "S9ZKDADoKFATcglaFr8qFlnkvm7XCG-1Ef0ZNfv-UYlukDUoUrzwZRSbxA",
-    "iv": "rH5vFpJ0VvQrj3x2",
-    "tag": "1ZDU6YWojA6dFnCkNzhybQ",
+    "ciphertext": "eiuMc9QrAcQl-QEdcxqKwe_e-K18X92VpWHzalZ4tC0vKlsx6Ie7vDvd-g",
+    "iv": "Z-PXERXTIdYTPQpI",
+    "tag": "r8k1cZm33QtAOg3cj9tvfw",
     "version": 1
   }
 }
