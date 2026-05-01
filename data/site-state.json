@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1777646639770,
-      "rationale": "This reply does not mention limits, caps, availability, or any reset.",
-      "tweetId": "2050224016460595397",
-      "tweetUrl": "https://x.com/thsottiaux/status/2050224016460595397",
+      "decidedAt": 1777646643417,
+      "rationale": "This reply is just wordplay and does not mention limits or availability resetting.",
+      "tweetId": "2050224268257235046",
+      "tweetUrl": "https://x.com/thsottiaux/status/2050224268257235046",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2050224016460595397",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2050224016460595397",
+    "lastSeenTweetId": "2050224268257235046",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2050224268257235046",
     "pendingReview": {
       "confidence": 0.91,
       "createdAt": 1777610144491,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2050070488249200784"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1777646643417,
+        "inputTokens": 358,
+        "outputTokens": 79,
+        "rationale": "This reply is just wordplay and does not mention limits or availability resetting.",
+        "reasoningTokens": 36,
+        "totalTokens": 437,
+        "tweetId": "2050224268257235046",
+        "tweetText": "@rudrank Co-dex",
+        "tweetUrl": "https://x.com/thsottiaux/status/2050224268257235046",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1777646639770,
@@ -279,29 +292,31 @@
         "tweetText": "@ddciolac Damn",
         "tweetUrl": "https://x.com/thsottiaux/status/2050044224440352924",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1777603306750,
-        "inputTokens": 363,
-        "outputTokens": 102,
-        "rationale": "This is just a general audience question and does not mention limits, caps, or usage resetting.",
-        "reasoningTokens": 55,
-        "totalTokens": 465,
-        "tweetId": "2050042594932183452",
-        "tweetText": "Dear audience, do you code as your professional career?",
-        "tweetUrl": "https://x.com/thsottiaux/status/2050042594932183452",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 97944,
-      "totalOutputTokens": 27626,
-      "totalReasoningTokens": 14915,
-      "totalTokens": 125570
+      "totalInputTokens": 98302,
+      "totalOutputTokens": 27705,
+      "totalReasoningTokens": 14951,
+      "totalTokens": 126007
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1777646643417,
+      "inputTokens": 358,
+      "message": "",
+      "outputTokens": 79,
+      "rationale": "This reply is just wordplay and does not mention limits or availability resetting.",
+      "reasoningTokens": 36,
+      "totalTokens": 437,
+      "tweetId": "2050224268257235046",
+      "tweetText": "@rudrank Co-dex",
+      "tweetUrl": "https://x.com/thsottiaux/status/2050224268257235046",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1777646639770,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2049816157780316286",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1777527623398,
-      "inputTokens": 363,
-      "message": "",
-      "outputTokens": 69,
-      "rationale": "This reply is about a git tree and says nothing about limits or resets.",
-      "reasoningTokens": 26,
-      "totalTokens": 432,
-      "tweetId": "2049725134169387140",
-      "tweetText": "@nzmrldev That git tree looks fairly cursed",
-      "tweetUrl": "https://x.com/thsottiaux/status/2049725134169387140",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "Zu4jc4V62MDa_CcUDwJhTxEgpZbOadkY7WqAGvysFMcuIBzV9QCAAze5uQ",
-    "iv": "_zRBW5QScHdoSTPv",
-    "tag": "EFTDgxBvYe38_oWgnlsfpQ",
+    "ciphertext": "0nwsKM9sDweluMbhmwCrMAAbYuQoZfmAykcf2Z-FcS6iWAeWIjs73hN0cg",
+    "iv": "R22E6aT8HR_mNdqW",
+    "tag": "ZJWFdd_IJkkQAVI7CAbXDA",
     "version": 1
   }
 }
