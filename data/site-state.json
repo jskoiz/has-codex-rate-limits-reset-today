@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1777661255322,
-      "rationale": "This reply is unrelated to Codex or ChatGPT usage limits resetting.",
-      "tweetId": "2050285561378963757",
-      "tweetUrl": "https://x.com/thsottiaux/status/2050285561378963757",
+      "decidedAt": 1777661564970,
+      "rationale": "This is just a brief conversational reply and does not mention limits or availability resetting.",
+      "tweetId": "2050286082617708765",
+      "tweetUrl": "https://x.com/thsottiaux/status/2050286082617708765",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2050285561378963757",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2050285561378963757",
+    "lastSeenTweetId": "2050286082617708765",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2050286082617708765",
     "pendingReview": {
       "confidence": 0.91,
       "createdAt": 1777610144491,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2050070488249200784"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1777661564970,
+        "inputTokens": 358,
+        "outputTokens": 116,
+        "rationale": "This is just a brief conversational reply and does not mention limits or availability resetting.",
+        "reasoningTokens": 72,
+        "totalTokens": 474,
+        "tweetId": "2050286082617708765",
+        "tweetText": "@ajambrosino surprise",
+        "tweetUrl": "https://x.com/thsottiaux/status/2050286082617708765",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1777661255322,
@@ -279,29 +292,31 @@
         "tweetText": "@Junljm Technically… it could",
         "tweetUrl": "https://x.com/thsottiaux/status/2050055615997935627",
         "verdict": "uncertain"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1777606416817,
-        "inputTokens": 359,
-        "outputTokens": 77,
-        "rationale": "This brief reply does not indicate any limit or rate-cap reset.",
-        "reasoningTokens": 36,
-        "totalTokens": 436,
-        "tweetId": "2050055542387986740",
-        "tweetText": "@izayoiyugen Unlikely",
-        "tweetUrl": "https://x.com/thsottiaux/status/2050055542387986740",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 100237,
-      "totalOutputTokens": 28095,
-      "totalReasoningTokens": 15124,
-      "totalTokens": 128332
+      "totalInputTokens": 100595,
+      "totalOutputTokens": 28211,
+      "totalReasoningTokens": 15196,
+      "totalTokens": 128806
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1777661564970,
+      "inputTokens": 358,
+      "message": "",
+      "outputTokens": 116,
+      "rationale": "This is just a brief conversational reply and does not mention limits or availability resetting.",
+      "reasoningTokens": 72,
+      "totalTokens": 474,
+      "tweetId": "2050286082617708765",
+      "tweetText": "@ajambrosino surprise",
+      "tweetUrl": "https://x.com/thsottiaux/status/2050286082617708765",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1777661255322,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2049933460756979719",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.12,
-      "createdAt": 1777577302814,
-      "inputTokens": 358,
-      "message": "",
-      "outputTokens": 154,
-      "rationale": "This reply just says “Yes” without enough context to confirm a rate-limit reset.",
-      "reasoningTokens": 109,
-      "totalTokens": 512,
-      "tweetId": "2049933072028807374",
-      "tweetText": "@saaslanee Yes",
-      "tweetUrl": "https://x.com/thsottiaux/status/2049933072028807374",
-      "type": "review_requested",
-      "verdict": "uncertain"
     }
   ],
   "privateState": {
-    "ciphertext": "KSYMGvc6j9nwhFTehDOq080Sgl666-8MThTm59BcFlxDYR49hTQbA_9g_Q",
-    "iv": "Zy4X0207q_RbnTKH",
-    "tag": "x-lYsSenEVsF5AnZBHP0oA",
+    "ciphertext": "LgP-ZPJy1Z81SPgiWiNdf8gnEZw_ESGFUANrGM-qzeRMvl6vVK6nKVdvkQ",
+    "iv": "pdGpgpqYkwxPtp2m",
+    "tag": "dKiVyitOYlgATf6ZnvsvHA",
     "version": 1
   }
 }
