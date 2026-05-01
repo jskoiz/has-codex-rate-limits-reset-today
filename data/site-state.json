@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1777667783516,
-      "rationale": "This reply is conversational and does not indicate any Codex or ChatGPT limits have reset.",
-      "tweetId": "2050312411803197549",
-      "tweetUrl": "https://x.com/thsottiaux/status/2050312411803197549",
+      "decidedAt": 1777667787746,
+      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+      "tweetId": "2050313328145367077",
+      "tweetUrl": "https://x.com/thsottiaux/status/2050313328145367077",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2050312411803197549",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2050312411803197549",
+    "lastSeenTweetId": "2050313328145367077",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2050313328145367077",
     "pendingReview": {
       "confidence": 0.91,
       "createdAt": 1777610144491,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2050070488249200784"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1777667787746,
+        "inputTokens": 361,
+        "outputTokens": 75,
+        "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+        "reasoningTokens": 31,
+        "totalTokens": 436,
+        "tweetId": "2050313328145367077",
+        "tweetText": "@theo You will be missing out though",
+        "tweetUrl": "https://x.com/thsottiaux/status/2050313328145367077",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1777667783516,
@@ -279,29 +292,31 @@
         "tweetText": "@willisdeving Early!",
         "tweetUrl": "https://x.com/thsottiaux/status/2050060097813090759",
         "verdict": "uncertain"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1777607330606,
-        "inputTokens": 378,
-        "outputTokens": 89,
-        "rationale": "This reply jokes about preparing a Codex release and does not mention limits or availability resetting.",
-        "reasoningTokens": 43,
-        "totalTokens": 467,
-        "tweetId": "2050059376338350484",
-        "tweetText": "@flowersslop He stands outside the warroom just like that when we prepare a codex release. It makes it go faster",
-        "tweetUrl": "https://x.com/thsottiaux/status/2050059376338350484",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 102072,
-      "totalOutputTokens": 28653,
-      "totalReasoningTokens": 15457,
-      "totalTokens": 130725
+      "totalInputTokens": 102433,
+      "totalOutputTokens": 28728,
+      "totalReasoningTokens": 15488,
+      "totalTokens": 131161
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1777667787746,
+      "inputTokens": 361,
+      "message": "",
+      "outputTokens": 75,
+      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+      "reasoningTokens": 31,
+      "totalTokens": 436,
+      "tweetId": "2050313328145367077",
+      "tweetText": "@theo You will be missing out though",
+      "tweetUrl": "https://x.com/thsottiaux/status/2050313328145367077",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1777667783516,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2049964866941952056",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.84,
-      "createdAt": 1777584710918,
-      "inputTokens": 363,
-      "message": "",
-      "outputTokens": 325,
-      "rationale": "This reply is too vague on its own to confirm that any Codex or ChatGPT limits have reset.",
-      "reasoningTokens": 276,
-      "totalTokens": 688,
-      "tweetId": "2049964696166670671",
-      "tweetText": "@gakonst I feel it in the charts too",
-      "tweetUrl": "https://x.com/thsottiaux/status/2049964696166670671",
-      "type": "review_requested",
-      "verdict": "uncertain"
     }
   ],
   "privateState": {
-    "ciphertext": "WDKW3k7dh84NsQIIxzsJU07VzyC6qpivTnpRyx2tS1c-Jfq_w-1KD0CjSw",
-    "iv": "6HObdokhr9waxR3W",
-    "tag": "x3_MwEVKkqT1xObMa8Ho8g",
+    "ciphertext": "QIAytJ1cSY9AmK5rg-z0UwEyHs2b641a2nLEY6UvGfZhqe39gu9IL8iKlA",
+    "iv": "TKQXmKAqlWEvzzYa",
+    "tag": "SwvqngORNflOj6iLop9j6Q",
     "version": 1
   }
 }
