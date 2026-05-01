@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1777660010729,
-      "rationale": "This post is about a Codex pet feature, not rate limits or caps resetting.",
-      "tweetId": "2050280111820406795",
-      "tweetUrl": "https://x.com/thsottiaux/status/2050280111820406795",
+      "decidedAt": 1777661245645,
+      "rationale": "This reply discusses feature availability, not limits or a reset of usage caps.",
+      "tweetId": "2050285339114459600",
+      "tweetUrl": "https://x.com/thsottiaux/status/2050285339114459600",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2050280111820406795",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2050280111820406795",
+    "lastSeenTweetId": "2050285339114459600",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2050285339114459600",
     "pendingReview": {
       "confidence": 0.91,
       "createdAt": 1777610144491,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2050070488249200784"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1777661245645,
+        "inputTokens": 374,
+        "outputTokens": 89,
+        "rationale": "This reply discusses feature availability, not limits or a reset of usage caps.",
+        "reasoningTokens": 46,
+        "totalTokens": 463,
+        "tweetId": "2050285339114459600",
+        "tweetText": "@vikascoolkarnir @sama Currently available in the Codex CLI. Coming to the app soon.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2050285339114459600",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1777660010729,
@@ -279,29 +292,31 @@
         "tweetText": "@hopes_revenge Weak excuse",
         "tweetUrl": "https://x.com/thsottiaux/status/2050055006603391057",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1777604541241,
-        "inputTokens": 359,
-        "outputTokens": 81,
-        "rationale": "This reply is just conversational and does not mention limits, caps, or reset status.",
-        "reasoningTokens": 36,
-        "totalTokens": 440,
-        "tweetId": "2050047802202567109",
-        "tweetText": "@Skeegan123 New thing?",
-        "tweetUrl": "https://x.com/thsottiaux/status/2050047802202567109",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 99134,
-      "totalOutputTokens": 27852,
-      "totalReasoningTokens": 15007,
-      "totalTokens": 126986
+      "totalInputTokens": 99508,
+      "totalOutputTokens": 27941,
+      "totalReasoningTokens": 15053,
+      "totalTokens": 127449
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1777661245645,
+      "inputTokens": 374,
+      "message": "",
+      "outputTokens": 89,
+      "rationale": "This reply discusses feature availability, not limits or a reset of usage caps.",
+      "reasoningTokens": 46,
+      "totalTokens": 463,
+      "tweetId": "2050285339114459600",
+      "tweetText": "@vikascoolkarnir @sama Currently available in the Codex CLI. Coming to the app soon.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2050285339114459600",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1777660010729,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2049880535577854338",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.96,
-      "createdAt": 1777549614105,
-      "inputTokens": 363,
-      "message": "",
-      "outputTokens": 198,
-      "rationale": "This reply is too vague and does not say any limit or cap has reset or been lifted.",
-      "reasoningTokens": 151,
-      "totalTokens": 561,
-      "tweetId": "2049816877170589774",
-      "tweetText": "@bendee983 Prepare yourself for a world of abundance",
-      "tweetUrl": "https://x.com/thsottiaux/status/2049816877170589774",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "8W0ZG_2o21bUubypObtSFhJEXi_vIa4RyVcVV_g4R7fpFTv7BunMzfb80w",
-    "iv": "dwJI5p-fy_I8D5q4",
-    "tag": "WPTm8dyFPHenbM3OEPHjAw",
+    "ciphertext": "DElAq4ZD7knak5iXsB_QNIK1bdvHivz13TrlMZhqbQJeaOoSmtBlK8tSpg",
+    "iv": "hrf7MR9g_ULG8_t9",
+    "tag": "jwVUnvLc5u5SGRPiCpr5cA",
     "version": 1
   }
 }
