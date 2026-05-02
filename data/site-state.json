@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1777705658743,
-      "rationale": "This reply is just a joke and does not mention limits, caps, or usage becoming available again.",
-      "tweetId": "2050472145139208599",
-      "tweetUrl": "https://x.com/thsottiaux/status/2050472145139208599",
+      "decidedAt": 1777705968632,
+      "rationale": "This reply only says “GPT-5.5” and does not mention limits or a reset.",
+      "tweetId": "2050473330000777261",
+      "tweetUrl": "https://x.com/thsottiaux/status/2050473330000777261",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2050472145139208599",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2050472145139208599",
+    "lastSeenTweetId": "2050473330000777261",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2050473330000777261",
     "pendingReview": {
       "confidence": 0.98,
       "createdAt": 1777685824818,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2050388525619790234"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1777705968632,
+        "inputTokens": 362,
+        "outputTokens": 102,
+        "rationale": "This reply only says “GPT-5.5” and does not mention limits or a reset.",
+        "reasoningTokens": 54,
+        "totalTokens": 464,
+        "tweetId": "2050473330000777261",
+        "tweetText": "@benedictk__ GPT-5.5",
+        "tweetUrl": "https://x.com/thsottiaux/status/2050473330000777261",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1777705658743,
@@ -279,29 +292,31 @@
         "tweetText": "@Dimillian Oddly specific pet",
         "tweetUrl": "https://x.com/thsottiaux/status/2050317079048499704",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1777669033261,
-        "inputTokens": 368,
-        "outputTokens": 75,
-        "rationale": "This reply only mentions accounts and gives no indication that any limits have reset.",
-        "reasoningTokens": 32,
-        "totalTokens": 443,
-        "tweetId": "2050316748424106323",
-        "tweetText": "@Matthew_AMS @OpenAIDevs cc @ajambrosino",
-        "tweetUrl": "https://x.com/thsottiaux/status/2050316748424106323",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 111021,
-      "totalOutputTokens": 31169,
-      "totalReasoningTokens": 16901,
-      "totalTokens": 142190
+      "totalInputTokens": 111383,
+      "totalOutputTokens": 31271,
+      "totalReasoningTokens": 16955,
+      "totalTokens": 142654
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1777705968632,
+      "inputTokens": 362,
+      "message": "",
+      "outputTokens": 102,
+      "rationale": "This reply only says “GPT-5.5” and does not mention limits or a reset.",
+      "reasoningTokens": 54,
+      "totalTokens": 464,
+      "tweetId": "2050473330000777261",
+      "tweetText": "@benedictk__ GPT-5.5",
+      "tweetUrl": "https://x.com/thsottiaux/status/2050473330000777261",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1777705658743,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2050073620643463668",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.91,
-      "createdAt": 1777610144491,
-      "inputTokens": 357,
-      "message": "",
-      "outputTokens": 193,
-      "rationale": "This reply just says “Update” and does not clearly indicate any limit or cap has reset.",
-      "reasoningTokens": 146,
-      "totalTokens": 550,
-      "tweetId": "2050070488249200784",
-      "tweetText": "@marcuppe Update",
-      "tweetUrl": "https://x.com/thsottiaux/status/2050070488249200784",
-      "type": "review_requested",
-      "verdict": "uncertain"
     }
   ],
   "privateState": {
-    "ciphertext": "Wm6p7FGtEuhFCq3j9Dq9uYwOP_l_K_uYR8CC79MqfauCJFirNyXAh1MrPg",
-    "iv": "CTu7sKw5bEAs-g5d",
-    "tag": "dAia7nRJkYbVk0falaHT3w",
+    "ciphertext": "m8jZJZSHc0ESx90N5zJFtH9MLYPmD-ZJu7Zy6-QKwizF4wyfyMdz3rBtGA",
+    "iv": "sktzQjTxdBBggFji",
+    "tag": "ttmfngrOIwGGDj70dTcyzQ",
     "version": 1
   }
 }
