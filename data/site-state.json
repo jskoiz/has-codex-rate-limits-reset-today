@@ -14,16 +14,16 @@
   "updatedAt": 1777403745925,
   "automation": {
     "lastDecision": {
-      "confidence": 0.98,
-      "decidedAt": 1777685824818,
-      "rationale": "The post contains only a link, so it does not clearly say that limits have reset.",
-      "tweetId": "2050388525619790234",
-      "tweetUrl": "https://x.com/thsottiaux/status/2050388525619790234",
-      "verdict": "uncertain"
+      "confidence": 0.99,
+      "decidedAt": 1777687385726,
+      "rationale": "This discusses product quality and subscription sign-in, not limits or a usage cap reset.",
+      "tweetId": "2050395190847066270",
+      "tweetUrl": "https://x.com/thsottiaux/status/2050395190847066270",
+      "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2050388525619790234",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2050388525619790234",
+    "lastSeenTweetId": "2050395190847066270",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2050395190847066270",
     "pendingReview": {
       "confidence": 0.98,
       "createdAt": 1777685824818,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2050388525619790234"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1777687385726,
+        "inputTokens": 453,
+        "outputTokens": 125,
+        "rationale": "This discusses product quality and subscription sign-in, not limits or a usage cap reset.",
+        "reasoningTokens": 80,
+        "totalTokens": 578,
+        "tweetId": "2050395190847066270",
+        "tweetText": "It's also become super good after all the @steipete cooking over the last week or so. I've had the best experience with GPT-5.5 so far, it's night and day compared to two weeks ago.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2050395190847066270",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.98,
         "evaluatedAt": 1777685824818,
@@ -279,29 +292,31 @@
         "tweetText": "@giffmana @unixpickle There must have been at least 10 VPs and 3 SVPs involved in this one",
         "tweetUrl": "https://x.com/thsottiaux/status/2050289252878238122",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.98,
-        "evaluatedAt": 1777661881292,
-        "inputTokens": 363,
-        "outputTokens": 150,
-        "rationale": "This reply is just an emoji reaction and does not indicate any rate limit reset.",
-        "reasoningTokens": 106,
-        "totalTokens": 513,
-        "tweetId": "2050288176980439441",
-        "tweetText": "@flavioAd @ajambrosino 👀",
-        "tweetUrl": "https://x.com/thsottiaux/status/2050288176980439441",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 107906,
-      "totalOutputTokens": 30424,
-      "totalReasoningTokens": 16520,
-      "totalTokens": 138330
+      "totalInputTokens": 108359,
+      "totalOutputTokens": 30549,
+      "totalReasoningTokens": 16600,
+      "totalTokens": 138908
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1777687385726,
+      "inputTokens": 453,
+      "message": "",
+      "outputTokens": 125,
+      "rationale": "This discusses product quality and subscription sign-in, not limits or a usage cap reset.",
+      "reasoningTokens": 80,
+      "totalTokens": 578,
+      "tweetId": "2050395190847066270",
+      "tweetText": "It's also become super good after all the @steipete cooking over the last week or so. I've had the best experience with GPT-5.5 so far, it's night and day compared to two weeks ago.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2050395190847066270",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.98,
       "createdAt": 1777685824818,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2050055986828952035",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.95,
-      "createdAt": 1777606420673,
-      "inputTokens": 361,
-      "message": "",
-      "outputTokens": 135,
-      "rationale": "This reply is too context-dependent to tell whether any limit has actually reset.",
-      "reasoningTokens": 92,
-      "totalTokens": 496,
-      "tweetId": "2050055615997935627",
-      "tweetText": "@Junljm Technically… it could",
-      "tweetUrl": "https://x.com/thsottiaux/status/2050055615997935627",
-      "type": "review_requested",
-      "verdict": "uncertain"
     }
   ],
   "privateState": {
-    "ciphertext": "JOMotSzs-uK8aT1anEJ1JZ4HnNYF0YDnU6lpVBzihvsFgg4NUtQQbEqPdw",
-    "iv": "iq2kqjzkwR_tFT39",
-    "tag": "dkwnVgqylsD307MTHmDXgA",
+    "ciphertext": "_qUR3WmiEsHrmBH2D6HDw54AE2E5e0R0_XqoudN3lQczT6iVqoxmxVmQ5Q",
+    "iv": "mUgJAMuyZ9kdt7LA",
+    "tag": "7ewWP_LDjBbkYS9l2wAk2A",
     "version": 1
   }
 }
