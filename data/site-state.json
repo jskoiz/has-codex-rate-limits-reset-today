@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1777705032908,
-      "rationale": "This reply is just a suggestion and says nothing about limits or a reset.",
-      "tweetId": "2050469106571497713",
-      "tweetUrl": "https://x.com/thsottiaux/status/2050469106571497713",
+      "decidedAt": 1777705658743,
+      "rationale": "This reply is just a joke and does not mention limits, caps, or usage becoming available again.",
+      "tweetId": "2050472145139208599",
+      "tweetUrl": "https://x.com/thsottiaux/status/2050472145139208599",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2050469106571497713",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2050469106571497713",
+    "lastSeenTweetId": "2050472145139208599",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2050472145139208599",
     "pendingReview": {
       "confidence": 0.98,
       "createdAt": 1777685824818,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2050388525619790234"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1777705658743,
+        "inputTokens": 369,
+        "outputTokens": 81,
+        "rationale": "This reply is just a joke and does not mention limits, caps, or usage becoming available again.",
+        "reasoningTokens": 33,
+        "totalTokens": 450,
+        "tweetId": "2050472145139208599",
+        "tweetText": "@dennis_inj @sama Why does sama look like your codex pet",
+        "tweetUrl": "https://x.com/thsottiaux/status/2050472145139208599",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1777705032908,
@@ -279,29 +292,31 @@
         "tweetText": "@Matthew_AMS @OpenAIDevs cc @ajambrosino",
         "tweetUrl": "https://x.com/thsottiaux/status/2050316748424106323",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1777669030426,
-        "inputTokens": 368,
-        "outputTokens": 60,
-        "rationale": "This is a pronunciation joke and says nothing about limits or resets.",
-        "reasoningTokens": 19,
-        "totalTokens": 428,
-        "tweetId": "2050316660519870937",
-        "tweetText": "Please don't pronounce Codex, COD-ex. We are also not a fish.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2050316660519870937",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 110652,
-      "totalOutputTokens": 31088,
-      "totalReasoningTokens": 16868,
-      "totalTokens": 141740
+      "totalInputTokens": 111021,
+      "totalOutputTokens": 31169,
+      "totalReasoningTokens": 16901,
+      "totalTokens": 142190
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1777705658743,
+      "inputTokens": 369,
+      "message": "",
+      "outputTokens": 81,
+      "rationale": "This reply is just a joke and does not mention limits, caps, or usage becoming available again.",
+      "reasoningTokens": 33,
+      "totalTokens": 450,
+      "tweetId": "2050472145139208599",
+      "tweetText": "@dennis_inj @sama Why does sama look like your codex pet",
+      "tweetUrl": "https://x.com/thsottiaux/status/2050472145139208599",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1777705032908,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2050070488249200784",
       "type": "review_requested",
       "verdict": "uncertain"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1777607956443,
-      "inputTokens": 364,
-      "message": "",
-      "outputTokens": 85,
-      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-      "reasoningTokens": 41,
-      "totalTokens": 449,
-      "tweetId": "2050060661460521126",
-      "tweetText": "@riadbenguella At least share your wisdom with me",
-      "tweetUrl": "https://x.com/thsottiaux/status/2050060661460521126",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "tB2OE7xbLL9RM5mfjolW2xhkkvwDvgdyDiVo68CoXVs3pNP2o_80bxbSRA",
-    "iv": "kP4ABJ-UXvbirN_O",
-    "tag": "D7N-q3KURtyRgnhvGAJ_eA",
+    "ciphertext": "Wm6p7FGtEuhFCq3j9Dq9uYwOP_l_K_uYR8CC79MqfauCJFirNyXAh1MrPg",
+    "iv": "CTu7sKw5bEAs-g5d",
+    "tag": "dAia7nRJkYbVk0falaHT3w",
     "version": 1
   }
 }
