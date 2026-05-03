@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1777705968632,
-      "rationale": "This reply only says “GPT-5.5” and does not mention limits or a reset.",
-      "tweetId": "2050473330000777261",
-      "tweetUrl": "https://x.com/thsottiaux/status/2050473330000777261",
+      "decidedAt": 1777786715874,
+      "rationale": "This post discusses a Codex feature and says nothing about usage limits or resets.",
+      "tweetId": "2050811900062286168",
+      "tweetUrl": "https://x.com/thsottiaux/status/2050811900062286168",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2050473330000777261",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2050473330000777261",
+    "lastSeenTweetId": "2050811900062286168",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2050811900062286168",
     "pendingReview": {
       "confidence": 0.98,
       "createdAt": 1777685824818,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2050388525619790234"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1777786715874,
+        "inputTokens": 377,
+        "outputTokens": 84,
+        "rationale": "This post discusses a Codex feature and says nothing about usage limits or resets.",
+        "reasoningTokens": 40,
+        "totalTokens": 461,
+        "tweetId": "2050811900062286168",
+        "tweetText": "/goal might be the most consequential thing we have shipped in codex\n\nThe value of good instructions has never been higher.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2050811900062286168",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1777705968632,
@@ -279,29 +292,31 @@
         "tweetText": "@thdxr OHH-PEN-COD-e",
         "tweetUrl": "https://x.com/thsottiaux/status/2050318223204384975",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1777669036134,
-        "inputTokens": 359,
-        "outputTokens": 60,
-        "rationale": "This is just a conversational reply and does not mention limits or availability resetting.",
-        "reasoningTokens": 17,
-        "totalTokens": 419,
-        "tweetId": "2050317079048499704",
-        "tweetText": "@Dimillian Oddly specific pet",
-        "tweetUrl": "https://x.com/thsottiaux/status/2050317079048499704",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 111383,
-      "totalOutputTokens": 31271,
-      "totalReasoningTokens": 16955,
-      "totalTokens": 142654
+      "totalInputTokens": 111760,
+      "totalOutputTokens": 31355,
+      "totalReasoningTokens": 16995,
+      "totalTokens": 143115
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1777786715874,
+      "inputTokens": 377,
+      "message": "",
+      "outputTokens": 84,
+      "rationale": "This post discusses a Codex feature and says nothing about usage limits or resets.",
+      "reasoningTokens": 40,
+      "totalTokens": 461,
+      "tweetId": "2050811900062286168",
+      "tweetText": "/goal might be the most consequential thing we have shipped in codex\n\nThe value of good instructions has never been higher.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2050811900062286168",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1777705968632,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2050077409022771448",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1777610751915,
-      "inputTokens": 360,
-      "message": "",
-      "outputTokens": 91,
-      "rationale": "This reply is just a reaction and says nothing about limits or a reset.",
-      "reasoningTokens": 48,
-      "totalTokens": 451,
-      "tweetId": "2050073620643463668",
-      "tweetText": "@corbin_braun Oof",
-      "tweetUrl": "https://x.com/thsottiaux/status/2050073620643463668",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "m8jZJZSHc0ESx90N5zJFtH9MLYPmD-ZJu7Zy6-QKwizF4wyfyMdz3rBtGA",
-    "iv": "sktzQjTxdBBggFji",
-    "tag": "ttmfngrOIwGGDj70dTcyzQ",
+    "ciphertext": "Su27-qkuFt0TIywtGxP0ybEYuG0I1jcQ2J2aRB6xGif47K9DdVePDcDNsg",
+    "iv": "2Zw-9xk-Hd66qYdY",
+    "tag": "DrJrwG_j98UJ0o5Spt_g_g",
     "version": 1
   }
 }
