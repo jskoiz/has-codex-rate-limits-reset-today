@@ -14,16 +14,16 @@
   "updatedAt": 1777403745925,
   "automation": {
     "lastDecision": {
-      "confidence": 0.98,
-      "decidedAt": 1777834844700,
-      "rationale": "This is just a conversational reply and does not indicate any limit or rate-cap reset.",
-      "tweetId": "2051014044203786739",
-      "tweetUrl": "https://x.com/thsottiaux/status/2051014044203786739",
+      "confidence": 0.99,
+      "decidedAt": 1777835152304,
+      "rationale": "This reply is conversational and does not mention limits, caps, or usage being available again.",
+      "tweetId": "2051014214668701944",
+      "tweetUrl": "https://x.com/thsottiaux/status/2051014214668701944",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2051014044203786739",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2051014044203786739",
+    "lastSeenTweetId": "2051014214668701944",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2051014214668701944",
     "pendingReview": {
       "confidence": 0.98,
       "createdAt": 1777685824818,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2050388525619790234"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1777835152304,
+        "inputTokens": 360,
+        "outputTokens": 76,
+        "rationale": "This reply is conversational and does not mention limits, caps, or usage being available again.",
+        "reasoningTokens": 30,
+        "totalTokens": 436,
+        "tweetId": "2051014214668701944",
+        "tweetText": "@robinebers Excuse our shipping",
+        "tweetUrl": "https://x.com/thsottiaux/status/2051014214668701944",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.98,
         "evaluatedAt": 1777834844700,
@@ -279,29 +292,31 @@
         "tweetText": "@embirico @ajambrosino Big ask",
         "tweetUrl": "https://x.com/thsottiaux/status/2050437983204172090",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1777697334440,
-        "inputTokens": 476,
-        "outputTokens": 92,
-        "rationale": "This reply and its quoted post discuss a Codex workflow and do not mention limits or a reset.",
-        "reasoningTokens": 44,
-        "totalTokens": 568,
-        "tweetId": "2050436986914431179",
-        "tweetText": "@ajambrosino https://t.co/FCHGiZbbB2",
-        "tweetUrl": "https://x.com/thsottiaux/status/2050436986914431179",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 116625,
-      "totalOutputTokens": 32543,
-      "totalReasoningTokens": 17593,
-      "totalTokens": 149168
+      "totalInputTokens": 116985,
+      "totalOutputTokens": 32619,
+      "totalReasoningTokens": 17623,
+      "totalTokens": 149604
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1777835152304,
+      "inputTokens": 360,
+      "message": "",
+      "outputTokens": 76,
+      "rationale": "This reply is conversational and does not mention limits, caps, or usage being available again.",
+      "reasoningTokens": 30,
+      "totalTokens": 436,
+      "tweetId": "2051014214668701944",
+      "tweetText": "@robinebers Excuse our shipping",
+      "tweetUrl": "https://x.com/thsottiaux/status/2051014214668701944",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.98,
       "createdAt": 1777834844700,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2050313328145367077",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1777667783516,
-      "inputTokens": 365,
-      "message": "",
-      "outputTokens": 83,
-      "rationale": "This reply is conversational and does not indicate any Codex or ChatGPT limits have reset.",
-      "reasoningTokens": 37,
-      "totalTokens": 448,
-      "tweetId": "2050312411803197549",
-      "tweetText": "@guinnesschen What in the codex is happening here",
-      "tweetUrl": "https://x.com/thsottiaux/status/2050312411803197549",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "E0PA6BLgGQi4tK9L-ajcmgfIe6hFByeFi0lw7VSAMGsymtdASlF-tRVVaQ",
-    "iv": "NTuOyKJVLxYHrdH5",
-    "tag": "yCiCEQIbRjsFjZ3BsOCBIw",
+    "ciphertext": "brVEA4DAF5Ee7BQdJc4sMlCRmF3Fql3rwTqjyTlLoyeZeHTIc_6qsTkgaA",
+    "iv": "iF1BPg56ScrMkrC2",
+    "tag": "gu2LI_gHiiwEPHufUIsCiw",
     "version": 1
   }
 }
