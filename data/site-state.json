@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1777787014306,
-      "rationale": "This reply is a vague future-looking statement and does not say any limit or cap has reset now.",
-      "tweetId": "2050812533091807335",
-      "tweetUrl": "https://x.com/thsottiaux/status/2050812533091807335",
+      "decidedAt": 1777787017587,
+      "rationale": "This reply is just conversational about Codex and does not mention limits or a reset.",
+      "tweetId": "2050813336821141718",
+      "tweetUrl": "https://x.com/thsottiaux/status/2050813336821141718",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2050812533091807335",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2050812533091807335",
+    "lastSeenTweetId": "2050813336821141718",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2050813336821141718",
     "pendingReview": {
       "confidence": 0.98,
       "createdAt": 1777685824818,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2050388525619790234"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1777787017587,
+        "inputTokens": 374,
+        "outputTokens": 98,
+        "rationale": "This reply is just conversational about Codex and does not mention limits or a reset.",
+        "reasoningTokens": 53,
+        "totalTokens": 472,
+        "tweetId": "2050813336821141718",
+        "tweetText": "@BrianMRey Don’t worry, Codex doesn’t care and will code for you all the same",
+        "tweetUrl": "https://x.com/thsottiaux/status/2050813336821141718",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1777787014306,
@@ -279,29 +292,31 @@
         "tweetText": "@Dimillian Not so sneaky if you post about it",
         "tweetUrl": "https://x.com/thsottiaux/status/2050323047790641527",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1777670310579,
-        "inputTokens": 365,
-        "outputTokens": 111,
-        "rationale": "This reply says the user hit a usage limit, not that any limit has reset.",
-        "reasoningTokens": 66,
-        "totalTokens": 476,
-        "tweetId": "2050322760241717458",
-        "tweetText": "@nima_ab Did you know that you've hit your usage limit?",
-        "tweetUrl": "https://x.com/thsottiaux/status/2050322760241717458",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 112123,
-      "totalOutputTokens": 31438,
-      "totalReasoningTokens": 17030,
-      "totalTokens": 143561
+      "totalInputTokens": 112497,
+      "totalOutputTokens": 31536,
+      "totalReasoningTokens": 17083,
+      "totalTokens": 144033
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1777787017587,
+      "inputTokens": 374,
+      "message": "",
+      "outputTokens": 98,
+      "rationale": "This reply is just conversational about Codex and does not mention limits or a reset.",
+      "reasoningTokens": 53,
+      "totalTokens": 472,
+      "tweetId": "2050813336821141718",
+      "tweetText": "@BrianMRey Don’t worry, Codex doesn’t care and will code for you all the same",
+      "tweetUrl": "https://x.com/thsottiaux/status/2050813336821141718",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1777787014306,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2050224016460595397",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1777646338833,
-      "inputTokens": 364,
-      "message": "",
-      "outputTokens": 84,
-      "rationale": "This reply is conversational and says nothing about limits, caps, or usage resetting.",
-      "reasoningTokens": 40,
-      "totalTokens": 448,
-      "tweetId": "2050222981587341558",
-      "tweetText": "@ogonu_sharrykay Good idea for the Netflix show",
-      "tweetUrl": "https://x.com/thsottiaux/status/2050222981587341558",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "Ny2Ww7aqPAZtzRFTNHFm-KuvJMjBxBfXhUq2Gh9TkYt1DxLxBdWTjzzcOg",
-    "iv": "wzp2X30CHA-mK-Ye",
-    "tag": "OLTqjK4kodyvIBERmstnig",
+    "ciphertext": "CusZAwFfMR2pcp8vJ-n0fOFzMzQxqRtDgzMkW2-fgrhAkC3h9Wvmvr59eg",
+    "iv": "IqzuUWU70UnFkEeH",
+    "tag": "ENRGZxnNselbpetV2schMg",
     "version": 1
   }
 }
