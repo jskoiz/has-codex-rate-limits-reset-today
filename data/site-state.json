@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1777788262800,
-      "rationale": "This reply is conversational and does not mention limits, caps, or usage becoming available again.",
-      "tweetId": "2050818132571472152",
-      "tweetUrl": "https://x.com/thsottiaux/status/2050818132571472152",
+      "decidedAt": 1777789201287,
+      "rationale": "This reply only says \"Codex\" and does not mention limits, caps, or a reset.",
+      "tweetId": "2050821959236407562",
+      "tweetUrl": "https://x.com/thsottiaux/status/2050821959236407562",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2050818132571472152",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2050818132571472152",
+    "lastSeenTweetId": "2050821959236407562",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2050821959236407562",
     "pendingReview": {
       "confidence": 0.98,
       "createdAt": 1777685824818,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2050388525619790234"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1777789201287,
+        "inputTokens": 358,
+        "outputTokens": 74,
+        "rationale": "This reply only says \"Codex\" and does not mention limits, caps, or a reset.",
+        "reasoningTokens": 26,
+        "totalTokens": 432,
+        "tweetId": "2050821959236407562",
+        "tweetText": "@RoundtableSpace Codex",
+        "tweetUrl": "https://x.com/thsottiaux/status/2050821959236407562",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1777788262800,
@@ -279,29 +292,31 @@
         "tweetText": "@flavioAd Aaaaand it took only 4 hours. I lost my bet.",
         "tweetUrl": "https://x.com/thsottiaux/status/2050357674576085448",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.97,
-        "evaluatedAt": 1777675296962,
-        "inputTokens": 360,
-        "outputTokens": 139,
-        "rationale": "This is just a conversational reply and does not mention limits, caps, or availability resetting.",
-        "reasoningTokens": 93,
-        "totalTokens": 499,
-        "tweetId": "2050343723557691568",
-        "tweetText": "@CastAsHuman How did you know",
-        "tweetUrl": "https://x.com/thsottiaux/status/2050343723557691568",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 114322,
-      "totalOutputTokens": 31966,
-      "totalReasoningTokens": 17291,
-      "totalTokens": 146288
+      "totalInputTokens": 114680,
+      "totalOutputTokens": 32040,
+      "totalReasoningTokens": 17317,
+      "totalTokens": 146720
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1777789201287,
+      "inputTokens": 358,
+      "message": "",
+      "outputTokens": 74,
+      "rationale": "This reply only says \"Codex\" and does not mention limits, caps, or a reset.",
+      "reasoningTokens": 26,
+      "totalTokens": 432,
+      "tweetId": "2050821959236407562",
+      "tweetText": "@RoundtableSpace Codex",
+      "tweetUrl": "https://x.com/thsottiaux/status/2050821959236407562",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1777788262800,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2050285561378963757",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1777661250888,
-      "inputTokens": 361,
-      "message": "",
-      "outputTokens": 79,
-      "rationale": "This reply is unrelated to Codex or ChatGPT limits resetting.",
-      "reasoningTokens": 38,
-      "totalTokens": 440,
-      "tweetId": "2050285395364241670",
-      "tweetText": "@rahulkemail You can create your own",
-      "tweetUrl": "https://x.com/thsottiaux/status/2050285395364241670",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "Ru_0HUVRJ1BAhGGeB8qTBAcik7jH3fgGj3twelDM8_4jjHZhbQfa1WpJ-A",
-    "iv": "PbPlXbDQUDePoNCI",
-    "tag": "bu2y7dy8c4sq1bbMDhSz2g",
+    "ciphertext": "zYhjl7waBeKGoTsK47yY8fTqdOaxvSTXE-5jk7LcWIAtpfRSPPldV8qR6A",
+    "iv": "tBQ9N-NhMGP4RszF",
+    "tag": "7QdBcVMohV7gq0seXEPzyQ",
     "version": 1
   }
 }
