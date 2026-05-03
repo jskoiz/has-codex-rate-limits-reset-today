@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1777787017587,
-      "rationale": "This reply is just conversational about Codex and does not mention limits or a reset.",
-      "tweetId": "2050813336821141718",
-      "tweetUrl": "https://x.com/thsottiaux/status/2050813336821141718",
+      "decidedAt": 1777787344860,
+      "rationale": "This reply is unrelated to rate limits or usage resets.",
+      "tweetId": "2050814317294244144",
+      "tweetUrl": "https://x.com/thsottiaux/status/2050814317294244144",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2050813336821141718",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2050813336821141718",
+    "lastSeenTweetId": "2050814317294244144",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2050814317294244144",
     "pendingReview": {
       "confidence": 0.98,
       "createdAt": 1777685824818,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2050388525619790234"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1777787344860,
+        "inputTokens": 361,
+        "outputTokens": 76,
+        "rationale": "This reply is unrelated to rate limits or usage resets.",
+        "reasoningTokens": 37,
+        "totalTokens": 437,
+        "tweetId": "2050814317294244144",
+        "tweetText": "@ryanvogel I will find you",
+        "tweetUrl": "https://x.com/thsottiaux/status/2050814317294244144",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1777787017587,
@@ -279,29 +292,31 @@
         "tweetText": "@initjean Calm down, calm down. It's good, but not THAT good.",
         "tweetUrl": "https://x.com/thsottiaux/status/2050323586372821270",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1777670314851,
-        "inputTokens": 364,
-        "outputTokens": 76,
-        "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-        "reasoningTokens": 32,
-        "totalTokens": 440,
-        "tweetId": "2050323047790641527",
-        "tweetText": "@Dimillian Not so sneaky if you post about it",
-        "tweetUrl": "https://x.com/thsottiaux/status/2050323047790641527",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 112497,
-      "totalOutputTokens": 31536,
-      "totalReasoningTokens": 17083,
-      "totalTokens": 144033
+      "totalInputTokens": 112858,
+      "totalOutputTokens": 31612,
+      "totalReasoningTokens": 17120,
+      "totalTokens": 144470
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1777787344860,
+      "inputTokens": 361,
+      "message": "",
+      "outputTokens": 76,
+      "rationale": "This reply is unrelated to rate limits or usage resets.",
+      "reasoningTokens": 37,
+      "totalTokens": 437,
+      "tweetId": "2050814317294244144",
+      "tweetText": "@ryanvogel I will find you",
+      "tweetUrl": "https://x.com/thsottiaux/status/2050814317294244144",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1777787017587,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2050224268257235046",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1777646639770,
-      "inputTokens": 364,
-      "message": "",
-      "outputTokens": 89,
-      "rationale": "This reply does not mention limits, caps, availability, or any reset.",
-      "reasoningTokens": 46,
-      "totalTokens": 453,
-      "tweetId": "2050224016460595397",
-      "tweetText": "@hadi_hlk Abdul! You’re making this up!",
-      "tweetUrl": "https://x.com/thsottiaux/status/2050224016460595397",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "CusZAwFfMR2pcp8vJ-n0fOFzMzQxqRtDgzMkW2-fgrhAkC3h9Wvmvr59eg",
-    "iv": "IqzuUWU70UnFkEeH",
-    "tag": "ENRGZxnNselbpetV2schMg",
+    "ciphertext": "scWSRCpN0i5sG9favu_RBveXqC0_uJ5L2HAYaf9CMpMjSxt_havUPD0VNg",
+    "iv": "m0FCjowT_-OWlpr3",
+    "tag": "PnFmJSpcWSiwB1RWJp0TqA",
     "version": 1
   }
 }
