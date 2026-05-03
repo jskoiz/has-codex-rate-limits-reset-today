@@ -14,16 +14,16 @@
   "updatedAt": 1777403745925,
   "automation": {
     "lastDecision": {
-      "confidence": 0.98,
-      "decidedAt": 1777787956828,
-      "rationale": "This reply talks about using the Codex app, not about limits or a reset.",
-      "tweetId": "2050817218246774907",
-      "tweetUrl": "https://x.com/thsottiaux/status/2050817218246774907",
+      "confidence": 0.99,
+      "decidedAt": 1777787960291,
+      "rationale": "This reply is just conversational feedback and does not mention limits, caps, or a reset.",
+      "tweetId": "2050817413491659174",
+      "tweetUrl": "https://x.com/thsottiaux/status/2050817413491659174",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2050817218246774907",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2050817218246774907",
+    "lastSeenTweetId": "2050817413491659174",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2050817413491659174",
     "pendingReview": {
       "confidence": 0.98,
       "createdAt": 1777685824818,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2050388525619790234"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1777787960291,
+        "inputTokens": 366,
+        "outputTokens": 95,
+        "rationale": "This reply is just conversational feedback and does not mention limits, caps, or a reset.",
+        "reasoningTokens": 49,
+        "totalTokens": 461,
+        "tweetId": "2050817413491659174",
+        "tweetText": "@morganlinton Tell me how it goes, keen to improve!",
+        "tweetUrl": "https://x.com/thsottiaux/status/2050817413491659174",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.98,
         "evaluatedAt": 1777787956828,
@@ -279,29 +292,31 @@
         "tweetText": "@KevinNaughtonJr Install codex and get your destiny back on track",
         "tweetUrl": "https://x.com/thsottiaux/status/2050343485925126572",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.75,
-        "evaluatedAt": 1777674987908,
-        "inputTokens": 359,
-        "outputTokens": 270,
-        "rationale": "A brief reply saying \"Still early\" does not clearly indicate that any limit or cap has reset.",
-        "reasoningTokens": 222,
-        "totalTokens": 629,
-        "tweetId": "2050342995560722705",
-        "tweetText": "@eliana_jordan Still early",
-        "tweetUrl": "https://x.com/thsottiaux/status/2050342995560722705",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 113592,
-      "totalOutputTokens": 31793,
-      "totalReasoningTokens": 17210,
-      "totalTokens": 145385
+      "totalInputTokens": 113958,
+      "totalOutputTokens": 31888,
+      "totalReasoningTokens": 17259,
+      "totalTokens": 145846
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1777787960291,
+      "inputTokens": 366,
+      "message": "",
+      "outputTokens": 95,
+      "rationale": "This reply is just conversational feedback and does not mention limits, caps, or a reset.",
+      "reasoningTokens": 49,
+      "totalTokens": 461,
+      "tweetId": "2050817413491659174",
+      "tweetText": "@morganlinton Tell me how it goes, keen to improve!",
+      "tweetUrl": "https://x.com/thsottiaux/status/2050817413491659174",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.98,
       "createdAt": 1777787956828,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2050285339114459600",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1777660010729,
-      "inputTokens": 468,
-      "message": "",
-      "outputTokens": 82,
-      "rationale": "This post is about a Codex pet feature, not rate limits or caps resetting.",
-      "reasoningTokens": 37,
-      "totalTokens": 550,
-      "tweetId": "2050280111820406795",
-      "tweetText": "Hatch a pet now in a codex app near you. It makes me actually more productive too by having the context follow me around as I multitask.\n\nPlease no comments on us having too much fun, we are also working on capability maxing 👀",
-      "tweetUrl": "https://x.com/thsottiaux/status/2050280111820406795",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "98A83G6rA2S1oYAmcEWrOncV6aaZuAxPVxDOyLZ3kv4jPFlG-fjGUvr9pg",
-    "iv": "7RPSdD-3bxqXWnjS",
-    "tag": "YOdDc4It2DjlDNkWwN5k7w",
+    "ciphertext": "y1aje7YP0rgdiCJvHw3zyQOrh3lVyV-JMqIv3bxe5e_Q6hVnGc-_EYoW2Q",
+    "iv": "-EIpU-lCaZe71_FD",
+    "tag": "Q_59FGPhB3tJpEWqK36ycg",
     "version": 1
   }
 }
