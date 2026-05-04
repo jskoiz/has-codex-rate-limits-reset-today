@@ -14,16 +14,16 @@
   "updatedAt": 1777403745925,
   "automation": {
     "lastDecision": {
-      "confidence": 0.95,
-      "decidedAt": 1777875787372,
-      "rationale": "This reply is too context-free to tell whether it refers to a rate-limit reset.",
-      "tweetId": "2051185035395596695",
-      "tweetUrl": "https://x.com/thsottiaux/status/2051185035395596695",
-      "verdict": "uncertain"
+      "confidence": 0.99,
+      "decidedAt": 1777876104680,
+      "rationale": "This reply is just conversational and does not mention limits, caps, or availability returning.",
+      "tweetId": "2051185822137991296",
+      "tweetUrl": "https://x.com/thsottiaux/status/2051185822137991296",
+      "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2051185035395596695",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2051185035395596695",
+    "lastSeenTweetId": "2051185822137991296",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2051185822137991296",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1777875787372,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2051185035395596695"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1777876104680,
+        "inputTokens": 362,
+        "outputTokens": 70,
+        "rationale": "This reply is just conversational and does not mention limits, caps, or availability returning.",
+        "reasoningTokens": 25,
+        "totalTokens": 432,
+        "tweetId": "2051185822137991296",
+        "tweetText": "@Enscion25 We are professionals at naming",
+        "tweetUrl": "https://x.com/thsottiaux/status/2051185822137991296",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.95,
         "evaluatedAt": 1777875787372,
@@ -279,29 +292,31 @@
         "tweetText": "@gao_zibo All of this and more is coming",
         "tweetUrl": "https://x.com/thsottiaux/status/2050812533091807335",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1777786715874,
-        "inputTokens": 377,
-        "outputTokens": 84,
-        "rationale": "This post discusses a Codex feature and says nothing about usage limits or resets.",
-        "reasoningTokens": 40,
-        "totalTokens": 461,
-        "tweetId": "2050811900062286168",
-        "tweetText": "/goal might be the most consequential thing we have shipped in codex\n\nThe value of good instructions has never been higher.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2050811900062286168",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 118791,
-      "totalOutputTokens": 33250,
-      "totalReasoningTokens": 18025,
-      "totalTokens": 152041
+      "totalInputTokens": 119153,
+      "totalOutputTokens": 33320,
+      "totalReasoningTokens": 18050,
+      "totalTokens": 152473
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1777876104680,
+      "inputTokens": 362,
+      "message": "",
+      "outputTokens": 70,
+      "rationale": "This reply is just conversational and does not mention limits, caps, or availability returning.",
+      "reasoningTokens": 25,
+      "totalTokens": 432,
+      "tweetId": "2051185822137991296",
+      "tweetText": "@Enscion25 We are professionals at naming",
+      "tweetUrl": "https://x.com/thsottiaux/status/2051185822137991296",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.95,
       "createdAt": 1777875787372,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2050318223204384975",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1777669036134,
-      "inputTokens": 359,
-      "message": "",
-      "outputTokens": 60,
-      "rationale": "This is just a conversational reply and does not mention limits or availability resetting.",
-      "reasoningTokens": 17,
-      "totalTokens": 419,
-      "tweetId": "2050317079048499704",
-      "tweetText": "@Dimillian Oddly specific pet",
-      "tweetUrl": "https://x.com/thsottiaux/status/2050317079048499704",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "smMbBA16zXMH9O25UOc00nKE1zZOUItfpK8YAgnWBUUQnv5K4wm2tB4Jtw",
-    "iv": "aZfp2eS6Niedwmay",
-    "tag": "vxnopjAIULI5Ecghp60f5w",
+    "ciphertext": "PyMnmv8AW46x00pH439ftNHxkv_h-4y2WAi5gJHqxFg-hxboYzTQELvsrQ",
+    "iv": "bv3bHxwBymCUqPie",
+    "tag": "ihi8PK9f4Vh7i0xcGxmJzg",
     "version": 1
   }
 }
