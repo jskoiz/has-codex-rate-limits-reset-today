@@ -14,25 +14,38 @@
   "updatedAt": 1777403745925,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1777875780646,
-      "rationale": "This reply is conversational and does not mention any limits, caps, or reset.",
-      "tweetId": "2051184872287523273",
-      "tweetUrl": "https://x.com/thsottiaux/status/2051184872287523273",
-      "verdict": "not_reset"
+      "confidence": 0.95,
+      "decidedAt": 1777875787372,
+      "rationale": "This reply is too context-free to tell whether it refers to a rate-limit reset.",
+      "tweetId": "2051185035395596695",
+      "tweetUrl": "https://x.com/thsottiaux/status/2051185035395596695",
+      "verdict": "uncertain"
     },
     "lastError": null,
-    "lastSeenTweetId": "2051184872287523273",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2051184872287523273",
+    "lastSeenTweetId": "2051185035395596695",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2051185035395596695",
     "pendingReview": {
-      "confidence": 0.98,
-      "createdAt": 1777685824818,
-      "rationale": "The post contains only a link, so it does not clearly say that limits have reset.",
-      "tweetId": "2050388525619790234",
-      "tweetText": "https://t.co/G6wBWB9Lu5",
-      "tweetUrl": "https://x.com/thsottiaux/status/2050388525619790234"
+      "confidence": 0.95,
+      "createdAt": 1777875787372,
+      "rationale": "This reply is too context-free to tell whether it refers to a rate-limit reset.",
+      "tweetId": "2051185035395596695",
+      "tweetText": "@kr0der Yes?",
+      "tweetUrl": "https://x.com/thsottiaux/status/2051185035395596695"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.95,
+        "evaluatedAt": 1777875787372,
+        "inputTokens": 357,
+        "outputTokens": 287,
+        "rationale": "This reply is too context-free to tell whether it refers to a rate-limit reset.",
+        "reasoningTokens": 242,
+        "totalTokens": 644,
+        "tweetId": "2051185035395596695",
+        "tweetText": "@kr0der Yes?",
+        "tweetUrl": "https://x.com/thsottiaux/status/2051185035395596695",
+        "verdict": "uncertain"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1777875780646,
@@ -279,29 +292,31 @@
         "tweetText": "/goal might be the most consequential thing we have shipped in codex\n\nThe value of good instructions has never been higher.",
         "tweetUrl": "https://x.com/thsottiaux/status/2050811900062286168",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1777705968632,
-        "inputTokens": 362,
-        "outputTokens": 102,
-        "rationale": "This reply only says “GPT-5.5” and does not mention limits or a reset.",
-        "reasoningTokens": 54,
-        "totalTokens": 464,
-        "tweetId": "2050473330000777261",
-        "tweetText": "@benedictk__ GPT-5.5",
-        "tweetUrl": "https://x.com/thsottiaux/status/2050473330000777261",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 118434,
-      "totalOutputTokens": 32963,
-      "totalReasoningTokens": 17783,
-      "totalTokens": 151397
+      "totalInputTokens": 118791,
+      "totalOutputTokens": 33250,
+      "totalReasoningTokens": 18025,
+      "totalTokens": 152041
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.95,
+      "createdAt": 1777875787372,
+      "inputTokens": 357,
+      "message": "",
+      "outputTokens": 287,
+      "rationale": "This reply is too context-free to tell whether it refers to a rate-limit reset.",
+      "reasoningTokens": 242,
+      "totalTokens": 644,
+      "tweetId": "2051185035395596695",
+      "tweetText": "@kr0der Yes?",
+      "tweetUrl": "https://x.com/thsottiaux/status/2051185035395596695",
+      "type": "review_requested",
+      "verdict": "uncertain"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1777875780646,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2050317079048499704",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1777669033262,
-      "inputTokens": 368,
-      "message": "",
-      "outputTokens": 75,
-      "rationale": "This reply only mentions accounts and gives no indication that any limits have reset.",
-      "reasoningTokens": 32,
-      "totalTokens": 443,
-      "tweetId": "2050316748424106323",
-      "tweetText": "@Matthew_AMS @OpenAIDevs cc @ajambrosino",
-      "tweetUrl": "https://x.com/thsottiaux/status/2050316748424106323",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "xkr563YBJTzq9c9PoIzksQ5QgeyCgELMEKnN-ijUrgHvqKGSjvPplKQIqA",
-    "iv": "UlIwehwhF5MXX7mZ",
-    "tag": "IjdIx-mn7xl4Y-MrRZpX2Q",
+    "ciphertext": "smMbBA16zXMH9O25UOc00nKE1zZOUItfpK8YAgnWBUUQnv5K4wm2tB4Jtw",
+    "iv": "aZfp2eS6Niedwmay",
+    "tag": "vxnopjAIULI5Ecghp60f5w",
     "version": 1
   }
 }
