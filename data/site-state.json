@@ -21,7 +21,7 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2051317269385617502",
       "verdict": "not_reset"
     },
-    "lastError": null,
+    "lastError": "Tweet fetch failed: Request failed with status code 404 (Request failed with status code 404)",
     "lastSeenTweetId": "2051317269385617502",
     "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2051317269385617502",
     "pendingReview": {
@@ -302,6 +302,21 @@
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0,
+      "createdAt": 1778015517986,
+      "inputTokens": 0,
+      "message": "Tweet fetch failed: Request failed with status code 404 (Request failed with status code 404)",
+      "outputTokens": 0,
+      "rationale": "",
+      "reasoningTokens": 0,
+      "totalTokens": 0,
+      "tweetId": null,
+      "tweetText": "",
+      "tweetUrl": null,
+      "type": "error",
+      "verdict": null
+    },
     {
       "confidence": 0.99,
       "createdAt": 1777907386268,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2050323586372821270",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1777670314851,
-      "inputTokens": 364,
-      "message": "",
-      "outputTokens": 76,
-      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-      "reasoningTokens": 32,
-      "totalTokens": 440,
-      "tweetId": "2050323047790641527",
-      "tweetText": "@Dimillian Not so sneaky if you post about it",
-      "tweetUrl": "https://x.com/thsottiaux/status/2050323047790641527",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "AQv9CAz3icGwZwKeF_ksnvNDnyRT5XkMCXnVMbLcbprpX9ZYpkIA7pnX9Q",
-    "iv": "fh0lN19zx3ROhI7n",
-    "tag": "aqd1AFBGL8Hai5Zsd-JABA",
+    "ciphertext": "ZVd67O0TChpqzNCgom16sAgqHO4YyJor8PvOobGgoUZpf114eJxSgEXNwA",
+    "iv": "Mkx-7LQ4Qu3rV6qX",
+    "tag": "6UT0upNJ09CYltX_YSercQ",
     "version": 1
   }
 }
