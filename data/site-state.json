@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1778110616532,
-      "rationale": "This is a promotional post about someone using Codex and the API, not about limits resetting.",
-      "tweetId": "2052170738740933090",
-      "tweetUrl": "https://x.com/thsottiaux/status/2052170738740933090",
+      "decidedAt": 1778110923638,
+      "rationale": "This reply is congratulatory and says nothing about limits or a reset.",
+      "tweetId": "2052170878725829111",
+      "tweetUrl": "https://x.com/thsottiaux/status/2052170878725829111",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2052170738740933090",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2052170738740933090",
+    "lastSeenTweetId": "2052170878725829111",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2052170878725829111",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1777875787372,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2051185035395596695"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1778110923638,
+        "inputTokens": 380,
+        "outputTokens": 65,
+        "rationale": "This reply is congratulatory and says nothing about limits or a reset.",
+        "reasoningTokens": 23,
+        "totalTokens": 445,
+        "tweetId": "2052170878725829111",
+        "tweetText": "@KSScenna Congrats to Kyle and ChatGPT Futures, Class of 2026. https://t.co/hzt8OvawOh",
+        "tweetUrl": "https://x.com/thsottiaux/status/2052170878725829111",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1778110616532,
@@ -279,29 +292,31 @@
         "tweetText": "@nadzi_mouad We like to generalize things",
         "tweetUrl": "https://x.com/thsottiaux/status/2050818132571472152",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1777787960291,
-        "inputTokens": 366,
-        "outputTokens": 95,
-        "rationale": "This reply is just conversational feedback and does not mention limits, caps, or a reset.",
-        "reasoningTokens": 49,
-        "totalTokens": 461,
-        "tweetId": "2050817413491659174",
-        "tweetText": "@morganlinton Tell me how it goes, keen to improve!",
-        "tweetUrl": "https://x.com/thsottiaux/status/2050817413491659174",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 121063,
-      "totalOutputTokens": 33778,
-      "totalReasoningTokens": 18283,
-      "totalTokens": 154841
+      "totalInputTokens": 121443,
+      "totalOutputTokens": 33843,
+      "totalReasoningTokens": 18306,
+      "totalTokens": 155286
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1778110923638,
+      "inputTokens": 380,
+      "message": "",
+      "outputTokens": 65,
+      "rationale": "This reply is congratulatory and says nothing about limits or a reset.",
+      "reasoningTokens": 23,
+      "totalTokens": 445,
+      "tweetId": "2052170878725829111",
+      "tweetText": "@KSScenna Congrats to Kyle and ChatGPT Futures, Class of 2026. https://t.co/hzt8OvawOh",
+      "tweetUrl": "https://x.com/thsottiaux/status/2052170878725829111",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1778110616532,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2050357674576085448",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.97,
-      "createdAt": 1777675296962,
-      "inputTokens": 360,
-      "message": "",
-      "outputTokens": 139,
-      "rationale": "This is just a conversational reply and does not mention limits, caps, or availability resetting.",
-      "reasoningTokens": 93,
-      "totalTokens": 499,
-      "tweetId": "2050343723557691568",
-      "tweetText": "@CastAsHuman How did you know",
-      "tweetUrl": "https://x.com/thsottiaux/status/2050343723557691568",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "8DsqgsbT4rZvn8T8vaycpOEz_6bbrVxVBrhafEJfClfyMoj8p9U_uMFkcQ",
-    "iv": "dDbp2dbZRtJodY-n",
-    "tag": "HwSkk1SNV7keDlJ2GezIag",
+    "ciphertext": "fs6nHmS-Irw3ePE7p1I6W-8X4SmX1WsgucRTSa35LJ9SOphp95Uuul9cyQ",
+    "iv": "GJqNX-IRwEc02Ah_",
+    "tag": "fK5iqBXIFmPQs3gRY_Hzdw",
     "version": 1
   }
 }
