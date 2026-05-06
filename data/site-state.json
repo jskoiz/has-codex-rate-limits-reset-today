@@ -21,7 +21,7 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2051778049583264009",
       "verdict": "not_reset"
     },
-    "lastError": null,
+    "lastError": "Tweet fetch failed: Tweet search failed: Request failed with status code 404; timeline fallback failed: Request failed with status code 404 (Request failed with status code 404) (Tweet search failed: Request failed with status code 404; timeline fallback failed: Request failed with status code 404)",
     "lastSeenTweetId": "2051778049583264009",
     "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2051778049583264009",
     "pendingReview": {
@@ -302,6 +302,21 @@
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0,
+      "createdAt": 1778045330758,
+      "inputTokens": 0,
+      "message": "Tweet fetch failed: Tweet search failed: Request failed with status code 404; timeline fallback failed: Request failed with status code 404 (Request failed with status code 404) (Tweet search failed: Request failed with status code 404; timeline fallback failed: Request failed with status code 404)",
+      "outputTokens": 0,
+      "rationale": "",
+      "reasoningTokens": 0,
+      "totalTokens": 0,
+      "tweetId": null,
+      "tweetText": "",
+      "tweetUrl": null,
+      "type": "error",
+      "verdict": null
+    },
     {
       "confidence": 0.99,
       "createdAt": 1778017101354,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2050342995560722705",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1777670325206,
-      "inputTokens": 362,
-      "message": "",
-      "outputTokens": 100,
-      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-      "reasoningTokens": 56,
-      "totalTokens": 462,
-      "tweetId": "2050323804459762079",
-      "tweetText": "@mark_k @OpenAI Someone is paying attention",
-      "tweetUrl": "https://x.com/thsottiaux/status/2050323804459762079",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "M30_VfIG1XHGeJMPnAJXnWWsa_laIEEv1mvUglK0lbg2acsh-sB8Yx5mlw",
-    "iv": "GEQir9SB-WVZLGaW",
-    "tag": "XTdS9pc9NMxxOjRDsEej1g",
+    "ciphertext": "ouv11zGSm8JVbGTZ_wdT4KQ7ATao41JfDSdb9l5-w9EcF1pFllngub9pEg",
+    "iv": "xQuIvjbxK7gRuqZu",
+    "tag": "7pGIU9LnGuhqVS8JlOJ1kw",
     "version": 1
   }
 }
