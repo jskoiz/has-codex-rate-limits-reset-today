@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1778017101354,
-      "rationale": "This is just a conversational reply and does not indicate any limits have reset.",
-      "tweetId": "2051778049583264009",
-      "tweetUrl": "https://x.com/thsottiaux/status/2051778049583264009",
+      "decidedAt": 1778108767187,
+      "rationale": "This is a general product feedback post and does not mention limits, caps, or availability resetting.",
+      "tweetId": "2052162508287570169",
+      "tweetUrl": "https://x.com/thsottiaux/status/2052162508287570169",
       "verdict": "not_reset"
     },
-    "lastError": "Tweet fetch failed: Request failed with status code 404 (Request failed with status code 404)",
-    "lastSeenTweetId": "2051778049583264009",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2051778049583264009",
+    "lastError": null,
+    "lastSeenTweetId": "2052162508287570169",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2052162508287570169",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1777875787372,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2051185035395596695"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1778108767187,
+        "inputTokens": 393,
+        "outputTokens": 88,
+        "rationale": "This is a general product feedback post and does not mention limits, caps, or availability resetting.",
+        "reasoningTokens": 41,
+        "totalTokens": 481,
+        "tweetId": "2052162508287570169",
+        "tweetText": "We are seeing strong traction and working to improve Codex for scientists across mathematics, physics, chemistry, biology and more. \n\nWhat do you wish it were capable of that it cannot do today?",
+        "tweetUrl": "https://x.com/thsottiaux/status/2052162508287570169",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1778017101354,
@@ -279,29 +292,31 @@
         "tweetText": "@larsencc Larsen should open the Codex app and click around and then post again",
         "tweetUrl": "https://x.com/thsottiaux/status/2050817218246774907",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1777787351084,
-        "inputTokens": 363,
-        "outputTokens": 82,
-        "rationale": "This reply is conversational and does not mention limits, caps, or usage becoming available again.",
-        "reasoningTokens": 36,
-        "totalTokens": 445,
-        "tweetId": "2050814755284435369",
-        "tweetText": "@jxnlco All of this for more pets?!",
-        "tweetUrl": "https://x.com/thsottiaux/status/2050814755284435369",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 120240,
-      "totalOutputTokens": 33608,
-      "totalReasoningTokens": 18207,
-      "totalTokens": 153848
+      "totalInputTokens": 120633,
+      "totalOutputTokens": 33696,
+      "totalReasoningTokens": 18248,
+      "totalTokens": 154329
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1778108767187,
+      "inputTokens": 393,
+      "message": "",
+      "outputTokens": 88,
+      "rationale": "This is a general product feedback post and does not mention limits, caps, or availability resetting.",
+      "reasoningTokens": 41,
+      "totalTokens": 481,
+      "tweetId": "2052162508287570169",
+      "tweetText": "We are seeing strong traction and working to improve Codex for scientists across mathematics, physics, chemistry, biology and more. \n\nWhat do you wish it were capable of that it cannot do today?",
+      "tweetUrl": "https://x.com/thsottiaux/status/2052162508287570169",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0,
       "createdAt": 1778108434254,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2050343485925126572",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.75,
-      "createdAt": 1777674987908,
-      "inputTokens": 359,
-      "message": "",
-      "outputTokens": 270,
-      "rationale": "A brief reply saying \"Still early\" does not clearly indicate that any limit or cap has reset.",
-      "reasoningTokens": 222,
-      "totalTokens": 629,
-      "tweetId": "2050342995560722705",
-      "tweetText": "@eliana_jordan Still early",
-      "tweetUrl": "https://x.com/thsottiaux/status/2050342995560722705",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "c9nipUwZ5VDLWO4d1UNr8p9t3Bwi0p-QWBekohcDFMa7JaZwzlFZafKCWA",
-    "iv": "YH8aTTuctlNgsQ0c",
-    "tag": "n1Bpf_BYkIFWE33L7bEqJA",
+    "ciphertext": "4xJ7kZ6TgQA5I68TOo_52raa15NXia6QC98K7AUw2UCu08inVHSq-54l8g",
+    "iv": "U84esVILTymUnvbK",
+    "tag": "dKa7ubpcN9ev7c9KmKKNuw",
     "version": 1
   }
 }
