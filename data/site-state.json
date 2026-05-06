@@ -21,7 +21,7 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2051778049583264009",
       "verdict": "not_reset"
     },
-    "lastError": null,
+    "lastError": "Tweet fetch failed: Request failed with status code 404 (Request failed with status code 404)",
     "lastSeenTweetId": "2051778049583264009",
     "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2051778049583264009",
     "pendingReview": {
@@ -304,6 +304,21 @@
   "automationEvents": [
     {
       "confidence": 0,
+      "createdAt": 1778104429411,
+      "inputTokens": 0,
+      "message": "Tweet fetch failed: Request failed with status code 404 (Request failed with status code 404)",
+      "outputTokens": 0,
+      "rationale": "",
+      "reasoningTokens": 0,
+      "totalTokens": 0,
+      "tweetId": null,
+      "tweetText": "",
+      "tweetUrl": null,
+      "type": "error",
+      "verdict": null
+    },
+    {
+      "confidence": 0,
       "createdAt": 1778045330758,
       "inputTokens": 0,
       "message": "Tweet fetch failed: Tweet search failed: Request failed with status code 404; timeline fallback failed: Request failed with status code 404 (Request failed with status code 404) (Tweet search failed: Request failed with status code 404; timeline fallback failed: Request failed with status code 404)",
@@ -331,21 +346,6 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2051778049583264009",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0,
-      "createdAt": 1778016782955,
-      "inputTokens": 0,
-      "message": "Tweet fetch failed: Request failed with status code 404 (Request failed with status code 404)",
-      "outputTokens": 0,
-      "rationale": "",
-      "reasoningTokens": 0,
-      "totalTokens": 0,
-      "tweetId": null,
-      "tweetText": "",
-      "tweetUrl": null,
-      "type": "error",
-      "verdict": null
     },
     {
       "confidence": 0.99,
@@ -904,9 +904,9 @@
     }
   ],
   "privateState": {
-    "ciphertext": "mLVlAQFUFHC9BLcADxZLLA0CObBJFXS2c0vbkXIeWWMLT8o1-QG8XW1wrQ",
-    "iv": "Ar32Psjk8ldqzYc2",
-    "tag": "b1Yhw8qb2jL5Z3153W4agA",
+    "ciphertext": "jQDMWqno628vHbs1RfzVh_weaTRtehKXv8APVhRyIYx9cM4ZiUIN6as7rA",
+    "iv": "YAHlthol0_IReYnq",
+    "tag": "PAjid8eW1w_qxyXeC1CiwA",
     "version": 1
   }
 }
