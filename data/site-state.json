@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1778108767187,
-      "rationale": "This is a general product feedback post and does not mention limits, caps, or availability resetting.",
-      "tweetId": "2052162508287570169",
-      "tweetUrl": "https://x.com/thsottiaux/status/2052162508287570169",
+      "decidedAt": 1778110616532,
+      "rationale": "This is a promotional post about someone using Codex and the API, not about limits resetting.",
+      "tweetId": "2052170738740933090",
+      "tweetUrl": "https://x.com/thsottiaux/status/2052170738740933090",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2052162508287570169",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2052162508287570169",
+    "lastSeenTweetId": "2052170738740933090",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2052170738740933090",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1777875787372,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2051185035395596695"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1778110616532,
+        "inputTokens": 430,
+        "outputTokens": 82,
+        "rationale": "This is a promotional post about someone using Codex and the API, not about limits resetting.",
+        "reasoningTokens": 35,
+        "totalTokens": 512,
+        "tweetId": "2052170738740933090",
+        "tweetText": "@KSScenna has been playing with code since he was 12 years old jailbreaking the iPod Touch. Super cool to see him now using Codex + our API to solve hard problems across taxes, healthcare and more for everyone.\n\n“I never thought the gap between noticing a problem and building something real could get this small.”\n\nTurns out you can just build things!",
+        "tweetUrl": "https://x.com/thsottiaux/status/2052170738740933090",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1778108767187,
@@ -279,29 +292,31 @@
         "tweetText": "@morganlinton Tell me how it goes, keen to improve!",
         "tweetUrl": "https://x.com/thsottiaux/status/2050817413491659174",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.98,
-        "evaluatedAt": 1777787956828,
-        "inputTokens": 371,
-        "outputTokens": 99,
-        "rationale": "This reply talks about using the Codex app, not about limits or a reset.",
-        "reasoningTokens": 54,
-        "totalTokens": 470,
-        "tweetId": "2050817218246774907",
-        "tweetText": "@larsencc Larsen should open the Codex app and click around and then post again",
-        "tweetUrl": "https://x.com/thsottiaux/status/2050817218246774907",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 120633,
-      "totalOutputTokens": 33696,
-      "totalReasoningTokens": 18248,
-      "totalTokens": 154329
+      "totalInputTokens": 121063,
+      "totalOutputTokens": 33778,
+      "totalReasoningTokens": 18283,
+      "totalTokens": 154841
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1778110616532,
+      "inputTokens": 430,
+      "message": "",
+      "outputTokens": 82,
+      "rationale": "This is a promotional post about someone using Codex and the API, not about limits resetting.",
+      "reasoningTokens": 35,
+      "totalTokens": 512,
+      "tweetId": "2052170738740933090",
+      "tweetText": "@KSScenna has been playing with code since he was 12 years old jailbreaking the iPod Touch. Super cool to see him now using Codex + our API to solve hard problems across taxes, healthcare and more for everyone.\n\n“I never thought the gap between noticing a problem and building something real could get this small.”\n\nTurns out you can just build things!",
+      "tweetUrl": "https://x.com/thsottiaux/status/2052170738740933090",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1778108767187,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2050343723557691568",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1777674991328,
-      "inputTokens": 369,
-      "message": "",
-      "outputTokens": 97,
-      "rationale": "This reply is promotional/conversational and says nothing about limits or a reset.",
-      "reasoningTokens": 53,
-      "totalTokens": 466,
-      "tweetId": "2050343485925126572",
-      "tweetText": "@KevinNaughtonJr Install codex and get your destiny back on track",
-      "tweetUrl": "https://x.com/thsottiaux/status/2050343485925126572",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "4xJ7kZ6TgQA5I68TOo_52raa15NXia6QC98K7AUw2UCu08inVHSq-54l8g",
-    "iv": "U84esVILTymUnvbK",
-    "tag": "dKa7ubpcN9ev7c9KmKKNuw",
+    "ciphertext": "8DsqgsbT4rZvn8T8vaycpOEz_6bbrVxVBrhafEJfClfyMoj8p9U_uMFkcQ",
+    "iv": "dDbp2dbZRtJodY-n",
+    "tag": "HwSkk1SNV7keDlJ2GezIag",
     "version": 1
   }
 }
