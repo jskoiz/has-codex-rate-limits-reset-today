@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1778125596201,
-      "rationale": "This post does not mention Codex or ChatGPT limits resetting or usage being available again.",
-      "tweetId": "2052233392071360732",
-      "tweetUrl": "https://x.com/thsottiaux/status/2052233392071360732",
+      "decidedAt": 1778127440707,
+      "rationale": "This reply is conversational and does not indicate any Codex or ChatGPT limits have reset.",
+      "tweetId": "2052240120221458894",
+      "tweetUrl": "https://x.com/thsottiaux/status/2052240120221458894",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2052233392071360732",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2052233392071360732",
+    "lastSeenTweetId": "2052240120221458894",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2052240120221458894",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1777875787372,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2051185035395596695"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1778127440707,
+        "inputTokens": 365,
+        "outputTokens": 83,
+        "rationale": "This reply is conversational and does not indicate any Codex or ChatGPT limits have reset.",
+        "reasoningTokens": 37,
+        "totalTokens": 448,
+        "tweetId": "2052240120221458894",
+        "tweetText": "@ajambrosino What's faster? The app or the release?",
+        "tweetUrl": "https://x.com/thsottiaux/status/2052240120221458894",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1778125596201,
@@ -279,29 +292,31 @@
         "tweetText": "@vatsal_sanghvi @sama @OpenAI Will repost if actually crazy!",
         "tweetUrl": "https://x.com/thsottiaux/status/2050953516647436524",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1777789201287,
-        "inputTokens": 358,
-        "outputTokens": 74,
-        "rationale": "This reply only says \"Codex\" and does not mention limits, caps, or a reset.",
-        "reasoningTokens": 26,
-        "totalTokens": 432,
-        "tweetId": "2050821959236407562",
-        "tweetText": "@RoundtableSpace Codex",
-        "tweetUrl": "https://x.com/thsottiaux/status/2050821959236407562",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 121805,
-      "totalOutputTokens": 33929,
-      "totalReasoningTokens": 18346,
-      "totalTokens": 155734
+      "totalInputTokens": 122170,
+      "totalOutputTokens": 34012,
+      "totalReasoningTokens": 18383,
+      "totalTokens": 156182
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1778127440707,
+      "inputTokens": 365,
+      "message": "",
+      "outputTokens": 83,
+      "rationale": "This reply is conversational and does not indicate any Codex or ChatGPT limits have reset.",
+      "reasoningTokens": 37,
+      "totalTokens": 448,
+      "tweetId": "2052240120221458894",
+      "tweetText": "@ajambrosino What's faster? The app or the release?",
+      "tweetUrl": "https://x.com/thsottiaux/status/2052240120221458894",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1778125596201,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2050395190847066270",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.98,
-      "createdAt": 1777685824818,
-      "inputTokens": 365,
-      "message": "",
-      "outputTokens": 117,
-      "rationale": "The post contains only a link, so it does not clearly say that limits have reset.",
-      "reasoningTokens": 71,
-      "totalTokens": 482,
-      "tweetId": "2050388525619790234",
-      "tweetText": "https://t.co/G6wBWB9Lu5",
-      "tweetUrl": "https://x.com/thsottiaux/status/2050388525619790234",
-      "type": "review_requested",
-      "verdict": "uncertain"
     }
   ],
   "privateState": {
-    "ciphertext": "iEoVscmd148JfftUwYDAVF5BxUEivMAR3vcBd-wc7CsUIqUM3gvBcOzMJA",
-    "iv": "O4O3thXvgyHifFYF",
-    "tag": "M4TuL51fous8Lbg46z-Qmw",
+    "ciphertext": "hnrxxabd0jQnAHy2CG3J55yS_2BiQjVBslqCoKKXwTFOYsLVuC-ngx_laQ",
+    "iv": "zTrBYyasM4px4asa",
+    "tag": "zx0n2obLSoxAkw4IYbWkbA",
     "version": 1
   }
 }
