@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1778128374766,
-      "rationale": "This reply is just conversational and gives no indication that any rate limit has reset.",
-      "tweetId": "2052244310037577830",
-      "tweetUrl": "https://x.com/thsottiaux/status/2052244310037577830",
+      "decidedAt": 1778128686937,
+      "rationale": "This reply is just conversational and says nothing about limits or usage resetting.",
+      "tweetId": "2052245693620969560",
+      "tweetUrl": "https://x.com/thsottiaux/status/2052245693620969560",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2052244310037577830",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2052244310037577830",
+    "lastSeenTweetId": "2052245693620969560",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2052245693620969560",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1777875787372,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2051185035395596695"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1778128686937,
+        "inputTokens": 377,
+        "outputTokens": 96,
+        "rationale": "This reply is just conversational and says nothing about limits or usage resetting.",
+        "reasoningTokens": 54,
+        "totalTokens": 473,
+        "tweetId": "2052245693620969560",
+        "tweetText": "@Dimillian @ajambrosino I like having 1:1s with people on twitter, slack scares me lately",
+        "tweetUrl": "https://x.com/thsottiaux/status/2052245693620969560",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1778128374766,
@@ -279,29 +292,31 @@
         "tweetText": "@steipete Oof",
         "tweetUrl": "https://x.com/thsottiaux/status/2051013861445358040",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1777829230370,
-        "inputTokens": 499,
-        "outputTokens": 87,
-        "rationale": "This post promotes Codex Auto-Review mode and does not mention any limit, cap, or rate-limit reset.",
-        "reasoningTokens": 36,
-        "totalTokens": 586,
-        "tweetId": "2050989326570532919",
-        "tweetText": "Last week, we released *Auto-Review* mode in Codex! It is now the default within OpenAI and reduces amount of approvals needed by ~200X. Amazing work from our alignment team.\n\nRead the blog at https://t.co/9BgRoDfnky",
-        "tweetUrl": "https://x.com/thsottiaux/status/2050989326570532919",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 122894,
-      "totalOutputTokens": 34167,
-      "totalReasoningTokens": 18453,
-      "totalTokens": 157061
+      "totalInputTokens": 123271,
+      "totalOutputTokens": 34263,
+      "totalReasoningTokens": 18507,
+      "totalTokens": 157534
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1778128686937,
+      "inputTokens": 377,
+      "message": "",
+      "outputTokens": 96,
+      "rationale": "This reply is just conversational and says nothing about limits or usage resetting.",
+      "reasoningTokens": 54,
+      "totalTokens": 473,
+      "tweetId": "2052245693620969560",
+      "tweetText": "@Dimillian @ajambrosino I like having 1:1s with people on twitter, slack scares me lately",
+      "tweetUrl": "https://x.com/thsottiaux/status/2052245693620969560",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1778128374766,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2050436986914431179",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.98,
-      "createdAt": 1777696716716,
-      "inputTokens": 368,
-      "message": "",
-      "outputTokens": 114,
-      "rationale": "This reply does not say or imply that any Codex or ChatGPT usage limits have reset.",
-      "reasoningTokens": 67,
-      "totalTokens": 482,
-      "tweetId": "2050434315327242678",
-      "tweetText": "@petergyang It's just hiding (we'll force it not to hide soon)",
-      "tweetUrl": "https://x.com/thsottiaux/status/2050434315327242678",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "jguZdTvZhpy2M6idOzYUMy0fjL7vEQvnnRmbmFf5UGFzYYeko9I6MBH8vw",
-    "iv": "wCHXOsoHwoBhgGDG",
-    "tag": "Vfw_Wb7laW7hswe2mb9cAA",
+    "ciphertext": "DIkDPVjZMoNZEJyuYLST7SVt6ECLJEIyV9ZKLg-u_uZzt_8qLOr1RBmgTw",
+    "iv": "dH4rvYEPic2I75Eb",
+    "tag": "15EO3CUUMw5OacbNWnlbdg",
     "version": 1
   }
 }
