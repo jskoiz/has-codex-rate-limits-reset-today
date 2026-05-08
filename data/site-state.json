@@ -14,25 +14,38 @@
   "updatedAt": 1777403745925,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1778202662341,
-      "rationale": "This reply is conversational and gives no indication that any Codex or ChatGPT limit has reset.",
-      "tweetId": "2052556009043083773",
-      "tweetUrl": "https://x.com/thsottiaux/status/2052556009043083773",
-      "verdict": "not_reset"
+      "confidence": 0.95,
+      "decidedAt": 1778202976681,
+      "rationale": "This reply only says “👀” and does not clearly indicate that any limits have reset.",
+      "tweetId": "2052557077407744180",
+      "tweetUrl": "https://x.com/thsottiaux/status/2052557077407744180",
+      "verdict": "uncertain"
     },
     "lastError": null,
-    "lastSeenTweetId": "2052556009043083773",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2052556009043083773",
+    "lastSeenTweetId": "2052557077407744180",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2052557077407744180",
     "pendingReview": {
       "confidence": 0.95,
-      "createdAt": 1777875787372,
-      "rationale": "This reply is too context-free to tell whether it refers to a rate-limit reset.",
-      "tweetId": "2051185035395596695",
-      "tweetText": "@kr0der Yes?",
-      "tweetUrl": "https://x.com/thsottiaux/status/2051185035395596695"
+      "createdAt": 1778202976681,
+      "rationale": "This reply only says “👀” and does not clearly indicate that any limits have reset.",
+      "tweetId": "2052557077407744180",
+      "tweetText": "@0xSero @ajambrosino @edbayes 👀",
+      "tweetUrl": "https://x.com/thsottiaux/status/2052557077407744180"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.95,
+        "evaluatedAt": 1778202976681,
+        "inputTokens": 368,
+        "outputTokens": 218,
+        "rationale": "This reply only says “👀” and does not clearly indicate that any limits have reset.",
+        "reasoningTokens": 171,
+        "totalTokens": 586,
+        "tweetId": "2052557077407744180",
+        "tweetText": "@0xSero @ajambrosino @edbayes 👀",
+        "tweetUrl": "https://x.com/thsottiaux/status/2052557077407744180",
+        "verdict": "uncertain"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1778202662341,
@@ -279,29 +292,31 @@
         "tweetText": "@NotTuxedoSam Need to find new friends",
         "tweetUrl": "https://x.com/thsottiaux/status/2051182555844821133",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1777846332790,
-        "inputTokens": 363,
-        "outputTokens": 98,
-        "rationale": "This is a general feedback question about Codex, not a statement that limits or caps have reset.",
-        "reasoningTokens": 50,
-        "totalTokens": 461,
-        "tweetId": "2051062151805382956",
-        "tweetText": "What are we obviously not getting right with Codex?",
-        "tweetUrl": "https://x.com/thsottiaux/status/2051062151805382956",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 124831,
-      "totalOutputTokens": 34582,
-      "totalReasoningTokens": 18647,
-      "totalTokens": 159413
+      "totalInputTokens": 125199,
+      "totalOutputTokens": 34800,
+      "totalReasoningTokens": 18818,
+      "totalTokens": 159999
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.95,
+      "createdAt": 1778202976681,
+      "inputTokens": 368,
+      "message": "",
+      "outputTokens": 218,
+      "rationale": "This reply only says “👀” and does not clearly indicate that any limits have reset.",
+      "reasoningTokens": 171,
+      "totalTokens": 586,
+      "tweetId": "2052557077407744180",
+      "tweetText": "@0xSero @ajambrosino @edbayes 👀",
+      "tweetUrl": "https://x.com/thsottiaux/status/2052557077407744180",
+      "type": "review_requested",
+      "verdict": "uncertain"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1778202662341,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2050473330000777261",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1777705658743,
-      "inputTokens": 369,
-      "message": "",
-      "outputTokens": 81,
-      "rationale": "This reply is just a joke and does not mention limits, caps, or usage becoming available again.",
-      "reasoningTokens": 33,
-      "totalTokens": 450,
-      "tweetId": "2050472145139208599",
-      "tweetText": "@dennis_inj @sama Why does sama look like your codex pet",
-      "tweetUrl": "https://x.com/thsottiaux/status/2050472145139208599",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "e8ArK8irYxrKubSw922wmqUM-IeTCbTXk0JqxmnoAc8lMM9MO8E04HVBeA",
-    "iv": "vT8xXiMMfj5HuDHj",
-    "tag": "LZlNnxQYPpE-8vCOtwktvA",
+    "ciphertext": "xXxNpMJYevLZkBfrvAQNigJmxfbTOLABwPFDfUED-NJktuifuF1RgM6CRQ",
+    "iv": "x60zAVbisoOjWjFa",
+    "tag": "Z5IT4YERbVWi9o4drnTUiQ",
     "version": 1
   }
 }
