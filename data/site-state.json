@@ -14,16 +14,16 @@
   "updatedAt": 1777403745925,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1778257146469,
-      "rationale": "This reply is just a registration link and does not mention limits or a reset.",
-      "tweetId": "2052784772108386307",
-      "tweetUrl": "https://x.com/thsottiaux/status/2052784772108386307",
+      "confidence": 0.98,
+      "decidedAt": 1778262725212,
+      "rationale": "This post and its quoted text do not mention limits, caps, or usage becoming available again.",
+      "tweetId": "2052808587429523663",
+      "tweetUrl": "https://x.com/thsottiaux/status/2052808587429523663",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2052784772108386307",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2052784772108386307",
+    "lastSeenTweetId": "2052808587429523663",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2052808587429523663",
     "pendingReview": {
       "confidence": 0.93,
       "createdAt": 1778209493962,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2052585471948263631"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.98,
+        "evaluatedAt": 1778262725213,
+        "inputTokens": 418,
+        "outputTokens": 123,
+        "rationale": "This post and its quoted text do not mention limits, caps, or usage becoming available again.",
+        "reasoningTokens": 76,
+        "totalTokens": 541,
+        "tweetId": "2052808587429523663",
+        "tweetText": "You can just migrate things",
+        "tweetUrl": "https://x.com/thsottiaux/status/2052808587429523663",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1778257146469,
@@ -279,29 +292,31 @@
         "tweetText": "@KSScenna Congrats to Kyle and ChatGPT Futures, Class of 2026. https://t.co/hzt8OvawOh",
         "tweetUrl": "https://x.com/thsottiaux/status/2052170878725829111",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1778110616532,
-        "inputTokens": 430,
-        "outputTokens": 82,
-        "rationale": "This is a promotional post about someone using Codex and the API, not about limits resetting.",
-        "reasoningTokens": 35,
-        "totalTokens": 512,
-        "tweetId": "2052170738740933090",
-        "tweetText": "@KSScenna has been playing with code since he was 12 years old jailbreaking the iPod Touch. Super cool to see him now using Codex + our API to solve hard problems across taxes, healthcare and more for everyone.\n\n“I never thought the gap between noticing a problem and building something real could get this small.”\n\nTurns out you can just build things!",
-        "tweetUrl": "https://x.com/thsottiaux/status/2052170738740933090",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 128301,
-      "totalOutputTokens": 35685,
-      "totalReasoningTokens": 19328,
-      "totalTokens": 163986
+      "totalInputTokens": 128719,
+      "totalOutputTokens": 35808,
+      "totalReasoningTokens": 19404,
+      "totalTokens": 164527
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.98,
+      "createdAt": 1778262725213,
+      "inputTokens": 418,
+      "message": "",
+      "outputTokens": 123,
+      "rationale": "This post and its quoted text do not mention limits, caps, or usage becoming available again.",
+      "reasoningTokens": 76,
+      "totalTokens": 541,
+      "tweetId": "2052808587429523663",
+      "tweetText": "You can just migrate things",
+      "tweetUrl": "https://x.com/thsottiaux/status/2052808587429523663",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1778257146469,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2050953516647436524",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1777789201287,
-      "inputTokens": 358,
-      "message": "",
-      "outputTokens": 74,
-      "rationale": "This reply only says \"Codex\" and does not mention limits, caps, or a reset.",
-      "reasoningTokens": 26,
-      "totalTokens": 432,
-      "tweetId": "2050821959236407562",
-      "tweetText": "@RoundtableSpace Codex",
-      "tweetUrl": "https://x.com/thsottiaux/status/2050821959236407562",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "7NCRbzr_qZoOrMPQSLj1UAVQnFzp1p0zLbzznnIH7A1S_l1ZEX2lxFLrRw",
-    "iv": "owqNkDkBJsqm0wfb",
-    "tag": "MWN6CZTQg_C4AKJrco0rPQ",
+    "ciphertext": "o0Ai-dx4Nu_2zwyEbdERDdX-6sQ893tgBF0FjNE4hA-CmK1nNzJ2rTRKrg",
+    "iv": "Z25IKvtHraIc1Spo",
+    "tag": "3n9pWEFzAi2h60D56wtZyA",
     "version": 1
   }
 }
