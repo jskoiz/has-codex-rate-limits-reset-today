@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1778217890446,
-      "rationale": "This is just a celebratory comment about Codex and does not mention limits or a reset.",
-      "tweetId": "2052620509456875724",
-      "tweetUrl": "https://x.com/thsottiaux/status/2052620509456875724",
+      "decidedAt": 1778257140973,
+      "rationale": "This is a promotional event announcement and does not mention limits, caps, or usage being available again.",
+      "tweetId": "2052784755083731172",
+      "tweetUrl": "https://x.com/thsottiaux/status/2052784755083731172",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2052620509456875724",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2052620509456875724",
+    "lastSeenTweetId": "2052784755083731172",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2052784755083731172",
     "pendingReview": {
       "confidence": 0.93,
       "createdAt": 1778209493962,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2052585471948263631"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1778257140973,
+        "inputTokens": 420,
+        "outputTokens": 68,
+        "rationale": "This is a promotional event announcement and does not mention limits, caps, or usage being available again.",
+        "reasoningTokens": 20,
+        "totalTokens": 488,
+        "tweetId": "2052784755083731172",
+        "tweetText": "Hosting a session next Wednesday (5/13) with the OpenAI Forum on why Codex matters beyond code. Join for the livestream and Q&amp;A if you’re interested in the history of Codex, what we're pushing on next and see some cool use-cases. https://t.co/TnUhz26i35",
+        "tweetUrl": "https://x.com/thsottiaux/status/2052784755083731172",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1778217890446,
@@ -279,29 +292,31 @@
         "tweetText": "We are seeing strong traction and working to improve Codex for scientists across mathematics, physics, chemistry, biology and more. \n\nWhat do you wish it were capable of that it cannot do today?",
         "tweetUrl": "https://x.com/thsottiaux/status/2052162508287570169",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1778017101354,
-        "inputTokens": 360,
-        "outputTokens": 78,
-        "rationale": "This is just a conversational reply and does not indicate any limits have reset.",
-        "reasoningTokens": 35,
-        "totalTokens": 438,
-        "tweetId": "2051778049583264009",
-        "tweetText": "@turkelitopcusu Wdym?",
-        "tweetUrl": "https://x.com/thsottiaux/status/2051778049583264009",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 127513,
-      "totalOutputTokens": 35508,
-      "totalReasoningTokens": 19243,
-      "totalTokens": 163021
+      "totalInputTokens": 127933,
+      "totalOutputTokens": 35576,
+      "totalReasoningTokens": 19263,
+      "totalTokens": 163509
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1778257140973,
+      "inputTokens": 420,
+      "message": "",
+      "outputTokens": 68,
+      "rationale": "This is a promotional event announcement and does not mention limits, caps, or usage being available again.",
+      "reasoningTokens": 20,
+      "totalTokens": 488,
+      "tweetId": "2052784755083731172",
+      "tweetText": "Hosting a session next Wednesday (5/13) with the OpenAI Forum on why Codex matters beyond code. Join for the livestream and Q&amp;A if you’re interested in the history of Codex, what we're pushing on next and see some cool use-cases. https://t.co/TnUhz26i35",
+      "tweetUrl": "https://x.com/thsottiaux/status/2052784755083731172",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0,
       "createdAt": 1778228378054,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2050818132571472152",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1777787960291,
-      "inputTokens": 366,
-      "message": "",
-      "outputTokens": 95,
-      "rationale": "This reply is just conversational feedback and does not mention limits, caps, or a reset.",
-      "reasoningTokens": 49,
-      "totalTokens": 461,
-      "tweetId": "2050817413491659174",
-      "tweetText": "@morganlinton Tell me how it goes, keen to improve!",
-      "tweetUrl": "https://x.com/thsottiaux/status/2050817413491659174",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "py8S316Kn1fCJDNHJ1QFNGPGuZGtg_OJRh7Ah4g8dSwKgxFF8S2EYlHdsw",
-    "iv": "u-RyJ-zUXeTTZAzJ",
-    "tag": "HGlC5d43Qr76mqEUXavqMw",
+    "ciphertext": "ggzSU4vtzxnQgRQ_NL_6uyd58dNpfF9C3-BcvwL-EYWGyp1y2oJKPksGtQ",
+    "iv": "5eZQuN-H0XS5gyv4",
+    "tag": "FN1kNAVGTFhc47GsSknBfQ",
     "version": 1
   }
 }
