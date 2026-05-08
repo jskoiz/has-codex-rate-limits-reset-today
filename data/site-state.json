@@ -14,16 +14,16 @@
   "updatedAt": 1777403745925,
   "automation": {
     "lastDecision": {
-      "confidence": 0.95,
-      "decidedAt": 1778202976681,
-      "rationale": "This reply only says “👀” and does not clearly indicate that any limits have reset.",
-      "tweetId": "2052557077407744180",
-      "tweetUrl": "https://x.com/thsottiaux/status/2052557077407744180",
-      "verdict": "uncertain"
+      "confidence": 0.99,
+      "decidedAt": 1778203280275,
+      "rationale": "This is a commentary on a product announcement, not a statement that limits or rate caps have reset.",
+      "tweetId": "2052559108742811900",
+      "tweetUrl": "https://x.com/thsottiaux/status/2052559108742811900",
+      "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2052557077407744180",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2052557077407744180",
+    "lastSeenTweetId": "2052559108742811900",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2052559108742811900",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1778202976681,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2052557077407744180"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1778203280275,
+        "inputTokens": 477,
+        "outputTokens": 93,
+        "rationale": "This is a commentary on a product announcement, not a statement that limits or rate caps have reset.",
+        "reasoningTokens": 45,
+        "totalTokens": 570,
+        "tweetId": "2052559108742811900",
+        "tweetText": "We are assembling AGI in plain sight",
+        "tweetUrl": "https://x.com/thsottiaux/status/2052559108742811900",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.95,
         "evaluatedAt": 1778202976681,
@@ -279,29 +292,31 @@
         "tweetText": "@LexnLin Unfair advantage",
         "tweetUrl": "https://x.com/thsottiaux/status/2051184872287523273",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1777875169996,
-        "inputTokens": 363,
-        "outputTokens": 77,
-        "rationale": "This reply is conversational and does not mention limits, caps, or usage becoming available again.",
-        "reasoningTokens": 31,
-        "totalTokens": 440,
-        "tweetId": "2051182555844821133",
-        "tweetText": "@NotTuxedoSam Need to find new friends",
-        "tweetUrl": "https://x.com/thsottiaux/status/2051182555844821133",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 125199,
-      "totalOutputTokens": 34800,
-      "totalReasoningTokens": 18818,
-      "totalTokens": 159999
+      "totalInputTokens": 125676,
+      "totalOutputTokens": 34893,
+      "totalReasoningTokens": 18863,
+      "totalTokens": 160569
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1778203280275,
+      "inputTokens": 477,
+      "message": "",
+      "outputTokens": 93,
+      "rationale": "This is a commentary on a product announcement, not a statement that limits or rate caps have reset.",
+      "reasoningTokens": 45,
+      "totalTokens": 570,
+      "tweetId": "2052559108742811900",
+      "tweetText": "We are assembling AGI in plain sight",
+      "tweetUrl": "https://x.com/thsottiaux/status/2052559108742811900",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.95,
       "createdAt": 1778202976681,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2050811900062286168",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1777705968632,
-      "inputTokens": 362,
-      "message": "",
-      "outputTokens": 102,
-      "rationale": "This reply only says “GPT-5.5” and does not mention limits or a reset.",
-      "reasoningTokens": 54,
-      "totalTokens": 464,
-      "tweetId": "2050473330000777261",
-      "tweetText": "@benedictk__ GPT-5.5",
-      "tweetUrl": "https://x.com/thsottiaux/status/2050473330000777261",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "xXxNpMJYevLZkBfrvAQNigJmxfbTOLABwPFDfUED-NJktuifuF1RgM6CRQ",
-    "iv": "x60zAVbisoOjWjFa",
-    "tag": "Z5IT4YERbVWi9o4drnTUiQ",
+    "ciphertext": "L8H-JTRJNon_HhiGxAOIwJxJsyuWjmQao0iJ5k00abupdec0A7xMhv6hjw",
+    "iv": "08rhs29nI1Zknzm4",
+    "tag": "uuQ96J7CLjHPuHO1FIQ_Lw",
     "version": 1
   }
 }
