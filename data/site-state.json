@@ -21,7 +21,7 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2052620509456875724",
       "verdict": "not_reset"
     },
-    "lastError": null,
+    "lastError": "Tweet fetch failed: Tweet search failed: Request failed with status code 403; timeline fallback failed: Request failed with status code 403 (Request failed with status code 403) (Tweet search failed: Request failed with status code 403; timeline fallback failed: Request failed with status code 403)",
     "lastSeenTweetId": "2052620509456875724",
     "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2052620509456875724",
     "pendingReview": {
@@ -302,6 +302,21 @@
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0,
+      "createdAt": 1778228378054,
+      "inputTokens": 0,
+      "message": "Tweet fetch failed: Tweet search failed: Request failed with status code 403; timeline fallback failed: Request failed with status code 403 (Request failed with status code 403) (Tweet search failed: Request failed with status code 403; timeline fallback failed: Request failed with status code 403)",
+      "outputTokens": 0,
+      "rationale": "",
+      "reasoningTokens": 0,
+      "totalTokens": 0,
+      "tweetId": null,
+      "tweetText": "",
+      "tweetUrl": null,
+      "type": "error",
+      "verdict": null
+    },
     {
       "confidence": 0.99,
       "createdAt": 1778217890446,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2050817413491659174",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.98,
-      "createdAt": 1777787956828,
-      "inputTokens": 371,
-      "message": "",
-      "outputTokens": 99,
-      "rationale": "This reply talks about using the Codex app, not about limits or a reset.",
-      "reasoningTokens": 54,
-      "totalTokens": 470,
-      "tweetId": "2050817218246774907",
-      "tweetText": "@larsencc Larsen should open the Codex app and click around and then post again",
-      "tweetUrl": "https://x.com/thsottiaux/status/2050817218246774907",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "87HfeBqGlnZ3L-zBMF0ZcoxK3DS03eytqVa6ZACPuskSDyeaoUTbousjlw",
-    "iv": "_f7fKw19xfDPOzcA",
-    "tag": "vB_FSukq0C7mhl0Kov6oRQ",
+    "ciphertext": "jei_Mabq8N-2v6si_9jgCp0kCLBw0iG1a5jVpo853LYdZkOhX2QZscdXzw",
+    "iv": "8_h4bdhaU9pzVrcU",
+    "tag": "4LhyFk-3WwB_xD0OpDLv2w",
     "version": 1
   }
 }
