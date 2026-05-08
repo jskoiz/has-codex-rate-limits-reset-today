@@ -14,25 +14,38 @@
   "updatedAt": 1777403745925,
   "automation": {
     "lastDecision": {
-      "confidence": 0.95,
-      "decidedAt": 1778209166514,
-      "rationale": "This reply is too context-dependent and does not explicitly say that any limit has reset or not.",
-      "tweetId": "2052583531256373607",
-      "tweetUrl": "https://x.com/thsottiaux/status/2052583531256373607",
+      "confidence": 0.93,
+      "decidedAt": 1778209493962,
+      "rationale": "This reply has no clear mention of limits or a reset, so its meaning is too ambiguous to treat as a confirmed reset.",
+      "tweetId": "2052585471948263631",
+      "tweetUrl": "https://x.com/thsottiaux/status/2052585471948263631",
       "verdict": "uncertain"
     },
     "lastError": null,
-    "lastSeenTweetId": "2052583531256373607",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2052583531256373607",
+    "lastSeenTweetId": "2052585471948263631",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2052585471948263631",
     "pendingReview": {
-      "confidence": 0.95,
-      "createdAt": 1778209166514,
-      "rationale": "This reply is too context-dependent and does not explicitly say that any limit has reset or not.",
-      "tweetId": "2052583531256373607",
-      "tweetText": "@VraserX Not today 👀",
-      "tweetUrl": "https://x.com/thsottiaux/status/2052583531256373607"
+      "confidence": 0.93,
+      "createdAt": 1778209493962,
+      "rationale": "This reply has no clear mention of limits or a reset, so its meaning is too ambiguous to treat as a confirmed reset.",
+      "tweetId": "2052585471948263631",
+      "tweetText": "@RhysSullivan Yes, but soon no",
+      "tweetUrl": "https://x.com/thsottiaux/status/2052585471948263631"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.93,
+        "evaluatedAt": 1778209493962,
+        "inputTokens": 362,
+        "outputTokens": 184,
+        "rationale": "This reply has no clear mention of limits or a reset, so its meaning is too ambiguous to treat as a confirmed reset.",
+        "reasoningTokens": 131,
+        "totalTokens": 546,
+        "tweetId": "2052585471948263631",
+        "tweetText": "@RhysSullivan Yes, but soon no",
+        "tweetUrl": "https://x.com/thsottiaux/status/2052585471948263631",
+        "verdict": "uncertain"
+      },
       {
         "confidence": 0.95,
         "evaluatedAt": 1778209166514,
@@ -279,29 +292,31 @@
         "tweetText": "@giffmana Tell me more",
         "tweetUrl": "https://x.com/thsottiaux/status/2051188762294862080",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1777876104680,
-        "inputTokens": 362,
-        "outputTokens": 70,
-        "rationale": "This reply is just conversational and does not mention limits, caps, or availability returning.",
-        "reasoningTokens": 25,
-        "totalTokens": 432,
-        "tweetId": "2051185822137991296",
-        "tweetText": "@Enscion25 We are professionals at naming",
-        "tweetUrl": "https://x.com/thsottiaux/status/2051185822137991296",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 126418,
-      "totalOutputTokens": 35134,
-      "totalReasoningTokens": 19010,
-      "totalTokens": 161552
+      "totalInputTokens": 126780,
+      "totalOutputTokens": 35318,
+      "totalReasoningTokens": 19141,
+      "totalTokens": 162098
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.93,
+      "createdAt": 1778209493962,
+      "inputTokens": 362,
+      "message": "",
+      "outputTokens": 184,
+      "rationale": "This reply has no clear mention of limits or a reset, so its meaning is too ambiguous to treat as a confirmed reset.",
+      "reasoningTokens": 131,
+      "totalTokens": 546,
+      "tweetId": "2052585471948263631",
+      "tweetText": "@RhysSullivan Yes, but soon no",
+      "tweetUrl": "https://x.com/thsottiaux/status/2052585471948263631",
+      "type": "review_requested",
+      "verdict": "uncertain"
+    },
     {
       "confidence": 0.95,
       "createdAt": 1778209166514,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2050814317294244144",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1777787017587,
-      "inputTokens": 374,
-      "message": "",
-      "outputTokens": 98,
-      "rationale": "This reply is just conversational about Codex and does not mention limits or a reset.",
-      "reasoningTokens": 53,
-      "totalTokens": 472,
-      "tweetId": "2050813336821141718",
-      "tweetText": "@BrianMRey Don’t worry, Codex doesn’t care and will code for you all the same",
-      "tweetUrl": "https://x.com/thsottiaux/status/2050813336821141718",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "uHFNMg9LrMjnKNMN8rs-jyMGbdBnGMXNQaSBIdR0IIrA3SDGLLp3J5ENow",
-    "iv": "ae8ycYkKtS_DLZBz",
-    "tag": "7U7x9Bq7bovxEyp9HCbmfg",
+    "ciphertext": "bXwfU-cn4Nt8n3UQfo1C3E8a6uk8P3fl6Le6QMP6Lxn6wUcPpccxX-cIMw",
+    "iv": "AP5UhgethO3ga16o",
+    "tag": "clarxD5X1yLvDzrDsise9Q",
     "version": 1
   }
 }
