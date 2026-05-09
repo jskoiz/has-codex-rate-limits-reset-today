@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1778368171825,
-      "rationale": "This post is about Codex use cases and the /goal feature, not rate limits or a reset.",
-      "tweetId": "2053250877331493068",
-      "tweetUrl": "https://x.com/thsottiaux/status/2053250877331493068",
+      "decidedAt": 1778368469536,
+      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+      "tweetId": "2053251356211986742",
+      "tweetUrl": "https://x.com/thsottiaux/status/2053251356211986742",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2053250877331493068",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2053250877331493068",
+    "lastSeenTweetId": "2053251356211986742",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2053251356211986742",
     "pendingReview": {
       "confidence": 0.93,
       "createdAt": 1778209493962,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2052585471948263631"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1778368469536,
+        "inputTokens": 358,
+        "outputTokens": 81,
+        "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+        "reasoningTokens": 37,
+        "totalTokens": 439,
+        "tweetId": "2053251356211986742",
+        "tweetText": "@jxnlco Life goals",
+        "tweetUrl": "https://x.com/thsottiaux/status/2053251356211986742",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1778368171825,
@@ -279,29 +292,31 @@
         "tweetText": "@ajambrosino @marlybuilds what did he mean by that, what did he mean...",
         "tweetUrl": "https://x.com/thsottiaux/status/2052245870574465426",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1778128686937,
-        "inputTokens": 377,
-        "outputTokens": 96,
-        "rationale": "This reply is just conversational and says nothing about limits or usage resetting.",
-        "reasoningTokens": 54,
-        "totalTokens": 473,
-        "tweetId": "2052245693620969560",
-        "tweetText": "@Dimillian @ajambrosino I like having 1:1s with people on twitter, slack scares me lately",
-        "tweetUrl": "https://x.com/thsottiaux/status/2052245693620969560",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 130586,
-      "totalOutputTokens": 36195,
-      "totalReasoningTokens": 19559,
-      "totalTokens": 166781
+      "totalInputTokens": 130944,
+      "totalOutputTokens": 36276,
+      "totalReasoningTokens": 19596,
+      "totalTokens": 167220
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1778368469536,
+      "inputTokens": 358,
+      "message": "",
+      "outputTokens": 81,
+      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+      "reasoningTokens": 37,
+      "totalTokens": 439,
+      "tweetId": "2053251356211986742",
+      "tweetText": "@jxnlco Life goals",
+      "tweetUrl": "https://x.com/thsottiaux/status/2053251356211986742",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1778368171825,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2051052203289497613",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1777835152304,
-      "inputTokens": 360,
-      "message": "",
-      "outputTokens": 76,
-      "rationale": "This reply is conversational and does not mention limits, caps, or usage being available again.",
-      "reasoningTokens": 30,
-      "totalTokens": 436,
-      "tweetId": "2051014214668701944",
-      "tweetText": "@robinebers Excuse our shipping",
-      "tweetUrl": "https://x.com/thsottiaux/status/2051014214668701944",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "m7WAkGEmgM0BNne7b8y-YB4Pxg60oLg5XiRnumB-wiR7IDBOJYQWTgeXmg",
-    "iv": "rAmixGGFbcwGaiHA",
-    "tag": "3SAutz3FxHhX4Oud57KlnA",
+    "ciphertext": "dEmOH3DZN-8BLiVHazTAUZhhIVs3bP-3XkNKz4GmR4OIWWgi30GpfdMiSA",
+    "iv": "kMjktI3G7PUwQ0Jc",
+    "tag": "MSkFhEfcrR7BxpdgltixAg",
     "version": 1
   }
 }
