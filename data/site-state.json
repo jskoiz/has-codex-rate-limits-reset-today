@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1778291576796,
-      "rationale": "This reply comments on usage volume and does not say limits or rate caps reset.",
-      "tweetId": "2052929401218814158",
-      "tweetUrl": "https://x.com/thsottiaux/status/2052929401218814158",
+      "decidedAt": 1778296552659,
+      "rationale": "This reply just says \"Sorry\" and gives no indication that any limits or caps have reset.",
+      "tweetId": "2052950035571326986",
+      "tweetUrl": "https://x.com/thsottiaux/status/2052950035571326986",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2052929401218814158",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2052929401218814158",
+    "lastSeenTweetId": "2052950035571326986",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2052950035571326986",
     "pendingReview": {
       "confidence": 0.93,
       "createdAt": 1778209493962,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2052585471948263631"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1778296552659,
+        "inputTokens": 357,
+        "outputTokens": 74,
+        "rationale": "This reply just says \"Sorry\" and gives no indication that any limits or caps have reset.",
+        "reasoningTokens": 27,
+        "totalTokens": 431,
+        "tweetId": "2052950035571326986",
+        "tweetText": "@LexnLin Sorry",
+        "tweetUrl": "https://x.com/thsottiaux/status/2052950035571326986",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1778291576796,
@@ -279,29 +292,31 @@
         "tweetText": "@nicdunz How much would you pay for this",
         "tweetUrl": "https://x.com/thsottiaux/status/2052243612570984598",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1778127440707,
-        "inputTokens": 365,
-        "outputTokens": 83,
-        "rationale": "This reply is conversational and does not indicate any Codex or ChatGPT limits have reset.",
-        "reasoningTokens": 37,
-        "totalTokens": 448,
-        "tweetId": "2052240120221458894",
-        "tweetText": "@ajambrosino What's faster? The app or the release?",
-        "tweetUrl": "https://x.com/thsottiaux/status/2052240120221458894",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 129459,
-      "totalOutputTokens": 35967,
-      "totalReasoningTokens": 19470,
-      "totalTokens": 165426
+      "totalInputTokens": 129816,
+      "totalOutputTokens": 36041,
+      "totalReasoningTokens": 19497,
+      "totalTokens": 165857
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1778296552659,
+      "inputTokens": 357,
+      "message": "",
+      "outputTokens": 74,
+      "rationale": "This reply just says \"Sorry\" and gives no indication that any limits or caps have reset.",
+      "reasoningTokens": 27,
+      "totalTokens": 431,
+      "tweetId": "2052950035571326986",
+      "tweetText": "@LexnLin Sorry",
+      "tweetUrl": "https://x.com/thsottiaux/status/2052950035571326986",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1778291576796,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2051013861445358040",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1777829230370,
-      "inputTokens": 499,
-      "message": "",
-      "outputTokens": 87,
-      "rationale": "This post promotes Codex Auto-Review mode and does not mention any limit, cap, or rate-limit reset.",
-      "reasoningTokens": 36,
-      "totalTokens": 586,
-      "tweetId": "2050989326570532919",
-      "tweetText": "Last week, we released *Auto-Review* mode in Codex! It is now the default within OpenAI and reduces amount of approvals needed by ~200X. Amazing work from our alignment team.\n\nRead the blog at https://t.co/9BgRoDfnky",
-      "tweetUrl": "https://x.com/thsottiaux/status/2050989326570532919",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "rChYgXtYRA5nZCA_h50StHrC6WjEh7U-VtDAotqj6q9gnqlo7ou4_PQ-EQ",
-    "iv": "cAhyMf_tPVP7oPXQ",
-    "tag": "qdpS1u95UilcT689VzW7cQ",
+    "ciphertext": "MY97heSz9mb70SdVrmcF-BuD8Bf0c8qrmQRuwAgS-FoflKKI6mXkDoVrYw",
+    "iv": "oa8Qom8GSt9y_-zD",
+    "tag": "Zj3eMuhx2SVW0lbzU1fJAQ",
     "version": 1
   }
 }
