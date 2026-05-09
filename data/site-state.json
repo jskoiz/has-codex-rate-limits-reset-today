@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1778349626648,
-      "rationale": "This reply does not mention limits, caps, resets, or availability returning.",
-      "tweetId": "2053172683752559001",
-      "tweetUrl": "https://x.com/thsottiaux/status/2053172683752559001",
+      "decidedAt": 1778368171825,
+      "rationale": "This post is about Codex use cases and the /goal feature, not rate limits or a reset.",
+      "tweetId": "2053250877331493068",
+      "tweetUrl": "https://x.com/thsottiaux/status/2053250877331493068",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2053172683752559001",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2053172683752559001",
+    "lastSeenTweetId": "2053250877331493068",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2053250877331493068",
     "pendingReview": {
       "confidence": 0.93,
       "createdAt": 1778209493962,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2052585471948263631"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1778368171825,
+        "inputTokens": 411,
+        "outputTokens": 72,
+        "rationale": "This post is about Codex use cases and the /goal feature, not rate limits or a reset.",
+        "reasoningTokens": 23,
+        "totalTokens": 483,
+        "tweetId": "2053250877331493068",
+        "tweetText": "Seeing so many cool applications of codex lately across robotics, science, gaming and more. And seems that people are discovering the power of the /goal feature.\n\nA few disturbing hands in this one, but you get the gist. https://t.co/352XP2wyFM",
+        "tweetUrl": "https://x.com/thsottiaux/status/2053250877331493068",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1778349626648,
@@ -279,29 +292,31 @@
         "tweetText": "@Dimillian @ajambrosino I like having 1:1s with people on twitter, slack scares me lately",
         "tweetUrl": "https://x.com/thsottiaux/status/2052245693620969560",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1778128374766,
-        "inputTokens": 361,
-        "outputTokens": 70,
-        "rationale": "This reply is just conversational and gives no indication that any rate limit has reset.",
-        "reasoningTokens": 26,
-        "totalTokens": 431,
-        "tweetId": "2052244310037577830",
-        "tweetText": "@ericmitchellai So cryptic",
-        "tweetUrl": "https://x.com/thsottiaux/status/2052244310037577830",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 130175,
-      "totalOutputTokens": 36123,
-      "totalReasoningTokens": 19536,
-      "totalTokens": 166298
+      "totalInputTokens": 130586,
+      "totalOutputTokens": 36195,
+      "totalReasoningTokens": 19559,
+      "totalTokens": 166781
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1778368171825,
+      "inputTokens": 411,
+      "message": "",
+      "outputTokens": 72,
+      "rationale": "This post is about Codex use cases and the /goal feature, not rate limits or a reset.",
+      "reasoningTokens": 23,
+      "totalTokens": 483,
+      "tweetId": "2053250877331493068",
+      "tweetText": "Seeing so many cool applications of codex lately across robotics, science, gaming and more. And seems that people are discovering the power of the /goal feature.\n\nA few disturbing hands in this one, but you get the gist. https://t.co/352XP2wyFM",
+      "tweetUrl": "https://x.com/thsottiaux/status/2053250877331493068",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1778349626648,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2051014214668701944",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.98,
-      "createdAt": 1777834844700,
-      "inputTokens": 359,
-      "message": "",
-      "outputTokens": 180,
-      "rationale": "This is just a conversational reply and does not indicate any limit or rate-cap reset.",
-      "reasoningTokens": 135,
-      "totalTokens": 539,
-      "tweetId": "2051014044203786739",
-      "tweetText": "@nptacek For real?",
-      "tweetUrl": "https://x.com/thsottiaux/status/2051014044203786739",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "ip9tc3qyoZWojlLw74wGZan4o8IstNESjJ8lAxMM_fMnfcE3Pu_f87YG7Q",
-    "iv": "FFE3RmqxXFeckpmD",
-    "tag": "cZ8iPwXoKc2Pkv85GeVMlw",
+    "ciphertext": "m7WAkGEmgM0BNne7b8y-YB4Pxg60oLg5XiRnumB-wiR7IDBOJYQWTgeXmg",
+    "iv": "rAmixGGFbcwGaiHA",
+    "tag": "3SAutz3FxHhX4Oud57KlnA",
     "version": 1
   }
 }
