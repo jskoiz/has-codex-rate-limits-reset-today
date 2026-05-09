@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1778296552659,
-      "rationale": "This reply just says \"Sorry\" and gives no indication that any limits or caps have reset.",
-      "tweetId": "2052950035571326986",
-      "tweetUrl": "https://x.com/thsottiaux/status/2052950035571326986",
+      "decidedAt": 1778349626648,
+      "rationale": "This reply does not mention limits, caps, resets, or availability returning.",
+      "tweetId": "2053172683752559001",
+      "tweetUrl": "https://x.com/thsottiaux/status/2053172683752559001",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2052950035571326986",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2052950035571326986",
+    "lastSeenTweetId": "2053172683752559001",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2053172683752559001",
     "pendingReview": {
       "confidence": 0.93,
       "createdAt": 1778209493962,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2052585471948263631"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1778349626648,
+        "inputTokens": 359,
+        "outputTokens": 82,
+        "rationale": "This reply does not mention limits, caps, resets, or availability returning.",
+        "reasoningTokens": 39,
+        "totalTokens": 441,
+        "tweetId": "2053172683752559001",
+        "tweetText": "@thdxr Dax Inc",
+        "tweetUrl": "https://x.com/thsottiaux/status/2053172683752559001",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1778296552659,
@@ -279,29 +292,31 @@
         "tweetText": "@ericmitchellai So cryptic",
         "tweetUrl": "https://x.com/thsottiaux/status/2052244310037577830",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1778128077210,
-        "inputTokens": 363,
-        "outputTokens": 85,
-        "rationale": "This reply is unrelated to Codex or ChatGPT limits resetting.",
-        "reasoningTokens": 44,
-        "totalTokens": 448,
-        "tweetId": "2052243612570984598",
-        "tweetText": "@nicdunz How much would you pay for this",
-        "tweetUrl": "https://x.com/thsottiaux/status/2052243612570984598",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 129816,
-      "totalOutputTokens": 36041,
-      "totalReasoningTokens": 19497,
-      "totalTokens": 165857
+      "totalInputTokens": 130175,
+      "totalOutputTokens": 36123,
+      "totalReasoningTokens": 19536,
+      "totalTokens": 166298
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1778349626648,
+      "inputTokens": 359,
+      "message": "",
+      "outputTokens": 82,
+      "rationale": "This reply does not mention limits, caps, resets, or availability returning.",
+      "reasoningTokens": 39,
+      "totalTokens": 441,
+      "tweetId": "2053172683752559001",
+      "tweetText": "@thdxr Dax Inc",
+      "tweetUrl": "https://x.com/thsottiaux/status/2053172683752559001",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1778296552659,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2051014044203786739",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1777834838244,
-      "inputTokens": 358,
-      "message": "",
-      "outputTokens": 74,
-      "rationale": "This is just a conversational reply and gives no indication that any limits have reset.",
-      "reasoningTokens": 30,
-      "totalTokens": 432,
-      "tweetId": "2051013861445358040",
-      "tweetText": "@steipete Oof",
-      "tweetUrl": "https://x.com/thsottiaux/status/2051013861445358040",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "MY97heSz9mb70SdVrmcF-BuD8Bf0c8qrmQRuwAgS-FoflKKI6mXkDoVrYw",
-    "iv": "oa8Qom8GSt9y_-zD",
-    "tag": "Zj3eMuhx2SVW0lbzU1fJAQ",
+    "ciphertext": "ip9tc3qyoZWojlLw74wGZan4o8IstNESjJ8lAxMM_fMnfcE3Pu_f87YG7Q",
+    "iv": "FFE3RmqxXFeckpmD",
+    "tag": "cZ8iPwXoKc2Pkv85GeVMlw",
     "version": 1
   }
 }
