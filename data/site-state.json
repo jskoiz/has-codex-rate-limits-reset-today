@@ -14,16 +14,16 @@
   "updatedAt": 1777403745925,
   "automation": {
     "lastDecision": {
-      "confidence": 0.98,
-      "decidedAt": 1778262725212,
-      "rationale": "This post and its quoted text do not mention limits, caps, or usage becoming available again.",
-      "tweetId": "2052808587429523663",
-      "tweetUrl": "https://x.com/thsottiaux/status/2052808587429523663",
+      "confidence": 0.99,
+      "decidedAt": 1778291572887,
+      "rationale": "This is just a question about what platform Codex users are on, not a statement about limits resetting.",
+      "tweetId": "2052928802137997751",
+      "tweetUrl": "https://x.com/thsottiaux/status/2052928802137997751",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2052808587429523663",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2052808587429523663",
+    "lastSeenTweetId": "2052928802137997751",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2052928802137997751",
     "pendingReview": {
       "confidence": 0.93,
       "createdAt": 1778209493962,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2052585471948263631"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1778291572887,
+        "inputTokens": 364,
+        "outputTokens": 75,
+        "rationale": "This is just a question about what platform Codex users are on, not a statement about limits resetting.",
+        "reasoningTokens": 26,
+        "totalTokens": 439,
+        "tweetId": "2052928802137997751",
+        "tweetText": "As a Codex user, which platform are you on",
+        "tweetUrl": "https://x.com/thsottiaux/status/2052928802137997751",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.98,
         "evaluatedAt": 1778262725213,
@@ -279,29 +292,31 @@
         "tweetText": "Surprised there were basically no announcements today.",
         "tweetUrl": "https://x.com/thsottiaux/status/2052233392071360732",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1778110923638,
-        "inputTokens": 380,
-        "outputTokens": 65,
-        "rationale": "This reply is congratulatory and says nothing about limits or a reset.",
-        "reasoningTokens": 23,
-        "totalTokens": 445,
-        "tweetId": "2052170878725829111",
-        "tweetText": "@KSScenna Congrats to Kyle and ChatGPT Futures, Class of 2026. https://t.co/hzt8OvawOh",
-        "tweetUrl": "https://x.com/thsottiaux/status/2052170878725829111",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 128719,
-      "totalOutputTokens": 35808,
-      "totalReasoningTokens": 19404,
-      "totalTokens": 164527
+      "totalInputTokens": 129083,
+      "totalOutputTokens": 35883,
+      "totalReasoningTokens": 19430,
+      "totalTokens": 164966
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1778291572888,
+      "inputTokens": 364,
+      "message": "",
+      "outputTokens": 75,
+      "rationale": "This is just a question about what platform Codex users are on, not a statement about limits resetting.",
+      "reasoningTokens": 26,
+      "totalTokens": 439,
+      "tweetId": "2052928802137997751",
+      "tweetText": "As a Codex user, which platform are you on",
+      "tweetUrl": "https://x.com/thsottiaux/status/2052928802137997751",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.98,
       "createdAt": 1778262725213,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2050953627519643692",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1777820521113,
-      "inputTokens": 371,
-      "message": "",
-      "outputTokens": 77,
-      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-      "reasoningTokens": 33,
-      "totalTokens": 448,
-      "tweetId": "2050953516647436524",
-      "tweetText": "@vatsal_sanghvi @sama @OpenAI Will repost if actually crazy!",
-      "tweetUrl": "https://x.com/thsottiaux/status/2050953516647436524",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "o0Ai-dx4Nu_2zwyEbdERDdX-6sQ893tgBF0FjNE4hA-CmK1nNzJ2rTRKrg",
-    "iv": "Z25IKvtHraIc1Spo",
-    "tag": "3n9pWEFzAi2h60D56wtZyA",
+    "ciphertext": "XOXJBNSP3RMTg_loATBPgqBQnAXQLSx176wnHvIyp6qYqqXalsXqgUFPqw",
+    "iv": "c7dAVZynBD2lffmf",
+    "tag": "wJrLM2K76PhGGAD3V9GLPQ",
     "version": 1
   }
 }
