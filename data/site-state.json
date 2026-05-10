@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1778368469536,
-      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-      "tweetId": "2053251356211986742",
-      "tweetUrl": "https://x.com/thsottiaux/status/2053251356211986742",
+      "decidedAt": 1778377756668,
+      "rationale": "This reply is troubleshooting app behavior and does not mention limits or a reset.",
+      "tweetId": "2053291144583557249",
+      "tweetUrl": "https://x.com/thsottiaux/status/2053291144583557249",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2053251356211986742",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2053251356211986742",
+    "lastSeenTweetId": "2053291144583557249",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2053291144583557249",
     "pendingReview": {
       "confidence": 0.93,
       "createdAt": 1778209493962,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2052585471948263631"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1778377756668,
+        "inputTokens": 369,
+        "outputTokens": 93,
+        "rationale": "This reply is troubleshooting app behavior and does not mention limits or a reset.",
+        "reasoningTokens": 50,
+        "totalTokens": 462,
+        "tweetId": "2053291144583557249",
+        "tweetText": "@RayLin_AI @embirico Does it go away if you uninstall / reinstall?",
+        "tweetUrl": "https://x.com/thsottiaux/status/2053291144583557249",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1778368469536,
@@ -279,29 +292,31 @@
         "tweetText": "Hello Chrome, I am Codex",
         "tweetUrl": "https://x.com/thsottiaux/status/2052523840040063261",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1778128693103,
-        "inputTokens": 373,
-        "outputTokens": 70,
-        "rationale": "This reply is just conversational and does not mention limits, caps, or a reset.",
-        "reasoningTokens": 25,
-        "totalTokens": 443,
-        "tweetId": "2052245870574465426",
-        "tweetText": "@ajambrosino @marlybuilds what did he mean by that, what did he mean...",
-        "tweetUrl": "https://x.com/thsottiaux/status/2052245870574465426",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 130944,
-      "totalOutputTokens": 36276,
-      "totalReasoningTokens": 19596,
-      "totalTokens": 167220
+      "totalInputTokens": 131313,
+      "totalOutputTokens": 36369,
+      "totalReasoningTokens": 19646,
+      "totalTokens": 167682
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1778377756668,
+      "inputTokens": 369,
+      "message": "",
+      "outputTokens": 93,
+      "rationale": "This reply is troubleshooting app behavior and does not mention limits or a reset.",
+      "reasoningTokens": 50,
+      "totalTokens": 462,
+      "tweetId": "2053291144583557249",
+      "tweetText": "@RayLin_AI @embirico Does it go away if you uninstall / reinstall?",
+      "tweetUrl": "https://x.com/thsottiaux/status/2053291144583557249",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1778368469536,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2051062151805382956",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1777844168786,
-      "inputTokens": 364,
-      "message": "",
-      "outputTokens": 88,
-      "rationale": "This is just a welcoming reply and does not mention limits, caps, or availability returning.",
-      "reasoningTokens": 42,
-      "totalTokens": 452,
-      "tweetId": "2051052203289497613",
-      "tweetText": "@DanMorphosis @OpenAI @sama Welcome!!",
-      "tweetUrl": "https://x.com/thsottiaux/status/2051052203289497613",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "dEmOH3DZN-8BLiVHazTAUZhhIVs3bP-3XkNKz4GmR4OIWWgi30GpfdMiSA",
-    "iv": "kMjktI3G7PUwQ0Jc",
-    "tag": "MSkFhEfcrR7BxpdgltixAg",
+    "ciphertext": "VoujmlIM3yTrAlmZlL9-fvcrOf-RFPjG5Nnk6diy5lMSXJzsBhdJc6dhGw",
+    "iv": "umSFbjgGfQYTiJKH",
+    "tag": "UUPquIyjmuSUHUWQ3fcfHQ",
     "version": 1
   }
 }
