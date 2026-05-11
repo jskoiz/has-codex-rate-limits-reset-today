@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1778397936595,
-      "rationale": "This reply is conversational and does not mention limits, caps, or usage becoming available again.",
-      "tweetId": "2053374548767363330",
-      "tweetUrl": "https://x.com/thsottiaux/status/2053374548767363330",
+      "decidedAt": 1778458816646,
+      "rationale": "This reply is a joke and does not mention limits, caps, or any reset.",
+      "tweetId": "2053630540163813501",
+      "tweetUrl": "https://x.com/thsottiaux/status/2053630540163813501",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2053374548767363330",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2053374548767363330",
+    "lastSeenTweetId": "2053630540163813501",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2053630540163813501",
     "pendingReview": {
       "confidence": 0.93,
       "createdAt": 1778209493962,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2052585471948263631"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1778458816646,
+        "inputTokens": 372,
+        "outputTokens": 75,
+        "rationale": "This reply is a joke and does not mention limits, caps, or any reset.",
+        "reasoningTokens": 30,
+        "totalTokens": 447,
+        "tweetId": "2053630540163813501",
+        "tweetText": "@chatgpt21 That's a can of fanta per hour! And it can't even drink it!",
+        "tweetUrl": "https://x.com/thsottiaux/status/2053630540163813501",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1778397936595,
@@ -279,29 +292,31 @@
         "tweetText": "@0xSero @ajambrosino @edbayes 👀",
         "tweetUrl": "https://x.com/thsottiaux/status/2052557077407744180",
         "verdict": "uncertain"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1778202662341,
-        "inputTokens": 362,
-        "outputTokens": 77,
-        "rationale": "This reply is conversational and gives no indication that any Codex or ChatGPT limit has reset.",
-        "reasoningTokens": 30,
-        "totalTokens": 439,
-        "tweetId": "2052556009043083773",
-        "tweetText": "@haydendevs Keep posting as you do!",
-        "tweetUrl": "https://x.com/thsottiaux/status/2052556009043083773",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 132053,
-      "totalOutputTokens": 36541,
-      "totalReasoningTokens": 19729,
-      "totalTokens": 168594
+      "totalInputTokens": 132425,
+      "totalOutputTokens": 36616,
+      "totalReasoningTokens": 19759,
+      "totalTokens": 169041
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1778458816646,
+      "inputTokens": 372,
+      "message": "",
+      "outputTokens": 75,
+      "rationale": "This reply is a joke and does not mention limits, caps, or any reset.",
+      "reasoningTokens": 30,
+      "totalTokens": 447,
+      "tweetId": "2053630540163813501",
+      "tweetText": "@chatgpt21 That's a can of fanta per hour! And it can't even drink it!",
+      "tweetUrl": "https://x.com/thsottiaux/status/2053630540163813501",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1778397936595,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2051185035395596695",
       "type": "review_requested",
       "verdict": "uncertain"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1777875780646,
-      "inputTokens": 359,
-      "message": "",
-      "outputTokens": 81,
-      "rationale": "This reply is conversational and does not mention any limits, caps, or reset.",
-      "reasoningTokens": 37,
-      "totalTokens": 440,
-      "tweetId": "2051184872287523273",
-      "tweetText": "@LexnLin Unfair advantage",
-      "tweetUrl": "https://x.com/thsottiaux/status/2051184872287523273",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "ObkCXDABhJw48Kepg3U4MlsXRUDKYJu3r8H4DzSMtF_wYWPqZA4S_2hXnw",
-    "iv": "vaGwLmBeyg7klcDM",
-    "tag": "PhFmWC6k3APGiBtJJsIqow",
+    "ciphertext": "s669PX17WOyq3sp3F7VEPq7zzp9WiAngIBOk0KeOR4AvgiKwZuOKKwbvCA",
+    "iv": "kU8TH_geJZausJ5W",
+    "tag": "InhkfTDQidvuIhvzxqcm9Q",
     "version": 1
   }
 }
