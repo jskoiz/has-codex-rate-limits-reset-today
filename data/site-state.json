@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1778458816646,
-      "rationale": "This reply is a joke and does not mention limits, caps, or any reset.",
-      "tweetId": "2053630540163813501",
-      "tweetUrl": "https://x.com/thsottiaux/status/2053630540163813501",
+      "decidedAt": 1778475900265,
+      "rationale": "This is a hiring/recruiting post and does not mention limits, caps, or usage resetting.",
+      "tweetId": "2053702271712813398",
+      "tweetUrl": "https://x.com/thsottiaux/status/2053702271712813398",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2053630540163813501",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2053630540163813501",
+    "lastSeenTweetId": "2053702271712813398",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2053702271712813398",
     "pendingReview": {
       "confidence": 0.93,
       "createdAt": 1778209493962,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2052585471948263631"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1778475900265,
+        "inputTokens": 417,
+        "outputTokens": 69,
+        "rationale": "This is a hiring/recruiting post and does not mention limits, caps, or usage resetting.",
+        "reasoningTokens": 21,
+        "totalTokens": 486,
+        "tweetId": "2053702271712813398",
+        "tweetText": "We are Codex. We are legion. We do not miss. We do ship. Expect us.\n\nDM me if you have a track record of solving near impossible problems and want to work on the future of computing. We work across research, infra, agent harness and products. Currently hiring in San Francisco only.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2053702271712813398",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1778458816646,
@@ -279,29 +292,31 @@
         "tweetText": "We are assembling AGI in plain sight",
         "tweetUrl": "https://x.com/thsottiaux/status/2052559108742811900",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.95,
-        "evaluatedAt": 1778202976681,
-        "inputTokens": 368,
-        "outputTokens": 218,
-        "rationale": "This reply only says “👀” and does not clearly indicate that any limits have reset.",
-        "reasoningTokens": 171,
-        "totalTokens": 586,
-        "tweetId": "2052557077407744180",
-        "tweetText": "@0xSero @ajambrosino @edbayes 👀",
-        "tweetUrl": "https://x.com/thsottiaux/status/2052557077407744180",
-        "verdict": "uncertain"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 132425,
-      "totalOutputTokens": 36616,
-      "totalReasoningTokens": 19759,
-      "totalTokens": 169041
+      "totalInputTokens": 132842,
+      "totalOutputTokens": 36685,
+      "totalReasoningTokens": 19780,
+      "totalTokens": 169527
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1778475900266,
+      "inputTokens": 417,
+      "message": "",
+      "outputTokens": 69,
+      "rationale": "This is a hiring/recruiting post and does not mention limits, caps, or usage resetting.",
+      "reasoningTokens": 21,
+      "totalTokens": 486,
+      "tweetId": "2053702271712813398",
+      "tweetText": "We are Codex. We are legion. We do not miss. We do ship. Expect us.\n\nDM me if you have a track record of solving near impossible problems and want to work on the future of computing. We work across research, infra, agent harness and products. Currently hiring in San Francisco only.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2053702271712813398",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1778458816646,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2051185822137991296",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.95,
-      "createdAt": 1777875787372,
-      "inputTokens": 357,
-      "message": "",
-      "outputTokens": 287,
-      "rationale": "This reply is too context-free to tell whether it refers to a rate-limit reset.",
-      "reasoningTokens": 242,
-      "totalTokens": 644,
-      "tweetId": "2051185035395596695",
-      "tweetText": "@kr0der Yes?",
-      "tweetUrl": "https://x.com/thsottiaux/status/2051185035395596695",
-      "type": "review_requested",
-      "verdict": "uncertain"
     }
   ],
   "privateState": {
-    "ciphertext": "s669PX17WOyq3sp3F7VEPq7zzp9WiAngIBOk0KeOR4AvgiKwZuOKKwbvCA",
-    "iv": "kU8TH_geJZausJ5W",
-    "tag": "InhkfTDQidvuIhvzxqcm9Q",
+    "ciphertext": "jxKpjN8RskAuGOZJLIjUq71qqMo9I_BeeWZ9MQIhUAur03M8dJxuTjBlYA",
+    "iv": "agaXxEtyvhA_ZgEk",
+    "tag": "OWLdYplX5121nzzIj5a86A",
     "version": 1
   }
 }
