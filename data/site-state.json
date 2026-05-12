@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1778553753598,
-      "rationale": "This reply is unrelated to ChatGPT or Codex usage limits resetting.",
-      "tweetId": "2054028334921830505",
-      "tweetUrl": "https://x.com/thsottiaux/status/2054028334921830505",
+      "decidedAt": 1778553757044,
+      "rationale": "This reply is unrelated to ChatGPT or Codex rate limit resets.",
+      "tweetId": "2054029340082597949",
+      "tweetUrl": "https://x.com/thsottiaux/status/2054029340082597949",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2054028334921830505",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2054028334921830505",
+    "lastSeenTweetId": "2054029340082597949",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2054029340082597949",
     "pendingReview": {
       "confidence": 0.93,
       "createdAt": 1778209493962,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2052585471948263631"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1778553757044,
+        "inputTokens": 362,
+        "outputTokens": 72,
+        "rationale": "This reply is unrelated to ChatGPT or Codex rate limit resets.",
+        "reasoningTokens": 30,
+        "totalTokens": 434,
+        "tweetId": "2054029340082597949",
+        "tweetText": "@MichelleBakels @opencode Open source it",
+        "tweetUrl": "https://x.com/thsottiaux/status/2054029340082597949",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1778553753598,
@@ -279,29 +292,31 @@
         "tweetText": "Register here https://t.co/pU4j26w0J2",
         "tweetUrl": "https://x.com/thsottiaux/status/2052784772108386307",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1778257140973,
-        "inputTokens": 420,
-        "outputTokens": 68,
-        "rationale": "This is a promotional event announcement and does not mention limits, caps, or usage being available again.",
-        "reasoningTokens": 20,
-        "totalTokens": 488,
-        "tweetId": "2052784755083731172",
-        "tweetText": "Hosting a session next Wednesday (5/13) with the OpenAI Forum on why Codex matters beyond code. Join for the livestream and Q&amp;A if you’re interested in the history of Codex, what we're pushing on next and see some cool use-cases. https://t.co/TnUhz26i35",
-        "tweetUrl": "https://x.com/thsottiaux/status/2052784755083731172",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 135093,
-      "totalOutputTokens": 37270,
-      "totalReasoningTokens": 20096,
-      "totalTokens": 172363
+      "totalInputTokens": 135455,
+      "totalOutputTokens": 37342,
+      "totalReasoningTokens": 20126,
+      "totalTokens": 172797
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1778553757044,
+      "inputTokens": 362,
+      "message": "",
+      "outputTokens": 72,
+      "rationale": "This reply is unrelated to ChatGPT or Codex rate limit resets.",
+      "reasoningTokens": 30,
+      "totalTokens": 434,
+      "tweetId": "2054029340082597949",
+      "tweetText": "@MichelleBakels @opencode Open source it",
+      "tweetUrl": "https://x.com/thsottiaux/status/2054029340082597949",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1778553753598,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2052170738740933090",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1778108767187,
-      "inputTokens": 393,
-      "message": "",
-      "outputTokens": 88,
-      "rationale": "This is a general product feedback post and does not mention limits, caps, or availability resetting.",
-      "reasoningTokens": 41,
-      "totalTokens": 481,
-      "tweetId": "2052162508287570169",
-      "tweetText": "We are seeing strong traction and working to improve Codex for scientists across mathematics, physics, chemistry, biology and more. \n\nWhat do you wish it were capable of that it cannot do today?",
-      "tweetUrl": "https://x.com/thsottiaux/status/2052162508287570169",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "HAJ8VBs0sqsgNY0mjmZsf2ZxCZm9ic4OxCjyuU9zTm6RPX18v5czrIh5qw",
-    "iv": "Gn5g7aQEq7ZuoPIC",
-    "tag": "-cCxSgxYoxrVs1gzgptN9w",
+    "ciphertext": "dixhttt_0YYSJkIN7MvMihIhLXiVzcGIBgVclG1HfPe2-9NODXpAuv4AiA",
+    "iv": "u3b61aLuQ_F5NSKr",
+    "tag": "YbNqHd1jUMwjLt-sV0C9Iw",
     "version": 1
   }
 }
