@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1778566444239,
-      "rationale": "This post is product commentary about Claude and Codex features, not about rate limits or a usage reset.",
-      "tweetId": "2054082531432210765",
-      "tweetUrl": "https://x.com/thsottiaux/status/2054082531432210765",
+      "decidedAt": 1778566746789,
+      "rationale": "This reply is just conversational and does not mention limits, caps, or a reset.",
+      "tweetId": "2054083152822600117",
+      "tweetUrl": "https://x.com/thsottiaux/status/2054083152822600117",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2054082531432210765",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2054082531432210765",
+    "lastSeenTweetId": "2054083152822600117",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2054083152822600117",
     "pendingReview": {
       "confidence": 0.12,
       "createdAt": 1778558679389,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2054048780018958344"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1778566746789,
+        "inputTokens": 358,
+        "outputTokens": 90,
+        "rationale": "This reply is just conversational and does not mention limits, caps, or a reset.",
+        "reasoningTokens": 45,
+        "totalTokens": 448,
+        "tweetId": "2054083152822600117",
+        "tweetText": "@melvynx Magic?",
+        "tweetUrl": "https://x.com/thsottiaux/status/2054083152822600117",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1778566444239,
@@ -279,29 +292,31 @@
         "tweetText": "@VictorTaelin Typo. Can’t train on this.\n\ns/honestly/honesty",
         "tweetUrl": "https://x.com/thsottiaux/status/2053373307664380005",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1778377756668,
-        "inputTokens": 369,
-        "outputTokens": 93,
-        "rationale": "This reply is troubleshooting app behavior and does not mention limits or a reset.",
-        "reasoningTokens": 50,
-        "totalTokens": 462,
-        "tweetId": "2053291144583557249",
-        "tweetText": "@RayLin_AI @embirico Does it go away if you uninstall / reinstall?",
-        "tweetUrl": "https://x.com/thsottiaux/status/2053291144583557249",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 138498,
-      "totalOutputTokens": 38045,
-      "totalReasoningTokens": 20477,
-      "totalTokens": 176543
+      "totalInputTokens": 138856,
+      "totalOutputTokens": 38135,
+      "totalReasoningTokens": 20522,
+      "totalTokens": 176991
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1778566746789,
+      "inputTokens": 358,
+      "message": "",
+      "outputTokens": 90,
+      "rationale": "This reply is just conversational and does not mention limits, caps, or a reset.",
+      "reasoningTokens": 45,
+      "totalTokens": 448,
+      "tweetId": "2054083152822600117",
+      "tweetText": "@melvynx Magic?",
+      "tweetUrl": "https://x.com/thsottiaux/status/2054083152822600117",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1778566444239,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2052524115748368430",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1778194894686,
-      "inputTokens": 461,
-      "message": "",
-      "outputTokens": 89,
-      "rationale": "This is a promotional post about Codex in Chrome, not about usage limits resetting.",
-      "reasoningTokens": 44,
-      "totalTokens": 550,
-      "tweetId": "2052523840040063261",
-      "tweetText": "Hello Chrome, I am Codex",
-      "tweetUrl": "https://x.com/thsottiaux/status/2052523840040063261",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "ocuUSqgkN6RLUUKSXmknr324Kd_pn-uTmZ0couSh0XTIBqhSgK6rZL7Iog",
-    "iv": "j2TSUq1iAmhe0z-h",
-    "tag": "z3Ug9bI-HtkGAVUE4nN8fQ",
+    "ciphertext": "xuF5kw7stK-YKXn__rk_H6ADyB6_DIn27ms7eBqbaooZHA5mTH5EQYKDvQ",
+    "iv": "STrE1jaDzCRCxURN",
+    "tag": "Y-02JePie99C1x0v45Vz3w",
     "version": 1
   }
 }
