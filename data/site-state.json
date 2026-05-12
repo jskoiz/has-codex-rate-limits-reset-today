@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1778566746789,
-      "rationale": "This reply is just conversational and does not mention limits, caps, or a reset.",
-      "tweetId": "2054083152822600117",
-      "tweetUrl": "https://x.com/thsottiaux/status/2054083152822600117",
+      "decidedAt": 1778598988970,
+      "rationale": "This post is about Codex release cadence, not user caps or rate limits resetting.",
+      "tweetId": "2054218626862141856",
+      "tweetUrl": "https://x.com/thsottiaux/status/2054218626862141856",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2054083152822600117",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2054083152822600117",
+    "lastSeenTweetId": "2054218626862141856",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2054218626862141856",
     "pendingReview": {
       "confidence": 0.12,
       "createdAt": 1778558679389,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2054048780018958344"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1778598988970,
+        "inputTokens": 391,
+        "outputTokens": 97,
+        "rationale": "This post is about Codex release cadence, not user caps or rate limits resetting.",
+        "reasoningTokens": 52,
+        "totalTokens": 488,
+        "tweetId": "2054218626862141856",
+        "tweetText": "For Codex, we’ve been thinking about keeping a stable release cadence and have a larger release each week on Thursday. That does make the start of the week and bit less exciting. Thoughts?",
+        "tweetUrl": "https://x.com/thsottiaux/status/2054218626862141856",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1778566746789,
@@ -279,29 +292,31 @@
         "tweetText": "@brianchew Please give them back. People miss their pet",
         "tweetUrl": "https://x.com/thsottiaux/status/2053374548767363330",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1778397620599,
-        "inputTokens": 374,
-        "outputTokens": 76,
-        "rationale": "This reply is just correcting a typo and says nothing about limits or availability.",
-        "reasoningTokens": 33,
-        "totalTokens": 450,
-        "tweetId": "2053373307664380005",
-        "tweetText": "@VictorTaelin Typo. Can’t train on this.\n\ns/honestly/honesty",
-        "tweetUrl": "https://x.com/thsottiaux/status/2053373307664380005",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 138856,
-      "totalOutputTokens": 38135,
-      "totalReasoningTokens": 20522,
-      "totalTokens": 176991
+      "totalInputTokens": 139247,
+      "totalOutputTokens": 38232,
+      "totalReasoningTokens": 20574,
+      "totalTokens": 177479
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1778598988970,
+      "inputTokens": 391,
+      "message": "",
+      "outputTokens": 97,
+      "rationale": "This post is about Codex release cadence, not user caps or rate limits resetting.",
+      "reasoningTokens": 52,
+      "totalTokens": 488,
+      "tweetId": "2054218626862141856",
+      "tweetText": "For Codex, we’ve been thinking about keeping a stable release cadence and have a larger release each week on Thursday. That does make the start of the week and bit less exciting. Thoughts?",
+      "tweetUrl": "https://x.com/thsottiaux/status/2054218626862141856",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1778566746789,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2052556009043083773",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1778194898164,
-      "inputTokens": 364,
-      "message": "",
-      "outputTokens": 83,
-      "rationale": "This reply is unrelated to Codex or ChatGPT usage limits resetting.",
-      "reasoningTokens": 41,
-      "totalTokens": 447,
-      "tweetId": "2052524115748368430",
-      "tweetText": "@ajambrosino Eagerly waiting for Omarchy",
-      "tweetUrl": "https://x.com/thsottiaux/status/2052524115748368430",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "xuF5kw7stK-YKXn__rk_H6ADyB6_DIn27ms7eBqbaooZHA5mTH5EQYKDvQ",
-    "iv": "STrE1jaDzCRCxURN",
-    "tag": "Y-02JePie99C1x0v45Vz3w",
+    "ciphertext": "-nKxzeM8lYhV-QXNRvP26iWg1DxnFsCcsY6v3i5qHmCrnKctNgNfP9_Ekg",
+    "iv": "mdUxuDfxi9nLKUp5",
+    "tag": "YrJkUWBZx1LN1sjz2DRLWA",
     "version": 1
   }
 }
