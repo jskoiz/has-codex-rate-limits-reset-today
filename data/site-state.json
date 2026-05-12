@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1778553757044,
-      "rationale": "This reply is unrelated to ChatGPT or Codex rate limit resets.",
-      "tweetId": "2054029340082597949",
-      "tweetUrl": "https://x.com/thsottiaux/status/2054029340082597949",
+      "decidedAt": 1778557149679,
+      "rationale": "This reply is unrelated to Codex or ChatGPT limits resetting.",
+      "tweetId": "2054043382885097770",
+      "tweetUrl": "https://x.com/thsottiaux/status/2054043382885097770",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2054029340082597949",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2054029340082597949",
+    "lastSeenTweetId": "2054043382885097770",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2054043382885097770",
     "pendingReview": {
       "confidence": 0.93,
       "createdAt": 1778209493962,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2052585471948263631"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1778557149679,
+        "inputTokens": 360,
+        "outputTokens": 74,
+        "rationale": "This reply is unrelated to Codex or ChatGPT limits resetting.",
+        "reasoningTokens": 33,
+        "totalTokens": 434,
+        "tweetId": "2054043382885097770",
+        "tweetText": "@0xSero How about diagonal",
+        "tweetUrl": "https://x.com/thsottiaux/status/2054043382885097770",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1778553757044,
@@ -279,29 +292,31 @@
         "tweetText": "You can just migrate things",
         "tweetUrl": "https://x.com/thsottiaux/status/2052808587429523663",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1778257146469,
-        "inputTokens": 368,
-        "outputTokens": 109,
-        "rationale": "This reply is just a registration link and does not mention limits or a reset.",
-        "reasoningTokens": 65,
-        "totalTokens": 477,
-        "tweetId": "2052784772108386307",
-        "tweetText": "Register here https://t.co/pU4j26w0J2",
-        "tweetUrl": "https://x.com/thsottiaux/status/2052784772108386307",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 135455,
-      "totalOutputTokens": 37342,
-      "totalReasoningTokens": 20126,
-      "totalTokens": 172797
+      "totalInputTokens": 135815,
+      "totalOutputTokens": 37416,
+      "totalReasoningTokens": 20159,
+      "totalTokens": 173231
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1778557149679,
+      "inputTokens": 360,
+      "message": "",
+      "outputTokens": 74,
+      "rationale": "This reply is unrelated to Codex or ChatGPT limits resetting.",
+      "reasoningTokens": 33,
+      "totalTokens": 434,
+      "tweetId": "2054043382885097770",
+      "tweetText": "@0xSero How about diagonal",
+      "tweetUrl": "https://x.com/thsottiaux/status/2054043382885097770",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1778553757044,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2052170878725829111",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1778110616532,
-      "inputTokens": 430,
-      "message": "",
-      "outputTokens": 82,
-      "rationale": "This is a promotional post about someone using Codex and the API, not about limits resetting.",
-      "reasoningTokens": 35,
-      "totalTokens": 512,
-      "tweetId": "2052170738740933090",
-      "tweetText": "@KSScenna has been playing with code since he was 12 years old jailbreaking the iPod Touch. Super cool to see him now using Codex + our API to solve hard problems across taxes, healthcare and more for everyone.\n\n“I never thought the gap between noticing a problem and building something real could get this small.”\n\nTurns out you can just build things!",
-      "tweetUrl": "https://x.com/thsottiaux/status/2052170738740933090",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "dixhttt_0YYSJkIN7MvMihIhLXiVzcGIBgVclG1HfPe2-9NODXpAuv4AiA",
-    "iv": "u3b61aLuQ_F5NSKr",
-    "tag": "YbNqHd1jUMwjLt-sV0C9Iw",
+    "ciphertext": "fqOi22g5C5oOuZbHEvhO0QLrZl2PQ7XxRJNr1bCexjmoDXdpd4DRmHXYZg",
+    "iv": "jquCh1At7317BSj8",
+    "tag": "k6eKFU84Lh3nQh_17TWcaw",
     "version": 1
   }
 }
