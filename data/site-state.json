@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1778559604331,
-      "rationale": "This reply is conversational and does not mention limits, caps, or availability resetting.",
-      "tweetId": "2054053777909670083",
-      "tweetUrl": "https://x.com/thsottiaux/status/2054053777909670083",
+      "decidedAt": 1778563316944,
+      "rationale": "This reply is unrelated to Codex or ChatGPT limits resetting.",
+      "tweetId": "2054068906915233818",
+      "tweetUrl": "https://x.com/thsottiaux/status/2054068906915233818",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2054053777909670083",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2054053777909670083",
+    "lastSeenTweetId": "2054068906915233818",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2054068906915233818",
     "pendingReview": {
       "confidence": 0.12,
       "createdAt": 1778558679389,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2054048780018958344"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1778563316944,
+        "inputTokens": 368,
+        "outputTokens": 63,
+        "rationale": "This reply is unrelated to Codex or ChatGPT limits resetting.",
+        "reasoningTokens": 22,
+        "totalTokens": 431,
+        "tweetId": "2054068906915233818",
+        "tweetText": "@Anubhavhing You don't need the super duper app to ghost recruiters",
+        "tweetUrl": "https://x.com/thsottiaux/status/2054068906915233818",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1778559604331,
@@ -279,29 +292,31 @@
         "tweetText": "@jxnlco Life goals",
         "tweetUrl": "https://x.com/thsottiaux/status/2053251356211986742",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1778368171825,
-        "inputTokens": 411,
-        "outputTokens": 72,
-        "rationale": "This post is about Codex use cases and the /goal feature, not rate limits or a reset.",
-        "reasoningTokens": 23,
-        "totalTokens": 483,
-        "tweetId": "2053250877331493068",
-        "tweetText": "Seeing so many cool applications of codex lately across robotics, science, gaming and more. And seems that people are discovering the power of the /goal feature.\n\nA few disturbing hands in this one, but you get the gist. https://t.co/352XP2wyFM",
-        "tweetUrl": "https://x.com/thsottiaux/status/2053250877331493068",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 137662,
-      "totalOutputTokens": 37886,
-      "totalReasoningTokens": 20408,
-      "totalTokens": 175548
+      "totalInputTokens": 138030,
+      "totalOutputTokens": 37949,
+      "totalReasoningTokens": 20430,
+      "totalTokens": 175979
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1778563316944,
+      "inputTokens": 368,
+      "message": "",
+      "outputTokens": 63,
+      "rationale": "This reply is unrelated to Codex or ChatGPT limits resetting.",
+      "reasoningTokens": 22,
+      "totalTokens": 431,
+      "tweetId": "2054068906915233818",
+      "tweetText": "@Anubhavhing You don't need the super duper app to ghost recruiters",
+      "tweetUrl": "https://x.com/thsottiaux/status/2054068906915233818",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1778559604331,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2052245870574465426",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1778128686937,
-      "inputTokens": 377,
-      "message": "",
-      "outputTokens": 96,
-      "rationale": "This reply is just conversational and says nothing about limits or usage resetting.",
-      "reasoningTokens": 54,
-      "totalTokens": 473,
-      "tweetId": "2052245693620969560",
-      "tweetText": "@Dimillian @ajambrosino I like having 1:1s with people on twitter, slack scares me lately",
-      "tweetUrl": "https://x.com/thsottiaux/status/2052245693620969560",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "3lnrKrDMiaVpZfz1OnpUyxAYapYyn6Ahcl6w-NTZ70sjg9rNV598BACRaA",
-    "iv": "X0iliXNRIA2DFa_u",
-    "tag": "LiphFMwJqx8H1psy9kETqw",
+    "ciphertext": "ZpDx9C9itdDbmJLT_gMpJAV41ombTwmKbw1Ut2LpDSyWbJZ1YrP6pMTdEw",
+    "iv": "2LHD8mlfUaUwNiXm",
+    "tag": "H-Q53bX3ur_AYz71ihuruw",
     "version": 1
   }
 }
