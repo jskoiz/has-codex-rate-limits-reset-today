@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1778550023399,
-      "rationale": "This reply is just conversational and does not mention limits, caps, or usage resetting.",
-      "tweetId": "2054013098781221196",
-      "tweetUrl": "https://x.com/thsottiaux/status/2054013098781221196",
+      "decidedAt": 1778550028898,
+      "rationale": "This post is just discussing Codex app features and does not mention limits or a reset.",
+      "tweetId": "2054013690786230510",
+      "tweetUrl": "https://x.com/thsottiaux/status/2054013690786230510",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2054013098781221196",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2054013098781221196",
+    "lastSeenTweetId": "2054013690786230510",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2054013690786230510",
     "pendingReview": {
       "confidence": 0.93,
       "createdAt": 1778209493962,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2052585471948263631"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1778550028898,
+        "inputTokens": 375,
+        "outputTokens": 103,
+        "rationale": "This post is just discussing Codex app features and does not mention limits or a reset.",
+        "reasoningTokens": 57,
+        "totalTokens": 478,
+        "tweetId": "2054013690786230510",
+        "tweetText": "Now that the Codex app is close to being the super app. What should the super duper app do?",
+        "tweetUrl": "https://x.com/thsottiaux/status/2054013690786230510",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1778550023399,
@@ -279,29 +292,31 @@
         "tweetText": "@RhysSullivan Yes, but soon no",
         "tweetUrl": "https://x.com/thsottiaux/status/2052585471948263631",
         "verdict": "uncertain"
-      },
-      {
-        "confidence": 0.95,
-        "evaluatedAt": 1778209166514,
-        "inputTokens": 361,
-        "outputTokens": 171,
-        "rationale": "This reply is too context-dependent and does not explicitly say that any limit has reset or not.",
-        "reasoningTokens": 123,
-        "totalTokens": 532,
-        "tweetId": "2052583531256373607",
-        "tweetText": "@VraserX Not today 👀",
-        "tweetUrl": "https://x.com/thsottiaux/status/2052583531256373607",
-        "verdict": "uncertain"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 133575,
-      "totalOutputTokens": 36894,
-      "totalReasoningTokens": 19900,
-      "totalTokens": 170469
+      "totalInputTokens": 133950,
+      "totalOutputTokens": 36997,
+      "totalReasoningTokens": 19957,
+      "totalTokens": 170947
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1778550028898,
+      "inputTokens": 375,
+      "message": "",
+      "outputTokens": 103,
+      "rationale": "This post is just discussing Codex app features and does not mention limits or a reset.",
+      "reasoningTokens": 57,
+      "totalTokens": 478,
+      "tweetId": "2054013690786230510",
+      "tweetText": "Now that the Codex app is close to being the super app. What should the super duper app do?",
+      "tweetUrl": "https://x.com/thsottiaux/status/2054013690786230510",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1778550023399,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2051778049583264009",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1777907386268,
-      "inputTokens": 368,
-      "message": "",
-      "outputTokens": 110,
-      "rationale": "This reply is conversational and does not mention limits, caps, or usage resetting.",
-      "reasoningTokens": 66,
-      "totalTokens": 478,
-      "tweetId": "2051317269385617502",
-      "tweetText": "@deckard_the_dev Never too late. And let me know what you think",
-      "tweetUrl": "https://x.com/thsottiaux/status/2051317269385617502",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "VX4ASxcn92rJo51YwAjryW9XabvY-RpWyDYxv82C-YZEiQjKo393sSyBwQ",
-    "iv": "duYHqw3VZNt1Hsfp",
-    "tag": "TAR7_Gek_yq7RNjX9aczXQ",
+    "ciphertext": "0tkwbkgicDc0TD3Ig-lr8pmQDcOh6d35-QqV7mzbyA-oE5ANMqJxEatS9w",
+    "iv": "DDWTJcfVh6_6jyl-",
+    "tag": "WAoy6s394UpKfUIvo_cDlA",
     "version": 1
   }
 }
