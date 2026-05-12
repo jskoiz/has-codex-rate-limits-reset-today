@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1778550327783,
-      "rationale": "This reply is about working on something later and does not mention limits, caps, or resets.",
-      "tweetId": "2054014576115773753",
-      "tweetUrl": "https://x.com/thsottiaux/status/2054014576115773753",
+      "decidedAt": 1778553753598,
+      "rationale": "This reply is unrelated to ChatGPT or Codex usage limits resetting.",
+      "tweetId": "2054028334921830505",
+      "tweetUrl": "https://x.com/thsottiaux/status/2054028334921830505",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2054014576115773753",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2054014576115773753",
+    "lastSeenTweetId": "2054028334921830505",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2054028334921830505",
     "pendingReview": {
       "confidence": 0.93,
       "createdAt": 1778209493962,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2052585471948263631"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1778553753598,
+        "inputTokens": 396,
+        "outputTokens": 73,
+        "rationale": "This reply is unrelated to ChatGPT or Codex usage limits resetting.",
+        "reasoningTokens": 31,
+        "totalTokens": 469,
+        "tweetId": "2054028334921830505",
+        "tweetText": "@SinaHartung Sorry, you're right. This was a reference to a famous hacker group from 2003 and I've been deep into cyber security this week so it was on my mind. A bit silly I admit!",
+        "tweetUrl": "https://x.com/thsottiaux/status/2054028334921830505",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1778550327783,
@@ -279,29 +292,31 @@
         "tweetText": "Hosting a session next Wednesday (5/13) with the OpenAI Forum on why Codex matters beyond code. Join for the livestream and Q&amp;A if you’re interested in the history of Codex, what we're pushing on next and see some cool use-cases. https://t.co/TnUhz26i35",
         "tweetUrl": "https://x.com/thsottiaux/status/2052784755083731172",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1778217890446,
-        "inputTokens": 375,
-        "outputTokens": 96,
-        "rationale": "This is just a celebratory comment about Codex and does not mention limits or a reset.",
-        "reasoningTokens": 49,
-        "totalTokens": 471,
-        "tweetId": "2052620509456875724",
-        "tweetText": "Codex has made it. shadcn my hero https://t.co/ktDMPPJdhw",
-        "tweetUrl": "https://x.com/thsottiaux/status/2052620509456875724",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 134697,
-      "totalOutputTokens": 37197,
-      "totalReasoningTokens": 20065,
-      "totalTokens": 171894
+      "totalInputTokens": 135093,
+      "totalOutputTokens": 37270,
+      "totalReasoningTokens": 20096,
+      "totalTokens": 172363
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1778553753598,
+      "inputTokens": 396,
+      "message": "",
+      "outputTokens": 73,
+      "rationale": "This reply is unrelated to ChatGPT or Codex usage limits resetting.",
+      "reasoningTokens": 31,
+      "totalTokens": 469,
+      "tweetId": "2054028334921830505",
+      "tweetText": "@SinaHartung Sorry, you're right. This was a reference to a famous hacker group from 2003 and I've been deep into cyber security this week so it was on my mind. A bit silly I admit!",
+      "tweetUrl": "https://x.com/thsottiaux/status/2054028334921830505",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1778550327783,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2052162508287570169",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0,
-      "createdAt": 1778108434254,
-      "inputTokens": 0,
-      "message": "Tweet fetch failed: Request failed with status code 404 (Request failed with status code 404)",
-      "outputTokens": 0,
-      "rationale": "",
-      "reasoningTokens": 0,
-      "totalTokens": 0,
-      "tweetId": null,
-      "tweetText": "",
-      "tweetUrl": null,
-      "type": "error",
-      "verdict": null
     }
   ],
   "privateState": {
-    "ciphertext": "stqQLEulQv_70wLCt2efXrdyrGoxWnePN9wdvzskgLYefIIMWA2KC-l96w",
-    "iv": "dekdbpQJn9CoyMe1",
-    "tag": "5cIWRWqmj9UNuFCamcQIZg",
+    "ciphertext": "HAJ8VBs0sqsgNY0mjmZsf2ZxCZm9ic4OxCjyuU9zTm6RPX18v5czrIh5qw",
+    "iv": "Gn5g7aQEq7ZuoPIC",
+    "tag": "-cCxSgxYoxrVs1gzgptN9w",
     "version": 1
   }
 }
