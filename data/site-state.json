@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1778559295651,
-      "rationale": "This reply is just conversational and does not mention limits or a reset.",
-      "tweetId": "2054052198422839502",
-      "tweetUrl": "https://x.com/thsottiaux/status/2054052198422839502",
+      "decidedAt": 1778559604331,
+      "rationale": "This reply is conversational and does not mention limits, caps, or availability resetting.",
+      "tweetId": "2054053777909670083",
+      "tweetUrl": "https://x.com/thsottiaux/status/2054053777909670083",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2054052198422839502",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2054052198422839502",
+    "lastSeenTweetId": "2054053777909670083",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2054053777909670083",
     "pendingReview": {
       "confidence": 0.12,
       "createdAt": 1778558679389,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2054048780018958344"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1778559604331,
+        "inputTokens": 358,
+        "outputTokens": 74,
+        "rationale": "This reply is conversational and does not mention limits, caps, or availability resetting.",
+        "reasoningTokens": 30,
+        "totalTokens": 432,
+        "tweetId": "2054053777909670083",
+        "tweetText": "@argofowl Wrong Andrew",
+        "tweetUrl": "https://x.com/thsottiaux/status/2054053777909670083",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1778559295651,
@@ -279,29 +292,31 @@
         "tweetText": "Seeing so many cool applications of codex lately across robotics, science, gaming and more. And seems that people are discovering the power of the /goal feature.\n\nA few disturbing hands in this one, but you get the gist. https://t.co/352XP2wyFM",
         "tweetUrl": "https://x.com/thsottiaux/status/2053250877331493068",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1778349626648,
-        "inputTokens": 359,
-        "outputTokens": 82,
-        "rationale": "This reply does not mention limits, caps, resets, or availability returning.",
-        "reasoningTokens": 39,
-        "totalTokens": 441,
-        "tweetId": "2053172683752559001",
-        "tweetText": "@thdxr Dax Inc",
-        "tweetUrl": "https://x.com/thsottiaux/status/2053172683752559001",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 137304,
-      "totalOutputTokens": 37812,
-      "totalReasoningTokens": 20378,
-      "totalTokens": 175116
+      "totalInputTokens": 137662,
+      "totalOutputTokens": 37886,
+      "totalReasoningTokens": 20408,
+      "totalTokens": 175548
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1778559604331,
+      "inputTokens": 358,
+      "message": "",
+      "outputTokens": 74,
+      "rationale": "This reply is conversational and does not mention limits, caps, or availability resetting.",
+      "reasoningTokens": 30,
+      "totalTokens": 432,
+      "tweetId": "2054053777909670083",
+      "tweetText": "@argofowl Wrong Andrew",
+      "tweetUrl": "https://x.com/thsottiaux/status/2054053777909670083",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1778559295651,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2052245693620969560",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1778128374766,
-      "inputTokens": 361,
-      "message": "",
-      "outputTokens": 70,
-      "rationale": "This reply is just conversational and gives no indication that any rate limit has reset.",
-      "reasoningTokens": 26,
-      "totalTokens": 431,
-      "tweetId": "2052244310037577830",
-      "tweetText": "@ericmitchellai So cryptic",
-      "tweetUrl": "https://x.com/thsottiaux/status/2052244310037577830",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "nvBGQUEDPoXix7DAyP3WZyTmo-XaC0MdkwRi9jXyvkgrGz-6kYs6dBhvAQ",
-    "iv": "obPGvHDVwX1gnXPS",
-    "tag": "lm5Dp3NxiJU9Usc5o0JsZw",
+    "ciphertext": "3lnrKrDMiaVpZfz1OnpUyxAYapYyn6Ahcl6w-NTZ70sjg9rNV598BACRaA",
+    "iv": "X0iliXNRIA2DFa_u",
+    "tag": "LiphFMwJqx8H1psy9kETqw",
     "version": 1
   }
 }
