@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1778550028898,
-      "rationale": "This post is just discussing Codex app features and does not mention limits or a reset.",
-      "tweetId": "2054013690786230510",
-      "tweetUrl": "https://x.com/thsottiaux/status/2054013690786230510",
+      "decidedAt": 1778550324038,
+      "rationale": "This reply is just a comparison and does not mention limits, caps, or resets.",
+      "tweetId": "2054014199228150052",
+      "tweetUrl": "https://x.com/thsottiaux/status/2054014199228150052",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2054013690786230510",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2054013690786230510",
+    "lastSeenTweetId": "2054014199228150052",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2054014199228150052",
     "pendingReview": {
       "confidence": 0.93,
       "createdAt": 1778209493962,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2052585471948263631"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1778550324038,
+        "inputTokens": 369,
+        "outputTokens": 88,
+        "rationale": "This reply is just a comparison and does not mention limits, caps, or resets.",
+        "reasoningTokens": 43,
+        "totalTokens": 457,
+        "tweetId": "2054014199228150052",
+        "tweetText": "@TechByTaraa Because 5.5 &gt; 4.7",
+        "tweetUrl": "https://x.com/thsottiaux/status/2054014199228150052",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1778550028898,
@@ -279,29 +292,31 @@
         "tweetText": "@LexnLin Ok ok",
         "tweetUrl": "https://x.com/thsottiaux/status/2052589912613146651",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.93,
-        "evaluatedAt": 1778209493962,
-        "inputTokens": 362,
-        "outputTokens": 184,
-        "rationale": "This reply has no clear mention of limits or a reset, so its meaning is too ambiguous to treat as a confirmed reset.",
-        "reasoningTokens": 131,
-        "totalTokens": 546,
-        "tweetId": "2052585471948263631",
-        "tweetText": "@RhysSullivan Yes, but soon no",
-        "tweetUrl": "https://x.com/thsottiaux/status/2052585471948263631",
-        "verdict": "uncertain"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 133950,
-      "totalOutputTokens": 36997,
-      "totalReasoningTokens": 19957,
-      "totalTokens": 170947
+      "totalInputTokens": 134319,
+      "totalOutputTokens": 37085,
+      "totalReasoningTokens": 20000,
+      "totalTokens": 171404
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1778550324038,
+      "inputTokens": 369,
+      "message": "",
+      "outputTokens": 88,
+      "rationale": "This reply is just a comparison and does not mention limits, caps, or resets.",
+      "reasoningTokens": 43,
+      "totalTokens": 457,
+      "tweetId": "2054014199228150052",
+      "tweetText": "@TechByTaraa Because 5.5 &gt; 4.7",
+      "tweetUrl": "https://x.com/thsottiaux/status/2054014199228150052",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1778550028898,
@@ -886,27 +901,12 @@
       "tweetUrl": null,
       "type": "error",
       "verdict": null
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1778017101354,
-      "inputTokens": 360,
-      "message": "",
-      "outputTokens": 78,
-      "rationale": "This is just a conversational reply and does not indicate any limits have reset.",
-      "reasoningTokens": 35,
-      "totalTokens": 438,
-      "tweetId": "2051778049583264009",
-      "tweetText": "@turkelitopcusu Wdym?",
-      "tweetUrl": "https://x.com/thsottiaux/status/2051778049583264009",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "0tkwbkgicDc0TD3Ig-lr8pmQDcOh6d35-QqV7mzbyA-oE5ANMqJxEatS9w",
-    "iv": "DDWTJcfVh6_6jyl-",
-    "tag": "WAoy6s394UpKfUIvo_cDlA",
+    "ciphertext": "Q10NK-HCns_rwcva_kdx2C1gFquIP03XUC-iiALCf_t41biawrya8cre2w",
+    "iv": "CTlpQjXx0O2TFb76",
+    "tag": "znAN3XmZaPoDVzX6y8i4rQ",
     "version": 1
   }
 }
