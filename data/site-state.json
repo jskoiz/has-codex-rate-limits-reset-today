@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1778550324038,
-      "rationale": "This reply is just a comparison and does not mention limits, caps, or resets.",
-      "tweetId": "2054014199228150052",
-      "tweetUrl": "https://x.com/thsottiaux/status/2054014199228150052",
+      "decidedAt": 1778550327783,
+      "rationale": "This reply is about working on something later and does not mention limits, caps, or resets.",
+      "tweetId": "2054014576115773753",
+      "tweetUrl": "https://x.com/thsottiaux/status/2054014576115773753",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2054014199228150052",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2054014199228150052",
+    "lastSeenTweetId": "2054014576115773753",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2054014576115773753",
     "pendingReview": {
       "confidence": 0.93,
       "createdAt": 1778209493962,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2052585471948263631"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1778550327783,
+        "inputTokens": 378,
+        "outputTokens": 112,
+        "rationale": "This reply is about working on something later and does not mention limits, caps, or resets.",
+        "reasoningTokens": 65,
+        "totalTokens": 490,
+        "tweetId": "2054014576115773753",
+        "tweetText": "@badlogicgames @sloikodavid Oh, I can work on that. Putting that on my list for this week",
+        "tweetUrl": "https://x.com/thsottiaux/status/2054014576115773753",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1778550324038,
@@ -279,29 +292,31 @@
         "tweetText": "Codex has made it. shadcn my hero https://t.co/ktDMPPJdhw",
         "tweetUrl": "https://x.com/thsottiaux/status/2052620509456875724",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1778210741518,
-        "inputTokens": 358,
-        "outputTokens": 94,
-        "rationale": "This reply is conversational and says nothing about limits or a reset.",
-        "reasoningTokens": 53,
-        "totalTokens": 452,
-        "tweetId": "2052589912613146651",
-        "tweetText": "@LexnLin Ok ok",
-        "tweetUrl": "https://x.com/thsottiaux/status/2052589912613146651",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 134319,
-      "totalOutputTokens": 37085,
-      "totalReasoningTokens": 20000,
-      "totalTokens": 171404
+      "totalInputTokens": 134697,
+      "totalOutputTokens": 37197,
+      "totalReasoningTokens": 20065,
+      "totalTokens": 171894
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1778550327783,
+      "inputTokens": 378,
+      "message": "",
+      "outputTokens": 112,
+      "rationale": "This reply is about working on something later and does not mention limits, caps, or resets.",
+      "reasoningTokens": 65,
+      "totalTokens": 490,
+      "tweetId": "2054014576115773753",
+      "tweetText": "@badlogicgames @sloikodavid Oh, I can work on that. Putting that on my list for this week",
+      "tweetUrl": "https://x.com/thsottiaux/status/2054014576115773753",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1778550324038,
@@ -886,27 +901,12 @@
       "tweetUrl": null,
       "type": "error",
       "verdict": null
-    },
-    {
-      "confidence": 0,
-      "createdAt": 1778045330758,
-      "inputTokens": 0,
-      "message": "Tweet fetch failed: Tweet search failed: Request failed with status code 404; timeline fallback failed: Request failed with status code 404 (Request failed with status code 404) (Tweet search failed: Request failed with status code 404; timeline fallback failed: Request failed with status code 404)",
-      "outputTokens": 0,
-      "rationale": "",
-      "reasoningTokens": 0,
-      "totalTokens": 0,
-      "tweetId": null,
-      "tweetText": "",
-      "tweetUrl": null,
-      "type": "error",
-      "verdict": null
     }
   ],
   "privateState": {
-    "ciphertext": "Q10NK-HCns_rwcva_kdx2C1gFquIP03XUC-iiALCf_t41biawrya8cre2w",
-    "iv": "CTlpQjXx0O2TFb76",
-    "tag": "znAN3XmZaPoDVzX6y8i4rQ",
+    "ciphertext": "stqQLEulQv_70wLCt2efXrdyrGoxWnePN9wdvzskgLYefIIMWA2KC-l96w",
+    "iv": "dekdbpQJn9CoyMe1",
+    "tag": "5cIWRWqmj9UNuFCamcQIZg",
     "version": 1
   }
 }
