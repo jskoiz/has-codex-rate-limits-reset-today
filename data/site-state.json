@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1778557149679,
-      "rationale": "This reply is unrelated to Codex or ChatGPT limits resetting.",
-      "tweetId": "2054043382885097770",
-      "tweetUrl": "https://x.com/thsottiaux/status/2054043382885097770",
+      "decidedAt": 1778558368523,
+      "rationale": "This is a product announcement about cybersecurity features, not a statement that Codex or ChatGPT limits reset.",
+      "tweetId": "2054048631850999815",
+      "tweetUrl": "https://x.com/thsottiaux/status/2054048631850999815",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2054043382885097770",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2054043382885097770",
+    "lastSeenTweetId": "2054048631850999815",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2054048631850999815",
     "pendingReview": {
       "confidence": 0.93,
       "createdAt": 1778209493962,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2052585471948263631"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1778558368523,
+        "inputTokens": 408,
+        "outputTokens": 69,
+        "rationale": "This is a product announcement about cybersecurity features, not a statement that Codex or ChatGPT limits reset.",
+        "reasoningTokens": 20,
+        "totalTokens": 477,
+        "tweetId": "2054048631850999815",
+        "tweetText": "Cybersecurity is changing. \n\nDaybreak brings together our most capable cyber models, Trusted Access tiers, advanced security workflows in Codex and at scale repo scanning with patch generation. With much more to come. https://t.co/UWi7f1qi7M",
+        "tweetUrl": "https://x.com/thsottiaux/status/2054048631850999815",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1778557149679,
@@ -279,29 +292,31 @@
         "tweetText": "As a Codex user, which platform are you on",
         "tweetUrl": "https://x.com/thsottiaux/status/2052928802137997751",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.98,
-        "evaluatedAt": 1778262725213,
-        "inputTokens": 418,
-        "outputTokens": 123,
-        "rationale": "This post and its quoted text do not mention limits, caps, or usage becoming available again.",
-        "reasoningTokens": 76,
-        "totalTokens": 541,
-        "tweetId": "2052808587429523663",
-        "tweetText": "You can just migrate things",
-        "tweetUrl": "https://x.com/thsottiaux/status/2052808587429523663",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 135815,
-      "totalOutputTokens": 37416,
-      "totalReasoningTokens": 20159,
-      "totalTokens": 173231
+      "totalInputTokens": 136223,
+      "totalOutputTokens": 37485,
+      "totalReasoningTokens": 20179,
+      "totalTokens": 173708
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1778558368523,
+      "inputTokens": 408,
+      "message": "",
+      "outputTokens": 69,
+      "rationale": "This is a product announcement about cybersecurity features, not a statement that Codex or ChatGPT limits reset.",
+      "reasoningTokens": 20,
+      "totalTokens": 477,
+      "tweetId": "2054048631850999815",
+      "tweetText": "Cybersecurity is changing. \n\nDaybreak brings together our most capable cyber models, Trusted Access tiers, advanced security workflows in Codex and at scale repo scanning with patch generation. With much more to come. https://t.co/UWi7f1qi7M",
+      "tweetUrl": "https://x.com/thsottiaux/status/2054048631850999815",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1778557149679,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2052233392071360732",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1778110923638,
-      "inputTokens": 380,
-      "message": "",
-      "outputTokens": 65,
-      "rationale": "This reply is congratulatory and says nothing about limits or a reset.",
-      "reasoningTokens": 23,
-      "totalTokens": 445,
-      "tweetId": "2052170878725829111",
-      "tweetText": "@KSScenna Congrats to Kyle and ChatGPT Futures, Class of 2026. https://t.co/hzt8OvawOh",
-      "tweetUrl": "https://x.com/thsottiaux/status/2052170878725829111",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "fqOi22g5C5oOuZbHEvhO0QLrZl2PQ7XxRJNr1bCexjmoDXdpd4DRmHXYZg",
-    "iv": "jquCh1At7317BSj8",
-    "tag": "k6eKFU84Lh3nQh_17TWcaw",
+    "ciphertext": "d_oRYjPKkAREGzpI5T3KPh2q70_gh_4n4UDsx4T3hwhJO12nTS56Bth32Q",
+    "iv": "aOPdkhJL109zqoXK",
+    "tag": "-pWS19zoXm18BBVEi2BjnQ",
     "version": 1
   }
 }
