@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1778651716934,
-      "rationale": "This tweet is just praising GPT-5.5 Instant and does not mention limits or a reset.",
-      "tweetId": "2054439514605756772",
-      "tweetUrl": "https://x.com/thsottiaux/status/2054439514605756772",
+      "decidedAt": 1778701207407,
+      "rationale": "This post is a general question and does not mention limits, caps, or resets.",
+      "tweetId": "2054647223615680714",
+      "tweetUrl": "https://x.com/thsottiaux/status/2054647223615680714",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2054439514605756772",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2054439514605756772",
+    "lastSeenTweetId": "2054647223615680714",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2054647223615680714",
     "pendingReview": {
       "confidence": 0.12,
       "createdAt": 1778558679389,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2054048780018958344"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1778701207407,
+        "inputTokens": 359,
+        "outputTokens": 74,
+        "rationale": "This post is a general question and does not mention limits, caps, or resets.",
+        "reasoningTokens": 29,
+        "totalTokens": 433,
+        "tweetId": "2054647223615680714",
+        "tweetText": "What is your /goal today?",
+        "tweetUrl": "https://x.com/thsottiaux/status/2054647223615680714",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1778651716934,
@@ -279,29 +292,31 @@
         "tweetText": "@TechByTaraa Because 5.5 &gt; 4.7",
         "tweetUrl": "https://x.com/thsottiaux/status/2054014199228150052",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1778550028898,
-        "inputTokens": 375,
-        "outputTokens": 103,
-        "rationale": "This post is just discussing Codex app features and does not mention limits or a reset.",
-        "reasoningTokens": 57,
-        "totalTokens": 478,
-        "tweetId": "2054013690786230510",
-        "tweetText": "Now that the Codex app is close to being the super app. What should the super duper app do?",
-        "tweetUrl": "https://x.com/thsottiaux/status/2054013690786230510",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 141398,
-      "totalOutputTokens": 38647,
-      "totalReasoningTokens": 20761,
-      "totalTokens": 180045
+      "totalInputTokens": 141757,
+      "totalOutputTokens": 38721,
+      "totalReasoningTokens": 20790,
+      "totalTokens": 180478
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1778701207407,
+      "inputTokens": 359,
+      "message": "",
+      "outputTokens": 74,
+      "rationale": "This post is a general question and does not mention limits, caps, or resets.",
+      "reasoningTokens": 29,
+      "totalTokens": 433,
+      "tweetId": "2054647223615680714",
+      "tweetText": "What is your /goal today?",
+      "tweetUrl": "https://x.com/thsottiaux/status/2054647223615680714",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1778651716934,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2052589912613146651",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.93,
-      "createdAt": 1778209493962,
-      "inputTokens": 362,
-      "message": "",
-      "outputTokens": 184,
-      "rationale": "This reply has no clear mention of limits or a reset, so its meaning is too ambiguous to treat as a confirmed reset.",
-      "reasoningTokens": 131,
-      "totalTokens": 546,
-      "tweetId": "2052585471948263631",
-      "tweetText": "@RhysSullivan Yes, but soon no",
-      "tweetUrl": "https://x.com/thsottiaux/status/2052585471948263631",
-      "type": "review_requested",
-      "verdict": "uncertain"
     }
   ],
   "privateState": {
-    "ciphertext": "JnSzxjdiCMXhA98mb1aJF9MmshWPFET70nOZpWJWMBee6m1lyE9S7L72mQ",
-    "iv": "fIMzABhX-Pzaacmx",
-    "tag": "COSs6mG7waOfaANeTC7eMw",
+    "ciphertext": "Ta04Vq43ITlyjstz8w8azgG2LKgJ_f53sp-MkvfJ7lkcUNFqUoaiYvD64A",
+    "iv": "Eq2B64-Qty4WY9Yx",
+    "tag": "Q5F2jCPjrFhYZcfYznb3Wg",
     "version": 1
   }
 }
