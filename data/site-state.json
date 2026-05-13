@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1778612633236,
-      "rationale": "This reply says Codex will fix something, not that any limit or cap has reset.",
-      "tweetId": "2054275967020114041",
-      "tweetUrl": "https://x.com/thsottiaux/status/2054275967020114041",
+      "decidedAt": 1778637470260,
+      "rationale": "This post is about Codex release scheduling, not rate limits or usage resetting.",
+      "tweetId": "2054379522657820860",
+      "tweetUrl": "https://x.com/thsottiaux/status/2054379522657820860",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2054275967020114041",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2054275967020114041",
+    "lastSeenTweetId": "2054379522657820860",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2054379522657820860",
     "pendingReview": {
       "confidence": 0.12,
       "createdAt": 1778558679389,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2054048780018958344"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1778637470260,
+        "inputTokens": 466,
+        "outputTokens": 79,
+        "rationale": "This post is about Codex release scheduling, not rate limits or usage resetting.",
+        "reasoningTokens": 35,
+        "totalTokens": 545,
+        "tweetId": "2054379522657820860",
+        "tweetText": "Thanks for all the input, what we'll do going forward for Codex updates\n\n- Tue: Quality and polish\n- Thu: Big launches (starting this Thu)\n- Fri: Fun stuff, little extra",
+        "tweetUrl": "https://x.com/thsottiaux/status/2054379522657820860",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1778612633236,
@@ -279,29 +292,31 @@
         "tweetText": "We are Codex. We are legion. We do not miss. We do ship. Expect us.\n\nDM me if you have a track record of solving near impossible problems and want to work on the future of computing. We work across research, infra, agent harness and products. Currently hiring in San Francisco only.",
         "tweetUrl": "https://x.com/thsottiaux/status/2053702271712813398",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1778458816646,
-        "inputTokens": 372,
-        "outputTokens": 75,
-        "rationale": "This reply is a joke and does not mention limits, caps, or any reset.",
-        "reasoningTokens": 30,
-        "totalTokens": 447,
-        "tweetId": "2053630540163813501",
-        "tweetText": "@chatgpt21 That's a can of fanta per hour! And it can't even drink it!",
-        "tweetUrl": "https://x.com/thsottiaux/status/2053630540163813501",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 139608,
-      "totalOutputTokens": 38316,
-      "totalReasoningTokens": 20612,
-      "totalTokens": 177924
+      "totalInputTokens": 140074,
+      "totalOutputTokens": 38395,
+      "totalReasoningTokens": 20647,
+      "totalTokens": 178469
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1778637470260,
+      "inputTokens": 466,
+      "message": "",
+      "outputTokens": 79,
+      "rationale": "This post is about Codex release scheduling, not rate limits or usage resetting.",
+      "reasoningTokens": 35,
+      "totalTokens": 545,
+      "tweetId": "2054379522657820860",
+      "tweetText": "Thanks for all the input, what we'll do going forward for Codex updates\n\n- Tue: Quality and polish\n- Thu: Big launches (starting this Thu)\n- Fri: Fun stuff, little extra",
+      "tweetUrl": "https://x.com/thsottiaux/status/2054379522657820860",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1778612633236,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2052559108742811900",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.95,
-      "createdAt": 1778202976681,
-      "inputTokens": 368,
-      "message": "",
-      "outputTokens": 218,
-      "rationale": "This reply only says “👀” and does not clearly indicate that any limits have reset.",
-      "reasoningTokens": 171,
-      "totalTokens": 586,
-      "tweetId": "2052557077407744180",
-      "tweetText": "@0xSero @ajambrosino @edbayes 👀",
-      "tweetUrl": "https://x.com/thsottiaux/status/2052557077407744180",
-      "type": "review_requested",
-      "verdict": "uncertain"
     }
   ],
   "privateState": {
-    "ciphertext": "xbQCz-GdfLXqQLJB1yj9SiBX1Tt7tkJj2KJiRgGD1nZnAwkwvEyHg1Bw8w",
-    "iv": "slxMBxEld1Q9zj1l",
-    "tag": "A1BefIyauC2u7INWgywOCQ",
+    "ciphertext": "to_jkQkUDp9oQYx3RecGFY5LqFR0wF_TM4vR4LBeYnS51uS0xySHOISQfg",
+    "iv": "cZ-RLHmp0F4Xehbs",
+    "tag": "Bx1JzobGtaSCOZP_sSpAYg",
     "version": 1
   }
 }
