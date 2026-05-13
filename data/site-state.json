@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1778641817498,
-      "rationale": "This post is about Codex app browser feature improvements, not rate limits or usage caps resetting.",
-      "tweetId": "2054398093886673260",
-      "tweetUrl": "https://x.com/thsottiaux/status/2054398093886673260",
+      "decidedAt": 1778651716934,
+      "rationale": "This tweet is just praising GPT-5.5 Instant and does not mention limits or a reset.",
+      "tweetId": "2054439514605756772",
+      "tweetUrl": "https://x.com/thsottiaux/status/2054439514605756772",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2054398093886673260",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2054398093886673260",
+    "lastSeenTweetId": "2054439514605756772",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2054439514605756772",
     "pendingReview": {
       "confidence": 0.12,
       "createdAt": 1778558679389,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2054048780018958344"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1778651716934,
+        "inputTokens": 413,
+        "outputTokens": 102,
+        "rationale": "This tweet is just praising GPT-5.5 Instant and does not mention limits or a reset.",
+        "reasoningTokens": 54,
+        "totalTokens": 515,
+        "tweetId": "2054439514605756772",
+        "tweetText": "Finding myself to use ChatGPT a ton more after GPT-5.5 Instant. \n\nIt’s a really great step forward and blazingly fast now for quick queries, but also a lot of fun for quick math and plots. https://t.co/mc195yb2aB",
+        "tweetUrl": "https://x.com/thsottiaux/status/2054439514605756772",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1778641817498,
@@ -279,29 +292,31 @@
         "tweetText": "Now that the Codex app is close to being the super app. What should the super duper app do?",
         "tweetUrl": "https://x.com/thsottiaux/status/2054013690786230510",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1778550023399,
-        "inputTokens": 371,
-        "outputTokens": 107,
-        "rationale": "This reply is just conversational and does not mention limits, caps, or usage resetting.",
-        "reasoningTokens": 62,
-        "totalTokens": 478,
-        "tweetId": "2054013098781221196",
-        "tweetText": "@fimoculous Rex has seen the future. Everyone else is still living in 2025.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2054013098781221196",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 140985,
-      "totalOutputTokens": 38545,
-      "totalReasoningTokens": 20707,
-      "totalTokens": 179530
+      "totalInputTokens": 141398,
+      "totalOutputTokens": 38647,
+      "totalReasoningTokens": 20761,
+      "totalTokens": 180045
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1778651716934,
+      "inputTokens": 413,
+      "message": "",
+      "outputTokens": 102,
+      "rationale": "This tweet is just praising GPT-5.5 Instant and does not mention limits or a reset.",
+      "reasoningTokens": 54,
+      "totalTokens": 515,
+      "tweetId": "2054439514605756772",
+      "tweetText": "Finding myself to use ChatGPT a ton more after GPT-5.5 Instant. \n\nIt’s a really great step forward and blazingly fast now for quick queries, but also a lot of fun for quick math and plots. https://t.co/mc195yb2aB",
+      "tweetUrl": "https://x.com/thsottiaux/status/2054439514605756772",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1778641817498,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2052585471948263631",
       "type": "review_requested",
       "verdict": "uncertain"
-    },
-    {
-      "confidence": 0.95,
-      "createdAt": 1778209166514,
-      "inputTokens": 361,
-      "message": "",
-      "outputTokens": 171,
-      "rationale": "This reply is too context-dependent and does not explicitly say that any limit has reset or not.",
-      "reasoningTokens": 123,
-      "totalTokens": 532,
-      "tweetId": "2052583531256373607",
-      "tweetText": "@VraserX Not today 👀",
-      "tweetUrl": "https://x.com/thsottiaux/status/2052583531256373607",
-      "type": "review_requested",
-      "verdict": "uncertain"
     }
   ],
   "privateState": {
-    "ciphertext": "Mrh-8E57tOU2Sua-vwU2iytT1bl68aZRd-E7XtI0bEXoG5I7va6HdatF1g",
-    "iv": "TKj3_OB66FW-NyGi",
-    "tag": "KPVX5Yg606XUKQ4glD_eZA",
+    "ciphertext": "JnSzxjdiCMXhA98mb1aJF9MmshWPFET70nOZpWJWMBee6m1lyE9S7L72mQ",
+    "iv": "fIMzABhX-Pzaacmx",
+    "tag": "COSs6mG7waOfaANeTC7eMw",
     "version": 1
   }
 }
