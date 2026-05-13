@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1778637470260,
-      "rationale": "This post is about Codex release scheduling, not rate limits or usage resetting.",
-      "tweetId": "2054379522657820860",
-      "tweetUrl": "https://x.com/thsottiaux/status/2054379522657820860",
+      "decidedAt": 1778637473686,
+      "rationale": "This reply just says \"Awesome\" and does not mention limits or resets.",
+      "tweetId": "2054380477013000411",
+      "tweetUrl": "https://x.com/thsottiaux/status/2054380477013000411",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2054379522657820860",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2054379522657820860",
+    "lastSeenTweetId": "2054380477013000411",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2054380477013000411",
     "pendingReview": {
       "confidence": 0.12,
       "createdAt": 1778558679389,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2054048780018958344"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1778637473686,
+        "inputTokens": 358,
+        "outputTokens": 76,
+        "rationale": "This reply just says \"Awesome\" and does not mention limits or resets.",
+        "reasoningTokens": 33,
+        "totalTokens": 434,
+        "tweetId": "2054380477013000411",
+        "tweetText": "@charlieholtz Awesome",
+        "tweetUrl": "https://x.com/thsottiaux/status/2054380477013000411",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1778637470260,
@@ -279,29 +292,31 @@
         "tweetText": "@EXM7777 That's what got me started",
         "tweetUrl": "https://x.com/thsottiaux/status/2053708388610252941",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1778475900265,
-        "inputTokens": 417,
-        "outputTokens": 69,
-        "rationale": "This is a hiring/recruiting post and does not mention limits, caps, or usage resetting.",
-        "reasoningTokens": 21,
-        "totalTokens": 486,
-        "tweetId": "2053702271712813398",
-        "tweetText": "We are Codex. We are legion. We do not miss. We do ship. Expect us.\n\nDM me if you have a track record of solving near impossible problems and want to work on the future of computing. We work across research, infra, agent harness and products. Currently hiring in San Francisco only.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2053702271712813398",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 140074,
-      "totalOutputTokens": 38395,
-      "totalReasoningTokens": 20647,
-      "totalTokens": 178469
+      "totalInputTokens": 140432,
+      "totalOutputTokens": 38471,
+      "totalReasoningTokens": 20680,
+      "totalTokens": 178903
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1778637473686,
+      "inputTokens": 358,
+      "message": "",
+      "outputTokens": 76,
+      "rationale": "This reply just says \"Awesome\" and does not mention limits or resets.",
+      "reasoningTokens": 33,
+      "totalTokens": 434,
+      "tweetId": "2054380477013000411",
+      "tweetText": "@charlieholtz Awesome",
+      "tweetUrl": "https://x.com/thsottiaux/status/2054380477013000411",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1778637470260,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2052559923842879533",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1778203280275,
-      "inputTokens": 477,
-      "message": "",
-      "outputTokens": 93,
-      "rationale": "This is a commentary on a product announcement, not a statement that limits or rate caps have reset.",
-      "reasoningTokens": 45,
-      "totalTokens": 570,
-      "tweetId": "2052559108742811900",
-      "tweetText": "We are assembling AGI in plain sight",
-      "tweetUrl": "https://x.com/thsottiaux/status/2052559108742811900",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "to_jkQkUDp9oQYx3RecGFY5LqFR0wF_TM4vR4LBeYnS51uS0xySHOISQfg",
-    "iv": "cZ-RLHmp0F4Xehbs",
-    "tag": "Bx1JzobGtaSCOZP_sSpAYg",
+    "ciphertext": "Pr4KPknEmd2Ya0ETo_-9u5R-wpnKGoFpVOvxK31L1QBNA3q1rgAcgNHfmA",
+    "iv": "G8mA4Q-k1sKIYlNj",
+    "tag": "DONjnF50LwQqmRbzYQcxrg",
     "version": 1
   }
 }
