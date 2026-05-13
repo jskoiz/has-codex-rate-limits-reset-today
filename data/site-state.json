@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1778701207407,
-      "rationale": "This post is a general question and does not mention limits, caps, or resets.",
-      "tweetId": "2054647223615680714",
-      "tweetUrl": "https://x.com/thsottiaux/status/2054647223615680714",
+      "decidedAt": 1778701822945,
+      "rationale": "This post is about Windows sandboxing for Codex, not usage limits or a reset.",
+      "tweetId": "2054650181908607018",
+      "tweetUrl": "https://x.com/thsottiaux/status/2054650181908607018",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2054647223615680714",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2054647223615680714",
+    "lastSeenTweetId": "2054650181908607018",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2054650181908607018",
     "pendingReview": {
       "confidence": 0.12,
       "createdAt": 1778558679389,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2054048780018958344"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1778701822945,
+        "inputTokens": 399,
+        "outputTokens": 76,
+        "rationale": "This post is about Windows sandboxing for Codex, not usage limits or a reset.",
+        "reasoningTokens": 30,
+        "totalTokens": 475,
+        "tweetId": "2054650181908607018",
+        "tweetText": "We are continuing to invest in making agents work better on Windows. \n\nHighly recommend reading David's engineering post on our unique approach to windows sandboxing for Codex: https://t.co/V3WsYjMJbg",
+        "tweetUrl": "https://x.com/thsottiaux/status/2054650181908607018",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1778701207407,
@@ -279,29 +292,31 @@
         "tweetText": "@badlogicgames @sloikodavid Oh, I can work on that. Putting that on my list for this week",
         "tweetUrl": "https://x.com/thsottiaux/status/2054014576115773753",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1778550324038,
-        "inputTokens": 369,
-        "outputTokens": 88,
-        "rationale": "This reply is just a comparison and does not mention limits, caps, or resets.",
-        "reasoningTokens": 43,
-        "totalTokens": 457,
-        "tweetId": "2054014199228150052",
-        "tweetText": "@TechByTaraa Because 5.5 &gt; 4.7",
-        "tweetUrl": "https://x.com/thsottiaux/status/2054014199228150052",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 141757,
-      "totalOutputTokens": 38721,
-      "totalReasoningTokens": 20790,
-      "totalTokens": 180478
+      "totalInputTokens": 142156,
+      "totalOutputTokens": 38797,
+      "totalReasoningTokens": 20820,
+      "totalTokens": 180953
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1778701822945,
+      "inputTokens": 399,
+      "message": "",
+      "outputTokens": 76,
+      "rationale": "This post is about Windows sandboxing for Codex, not usage limits or a reset.",
+      "reasoningTokens": 30,
+      "totalTokens": 475,
+      "tweetId": "2054650181908607018",
+      "tweetText": "We are continuing to invest in making agents work better on Windows. \n\nHighly recommend reading David's engineering post on our unique approach to windows sandboxing for Codex: https://t.co/V3WsYjMJbg",
+      "tweetUrl": "https://x.com/thsottiaux/status/2054650181908607018",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1778701207407,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2052620509456875724",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1778210741518,
-      "inputTokens": 358,
-      "message": "",
-      "outputTokens": 94,
-      "rationale": "This reply is conversational and says nothing about limits or a reset.",
-      "reasoningTokens": 53,
-      "totalTokens": 452,
-      "tweetId": "2052589912613146651",
-      "tweetText": "@LexnLin Ok ok",
-      "tweetUrl": "https://x.com/thsottiaux/status/2052589912613146651",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "Ta04Vq43ITlyjstz8w8azgG2LKgJ_f53sp-MkvfJ7lkcUNFqUoaiYvD64A",
-    "iv": "Eq2B64-Qty4WY9Yx",
-    "tag": "Q5F2jCPjrFhYZcfYznb3Wg",
+    "ciphertext": "OA2PAqCcOAnzXmx2d8zyZK0hSziOITiotUQk0SDajntxHUWXYZbgaw0B2A",
+    "iv": "DsH8AkvUfzvK8hiM",
+    "tag": "k6EpULanYgJkdfsrPG-lQw",
     "version": 1
   }
 }
