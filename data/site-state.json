@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1778701822945,
-      "rationale": "This post is about Windows sandboxing for Codex, not usage limits or a reset.",
-      "tweetId": "2054650181908607018",
-      "tweetUrl": "https://x.com/thsottiaux/status/2054650181908607018",
+      "decidedAt": 1778723222371,
+      "rationale": "This post is about demand and compute capacity, not Codex or ChatGPT limits resetting.",
+      "tweetId": "2054739404212801569",
+      "tweetUrl": "https://x.com/thsottiaux/status/2054739404212801569",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2054650181908607018",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2054650181908607018",
+    "lastSeenTweetId": "2054739404212801569",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2054739404212801569",
     "pendingReview": {
       "confidence": 0.12,
       "createdAt": 1778558679389,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2054048780018958344"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1778723222371,
+        "inputTokens": 423,
+        "outputTokens": 95,
+        "rationale": "This post is about demand and compute capacity, not Codex or ChatGPT limits resetting.",
+        "reasoningTokens": 49,
+        "totalTokens": 518,
+        "tweetId": "2054739404212801569",
+        "tweetText": "They meant companies... 2000 companies. We're going to need to stand up a lot of compute 😅",
+        "tweetUrl": "https://x.com/thsottiaux/status/2054739404212801569",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1778701822945,
@@ -279,29 +292,31 @@
         "tweetText": "@SinaHartung Sorry, you're right. This was a reference to a famous hacker group from 2003 and I've been deep into cyber security this week so it was on my mind. A bit silly I admit!",
         "tweetUrl": "https://x.com/thsottiaux/status/2054028334921830505",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1778550327783,
-        "inputTokens": 378,
-        "outputTokens": 112,
-        "rationale": "This reply is about working on something later and does not mention limits, caps, or resets.",
-        "reasoningTokens": 65,
-        "totalTokens": 490,
-        "tweetId": "2054014576115773753",
-        "tweetText": "@badlogicgames @sloikodavid Oh, I can work on that. Putting that on my list for this week",
-        "tweetUrl": "https://x.com/thsottiaux/status/2054014576115773753",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 142156,
-      "totalOutputTokens": 38797,
-      "totalReasoningTokens": 20820,
-      "totalTokens": 180953
+      "totalInputTokens": 142579,
+      "totalOutputTokens": 38892,
+      "totalReasoningTokens": 20869,
+      "totalTokens": 181471
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1778723222371,
+      "inputTokens": 423,
+      "message": "",
+      "outputTokens": 95,
+      "rationale": "This post is about demand and compute capacity, not Codex or ChatGPT limits resetting.",
+      "reasoningTokens": 49,
+      "totalTokens": 518,
+      "tweetId": "2054739404212801569",
+      "tweetText": "They meant companies... 2000 companies. We're going to need to stand up a lot of compute 😅",
+      "tweetUrl": "https://x.com/thsottiaux/status/2054739404212801569",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1778701822945,
@@ -886,27 +901,12 @@
       "tweetUrl": null,
       "type": "error",
       "verdict": null
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1778217890446,
-      "inputTokens": 375,
-      "message": "",
-      "outputTokens": 96,
-      "rationale": "This is just a celebratory comment about Codex and does not mention limits or a reset.",
-      "reasoningTokens": 49,
-      "totalTokens": 471,
-      "tweetId": "2052620509456875724",
-      "tweetText": "Codex has made it. shadcn my hero https://t.co/ktDMPPJdhw",
-      "tweetUrl": "https://x.com/thsottiaux/status/2052620509456875724",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "OA2PAqCcOAnzXmx2d8zyZK0hSziOITiotUQk0SDajntxHUWXYZbgaw0B2A",
-    "iv": "DsH8AkvUfzvK8hiM",
-    "tag": "k6EpULanYgJkdfsrPG-lQw",
+    "ciphertext": "TYKALfE0CnrTkhEsmFswtU0BAXO_cyZ61hoDpeLcQAzoCTi4Ws6-d6AUMA",
+    "iv": "yXQbi926Sadi0Onv",
+    "tag": "LPWuBhHtEg-GCUV5ngiZFA",
     "version": 1
   }
 }
