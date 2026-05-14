@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1778739829329,
-      "rationale": "This reply only says they are on team Codex and does not mention limits resetting.",
-      "tweetId": "2054809569562624217",
-      "tweetUrl": "https://x.com/thsottiaux/status/2054809569562624217",
+      "decidedAt": 1778740457722,
+      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+      "tweetId": "2054811180091462056",
+      "tweetUrl": "https://x.com/thsottiaux/status/2054811180091462056",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2054809569562624217",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2054809569562624217",
+    "lastSeenTweetId": "2054811180091462056",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2054811180091462056",
     "pendingReview": {
       "confidence": 0.12,
       "createdAt": 1778558679389,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2054048780018958344"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1778740457722,
+        "inputTokens": 370,
+        "outputTokens": 105,
+        "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+        "reasoningTokens": 61,
+        "totalTokens": 475,
+        "tweetId": "2054811180091462056",
+        "tweetText": "@moritzkremb Let’s see. Maybe that’s also our strategy 🤔",
+        "tweetUrl": "https://x.com/thsottiaux/status/2054811180091462056",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1778739829329,
@@ -279,29 +292,31 @@
         "tweetText": "@0xSero How about diagonal",
         "tweetUrl": "https://x.com/thsottiaux/status/2054043382885097770",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1778553757044,
-        "inputTokens": 362,
-        "outputTokens": 72,
-        "rationale": "This reply is unrelated to ChatGPT or Codex rate limit resets.",
-        "reasoningTokens": 30,
-        "totalTokens": 434,
-        "tweetId": "2054029340082597949",
-        "tweetText": "@MichelleBakels @opencode Open source it",
-        "tweetUrl": "https://x.com/thsottiaux/status/2054029340082597949",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 142939,
-      "totalOutputTokens": 38972,
-      "totalReasoningTokens": 20904,
-      "totalTokens": 181911
+      "totalInputTokens": 143309,
+      "totalOutputTokens": 39077,
+      "totalReasoningTokens": 20965,
+      "totalTokens": 182386
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1778740457722,
+      "inputTokens": 370,
+      "message": "",
+      "outputTokens": 105,
+      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+      "reasoningTokens": 61,
+      "totalTokens": 475,
+      "tweetId": "2054811180091462056",
+      "tweetText": "@moritzkremb Let’s see. Maybe that’s also our strategy 🤔",
+      "tweetUrl": "https://x.com/thsottiaux/status/2054811180091462056",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1778739829329,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2052784772108386307",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1778257140973,
-      "inputTokens": 420,
-      "message": "",
-      "outputTokens": 68,
-      "rationale": "This is a promotional event announcement and does not mention limits, caps, or usage being available again.",
-      "reasoningTokens": 20,
-      "totalTokens": 488,
-      "tweetId": "2052784755083731172",
-      "tweetText": "Hosting a session next Wednesday (5/13) with the OpenAI Forum on why Codex matters beyond code. Join for the livestream and Q&amp;A if you’re interested in the history of Codex, what we're pushing on next and see some cool use-cases. https://t.co/TnUhz26i35",
-      "tweetUrl": "https://x.com/thsottiaux/status/2052784755083731172",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "1ND_2Qs0q0Tr-CQMsm7lc9lTnMZph3err40VHTfNr82CeI7793zhlF7bKw",
-    "iv": "wWXKvZxg2BXg5yXB",
-    "tag": "r1ONTKm5blHJhLAd10ga9A",
+    "ciphertext": "ybMjDvITMdvbGG8d6jeFyX7vqksqMtyttZvigjo8hMhYprSlDzb5GU6Qzw",
+    "iv": "Irfzp9swtgPKomCI",
+    "tag": "EEA6hLeJJmWHCm5e4o0VBg",
     "version": 1
   }
 }
