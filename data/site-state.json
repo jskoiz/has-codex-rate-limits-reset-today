@@ -14,25 +14,38 @@
   "updatedAt": 1777403745925,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1778790269577,
-      "rationale": "This is a promotional quote tweet about using Codex on your phone, not about limits resetting.",
-      "tweetId": "2055021080553959548",
-      "tweetUrl": "https://x.com/thsottiaux/status/2055021080553959548",
-      "verdict": "not_reset"
+      "confidence": 0.95,
+      "decidedAt": 1778803014651,
+      "rationale": "This reply alone does not clearly say that any Codex or ChatGPT limit has reset.",
+      "tweetId": "2055074260381839417",
+      "tweetUrl": "https://x.com/thsottiaux/status/2055074260381839417",
+      "verdict": "uncertain"
     },
     "lastError": null,
-    "lastSeenTweetId": "2055021080553959548",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2055021080553959548",
+    "lastSeenTweetId": "2055074260381839417",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2055074260381839417",
     "pendingReview": {
-      "confidence": 0.12,
-      "createdAt": 1778558679389,
-      "rationale": "This reply contains only a link and provides no explicit evidence that limits have reset.",
-      "tweetId": "2054048780018958344",
-      "tweetText": "https://t.co/20buUswadl",
-      "tweetUrl": "https://x.com/thsottiaux/status/2054048780018958344"
+      "confidence": 0.95,
+      "createdAt": 1778803014651,
+      "rationale": "This reply alone does not clearly say that any Codex or ChatGPT limit has reset.",
+      "tweetId": "2055074260381839417",
+      "tweetText": "@shikhr_ It worked",
+      "tweetUrl": "https://x.com/thsottiaux/status/2055074260381839417"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.95,
+        "evaluatedAt": 1778803014651,
+        "inputTokens": 359,
+        "outputTokens": 145,
+        "rationale": "This reply alone does not clearly say that any Codex or ChatGPT limit has reset.",
+        "reasoningTokens": 99,
+        "totalTokens": 504,
+        "tweetId": "2055074260381839417",
+        "tweetText": "@shikhr_ It worked",
+        "tweetUrl": "https://x.com/thsottiaux/status/2055074260381839417",
+        "verdict": "uncertain"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1778790269577,
@@ -279,29 +292,31 @@
         "tweetText": "@mattlam_ Good engineering compounds",
         "tweetUrl": "https://x.com/thsottiaux/status/2054049331200798853",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.12,
-        "evaluatedAt": 1778558679389,
-        "inputTokens": 363,
-        "outputTokens": 128,
-        "rationale": "This reply contains only a link and provides no explicit evidence that limits have reset.",
-        "reasoningTokens": 84,
-        "totalTokens": 491,
-        "tweetId": "2054048780018958344",
-        "tweetText": "https://t.co/20buUswadl",
-        "tweetUrl": "https://x.com/thsottiaux/status/2054048780018958344",
-        "verdict": "uncertain"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 144128,
-      "totalOutputTokens": 39235,
-      "totalReasoningTokens": 21031,
-      "totalTokens": 183363
+      "totalInputTokens": 144487,
+      "totalOutputTokens": 39380,
+      "totalReasoningTokens": 21130,
+      "totalTokens": 183867
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.95,
+      "createdAt": 1778803014651,
+      "inputTokens": 359,
+      "message": "",
+      "outputTokens": 145,
+      "rationale": "This reply alone does not clearly say that any Codex or ChatGPT limit has reset.",
+      "reasoningTokens": 99,
+      "totalTokens": 504,
+      "tweetId": "2055074260381839417",
+      "tweetText": "@shikhr_ It worked",
+      "tweetUrl": "https://x.com/thsottiaux/status/2055074260381839417",
+      "type": "review_requested",
+      "verdict": "uncertain"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1778790269577,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2052929401218814158",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1778291572888,
-      "inputTokens": 364,
-      "message": "",
-      "outputTokens": 75,
-      "rationale": "This is just a question about what platform Codex users are on, not a statement about limits resetting.",
-      "reasoningTokens": 26,
-      "totalTokens": 439,
-      "tweetId": "2052928802137997751",
-      "tweetText": "As a Codex user, which platform are you on",
-      "tweetUrl": "https://x.com/thsottiaux/status/2052928802137997751",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "J6ob_F9DaHnsC2okklLDzQOAfzUWBhq1Lk19GNE6jtkB2GFji862x7lRVg",
-    "iv": "TxXaIlO0HkRgWLYc",
-    "tag": "uGGBN0XOaMhk3Iu3nLvF9w",
+    "ciphertext": "0WQZqeb5F8Bjbd1o-fq3c_IUCghsLxsu-WQU8dJB_tJlf5RJSiQWe-fGVQ",
+    "iv": "H-x23wTCMcsNJ2Nw",
+    "tag": "hD1y7956K7oE_PS0v0oWDw",
     "version": 1
   }
 }
