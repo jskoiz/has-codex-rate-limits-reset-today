@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1778740460403,
-      "rationale": "This is a joke about using Codex and does not mention limits or availability resetting.",
-      "tweetId": "2054812367163375896",
-      "tweetUrl": "https://x.com/thsottiaux/status/2054812367163375896",
+      "decidedAt": 1778790269577,
+      "rationale": "This is a promotional quote tweet about using Codex on your phone, not about limits resetting.",
+      "tweetId": "2055021080553959548",
+      "tweetUrl": "https://x.com/thsottiaux/status/2055021080553959548",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2054812367163375896",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2054812367163375896",
+    "lastSeenTweetId": "2055021080553959548",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2055021080553959548",
     "pendingReview": {
       "confidence": 0.12,
       "createdAt": 1778558679389,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2054048780018958344"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1778790269577,
+        "inputTokens": 450,
+        "outputTokens": 84,
+        "rationale": "This is a promotional quote tweet about using Codex on your phone, not about limits resetting.",
+        "reasoningTokens": 37,
+        "totalTokens": 534,
+        "tweetId": "2055021080553959548",
+        "tweetText": "Codex everywhere",
+        "tweetUrl": "https://x.com/thsottiaux/status/2055021080553959548",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1778740460403,
@@ -279,29 +292,31 @@
         "tweetText": "https://t.co/20buUswadl",
         "tweetUrl": "https://x.com/thsottiaux/status/2054048780018958344",
         "verdict": "uncertain"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1778558368523,
-        "inputTokens": 408,
-        "outputTokens": 69,
-        "rationale": "This is a product announcement about cybersecurity features, not a statement that Codex or ChatGPT limits reset.",
-        "reasoningTokens": 20,
-        "totalTokens": 477,
-        "tweetId": "2054048631850999815",
-        "tweetText": "Cybersecurity is changing. \n\nDaybreak brings together our most capable cyber models, Trusted Access tiers, advanced security workflows in Codex and at scale repo scanning with patch generation. With much more to come. https://t.co/UWi7f1qi7M",
-        "tweetUrl": "https://x.com/thsottiaux/status/2054048631850999815",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 143678,
-      "totalOutputTokens": 39151,
-      "totalReasoningTokens": 20994,
-      "totalTokens": 182829
+      "totalInputTokens": 144128,
+      "totalOutputTokens": 39235,
+      "totalReasoningTokens": 21031,
+      "totalTokens": 183363
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1778790269577,
+      "inputTokens": 450,
+      "message": "",
+      "outputTokens": 84,
+      "rationale": "This is a promotional quote tweet about using Codex on your phone, not about limits resetting.",
+      "reasoningTokens": 37,
+      "totalTokens": 534,
+      "tweetId": "2055021080553959548",
+      "tweetText": "Codex everywhere",
+      "tweetUrl": "https://x.com/thsottiaux/status/2055021080553959548",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1778740460403,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2052928802137997751",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.98,
-      "createdAt": 1778262725213,
-      "inputTokens": 418,
-      "message": "",
-      "outputTokens": 123,
-      "rationale": "This post and its quoted text do not mention limits, caps, or usage becoming available again.",
-      "reasoningTokens": 76,
-      "totalTokens": 541,
-      "tweetId": "2052808587429523663",
-      "tweetText": "You can just migrate things",
-      "tweetUrl": "https://x.com/thsottiaux/status/2052808587429523663",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "cSacdygmjUGgZCaz85fq_OButcyZN7O8_oaTmVvVgMamFj_f8hQDO-LJwg",
-    "iv": "rzBe_RT4KU6_V4BD",
-    "tag": "mgUsWE1C5nj3wCkYdoxzNw",
+    "ciphertext": "J6ob_F9DaHnsC2okklLDzQOAfzUWBhq1Lk19GNE6jtkB2GFji862x7lRVg",
+    "iv": "TxXaIlO0HkRgWLYc",
+    "tag": "uGGBN0XOaMhk3Iu3nLvF9w",
     "version": 1
   }
 }
