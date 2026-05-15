@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1778860729709,
-      "rationale": "This post discusses model performance issues, not any user cap or rate-limit reset.",
-      "tweetId": "2055316274394300829",
-      "tweetUrl": "https://x.com/thsottiaux/status/2055316274394300829",
+      "decidedAt": 1778881812814,
+      "rationale": "This is a product remark and does not indicate any limits or rate caps have reset.",
+      "tweetId": "2055404493689569611",
+      "tweetUrl": "https://x.com/thsottiaux/status/2055404493689569611",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2055316274394300829",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2055316274394300829",
+    "lastSeenTweetId": "2055404493689569611",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2055404493689569611",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1778803014651,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2055074260381839417"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1778881812814,
+        "inputTokens": 379,
+        "outputTokens": 74,
+        "rationale": "This is a product remark and does not indicate any limits or rate caps have reset.",
+        "reasoningTokens": 29,
+        "totalTokens": 453,
+        "tweetId": "2055404493689569611",
+        "tweetText": "We are busy bringing ChatGPT to Codex so that we can bring Codex to ChatGPT. One day this will make sense.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2055404493689569611",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1778860729709,
@@ -279,29 +292,31 @@
         "tweetText": "@0xSero Codex will fix",
         "tweetUrl": "https://x.com/thsottiaux/status/2054275967020114041",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1778598988970,
-        "inputTokens": 391,
-        "outputTokens": 97,
-        "rationale": "This post is about Codex release cadence, not user caps or rate limits resetting.",
-        "reasoningTokens": 52,
-        "totalTokens": 488,
-        "tweetId": "2054218626862141856",
-        "tweetText": "For Codex, we’ve been thinking about keeping a stable release cadence and have a larger release each week on Thursday. That does make the start of the week and bit less exciting. Thoughts?",
-        "tweetUrl": "https://x.com/thsottiaux/status/2054218626862141856",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 146719,
-      "totalOutputTokens": 39910,
-      "totalReasoningTokens": 21383,
-      "totalTokens": 186629
+      "totalInputTokens": 147098,
+      "totalOutputTokens": 39984,
+      "totalReasoningTokens": 21412,
+      "totalTokens": 187082
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1778881812814,
+      "inputTokens": 379,
+      "message": "",
+      "outputTokens": 74,
+      "rationale": "This is a product remark and does not indicate any limits or rate caps have reset.",
+      "reasoningTokens": 29,
+      "totalTokens": 453,
+      "tweetId": "2055404493689569611",
+      "tweetText": "We are busy bringing ChatGPT to Codex so that we can bring Codex to ChatGPT. One day this will make sense.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2055404493689569611",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1778860729709,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2053374548767363330",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1778397620599,
-      "inputTokens": 374,
-      "message": "",
-      "outputTokens": 76,
-      "rationale": "This reply is just correcting a typo and says nothing about limits or availability.",
-      "reasoningTokens": 33,
-      "totalTokens": 450,
-      "tweetId": "2053373307664380005",
-      "tweetText": "@VictorTaelin Typo. Can’t train on this.\n\ns/honestly/honesty",
-      "tweetUrl": "https://x.com/thsottiaux/status/2053373307664380005",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "nOufXqEJ83sh4X4jXFqTS7JYrWTrs_Ai1qJr1RwhHdqjHs_MP2pNtchMKA",
-    "iv": "Hc5Z8V4Ho3hz6MJ_",
-    "tag": "iXQAABC_o53WUhW3qn5_PA",
+    "ciphertext": "4mwISatQ3aLlzjSG5GYymDs-Zi6Rv62KHUeJ7MQu6QyyLzIFclKqJqrn6g",
+    "iv": "t5RT1tAL16b846_Y",
+    "tag": "dkklZeIxf-y5D-UJZxV7Ow",
     "version": 1
   }
 }
