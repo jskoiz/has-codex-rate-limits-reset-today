@@ -14,16 +14,16 @@
   "updatedAt": 1777403745925,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1778828441238,
-      "rationale": "This post is a general comment about Codex and does not mention limits or a reset.",
-      "tweetId": "2055180914549023077",
-      "tweetUrl": "https://x.com/thsottiaux/status/2055180914549023077",
+      "confidence": 0.98,
+      "decidedAt": 1778859806726,
+      "rationale": "This reply says a cache hit rate issue was fixed, not that any user rate limits or caps reset.",
+      "tweetId": "2055312083072544809",
+      "tweetUrl": "https://x.com/thsottiaux/status/2055312083072544809",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2055180914549023077",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2055180914549023077",
+    "lastSeenTweetId": "2055312083072544809",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2055312083072544809",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1778803014651,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2055074260381839417"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.98,
+        "evaluatedAt": 1778859806726,
+        "inputTokens": 377,
+        "outputTokens": 127,
+        "rationale": "This reply says a cache hit rate issue was fixed, not that any user rate limits or caps reset.",
+        "reasoningTokens": 78,
+        "totalTokens": 504,
+        "tweetId": "2055312083072544809",
+        "tweetText": "@thdxr We rolled out a bad change yesterday that affected cache hit rate. This was rolled back and is now fixed.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2055312083072544809",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1778828441238,
@@ -279,29 +292,31 @@
         "tweetText": "@melvynx Magic?",
         "tweetUrl": "https://x.com/thsottiaux/status/2054083152822600117",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1778566444239,
-        "inputTokens": 468,
-        "outputTokens": 96,
-        "rationale": "This post is product commentary about Claude and Codex features, not about rate limits or a usage reset.",
-        "reasoningTokens": 47,
-        "totalTokens": 564,
-        "tweetId": "2054082531432210765",
-        "tweetText": "The master becomes the mentee. At last, Claude is now copying Codex.\n\nBut you cannot out-accelerate GPT-5.5.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2054082531432210765",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 145949,
-      "totalOutputTokens": 39690,
-      "totalReasoningTokens": 21256,
-      "totalTokens": 185639
+      "totalInputTokens": 146326,
+      "totalOutputTokens": 39817,
+      "totalReasoningTokens": 21334,
+      "totalTokens": 186143
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.98,
+      "createdAt": 1778859806726,
+      "inputTokens": 377,
+      "message": "",
+      "outputTokens": 127,
+      "rationale": "This reply says a cache hit rate issue was fixed, not that any user rate limits or caps reset.",
+      "reasoningTokens": 78,
+      "totalTokens": 504,
+      "tweetId": "2055312083072544809",
+      "tweetText": "@thdxr We rolled out a bad change yesterday that affected cache hit rate. This was rolled back and is now fixed.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2055312083072544809",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1778828441238,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2053291144583557249",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1778368469536,
-      "inputTokens": 358,
-      "message": "",
-      "outputTokens": 81,
-      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-      "reasoningTokens": 37,
-      "totalTokens": 439,
-      "tweetId": "2053251356211986742",
-      "tweetText": "@jxnlco Life goals",
-      "tweetUrl": "https://x.com/thsottiaux/status/2053251356211986742",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "vXZkPoqjnXOvadQkjOvhjvbCqpCPJTsduu7lVnaAHcsKwM-OVoEa81pMkw",
-    "iv": "hAQlXn_ZqFSreOI7",
-    "tag": "oaFXwUVct8IJcLfa30ZcCA",
+    "ciphertext": "Ueryd3k83Jr_ewXgDvChtlqSa5Mp__2P8U-w-tgNVil0swAQVK6O4L6BlQ",
+    "iv": "jR9AWzDKGoqnQGpl",
+    "tag": "ePeK6LzEL5CTPqoxRBSWkw",
     "version": 1
   }
 }
