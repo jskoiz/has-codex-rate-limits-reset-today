@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1778803313716,
-      "rationale": "This is just a conversational reply and does not mention limits, caps, or availability resetting.",
-      "tweetId": "2055075083266507235",
-      "tweetUrl": "https://x.com/thsottiaux/status/2055075083266507235",
+      "decidedAt": 1778812607425,
+      "rationale": "This reply is just asking for a thread ID and does not mention limits or availability resetting.",
+      "tweetId": "2055114743204249751",
+      "tweetUrl": "https://x.com/thsottiaux/status/2055114743204249751",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2055075083266507235",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2055075083266507235",
+    "lastSeenTweetId": "2055114743204249751",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2055114743204249751",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1778803014651,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2055074260381839417"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1778812607425,
+        "inputTokens": 371,
+        "outputTokens": 88,
+        "rationale": "This reply is just asking for a thread ID and does not mention limits or availability resetting.",
+        "reasoningTokens": 42,
+        "totalTokens": 459,
+        "tweetId": "2055114743204249751",
+        "tweetText": "@Da7_Tech Hey hey. Do you have a thread id?\n\n/feedback",
+        "tweetUrl": "https://x.com/thsottiaux/status/2055114743204249751",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1778803313716,
@@ -279,29 +292,31 @@
         "tweetText": "@argofowl Wrong Andrew",
         "tweetUrl": "https://x.com/thsottiaux/status/2054053777909670083",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1778559295651,
-        "inputTokens": 358,
-        "outputTokens": 92,
-        "rationale": "This reply is just conversational and does not mention limits or a reset.",
-        "reasoningTokens": 50,
-        "totalTokens": 450,
-        "tweetId": "2054052198422839502",
-        "tweetText": "@TimJayas Goblin",
-        "tweetUrl": "https://x.com/thsottiaux/status/2054052198422839502",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 144853,
-      "totalOutputTokens": 39446,
-      "totalReasoningTokens": 21150,
-      "totalTokens": 184299
+      "totalInputTokens": 145224,
+      "totalOutputTokens": 39534,
+      "totalReasoningTokens": 21192,
+      "totalTokens": 184758
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1778812607425,
+      "inputTokens": 371,
+      "message": "",
+      "outputTokens": 88,
+      "rationale": "This reply is just asking for a thread ID and does not mention limits or availability resetting.",
+      "reasoningTokens": 42,
+      "totalTokens": 459,
+      "tweetId": "2055114743204249751",
+      "tweetText": "@Da7_Tech Hey hey. Do you have a thread id?\n\n/feedback",
+      "tweetUrl": "https://x.com/thsottiaux/status/2055114743204249751",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1778803313716,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2053172683752559001",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1778296552659,
-      "inputTokens": 357,
-      "message": "",
-      "outputTokens": 74,
-      "rationale": "This reply just says \"Sorry\" and gives no indication that any limits or caps have reset.",
-      "reasoningTokens": 27,
-      "totalTokens": 431,
-      "tweetId": "2052950035571326986",
-      "tweetText": "@LexnLin Sorry",
-      "tweetUrl": "https://x.com/thsottiaux/status/2052950035571326986",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "Ffykd3wVr_WhJudkd5DDCaqtEuRlsod0-P-i5viY75MPQiamr78JVAyqow",
-    "iv": "g0o_RbTPJzJ3O8qU",
-    "tag": "4GbxFkJZQBQ_XZ5Kr16bXg",
+    "ciphertext": "yQ_VHzTAgiMbUeI0ms2kZkeNayEHYaNJ0pH37cH9CqGoT8Ao7psjN8nZfQ",
+    "iv": "Vv6B4Q66YjjxAX3Q",
+    "tag": "_ROpFsr4RnBoZpTNXJVGng",
     "version": 1
   }
 }
