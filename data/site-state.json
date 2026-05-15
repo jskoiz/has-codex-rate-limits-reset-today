@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1778812910137,
-      "rationale": "This reply is conversational and does not mention limits, caps, or usage becoming available again.",
-      "tweetId": "2055115234218828261",
-      "tweetUrl": "https://x.com/thsottiaux/status/2055115234218828261",
+      "decidedAt": 1778828441238,
+      "rationale": "This post is a general comment about Codex and does not mention limits or a reset.",
+      "tweetId": "2055180914549023077",
+      "tweetUrl": "https://x.com/thsottiaux/status/2055180914549023077",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2055115234218828261",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2055115234218828261",
+    "lastSeenTweetId": "2055180914549023077",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2055180914549023077",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1778803014651,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2055074260381839417"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1778828441238,
+        "inputTokens": 365,
+        "outputTokens": 83,
+        "rationale": "This post is a general comment about Codex and does not mention limits or a reset.",
+        "reasoningTokens": 37,
+        "totalTokens": 448,
+        "tweetId": "2055180914549023077",
+        "tweetText": "Codex will do wonderful things for you if you ask nicely",
+        "tweetUrl": "https://x.com/thsottiaux/status/2055180914549023077",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1778812910137,
@@ -279,29 +292,31 @@
         "tweetText": "The master becomes the mentee. At last, Claude is now copying Codex.\n\nBut you cannot out-accelerate GPT-5.5.",
         "tweetUrl": "https://x.com/thsottiaux/status/2054082531432210765",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1778563316944,
-        "inputTokens": 368,
-        "outputTokens": 63,
-        "rationale": "This reply is unrelated to Codex or ChatGPT limits resetting.",
-        "reasoningTokens": 22,
-        "totalTokens": 431,
-        "tweetId": "2054068906915233818",
-        "tweetText": "@Anubhavhing You don't need the super duper app to ghost recruiters",
-        "tweetUrl": "https://x.com/thsottiaux/status/2054068906915233818",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 145584,
-      "totalOutputTokens": 39607,
-      "totalReasoningTokens": 21219,
-      "totalTokens": 185191
+      "totalInputTokens": 145949,
+      "totalOutputTokens": 39690,
+      "totalReasoningTokens": 21256,
+      "totalTokens": 185639
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1778828441238,
+      "inputTokens": 365,
+      "message": "",
+      "outputTokens": 83,
+      "rationale": "This post is a general comment about Codex and does not mention limits or a reset.",
+      "reasoningTokens": 37,
+      "totalTokens": 448,
+      "tweetId": "2055180914549023077",
+      "tweetText": "Codex will do wonderful things for you if you ask nicely",
+      "tweetUrl": "https://x.com/thsottiaux/status/2055180914549023077",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1778812910137,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2053251356211986742",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1778368171825,
-      "inputTokens": 411,
-      "message": "",
-      "outputTokens": 72,
-      "rationale": "This post is about Codex use cases and the /goal feature, not rate limits or a reset.",
-      "reasoningTokens": 23,
-      "totalTokens": 483,
-      "tweetId": "2053250877331493068",
-      "tweetText": "Seeing so many cool applications of codex lately across robotics, science, gaming and more. And seems that people are discovering the power of the /goal feature.\n\nA few disturbing hands in this one, but you get the gist. https://t.co/352XP2wyFM",
-      "tweetUrl": "https://x.com/thsottiaux/status/2053250877331493068",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "P_ui5oFZnj_5Sg8LP30yjNNYUOTi7quF4974vrECHFU0wO-tgZVXM1V3Rw",
-    "iv": "2KOyLqfKwWV6Jtqo",
-    "tag": "mae2cBFJTLMsp12A6z8pCQ",
+    "ciphertext": "vXZkPoqjnXOvadQkjOvhjvbCqpCPJTsduu7lVnaAHcsKwM-OVoEa81pMkw",
+    "iv": "hAQlXn_ZqFSreOI7",
+    "tag": "oaFXwUVct8IJcLfa30ZcCA",
     "version": 1
   }
 }
