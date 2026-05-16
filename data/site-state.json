@@ -10,29 +10,35 @@
     "Limits reset, go crazy",
     "You can just build things"
   ],
-  "resetAt": 1779026042442,
-  "updatedAt": 1778954042442,
+  "resetAt": 1779030080837,
+  "updatedAt": 1778958080837,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1778957774545,
-      "rationale": "This reply only asks about the user's plan and does not indicate any limits have reset.",
-      "tweetId": "2055722746479616194",
-      "tweetUrl": "https://x.com/thsottiaux/status/2055722746479616194",
-      "verdict": "not_reset"
+      "confidence": 0.77,
+      "decidedAt": 1778958080837,
+      "rationale": "It says resets are propagating now, though some accounts are having issues receiving them.",
+      "tweetId": "2055725156262465622",
+      "tweetUrl": "https://x.com/thsottiaux/status/2055725156262465622",
+      "verdict": "reset_confirmed"
     },
     "lastError": null,
-    "lastSeenTweetId": "2055722746479616194",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2055722746479616194",
-    "pendingReview": {
-      "confidence": 0.56,
-      "createdAt": 1778957153408,
-      "rationale": "This reply suggests a change propagated, but it does not explicitly say any rate limit or cap has reset.",
-      "tweetId": "2055721248697823378",
-      "tweetText": "@paraddox Should have propagated, all good?",
-      "tweetUrl": "https://x.com/thsottiaux/status/2055721248697823378"
-    },
+    "lastSeenTweetId": "2055725156262465622",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2055725156262465622",
+    "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.77,
+        "evaluatedAt": 1778958080837,
+        "inputTokens": 370,
+        "outputTokens": 289,
+        "rationale": "It says resets are propagating now, though some accounts are having issues receiving them.",
+        "reasoningTokens": 243,
+        "totalTokens": 659,
+        "tweetId": "2055725156262465622",
+        "tweetText": "Seeing some issues with propagation of resets on some accounts, team is looking. Stay tuned.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2055725156262465622",
+        "verdict": "reset_confirmed"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1778957774545,
@@ -279,29 +285,31 @@
         "tweetText": "@thekitze Good luck, it’s a scary world out there",
         "tweetUrl": "https://x.com/thsottiaux/status/2055075083266507235",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.95,
-        "evaluatedAt": 1778803014651,
-        "inputTokens": 359,
-        "outputTokens": 145,
-        "rationale": "This reply alone does not clearly say that any Codex or ChatGPT limit has reset.",
-        "reasoningTokens": 99,
-        "totalTokens": 504,
-        "tweetId": "2055074260381839417",
-        "tweetText": "@shikhr_ It worked",
-        "tweetUrl": "https://x.com/thsottiaux/status/2055074260381839417",
-        "verdict": "uncertain"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 151798,
-      "totalOutputTokens": 41437,
-      "totalReasoningTokens": 22304,
-      "totalTokens": 193235
+      "totalInputTokens": 152168,
+      "totalOutputTokens": 41726,
+      "totalReasoningTokens": 22547,
+      "totalTokens": 193894
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.77,
+      "createdAt": 1778958080837,
+      "inputTokens": 370,
+      "message": "",
+      "outputTokens": 289,
+      "rationale": "It says resets are propagating now, though some accounts are having issues receiving them.",
+      "reasoningTokens": 243,
+      "totalTokens": 659,
+      "tweetId": "2055725156262465622",
+      "tweetText": "Seeing some issues with propagation of resets on some accounts, team is looking. Stay tuned.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2055725156262465622",
+      "type": "reset_confirmed",
+      "verdict": "reset_confirmed"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1778957774545,
@@ -886,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2054049331200798853",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.12,
-      "createdAt": 1778558679389,
-      "inputTokens": 363,
-      "message": "",
-      "outputTokens": 128,
-      "rationale": "This reply contains only a link and provides no explicit evidence that limits have reset.",
-      "reasoningTokens": 84,
-      "totalTokens": 491,
-      "tweetId": "2054048780018958344",
-      "tweetText": "https://t.co/20buUswadl",
-      "tweetUrl": "https://x.com/thsottiaux/status/2054048780018958344",
-      "type": "review_requested",
-      "verdict": "uncertain"
     }
   ],
   "privateState": {
-    "ciphertext": "LnR9mXO5e6lsGKoKmm5Edc2hPQ-rF_G_es6KPg5iGh2PfVr1AG0L2R6-mA",
-    "iv": "AOtpYfb1Rzzz4REk",
-    "tag": "fsOd6U6ZYMdBA2xxE4VaLw",
+    "ciphertext": "RmM4Xh9zAQbaGXTIVVMjL3jrlFBRDHU1e8Jqrg3NsjoWnWCXTPvOoqaUHQ",
+    "iv": "7bjldvKkkxAZBjRW",
+    "tag": "cpEoncTWcNm1ZumGkUDFbw",
     "version": 1
   }
 }
