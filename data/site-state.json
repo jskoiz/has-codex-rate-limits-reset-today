@@ -14,16 +14,16 @@
   "updatedAt": 1777403745925,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1778915322962,
-      "rationale": "This is just a playful reply and does not mention limits, caps, or usage becoming available again.",
-      "tweetId": "2055545257643925819",
-      "tweetUrl": "https://x.com/thsottiaux/status/2055545257643925819",
+      "confidence": 0.98,
+      "decidedAt": 1778915328531,
+      "rationale": "This is a quote of a product integration announcement about shared subscription rate limits, not a reset or cap being…",
+      "tweetId": "2055545756069802151",
+      "tweetUrl": "https://x.com/thsottiaux/status/2055545756069802151",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2055545257643925819",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2055545257643925819",
+    "lastSeenTweetId": "2055545756069802151",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2055545756069802151",
     "pendingReview": {
       "confidence": 0.18,
       "createdAt": 1778914369525,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2055540700092211404"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.98,
+        "evaluatedAt": 1778915328531,
+        "inputTokens": 451,
+        "outputTokens": 190,
+        "rationale": "This is a quote of a product integration announcement about shared subscription rate limits, not a reset or cap being…",
+        "reasoningTokens": 139,
+        "totalTokens": 641,
+        "tweetId": "2055545756069802151",
+        "tweetText": "Codex🫸🫷Zed",
+        "tweetUrl": "https://x.com/thsottiaux/status/2055545756069802151",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1778915322962,
@@ -279,29 +292,31 @@
         "tweetText": "What is your /goal today?",
         "tweetUrl": "https://x.com/thsottiaux/status/2054647223615680714",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1778651716934,
-        "inputTokens": 413,
-        "outputTokens": 102,
-        "rationale": "This tweet is just praising GPT-5.5 Instant and does not mention limits or a reset.",
-        "reasoningTokens": 54,
-        "totalTokens": 515,
-        "tweetId": "2054439514605756772",
-        "tweetText": "Finding myself to use ChatGPT a ton more after GPT-5.5 Instant. \n\nIt’s a really great step forward and blazingly fast now for quick queries, but also a lot of fun for quick math and plots. https://t.co/mc195yb2aB",
-        "tweetUrl": "https://x.com/thsottiaux/status/2054439514605756772",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 148673,
-      "totalOutputTokens": 40503,
-      "totalReasoningTokens": 21748,
-      "totalTokens": 189176
+      "totalInputTokens": 149124,
+      "totalOutputTokens": 40693,
+      "totalReasoningTokens": 21887,
+      "totalTokens": 189817
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.98,
+      "createdAt": 1778915328531,
+      "inputTokens": 451,
+      "message": "",
+      "outputTokens": 190,
+      "rationale": "This is a quote of a product integration announcement about shared subscription rate limits, not a reset or cap being…",
+      "reasoningTokens": 139,
+      "totalTokens": 641,
+      "tweetId": "2055545756069802151",
+      "tweetText": "Codex🫸🫷Zed",
+      "tweetUrl": "https://x.com/thsottiaux/status/2055545756069802151",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1778915322962,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2054013690786230510",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1778550023399,
-      "inputTokens": 371,
-      "message": "",
-      "outputTokens": 107,
-      "rationale": "This reply is just conversational and does not mention limits, caps, or usage resetting.",
-      "reasoningTokens": 62,
-      "totalTokens": 478,
-      "tweetId": "2054013098781221196",
-      "tweetText": "@fimoculous Rex has seen the future. Everyone else is still living in 2025.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2054013098781221196",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "UAOL2ViG4yJZpYPzuL5c8PcCZI8nXjj2GMCrmKVTrYmMcrmiwet3qxyNJg",
-    "iv": "XfUGJ6kD5Myf2O3W",
-    "tag": "crC1TZ7R74bDeotuNYJHMg",
+    "ciphertext": "RcYIa-5wNe4nfK-FxWqkIpX4HahavztyGN6ozL1QE7D-1Z9ZonshZTvDzg",
+    "iv": "ZV66pQuKvzkjZX_6",
+    "tag": "6NF3UONKgzqbGjtv7F8H3g",
     "version": 1
   }
 }
