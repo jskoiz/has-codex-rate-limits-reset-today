@@ -14,16 +14,16 @@
   "updatedAt": 1777403745925,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1778881812814,
-      "rationale": "This is a product remark and does not indicate any limits or rate caps have reset.",
-      "tweetId": "2055404493689569611",
-      "tweetUrl": "https://x.com/thsottiaux/status/2055404493689569611",
+      "confidence": 0.97,
+      "decidedAt": 1778891751794,
+      "rationale": "It says usage limits will be reset later this evening, not that they have reset already.",
+      "tweetId": "2055446089957036402",
+      "tweetUrl": "https://x.com/thsottiaux/status/2055446089957036402",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2055404493689569611",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2055404493689569611",
+    "lastSeenTweetId": "2055446089957036402",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2055446089957036402",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1778803014651,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2055074260381839417"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.97,
+        "evaluatedAt": 1778891751794,
+        "inputTokens": 492,
+        "outputTokens": 150,
+        "rationale": "It says usage limits will be reset later this evening, not that they have reset already.",
+        "reasoningTokens": 104,
+        "totalTokens": 642,
+        "tweetId": "2055446089957036402",
+        "tweetText": "We found and fixed two issues that could explain this degradation of the capability of GPT-5.5 in Codex over the last ~ 48 hours. \n\nWe are monitoring over the coming hours to fully confirm and I will reset usage limits this evening.\n\nApologies and now is the time for /fast maxxing.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2055446089957036402",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1778881812814,
@@ -279,29 +292,31 @@
         "tweetText": "Thanks for all the input, what we'll do going forward for Codex updates\n\n- Tue: Quality and polish\n- Thu: Big launches (starting this Thu)\n- Fri: Fun stuff, little extra",
         "tweetUrl": "https://x.com/thsottiaux/status/2054379522657820860",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1778612633236,
-        "inputTokens": 361,
-        "outputTokens": 84,
-        "rationale": "This reply says Codex will fix something, not that any limit or cap has reset.",
-        "reasoningTokens": 38,
-        "totalTokens": 445,
-        "tweetId": "2054275967020114041",
-        "tweetText": "@0xSero Codex will fix",
-        "tweetUrl": "https://x.com/thsottiaux/status/2054275967020114041",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 147098,
-      "totalOutputTokens": 39984,
-      "totalReasoningTokens": 21412,
-      "totalTokens": 187082
+      "totalInputTokens": 147590,
+      "totalOutputTokens": 40134,
+      "totalReasoningTokens": 21516,
+      "totalTokens": 187724
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.97,
+      "createdAt": 1778891751794,
+      "inputTokens": 492,
+      "message": "",
+      "outputTokens": 150,
+      "rationale": "It says usage limits will be reset later this evening, not that they have reset already.",
+      "reasoningTokens": 104,
+      "totalTokens": 642,
+      "tweetId": "2055446089957036402",
+      "tweetText": "We found and fixed two issues that could explain this degradation of the capability of GPT-5.5 in Codex over the last ~ 48 hours. \n\nWe are monitoring over the coming hours to fully confirm and I will reset usage limits this evening.\n\nApologies and now is the time for /fast maxxing.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2055446089957036402",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1778881812814,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2053630540163813501",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1778397936595,
-      "inputTokens": 366,
-      "message": "",
-      "outputTokens": 96,
-      "rationale": "This reply is conversational and does not mention limits, caps, or usage becoming available again.",
-      "reasoningTokens": 50,
-      "totalTokens": 462,
-      "tweetId": "2053374548767363330",
-      "tweetText": "@brianchew Please give them back. People miss their pet",
-      "tweetUrl": "https://x.com/thsottiaux/status/2053374548767363330",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "4mwISatQ3aLlzjSG5GYymDs-Zi6Rv62KHUeJ7MQu6QyyLzIFclKqJqrn6g",
-    "iv": "t5RT1tAL16b846_Y",
-    "tag": "dkklZeIxf-y5D-UJZxV7Ow",
+    "ciphertext": "M3cjN5fp7PYLn9Mtcpp93Jz8bA41rhejbLu0XP3jFb50S8fXH9tWVQT_VA",
+    "iv": "581qBt2KNRWSiB-e",
+    "tag": "MD-29CfQZitoMbcauZp9IQ",
     "version": 1
   }
 }
