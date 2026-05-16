@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1778962389104,
-      "rationale": "This reply is unrelated to Codex or ChatGPT limits resetting.",
-      "tweetId": "2055742296000508085",
-      "tweetUrl": "https://x.com/thsottiaux/status/2055742296000508085",
+      "decidedAt": 1778966446647,
+      "rationale": "This reply just mentions having Codex on a phone and says nothing about limits or resets.",
+      "tweetId": "2055759259380719998",
+      "tweetUrl": "https://x.com/thsottiaux/status/2055759259380719998",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2055742296000508085",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2055742296000508085",
+    "lastSeenTweetId": "2055759259380719998",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2055759259380719998",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1778966446647,
+        "inputTokens": 372,
+        "outputTokens": 86,
+        "rationale": "This reply just mentions having Codex on a phone and says nothing about limits or resets.",
+        "reasoningTokens": 40,
+        "totalTokens": 458,
+        "tweetId": "2055759259380719998",
+        "tweetText": "@0xSero The kind of stuff you can witness when you have Codex on your phone",
+        "tweetUrl": "https://x.com/thsottiaux/status/2055759259380719998",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1778962389104,
@@ -272,29 +285,31 @@
         "tweetText": "Codex team is aware of reports of GPT-5.5 performing worse for some users and investigating. We don't have anything conclusive yet and systems are healthy but we will share updates as we go.",
         "tweetUrl": "https://x.com/thsottiaux/status/2055316274394300829",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.98,
-        "evaluatedAt": 1778859806726,
-        "inputTokens": 377,
-        "outputTokens": 127,
-        "rationale": "This reply says a cache hit rate issue was fixed, not that any user rate limits or caps reset.",
-        "reasoningTokens": 78,
-        "totalTokens": 504,
-        "tweetId": "2055312083072544809",
-        "tweetText": "@thdxr We rolled out a bad change yesterday that affected cache hit rate. This was rolled back and is now fixed.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2055312083072544809",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 153757,
-      "totalOutputTokens": 42051,
-      "totalReasoningTokens": 22696,
-      "totalTokens": 195808
+      "totalInputTokens": 154129,
+      "totalOutputTokens": 42137,
+      "totalReasoningTokens": 22736,
+      "totalTokens": 196266
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1778966446647,
+      "inputTokens": 372,
+      "message": "",
+      "outputTokens": 86,
+      "rationale": "This reply just mentions having Codex on a phone and says nothing about limits or resets.",
+      "reasoningTokens": 40,
+      "totalTokens": 458,
+      "tweetId": "2055759259380719998",
+      "tweetText": "@0xSero The kind of stuff you can witness when you have Codex on your phone",
+      "tweetUrl": "https://x.com/thsottiaux/status/2055759259380719998",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1778962389104,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2054083152822600117",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1778566444239,
-      "inputTokens": 468,
-      "message": "",
-      "outputTokens": 96,
-      "rationale": "This post is product commentary about Claude and Codex features, not about rate limits or a usage reset.",
-      "reasoningTokens": 47,
-      "totalTokens": 564,
-      "tweetId": "2054082531432210765",
-      "tweetText": "The master becomes the mentee. At last, Claude is now copying Codex.\n\nBut you cannot out-accelerate GPT-5.5.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2054082531432210765",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "wMFdiyc6mEA11HzcU9S3CvkHHEunnrZFWUQqE2RWN2bVdzqGeQCsdzBt9g",
-    "iv": "cFpvHv1bykHI4m0Q",
-    "tag": "FLvZVaOfnSOD6p5fcQHFbQ",
+    "ciphertext": "bgrx16GkLhXY0MdIkvvyMXkUDrpDBQ0Jwax3q8WNbU-gjbWElXyeRdqQ_A",
+    "iv": "wZSAWQwXX6WJyHEC",
+    "tag": "FsPsB4oxKKE6LT0cOzgZ5w",
     "version": 1
   }
 }
