@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1778960863258,
-      "rationale": "This post and its quote are about Codex product improvements, not usage limits or resets.",
-      "tweetId": "2055735802894954612",
-      "tweetUrl": "https://x.com/thsottiaux/status/2055735802894954612",
+      "decidedAt": 1778961485829,
+      "rationale": "This reply just says “Nice” and gives no sign that limits or caps have reset.",
+      "tweetId": "2055738389618676215",
+      "tweetUrl": "https://x.com/thsottiaux/status/2055738389618676215",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2055735802894954612",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2055735802894954612",
+    "lastSeenTweetId": "2055738389618676215",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2055738389618676215",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1778961485829,
+        "inputTokens": 367,
+        "outputTokens": 75,
+        "rationale": "This reply just says “Nice” and gives no sign that limits or caps have reset.",
+        "reasoningTokens": 29,
+        "totalTokens": 442,
+        "tweetId": "2055738389618676215",
+        "tweetText": "@TheNewPolicy @LuminousTheReal @BJones17937 Nice",
+        "tweetUrl": "https://x.com/thsottiaux/status/2055738389618676215",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1778960863258,
@@ -272,29 +285,31 @@
         "tweetText": "Codex will do wonderful things for you if you ask nicely",
         "tweetUrl": "https://x.com/thsottiaux/status/2055180914549023077",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1778812910137,
-        "inputTokens": 360,
-        "outputTokens": 73,
-        "rationale": "This reply is conversational and does not mention limits, caps, or usage becoming available again.",
-        "reasoningTokens": 27,
-        "totalTokens": 433,
-        "tweetId": "2055115234218828261",
-        "tweetText": "@tmuxvim Good or bad surprise?",
-        "tweetUrl": "https://x.com/thsottiaux/status/2055115234218828261",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 153024,
-      "totalOutputTokens": 41917,
-      "totalReasoningTokens": 22649,
-      "totalTokens": 194941
+      "totalInputTokens": 153391,
+      "totalOutputTokens": 41992,
+      "totalReasoningTokens": 22678,
+      "totalTokens": 195383
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1778961485829,
+      "inputTokens": 367,
+      "message": "",
+      "outputTokens": 75,
+      "rationale": "This reply just says “Nice” and gives no sign that limits or caps have reset.",
+      "reasoningTokens": 29,
+      "totalTokens": 442,
+      "tweetId": "2055738389618676215",
+      "tweetText": "@TheNewPolicy @LuminousTheReal @BJones17937 Nice",
+      "tweetUrl": "https://x.com/thsottiaux/status/2055738389618676215",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1778960863258,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2054068906915233818",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1778559604331,
-      "inputTokens": 358,
-      "message": "",
-      "outputTokens": 74,
-      "rationale": "This reply is conversational and does not mention limits, caps, or availability resetting.",
-      "reasoningTokens": 30,
-      "totalTokens": 432,
-      "tweetId": "2054053777909670083",
-      "tweetText": "@argofowl Wrong Andrew",
-      "tweetUrl": "https://x.com/thsottiaux/status/2054053777909670083",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "nfFqpWVUkdmt3YBT3uR4C_uh7vhyuQJxKm7mF8x8iJe1X173cfJMg_1vOA",
-    "iv": "S3yCjyQzbAALMrOM",
-    "tag": "c07qVq1Y6nFZn9PQ5jHhjw",
+    "ciphertext": "SeZGSRYowgxhv0X4ekcifKldHH0N7azAWM6nGK6QMGbemtfsh3i2oiA50w",
+    "iv": "YPSznIvyV2xKxVJt",
+    "tag": "cvkEe_L2qCbPBzir3_j8Zg",
     "version": 1
   }
 }
