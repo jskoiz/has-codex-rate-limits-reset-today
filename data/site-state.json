@@ -14,18 +14,38 @@
   "updatedAt": 1778958080837,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1778966450911,
-      "rationale": "This mentions a generic product-development reset, not Codex or ChatGPT usage limits resetting.",
-      "tweetId": "2055759809698550263",
-      "tweetUrl": "https://x.com/thsottiaux/status/2055759809698550263",
-      "verdict": "not_reset"
+      "confidence": 0.83,
+      "decidedAt": 1778966759913,
+      "rationale": "This reply suggests something was cleared again, but it does not explicitly say Codex or ChatGPT usage limits reset.",
+      "tweetId": "2055761513898811407",
+      "tweetUrl": "https://x.com/thsottiaux/status/2055761513898811407",
+      "verdict": "uncertain"
     },
     "lastError": null,
-    "lastSeenTweetId": "2055759809698550263",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2055759809698550263",
-    "pendingReview": null,
+    "lastSeenTweetId": "2055761513898811407",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2055761513898811407",
+    "pendingReview": {
+      "confidence": 0.83,
+      "createdAt": 1778966759913,
+      "rationale": "This reply suggests something was cleared again, but it does not explicitly say Codex or ChatGPT usage limits reset.",
+      "tweetId": "2055761513898811407",
+      "tweetText": "@emreertunc_ Yes. There were some cache issues so we cleared everything again",
+      "tweetUrl": "https://x.com/thsottiaux/status/2055761513898811407"
+    },
     "recentEvaluations": [
+      {
+        "confidence": 0.83,
+        "evaluatedAt": 1778966759913,
+        "inputTokens": 370,
+        "outputTokens": 268,
+        "rationale": "This reply suggests something was cleared again, but it does not explicitly say Codex or ChatGPT usage limits reset.",
+        "reasoningTokens": 217,
+        "totalTokens": 638,
+        "tweetId": "2055761513898811407",
+        "tweetText": "@emreertunc_ Yes. There were some cache issues so we cleared everything again",
+        "tweetUrl": "https://x.com/thsottiaux/status/2055761513898811407",
+        "verdict": "uncertain"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1778966450911,
@@ -272,29 +292,31 @@
         "tweetText": "We found and fixed two issues that could explain this degradation of the capability of GPT-5.5 in Codex over the last ~ 48 hours. \n\nWe are monitoring over the coming hours to fully confirm and I will reset usage limits this evening.\n\nApologies and now is the time for /fast maxxing.",
         "tweetUrl": "https://x.com/thsottiaux/status/2055446089957036402",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1778881812814,
-        "inputTokens": 379,
-        "outputTokens": 74,
-        "rationale": "This is a product remark and does not indicate any limits or rate caps have reset.",
-        "reasoningTokens": 29,
-        "totalTokens": 453,
-        "tweetId": "2055404493689569611",
-        "tweetText": "We are busy bringing ChatGPT to Codex so that we can bring Codex to ChatGPT. One day this will make sense.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2055404493689569611",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 154535,
-      "totalOutputTokens": 42232,
-      "totalReasoningTokens": 22785,
-      "totalTokens": 196767
+      "totalInputTokens": 154905,
+      "totalOutputTokens": 42500,
+      "totalReasoningTokens": 23002,
+      "totalTokens": 197405
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.83,
+      "createdAt": 1778966759913,
+      "inputTokens": 370,
+      "message": "",
+      "outputTokens": 268,
+      "rationale": "This reply suggests something was cleared again, but it does not explicitly say Codex or ChatGPT usage limits reset.",
+      "reasoningTokens": 217,
+      "totalTokens": 638,
+      "tweetId": "2055761513898811407",
+      "tweetText": "@emreertunc_ Yes. There were some cache issues so we cleared everything again",
+      "tweetUrl": "https://x.com/thsottiaux/status/2055761513898811407",
+      "type": "review_requested",
+      "verdict": "uncertain"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1778966450911,
@@ -879,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2054275967020114041",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1778598988970,
-      "inputTokens": 391,
-      "message": "",
-      "outputTokens": 97,
-      "rationale": "This post is about Codex release cadence, not user caps or rate limits resetting.",
-      "reasoningTokens": 52,
-      "totalTokens": 488,
-      "tweetId": "2054218626862141856",
-      "tweetText": "For Codex, we’ve been thinking about keeping a stable release cadence and have a larger release each week on Thursday. That does make the start of the week and bit less exciting. Thoughts?",
-      "tweetUrl": "https://x.com/thsottiaux/status/2054218626862141856",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "vZFKWhjEv7C4KbzzMKP2__uEkuRgH5PpJt4Vf-SM7PJI0GjmR-GmPFwKOw",
-    "iv": "wnKpwrG1o77YjZ7d",
-    "tag": "RW7GIB-sFlWT9UjXVD4HBg",
+    "ciphertext": "FfQKC29OFy61DTOhG7JOT1Di1_wGrwnYUyFqyeaNOOFUZ7UFaS3ntfM-3Q",
+    "iv": "QPfGhaLwkF3PnIDf",
+    "tag": "sCKNJMdG5vzLFQPHabUqKw",
     "version": 1
   }
 }
