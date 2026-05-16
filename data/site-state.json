@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1778961485829,
-      "rationale": "This reply just says “Nice” and gives no sign that limits or caps have reset.",
-      "tweetId": "2055738389618676215",
-      "tweetUrl": "https://x.com/thsottiaux/status/2055738389618676215",
+      "decidedAt": 1778962389104,
+      "rationale": "This reply is unrelated to Codex or ChatGPT limits resetting.",
+      "tweetId": "2055742296000508085",
+      "tweetUrl": "https://x.com/thsottiaux/status/2055742296000508085",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2055738389618676215",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2055738389618676215",
+    "lastSeenTweetId": "2055742296000508085",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2055742296000508085",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1778962389104,
+        "inputTokens": 366,
+        "outputTokens": 59,
+        "rationale": "This reply is unrelated to Codex or ChatGPT limits resetting.",
+        "reasoningTokens": 18,
+        "totalTokens": 425,
+        "tweetId": "2055742296000508085",
+        "tweetText": "@ajambrosino i heard spotify is looking for a new designer",
+        "tweetUrl": "https://x.com/thsottiaux/status/2055742296000508085",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1778961485829,
@@ -272,29 +285,31 @@
         "tweetText": "@thdxr We rolled out a bad change yesterday that affected cache hit rate. This was rolled back and is now fixed.",
         "tweetUrl": "https://x.com/thsottiaux/status/2055312083072544809",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1778828441238,
-        "inputTokens": 365,
-        "outputTokens": 83,
-        "rationale": "This post is a general comment about Codex and does not mention limits or a reset.",
-        "reasoningTokens": 37,
-        "totalTokens": 448,
-        "tweetId": "2055180914549023077",
-        "tweetText": "Codex will do wonderful things for you if you ask nicely",
-        "tweetUrl": "https://x.com/thsottiaux/status/2055180914549023077",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 153391,
-      "totalOutputTokens": 41992,
-      "totalReasoningTokens": 22678,
-      "totalTokens": 195383
+      "totalInputTokens": 153757,
+      "totalOutputTokens": 42051,
+      "totalReasoningTokens": 22696,
+      "totalTokens": 195808
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1778962389104,
+      "inputTokens": 366,
+      "message": "",
+      "outputTokens": 59,
+      "rationale": "This reply is unrelated to Codex or ChatGPT limits resetting.",
+      "reasoningTokens": 18,
+      "totalTokens": 425,
+      "tweetId": "2055742296000508085",
+      "tweetText": "@ajambrosino i heard spotify is looking for a new designer",
+      "tweetUrl": "https://x.com/thsottiaux/status/2055742296000508085",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1778961485829,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2054082531432210765",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1778563316944,
-      "inputTokens": 368,
-      "message": "",
-      "outputTokens": 63,
-      "rationale": "This reply is unrelated to Codex or ChatGPT limits resetting.",
-      "reasoningTokens": 22,
-      "totalTokens": 431,
-      "tweetId": "2054068906915233818",
-      "tweetText": "@Anubhavhing You don't need the super duper app to ghost recruiters",
-      "tweetUrl": "https://x.com/thsottiaux/status/2054068906915233818",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "SeZGSRYowgxhv0X4ekcifKldHH0N7azAWM6nGK6QMGbemtfsh3i2oiA50w",
-    "iv": "YPSznIvyV2xKxVJt",
-    "tag": "cvkEe_L2qCbPBzir3_j8Zg",
+    "ciphertext": "wMFdiyc6mEA11HzcU9S3CvkHHEunnrZFWUQqE2RWN2bVdzqGeQCsdzBt9g",
+    "iv": "cFpvHv1bykHI4m0Q",
+    "tag": "FLvZVaOfnSOD6p5fcQHFbQ",
     "version": 1
   }
 }
