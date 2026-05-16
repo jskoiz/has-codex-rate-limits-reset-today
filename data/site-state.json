@@ -14,16 +14,16 @@
   "updatedAt": 1777403745925,
   "automation": {
     "lastDecision": {
-      "confidence": 0.18,
-      "decidedAt": 1778914369525,
-      "rationale": "This reply says things are stable again but does not clearly mention limits, caps, or a reset.",
-      "tweetId": "2055540700092211404",
-      "tweetUrl": "https://x.com/thsottiaux/status/2055540700092211404",
-      "verdict": "uncertain"
+      "confidence": 0.99,
+      "decidedAt": 1778915319450,
+      "rationale": "This reply does not mention limits, caps, or any reset.",
+      "tweetId": "2055544691089932694",
+      "tweetUrl": "https://x.com/thsottiaux/status/2055544691089932694",
+      "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2055540700092211404",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2055540700092211404",
+    "lastSeenTweetId": "2055544691089932694",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2055544691089932694",
     "pendingReview": {
       "confidence": 0.18,
       "createdAt": 1778914369525,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2055540700092211404"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1778915319450,
+        "inputTokens": 359,
+        "outputTokens": 101,
+        "rationale": "This reply does not mention limits, caps, or any reset.",
+        "reasoningTokens": 60,
+        "totalTokens": 460,
+        "tweetId": "2055544691089932694",
+        "tweetText": "@argofowl Hmmmmmm",
+        "tweetUrl": "https://x.com/thsottiaux/status/2055544691089932694",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.18,
         "evaluatedAt": 1778914369525,
@@ -279,29 +292,31 @@
         "tweetText": "In app browser improvements in Codex app. Different viewports, screenshots viewing, better annotations and more token efficient. Happy quality of life improvements Tuesday.",
         "tweetUrl": "https://x.com/thsottiaux/status/2054398093886673260",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1778637473686,
-        "inputTokens": 358,
-        "outputTokens": 76,
-        "rationale": "This reply just says \"Awesome\" and does not mention limits or resets.",
-        "reasoningTokens": 33,
-        "totalTokens": 434,
-        "tweetId": "2054380477013000411",
-        "tweetText": "@charlieholtz Awesome",
-        "tweetUrl": "https://x.com/thsottiaux/status/2054380477013000411",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 147947,
-      "totalOutputTokens": 40306,
-      "totalReasoningTokens": 21640,
-      "totalTokens": 188253
+      "totalInputTokens": 148306,
+      "totalOutputTokens": 40407,
+      "totalReasoningTokens": 21700,
+      "totalTokens": 188713
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1778915319450,
+      "inputTokens": 359,
+      "message": "",
+      "outputTokens": 101,
+      "rationale": "This reply does not mention limits, caps, or any reset.",
+      "reasoningTokens": 60,
+      "totalTokens": 460,
+      "tweetId": "2055544691089932694",
+      "tweetText": "@argofowl Hmmmmmm",
+      "tweetUrl": "https://x.com/thsottiaux/status/2055544691089932694",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.18,
       "createdAt": 1778914369525,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2053708388610252941",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1778475900266,
-      "inputTokens": 417,
-      "message": "",
-      "outputTokens": 69,
-      "rationale": "This is a hiring/recruiting post and does not mention limits, caps, or usage resetting.",
-      "reasoningTokens": 21,
-      "totalTokens": 486,
-      "tweetId": "2053702271712813398",
-      "tweetText": "We are Codex. We are legion. We do not miss. We do ship. Expect us.\n\nDM me if you have a track record of solving near impossible problems and want to work on the future of computing. We work across research, infra, agent harness and products. Currently hiring in San Francisco only.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2053702271712813398",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "B0f0wdsXreF6CFKgUiD1fVplFMvTrFovjUbMfWrYeIpQaKGp9t66ZTgSSA",
-    "iv": "yajT4QINdWd95Itp",
-    "tag": "nQaw7CikRygHxP-7BPNgVw",
+    "ciphertext": "hK2u4NwwFbIdE1k1FnlUumcQOgweK2xgUDlbs5NOqO4MAVuTH2KTGVs-OA",
+    "iv": "5r7rjPTajwXsFLvb",
+    "tag": "EYl6zEIKtUbnYxkKCrGB4g",
     "version": 1
   }
 }
