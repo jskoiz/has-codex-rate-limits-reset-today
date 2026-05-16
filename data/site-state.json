@@ -14,18 +14,31 @@
   "updatedAt": 1778958080837,
   "automation": {
     "lastDecision": {
-      "confidence": 0.77,
-      "decidedAt": 1778958080837,
-      "rationale": "It says resets are propagating now, though some accounts are having issues receiving them.",
-      "tweetId": "2055725156262465622",
-      "tweetUrl": "https://x.com/thsottiaux/status/2055725156262465622",
-      "verdict": "reset_confirmed"
+      "confidence": 0.99,
+      "decidedAt": 1778958987571,
+      "rationale": "This reply does not mention limits, caps, or usage becoming available again.",
+      "tweetId": "2055728661249380416",
+      "tweetUrl": "https://x.com/thsottiaux/status/2055728661249380416",
+      "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2055725156262465622",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2055725156262465622",
+    "lastSeenTweetId": "2055728661249380416",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2055728661249380416",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1778958987571,
+        "inputTokens": 360,
+        "outputTokens": 111,
+        "rationale": "This reply does not mention limits, caps, or usage becoming available again.",
+        "reasoningTokens": 68,
+        "totalTokens": 471,
+        "tweetId": "2055728661249380416",
+        "tweetText": "@iGotRootBlog Spread the word",
+        "tweetUrl": "https://x.com/thsottiaux/status/2055728661249380416",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.77,
         "evaluatedAt": 1778958080837,
@@ -272,29 +285,31 @@
         "tweetText": "@Da7_Tech Hey hey. Do you have a thread id?\n\n/feedback",
         "tweetUrl": "https://x.com/thsottiaux/status/2055114743204249751",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1778803313716,
-        "inputTokens": 366,
-        "outputTokens": 66,
-        "rationale": "This is just a conversational reply and does not mention limits, caps, or availability resetting.",
-        "reasoningTokens": 20,
-        "totalTokens": 432,
-        "tweetId": "2055075083266507235",
-        "tweetText": "@thekitze Good luck, it’s a scary world out there",
-        "tweetUrl": "https://x.com/thsottiaux/status/2055075083266507235",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 152168,
-      "totalOutputTokens": 41726,
-      "totalReasoningTokens": 22547,
-      "totalTokens": 193894
+      "totalInputTokens": 152528,
+      "totalOutputTokens": 41837,
+      "totalReasoningTokens": 22615,
+      "totalTokens": 194365
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1778958987571,
+      "inputTokens": 360,
+      "message": "",
+      "outputTokens": 111,
+      "rationale": "This reply does not mention limits, caps, or usage becoming available again.",
+      "reasoningTokens": 68,
+      "totalTokens": 471,
+      "tweetId": "2055728661249380416",
+      "tweetText": "@iGotRootBlog Spread the word",
+      "tweetUrl": "https://x.com/thsottiaux/status/2055728661249380416",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.77,
       "createdAt": 1778958080837,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2054052198422839502",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1778558993106,
-      "inputTokens": 360,
-      "message": "",
-      "outputTokens": 107,
-      "rationale": "This reply is unrelated to Codex or ChatGPT usage limits resetting.",
-      "reasoningTokens": 65,
-      "totalTokens": 467,
-      "tweetId": "2054049331200798853",
-      "tweetText": "@mattlam_ Good engineering compounds",
-      "tweetUrl": "https://x.com/thsottiaux/status/2054049331200798853",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "RmM4Xh9zAQbaGXTIVVMjL3jrlFBRDHU1e8Jqrg3NsjoWnWCXTPvOoqaUHQ",
-    "iv": "7bjldvKkkxAZBjRW",
-    "tag": "cpEoncTWcNm1ZumGkUDFbw",
+    "ciphertext": "fril1vwAYZFN4jDTxOWuhyJsPzLcAjHtvDmc_eD_EiwaAH8VhZTrTNhGEA",
+    "iv": "agnzVnhZOgZWg7OM",
+    "tag": "VHPlPa_gKKGIVrbaHHT0Gg",
     "version": 1
   }
 }
