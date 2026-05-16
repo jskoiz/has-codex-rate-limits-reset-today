@@ -14,25 +14,38 @@
   "updatedAt": 1777403745925,
   "automation": {
     "lastDecision": {
-      "confidence": 0.97,
-      "decidedAt": 1778891751794,
-      "rationale": "It says usage limits will be reset later this evening, not that they have reset already.",
-      "tweetId": "2055446089957036402",
-      "tweetUrl": "https://x.com/thsottiaux/status/2055446089957036402",
-      "verdict": "not_reset"
+      "confidence": 0.18,
+      "decidedAt": 1778914369525,
+      "rationale": "This reply says things are stable again but does not clearly mention limits, caps, or a reset.",
+      "tweetId": "2055540700092211404",
+      "tweetUrl": "https://x.com/thsottiaux/status/2055540700092211404",
+      "verdict": "uncertain"
     },
     "lastError": null,
-    "lastSeenTweetId": "2055446089957036402",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2055446089957036402",
+    "lastSeenTweetId": "2055540700092211404",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2055540700092211404",
     "pendingReview": {
-      "confidence": 0.95,
-      "createdAt": 1778803014651,
-      "rationale": "This reply alone does not clearly say that any Codex or ChatGPT limit has reset.",
-      "tweetId": "2055074260381839417",
-      "tweetText": "@shikhr_ It worked",
-      "tweetUrl": "https://x.com/thsottiaux/status/2055074260381839417"
+      "confidence": 0.18,
+      "createdAt": 1778914369525,
+      "rationale": "This reply says things are stable again but does not clearly mention limits, caps, or a reset.",
+      "tweetId": "2055540700092211404",
+      "tweetText": "Confirmed stable and recovered",
+      "tweetUrl": "https://x.com/thsottiaux/status/2055540700092211404"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.18,
+        "evaluatedAt": 1778914369525,
+        "inputTokens": 357,
+        "outputTokens": 172,
+        "rationale": "This reply says things are stable again but does not clearly mention limits, caps, or a reset.",
+        "reasoningTokens": 124,
+        "totalTokens": 529,
+        "tweetId": "2055540700092211404",
+        "tweetText": "Confirmed stable and recovered",
+        "tweetUrl": "https://x.com/thsottiaux/status/2055540700092211404",
+        "verdict": "uncertain"
+      },
       {
         "confidence": 0.97,
         "evaluatedAt": 1778891751794,
@@ -279,29 +292,31 @@
         "tweetText": "@charlieholtz Awesome",
         "tweetUrl": "https://x.com/thsottiaux/status/2054380477013000411",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1778637470260,
-        "inputTokens": 466,
-        "outputTokens": 79,
-        "rationale": "This post is about Codex release scheduling, not rate limits or usage resetting.",
-        "reasoningTokens": 35,
-        "totalTokens": 545,
-        "tweetId": "2054379522657820860",
-        "tweetText": "Thanks for all the input, what we'll do going forward for Codex updates\n\n- Tue: Quality and polish\n- Thu: Big launches (starting this Thu)\n- Fri: Fun stuff, little extra",
-        "tweetUrl": "https://x.com/thsottiaux/status/2054379522657820860",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 147590,
-      "totalOutputTokens": 40134,
-      "totalReasoningTokens": 21516,
-      "totalTokens": 187724
+      "totalInputTokens": 147947,
+      "totalOutputTokens": 40306,
+      "totalReasoningTokens": 21640,
+      "totalTokens": 188253
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.18,
+      "createdAt": 1778914369525,
+      "inputTokens": 357,
+      "message": "",
+      "outputTokens": 172,
+      "rationale": "This reply says things are stable again but does not clearly mention limits, caps, or a reset.",
+      "reasoningTokens": 124,
+      "totalTokens": 529,
+      "tweetId": "2055540700092211404",
+      "tweetText": "Confirmed stable and recovered",
+      "tweetUrl": "https://x.com/thsottiaux/status/2055540700092211404",
+      "type": "review_requested",
+      "verdict": "uncertain"
+    },
     {
       "confidence": 0.97,
       "createdAt": 1778891751794,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2053702271712813398",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1778458816646,
-      "inputTokens": 372,
-      "message": "",
-      "outputTokens": 75,
-      "rationale": "This reply is a joke and does not mention limits, caps, or any reset.",
-      "reasoningTokens": 30,
-      "totalTokens": 447,
-      "tweetId": "2053630540163813501",
-      "tweetText": "@chatgpt21 That's a can of fanta per hour! And it can't even drink it!",
-      "tweetUrl": "https://x.com/thsottiaux/status/2053630540163813501",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "M3cjN5fp7PYLn9Mtcpp93Jz8bA41rhejbLu0XP3jFb50S8fXH9tWVQT_VA",
-    "iv": "581qBt2KNRWSiB-e",
-    "tag": "MD-29CfQZitoMbcauZp9IQ",
+    "ciphertext": "B0f0wdsXreF6CFKgUiD1fVplFMvTrFovjUbMfWrYeIpQaKGp9t66ZTgSSA",
+    "iv": "yajT4QINdWd95Itp",
+    "tag": "nQaw7CikRygHxP-7BPNgVw",
     "version": 1
   }
 }
