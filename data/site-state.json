@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1778954042442,
-      "rationale": "The tweet explicitly says Codex usage limits have now been reset across all paid plans.",
-      "tweetId": "2055707616605835333",
-      "tweetUrl": "https://x.com/thsottiaux/status/2055707616605835333",
-      "verdict": "reset_confirmed"
+      "decidedAt": 1778954351353,
+      "rationale": "This reply is just recommending a feature and does not mention limits, caps, or a reset.",
+      "tweetId": "2055708710077706532",
+      "tweetUrl": "https://x.com/thsottiaux/status/2055708710077706532",
+      "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2055707616605835333",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2055707616605835333",
+    "lastSeenTweetId": "2055708710077706532",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2055708710077706532",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1778954351353,
+        "inputTokens": 386,
+        "outputTokens": 86,
+        "rationale": "This reply is just recommending a feature and does not mention limits, caps, or a reset.",
+        "reasoningTokens": 39,
+        "totalTokens": 472,
+        "tweetId": "2055708710077706532",
+        "tweetText": "Recommend trying the new remote control feature through the ChatGPT app if you are on the go.\n\nhttps://t.co/R48NTvYgqZ",
+        "tweetUrl": "https://x.com/thsottiaux/status/2055708710077706532",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1778954042442,
@@ -272,29 +285,31 @@
         "tweetText": "They meant companies... 2000 companies. We're going to need to stand up a lot of compute 😅",
         "tweetUrl": "https://x.com/thsottiaux/status/2054739404212801569",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1778701822945,
-        "inputTokens": 399,
-        "outputTokens": 76,
-        "rationale": "This post is about Windows sandboxing for Codex, not usage limits or a reset.",
-        "reasoningTokens": 30,
-        "totalTokens": 475,
-        "tweetId": "2054650181908607018",
-        "tweetText": "We are continuing to invest in making agents work better on Windows. \n\nHighly recommend reading David's engineering post on our unique approach to windows sandboxing for Codex: https://t.co/V3WsYjMJbg",
-        "tweetUrl": "https://x.com/thsottiaux/status/2054650181908607018",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 149592,
-      "totalOutputTokens": 40792,
-      "totalReasoningTokens": 21940,
-      "totalTokens": 190384
+      "totalInputTokens": 149978,
+      "totalOutputTokens": 40878,
+      "totalReasoningTokens": 21979,
+      "totalTokens": 190856
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1778954351353,
+      "inputTokens": 386,
+      "message": "",
+      "outputTokens": 86,
+      "rationale": "This reply is just recommending a feature and does not mention limits, caps, or a reset.",
+      "reasoningTokens": 39,
+      "totalTokens": 472,
+      "tweetId": "2055708710077706532",
+      "tweetText": "Recommend trying the new remote control feature through the ChatGPT app if you are on the go.\n\nhttps://t.co/R48NTvYgqZ",
+      "tweetUrl": "https://x.com/thsottiaux/status/2055708710077706532",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1778954042442,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2054014576115773753",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1778550324038,
-      "inputTokens": 369,
-      "message": "",
-      "outputTokens": 88,
-      "rationale": "This reply is just a comparison and does not mention limits, caps, or resets.",
-      "reasoningTokens": 43,
-      "totalTokens": 457,
-      "tweetId": "2054014199228150052",
-      "tweetText": "@TechByTaraa Because 5.5 &gt; 4.7",
-      "tweetUrl": "https://x.com/thsottiaux/status/2054014199228150052",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "tAsO-Dg9esJii5SNQr7oanmK64GSp9qF46Hh-opo_jZcomdmZlq17a3EpQ",
-    "iv": "00bYWtdcPb0xbwb3",
-    "tag": "XGO7vEkVbIsQ9AxEvOItdw",
+    "ciphertext": "vByAdbh9D3U7qfTRQnoN6dsq4LsDF5YSZxBDJ0Z0WWmu7KV3bkVNKMVoog",
+    "iv": "NYSOh2HRhDxiGxoj",
+    "tag": "XltqKt51KNMDORl5blpgCw",
     "version": 1
   }
 }
