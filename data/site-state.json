@@ -14,25 +14,38 @@
   "updatedAt": 1778954042442,
   "automation": {
     "lastDecision": {
-      "confidence": 0.94,
-      "decidedAt": 1778954355499,
-      "rationale": "This reply alone is too vague to tell whether any ChatGPT or Codex limit has actually reset.",
-      "tweetId": "2055708843070673295",
-      "tweetUrl": "https://x.com/thsottiaux/status/2055708843070673295",
+      "confidence": 0.56,
+      "decidedAt": 1778957153408,
+      "rationale": "This reply suggests a change propagated, but it does not explicitly say any rate limit or cap has reset.",
+      "tweetId": "2055721248697823378",
+      "tweetUrl": "https://x.com/thsottiaux/status/2055721248697823378",
       "verdict": "uncertain"
     },
     "lastError": null,
-    "lastSeenTweetId": "2055708843070673295",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2055708843070673295",
+    "lastSeenTweetId": "2055721248697823378",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2055721248697823378",
     "pendingReview": {
-      "confidence": 0.94,
-      "createdAt": 1778954355499,
-      "rationale": "This reply alone is too vague to tell whether any ChatGPT or Codex limit has actually reset.",
-      "tweetId": "2055708843070673295",
-      "tweetText": "@doublemover Takes a few minutes",
-      "tweetUrl": "https://x.com/thsottiaux/status/2055708843070673295"
+      "confidence": 0.56,
+      "createdAt": 1778957153408,
+      "rationale": "This reply suggests a change propagated, but it does not explicitly say any rate limit or cap has reset.",
+      "tweetId": "2055721248697823378",
+      "tweetText": "@paraddox Should have propagated, all good?",
+      "tweetUrl": "https://x.com/thsottiaux/status/2055721248697823378"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.56,
+        "evaluatedAt": 1778957153408,
+        "inputTokens": 362,
+        "outputTokens": 243,
+        "rationale": "This reply suggests a change propagated, but it does not explicitly say any rate limit or cap has reset.",
+        "reasoningTokens": 194,
+        "totalTokens": 605,
+        "tweetId": "2055721248697823378",
+        "tweetText": "@paraddox Should have propagated, all good?",
+        "tweetUrl": "https://x.com/thsottiaux/status/2055721248697823378",
+        "verdict": "uncertain"
+      },
       {
         "confidence": 0.94,
         "evaluatedAt": 1778954355499,
@@ -279,29 +292,31 @@
         "tweetText": "@moritzkremb Let’s see. Maybe that’s also our strategy 🤔",
         "tweetUrl": "https://x.com/thsottiaux/status/2054811180091462056",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1778739829329,
-        "inputTokens": 360,
-        "outputTokens": 80,
-        "rationale": "This reply only says they are on team Codex and does not mention limits resetting.",
-        "reasoningTokens": 35,
-        "totalTokens": 440,
-        "tweetId": "2054809569562624217",
-        "tweetText": "@KaiXCreator On team Codex",
-        "tweetUrl": "https://x.com/thsottiaux/status/2054809569562624217",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 150338,
-      "totalOutputTokens": 40984,
-      "totalReasoningTokens": 22037,
-      "totalTokens": 191322
+      "totalInputTokens": 150700,
+      "totalOutputTokens": 41227,
+      "totalReasoningTokens": 22231,
+      "totalTokens": 191927
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.56,
+      "createdAt": 1778957153408,
+      "inputTokens": 362,
+      "message": "",
+      "outputTokens": 243,
+      "rationale": "This reply suggests a change propagated, but it does not explicitly say any rate limit or cap has reset.",
+      "reasoningTokens": 194,
+      "totalTokens": 605,
+      "tweetId": "2055721248697823378",
+      "tweetText": "@paraddox Should have propagated, all good?",
+      "tweetUrl": "https://x.com/thsottiaux/status/2055721248697823378",
+      "type": "review_requested",
+      "verdict": "uncertain"
+    },
     {
       "confidence": 0.94,
       "createdAt": 1778954355499,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2054029340082597949",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1778553753598,
-      "inputTokens": 396,
-      "message": "",
-      "outputTokens": 73,
-      "rationale": "This reply is unrelated to ChatGPT or Codex usage limits resetting.",
-      "reasoningTokens": 31,
-      "totalTokens": 469,
-      "tweetId": "2054028334921830505",
-      "tweetText": "@SinaHartung Sorry, you're right. This was a reference to a famous hacker group from 2003 and I've been deep into cyber security this week so it was on my mind. A bit silly I admit!",
-      "tweetUrl": "https://x.com/thsottiaux/status/2054028334921830505",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "1nb-JlAyh_K9u20aukYWiKv1W43EOWi2UwVe8lD2fe1NcyXQU2a_hu0Lhw",
-    "iv": "pf3NCi3jc28GtNqq",
-    "tag": "J9UcmDkwCKL8zO_b0ijzbQ",
+    "ciphertext": "A_B8plDbrpyRqjvhrBUsGCnXSGuLHuCHRg7hTL8ipkurQnFBdeu0M_R5LQ",
+    "iv": "ETROUDNqIBy0Owkq",
+    "tag": "nELuzgsSM6EOOt7ScKqpGQ",
     "version": 1
   }
 }
