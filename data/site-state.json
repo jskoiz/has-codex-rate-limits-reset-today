@@ -14,18 +14,38 @@
   "updatedAt": 1778954042442,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1778954351353,
-      "rationale": "This reply is just recommending a feature and does not mention limits, caps, or a reset.",
-      "tweetId": "2055708710077706532",
-      "tweetUrl": "https://x.com/thsottiaux/status/2055708710077706532",
-      "verdict": "not_reset"
+      "confidence": 0.94,
+      "decidedAt": 1778954355499,
+      "rationale": "This reply alone is too vague to tell whether any ChatGPT or Codex limit has actually reset.",
+      "tweetId": "2055708843070673295",
+      "tweetUrl": "https://x.com/thsottiaux/status/2055708843070673295",
+      "verdict": "uncertain"
     },
     "lastError": null,
-    "lastSeenTweetId": "2055708710077706532",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2055708710077706532",
-    "pendingReview": null,
+    "lastSeenTweetId": "2055708843070673295",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2055708843070673295",
+    "pendingReview": {
+      "confidence": 0.94,
+      "createdAt": 1778954355499,
+      "rationale": "This reply alone is too vague to tell whether any ChatGPT or Codex limit has actually reset.",
+      "tweetId": "2055708843070673295",
+      "tweetText": "@doublemover Takes a few minutes",
+      "tweetUrl": "https://x.com/thsottiaux/status/2055708843070673295"
+    },
     "recentEvaluations": [
+      {
+        "confidence": 0.94,
+        "evaluatedAt": 1778954355499,
+        "inputTokens": 360,
+        "outputTokens": 106,
+        "rationale": "This reply alone is too vague to tell whether any ChatGPT or Codex limit has actually reset.",
+        "reasoningTokens": 58,
+        "totalTokens": 466,
+        "tweetId": "2055708843070673295",
+        "tweetText": "@doublemover Takes a few minutes",
+        "tweetUrl": "https://x.com/thsottiaux/status/2055708843070673295",
+        "verdict": "uncertain"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1778954351353,
@@ -272,29 +292,31 @@
         "tweetText": "@KaiXCreator On team Codex",
         "tweetUrl": "https://x.com/thsottiaux/status/2054809569562624217",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1778723222371,
-        "inputTokens": 423,
-        "outputTokens": 95,
-        "rationale": "This post is about demand and compute capacity, not Codex or ChatGPT limits resetting.",
-        "reasoningTokens": 49,
-        "totalTokens": 518,
-        "tweetId": "2054739404212801569",
-        "tweetText": "They meant companies... 2000 companies. We're going to need to stand up a lot of compute 😅",
-        "tweetUrl": "https://x.com/thsottiaux/status/2054739404212801569",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 149978,
-      "totalOutputTokens": 40878,
-      "totalReasoningTokens": 21979,
-      "totalTokens": 190856
+      "totalInputTokens": 150338,
+      "totalOutputTokens": 40984,
+      "totalReasoningTokens": 22037,
+      "totalTokens": 191322
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.94,
+      "createdAt": 1778954355499,
+      "inputTokens": 360,
+      "message": "",
+      "outputTokens": 106,
+      "rationale": "This reply alone is too vague to tell whether any ChatGPT or Codex limit has actually reset.",
+      "reasoningTokens": 58,
+      "totalTokens": 466,
+      "tweetId": "2055708843070673295",
+      "tweetText": "@doublemover Takes a few minutes",
+      "tweetUrl": "https://x.com/thsottiaux/status/2055708843070673295",
+      "type": "review_requested",
+      "verdict": "uncertain"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1778954351353,
@@ -879,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2054028334921830505",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1778550327783,
-      "inputTokens": 378,
-      "message": "",
-      "outputTokens": 112,
-      "rationale": "This reply is about working on something later and does not mention limits, caps, or resets.",
-      "reasoningTokens": 65,
-      "totalTokens": 490,
-      "tweetId": "2054014576115773753",
-      "tweetText": "@badlogicgames @sloikodavid Oh, I can work on that. Putting that on my list for this week",
-      "tweetUrl": "https://x.com/thsottiaux/status/2054014576115773753",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "vByAdbh9D3U7qfTRQnoN6dsq4LsDF5YSZxBDJ0Z0WWmu7KV3bkVNKMVoog",
-    "iv": "NYSOh2HRhDxiGxoj",
-    "tag": "XltqKt51KNMDORl5blpgCw",
+    "ciphertext": "1nb-JlAyh_K9u20aukYWiKv1W43EOWi2UwVe8lD2fe1NcyXQU2a_hu0Lhw",
+    "iv": "pf3NCi3jc28GtNqq",
+    "tag": "J9UcmDkwCKL8zO_b0ijzbQ",
     "version": 1
   }
 }
