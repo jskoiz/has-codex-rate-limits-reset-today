@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1778966446647,
-      "rationale": "This reply just mentions having Codex on a phone and says nothing about limits or resets.",
-      "tweetId": "2055759259380719998",
-      "tweetUrl": "https://x.com/thsottiaux/status/2055759259380719998",
+      "decidedAt": 1778966450911,
+      "rationale": "This mentions a generic product-development reset, not Codex or ChatGPT usage limits resetting.",
+      "tweetId": "2055759809698550263",
+      "tweetUrl": "https://x.com/thsottiaux/status/2055759809698550263",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2055759259380719998",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2055759259380719998",
+    "lastSeenTweetId": "2055759809698550263",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2055759809698550263",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1778966450911,
+        "inputTokens": 406,
+        "outputTokens": 95,
+        "rationale": "This mentions a generic product-development reset, not Codex or ChatGPT usage limits resetting.",
+        "reasoningTokens": 49,
+        "totalTokens": 501,
+        "tweetId": "2055759809698550263",
+        "tweetText": "Ship =&gt; Feedback =&gt; Ship =&gt; Feedback =&gt; Ship =&gt; Oops something not quite right =&gt; Reset =&gt; Yay =&gt; Ship =&gt; …\n\nThe never ending cycle of Codex improvements",
+        "tweetUrl": "https://x.com/thsottiaux/status/2055759809698550263",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1778966446647,
@@ -272,29 +285,31 @@
         "tweetText": "We are busy bringing ChatGPT to Codex so that we can bring Codex to ChatGPT. One day this will make sense.",
         "tweetUrl": "https://x.com/thsottiaux/status/2055404493689569611",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1778860729709,
-        "inputTokens": 393,
-        "outputTokens": 93,
-        "rationale": "This post discusses model performance issues, not any user cap or rate-limit reset.",
-        "reasoningTokens": 49,
-        "totalTokens": 486,
-        "tweetId": "2055316274394300829",
-        "tweetText": "Codex team is aware of reports of GPT-5.5 performing worse for some users and investigating. We don't have anything conclusive yet and systems are healthy but we will share updates as we go.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2055316274394300829",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 154129,
-      "totalOutputTokens": 42137,
-      "totalReasoningTokens": 22736,
-      "totalTokens": 196266
+      "totalInputTokens": 154535,
+      "totalOutputTokens": 42232,
+      "totalReasoningTokens": 22785,
+      "totalTokens": 196767
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1778966450911,
+      "inputTokens": 406,
+      "message": "",
+      "outputTokens": 95,
+      "rationale": "This mentions a generic product-development reset, not Codex or ChatGPT usage limits resetting.",
+      "reasoningTokens": 49,
+      "totalTokens": 501,
+      "tweetId": "2055759809698550263",
+      "tweetText": "Ship =&gt; Feedback =&gt; Ship =&gt; Feedback =&gt; Ship =&gt; Oops something not quite right =&gt; Reset =&gt; Yay =&gt; Ship =&gt; …\n\nThe never ending cycle of Codex improvements",
+      "tweetUrl": "https://x.com/thsottiaux/status/2055759809698550263",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1778966446647,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2054218626862141856",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1778566746789,
-      "inputTokens": 358,
-      "message": "",
-      "outputTokens": 90,
-      "rationale": "This reply is just conversational and does not mention limits, caps, or a reset.",
-      "reasoningTokens": 45,
-      "totalTokens": 448,
-      "tweetId": "2054083152822600117",
-      "tweetText": "@melvynx Magic?",
-      "tweetUrl": "https://x.com/thsottiaux/status/2054083152822600117",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "bgrx16GkLhXY0MdIkvvyMXkUDrpDBQ0Jwax3q8WNbU-gjbWElXyeRdqQ_A",
-    "iv": "wZSAWQwXX6WJyHEC",
-    "tag": "FsPsB4oxKKE6LT0cOzgZ5w",
+    "ciphertext": "vZFKWhjEv7C4KbzzMKP2__uEkuRgH5PpJt4Vf-SM7PJI0GjmR-GmPFwKOw",
+    "iv": "wnKpwrG1o77YjZ7d",
+    "tag": "RW7GIB-sFlWT9UjXVD4HBg",
     "version": 1
   }
 }
