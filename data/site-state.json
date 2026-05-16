@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1778957771566,
-      "rationale": "This reply just asks which subscription plan someone is on and does not indicate any limits have reset.",
-      "tweetId": "2055722700530933780",
-      "tweetUrl": "https://x.com/thsottiaux/status/2055722700530933780",
+      "decidedAt": 1778957774545,
+      "rationale": "This reply only asks about the user's plan and does not indicate any limits have reset.",
+      "tweetId": "2055722746479616194",
+      "tweetUrl": "https://x.com/thsottiaux/status/2055722746479616194",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2055722700530933780",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2055722700530933780",
+    "lastSeenTweetId": "2055722746479616194",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2055722746479616194",
     "pendingReview": {
       "confidence": 0.56,
       "createdAt": 1778957153408,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2055721248697823378"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1778957774545,
+        "inputTokens": 366,
+        "outputTokens": 64,
+        "rationale": "This reply only asks about the user's plan and does not indicate any limits have reset.",
+        "reasoningTokens": 19,
+        "totalTokens": 430,
+        "tweetId": "2055722746479616194",
+        "tweetText": "@etcetera10969 @paraddox Which plan are you on?",
+        "tweetUrl": "https://x.com/thsottiaux/status/2055722746479616194",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1778957771566,
@@ -279,29 +292,31 @@
         "tweetText": "@shikhr_ It worked",
         "tweetUrl": "https://x.com/thsottiaux/status/2055074260381839417",
         "verdict": "uncertain"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1778790269577,
-        "inputTokens": 450,
-        "outputTokens": 84,
-        "rationale": "This is a promotional quote tweet about using Codex on your phone, not about limits resetting.",
-        "reasoningTokens": 37,
-        "totalTokens": 534,
-        "tweetId": "2055021080553959548",
-        "tweetText": "Codex everywhere",
-        "tweetUrl": "https://x.com/thsottiaux/status/2055021080553959548",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 151432,
-      "totalOutputTokens": 41373,
-      "totalReasoningTokens": 22285,
-      "totalTokens": 192805
+      "totalInputTokens": 151798,
+      "totalOutputTokens": 41437,
+      "totalReasoningTokens": 22304,
+      "totalTokens": 193235
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1778957774545,
+      "inputTokens": 366,
+      "message": "",
+      "outputTokens": 64,
+      "rationale": "This reply only asks about the user's plan and does not indicate any limits have reset.",
+      "reasoningTokens": 19,
+      "totalTokens": 430,
+      "tweetId": "2055722746479616194",
+      "tweetText": "@etcetera10969 @paraddox Which plan are you on?",
+      "tweetUrl": "https://x.com/thsottiaux/status/2055722746479616194",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1778957771566,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2054048780018958344",
       "type": "review_requested",
       "verdict": "uncertain"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1778558368523,
-      "inputTokens": 408,
-      "message": "",
-      "outputTokens": 69,
-      "rationale": "This is a product announcement about cybersecurity features, not a statement that Codex or ChatGPT limits reset.",
-      "reasoningTokens": 20,
-      "totalTokens": 477,
-      "tweetId": "2054048631850999815",
-      "tweetText": "Cybersecurity is changing. \n\nDaybreak brings together our most capable cyber models, Trusted Access tiers, advanced security workflows in Codex and at scale repo scanning with patch generation. With much more to come. https://t.co/UWi7f1qi7M",
-      "tweetUrl": "https://x.com/thsottiaux/status/2054048631850999815",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "Ennvzr4DAooulGwQIIwsZYJMXPZsKgTY9QW9jSPactZcFOo2SMSQNlbsDg",
-    "iv": "fT2bUsHNxlCLNBIk",
-    "tag": "FtzYVIb3FDmw3tq2WNZuNQ",
+    "ciphertext": "LnR9mXO5e6lsGKoKmm5Edc2hPQ-rF_G_es6KPg5iGh2PfVr1AG0L2R6-mA",
+    "iv": "AOtpYfb1Rzzz4REk",
+    "tag": "fsOd6U6ZYMdBA2xxE4VaLw",
     "version": 1
   }
 }
