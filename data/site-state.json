@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1778957459505,
-      "rationale": "This reply just asks which subscription plan the user has and does not mention limits resetting.",
-      "tweetId": "2055722679312003474",
-      "tweetUrl": "https://x.com/thsottiaux/status/2055722679312003474",
+      "decidedAt": 1778957771566,
+      "rationale": "This reply just asks which subscription plan someone is on and does not indicate any limits have reset.",
+      "tweetId": "2055722700530933780",
+      "tweetUrl": "https://x.com/thsottiaux/status/2055722700530933780",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2055722679312003474",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2055722679312003474",
+    "lastSeenTweetId": "2055722700530933780",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2055722700530933780",
     "pendingReview": {
       "confidence": 0.56,
       "createdAt": 1778957153408,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2055721248697823378"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1778957771566,
+        "inputTokens": 367,
+        "outputTokens": 72,
+        "rationale": "This reply just asks which subscription plan someone is on and does not indicate any limits have reset.",
+        "reasoningTokens": 25,
+        "totalTokens": 439,
+        "tweetId": "2055722700530933780",
+        "tweetText": "@dev_bordecraft @paraddox Which plan are you on?",
+        "tweetUrl": "https://x.com/thsottiaux/status/2055722700530933780",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1778957459505,
@@ -279,29 +292,31 @@
         "tweetText": "Codex everywhere",
         "tweetUrl": "https://x.com/thsottiaux/status/2055021080553959548",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1778740460403,
-        "inputTokens": 369,
-        "outputTokens": 74,
-        "rationale": "This is a joke about using Codex and does not mention limits or availability resetting.",
-        "reasoningTokens": 29,
-        "totalTokens": 443,
-        "tweetId": "2054812367163375896",
-        "tweetText": "I used to use Codex. I still do. But I used to too.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2054812367163375896",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 151065,
-      "totalOutputTokens": 41301,
-      "totalReasoningTokens": 22260,
-      "totalTokens": 192366
+      "totalInputTokens": 151432,
+      "totalOutputTokens": 41373,
+      "totalReasoningTokens": 22285,
+      "totalTokens": 192805
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1778957771566,
+      "inputTokens": 367,
+      "message": "",
+      "outputTokens": 72,
+      "rationale": "This reply just asks which subscription plan someone is on and does not indicate any limits have reset.",
+      "reasoningTokens": 25,
+      "totalTokens": 439,
+      "tweetId": "2055722700530933780",
+      "tweetText": "@dev_bordecraft @paraddox Which plan are you on?",
+      "tweetUrl": "https://x.com/thsottiaux/status/2055722700530933780",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1778957459505,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2054048631850999815",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1778557149679,
-      "inputTokens": 360,
-      "message": "",
-      "outputTokens": 74,
-      "rationale": "This reply is unrelated to Codex or ChatGPT limits resetting.",
-      "reasoningTokens": 33,
-      "totalTokens": 434,
-      "tweetId": "2054043382885097770",
-      "tweetText": "@0xSero How about diagonal",
-      "tweetUrl": "https://x.com/thsottiaux/status/2054043382885097770",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "9vOUHaB-hyNafcAaxrHTBIKRVOM4iplRgxkLYNhKSb7asfu3epZ68QnNuQ",
-    "iv": "OZGuSqfpF75ODVJr",
-    "tag": "2s_MTsZereMicIUfD5ydaw",
+    "ciphertext": "Ennvzr4DAooulGwQIIwsZYJMXPZsKgTY9QW9jSPactZcFOo2SMSQNlbsDg",
+    "iv": "fT2bUsHNxlCLNBIk",
+    "tag": "FtzYVIb3FDmw3tq2WNZuNQ",
     "version": 1
   }
 }
