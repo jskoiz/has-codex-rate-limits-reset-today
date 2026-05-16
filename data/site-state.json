@@ -14,16 +14,16 @@
   "updatedAt": 1778954042442,
   "automation": {
     "lastDecision": {
-      "confidence": 0.56,
-      "decidedAt": 1778957153408,
-      "rationale": "This reply suggests a change propagated, but it does not explicitly say any rate limit or cap has reset.",
-      "tweetId": "2055721248697823378",
-      "tweetUrl": "https://x.com/thsottiaux/status/2055721248697823378",
-      "verdict": "uncertain"
+      "confidence": 0.99,
+      "decidedAt": 1778957459505,
+      "rationale": "This reply just asks which subscription plan the user has and does not mention limits resetting.",
+      "tweetId": "2055722679312003474",
+      "tweetUrl": "https://x.com/thsottiaux/status/2055722679312003474",
+      "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2055721248697823378",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2055721248697823378",
+    "lastSeenTweetId": "2055722679312003474",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2055722679312003474",
     "pendingReview": {
       "confidence": 0.56,
       "createdAt": 1778957153408,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2055721248697823378"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1778957459505,
+        "inputTokens": 365,
+        "outputTokens": 74,
+        "rationale": "This reply just asks which subscription plan the user has and does not mention limits resetting.",
+        "reasoningTokens": 29,
+        "totalTokens": 439,
+        "tweetId": "2055722679312003474",
+        "tweetText": "@halveknots @paraddox Which plan are you on?",
+        "tweetUrl": "https://x.com/thsottiaux/status/2055722679312003474",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.56,
         "evaluatedAt": 1778957153408,
@@ -279,29 +292,31 @@
         "tweetText": "I used to use Codex. I still do. But I used to too.",
         "tweetUrl": "https://x.com/thsottiaux/status/2054812367163375896",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1778740457722,
-        "inputTokens": 370,
-        "outputTokens": 105,
-        "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-        "reasoningTokens": 61,
-        "totalTokens": 475,
-        "tweetId": "2054811180091462056",
-        "tweetText": "@moritzkremb Let’s see. Maybe that’s also our strategy 🤔",
-        "tweetUrl": "https://x.com/thsottiaux/status/2054811180091462056",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 150700,
-      "totalOutputTokens": 41227,
-      "totalReasoningTokens": 22231,
-      "totalTokens": 191927
+      "totalInputTokens": 151065,
+      "totalOutputTokens": 41301,
+      "totalReasoningTokens": 22260,
+      "totalTokens": 192366
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1778957459505,
+      "inputTokens": 365,
+      "message": "",
+      "outputTokens": 74,
+      "rationale": "This reply just asks which subscription plan the user has and does not mention limits resetting.",
+      "reasoningTokens": 29,
+      "totalTokens": 439,
+      "tweetId": "2055722679312003474",
+      "tweetText": "@halveknots @paraddox Which plan are you on?",
+      "tweetUrl": "https://x.com/thsottiaux/status/2055722679312003474",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.56,
       "createdAt": 1778957153408,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2054043382885097770",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1778553757044,
-      "inputTokens": 362,
-      "message": "",
-      "outputTokens": 72,
-      "rationale": "This reply is unrelated to ChatGPT or Codex rate limit resets.",
-      "reasoningTokens": 30,
-      "totalTokens": 434,
-      "tweetId": "2054029340082597949",
-      "tweetText": "@MichelleBakels @opencode Open source it",
-      "tweetUrl": "https://x.com/thsottiaux/status/2054029340082597949",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "A_B8plDbrpyRqjvhrBUsGCnXSGuLHuCHRg7hTL8ipkurQnFBdeu0M_R5LQ",
-    "iv": "ETROUDNqIBy0Owkq",
-    "tag": "nELuzgsSM6EOOt7ScKqpGQ",
+    "ciphertext": "9vOUHaB-hyNafcAaxrHTBIKRVOM4iplRgxkLYNhKSb7asfu3epZ68QnNuQ",
+    "iv": "OZGuSqfpF75ODVJr",
+    "tag": "2s_MTsZereMicIUfD5ydaw",
     "version": 1
   }
 }
