@@ -1,5 +1,5 @@
 {
-  "currentState": "no",
+  "currentState": "yes",
   "autoResetHours": 20,
   "noSubtitles": [
     "Back to your local model peasant",
@@ -10,29 +10,35 @@
     "Limits reset, go crazy",
     "You can just build things"
   ],
-  "resetAt": null,
-  "updatedAt": 1777403745925,
+  "resetAt": 1779026042442,
+  "updatedAt": 1778954042442,
   "automation": {
     "lastDecision": {
-      "confidence": 0.98,
-      "decidedAt": 1778915328531,
-      "rationale": "This is a quote of a product integration announcement about shared subscription rate limits, not a reset or cap being…",
-      "tweetId": "2055545756069802151",
-      "tweetUrl": "https://x.com/thsottiaux/status/2055545756069802151",
-      "verdict": "not_reset"
+      "confidence": 0.99,
+      "decidedAt": 1778954042442,
+      "rationale": "The tweet explicitly says Codex usage limits have now been reset across all paid plans.",
+      "tweetId": "2055707616605835333",
+      "tweetUrl": "https://x.com/thsottiaux/status/2055707616605835333",
+      "verdict": "reset_confirmed"
     },
     "lastError": null,
-    "lastSeenTweetId": "2055545756069802151",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2055545756069802151",
-    "pendingReview": {
-      "confidence": 0.18,
-      "createdAt": 1778914369525,
-      "rationale": "This reply says things are stable again but does not clearly mention limits, caps, or a reset.",
-      "tweetId": "2055540700092211404",
-      "tweetText": "Confirmed stable and recovered",
-      "tweetUrl": "https://x.com/thsottiaux/status/2055540700092211404"
-    },
+    "lastSeenTweetId": "2055707616605835333",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2055707616605835333",
+    "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1778954042442,
+        "inputTokens": 468,
+        "outputTokens": 99,
+        "rationale": "The tweet explicitly says Codex usage limits have now been reset across all paid plans.",
+        "reasoningTokens": 53,
+        "totalTokens": 567,
+        "tweetId": "2055707616605835333",
+        "tweetText": "Codex usage limits have now been reset across all paid plans. Enjoy the weekend!",
+        "tweetUrl": "https://x.com/thsottiaux/status/2055707616605835333",
+        "verdict": "reset_confirmed"
+      },
       {
         "confidence": 0.98,
         "evaluatedAt": 1778915328531,
@@ -279,29 +285,31 @@
         "tweetText": "We are continuing to invest in making agents work better on Windows. \n\nHighly recommend reading David's engineering post on our unique approach to windows sandboxing for Codex: https://t.co/V3WsYjMJbg",
         "tweetUrl": "https://x.com/thsottiaux/status/2054650181908607018",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1778701207407,
-        "inputTokens": 359,
-        "outputTokens": 74,
-        "rationale": "This post is a general question and does not mention limits, caps, or resets.",
-        "reasoningTokens": 29,
-        "totalTokens": 433,
-        "tweetId": "2054647223615680714",
-        "tweetText": "What is your /goal today?",
-        "tweetUrl": "https://x.com/thsottiaux/status/2054647223615680714",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 149124,
-      "totalOutputTokens": 40693,
-      "totalReasoningTokens": 21887,
-      "totalTokens": 189817
+      "totalInputTokens": 149592,
+      "totalOutputTokens": 40792,
+      "totalReasoningTokens": 21940,
+      "totalTokens": 190384
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1778954042442,
+      "inputTokens": 468,
+      "message": "",
+      "outputTokens": 99,
+      "rationale": "The tweet explicitly says Codex usage limits have now been reset across all paid plans.",
+      "reasoningTokens": 53,
+      "totalTokens": 567,
+      "tweetId": "2055707616605835333",
+      "tweetText": "Codex usage limits have now been reset across all paid plans. Enjoy the weekend!",
+      "tweetUrl": "https://x.com/thsottiaux/status/2055707616605835333",
+      "type": "reset_confirmed",
+      "verdict": "reset_confirmed"
+    },
     {
       "confidence": 0.98,
       "createdAt": 1778915328531,
@@ -886,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2054014199228150052",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1778550028898,
-      "inputTokens": 375,
-      "message": "",
-      "outputTokens": 103,
-      "rationale": "This post is just discussing Codex app features and does not mention limits or a reset.",
-      "reasoningTokens": 57,
-      "totalTokens": 478,
-      "tweetId": "2054013690786230510",
-      "tweetText": "Now that the Codex app is close to being the super app. What should the super duper app do?",
-      "tweetUrl": "https://x.com/thsottiaux/status/2054013690786230510",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "RcYIa-5wNe4nfK-FxWqkIpX4HahavztyGN6ozL1QE7D-1Z9ZonshZTvDzg",
-    "iv": "ZV66pQuKvzkjZX_6",
-    "tag": "6NF3UONKgzqbGjtv7F8H3g",
+    "ciphertext": "tAsO-Dg9esJii5SNQr7oanmK64GSp9qF46Hh-opo_jZcomdmZlq17a3EpQ",
+    "iv": "00bYWtdcPb0xbwb3",
+    "tag": "XGO7vEkVbIsQ9AxEvOItdw",
     "version": 1
   }
 }
