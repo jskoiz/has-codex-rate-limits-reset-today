@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1778958987571,
-      "rationale": "This reply does not mention limits, caps, or usage becoming available again.",
-      "tweetId": "2055728661249380416",
-      "tweetUrl": "https://x.com/thsottiaux/status/2055728661249380416",
+      "decidedAt": 1778960863258,
+      "rationale": "This post and its quote are about Codex product improvements, not usage limits or resets.",
+      "tweetId": "2055735802894954612",
+      "tweetUrl": "https://x.com/thsottiaux/status/2055735802894954612",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2055728661249380416",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2055728661249380416",
+    "lastSeenTweetId": "2055735802894954612",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2055735802894954612",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1778960863258,
+        "inputTokens": 496,
+        "outputTokens": 80,
+        "rationale": "This post and its quote are about Codex product improvements, not usage limits or resets.",
+        "reasoningTokens": 34,
+        "totalTokens": 576,
+        "tweetId": "2055735802894954612",
+        "tweetText": "I don't know why we ship on Saturdays now, but here are a bunch of nice improvements for Codex. \n\nDidn't feel right to hold this back until Tuesday when it all makes it a lot more delightful to use.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2055735802894954612",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1778958987571,
@@ -272,29 +285,31 @@
         "tweetText": "@tmuxvim Good or bad surprise?",
         "tweetUrl": "https://x.com/thsottiaux/status/2055115234218828261",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1778812607425,
-        "inputTokens": 371,
-        "outputTokens": 88,
-        "rationale": "This reply is just asking for a thread ID and does not mention limits or availability resetting.",
-        "reasoningTokens": 42,
-        "totalTokens": 459,
-        "tweetId": "2055114743204249751",
-        "tweetText": "@Da7_Tech Hey hey. Do you have a thread id?\n\n/feedback",
-        "tweetUrl": "https://x.com/thsottiaux/status/2055114743204249751",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 152528,
-      "totalOutputTokens": 41837,
-      "totalReasoningTokens": 22615,
-      "totalTokens": 194365
+      "totalInputTokens": 153024,
+      "totalOutputTokens": 41917,
+      "totalReasoningTokens": 22649,
+      "totalTokens": 194941
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1778960863258,
+      "inputTokens": 496,
+      "message": "",
+      "outputTokens": 80,
+      "rationale": "This post and its quote are about Codex product improvements, not usage limits or resets.",
+      "reasoningTokens": 34,
+      "totalTokens": 576,
+      "tweetId": "2055735802894954612",
+      "tweetText": "I don't know why we ship on Saturdays now, but here are a bunch of nice improvements for Codex. \n\nDidn't feel right to hold this back until Tuesday when it all makes it a lot more delightful to use.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2055735802894954612",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1778958987571,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2054053777909670083",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1778559295651,
-      "inputTokens": 358,
-      "message": "",
-      "outputTokens": 92,
-      "rationale": "This reply is just conversational and does not mention limits or a reset.",
-      "reasoningTokens": 50,
-      "totalTokens": 450,
-      "tweetId": "2054052198422839502",
-      "tweetText": "@TimJayas Goblin",
-      "tweetUrl": "https://x.com/thsottiaux/status/2054052198422839502",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "fril1vwAYZFN4jDTxOWuhyJsPzLcAjHtvDmc_eD_EiwaAH8VhZTrTNhGEA",
-    "iv": "agnzVnhZOgZWg7OM",
-    "tag": "VHPlPa_gKKGIVrbaHHT0Gg",
+    "ciphertext": "nfFqpWVUkdmt3YBT3uR4C_uh7vhyuQJxKm7mF8x8iJe1X173cfJMg_1vOA",
+    "iv": "S3yCjyQzbAALMrOM",
+    "tag": "c07qVq1Y6nFZn9PQ5jHhjw",
     "version": 1
   }
 }
