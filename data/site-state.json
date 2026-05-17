@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1778979142651,
-      "rationale": "This reply is just a joke and does not mention limits, caps, or usage becoming available again.",
-      "tweetId": "2055813011387113868",
-      "tweetUrl": "https://x.com/thsottiaux/status/2055813011387113868",
+      "decidedAt": 1778979461498,
+      "rationale": "This is a poetic post and does not mention limits, caps, or a reset.",
+      "tweetId": "2055814162442588466",
+      "tweetUrl": "https://x.com/thsottiaux/status/2055814162442588466",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2055813011387113868",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2055813011387113868",
+    "lastSeenTweetId": "2055814162442588466",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2055814162442588466",
     "pendingReview": {
       "confidence": 0.83,
       "createdAt": 1778966759913,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2055761513898811407"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1778979461498,
+        "inputTokens": 370,
+        "outputTokens": 87,
+        "rationale": "This is a poetic post and does not mention limits, caps, or a reset.",
+        "reasoningTokens": 42,
+        "totalTokens": 457,
+        "tweetId": "2055814162442588466",
+        "tweetText": "tok tok goes the token\nsilicon dreams wake in sand\nmachines ask why now",
+        "tweetUrl": "https://x.com/thsottiaux/status/2055814162442588466",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1778979142651,
@@ -279,29 +292,31 @@
         "tweetText": "@mark_k @OpenAI And so .. CochatGPTex was born",
         "tweetUrl": "https://x.com/thsottiaux/status/2055545257643925819",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1778915319450,
-        "inputTokens": 359,
-        "outputTokens": 101,
-        "rationale": "This reply does not mention limits, caps, or any reset.",
-        "reasoningTokens": 60,
-        "totalTokens": 460,
-        "tweetId": "2055544691089932694",
-        "tweetText": "@argofowl Hmmmmmm",
-        "tweetUrl": "https://x.com/thsottiaux/status/2055544691089932694",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 155668,
-      "totalOutputTokens": 42646,
-      "totalReasoningTokens": 23054,
-      "totalTokens": 198314
+      "totalInputTokens": 156038,
+      "totalOutputTokens": 42733,
+      "totalReasoningTokens": 23096,
+      "totalTokens": 198771
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1778979461498,
+      "inputTokens": 370,
+      "message": "",
+      "outputTokens": 87,
+      "rationale": "This is a poetic post and does not mention limits, caps, or a reset.",
+      "reasoningTokens": 42,
+      "totalTokens": 457,
+      "tweetId": "2055814162442588466",
+      "tweetText": "tok tok goes the token\nsilicon dreams wake in sand\nmachines ask why now",
+      "tweetUrl": "https://x.com/thsottiaux/status/2055814162442588466",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1778979142651,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2054398093886673260",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1778637473686,
-      "inputTokens": 358,
-      "message": "",
-      "outputTokens": 76,
-      "rationale": "This reply just says \"Awesome\" and does not mention limits or resets.",
-      "reasoningTokens": 33,
-      "totalTokens": 434,
-      "tweetId": "2054380477013000411",
-      "tweetText": "@charlieholtz Awesome",
-      "tweetUrl": "https://x.com/thsottiaux/status/2054380477013000411",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "v5_WQvJYpOjKM8Btbe5aY7nY533R0dtsk8Z669KuMjzSAG4DVBony4VIOw",
-    "iv": "hkXy5Tk6mfrEEsDW",
-    "tag": "u4Hrh4ATvVYJq3etqE3OmA",
+    "ciphertext": "pbgFzhAi7IV3FHQdaRljKJSFTxmRAEbox3PUmdphcpjsZuNjdcv4Dmb59A",
+    "iv": "s13EwVi4h1OSmy4g",
+    "tag": "ACawy99V9KmQP7Y43-P32g",
     "version": 1
   }
 }
