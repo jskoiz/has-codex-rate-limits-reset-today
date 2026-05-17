@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1779044886846,
-      "rationale": "This reply is about pricing/features for a higher-tier plan, not a rate-limit reset.",
-      "tweetId": "2056088183461556303",
-      "tweetUrl": "https://x.com/thsottiaux/status/2056088183461556303",
+      "decidedAt": 1779046132567,
+      "rationale": "This reply discusses a model mistake and feedback, not any limit or cap reset.",
+      "tweetId": "2056093364307796073",
+      "tweetUrl": "https://x.com/thsottiaux/status/2056093364307796073",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2056088183461556303",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2056088183461556303",
+    "lastSeenTweetId": "2056093364307796073",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2056093364307796073",
     "pendingReview": {
       "confidence": 0.9,
       "createdAt": 1778979776685,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2055815279893180738"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1779046132567,
+        "inputTokens": 378,
+        "outputTokens": 73,
+        "rationale": "This reply discusses a model mistake and feedback, not any limit or cap reset.",
+        "reasoningTokens": 29,
+        "totalTokens": 451,
+        "tweetId": "2056093364307796073",
+        "tweetText": "@MParakhin Seems unrelated. Model mistakes happen. Do you have a thread id? You can generate it using /feedback",
+        "tweetUrl": "https://x.com/thsottiaux/status/2056093364307796073",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1779044886846,
@@ -279,29 +292,31 @@
         "tweetText": "@paraddox Should have propagated, all good?",
         "tweetUrl": "https://x.com/thsottiaux/status/2055721248697823378",
         "verdict": "uncertain"
-      },
-      {
-        "confidence": 0.94,
-        "evaluatedAt": 1778954355499,
-        "inputTokens": 360,
-        "outputTokens": 106,
-        "rationale": "This reply alone is too vague to tell whether any ChatGPT or Codex limit has actually reset.",
-        "reasoningTokens": 58,
-        "totalTokens": 466,
-        "tweetId": "2055708843070673295",
-        "tweetText": "@doublemover Takes a few minutes",
-        "tweetUrl": "https://x.com/thsottiaux/status/2055708843070673295",
-        "verdict": "uncertain"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 157533,
-      "totalOutputTokens": 43214,
-      "totalReasoningTokens": 23389,
-      "totalTokens": 200747
+      "totalInputTokens": 157911,
+      "totalOutputTokens": 43287,
+      "totalReasoningTokens": 23418,
+      "totalTokens": 201198
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1779046132567,
+      "inputTokens": 378,
+      "message": "",
+      "outputTokens": 73,
+      "rationale": "This reply discusses a model mistake and feedback, not any limit or cap reset.",
+      "reasoningTokens": 29,
+      "totalTokens": 451,
+      "tweetId": "2056093364307796073",
+      "tweetText": "@MParakhin Seems unrelated. Model mistakes happen. Do you have a thread id? You can generate it using /feedback",
+      "tweetUrl": "https://x.com/thsottiaux/status/2056093364307796073",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1779044886846,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2054809569562624217",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1778723222371,
-      "inputTokens": 423,
-      "message": "",
-      "outputTokens": 95,
-      "rationale": "This post is about demand and compute capacity, not Codex or ChatGPT limits resetting.",
-      "reasoningTokens": 49,
-      "totalTokens": 518,
-      "tweetId": "2054739404212801569",
-      "tweetText": "They meant companies... 2000 companies. We're going to need to stand up a lot of compute 😅",
-      "tweetUrl": "https://x.com/thsottiaux/status/2054739404212801569",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "fpLCUcxivxFMY5_DUXKR4a_7rehTxjf8n-l5i5xqXRLZsMYjyd3h498buw",
-    "iv": "mt3b1NE_4wUx5WlQ",
-    "tag": "lNWUcUR7bm-EZWS5KXxuqw",
+    "ciphertext": "jAGmAuGZC-JFrpTQFA8n_bNnWy7IZ3-NI6N9N8Lqfq4XU1tLi3AXYJRc1w",
+    "iv": "lxRIu7cxPsN6kbuu",
+    "tag": "cRot6VSP8Hxclq_5wejhxg",
     "version": 1
   }
 }
