@@ -1,5 +1,5 @@
 {
-  "currentState": "no",
+  "currentState": "yes",
   "autoResetHours": 20,
   "noSubtitles": [
     "Back to your local model peasant",
@@ -10,29 +10,35 @@
     "Limits reset, go crazy",
     "You can just build things"
   ],
-  "resetAt": null,
-  "updatedAt": 1778958080837,
+  "resetAt": 1779130264950,
+  "updatedAt": 1779058264950,
   "automation": {
     "lastDecision": {
-      "confidence": 0.94,
-      "decidedAt": 1779057937973,
-      "rationale": "This reply only says \"Fixed,\" which is too ambiguous to confirm that rate limits or caps have reset.",
-      "tweetId": "2056143134804070471",
-      "tweetUrl": "https://x.com/thsottiaux/status/2056143134804070471",
-      "verdict": "uncertain"
+      "confidence": 0.99,
+      "decidedAt": 1779058264950,
+      "rationale": "The tweet explicitly says Codex usage limits are back to normal and restored to where users left off.",
+      "tweetId": "2056144502088437799",
+      "tweetUrl": "https://x.com/thsottiaux/status/2056144502088437799",
+      "verdict": "reset_confirmed"
     },
     "lastError": null,
-    "lastSeenTweetId": "2056143134804070471",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2056143134804070471",
-    "pendingReview": {
-      "confidence": 0.94,
-      "createdAt": 1779057937973,
-      "rationale": "This reply only says \"Fixed,\" which is too ambiguous to confirm that rate limits or caps have reset.",
-      "tweetId": "2056143134804070471",
-      "tweetText": "Fixed",
-      "tweetUrl": "https://x.com/thsottiaux/status/2056143134804070471"
-    },
+    "lastSeenTweetId": "2056144502088437799",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2056144502088437799",
+    "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1779058264950,
+        "inputTokens": 469,
+        "outputTokens": 101,
+        "rationale": "The tweet explicitly says Codex usage limits are back to normal and restored to where users left off.",
+        "reasoningTokens": 52,
+        "totalTokens": 570,
+        "tweetId": "2056144502088437799",
+        "tweetText": "Codex usage limits are back to normal. For ~2 hours we had some issues where the enforced limits were wrong for the majority of users on a subscription.\n\nWe waived usage consumption for that time and things should be set again to exactly to where you left it. \n\nBack to codexing.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2056144502088437799",
+        "verdict": "reset_confirmed"
+      },
       {
         "confidence": 0.94,
         "evaluatedAt": 1779057937973,
@@ -279,29 +285,31 @@
         "tweetText": "@emreertunc_ Yes. There were some cache issues so we cleared everything again",
         "tweetUrl": "https://x.com/thsottiaux/status/2055761513898811407",
         "verdict": "uncertain"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1778966450911,
-        "inputTokens": 406,
-        "outputTokens": 95,
-        "rationale": "This mentions a generic product-development reset, not Codex or ChatGPT usage limits resetting.",
-        "reasoningTokens": 49,
-        "totalTokens": 501,
-        "tweetId": "2055759809698550263",
-        "tweetText": "Ship =&gt; Feedback =&gt; Ship =&gt; Feedback =&gt; Ship =&gt; Oops something not quite right =&gt; Reset =&gt; Yay =&gt; Ship =&gt; …\n\nThe never ending cycle of Codex improvements",
-        "tweetUrl": "https://x.com/thsottiaux/status/2055759809698550263",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 161668,
-      "totalOutputTokens": 44416,
-      "totalReasoningTokens": 24084,
-      "totalTokens": 206084
+      "totalInputTokens": 162137,
+      "totalOutputTokens": 44517,
+      "totalReasoningTokens": 24136,
+      "totalTokens": 206654
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1779058264950,
+      "inputTokens": 469,
+      "message": "",
+      "outputTokens": 101,
+      "rationale": "The tweet explicitly says Codex usage limits are back to normal and restored to where users left off.",
+      "reasoningTokens": 52,
+      "totalTokens": 570,
+      "tweetId": "2056144502088437799",
+      "tweetText": "Codex usage limits are back to normal. For ~2 hours we had some issues where the enforced limits were wrong for the majority of users on a subscription.\n\nWe waived usage consumption for that time and things should be set again to exactly to where you left it. \n\nBack to codexing.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2056144502088437799",
+      "type": "reset_confirmed",
+      "verdict": "reset_confirmed"
+    },
     {
       "confidence": 0.94,
       "createdAt": 1779057937973,
@@ -886,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2055404493689569611",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1778860729709,
-      "inputTokens": 393,
-      "message": "",
-      "outputTokens": 93,
-      "rationale": "This post discusses model performance issues, not any user cap or rate-limit reset.",
-      "reasoningTokens": 49,
-      "totalTokens": 486,
-      "tweetId": "2055316274394300829",
-      "tweetText": "Codex team is aware of reports of GPT-5.5 performing worse for some users and investigating. We don't have anything conclusive yet and systems are healthy but we will share updates as we go.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2055316274394300829",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "gvOl89OkfbZCniF9g8CtlBm0LGFfBUp-sxpI6aUooQZ3w6-qFOacTmUbJA",
-    "iv": "Ep06bzCvVeCyb58w",
-    "tag": "gC7PpxgkxwppJ3UJ8Z-qYg",
+    "ciphertext": "Mh0kuG7H0J6iezkblmU-A-lki9KPYXEO6DILhZCZGFBHYFkiuLyvdKW-JQ",
+    "iv": "hXiV_xs-kK7wBOct",
+    "tag": "tzz3Yb_0Yaz4Z8TvnblOvA",
     "version": 1
   }
 }
