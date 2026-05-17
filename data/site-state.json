@@ -14,16 +14,16 @@
   "updatedAt": 1778958080837,
   "automation": {
     "lastDecision": {
-      "confidence": 0.83,
-      "decidedAt": 1778966759913,
-      "rationale": "This reply suggests something was cleared again, but it does not explicitly say Codex or ChatGPT usage limits reset.",
-      "tweetId": "2055761513898811407",
-      "tweetUrl": "https://x.com/thsottiaux/status/2055761513898811407",
-      "verdict": "uncertain"
+      "confidence": 0.99,
+      "decidedAt": 1778978525471,
+      "rationale": "This reply discusses product design choices and does not mention limits, caps, or a reset.",
+      "tweetId": "2055809728161460291",
+      "tweetUrl": "https://x.com/thsottiaux/status/2055809728161460291",
+      "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2055761513898811407",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2055761513898811407",
+    "lastSeenTweetId": "2055809728161460291",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2055809728161460291",
     "pendingReview": {
       "confidence": 0.83,
       "createdAt": 1778966759913,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2055761513898811407"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1778978525471,
+        "inputTokens": 399,
+        "outputTokens": 72,
+        "rationale": "This reply discusses product design choices and does not mention limits, caps, or a reset.",
+        "reasoningTokens": 26,
+        "totalTokens": 471,
+        "tweetId": "2055809728161460291",
+        "tweetText": "@apanasenko @Angaisb_ Anton is one of the magicians behind codex and remote control. \n\nThe design choices are deliberate, would love to hear if that resolves it for you @Angaisb_",
+        "tweetUrl": "https://x.com/thsottiaux/status/2055809728161460291",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.83,
         "evaluatedAt": 1778966759913,
@@ -279,29 +292,31 @@
         "tweetText": "Confirmed stable and recovered",
         "tweetUrl": "https://x.com/thsottiaux/status/2055540700092211404",
         "verdict": "uncertain"
-      },
-      {
-        "confidence": 0.97,
-        "evaluatedAt": 1778891751794,
-        "inputTokens": 492,
-        "outputTokens": 150,
-        "rationale": "It says usage limits will be reset later this evening, not that they have reset already.",
-        "reasoningTokens": 104,
-        "totalTokens": 642,
-        "tweetId": "2055446089957036402",
-        "tweetText": "We found and fixed two issues that could explain this degradation of the capability of GPT-5.5 in Codex over the last ~ 48 hours. \n\nWe are monitoring over the coming hours to fully confirm and I will reset usage limits this evening.\n\nApologies and now is the time for /fast maxxing.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2055446089957036402",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 154905,
-      "totalOutputTokens": 42500,
-      "totalReasoningTokens": 23002,
-      "totalTokens": 197405
+      "totalInputTokens": 155304,
+      "totalOutputTokens": 42572,
+      "totalReasoningTokens": 23028,
+      "totalTokens": 197876
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1778978525471,
+      "inputTokens": 399,
+      "message": "",
+      "outputTokens": 72,
+      "rationale": "This reply discusses product design choices and does not mention limits, caps, or a reset.",
+      "reasoningTokens": 26,
+      "totalTokens": 471,
+      "tweetId": "2055809728161460291",
+      "tweetText": "@apanasenko @Angaisb_ Anton is one of the magicians behind codex and remote control. \n\nThe design choices are deliberate, would love to hear if that resolves it for you @Angaisb_",
+      "tweetUrl": "https://x.com/thsottiaux/status/2055809728161460291",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.83,
       "createdAt": 1778966759913,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2054379522657820860",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1778612633236,
-      "inputTokens": 361,
-      "message": "",
-      "outputTokens": 84,
-      "rationale": "This reply says Codex will fix something, not that any limit or cap has reset.",
-      "reasoningTokens": 38,
-      "totalTokens": 445,
-      "tweetId": "2054275967020114041",
-      "tweetText": "@0xSero Codex will fix",
-      "tweetUrl": "https://x.com/thsottiaux/status/2054275967020114041",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "FfQKC29OFy61DTOhG7JOT1Di1_wGrwnYUyFqyeaNOOFUZ7UFaS3ntfM-3Q",
-    "iv": "QPfGhaLwkF3PnIDf",
-    "tag": "sCKNJMdG5vzLFQPHabUqKw",
+    "ciphertext": "YZ1VMIkV_cn7MKOaxLNochSQvn5HfmzVWhysO7McrLy1kw_cOyJxEKNe7g",
+    "iv": "qryfp9ouoldOGMfo",
+    "tag": "fCUkICujGNssn59zX64QHg",
     "version": 1
   }
 }
