@@ -14,25 +14,38 @@
   "updatedAt": 1778958080837,
   "automation": {
     "lastDecision": {
-      "confidence": 0.97,
-      "decidedAt": 1779053889207,
-      "rationale": "This reply discusses account juggling generally and does not say limits or caps have reset.",
-      "tweetId": "2056125970445472108",
-      "tweetUrl": "https://x.com/thsottiaux/status/2056125970445472108",
-      "verdict": "not_reset"
+      "confidence": 0.94,
+      "decidedAt": 1779057937973,
+      "rationale": "This reply only says \"Fixed,\" which is too ambiguous to confirm that rate limits or caps have reset.",
+      "tweetId": "2056143134804070471",
+      "tweetUrl": "https://x.com/thsottiaux/status/2056143134804070471",
+      "verdict": "uncertain"
     },
     "lastError": null,
-    "lastSeenTweetId": "2056125970445472108",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2056125970445472108",
+    "lastSeenTweetId": "2056143134804070471",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2056143134804070471",
     "pendingReview": {
-      "confidence": 0.9,
-      "createdAt": 1778979776685,
-      "rationale": "This reply hints at a delay or cache issue but does not clearly say limits have reset or usage is available again.",
-      "tweetId": "2055815279893180738",
-      "tweetText": "@titan23187 Might be taking a few minutes or local cache, have you tried to logout and then login?",
-      "tweetUrl": "https://x.com/thsottiaux/status/2055815279893180738"
+      "confidence": 0.94,
+      "createdAt": 1779057937973,
+      "rationale": "This reply only says \"Fixed,\" which is too ambiguous to confirm that rate limits or caps have reset.",
+      "tweetId": "2056143134804070471",
+      "tweetText": "Fixed",
+      "tweetUrl": "https://x.com/thsottiaux/status/2056143134804070471"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.94,
+        "evaluatedAt": 1779057937973,
+        "inputTokens": 354,
+        "outputTokens": 149,
+        "rationale": "This reply only says \"Fixed,\" which is too ambiguous to confirm that rate limits or caps have reset.",
+        "reasoningTokens": 100,
+        "totalTokens": 503,
+        "tweetId": "2056143134804070471",
+        "tweetText": "Fixed",
+        "tweetUrl": "https://x.com/thsottiaux/status/2056143134804070471",
+        "verdict": "uncertain"
+      },
       {
         "confidence": 0.97,
         "evaluatedAt": 1779053889207,
@@ -279,29 +292,31 @@
         "tweetText": "Ship =&gt; Feedback =&gt; Ship =&gt; Feedback =&gt; Ship =&gt; Oops something not quite right =&gt; Reset =&gt; Yay =&gt; Ship =&gt; …\n\nThe never ending cycle of Codex improvements",
         "tweetUrl": "https://x.com/thsottiaux/status/2055759809698550263",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1778966446647,
-        "inputTokens": 372,
-        "outputTokens": 86,
-        "rationale": "This reply just mentions having Codex on a phone and says nothing about limits or resets.",
-        "reasoningTokens": 40,
-        "totalTokens": 458,
-        "tweetId": "2055759259380719998",
-        "tweetText": "@0xSero The kind of stuff you can witness when you have Codex on your phone",
-        "tweetUrl": "https://x.com/thsottiaux/status/2055759259380719998",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 161314,
-      "totalOutputTokens": 44267,
-      "totalReasoningTokens": 23984,
-      "totalTokens": 205581
+      "totalInputTokens": 161668,
+      "totalOutputTokens": 44416,
+      "totalReasoningTokens": 24084,
+      "totalTokens": 206084
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.94,
+      "createdAt": 1779057937973,
+      "inputTokens": 354,
+      "message": "",
+      "outputTokens": 149,
+      "rationale": "This reply only says \"Fixed,\" which is too ambiguous to confirm that rate limits or caps have reset.",
+      "reasoningTokens": 100,
+      "totalTokens": 503,
+      "tweetId": "2056143134804070471",
+      "tweetText": "Fixed",
+      "tweetUrl": "https://x.com/thsottiaux/status/2056143134804070471",
+      "type": "review_requested",
+      "verdict": "uncertain"
+    },
     {
       "confidence": 0.97,
       "createdAt": 1779053889207,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2055316274394300829",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.98,
-      "createdAt": 1778859806726,
-      "inputTokens": 377,
-      "message": "",
-      "outputTokens": 127,
-      "rationale": "This reply says a cache hit rate issue was fixed, not that any user rate limits or caps reset.",
-      "reasoningTokens": 78,
-      "totalTokens": 504,
-      "tweetId": "2055312083072544809",
-      "tweetText": "@thdxr We rolled out a bad change yesterday that affected cache hit rate. This was rolled back and is now fixed.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2055312083072544809",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "A5-GmmO76b7IwZwWmoVcg_Hf2KNHB03yDuzQlDoQW-Q7NCP7rEcFAfjFBQ",
-    "iv": "yyakV8BrPYhkFEI4",
-    "tag": "wXWrryoSWAYMdhFAnfVuIQ",
+    "ciphertext": "gvOl89OkfbZCniF9g8CtlBm0LGFfBUp-sxpI6aUooQZ3w6-qFOacTmUbJA",
+    "iv": "Ep06bzCvVeCyb58w",
+    "tag": "gC7PpxgkxwppJ3UJ8Z-qYg",
     "version": 1
   }
 }
