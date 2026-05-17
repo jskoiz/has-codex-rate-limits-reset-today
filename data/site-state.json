@@ -14,16 +14,16 @@
   "updatedAt": 1778958080837,
   "automation": {
     "lastDecision": {
-      "confidence": 0.98,
-      "decidedAt": 1779049885610,
-      "rationale": "This reports a usage-limit sync issue under investigation, not that limits have reset or been restored.",
-      "tweetId": "2056109929048764895",
-      "tweetUrl": "https://x.com/thsottiaux/status/2056109929048764895",
+      "confidence": 0.99,
+      "decidedAt": 1779049889418,
+      "rationale": "This reply only says “Wrong” and does not indicate any limit or cap reset.",
+      "tweetId": "2056110069704765895",
+      "tweetUrl": "https://x.com/thsottiaux/status/2056110069704765895",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2056109929048764895",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2056109929048764895",
+    "lastSeenTweetId": "2056110069704765895",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2056110069704765895",
     "pendingReview": {
       "confidence": 0.9,
       "createdAt": 1778979776685,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2055815279893180738"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1779049889418,
+        "inputTokens": 369,
+        "outputTokens": 71,
+        "rationale": "This reply only says “Wrong” and does not indicate any limit or cap reset.",
+        "reasoningTokens": 26,
+        "totalTokens": 440,
+        "tweetId": "2056110069704765895",
+        "tweetText": "@DamiDina @Rajc_1 @OpenAIDevs Wrong",
+        "tweetUrl": "https://x.com/thsottiaux/status/2056110069704765895",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.98,
         "evaluatedAt": 1779049885610,
@@ -279,29 +292,31 @@
         "tweetText": "I don't know why we ship on Saturdays now, but here are a bunch of nice improvements for Codex. \n\nDidn't feel right to hold this back until Tuesday when it all makes it a lot more delightful to use.",
         "tweetUrl": "https://x.com/thsottiaux/status/2055735802894954612",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1778958987571,
-        "inputTokens": 360,
-        "outputTokens": 111,
-        "rationale": "This reply does not mention limits, caps, or usage becoming available again.",
-        "reasoningTokens": 68,
-        "totalTokens": 471,
-        "tweetId": "2055728661249380416",
-        "tweetText": "@iGotRootBlog Spread the word",
-        "tweetUrl": "https://x.com/thsottiaux/status/2055728661249380416",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 159758,
-      "totalOutputTokens": 43745,
-      "totalReasoningTokens": 23648,
-      "totalTokens": 203503
+      "totalInputTokens": 160127,
+      "totalOutputTokens": 43816,
+      "totalReasoningTokens": 23674,
+      "totalTokens": 203943
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1779049889418,
+      "inputTokens": 369,
+      "message": "",
+      "outputTokens": 71,
+      "rationale": "This reply only says “Wrong” and does not indicate any limit or cap reset.",
+      "reasoningTokens": 26,
+      "totalTokens": 440,
+      "tweetId": "2056110069704765895",
+      "tweetText": "@DamiDina @Rajc_1 @OpenAIDevs Wrong",
+      "tweetUrl": "https://x.com/thsottiaux/status/2056110069704765895",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.98,
       "createdAt": 1779049885610,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2055114743204249751",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1778803313716,
-      "inputTokens": 366,
-      "message": "",
-      "outputTokens": 66,
-      "rationale": "This is just a conversational reply and does not mention limits, caps, or availability resetting.",
-      "reasoningTokens": 20,
-      "totalTokens": 432,
-      "tweetId": "2055075083266507235",
-      "tweetText": "@thekitze Good luck, it’s a scary world out there",
-      "tweetUrl": "https://x.com/thsottiaux/status/2055075083266507235",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "4m3E2TuvMBQl8t7_JaErQVzgk-ZHgxGRNJfC3mtxhpya1wn7-cNtDn1YyA",
-    "iv": "04i4UXvQxtuL7YiK",
-    "tag": "mzRS-rAbrXYW7geJ3f5fZw",
+    "ciphertext": "lBEJalTSqqGpBjZY2Pxb6eON-Jh4uTRxj_bUctH-Jd_fii_cIVxPx2Pj7Q",
+    "iv": "6BEgtQNmJNQPLj1t",
+    "tag": "8_3TIlTi10ttnroeyHrfQw",
     "version": 1
   }
 }
