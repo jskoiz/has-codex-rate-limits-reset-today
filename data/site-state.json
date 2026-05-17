@@ -14,16 +14,16 @@
   "updatedAt": 1778958080837,
   "automation": {
     "lastDecision": {
-      "confidence": 0.93,
-      "decidedAt": 1779052650772,
-      "rationale": "It says the displayed limits recovered to their earlier values, not that rate limits were reset or lifted.",
-      "tweetId": "2056121267938627654",
-      "tweetUrl": "https://x.com/thsottiaux/status/2056121267938627654",
+      "confidence": 0.97,
+      "decidedAt": 1779053889207,
+      "rationale": "This reply discusses account juggling generally and does not say limits or caps have reset.",
+      "tweetId": "2056125970445472108",
+      "tweetUrl": "https://x.com/thsottiaux/status/2056125970445472108",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2056121267938627654",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2056121267938627654",
+    "lastSeenTweetId": "2056125970445472108",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2056125970445472108",
     "pendingReview": {
       "confidence": 0.9,
       "createdAt": 1778979776685,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2055815279893180738"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.97,
+        "evaluatedAt": 1779053889207,
+        "inputTokens": 394,
+        "outputTokens": 137,
+        "rationale": "This reply discusses account juggling generally and does not say limits or caps have reset.",
+        "reasoningTokens": 93,
+        "totalTokens": 531,
+        "tweetId": "2056125970445472108",
+        "tweetText": "@LuisRevilla @Rajc_1 @DamiDina @OpenAIDevs @OpenAI We’re fine with it, but will make it easier in the future to not need account juggling",
+        "tweetUrl": "https://x.com/thsottiaux/status/2056125970445472108",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.93,
         "evaluatedAt": 1779052650772,
@@ -279,29 +292,31 @@
         "tweetText": "@0xSero The kind of stuff you can witness when you have Codex on your phone",
         "tweetUrl": "https://x.com/thsottiaux/status/2055759259380719998",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1778962389104,
-        "inputTokens": 366,
-        "outputTokens": 59,
-        "rationale": "This reply is unrelated to Codex or ChatGPT limits resetting.",
-        "reasoningTokens": 18,
-        "totalTokens": 425,
-        "tweetId": "2055742296000508085",
-        "tweetText": "@ajambrosino i heard spotify is looking for a new designer",
-        "tweetUrl": "https://x.com/thsottiaux/status/2055742296000508085",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 160920,
-      "totalOutputTokens": 44130,
-      "totalReasoningTokens": 23891,
-      "totalTokens": 205050
+      "totalInputTokens": 161314,
+      "totalOutputTokens": 44267,
+      "totalReasoningTokens": 23984,
+      "totalTokens": 205581
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.97,
+      "createdAt": 1779053889207,
+      "inputTokens": 394,
+      "message": "",
+      "outputTokens": 137,
+      "rationale": "This reply discusses account juggling generally and does not say limits or caps have reset.",
+      "reasoningTokens": 93,
+      "totalTokens": 531,
+      "tweetId": "2056125970445472108",
+      "tweetText": "@LuisRevilla @Rajc_1 @DamiDina @OpenAIDevs @OpenAI We’re fine with it, but will make it easier in the future to not need account juggling",
+      "tweetUrl": "https://x.com/thsottiaux/status/2056125970445472108",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.93,
       "createdAt": 1779052650772,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2055312083072544809",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1778828441238,
-      "inputTokens": 365,
-      "message": "",
-      "outputTokens": 83,
-      "rationale": "This post is a general comment about Codex and does not mention limits or a reset.",
-      "reasoningTokens": 37,
-      "totalTokens": 448,
-      "tweetId": "2055180914549023077",
-      "tweetText": "Codex will do wonderful things for you if you ask nicely",
-      "tweetUrl": "https://x.com/thsottiaux/status/2055180914549023077",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "RyR6Llo4tpvEgZrdw4GSvrS_Qodsj1-8sKLnj_6llrDXlp2mHTiZBMMaNg",
-    "iv": "IPMNE4RZkraHMYPj",
-    "tag": "OTmnakMOu42QS9dSw_AONQ",
+    "ciphertext": "A5-GmmO76b7IwZwWmoVcg_Hf2KNHB03yDuzQlDoQW-Q7NCP7rEcFAfjFBQ",
+    "iv": "yyakV8BrPYhkFEI4",
+    "tag": "wXWrryoSWAYMdhFAnfVuIQ",
     "version": 1
   }
 }
