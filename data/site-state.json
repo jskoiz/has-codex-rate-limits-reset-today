@@ -14,16 +14,16 @@
   "updatedAt": 1778958080837,
   "automation": {
     "lastDecision": {
-      "confidence": 0.9,
-      "decidedAt": 1778979776685,
-      "rationale": "This reply hints at a delay or cache issue but does not clearly say limits have reset or usage is available again.",
-      "tweetId": "2055815279893180738",
-      "tweetUrl": "https://x.com/thsottiaux/status/2055815279893180738",
-      "verdict": "uncertain"
+      "confidence": 0.99,
+      "decidedAt": 1778998979848,
+      "rationale": "This reply is troubleshooting behavior and does not mention limits, caps, or a reset.",
+      "tweetId": "2055895897603784919",
+      "tweetUrl": "https://x.com/thsottiaux/status/2055895897603784919",
+      "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2055815279893180738",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2055815279893180738",
+    "lastSeenTweetId": "2055895897603784919",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2055895897603784919",
     "pendingReview": {
       "confidence": 0.9,
       "createdAt": 1778979776685,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2055815279893180738"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1778998979848,
+        "inputTokens": 375,
+        "outputTokens": 77,
+        "rationale": "This reply is troubleshooting behavior and does not mention limits, caps, or a reset.",
+        "reasoningTokens": 32,
+        "totalTokens": 452,
+        "tweetId": "2055895897603784919",
+        "tweetText": "@mweinbach Not normal. What are the steps you take when this happens and have you tried a fresh install?",
+        "tweetUrl": "https://x.com/thsottiaux/status/2055895897603784919",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.9,
         "evaluatedAt": 1778979776685,
@@ -279,29 +292,31 @@
         "tweetText": "Codex usage limits have now been reset across all paid plans. Enjoy the weekend!",
         "tweetUrl": "https://x.com/thsottiaux/status/2055707616605835333",
         "verdict": "reset_confirmed"
-      },
-      {
-        "confidence": 0.98,
-        "evaluatedAt": 1778915328531,
-        "inputTokens": 451,
-        "outputTokens": 190,
-        "rationale": "This is a quote of a product integration announcement about shared subscription rate limits, not a reset or cap being…",
-        "reasoningTokens": 139,
-        "totalTokens": 641,
-        "tweetId": "2055545756069802151",
-        "tweetText": "Codex🫸🫷Zed",
-        "tweetUrl": "https://x.com/thsottiaux/status/2055545756069802151",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 156413,
-      "totalOutputTokens": 42960,
-      "totalReasoningTokens": 23272,
-      "totalTokens": 199373
+      "totalInputTokens": 156788,
+      "totalOutputTokens": 43037,
+      "totalReasoningTokens": 23304,
+      "totalTokens": 199825
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1778998979848,
+      "inputTokens": 375,
+      "message": "",
+      "outputTokens": 77,
+      "rationale": "This reply is troubleshooting behavior and does not mention limits, caps, or a reset.",
+      "reasoningTokens": 32,
+      "totalTokens": 452,
+      "tweetId": "2055895897603784919",
+      "tweetText": "@mweinbach Not normal. What are the steps you take when this happens and have you tried a fresh install?",
+      "tweetUrl": "https://x.com/thsottiaux/status/2055895897603784919",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.9,
       "createdAt": 1778979776685,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2054647223615680714",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1778651716934,
-      "inputTokens": 413,
-      "message": "",
-      "outputTokens": 102,
-      "rationale": "This tweet is just praising GPT-5.5 Instant and does not mention limits or a reset.",
-      "reasoningTokens": 54,
-      "totalTokens": 515,
-      "tweetId": "2054439514605756772",
-      "tweetText": "Finding myself to use ChatGPT a ton more after GPT-5.5 Instant. \n\nIt’s a really great step forward and blazingly fast now for quick queries, but also a lot of fun for quick math and plots. https://t.co/mc195yb2aB",
-      "tweetUrl": "https://x.com/thsottiaux/status/2054439514605756772",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "mUvqHPv9QvKNHxb5pH3VVhol4rVTTv-FTHpw4B2tM1zd3FC_62GJ_01dzQ",
-    "iv": "kt1K9rNYEOYjyxw7",
-    "tag": "oILcXd6TUYz0hnhFvcJAJw",
+    "ciphertext": "bR0O9g6079T76iHdBiQiFKhPptfI0pPeaDTZNTKCocnOmVUXFRs4tV4ZaA",
+    "iv": "eVyxjXrxnVEwOHec",
+    "tag": "dWOfRfEpngaAZw21PG3-yA",
     "version": 1
   }
 }
