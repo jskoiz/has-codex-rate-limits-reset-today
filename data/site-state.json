@@ -1,5 +1,5 @@
 {
-  "currentState": "yes",
+  "currentState": "no",
   "autoResetHours": 20,
   "noSubtitles": [
     "Back to your local model peasant",
@@ -10,20 +10,20 @@
     "Limits reset, go crazy",
     "You can just build things"
   ],
-  "resetAt": 1779030080837,
+  "resetAt": null,
   "updatedAt": 1778958080837,
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1778999601807,
-      "rationale": "This is a product-feedback question and does not mention limits, caps, or access resetting.",
-      "tweetId": "2055898784178258379",
-      "tweetUrl": "https://x.com/thsottiaux/status/2055898784178258379",
+      "decidedAt": 1779044886846,
+      "rationale": "This reply is about pricing/features for a higher-tier plan, not a rate-limit reset.",
+      "tweetId": "2056088183461556303",
+      "tweetUrl": "https://x.com/thsottiaux/status/2056088183461556303",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2055898784178258379",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2055898784178258379",
+    "lastSeenTweetId": "2056088183461556303",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2056088183461556303",
     "pendingReview": {
       "confidence": 0.9,
       "createdAt": 1778979776685,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2055815279893180738"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1779044886846,
+        "inputTokens": 371,
+        "outputTokens": 93,
+        "rationale": "This reply is about pricing/features for a higher-tier plan, not a rate-limit reset.",
+        "reasoningTokens": 47,
+        "totalTokens": 464,
+        "tweetId": "2056088183461556303",
+        "tweetText": "@kr0der What would you like to see in a &gt; $1000 plan",
+        "tweetUrl": "https://x.com/thsottiaux/status/2056088183461556303",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1778999601807,
@@ -279,29 +292,31 @@
         "tweetText": "@doublemover Takes a few minutes",
         "tweetUrl": "https://x.com/thsottiaux/status/2055708843070673295",
         "verdict": "uncertain"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1778954351353,
-        "inputTokens": 386,
-        "outputTokens": 86,
-        "rationale": "This reply is just recommending a feature and does not mention limits, caps, or a reset.",
-        "reasoningTokens": 39,
-        "totalTokens": 472,
-        "tweetId": "2055708710077706532",
-        "tweetText": "Recommend trying the new remote control feature through the ChatGPT app if you are on the go.\n\nhttps://t.co/R48NTvYgqZ",
-        "tweetUrl": "https://x.com/thsottiaux/status/2055708710077706532",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 157162,
-      "totalOutputTokens": 43121,
-      "totalReasoningTokens": 23342,
-      "totalTokens": 200283
+      "totalInputTokens": 157533,
+      "totalOutputTokens": 43214,
+      "totalReasoningTokens": 23389,
+      "totalTokens": 200747
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1779044886846,
+      "inputTokens": 371,
+      "message": "",
+      "outputTokens": 93,
+      "rationale": "This reply is about pricing/features for a higher-tier plan, not a rate-limit reset.",
+      "reasoningTokens": 47,
+      "totalTokens": 464,
+      "tweetId": "2056088183461556303",
+      "tweetText": "@kr0der What would you like to see in a &gt; $1000 plan",
+      "tweetUrl": "https://x.com/thsottiaux/status/2056088183461556303",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1778999601807,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2054739404212801569",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1778701822945,
-      "inputTokens": 399,
-      "message": "",
-      "outputTokens": 76,
-      "rationale": "This post is about Windows sandboxing for Codex, not usage limits or a reset.",
-      "reasoningTokens": 30,
-      "totalTokens": 475,
-      "tweetId": "2054650181908607018",
-      "tweetText": "We are continuing to invest in making agents work better on Windows. \n\nHighly recommend reading David's engineering post on our unique approach to windows sandboxing for Codex: https://t.co/V3WsYjMJbg",
-      "tweetUrl": "https://x.com/thsottiaux/status/2054650181908607018",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "Wb2h3zSIhaJP34bsYaMbZkw6LJg-6RpiMTJWzFWfdY6sBK9KhPS1u_b5Qw",
-    "iv": "PrVm_gaMow5lmfdk",
-    "tag": "quQ8OG6nvUEjTIJHETNtgA",
+    "ciphertext": "fpLCUcxivxFMY5_DUXKR4a_7rehTxjf8n-l5i5xqXRLZsMYjyd3h498buw",
+    "iv": "mt3b1NE_4wUx5WlQ",
+    "tag": "lNWUcUR7bm-EZWS5KXxuqw",
     "version": 1
   }
 }
