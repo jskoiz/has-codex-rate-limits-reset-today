@@ -14,25 +14,38 @@
   "updatedAt": 1778958080837,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1778979461498,
-      "rationale": "This is a poetic post and does not mention limits, caps, or a reset.",
-      "tweetId": "2055814162442588466",
-      "tweetUrl": "https://x.com/thsottiaux/status/2055814162442588466",
-      "verdict": "not_reset"
+      "confidence": 0.9,
+      "decidedAt": 1778979776685,
+      "rationale": "This reply hints at a delay or cache issue but does not clearly say limits have reset or usage is available again.",
+      "tweetId": "2055815279893180738",
+      "tweetUrl": "https://x.com/thsottiaux/status/2055815279893180738",
+      "verdict": "uncertain"
     },
     "lastError": null,
-    "lastSeenTweetId": "2055814162442588466",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2055814162442588466",
+    "lastSeenTweetId": "2055815279893180738",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2055815279893180738",
     "pendingReview": {
-      "confidence": 0.83,
-      "createdAt": 1778966759913,
-      "rationale": "This reply suggests something was cleared again, but it does not explicitly say Codex or ChatGPT usage limits reset.",
-      "tweetId": "2055761513898811407",
-      "tweetText": "@emreertunc_ Yes. There were some cache issues so we cleared everything again",
-      "tweetUrl": "https://x.com/thsottiaux/status/2055761513898811407"
+      "confidence": 0.9,
+      "createdAt": 1778979776685,
+      "rationale": "This reply hints at a delay or cache issue but does not clearly say limits have reset or usage is available again.",
+      "tweetId": "2055815279893180738",
+      "tweetText": "@titan23187 Might be taking a few minutes or local cache, have you tried to logout and then login?",
+      "tweetUrl": "https://x.com/thsottiaux/status/2055815279893180738"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.9,
+        "evaluatedAt": 1778979776685,
+        "inputTokens": 375,
+        "outputTokens": 227,
+        "rationale": "This reply hints at a delay or cache issue but does not clearly say limits have reset or usage is available again.",
+        "reasoningTokens": 176,
+        "totalTokens": 602,
+        "tweetId": "2055815279893180738",
+        "tweetText": "@titan23187 Might be taking a few minutes or local cache, have you tried to logout and then login?",
+        "tweetUrl": "https://x.com/thsottiaux/status/2055815279893180738",
+        "verdict": "uncertain"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1778979461498,
@@ -279,29 +292,31 @@
         "tweetText": "Codex🫸🫷Zed",
         "tweetUrl": "https://x.com/thsottiaux/status/2055545756069802151",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1778915322962,
-        "inputTokens": 367,
-        "outputTokens": 96,
-        "rationale": "This is just a playful reply and does not mention limits, caps, or usage becoming available again.",
-        "reasoningTokens": 48,
-        "totalTokens": 463,
-        "tweetId": "2055545257643925819",
-        "tweetText": "@mark_k @OpenAI And so .. CochatGPTex was born",
-        "tweetUrl": "https://x.com/thsottiaux/status/2055545257643925819",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 156038,
-      "totalOutputTokens": 42733,
-      "totalReasoningTokens": 23096,
-      "totalTokens": 198771
+      "totalInputTokens": 156413,
+      "totalOutputTokens": 42960,
+      "totalReasoningTokens": 23272,
+      "totalTokens": 199373
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.9,
+      "createdAt": 1778979776685,
+      "inputTokens": 375,
+      "message": "",
+      "outputTokens": 227,
+      "rationale": "This reply hints at a delay or cache issue but does not clearly say limits have reset or usage is available again.",
+      "reasoningTokens": 176,
+      "totalTokens": 602,
+      "tweetId": "2055815279893180738",
+      "tweetText": "@titan23187 Might be taking a few minutes or local cache, have you tried to logout and then login?",
+      "tweetUrl": "https://x.com/thsottiaux/status/2055815279893180738",
+      "type": "review_requested",
+      "verdict": "uncertain"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1778979461498,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2054439514605756772",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1778641817498,
-      "inputTokens": 553,
-      "message": "",
-      "outputTokens": 74,
-      "rationale": "This post is about Codex app browser feature improvements, not rate limits or usage caps resetting.",
-      "reasoningTokens": 27,
-      "totalTokens": 627,
-      "tweetId": "2054398093886673260",
-      "tweetText": "In app browser improvements in Codex app. Different viewports, screenshots viewing, better annotations and more token efficient. Happy quality of life improvements Tuesday.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2054398093886673260",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "pbgFzhAi7IV3FHQdaRljKJSFTxmRAEbox3PUmdphcpjsZuNjdcv4Dmb59A",
-    "iv": "s13EwVi4h1OSmy4g",
-    "tag": "ACawy99V9KmQP7Y43-P32g",
+    "ciphertext": "mUvqHPv9QvKNHxb5pH3VVhol4rVTTv-FTHpw4B2tM1zd3FC_62GJ_01dzQ",
+    "iv": "kt1K9rNYEOYjyxw7",
+    "tag": "oILcXd6TUYz0hnhFvcJAJw",
     "version": 1
   }
 }
