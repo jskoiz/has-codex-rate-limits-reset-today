@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1779060133674,
-      "rationale": "This reply is just an insult/joke and does not mention limits, caps, or any reset.",
-      "tweetId": "2056152126515200103",
-      "tweetUrl": "https://x.com/thsottiaux/status/2056152126515200103",
+      "decidedAt": 1779060459691,
+      "rationale": "This is just a brief conversational reply and does not mention limits or a reset.",
+      "tweetId": "2056154350175830261",
+      "tweetUrl": "https://x.com/thsottiaux/status/2056154350175830261",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2056152126515200103",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2056152126515200103",
+    "lastSeenTweetId": "2056154350175830261",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2056154350175830261",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1779060459691,
+        "inputTokens": 358,
+        "outputTokens": 84,
+        "rationale": "This is just a brief conversational reply and does not mention limits or a reset.",
+        "reasoningTokens": 40,
+        "totalTokens": 442,
+        "tweetId": "2056154350175830261",
+        "tweetText": "@fitchmultz Nice",
+        "tweetUrl": "https://x.com/thsottiaux/status/2056154350175830261",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1779060133674,
@@ -272,29 +285,31 @@
         "tweetText": "@titan23187 Might be taking a few minutes or local cache, have you tried to logout and then login?",
         "tweetUrl": "https://x.com/thsottiaux/status/2055815279893180738",
         "verdict": "uncertain"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1778979461498,
-        "inputTokens": 370,
-        "outputTokens": 87,
-        "rationale": "This is a poetic post and does not mention limits, caps, or a reset.",
-        "reasoningTokens": 42,
-        "totalTokens": 457,
-        "tweetId": "2055814162442588466",
-        "tweetText": "tok tok goes the token\nsilicon dreams wake in sand\nmachines ask why now",
-        "tweetUrl": "https://x.com/thsottiaux/status/2055814162442588466",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 163239,
-      "totalOutputTokens": 44771,
-      "totalReasoningTokens": 24254,
-      "totalTokens": 208010
+      "totalInputTokens": 163597,
+      "totalOutputTokens": 44855,
+      "totalReasoningTokens": 24294,
+      "totalTokens": 208452
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1779060459691,
+      "inputTokens": 358,
+      "message": "",
+      "outputTokens": 84,
+      "rationale": "This is just a brief conversational reply and does not mention limits or a reset.",
+      "reasoningTokens": 40,
+      "totalTokens": 442,
+      "tweetId": "2056154350175830261",
+      "tweetText": "@fitchmultz Nice",
+      "tweetUrl": "https://x.com/thsottiaux/status/2056154350175830261",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1779060133674,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2055545257643925819",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1778915319450,
-      "inputTokens": 359,
-      "message": "",
-      "outputTokens": 101,
-      "rationale": "This reply does not mention limits, caps, or any reset.",
-      "reasoningTokens": 60,
-      "totalTokens": 460,
-      "tweetId": "2055544691089932694",
-      "tweetText": "@argofowl Hmmmmmm",
-      "tweetUrl": "https://x.com/thsottiaux/status/2055544691089932694",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "a2Fjt8j63svPdFDeEa6de0ISie87nEBV47REt6igpcNPI_Dz1mTut9_k2w",
-    "iv": "oWc70mAlZ2lno6cA",
-    "tag": "rO1D_PQSuEKL25sWpHo2AA",
+    "ciphertext": "fnSGXJMXFIsTkV-fbONwVEus1E7o1_bMiqHdIjgTSnabDlvf9kKBdrg5IA",
+    "iv": "VfsxoyeM9D4D9QtB",
+    "tag": "vBtGoHdy4PS--BZbrFFd3A",
     "version": 1
   }
 }
