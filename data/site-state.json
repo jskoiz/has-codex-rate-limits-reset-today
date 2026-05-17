@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1779059820724,
-      "rationale": "This is just a conversational reply and does not mention limits or a reset.",
-      "tweetId": "2056151538733818225",
-      "tweetUrl": "https://x.com/thsottiaux/status/2056151538733818225",
+      "decidedAt": 1779060133674,
+      "rationale": "This reply is just an insult/joke and does not mention limits, caps, or any reset.",
+      "tweetId": "2056152126515200103",
+      "tweetUrl": "https://x.com/thsottiaux/status/2056152126515200103",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2056151538733818225",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2056151538733818225",
+    "lastSeenTweetId": "2056152126515200103",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2056152126515200103",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1779060133674,
+        "inputTokens": 366,
+        "outputTokens": 108,
+        "rationale": "This reply is just an insult/joke and does not mention limits, caps, or any reset.",
+        "reasoningTokens": 60,
+        "totalTokens": 474,
+        "tweetId": "2056152126515200103",
+        "tweetText": "@daradoescode @OpenAI Top 1% larper",
+        "tweetUrl": "https://x.com/thsottiaux/status/2056152126515200103",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1779059820724,
@@ -272,29 +285,31 @@
         "tweetText": "tok tok goes the token\nsilicon dreams wake in sand\nmachines ask why now",
         "tweetUrl": "https://x.com/thsottiaux/status/2055814162442588466",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1778979142651,
-        "inputTokens": 364,
-        "outputTokens": 74,
-        "rationale": "This reply is just a joke and does not mention limits, caps, or usage becoming available again.",
-        "reasoningTokens": 26,
-        "totalTokens": 438,
-        "tweetId": "2055813011387113868",
-        "tweetText": "@argofowl Didn't know dogs used Codex. Wild",
-        "tweetUrl": "https://x.com/thsottiaux/status/2055813011387113868",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 162873,
-      "totalOutputTokens": 44663,
-      "totalReasoningTokens": 24194,
-      "totalTokens": 207536
+      "totalInputTokens": 163239,
+      "totalOutputTokens": 44771,
+      "totalReasoningTokens": 24254,
+      "totalTokens": 208010
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1779060133674,
+      "inputTokens": 366,
+      "message": "",
+      "outputTokens": 108,
+      "rationale": "This reply is just an insult/joke and does not mention limits, caps, or any reset.",
+      "reasoningTokens": 60,
+      "totalTokens": 474,
+      "tweetId": "2056152126515200103",
+      "tweetText": "@daradoescode @OpenAI Top 1% larper",
+      "tweetUrl": "https://x.com/thsottiaux/status/2056152126515200103",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1779059820724,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2055544691089932694",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.18,
-      "createdAt": 1778914369525,
-      "inputTokens": 357,
-      "message": "",
-      "outputTokens": 172,
-      "rationale": "This reply says things are stable again but does not clearly mention limits, caps, or a reset.",
-      "reasoningTokens": 124,
-      "totalTokens": 529,
-      "tweetId": "2055540700092211404",
-      "tweetText": "Confirmed stable and recovered",
-      "tweetUrl": "https://x.com/thsottiaux/status/2055540700092211404",
-      "type": "review_requested",
-      "verdict": "uncertain"
     }
   ],
   "privateState": {
-    "ciphertext": "ryvm3GibrTrTQM_5H_589kw0xPtwmCStLTQPMEkMRBODP3bTH1QR-eS83w",
-    "iv": "_AGF2iNGkeORtrhR",
-    "tag": "92SEw1HV3PWTL6DuRxplxQ",
+    "ciphertext": "a2Fjt8j63svPdFDeEa6de0ISie87nEBV47REt6igpcNPI_Dz1mTut9_k2w",
+    "iv": "oWc70mAlZ2lno6cA",
+    "tag": "rO1D_PQSuEKL25sWpHo2AA",
     "version": 1
   }
 }
