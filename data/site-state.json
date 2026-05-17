@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1779058586179,
-      "rationale": "This reply is a joke about how things work and does not mention limits or resets.",
-      "tweetId": "2056145873240011180",
-      "tweetUrl": "https://x.com/thsottiaux/status/2056145873240011180",
+      "decidedAt": 1779059820724,
+      "rationale": "This is just a conversational reply and does not mention limits or a reset.",
+      "tweetId": "2056151538733818225",
+      "tweetUrl": "https://x.com/thsottiaux/status/2056151538733818225",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2056145873240011180",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2056145873240011180",
+    "lastSeenTweetId": "2056151538733818225",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2056151538733818225",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1779059820724,
+        "inputTokens": 358,
+        "outputTokens": 71,
+        "rationale": "This is just a conversational reply and does not mention limits or a reset.",
+        "reasoningTokens": 28,
+        "totalTokens": 429,
+        "tweetId": "2056151538733818225",
+        "tweetText": "@jxnlco Hi Jason",
+        "tweetUrl": "https://x.com/thsottiaux/status/2056151538733818225",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1779058586179,
@@ -272,29 +285,31 @@
         "tweetText": "@argofowl Didn't know dogs used Codex. Wild",
         "tweetUrl": "https://x.com/thsottiaux/status/2055813011387113868",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1778978525471,
-        "inputTokens": 399,
-        "outputTokens": 72,
-        "rationale": "This reply discusses product design choices and does not mention limits, caps, or a reset.",
-        "reasoningTokens": 26,
-        "totalTokens": 471,
-        "tweetId": "2055809728161460291",
-        "tweetText": "@apanasenko @Angaisb_ Anton is one of the magicians behind codex and remote control. \n\nThe design choices are deliberate, would love to hear if that resolves it for you @Angaisb_",
-        "tweetUrl": "https://x.com/thsottiaux/status/2055809728161460291",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 162515,
-      "totalOutputTokens": 44592,
-      "totalReasoningTokens": 24166,
-      "totalTokens": 207107
+      "totalInputTokens": 162873,
+      "totalOutputTokens": 44663,
+      "totalReasoningTokens": 24194,
+      "totalTokens": 207536
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1779059820724,
+      "inputTokens": 358,
+      "message": "",
+      "outputTokens": 71,
+      "rationale": "This is just a conversational reply and does not mention limits or a reset.",
+      "reasoningTokens": 28,
+      "totalTokens": 429,
+      "tweetId": "2056151538733818225",
+      "tweetText": "@jxnlco Hi Jason",
+      "tweetUrl": "https://x.com/thsottiaux/status/2056151538733818225",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1779058586179,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2055540700092211404",
       "type": "review_requested",
       "verdict": "uncertain"
-    },
-    {
-      "confidence": 0.97,
-      "createdAt": 1778891751794,
-      "inputTokens": 492,
-      "message": "",
-      "outputTokens": 150,
-      "rationale": "It says usage limits will be reset later this evening, not that they have reset already.",
-      "reasoningTokens": 104,
-      "totalTokens": 642,
-      "tweetId": "2055446089957036402",
-      "tweetText": "We found and fixed two issues that could explain this degradation of the capability of GPT-5.5 in Codex over the last ~ 48 hours. \n\nWe are monitoring over the coming hours to fully confirm and I will reset usage limits this evening.\n\nApologies and now is the time for /fast maxxing.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2055446089957036402",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "en96Mt6MwnbjQDLpprE0Cd5t-YnJpna5UOsjROW1yez3jVaTdkr4d6lKEQ",
-    "iv": "IkcLR80utq9KyuUD",
-    "tag": "Dpq1iuK-b9rzJw22JGynEw",
+    "ciphertext": "ryvm3GibrTrTQM_5H_589kw0xPtwmCStLTQPMEkMRBODP3bTH1QR-eS83w",
+    "iv": "_AGF2iNGkeORtrhR",
+    "tag": "92SEw1HV3PWTL6DuRxplxQ",
     "version": 1
   }
 }
