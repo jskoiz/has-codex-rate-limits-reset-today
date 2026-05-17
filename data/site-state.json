@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.98,
-      "decidedAt": 1779049882202,
-      "rationale": "This reply only says the team is working on something and does not indicate limits have reset.",
-      "tweetId": "2056109615625150931",
-      "tweetUrl": "https://x.com/thsottiaux/status/2056109615625150931",
+      "decidedAt": 1779049885610,
+      "rationale": "This reports a usage-limit sync issue under investigation, not that limits have reset or been restored.",
+      "tweetId": "2056109929048764895",
+      "tweetUrl": "https://x.com/thsottiaux/status/2056109929048764895",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2056109615625150931",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2056109615625150931",
+    "lastSeenTweetId": "2056109929048764895",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2056109929048764895",
     "pendingReview": {
       "confidence": 0.9,
       "createdAt": 1778979776685,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2055815279893180738"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.98,
+        "evaluatedAt": 1779049885610,
+        "inputTokens": 374,
+        "outputTokens": 109,
+        "rationale": "This reports a usage-limit sync issue under investigation, not that limits have reset or been restored.",
+        "reasoningTokens": 62,
+        "totalTokens": 483,
+        "tweetId": "2056109929048764895",
+        "tweetText": "Seeing issues where usage limits are out of sync for some Codex users. Apologies and team is investigating.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2056109929048764895",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.98,
         "evaluatedAt": 1779049882202,
@@ -279,29 +292,31 @@
         "tweetText": "@iGotRootBlog Spread the word",
         "tweetUrl": "https://x.com/thsottiaux/status/2055728661249380416",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.77,
-        "evaluatedAt": 1778958080837,
-        "inputTokens": 370,
-        "outputTokens": 289,
-        "rationale": "It says resets are propagating now, though some accounts are having issues receiving them.",
-        "reasoningTokens": 243,
-        "totalTokens": 659,
-        "tweetId": "2055725156262465622",
-        "tweetText": "Seeing some issues with propagation of resets on some accounts, team is looking. Stay tuned.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2055725156262465622",
-        "verdict": "reset_confirmed"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 159384,
-      "totalOutputTokens": 43636,
-      "totalReasoningTokens": 23586,
-      "totalTokens": 203020
+      "totalInputTokens": 159758,
+      "totalOutputTokens": 43745,
+      "totalReasoningTokens": 23648,
+      "totalTokens": 203503
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.98,
+      "createdAt": 1779049885610,
+      "inputTokens": 374,
+      "message": "",
+      "outputTokens": 109,
+      "rationale": "This reports a usage-limit sync issue under investigation, not that limits have reset or been restored.",
+      "reasoningTokens": 62,
+      "totalTokens": 483,
+      "tweetId": "2056109929048764895",
+      "tweetText": "Seeing issues where usage limits are out of sync for some Codex users. Apologies and team is investigating.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2056109929048764895",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.98,
       "createdAt": 1779049882202,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2055075083266507235",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.95,
-      "createdAt": 1778803014651,
-      "inputTokens": 359,
-      "message": "",
-      "outputTokens": 145,
-      "rationale": "This reply alone does not clearly say that any Codex or ChatGPT limit has reset.",
-      "reasoningTokens": 99,
-      "totalTokens": 504,
-      "tweetId": "2055074260381839417",
-      "tweetText": "@shikhr_ It worked",
-      "tweetUrl": "https://x.com/thsottiaux/status/2055074260381839417",
-      "type": "review_requested",
-      "verdict": "uncertain"
     }
   ],
   "privateState": {
-    "ciphertext": "FXjjTnFbEwJYsxwqTNNFwowjte8YbFEv3jgF82yyfYRYSxgmegdO57caDA",
-    "iv": "_bbLpm2Fd62wzRa1",
-    "tag": "pQHkho_KEwUeMZqLigZEyA",
+    "ciphertext": "4m3E2TuvMBQl8t7_JaErQVzgk-ZHgxGRNJfC3mtxhpya1wn7-cNtDn1YyA",
+    "iv": "04i4UXvQxtuL7YiK",
+    "tag": "mzRS-rAbrXYW7geJ3f5fZw",
     "version": 1
   }
 }
