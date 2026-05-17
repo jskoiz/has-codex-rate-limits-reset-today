@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1779058264950,
-      "rationale": "The tweet explicitly says Codex usage limits are back to normal and restored to where users left off.",
-      "tweetId": "2056144502088437799",
-      "tweetUrl": "https://x.com/thsottiaux/status/2056144502088437799",
-      "verdict": "reset_confirmed"
+      "decidedAt": 1779058586179,
+      "rationale": "This reply is a joke about how things work and does not mention limits or resets.",
+      "tweetId": "2056145873240011180",
+      "tweetUrl": "https://x.com/thsottiaux/status/2056145873240011180",
+      "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2056144502088437799",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2056144502088437799",
+    "lastSeenTweetId": "2056145873240011180",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2056145873240011180",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1779058586179,
+        "inputTokens": 378,
+        "outputTokens": 75,
+        "rationale": "This reply is a joke about how things work and does not mention limits or resets.",
+        "reasoningTokens": 30,
+        "totalTokens": 453,
+        "tweetId": "2056145873240011180",
+        "tweetText": "@mattlam_ @mweinbach We don’t. It’s all just magic. We stare at the screens and pray.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2056145873240011180",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1779058264950,
@@ -272,29 +285,31 @@
         "tweetText": "@apanasenko @Angaisb_ Anton is one of the magicians behind codex and remote control. \n\nThe design choices are deliberate, would love to hear if that resolves it for you @Angaisb_",
         "tweetUrl": "https://x.com/thsottiaux/status/2055809728161460291",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.83,
-        "evaluatedAt": 1778966759913,
-        "inputTokens": 370,
-        "outputTokens": 268,
-        "rationale": "This reply suggests something was cleared again, but it does not explicitly say Codex or ChatGPT usage limits reset.",
-        "reasoningTokens": 217,
-        "totalTokens": 638,
-        "tweetId": "2055761513898811407",
-        "tweetText": "@emreertunc_ Yes. There were some cache issues so we cleared everything again",
-        "tweetUrl": "https://x.com/thsottiaux/status/2055761513898811407",
-        "verdict": "uncertain"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 162137,
-      "totalOutputTokens": 44517,
-      "totalReasoningTokens": 24136,
-      "totalTokens": 206654
+      "totalInputTokens": 162515,
+      "totalOutputTokens": 44592,
+      "totalReasoningTokens": 24166,
+      "totalTokens": 207107
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1779058586179,
+      "inputTokens": 378,
+      "message": "",
+      "outputTokens": 75,
+      "rationale": "This reply is a joke about how things work and does not mention limits or resets.",
+      "reasoningTokens": 30,
+      "totalTokens": 453,
+      "tweetId": "2056145873240011180",
+      "tweetText": "@mattlam_ @mweinbach We don’t. It’s all just magic. We stare at the screens and pray.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2056145873240011180",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1779058264950,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2055446089957036402",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1778881812814,
-      "inputTokens": 379,
-      "message": "",
-      "outputTokens": 74,
-      "rationale": "This is a product remark and does not indicate any limits or rate caps have reset.",
-      "reasoningTokens": 29,
-      "totalTokens": 453,
-      "tweetId": "2055404493689569611",
-      "tweetText": "We are busy bringing ChatGPT to Codex so that we can bring Codex to ChatGPT. One day this will make sense.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2055404493689569611",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "Mh0kuG7H0J6iezkblmU-A-lki9KPYXEO6DILhZCZGFBHYFkiuLyvdKW-JQ",
-    "iv": "hXiV_xs-kK7wBOct",
-    "tag": "tzz3Yb_0Yaz4Z8TvnblOvA",
+    "ciphertext": "en96Mt6MwnbjQDLpprE0Cd5t-YnJpna5UOsjROW1yez3jVaTdkr4d6lKEQ",
+    "iv": "IkcLR80utq9KyuUD",
+    "tag": "Dpq1iuK-b9rzJw22JGynEw",
     "version": 1
   }
 }
