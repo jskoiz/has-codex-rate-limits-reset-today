@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1778998979848,
-      "rationale": "This reply is troubleshooting behavior and does not mention limits, caps, or a reset.",
-      "tweetId": "2055895897603784919",
-      "tweetUrl": "https://x.com/thsottiaux/status/2055895897603784919",
+      "decidedAt": 1778999601807,
+      "rationale": "This is a product-feedback question and does not mention limits, caps, or access resetting.",
+      "tweetId": "2055898784178258379",
+      "tweetUrl": "https://x.com/thsottiaux/status/2055898784178258379",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2055895897603784919",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2055895897603784919",
+    "lastSeenTweetId": "2055898784178258379",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2055898784178258379",
     "pendingReview": {
       "confidence": 0.9,
       "createdAt": 1778979776685,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2055815279893180738"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1778999601807,
+        "inputTokens": 374,
+        "outputTokens": 84,
+        "rationale": "This is a product-feedback question and does not mention limits, caps, or access resetting.",
+        "reasoningTokens": 38,
+        "totalTokens": 458,
+        "tweetId": "2055898784178258379",
+        "tweetText": "For those of you living inside the codex app, what should we prioritize among features, reliability or performance?",
+        "tweetUrl": "https://x.com/thsottiaux/status/2055898784178258379",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1778998979848,
@@ -279,29 +292,31 @@
         "tweetText": "Recommend trying the new remote control feature through the ChatGPT app if you are on the go.\n\nhttps://t.co/R48NTvYgqZ",
         "tweetUrl": "https://x.com/thsottiaux/status/2055708710077706532",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1778954042442,
-        "inputTokens": 468,
-        "outputTokens": 99,
-        "rationale": "The tweet explicitly says Codex usage limits have now been reset across all paid plans.",
-        "reasoningTokens": 53,
-        "totalTokens": 567,
-        "tweetId": "2055707616605835333",
-        "tweetText": "Codex usage limits have now been reset across all paid plans. Enjoy the weekend!",
-        "tweetUrl": "https://x.com/thsottiaux/status/2055707616605835333",
-        "verdict": "reset_confirmed"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 156788,
-      "totalOutputTokens": 43037,
-      "totalReasoningTokens": 23304,
-      "totalTokens": 199825
+      "totalInputTokens": 157162,
+      "totalOutputTokens": 43121,
+      "totalReasoningTokens": 23342,
+      "totalTokens": 200283
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1778999601807,
+      "inputTokens": 374,
+      "message": "",
+      "outputTokens": 84,
+      "rationale": "This is a product-feedback question and does not mention limits, caps, or access resetting.",
+      "reasoningTokens": 38,
+      "totalTokens": 458,
+      "tweetId": "2055898784178258379",
+      "tweetText": "For those of you living inside the codex app, what should we prioritize among features, reliability or performance?",
+      "tweetUrl": "https://x.com/thsottiaux/status/2055898784178258379",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1778998979848,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2054650181908607018",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1778701207407,
-      "inputTokens": 359,
-      "message": "",
-      "outputTokens": 74,
-      "rationale": "This post is a general question and does not mention limits, caps, or resets.",
-      "reasoningTokens": 29,
-      "totalTokens": 433,
-      "tweetId": "2054647223615680714",
-      "tweetText": "What is your /goal today?",
-      "tweetUrl": "https://x.com/thsottiaux/status/2054647223615680714",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "bR0O9g6079T76iHdBiQiFKhPptfI0pPeaDTZNTKCocnOmVUXFRs4tV4ZaA",
-    "iv": "eVyxjXrxnVEwOHec",
-    "tag": "dWOfRfEpngaAZw21PG3-yA",
+    "ciphertext": "Wb2h3zSIhaJP34bsYaMbZkw6LJg-6RpiMTJWzFWfdY6sBK9KhPS1u_b5Qw",
+    "iv": "PrVm_gaMow5lmfdk",
+    "tag": "quQ8OG6nvUEjTIJHETNtgA",
     "version": 1
   }
 }
