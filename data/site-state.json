@@ -14,16 +14,16 @@
   "updatedAt": 1778958080837,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1779049889418,
-      "rationale": "This reply only says “Wrong” and does not indicate any limit or cap reset.",
-      "tweetId": "2056110069704765895",
-      "tweetUrl": "https://x.com/thsottiaux/status/2056110069704765895",
+      "confidence": 0.98,
+      "decidedAt": 1779051100892,
+      "rationale": "The post only reports an ongoing Codex usage-limit sync issue being investigated, not that limits have reset.",
+      "tweetId": "2056114308657098867",
+      "tweetUrl": "https://x.com/thsottiaux/status/2056114308657098867",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2056110069704765895",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2056110069704765895",
+    "lastSeenTweetId": "2056114308657098867",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2056114308657098867",
     "pendingReview": {
       "confidence": 0.9,
       "createdAt": 1778979776685,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2055815279893180738"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.98,
+        "evaluatedAt": 1779051100892,
+        "inputTokens": 422,
+        "outputTokens": 134,
+        "rationale": "The post only reports an ongoing Codex usage-limit sync issue being investigated, not that limits have reset.",
+        "reasoningTokens": 85,
+        "totalTokens": 556,
+        "tweetId": "2056114308657098867",
+        "tweetText": "@petergostev https://t.co/VsMPhUpf8X",
+        "tweetUrl": "https://x.com/thsottiaux/status/2056114308657098867",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1779049889418,
@@ -279,29 +292,31 @@
         "tweetText": "@TheNewPolicy @LuminousTheReal @BJones17937 Nice",
         "tweetUrl": "https://x.com/thsottiaux/status/2055738389618676215",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1778960863258,
-        "inputTokens": 496,
-        "outputTokens": 80,
-        "rationale": "This post and its quote are about Codex product improvements, not usage limits or resets.",
-        "reasoningTokens": 34,
-        "totalTokens": 576,
-        "tweetId": "2055735802894954612",
-        "tweetText": "I don't know why we ship on Saturdays now, but here are a bunch of nice improvements for Codex. \n\nDidn't feel right to hold this back until Tuesday when it all makes it a lot more delightful to use.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2055735802894954612",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 160127,
-      "totalOutputTokens": 43816,
-      "totalReasoningTokens": 23674,
-      "totalTokens": 203943
+      "totalInputTokens": 160549,
+      "totalOutputTokens": 43950,
+      "totalReasoningTokens": 23759,
+      "totalTokens": 204499
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.98,
+      "createdAt": 1779051100892,
+      "inputTokens": 422,
+      "message": "",
+      "outputTokens": 134,
+      "rationale": "The post only reports an ongoing Codex usage-limit sync issue being investigated, not that limits have reset.",
+      "reasoningTokens": 85,
+      "totalTokens": 556,
+      "tweetId": "2056114308657098867",
+      "tweetText": "@petergostev https://t.co/VsMPhUpf8X",
+      "tweetUrl": "https://x.com/thsottiaux/status/2056114308657098867",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1779049889418,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2055115234218828261",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1778812607425,
-      "inputTokens": 371,
-      "message": "",
-      "outputTokens": 88,
-      "rationale": "This reply is just asking for a thread ID and does not mention limits or availability resetting.",
-      "reasoningTokens": 42,
-      "totalTokens": 459,
-      "tweetId": "2055114743204249751",
-      "tweetText": "@Da7_Tech Hey hey. Do you have a thread id?\n\n/feedback",
-      "tweetUrl": "https://x.com/thsottiaux/status/2055114743204249751",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "lBEJalTSqqGpBjZY2Pxb6eON-Jh4uTRxj_bUctH-Jd_fii_cIVxPx2Pj7Q",
-    "iv": "6BEgtQNmJNQPLj1t",
-    "tag": "8_3TIlTi10ttnroeyHrfQw",
+    "ciphertext": "iHy7k9wjXNUaTkUlOpLeurjAM_WKkYyFCPIsUIvF2XK_2CoEgDfj2eaUdQ",
+    "iv": "lh3p2GRQd4hqcHTx",
+    "tag": "esYy5VCINlKHRqB6_SNm6w",
     "version": 1
   }
 }
