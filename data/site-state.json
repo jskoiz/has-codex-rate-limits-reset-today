@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1779080216331,
-      "rationale": "This reply is just conversational and says nothing about limits or availability resetting.",
-      "tweetId": "2056236338811424802",
-      "tweetUrl": "https://x.com/thsottiaux/status/2056236338811424802",
+      "decidedAt": 1779087966805,
+      "rationale": "This is a promotional uptime joke and does not indicate any limit or cap reset.",
+      "tweetId": "2056268894646812978",
+      "tweetUrl": "https://x.com/thsottiaux/status/2056268894646812978",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2056236338811424802",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2056236338811424802",
+    "lastSeenTweetId": "2056268894646812978",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2056268894646812978",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1779063544754,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2056167231852282156"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1779087966805,
+        "inputTokens": 370,
+        "outputTokens": 93,
+        "rationale": "This is a promotional uptime joke and does not indicate any limit or cap reset.",
+        "reasoningTokens": 49,
+        "totalTokens": 463,
+        "tweetId": "2056268894646812978",
+        "tweetText": "With 99.98% uptime, Codex only sleeps 8 minutes per month.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2056268894646812978",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1779080216331,
@@ -279,29 +292,31 @@
         "tweetText": "Codex usage limits are back to normal. For ~2 hours we had some issues where the enforced limits were wrong for the majority of users on a subscription.\n\nWe waived usage consumption for that time and things should be set again to exactly to where you left it. \n\nBack to codexing.",
         "tweetUrl": "https://x.com/thsottiaux/status/2056144502088437799",
         "verdict": "reset_confirmed"
-      },
-      {
-        "confidence": 0.94,
-        "evaluatedAt": 1779057937973,
-        "inputTokens": 354,
-        "outputTokens": 149,
-        "rationale": "This reply only says \"Fixed,\" which is too ambiguous to confirm that rate limits or caps have reset.",
-        "reasoningTokens": 100,
-        "totalTokens": 503,
-        "tweetId": "2056143134804070471",
-        "tweetText": "Fixed",
-        "tweetUrl": "https://x.com/thsottiaux/status/2056143134804070471",
-        "verdict": "uncertain"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 168650,
-      "totalOutputTokens": 46030,
-      "totalReasoningTokens": 24848,
-      "totalTokens": 214680
+      "totalInputTokens": 169020,
+      "totalOutputTokens": 46123,
+      "totalReasoningTokens": 24897,
+      "totalTokens": 215143
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1779087966805,
+      "inputTokens": 370,
+      "message": "",
+      "outputTokens": 93,
+      "rationale": "This is a promotional uptime joke and does not indicate any limit or cap reset.",
+      "reasoningTokens": 49,
+      "totalTokens": 463,
+      "tweetId": "2056268894646812978",
+      "tweetText": "With 99.98% uptime, Codex only sleeps 8 minutes per month.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2056268894646812978",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1779080216331,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2055759809698550263",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1778966446647,
-      "inputTokens": 372,
-      "message": "",
-      "outputTokens": 86,
-      "rationale": "This reply just mentions having Codex on a phone and says nothing about limits or resets.",
-      "reasoningTokens": 40,
-      "totalTokens": 458,
-      "tweetId": "2055759259380719998",
-      "tweetText": "@0xSero The kind of stuff you can witness when you have Codex on your phone",
-      "tweetUrl": "https://x.com/thsottiaux/status/2055759259380719998",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "cKV36r2jPjP9HAZNNHDswX31ONNcYKnrUf3VpHdHDb4pezbAYBCE8LK2mA",
-    "iv": "LmA3kLadSPPQIpkg",
-    "tag": "kKwKpe_ERnNJ6MdpAKHXpA",
+    "ciphertext": "H8HBLO2nZs3a-5ve8SV8kb8_67PEvoMjShup8i_-5-p6x7iPXGfYA5Rg0A",
+    "iv": "ldh33i7ROY32zuNz",
+    "tag": "nIW14R89jlrY5cprfpw8Yg",
     "version": 1
   }
 }
