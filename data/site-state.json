@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1779064472311,
-      "rationale": "This reply is conversational and does not mention limits, caps, or usage resetting.",
-      "tweetId": "2056171149881713143",
-      "tweetUrl": "https://x.com/thsottiaux/status/2056171149881713143",
+      "decidedAt": 1779064765771,
+      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+      "tweetId": "2056172152030937354",
+      "tweetUrl": "https://x.com/thsottiaux/status/2056172152030937354",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2056171149881713143",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2056171149881713143",
+    "lastSeenTweetId": "2056172152030937354",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2056172152030937354",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1779063544754,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2056167231852282156"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1779064765771,
+        "inputTokens": 363,
+        "outputTokens": 72,
+        "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+        "reasoningTokens": 28,
+        "totalTokens": 435,
+        "tweetId": "2056172152030937354",
+        "tweetText": "@frankzng519 We call it /side",
+        "tweetUrl": "https://x.com/thsottiaux/status/2056172152030937354",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1779064472311,
@@ -279,29 +292,31 @@
         "tweetText": "@petergostev Many walls in this one",
         "tweetUrl": "https://x.com/thsottiaux/status/2056098939116630399",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1779047368262,
-        "inputTokens": 390,
-        "outputTokens": 80,
-        "rationale": "This reply discusses a full context window and starting a new conversation, not rate limits resetting.",
-        "reasoningTokens": 34,
-        "totalTokens": 470,
-        "tweetId": "2056098545934258672",
-        "tweetText": "@southphxceleb Unless I misunderstand your intent, forking wouldn't work because the context window is full. \n\nYou would have to write everything up yourself and start a new conversation",
-        "tweetUrl": "https://x.com/thsottiaux/status/2056098545934258672",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 165753,
-      "totalOutputTokens": 45372,
-      "totalReasoningTokens": 24547,
-      "totalTokens": 211125
+      "totalInputTokens": 166116,
+      "totalOutputTokens": 45444,
+      "totalReasoningTokens": 24575,
+      "totalTokens": 211560
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1779064765771,
+      "inputTokens": 363,
+      "message": "",
+      "outputTokens": 72,
+      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+      "reasoningTokens": 28,
+      "totalTokens": 435,
+      "tweetId": "2056172152030937354",
+      "tweetText": "@frankzng519 We call it /side",
+      "tweetUrl": "https://x.com/thsottiaux/status/2056172152030937354",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1779064472311,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2055722700530933780",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1778957459505,
-      "inputTokens": 365,
-      "message": "",
-      "outputTokens": 74,
-      "rationale": "This reply just asks which subscription plan the user has and does not mention limits resetting.",
-      "reasoningTokens": 29,
-      "totalTokens": 439,
-      "tweetId": "2055722679312003474",
-      "tweetText": "@halveknots @paraddox Which plan are you on?",
-      "tweetUrl": "https://x.com/thsottiaux/status/2055722679312003474",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "sxI32FEnWSaEtKDp-lVhlxSOh82RiPjtqc1NAvpKm5zVt4Ic34bcNj6yWA",
-    "iv": "o8QqnIKCpI1bcjGQ",
-    "tag": "CccFHx3_on5Md7vCPq64Rg",
+    "ciphertext": "eQhjrUAqoTuCFNqXXRbAq1Tz4P_7F2FMUor-7_-r3f1DUn2K3rIyJXx4YQ",
+    "iv": "lIDnJzFHE3sCmlaW",
+    "tag": "3_zy8BcM6cDZjaDCyygdRg",
     "version": 1
   }
 }
