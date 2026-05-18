@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1779064468696,
-      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-      "tweetId": "2056170302707835165",
-      "tweetUrl": "https://x.com/thsottiaux/status/2056170302707835165",
+      "decidedAt": 1779064472311,
+      "rationale": "This reply is conversational and does not mention limits, caps, or usage resetting.",
+      "tweetId": "2056171149881713143",
+      "tweetUrl": "https://x.com/thsottiaux/status/2056171149881713143",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2056170302707835165",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2056170302707835165",
+    "lastSeenTweetId": "2056171149881713143",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2056171149881713143",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1779063544754,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2056167231852282156"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1779064472311,
+        "inputTokens": 358,
+        "outputTokens": 78,
+        "rationale": "This reply is conversational and does not mention limits, caps, or usage resetting.",
+        "reasoningTokens": 34,
+        "totalTokens": 436,
+        "tweetId": "2056171149881713143",
+        "tweetText": "@_heyrico Pretty",
+        "tweetUrl": "https://x.com/thsottiaux/status/2056171149881713143",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1779064468696,
@@ -279,29 +292,31 @@
         "tweetText": "@southphxceleb Unless I misunderstand your intent, forking wouldn't work because the context window is full. \n\nYou would have to write everything up yourself and start a new conversation",
         "tweetUrl": "https://x.com/thsottiaux/status/2056098545934258672",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1779046137121,
-        "inputTokens": 360,
-        "outputTokens": 88,
-        "rationale": "This reply asks a general question and gives no indication that any Codex or ChatGPT limits have reset.",
-        "reasoningTokens": 39,
-        "totalTokens": 448,
-        "tweetId": "2056093486513008962",
-        "tweetText": "@southphxceleb What's your reason?",
-        "tweetUrl": "https://x.com/thsottiaux/status/2056093486513008962",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 165395,
-      "totalOutputTokens": 45294,
-      "totalReasoningTokens": 24513,
-      "totalTokens": 210689
+      "totalInputTokens": 165753,
+      "totalOutputTokens": 45372,
+      "totalReasoningTokens": 24547,
+      "totalTokens": 211125
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1779064472311,
+      "inputTokens": 358,
+      "message": "",
+      "outputTokens": 78,
+      "rationale": "This reply is conversational and does not mention limits, caps, or usage resetting.",
+      "reasoningTokens": 34,
+      "totalTokens": 436,
+      "tweetId": "2056171149881713143",
+      "tweetText": "@_heyrico Pretty",
+      "tweetUrl": "https://x.com/thsottiaux/status/2056171149881713143",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1779064468696,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2055722679312003474",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.56,
-      "createdAt": 1778957153408,
-      "inputTokens": 362,
-      "message": "",
-      "outputTokens": 243,
-      "rationale": "This reply suggests a change propagated, but it does not explicitly say any rate limit or cap has reset.",
-      "reasoningTokens": 194,
-      "totalTokens": 605,
-      "tweetId": "2055721248697823378",
-      "tweetText": "@paraddox Should have propagated, all good?",
-      "tweetUrl": "https://x.com/thsottiaux/status/2055721248697823378",
-      "type": "review_requested",
-      "verdict": "uncertain"
     }
   ],
   "privateState": {
-    "ciphertext": "lWFnclaiqqtIrW3yukLwNiH7N26fdK7BPqbRYnANAv_allkvxWMdsh7Aqw",
-    "iv": "iv_57ObCjDmTio7h",
-    "tag": "w6rNxG-DdTikb1O-FfsZcA",
+    "ciphertext": "sxI32FEnWSaEtKDp-lVhlxSOh82RiPjtqc1NAvpKm5zVt4Ic34bcNj6yWA",
+    "iv": "o8QqnIKCpI1bcjGQ",
+    "tag": "CccFHx3_on5Md7vCPq64Rg",
     "version": 1
   }
 }
