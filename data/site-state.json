@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1779079909007,
-      "rationale": "This is just a conversational reply and gives no indication that any limit or cap has reset.",
-      "tweetId": "2056235719614672933",
-      "tweetUrl": "https://x.com/thsottiaux/status/2056235719614672933",
+      "decidedAt": 1779080216331,
+      "rationale": "This reply is just conversational and says nothing about limits or availability resetting.",
+      "tweetId": "2056236338811424802",
+      "tweetUrl": "https://x.com/thsottiaux/status/2056236338811424802",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2056235719614672933",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2056235719614672933",
+    "lastSeenTweetId": "2056236338811424802",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2056236338811424802",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1779063544754,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2056167231852282156"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1779080216331,
+        "inputTokens": 361,
+        "outputTokens": 70,
+        "rationale": "This reply is just conversational and says nothing about limits or availability resetting.",
+        "reasoningTokens": 28,
+        "totalTokens": 431,
+        "tweetId": "2056236338811424802",
+        "tweetText": "@iMuffined Music is cosy indeed!",
+        "tweetUrl": "https://x.com/thsottiaux/status/2056236338811424802",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1779079909007,
@@ -279,29 +292,31 @@
         "tweetText": "Fixed",
         "tweetUrl": "https://x.com/thsottiaux/status/2056143134804070471",
         "verdict": "uncertain"
-      },
-      {
-        "confidence": 0.97,
-        "evaluatedAt": 1779053889207,
-        "inputTokens": 394,
-        "outputTokens": 137,
-        "rationale": "This reply discusses account juggling generally and does not say limits or caps have reset.",
-        "reasoningTokens": 93,
-        "totalTokens": 531,
-        "tweetId": "2056125970445472108",
-        "tweetText": "@LuisRevilla @Rajc_1 @DamiDina @OpenAIDevs @OpenAI We’re fine with it, but will make it easier in the future to not need account juggling",
-        "tweetUrl": "https://x.com/thsottiaux/status/2056125970445472108",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 168289,
-      "totalOutputTokens": 45960,
-      "totalReasoningTokens": 24820,
-      "totalTokens": 214249
+      "totalInputTokens": 168650,
+      "totalOutputTokens": 46030,
+      "totalReasoningTokens": 24848,
+      "totalTokens": 214680
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1779080216331,
+      "inputTokens": 361,
+      "message": "",
+      "outputTokens": 70,
+      "rationale": "This reply is just conversational and says nothing about limits or availability resetting.",
+      "reasoningTokens": 28,
+      "totalTokens": 431,
+      "tweetId": "2056236338811424802",
+      "tweetText": "@iMuffined Music is cosy indeed!",
+      "tweetUrl": "https://x.com/thsottiaux/status/2056236338811424802",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1779079909008,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2055759259380719998",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1778962389104,
-      "inputTokens": 366,
-      "message": "",
-      "outputTokens": 59,
-      "rationale": "This reply is unrelated to Codex or ChatGPT limits resetting.",
-      "reasoningTokens": 18,
-      "totalTokens": 425,
-      "tweetId": "2055742296000508085",
-      "tweetText": "@ajambrosino i heard spotify is looking for a new designer",
-      "tweetUrl": "https://x.com/thsottiaux/status/2055742296000508085",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "PhcwHQsxcuPSO3OVGMxI77ohIMR80P131mPYsCziccJju_KorsJp8iJAOw",
-    "iv": "OldHDXZQOhVFtzkM",
-    "tag": "agC5A8tV1zHvSsSxIN5PLw",
+    "ciphertext": "cKV36r2jPjP9HAZNNHDswX31ONNcYKnrUf3VpHdHDb4pezbAYBCE8LK2mA",
+    "iv": "LmA3kLadSPPQIpkg",
+    "tag": "kKwKpe_ERnNJ6MdpAKHXpA",
     "version": 1
   }
 }
