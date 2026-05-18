@@ -14,18 +14,38 @@
   "updatedAt": 1779058264950,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1779060466617,
-      "rationale": "This reply is unrelated to Codex or ChatGPT limits and does not indicate any reset.",
-      "tweetId": "2056154564144058778",
-      "tweetUrl": "https://x.com/thsottiaux/status/2056154564144058778",
-      "verdict": "not_reset"
+      "confidence": 0.95,
+      "decidedAt": 1779063544754,
+      "rationale": "This reply gives no clear indication that any Codex or ChatGPT limit has reset.",
+      "tweetId": "2056167231852282156",
+      "tweetUrl": "https://x.com/thsottiaux/status/2056167231852282156",
+      "verdict": "uncertain"
     },
     "lastError": null,
-    "lastSeenTweetId": "2056154564144058778",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2056154564144058778",
-    "pendingReview": null,
+    "lastSeenTweetId": "2056167231852282156",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2056167231852282156",
+    "pendingReview": {
+      "confidence": 0.95,
+      "createdAt": 1779063544754,
+      "rationale": "This reply gives no clear indication that any Codex or ChatGPT limit has reset.",
+      "tweetId": "2056167231852282156",
+      "tweetText": "@KaiXCreator You tell me",
+      "tweetUrl": "https://x.com/thsottiaux/status/2056167231852282156"
+    },
     "recentEvaluations": [
+      {
+        "confidence": 0.95,
+        "evaluatedAt": 1779063544754,
+        "inputTokens": 359,
+        "outputTokens": 117,
+        "rationale": "This reply gives no clear indication that any Codex or ChatGPT limit has reset.",
+        "reasoningTokens": 72,
+        "totalTokens": 476,
+        "tweetId": "2056167231852282156",
+        "tweetText": "@KaiXCreator You tell me",
+        "tweetUrl": "https://x.com/thsottiaux/status/2056167231852282156",
+        "verdict": "uncertain"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1779060466617,
@@ -272,29 +292,31 @@
         "tweetText": "@kr0der What would you like to see in a &gt; $1000 plan",
         "tweetUrl": "https://x.com/thsottiaux/status/2056088183461556303",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1778999601807,
-        "inputTokens": 374,
-        "outputTokens": 84,
-        "rationale": "This is a product-feedback question and does not mention limits, caps, or access resetting.",
-        "reasoningTokens": 38,
-        "totalTokens": 458,
-        "tweetId": "2055898784178258379",
-        "tweetText": "For those of you living inside the codex app, what should we prioritize among features, reliability or performance?",
-        "tweetUrl": "https://x.com/thsottiaux/status/2055898784178258379",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 164316,
-      "totalOutputTokens": 45021,
-      "totalReasoningTokens": 24370,
-      "totalTokens": 209337
+      "totalInputTokens": 164675,
+      "totalOutputTokens": 45138,
+      "totalReasoningTokens": 24442,
+      "totalTokens": 209813
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.95,
+      "createdAt": 1779063544754,
+      "inputTokens": 359,
+      "message": "",
+      "outputTokens": 117,
+      "rationale": "This reply gives no clear indication that any Codex or ChatGPT limit has reset.",
+      "reasoningTokens": 72,
+      "totalTokens": 476,
+      "tweetId": "2056167231852282156",
+      "tweetText": "@KaiXCreator You tell me",
+      "tweetUrl": "https://x.com/thsottiaux/status/2056167231852282156",
+      "type": "review_requested",
+      "verdict": "uncertain"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1779060466617,
@@ -879,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2055708710077706532",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1778954042442,
-      "inputTokens": 468,
-      "message": "",
-      "outputTokens": 99,
-      "rationale": "The tweet explicitly says Codex usage limits have now been reset across all paid plans.",
-      "reasoningTokens": 53,
-      "totalTokens": 567,
-      "tweetId": "2055707616605835333",
-      "tweetText": "Codex usage limits have now been reset across all paid plans. Enjoy the weekend!",
-      "tweetUrl": "https://x.com/thsottiaux/status/2055707616605835333",
-      "type": "reset_confirmed",
-      "verdict": "reset_confirmed"
     }
   ],
   "privateState": {
-    "ciphertext": "bkB9v_LgfnI1uG0YhInwLgNfrxuuLvGGGHuxxoxT6mQy8ZWKPxUXTsvWUQ",
-    "iv": "wBdDCA7VQtCTW8z3",
-    "tag": "1B9WF1P5bXCW1XE2kzblng",
+    "ciphertext": "70ezm1Scg6_ABDv_Oy2Uk1hdcxMLePZn_mbNsVVWVomG5uTi45bIotYvyg",
+    "iv": "Kd3lYeYMUfpQNEX4",
+    "tag": "_2t7VJHvfuEVo8Hx19KEEw",
     "version": 1
   }
 }
