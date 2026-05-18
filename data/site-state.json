@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1779063854080,
-      "rationale": "This reply does not mention limits, caps, or any reset.",
-      "tweetId": "2056167819604328485",
-      "tweetUrl": "https://x.com/thsottiaux/status/2056167819604328485",
+      "decidedAt": 1779064468696,
+      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+      "tweetId": "2056170302707835165",
+      "tweetUrl": "https://x.com/thsottiaux/status/2056170302707835165",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2056167819604328485",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2056167819604328485",
+    "lastSeenTweetId": "2056170302707835165",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2056170302707835165",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1779063544754,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2056167231852282156"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1779064468696,
+        "inputTokens": 362,
+        "outputTokens": 83,
+        "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+        "reasoningTokens": 39,
+        "totalTokens": 445,
+        "tweetId": "2056170302707835165",
+        "tweetText": "@sierracatalina Should sierra post",
+        "tweetUrl": "https://x.com/thsottiaux/status/2056170302707835165",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1779063854080,
@@ -279,29 +292,31 @@
         "tweetText": "@southphxceleb What's your reason?",
         "tweetUrl": "https://x.com/thsottiaux/status/2056093486513008962",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1779046132567,
-        "inputTokens": 378,
-        "outputTokens": 73,
-        "rationale": "This reply discusses a model mistake and feedback, not any limit or cap reset.",
-        "reasoningTokens": 29,
-        "totalTokens": 451,
-        "tweetId": "2056093364307796073",
-        "tweetText": "@MParakhin Seems unrelated. Model mistakes happen. Do you have a thread id? You can generate it using /feedback",
-        "tweetUrl": "https://x.com/thsottiaux/status/2056093364307796073",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 165033,
-      "totalOutputTokens": 45211,
-      "totalReasoningTokens": 24474,
-      "totalTokens": 210244
+      "totalInputTokens": 165395,
+      "totalOutputTokens": 45294,
+      "totalReasoningTokens": 24513,
+      "totalTokens": 210689
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1779064468696,
+      "inputTokens": 362,
+      "message": "",
+      "outputTokens": 83,
+      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+      "reasoningTokens": 39,
+      "totalTokens": 445,
+      "tweetId": "2056170302707835165",
+      "tweetText": "@sierracatalina Should sierra post",
+      "tweetUrl": "https://x.com/thsottiaux/status/2056170302707835165",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1779063854080,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2055721248697823378",
       "type": "review_requested",
       "verdict": "uncertain"
-    },
-    {
-      "confidence": 0.94,
-      "createdAt": 1778954355499,
-      "inputTokens": 360,
-      "message": "",
-      "outputTokens": 106,
-      "rationale": "This reply alone is too vague to tell whether any ChatGPT or Codex limit has actually reset.",
-      "reasoningTokens": 58,
-      "totalTokens": 466,
-      "tweetId": "2055708843070673295",
-      "tweetText": "@doublemover Takes a few minutes",
-      "tweetUrl": "https://x.com/thsottiaux/status/2055708843070673295",
-      "type": "review_requested",
-      "verdict": "uncertain"
     }
   ],
   "privateState": {
-    "ciphertext": "tinTae1C6OgFuU-djQuUASBF4zbZ8X0o7buRy8a8U47ZTTBXL2Q6Xmlq0g",
-    "iv": "VMtdHLPSktcm2EMf",
-    "tag": "XnEfqNyyKhTsiwymESC-nA",
+    "ciphertext": "lWFnclaiqqtIrW3yukLwNiH7N26fdK7BPqbRYnANAv_allkvxWMdsh7Aqw",
+    "iv": "iv_57ObCjDmTio7h",
+    "tag": "w6rNxG-DdTikb1O-FfsZcA",
     "version": 1
   }
 }
