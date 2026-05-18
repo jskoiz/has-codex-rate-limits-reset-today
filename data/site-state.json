@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1779064773321,
-      "rationale": "This reply is just conversational and does not mention any limits, caps, or reset.",
-      "tweetId": "2056172362207576360",
-      "tweetUrl": "https://x.com/thsottiaux/status/2056172362207576360",
+      "decidedAt": 1779078662099,
+      "rationale": "This is a casual promotional remark about using Codex and does not mention limits or resets.",
+      "tweetId": "2056230346656743691",
+      "tweetUrl": "https://x.com/thsottiaux/status/2056230346656743691",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2056172362207576360",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2056172362207576360",
+    "lastSeenTweetId": "2056230346656743691",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2056230346656743691",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1779063544754,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2056167231852282156"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1779078662099,
+        "inputTokens": 366,
+        "outputTokens": 73,
+        "rationale": "This is a casual promotional remark about using Codex and does not mention limits or resets.",
+        "reasoningTokens": 27,
+        "totalTokens": 439,
+        "tweetId": "2056230346656743691",
+        "tweetText": "Codex is for cosy Sunday evenings. Show me your cosy creations.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2056230346656743691",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1779064773321,
@@ -279,29 +292,31 @@
         "tweetText": "@DamiDina @Rajc_1 @OpenAIDevs Wrong",
         "tweetUrl": "https://x.com/thsottiaux/status/2056110069704765895",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.98,
-        "evaluatedAt": 1779049885610,
-        "inputTokens": 374,
-        "outputTokens": 109,
-        "rationale": "This reports a usage-limit sync issue under investigation, not that limits have reset or been restored.",
-        "reasoningTokens": 62,
-        "totalTokens": 483,
-        "tweetId": "2056109929048764895",
-        "tweetText": "Seeing issues where usage limits are out of sync for some Codex users. Apologies and team is investigating.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2056109929048764895",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 166838,
-      "totalOutputTokens": 45641,
-      "totalReasoningTokens": 24685,
-      "totalTokens": 212479
+      "totalInputTokens": 167204,
+      "totalOutputTokens": 45714,
+      "totalReasoningTokens": 24712,
+      "totalTokens": 212918
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1779078662099,
+      "inputTokens": 366,
+      "message": "",
+      "outputTokens": 73,
+      "rationale": "This is a casual promotional remark about using Codex and does not mention limits or resets.",
+      "reasoningTokens": 27,
+      "totalTokens": 439,
+      "tweetId": "2056230346656743691",
+      "tweetText": "Codex is for cosy Sunday evenings. Show me your cosy creations.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2056230346656743691",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1779064773321,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2055728661249380416",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.77,
-      "createdAt": 1778958080837,
-      "inputTokens": 370,
-      "message": "",
-      "outputTokens": 289,
-      "rationale": "It says resets are propagating now, though some accounts are having issues receiving them.",
-      "reasoningTokens": 243,
-      "totalTokens": 659,
-      "tweetId": "2055725156262465622",
-      "tweetText": "Seeing some issues with propagation of resets on some accounts, team is looking. Stay tuned.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2055725156262465622",
-      "type": "reset_confirmed",
-      "verdict": "reset_confirmed"
     }
   ],
   "privateState": {
-    "ciphertext": "Q_RVATosbdbGOW78krKIak8OWcu8Y5XwgIVwAw9csAE8S95xDmCjQ_e7Fw",
-    "iv": "MbXe-QUjc_66GfuK",
-    "tag": "S8VfmlaIdLkGx-oZkXHw5A",
+    "ciphertext": "-Kq6zI7FQ2NaxwI5wVDk1zAY-bLRseVy7Yzc3H0LHFkGKeLfGHu2JLO8RQ",
+    "iv": "ElbpIYYg_yO08VEr",
+    "tag": "WQ3ymoJ4KCWuhom5CmCnrg",
     "version": 1
   }
 }
