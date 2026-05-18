@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1779079611128,
-      "rationale": "This is just a casual reply and does not mention any limits, caps, or resets.",
-      "tweetId": "2056234395401637907",
-      "tweetUrl": "https://x.com/thsottiaux/status/2056234395401637907",
+      "decidedAt": 1779079909007,
+      "rationale": "This is just a conversational reply and gives no indication that any limit or cap has reset.",
+      "tweetId": "2056235719614672933",
+      "tweetUrl": "https://x.com/thsottiaux/status/2056235719614672933",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2056234395401637907",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2056234395401637907",
+    "lastSeenTweetId": "2056235719614672933",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2056235719614672933",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1779063544754,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2056167231852282156"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1779079909007,
+        "inputTokens": 361,
+        "outputTokens": 94,
+        "rationale": "This is just a conversational reply and gives no indication that any limit or cap has reset.",
+        "reasoningTokens": 48,
+        "totalTokens": 455,
+        "tweetId": "2056235719614672933",
+        "tweetText": "@RhysSullivan Oh... that's awesome",
+        "tweetUrl": "https://x.com/thsottiaux/status/2056235719614672933",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1779079611128,
@@ -279,29 +292,31 @@
         "tweetText": "@LuisRevilla @Rajc_1 @DamiDina @OpenAIDevs @OpenAI We’re fine with it, but will make it easier in the future to not need account juggling",
         "tweetUrl": "https://x.com/thsottiaux/status/2056125970445472108",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.93,
-        "evaluatedAt": 1779052650772,
-        "inputTokens": 371,
-        "outputTokens": 180,
-        "rationale": "It says the displayed limits recovered to their earlier values, not that rate limits were reset or lifted.",
-        "reasoningTokens": 132,
-        "totalTokens": 551,
-        "tweetId": "2056121267938627654",
-        "tweetText": "Things are recovered and displayed usage limits should be back to where they were 2 hours ago.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2056121267938627654",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 167928,
-      "totalOutputTokens": 45866,
-      "totalReasoningTokens": 24772,
-      "totalTokens": 213794
+      "totalInputTokens": 168289,
+      "totalOutputTokens": 45960,
+      "totalReasoningTokens": 24820,
+      "totalTokens": 214249
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1779079909008,
+      "inputTokens": 361,
+      "message": "",
+      "outputTokens": 94,
+      "rationale": "This is just a conversational reply and gives no indication that any limit or cap has reset.",
+      "reasoningTokens": 48,
+      "totalTokens": 455,
+      "tweetId": "2056235719614672933",
+      "tweetText": "@RhysSullivan Oh... that's awesome",
+      "tweetUrl": "https://x.com/thsottiaux/status/2056235719614672933",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1779079611128,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2055742296000508085",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1778961485829,
-      "inputTokens": 367,
-      "message": "",
-      "outputTokens": 75,
-      "rationale": "This reply just says “Nice” and gives no sign that limits or caps have reset.",
-      "reasoningTokens": 29,
-      "totalTokens": 442,
-      "tweetId": "2055738389618676215",
-      "tweetText": "@TheNewPolicy @LuminousTheReal @BJones17937 Nice",
-      "tweetUrl": "https://x.com/thsottiaux/status/2055738389618676215",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "kys7wVCzSz75g33Rg9uW02YachqddsU2ro3HcDd0u0TkUXHnatXEA4aQjA",
-    "iv": "Pz8w3u20tgVjqfmJ",
-    "tag": "zSPbBvyfaZTwyTArn-cNlg",
+    "ciphertext": "PhcwHQsxcuPSO3OVGMxI77ohIMR80P131mPYsCziccJju_KorsJp8iJAOw",
+    "iv": "OldHDXZQOhVFtzkM",
+    "tag": "agC5A8tV1zHvSsSxIN5PLw",
     "version": 1
   }
 }
