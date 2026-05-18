@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1779087971411,
-      "rationale": "This reply does not mention limits, caps, or usage becoming available again.",
-      "tweetId": "2056268987907084661",
-      "tweetUrl": "https://x.com/thsottiaux/status/2056268987907084661",
+      "decidedAt": 1779088582821,
+      "rationale": "This reply just mentions Codex and does not indicate any limit or cap reset.",
+      "tweetId": "2056271794592682077",
+      "tweetUrl": "https://x.com/thsottiaux/status/2056271794592682077",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2056268987907084661",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2056268987907084661",
+    "lastSeenTweetId": "2056271794592682077",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2056271794592682077",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1779063544754,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2056167231852282156"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1779088582821,
+        "inputTokens": 361,
+        "outputTokens": 81,
+        "rationale": "This reply just mentions Codex and does not indicate any limit or cap reset.",
+        "reasoningTokens": 37,
+        "totalTokens": 442,
+        "tweetId": "2056271794592682077",
+        "tweetText": "@rowans_planet Coooooodex",
+        "tweetUrl": "https://x.com/thsottiaux/status/2056271794592682077",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1779087971411,
@@ -279,29 +292,31 @@
         "tweetText": "@jxnlco Hi Jason",
         "tweetUrl": "https://x.com/thsottiaux/status/2056151538733818225",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1779058586179,
-        "inputTokens": 378,
-        "outputTokens": 75,
-        "rationale": "This reply is a joke about how things work and does not mention limits or resets.",
-        "reasoningTokens": 30,
-        "totalTokens": 453,
-        "tweetId": "2056145873240011180",
-        "tweetText": "@mattlam_ @mweinbach We don’t. It’s all just magic. We stare at the screens and pray.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2056145873240011180",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 169376,
-      "totalOutputTokens": 46196,
-      "totalReasoningTokens": 24927,
-      "totalTokens": 215572
+      "totalInputTokens": 169737,
+      "totalOutputTokens": 46277,
+      "totalReasoningTokens": 24964,
+      "totalTokens": 216014
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1779088582821,
+      "inputTokens": 361,
+      "message": "",
+      "outputTokens": 81,
+      "rationale": "This reply just mentions Codex and does not indicate any limit or cap reset.",
+      "reasoningTokens": 37,
+      "totalTokens": 442,
+      "tweetId": "2056271794592682077",
+      "tweetText": "@rowans_planet Coooooodex",
+      "tweetUrl": "https://x.com/thsottiaux/status/2056271794592682077",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1779087971411,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2055809728161460291",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.83,
-      "createdAt": 1778966759913,
-      "inputTokens": 370,
-      "message": "",
-      "outputTokens": 268,
-      "rationale": "This reply suggests something was cleared again, but it does not explicitly say Codex or ChatGPT usage limits reset.",
-      "reasoningTokens": 217,
-      "totalTokens": 638,
-      "tweetId": "2055761513898811407",
-      "tweetText": "@emreertunc_ Yes. There were some cache issues so we cleared everything again",
-      "tweetUrl": "https://x.com/thsottiaux/status/2055761513898811407",
-      "type": "review_requested",
-      "verdict": "uncertain"
     }
   ],
   "privateState": {
-    "ciphertext": "yU7iJCEA9Xa4-w2W8gav6ho7rjFruLO_PtR2_gde_aa-aVXV9QJkx9SfBw",
-    "iv": "wQGk2nCZ_HkMr6GG",
-    "tag": "LuCBLg76OVubTCKT-8uD0w",
+    "ciphertext": "cPlIr1I1VWNr8xOrHuLcVczoHvlJ1upQpf-9iAjRNN9Hc9_0-wuYljCe3Q",
+    "iv": "RBeoSB_W9l4ECjS5",
+    "tag": "PwnB79fm5CQx-wYIKPQExA",
     "version": 1
   }
 }
