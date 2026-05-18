@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1779078988733,
-      "rationale": "This reply is unrelated to Codex or ChatGPT limits and does not mention any reset.",
-      "tweetId": "2056231052168020301",
-      "tweetUrl": "https://x.com/thsottiaux/status/2056231052168020301",
+      "decidedAt": 1779079611128,
+      "rationale": "This is just a casual reply and does not mention any limits, caps, or resets.",
+      "tweetId": "2056234395401637907",
+      "tweetUrl": "https://x.com/thsottiaux/status/2056234395401637907",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2056231052168020301",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2056231052168020301",
+    "lastSeenTweetId": "2056234395401637907",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2056234395401637907",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1779063544754,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2056167231852282156"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1779079611128,
+        "inputTokens": 363,
+        "outputTokens": 64,
+        "rationale": "This is just a casual reply and does not mention any limits, caps, or resets.",
+        "reasoningTokens": 18,
+        "totalTokens": 427,
+        "tweetId": "2056234395401637907",
+        "tweetText": "@mrsukeruton @KansoGame That's cosy!",
+        "tweetUrl": "https://x.com/thsottiaux/status/2056234395401637907",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1779078988733,
@@ -279,29 +292,31 @@
         "tweetText": "Things are recovered and displayed usage limits should be back to where they were 2 hours ago.",
         "tweetUrl": "https://x.com/thsottiaux/status/2056121267938627654",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.98,
-        "evaluatedAt": 1779051100892,
-        "inputTokens": 422,
-        "outputTokens": 134,
-        "rationale": "The post only reports an ongoing Codex usage-limit sync issue being investigated, not that limits have reset.",
-        "reasoningTokens": 85,
-        "totalTokens": 556,
-        "tweetId": "2056114308657098867",
-        "tweetText": "@petergostev https://t.co/VsMPhUpf8X",
-        "tweetUrl": "https://x.com/thsottiaux/status/2056114308657098867",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 167565,
-      "totalOutputTokens": 45802,
-      "totalReasoningTokens": 24754,
-      "totalTokens": 213367
+      "totalInputTokens": 167928,
+      "totalOutputTokens": 45866,
+      "totalReasoningTokens": 24772,
+      "totalTokens": 213794
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1779079611128,
+      "inputTokens": 363,
+      "message": "",
+      "outputTokens": 64,
+      "rationale": "This is just a casual reply and does not mention any limits, caps, or resets.",
+      "reasoningTokens": 18,
+      "totalTokens": 427,
+      "tweetId": "2056234395401637907",
+      "tweetText": "@mrsukeruton @KansoGame That's cosy!",
+      "tweetUrl": "https://x.com/thsottiaux/status/2056234395401637907",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1779078988733,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2055738389618676215",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1778960863258,
-      "inputTokens": 496,
-      "message": "",
-      "outputTokens": 80,
-      "rationale": "This post and its quote are about Codex product improvements, not usage limits or resets.",
-      "reasoningTokens": 34,
-      "totalTokens": 576,
-      "tweetId": "2055735802894954612",
-      "tweetText": "I don't know why we ship on Saturdays now, but here are a bunch of nice improvements for Codex. \n\nDidn't feel right to hold this back until Tuesday when it all makes it a lot more delightful to use.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2055735802894954612",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "ryBQi1AZmepUeYO2lQVZRDOXQCUG29qDTLm3Kb-bdoF6ag5__2-AEtz29A",
-    "iv": "wvP-HnsFgo8d1UeU",
-    "tag": "b48_Q__AmFn13XWxoYrATg",
+    "ciphertext": "kys7wVCzSz75g33Rg9uW02YachqddsU2ro3HcDd0u0TkUXHnatXEA4aQjA",
+    "iv": "Pz8w3u20tgVjqfmJ",
+    "tag": "zSPbBvyfaZTwyTArn-cNlg",
     "version": 1
   }
 }
