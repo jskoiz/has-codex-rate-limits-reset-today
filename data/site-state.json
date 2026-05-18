@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1779064765771,
-      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-      "tweetId": "2056172152030937354",
-      "tweetUrl": "https://x.com/thsottiaux/status/2056172152030937354",
+      "decidedAt": 1779064769028,
+      "rationale": "This reply is unrelated to any Codex or ChatGPT limit reset.",
+      "tweetId": "2056172267223277667",
+      "tweetUrl": "https://x.com/thsottiaux/status/2056172267223277667",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2056172152030937354",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2056172152030937354",
+    "lastSeenTweetId": "2056172267223277667",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2056172267223277667",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1779063544754,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2056167231852282156"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1779064769028,
+        "inputTokens": 363,
+        "outputTokens": 98,
+        "rationale": "This reply is unrelated to any Codex or ChatGPT limit reset.",
+        "reasoningTokens": 56,
+        "totalTokens": 461,
+        "tweetId": "2056172267223277667",
+        "tweetText": "@techfrenAJ It’s a big /goal",
+        "tweetUrl": "https://x.com/thsottiaux/status/2056172267223277667",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1779064765771,
@@ -279,29 +292,31 @@
         "tweetText": "@RhysSullivan Team is on it",
         "tweetUrl": "https://x.com/thsottiaux/status/2056109615625150931",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1779047371423,
-        "inputTokens": 362,
-        "outputTokens": 86,
-        "rationale": "This reply is unrelated to any rate-limit or usage reset.",
-        "reasoningTokens": 46,
-        "totalTokens": 448,
-        "tweetId": "2056098939116630399",
-        "tweetText": "@petergostev Many walls in this one",
-        "tweetUrl": "https://x.com/thsottiaux/status/2056098939116630399",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 166116,
-      "totalOutputTokens": 45444,
-      "totalReasoningTokens": 24575,
-      "totalTokens": 211560
+      "totalInputTokens": 166479,
+      "totalOutputTokens": 45542,
+      "totalReasoningTokens": 24631,
+      "totalTokens": 212021
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1779064769028,
+      "inputTokens": 363,
+      "message": "",
+      "outputTokens": 98,
+      "rationale": "This reply is unrelated to any Codex or ChatGPT limit reset.",
+      "reasoningTokens": 56,
+      "totalTokens": 461,
+      "tweetId": "2056172267223277667",
+      "tweetText": "@techfrenAJ It’s a big /goal",
+      "tweetUrl": "https://x.com/thsottiaux/status/2056172267223277667",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1779064765771,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2055722746479616194",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1778957771566,
-      "inputTokens": 367,
-      "message": "",
-      "outputTokens": 72,
-      "rationale": "This reply just asks which subscription plan someone is on and does not indicate any limits have reset.",
-      "reasoningTokens": 25,
-      "totalTokens": 439,
-      "tweetId": "2055722700530933780",
-      "tweetText": "@dev_bordecraft @paraddox Which plan are you on?",
-      "tweetUrl": "https://x.com/thsottiaux/status/2055722700530933780",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "eQhjrUAqoTuCFNqXXRbAq1Tz4P_7F2FMUor-7_-r3f1DUn2K3rIyJXx4YQ",
-    "iv": "lIDnJzFHE3sCmlaW",
-    "tag": "3_zy8BcM6cDZjaDCyygdRg",
+    "ciphertext": "y_rTbEVvjdXOCX7G-T8idnoqXWw_oSRqFWOt49bH-a7T_1pPyzGserTt2A",
+    "iv": "cjNtfTewrBk2fQRx",
+    "tag": "u4sq6SIeYPBQ_4WEJJE7UQ",
     "version": 1
   }
 }
