@@ -14,16 +14,16 @@
   "updatedAt": 1779058264950,
   "automation": {
     "lastDecision": {
-      "confidence": 0.95,
-      "decidedAt": 1779063544754,
-      "rationale": "This reply gives no clear indication that any Codex or ChatGPT limit has reset.",
-      "tweetId": "2056167231852282156",
-      "tweetUrl": "https://x.com/thsottiaux/status/2056167231852282156",
-      "verdict": "uncertain"
+      "confidence": 0.99,
+      "decidedAt": 1779063854080,
+      "rationale": "This reply does not mention limits, caps, or any reset.",
+      "tweetId": "2056167819604328485",
+      "tweetUrl": "https://x.com/thsottiaux/status/2056167819604328485",
+      "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2056167231852282156",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2056167231852282156",
+    "lastSeenTweetId": "2056167819604328485",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2056167819604328485",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1779063544754,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2056167231852282156"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1779063854080,
+        "inputTokens": 358,
+        "outputTokens": 73,
+        "rationale": "This reply does not mention limits, caps, or any reset.",
+        "reasoningTokens": 32,
+        "totalTokens": 431,
+        "tweetId": "2056167819604328485",
+        "tweetText": "@remilouf Oh no",
+        "tweetUrl": "https://x.com/thsottiaux/status/2056167819604328485",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.95,
         "evaluatedAt": 1779063544754,
@@ -279,29 +292,31 @@
         "tweetText": "@MParakhin Seems unrelated. Model mistakes happen. Do you have a thread id? You can generate it using /feedback",
         "tweetUrl": "https://x.com/thsottiaux/status/2056093364307796073",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1779044886846,
-        "inputTokens": 371,
-        "outputTokens": 93,
-        "rationale": "This reply is about pricing/features for a higher-tier plan, not a rate-limit reset.",
-        "reasoningTokens": 47,
-        "totalTokens": 464,
-        "tweetId": "2056088183461556303",
-        "tweetText": "@kr0der What would you like to see in a &gt; $1000 plan",
-        "tweetUrl": "https://x.com/thsottiaux/status/2056088183461556303",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 164675,
-      "totalOutputTokens": 45138,
-      "totalReasoningTokens": 24442,
-      "totalTokens": 209813
+      "totalInputTokens": 165033,
+      "totalOutputTokens": 45211,
+      "totalReasoningTokens": 24474,
+      "totalTokens": 210244
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1779063854080,
+      "inputTokens": 358,
+      "message": "",
+      "outputTokens": 73,
+      "rationale": "This reply does not mention limits, caps, or any reset.",
+      "reasoningTokens": 32,
+      "totalTokens": 431,
+      "tweetId": "2056167819604328485",
+      "tweetText": "@remilouf Oh no",
+      "tweetUrl": "https://x.com/thsottiaux/status/2056167819604328485",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.95,
       "createdAt": 1779063544754,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2055708843070673295",
       "type": "review_requested",
       "verdict": "uncertain"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1778954351353,
-      "inputTokens": 386,
-      "message": "",
-      "outputTokens": 86,
-      "rationale": "This reply is just recommending a feature and does not mention limits, caps, or a reset.",
-      "reasoningTokens": 39,
-      "totalTokens": 472,
-      "tweetId": "2055708710077706532",
-      "tweetText": "Recommend trying the new remote control feature through the ChatGPT app if you are on the go.\n\nhttps://t.co/R48NTvYgqZ",
-      "tweetUrl": "https://x.com/thsottiaux/status/2055708710077706532",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "70ezm1Scg6_ABDv_Oy2Uk1hdcxMLePZn_mbNsVVWVomG5uTi45bIotYvyg",
-    "iv": "Kd3lYeYMUfpQNEX4",
-    "tag": "_2t7VJHvfuEVo8Hx19KEEw",
+    "ciphertext": "tinTae1C6OgFuU-djQuUASBF4zbZ8X0o7buRy8a8U47ZTTBXL2Q6Xmlq0g",
+    "iv": "VMtdHLPSktcm2EMf",
+    "tag": "XnEfqNyyKhTsiwymESC-nA",
     "version": 1
   }
 }
