@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1779087966805,
-      "rationale": "This is a promotional uptime joke and does not indicate any limit or cap reset.",
-      "tweetId": "2056268894646812978",
-      "tweetUrl": "https://x.com/thsottiaux/status/2056268894646812978",
+      "decidedAt": 1779087971411,
+      "rationale": "This reply does not mention limits, caps, or usage becoming available again.",
+      "tweetId": "2056268987907084661",
+      "tweetUrl": "https://x.com/thsottiaux/status/2056268987907084661",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2056268894646812978",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2056268894646812978",
+    "lastSeenTweetId": "2056268987907084661",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2056268987907084661",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1779063544754,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2056167231852282156"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1779087971411,
+        "inputTokens": 356,
+        "outputTokens": 73,
+        "rationale": "This reply does not mention limits, caps, or usage becoming available again.",
+        "reasoningTokens": 30,
+        "totalTokens": 429,
+        "tweetId": "2056268987907084661",
+        "tweetText": "Midnight thoughts",
+        "tweetUrl": "https://x.com/thsottiaux/status/2056268987907084661",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1779087966805,
@@ -279,29 +292,31 @@
         "tweetText": "@mattlam_ @mweinbach We don’t. It’s all just magic. We stare at the screens and pray.",
         "tweetUrl": "https://x.com/thsottiaux/status/2056145873240011180",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1779058264950,
-        "inputTokens": 469,
-        "outputTokens": 101,
-        "rationale": "The tweet explicitly says Codex usage limits are back to normal and restored to where users left off.",
-        "reasoningTokens": 52,
-        "totalTokens": 570,
-        "tweetId": "2056144502088437799",
-        "tweetText": "Codex usage limits are back to normal. For ~2 hours we had some issues where the enforced limits were wrong for the majority of users on a subscription.\n\nWe waived usage consumption for that time and things should be set again to exactly to where you left it. \n\nBack to codexing.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2056144502088437799",
-        "verdict": "reset_confirmed"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 169020,
-      "totalOutputTokens": 46123,
-      "totalReasoningTokens": 24897,
-      "totalTokens": 215143
+      "totalInputTokens": 169376,
+      "totalOutputTokens": 46196,
+      "totalReasoningTokens": 24927,
+      "totalTokens": 215572
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1779087971411,
+      "inputTokens": 356,
+      "message": "",
+      "outputTokens": 73,
+      "rationale": "This reply does not mention limits, caps, or usage becoming available again.",
+      "reasoningTokens": 30,
+      "totalTokens": 429,
+      "tweetId": "2056268987907084661",
+      "tweetText": "Midnight thoughts",
+      "tweetUrl": "https://x.com/thsottiaux/status/2056268987907084661",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1779087966805,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2055761513898811407",
       "type": "review_requested",
       "verdict": "uncertain"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1778966450911,
-      "inputTokens": 406,
-      "message": "",
-      "outputTokens": 95,
-      "rationale": "This mentions a generic product-development reset, not Codex or ChatGPT usage limits resetting.",
-      "reasoningTokens": 49,
-      "totalTokens": 501,
-      "tweetId": "2055759809698550263",
-      "tweetText": "Ship =&gt; Feedback =&gt; Ship =&gt; Feedback =&gt; Ship =&gt; Oops something not quite right =&gt; Reset =&gt; Yay =&gt; Ship =&gt; …\n\nThe never ending cycle of Codex improvements",
-      "tweetUrl": "https://x.com/thsottiaux/status/2055759809698550263",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "H8HBLO2nZs3a-5ve8SV8kb8_67PEvoMjShup8i_-5-p6x7iPXGfYA5Rg0A",
-    "iv": "ldh33i7ROY32zuNz",
-    "tag": "nIW14R89jlrY5cprfpw8Yg",
+    "ciphertext": "yU7iJCEA9Xa4-w2W8gav6ho7rjFruLO_PtR2_gde_aa-aVXV9QJkx9SfBw",
+    "iv": "wQGk2nCZ_HkMr6GG",
+    "tag": "LuCBLg76OVubTCKT-8uD0w",
     "version": 1
   }
 }
