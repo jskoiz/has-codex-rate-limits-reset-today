@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1779088582821,
-      "rationale": "This reply just mentions Codex and does not indicate any limit or cap reset.",
-      "tweetId": "2056271794592682077",
-      "tweetUrl": "https://x.com/thsottiaux/status/2056271794592682077",
+      "decidedAt": 1779127717050,
+      "rationale": "This is a general comment about using Codex, not about limits or a reset.",
+      "tweetId": "2056435779120062725",
+      "tweetUrl": "https://x.com/thsottiaux/status/2056435779120062725",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2056271794592682077",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2056271794592682077",
+    "lastSeenTweetId": "2056435779120062725",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2056435779120062725",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1779063544754,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2056167231852282156"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1779127717050,
+        "inputTokens": 394,
+        "outputTokens": 88,
+        "rationale": "This is a general comment about using Codex, not about limits or a reset.",
+        "reasoningTokens": 43,
+        "totalTokens": 482,
+        "tweetId": "2056435779120062725",
+        "tweetText": "So many times I mentally go \"I don't have time for that\" and then correct myself re-realizing I can just ask Codex to do it. And more often than not, it just does it.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2056435779120062725",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1779088582821,
@@ -279,29 +292,31 @@
         "tweetText": "@daradoescode @OpenAI Top 1% larper",
         "tweetUrl": "https://x.com/thsottiaux/status/2056152126515200103",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1779059820724,
-        "inputTokens": 358,
-        "outputTokens": 71,
-        "rationale": "This is just a conversational reply and does not mention limits or a reset.",
-        "reasoningTokens": 28,
-        "totalTokens": 429,
-        "tweetId": "2056151538733818225",
-        "tweetText": "@jxnlco Hi Jason",
-        "tweetUrl": "https://x.com/thsottiaux/status/2056151538733818225",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 169737,
-      "totalOutputTokens": 46277,
-      "totalReasoningTokens": 24964,
-      "totalTokens": 216014
+      "totalInputTokens": 170131,
+      "totalOutputTokens": 46365,
+      "totalReasoningTokens": 25007,
+      "totalTokens": 216496
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1779127717050,
+      "inputTokens": 394,
+      "message": "",
+      "outputTokens": 88,
+      "rationale": "This is a general comment about using Codex, not about limits or a reset.",
+      "reasoningTokens": 43,
+      "totalTokens": 482,
+      "tweetId": "2056435779120062725",
+      "tweetText": "So many times I mentally go \"I don't have time for that\" and then correct myself re-realizing I can just ask Codex to do it. And more often than not, it just does it.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2056435779120062725",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1779088582821,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2055813011387113868",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1778978525471,
-      "inputTokens": 399,
-      "message": "",
-      "outputTokens": 72,
-      "rationale": "This reply discusses product design choices and does not mention limits, caps, or a reset.",
-      "reasoningTokens": 26,
-      "totalTokens": 471,
-      "tweetId": "2055809728161460291",
-      "tweetText": "@apanasenko @Angaisb_ Anton is one of the magicians behind codex and remote control. \n\nThe design choices are deliberate, would love to hear if that resolves it for you @Angaisb_",
-      "tweetUrl": "https://x.com/thsottiaux/status/2055809728161460291",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "cPlIr1I1VWNr8xOrHuLcVczoHvlJ1upQpf-9iAjRNN9Hc9_0-wuYljCe3Q",
-    "iv": "RBeoSB_W9l4ECjS5",
-    "tag": "PwnB79fm5CQx-wYIKPQExA",
+    "ciphertext": "4r5IPOk3_cjJMOoDbvjDUXhcv6FNBqR1H9fjA42okKr8V9eAoY_o0XtNSw",
+    "iv": "dqOdjpYZk6pJHTr6",
+    "tag": "UU3NrD2cisbv91Zl1b_Kqw",
     "version": 1
   }
 }
