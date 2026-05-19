@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1779159060726,
-      "rationale": "This reply is conversational and does not mention any rate limit or usage reset.",
-      "tweetId": "2056567390583046412",
-      "tweetUrl": "https://x.com/thsottiaux/status/2056567390583046412",
+      "decidedAt": 1779159065770,
+      "rationale": "This is just a conversational reply and does not say limits or usage have reset.",
+      "tweetId": "2056568002443886828",
+      "tweetUrl": "https://x.com/thsottiaux/status/2056568002443886828",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2056567390583046412",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2056567390583046412",
+    "lastSeenTweetId": "2056568002443886828",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2056568002443886828",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1779063544754,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2056167231852282156"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1779159065770,
+        "inputTokens": 365,
+        "outputTokens": 115,
+        "rationale": "This is just a conversational reply and does not say limits or usage have reset.",
+        "reasoningTokens": 71,
+        "totalTokens": 480,
+        "tweetId": "2056568002443886828",
+        "tweetText": "@charliermarsh Mission accomplished. It was worth it already",
+        "tweetUrl": "https://x.com/thsottiaux/status/2056568002443886828",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1779159060726,
@@ -279,29 +292,31 @@
         "tweetText": "@viewsfrom02108 Me too",
         "tweetUrl": "https://x.com/thsottiaux/status/2056154392731300137",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1779060459691,
-        "inputTokens": 358,
-        "outputTokens": 84,
-        "rationale": "This is just a brief conversational reply and does not mention limits or a reset.",
-        "reasoningTokens": 40,
-        "totalTokens": 442,
-        "tweetId": "2056154350175830261",
-        "tweetText": "@fitchmultz Nice",
-        "tweetUrl": "https://x.com/thsottiaux/status/2056154350175830261",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 170491,
-      "totalOutputTokens": 46434,
-      "totalReasoningTokens": 25033,
-      "totalTokens": 216925
+      "totalInputTokens": 170856,
+      "totalOutputTokens": 46549,
+      "totalReasoningTokens": 25104,
+      "totalTokens": 217405
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1779159065770,
+      "inputTokens": 365,
+      "message": "",
+      "outputTokens": 115,
+      "rationale": "This is just a conversational reply and does not say limits or usage have reset.",
+      "reasoningTokens": 71,
+      "totalTokens": 480,
+      "tweetId": "2056568002443886828",
+      "tweetText": "@charliermarsh Mission accomplished. It was worth it already",
+      "tweetUrl": "https://x.com/thsottiaux/status/2056568002443886828",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1779159060726,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2055815279893180738",
       "type": "review_requested",
       "verdict": "uncertain"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1778979461498,
-      "inputTokens": 370,
-      "message": "",
-      "outputTokens": 87,
-      "rationale": "This is a poetic post and does not mention limits, caps, or a reset.",
-      "reasoningTokens": 42,
-      "totalTokens": 457,
-      "tweetId": "2055814162442588466",
-      "tweetText": "tok tok goes the token\nsilicon dreams wake in sand\nmachines ask why now",
-      "tweetUrl": "https://x.com/thsottiaux/status/2055814162442588466",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "W1nFgnX_2N3-UsW1IaVGpLJxEA_HOXNAeqUk7o6XKIH91uCCWzHDLVSX8w",
-    "iv": "7KSTgtZ5HEkhzW49",
-    "tag": "z2OPROcyX_iQHneEu0tq7w",
+    "ciphertext": "9ZdWFp8zcfha5mTWLNxAej6cLBB6Ij-XO2kP2uV3Uupq401uiBY76upPTQ",
+    "iv": "nsraxDf7kAdOxXPt",
+    "tag": "0j4cCYNmSiQP0W9WuJYSTg",
     "version": 1
   }
 }
