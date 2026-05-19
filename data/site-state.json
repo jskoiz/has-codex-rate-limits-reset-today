@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1779159065770,
-      "rationale": "This is just a conversational reply and does not say limits or usage have reset.",
-      "tweetId": "2056568002443886828",
-      "tweetUrl": "https://x.com/thsottiaux/status/2056568002443886828",
+      "decidedAt": 1779159372007,
+      "rationale": "This reply just says \"Kodex\" and does not mention limits, caps, or usage resetting.",
+      "tweetId": "2056569442344288375",
+      "tweetUrl": "https://x.com/thsottiaux/status/2056569442344288375",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2056568002443886828",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2056568002443886828",
+    "lastSeenTweetId": "2056569442344288375",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2056569442344288375",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1779063544754,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2056167231852282156"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1779159372007,
+        "inputTokens": 359,
+        "outputTokens": 85,
+        "rationale": "This reply just says \"Kodex\" and does not mention limits, caps, or usage resetting.",
+        "reasoningTokens": 37,
+        "totalTokens": 444,
+        "tweetId": "2056569442344288375",
+        "tweetText": "@priest_099 Kodex",
+        "tweetUrl": "https://x.com/thsottiaux/status/2056569442344288375",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1779159065770,
@@ -279,29 +292,31 @@
         "tweetText": "@RhysSullivan Poor beagle",
         "tweetUrl": "https://x.com/thsottiaux/status/2056154564144058778",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1779060463146,
-        "inputTokens": 359,
-        "outputTokens": 71,
-        "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-        "reasoningTokens": 27,
-        "totalTokens": 430,
-        "tweetId": "2056154392731300137",
-        "tweetText": "@viewsfrom02108 Me too",
-        "tweetUrl": "https://x.com/thsottiaux/status/2056154392731300137",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 170856,
-      "totalOutputTokens": 46549,
-      "totalReasoningTokens": 25104,
-      "totalTokens": 217405
+      "totalInputTokens": 171215,
+      "totalOutputTokens": 46634,
+      "totalReasoningTokens": 25141,
+      "totalTokens": 217849
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1779159372007,
+      "inputTokens": 359,
+      "message": "",
+      "outputTokens": 85,
+      "rationale": "This reply just says \"Kodex\" and does not mention limits, caps, or usage resetting.",
+      "reasoningTokens": 37,
+      "totalTokens": 444,
+      "tweetId": "2056569442344288375",
+      "tweetText": "@priest_099 Kodex",
+      "tweetUrl": "https://x.com/thsottiaux/status/2056569442344288375",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1779159065770,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2055895897603784919",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.9,
-      "createdAt": 1778979776685,
-      "inputTokens": 375,
-      "message": "",
-      "outputTokens": 227,
-      "rationale": "This reply hints at a delay or cache issue but does not clearly say limits have reset or usage is available again.",
-      "reasoningTokens": 176,
-      "totalTokens": 602,
-      "tweetId": "2055815279893180738",
-      "tweetText": "@titan23187 Might be taking a few minutes or local cache, have you tried to logout and then login?",
-      "tweetUrl": "https://x.com/thsottiaux/status/2055815279893180738",
-      "type": "review_requested",
-      "verdict": "uncertain"
     }
   ],
   "privateState": {
-    "ciphertext": "9ZdWFp8zcfha5mTWLNxAej6cLBB6Ij-XO2kP2uV3Uupq401uiBY76upPTQ",
-    "iv": "nsraxDf7kAdOxXPt",
-    "tag": "0j4cCYNmSiQP0W9WuJYSTg",
+    "ciphertext": "bOB1ttzun-jD2hN3MoXNKv7j85OvvUIF9WYX4KIjzqAsYCahvNXWIAb2RA",
+    "iv": "PrcobVqPLivaF-DJ",
+    "tag": "i9bS7BimE0lck3yXFCSnZQ",
     "version": 1
   }
 }
