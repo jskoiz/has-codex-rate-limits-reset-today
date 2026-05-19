@@ -1,5 +1,5 @@
 {
-  "currentState": "no",
+  "currentState": "yes",
   "autoResetHours": 20,
   "noSubtitles": [
     "Back to your local model peasant",
@@ -10,29 +10,35 @@
     "Limits reset, go crazy",
     "You can just build things"
   ],
-  "resetAt": null,
-  "updatedAt": 1779058264950,
+  "resetAt": 1779298519502,
+  "updatedAt": 1779226519502,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1779159372007,
-      "rationale": "This reply just says \"Kodex\" and does not mention limits, caps, or usage resetting.",
-      "tweetId": "2056569442344288375",
-      "tweetUrl": "https://x.com/thsottiaux/status/2056569442344288375",
-      "verdict": "not_reset"
+      "confidence": 0.98,
+      "decidedAt": 1779226519502,
+      "rationale": "The quote says he would reset Codex rate limits, and this post says he did it and tells users to enjoy their Codex…",
+      "tweetId": "2056851041132696025",
+      "tweetUrl": "https://x.com/thsottiaux/status/2056851041132696025",
+      "verdict": "reset_confirmed"
     },
     "lastError": null,
-    "lastSeenTweetId": "2056569442344288375",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2056569442344288375",
-    "pendingReview": {
-      "confidence": 0.95,
-      "createdAt": 1779063544754,
-      "rationale": "This reply gives no clear indication that any Codex or ChatGPT limit has reset.",
-      "tweetId": "2056167231852282156",
-      "tweetText": "@KaiXCreator You tell me",
-      "tweetUrl": "https://x.com/thsottiaux/status/2056167231852282156"
-    },
+    "lastSeenTweetId": "2056851041132696025",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2056851041132696025",
+    "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.98,
+        "evaluatedAt": 1779226519502,
+        "inputTokens": 432,
+        "outputTokens": 155,
+        "rationale": "The quote says he would reset Codex rate limits, and this post says he did it and tells users to enjoy their Codex…",
+        "reasoningTokens": 97,
+        "totalTokens": 587,
+        "tweetId": "2056851041132696025",
+        "tweetText": "At some point I counted one like, so I went and did the thing. Enjoy your Codex usage. We had a few things to celebrate this week 👀",
+        "tweetUrl": "https://x.com/thsottiaux/status/2056851041132696025",
+        "verdict": "reset_confirmed"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1779159372007,
@@ -279,29 +285,31 @@
         "tweetText": "@KaiXCreator You tell me",
         "tweetUrl": "https://x.com/thsottiaux/status/2056167231852282156",
         "verdict": "uncertain"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1779060466617,
-        "inputTokens": 360,
-        "outputTokens": 95,
-        "rationale": "This reply is unrelated to Codex or ChatGPT limits and does not indicate any reset.",
-        "reasoningTokens": 49,
-        "totalTokens": 455,
-        "tweetId": "2056154564144058778",
-        "tweetText": "@RhysSullivan Poor beagle",
-        "tweetUrl": "https://x.com/thsottiaux/status/2056154564144058778",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 171215,
-      "totalOutputTokens": 46634,
-      "totalReasoningTokens": 25141,
-      "totalTokens": 217849
+      "totalInputTokens": 171647,
+      "totalOutputTokens": 46789,
+      "totalReasoningTokens": 25238,
+      "totalTokens": 218436
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.98,
+      "createdAt": 1779226519502,
+      "inputTokens": 432,
+      "message": "",
+      "outputTokens": 155,
+      "rationale": "The quote says he would reset Codex rate limits, and this post says he did it and tells users to enjoy their Codex…",
+      "reasoningTokens": 97,
+      "totalTokens": 587,
+      "tweetId": "2056851041132696025",
+      "tweetText": "At some point I counted one like, so I went and did the thing. Enjoy your Codex usage. We had a few things to celebrate this week 👀",
+      "tweetUrl": "https://x.com/thsottiaux/status/2056851041132696025",
+      "type": "reset_confirmed",
+      "verdict": "reset_confirmed"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1779159372007,
@@ -886,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2055898784178258379",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1778998979848,
-      "inputTokens": 375,
-      "message": "",
-      "outputTokens": 77,
-      "rationale": "This reply is troubleshooting behavior and does not mention limits, caps, or a reset.",
-      "reasoningTokens": 32,
-      "totalTokens": 452,
-      "tweetId": "2055895897603784919",
-      "tweetText": "@mweinbach Not normal. What are the steps you take when this happens and have you tried a fresh install?",
-      "tweetUrl": "https://x.com/thsottiaux/status/2055895897603784919",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "bOB1ttzun-jD2hN3MoXNKv7j85OvvUIF9WYX4KIjzqAsYCahvNXWIAb2RA",
-    "iv": "PrcobVqPLivaF-DJ",
-    "tag": "i9bS7BimE0lck3yXFCSnZQ",
+    "ciphertext": "ovmEJ-cdy8NVodRYjwvM6vDSgKUtDXW5xfVmX90UX7kARcZh36B4crK7eA",
+    "iv": "DolvRSyZgdcGRQgz",
+    "tag": "r1oGrvwm86naw0mqv4pjWw",
     "version": 1
   }
 }
