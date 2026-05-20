@@ -14,18 +14,31 @@
   "updatedAt": 1779226519502,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1779248520257,
-      "rationale": "This reply is about joining the Codex team, not about usage limits or resets.",
-      "tweetId": "2056943348058038659",
-      "tweetUrl": "https://x.com/thsottiaux/status/2056943348058038659",
+      "confidence": 0.98,
+      "decidedAt": 1779249162259,
+      "rationale": "This reply is conversational and does not say any Codex or ChatGPT limit has reset.",
+      "tweetId": "2056944886071640419",
+      "tweetUrl": "https://x.com/thsottiaux/status/2056944886071640419",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2056943348058038659",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2056943348058038659",
+    "lastSeenTweetId": "2056944886071640419",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2056944886071640419",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.98,
+        "evaluatedAt": 1779249162259,
+        "inputTokens": 364,
+        "outputTokens": 112,
+        "rationale": "This reply is conversational and does not say any Codex or ChatGPT limit has reset.",
+        "reasoningTokens": 66,
+        "totalTokens": 476,
+        "tweetId": "2056944886071640419",
+        "tweetText": "@sflorimm Just you. Enjoy all the compute",
+        "tweetUrl": "https://x.com/thsottiaux/status/2056944886071640419",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1779248520257,
@@ -272,29 +285,31 @@
         "tweetText": "@nofil_ai Tell me more",
         "tweetUrl": "https://x.com/thsottiaux/status/2056172362207576360",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1779064769028,
-        "inputTokens": 363,
-        "outputTokens": 98,
-        "rationale": "This reply is unrelated to any Codex or ChatGPT limit reset.",
-        "reasoningTokens": 56,
-        "totalTokens": 461,
-        "tweetId": "2056172267223277667",
-        "tweetText": "@techfrenAJ It’s a big /goal",
-        "tweetUrl": "https://x.com/thsottiaux/status/2056172267223277667",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 173678,
-      "totalOutputTokens": 47193,
-      "totalReasoningTokens": 25413,
-      "totalTokens": 220871
+      "totalInputTokens": 174042,
+      "totalOutputTokens": 47305,
+      "totalReasoningTokens": 25479,
+      "totalTokens": 221347
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.98,
+      "createdAt": 1779249162259,
+      "inputTokens": 364,
+      "message": "",
+      "outputTokens": 112,
+      "rationale": "This reply is conversational and does not say any Codex or ChatGPT limit has reset.",
+      "reasoningTokens": 66,
+      "totalTokens": 476,
+      "tweetId": "2056944886071640419",
+      "tweetText": "@sflorimm Just you. Enjoy all the compute",
+      "tweetUrl": "https://x.com/thsottiaux/status/2056944886071640419",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1779248520257,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2056109615625150931",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1779047371423,
-      "inputTokens": 362,
-      "message": "",
-      "outputTokens": 86,
-      "rationale": "This reply is unrelated to any rate-limit or usage reset.",
-      "reasoningTokens": 46,
-      "totalTokens": 448,
-      "tweetId": "2056098939116630399",
-      "tweetText": "@petergostev Many walls in this one",
-      "tweetUrl": "https://x.com/thsottiaux/status/2056098939116630399",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "_mSJLbbTpFOW5LP6OHy04BkcBczlKPN9SB7_5l7GKjAcmW3Orop2z5k79Q",
-    "iv": "yozh8TweoXg5liCD",
-    "tag": "67fWLrwJptPjUEYFG55wxw",
+    "ciphertext": "fqVInMrM2NKkUnkLfwWQF77Q_t4mui_Se3fwUVbRKST0CPBNSZFeVNC8KA",
+    "iv": "B7sQeSHrf9s-KF4-",
+    "tag": "x-8A4-BYA5SesNQhXjE_lg",
     "version": 1
   }
 }
