@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1779227768887,
-      "rationale": "This quote tweet is just reacting to Codex usage and does not mention limits or a reset.",
-      "tweetId": "2056855274007527708",
-      "tweetUrl": "https://x.com/thsottiaux/status/2056855274007527708",
+      "decidedAt": 1779242644442,
+      "rationale": "This is a reaction to a quoted opinion about the Codex app, not a statement that limits reset.",
+      "tweetId": "2056917971730313425",
+      "tweetUrl": "https://x.com/thsottiaux/status/2056917971730313425",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2056855274007527708",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2056855274007527708",
+    "lastSeenTweetId": "2056917971730313425",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2056917971730313425",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1779242644442,
+        "inputTokens": 445,
+        "outputTokens": 98,
+        "rationale": "This is a reaction to a quoted opinion about the Codex app, not a statement that limits reset.",
+        "reasoningTokens": 49,
+        "totalTokens": 543,
+        "tweetId": "2056917971730313425",
+        "tweetText": "What happened to Theo. Who did this to him",
+        "tweetUrl": "https://x.com/thsottiaux/status/2056917971730313425",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1779227768887,
@@ -272,29 +285,31 @@
         "tweetText": "@sierracatalina Should sierra post",
         "tweetUrl": "https://x.com/thsottiaux/status/2056170302707835165",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1779063854080,
-        "inputTokens": 358,
-        "outputTokens": 73,
-        "rationale": "This reply does not mention limits, caps, or any reset.",
-        "reasoningTokens": 32,
-        "totalTokens": 431,
-        "tweetId": "2056167819604328485",
-        "tweetText": "@remilouf Oh no",
-        "tweetUrl": "https://x.com/thsottiaux/status/2056167819604328485",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 172056,
-      "totalOutputTokens": 46880,
-      "totalReasoningTokens": 25282,
-      "totalTokens": 218936
+      "totalInputTokens": 172501,
+      "totalOutputTokens": 46978,
+      "totalReasoningTokens": 25331,
+      "totalTokens": 219479
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1779242644442,
+      "inputTokens": 445,
+      "message": "",
+      "outputTokens": 98,
+      "rationale": "This is a reaction to a quoted opinion about the Codex app, not a statement that limits reset.",
+      "reasoningTokens": 49,
+      "totalTokens": 543,
+      "tweetId": "2056917971730313425",
+      "tweetText": "What happened to Theo. Who did this to him",
+      "tweetUrl": "https://x.com/thsottiaux/status/2056917971730313425",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1779227768887,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2056093364307796073",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1779044886846,
-      "inputTokens": 371,
-      "message": "",
-      "outputTokens": 93,
-      "rationale": "This reply is about pricing/features for a higher-tier plan, not a rate-limit reset.",
-      "reasoningTokens": 47,
-      "totalTokens": 464,
-      "tweetId": "2056088183461556303",
-      "tweetText": "@kr0der What would you like to see in a &gt; $1000 plan",
-      "tweetUrl": "https://x.com/thsottiaux/status/2056088183461556303",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "pSOzoySgabIlyD93u-MhMjftGCa1egS3HFa_-owDK_up4QVzIRJ9uaYwIQ",
-    "iv": "EyKf_S-q8dNQAaFF",
-    "tag": "4r1Nx9qaEmvwYyU1pseZCQ",
+    "ciphertext": "uQhKX73aSt_r6wcYLI7mUV1oUIBq49n2pR3JV9mCqD2S4GcdbzjP_DoREw",
+    "iv": "SVdW8WbUTEfTU1I6",
+    "tag": "J2nWeHQ2I6vPCW9i09y75w",
     "version": 1
   }
 }
