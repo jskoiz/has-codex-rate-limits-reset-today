@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1779245448009,
-      "rationale": "This post is commentary about design and does not mention limits or availability resetting.",
-      "tweetId": "2056930127947395313",
-      "tweetUrl": "https://x.com/thsottiaux/status/2056930127947395313",
+      "decidedAt": 1779245753178,
+      "rationale": "This is a team appreciation post about Codex, not about limits or a reset.",
+      "tweetId": "2056931009896317004",
+      "tweetUrl": "https://x.com/thsottiaux/status/2056931009896317004",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2056930127947395313",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2056930127947395313",
+    "lastSeenTweetId": "2056931009896317004",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2056931009896317004",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1779245753178,
+        "inputTokens": 433,
+        "outputTokens": 70,
+        "rationale": "This is a team appreciation post about Codex, not about limits or a reset.",
+        "reasoningTokens": 25,
+        "totalTokens": 503,
+        "tweetId": "2056931009896317004",
+        "tweetText": "I like to think that Codex is the work of a great team working together in unison. It's the most collaborative team I've gotten the chance to work with. \n\nBut I don't think we could have done it without @ajambrosino's magic. He's been the driving force behind what makes the Codex app the app that everyone wants to emulate. And we are barely getting started.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2056931009896317004",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1779245448009,
@@ -272,29 +285,31 @@
         "tweetText": "@frankzng519 We call it /side",
         "tweetUrl": "https://x.com/thsottiaux/status/2056172152030937354",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1779064472311,
-        "inputTokens": 358,
-        "outputTokens": 78,
-        "rationale": "This reply is conversational and does not mention limits, caps, or usage resetting.",
-        "reasoningTokens": 34,
-        "totalTokens": 436,
-        "tweetId": "2056171149881713143",
-        "tweetText": "@_heyrico Pretty",
-        "tweetUrl": "https://x.com/thsottiaux/status/2056171149881713143",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 172879,
-      "totalOutputTokens": 47043,
-      "totalReasoningTokens": 25353,
-      "totalTokens": 219922
+      "totalInputTokens": 173312,
+      "totalOutputTokens": 47113,
+      "totalReasoningTokens": 25378,
+      "totalTokens": 220425
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1779245753178,
+      "inputTokens": 433,
+      "message": "",
+      "outputTokens": 70,
+      "rationale": "This is a team appreciation post about Codex, not about limits or a reset.",
+      "reasoningTokens": 25,
+      "totalTokens": 503,
+      "tweetId": "2056931009896317004",
+      "tweetText": "I like to think that Codex is the work of a great team working together in unison. It's the most collaborative team I've gotten the chance to work with. \n\nBut I don't think we could have done it without @ajambrosino's magic. He's been the driving force behind what makes the Codex app the app that everyone wants to emulate. And we are barely getting started.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2056931009896317004",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1779245448009,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2056098545934258672",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1779046137121,
-      "inputTokens": 360,
-      "message": "",
-      "outputTokens": 88,
-      "rationale": "This reply asks a general question and gives no indication that any Codex or ChatGPT limits have reset.",
-      "reasoningTokens": 39,
-      "totalTokens": 448,
-      "tweetId": "2056093486513008962",
-      "tweetText": "@southphxceleb What's your reason?",
-      "tweetUrl": "https://x.com/thsottiaux/status/2056093486513008962",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "gPoKRYt-eSnPOKBhsSPW3BTw7jwL876936gLTs2yOIWALObc6REy_HgSGw",
-    "iv": "YO2nJOnd3LCxJhaj",
-    "tag": "u07oOND03KMKZQykSbJxtA",
+    "ciphertext": "IQV7C2GmEom91qgwuZ9HnlZ3VoQkRvblPejRY73pBAW5rBg-g-iiVjIztQ",
+    "iv": "apYFVvbjyZA-_Yhm",
+    "tag": "AhQKR4MKr9xktRIfgQM5Ag",
     "version": 1
   }
 }
