@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1779245753178,
-      "rationale": "This is a team appreciation post about Codex, not about limits or a reset.",
-      "tweetId": "2056931009896317004",
-      "tweetUrl": "https://x.com/thsottiaux/status/2056931009896317004",
+      "decidedAt": 1779248520257,
+      "rationale": "This reply is about joining the Codex team, not about usage limits or resets.",
+      "tweetId": "2056943348058038659",
+      "tweetUrl": "https://x.com/thsottiaux/status/2056943348058038659",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2056931009896317004",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2056931009896317004",
+    "lastSeenTweetId": "2056943348058038659",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2056943348058038659",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1779248520257,
+        "inputTokens": 366,
+        "outputTokens": 80,
+        "rationale": "This reply is about joining the Codex team, not about usage limits or resets.",
+        "reasoningTokens": 35,
+        "totalTokens": 446,
+        "tweetId": "2056943348058038659",
+        "tweetText": "@petergyang Whether he would like to join the Codex team",
+        "tweetUrl": "https://x.com/thsottiaux/status/2056943348058038659",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1779245753178,
@@ -272,29 +285,31 @@
         "tweetText": "@techfrenAJ It’s a big /goal",
         "tweetUrl": "https://x.com/thsottiaux/status/2056172267223277667",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1779064765771,
-        "inputTokens": 363,
-        "outputTokens": 72,
-        "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-        "reasoningTokens": 28,
-        "totalTokens": 435,
-        "tweetId": "2056172152030937354",
-        "tweetText": "@frankzng519 We call it /side",
-        "tweetUrl": "https://x.com/thsottiaux/status/2056172152030937354",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 173312,
-      "totalOutputTokens": 47113,
-      "totalReasoningTokens": 25378,
-      "totalTokens": 220425
+      "totalInputTokens": 173678,
+      "totalOutputTokens": 47193,
+      "totalReasoningTokens": 25413,
+      "totalTokens": 220871
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1779248520257,
+      "inputTokens": 366,
+      "message": "",
+      "outputTokens": 80,
+      "rationale": "This reply is about joining the Codex team, not about usage limits or resets.",
+      "reasoningTokens": 35,
+      "totalTokens": 446,
+      "tweetId": "2056943348058038659",
+      "tweetText": "@petergyang Whether he would like to join the Codex team",
+      "tweetUrl": "https://x.com/thsottiaux/status/2056943348058038659",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1779245753178,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2056098939116630399",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1779047368262,
-      "inputTokens": 390,
-      "message": "",
-      "outputTokens": 80,
-      "rationale": "This reply discusses a full context window and starting a new conversation, not rate limits resetting.",
-      "reasoningTokens": 34,
-      "totalTokens": 470,
-      "tweetId": "2056098545934258672",
-      "tweetText": "@southphxceleb Unless I misunderstand your intent, forking wouldn't work because the context window is full. \n\nYou would have to write everything up yourself and start a new conversation",
-      "tweetUrl": "https://x.com/thsottiaux/status/2056098545934258672",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "IQV7C2GmEom91qgwuZ9HnlZ3VoQkRvblPejRY73pBAW5rBg-g-iiVjIztQ",
-    "iv": "apYFVvbjyZA-_Yhm",
-    "tag": "AhQKR4MKr9xktRIfgQM5Ag",
+    "ciphertext": "_mSJLbbTpFOW5LP6OHy04BkcBczlKPN9SB7_5l7GKjAcmW3Orop2z5k79Q",
+    "iv": "yozh8TweoXg5liCD",
+    "tag": "67fWLrwJptPjUEYFG55wxw",
     "version": 1
   }
 }
