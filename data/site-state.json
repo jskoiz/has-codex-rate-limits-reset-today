@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1779242644442,
-      "rationale": "This is a reaction to a quoted opinion about the Codex app, not a statement that limits reset.",
-      "tweetId": "2056917971730313425",
-      "tweetUrl": "https://x.com/thsottiaux/status/2056917971730313425",
+      "decidedAt": 1779245448009,
+      "rationale": "This post is commentary about design and does not mention limits or availability resetting.",
+      "tweetId": "2056930127947395313",
+      "tweetUrl": "https://x.com/thsottiaux/status/2056930127947395313",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2056917971730313425",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2056917971730313425",
+    "lastSeenTweetId": "2056930127947395313",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2056930127947395313",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1779245448009,
+        "inputTokens": 378,
+        "outputTokens": 65,
+        "rationale": "This post is commentary about design and does not mention limits or availability resetting.",
+        "reasoningTokens": 22,
+        "totalTokens": 443,
+        "tweetId": "2056930127947395313",
+        "tweetText": "I wonder if the Antigravity team has designers. Couldn't believe my eyes today haha. Very flattering to the Codex team.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2056930127947395313",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1779242644442,
@@ -272,29 +285,31 @@
         "tweetText": "@_heyrico Pretty",
         "tweetUrl": "https://x.com/thsottiaux/status/2056171149881713143",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1779064468696,
-        "inputTokens": 362,
-        "outputTokens": 83,
-        "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-        "reasoningTokens": 39,
-        "totalTokens": 445,
-        "tweetId": "2056170302707835165",
-        "tweetText": "@sierracatalina Should sierra post",
-        "tweetUrl": "https://x.com/thsottiaux/status/2056170302707835165",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 172501,
-      "totalOutputTokens": 46978,
-      "totalReasoningTokens": 25331,
-      "totalTokens": 219479
+      "totalInputTokens": 172879,
+      "totalOutputTokens": 47043,
+      "totalReasoningTokens": 25353,
+      "totalTokens": 219922
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1779245448009,
+      "inputTokens": 378,
+      "message": "",
+      "outputTokens": 65,
+      "rationale": "This post is commentary about design and does not mention limits or availability resetting.",
+      "reasoningTokens": 22,
+      "totalTokens": 443,
+      "tweetId": "2056930127947395313",
+      "tweetText": "I wonder if the Antigravity team has designers. Couldn't believe my eyes today haha. Very flattering to the Codex team.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2056930127947395313",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1779242644442,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2056093486513008962",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1779046132567,
-      "inputTokens": 378,
-      "message": "",
-      "outputTokens": 73,
-      "rationale": "This reply discusses a model mistake and feedback, not any limit or cap reset.",
-      "reasoningTokens": 29,
-      "totalTokens": 451,
-      "tweetId": "2056093364307796073",
-      "tweetText": "@MParakhin Seems unrelated. Model mistakes happen. Do you have a thread id? You can generate it using /feedback",
-      "tweetUrl": "https://x.com/thsottiaux/status/2056093364307796073",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "uQhKX73aSt_r6wcYLI7mUV1oUIBq49n2pR3JV9mCqD2S4GcdbzjP_DoREw",
-    "iv": "SVdW8WbUTEfTU1I6",
-    "tag": "J2nWeHQ2I6vPCW9i09y75w",
+    "ciphertext": "gPoKRYt-eSnPOKBhsSPW3BTw7jwL876936gLTs2yOIWALObc6REy_HgSGw",
+    "iv": "YO2nJOnd3LCxJhaj",
+    "tag": "u07oOND03KMKZQykSbJxtA",
     "version": 1
   }
 }
