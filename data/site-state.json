@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1779343384282,
-      "rationale": "This reply is just a reaction about Codex and does not mention limits or a reset.",
-      "tweetId": "2057340236968104197",
-      "tweetUrl": "https://x.com/thsottiaux/status/2057340236968104197",
+      "decidedAt": 1779343387820,
+      "rationale": "This reply just says \"@elonmusk codex\" and gives no indication that any limit or cap has reset.",
+      "tweetId": "2057340390106353833",
+      "tweetUrl": "https://x.com/thsottiaux/status/2057340390106353833",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2057340236968104197",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2057340236968104197",
+    "lastSeenTweetId": "2057340390106353833",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2057340390106353833",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1779343387820,
+        "inputTokens": 358,
+        "outputTokens": 102,
+        "rationale": "This reply just says \"@elonmusk codex\" and gives no indication that any limit or cap has reset.",
+        "reasoningTokens": 50,
+        "totalTokens": 460,
+        "tweetId": "2057340390106353833",
+        "tweetText": "@elonmusk codex",
+        "tweetUrl": "https://x.com/thsottiaux/status/2057340390106353833",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1779343384282,
@@ -272,29 +285,31 @@
         "tweetText": "Midnight thoughts",
         "tweetUrl": "https://x.com/thsottiaux/status/2056268987907084661",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1779087966805,
-        "inputTokens": 370,
-        "outputTokens": 93,
-        "rationale": "This is a promotional uptime joke and does not indicate any limit or cap reset.",
-        "reasoningTokens": 49,
-        "totalTokens": 463,
-        "tweetId": "2056268894646812978",
-        "tweetText": "With 99.98% uptime, Codex only sleeps 8 minutes per month.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2056268894646812978",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 176209,
-      "totalOutputTokens": 47809,
-      "totalReasoningTokens": 25709,
-      "totalTokens": 224018
+      "totalInputTokens": 176567,
+      "totalOutputTokens": 47911,
+      "totalReasoningTokens": 25759,
+      "totalTokens": 224478
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1779343387820,
+      "inputTokens": 358,
+      "message": "",
+      "outputTokens": 102,
+      "rationale": "This reply just says \"@elonmusk codex\" and gives no indication that any limit or cap has reset.",
+      "reasoningTokens": 50,
+      "totalTokens": 460,
+      "tweetId": "2057340390106353833",
+      "tweetText": "@elonmusk codex",
+      "tweetUrl": "https://x.com/thsottiaux/status/2057340390106353833",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1779343384282,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2056144502088437799",
       "type": "reset_confirmed",
       "verdict": "reset_confirmed"
-    },
-    {
-      "confidence": 0.94,
-      "createdAt": 1779057937973,
-      "inputTokens": 354,
-      "message": "",
-      "outputTokens": 149,
-      "rationale": "This reply only says \"Fixed,\" which is too ambiguous to confirm that rate limits or caps have reset.",
-      "reasoningTokens": 100,
-      "totalTokens": 503,
-      "tweetId": "2056143134804070471",
-      "tweetText": "Fixed",
-      "tweetUrl": "https://x.com/thsottiaux/status/2056143134804070471",
-      "type": "review_requested",
-      "verdict": "uncertain"
     }
   ],
   "privateState": {
-    "ciphertext": "soJoemSlSmYc3N6E2q7J16YOIBiIMLOgOjrYWq9dYUHqRCO-u56Kzw-NuA",
-    "iv": "GVJbEGwzS-nu8cyj",
-    "tag": "-NRUc3V2UmMfVxXcvtIvUw",
+    "ciphertext": "k6N3b1U9FB3t4TY8fajz9b8Wlp0HQdaSujzidYg1Qq2QfYbU8JAoG0xZqA",
+    "iv": "CqF9ep6iDSYCPPo7",
+    "tag": "5V0P3i14AKavmvWwpr8MUA",
     "version": 1
   }
 }
