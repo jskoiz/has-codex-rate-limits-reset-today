@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1779343068992,
-      "rationale": "This reply is conversational and says nothing about limits or resets.",
-      "tweetId": "2057340021544464466",
-      "tweetUrl": "https://x.com/thsottiaux/status/2057340021544464466",
+      "decidedAt": 1779343384282,
+      "rationale": "This reply is just a reaction about Codex and does not mention limits or a reset.",
+      "tweetId": "2057340236968104197",
+      "tweetUrl": "https://x.com/thsottiaux/status/2057340236968104197",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2057340021544464466",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2057340021544464466",
+    "lastSeenTweetId": "2057340236968104197",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2057340236968104197",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1779343384282,
+        "inputTokens": 361,
+        "outputTokens": 101,
+        "rationale": "This reply is just a reaction about Codex and does not mention limits or a reset.",
+        "reasoningTokens": 55,
+        "totalTokens": 462,
+        "tweetId": "2057340236968104197",
+        "tweetText": "@scousersvn horified codex",
+        "tweetUrl": "https://x.com/thsottiaux/status/2057340236968104197",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1779343068992,
@@ -272,29 +285,31 @@
         "tweetText": "With 99.98% uptime, Codex only sleeps 8 minutes per month.",
         "tweetUrl": "https://x.com/thsottiaux/status/2056268894646812978",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1779080216331,
-        "inputTokens": 361,
-        "outputTokens": 70,
-        "rationale": "This reply is just conversational and says nothing about limits or availability resetting.",
-        "reasoningTokens": 28,
-        "totalTokens": 431,
-        "tweetId": "2056236338811424802",
-        "tweetText": "@iMuffined Music is cosy indeed!",
-        "tweetUrl": "https://x.com/thsottiaux/status/2056236338811424802",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 175848,
-      "totalOutputTokens": 47708,
-      "totalReasoningTokens": 25654,
-      "totalTokens": 223556
+      "totalInputTokens": 176209,
+      "totalOutputTokens": 47809,
+      "totalReasoningTokens": 25709,
+      "totalTokens": 224018
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1779343384282,
+      "inputTokens": 361,
+      "message": "",
+      "outputTokens": 101,
+      "rationale": "This reply is just a reaction about Codex and does not mention limits or a reset.",
+      "reasoningTokens": 55,
+      "totalTokens": 462,
+      "tweetId": "2057340236968104197",
+      "tweetText": "@scousersvn horified codex",
+      "tweetUrl": "https://x.com/thsottiaux/status/2057340236968104197",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1779343068992,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2056143134804070471",
       "type": "review_requested",
       "verdict": "uncertain"
-    },
-    {
-      "confidence": 0.97,
-      "createdAt": 1779053889207,
-      "inputTokens": 394,
-      "message": "",
-      "outputTokens": 137,
-      "rationale": "This reply discusses account juggling generally and does not say limits or caps have reset.",
-      "reasoningTokens": 93,
-      "totalTokens": 531,
-      "tweetId": "2056125970445472108",
-      "tweetText": "@LuisRevilla @Rajc_1 @DamiDina @OpenAIDevs @OpenAI We’re fine with it, but will make it easier in the future to not need account juggling",
-      "tweetUrl": "https://x.com/thsottiaux/status/2056125970445472108",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "WLbLwF0GY1GbqM60nQv5IBtU8Mo1Cm6zmgIZp9C-SiiMUJ9FyWoPGh4R5g",
-    "iv": "lEbT7ZJMTnowP5iH",
-    "tag": "jYjiL7A87C2OzgfWAPaxEQ",
+    "ciphertext": "soJoemSlSmYc3N6E2q7J16YOIBiIMLOgOjrYWq9dYUHqRCO-u56Kzw-NuA",
+    "iv": "GVJbEGwzS-nu8cyj",
+    "tag": "-NRUc3V2UmMfVxXcvtIvUw",
     "version": 1
   }
 }
