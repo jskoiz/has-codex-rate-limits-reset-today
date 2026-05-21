@@ -14,18 +14,31 @@
   "updatedAt": 1779226519502,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1779400253201,
-      "rationale": "This is a product reaction/quote about Codex features, not about any limits or rate caps resetting.",
-      "tweetId": "2057579674642063452",
-      "tweetUrl": "https://x.com/thsottiaux/status/2057579674642063452",
+      "confidence": 0.98,
+      "decidedAt": 1779400558365,
+      "rationale": "This reply is a joke about unlimited tokens and does not say limits have reset or usage is available again.",
+      "tweetId": "2057580164901679241",
+      "tweetUrl": "https://x.com/thsottiaux/status/2057580164901679241",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2057579674642063452",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2057579674642063452",
+    "lastSeenTweetId": "2057580164901679241",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2057580164901679241",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.98,
+        "evaluatedAt": 1779400558365,
+        "inputTokens": 362,
+        "outputTokens": 118,
+        "rationale": "This reply is a joke about unlimited tokens and does not say limits have reset or usage is available again.",
+        "reasoningTokens": 69,
+        "totalTokens": 480,
+        "tweetId": "2057580164901679241",
+        "tweetText": "@charliermarsh Complain about unlimited tokens",
+        "tweetUrl": "https://x.com/thsottiaux/status/2057580164901679241",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1779400253201,
@@ -272,29 +285,31 @@
         "tweetText": "@btraut Solid reason to join",
         "tweetUrl": "https://x.com/thsottiaux/status/2056567390583046412",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1779127717050,
-        "inputTokens": 394,
-        "outputTokens": 88,
-        "rationale": "This is a general comment about using Codex, not about limits or a reset.",
-        "reasoningTokens": 43,
-        "totalTokens": 482,
-        "tweetId": "2056435779120062725",
-        "tweetText": "So many times I mentally go \"I don't have time for that\" and then correct myself re-realizing I can just ask Codex to do it. And more often than not, it just does it.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2056435779120062725",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 177399,
-      "totalOutputTokens": 48102,
-      "totalReasoningTokens": 25857,
-      "totalTokens": 225501
+      "totalInputTokens": 177761,
+      "totalOutputTokens": 48220,
+      "totalReasoningTokens": 25926,
+      "totalTokens": 225981
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.98,
+      "createdAt": 1779400558365,
+      "inputTokens": 362,
+      "message": "",
+      "outputTokens": 118,
+      "rationale": "This reply is a joke about unlimited tokens and does not say limits have reset or usage is available again.",
+      "reasoningTokens": 69,
+      "totalTokens": 480,
+      "tweetId": "2057580164901679241",
+      "tweetText": "@charliermarsh Complain about unlimited tokens",
+      "tweetUrl": "https://x.com/thsottiaux/status/2057580164901679241",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1779400253201,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2056152126515200103",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1779059820724,
-      "inputTokens": 358,
-      "message": "",
-      "outputTokens": 71,
-      "rationale": "This is just a conversational reply and does not mention limits or a reset.",
-      "reasoningTokens": 28,
-      "totalTokens": 429,
-      "tweetId": "2056151538733818225",
-      "tweetText": "@jxnlco Hi Jason",
-      "tweetUrl": "https://x.com/thsottiaux/status/2056151538733818225",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "I9YdgjmIJ5S0dxJzf13x6zowFcMChjvRmYUSPGP-IeI9-LEv20O2l0W6MA",
-    "iv": "HlA9tTjbPHVibYDy",
-    "tag": "cZqqK063k-QBwgVgvmukSA",
+    "ciphertext": "niZ06OZUiGF5HV-UFMN_8ZJlAsA6_2EgjWmNjYgOkL05jJsmeC7RCXIkFQ",
+    "iv": "RCdne4yCwhZYADM8",
+    "tag": "nsFwCrUq61esQA58wXsfzw",
     "version": 1
   }
 }
