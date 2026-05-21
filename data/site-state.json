@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1779335635851,
-      "rationale": "This is a vague comment about Codex and does not mention limits, caps, or usage becoming available again.",
-      "tweetId": "2057308715834118149",
-      "tweetUrl": "https://x.com/thsottiaux/status/2057308715834118149",
+      "decidedAt": 1779343068992,
+      "rationale": "This reply is conversational and says nothing about limits or resets.",
+      "tweetId": "2057340021544464466",
+      "tweetUrl": "https://x.com/thsottiaux/status/2057340021544464466",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2057308715834118149",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2057308715834118149",
+    "lastSeenTweetId": "2057340021544464466",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2057340021544464466",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1779343068992,
+        "inputTokens": 357,
+        "outputTokens": 66,
+        "rationale": "This reply is conversational and says nothing about limits or resets.",
+        "reasoningTokens": 26,
+        "totalTokens": 423,
+        "tweetId": "2057340021544464466",
+        "tweetText": "@mal_shaik Precious",
+        "tweetUrl": "https://x.com/thsottiaux/status/2057340021544464466",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1779335635851,
@@ -272,29 +285,31 @@
         "tweetText": "@iMuffined Music is cosy indeed!",
         "tweetUrl": "https://x.com/thsottiaux/status/2056236338811424802",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1779079909007,
-        "inputTokens": 361,
-        "outputTokens": 94,
-        "rationale": "This is just a conversational reply and gives no indication that any limit or cap has reset.",
-        "reasoningTokens": 48,
-        "totalTokens": 455,
-        "tweetId": "2056235719614672933",
-        "tweetText": "@RhysSullivan Oh... that's awesome",
-        "tweetUrl": "https://x.com/thsottiaux/status/2056235719614672933",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 175491,
-      "totalOutputTokens": 47642,
-      "totalReasoningTokens": 25628,
-      "totalTokens": 223133
+      "totalInputTokens": 175848,
+      "totalOutputTokens": 47708,
+      "totalReasoningTokens": 25654,
+      "totalTokens": 223556
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1779343068992,
+      "inputTokens": 357,
+      "message": "",
+      "outputTokens": 66,
+      "rationale": "This reply is conversational and says nothing about limits or resets.",
+      "reasoningTokens": 26,
+      "totalTokens": 423,
+      "tweetId": "2057340021544464466",
+      "tweetText": "@mal_shaik Precious",
+      "tweetUrl": "https://x.com/thsottiaux/status/2057340021544464466",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1779335635851,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2056125970445472108",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.93,
-      "createdAt": 1779052650772,
-      "inputTokens": 371,
-      "message": "",
-      "outputTokens": 180,
-      "rationale": "It says the displayed limits recovered to their earlier values, not that rate limits were reset or lifted.",
-      "reasoningTokens": 132,
-      "totalTokens": 551,
-      "tweetId": "2056121267938627654",
-      "tweetText": "Things are recovered and displayed usage limits should be back to where they were 2 hours ago.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2056121267938627654",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "9TTxudpWIforuJYhAMGjYFMmIvrOQq6Lj8qabP0VdKC0cNOYrfuuyC40dg",
-    "iv": "Om37a3S0cdns4P18",
-    "tag": "Yxy0eNrxNzJyySyX4m5qOA",
+    "ciphertext": "WLbLwF0GY1GbqM60nQv5IBtU8Mo1Cm6zmgIZp9C-SiiMUJ9FyWoPGh4R5g",
+    "iv": "lEbT7ZJMTnowP5iH",
+    "tag": "jYjiL7A87C2OzgfWAPaxEQ",
     "version": 1
   }
 }
