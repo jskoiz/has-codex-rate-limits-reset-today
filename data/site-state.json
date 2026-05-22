@@ -21,7 +21,7 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2057580164901679241",
       "verdict": "not_reset"
     },
-    "lastError": null,
+    "lastError": "Tweet classification failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors. (429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.)",
     "lastSeenTweetId": "2057580164901679241",
     "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2057580164901679241",
     "pendingReview": null,
@@ -295,6 +295,21 @@
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0,
+      "createdAt": 1779411116406,
+      "inputTokens": 0,
+      "message": "Tweet classification failed: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors. (429 You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.)",
+      "outputTokens": 0,
+      "rationale": "",
+      "reasoningTokens": 0,
+      "totalTokens": 0,
+      "tweetId": null,
+      "tweetText": "",
+      "tweetUrl": null,
+      "type": "error",
+      "verdict": null
+    },
     {
       "confidence": 0.98,
       "createdAt": 1779400558365,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2056154350175830261",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1779060133674,
-      "inputTokens": 366,
-      "message": "",
-      "outputTokens": 108,
-      "rationale": "This reply is just an insult/joke and does not mention limits, caps, or any reset.",
-      "reasoningTokens": 60,
-      "totalTokens": 474,
-      "tweetId": "2056152126515200103",
-      "tweetText": "@daradoescode @OpenAI Top 1% larper",
-      "tweetUrl": "https://x.com/thsottiaux/status/2056152126515200103",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "niZ06OZUiGF5HV-UFMN_8ZJlAsA6_2EgjWmNjYgOkL05jJsmeC7RCXIkFQ",
-    "iv": "RCdne4yCwhZYADM8",
-    "tag": "nsFwCrUq61esQA58wXsfzw",
+    "ciphertext": "ovu6Os21TEJrodH8KJDdSoBsyYsBNIYs8tV1jN2ml1lSNp2-VOD7B8Ibig",
+    "iv": "CaQbZoXEWnT9Gi0t",
+    "tag": "PuJjfu6FCUJ8n-Yxfmz7LQ",
     "version": 1
   }
 }
