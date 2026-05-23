@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1779504444059,
-      "rationale": "This reply is unrelated to Codex or ChatGPT usage limits resetting.",
-      "tweetId": "2057696459114619375",
-      "tweetUrl": "https://x.com/thsottiaux/status/2057696459114619375",
+      "decidedAt": 1779504447256,
+      "rationale": "This is just a brief reply and does not mention limits, caps, or usage being available again.",
+      "tweetId": "2057980213854921096",
+      "tweetUrl": "https://x.com/thsottiaux/status/2057980213854921096",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2057696459114619375",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2057696459114619375",
+    "lastSeenTweetId": "2057980213854921096",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2057980213854921096",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1779504447256,
+        "inputTokens": 359,
+        "outputTokens": 125,
+        "rationale": "This is just a brief reply and does not mention limits, caps, or usage being available again.",
+        "reasoningTokens": 77,
+        "totalTokens": 484,
+        "tweetId": "2057980213854921096",
+        "tweetText": "@harsette @sama OK",
+        "tweetUrl": "https://x.com/thsottiaux/status/2057980213854921096",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1779504444059,
@@ -272,29 +285,31 @@
         "tweetText": "What happened to Theo. Who did this to him",
         "tweetUrl": "https://x.com/thsottiaux/status/2056917971730313425",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1779227768887,
-        "inputTokens": 409,
-        "outputTokens": 91,
-        "rationale": "This quote tweet is just reacting to Codex usage and does not mention limits or a reset.",
-        "reasoningTokens": 44,
-        "totalTokens": 500,
-        "tweetId": "2056855274007527708",
-        "tweetText": "👀",
-        "tweetUrl": "https://x.com/thsottiaux/status/2056855274007527708",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 179202,
-      "totalOutputTokens": 48524,
-      "totalReasoningTokens": 26065,
-      "totalTokens": 227726
+      "totalInputTokens": 179561,
+      "totalOutputTokens": 48649,
+      "totalReasoningTokens": 26142,
+      "totalTokens": 228210
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1779504447256,
+      "inputTokens": 359,
+      "message": "",
+      "outputTokens": 125,
+      "rationale": "This is just a brief reply and does not mention limits, caps, or usage being available again.",
+      "reasoningTokens": 77,
+      "totalTokens": 484,
+      "tweetId": "2057980213854921096",
+      "tweetText": "@harsette @sama OK",
+      "tweetUrl": "https://x.com/thsottiaux/status/2057980213854921096",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1779504444059,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2056170302707835165",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1779063854080,
-      "inputTokens": 358,
-      "message": "",
-      "outputTokens": 73,
-      "rationale": "This reply does not mention limits, caps, or any reset.",
-      "reasoningTokens": 32,
-      "totalTokens": 431,
-      "tweetId": "2056167819604328485",
-      "tweetText": "@remilouf Oh no",
-      "tweetUrl": "https://x.com/thsottiaux/status/2056167819604328485",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "dCChKGT9NFwVpXrsfBYtkgdfCoCcEjdMU3gG82hNfvIevM5mYW6F64PqzA",
-    "iv": "22x8-2hclYeRNc7y",
-    "tag": "3Vv4TfE4Qi8QDfIxCICfdQ",
+    "ciphertext": "hMUZyWER3utd6T66M9zRpSgPOC3EGSd2Ipww8fAG5gH46rnlXRjfa1PBgA",
+    "iv": "FAeWk_18g842IA8b",
+    "tag": "aDq9coVePzBO66fsLYzESQ",
     "version": 1
   }
 }
