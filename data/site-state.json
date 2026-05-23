@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1779567311544,
-      "rationale": "The main post explicitly says Codex usage limits were reset for all accounts.",
-      "tweetId": "2058280452851638313",
-      "tweetUrl": "https://x.com/thsottiaux/status/2058280452851638313",
-      "verdict": "reset_confirmed"
+      "decidedAt": 1779567624898,
+      "rationale": "This reply is about joining a waitlist and does not mention any limit or cap reset.",
+      "tweetId": "2058280759107211501",
+      "tweetUrl": "https://x.com/thsottiaux/status/2058280759107211501",
+      "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2058280452851638313",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2058280452851638313",
+    "lastSeenTweetId": "2058280759107211501",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2058280759107211501",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1779567624898,
+        "inputTokens": 363,
+        "outputTokens": 107,
+        "rationale": "This reply is about joining a waitlist and does not mention any limit or cap reset.",
+        "reasoningTokens": 61,
+        "totalTokens": 470,
+        "tweetId": "2058280759107211501",
+        "tweetText": "@nitishkmrk Joined the waitlist 👀",
+        "tweetUrl": "https://x.com/thsottiaux/status/2058280759107211501",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1779567311544,
@@ -272,29 +285,31 @@
         "tweetText": "@reyneill_ Tell me more",
         "tweetUrl": "https://x.com/thsottiaux/status/2057980391404064988",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1779504447256,
-        "inputTokens": 359,
-        "outputTokens": 125,
-        "rationale": "This is just a brief reply and does not mention limits, caps, or usage being available again.",
-        "reasoningTokens": 77,
-        "totalTokens": 484,
-        "tweetId": "2057980213854921096",
-        "tweetText": "@harsette @sama OK",
-        "tweetUrl": "https://x.com/thsottiaux/status/2057980213854921096",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 186725,
-      "totalOutputTokens": 50408,
-      "totalReasoningTokens": 27043,
-      "totalTokens": 237133
+      "totalInputTokens": 187088,
+      "totalOutputTokens": 50515,
+      "totalReasoningTokens": 27104,
+      "totalTokens": 237603
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1779567624898,
+      "inputTokens": 363,
+      "message": "",
+      "outputTokens": 107,
+      "rationale": "This reply is about joining a waitlist and does not mention any limit or cap reset.",
+      "reasoningTokens": 61,
+      "totalTokens": 470,
+      "tweetId": "2058280759107211501",
+      "tweetText": "@nitishkmrk Joined the waitlist 👀",
+      "tweetUrl": "https://x.com/thsottiaux/status/2058280759107211501",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1779567311544,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2056930127947395313",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1779242644442,
-      "inputTokens": 445,
-      "message": "",
-      "outputTokens": 98,
-      "rationale": "This is a reaction to a quoted opinion about the Codex app, not a statement that limits reset.",
-      "reasoningTokens": 49,
-      "totalTokens": 543,
-      "tweetId": "2056917971730313425",
-      "tweetText": "What happened to Theo. Who did this to him",
-      "tweetUrl": "https://x.com/thsottiaux/status/2056917971730313425",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "qvPBrW5hna11lOjAbQuGMElafmBGOXjR_UqfWbER1wDxqoqUJRu6rHaC5A",
-    "iv": "UFmSXx2D3Rzku456",
-    "tag": "pUTXaypzfj05uz_1W7LRBQ",
+    "ciphertext": "zaF4GZVSMHeNlhnt0iBMtr59Wyn2hI65bfiwXJYfX4om3-jLc1aA9kuY5w",
+    "iv": "2I7wI8lgrEgQyVNJ",
+    "tag": "IbGO3aZF2T-YRQ0prfpHTw",
     "version": 1
   }
 }
