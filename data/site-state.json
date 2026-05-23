@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1779504438308,
-      "rationale": "This is a general statement about Codex and does not mention limits or resets.",
-      "tweetId": "2057695808267649327",
-      "tweetUrl": "https://x.com/thsottiaux/status/2057695808267649327",
+      "decidedAt": 1779504441258,
+      "rationale": "This reply is unrelated to Codex or ChatGPT limits resetting.",
+      "tweetId": "2057695959912685572",
+      "tweetUrl": "https://x.com/thsottiaux/status/2057695959912685572",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2057695808267649327",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2057695808267649327",
+    "lastSeenTweetId": "2057695959912685572",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2057695959912685572",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1779504441258,
+        "inputTokens": 362,
+        "outputTokens": 75,
+        "rationale": "This reply is unrelated to Codex or ChatGPT limits resetting.",
+        "reasoningTokens": 34,
+        "totalTokens": 437,
+        "tweetId": "2057695959912685572",
+        "tweetText": "@amorriscode they still use twitter over there?",
+        "tweetUrl": "https://x.com/thsottiaux/status/2057695959912685572",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1779504438308,
@@ -272,29 +285,31 @@
         "tweetText": "At some point I counted one like, so I went and did the thing. Enjoy your Codex usage. We had a few things to celebrate this week 👀",
         "tweetUrl": "https://x.com/thsottiaux/status/2056851041132696025",
         "verdict": "reset_confirmed"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1779159372007,
-        "inputTokens": 359,
-        "outputTokens": 85,
-        "rationale": "This reply just says \"Kodex\" and does not mention limits, caps, or usage resetting.",
-        "reasoningTokens": 37,
-        "totalTokens": 444,
-        "tweetId": "2056569442344288375",
-        "tweetText": "@priest_099 Kodex",
-        "tweetUrl": "https://x.com/thsottiaux/status/2056569442344288375",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 178480,
-      "totalOutputTokens": 48376,
-      "totalReasoningTokens": 26000,
-      "totalTokens": 226856
+      "totalInputTokens": 178842,
+      "totalOutputTokens": 48451,
+      "totalReasoningTokens": 26034,
+      "totalTokens": 227293
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1779504441258,
+      "inputTokens": 362,
+      "message": "",
+      "outputTokens": 75,
+      "rationale": "This reply is unrelated to Codex or ChatGPT limits resetting.",
+      "reasoningTokens": 34,
+      "totalTokens": 437,
+      "tweetId": "2057695959912685572",
+      "tweetText": "@amorriscode they still use twitter over there?",
+      "tweetUrl": "https://x.com/thsottiaux/status/2057695959912685572",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1779504438308,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2056167231852282156",
       "type": "review_requested",
       "verdict": "uncertain"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1779060466617,
-      "inputTokens": 360,
-      "message": "",
-      "outputTokens": 95,
-      "rationale": "This reply is unrelated to Codex or ChatGPT limits and does not indicate any reset.",
-      "reasoningTokens": 49,
-      "totalTokens": 455,
-      "tweetId": "2056154564144058778",
-      "tweetText": "@RhysSullivan Poor beagle",
-      "tweetUrl": "https://x.com/thsottiaux/status/2056154564144058778",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "u0Dc5b_9Oc6KiQ1vMUm9sfBEgwhEz9fbEfs2DhiBV9pfj9VM_FvvtXe0dw",
-    "iv": "M-k4iYZPlkFysQHk",
-    "tag": "_xbWBbOFyqOqu99UQDNIMg",
+    "ciphertext": "3IZL4pjXbZbmYPUoh2GMCImNdsrsjg6yxmZZn08UP0XRrFb8TQHJakyjFw",
+    "iv": "NMwuNWXcvpaXKDdg",
+    "tag": "6RER9l8f7dReFExBQhqa7g",
     "version": 1
   }
 }
