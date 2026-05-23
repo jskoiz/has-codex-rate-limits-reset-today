@@ -14,18 +14,38 @@
   "updatedAt": 1779567311544,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1779568543332,
-      "rationale": "This is just a humorous remark and does not mention limits, caps, or a reset.",
-      "tweetId": "2058285701146501415",
-      "tweetUrl": "https://x.com/thsottiaux/status/2058285701146501415",
-      "verdict": "not_reset"
+      "confidence": 0.95,
+      "decidedAt": 1779569793553,
+      "rationale": "This reply only asks about the plan and does not clearly indicate any limit reset.",
+      "tweetId": "2058290656343466344",
+      "tweetUrl": "https://x.com/thsottiaux/status/2058290656343466344",
+      "verdict": "uncertain"
     },
     "lastError": null,
-    "lastSeenTweetId": "2058285701146501415",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2058285701146501415",
-    "pendingReview": null,
+    "lastSeenTweetId": "2058290656343466344",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2058290656343466344",
+    "pendingReview": {
+      "confidence": 0.95,
+      "createdAt": 1779569793553,
+      "rationale": "This reply only asks about the plan and does not clearly indicate any limit reset.",
+      "tweetId": "2058290656343466344",
+      "tweetText": "@aphumphreys Which plan?",
+      "tweetUrl": "https://x.com/thsottiaux/status/2058290656343466344"
+    },
     "recentEvaluations": [
+      {
+        "confidence": 0.95,
+        "evaluatedAt": 1779569793553,
+        "inputTokens": 359,
+        "outputTokens": 250,
+        "rationale": "This reply only asks about the plan and does not clearly indicate any limit reset.",
+        "reasoningTokens": 206,
+        "totalTokens": 609,
+        "tweetId": "2058290656343466344",
+        "tweetText": "@aphumphreys Which plan?",
+        "tweetUrl": "https://x.com/thsottiaux/status/2058290656343466344",
+        "verdict": "uncertain"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1779568543332,
@@ -272,29 +292,31 @@
         "tweetText": "@ACV__X This makes me want to install codex",
         "tweetUrl": "https://x.com/thsottiaux/status/2057996239850045461",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1779504453491,
-        "inputTokens": 380,
-        "outputTokens": 95,
-        "rationale": "This reply discusses plan tiers and usage, not a current cap or rate-limit reset.",
-        "reasoningTokens": 50,
-        "totalTokens": 475,
-        "tweetId": "2057983465266860035",
-        "tweetText": "@nicdunz I mean... you did go from PRO to PLUS. To get more usage you are supposed to go in the other direction.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2057983465266860035",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 187477,
-      "totalOutputTokens": 50601,
-      "totalReasoningTokens": 27144,
-      "totalTokens": 238078
+      "totalInputTokens": 187836,
+      "totalOutputTokens": 50851,
+      "totalReasoningTokens": 27350,
+      "totalTokens": 238687
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.95,
+      "createdAt": 1779569793553,
+      "inputTokens": 359,
+      "message": "",
+      "outputTokens": 250,
+      "rationale": "This reply only asks about the plan and does not clearly indicate any limit reset.",
+      "reasoningTokens": 206,
+      "totalTokens": 609,
+      "tweetId": "2058290656343466344",
+      "tweetText": "@aphumphreys Which plan?",
+      "tweetUrl": "https://x.com/thsottiaux/status/2058290656343466344",
+      "type": "review_requested",
+      "verdict": "uncertain"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1779568543332,
@@ -879,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2056943348058038659",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1779245753178,
-      "inputTokens": 433,
-      "message": "",
-      "outputTokens": 70,
-      "rationale": "This is a team appreciation post about Codex, not about limits or a reset.",
-      "reasoningTokens": 25,
-      "totalTokens": 503,
-      "tweetId": "2056931009896317004",
-      "tweetText": "I like to think that Codex is the work of a great team working together in unison. It's the most collaborative team I've gotten the chance to work with. \n\nBut I don't think we could have done it without @ajambrosino's magic. He's been the driving force behind what makes the Codex app the app that everyone wants to emulate. And we are barely getting started.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2056931009896317004",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "LOykWOI1fABJW0cc6FE5JpmOFGkx6FL8Fco37_-qXGymXldkHTlS4I_KSg",
-    "iv": "D01iLdKwXglxmpyS",
-    "tag": "LffF5MHbwc2sNsEk04QE3Q",
+    "ciphertext": "XcZwIiXi0wCGO2FefT6PkvXY7IF12WRVP6ATPFPdHYkdkXCEcqQdZHlcQw",
+    "iv": "8oT7o9pquOnLjAoK",
+    "tag": "F9h854AmuC3kGO0J3CnQXA",
     "version": 1
   }
 }
