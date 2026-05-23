@@ -1,5 +1,5 @@
 {
-  "currentState": "no",
+  "currentState": "yes",
   "autoResetHours": 20,
   "noSubtitles": [
     "Back to your local model peasant",
@@ -10,22 +10,35 @@
     "Limits reset, go crazy",
     "You can just build things"
   ],
-  "resetAt": null,
-  "updatedAt": 1779226519502,
+  "resetAt": 1779639311544,
+  "updatedAt": 1779567311544,
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1779518622082,
-      "rationale": "This reply is about optimizing a metric and does not mention limits, caps, or usage becoming available again.",
-      "tweetId": "2058075853322633552",
-      "tweetUrl": "https://x.com/thsottiaux/status/2058075853322633552",
-      "verdict": "not_reset"
+      "decidedAt": 1779567311544,
+      "rationale": "The main post explicitly says Codex usage limits were reset for all accounts.",
+      "tweetId": "2058280452851638313",
+      "tweetUrl": "https://x.com/thsottiaux/status/2058280452851638313",
+      "verdict": "reset_confirmed"
     },
     "lastError": null,
-    "lastSeenTweetId": "2058075853322633552",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2058075853322633552",
+    "lastSeenTweetId": "2058280452851638313",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2058280452851638313",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1779567311544,
+        "inputTokens": 462,
+        "outputTokens": 107,
+        "rationale": "The main post explicitly says Codex usage limits were reset for all accounts.",
+        "reasoningTokens": 63,
+        "totalTokens": 569,
+        "tweetId": "2058280452851638313",
+        "tweetText": "Some of you noticed limits drained faster in Codex, we root caused it to an optimization that we rolled back that had an impact on cache hit rates when compacting across long running sessions. \n\nWe fixed this and have now reset usage limits for all accounts. Enjoy the weekend.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2058280452851638313",
+        "verdict": "reset_confirmed"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1779518622082,
@@ -272,29 +285,31 @@
         "tweetText": "@harsette @sama OK",
         "tweetUrl": "https://x.com/thsottiaux/status/2057980213854921096",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1779504444059,
-        "inputTokens": 360,
-        "outputTokens": 73,
-        "rationale": "This reply is unrelated to Codex or ChatGPT usage limits resetting.",
-        "reasoningTokens": 31,
-        "totalTokens": 433,
-        "tweetId": "2057696459114619375",
-        "tweetText": "@astuyve What’s lapdog",
-        "tweetUrl": "https://x.com/thsottiaux/status/2057696459114619375",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 186263,
-      "totalOutputTokens": 50301,
-      "totalReasoningTokens": 26980,
-      "totalTokens": 236564
+      "totalInputTokens": 186725,
+      "totalOutputTokens": 50408,
+      "totalReasoningTokens": 27043,
+      "totalTokens": 237133
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1779567311544,
+      "inputTokens": 462,
+      "message": "",
+      "outputTokens": 107,
+      "rationale": "The main post explicitly says Codex usage limits were reset for all accounts.",
+      "reasoningTokens": 63,
+      "totalTokens": 569,
+      "tweetId": "2058280452851638313",
+      "tweetText": "Some of you noticed limits drained faster in Codex, we root caused it to an optimization that we rolled back that had an impact on cache hit rates when compacting across long running sessions. \n\nWe fixed this and have now reset usage limits for all accounts. Enjoy the weekend.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2058280452851638313",
+      "type": "reset_confirmed",
+      "verdict": "reset_confirmed"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1779518622082,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2056917971730313425",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1779227768887,
-      "inputTokens": 409,
-      "message": "",
-      "outputTokens": 91,
-      "rationale": "This quote tweet is just reacting to Codex usage and does not mention limits or a reset.",
-      "reasoningTokens": 44,
-      "totalTokens": 500,
-      "tweetId": "2056855274007527708",
-      "tweetText": "👀",
-      "tweetUrl": "https://x.com/thsottiaux/status/2056855274007527708",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "uPGeuLvXYoRJBCrk2R8SPu9mX01sjgiHf7MKThiK5p3P4CKMaDYdwku0Nw",
-    "iv": "sEvSdkwJJC5fjOk3",
-    "tag": "QP8n_70WIJt6U7DF1gUMag",
+    "ciphertext": "qvPBrW5hna11lOjAbQuGMElafmBGOXjR_UqfWbER1wDxqoqUJRu6rHaC5A",
+    "iv": "UFmSXx2D3Rzku456",
+    "tag": "pUTXaypzfj05uz_1W7LRBQ",
     "version": 1
   }
 }
