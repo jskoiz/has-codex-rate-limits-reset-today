@@ -14,18 +14,31 @@
   "updatedAt": 1779226519502,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1779512382349,
-      "rationale": "This reply does not mention limits, caps, or availability resetting.",
-      "tweetId": "2058049094183240032",
-      "tweetUrl": "https://x.com/thsottiaux/status/2058049094183240032",
+      "confidence": 0.98,
+      "decidedAt": 1779512385938,
+      "rationale": "This is just a brief reply with no mention of limits, caps, or availability resetting.",
+      "tweetId": "2058049190320832756",
+      "tweetUrl": "https://x.com/thsottiaux/status/2058049190320832756",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2058049094183240032",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2058049094183240032",
+    "lastSeenTweetId": "2058049190320832756",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2058049190320832756",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.98,
+        "evaluatedAt": 1779512385938,
+        "inputTokens": 359,
+        "outputTokens": 122,
+        "rationale": "This is just a brief reply with no mention of limits, caps, or availability resetting.",
+        "reasoningTokens": 76,
+        "totalTokens": 481,
+        "tweetId": "2058049190320832756",
+        "tweetText": "@StoicYield I say chat",
+        "tweetUrl": "https://x.com/thsottiaux/status/2058049190320832756",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1779512382349,
@@ -272,29 +285,31 @@
         "tweetText": "@scousersvn horified codex",
         "tweetUrl": "https://x.com/thsottiaux/status/2057340236968104197",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1779343068992,
-        "inputTokens": 357,
-        "outputTokens": 66,
-        "rationale": "This reply is conversational and says nothing about limits or resets.",
-        "reasoningTokens": 26,
-        "totalTokens": 423,
-        "tweetId": "2057340021544464466",
-        "tweetText": "@mal_shaik Precious",
-        "tweetUrl": "https://x.com/thsottiaux/status/2057340021544464466",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 182943,
-      "totalOutputTokens": 49501,
-      "totalReasoningTokens": 26591,
-      "totalTokens": 232444
+      "totalInputTokens": 183302,
+      "totalOutputTokens": 49623,
+      "totalReasoningTokens": 26667,
+      "totalTokens": 232925
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.98,
+      "createdAt": 1779512385938,
+      "inputTokens": 359,
+      "message": "",
+      "outputTokens": 122,
+      "rationale": "This is just a brief reply with no mention of limits, caps, or availability resetting.",
+      "reasoningTokens": 76,
+      "totalTokens": 481,
+      "tweetId": "2058049190320832756",
+      "tweetText": "@StoicYield I say chat",
+      "tweetUrl": "https://x.com/thsottiaux/status/2058049190320832756",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1779512382349,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2056268894646812978",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1779080216331,
-      "inputTokens": 361,
-      "message": "",
-      "outputTokens": 70,
-      "rationale": "This reply is just conversational and says nothing about limits or availability resetting.",
-      "reasoningTokens": 28,
-      "totalTokens": 431,
-      "tweetId": "2056236338811424802",
-      "tweetText": "@iMuffined Music is cosy indeed!",
-      "tweetUrl": "https://x.com/thsottiaux/status/2056236338811424802",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "4HHG9aDcz4bcV-tLX7LUsQ6oe5BS9HifOwWD5VbJbM4cTZjR0qiJW5dftg",
-    "iv": "4BK3EceN8GTWYM4l",
-    "tag": "FTxZN5X6M4U3PrhJxhXezA",
+    "ciphertext": "iy055R0hJ3Myc-d0LhCIdaWIxYT9zQlcSPDGrJCZMhm_fCuS-Lf9btUL_Q",
+    "iv": "JToFDt8DJ4B0iV4Q",
+    "tag": "cILyHZMX5kQWldYkPMN3vw",
     "version": 1
   }
 }
