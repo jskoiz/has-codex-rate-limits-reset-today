@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1779517376040,
-      "rationale": "This reply is unrelated to Codex or ChatGPT usage limits or any reset.",
-      "tweetId": "2058069989425615277",
-      "tweetUrl": "https://x.com/thsottiaux/status/2058069989425615277",
+      "decidedAt": 1779517679835,
+      "rationale": "This is about alternative tools and using a ChatGPT account elsewhere, not about limits resetting.",
+      "tweetId": "2058071172361998482",
+      "tweetUrl": "https://x.com/thsottiaux/status/2058071172361998482",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2058069989425615277",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2058069989425615277",
+    "lastSeenTweetId": "2058071172361998482",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2058071172361998482",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1779517679835,
+        "inputTokens": 412,
+        "outputTokens": 124,
+        "rationale": "This is about alternative tools and using a ChatGPT account elsewhere, not about limits resetting.",
+        "reasoningTokens": 78,
+        "totalTokens": 536,
+        "tweetId": "2058071172361998482",
+        "tweetText": "A little secret. About 5% of our production traffic is on the Pi harness, about another 5% is on OpenCode. Reminder you can use your ChatGPT account in a flourishing set of other tools.\n\nWe’ll continue to make Codex awesome, but you have options.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2058071172361998482",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1779517376040,
@@ -272,29 +285,31 @@
         "tweetText": "@amorriscode they still use twitter over there?",
         "tweetUrl": "https://x.com/thsottiaux/status/2057695959912685572",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1779504438308,
-        "inputTokens": 359,
-        "outputTokens": 92,
-        "rationale": "This is a general statement about Codex and does not mention limits or resets.",
-        "reasoningTokens": 48,
-        "totalTokens": 451,
-        "tweetId": "2057695808267649327",
-        "tweetText": "Codex is our WorkGPT",
-        "tweetUrl": "https://x.com/thsottiaux/status/2057695808267649327",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 185488,
-      "totalOutputTokens": 50071,
-      "totalReasoningTokens": 26845,
-      "totalTokens": 235559
+      "totalInputTokens": 185900,
+      "totalOutputTokens": 50195,
+      "totalReasoningTokens": 26923,
+      "totalTokens": 236095
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1779517679835,
+      "inputTokens": 412,
+      "message": "",
+      "outputTokens": 124,
+      "rationale": "This is about alternative tools and using a ChatGPT account elsewhere, not about limits resetting.",
+      "reasoningTokens": 78,
+      "totalTokens": 536,
+      "tweetId": "2058071172361998482",
+      "tweetText": "A little secret. About 5% of our production traffic is on the Pi harness, about another 5% is on OpenCode. Reminder you can use your ChatGPT account in a flourishing set of other tools.\n\nWe’ll continue to make Codex awesome, but you have options.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2058071172361998482",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1779517376040,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2056851041132696025",
       "type": "reset_confirmed",
       "verdict": "reset_confirmed"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1779159372007,
-      "inputTokens": 359,
-      "message": "",
-      "outputTokens": 85,
-      "rationale": "This reply just says \"Kodex\" and does not mention limits, caps, or usage resetting.",
-      "reasoningTokens": 37,
-      "totalTokens": 444,
-      "tweetId": "2056569442344288375",
-      "tweetText": "@priest_099 Kodex",
-      "tweetUrl": "https://x.com/thsottiaux/status/2056569442344288375",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "CXMlkdFnE8oHyPbGw6m2UtUG7hXSRYTp-2wYnpwJTgM9G0P0_QZwyYCFTQ",
-    "iv": "dKZK2r_RNd-Xf0o0",
-    "tag": "osI_Bn-ZtAYvgxikVfHJvQ",
+    "ciphertext": "6C58tqa8Zt1rtf47-eEQxlwvPXXaixI5m4_pYRqU9A3fhKv89QsptXod8A",
+    "iv": "Zm7wLcIy7ikA_XcF",
+    "tag": "dXj6Dw2U7gbf3ix487EbhQ",
     "version": 1
   }
 }
