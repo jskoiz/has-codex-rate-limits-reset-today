@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1779517679835,
-      "rationale": "This is about alternative tools and using a ChatGPT account elsewhere, not about limits resetting.",
-      "tweetId": "2058071172361998482",
-      "tweetUrl": "https://x.com/thsottiaux/status/2058071172361998482",
+      "decidedAt": 1779518622082,
+      "rationale": "This reply is about optimizing a metric and does not mention limits, caps, or usage becoming available again.",
+      "tweetId": "2058075853322633552",
+      "tweetUrl": "https://x.com/thsottiaux/status/2058075853322633552",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2058071172361998482",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2058071172361998482",
+    "lastSeenTweetId": "2058075853322633552",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2058075853322633552",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1779518622082,
+        "inputTokens": 363,
+        "outputTokens": 106,
+        "rationale": "This reply is about optimizing a metric and does not mention limits, caps, or usage becoming available again.",
+        "reasoningTokens": 57,
+        "totalTokens": 469,
+        "tweetId": "2058075853322633552",
+        "tweetText": "@user823493247 The metric needed to be optimized",
+        "tweetUrl": "https://x.com/thsottiaux/status/2058075853322633552",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1779517679835,
@@ -272,29 +285,31 @@
         "tweetText": "@astuyve What’s lapdog",
         "tweetUrl": "https://x.com/thsottiaux/status/2057696459114619375",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1779504441258,
-        "inputTokens": 362,
-        "outputTokens": 75,
-        "rationale": "This reply is unrelated to Codex or ChatGPT limits resetting.",
-        "reasoningTokens": 34,
-        "totalTokens": 437,
-        "tweetId": "2057695959912685572",
-        "tweetText": "@amorriscode they still use twitter over there?",
-        "tweetUrl": "https://x.com/thsottiaux/status/2057695959912685572",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 185900,
-      "totalOutputTokens": 50195,
-      "totalReasoningTokens": 26923,
-      "totalTokens": 236095
+      "totalInputTokens": 186263,
+      "totalOutputTokens": 50301,
+      "totalReasoningTokens": 26980,
+      "totalTokens": 236564
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1779518622082,
+      "inputTokens": 363,
+      "message": "",
+      "outputTokens": 106,
+      "rationale": "This reply is about optimizing a metric and does not mention limits, caps, or usage becoming available again.",
+      "reasoningTokens": 57,
+      "totalTokens": 469,
+      "tweetId": "2058075853322633552",
+      "tweetText": "@user823493247 The metric needed to be optimized",
+      "tweetUrl": "https://x.com/thsottiaux/status/2058075853322633552",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1779517679835,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2056855274007527708",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.98,
-      "createdAt": 1779226519502,
-      "inputTokens": 432,
-      "message": "",
-      "outputTokens": 155,
-      "rationale": "The quote says he would reset Codex rate limits, and this post says he did it and tells users to enjoy their Codex…",
-      "reasoningTokens": 97,
-      "totalTokens": 587,
-      "tweetId": "2056851041132696025",
-      "tweetText": "At some point I counted one like, so I went and did the thing. Enjoy your Codex usage. We had a few things to celebrate this week 👀",
-      "tweetUrl": "https://x.com/thsottiaux/status/2056851041132696025",
-      "type": "reset_confirmed",
-      "verdict": "reset_confirmed"
     }
   ],
   "privateState": {
-    "ciphertext": "6C58tqa8Zt1rtf47-eEQxlwvPXXaixI5m4_pYRqU9A3fhKv89QsptXod8A",
-    "iv": "Zm7wLcIy7ikA_XcF",
-    "tag": "dXj6Dw2U7gbf3ix487EbhQ",
+    "ciphertext": "uPGeuLvXYoRJBCrk2R8SPu9mX01sjgiHf7MKThiK5p3P4CKMaDYdwku0Nw",
+    "iv": "sEvSdkwJJC5fjOk3",
+    "tag": "QP8n_70WIJt6U7DF1gUMag",
     "version": 1
   }
 }
