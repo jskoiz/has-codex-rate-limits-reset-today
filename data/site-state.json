@@ -21,7 +21,7 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2058290656343466344",
       "verdict": "uncertain"
     },
-    "lastError": null,
+    "lastError": "Tweet fetch failed: Tweet search failed: Request failed with status code 403; timeline fallback failed: Request failed with status code 403 (Request failed with status code 403) (Tweet search failed: Request failed with status code 403; timeline fallback failed: Request failed with status code 403)",
     "lastSeenTweetId": "2058290656343466344",
     "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2058290656343466344",
     "pendingReview": {
@@ -302,6 +302,21 @@
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0,
+      "createdAt": 1779575629713,
+      "inputTokens": 0,
+      "message": "Tweet fetch failed: Tweet search failed: Request failed with status code 403; timeline fallback failed: Request failed with status code 403 (Request failed with status code 403) (Tweet search failed: Request failed with status code 403; timeline fallback failed: Request failed with status code 403)",
+      "outputTokens": 0,
+      "rationale": "",
+      "reasoningTokens": 0,
+      "totalTokens": 0,
+      "tweetId": null,
+      "tweetText": "",
+      "tweetUrl": null,
+      "type": "error",
+      "verdict": null
+    },
     {
       "confidence": 0.95,
       "createdAt": 1779569793553,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2056944886071640419",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1779248520257,
-      "inputTokens": 366,
-      "message": "",
-      "outputTokens": 80,
-      "rationale": "This reply is about joining the Codex team, not about usage limits or resets.",
-      "reasoningTokens": 35,
-      "totalTokens": 446,
-      "tweetId": "2056943348058038659",
-      "tweetText": "@petergyang Whether he would like to join the Codex team",
-      "tweetUrl": "https://x.com/thsottiaux/status/2056943348058038659",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "XcZwIiXi0wCGO2FefT6PkvXY7IF12WRVP6ATPFPdHYkdkXCEcqQdZHlcQw",
-    "iv": "8oT7o9pquOnLjAoK",
-    "tag": "F9h854AmuC3kGO0J3CnQXA",
+    "ciphertext": "n0jDs5jd_oYDZEyPhPY1GMYWmNhuPAAgVhUhUCBh4YkCbcF-vYm8eW3ihQ",
+    "iv": "n8j3Iwp3hNYuFRzV",
+    "tag": "yshsPF94JXNWnWO12PHKZg",
     "version": 1
   }
 }
