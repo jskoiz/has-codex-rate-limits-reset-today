@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1779512699121,
-      "rationale": "This reply is just conversational and does not mention any limit, cap, or reset.",
-      "tweetId": "2058051100440482292",
-      "tweetUrl": "https://x.com/thsottiaux/status/2058051100440482292",
+      "decidedAt": 1779513018444,
+      "rationale": "This reply is about hiring and does not mention rate limits, caps, or usage resetting.",
+      "tweetId": "2058051552355688496",
+      "tweetUrl": "https://x.com/thsottiaux/status/2058051552355688496",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2058051100440482292",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2058051100440482292",
+    "lastSeenTweetId": "2058051552355688496",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2058051552355688496",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1779513018444,
+        "inputTokens": 366,
+        "outputTokens": 73,
+        "rationale": "This reply is about hiring and does not mention rate limits, caps, or usage resetting.",
+        "reasoningTokens": 27,
+        "totalTokens": 439,
+        "tweetId": "2058051552355688496",
+        "tweetText": "@rezoundous That’s how all hiring is supposed to work Tyler",
+        "tweetUrl": "https://x.com/thsottiaux/status/2058051552355688496",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1779512699121,
@@ -272,29 +285,31 @@
         "tweetText": "Dark magic. Codex.",
         "tweetUrl": "https://x.com/thsottiaux/status/2057579674642063452",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1779343700750,
-        "inputTokens": 362,
-        "outputTokens": 86,
-        "rationale": "This reply is conversational and does not mention limits, caps, or availability resetting.",
-        "reasoningTokens": 42,
-        "totalTokens": 448,
-        "tweetId": "2057341366590648720",
-        "tweetText": "@nicdunz Don’t do this at home",
-        "tweetUrl": "https://x.com/thsottiaux/status/2057341366590648720",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 184025,
-      "totalOutputTokens": 49789,
-      "totalReasoningTokens": 26741,
-      "totalTokens": 233814
+      "totalInputTokens": 184391,
+      "totalOutputTokens": 49862,
+      "totalReasoningTokens": 26768,
+      "totalTokens": 234253
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1779513018444,
+      "inputTokens": 366,
+      "message": "",
+      "outputTokens": 73,
+      "rationale": "This reply is about hiring and does not mention rate limits, caps, or usage resetting.",
+      "reasoningTokens": 27,
+      "totalTokens": 439,
+      "tweetId": "2058051552355688496",
+      "tweetText": "@rezoundous That’s how all hiring is supposed to work Tyler",
+      "tweetUrl": "https://x.com/thsottiaux/status/2058051552355688496",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1779512699121,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2056435779120062725",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1779088582821,
-      "inputTokens": 361,
-      "message": "",
-      "outputTokens": 81,
-      "rationale": "This reply just mentions Codex and does not indicate any limit or cap reset.",
-      "reasoningTokens": 37,
-      "totalTokens": 442,
-      "tweetId": "2056271794592682077",
-      "tweetText": "@rowans_planet Coooooodex",
-      "tweetUrl": "https://x.com/thsottiaux/status/2056271794592682077",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "v993Vr0Nd_bOf5SJ02Cav2_-TNkIXPWGqQI3ZGS0PFp5bkLpbaLHM9aSUA",
-    "iv": "jKCmJbEC-7DfFwSG",
-    "tag": "yWiwMpKqWmTXxyoW5k__QQ",
+    "ciphertext": "_OY99cHs7YevDD2t3mvHT5ce0HpuvBy6zlUmnGw0thMUFpiFdWr6UYFwOA",
+    "iv": "NehmG19dfuKbcRIV",
+    "tag": "6IojVL6SNTvqtAe80VQzoQ",
     "version": 1
   }
 }
