@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1779504441258,
-      "rationale": "This reply is unrelated to Codex or ChatGPT limits resetting.",
-      "tweetId": "2057695959912685572",
-      "tweetUrl": "https://x.com/thsottiaux/status/2057695959912685572",
+      "decidedAt": 1779504444059,
+      "rationale": "This reply is unrelated to Codex or ChatGPT usage limits resetting.",
+      "tweetId": "2057696459114619375",
+      "tweetUrl": "https://x.com/thsottiaux/status/2057696459114619375",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2057695959912685572",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2057695959912685572",
+    "lastSeenTweetId": "2057696459114619375",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2057696459114619375",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1779504444059,
+        "inputTokens": 360,
+        "outputTokens": 73,
+        "rationale": "This reply is unrelated to Codex or ChatGPT usage limits resetting.",
+        "reasoningTokens": 31,
+        "totalTokens": 433,
+        "tweetId": "2057696459114619375",
+        "tweetText": "@astuyve What’s lapdog",
+        "tweetUrl": "https://x.com/thsottiaux/status/2057696459114619375",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1779504441258,
@@ -272,29 +285,31 @@
         "tweetText": "👀",
         "tweetUrl": "https://x.com/thsottiaux/status/2056855274007527708",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.98,
-        "evaluatedAt": 1779226519502,
-        "inputTokens": 432,
-        "outputTokens": 155,
-        "rationale": "The quote says he would reset Codex rate limits, and this post says he did it and tells users to enjoy their Codex…",
-        "reasoningTokens": 97,
-        "totalTokens": 587,
-        "tweetId": "2056851041132696025",
-        "tweetText": "At some point I counted one like, so I went and did the thing. Enjoy your Codex usage. We had a few things to celebrate this week 👀",
-        "tweetUrl": "https://x.com/thsottiaux/status/2056851041132696025",
-        "verdict": "reset_confirmed"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 178842,
-      "totalOutputTokens": 48451,
-      "totalReasoningTokens": 26034,
-      "totalTokens": 227293
+      "totalInputTokens": 179202,
+      "totalOutputTokens": 48524,
+      "totalReasoningTokens": 26065,
+      "totalTokens": 227726
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1779504444059,
+      "inputTokens": 360,
+      "message": "",
+      "outputTokens": 73,
+      "rationale": "This reply is unrelated to Codex or ChatGPT usage limits resetting.",
+      "reasoningTokens": 31,
+      "totalTokens": 433,
+      "tweetId": "2057696459114619375",
+      "tweetText": "@astuyve What’s lapdog",
+      "tweetUrl": "https://x.com/thsottiaux/status/2057696459114619375",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1779504441258,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2056167819604328485",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.95,
-      "createdAt": 1779063544754,
-      "inputTokens": 359,
-      "message": "",
-      "outputTokens": 117,
-      "rationale": "This reply gives no clear indication that any Codex or ChatGPT limit has reset.",
-      "reasoningTokens": 72,
-      "totalTokens": 476,
-      "tweetId": "2056167231852282156",
-      "tweetText": "@KaiXCreator You tell me",
-      "tweetUrl": "https://x.com/thsottiaux/status/2056167231852282156",
-      "type": "review_requested",
-      "verdict": "uncertain"
     }
   ],
   "privateState": {
-    "ciphertext": "3IZL4pjXbZbmYPUoh2GMCImNdsrsjg6yxmZZn08UP0XRrFb8TQHJakyjFw",
-    "iv": "NMwuNWXcvpaXKDdg",
-    "tag": "6RER9l8f7dReFExBQhqa7g",
+    "ciphertext": "dCChKGT9NFwVpXrsfBYtkgdfCoCcEjdMU3gG82hNfvIevM5mYW6F64PqzA",
+    "iv": "22x8-2hclYeRNc7y",
+    "tag": "3Vv4TfE4Qi8QDfIxCICfdQ",
     "version": 1
   }
 }
