@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1779517059897,
-      "rationale": "This is just a conversational reply and says nothing about limits or resets.",
-      "tweetId": "2058069146806767705",
-      "tweetUrl": "https://x.com/thsottiaux/status/2058069146806767705",
+      "decidedAt": 1779517376040,
+      "rationale": "This reply is unrelated to Codex or ChatGPT usage limits or any reset.",
+      "tweetId": "2058069989425615277",
+      "tweetUrl": "https://x.com/thsottiaux/status/2058069989425615277",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2058069146806767705",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2058069146806767705",
+    "lastSeenTweetId": "2058069989425615277",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2058069989425615277",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1779517376040,
+        "inputTokens": 371,
+        "outputTokens": 70,
+        "rationale": "This reply is unrelated to Codex or ChatGPT usage limits or any reset.",
+        "reasoningTokens": 26,
+        "totalTokens": 441,
+        "tweetId": "2058069989425615277",
+        "tweetText": "@markvalorian I’m glad I think about other things in life than astroturfing",
+        "tweetUrl": "https://x.com/thsottiaux/status/2058069989425615277",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1779517059897,
@@ -272,29 +285,31 @@
         "tweetText": "Codex is our WorkGPT",
         "tweetUrl": "https://x.com/thsottiaux/status/2057695808267649327",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1779504435039,
-        "inputTokens": 360,
-        "outputTokens": 64,
-        "rationale": "This reply is unrelated to limits or availability resets.",
-        "reasoningTokens": 26,
-        "totalTokens": 424,
-        "tweetId": "2057657811396673748",
-        "tweetText": "@aisuperapp Linear or log scale?",
-        "tweetUrl": "https://x.com/thsottiaux/status/2057657811396673748",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 185117,
-      "totalOutputTokens": 50001,
-      "totalReasoningTokens": 26819,
-      "totalTokens": 235118
+      "totalInputTokens": 185488,
+      "totalOutputTokens": 50071,
+      "totalReasoningTokens": 26845,
+      "totalTokens": 235559
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1779517376040,
+      "inputTokens": 371,
+      "message": "",
+      "outputTokens": 70,
+      "rationale": "This reply is unrelated to Codex or ChatGPT usage limits or any reset.",
+      "reasoningTokens": 26,
+      "totalTokens": 441,
+      "tweetId": "2058069989425615277",
+      "tweetText": "@markvalorian I’m glad I think about other things in life than astroturfing",
+      "tweetUrl": "https://x.com/thsottiaux/status/2058069989425615277",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1779517059897,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2056569442344288375",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1779159065770,
-      "inputTokens": 365,
-      "message": "",
-      "outputTokens": 115,
-      "rationale": "This is just a conversational reply and does not say limits or usage have reset.",
-      "reasoningTokens": 71,
-      "totalTokens": 480,
-      "tweetId": "2056568002443886828",
-      "tweetText": "@charliermarsh Mission accomplished. It was worth it already",
-      "tweetUrl": "https://x.com/thsottiaux/status/2056568002443886828",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "Y0CBvLhtBGRNbr5WUPg-ebWbYDnY83o3fH64_JG9XxfWZch9Z2CdDQeyxw",
-    "iv": "JtPFjMCdT9lIQ5k9",
-    "tag": "wxjb7Yt9L3H2UXtROClRjA",
+    "ciphertext": "CXMlkdFnE8oHyPbGw6m2UtUG7hXSRYTp-2wYnpwJTgM9G0P0_QZwyYCFTQ",
+    "iv": "dKZK2r_RNd-Xf0o0",
+    "tag": "osI_Bn-ZtAYvgxikVfHJvQ",
     "version": 1
   }
 }
