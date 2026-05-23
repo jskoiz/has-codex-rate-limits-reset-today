@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1779504447256,
-      "rationale": "This is just a brief reply and does not mention limits, caps, or usage being available again.",
-      "tweetId": "2057980213854921096",
-      "tweetUrl": "https://x.com/thsottiaux/status/2057980213854921096",
+      "decidedAt": 1779504450597,
+      "rationale": "This is just a conversational reply and gives no indication that any limits have reset.",
+      "tweetId": "2057980391404064988",
+      "tweetUrl": "https://x.com/thsottiaux/status/2057980391404064988",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2057980213854921096",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2057980213854921096",
+    "lastSeenTweetId": "2057980391404064988",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2057980391404064988",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1779504450597,
+        "inputTokens": 360,
+        "outputTokens": 130,
+        "rationale": "This is just a conversational reply and gives no indication that any limits have reset.",
+        "reasoningTokens": 86,
+        "totalTokens": 490,
+        "tweetId": "2057980391404064988",
+        "tweetText": "@reyneill_ Tell me more",
+        "tweetUrl": "https://x.com/thsottiaux/status/2057980391404064988",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1779504447256,
@@ -272,29 +285,31 @@
         "tweetText": "I wonder if the Antigravity team has designers. Couldn't believe my eyes today haha. Very flattering to the Codex team.",
         "tweetUrl": "https://x.com/thsottiaux/status/2056930127947395313",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1779242644442,
-        "inputTokens": 445,
-        "outputTokens": 98,
-        "rationale": "This is a reaction to a quoted opinion about the Codex app, not a statement that limits reset.",
-        "reasoningTokens": 49,
-        "totalTokens": 543,
-        "tweetId": "2056917971730313425",
-        "tweetText": "What happened to Theo. Who did this to him",
-        "tweetUrl": "https://x.com/thsottiaux/status/2056917971730313425",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 179561,
-      "totalOutputTokens": 48649,
-      "totalReasoningTokens": 26142,
-      "totalTokens": 228210
+      "totalInputTokens": 179921,
+      "totalOutputTokens": 48779,
+      "totalReasoningTokens": 26228,
+      "totalTokens": 228700
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1779504450597,
+      "inputTokens": 360,
+      "message": "",
+      "outputTokens": 130,
+      "rationale": "This is just a conversational reply and gives no indication that any limits have reset.",
+      "reasoningTokens": 86,
+      "totalTokens": 490,
+      "tweetId": "2057980391404064988",
+      "tweetText": "@reyneill_ Tell me more",
+      "tweetUrl": "https://x.com/thsottiaux/status/2057980391404064988",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1779504447256,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2056171149881713143",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1779064468696,
-      "inputTokens": 362,
-      "message": "",
-      "outputTokens": 83,
-      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-      "reasoningTokens": 39,
-      "totalTokens": 445,
-      "tweetId": "2056170302707835165",
-      "tweetText": "@sierracatalina Should sierra post",
-      "tweetUrl": "https://x.com/thsottiaux/status/2056170302707835165",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "hMUZyWER3utd6T66M9zRpSgPOC3EGSd2Ipww8fAG5gH46rnlXRjfa1PBgA",
-    "iv": "FAeWk_18g842IA8b",
-    "tag": "aDq9coVePzBO66fsLYzESQ",
+    "ciphertext": "O_-_oHj3fJkf_z0CINVyqF5lietfMm2pnkrKtx5URCwwxRFM8IcjYJ9ZYQ",
+    "iv": "7WvcKzS29UH0I9yV",
+    "tag": "TeZ08ek2tbghI7Iz6PYDzA",
     "version": 1
   }
 }
