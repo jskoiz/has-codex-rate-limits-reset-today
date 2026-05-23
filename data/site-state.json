@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1779567624898,
-      "rationale": "This reply is about joining a waitlist and does not mention any limit or cap reset.",
-      "tweetId": "2058280759107211501",
-      "tweetUrl": "https://x.com/thsottiaux/status/2058280759107211501",
+      "decidedAt": 1779568543332,
+      "rationale": "This is just a humorous remark and does not mention limits, caps, or a reset.",
+      "tweetId": "2058285701146501415",
+      "tweetUrl": "https://x.com/thsottiaux/status/2058285701146501415",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2058280759107211501",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2058280759107211501",
+    "lastSeenTweetId": "2058285701146501415",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2058285701146501415",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1779568543332,
+        "inputTokens": 389,
+        "outputTokens": 86,
+        "rationale": "This is just a humorous remark and does not mention limits, caps, or a reset.",
+        "reasoningTokens": 40,
+        "totalTokens": 475,
+        "tweetId": "2058285701146501415",
+        "tweetText": "Rah-rah-ah-ah-ah, Roma-roma-ma, gaa, ooh-la-la…\n\n... goes the GPT Goblin 1.0 Extra High /Fast",
+        "tweetUrl": "https://x.com/thsottiaux/status/2058285701146501415",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1779567624898,
@@ -272,29 +285,31 @@
         "tweetText": "@nicdunz I mean... you did go from PRO to PLUS. To get more usage you are supposed to go in the other direction.",
         "tweetUrl": "https://x.com/thsottiaux/status/2057983465266860035",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1779504450597,
-        "inputTokens": 360,
-        "outputTokens": 130,
-        "rationale": "This is just a conversational reply and gives no indication that any limits have reset.",
-        "reasoningTokens": 86,
-        "totalTokens": 490,
-        "tweetId": "2057980391404064988",
-        "tweetText": "@reyneill_ Tell me more",
-        "tweetUrl": "https://x.com/thsottiaux/status/2057980391404064988",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 187088,
-      "totalOutputTokens": 50515,
-      "totalReasoningTokens": 27104,
-      "totalTokens": 237603
+      "totalInputTokens": 187477,
+      "totalOutputTokens": 50601,
+      "totalReasoningTokens": 27144,
+      "totalTokens": 238078
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1779568543332,
+      "inputTokens": 389,
+      "message": "",
+      "outputTokens": 86,
+      "rationale": "This is just a humorous remark and does not mention limits, caps, or a reset.",
+      "reasoningTokens": 40,
+      "totalTokens": 475,
+      "tweetId": "2058285701146501415",
+      "tweetText": "Rah-rah-ah-ah-ah, Roma-roma-ma, gaa, ooh-la-la…\n\n... goes the GPT Goblin 1.0 Extra High /Fast",
+      "tweetUrl": "https://x.com/thsottiaux/status/2058285701146501415",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1779567624898,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2056931009896317004",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1779245448009,
-      "inputTokens": 378,
-      "message": "",
-      "outputTokens": 65,
-      "rationale": "This post is commentary about design and does not mention limits or availability resetting.",
-      "reasoningTokens": 22,
-      "totalTokens": 443,
-      "tweetId": "2056930127947395313",
-      "tweetText": "I wonder if the Antigravity team has designers. Couldn't believe my eyes today haha. Very flattering to the Codex team.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2056930127947395313",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "zaF4GZVSMHeNlhnt0iBMtr59Wyn2hI65bfiwXJYfX4om3-jLc1aA9kuY5w",
-    "iv": "2I7wI8lgrEgQyVNJ",
-    "tag": "IbGO3aZF2T-YRQ0prfpHTw",
+    "ciphertext": "LOykWOI1fABJW0cc6FE5JpmOFGkx6FL8Fco37_-qXGymXldkHTlS4I_KSg",
+    "iv": "D01iLdKwXglxmpyS",
+    "tag": "LffF5MHbwc2sNsEk04QE3Q",
     "version": 1
   }
 }
