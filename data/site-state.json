@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1779512078914,
-      "rationale": "This post is about marketing and a Codex feature discussion, not limits or availability resetting.",
-      "tweetId": "2058048607165784476",
-      "tweetUrl": "https://x.com/thsottiaux/status/2058048607165784476",
+      "decidedAt": 1779512382349,
+      "rationale": "This reply does not mention limits, caps, or availability resetting.",
+      "tweetId": "2058049094183240032",
+      "tweetUrl": "https://x.com/thsottiaux/status/2058049094183240032",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2058048607165784476",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2058048607165784476",
+    "lastSeenTweetId": "2058049094183240032",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2058049094183240032",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1779512382349,
+        "inputTokens": 364,
+        "outputTokens": 77,
+        "rationale": "This reply does not mention limits, caps, or availability resetting.",
+        "reasoningTokens": 36,
+        "totalTokens": 441,
+        "tweetId": "2058049094183240032",
+        "tweetText": "@r_ny_andrianina To you or to Chat?",
+        "tweetUrl": "https://x.com/thsottiaux/status/2058049094183240032",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1779512078914,
@@ -272,29 +285,31 @@
         "tweetText": "@mal_shaik Precious",
         "tweetUrl": "https://x.com/thsottiaux/status/2057340021544464466",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1779335635851,
-        "inputTokens": 360,
-        "outputTokens": 102,
-        "rationale": "This is a vague comment about Codex and does not mention limits, caps, or usage becoming available again.",
-        "reasoningTokens": 52,
-        "totalTokens": 462,
-        "tweetId": "2057308715834118149",
-        "tweetText": "Codex is feeling codexy",
-        "tweetUrl": "https://x.com/thsottiaux/status/2057308715834118149",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 182579,
-      "totalOutputTokens": 49424,
-      "totalReasoningTokens": 26555,
-      "totalTokens": 232003
+      "totalInputTokens": 182943,
+      "totalOutputTokens": 49501,
+      "totalReasoningTokens": 26591,
+      "totalTokens": 232444
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1779512382349,
+      "inputTokens": 364,
+      "message": "",
+      "outputTokens": 77,
+      "rationale": "This reply does not mention limits, caps, or availability resetting.",
+      "reasoningTokens": 36,
+      "totalTokens": 441,
+      "tweetId": "2058049094183240032",
+      "tweetText": "@r_ny_andrianina To you or to Chat?",
+      "tweetUrl": "https://x.com/thsottiaux/status/2058049094183240032",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1779512078914,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2056236338811424802",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1779079909008,
-      "inputTokens": 361,
-      "message": "",
-      "outputTokens": 94,
-      "rationale": "This is just a conversational reply and gives no indication that any limit or cap has reset.",
-      "reasoningTokens": 48,
-      "totalTokens": 455,
-      "tweetId": "2056235719614672933",
-      "tweetText": "@RhysSullivan Oh... that's awesome",
-      "tweetUrl": "https://x.com/thsottiaux/status/2056235719614672933",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "GweMPIniYwz6xBrKacNhIV_AAwg5mmsClVFemeQaFMI8K-8m639x-4kGzA",
-    "iv": "fpCu9rumq3votuYV",
-    "tag": "H-Q380ZHzcNYceAcWPRb1w",
+    "ciphertext": "4HHG9aDcz4bcV-tLX7LUsQ6oe5BS9HifOwWD5VbJbM4cTZjR0qiJW5dftg",
+    "iv": "4BK3EceN8GTWYM4l",
+    "tag": "FTxZN5X6M4U3PrhJxhXezA",
     "version": 1
   }
 }
