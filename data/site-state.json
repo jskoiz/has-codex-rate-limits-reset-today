@@ -1,5 +1,5 @@
 {
-  "currentState": "yes",
+  "currentState": "no",
   "autoResetHours": 20,
   "noSubtitles": [
     "Back to your local model peasant",
@@ -10,20 +10,20 @@
     "Limits reset, go crazy",
     "You can just build things"
   ],
-  "resetAt": 1779639311544,
+  "resetAt": null,
   "updatedAt": 1779567311544,
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1779605694044,
-      "rationale": "This reply is conversational and does not mention limits, caps, or usage becoming available again.",
-      "tweetId": "2058440755874803962",
-      "tweetUrl": "https://x.com/thsottiaux/status/2058440755874803962",
+      "decidedAt": 1779653967703,
+      "rationale": "This reply discusses Codex availability conditions, not a limit or rate-limit reset.",
+      "tweetId": "2058643214702440733",
+      "tweetUrl": "https://x.com/thsottiaux/status/2058643214702440733",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2058440755874803962",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2058440755874803962",
+    "lastSeenTweetId": "2058643214702440733",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2058643214702440733",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1779569793553,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2058290656343466344"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1779653967703,
+        "inputTokens": 377,
+        "outputTokens": 106,
+        "rationale": "This reply discusses Codex availability conditions, not a limit or rate-limit reset.",
+        "reasoningTokens": 62,
+        "totalTokens": 483,
+        "tweetId": "2058643214702440733",
+        "tweetText": "@elkelk Only there if you have visited https://t.co/Ye96TLS6f3 and use codex",
+        "tweetUrl": "https://x.com/thsottiaux/status/2058643214702440733",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1779605694044,
@@ -279,29 +292,31 @@
         "tweetText": "@nitishkmrk Joined the waitlist 👀",
         "tweetUrl": "https://x.com/thsottiaux/status/2058280759107211501",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1779567311544,
-        "inputTokens": 462,
-        "outputTokens": 107,
-        "rationale": "The main post explicitly says Codex usage limits were reset for all accounts.",
-        "reasoningTokens": 63,
-        "totalTokens": 569,
-        "tweetId": "2058280452851638313",
-        "tweetText": "Some of you noticed limits drained faster in Codex, we root caused it to an optimization that we rolled back that had an impact on cache hit rates when compacting across long running sessions. \n\nWe fixed this and have now reset usage limits for all accounts. Enjoy the weekend.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2058280452851638313",
-        "verdict": "reset_confirmed"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 193684,
-      "totalOutputTokens": 52206,
-      "totalReasoningTokens": 27993,
-      "totalTokens": 245890
+      "totalInputTokens": 194061,
+      "totalOutputTokens": 52312,
+      "totalReasoningTokens": 28055,
+      "totalTokens": 246373
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1779653967703,
+      "inputTokens": 377,
+      "message": "",
+      "outputTokens": 106,
+      "rationale": "This reply discusses Codex availability conditions, not a limit or rate-limit reset.",
+      "reasoningTokens": 62,
+      "totalTokens": 483,
+      "tweetId": "2058643214702440733",
+      "tweetText": "@elkelk Only there if you have visited https://t.co/Ye96TLS6f3 and use codex",
+      "tweetUrl": "https://x.com/thsottiaux/status/2058643214702440733",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1779605694044,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2057980391404064988",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1779504447256,
-      "inputTokens": 359,
-      "message": "",
-      "outputTokens": 125,
-      "rationale": "This is just a brief reply and does not mention limits, caps, or usage being available again.",
-      "reasoningTokens": 77,
-      "totalTokens": 484,
-      "tweetId": "2057980213854921096",
-      "tweetText": "@harsette @sama OK",
-      "tweetUrl": "https://x.com/thsottiaux/status/2057980213854921096",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "9pN67XibpFsaq0BMPjBlYOi7qPlc61mDlMVU1qeTufuQzTPzkLSXXhd5BA",
-    "iv": "xE1Co_oE55W9cZvo",
-    "tag": "6QTe4WKICxQpXpNurIWoPQ",
+    "ciphertext": "UA6Cm7NqpsWZDiNHO8rcXkGbsqhyXA0qYhtXaxPTFqiegTuHUXbEI74v4g",
+    "iv": "dQB4z5fIdUnQBEK_",
+    "tag": "QP_K_uDDil3J3n-gYOWlLg",
     "version": 1
   }
 }
