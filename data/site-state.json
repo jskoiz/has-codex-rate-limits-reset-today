@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1779603839719,
-      "rationale": "This reply discusses competition and licensing, not rate limits or usage resetting.",
-      "tweetId": "2058432591951478834",
-      "tweetUrl": "https://x.com/thsottiaux/status/2058432591951478834",
+      "decidedAt": 1779603842512,
+      "rationale": "This post is general commentary about Codex, not about limits or a reset.",
+      "tweetId": "2058432994621436296",
+      "tweetUrl": "https://x.com/thsottiaux/status/2058432994621436296",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2058432591951478834",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2058432591951478834",
+    "lastSeenTweetId": "2058432994621436296",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2058432994621436296",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1779569793553,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2058290656343466344"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1779603842512,
+        "inputTokens": 387,
+        "outputTokens": 68,
+        "rationale": "This post is general commentary about Codex, not about limits or a reset.",
+        "reasoningTokens": 24,
+        "totalTokens": 455,
+        "tweetId": "2058432994621436296",
+        "tweetText": "Codex can do incredible things on demand, but it cannot experience life for you. \n\nDon’t forget to get out there and remember who you’re building for.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2058432994621436296",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1779603839719,
@@ -279,29 +292,31 @@
         "tweetText": "@ziwenxu_ @velonxbt Just being efficient",
         "tweetUrl": "https://x.com/thsottiaux/status/2058053186179780935",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1779513018444,
-        "inputTokens": 366,
-        "outputTokens": 73,
-        "rationale": "This reply is about hiring and does not mention rate limits, caps, or usage resetting.",
-        "reasoningTokens": 27,
-        "totalTokens": 439,
-        "tweetId": "2058051552355688496",
-        "tweetText": "@rezoundous That’s how all hiring is supposed to work Tyler",
-        "tweetUrl": "https://x.com/thsottiaux/status/2058051552355688496",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 191490,
-      "totalOutputTokens": 51731,
-      "totalReasoningTokens": 27783,
-      "totalTokens": 243221
+      "totalInputTokens": 191877,
+      "totalOutputTokens": 51799,
+      "totalReasoningTokens": 27807,
+      "totalTokens": 243676
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1779603842512,
+      "inputTokens": 387,
+      "message": "",
+      "outputTokens": 68,
+      "rationale": "This post is general commentary about Codex, not about limits or a reset.",
+      "reasoningTokens": 24,
+      "totalTokens": 455,
+      "tweetId": "2058432994621436296",
+      "tweetText": "Codex can do incredible things on demand, but it cannot experience life for you. \n\nDon’t forget to get out there and remember who you’re building for.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2058432994621436296",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1779603839719,
@@ -886,27 +901,12 @@
       "tweetUrl": null,
       "type": "error",
       "verdict": null
-    },
-    {
-      "confidence": 0.98,
-      "createdAt": 1779400558365,
-      "inputTokens": 362,
-      "message": "",
-      "outputTokens": 118,
-      "rationale": "This reply is a joke about unlimited tokens and does not say limits have reset or usage is available again.",
-      "reasoningTokens": 69,
-      "totalTokens": 480,
-      "tweetId": "2057580164901679241",
-      "tweetText": "@charliermarsh Complain about unlimited tokens",
-      "tweetUrl": "https://x.com/thsottiaux/status/2057580164901679241",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "W34HTpfSZXpUnCrVFig9FoEXKfKBDQPh7NNHNepS11B_G7JlvhjVXaXkPg",
-    "iv": "cGZ9Jrqhp0u9mTZF",
-    "tag": "7H-EbEFUhRFhNVidCLyKEA",
+    "ciphertext": "exAgYBqrdaYxl9xhM9ty-Yz5qRb4iyoNy1J6VXhhiiJphurfZWJnY2u7Eg",
+    "iv": "i2kec2pn5HVTGqIZ",
+    "tag": "j_Zu_MNkoDrsdIAyiJe1BA",
     "version": 1
   }
 }
