@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1779603224531,
-      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-      "tweetId": "2058430831685963842",
-      "tweetUrl": "https://x.com/thsottiaux/status/2058430831685963842",
+      "decidedAt": 1779603545786,
+      "rationale": "This is just a conversational reply and gives no indication that any limits reset.",
+      "tweetId": "2058431424110460934",
+      "tweetUrl": "https://x.com/thsottiaux/status/2058431424110460934",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2058430831685963842",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2058430831685963842",
+    "lastSeenTweetId": "2058431424110460934",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2058431424110460934",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1779569793553,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2058290656343466344"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1779603545786,
+        "inputTokens": 358,
+        "outputTokens": 84,
+        "rationale": "This is just a conversational reply and gives no indication that any limits reset.",
+        "reasoningTokens": 41,
+        "totalTokens": 442,
+        "tweetId": "2058431424110460934",
+        "tweetText": "@ziwenxu_ Welcome",
+        "tweetUrl": "https://x.com/thsottiaux/status/2058431424110460934",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1779603224531,
@@ -279,29 +292,31 @@
         "tweetText": "@0xSero You’re welcome!",
         "tweetUrl": "https://x.com/thsottiaux/status/2058051100440482292",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1779512388786,
-        "inputTokens": 363,
-        "outputTokens": 88,
-        "rationale": "This reply just says “OK” and gives no indication that any limits or caps have reset.",
-        "reasoningTokens": 41,
-        "totalTokens": 451,
-        "tweetId": "2058049743671156985",
-        "tweetText": "@ziwenxu_ @velonxbt OK",
-        "tweetUrl": "https://x.com/thsottiaux/status/2058049743671156985",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 190731,
-      "totalOutputTokens": 51564,
-      "totalReasoningTokens": 27701,
-      "totalTokens": 242295
+      "totalInputTokens": 191089,
+      "totalOutputTokens": 51648,
+      "totalReasoningTokens": 27742,
+      "totalTokens": 242737
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1779603545786,
+      "inputTokens": 358,
+      "message": "",
+      "outputTokens": 84,
+      "rationale": "This is just a conversational reply and gives no indication that any limits reset.",
+      "reasoningTokens": 41,
+      "totalTokens": 442,
+      "tweetId": "2058431424110460934",
+      "tweetText": "@ziwenxu_ Welcome",
+      "tweetUrl": "https://x.com/thsottiaux/status/2058431424110460934",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1779603224531,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2057579674642063452",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1779343700750,
-      "inputTokens": 362,
-      "message": "",
-      "outputTokens": 86,
-      "rationale": "This reply is conversational and does not mention limits, caps, or availability resetting.",
-      "reasoningTokens": 42,
-      "totalTokens": 448,
-      "tweetId": "2057341366590648720",
-      "tweetText": "@nicdunz Don’t do this at home",
-      "tweetUrl": "https://x.com/thsottiaux/status/2057341366590648720",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "L7hMlDP_kdSX_y_mFP8J3g4yW2FWtyVbZSMGucsJ1RGlj044DPphFAN81Q",
-    "iv": "Xav3Umn13Z75r-wk",
-    "tag": "HoicT8O1DeTYEA7oSFUrdA",
+    "ciphertext": "YAmuMVV0M1tupUEqGlpnGUv-mtSPshUgQNZQlkoiPoVytw2mELKvnQ2weA",
+    "iv": "PRozLWF-nE3zh8Ge",
+    "tag": "Dpo2EEg48Zg5tmJ_pBj8Xw",
     "version": 1
   }
 }
