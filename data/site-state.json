@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1779604466964,
-      "rationale": "This reply contains no indication that any Codex or ChatGPT limit has reset.",
-      "tweetId": "2058435848627257438",
-      "tweetUrl": "https://x.com/thsottiaux/status/2058435848627257438",
+      "decidedAt": 1779605390895,
+      "rationale": "This reply discusses a roadmap and does not mention limits, caps, or usage resetting.",
+      "tweetId": "2058439612583002400",
+      "tweetUrl": "https://x.com/thsottiaux/status/2058439612583002400",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2058435848627257438",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2058435848627257438",
+    "lastSeenTweetId": "2058439612583002400",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2058439612583002400",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1779569793553,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2058290656343466344"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1779605390895,
+        "inputTokens": 367,
+        "outputTokens": 81,
+        "rationale": "This reply discusses a roadmap and does not mention limits, caps, or usage resetting.",
+        "reasoningTokens": 36,
+        "totalTokens": 448,
+        "tweetId": "2058439612583002400",
+        "tweetText": "@rezoundous Congrats, you figured out 5% of our roadmap",
+        "tweetUrl": "https://x.com/thsottiaux/status/2058439612583002400",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1779604466964,
@@ -279,29 +292,31 @@
         "tweetText": "@user823493247 The metric needed to be optimized",
         "tweetUrl": "https://x.com/thsottiaux/status/2058075853322633552",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1779517679835,
-        "inputTokens": 412,
-        "outputTokens": 124,
-        "rationale": "This is about alternative tools and using a ChatGPT account elsewhere, not about limits resetting.",
-        "reasoningTokens": 78,
-        "totalTokens": 536,
-        "tweetId": "2058071172361998482",
-        "tweetText": "A little secret. About 5% of our production traffic is on the Pi harness, about another 5% is on OpenCode. Reminder you can use your ChatGPT account in a flourishing set of other tools.\n\nWe’ll continue to make Codex awesome, but you have options.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2058071172361998482",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 192952,
-      "totalOutputTokens": 52044,
-      "totalReasoningTokens": 27922,
-      "totalTokens": 244996
+      "totalInputTokens": 193319,
+      "totalOutputTokens": 52125,
+      "totalReasoningTokens": 27958,
+      "totalTokens": 245444
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1779605390895,
+      "inputTokens": 367,
+      "message": "",
+      "outputTokens": 81,
+      "rationale": "This reply discusses a roadmap and does not mention limits, caps, or usage resetting.",
+      "reasoningTokens": 36,
+      "totalTokens": 448,
+      "tweetId": "2058439612583002400",
+      "tweetText": "@rezoundous Congrats, you figured out 5% of our roadmap",
+      "tweetUrl": "https://x.com/thsottiaux/status/2058439612583002400",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1779604466964,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2057696459114619375",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1779504441258,
-      "inputTokens": 362,
-      "message": "",
-      "outputTokens": 75,
-      "rationale": "This reply is unrelated to Codex or ChatGPT limits resetting.",
-      "reasoningTokens": 34,
-      "totalTokens": 437,
-      "tweetId": "2057695959912685572",
-      "tweetText": "@amorriscode they still use twitter over there?",
-      "tweetUrl": "https://x.com/thsottiaux/status/2057695959912685572",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "SNY32uzfYwel5KtykaZLZHzHpQXC295cHupqzPuaxuRzsQIpVWf2P-w9RA",
-    "iv": "8fU1qcjKXGZeQBeE",
-    "tag": "f1aWVZTr45JRtN4Bjovafg",
+    "ciphertext": "VoAkowIXA4XBRQsJ7Pfi5SdlqSPBTp0QH99LFtuNLIx9VToeIKDlz3e_yA",
+    "iv": "OTGsHIZBdzzf1z1x",
+    "tag": "GxnAdN0hWeD26dapXVKlsQ",
     "version": 1
   }
 }
