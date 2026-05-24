@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1779604464105,
-      "rationale": "This reply is just conversational and does not mention limits or a reset.",
-      "tweetId": "2058435558817587623",
-      "tweetUrl": "https://x.com/thsottiaux/status/2058435558817587623",
+      "decidedAt": 1779604466964,
+      "rationale": "This reply contains no indication that any Codex or ChatGPT limit has reset.",
+      "tweetId": "2058435848627257438",
+      "tweetUrl": "https://x.com/thsottiaux/status/2058435848627257438",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2058435558817587623",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2058435558817587623",
+    "lastSeenTweetId": "2058435848627257438",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2058435848627257438",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1779569793553,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2058290656343466344"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1779604466964,
+        "inputTokens": 358,
+        "outputTokens": 76,
+        "rationale": "This reply contains no indication that any Codex or ChatGPT limit has reset.",
+        "reasoningTokens": 32,
+        "totalTokens": 434,
+        "tweetId": "2058435848627257438",
+        "tweetText": "@aidenljk !",
+        "tweetUrl": "https://x.com/thsottiaux/status/2058435848627257438",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1779604464105,
@@ -279,29 +292,31 @@
         "tweetText": "A little secret. About 5% of our production traffic is on the Pi harness, about another 5% is on OpenCode. Reminder you can use your ChatGPT account in a flourishing set of other tools.\n\nWe’ll continue to make Codex awesome, but you have options.",
         "tweetUrl": "https://x.com/thsottiaux/status/2058071172361998482",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1779517376040,
-        "inputTokens": 371,
-        "outputTokens": 70,
-        "rationale": "This reply is unrelated to Codex or ChatGPT usage limits or any reset.",
-        "reasoningTokens": 26,
-        "totalTokens": 441,
-        "tweetId": "2058069989425615277",
-        "tweetText": "@markvalorian I’m glad I think about other things in life than astroturfing",
-        "tweetUrl": "https://x.com/thsottiaux/status/2058069989425615277",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 192594,
-      "totalOutputTokens": 51968,
-      "totalReasoningTokens": 27890,
-      "totalTokens": 244562
+      "totalInputTokens": 192952,
+      "totalOutputTokens": 52044,
+      "totalReasoningTokens": 27922,
+      "totalTokens": 244996
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1779604466964,
+      "inputTokens": 358,
+      "message": "",
+      "outputTokens": 76,
+      "rationale": "This reply contains no indication that any Codex or ChatGPT limit has reset.",
+      "reasoningTokens": 32,
+      "totalTokens": 434,
+      "tweetId": "2058435848627257438",
+      "tweetText": "@aidenljk !",
+      "tweetUrl": "https://x.com/thsottiaux/status/2058435848627257438",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1779604464105,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2057695959912685572",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1779504438308,
-      "inputTokens": 359,
-      "message": "",
-      "outputTokens": 92,
-      "rationale": "This is a general statement about Codex and does not mention limits or resets.",
-      "reasoningTokens": 48,
-      "totalTokens": 451,
-      "tweetId": "2057695808267649327",
-      "tweetText": "Codex is our WorkGPT",
-      "tweetUrl": "https://x.com/thsottiaux/status/2057695808267649327",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "76z58vHo7rX5tRvmNK01MO99LkbZv4v2mqid9xfyQuqS7K3k8lwN6KEGlw",
-    "iv": "Gda7-6d3x_2fM1Aj",
-    "tag": "0CkFXIL2t0b7V0MU8H55Ww",
+    "ciphertext": "SNY32uzfYwel5KtykaZLZHzHpQXC295cHupqzPuaxuRzsQIpVWf2P-w9RA",
+    "iv": "8fU1qcjKXGZeQBeE",
+    "tag": "f1aWVZTr45JRtN4Bjovafg",
     "version": 1
   }
 }
