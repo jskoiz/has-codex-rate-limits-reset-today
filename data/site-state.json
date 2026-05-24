@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1779604157019,
-      "rationale": "This reply does not mention limits, caps, or any reset being available now.",
-      "tweetId": "2058433903468388498",
-      "tweetUrl": "https://x.com/thsottiaux/status/2058433903468388498",
+      "decidedAt": 1779604464105,
+      "rationale": "This reply is just conversational and does not mention limits or a reset.",
+      "tweetId": "2058435558817587623",
+      "tweetUrl": "https://x.com/thsottiaux/status/2058435558817587623",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2058433903468388498",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2058433903468388498",
+    "lastSeenTweetId": "2058435558817587623",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2058435558817587623",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1779569793553,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2058290656343466344"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1779604464105,
+        "inputTokens": 359,
+        "outputTokens": 74,
+        "rationale": "This reply is just conversational and does not mention limits or a reset.",
+        "reasoningTokens": 32,
+        "totalTokens": 433,
+        "tweetId": "2058435558817587623",
+        "tweetText": "@rezoundous Happy to help",
+        "tweetUrl": "https://x.com/thsottiaux/status/2058435558817587623",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1779604157019,
@@ -279,29 +292,31 @@
         "tweetText": "@markvalorian I’m glad I think about other things in life than astroturfing",
         "tweetUrl": "https://x.com/thsottiaux/status/2058069989425615277",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1779517059897,
-        "inputTokens": 361,
-        "outputTokens": 66,
-        "rationale": "This is just a conversational reply and says nothing about limits or resets.",
-        "reasoningTokens": 24,
-        "totalTokens": 427,
-        "tweetId": "2058069146806767705",
-        "tweetText": "@Solaawodiya Hi 👋",
-        "tweetUrl": "https://x.com/thsottiaux/status/2058069146806767705",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 192235,
-      "totalOutputTokens": 51894,
-      "totalReasoningTokens": 27858,
-      "totalTokens": 244129
+      "totalInputTokens": 192594,
+      "totalOutputTokens": 51968,
+      "totalReasoningTokens": 27890,
+      "totalTokens": 244562
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1779604464105,
+      "inputTokens": 359,
+      "message": "",
+      "outputTokens": 74,
+      "rationale": "This reply is just conversational and does not mention limits or a reset.",
+      "reasoningTokens": 32,
+      "totalTokens": 433,
+      "tweetId": "2058435558817587623",
+      "tweetText": "@rezoundous Happy to help",
+      "tweetUrl": "https://x.com/thsottiaux/status/2058435558817587623",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1779604157019,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2057695808267649327",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1779504435039,
-      "inputTokens": 360,
-      "message": "",
-      "outputTokens": 64,
-      "rationale": "This reply is unrelated to limits or availability resets.",
-      "reasoningTokens": 26,
-      "totalTokens": 424,
-      "tweetId": "2057657811396673748",
-      "tweetText": "@aisuperapp Linear or log scale?",
-      "tweetUrl": "https://x.com/thsottiaux/status/2057657811396673748",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "6V7gpCrR6QYmEkdUUN3O3rgE0-LZ1MRcNqWsei2ePfNa0s6qHy3yea9lHA",
-    "iv": "f2j__KTSNEZcAcpd",
-    "tag": "poj_fo3fzvB5LrXvRWUF7w",
+    "ciphertext": "76z58vHo7rX5tRvmNK01MO99LkbZv4v2mqid9xfyQuqS7K3k8lwN6KEGlw",
+    "iv": "Gda7-6d3x_2fM1Aj",
+    "tag": "0CkFXIL2t0b7V0MU8H55Ww",
     "version": 1
   }
 }
