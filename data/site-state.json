@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1779679120670,
-      "rationale": "This reply is about using the product to manage subscriptions, not about limits or a reset.",
-      "tweetId": "2058748892234371138",
-      "tweetUrl": "https://x.com/thsottiaux/status/2058748892234371138",
+      "decidedAt": 1779679438825,
+      "rationale": "This reply is conversational and says nothing about limits, caps, or usage being available again.",
+      "tweetId": "2058749868659855445",
+      "tweetUrl": "https://x.com/thsottiaux/status/2058749868659855445",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2058748892234371138",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2058748892234371138",
+    "lastSeenTweetId": "2058749868659855445",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2058749868659855445",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1779569793553,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2058290656343466344"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1779679438825,
+        "inputTokens": 371,
+        "outputTokens": 111,
+        "rationale": "This reply is conversational and says nothing about limits, caps, or usage being available again.",
+        "reasoningTokens": 65,
+        "totalTokens": 482,
+        "tweetId": "2058749868659855445",
+        "tweetText": "@nicdunz Approximately 1B users would disagree with you that that is a good idea",
+        "tweetUrl": "https://x.com/thsottiaux/status/2058749868659855445",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1779679120670,
@@ -279,29 +292,31 @@
         "tweetText": "Bad Romance. Good guess everyone",
         "tweetUrl": "https://x.com/thsottiaux/status/2058318303467286665",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.95,
-        "evaluatedAt": 1779569793553,
-        "inputTokens": 359,
-        "outputTokens": 250,
-        "rationale": "This reply only asks about the plan and does not clearly indicate any limit reset.",
-        "reasoningTokens": 206,
-        "totalTokens": 609,
-        "tweetId": "2058290656343466344",
-        "tweetText": "@aphumphreys Which plan?",
-        "tweetUrl": "https://x.com/thsottiaux/status/2058290656343466344",
-        "verdict": "uncertain"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 194852,
-      "totalOutputTokens": 52460,
-      "totalReasoningTokens": 28110,
-      "totalTokens": 247312
+      "totalInputTokens": 195223,
+      "totalOutputTokens": 52571,
+      "totalReasoningTokens": 28175,
+      "totalTokens": 247794
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1779679438825,
+      "inputTokens": 371,
+      "message": "",
+      "outputTokens": 111,
+      "rationale": "This reply is conversational and says nothing about limits, caps, or usage being available again.",
+      "reasoningTokens": 65,
+      "totalTokens": 482,
+      "tweetId": "2058749868659855445",
+      "tweetText": "@nicdunz Approximately 1B users would disagree with you that that is a good idea",
+      "tweetUrl": "https://x.com/thsottiaux/status/2058749868659855445",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1779679120670,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2057996482326995382",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1779504456719,
-      "inputTokens": 365,
-      "message": "",
-      "outputTokens": 95,
-      "rationale": "This reply is just a comment about Codex and does not mention any limit or rate-limit reset.",
-      "reasoningTokens": 47,
-      "totalTokens": 460,
-      "tweetId": "2057996239850045461",
-      "tweetText": "@ACV__X This makes me want to install codex",
-      "tweetUrl": "https://x.com/thsottiaux/status/2057996239850045461",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "a4NjkOB05Ly4DRXdCYpbu4b31RSa19FqlDiVhzsoFO45pvh4nq2JAH2E0A",
-    "iv": "xALkri8PHtq3sOWW",
-    "tag": "L8piqbauyafT3zzTnS427g",
+    "ciphertext": "EKREX8m8uA4xTbFW6HElGNxfiKa_FHKz6mYuVOWv0dZXlSH_5HbRhje-RQ",
+    "iv": "eiowIE8BBnpZO2nK",
+    "tag": "ZHpCZishq7tKqsG0c4G8fQ",
     "version": 1
   }
 }
