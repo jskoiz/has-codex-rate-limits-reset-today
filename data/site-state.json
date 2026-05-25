@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1779679438825,
-      "rationale": "This reply is conversational and says nothing about limits, caps, or usage being available again.",
-      "tweetId": "2058749868659855445",
-      "tweetUrl": "https://x.com/thsottiaux/status/2058749868659855445",
+      "decidedAt": 1779679441632,
+      "rationale": "This reply is just a casual comment and does not mention limits, caps, or a reset.",
+      "tweetId": "2058750154640068764",
+      "tweetUrl": "https://x.com/thsottiaux/status/2058750154640068764",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2058749868659855445",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2058749868659855445",
+    "lastSeenTweetId": "2058750154640068764",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2058750154640068764",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1779569793553,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2058290656343466344"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1779679441632,
+        "inputTokens": 358,
+        "outputTokens": 86,
+        "rationale": "This reply is just a casual comment and does not mention limits, caps, or a reset.",
+        "reasoningTokens": 39,
+        "totalTokens": 444,
+        "tweetId": "2058750154640068764",
+        "tweetText": "@KaiXCreator Better AI",
+        "tweetUrl": "https://x.com/thsottiaux/status/2058750154640068764",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1779679438825,
@@ -279,29 +292,31 @@
         "tweetText": "@trikcode Keep the jokes coming",
         "tweetUrl": "https://x.com/thsottiaux/status/2058318604769386925",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1779576562229,
-        "inputTokens": 359,
-        "outputTokens": 83,
-        "rationale": "This reply does not mention limits, caps, or usage becoming available again.",
-        "reasoningTokens": 40,
-        "totalTokens": 442,
-        "tweetId": "2058318303467286665",
-        "tweetText": "Bad Romance. Good guess everyone",
-        "tweetUrl": "https://x.com/thsottiaux/status/2058318303467286665",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 195223,
-      "totalOutputTokens": 52571,
-      "totalReasoningTokens": 28175,
-      "totalTokens": 247794
+      "totalInputTokens": 195581,
+      "totalOutputTokens": 52657,
+      "totalReasoningTokens": 28214,
+      "totalTokens": 248238
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1779679441632,
+      "inputTokens": 358,
+      "message": "",
+      "outputTokens": 86,
+      "rationale": "This reply is just a casual comment and does not mention limits, caps, or a reset.",
+      "reasoningTokens": 39,
+      "totalTokens": 444,
+      "tweetId": "2058750154640068764",
+      "tweetText": "@KaiXCreator Better AI",
+      "tweetUrl": "https://x.com/thsottiaux/status/2058750154640068764",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1779679438825,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2057997051561197998",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1779504459946,
-      "inputTokens": 366,
-      "message": "",
-      "outputTokens": 111,
-      "rationale": "This reply is conversational about going back to Pro and does not say limits or caps have reset.",
-      "reasoningTokens": 64,
-      "totalTokens": 477,
-      "tweetId": "2057996482326995382",
-      "tweetText": "@nicdunz Go back to PRO and it will be all forgiven",
-      "tweetUrl": "https://x.com/thsottiaux/status/2057996482326995382",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "EKREX8m8uA4xTbFW6HElGNxfiKa_FHKz6mYuVOWv0dZXlSH_5HbRhje-RQ",
-    "iv": "eiowIE8BBnpZO2nK",
-    "tag": "ZHpCZishq7tKqsG0c4G8fQ",
+    "ciphertext": "5OYzlOrfW9ff7E83AkCZ_434At7VSwjTEqgfNW1mUUxxEcMBL4bmVgEdJQ",
+    "iv": "2MnVLdm1BoLNsHnZ",
+    "tag": "i4wNGZAfueR7CvvvgFgSzw",
     "version": 1
   }
 }
