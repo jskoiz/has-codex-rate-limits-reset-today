@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1779679117327,
-      "rationale": "This post is about using Codex to cancel subscriptions and does not mention limits or a reset.",
-      "tweetId": "2058748717155664162",
-      "tweetUrl": "https://x.com/thsottiaux/status/2058748717155664162",
+      "decidedAt": 1779679120670,
+      "rationale": "This reply is about using the product to manage subscriptions, not about limits or a reset.",
+      "tweetId": "2058748892234371138",
+      "tweetUrl": "https://x.com/thsottiaux/status/2058748892234371138",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2058748717155664162",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2058748717155664162",
+    "lastSeenTweetId": "2058748892234371138",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2058748892234371138",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1779569793553,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2058290656343466344"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1779679120670,
+        "inputTokens": 391,
+        "outputTokens": 80,
+        "rationale": "This reply is about using the product to manage subscriptions, not about limits or a reset.",
+        "reasoningTokens": 34,
+        "totalTokens": 471,
+        "tweetId": "2058748892234371138",
+        "tweetText": "\"Go through my email and make a list of subscriptions i pay for and validate with me which ones to unsubscribe from\"\n\nand then ask it to unsubscribe for the ones you don't need anymore",
+        "tweetUrl": "https://x.com/thsottiaux/status/2058748892234371138",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1779679117327,
@@ -279,29 +292,31 @@
         "tweetText": "@aphumphreys Which plan?",
         "tweetUrl": "https://x.com/thsottiaux/status/2058290656343466344",
         "verdict": "uncertain"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1779568543332,
-        "inputTokens": 389,
-        "outputTokens": 86,
-        "rationale": "This is just a humorous remark and does not mention limits, caps, or a reset.",
-        "reasoningTokens": 40,
-        "totalTokens": 475,
-        "tweetId": "2058285701146501415",
-        "tweetText": "Rah-rah-ah-ah-ah, Roma-roma-ma, gaa, ooh-la-la…\n\n... goes the GPT Goblin 1.0 Extra High /Fast",
-        "tweetUrl": "https://x.com/thsottiaux/status/2058285701146501415",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 194461,
-      "totalOutputTokens": 52380,
-      "totalReasoningTokens": 28076,
-      "totalTokens": 246841
+      "totalInputTokens": 194852,
+      "totalOutputTokens": 52460,
+      "totalReasoningTokens": 28110,
+      "totalTokens": 247312
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1779679120670,
+      "inputTokens": 391,
+      "message": "",
+      "outputTokens": 80,
+      "rationale": "This reply is about using the product to manage subscriptions, not about limits or a reset.",
+      "reasoningTokens": 34,
+      "totalTokens": 471,
+      "tweetId": "2058748892234371138",
+      "tweetText": "\"Go through my email and make a list of subscriptions i pay for and validate with me which ones to unsubscribe from\"\n\nand then ask it to unsubscribe for the ones you don't need anymore",
+      "tweetUrl": "https://x.com/thsottiaux/status/2058748892234371138",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1779679117327,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2057996239850045461",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1779504453491,
-      "inputTokens": 380,
-      "message": "",
-      "outputTokens": 95,
-      "rationale": "This reply discusses plan tiers and usage, not a current cap or rate-limit reset.",
-      "reasoningTokens": 50,
-      "totalTokens": 475,
-      "tweetId": "2057983465266860035",
-      "tweetText": "@nicdunz I mean... you did go from PRO to PLUS. To get more usage you are supposed to go in the other direction.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2057983465266860035",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "HWDPJcKGwexgjuoaD2pLMGdA8E8DpropXQUddEcwo8zjrimyVR_tcuBmiA",
-    "iv": "KF9S7I5r-YQxGEqD",
-    "tag": "zESa1rChjmNWTI5ZsayQ4A",
+    "ciphertext": "a4NjkOB05Ly4DRXdCYpbu4b31RSa19FqlDiVhzsoFO45pvh4nq2JAH2E0A",
+    "iv": "xALkri8PHtq3sOWW",
+    "tag": "L8piqbauyafT3zzTnS427g",
     "version": 1
   }
 }
