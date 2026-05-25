@@ -14,16 +14,16 @@
   "updatedAt": 1779567311544,
   "automation": {
     "lastDecision": {
-      "confidence": 0.98,
-      "decidedAt": 1779680056654,
-      "rationale": "This is a conversational reply and does not mention limits, caps, or a reset.",
-      "tweetId": "2058753082138493077",
-      "tweetUrl": "https://x.com/thsottiaux/status/2058753082138493077",
+      "confidence": 0.99,
+      "decidedAt": 1779680059399,
+      "rationale": "This reply is just conversational about usage and does not mention limits or a reset.",
+      "tweetId": "2058753198450737496",
+      "tweetUrl": "https://x.com/thsottiaux/status/2058753198450737496",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2058753082138493077",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2058753082138493077",
+    "lastSeenTweetId": "2058753198450737496",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2058753198450737496",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1779569793553,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2058290656343466344"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1779680059399,
+        "inputTokens": 367,
+        "outputTokens": 90,
+        "rationale": "This reply is just conversational about usage and does not mention limits or a reset.",
+        "reasoningTokens": 46,
+        "totalTokens": 457,
+        "tweetId": "2058753198450737496",
+        "tweetText": "@lennox_saint I also use for all the little admin things",
+        "tweetUrl": "https://x.com/thsottiaux/status/2058753198450737496",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.98,
         "evaluatedAt": 1779680056654,
@@ -279,29 +292,31 @@
         "tweetText": "@BlockedPaths Lies and butterflies 🦋",
         "tweetUrl": "https://x.com/thsottiaux/status/2058320967609528679",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1779576883520,
-        "inputTokens": 366,
-        "outputTokens": 90,
-        "rationale": "This is a product idea discussion about Codex features, not a statement that limits have reset.",
-        "reasoningTokens": 43,
-        "totalTokens": 456,
-        "tweetId": "2058320061258236263",
-        "tweetText": "Should we bring batch compute to codex? Aka /slow mode",
-        "tweetUrl": "https://x.com/thsottiaux/status/2058320061258236263",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 196306,
-      "totalOutputTokens": 52879,
-      "totalReasoningTokens": 28350,
-      "totalTokens": 249185
+      "totalInputTokens": 196673,
+      "totalOutputTokens": 52969,
+      "totalReasoningTokens": 28396,
+      "totalTokens": 249642
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1779680059399,
+      "inputTokens": 367,
+      "message": "",
+      "outputTokens": 90,
+      "rationale": "This reply is just conversational about usage and does not mention limits or a reset.",
+      "reasoningTokens": 46,
+      "totalTokens": 457,
+      "tweetId": "2058753198450737496",
+      "tweetText": "@lennox_saint I also use for all the little admin things",
+      "tweetUrl": "https://x.com/thsottiaux/status/2058753198450737496",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.98,
       "createdAt": 1779680056654,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2058048607165784476",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1779510560740,
-      "inputTokens": 358,
-      "message": "",
-      "outputTokens": 99,
-      "rationale": "This reply just says “OK” and does not mention any limits or reset.",
-      "reasoningTokens": 55,
-      "totalTokens": 457,
-      "tweetId": "2058042325520310310",
-      "tweetText": "@ziwenxu_ OK",
-      "tweetUrl": "https://x.com/thsottiaux/status/2058042325520310310",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "bc8poqRA5oDJMrJiT4NREWPOLzcLMSGX329oPib2PR1p6mc0bS1SIWKZiA",
-    "iv": "A5zi0J0_y_nNe4Mx",
-    "tag": "R0dOjsA6QQSzAZ5dME2YBA",
+    "ciphertext": "ZMG4FV6p3_QYTlj0FpKbQjrLSSRnpMyU36X-pBq_UIfIBNCPJbroNM6Uuw",
+    "iv": "5jRUC3fWIY7wQwOa",
+    "tag": "cCR41Xh8XCWyZHR45Lj-Rw",
     "version": 1
   }
 }
