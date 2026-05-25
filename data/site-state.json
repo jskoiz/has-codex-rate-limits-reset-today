@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1779653967703,
-      "rationale": "This reply discusses Codex availability conditions, not a limit or rate-limit reset.",
-      "tweetId": "2058643214702440733",
-      "tweetUrl": "https://x.com/thsottiaux/status/2058643214702440733",
+      "decidedAt": 1779679117327,
+      "rationale": "This post is about using Codex to cancel subscriptions and does not mention limits or a reset.",
+      "tweetId": "2058748717155664162",
+      "tweetUrl": "https://x.com/thsottiaux/status/2058748717155664162",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2058643214702440733",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2058643214702440733",
+    "lastSeenTweetId": "2058748717155664162",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2058748717155664162",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1779569793553,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2058290656343466344"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1779679117327,
+        "inputTokens": 400,
+        "outputTokens": 68,
+        "rationale": "This post is about using Codex to cancel subscriptions and does not mention limits or a reset.",
+        "reasoningTokens": 21,
+        "totalTokens": 468,
+        "tweetId": "2058748717155664162",
+        "tweetText": "Using computer use, you can ask codex to cancel subscriptions you don't need anymore. Very pleasant to watch. No particular one in mind, works on all of them.\n\nhttps://t.co/Q2mNyiCPba",
+        "tweetUrl": "https://x.com/thsottiaux/status/2058748717155664162",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1779653967703,
@@ -279,29 +292,31 @@
         "tweetText": "Rah-rah-ah-ah-ah, Roma-roma-ma, gaa, ooh-la-la…\n\n... goes the GPT Goblin 1.0 Extra High /Fast",
         "tweetUrl": "https://x.com/thsottiaux/status/2058285701146501415",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1779567624898,
-        "inputTokens": 363,
-        "outputTokens": 107,
-        "rationale": "This reply is about joining a waitlist and does not mention any limit or cap reset.",
-        "reasoningTokens": 61,
-        "totalTokens": 470,
-        "tweetId": "2058280759107211501",
-        "tweetText": "@nitishkmrk Joined the waitlist 👀",
-        "tweetUrl": "https://x.com/thsottiaux/status/2058280759107211501",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 194061,
-      "totalOutputTokens": 52312,
-      "totalReasoningTokens": 28055,
-      "totalTokens": 246373
+      "totalInputTokens": 194461,
+      "totalOutputTokens": 52380,
+      "totalReasoningTokens": 28076,
+      "totalTokens": 246841
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1779679117327,
+      "inputTokens": 400,
+      "message": "",
+      "outputTokens": 68,
+      "rationale": "This post is about using Codex to cancel subscriptions and does not mention limits or a reset.",
+      "reasoningTokens": 21,
+      "totalTokens": 468,
+      "tweetId": "2058748717155664162",
+      "tweetText": "Using computer use, you can ask codex to cancel subscriptions you don't need anymore. Very pleasant to watch. No particular one in mind, works on all of them.\n\nhttps://t.co/Q2mNyiCPba",
+      "tweetUrl": "https://x.com/thsottiaux/status/2058748717155664162",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1779653967703,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2057983465266860035",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1779504450597,
-      "inputTokens": 360,
-      "message": "",
-      "outputTokens": 130,
-      "rationale": "This is just a conversational reply and gives no indication that any limits have reset.",
-      "reasoningTokens": 86,
-      "totalTokens": 490,
-      "tweetId": "2057980391404064988",
-      "tweetText": "@reyneill_ Tell me more",
-      "tweetUrl": "https://x.com/thsottiaux/status/2057980391404064988",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "UA6Cm7NqpsWZDiNHO8rcXkGbsqhyXA0qYhtXaxPTFqiegTuHUXbEI74v4g",
-    "iv": "dQB4z5fIdUnQBEK_",
-    "tag": "QP_K_uDDil3J3n-gYOWlLg",
+    "ciphertext": "HWDPJcKGwexgjuoaD2pLMGdA8E8DpropXQUddEcwo8zjrimyVR_tcuBmiA",
+    "iv": "KF9S7I5r-YQxGEqD",
+    "tag": "zESa1rChjmNWTI5ZsayQ4A",
     "version": 1
   }
 }
