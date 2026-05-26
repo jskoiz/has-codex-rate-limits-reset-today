@@ -14,16 +14,16 @@
   "updatedAt": 1779567311544,
   "automation": {
     "lastDecision": {
-      "confidence": 0.92,
-      "decidedAt": 1779684412844,
-      "rationale": "This reply contains no explicit text saying limits or rate caps have reset.",
-      "tweetId": "2058771332859625901",
-      "tweetUrl": "https://x.com/thsottiaux/status/2058771332859625901",
-      "verdict": "uncertain"
+      "confidence": 0.99,
+      "decidedAt": 1779771299005,
+      "rationale": "This is just a conversational comment about monitoring Codex usage, not a statement that limits reset.",
+      "tweetId": "2059135643654259013",
+      "tweetUrl": "https://x.com/thsottiaux/status/2059135643654259013",
+      "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2058771332859625901",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2058771332859625901",
+    "lastSeenTweetId": "2059135643654259013",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2059135643654259013",
     "pendingReview": {
       "confidence": 0.92,
       "createdAt": 1779684412844,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2058771332859625901"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1779771299005,
+        "inputTokens": 383,
+        "outputTokens": 81,
+        "rationale": "This is just a conversational comment about monitoring Codex usage, not a statement that limits reset.",
+        "reasoningTokens": 34,
+        "totalTokens": 464,
+        "tweetId": "2059135643654259013",
+        "tweetText": "There is a certain zen to looking at codex traffic, usage and compute dashboards late at night while listening to LCD Soundsystem. The tokens must flow",
+        "tweetUrl": "https://x.com/thsottiaux/status/2059135643654259013",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.92,
         "evaluatedAt": 1779684412844,
@@ -279,29 +292,31 @@
         "tweetText": "@ah20im Tell me more Ahmed",
         "tweetUrl": "https://x.com/thsottiaux/status/2058325643008602424",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1779578110490,
-        "inputTokens": 361,
-        "outputTokens": 92,
-        "rationale": "This reply just says Codex is handling something and does not mention limits or a reset.",
-        "reasoningTokens": 46,
-        "totalTokens": 453,
-        "tweetId": "2058324756085297265",
-        "tweetText": "@kr0der Codex is on it",
-        "tweetUrl": "https://x.com/thsottiaux/status/2058324756085297265",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 197042,
-      "totalOutputTokens": 53119,
-      "totalReasoningTokens": 28504,
-      "totalTokens": 250161
+      "totalInputTokens": 197425,
+      "totalOutputTokens": 53200,
+      "totalReasoningTokens": 28538,
+      "totalTokens": 250625
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1779771299005,
+      "inputTokens": 383,
+      "message": "",
+      "outputTokens": 81,
+      "rationale": "This is just a conversational comment about monitoring Codex usage, not a statement that limits reset.",
+      "reasoningTokens": 34,
+      "totalTokens": 464,
+      "tweetId": "2059135643654259013",
+      "tweetText": "There is a certain zen to looking at codex traffic, usage and compute dashboards late at night while listening to LCD Soundsystem. The tokens must flow",
+      "tweetUrl": "https://x.com/thsottiaux/status/2059135643654259013",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.92,
       "createdAt": 1779684412844,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2058049190320832756",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1779512382349,
-      "inputTokens": 364,
-      "message": "",
-      "outputTokens": 77,
-      "rationale": "This reply does not mention limits, caps, or availability resetting.",
-      "reasoningTokens": 36,
-      "totalTokens": 441,
-      "tweetId": "2058049094183240032",
-      "tweetText": "@r_ny_andrianina To you or to Chat?",
-      "tweetUrl": "https://x.com/thsottiaux/status/2058049094183240032",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "D-onEQMPPOC__61rWlPM4v1hKAPAey_Y2E1l3XvR9O2sB_JSftKSlESQVQ",
-    "iv": "xbbapJWQGIVa_5fm",
-    "tag": "yR6Ni0eVb3FKtpyFWpcHCw",
+    "ciphertext": "yO5qz3iQjX1jh_Ad6kuR2og7vT1FEn_DFS84In6ew_5xo4ylDJ9WBGDHOA",
+    "iv": "60cni3t2WbFgIJj0",
+    "tag": "kqJ-oLR4CLzRl_eksXTsPQ",
     "version": 1
   }
 }
