@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1779894115644,
-      "rationale": "This post is about model availability changes, not user caps or rate limits resetting.",
-      "tweetId": "2059650685948551384",
-      "tweetUrl": "https://x.com/thsottiaux/status/2059650685948551384",
+      "decidedAt": 1779894119373,
+      "rationale": "This reply discusses model progress and production usage, not any limit or rate-limit reset.",
+      "tweetId": "2059650945898987552",
+      "tweetUrl": "https://x.com/thsottiaux/status/2059650945898987552",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2059650685948551384",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2059650685948551384",
+    "lastSeenTweetId": "2059650945898987552",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2059650945898987552",
     "pendingReview": {
       "confidence": 0.92,
       "createdAt": 1779684412844,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2058771332859625901"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1779894119373,
+        "inputTokens": 399,
+        "outputTokens": 91,
+        "rationale": "This reply discusses model progress and production usage, not any limit or rate-limit reset.",
+        "reasoningTokens": 46,
+        "totalTokens": 490,
+        "tweetId": "2059650945898987552",
+        "tweetText": "Thinking back, quite crazy to think about the progress that was made since December last year when GPT-5.2 was released.\n\nIt now is seeing &lt;1% of usage in production and is considered quite outdated!",
+        "tweetUrl": "https://x.com/thsottiaux/status/2059650945898987552",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1779894115644,
@@ -279,29 +292,31 @@
         "tweetText": "@darrenjr I think there are different innovations in each. But we don’t hide ours and our license is permissive.\n\nYou can actually see some of our code, slightly adapted, in their harness.\n\nCompetition is good.",
         "tweetUrl": "https://x.com/thsottiaux/status/2058432591951478834",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1779603545786,
-        "inputTokens": 358,
-        "outputTokens": 84,
-        "rationale": "This is just a conversational reply and gives no indication that any limits reset.",
-        "reasoningTokens": 41,
-        "totalTokens": 442,
-        "tweetId": "2058431424110460934",
-        "tweetText": "@ziwenxu_ Welcome",
-        "tweetUrl": "https://x.com/thsottiaux/status/2058431424110460934",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 198219,
-      "totalOutputTokens": 53376,
-      "totalReasoningTokens": 28626,
-      "totalTokens": 251595
+      "totalInputTokens": 198618,
+      "totalOutputTokens": 53467,
+      "totalReasoningTokens": 28672,
+      "totalTokens": 252085
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1779894119373,
+      "inputTokens": 399,
+      "message": "",
+      "outputTokens": 91,
+      "rationale": "This reply discusses model progress and production usage, not any limit or rate-limit reset.",
+      "reasoningTokens": 46,
+      "totalTokens": 490,
+      "tweetId": "2059650945898987552",
+      "tweetText": "Thinking back, quite crazy to think about the progress that was made since December last year when GPT-5.2 was released.\n\nIt now is seeing &lt;1% of usage in production and is considered quite outdated!",
+      "tweetUrl": "https://x.com/thsottiaux/status/2059650945898987552",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1779894115644,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2058051552355688496",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1779512699121,
-      "inputTokens": 360,
-      "message": "",
-      "outputTokens": 78,
-      "rationale": "This reply is just conversational and does not mention any limit, cap, or reset.",
-      "reasoningTokens": 33,
-      "totalTokens": 438,
-      "tweetId": "2058051100440482292",
-      "tweetText": "@0xSero You’re welcome!",
-      "tweetUrl": "https://x.com/thsottiaux/status/2058051100440482292",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "1p6-dEn7TxtmAynLQ9o_2bJumlKSFhoc9LuTR_iLMGqxC9XxVRD2G_XnZQ",
-    "iv": "PEw9eX5wG_TIb6eM",
-    "tag": "atERscx12cvXHGd8EDV9Lg",
+    "ciphertext": "2wuaCg5cmJHHGccv16ODhdypcfSz80skhVaKKxZ-GoC0Shml78RX1NRuxQ",
+    "iv": "V3MRZkPzHo6Vw_tT",
+    "tag": "1iFwX-U7LvFb_Gwd7rzzWQ",
     "version": 1
   }
 }
