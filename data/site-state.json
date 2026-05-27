@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1779898765811,
-      "rationale": "This is just a welcome reply and says nothing about limits or a reset.",
-      "tweetId": "2059670620691173425",
-      "tweetUrl": "https://x.com/thsottiaux/status/2059670620691173425",
+      "decidedAt": 1779898769254,
+      "rationale": "This reply only clarifies scope and does not say Codex or ChatGPT limits have reset.",
+      "tweetId": "2059670688143970475",
+      "tweetUrl": "https://x.com/thsottiaux/status/2059670688143970475",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2059670620691173425",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2059670620691173425",
+    "lastSeenTweetId": "2059670688143970475",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2059670688143970475",
     "pendingReview": {
       "confidence": 0.92,
       "createdAt": 1779684412844,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2058771332859625901"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1779898769254,
+        "inputTokens": 365,
+        "outputTokens": 89,
+        "rationale": "This reply only clarifies scope and does not say Codex or ChatGPT limits have reset.",
+        "reasoningTokens": 42,
+        "totalTokens": 454,
+        "tweetId": "2059670688143970475",
+        "tweetText": "This is completions API only and does not affect Codex.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2059670688143970475",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1779898765811,
@@ -279,29 +292,31 @@
         "tweetText": "@rezoundous Congrats, you figured out 5% of our roadmap",
         "tweetUrl": "https://x.com/thsottiaux/status/2058439612583002400",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1779604466964,
-        "inputTokens": 358,
-        "outputTokens": 76,
-        "rationale": "This reply contains no indication that any Codex or ChatGPT limit has reset.",
-        "reasoningTokens": 32,
-        "totalTokens": 434,
-        "tweetId": "2058435848627257438",
-        "tweetText": "@aidenljk !",
-        "tweetUrl": "https://x.com/thsottiaux/status/2058435848627257438",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 200101,
-      "totalOutputTokens": 53792,
-      "totalReasoningTokens": 28818,
-      "totalTokens": 253893
+      "totalInputTokens": 200466,
+      "totalOutputTokens": 53881,
+      "totalReasoningTokens": 28860,
+      "totalTokens": 254347
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1779898769254,
+      "inputTokens": 365,
+      "message": "",
+      "outputTokens": 89,
+      "rationale": "This reply only clarifies scope and does not say Codex or ChatGPT limits have reset.",
+      "reasoningTokens": 42,
+      "totalTokens": 454,
+      "tweetId": "2059670688143970475",
+      "tweetText": "This is completions API only and does not affect Codex.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2059670688143970475",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1779898765811,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2058075853322633552",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1779517679835,
-      "inputTokens": 412,
-      "message": "",
-      "outputTokens": 124,
-      "rationale": "This is about alternative tools and using a ChatGPT account elsewhere, not about limits resetting.",
-      "reasoningTokens": 78,
-      "totalTokens": 536,
-      "tweetId": "2058071172361998482",
-      "tweetText": "A little secret. About 5% of our production traffic is on the Pi harness, about another 5% is on OpenCode. Reminder you can use your ChatGPT account in a flourishing set of other tools.\n\nWe’ll continue to make Codex awesome, but you have options.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2058071172361998482",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "qQGNKDEdflknResknc1fYc05WPFZRkQ6pZr_qU7m1QHm1JBoRbuND9WAjw",
-    "iv": "GzGQiUNC7HUY8ujn",
-    "tag": "OFzt8BhO2eEkEXPaKv6yRA",
+    "ciphertext": "EdnaTs40pzNLcPc8cbNFfkd2ysFEvPFDn0GnEuu5RxfuzubCJmce9yMogQ",
+    "iv": "ei07NucxtyD7tQVx",
+    "tag": "hYyn00zQ-NrZcmEcstBQgQ",
     "version": 1
   }
 }
