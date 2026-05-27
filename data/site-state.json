@@ -14,25 +14,38 @@
   "updatedAt": 1779567311544,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1779898769254,
-      "rationale": "This reply only clarifies scope and does not say Codex or ChatGPT limits have reset.",
-      "tweetId": "2059670688143970475",
-      "tweetUrl": "https://x.com/thsottiaux/status/2059670688143970475",
-      "verdict": "not_reset"
+      "confidence": 0.95,
+      "decidedAt": 1779923278226,
+      "rationale": "The reply only says \"Resolved,\" which is not explicit enough to confirm a current limit reset.",
+      "tweetId": "2059773259332366617",
+      "tweetUrl": "https://x.com/thsottiaux/status/2059773259332366617",
+      "verdict": "uncertain"
     },
     "lastError": null,
-    "lastSeenTweetId": "2059670688143970475",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2059670688143970475",
+    "lastSeenTweetId": "2059773259332366617",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2059773259332366617",
     "pendingReview": {
-      "confidence": 0.92,
-      "createdAt": 1779684412844,
-      "rationale": "This reply contains no explicit text saying limits or rate caps have reset.",
-      "tweetId": "2058771332859625901",
-      "tweetText": "@Im_IrushiK https://t.co/zkuwLZZal8",
-      "tweetUrl": "https://x.com/thsottiaux/status/2058771332859625901"
+      "confidence": 0.95,
+      "createdAt": 1779923278226,
+      "rationale": "The reply only says \"Resolved,\" which is not explicit enough to confirm a current limit reset.",
+      "tweetId": "2059773259332366617",
+      "tweetText": "Resolved",
+      "tweetUrl": "https://x.com/thsottiaux/status/2059773259332366617"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.95,
+        "evaluatedAt": 1779923278226,
+        "inputTokens": 354,
+        "outputTokens": 141,
+        "rationale": "The reply only says \"Resolved,\" which is not explicit enough to confirm a current limit reset.",
+        "reasoningTokens": 94,
+        "totalTokens": 495,
+        "tweetId": "2059773259332366617",
+        "tweetText": "Resolved",
+        "tweetUrl": "https://x.com/thsottiaux/status/2059773259332366617",
+        "verdict": "uncertain"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1779898769254,
@@ -279,29 +292,31 @@
         "tweetText": "@morganlinton Appreciate you Morgan. Ignore and carry on!",
         "tweetUrl": "https://x.com/thsottiaux/status/2058440755874803962",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1779605390895,
-        "inputTokens": 367,
-        "outputTokens": 81,
-        "rationale": "This reply discusses a roadmap and does not mention limits, caps, or usage resetting.",
-        "reasoningTokens": 36,
-        "totalTokens": 448,
-        "tweetId": "2058439612583002400",
-        "tweetText": "@rezoundous Congrats, you figured out 5% of our roadmap",
-        "tweetUrl": "https://x.com/thsottiaux/status/2058439612583002400",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 200466,
-      "totalOutputTokens": 53881,
-      "totalReasoningTokens": 28860,
-      "totalTokens": 254347
+      "totalInputTokens": 200820,
+      "totalOutputTokens": 54022,
+      "totalReasoningTokens": 28954,
+      "totalTokens": 254842
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.95,
+      "createdAt": 1779923278226,
+      "inputTokens": 354,
+      "message": "",
+      "outputTokens": 141,
+      "rationale": "The reply only says \"Resolved,\" which is not explicit enough to confirm a current limit reset.",
+      "reasoningTokens": 94,
+      "totalTokens": 495,
+      "tweetId": "2059773259332366617",
+      "tweetText": "Resolved",
+      "tweetUrl": "https://x.com/thsottiaux/status/2059773259332366617",
+      "type": "review_requested",
+      "verdict": "uncertain"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1779898769254,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2058280452851638313",
       "type": "reset_confirmed",
       "verdict": "reset_confirmed"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1779518622082,
-      "inputTokens": 363,
-      "message": "",
-      "outputTokens": 106,
-      "rationale": "This reply is about optimizing a metric and does not mention limits, caps, or usage becoming available again.",
-      "reasoningTokens": 57,
-      "totalTokens": 469,
-      "tweetId": "2058075853322633552",
-      "tweetText": "@user823493247 The metric needed to be optimized",
-      "tweetUrl": "https://x.com/thsottiaux/status/2058075853322633552",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "EdnaTs40pzNLcPc8cbNFfkd2ysFEvPFDn0GnEuu5RxfuzubCJmce9yMogQ",
-    "iv": "ei07NucxtyD7tQVx",
-    "tag": "hYyn00zQ-NrZcmEcstBQgQ",
+    "ciphertext": "RiKH2XDQlnMUNX8BKIFGVNIL5AQrE0Wi--gvYWDwfJvD4W3QyYKp5sNZYw",
+    "iv": "YHMToI_4sy9-IiMG",
+    "tag": "bx023WmdBIM7RdRO6PmJ4A",
     "version": 1
   }
 }
