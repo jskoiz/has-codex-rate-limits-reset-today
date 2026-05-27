@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1779894119373,
-      "rationale": "This reply discusses model progress and production usage, not any limit or rate-limit reset.",
-      "tweetId": "2059650945898987552",
-      "tweetUrl": "https://x.com/thsottiaux/status/2059650945898987552",
+      "decidedAt": 1779894423389,
+      "rationale": "This is a service-status update about latency, not a statement that limits or caps reset.",
+      "tweetId": "2059651958710120733",
+      "tweetUrl": "https://x.com/thsottiaux/status/2059651958710120733",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2059650945898987552",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2059650945898987552",
+    "lastSeenTweetId": "2059651958710120733",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2059651958710120733",
     "pendingReview": {
       "confidence": 0.92,
       "createdAt": 1779684412844,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2058771332859625901"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1779894423389,
+        "inputTokens": 385,
+        "outputTokens": 72,
+        "rationale": "This is a service-status update about latency, not a statement that limits or caps reset.",
+        "reasoningTokens": 26,
+        "totalTokens": 457,
+        "tweetId": "2059651958710120733",
+        "tweetText": "Team is investigating elevated latencies across the board for API and ChatGPT. Updates will be posted on https://t.co/R3dCKGH1G4",
+        "tweetUrl": "https://x.com/thsottiaux/status/2059651958710120733",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1779894119373,
@@ -279,29 +292,31 @@
         "tweetText": "Codex can do incredible things on demand, but it cannot experience life for you. \n\nDon’t forget to get out there and remember who you’re building for.",
         "tweetUrl": "https://x.com/thsottiaux/status/2058432994621436296",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1779603839719,
-        "inputTokens": 401,
-        "outputTokens": 83,
-        "rationale": "This reply discusses competition and licensing, not rate limits or usage resetting.",
-        "reasoningTokens": 41,
-        "totalTokens": 484,
-        "tweetId": "2058432591951478834",
-        "tweetText": "@darrenjr I think there are different innovations in each. But we don’t hide ours and our license is permissive.\n\nYou can actually see some of our code, slightly adapted, in their harness.\n\nCompetition is good.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2058432591951478834",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 198618,
-      "totalOutputTokens": 53467,
-      "totalReasoningTokens": 28672,
-      "totalTokens": 252085
+      "totalInputTokens": 199003,
+      "totalOutputTokens": 53539,
+      "totalReasoningTokens": 28698,
+      "totalTokens": 252542
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1779894423389,
+      "inputTokens": 385,
+      "message": "",
+      "outputTokens": 72,
+      "rationale": "This is a service-status update about latency, not a statement that limits or caps reset.",
+      "reasoningTokens": 26,
+      "totalTokens": 457,
+      "tweetId": "2059651958710120733",
+      "tweetText": "Team is investigating elevated latencies across the board for API and ChatGPT. Updates will be posted on https://t.co/R3dCKGH1G4",
+      "tweetUrl": "https://x.com/thsottiaux/status/2059651958710120733",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1779894119373,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2058053186179780935",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1779513018444,
-      "inputTokens": 366,
-      "message": "",
-      "outputTokens": 73,
-      "rationale": "This reply is about hiring and does not mention rate limits, caps, or usage resetting.",
-      "reasoningTokens": 27,
-      "totalTokens": 439,
-      "tweetId": "2058051552355688496",
-      "tweetText": "@rezoundous That’s how all hiring is supposed to work Tyler",
-      "tweetUrl": "https://x.com/thsottiaux/status/2058051552355688496",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "2wuaCg5cmJHHGccv16ODhdypcfSz80skhVaKKxZ-GoC0Shml78RX1NRuxQ",
-    "iv": "V3MRZkPzHo6Vw_tT",
-    "tag": "1iFwX-U7LvFb_Gwd7rzzWQ",
+    "ciphertext": "QLi53y0wroQRZcj5TU6EcDqK09SUzkPze9Cu4dQvJP7tiso0t7DRwz8A6g",
+    "iv": "HqtbvOIcqS-_Jy8L",
+    "tag": "-m5Aiiw4Hip6bWQ2JMvT6g",
     "version": 1
   }
 }
