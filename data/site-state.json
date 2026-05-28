@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1780006526445,
-      "rationale": "This reply is just a slogan comment and does not mention limits, caps, or usage resetting.",
-      "tweetId": "2060121698243092523",
-      "tweetUrl": "https://x.com/thsottiaux/status/2060121698243092523",
+      "decidedAt": 1780007461864,
+      "rationale": "This reply does not mention limits, caps, or usage becoming available again.",
+      "tweetId": "2060125693946859597",
+      "tweetUrl": "https://x.com/thsottiaux/status/2060125693946859597",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2060121698243092523",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2060121698243092523",
+    "lastSeenTweetId": "2060125693946859597",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2060125693946859597",
     "pendingReview": {
       "confidence": 0.92,
       "createdAt": 1779949014338,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2059880768869179756"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1780007461864,
+        "inputTokens": 360,
+        "outputTokens": 90,
+        "rationale": "This reply does not mention limits, caps, or usage becoming available again.",
+        "reasoningTokens": 47,
+        "totalTokens": 450,
+        "tweetId": "2060125693946859597",
+        "tweetText": "@anitakirkovska Last year",
+        "tweetUrl": "https://x.com/thsottiaux/status/2060125693946859597",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1780006526445,
@@ -279,29 +292,31 @@
         "tweetText": "@KaiXCreator Better AI",
         "tweetUrl": "https://x.com/thsottiaux/status/2058750154640068764",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1779679438825,
-        "inputTokens": 371,
-        "outputTokens": 111,
-        "rationale": "This reply is conversational and says nothing about limits, caps, or usage being available again.",
-        "reasoningTokens": 65,
-        "totalTokens": 482,
-        "tweetId": "2058749868659855445",
-        "tweetText": "@nicdunz Approximately 1B users would disagree with you that that is a good idea",
-        "tweetUrl": "https://x.com/thsottiaux/status/2058749868659855445",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 202498,
-      "totalOutputTokens": 54477,
-      "totalReasoningTokens": 29226,
-      "totalTokens": 256975
+      "totalInputTokens": 202858,
+      "totalOutputTokens": 54567,
+      "totalReasoningTokens": 29273,
+      "totalTokens": 257425
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1780007461864,
+      "inputTokens": 360,
+      "message": "",
+      "outputTokens": 90,
+      "rationale": "This reply does not mention limits, caps, or usage becoming available again.",
+      "reasoningTokens": 47,
+      "totalTokens": 450,
+      "tweetId": "2060125693946859597",
+      "tweetText": "@anitakirkovska Last year",
+      "tweetUrl": "https://x.com/thsottiaux/status/2060125693946859597",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1780006526445,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2058318303467286665",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0,
-      "createdAt": 1779575629713,
-      "inputTokens": 0,
-      "message": "Tweet fetch failed: Tweet search failed: Request failed with status code 403; timeline fallback failed: Request failed with status code 403 (Request failed with status code 403) (Tweet search failed: Request failed with status code 403; timeline fallback failed: Request failed with status code 403)",
-      "outputTokens": 0,
-      "rationale": "",
-      "reasoningTokens": 0,
-      "totalTokens": 0,
-      "tweetId": null,
-      "tweetText": "",
-      "tweetUrl": null,
-      "type": "error",
-      "verdict": null
     }
   ],
   "privateState": {
-    "ciphertext": "9lUvQPfY1NqhHkWhoQD1_iwAvAANCTcgQwPsp_Ag89bJXXhgzb3u2WhMoA",
-    "iv": "aPj6Nxtahm6BbWEo",
-    "tag": "IXnOXGp1ftwr-SV9NaBP_g",
+    "ciphertext": "4D4AkOWAK9OV-7-sZUFdtxbkLHZQ7cJcY1ZVJ6-1fpNBaPFzhPttTSFUpg",
+    "iv": "OwuEPAvcX4dUftFp",
+    "tag": "_KDOh2o9w60r3382J78_PQ",
     "version": 1
   }
 }
