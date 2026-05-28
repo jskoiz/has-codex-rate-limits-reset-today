@@ -14,16 +14,16 @@
   "updatedAt": 1779567311544,
   "automation": {
     "lastDecision": {
-      "confidence": 0.92,
-      "decidedAt": 1779949014338,
-      "rationale": "This reply does not clearly confirm a current limit reset and lacks enough context to infer one.",
-      "tweetId": "2059880768869179756",
-      "tweetUrl": "https://x.com/thsottiaux/status/2059880768869179756",
-      "verdict": "uncertain"
+      "confidence": 0.99,
+      "decidedAt": 1779950884376,
+      "rationale": "This post discusses model benchmarks and says nothing about usage caps or rate limits resetting.",
+      "tweetId": "2059888697471078544",
+      "tweetUrl": "https://x.com/thsottiaux/status/2059888697471078544",
+      "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2059880768869179756",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2059880768869179756",
+    "lastSeenTweetId": "2059888697471078544",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2059888697471078544",
     "pendingReview": {
       "confidence": 0.92,
       "createdAt": 1779949014338,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2059880768869179756"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1779950884376,
+        "inputTokens": 569,
+        "outputTokens": 82,
+        "rationale": "This post discusses model benchmarks and says nothing about usage caps or rate limits resetting.",
+        "reasoningTokens": 38,
+        "totalTokens": 651,
+        "tweetId": "2059888697471078544",
+        "tweetText": "Excited to see more independent benchmarks like that which are not contaminated (trained on by major models).",
+        "tweetUrl": "https://x.com/thsottiaux/status/2059888697471078544",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.92,
         "evaluatedAt": 1779949014338,
@@ -279,29 +292,31 @@
         "tweetText": "\"Go through my email and make a list of subscriptions i pay for and validate with me which ones to unsubscribe from\"\n\nand then ask it to unsubscribe for the ones you don't need anymore",
         "tweetUrl": "https://x.com/thsottiaux/status/2058748892234371138",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1779679117327,
-        "inputTokens": 400,
-        "outputTokens": 68,
-        "rationale": "This post is about using Codex to cancel subscriptions and does not mention limits or a reset.",
-        "reasoningTokens": 21,
-        "totalTokens": 468,
-        "tweetId": "2058748717155664162",
-        "tweetText": "Using computer use, you can ask codex to cancel subscriptions you don't need anymore. Very pleasant to watch. No particular one in mind, works on all of them.\n\nhttps://t.co/Q2mNyiCPba",
-        "tweetUrl": "https://x.com/thsottiaux/status/2058748717155664162",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 201558,
-      "totalOutputTokens": 54315,
-      "totalReasoningTokens": 29155,
-      "totalTokens": 255873
+      "totalInputTokens": 202127,
+      "totalOutputTokens": 54397,
+      "totalReasoningTokens": 29193,
+      "totalTokens": 256524
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1779950884376,
+      "inputTokens": 569,
+      "message": "",
+      "outputTokens": 82,
+      "rationale": "This post discusses model benchmarks and says nothing about usage caps or rate limits resetting.",
+      "reasoningTokens": 38,
+      "totalTokens": 651,
+      "tweetId": "2059888697471078544",
+      "tweetText": "Excited to see more independent benchmarks like that which are not contaminated (trained on by major models).",
+      "tweetUrl": "https://x.com/thsottiaux/status/2059888697471078544",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.92,
       "createdAt": 1779949014338,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2058290656343466344",
       "type": "review_requested",
       "verdict": "uncertain"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1779568543332,
-      "inputTokens": 389,
-      "message": "",
-      "outputTokens": 86,
-      "rationale": "This is just a humorous remark and does not mention limits, caps, or a reset.",
-      "reasoningTokens": 40,
-      "totalTokens": 475,
-      "tweetId": "2058285701146501415",
-      "tweetText": "Rah-rah-ah-ah-ah, Roma-roma-ma, gaa, ooh-la-la…\n\n... goes the GPT Goblin 1.0 Extra High /Fast",
-      "tweetUrl": "https://x.com/thsottiaux/status/2058285701146501415",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "w6enIVQEZRh5sBxXgr2hDYXTksIyJcgNnNmVLyHuzH3qqjxySgfKmEbZGg",
-    "iv": "NdpfRsLuBRPognhc",
-    "tag": "KBTo_UPh1hZ-Uw9j-JT-WA",
+    "ciphertext": "Hba-eQwg1QObrfbLimxtbHEmx3nEG60196GXyMi5Po-FmAFv2BZJkgMblQ",
+    "iv": "-RzdE0sFV5hvAP3s",
+    "tag": "QxQLrr6YocypbkH91z-6Eg",
     "version": 1
   }
 }
