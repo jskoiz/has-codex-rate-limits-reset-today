@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1779950884376,
-      "rationale": "This post discusses model benchmarks and says nothing about usage caps or rate limits resetting.",
-      "tweetId": "2059888697471078544",
-      "tweetUrl": "https://x.com/thsottiaux/status/2059888697471078544",
+      "decidedAt": 1780006526445,
+      "rationale": "This reply is just a slogan comment and does not mention limits, caps, or usage resetting.",
+      "tweetId": "2060121698243092523",
+      "tweetUrl": "https://x.com/thsottiaux/status/2060121698243092523",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2059888697471078544",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2059888697471078544",
+    "lastSeenTweetId": "2060121698243092523",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2060121698243092523",
     "pendingReview": {
       "confidence": 0.92,
       "createdAt": 1779949014338,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2059880768869179756"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1780006526445,
+        "inputTokens": 371,
+        "outputTokens": 80,
+        "rationale": "This reply is just a slogan comment and does not mention limits, caps, or usage resetting.",
+        "reasoningTokens": 33,
+        "totalTokens": 451,
+        "tweetId": "2060121698243092523",
+        "tweetText": "@0xPaulius Supporting however &amp; wherever you work.\n\nGreat slogan",
+        "tweetUrl": "https://x.com/thsottiaux/status/2060121698243092523",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1779950884376,
@@ -279,29 +292,31 @@
         "tweetText": "@nicdunz Approximately 1B users would disagree with you that that is a good idea",
         "tweetUrl": "https://x.com/thsottiaux/status/2058749868659855445",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1779679120670,
-        "inputTokens": 391,
-        "outputTokens": 80,
-        "rationale": "This reply is about using the product to manage subscriptions, not about limits or a reset.",
-        "reasoningTokens": 34,
-        "totalTokens": 471,
-        "tweetId": "2058748892234371138",
-        "tweetText": "\"Go through my email and make a list of subscriptions i pay for and validate with me which ones to unsubscribe from\"\n\nand then ask it to unsubscribe for the ones you don't need anymore",
-        "tweetUrl": "https://x.com/thsottiaux/status/2058748892234371138",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 202127,
-      "totalOutputTokens": 54397,
-      "totalReasoningTokens": 29193,
-      "totalTokens": 256524
+      "totalInputTokens": 202498,
+      "totalOutputTokens": 54477,
+      "totalReasoningTokens": 29226,
+      "totalTokens": 256975
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1780006526445,
+      "inputTokens": 371,
+      "message": "",
+      "outputTokens": 80,
+      "rationale": "This reply is just a slogan comment and does not mention limits, caps, or usage resetting.",
+      "reasoningTokens": 33,
+      "totalTokens": 451,
+      "tweetId": "2060121698243092523",
+      "tweetText": "@0xPaulius Supporting however &amp; wherever you work.\n\nGreat slogan",
+      "tweetUrl": "https://x.com/thsottiaux/status/2060121698243092523",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1779950884376,
@@ -886,27 +901,12 @@
       "tweetUrl": null,
       "type": "error",
       "verdict": null
-    },
-    {
-      "confidence": 0.95,
-      "createdAt": 1779569793553,
-      "inputTokens": 359,
-      "message": "",
-      "outputTokens": 250,
-      "rationale": "This reply only asks about the plan and does not clearly indicate any limit reset.",
-      "reasoningTokens": 206,
-      "totalTokens": 609,
-      "tweetId": "2058290656343466344",
-      "tweetText": "@aphumphreys Which plan?",
-      "tweetUrl": "https://x.com/thsottiaux/status/2058290656343466344",
-      "type": "review_requested",
-      "verdict": "uncertain"
     }
   ],
   "privateState": {
-    "ciphertext": "Hba-eQwg1QObrfbLimxtbHEmx3nEG60196GXyMi5Po-FmAFv2BZJkgMblQ",
-    "iv": "-RzdE0sFV5hvAP3s",
-    "tag": "QxQLrr6YocypbkH91z-6Eg",
+    "ciphertext": "9lUvQPfY1NqhHkWhoQD1_iwAvAANCTcgQwPsp_Ag89bJXXhgzb3u2WhMoA",
+    "iv": "aPj6Nxtahm6BbWEo",
+    "tag": "IXnOXGp1ftwr-SV9NaBP_g",
     "version": 1
   }
 }
