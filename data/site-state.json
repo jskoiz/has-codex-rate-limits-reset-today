@@ -14,25 +14,38 @@
   "updatedAt": 1779567311544,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1780018953650,
-      "rationale": "This reply discusses a last-minute bug and says nothing about limits or usage being restored.",
-      "tweetId": "2060174208047644777",
-      "tweetUrl": "https://x.com/thsottiaux/status/2060174208047644777",
-      "verdict": "not_reset"
+      "confidence": 0.91,
+      "decidedAt": 1780018959728,
+      "rationale": "This suggests the expected Codex reset day moved to Friday, not that limits have reset now.",
+      "tweetId": "2060174369159294986",
+      "tweetUrl": "https://x.com/thsottiaux/status/2060174369159294986",
+      "verdict": "uncertain"
     },
     "lastError": null,
-    "lastSeenTweetId": "2060174208047644777",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2060174208047644777",
+    "lastSeenTweetId": "2060174369159294986",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2060174369159294986",
     "pendingReview": {
-      "confidence": 0.92,
-      "createdAt": 1779949014338,
-      "rationale": "This reply does not clearly confirm a current limit reset and lacks enough context to infer one.",
-      "tweetId": "2059880768869179756",
-      "tweetText": "@ajambrosino @Aizkmusic no confirmed",
-      "tweetUrl": "https://x.com/thsottiaux/status/2059880768869179756"
+      "confidence": 0.91,
+      "createdAt": 1780018959728,
+      "rationale": "This suggests the expected Codex reset day moved to Friday, not that limits have reset now.",
+      "tweetId": "2060174369159294986",
+      "tweetText": "Codex Thursday has exceptionally moved to another day. Friday it is.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2060174369159294986"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.91,
+        "evaluatedAt": 1780018959728,
+        "inputTokens": 366,
+        "outputTokens": 293,
+        "rationale": "This suggests the expected Codex reset day moved to Friday, not that limits have reset now.",
+        "reasoningTokens": 246,
+        "totalTokens": 659,
+        "tweetId": "2060174369159294986",
+        "tweetText": "Codex Thursday has exceptionally moved to another day. Friday it is.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2060174369159294986",
+        "verdict": "uncertain"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1780018953650,
@@ -279,29 +292,31 @@
         "tweetText": "@kr0der it was fun knowing you in your productive era",
         "tweetUrl": "https://x.com/thsottiaux/status/2058753082138493077",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1779679745660,
-        "inputTokens": 360,
-        "outputTokens": 92,
-        "rationale": "This reply does not mention limits, caps, or a reset.",
-        "reasoningTokens": 51,
-        "totalTokens": 452,
-        "tweetId": "2058751332803334605",
-        "tweetText": "@thdxr opencode 📉",
-        "tweetUrl": "https://x.com/thsottiaux/status/2058751332803334605",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 203246,
-      "totalOutputTokens": 54644,
-      "totalReasoningTokens": 29305,
-      "totalTokens": 257890
+      "totalInputTokens": 203612,
+      "totalOutputTokens": 54937,
+      "totalReasoningTokens": 29551,
+      "totalTokens": 258549
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.91,
+      "createdAt": 1780018959728,
+      "inputTokens": 366,
+      "message": "",
+      "outputTokens": 293,
+      "rationale": "This suggests the expected Codex reset day moved to Friday, not that limits have reset now.",
+      "reasoningTokens": 246,
+      "totalTokens": 659,
+      "tweetId": "2060174369159294986",
+      "tweetText": "Codex Thursday has exceptionally moved to another day. Friday it is.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2060174369159294986",
+      "type": "review_requested",
+      "verdict": "uncertain"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1780018953650,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2058318777289482741",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1779576565268,
-      "inputTokens": 360,
-      "message": "",
-      "outputTokens": 95,
-      "rationale": "This reply is conversational and does not mention limits, caps, or availability resetting.",
-      "reasoningTokens": 51,
-      "totalTokens": 455,
-      "tweetId": "2058318604769386925",
-      "tweetText": "@trikcode Keep the jokes coming",
-      "tweetUrl": "https://x.com/thsottiaux/status/2058318604769386925",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "cuXAID40RFHczLrVDo0bzRfvs67AN38URfgs15j06IAC8fEdUimfCZAfaw",
-    "iv": "YWcQuz6mYawH50jA",
-    "tag": "cYm2bcnKkKUghnLkng-TMg",
+    "ciphertext": "ancCt6Ucm4m_jFpuemV1dtsI_AwEsZElqwNYrL5p1alRc7Ab5CeU8dCTxw",
+    "iv": "ZHG4aKKxomM-Thre",
+    "tag": "awzxhpnN_2BJNOzB9YsTCw",
     "version": 1
   }
 }
