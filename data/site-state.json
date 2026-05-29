@@ -14,16 +14,16 @@
   "updatedAt": 1779567311544,
   "automation": {
     "lastDecision": {
-      "confidence": 0.95,
-      "decidedAt": 1780025414618,
-      "rationale": "This reply is a conversational joke about the timeline and does not clearly say any Codex or ChatGPT limit has reset.",
-      "tweetId": "2060201744664260835",
-      "tweetUrl": "https://x.com/thsottiaux/status/2060201744664260835",
+      "confidence": 0.99,
+      "decidedAt": 1780097739612,
+      "rationale": "This post is about Codex features and does not mention limits, caps, or resets.",
+      "tweetId": "2060504172873793709",
+      "tweetUrl": "https://x.com/thsottiaux/status/2060504172873793709",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2060201744664260835",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2060201744664260835",
+    "lastSeenTweetId": "2060504172873793709",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2060504172873793709",
     "pendingReview": {
       "confidence": 0.91,
       "createdAt": 1780018959728,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2060174369159294986"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1780097739612,
+        "inputTokens": 452,
+        "outputTokens": 99,
+        "rationale": "This post is about Codex features and does not mention limits, caps, or resets.",
+        "reasoningTokens": 53,
+        "totalTokens": 551,
+        "tweetId": "2060504172873793709",
+        "tweetText": "Nobody knows Codex better than itself",
+        "tweetUrl": "https://x.com/thsottiaux/status/2060504172873793709",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.95,
         "evaluatedAt": 1780025414618,
@@ -279,29 +292,31 @@
         "tweetText": "There is a certain zen to looking at codex traffic, usage and compute dashboards late at night while listening to LCD Soundsystem. The tokens must flow",
         "tweetUrl": "https://x.com/thsottiaux/status/2059135643654259013",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.92,
-        "evaluatedAt": 1779684412844,
-        "inputTokens": 369,
-        "outputTokens": 150,
-        "rationale": "This reply contains no explicit text saying limits or rate caps have reset.",
-        "reasoningTokens": 108,
-        "totalTokens": 519,
-        "tweetId": "2058771332859625901",
-        "tweetText": "@Im_IrushiK https://t.co/zkuwLZZal8",
-        "tweetUrl": "https://x.com/thsottiaux/status/2058771332859625901",
-        "verdict": "uncertain"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 204340,
-      "totalOutputTokens": 55167,
-      "totalReasoningTokens": 29685,
-      "totalTokens": 259507
+      "totalInputTokens": 204792,
+      "totalOutputTokens": 55266,
+      "totalReasoningTokens": 29738,
+      "totalTokens": 260058
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1780097739612,
+      "inputTokens": 452,
+      "message": "",
+      "outputTokens": 99,
+      "rationale": "This post is about Codex features and does not mention limits, caps, or resets.",
+      "reasoningTokens": 53,
+      "totalTokens": 551,
+      "tweetId": "2060504172873793709",
+      "tweetText": "Nobody knows Codex better than itself",
+      "tweetUrl": "https://x.com/thsottiaux/status/2060504172873793709",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.95,
       "createdAt": 1780025414618,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2058324756085297265",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1779577185773,
-      "inputTokens": 361,
-      "message": "",
-      "outputTokens": 81,
-      "rationale": "This reply is conversational and does not mention limits, caps, or usage becoming available again.",
-      "reasoningTokens": 35,
-      "totalTokens": 442,
-      "tweetId": "2058320967609528679",
-      "tweetText": "@BlockedPaths Lies and butterflies 🦋",
-      "tweetUrl": "https://x.com/thsottiaux/status/2058320967609528679",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "rMXLu_sLACR2IE87zLgRhMjYf0sDRmIMM0F6VfYtMgnvIiTdWvwV1ENZ0w",
-    "iv": "kZMul1NMFYZ6KznD",
-    "tag": "uv9dPPIv8t6yWUaWsQeZaA",
+    "ciphertext": "vGPPxpWkSE0I68sbM4Nws00xGFRoVPxZUmLVwUZg-3yyOCpVb5LvC2gkig",
+    "iv": "d5iOIoa2Wi0h0P-t",
+    "tag": "rM8NdvL6IDjT79oJ-gn-2w",
     "version": 1
   }
 }
