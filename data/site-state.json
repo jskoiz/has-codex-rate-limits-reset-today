@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1780007461864,
-      "rationale": "This reply does not mention limits, caps, or usage becoming available again.",
-      "tweetId": "2060125693946859597",
-      "tweetUrl": "https://x.com/thsottiaux/status/2060125693946859597",
+      "decidedAt": 1780018953650,
+      "rationale": "This reply discusses a last-minute bug and says nothing about limits or usage being restored.",
+      "tweetId": "2060174208047644777",
+      "tweetUrl": "https://x.com/thsottiaux/status/2060174208047644777",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2060125693946859597",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2060125693946859597",
+    "lastSeenTweetId": "2060174208047644777",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2060174208047644777",
     "pendingReview": {
       "confidence": 0.92,
       "createdAt": 1779949014338,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2059880768869179756"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1780018953650,
+        "inputTokens": 388,
+        "outputTokens": 77,
+        "rationale": "This reply discusses a last-minute bug and says nothing about limits or usage being restored.",
+        "reasoningTokens": 32,
+        "totalTokens": 465,
+        "tweetId": "2060174208047644777",
+        "tweetText": "@giordanorandone @OpenAI Nah. The only thing that caught us off guard was a bug we discovered last minute. And we decided to not ship the said bug.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2060174208047644777",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1780007461864,
@@ -279,29 +292,31 @@
         "tweetText": "@thdxr opencode 📉",
         "tweetUrl": "https://x.com/thsottiaux/status/2058751332803334605",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1779679441632,
-        "inputTokens": 358,
-        "outputTokens": 86,
-        "rationale": "This reply is just a casual comment and does not mention limits, caps, or a reset.",
-        "reasoningTokens": 39,
-        "totalTokens": 444,
-        "tweetId": "2058750154640068764",
-        "tweetText": "@KaiXCreator Better AI",
-        "tweetUrl": "https://x.com/thsottiaux/status/2058750154640068764",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 202858,
-      "totalOutputTokens": 54567,
-      "totalReasoningTokens": 29273,
-      "totalTokens": 257425
+      "totalInputTokens": 203246,
+      "totalOutputTokens": 54644,
+      "totalReasoningTokens": 29305,
+      "totalTokens": 257890
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1780018953650,
+      "inputTokens": 388,
+      "message": "",
+      "outputTokens": 77,
+      "rationale": "This reply discusses a last-minute bug and says nothing about limits or usage being restored.",
+      "reasoningTokens": 32,
+      "totalTokens": 465,
+      "tweetId": "2060174208047644777",
+      "tweetText": "@giordanorandone @OpenAI Nah. The only thing that caught us off guard was a bug we discovered last minute. And we decided to not ship the said bug.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2060174208047644777",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1780007461864,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2058318604769386925",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1779576562229,
-      "inputTokens": 359,
-      "message": "",
-      "outputTokens": 83,
-      "rationale": "This reply does not mention limits, caps, or usage becoming available again.",
-      "reasoningTokens": 40,
-      "totalTokens": 442,
-      "tweetId": "2058318303467286665",
-      "tweetText": "Bad Romance. Good guess everyone",
-      "tweetUrl": "https://x.com/thsottiaux/status/2058318303467286665",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "4D4AkOWAK9OV-7-sZUFdtxbkLHZQ7cJcY1ZVJ6-1fpNBaPFzhPttTSFUpg",
-    "iv": "OwuEPAvcX4dUftFp",
-    "tag": "_KDOh2o9w60r3382J78_PQ",
+    "ciphertext": "cuXAID40RFHczLrVDo0bzRfvs67AN38URfgs15j06IAC8fEdUimfCZAfaw",
+    "iv": "YWcQuz6mYawH50jA",
+    "tag": "cYm2bcnKkKUghnLkng-TMg",
     "version": 1
   }
 }
