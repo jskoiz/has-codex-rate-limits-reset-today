@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1780097739612,
-      "rationale": "This post is about Codex features and does not mention limits, caps, or resets.",
-      "tweetId": "2060504172873793709",
-      "tweetUrl": "https://x.com/thsottiaux/status/2060504172873793709",
+      "decidedAt": 1780098052594,
+      "rationale": "This reply is conversational and does not mention any rate limit, cap, or reset.",
+      "tweetId": "2060506462489845843",
+      "tweetUrl": "https://x.com/thsottiaux/status/2060506462489845843",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2060504172873793709",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2060504172873793709",
+    "lastSeenTweetId": "2060506462489845843",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2060506462489845843",
     "pendingReview": {
       "confidence": 0.91,
       "createdAt": 1780018959728,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2060174369159294986"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1780098052594,
+        "inputTokens": 366,
+        "outputTokens": 83,
+        "rationale": "This reply is conversational and does not mention any rate limit, cap, or reset.",
+        "reasoningTokens": 38,
+        "totalTokens": 449,
+        "tweetId": "2060506462489845843",
+        "tweetText": "@HarshithLucky3 Beautiful. Could be employed at OpenAI",
+        "tweetUrl": "https://x.com/thsottiaux/status/2060506462489845843",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1780097739612,
@@ -279,29 +292,31 @@
         "tweetText": "@siliconvalleymm Ominous",
         "tweetUrl": "https://x.com/thsottiaux/status/2059301656869896581",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1779771299005,
-        "inputTokens": 383,
-        "outputTokens": 81,
-        "rationale": "This is just a conversational comment about monitoring Codex usage, not a statement that limits reset.",
-        "reasoningTokens": 34,
-        "totalTokens": 464,
-        "tweetId": "2059135643654259013",
-        "tweetText": "There is a certain zen to looking at codex traffic, usage and compute dashboards late at night while listening to LCD Soundsystem. The tokens must flow",
-        "tweetUrl": "https://x.com/thsottiaux/status/2059135643654259013",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 204792,
-      "totalOutputTokens": 55266,
-      "totalReasoningTokens": 29738,
-      "totalTokens": 260058
+      "totalInputTokens": 205158,
+      "totalOutputTokens": 55349,
+      "totalReasoningTokens": 29776,
+      "totalTokens": 260507
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1780098052594,
+      "inputTokens": 366,
+      "message": "",
+      "outputTokens": 83,
+      "rationale": "This reply is conversational and does not mention any rate limit, cap, or reset.",
+      "reasoningTokens": 38,
+      "totalTokens": 449,
+      "tweetId": "2060506462489845843",
+      "tweetText": "@HarshithLucky3 Beautiful. Could be employed at OpenAI",
+      "tweetUrl": "https://x.com/thsottiaux/status/2060506462489845843",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1780097739612,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2058325643008602424",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1779578110490,
-      "inputTokens": 361,
-      "message": "",
-      "outputTokens": 92,
-      "rationale": "This reply just says Codex is handling something and does not mention limits or a reset.",
-      "reasoningTokens": 46,
-      "totalTokens": 453,
-      "tweetId": "2058324756085297265",
-      "tweetText": "@kr0der Codex is on it",
-      "tweetUrl": "https://x.com/thsottiaux/status/2058324756085297265",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "vGPPxpWkSE0I68sbM4Nws00xGFRoVPxZUmLVwUZg-3yyOCpVb5LvC2gkig",
-    "iv": "d5iOIoa2Wi0h0P-t",
-    "tag": "rM8NdvL6IDjT79oJ-gn-2w",
+    "ciphertext": "ne7TOFtnL9keWH0LG3ncQHJnp92B1LmynADf0NyVYA3Yi61XzO6psNsY2w",
+    "iv": "Wvu8ZKZZrzNkmJc3",
+    "tag": "FUg_nyBnonOJ4_0bnAcnGw",
     "version": 1
   }
 }
