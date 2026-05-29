@@ -14,16 +14,16 @@
   "updatedAt": 1779567311544,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1780019263214,
-      "rationale": "This reply offers condolences and does not mention limits, caps, or reset status.",
-      "tweetId": "2060175118488531125",
-      "tweetUrl": "https://x.com/thsottiaux/status/2060175118488531125",
+      "confidence": 0.95,
+      "decidedAt": 1780025414618,
+      "rationale": "This reply is a conversational joke about the timeline and does not clearly say any Codex or ChatGPT limit has reset.",
+      "tweetId": "2060201744664260835",
+      "tweetUrl": "https://x.com/thsottiaux/status/2060201744664260835",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2060175118488531125",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2060175118488531125",
+    "lastSeenTweetId": "2060201744664260835",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2060201744664260835",
     "pendingReview": {
       "confidence": 0.91,
       "createdAt": 1780018959728,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2060174369159294986"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.95,
+        "evaluatedAt": 1780025414618,
+        "inputTokens": 370,
+        "outputTokens": 157,
+        "rationale": "This reply is a conversational joke about the timeline and does not clearly say any Codex or ChatGPT limit has reset.",
+        "reasoningTokens": 105,
+        "totalTokens": 527,
+        "tweetId": "2060201744664260835",
+        "tweetText": "@sandislonjsak You'll be back after one prompt if I can trust the timeline",
+        "tweetUrl": "https://x.com/thsottiaux/status/2060201744664260835",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1780019263214,
@@ -279,29 +292,31 @@
         "tweetText": "@Im_IrushiK https://t.co/zkuwLZZal8",
         "tweetUrl": "https://x.com/thsottiaux/status/2058771332859625901",
         "verdict": "uncertain"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1779680059399,
-        "inputTokens": 367,
-        "outputTokens": 90,
-        "rationale": "This reply is just conversational about usage and does not mention limits or a reset.",
-        "reasoningTokens": 46,
-        "totalTokens": 457,
-        "tweetId": "2058753198450737496",
-        "tweetText": "@lennox_saint I also use for all the little admin things",
-        "tweetUrl": "https://x.com/thsottiaux/status/2058753198450737496",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 203970,
-      "totalOutputTokens": 55010,
-      "totalReasoningTokens": 29580,
-      "totalTokens": 258980
+      "totalInputTokens": 204340,
+      "totalOutputTokens": 55167,
+      "totalReasoningTokens": 29685,
+      "totalTokens": 259507
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.95,
+      "createdAt": 1780025414618,
+      "inputTokens": 370,
+      "message": "",
+      "outputTokens": 157,
+      "rationale": "This reply is a conversational joke about the timeline and does not clearly say any Codex or ChatGPT limit has reset.",
+      "reasoningTokens": 105,
+      "totalTokens": 527,
+      "tweetId": "2060201744664260835",
+      "tweetText": "@sandislonjsak You'll be back after one prompt if I can trust the timeline",
+      "tweetUrl": "https://x.com/thsottiaux/status/2060201744664260835",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1780019263214,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2058320967609528679",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1779576883520,
-      "inputTokens": 366,
-      "message": "",
-      "outputTokens": 90,
-      "rationale": "This is a product idea discussion about Codex features, not a statement that limits have reset.",
-      "reasoningTokens": 43,
-      "totalTokens": 456,
-      "tweetId": "2058320061258236263",
-      "tweetText": "Should we bring batch compute to codex? Aka /slow mode",
-      "tweetUrl": "https://x.com/thsottiaux/status/2058320061258236263",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "PJO0YJhGiKyQGl9mwQWlMsqXAoBY1JNS7G26KV1JHNZH_Ptn3LW9j04TEA",
-    "iv": "53NtmInmbCmmJgbx",
-    "tag": "HiY_4jZe4-JG1GWbSNEzBQ",
+    "ciphertext": "rMXLu_sLACR2IE87zLgRhMjYf0sDRmIMM0F6VfYtMgnvIiTdWvwV1ENZ0w",
+    "iv": "kZMul1NMFYZ6KznD",
+    "tag": "uv9dPPIv8t6yWUaWsQeZaA",
     "version": 1
   }
 }
