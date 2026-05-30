@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1780111719380,
-      "rationale": "This post is a general question about model evaluation and does not mention limits or resets.",
-      "tweetId": "2060563528596287874",
-      "tweetUrl": "https://x.com/thsottiaux/status/2060563528596287874",
+      "decidedAt": 1780112021488,
+      "rationale": "This is a general adoption/update post and does not mention limits, caps, or usage resetting.",
+      "tweetId": "2060565265906290786",
+      "tweetUrl": "https://x.com/thsottiaux/status/2060565265906290786",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2060563528596287874",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2060563528596287874",
+    "lastSeenTweetId": "2060565265906290786",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2060565265906290786",
     "pendingReview": {
       "confidence": 0.91,
       "createdAt": 1780018959728,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2060174369159294986"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1780112021488,
+        "inputTokens": 398,
+        "outputTokens": 79,
+        "rationale": "This is a general adoption/update post and does not mention limits, caps, or usage resetting.",
+        "reasoningTokens": 32,
+        "totalTokens": 477,
+        "tweetId": "2060565265906290786",
+        "tweetText": "I looked at a number today on a codex dashboard and it made me happy. More news about the number soon. 👀\n\nThanks to everyone who keeps adopting codex. We are still early. So early.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2060565265906290786",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1780111719380,
@@ -279,29 +292,31 @@
         "tweetText": "@xmanplez Nice try",
         "tweetUrl": "https://x.com/thsottiaux/status/2059653871623176371",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1779894428153,
-        "inputTokens": 370,
-        "outputTokens": 94,
-        "rationale": "This reply discusses a model being sunset or not, not user limits or rate-limit resets.",
-        "reasoningTokens": 48,
-        "totalTokens": 464,
-        "tweetId": "2059652191137489251",
-        "tweetText": "@RhysSullivan Not sunsetting GPT‑5.3‑Codex‑Spark",
-        "tweetUrl": "https://x.com/thsottiaux/status/2059652191137489251",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 206641,
-      "totalOutputTokens": 55652,
-      "totalReasoningTokens": 29897,
-      "totalTokens": 262293
+      "totalInputTokens": 207039,
+      "totalOutputTokens": 55731,
+      "totalReasoningTokens": 29929,
+      "totalTokens": 262770
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1780112021488,
+      "inputTokens": 398,
+      "message": "",
+      "outputTokens": 79,
+      "rationale": "This is a general adoption/update post and does not mention limits, caps, or usage resetting.",
+      "reasoningTokens": 32,
+      "totalTokens": 477,
+      "tweetId": "2060565265906290786",
+      "tweetText": "I looked at a number today on a codex dashboard and it made me happy. More news about the number soon. 👀\n\nThanks to everyone who keeps adopting codex. We are still early. So early.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2060565265906290786",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1780111719380,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2058433903468388498",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1779603842512,
-      "inputTokens": 387,
-      "message": "",
-      "outputTokens": 68,
-      "rationale": "This post is general commentary about Codex, not about limits or a reset.",
-      "reasoningTokens": 24,
-      "totalTokens": 455,
-      "tweetId": "2058432994621436296",
-      "tweetText": "Codex can do incredible things on demand, but it cannot experience life for you. \n\nDon’t forget to get out there and remember who you’re building for.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2058432994621436296",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "jfRnfCTz7k6Zfb1Wcb_eG5pKwbVhSmimDhgmMnJx14pvm6D9jYL--0gkCA",
-    "iv": "fecT_5PThGE6RsBf",
-    "tag": "DrRJqf6hxNz2y8DVqOlEzw",
+    "ciphertext": "X2eprdKPiOjIt4uyyETfrFLTzcmURdqTawYZIF_P5D2MFnK7FgZ5fIluyw",
+    "iv": "8IYA3pvDCFcGIg5_",
+    "tag": "05U8e4B9ZZUenOSf5yXZYA",
     "version": 1
   }
 }
