@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1780173431299,
-      "rationale": "This reply is just conversational and does not mention any limit or reset.",
-      "tweetId": "2060821549079511450",
-      "tweetUrl": "https://x.com/thsottiaux/status/2060821549079511450",
+      "decidedAt": 1780183391061,
+      "rationale": "This reply is just a greeting and does not mention limits or resets.",
+      "tweetId": "2060863706205180307",
+      "tweetUrl": "https://x.com/thsottiaux/status/2060863706205180307",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2060821549079511450",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2060821549079511450",
+    "lastSeenTweetId": "2060863706205180307",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2060863706205180307",
     "pendingReview": {
       "confidence": 0.91,
       "createdAt": 1780018959728,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2060174369159294986"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1780183391061,
+        "inputTokens": 367,
+        "outputTokens": 64,
+        "rationale": "This reply is just a greeting and does not mention limits or resets.",
+        "reasoningTokens": 22,
+        "totalTokens": 431,
+        "tweetId": "2060863706205180307",
+        "tweetText": "@SIGKITTEN @OpenAI @ajambrosino Hiii",
+        "tweetUrl": "https://x.com/thsottiaux/status/2060863706205180307",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1780173431299,
@@ -279,29 +292,31 @@
         "tweetText": "@0xPaulius Supporting however &amp; wherever you work.\n\nGreat slogan",
         "tweetUrl": "https://x.com/thsottiaux/status/2060121698243092523",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1779950884376,
-        "inputTokens": 569,
-        "outputTokens": 82,
-        "rationale": "This post discusses model benchmarks and says nothing about usage caps or rate limits resetting.",
-        "reasoningTokens": 38,
-        "totalTokens": 651,
-        "tweetId": "2059888697471078544",
-        "tweetText": "Excited to see more independent benchmarks like that which are not contaminated (trained on by major models).",
-        "tweetUrl": "https://x.com/thsottiaux/status/2059888697471078544",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 209281,
-      "totalOutputTokens": 56238,
-      "totalReasoningTokens": 30170,
-      "totalTokens": 265519
+      "totalInputTokens": 209648,
+      "totalOutputTokens": 56302,
+      "totalReasoningTokens": 30192,
+      "totalTokens": 265950
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1780183391061,
+      "inputTokens": 367,
+      "message": "",
+      "outputTokens": 64,
+      "rationale": "This reply is just a greeting and does not mention limits or resets.",
+      "reasoningTokens": 22,
+      "totalTokens": 431,
+      "tweetId": "2060863706205180307",
+      "tweetText": "@SIGKITTEN @OpenAI @ajambrosino Hiii",
+      "tweetUrl": "https://x.com/thsottiaux/status/2060863706205180307",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1780173431299,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2058748892234371138",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1779679117327,
-      "inputTokens": 400,
-      "message": "",
-      "outputTokens": 68,
-      "rationale": "This post is about using Codex to cancel subscriptions and does not mention limits or a reset.",
-      "reasoningTokens": 21,
-      "totalTokens": 468,
-      "tweetId": "2058748717155664162",
-      "tweetText": "Using computer use, you can ask codex to cancel subscriptions you don't need anymore. Very pleasant to watch. No particular one in mind, works on all of them.\n\nhttps://t.co/Q2mNyiCPba",
-      "tweetUrl": "https://x.com/thsottiaux/status/2058748717155664162",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "vyl1C84b3NVOzFTkNnT6HX0fWSENGqQxm5IMtTSecyIQlaSIr2TJiln4Mw",
-    "iv": "OIRuFOtsbKenQjUg",
-    "tag": "zmrVeFVBEd8O98l3InJqvw",
+    "ciphertext": "Vn69amX0RLSYd59V4ANKsyF7bfSaxHPGY4kkUqs7R_n0RBXyEGiHlEM0xw",
+    "iv": "iEOfctNKmjust-Xf",
+    "tag": "PYqThb4JOVC8FJVJaioCOA",
     "version": 1
   }
 }
