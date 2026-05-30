@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1780126865440,
-      "rationale": "This reply is unrelated to ChatGPT or Codex limits resetting.",
-      "tweetId": "2060626383060222151",
-      "tweetUrl": "https://x.com/thsottiaux/status/2060626383060222151",
+      "decidedAt": 1780127172596,
+      "rationale": "This post discusses model versioning and improvements, not usage caps or rate-limit resets.",
+      "tweetId": "2060627747760984429",
+      "tweetUrl": "https://x.com/thsottiaux/status/2060627747760984429",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2060626383060222151",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2060626383060222151",
+    "lastSeenTweetId": "2060627747760984429",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2060627747760984429",
     "pendingReview": {
       "confidence": 0.91,
       "createdAt": 1780018959728,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2060174369159294986"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1780127172596,
+        "inputTokens": 427,
+        "outputTokens": 77,
+        "rationale": "This post discusses model versioning and improvements, not usage caps or rate-limit resets.",
+        "reasoningTokens": 32,
+        "totalTokens": 504,
+        "tweetId": "2060627747760984429",
+        "tweetText": "When we go from GPT-5.0 -&gt; GPT-5.1 -&gt; ... -&gt; GPT-5.5, the number incrementing goes with improvements in capabilities and token efficiency (which translates to speed gains). With GPT-5.5 our best model yet.\n\nA simple strategy that we would like to continue.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2060627747760984429",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1780126865440,
@@ -279,29 +292,31 @@
         "tweetText": "I am having fever dreams about the future of ChatGPT and Codex. But it it will be beautiful.",
         "tweetUrl": "https://x.com/thsottiaux/status/2059863358023864468",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.95,
-        "evaluatedAt": 1779923278226,
-        "inputTokens": 354,
-        "outputTokens": 141,
-        "rationale": "The reply only says \"Resolved,\" which is not explicit enough to confirm a current limit reset.",
-        "reasoningTokens": 94,
-        "totalTokens": 495,
-        "tweetId": "2059773259332366617",
-        "tweetText": "Resolved",
-        "tweetUrl": "https://x.com/thsottiaux/status/2059773259332366617",
-        "verdict": "uncertain"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 208117,
-      "totalOutputTokens": 55965,
-      "totalReasoningTokens": 30033,
-      "totalTokens": 264082
+      "totalInputTokens": 208544,
+      "totalOutputTokens": 56042,
+      "totalReasoningTokens": 30065,
+      "totalTokens": 264586
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1780127172596,
+      "inputTokens": 427,
+      "message": "",
+      "outputTokens": 77,
+      "rationale": "This post discusses model versioning and improvements, not usage caps or rate-limit resets.",
+      "reasoningTokens": 32,
+      "totalTokens": 504,
+      "tweetId": "2060627747760984429",
+      "tweetText": "When we go from GPT-5.0 -&gt; GPT-5.1 -&gt; ... -&gt; GPT-5.5, the number incrementing goes with improvements in capabilities and token efficiency (which translates to speed gains). With GPT-5.5 our best model yet.\n\nA simple strategy that we would like to continue.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2060627747760984429",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1780126865440,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2058440755874803962",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1779605390895,
-      "inputTokens": 367,
-      "message": "",
-      "outputTokens": 81,
-      "rationale": "This reply discusses a roadmap and does not mention limits, caps, or usage resetting.",
-      "reasoningTokens": 36,
-      "totalTokens": 448,
-      "tweetId": "2058439612583002400",
-      "tweetText": "@rezoundous Congrats, you figured out 5% of our roadmap",
-      "tweetUrl": "https://x.com/thsottiaux/status/2058439612583002400",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "juesHhrKMwW6m6yCn45b-ayyIUGvrCvw1yE572B_CsAmdvWCDOQ-Libn5Q",
-    "iv": "XsMSxrbyozLV0jK3",
-    "tag": "7yncf9PnbapdiappDJme5g",
+    "ciphertext": "q06mWwH_S2r8WqacGnor-1c87xYvbM1S4MwRCeMNaMfHA-H00Wqifl4A1g",
+    "iv": "_n-R28Vs1BFgxNj9",
+    "tag": "-yoDuXSQ8GHzZCMOHnyWwQ",
     "version": 1
   }
 }
