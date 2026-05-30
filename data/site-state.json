@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1780098052594,
-      "rationale": "This reply is conversational and does not mention any rate limit, cap, or reset.",
-      "tweetId": "2060506462489845843",
-      "tweetUrl": "https://x.com/thsottiaux/status/2060506462489845843",
+      "decidedAt": 1780103654920,
+      "rationale": "This post is just a playful comment about Codex and does not mention limits or resets.",
+      "tweetId": "2060529970523603099",
+      "tweetUrl": "https://x.com/thsottiaux/status/2060529970523603099",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2060506462489845843",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2060506462489845843",
+    "lastSeenTweetId": "2060529970523603099",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2060529970523603099",
     "pendingReview": {
       "confidence": 0.91,
       "createdAt": 1780018959728,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2060174369159294986"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1780103654920,
+        "inputTokens": 372,
+        "outputTokens": 68,
+        "rationale": "This post is just a playful comment about Codex and does not mention limits or resets.",
+        "reasoningTokens": 22,
+        "totalTokens": 440,
+        "tweetId": "2060529970523603099",
+        "tweetText": "The world is more fun with codex glasses https://t.co/HYgxSCdaks",
+        "tweetUrl": "https://x.com/thsottiaux/status/2060529970523603099",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1780098052594,
@@ -279,29 +292,31 @@
         "tweetText": "To simplify our Codex compute fleet management, we will be sunsetting GPT-5.2 and GPT-5.3-Codex in Codex on June 2nd when logged in with your ChatGPT account.\n\nFor free plans, GPT-5.5 will be the default frontier model to build and work with going forward.\n\nThese models will remain available on our API.",
         "tweetUrl": "https://x.com/thsottiaux/status/2059650685948551384",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1779811010955,
-        "inputTokens": 361,
-        "outputTokens": 81,
-        "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-        "reasoningTokens": 37,
-        "totalTokens": 442,
-        "tweetId": "2059301656869896581",
-        "tweetText": "@siliconvalleymm Ominous",
-        "tweetUrl": "https://x.com/thsottiaux/status/2059301656869896581",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 205158,
-      "totalOutputTokens": 55349,
-      "totalReasoningTokens": 29776,
-      "totalTokens": 260507
+      "totalInputTokens": 205530,
+      "totalOutputTokens": 55417,
+      "totalReasoningTokens": 29798,
+      "totalTokens": 260947
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1780103654920,
+      "inputTokens": 372,
+      "message": "",
+      "outputTokens": 68,
+      "rationale": "This post is just a playful comment about Codex and does not mention limits or resets.",
+      "reasoningTokens": 22,
+      "totalTokens": 440,
+      "tweetId": "2060529970523603099",
+      "tweetText": "The world is more fun with codex glasses https://t.co/HYgxSCdaks",
+      "tweetUrl": "https://x.com/thsottiaux/status/2060529970523603099",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1780098052594,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2058430831685963842",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.98,
-      "createdAt": 1779578114695,
-      "inputTokens": 360,
-      "message": "",
-      "outputTokens": 85,
-      "rationale": "This is just a conversational reply and does not indicate any rate limit or cap reset.",
-      "reasoningTokens": 40,
-      "totalTokens": 445,
-      "tweetId": "2058325643008602424",
-      "tweetText": "@ah20im Tell me more Ahmed",
-      "tweetUrl": "https://x.com/thsottiaux/status/2058325643008602424",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "ne7TOFtnL9keWH0LG3ncQHJnp92B1LmynADf0NyVYA3Yi61XzO6psNsY2w",
-    "iv": "Wvu8ZKZZrzNkmJc3",
-    "tag": "FUg_nyBnonOJ4_0bnAcnGw",
+    "ciphertext": "2CBvV-uM2zJDC63A1r9v11wnffOR2YfcJIG0ncczOQBCIA5DELs8Dwi1qg",
+    "iv": "6UcwtsUYCm4ilJBH",
+    "tag": "4vK5Vu_EDd3xqNI78-_d5w",
     "version": 1
   }
 }
