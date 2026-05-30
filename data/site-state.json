@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1780103654920,
-      "rationale": "This post is just a playful comment about Codex and does not mention limits or resets.",
-      "tweetId": "2060529970523603099",
-      "tweetUrl": "https://x.com/thsottiaux/status/2060529970523603099",
+      "decidedAt": 1780111399063,
+      "rationale": "This reply is unrelated to Codex or ChatGPT limits or resets.",
+      "tweetId": "2060562295085052360",
+      "tweetUrl": "https://x.com/thsottiaux/status/2060562295085052360",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2060529970523603099",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2060529970523603099",
+    "lastSeenTweetId": "2060562295085052360",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2060562295085052360",
     "pendingReview": {
       "confidence": 0.91,
       "createdAt": 1780018959728,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2060174369159294986"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1780111399063,
+        "inputTokens": 361,
+        "outputTokens": 78,
+        "rationale": "This reply is unrelated to Codex or ChatGPT limits or resets.",
+        "reasoningTokens": 36,
+        "totalTokens": 439,
+        "tweetId": "2060562295085052360",
+        "tweetText": "@emanueledpt outcode wasn't taken",
+        "tweetUrl": "https://x.com/thsottiaux/status/2060562295085052360",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1780103654920,
@@ -279,29 +292,31 @@
         "tweetText": "Thinking back, quite crazy to think about the progress that was made since December last year when GPT-5.2 was released.\n\nIt now is seeing &lt;1% of usage in production and is considered quite outdated!",
         "tweetUrl": "https://x.com/thsottiaux/status/2059650945898987552",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1779894115644,
-        "inputTokens": 433,
-        "outputTokens": 95,
-        "rationale": "This post is about model availability changes, not user caps or rate limits resetting.",
-        "reasoningTokens": 51,
-        "totalTokens": 528,
-        "tweetId": "2059650685948551384",
-        "tweetText": "To simplify our Codex compute fleet management, we will be sunsetting GPT-5.2 and GPT-5.3-Codex in Codex on June 2nd when logged in with your ChatGPT account.\n\nFor free plans, GPT-5.5 will be the default frontier model to build and work with going forward.\n\nThese models will remain available on our API.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2059650685948551384",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 205530,
-      "totalOutputTokens": 55417,
-      "totalReasoningTokens": 29798,
-      "totalTokens": 260947
+      "totalInputTokens": 205891,
+      "totalOutputTokens": 55495,
+      "totalReasoningTokens": 29834,
+      "totalTokens": 261386
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1780111399063,
+      "inputTokens": 361,
+      "message": "",
+      "outputTokens": 78,
+      "rationale": "This reply is unrelated to Codex or ChatGPT limits or resets.",
+      "reasoningTokens": 36,
+      "totalTokens": 439,
+      "tweetId": "2060562295085052360",
+      "tweetText": "@emanueledpt outcode wasn't taken",
+      "tweetUrl": "https://x.com/thsottiaux/status/2060562295085052360",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1780103654920,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2058431424110460934",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1779603224531,
-      "inputTokens": 366,
-      "message": "",
-      "outputTokens": 98,
-      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-      "reasoningTokens": 54,
-      "totalTokens": 464,
-      "tweetId": "2058430831685963842",
-      "tweetText": "@Mascobot You can literally use it in your sleep. Pretty neat",
-      "tweetUrl": "https://x.com/thsottiaux/status/2058430831685963842",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "2CBvV-uM2zJDC63A1r9v11wnffOR2YfcJIG0ncczOQBCIA5DELs8Dwi1qg",
-    "iv": "6UcwtsUYCm4ilJBH",
-    "tag": "4vK5Vu_EDd3xqNI78-_d5w",
+    "ciphertext": "_RJe9n0Iqtc6AC-8maIsvcREoG0Rb8N0zHH9qe33c9MPQNTpezPlXeOjHg",
+    "iv": "59RymPS5R7ife0-f",
+    "tag": "T9MiEudlO-NhYAixA53QiQ",
     "version": 1
   }
 }
