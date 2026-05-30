@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1780154196714,
-      "rationale": "This reply is just about a photo and gives no indication that any Codex or ChatGPT limits reset.",
-      "tweetId": "2060741570308227518",
-      "tweetUrl": "https://x.com/thsottiaux/status/2060741570308227518",
+      "decidedAt": 1780173431299,
+      "rationale": "This reply is just conversational and does not mention any limit or reset.",
+      "tweetId": "2060821549079511450",
+      "tweetUrl": "https://x.com/thsottiaux/status/2060821549079511450",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2060741570308227518",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2060741570308227518",
+    "lastSeenTweetId": "2060821549079511450",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2060821549079511450",
     "pendingReview": {
       "confidence": 0.91,
       "createdAt": 1780018959728,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2060174369159294986"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1780173431299,
+        "inputTokens": 358,
+        "outputTokens": 106,
+        "rationale": "This reply is just conversational and does not mention any limit or reset.",
+        "reasoningTokens": 64,
+        "totalTokens": 464,
+        "tweetId": "2060821549079511450",
+        "tweetText": "@rezoundous Brutal",
+        "tweetUrl": "https://x.com/thsottiaux/status/2060821549079511450",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1780154196714,
@@ -279,29 +292,31 @@
         "tweetText": "Excited to see more independent benchmarks like that which are not contaminated (trained on by major models).",
         "tweetUrl": "https://x.com/thsottiaux/status/2059888697471078544",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.92,
-        "evaluatedAt": 1779949014338,
-        "inputTokens": 364,
-        "outputTokens": 211,
-        "rationale": "This reply does not clearly confirm a current limit reset and lacks enough context to infer one.",
-        "reasoningTokens": 165,
-        "totalTokens": 575,
-        "tweetId": "2059880768869179756",
-        "tweetText": "@ajambrosino @Aizkmusic no confirmed",
-        "tweetUrl": "https://x.com/thsottiaux/status/2059880768869179756",
-        "verdict": "uncertain"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 208923,
-      "totalOutputTokens": 56132,
-      "totalReasoningTokens": 30106,
-      "totalTokens": 265055
+      "totalInputTokens": 209281,
+      "totalOutputTokens": 56238,
+      "totalReasoningTokens": 30170,
+      "totalTokens": 265519
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1780173431299,
+      "inputTokens": 358,
+      "message": "",
+      "outputTokens": 106,
+      "rationale": "This reply is just conversational and does not mention any limit or reset.",
+      "reasoningTokens": 64,
+      "totalTokens": 464,
+      "tweetId": "2060821549079511450",
+      "tweetText": "@rezoundous Brutal",
+      "tweetUrl": "https://x.com/thsottiaux/status/2060821549079511450",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1780154196714,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2058748717155664162",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1779653967703,
-      "inputTokens": 377,
-      "message": "",
-      "outputTokens": 106,
-      "rationale": "This reply discusses Codex availability conditions, not a limit or rate-limit reset.",
-      "reasoningTokens": 62,
-      "totalTokens": 483,
-      "tweetId": "2058643214702440733",
-      "tweetText": "@elkelk Only there if you have visited https://t.co/Ye96TLS6f3 and use codex",
-      "tweetUrl": "https://x.com/thsottiaux/status/2058643214702440733",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "-zIcZKAVNHTRBZT9PjjjRnqQYOgGbdShh3eMntV_2dzildRoBtPz7CINzg",
-    "iv": "0LYCFUyt2l4xdCTo",
-    "tag": "1XHWD6IMoEu5BRUzZ_DWWw",
+    "ciphertext": "vyl1C84b3NVOzFTkNnT6HX0fWSENGqQxm5IMtTSecyIQlaSIr2TJiln4Mw",
+    "iv": "OIRuFOtsbKenQjUg",
+    "tag": "zmrVeFVBEd8O98l3InJqvw",
     "version": 1
   }
 }
