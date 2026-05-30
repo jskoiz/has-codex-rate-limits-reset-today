@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1780111715959,
-      "rationale": "This is just a recommendation/comment about someone working on Codex and ChatGPT, not about limits resetting.",
-      "tweetId": "2060563192359907519",
-      "tweetUrl": "https://x.com/thsottiaux/status/2060563192359907519",
+      "decidedAt": 1780111719380,
+      "rationale": "This post is a general question about model evaluation and does not mention limits or resets.",
+      "tweetId": "2060563528596287874",
+      "tweetUrl": "https://x.com/thsottiaux/status/2060563528596287874",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2060563192359907519",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2060563192359907519",
+    "lastSeenTweetId": "2060563528596287874",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2060563528596287874",
     "pendingReview": {
       "confidence": 0.91,
       "createdAt": 1780018959728,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2060174369159294986"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1780111719380,
+        "inputTokens": 374,
+        "outputTokens": 72,
+        "rationale": "This post is a general question about model evaluation and does not mention limits or resets.",
+        "reasoningTokens": 27,
+        "totalTokens": 446,
+        "tweetId": "2060563528596287874",
+        "tweetText": "Do you still trust benchmarks or do you just listen to your friends? What makes you try a new model?",
+        "tweetUrl": "https://x.com/thsottiaux/status/2060563528596287874",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1780111715959,
@@ -279,29 +292,31 @@
         "tweetText": "@RhysSullivan Not sunsetting GPT‑5.3‑Codex‑Spark",
         "tweetUrl": "https://x.com/thsottiaux/status/2059652191137489251",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1779894423389,
-        "inputTokens": 385,
-        "outputTokens": 72,
-        "rationale": "This is a service-status update about latency, not a statement that limits or caps reset.",
-        "reasoningTokens": 26,
-        "totalTokens": 457,
-        "tweetId": "2059651958710120733",
-        "tweetText": "Team is investigating elevated latencies across the board for API and ChatGPT. Updates will be posted on https://t.co/R3dCKGH1G4",
-        "tweetUrl": "https://x.com/thsottiaux/status/2059651958710120733",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 206267,
-      "totalOutputTokens": 55580,
-      "totalReasoningTokens": 29870,
-      "totalTokens": 261847
+      "totalInputTokens": 206641,
+      "totalOutputTokens": 55652,
+      "totalReasoningTokens": 29897,
+      "totalTokens": 262293
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1780111719380,
+      "inputTokens": 374,
+      "message": "",
+      "outputTokens": 72,
+      "rationale": "This post is a general question about model evaluation and does not mention limits or resets.",
+      "reasoningTokens": 27,
+      "totalTokens": 446,
+      "tweetId": "2060563528596287874",
+      "tweetText": "Do you still trust benchmarks or do you just listen to your friends? What makes you try a new model?",
+      "tweetUrl": "https://x.com/thsottiaux/status/2060563528596287874",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1780111715959,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2058432994621436296",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1779603839719,
-      "inputTokens": 401,
-      "message": "",
-      "outputTokens": 83,
-      "rationale": "This reply discusses competition and licensing, not rate limits or usage resetting.",
-      "reasoningTokens": 41,
-      "totalTokens": 484,
-      "tweetId": "2058432591951478834",
-      "tweetText": "@darrenjr I think there are different innovations in each. But we don’t hide ours and our license is permissive.\n\nYou can actually see some of our code, slightly adapted, in their harness.\n\nCompetition is good.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2058432591951478834",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "bNX95_ChCfYDSav8KYFnfL80o3jso2vvECeRT-CHkIsM3JxGtH-4HofgWQ",
-    "iv": "mdPxzJoP37rEavzv",
-    "tag": "qyZzJIko6RJnMf5TAAw6CQ",
+    "ciphertext": "jfRnfCTz7k6Zfb1Wcb_eG5pKwbVhSmimDhgmMnJx14pvm6D9jYL--0gkCA",
+    "iv": "fecT_5PThGE6RsBf",
+    "tag": "DrRJqf6hxNz2y8DVqOlEzw",
     "version": 1
   }
 }
