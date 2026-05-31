@@ -14,16 +14,16 @@
   "updatedAt": 1780241362610,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1780241978630,
-      "rationale": "This reply is about the meaning of a French word and does not mention any usage limit reset.",
-      "tweetId": "2061107969392263554",
-      "tweetUrl": "https://x.com/thsottiaux/status/2061107969392263554",
+      "confidence": 0.98,
+      "decidedAt": 1780256311545,
+      "rationale": "This reply is too vague and does not say any limits or caps have reset.",
+      "tweetId": "2061169349453611112",
+      "tweetUrl": "https://x.com/thsottiaux/status/2061169349453611112",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2061107969392263554",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2061107969392263554",
+    "lastSeenTweetId": "2061169349453611112",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2061169349453611112",
     "pendingReview": {
       "confidence": 0.88,
       "createdAt": 1780241670783,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2061106793271710115"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.98,
+        "evaluatedAt": 1780256311545,
+        "inputTokens": 360,
+        "outputTokens": 138,
+        "rationale": "This reply is too vague and does not say any limits or caps have reset.",
+        "reasoningTokens": 94,
+        "totalTokens": 498,
+        "tweetId": "2061169349453611112",
+        "tweetText": "@argofowl There will be more",
+        "tweetUrl": "https://x.com/thsottiaux/status/2061169349453611112",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1780241978630,
@@ -279,29 +292,31 @@
         "tweetText": "@mark_k One million reasons to use Codex",
         "tweetUrl": "https://x.com/thsottiaux/status/2060624591773659386",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1780116330999,
-        "inputTokens": 358,
-        "outputTokens": 81,
-        "rationale": "This reply is just conversational and does not mention limits, caps, or a reset.",
-        "reasoningTokens": 36,
-        "totalTokens": 439,
-        "tweetId": "2060582509713486243",
-        "tweetText": "@nicbstme Remarkable",
-        "tweetUrl": "https://x.com/thsottiaux/status/2060582509713486243",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 214569,
-      "totalOutputTokens": 57731,
-      "totalReasoningTokens": 31020,
-      "totalTokens": 272300
+      "totalInputTokens": 214929,
+      "totalOutputTokens": 57869,
+      "totalReasoningTokens": 31114,
+      "totalTokens": 272798
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.98,
+      "createdAt": 1780256311545,
+      "inputTokens": 360,
+      "message": "",
+      "outputTokens": 138,
+      "rationale": "This reply is too vague and does not say any limits or caps have reset.",
+      "reasoningTokens": 94,
+      "totalTokens": 498,
+      "tweetId": "2061169349453611112",
+      "tweetText": "@argofowl There will be more",
+      "tweetUrl": "https://x.com/thsottiaux/status/2061169349453611112",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1780241978630,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2059670620691173425",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1779894736587,
-      "inputTokens": 359,
-      "message": "",
-      "outputTokens": 97,
-      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-      "reasoningTokens": 53,
-      "totalTokens": 456,
-      "tweetId": "2059653871623176371",
-      "tweetText": "@xmanplez Nice try",
-      "tweetUrl": "https://x.com/thsottiaux/status/2059653871623176371",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "lYI1hWjCyMCmI4y7gAX2iO91Abq-_am0Ig4E30Y5TycEz56KZ3If2Kn2aw",
-    "iv": "l0p5VZY71u7obKKP",
-    "tag": "Pq3McyBPP6Zgx-Q2ClH6ug",
+    "ciphertext": "UfNQfDAPDfvna06_-ZcvJ87-uEMnwxORxP7uqtZyenY50AnM7mrej8cngg",
+    "iv": "HjwVthmvJ_Kr8YWO",
+    "tag": "mjQil_naU7tWELgVcj5Qvg",
     "version": 1
   }
 }
