@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1780208786051,
-      "rationale": "This brief reply does not mention limits, caps, or usage becoming available again.",
-      "tweetId": "2060970557169074418",
-      "tweetUrl": "https://x.com/thsottiaux/status/2060970557169074418",
+      "decidedAt": 1780208789088,
+      "rationale": "This is just a conversational reply and gives no indication that any limits or caps have reset.",
+      "tweetId": "2060970774471835783",
+      "tweetUrl": "https://x.com/thsottiaux/status/2060970774471835783",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2060970557169074418",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2060970557169074418",
+    "lastSeenTweetId": "2060970774471835783",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2060970774471835783",
     "pendingReview": {
       "confidence": 0.93,
       "createdAt": 1780207853504,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2060966434055061834"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1780208789088,
+        "inputTokens": 358,
+        "outputTokens": 71,
+        "rationale": "This is just a conversational reply and gives no indication that any limits or caps have reset.",
+        "reasoningTokens": 25,
+        "totalTokens": 429,
+        "tweetId": "2060970774471835783",
+        "tweetText": "@laboomemes Well done",
+        "tweetUrl": "https://x.com/thsottiaux/status/2060970774471835783",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1780208786051,
@@ -279,29 +292,31 @@
         "tweetText": "@JustinBleuel is just shipping things with codex and making chatgpt better. Worth following (and complaining to)",
         "tweetUrl": "https://x.com/thsottiaux/status/2060563192359907519",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1780111399063,
-        "inputTokens": 361,
-        "outputTokens": 78,
-        "rationale": "This reply is unrelated to Codex or ChatGPT limits or resets.",
-        "reasoningTokens": 36,
-        "totalTokens": 439,
-        "tweetId": "2060562295085052360",
-        "tweetText": "@emanueledpt outcode wasn't taken",
-        "tweetUrl": "https://x.com/thsottiaux/status/2060562295085052360",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 213015,
-      "totalOutputTokens": 57282,
-      "totalReasoningTokens": 30769,
-      "totalTokens": 270297
+      "totalInputTokens": 213373,
+      "totalOutputTokens": 57353,
+      "totalReasoningTokens": 30794,
+      "totalTokens": 270726
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1780208789088,
+      "inputTokens": 358,
+      "message": "",
+      "outputTokens": 71,
+      "rationale": "This is just a conversational reply and gives no indication that any limits or caps have reset.",
+      "reasoningTokens": 25,
+      "totalTokens": 429,
+      "tweetId": "2060970774471835783",
+      "tweetText": "@laboomemes Well done",
+      "tweetUrl": "https://x.com/thsottiaux/status/2060970774471835783",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1780208786051,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2059650945898987552",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1779894115644,
-      "inputTokens": 433,
-      "message": "",
-      "outputTokens": 95,
-      "rationale": "This post is about model availability changes, not user caps or rate limits resetting.",
-      "reasoningTokens": 51,
-      "totalTokens": 528,
-      "tweetId": "2059650685948551384",
-      "tweetText": "To simplify our Codex compute fleet management, we will be sunsetting GPT-5.2 and GPT-5.3-Codex in Codex on June 2nd when logged in with your ChatGPT account.\n\nFor free plans, GPT-5.5 will be the default frontier model to build and work with going forward.\n\nThese models will remain available on our API.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2059650685948551384",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "pXYbLvqTaQMhWJdfLSs6FiZuAcHVbaKvM3GVTYq0fKl4fFnGddkocySaZQ",
-    "iv": "nS53rJx4H4rMZg7c",
-    "tag": "GX1rz2kw8MmS6D66J3Gelw",
+    "ciphertext": "993mkr_67Wbm1gE6T3EEVAIJF2F2R73IoHbjbkbQbMvbKa_s59rb3BMYLQ",
+    "iv": "vwJ3SDI0jEg7978o",
+    "tag": "AtFFRTaZT_NNSA5EOuOckQ",
     "version": 1
   }
 }
