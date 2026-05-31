@@ -14,25 +14,38 @@
   "updatedAt": 1779567311544,
   "automation": {
     "lastDecision": {
-      "confidence": 0.96,
-      "decidedAt": 1780207552402,
-      "rationale": "This reply only says a reset may happen soon and does not confirm limits are available again now.",
-      "tweetId": "2060965745778196864",
-      "tweetUrl": "https://x.com/thsottiaux/status/2060965745778196864",
+      "confidence": 0.93,
+      "decidedAt": 1780207853504,
+      "rationale": "He says he will reset the usage limits, which is a future action rather than a confirmed current reset.",
+      "tweetId": "2060966434055061834",
+      "tweetUrl": "https://x.com/thsottiaux/status/2060966434055061834",
       "verdict": "uncertain"
     },
     "lastError": null,
-    "lastSeenTweetId": "2060965745778196864",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2060965745778196864",
+    "lastSeenTweetId": "2060966434055061834",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2060966434055061834",
     "pendingReview": {
-      "confidence": 0.96,
-      "createdAt": 1780207552402,
-      "rationale": "This reply only says a reset may happen soon and does not confirm limits are available again now.",
-      "tweetId": "2060965745778196864",
-      "tweetText": "@QiaochuYuan Soon",
-      "tweetUrl": "https://x.com/thsottiaux/status/2060965745778196864"
+      "confidence": 0.93,
+      "createdAt": 1780207853504,
+      "rationale": "He says he will reset the usage limits, which is a future action rather than a confirmed current reset.",
+      "tweetId": "2060966434055061834",
+      "tweetText": "@Trident2Gold Do not worry 🔱 \n\nThis has nothing to do with memory. I will reset the usage limits",
+      "tweetUrl": "https://x.com/thsottiaux/status/2060966434055061834"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.93,
+        "evaluatedAt": 1780207853504,
+        "inputTokens": 379,
+        "outputTokens": 139,
+        "rationale": "He says he will reset the usage limits, which is a future action rather than a confirmed current reset.",
+        "reasoningTokens": 90,
+        "totalTokens": 518,
+        "tweetId": "2060966434055061834",
+        "tweetText": "@Trident2Gold Do not worry 🔱 \n\nThis has nothing to do with memory. I will reset the usage limits",
+        "tweetUrl": "https://x.com/thsottiaux/status/2060966434055061834",
+        "verdict": "uncertain"
+      },
       {
         "confidence": 0.96,
         "evaluatedAt": 1780207552402,
@@ -279,29 +292,31 @@
         "tweetText": "The world is more fun with codex glasses https://t.co/HYgxSCdaks",
         "tweetUrl": "https://x.com/thsottiaux/status/2060529970523603099",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1780098052594,
-        "inputTokens": 366,
-        "outputTokens": 83,
-        "rationale": "This reply is conversational and does not mention any rate limit, cap, or reset.",
-        "reasoningTokens": 38,
-        "totalTokens": 449,
-        "tweetId": "2060506462489845843",
-        "tweetText": "@HarshithLucky3 Beautiful. Could be employed at OpenAI",
-        "tweetUrl": "https://x.com/thsottiaux/status/2060506462489845843",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 212278,
-      "totalOutputTokens": 57062,
-      "totalReasoningTokens": 30642,
-      "totalTokens": 269340
+      "totalInputTokens": 212657,
+      "totalOutputTokens": 57201,
+      "totalReasoningTokens": 30732,
+      "totalTokens": 269858
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.93,
+      "createdAt": 1780207853504,
+      "inputTokens": 379,
+      "message": "",
+      "outputTokens": 139,
+      "rationale": "He says he will reset the usage limits, which is a future action rather than a confirmed current reset.",
+      "reasoningTokens": 90,
+      "totalTokens": 518,
+      "tweetId": "2060966434055061834",
+      "tweetText": "@Trident2Gold Do not worry 🔱 \n\nThis has nothing to do with memory. I will reset the usage limits",
+      "tweetUrl": "https://x.com/thsottiaux/status/2060966434055061834",
+      "type": "review_requested",
+      "verdict": "uncertain"
+    },
     {
       "confidence": 0.96,
       "createdAt": 1780207552402,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2059301656869896581",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1779771299005,
-      "inputTokens": 383,
-      "message": "",
-      "outputTokens": 81,
-      "rationale": "This is just a conversational comment about monitoring Codex usage, not a statement that limits reset.",
-      "reasoningTokens": 34,
-      "totalTokens": 464,
-      "tweetId": "2059135643654259013",
-      "tweetText": "There is a certain zen to looking at codex traffic, usage and compute dashboards late at night while listening to LCD Soundsystem. The tokens must flow",
-      "tweetUrl": "https://x.com/thsottiaux/status/2059135643654259013",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "CWtQ4SMnlGvnrH5sMgYa_ZLPvnR6Aly_blSzbeG4vESyows33lzi2-BOuA",
-    "iv": "sxuaw8tpjsP-r2fW",
-    "tag": "zH7_-3wJRx-zc4WcE_cx0Q",
+    "ciphertext": "7KzIw7dwO4SHW5VB4hAxw8q6NMa8EYv7d3Xwgm7dMHFi5KzgJQW2Vdjgxg",
+    "iv": "HvpOP5-b42OBpHn7",
+    "tag": "c8R8qQr-McMT5HrPGf75tQ",
     "version": 1
   }
 }
