@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1780183391061,
-      "rationale": "This reply is just a greeting and does not mention limits or resets.",
-      "tweetId": "2060863706205180307",
-      "tweetUrl": "https://x.com/thsottiaux/status/2060863706205180307",
+      "decidedAt": 1780206294433,
+      "rationale": "This is a general product feedback question and does not mention limits or a reset.",
+      "tweetId": "2060960564676034726",
+      "tweetUrl": "https://x.com/thsottiaux/status/2060960564676034726",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2060863706205180307",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2060863706205180307",
+    "lastSeenTweetId": "2060960564676034726",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2060960564676034726",
     "pendingReview": {
       "confidence": 0.91,
       "createdAt": 1780018959728,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2060174369159294986"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1780206294433,
+        "inputTokens": 371,
+        "outputTokens": 83,
+        "rationale": "This is a general product feedback question and does not mention limits or a reset.",
+        "reasoningTokens": 39,
+        "totalTokens": 454,
+        "tweetId": "2060960564676034726",
+        "tweetText": "What’s something we haven’t fixed in codex for a while and that’s plain annoying?",
+        "tweetUrl": "https://x.com/thsottiaux/status/2060960564676034726",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1780183391061,
@@ -279,29 +292,31 @@
         "tweetText": "@anitakirkovska Last year",
         "tweetUrl": "https://x.com/thsottiaux/status/2060125693946859597",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1780006526445,
-        "inputTokens": 371,
-        "outputTokens": 80,
-        "rationale": "This reply is just a slogan comment and does not mention limits, caps, or usage resetting.",
-        "reasoningTokens": 33,
-        "totalTokens": 451,
-        "tweetId": "2060121698243092523",
-        "tweetText": "@0xPaulius Supporting however &amp; wherever you work.\n\nGreat slogan",
-        "tweetUrl": "https://x.com/thsottiaux/status/2060121698243092523",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 209648,
-      "totalOutputTokens": 56302,
-      "totalReasoningTokens": 30192,
-      "totalTokens": 265950
+      "totalInputTokens": 210019,
+      "totalOutputTokens": 56385,
+      "totalReasoningTokens": 30231,
+      "totalTokens": 266404
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1780206294433,
+      "inputTokens": 371,
+      "message": "",
+      "outputTokens": 83,
+      "rationale": "This is a general product feedback question and does not mention limits or a reset.",
+      "reasoningTokens": 39,
+      "totalTokens": 454,
+      "tweetId": "2060960564676034726",
+      "tweetText": "What’s something we haven’t fixed in codex for a while and that’s plain annoying?",
+      "tweetUrl": "https://x.com/thsottiaux/status/2060960564676034726",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1780183391061,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2058749868659855445",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1779679120670,
-      "inputTokens": 391,
-      "message": "",
-      "outputTokens": 80,
-      "rationale": "This reply is about using the product to manage subscriptions, not about limits or a reset.",
-      "reasoningTokens": 34,
-      "totalTokens": 471,
-      "tweetId": "2058748892234371138",
-      "tweetText": "\"Go through my email and make a list of subscriptions i pay for and validate with me which ones to unsubscribe from\"\n\nand then ask it to unsubscribe for the ones you don't need anymore",
-      "tweetUrl": "https://x.com/thsottiaux/status/2058748892234371138",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "Vn69amX0RLSYd59V4ANKsyF7bfSaxHPGY4kkUqs7R_n0RBXyEGiHlEM0xw",
-    "iv": "iEOfctNKmjust-Xf",
-    "tag": "PYqThb4JOVC8FJVJaioCOA",
+    "ciphertext": "CwtTtPpQ93pYi76mif6siXDZxjyHbbj7NxzsosLbU4HftQkuBn0MtZTk-A",
+    "iv": "Zs0FDzyM8yV2rCg1",
+    "tag": "J1NWq5_CuJz8641OxNkofQ",
     "version": 1
   }
 }
