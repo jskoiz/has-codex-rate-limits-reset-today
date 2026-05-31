@@ -14,16 +14,16 @@
   "updatedAt": 1780241362610,
   "automation": {
     "lastDecision": {
-      "confidence": 0.88,
-      "decidedAt": 1780241670783,
-      "rationale": "This cryptic reply could refer to a reset timing, but it does not clearly say limits are available again now.",
-      "tweetId": "2061106793271710115",
-      "tweetUrl": "https://x.com/thsottiaux/status/2061106793271710115",
-      "verdict": "uncertain"
+      "confidence": 0.99,
+      "decidedAt": 1780241978630,
+      "rationale": "This reply is about the meaning of a French word and does not mention any usage limit reset.",
+      "tweetId": "2061107969392263554",
+      "tweetUrl": "https://x.com/thsottiaux/status/2061107969392263554",
+      "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2061106793271710115",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2061106793271710115",
+    "lastSeenTweetId": "2061107969392263554",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2061107969392263554",
     "pendingReview": {
       "confidence": 0.88,
       "createdAt": 1780241670783,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2061106793271710115"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1780241978630,
+        "inputTokens": 386,
+        "outputTokens": 108,
+        "rationale": "This reply is about the meaning of a French word and does not mention any usage limit reset.",
+        "reasoningTokens": 61,
+        "totalTokens": 494,
+        "tweetId": "2061107969392263554",
+        "tweetText": "@rezoundous \"Mitonner\" in French means to simmer. Odd. In the figurative sense it also means to to cleverly devise a secret plan or to trick.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2061107969392263554",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.88,
         "evaluatedAt": 1780241670783,
@@ -279,29 +292,31 @@
         "tweetText": "@nicbstme Remarkable",
         "tweetUrl": "https://x.com/thsottiaux/status/2060582509713486243",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1780112021488,
-        "inputTokens": 398,
-        "outputTokens": 79,
-        "rationale": "This is a general adoption/update post and does not mention limits, caps, or usage resetting.",
-        "reasoningTokens": 32,
-        "totalTokens": 477,
-        "tweetId": "2060565265906290786",
-        "tweetText": "I looked at a number today on a codex dashboard and it made me happy. More news about the number soon. 👀\n\nThanks to everyone who keeps adopting codex. We are still early. So early.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2060565265906290786",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 214183,
-      "totalOutputTokens": 57623,
-      "totalReasoningTokens": 30959,
-      "totalTokens": 271806
+      "totalInputTokens": 214569,
+      "totalOutputTokens": 57731,
+      "totalReasoningTokens": 31020,
+      "totalTokens": 272300
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1780241978630,
+      "inputTokens": 386,
+      "message": "",
+      "outputTokens": 108,
+      "rationale": "This reply is about the meaning of a French word and does not mention any usage limit reset.",
+      "reasoningTokens": 61,
+      "totalTokens": 494,
+      "tweetId": "2061107969392263554",
+      "tweetText": "@rezoundous \"Mitonner\" in French means to simmer. Odd. In the figurative sense it also means to to cleverly devise a secret plan or to trick.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2061107969392263554",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.88,
       "createdAt": 1780241670783,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2059653871623176371",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1779894428153,
-      "inputTokens": 370,
-      "message": "",
-      "outputTokens": 94,
-      "rationale": "This reply discusses a model being sunset or not, not user limits or rate-limit resets.",
-      "reasoningTokens": 48,
-      "totalTokens": 464,
-      "tweetId": "2059652191137489251",
-      "tweetText": "@RhysSullivan Not sunsetting GPT‑5.3‑Codex‑Spark",
-      "tweetUrl": "https://x.com/thsottiaux/status/2059652191137489251",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "F6slsHp4NJOyZPakbe40IwQFBgjSl8DyPlwpoJxq4Xw0oPT4-LESsdH_Cg",
-    "iv": "g4OEWdd3yFPBrsDD",
-    "tag": "lR68KDPzXFTXUzRkRg9Ipg",
+    "ciphertext": "lYI1hWjCyMCmI4y7gAX2iO91Abq-_am0Ig4E30Y5TycEz56KZ3If2Kn2aw",
+    "iv": "l0p5VZY71u7obKKP",
+    "tag": "Pq3McyBPP6Zgx-Q2ClH6ug",
     "version": 1
   }
 }
