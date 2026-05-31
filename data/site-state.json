@@ -14,16 +14,16 @@
   "updatedAt": 1779567311544,
   "automation": {
     "lastDecision": {
-      "confidence": 0.98,
-      "decidedAt": 1780207231600,
-      "rationale": "It mentions limits will be reset tomorrow morning, not that they have reset now.",
-      "tweetId": "2060964284117782996",
-      "tweetUrl": "https://x.com/thsottiaux/status/2060964284117782996",
+      "confidence": 0.99,
+      "decidedAt": 1780207540038,
+      "rationale": "This reply is conversational and does not mention limits, caps, or resets.",
+      "tweetId": "2060964710921715842",
+      "tweetUrl": "https://x.com/thsottiaux/status/2060964710921715842",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2060964284117782996",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2060964284117782996",
+    "lastSeenTweetId": "2060964710921715842",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2060964710921715842",
     "pendingReview": {
       "confidence": 0.91,
       "createdAt": 1780018959728,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2060174369159294986"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1780207540038,
+        "inputTokens": 368,
+        "outputTokens": 67,
+        "rationale": "This reply is conversational and does not mention limits, caps, or resets.",
+        "reasoningTokens": 24,
+        "totalTokens": 435,
+        "tweetId": "2060964710921715842",
+        "tweetText": "@armlessbandt @argofowl Let’s settle this at high noon",
+        "tweetUrl": "https://x.com/thsottiaux/status/2060964710921715842",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.98,
         "evaluatedAt": 1780207231600,
@@ -279,29 +292,31 @@
         "tweetText": "@vihangadev My condolences",
         "tweetUrl": "https://x.com/thsottiaux/status/2060175118488531125",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.91,
-        "evaluatedAt": 1780018959728,
-        "inputTokens": 366,
-        "outputTokens": 293,
-        "rationale": "This suggests the expected Codex reset day moved to Friday, not that limits have reset now.",
-        "reasoningTokens": 246,
-        "totalTokens": 659,
-        "tweetId": "2060174369159294986",
-        "tweetText": "Codex Thursday has exceptionally moved to another day. Friday it is.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2060174369159294986",
-        "verdict": "uncertain"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 210828,
-      "totalOutputTokens": 56616,
-      "totalReasoningTokens": 30374,
-      "totalTokens": 267444
+      "totalInputTokens": 211196,
+      "totalOutputTokens": 56683,
+      "totalReasoningTokens": 30398,
+      "totalTokens": 267879
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1780207540038,
+      "inputTokens": 368,
+      "message": "",
+      "outputTokens": 67,
+      "rationale": "This reply is conversational and does not mention limits, caps, or resets.",
+      "reasoningTokens": 24,
+      "totalTokens": 435,
+      "tweetId": "2060964710921715842",
+      "tweetText": "@armlessbandt @argofowl Let’s settle this at high noon",
+      "tweetUrl": "https://x.com/thsottiaux/status/2060964710921715842",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.98,
       "createdAt": 1780207231600,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2058753082138493077",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1779679745660,
-      "inputTokens": 360,
-      "message": "",
-      "outputTokens": 92,
-      "rationale": "This reply does not mention limits, caps, or a reset.",
-      "reasoningTokens": 51,
-      "totalTokens": 452,
-      "tweetId": "2058751332803334605",
-      "tweetText": "@thdxr opencode 📉",
-      "tweetUrl": "https://x.com/thsottiaux/status/2058751332803334605",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "yPlRo9Trn9JL8n7-Pz8Re7tMB42_Pm5Co8OpstF3ujigQq_ylQswI4653w",
-    "iv": "TQI1Rzv_awqZLh7a",
-    "tag": "GZO_ti2YRm3waKAGD9iDag",
+    "ciphertext": "ms7KUpimRHV5w4r8BiqJ-uNGreYjQXX1YHhMNcIEXyZQAoKGSiGTcykp0g",
+    "iv": "TFZcW5P4HDgUJRog",
+    "tag": "QXIlixknj23U7MeimKTbBg",
     "version": 1
   }
 }
