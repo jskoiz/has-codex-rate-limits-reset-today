@@ -1,5 +1,5 @@
 {
-  "currentState": "no",
+  "currentState": "yes",
   "autoResetHours": 20,
   "noSubtitles": [
     "Back to your local model peasant",
@@ -10,29 +10,35 @@
     "Limits reset, go crazy",
     "You can just build things"
   ],
-  "resetAt": null,
-  "updatedAt": 1779567311544,
+  "resetAt": 1780313362610,
+  "updatedAt": 1780241362610,
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1780208789088,
-      "rationale": "This is just a conversational reply and gives no indication that any limits or caps have reset.",
-      "tweetId": "2060970774471835783",
-      "tweetUrl": "https://x.com/thsottiaux/status/2060970774471835783",
-      "verdict": "not_reset"
+      "decidedAt": 1780241362610,
+      "rationale": "The tweet explicitly says Codex usage limits have been reset and paid users are back to 100% weekly and hourly limits.",
+      "tweetId": "2061106703446450392",
+      "tweetUrl": "https://x.com/thsottiaux/status/2061106703446450392",
+      "verdict": "reset_confirmed"
     },
     "lastError": null,
-    "lastSeenTweetId": "2060970774471835783",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2060970774471835783",
-    "pendingReview": {
-      "confidence": 0.93,
-      "createdAt": 1780207853504,
-      "rationale": "He says he will reset the usage limits, which is a future action rather than a confirmed current reset.",
-      "tweetId": "2060966434055061834",
-      "tweetText": "@Trident2Gold Do not worry 🔱 \n\nThis has nothing to do with memory. I will reset the usage limits",
-      "tweetUrl": "https://x.com/thsottiaux/status/2060966434055061834"
-    },
+    "lastSeenTweetId": "2061106703446450392",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2061106703446450392",
+    "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1780241362610,
+        "inputTokens": 450,
+        "outputTokens": 93,
+        "rationale": "The tweet explicitly says Codex usage limits have been reset and paid users are back to 100% weekly and hourly limits.",
+        "reasoningTokens": 39,
+        "totalTokens": 543,
+        "tweetId": "2061106703446450392",
+        "tweetText": "The Codex usage limits have been reset for all paid ChatGPT subscriptions. You should be back to 100% weekly and 100% hourly limits.\n\nLet the tokens do incredible things today and have fun.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2061106703446450392",
+        "verdict": "reset_confirmed"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1780208789088,
@@ -279,29 +285,31 @@
         "tweetText": "Do you still trust benchmarks or do you just listen to your friends? What makes you try a new model?",
         "tweetUrl": "https://x.com/thsottiaux/status/2060563528596287874",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1780111715959,
-        "inputTokens": 376,
-        "outputTokens": 85,
-        "rationale": "This is just a recommendation/comment about someone working on Codex and ChatGPT, not about limits resetting.",
-        "reasoningTokens": 36,
-        "totalTokens": 461,
-        "tweetId": "2060563192359907519",
-        "tweetText": "@JustinBleuel is just shipping things with codex and making chatgpt better. Worth following (and complaining to)",
-        "tweetUrl": "https://x.com/thsottiaux/status/2060563192359907519",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 213373,
-      "totalOutputTokens": 57353,
-      "totalReasoningTokens": 30794,
-      "totalTokens": 270726
+      "totalInputTokens": 213823,
+      "totalOutputTokens": 57446,
+      "totalReasoningTokens": 30833,
+      "totalTokens": 271269
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1780241362610,
+      "inputTokens": 450,
+      "message": "",
+      "outputTokens": 93,
+      "rationale": "The tweet explicitly says Codex usage limits have been reset and paid users are back to 100% weekly and hourly limits.",
+      "reasoningTokens": 39,
+      "totalTokens": 543,
+      "tweetId": "2061106703446450392",
+      "tweetText": "The Codex usage limits have been reset for all paid ChatGPT subscriptions. You should be back to 100% weekly and 100% hourly limits.\n\nLet the tokens do incredible things today and have fun.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2061106703446450392",
+      "type": "reset_confirmed",
+      "verdict": "reset_confirmed"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1780208789088,
@@ -886,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2059651958710120733",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1779894119373,
-      "inputTokens": 399,
-      "message": "",
-      "outputTokens": 91,
-      "rationale": "This reply discusses model progress and production usage, not any limit or rate-limit reset.",
-      "reasoningTokens": 46,
-      "totalTokens": 490,
-      "tweetId": "2059650945898987552",
-      "tweetText": "Thinking back, quite crazy to think about the progress that was made since December last year when GPT-5.2 was released.\n\nIt now is seeing &lt;1% of usage in production and is considered quite outdated!",
-      "tweetUrl": "https://x.com/thsottiaux/status/2059650945898987552",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "993mkr_67Wbm1gE6T3EEVAIJF2F2R73IoHbjbkbQbMvbKa_s59rb3BMYLQ",
-    "iv": "vwJ3SDI0jEg7978o",
-    "tag": "AtFFRTaZT_NNSA5EOuOckQ",
+    "ciphertext": "RGHhccLgjrp_0Zs41aqajvUJSsNy5T3XYp5S9YE4AeLN8BUTUji-Oaq6wA",
+    "iv": "KJUrpnylim5AnUJS",
+    "tag": "Z-omMj9PxFtwysgbLStmLQ",
     "version": 1
   }
 }
