@@ -14,25 +14,38 @@
   "updatedAt": 1779567311544,
   "automation": {
     "lastDecision": {
-      "confidence": 0.98,
-      "decidedAt": 1780207547683,
-      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-      "tweetId": "2060965421516575048",
-      "tweetUrl": "https://x.com/thsottiaux/status/2060965421516575048",
-      "verdict": "not_reset"
+      "confidence": 0.96,
+      "decidedAt": 1780207552402,
+      "rationale": "This reply only says a reset may happen soon and does not confirm limits are available again now.",
+      "tweetId": "2060965745778196864",
+      "tweetUrl": "https://x.com/thsottiaux/status/2060965745778196864",
+      "verdict": "uncertain"
     },
     "lastError": null,
-    "lastSeenTweetId": "2060965421516575048",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2060965421516575048",
+    "lastSeenTweetId": "2060965745778196864",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2060965745778196864",
     "pendingReview": {
-      "confidence": 0.91,
-      "createdAt": 1780018959728,
-      "rationale": "This suggests the expected Codex reset day moved to Friday, not that limits have reset now.",
-      "tweetId": "2060174369159294986",
-      "tweetText": "Codex Thursday has exceptionally moved to another day. Friday it is.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2060174369159294986"
+      "confidence": 0.96,
+      "createdAt": 1780207552402,
+      "rationale": "This reply only says a reset may happen soon and does not confirm limits are available again now.",
+      "tweetId": "2060965745778196864",
+      "tweetText": "@QiaochuYuan Soon",
+      "tweetUrl": "https://x.com/thsottiaux/status/2060965745778196864"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.96,
+        "evaluatedAt": 1780207552402,
+        "inputTokens": 360,
+        "outputTokens": 153,
+        "rationale": "This reply only says a reset may happen soon and does not confirm limits are available again now.",
+        "reasoningTokens": 106,
+        "totalTokens": 513,
+        "tweetId": "2060965745778196864",
+        "tweetText": "@QiaochuYuan Soon",
+        "tweetUrl": "https://x.com/thsottiaux/status/2060965745778196864",
+        "verdict": "uncertain"
+      },
       {
         "confidence": 0.98,
         "evaluatedAt": 1780207547683,
@@ -279,29 +292,31 @@
         "tweetText": "@HarshithLucky3 Beautiful. Could be employed at OpenAI",
         "tweetUrl": "https://x.com/thsottiaux/status/2060506462489845843",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1780097739612,
-        "inputTokens": 452,
-        "outputTokens": 99,
-        "rationale": "This post is about Codex features and does not mention limits, caps, or resets.",
-        "reasoningTokens": 53,
-        "totalTokens": 551,
-        "tweetId": "2060504172873793709",
-        "tweetText": "Nobody knows Codex better than itself",
-        "tweetUrl": "https://x.com/thsottiaux/status/2060504172873793709",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 211918,
-      "totalOutputTokens": 56909,
-      "totalReasoningTokens": 30536,
-      "totalTokens": 268827
+      "totalInputTokens": 212278,
+      "totalOutputTokens": 57062,
+      "totalReasoningTokens": 30642,
+      "totalTokens": 269340
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.96,
+      "createdAt": 1780207552402,
+      "inputTokens": 360,
+      "message": "",
+      "outputTokens": 153,
+      "rationale": "This reply only says a reset may happen soon and does not confirm limits are available again now.",
+      "reasoningTokens": 106,
+      "totalTokens": 513,
+      "tweetId": "2060965745778196864",
+      "tweetText": "@QiaochuYuan Soon",
+      "tweetUrl": "https://x.com/thsottiaux/status/2060965745778196864",
+      "type": "review_requested",
+      "verdict": "uncertain"
+    },
     {
       "confidence": 0.98,
       "createdAt": 1780207547683,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2059135643654259013",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.92,
-      "createdAt": 1779684412844,
-      "inputTokens": 369,
-      "message": "",
-      "outputTokens": 150,
-      "rationale": "This reply contains no explicit text saying limits or rate caps have reset.",
-      "reasoningTokens": 108,
-      "totalTokens": 519,
-      "tweetId": "2058771332859625901",
-      "tweetText": "@Im_IrushiK https://t.co/zkuwLZZal8",
-      "tweetUrl": "https://x.com/thsottiaux/status/2058771332859625901",
-      "type": "review_requested",
-      "verdict": "uncertain"
     }
   ],
   "privateState": {
-    "ciphertext": "WHdI5PdpD5jbJBS0YbUfzPGdy7pRDxF-gchhByKb0vy8CWV42dsmPNVuhw",
-    "iv": "IZvlY_2Wy9UtlJfI",
-    "tag": "X9Wtqw7y-kUtm_jOchITzA",
+    "ciphertext": "CWtQ4SMnlGvnrH5sMgYa_ZLPvnR6Aly_blSzbeG4vESyows33lzi2-BOuA",
+    "iv": "sxuaw8tpjsP-r2fW",
+    "tag": "zH7_-3wJRx-zc4WcE_cx0Q",
     "version": 1
   }
 }
