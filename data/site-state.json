@@ -14,16 +14,16 @@
   "updatedAt": 1779567311544,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1780207543673,
+      "confidence": 0.98,
+      "decidedAt": 1780207547683,
       "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-      "tweetId": "2060964912726512046",
-      "tweetUrl": "https://x.com/thsottiaux/status/2060964912726512046",
+      "tweetId": "2060965421516575048",
+      "tweetUrl": "https://x.com/thsottiaux/status/2060965421516575048",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2060964912726512046",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2060964912726512046",
+    "lastSeenTweetId": "2060965421516575048",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2060965421516575048",
     "pendingReview": {
       "confidence": 0.91,
       "createdAt": 1780018959728,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2060174369159294986"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.98,
+        "evaluatedAt": 1780207547683,
+        "inputTokens": 364,
+        "outputTokens": 134,
+        "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+        "reasoningTokens": 90,
+        "totalTokens": 498,
+        "tweetId": "2060965421516575048",
+        "tweetText": "@kenwuuuu Please take this message as a sign",
+        "tweetUrl": "https://x.com/thsottiaux/status/2060965421516575048",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1780207543673,
@@ -279,29 +292,31 @@
         "tweetText": "Nobody knows Codex better than itself",
         "tweetUrl": "https://x.com/thsottiaux/status/2060504172873793709",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.95,
-        "evaluatedAt": 1780025414618,
-        "inputTokens": 370,
-        "outputTokens": 157,
-        "rationale": "This reply is a conversational joke about the timeline and does not clearly say any Codex or ChatGPT limit has reset.",
-        "reasoningTokens": 105,
-        "totalTokens": 527,
-        "tweetId": "2060201744664260835",
-        "tweetText": "@sandislonjsak You'll be back after one prompt if I can trust the timeline",
-        "tweetUrl": "https://x.com/thsottiaux/status/2060201744664260835",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 211554,
-      "totalOutputTokens": 56775,
-      "totalReasoningTokens": 30446,
-      "totalTokens": 268329
+      "totalInputTokens": 211918,
+      "totalOutputTokens": 56909,
+      "totalReasoningTokens": 30536,
+      "totalTokens": 268827
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.98,
+      "createdAt": 1780207547683,
+      "inputTokens": 364,
+      "message": "",
+      "outputTokens": 134,
+      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+      "reasoningTokens": 90,
+      "totalTokens": 498,
+      "tweetId": "2060965421516575048",
+      "tweetText": "@kenwuuuu Please take this message as a sign",
+      "tweetUrl": "https://x.com/thsottiaux/status/2060965421516575048",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1780207543673,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2058771332859625901",
       "type": "review_requested",
       "verdict": "uncertain"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1779680059399,
-      "inputTokens": 367,
-      "message": "",
-      "outputTokens": 90,
-      "rationale": "This reply is just conversational about usage and does not mention limits or a reset.",
-      "reasoningTokens": 46,
-      "totalTokens": 457,
-      "tweetId": "2058753198450737496",
-      "tweetText": "@lennox_saint I also use for all the little admin things",
-      "tweetUrl": "https://x.com/thsottiaux/status/2058753198450737496",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "_aBgiuPq3urZYFN4ymdKVMhVVM7gLQjO296vIE7fp9pfLsBAT8oTgLwCvg",
-    "iv": "CXMQbAmM0mJ62S0p",
-    "tag": "K8ZaMYeLCRjWvBiNLHfSNg",
+    "ciphertext": "WHdI5PdpD5jbJBS0YbUfzPGdy7pRDxF-gchhByKb0vy8CWV42dsmPNVuhw",
+    "iv": "IZvlY_2Wy9UtlJfI",
+    "tag": "X9Wtqw7y-kUtm_jOchITzA",
     "version": 1
   }
 }
