@@ -14,16 +14,16 @@
   "updatedAt": 1779567311544,
   "automation": {
     "lastDecision": {
-      "confidence": 0.93,
-      "decidedAt": 1780207853504,
-      "rationale": "He says he will reset the usage limits, which is a future action rather than a confirmed current reset.",
-      "tweetId": "2060966434055061834",
-      "tweetUrl": "https://x.com/thsottiaux/status/2060966434055061834",
-      "verdict": "uncertain"
+      "confidence": 0.99,
+      "decidedAt": 1780208786051,
+      "rationale": "This brief reply does not mention limits, caps, or usage becoming available again.",
+      "tweetId": "2060970557169074418",
+      "tweetUrl": "https://x.com/thsottiaux/status/2060970557169074418",
+      "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2060966434055061834",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2060966434055061834",
+    "lastSeenTweetId": "2060970557169074418",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2060970557169074418",
     "pendingReview": {
       "confidence": 0.93,
       "createdAt": 1780207853504,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2060966434055061834"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1780208786051,
+        "inputTokens": 358,
+        "outputTokens": 81,
+        "rationale": "This brief reply does not mention limits, caps, or usage becoming available again.",
+        "reasoningTokens": 37,
+        "totalTokens": 439,
+        "tweetId": "2060970557169074418",
+        "tweetText": "@waternux Tibs?",
+        "tweetUrl": "https://x.com/thsottiaux/status/2060970557169074418",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.93,
         "evaluatedAt": 1780207853504,
@@ -279,29 +292,31 @@
         "tweetText": "@emanueledpt outcode wasn't taken",
         "tweetUrl": "https://x.com/thsottiaux/status/2060562295085052360",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1780103654920,
-        "inputTokens": 372,
-        "outputTokens": 68,
-        "rationale": "This post is just a playful comment about Codex and does not mention limits or resets.",
-        "reasoningTokens": 22,
-        "totalTokens": 440,
-        "tweetId": "2060529970523603099",
-        "tweetText": "The world is more fun with codex glasses https://t.co/HYgxSCdaks",
-        "tweetUrl": "https://x.com/thsottiaux/status/2060529970523603099",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 212657,
-      "totalOutputTokens": 57201,
-      "totalReasoningTokens": 30732,
-      "totalTokens": 269858
+      "totalInputTokens": 213015,
+      "totalOutputTokens": 57282,
+      "totalReasoningTokens": 30769,
+      "totalTokens": 270297
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1780208786051,
+      "inputTokens": 358,
+      "message": "",
+      "outputTokens": 81,
+      "rationale": "This brief reply does not mention limits, caps, or usage becoming available again.",
+      "reasoningTokens": 37,
+      "totalTokens": 439,
+      "tweetId": "2060970557169074418",
+      "tweetText": "@waternux Tibs?",
+      "tweetUrl": "https://x.com/thsottiaux/status/2060970557169074418",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.93,
       "createdAt": 1780207853504,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2059650685948551384",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1779811010955,
-      "inputTokens": 361,
-      "message": "",
-      "outputTokens": 81,
-      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-      "reasoningTokens": 37,
-      "totalTokens": 442,
-      "tweetId": "2059301656869896581",
-      "tweetText": "@siliconvalleymm Ominous",
-      "tweetUrl": "https://x.com/thsottiaux/status/2059301656869896581",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "7KzIw7dwO4SHW5VB4hAxw8q6NMa8EYv7d3Xwgm7dMHFi5KzgJQW2Vdjgxg",
-    "iv": "HvpOP5-b42OBpHn7",
-    "tag": "c8R8qQr-McMT5HrPGf75tQ",
+    "ciphertext": "pXYbLvqTaQMhWJdfLSs6FiZuAcHVbaKvM3GVTYq0fKl4fFnGddkocySaZQ",
+    "iv": "nS53rJx4H4rMZg7c",
+    "tag": "GX1rz2kw8MmS6D66J3Gelw",
     "version": 1
   }
 }
