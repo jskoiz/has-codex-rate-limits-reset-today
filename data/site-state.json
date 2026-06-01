@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1780288910341,
-      "rationale": "This reply is just a conversational preference and does not mention limits or a reset.",
-      "tweetId": "2061306740537434521",
-      "tweetUrl": "https://x.com/thsottiaux/status/2061306740537434521",
+      "decidedAt": 1780289211083,
+      "rationale": "This reply is a joke and does not mention any ChatGPT or Codex limit reset.",
+      "tweetId": "2061307619164541026",
+      "tweetUrl": "https://x.com/thsottiaux/status/2061307619164541026",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2061306740537434521",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2061306740537434521",
+    "lastSeenTweetId": "2061307619164541026",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2061307619164541026",
     "pendingReview": {
       "confidence": 0.88,
       "createdAt": 1780241670783,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2061106793271710115"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1780289211083,
+        "inputTokens": 369,
+        "outputTokens": 80,
+        "rationale": "This reply is a joke and does not mention any ChatGPT or Codex limit reset.",
+        "reasoningTokens": 34,
+        "totalTokens": 449,
+        "tweetId": "2061307619164541026",
+        "tweetText": "@gabrielchua How to burn your chalet in 3..2..1",
+        "tweetUrl": "https://x.com/thsottiaux/status/2061307619164541026",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1780288910341,
@@ -279,29 +292,31 @@
         "tweetText": "When we go from GPT-5.0 -&gt; GPT-5.1 -&gt; ... -&gt; GPT-5.5, the number incrementing goes with improvements in capabilities and token efficiency (which translates to speed gains). With GPT-5.5 our best model yet.\n\nA simple strategy that we would like to continue.",
         "tweetUrl": "https://x.com/thsottiaux/status/2060627747760984429",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1780126865440,
-        "inputTokens": 358,
-        "outputTokens": 72,
-        "rationale": "This reply is unrelated to ChatGPT or Codex limits resetting.",
-        "reasoningTokens": 31,
-        "totalTokens": 430,
-        "tweetId": "2060626383060222151",
-        "tweetText": "@kimmonismus Microsoft Windows",
-        "tweetUrl": "https://x.com/thsottiaux/status/2060626383060222151",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 215295,
-      "totalOutputTokens": 57979,
-      "totalReasoningTokens": 31180,
-      "totalTokens": 273274
+      "totalInputTokens": 215664,
+      "totalOutputTokens": 58059,
+      "totalReasoningTokens": 31214,
+      "totalTokens": 273723
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1780289211083,
+      "inputTokens": 369,
+      "message": "",
+      "outputTokens": 80,
+      "rationale": "This reply is a joke and does not mention any ChatGPT or Codex limit reset.",
+      "reasoningTokens": 34,
+      "totalTokens": 449,
+      "tweetId": "2061307619164541026",
+      "tweetText": "@gabrielchua How to burn your chalet in 3..2..1",
+      "tweetUrl": "https://x.com/thsottiaux/status/2061307619164541026",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1780288910341,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2059773259332366617",
       "type": "review_requested",
       "verdict": "uncertain"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1779898769254,
-      "inputTokens": 365,
-      "message": "",
-      "outputTokens": 89,
-      "rationale": "This reply only clarifies scope and does not say Codex or ChatGPT limits have reset.",
-      "reasoningTokens": 42,
-      "totalTokens": 454,
-      "tweetId": "2059670688143970475",
-      "tweetText": "This is completions API only and does not affect Codex.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2059670688143970475",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "gdVzp5pHTR0X9kQ7ewa1Me_MlvgP50RmnF6umBxyEshXNzj_bhpNPq668w",
-    "iv": "7LrxhEKqG9_zZ1cd",
-    "tag": "GhOEOozxLBy32_-OyZt-4g",
+    "ciphertext": "eNYjGwnHPJuSZz32Uk1PY7lYIwNxm3DMM7bUhfDr4kDQS7UNNTRVu0EOXg",
+    "iv": "W7a1BLrgwMmzMdNw",
+    "tag": "Gx_RwVHp-B3Tcr_wl6VaMQ",
     "version": 1
   }
 }
