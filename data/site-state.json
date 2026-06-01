@@ -1,5 +1,5 @@
 {
-  "currentState": "yes",
+  "currentState": "no",
   "autoResetHours": 20,
   "noSubtitles": [
     "Back to your local model peasant",
@@ -10,20 +10,20 @@
     "Limits reset, go crazy",
     "You can just build things"
   ],
-  "resetAt": 1780313362610,
+  "resetAt": null,
   "updatedAt": 1780241362610,
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1780289211083,
-      "rationale": "This reply is a joke and does not mention any ChatGPT or Codex limit reset.",
-      "tweetId": "2061307619164541026",
-      "tweetUrl": "https://x.com/thsottiaux/status/2061307619164541026",
+      "decidedAt": 1780352440954,
+      "rationale": "This is just a joking naming suggestion and says nothing about limits or availability.",
+      "tweetId": "2061572602888589807",
+      "tweetUrl": "https://x.com/thsottiaux/status/2061572602888589807",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2061307619164541026",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2061307619164541026",
+    "lastSeenTweetId": "2061572602888589807",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2061572602888589807",
     "pendingReview": {
       "confidence": 0.88,
       "createdAt": 1780241670783,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2061106793271710115"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1780352440954,
+        "inputTokens": 361,
+        "outputTokens": 91,
+        "rationale": "This is just a joking naming suggestion and says nothing about limits or availability.",
+        "reasoningTokens": 48,
+        "totalTokens": 452,
+        "tweetId": "2061572602888589807",
+        "tweetText": "Should we rename Codex to ChadGPT?",
+        "tweetUrl": "https://x.com/thsottiaux/status/2061572602888589807",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1780289211083,
@@ -279,29 +292,31 @@
         "tweetText": "@trifon_getsov @ajambrosino Picture I took yesterday https://t.co/2ZfulTejTM",
         "tweetUrl": "https://x.com/thsottiaux/status/2060741570308227518",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1780127172596,
-        "inputTokens": 427,
-        "outputTokens": 77,
-        "rationale": "This post discusses model versioning and improvements, not usage caps or rate-limit resets.",
-        "reasoningTokens": 32,
-        "totalTokens": 504,
-        "tweetId": "2060627747760984429",
-        "tweetText": "When we go from GPT-5.0 -&gt; GPT-5.1 -&gt; ... -&gt; GPT-5.5, the number incrementing goes with improvements in capabilities and token efficiency (which translates to speed gains). With GPT-5.5 our best model yet.\n\nA simple strategy that we would like to continue.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2060627747760984429",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 215664,
-      "totalOutputTokens": 58059,
-      "totalReasoningTokens": 31214,
-      "totalTokens": 273723
+      "totalInputTokens": 216025,
+      "totalOutputTokens": 58150,
+      "totalReasoningTokens": 31262,
+      "totalTokens": 274175
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1780352440954,
+      "inputTokens": 361,
+      "message": "",
+      "outputTokens": 91,
+      "rationale": "This is just a joking naming suggestion and says nothing about limits or availability.",
+      "reasoningTokens": 48,
+      "totalTokens": 452,
+      "tweetId": "2061572602888589807",
+      "tweetText": "Should we rename Codex to ChadGPT?",
+      "tweetUrl": "https://x.com/thsottiaux/status/2061572602888589807",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1780289211083,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2059863358023864468",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.95,
-      "createdAt": 1779923278226,
-      "inputTokens": 354,
-      "message": "",
-      "outputTokens": 141,
-      "rationale": "The reply only says \"Resolved,\" which is not explicit enough to confirm a current limit reset.",
-      "reasoningTokens": 94,
-      "totalTokens": 495,
-      "tweetId": "2059773259332366617",
-      "tweetText": "Resolved",
-      "tweetUrl": "https://x.com/thsottiaux/status/2059773259332366617",
-      "type": "review_requested",
-      "verdict": "uncertain"
     }
   ],
   "privateState": {
-    "ciphertext": "eNYjGwnHPJuSZz32Uk1PY7lYIwNxm3DMM7bUhfDr4kDQS7UNNTRVu0EOXg",
-    "iv": "W7a1BLrgwMmzMdNw",
-    "tag": "Gx_RwVHp-B3Tcr_wl6VaMQ",
+    "ciphertext": "z6fQXidB1VtM1ky33efAbrklti9mGyKW1_CXH_Ua2BBnizKWOn6in0UBAA",
+    "iv": "NqUM5NEQUCtwGRvC",
+    "tag": "yg9gAY3znbAODeOxSowX2w",
     "version": 1
   }
 }
