@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1780369530908,
-      "rationale": "This post is about OpenAI models becoming available on AWS, not user rate limits resetting.",
-      "tweetId": "2061644307111796984",
-      "tweetUrl": "https://x.com/thsottiaux/status/2061644307111796984",
+      "decidedAt": 1780371716340,
+      "rationale": "This reply discusses enterprise deployment improvements, not any Codex or ChatGPT limit reset.",
+      "tweetId": "2061653778403881160",
+      "tweetUrl": "https://x.com/thsottiaux/status/2061653778403881160",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2061644307111796984",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2061644307111796984",
+    "lastSeenTweetId": "2061653778403881160",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2061653778403881160",
     "pendingReview": {
       "confidence": 0.88,
       "createdAt": 1780241670783,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2061106793271710115"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1780371716340,
+        "inputTokens": 395,
+        "outputTokens": 80,
+        "rationale": "This reply discusses enterprise deployment improvements, not any Codex or ChatGPT limit reset.",
+        "reasoningTokens": 35,
+        "totalTokens": 475,
+        "tweetId": "2061653778403881160",
+        "tweetText": "@argofowl Please don't get overly excited, this is mostly about things that we've improved for enterprise deployment. \n\nNothing crazy in there, but good to tune in if you own a small or big company.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2061653778403881160",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1780369530908,
@@ -279,29 +292,31 @@
         "tweetText": "@SIGKITTEN @OpenAI @ajambrosino Hiii",
         "tweetUrl": "https://x.com/thsottiaux/status/2060863706205180307",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1780173431299,
-        "inputTokens": 358,
-        "outputTokens": 106,
-        "rationale": "This reply is just conversational and does not mention any limit or reset.",
-        "reasoningTokens": 64,
-        "totalTokens": 464,
-        "tweetId": "2060821549079511450",
-        "tweetText": "@rezoundous Brutal",
-        "tweetUrl": "https://x.com/thsottiaux/status/2060821549079511450",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 216511,
-      "totalOutputTokens": 58278,
-      "totalReasoningTokens": 31344,
-      "totalTokens": 274789
+      "totalInputTokens": 216906,
+      "totalOutputTokens": 58358,
+      "totalReasoningTokens": 31379,
+      "totalTokens": 275264
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1780371716340,
+      "inputTokens": 395,
+      "message": "",
+      "outputTokens": 80,
+      "rationale": "This reply discusses enterprise deployment improvements, not any Codex or ChatGPT limit reset.",
+      "reasoningTokens": 35,
+      "totalTokens": 475,
+      "tweetId": "2061653778403881160",
+      "tweetText": "@argofowl Please don't get overly excited, this is mostly about things that we've improved for enterprise deployment. \n\nNothing crazy in there, but good to tune in if you own a small or big company.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2061653778403881160",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1780369530908,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2059888697471078544",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.92,
-      "createdAt": 1779949014338,
-      "inputTokens": 364,
-      "message": "",
-      "outputTokens": 211,
-      "rationale": "This reply does not clearly confirm a current limit reset and lacks enough context to infer one.",
-      "reasoningTokens": 165,
-      "totalTokens": 575,
-      "tweetId": "2059880768869179756",
-      "tweetText": "@ajambrosino @Aizkmusic no confirmed",
-      "tweetUrl": "https://x.com/thsottiaux/status/2059880768869179756",
-      "type": "review_requested",
-      "verdict": "uncertain"
     }
   ],
   "privateState": {
-    "ciphertext": "2P90dnVa5GXxQUVmojU7fFg3tmqfcUPT9N9oqwlrKS1pZtji2D8AxCX-qQ",
-    "iv": "lEximUF7tggTBf4k",
-    "tag": "GElxEqckNzWKapvSIKWK9A",
+    "ciphertext": "EyhPhO8VknRO9S9NTcYSyfWz6OZ_0Nj9yJ2SSRp_MKKNY-Kk-T-mOzUo8A",
+    "iv": "EpLyq5I7TFSvXgj4",
+    "tag": "GofezVzyaYrkM17in09dUA",
     "version": 1
   }
 }
