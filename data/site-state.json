@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1780425631000,
-      "rationale": "This reply only corrects a typo and does not mention any limit or reset.",
-      "tweetId": "2061877836408086600",
-      "tweetUrl": "https://x.com/thsottiaux/status/2061877836408086600",
+      "decidedAt": 1780443351568,
+      "rationale": "This reply only says a link is down and does not indicate any limit or rate-limit reset.",
+      "tweetId": "2061954156143993227",
+      "tweetUrl": "https://x.com/thsottiaux/status/2061954156143993227",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2061877836408086600",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2061877836408086600",
+    "lastSeenTweetId": "2061954156143993227",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2061954156143993227",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1780425342600,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2061877241349546017"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1780443351568,
+        "inputTokens": 359,
+        "outputTokens": 96,
+        "rationale": "This reply only says a link is down and does not indicate any limit or rate-limit reset.",
+        "reasoningTokens": 49,
+        "totalTokens": 455,
+        "tweetId": "2061954156143993227",
+        "tweetText": "@rileybrown Link is down",
+        "tweetUrl": "https://x.com/thsottiaux/status/2061954156143993227",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1780425631000,
@@ -279,29 +292,31 @@
         "tweetText": "@bughuntergeek Today is tomorrow",
         "tweetUrl": "https://x.com/thsottiaux/status/2061106793271710115",
         "verdict": "uncertain"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1780241362610,
-        "inputTokens": 450,
-        "outputTokens": 93,
-        "rationale": "The tweet explicitly says Codex usage limits have been reset and paid users are back to 100% weekly and hourly limits.",
-        "reasoningTokens": 39,
-        "totalTokens": 543,
-        "tweetId": "2061106703446450392",
-        "tweetText": "The Codex usage limits have been reset for all paid ChatGPT subscriptions. You should be back to 100% weekly and 100% hourly limits.\n\nLet the tokens do incredible things today and have fun.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2061106703446450392",
-        "verdict": "reset_confirmed"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 221019,
-      "totalOutputTokens": 59629,
-      "totalReasoningTokens": 32148,
-      "totalTokens": 280648
+      "totalInputTokens": 221378,
+      "totalOutputTokens": 59725,
+      "totalReasoningTokens": 32197,
+      "totalTokens": 281103
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1780443351568,
+      "inputTokens": 359,
+      "message": "",
+      "outputTokens": 96,
+      "rationale": "This reply only says a link is down and does not indicate any limit or rate-limit reset.",
+      "reasoningTokens": 49,
+      "totalTokens": 455,
+      "tweetId": "2061954156143993227",
+      "tweetText": "@rileybrown Link is down",
+      "tweetUrl": "https://x.com/thsottiaux/status/2061954156143993227",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1780425631000,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2060563528596287874",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1780111715959,
-      "inputTokens": 376,
-      "message": "",
-      "outputTokens": 85,
-      "rationale": "This is just a recommendation/comment about someone working on Codex and ChatGPT, not about limits resetting.",
-      "reasoningTokens": 36,
-      "totalTokens": 461,
-      "tweetId": "2060563192359907519",
-      "tweetText": "@JustinBleuel is just shipping things with codex and making chatgpt better. Worth following (and complaining to)",
-      "tweetUrl": "https://x.com/thsottiaux/status/2060563192359907519",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "gmPrfu74XzdgU1Lz7Z7orkrtRgaLbGyKAHMRJcSAm9TicypqdmqqsWk8Qg",
-    "iv": "0jOnFoni1oONbZ1b",
-    "tag": "OzomrOQXAsdusrbJJGeFMg",
+    "ciphertext": "EhEBmBcsfGyvpRdoD8j_17ZFelu-w1V6AG8yBWh4lzCxAM8KnZC2e2w8FQ",
+    "iv": "H9TAht9-TFTA2ePE",
+    "tag": "aObyXoDEZXJjSbVuqXsOaQ",
     "version": 1
   }
 }
