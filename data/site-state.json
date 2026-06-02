@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1780443351568,
-      "rationale": "This reply only says a link is down and does not indicate any limit or rate-limit reset.",
-      "tweetId": "2061954156143993227",
-      "tweetUrl": "https://x.com/thsottiaux/status/2061954156143993227",
+      "decidedAt": 1780443354381,
+      "rationale": "This reply is about troubleshooting feedback and does not mention limits or a reset.",
+      "tweetId": "2061954293125853361",
+      "tweetUrl": "https://x.com/thsottiaux/status/2061954293125853361",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2061954156143993227",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2061954156143993227",
+    "lastSeenTweetId": "2061954293125853361",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2061954293125853361",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1780425342600,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2061877241349546017"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1780443354381,
+        "inputTokens": 366,
+        "outputTokens": 78,
+        "rationale": "This reply is about troubleshooting feedback and does not mention limits or a reset.",
+        "reasoningTokens": 35,
+        "totalTokens": 444,
+        "tweetId": "2061954293125853361",
+        "tweetText": "@AnthonyBerlin Do you have a thread id?\n\n/feedback",
+        "tweetUrl": "https://x.com/thsottiaux/status/2061954293125853361",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1780443351568,
@@ -279,29 +292,31 @@
         "tweetText": "@rezoundous \"Mitonner\" in French means to simmer. Odd. In the figurative sense it also means to to cleverly devise a secret plan or to trick.",
         "tweetUrl": "https://x.com/thsottiaux/status/2061107969392263554",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.88,
-        "evaluatedAt": 1780241670783,
-        "inputTokens": 360,
-        "outputTokens": 177,
-        "rationale": "This cryptic reply could refer to a reset timing, but it does not clearly say limits are available again now.",
-        "reasoningTokens": 126,
-        "totalTokens": 537,
-        "tweetId": "2061106793271710115",
-        "tweetText": "@bughuntergeek Today is tomorrow",
-        "tweetUrl": "https://x.com/thsottiaux/status/2061106793271710115",
-        "verdict": "uncertain"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 221378,
-      "totalOutputTokens": 59725,
-      "totalReasoningTokens": 32197,
-      "totalTokens": 281103
+      "totalInputTokens": 221744,
+      "totalOutputTokens": 59803,
+      "totalReasoningTokens": 32232,
+      "totalTokens": 281547
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1780443354381,
+      "inputTokens": 366,
+      "message": "",
+      "outputTokens": 78,
+      "rationale": "This reply is about troubleshooting feedback and does not mention limits or a reset.",
+      "reasoningTokens": 35,
+      "totalTokens": 444,
+      "tweetId": "2061954293125853361",
+      "tweetText": "@AnthonyBerlin Do you have a thread id?\n\n/feedback",
+      "tweetUrl": "https://x.com/thsottiaux/status/2061954293125853361",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1780443351568,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2060565265906290786",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1780111719380,
-      "inputTokens": 374,
-      "message": "",
-      "outputTokens": 72,
-      "rationale": "This post is a general question about model evaluation and does not mention limits or resets.",
-      "reasoningTokens": 27,
-      "totalTokens": 446,
-      "tweetId": "2060563528596287874",
-      "tweetText": "Do you still trust benchmarks or do you just listen to your friends? What makes you try a new model?",
-      "tweetUrl": "https://x.com/thsottiaux/status/2060563528596287874",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "EhEBmBcsfGyvpRdoD8j_17ZFelu-w1V6AG8yBWh4lzCxAM8KnZC2e2w8FQ",
-    "iv": "H9TAht9-TFTA2ePE",
-    "tag": "aObyXoDEZXJjSbVuqXsOaQ",
+    "ciphertext": "19KGm5vfw09aUJlcjUogTCnOQvFmBYatdj2hTNKC0KZc5bAoCLNhHeSMGw",
+    "iv": "xH-MCit9ecOg4MlT",
+    "tag": "yrIeTSUBfDNXn1e-B5Y5Tw",
     "version": 1
   }
 }
