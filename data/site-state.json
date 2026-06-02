@@ -14,16 +14,16 @@
   "updatedAt": 1780241362610,
   "automation": {
     "lastDecision": {
-      "confidence": 0.95,
-      "decidedAt": 1780425342600,
-      "rationale": "This reply contains only a mention and a link, so it does not clearly indicate that any limit has reset.",
-      "tweetId": "2061877241349546017",
-      "tweetUrl": "https://x.com/thsottiaux/status/2061877241349546017",
-      "verdict": "uncertain"
+      "confidence": 0.99,
+      "decidedAt": 1780425621987,
+      "rationale": "This reply is just conversational and does not mention any Codex or ChatGPT limit reset.",
+      "tweetId": "2061877437798199411",
+      "tweetUrl": "https://x.com/thsottiaux/status/2061877437798199411",
+      "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2061877241349546017",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2061877241349546017",
+    "lastSeenTweetId": "2061877437798199411",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2061877437798199411",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1780425342600,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2061877241349546017"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1780425621987,
+        "inputTokens": 367,
+        "outputTokens": 110,
+        "rationale": "This reply is just conversational and does not mention any Codex or ChatGPT limit reset.",
+        "reasoningTokens": 64,
+        "totalTokens": 477,
+        "tweetId": "2061877437798199411",
+        "tweetText": "@dumbfook 👨‍🍳 Codex cooking codex",
+        "tweetUrl": "https://x.com/thsottiaux/status/2061877437798199411",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.95,
         "evaluatedAt": 1780425342600,
@@ -279,29 +292,31 @@
         "tweetText": "@waternux Tibs?",
         "tweetUrl": "https://x.com/thsottiaux/status/2060970557169074418",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.93,
-        "evaluatedAt": 1780207853504,
-        "inputTokens": 379,
-        "outputTokens": 139,
-        "rationale": "He says he will reset the usage limits, which is a future action rather than a confirmed current reset.",
-        "reasoningTokens": 90,
-        "totalTokens": 518,
-        "tweetId": "2060966434055061834",
-        "tweetText": "@Trident2Gold Do not worry 🔱 \n\nThis has nothing to do with memory. I will reset the usage limits",
-        "tweetUrl": "https://x.com/thsottiaux/status/2060966434055061834",
-        "verdict": "uncertain"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 219910,
-      "totalOutputTokens": 59316,
-      "totalReasoningTokens": 31973,
-      "totalTokens": 279226
+      "totalInputTokens": 220277,
+      "totalOutputTokens": 59426,
+      "totalReasoningTokens": 32037,
+      "totalTokens": 279703
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1780425621987,
+      "inputTokens": 367,
+      "message": "",
+      "outputTokens": 110,
+      "rationale": "This reply is just conversational and does not mention any Codex or ChatGPT limit reset.",
+      "reasoningTokens": 64,
+      "totalTokens": 477,
+      "tweetId": "2061877437798199411",
+      "tweetText": "@dumbfook 👨‍🍳 Codex cooking codex",
+      "tweetUrl": "https://x.com/thsottiaux/status/2061877437798199411",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.95,
       "createdAt": 1780425342600,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2060529970523603099",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1780098052594,
-      "inputTokens": 366,
-      "message": "",
-      "outputTokens": 83,
-      "rationale": "This reply is conversational and does not mention any rate limit, cap, or reset.",
-      "reasoningTokens": 38,
-      "totalTokens": 449,
-      "tweetId": "2060506462489845843",
-      "tweetText": "@HarshithLucky3 Beautiful. Could be employed at OpenAI",
-      "tweetUrl": "https://x.com/thsottiaux/status/2060506462489845843",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "Cb4G9FZ5VGVO_bhDBIKSlwsA97JskreJl0ifsNK12OAs9op5j3M7h8WqHw",
-    "iv": "q-H1N9sW3KuqeCwl",
-    "tag": "DNfK-uEbhvEwn7a9oW8IJg",
+    "ciphertext": "gWOfYxkJlAv0KerY4PrLCQVrkMFhk-IAnlEtbniKGCR0r3_lhPIHv_AzRg",
+    "iv": "D5FW2wbztCrNw2Db",
+    "tag": "9eES6qHSzGk0A-iFZVpBeA",
     "version": 1
   }
 }
