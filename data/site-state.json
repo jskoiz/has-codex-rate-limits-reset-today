@@ -14,25 +14,38 @@
   "updatedAt": 1780241362610,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1780425005956,
-      "rationale": "This is a product update about Codex features, not a statement that usage limits or rate caps reset.",
-      "tweetId": "2061876999564791952",
-      "tweetUrl": "https://x.com/thsottiaux/status/2061876999564791952",
-      "verdict": "not_reset"
+      "confidence": 0.15,
+      "decidedAt": 1780425012008,
+      "rationale": "This reply only contains a link, so it does not clearly show that limits have reset.",
+      "tweetId": "2061877014999830625",
+      "tweetUrl": "https://x.com/thsottiaux/status/2061877014999830625",
+      "verdict": "uncertain"
     },
     "lastError": null,
-    "lastSeenTweetId": "2061876999564791952",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2061876999564791952",
+    "lastSeenTweetId": "2061877014999830625",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2061877014999830625",
     "pendingReview": {
-      "confidence": 0.88,
-      "createdAt": 1780241670783,
-      "rationale": "This cryptic reply could refer to a reset timing, but it does not clearly say limits are available again now.",
-      "tweetId": "2061106793271710115",
-      "tweetText": "@bughuntergeek Today is tomorrow",
-      "tweetUrl": "https://x.com/thsottiaux/status/2061106793271710115"
+      "confidence": 0.15,
+      "createdAt": 1780425012008,
+      "rationale": "This reply only contains a link, so it does not clearly show that limits have reset.",
+      "tweetId": "2061877014999830625",
+      "tweetText": "https://t.co/NvKKzB3bt3",
+      "tweetUrl": "https://x.com/thsottiaux/status/2061877014999830625"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.15,
+        "evaluatedAt": 1780425012008,
+        "inputTokens": 365,
+        "outputTokens": 218,
+        "rationale": "This reply only contains a link, so it does not clearly show that limits have reset.",
+        "reasoningTokens": 172,
+        "totalTokens": 583,
+        "tweetId": "2061877014999830625",
+        "tweetText": "https://t.co/NvKKzB3bt3",
+        "tweetUrl": "https://x.com/thsottiaux/status/2061877014999830625",
+        "verdict": "uncertain"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1780425005956,
@@ -279,29 +292,31 @@
         "tweetText": "@kenwuuuu Please take this message as a sign",
         "tweetUrl": "https://x.com/thsottiaux/status/2060965421516575048",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1780207543673,
-        "inputTokens": 358,
-        "outputTokens": 92,
-        "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-        "reasoningTokens": 48,
-        "totalTokens": 450,
-        "tweetId": "2060964912726512046",
-        "tweetText": "@rileybrown Means business",
-        "tweetUrl": "https://x.com/thsottiaux/status/2060964912726512046",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 218802,
-      "totalOutputTokens": 58771,
-      "totalReasoningTokens": 31567,
-      "totalTokens": 277573
+      "totalInputTokens": 219167,
+      "totalOutputTokens": 58989,
+      "totalReasoningTokens": 31739,
+      "totalTokens": 278156
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.15,
+      "createdAt": 1780425012008,
+      "inputTokens": 365,
+      "message": "",
+      "outputTokens": 218,
+      "rationale": "This reply only contains a link, so it does not clearly show that limits have reset.",
+      "reasoningTokens": 172,
+      "totalTokens": 583,
+      "tweetId": "2061877014999830625",
+      "tweetText": "https://t.co/NvKKzB3bt3",
+      "tweetUrl": "https://x.com/thsottiaux/status/2061877014999830625",
+      "type": "review_requested",
+      "verdict": "uncertain"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1780425005956,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2060201744664260835",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1780019263214,
-      "inputTokens": 358,
-      "message": "",
-      "outputTokens": 73,
-      "rationale": "This reply offers condolences and does not mention limits, caps, or reset status.",
-      "reasoningTokens": 29,
-      "totalTokens": 431,
-      "tweetId": "2060175118488531125",
-      "tweetText": "@vihangadev My condolences",
-      "tweetUrl": "https://x.com/thsottiaux/status/2060175118488531125",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "LUOC2LHiU3REWT9aaMdpSJUnD509vjsQF2rGUQrztd01LYEMO7T-9MX7oA",
-    "iv": "FNVlVUcpxd1kUr-A",
-    "tag": "UxumEyH5satMOrIcQ8kHLg",
+    "ciphertext": "UtyJ_UuamxgH91nBwv5hcF3C4irOf_g1GoQ_2RvE3d7RRyGhDUhgLMZfZA",
+    "iv": "-Y1adjE0nTqx2g28",
+    "tag": "bsiID_bxOPthQwgsDZKOhA",
     "version": 1
   }
 }
