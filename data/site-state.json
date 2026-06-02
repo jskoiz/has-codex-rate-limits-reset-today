@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1780375725031,
-      "rationale": "This reply is unrelated to Codex or ChatGPT usage limits resetting.",
-      "tweetId": "2061671243984822750",
-      "tweetUrl": "https://x.com/thsottiaux/status/2061671243984822750",
+      "decidedAt": 1780419113471,
+      "rationale": "This reply is conversational and does not mention limits, caps, or usage resetting.",
+      "tweetId": "2061853042866282804",
+      "tweetUrl": "https://x.com/thsottiaux/status/2061853042866282804",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2061671243984822750",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2061671243984822750",
+    "lastSeenTweetId": "2061853042866282804",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2061853042866282804",
     "pendingReview": {
       "confidence": 0.88,
       "createdAt": 1780241670783,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2061106793271710115"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1780419113471,
+        "inputTokens": 375,
+        "outputTokens": 76,
+        "rationale": "This reply is conversational and does not mention limits, caps, or usage resetting.",
+        "reasoningTokens": 32,
+        "totalTokens": 451,
+        "tweetId": "2061853042866282804",
+        "tweetText": "@svilendonmez @sama I can see that you ran a /goal for 155h 👀",
+        "tweetUrl": "https://x.com/thsottiaux/status/2061853042866282804",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1780375725031,
@@ -279,29 +292,31 @@
         "tweetText": "Five million users would agree. Resetting the limits tomorrow morning to celebrate.\n\nTime to go /fast",
         "tweetUrl": "https://x.com/thsottiaux/status/2060964284117782996",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1780206598697,
-        "inputTokens": 361,
-        "outputTokens": 75,
-        "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-        "reasoningTokens": 31,
-        "totalTokens": 436,
-        "tweetId": "2060960833019302023",
-        "tweetText": "@petergyang Can confirm the dank memes",
-        "tweetUrl": "https://x.com/thsottiaux/status/2060960833019302023",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 217644,
-      "totalOutputTokens": 58521,
-      "totalReasoningTokens": 31454,
-      "totalTokens": 276165
+      "totalInputTokens": 218019,
+      "totalOutputTokens": 58597,
+      "totalReasoningTokens": 31486,
+      "totalTokens": 276616
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1780419113471,
+      "inputTokens": 375,
+      "message": "",
+      "outputTokens": 76,
+      "rationale": "This reply is conversational and does not mention limits, caps, or usage resetting.",
+      "reasoningTokens": 32,
+      "totalTokens": 451,
+      "tweetId": "2061853042866282804",
+      "tweetText": "@svilendonmez @sama I can see that you ran a /goal for 155h 👀",
+      "tweetUrl": "https://x.com/thsottiaux/status/2061853042866282804",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1780375725031,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2060174208047644777",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1780007461864,
-      "inputTokens": 360,
-      "message": "",
-      "outputTokens": 90,
-      "rationale": "This reply does not mention limits, caps, or usage becoming available again.",
-      "reasoningTokens": 47,
-      "totalTokens": 450,
-      "tweetId": "2060125693946859597",
-      "tweetText": "@anitakirkovska Last year",
-      "tweetUrl": "https://x.com/thsottiaux/status/2060125693946859597",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "1ptKUmGcmEJg2e0BLBJXiq6RAyVNWR_bkWhDGQMiwb8-OjNVRpLIjYj7rg",
-    "iv": "WfC72q136khDLAXN",
-    "tag": "7cnuS6IIy7hrNFfdiCmZJw",
+    "ciphertext": "J087L0tKgwoqwDUDSqEXcqKV3Axre3w86r7uq5Xdm0PK4CJF2jVGnFJ6ww",
+    "iv": "ikFg7jWRnpZHV1HL",
+    "tag": "mJhTe_9XslhBEBc2iQErEw",
     "version": 1
   }
 }
