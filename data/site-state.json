@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1780352440954,
-      "rationale": "This is just a joking naming suggestion and says nothing about limits or availability.",
-      "tweetId": "2061572602888589807",
-      "tweetUrl": "https://x.com/thsottiaux/status/2061572602888589807",
+      "decidedAt": 1780369530908,
+      "rationale": "This post is about OpenAI models becoming available on AWS, not user rate limits resetting.",
+      "tweetId": "2061644307111796984",
+      "tweetUrl": "https://x.com/thsottiaux/status/2061644307111796984",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2061572602888589807",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2061572602888589807",
+    "lastSeenTweetId": "2061644307111796984",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2061644307111796984",
     "pendingReview": {
       "confidence": 0.88,
       "createdAt": 1780241670783,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2061106793271710115"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1780369530908,
+        "inputTokens": 486,
+        "outputTokens": 128,
+        "rationale": "This post is about OpenAI models becoming available on AWS, not user rate limits resetting.",
+        "reasoningTokens": 82,
+        "totalTokens": 614,
+        "tweetId": "2061644307111796984",
+        "tweetText": "Heard that AWS is where the cool kids are. Hello. We have GPT-5.5.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2061644307111796984",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1780352440954,
@@ -279,29 +292,31 @@
         "tweetText": "@rezoundous Brutal",
         "tweetUrl": "https://x.com/thsottiaux/status/2060821549079511450",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1780154196714,
-        "inputTokens": 379,
-        "outputTokens": 90,
-        "rationale": "This reply is just about a photo and gives no indication that any Codex or ChatGPT limits reset.",
-        "reasoningTokens": 41,
-        "totalTokens": 469,
-        "tweetId": "2060741570308227518",
-        "tweetText": "@trifon_getsov @ajambrosino Picture I took yesterday https://t.co/2ZfulTejTM",
-        "tweetUrl": "https://x.com/thsottiaux/status/2060741570308227518",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 216025,
-      "totalOutputTokens": 58150,
-      "totalReasoningTokens": 31262,
-      "totalTokens": 274175
+      "totalInputTokens": 216511,
+      "totalOutputTokens": 58278,
+      "totalReasoningTokens": 31344,
+      "totalTokens": 274789
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1780369530908,
+      "inputTokens": 486,
+      "message": "",
+      "outputTokens": 128,
+      "rationale": "This post is about OpenAI models becoming available on AWS, not user rate limits resetting.",
+      "reasoningTokens": 82,
+      "totalTokens": 614,
+      "tweetId": "2061644307111796984",
+      "tweetText": "Heard that AWS is where the cool kids are. Hello. We have GPT-5.5.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2061644307111796984",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1780352440954,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2059880768869179756",
       "type": "review_requested",
       "verdict": "uncertain"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1779944949600,
-      "inputTokens": 374,
-      "message": "",
-      "outputTokens": 82,
-      "rationale": "This tweet is speculative about the future and does not mention any rate-limit or cap reset.",
-      "reasoningTokens": 36,
-      "totalTokens": 456,
-      "tweetId": "2059863358023864468",
-      "tweetText": "I am having fever dreams about the future of ChatGPT and Codex. But it it will be beautiful.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2059863358023864468",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "z6fQXidB1VtM1ky33efAbrklti9mGyKW1_CXH_Ua2BBnizKWOn6in0UBAA",
-    "iv": "NqUM5NEQUCtwGRvC",
-    "tag": "yg9gAY3znbAODeOxSowX2w",
+    "ciphertext": "2P90dnVa5GXxQUVmojU7fFg3tmqfcUPT9N9oqwlrKS1pZtji2D8AxCX-qQ",
+    "iv": "lEximUF7tggTBf4k",
+    "tag": "GElxEqckNzWKapvSIKWK9A",
     "version": 1
   }
 }
