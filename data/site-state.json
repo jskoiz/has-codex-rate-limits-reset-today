@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1780372645855,
-      "rationale": "This post is a joke/comment about Codex and does not mention limits or a reset.",
-      "tweetId": "2061657264508006738",
-      "tweetUrl": "https://x.com/thsottiaux/status/2061657264508006738",
+      "decidedAt": 1780375725031,
+      "rationale": "This reply is unrelated to Codex or ChatGPT usage limits resetting.",
+      "tweetId": "2061671243984822750",
+      "tweetUrl": "https://x.com/thsottiaux/status/2061671243984822750",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2061657264508006738",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2061657264508006738",
+    "lastSeenTweetId": "2061671243984822750",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2061671243984822750",
     "pendingReview": {
       "confidence": 0.88,
       "createdAt": 1780241670783,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2061106793271710115"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1780375725031,
+        "inputTokens": 365,
+        "outputTokens": 82,
+        "rationale": "This reply is unrelated to Codex or ChatGPT usage limits resetting.",
+        "reasoningTokens": 40,
+        "totalTokens": 447,
+        "tweetId": "2061671243984822750",
+        "tweetText": "@apples_jimmy Can I vote or is that illegal?",
+        "tweetUrl": "https://x.com/thsottiaux/status/2061671243984822750",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1780372645855,
@@ -279,29 +292,31 @@
         "tweetText": "@petergyang Can confirm the dank memes",
         "tweetUrl": "https://x.com/thsottiaux/status/2060960833019302023",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1780206294433,
-        "inputTokens": 371,
-        "outputTokens": 83,
-        "rationale": "This is a general product feedback question and does not mention limits or a reset.",
-        "reasoningTokens": 39,
-        "totalTokens": 454,
-        "tweetId": "2060960564676034726",
-        "tweetText": "What’s something we haven’t fixed in codex for a while and that’s plain annoying?",
-        "tweetUrl": "https://x.com/thsottiaux/status/2060960564676034726",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 217279,
-      "totalOutputTokens": 58439,
-      "totalReasoningTokens": 31414,
-      "totalTokens": 275718
+      "totalInputTokens": 217644,
+      "totalOutputTokens": 58521,
+      "totalReasoningTokens": 31454,
+      "totalTokens": 276165
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1780375725031,
+      "inputTokens": 365,
+      "message": "",
+      "outputTokens": 82,
+      "rationale": "This reply is unrelated to Codex or ChatGPT usage limits resetting.",
+      "reasoningTokens": 40,
+      "totalTokens": 447,
+      "tweetId": "2061671243984822750",
+      "tweetText": "@apples_jimmy Can I vote or is that illegal?",
+      "tweetUrl": "https://x.com/thsottiaux/status/2061671243984822750",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1780372645855,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2060125693946859597",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1780006526445,
-      "inputTokens": 371,
-      "message": "",
-      "outputTokens": 80,
-      "rationale": "This reply is just a slogan comment and does not mention limits, caps, or usage resetting.",
-      "reasoningTokens": 33,
-      "totalTokens": 451,
-      "tweetId": "2060121698243092523",
-      "tweetText": "@0xPaulius Supporting however &amp; wherever you work.\n\nGreat slogan",
-      "tweetUrl": "https://x.com/thsottiaux/status/2060121698243092523",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "iVPH9Vnyh2swwB3g5NcttkAKGCanjCLKHqQYifkOJgQqo_1MS4Lu8BWkIw",
-    "iv": "yKk9X6iO2jhSeVfZ",
-    "tag": "gYyEyfpxKP4TIUA3rOm9pA",
+    "ciphertext": "1ptKUmGcmEJg2e0BLBJXiq6RAyVNWR_bkWhDGQMiwb8-OjNVRpLIjYj7rg",
+    "iv": "WfC72q136khDLAXN",
+    "tag": "7cnuS6IIy7hrNFfdiCmZJw",
     "version": 1
   }
 }
