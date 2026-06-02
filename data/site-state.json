@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1780371716340,
-      "rationale": "This reply discusses enterprise deployment improvements, not any Codex or ChatGPT limit reset.",
-      "tweetId": "2061653778403881160",
-      "tweetUrl": "https://x.com/thsottiaux/status/2061653778403881160",
+      "decidedAt": 1780372645855,
+      "rationale": "This post is a joke/comment about Codex and does not mention limits or a reset.",
+      "tweetId": "2061657264508006738",
+      "tweetUrl": "https://x.com/thsottiaux/status/2061657264508006738",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2061653778403881160",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2061653778403881160",
+    "lastSeenTweetId": "2061657264508006738",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2061657264508006738",
     "pendingReview": {
       "confidence": 0.88,
       "createdAt": 1780241670783,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2061106793271710115"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1780372645855,
+        "inputTokens": 373,
+        "outputTokens": 81,
+        "rationale": "This post is a joke/comment about Codex and does not mention limits or a reset.",
+        "reasoningTokens": 35,
+        "totalTokens": 454,
+        "tweetId": "2061657264508006738",
+        "tweetText": "You can just codex ... a farm\nhttps://t.co/pwmS7IvqbH",
+        "tweetUrl": "https://x.com/thsottiaux/status/2061657264508006738",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1780371716340,
@@ -279,29 +292,31 @@
         "tweetText": "What’s something we haven’t fixed in codex for a while and that’s plain annoying?",
         "tweetUrl": "https://x.com/thsottiaux/status/2060960564676034726",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1780183391061,
-        "inputTokens": 367,
-        "outputTokens": 64,
-        "rationale": "This reply is just a greeting and does not mention limits or resets.",
-        "reasoningTokens": 22,
-        "totalTokens": 431,
-        "tweetId": "2060863706205180307",
-        "tweetText": "@SIGKITTEN @OpenAI @ajambrosino Hiii",
-        "tweetUrl": "https://x.com/thsottiaux/status/2060863706205180307",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 216906,
-      "totalOutputTokens": 58358,
-      "totalReasoningTokens": 31379,
-      "totalTokens": 275264
+      "totalInputTokens": 217279,
+      "totalOutputTokens": 58439,
+      "totalReasoningTokens": 31414,
+      "totalTokens": 275718
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1780372645855,
+      "inputTokens": 373,
+      "message": "",
+      "outputTokens": 81,
+      "rationale": "This post is a joke/comment about Codex and does not mention limits or a reset.",
+      "reasoningTokens": 35,
+      "totalTokens": 454,
+      "tweetId": "2061657264508006738",
+      "tweetText": "You can just codex ... a farm\nhttps://t.co/pwmS7IvqbH",
+      "tweetUrl": "https://x.com/thsottiaux/status/2061657264508006738",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1780371716340,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2060121698243092523",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1779950884376,
-      "inputTokens": 569,
-      "message": "",
-      "outputTokens": 82,
-      "rationale": "This post discusses model benchmarks and says nothing about usage caps or rate limits resetting.",
-      "reasoningTokens": 38,
-      "totalTokens": 651,
-      "tweetId": "2059888697471078544",
-      "tweetText": "Excited to see more independent benchmarks like that which are not contaminated (trained on by major models).",
-      "tweetUrl": "https://x.com/thsottiaux/status/2059888697471078544",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "EyhPhO8VknRO9S9NTcYSyfWz6OZ_0Nj9yJ2SSRp_MKKNY-Kk-T-mOzUo8A",
-    "iv": "EpLyq5I7TFSvXgj4",
-    "tag": "GofezVzyaYrkM17in09dUA",
+    "ciphertext": "iVPH9Vnyh2swwB3g5NcttkAKGCanjCLKHqQYifkOJgQqo_1MS4Lu8BWkIw",
+    "iv": "yKk9X6iO2jhSeVfZ",
+    "tag": "gYyEyfpxKP4TIUA3rOm9pA",
     "version": 1
   }
 }
