@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1780425625929,
-      "rationale": "This reply does not mention Codex or ChatGPT limits, caps, or usage becoming available again.",
-      "tweetId": "2061877692937695675",
-      "tweetUrl": "https://x.com/thsottiaux/status/2061877692937695675",
+      "decidedAt": 1780425631000,
+      "rationale": "This reply only corrects a typo and does not mention any limit or reset.",
+      "tweetId": "2061877836408086600",
+      "tweetUrl": "https://x.com/thsottiaux/status/2061877836408086600",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2061877692937695675",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2061877692937695675",
+    "lastSeenTweetId": "2061877836408086600",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2061877836408086600",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1780425342600,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2061877241349546017"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1780425631000,
+        "inputTokens": 360,
+        "outputTokens": 74,
+        "rationale": "This reply only corrects a typo and does not mention any limit or reset.",
+        "reasoningTokens": 30,
+        "totalTokens": 434,
+        "tweetId": "2061877836408086600",
+        "tweetText": "@haider1 Typo, sorry.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2061877836408086600",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1780425625929,
@@ -279,29 +292,31 @@
         "tweetText": "The Codex usage limits have been reset for all paid ChatGPT subscriptions. You should be back to 100% weekly and 100% hourly limits.\n\nLet the tokens do incredible things today and have fun.",
         "tweetUrl": "https://x.com/thsottiaux/status/2061106703446450392",
         "verdict": "reset_confirmed"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1780208789088,
-        "inputTokens": 358,
-        "outputTokens": 71,
-        "rationale": "This is just a conversational reply and gives no indication that any limits or caps have reset.",
-        "reasoningTokens": 25,
-        "totalTokens": 429,
-        "tweetId": "2060970774471835783",
-        "tweetText": "@laboomemes Well done",
-        "tweetUrl": "https://x.com/thsottiaux/status/2060970774471835783",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 220659,
-      "totalOutputTokens": 59555,
-      "totalReasoningTokens": 32118,
-      "totalTokens": 280214
+      "totalInputTokens": 221019,
+      "totalOutputTokens": 59629,
+      "totalReasoningTokens": 32148,
+      "totalTokens": 280648
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1780425631000,
+      "inputTokens": 360,
+      "message": "",
+      "outputTokens": 74,
+      "rationale": "This reply only corrects a typo and does not mention any limit or reset.",
+      "reasoningTokens": 30,
+      "totalTokens": 434,
+      "tweetId": "2061877836408086600",
+      "tweetText": "@haider1 Typo, sorry.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2061877836408086600",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1780425625929,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2060563192359907519",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1780111399063,
-      "inputTokens": 361,
-      "message": "",
-      "outputTokens": 78,
-      "rationale": "This reply is unrelated to Codex or ChatGPT limits or resets.",
-      "reasoningTokens": 36,
-      "totalTokens": 439,
-      "tweetId": "2060562295085052360",
-      "tweetText": "@emanueledpt outcode wasn't taken",
-      "tweetUrl": "https://x.com/thsottiaux/status/2060562295085052360",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "w2d9Ri4HlSfrASC8rIBhPEK7szVQCbCgMmQdb1L7m8WxM4l_f3Ve1A4U7w",
-    "iv": "--lq2Kxx6owcyzeE",
-    "tag": "vksZHfk9qR9gXbQR8SpeDQ",
+    "ciphertext": "gmPrfu74XzdgU1Lz7Z7orkrtRgaLbGyKAHMRJcSAm9TicypqdmqqsWk8Qg",
+    "iv": "0jOnFoni1oONbZ1b",
+    "tag": "OzomrOQXAsdusrbJJGeFMg",
     "version": 1
   }
 }
