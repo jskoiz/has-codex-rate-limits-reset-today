@@ -14,25 +14,38 @@
   "updatedAt": 1780241362610,
   "automation": {
     "lastDecision": {
-      "confidence": 0.98,
-      "decidedAt": 1780425335396,
-      "rationale": "This reply is just conversational and does not say limits or usage have reset.",
-      "tweetId": "2061877157387977188",
-      "tweetUrl": "https://x.com/thsottiaux/status/2061877157387977188",
-      "verdict": "not_reset"
+      "confidence": 0.95,
+      "decidedAt": 1780425342600,
+      "rationale": "This reply contains only a mention and a link, so it does not clearly indicate that any limit has reset.",
+      "tweetId": "2061877241349546017",
+      "tweetUrl": "https://x.com/thsottiaux/status/2061877241349546017",
+      "verdict": "uncertain"
     },
     "lastError": null,
-    "lastSeenTweetId": "2061877157387977188",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2061877157387977188",
+    "lastSeenTweetId": "2061877241349546017",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2061877241349546017",
     "pendingReview": {
-      "confidence": 0.15,
-      "createdAt": 1780425012008,
-      "rationale": "This reply only contains a link, so it does not clearly show that limits have reset.",
-      "tweetId": "2061877014999830625",
-      "tweetText": "https://t.co/NvKKzB3bt3",
-      "tweetUrl": "https://x.com/thsottiaux/status/2061877014999830625"
+      "confidence": 0.95,
+      "createdAt": 1780425342600,
+      "rationale": "This reply contains only a mention and a link, so it does not clearly indicate that any limit has reset.",
+      "tweetId": "2061877241349546017",
+      "tweetText": "@nicdunz https://t.co/NvKKzB3bt3",
+      "tweetUrl": "https://x.com/thsottiaux/status/2061877241349546017"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.95,
+        "evaluatedAt": 1780425342600,
+        "inputTokens": 368,
+        "outputTokens": 222,
+        "rationale": "This reply contains only a mention and a link, so it does not clearly indicate that any limit has reset.",
+        "reasoningTokens": 172,
+        "totalTokens": 590,
+        "tweetId": "2061877241349546017",
+        "tweetText": "@nicdunz https://t.co/NvKKzB3bt3",
+        "tweetUrl": "https://x.com/thsottiaux/status/2061877241349546017",
+        "verdict": "uncertain"
+      },
       {
         "confidence": 0.98,
         "evaluatedAt": 1780425335396,
@@ -279,29 +292,31 @@
         "tweetText": "@Trident2Gold Do not worry 🔱 \n\nThis has nothing to do with memory. I will reset the usage limits",
         "tweetUrl": "https://x.com/thsottiaux/status/2060966434055061834",
         "verdict": "uncertain"
-      },
-      {
-        "confidence": 0.96,
-        "evaluatedAt": 1780207552402,
-        "inputTokens": 360,
-        "outputTokens": 153,
-        "rationale": "This reply only says a reset may happen soon and does not confirm limits are available again now.",
-        "reasoningTokens": 106,
-        "totalTokens": 513,
-        "tweetId": "2060965745778196864",
-        "tweetText": "@QiaochuYuan Soon",
-        "tweetUrl": "https://x.com/thsottiaux/status/2060965745778196864",
-        "verdict": "uncertain"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 219542,
-      "totalOutputTokens": 59094,
-      "totalReasoningTokens": 31801,
-      "totalTokens": 278636
+      "totalInputTokens": 219910,
+      "totalOutputTokens": 59316,
+      "totalReasoningTokens": 31973,
+      "totalTokens": 279226
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.95,
+      "createdAt": 1780425342600,
+      "inputTokens": 368,
+      "message": "",
+      "outputTokens": 222,
+      "rationale": "This reply contains only a mention and a link, so it does not clearly indicate that any limit has reset.",
+      "reasoningTokens": 172,
+      "totalTokens": 590,
+      "tweetId": "2061877241349546017",
+      "tweetText": "@nicdunz https://t.co/NvKKzB3bt3",
+      "tweetUrl": "https://x.com/thsottiaux/status/2061877241349546017",
+      "type": "review_requested",
+      "verdict": "uncertain"
+    },
     {
       "confidence": 0.98,
       "createdAt": 1780425335396,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2060506462489845843",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1780097739612,
-      "inputTokens": 452,
-      "message": "",
-      "outputTokens": 99,
-      "rationale": "This post is about Codex features and does not mention limits, caps, or resets.",
-      "reasoningTokens": 53,
-      "totalTokens": 551,
-      "tweetId": "2060504172873793709",
-      "tweetText": "Nobody knows Codex better than itself",
-      "tweetUrl": "https://x.com/thsottiaux/status/2060504172873793709",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "_ZxoG3tK7qEpfXbmG8cj5yE_-r0FvbPxPLt71JkoXefh0SJyidUeequEGA",
-    "iv": "MGYUn2zuWB8ivuDM",
-    "tag": "_QIOq8M2EVgTICiYcxPrIw",
+    "ciphertext": "Cb4G9FZ5VGVO_bhDBIKSlwsA97JskreJl0ifsNK12OAs9op5j3M7h8WqHw",
+    "iv": "q-H1N9sW3KuqeCwl",
+    "tag": "DNfK-uEbhvEwn7a9oW8IJg",
     "version": 1
   }
 }
