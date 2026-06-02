@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1780424686756,
-      "rationale": "This reply is conversational and does not mention limits, caps, or usage resetting.",
-      "tweetId": "2061876538120065426",
-      "tweetUrl": "https://x.com/thsottiaux/status/2061876538120065426",
+      "decidedAt": 1780425005956,
+      "rationale": "This is a product update about Codex features, not a statement that usage limits or rate caps reset.",
+      "tweetId": "2061876999564791952",
+      "tweetUrl": "https://x.com/thsottiaux/status/2061876999564791952",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2061876538120065426",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2061876538120065426",
+    "lastSeenTweetId": "2061876999564791952",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2061876999564791952",
     "pendingReview": {
       "confidence": 0.88,
       "createdAt": 1780241670783,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2061106793271710115"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1780425005956,
+        "inputTokens": 415,
+        "outputTokens": 99,
+        "rationale": "This is a product update about Codex features, not a statement that usage limits or rate caps reset.",
+        "reasoningTokens": 50,
+        "totalTokens": 514,
+        "tweetId": "2061876999564791952",
+        "tweetText": "Tons of goodies for use of codex for day to day work. \n\nIf you are on a business plan you can now host and share websites, we launched vastly improved plugins and skills for broad roles and you can give feedback to your agent through visual annotations in docs, slides, sheets and more.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2061876999564791952",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1780424686756,
@@ -279,29 +292,31 @@
         "tweetText": "@rileybrown Means business",
         "tweetUrl": "https://x.com/thsottiaux/status/2060964912726512046",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1780207540038,
-        "inputTokens": 368,
-        "outputTokens": 67,
-        "rationale": "This reply is conversational and does not mention limits, caps, or resets.",
-        "reasoningTokens": 24,
-        "totalTokens": 435,
-        "tweetId": "2060964710921715842",
-        "tweetText": "@armlessbandt @argofowl Let’s settle this at high noon",
-        "tweetUrl": "https://x.com/thsottiaux/status/2060964710921715842",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 218387,
-      "totalOutputTokens": 58672,
-      "totalReasoningTokens": 31517,
-      "totalTokens": 277059
+      "totalInputTokens": 218802,
+      "totalOutputTokens": 58771,
+      "totalReasoningTokens": 31567,
+      "totalTokens": 277573
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1780425005956,
+      "inputTokens": 415,
+      "message": "",
+      "outputTokens": 99,
+      "rationale": "This is a product update about Codex features, not a statement that usage limits or rate caps reset.",
+      "reasoningTokens": 50,
+      "totalTokens": 514,
+      "tweetId": "2061876999564791952",
+      "tweetText": "Tons of goodies for use of codex for day to day work. \n\nIf you are on a business plan you can now host and share websites, we launched vastly improved plugins and skills for broad roles and you can give feedback to your agent through visual annotations in docs, slides, sheets and more.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2061876999564791952",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1780424686756,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2060175118488531125",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.91,
-      "createdAt": 1780018959728,
-      "inputTokens": 366,
-      "message": "",
-      "outputTokens": 293,
-      "rationale": "This suggests the expected Codex reset day moved to Friday, not that limits have reset now.",
-      "reasoningTokens": 246,
-      "totalTokens": 659,
-      "tweetId": "2060174369159294986",
-      "tweetText": "Codex Thursday has exceptionally moved to another day. Friday it is.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2060174369159294986",
-      "type": "review_requested",
-      "verdict": "uncertain"
     }
   ],
   "privateState": {
-    "ciphertext": "WalUoCp2mDG-hWCjB4gFf65A2tlJ9pVJ-4yiVf46evGbtiTNUyzSkHkt4w",
-    "iv": "BoOmLgOHS4GQSzF4",
-    "tag": "74h64dpUlvOF9xpXhlfyrw",
+    "ciphertext": "LUOC2LHiU3REWT9aaMdpSJUnD509vjsQF2rGUQrztd01LYEMO7T-9MX7oA",
+    "iv": "FNVlVUcpxd1kUr-A",
+    "tag": "UxumEyH5satMOrIcQ8kHLg",
     "version": 1
   }
 }
