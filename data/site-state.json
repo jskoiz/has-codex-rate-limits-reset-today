@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1780443354381,
-      "rationale": "This reply is about troubleshooting feedback and does not mention limits or a reset.",
-      "tweetId": "2061954293125853361",
-      "tweetUrl": "https://x.com/thsottiaux/status/2061954293125853361",
+      "decidedAt": 1780443653193,
+      "rationale": "This post is a conversational joke about Codex demos, not about limits or usage resetting.",
+      "tweetId": "2061955520291037289",
+      "tweetUrl": "https://x.com/thsottiaux/status/2061955520291037289",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2061954293125853361",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2061954293125853361",
+    "lastSeenTweetId": "2061955520291037289",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2061955520291037289",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1780425342600,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2061877241349546017"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1780443653193,
+        "inputTokens": 413,
+        "outputTokens": 71,
+        "rationale": "This post is a conversational joke about Codex demos, not about limits or usage resetting.",
+        "reasoningTokens": 25,
+        "totalTokens": 484,
+        "tweetId": "2061955520291037289",
+        "tweetText": "@romainhuet in each of our Codex demos. Whether it's last minute or not. Doesn't matter. Always prepared.\n\nWhips out the laptop, proceeds through 23 different personas as if he were Kevin in Split. https://t.co/ewO7LRN7D6",
+        "tweetUrl": "https://x.com/thsottiaux/status/2061955520291037289",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1780443354381,
@@ -279,29 +292,31 @@
         "tweetText": "@argofowl There will be more",
         "tweetUrl": "https://x.com/thsottiaux/status/2061169349453611112",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1780241978630,
-        "inputTokens": 386,
-        "outputTokens": 108,
-        "rationale": "This reply is about the meaning of a French word and does not mention any usage limit reset.",
-        "reasoningTokens": 61,
-        "totalTokens": 494,
-        "tweetId": "2061107969392263554",
-        "tweetText": "@rezoundous \"Mitonner\" in French means to simmer. Odd. In the figurative sense it also means to to cleverly devise a secret plan or to trick.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2061107969392263554",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 221744,
-      "totalOutputTokens": 59803,
-      "totalReasoningTokens": 32232,
-      "totalTokens": 281547
+      "totalInputTokens": 222157,
+      "totalOutputTokens": 59874,
+      "totalReasoningTokens": 32257,
+      "totalTokens": 282031
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1780443653193,
+      "inputTokens": 413,
+      "message": "",
+      "outputTokens": 71,
+      "rationale": "This post is a conversational joke about Codex demos, not about limits or usage resetting.",
+      "reasoningTokens": 25,
+      "totalTokens": 484,
+      "tweetId": "2061955520291037289",
+      "tweetText": "@romainhuet in each of our Codex demos. Whether it's last minute or not. Doesn't matter. Always prepared.\n\nWhips out the laptop, proceeds through 23 different personas as if he were Kevin in Split. https://t.co/ewO7LRN7D6",
+      "tweetUrl": "https://x.com/thsottiaux/status/2061955520291037289",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1780443354381,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2060582509713486243",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1780112021488,
-      "inputTokens": 398,
-      "message": "",
-      "outputTokens": 79,
-      "rationale": "This is a general adoption/update post and does not mention limits, caps, or usage resetting.",
-      "reasoningTokens": 32,
-      "totalTokens": 477,
-      "tweetId": "2060565265906290786",
-      "tweetText": "I looked at a number today on a codex dashboard and it made me happy. More news about the number soon. 👀\n\nThanks to everyone who keeps adopting codex. We are still early. So early.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2060565265906290786",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "19KGm5vfw09aUJlcjUogTCnOQvFmBYatdj2hTNKC0KZc5bAoCLNhHeSMGw",
-    "iv": "xH-MCit9ecOg4MlT",
-    "tag": "yrIeTSUBfDNXn1e-B5Y5Tw",
+    "ciphertext": "SBjA1BTc6-OtamDtz_ahLsEYFXavLtVtiJjAkFK-hSxMHLS1FzqTGLqozg",
+    "iv": "Z-9lAYefc7fim51w",
+    "tag": "Mqg3QyCV_i7LC0y8yWlm9A",
     "version": 1
   }
 }
