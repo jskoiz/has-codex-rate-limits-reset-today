@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1780419113471,
+      "decidedAt": 1780424686756,
       "rationale": "This reply is conversational and does not mention limits, caps, or usage resetting.",
-      "tweetId": "2061853042866282804",
-      "tweetUrl": "https://x.com/thsottiaux/status/2061853042866282804",
+      "tweetId": "2061876538120065426",
+      "tweetUrl": "https://x.com/thsottiaux/status/2061876538120065426",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2061853042866282804",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2061853042866282804",
+    "lastSeenTweetId": "2061876538120065426",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2061876538120065426",
     "pendingReview": {
       "confidence": 0.88,
       "createdAt": 1780241670783,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2061106793271710115"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1780424686756,
+        "inputTokens": 368,
+        "outputTokens": 75,
+        "rationale": "This reply is conversational and does not mention limits, caps, or usage resetting.",
+        "reasoningTokens": 31,
+        "totalTokens": 443,
+        "tweetId": "2061876538120065426",
+        "tweetText": "@MadisonMills22 Token leader 👀 Is that an actual job title",
+        "tweetUrl": "https://x.com/thsottiaux/status/2061876538120065426",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1780419113471,
@@ -279,29 +292,31 @@
         "tweetText": "@armlessbandt @argofowl Let’s settle this at high noon",
         "tweetUrl": "https://x.com/thsottiaux/status/2060964710921715842",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.98,
-        "evaluatedAt": 1780207231600,
-        "inputTokens": 448,
-        "outputTokens": 156,
-        "rationale": "It mentions limits will be reset tomorrow morning, not that they have reset now.",
-        "reasoningTokens": 112,
-        "totalTokens": 604,
-        "tweetId": "2060964284117782996",
-        "tweetText": "Five million users would agree. Resetting the limits tomorrow morning to celebrate.\n\nTime to go /fast",
-        "tweetUrl": "https://x.com/thsottiaux/status/2060964284117782996",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 218019,
-      "totalOutputTokens": 58597,
-      "totalReasoningTokens": 31486,
-      "totalTokens": 276616
+      "totalInputTokens": 218387,
+      "totalOutputTokens": 58672,
+      "totalReasoningTokens": 31517,
+      "totalTokens": 277059
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1780424686756,
+      "inputTokens": 368,
+      "message": "",
+      "outputTokens": 75,
+      "rationale": "This reply is conversational and does not mention limits, caps, or usage resetting.",
+      "reasoningTokens": 31,
+      "totalTokens": 443,
+      "tweetId": "2061876538120065426",
+      "tweetText": "@MadisonMills22 Token leader 👀 Is that an actual job title",
+      "tweetUrl": "https://x.com/thsottiaux/status/2061876538120065426",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1780419113471,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2060174369159294986",
       "type": "review_requested",
       "verdict": "uncertain"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1780018953650,
-      "inputTokens": 388,
-      "message": "",
-      "outputTokens": 77,
-      "rationale": "This reply discusses a last-minute bug and says nothing about limits or usage being restored.",
-      "reasoningTokens": 32,
-      "totalTokens": 465,
-      "tweetId": "2060174208047644777",
-      "tweetText": "@giordanorandone @OpenAI Nah. The only thing that caught us off guard was a bug we discovered last minute. And we decided to not ship the said bug.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2060174208047644777",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "J087L0tKgwoqwDUDSqEXcqKV3Axre3w86r7uq5Xdm0PK4CJF2jVGnFJ6ww",
-    "iv": "ikFg7jWRnpZHV1HL",
-    "tag": "mJhTe_9XslhBEBc2iQErEw",
+    "ciphertext": "WalUoCp2mDG-hWCjB4gFf65A2tlJ9pVJ-4yiVf46evGbtiTNUyzSkHkt4w",
+    "iv": "BoOmLgOHS4GQSzF4",
+    "tag": "74h64dpUlvOF9xpXhlfyrw",
     "version": 1
   }
 }
