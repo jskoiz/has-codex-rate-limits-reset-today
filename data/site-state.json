@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1780425621987,
-      "rationale": "This reply is just conversational and does not mention any Codex or ChatGPT limit reset.",
-      "tweetId": "2061877437798199411",
-      "tweetUrl": "https://x.com/thsottiaux/status/2061877437798199411",
+      "decidedAt": 1780425625929,
+      "rationale": "This reply does not mention Codex or ChatGPT limits, caps, or usage becoming available again.",
+      "tweetId": "2061877692937695675",
+      "tweetUrl": "https://x.com/thsottiaux/status/2061877692937695675",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2061877437798199411",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2061877437798199411",
+    "lastSeenTweetId": "2061877692937695675",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2061877692937695675",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1780425342600,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2061877241349546017"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1780425625929,
+        "inputTokens": 382,
+        "outputTokens": 129,
+        "rationale": "This reply does not mention Codex or ChatGPT limits, caps, or usage becoming available again.",
+        "reasoningTokens": 81,
+        "totalTokens": 511,
+        "tweetId": "2061877692937695675",
+        "tweetText": "@yacineMTB @ajambrosino Time to go on that 6 month holiday. Tell the team. It's over. We did it.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2061877692937695675",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1780425621987,
@@ -279,29 +292,31 @@
         "tweetText": "@laboomemes Well done",
         "tweetUrl": "https://x.com/thsottiaux/status/2060970774471835783",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1780208786051,
-        "inputTokens": 358,
-        "outputTokens": 81,
-        "rationale": "This brief reply does not mention limits, caps, or usage becoming available again.",
-        "reasoningTokens": 37,
-        "totalTokens": 439,
-        "tweetId": "2060970557169074418",
-        "tweetText": "@waternux Tibs?",
-        "tweetUrl": "https://x.com/thsottiaux/status/2060970557169074418",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 220277,
-      "totalOutputTokens": 59426,
-      "totalReasoningTokens": 32037,
-      "totalTokens": 279703
+      "totalInputTokens": 220659,
+      "totalOutputTokens": 59555,
+      "totalReasoningTokens": 32118,
+      "totalTokens": 280214
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1780425625929,
+      "inputTokens": 382,
+      "message": "",
+      "outputTokens": 129,
+      "rationale": "This reply does not mention Codex or ChatGPT limits, caps, or usage becoming available again.",
+      "reasoningTokens": 81,
+      "totalTokens": 511,
+      "tweetId": "2061877692937695675",
+      "tweetText": "@yacineMTB @ajambrosino Time to go on that 6 month holiday. Tell the team. It's over. We did it.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2061877692937695675",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1780425621987,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2060562295085052360",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1780103654920,
-      "inputTokens": 372,
-      "message": "",
-      "outputTokens": 68,
-      "rationale": "This post is just a playful comment about Codex and does not mention limits or resets.",
-      "reasoningTokens": 22,
-      "totalTokens": 440,
-      "tweetId": "2060529970523603099",
-      "tweetText": "The world is more fun with codex glasses https://t.co/HYgxSCdaks",
-      "tweetUrl": "https://x.com/thsottiaux/status/2060529970523603099",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "gWOfYxkJlAv0KerY4PrLCQVrkMFhk-IAnlEtbniKGCR0r3_lhPIHv_AzRg",
-    "iv": "D5FW2wbztCrNw2Db",
-    "tag": "9eES6qHSzGk0A-iFZVpBeA",
+    "ciphertext": "w2d9Ri4HlSfrASC8rIBhPEK7szVQCbCgMmQdb1L7m8WxM4l_f3Ve1A4U7w",
+    "iv": "--lq2Kxx6owcyzeE",
+    "tag": "vksZHfk9qR9gXbQR8SpeDQ",
     "version": 1
   }
 }
