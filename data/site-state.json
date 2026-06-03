@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1780443653193,
-      "rationale": "This post is a conversational joke about Codex demos, not about limits or usage resetting.",
-      "tweetId": "2061955520291037289",
-      "tweetUrl": "https://x.com/thsottiaux/status/2061955520291037289",
+      "decidedAt": 1780468074420,
+      "rationale": "This is general commentary about ChatGPT and does not mention limits, caps, or a reset.",
+      "tweetId": "2062057881424506950",
+      "tweetUrl": "https://x.com/thsottiaux/status/2062057881424506950",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2061955520291037289",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2061955520291037289",
+    "lastSeenTweetId": "2062057881424506950",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2062057881424506950",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1780425342600,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2061877241349546017"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1780468074420,
+        "inputTokens": 393,
+        "outputTokens": 88,
+        "rationale": "This is general commentary about ChatGPT and does not mention limits, caps, or a reset.",
+        "reasoningTokens": 41,
+        "totalTokens": 481,
+        "tweetId": "2062057881424506950",
+        "tweetText": "ChatGPT\n\nWhether you understand the name or not. It's here to stay. It's the past, the present, the future. Synonym with AI, soon synonym with agents. Much to build.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2062057881424506950",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1780443653193,
@@ -279,29 +292,31 @@
         "tweetText": "@sflorimm Team ChatGPT and copy/paste into Vim",
         "tweetUrl": "https://x.com/thsottiaux/status/2061306740537434521",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.98,
-        "evaluatedAt": 1780256311545,
-        "inputTokens": 360,
-        "outputTokens": 138,
-        "rationale": "This reply is too vague and does not say any limits or caps have reset.",
-        "reasoningTokens": 94,
-        "totalTokens": 498,
-        "tweetId": "2061169349453611112",
-        "tweetText": "@argofowl There will be more",
-        "tweetUrl": "https://x.com/thsottiaux/status/2061169349453611112",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 222157,
-      "totalOutputTokens": 59874,
-      "totalReasoningTokens": 32257,
-      "totalTokens": 282031
+      "totalInputTokens": 222550,
+      "totalOutputTokens": 59962,
+      "totalReasoningTokens": 32298,
+      "totalTokens": 282512
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1780468074420,
+      "inputTokens": 393,
+      "message": "",
+      "outputTokens": 88,
+      "rationale": "This is general commentary about ChatGPT and does not mention limits, caps, or a reset.",
+      "reasoningTokens": 41,
+      "totalTokens": 481,
+      "tweetId": "2062057881424506950",
+      "tweetText": "ChatGPT\n\nWhether you understand the name or not. It's here to stay. It's the past, the present, the future. Synonym with AI, soon synonym with agents. Much to build.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2062057881424506950",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1780443653193,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2060624591773659386",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1780116330999,
-      "inputTokens": 358,
-      "message": "",
-      "outputTokens": 81,
-      "rationale": "This reply is just conversational and does not mention limits, caps, or a reset.",
-      "reasoningTokens": 36,
-      "totalTokens": 439,
-      "tweetId": "2060582509713486243",
-      "tweetText": "@nicbstme Remarkable",
-      "tweetUrl": "https://x.com/thsottiaux/status/2060582509713486243",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "SBjA1BTc6-OtamDtz_ahLsEYFXavLtVtiJjAkFK-hSxMHLS1FzqTGLqozg",
-    "iv": "Z-9lAYefc7fim51w",
-    "tag": "Mqg3QyCV_i7LC0y8yWlm9A",
+    "ciphertext": "ta51TR6tSEuZc8PiyyETI1-cZBDeCHpxXfB33P06MMN3IYzdwdFDdZi0ww",
+    "iv": "ncL-ZevqvMMlX-gp",
+    "tag": "tA3lQCrG8YgsAOksMOzVaw",
     "version": 1
   }
 }
