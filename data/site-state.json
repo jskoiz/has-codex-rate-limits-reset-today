@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1780528278525,
-      "rationale": "This is a promotional post about a Codex brand film and does not mention limits or availability resetting.",
-      "tweetId": "2062310660806205901",
-      "tweetUrl": "https://x.com/thsottiaux/status/2062310660806205901",
+      "decidedAt": 1780528281973,
+      "rationale": "This reply is conversational and does not mention limits, caps, or usage returning.",
+      "tweetId": "2062310691076558929",
+      "tweetUrl": "https://x.com/thsottiaux/status/2062310691076558929",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2062310660806205901",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2062310660806205901",
+    "lastSeenTweetId": "2062310691076558929",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2062310691076558929",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1780425342600,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2061877241349546017"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1780528281973,
+        "inputTokens": 357,
+        "outputTokens": 81,
+        "rationale": "This reply is conversational and does not mention limits, caps, or usage returning.",
+        "reasoningTokens": 37,
+        "totalTokens": 438,
+        "tweetId": "2062310691076558929",
+        "tweetText": "Can't stop watching it.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2062310691076558929",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1780528278525,
@@ -279,29 +292,31 @@
         "tweetText": "Should we rename Codex to ChadGPT?",
         "tweetUrl": "https://x.com/thsottiaux/status/2061572602888589807",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1780289211083,
-        "inputTokens": 369,
-        "outputTokens": 80,
-        "rationale": "This reply is a joke and does not mention any ChatGPT or Codex limit reset.",
-        "reasoningTokens": 34,
-        "totalTokens": 449,
-        "tweetId": "2061307619164541026",
-        "tweetText": "@gabrielchua How to burn your chalet in 3..2..1",
-        "tweetUrl": "https://x.com/thsottiaux/status/2061307619164541026",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 222953,
-      "totalOutputTokens": 60020,
-      "totalReasoningTokens": 32308,
-      "totalTokens": 282973
+      "totalInputTokens": 223310,
+      "totalOutputTokens": 60101,
+      "totalReasoningTokens": 32345,
+      "totalTokens": 283411
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1780528281973,
+      "inputTokens": 357,
+      "message": "",
+      "outputTokens": 81,
+      "rationale": "This reply is conversational and does not mention limits, caps, or usage returning.",
+      "reasoningTokens": 37,
+      "totalTokens": 438,
+      "tweetId": "2062310691076558929",
+      "tweetText": "Can't stop watching it.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2062310691076558929",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1780528278525,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2060627747760984429",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1780126865440,
-      "inputTokens": 358,
-      "message": "",
-      "outputTokens": 72,
-      "rationale": "This reply is unrelated to ChatGPT or Codex limits resetting.",
-      "reasoningTokens": 31,
-      "totalTokens": 430,
-      "tweetId": "2060626383060222151",
-      "tweetText": "@kimmonismus Microsoft Windows",
-      "tweetUrl": "https://x.com/thsottiaux/status/2060626383060222151",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "pRNn_AuRb5f2_z-bQPq6FEmk6duPfZ7E-KjQMPZ5f_HCwGL7_qlqYsmNdg",
-    "iv": "lw2jgX3-BekEKvtU",
-    "tag": "vClDgmRO8y7p6EWFuo4utA",
+    "ciphertext": "_4VtDwdrjV6Y-0rkKle6vf_urLDHg-ZfrFMV3cVUkHI-sX_waENTKotPug",
+    "iv": "FoOd744niqD2znjl",
+    "tag": "oAyrs5dQi2hmW_pU7ZQHrQ",
     "version": 1
   }
 }
