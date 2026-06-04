@@ -1,5 +1,5 @@
 {
-  "currentState": "no",
+  "currentState": "yes",
   "autoResetHours": 20,
   "noSubtitles": [
     "Back to your local model peasant",
@@ -10,29 +10,35 @@
     "Limits reset, go crazy",
     "You can just build things"
   ],
-  "resetAt": null,
-  "updatedAt": 1780241362610,
+  "resetAt": 1780604876323,
+  "updatedAt": 1780532876323,
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1780528281973,
-      "rationale": "This reply is conversational and does not mention limits, caps, or usage returning.",
-      "tweetId": "2062310691076558929",
-      "tweetUrl": "https://x.com/thsottiaux/status/2062310691076558929",
-      "verdict": "not_reset"
+      "decidedAt": 1780532876323,
+      "rationale": "The tweet explicitly says Codex usage limits were reset across all paid plans and use is available again now.",
+      "tweetId": "2062329981548802523",
+      "tweetUrl": "https://x.com/thsottiaux/status/2062329981548802523",
+      "verdict": "reset_confirmed"
     },
     "lastError": null,
-    "lastSeenTweetId": "2062310691076558929",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2062310691076558929",
-    "pendingReview": {
-      "confidence": 0.95,
-      "createdAt": 1780425342600,
-      "rationale": "This reply contains only a mention and a link, so it does not clearly indicate that any limit has reset.",
-      "tweetId": "2061877241349546017",
-      "tweetText": "@nicdunz https://t.co/NvKKzB3bt3",
-      "tweetUrl": "https://x.com/thsottiaux/status/2061877241349546017"
-    },
+    "lastSeenTweetId": "2062329981548802523",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2062329981548802523",
+    "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1780532876323,
+        "inputTokens": 410,
+        "outputTokens": 103,
+        "rationale": "The tweet explicitly says Codex usage limits were reset across all paid plans and use is available again now.",
+        "reasoningTokens": 53,
+        "totalTokens": 513,
+        "tweetId": "2062329981548802523",
+        "tweetText": "Hi. Over the last 24 hours we had three separate small incidents that affected Codex reliability. Those are three too many and we are taking active steps for them to not reproduce.\n\nI have reset usage limits for Codex across all paid plans. May the tokens flow again.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2062329981548802523",
+        "verdict": "reset_confirmed"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1780528281973,
@@ -279,29 +285,31 @@
         "tweetText": "Heard that AWS is where the cool kids are. Hello. We have GPT-5.5.",
         "tweetUrl": "https://x.com/thsottiaux/status/2061644307111796984",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1780352440954,
-        "inputTokens": 361,
-        "outputTokens": 91,
-        "rationale": "This is just a joking naming suggestion and says nothing about limits or availability.",
-        "reasoningTokens": 48,
-        "totalTokens": 452,
-        "tweetId": "2061572602888589807",
-        "tweetText": "Should we rename Codex to ChadGPT?",
-        "tweetUrl": "https://x.com/thsottiaux/status/2061572602888589807",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 223310,
-      "totalOutputTokens": 60101,
-      "totalReasoningTokens": 32345,
-      "totalTokens": 283411
+      "totalInputTokens": 223720,
+      "totalOutputTokens": 60204,
+      "totalReasoningTokens": 32398,
+      "totalTokens": 283924
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1780532876323,
+      "inputTokens": 410,
+      "message": "",
+      "outputTokens": 103,
+      "rationale": "The tweet explicitly says Codex usage limits were reset across all paid plans and use is available again now.",
+      "reasoningTokens": 53,
+      "totalTokens": 513,
+      "tweetId": "2062329981548802523",
+      "tweetText": "Hi. Over the last 24 hours we had three separate small incidents that affected Codex reliability. Those are three too many and we are taking active steps for them to not reproduce.\n\nI have reset usage limits for Codex across all paid plans. May the tokens flow again.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2062329981548802523",
+      "type": "reset_confirmed",
+      "verdict": "reset_confirmed"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1780528281973,
@@ -886,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2060741570308227518",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1780127172596,
-      "inputTokens": 427,
-      "message": "",
-      "outputTokens": 77,
-      "rationale": "This post discusses model versioning and improvements, not usage caps or rate-limit resets.",
-      "reasoningTokens": 32,
-      "totalTokens": 504,
-      "tweetId": "2060627747760984429",
-      "tweetText": "When we go from GPT-5.0 -&gt; GPT-5.1 -&gt; ... -&gt; GPT-5.5, the number incrementing goes with improvements in capabilities and token efficiency (which translates to speed gains). With GPT-5.5 our best model yet.\n\nA simple strategy that we would like to continue.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2060627747760984429",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "_4VtDwdrjV6Y-0rkKle6vf_urLDHg-ZfrFMV3cVUkHI-sX_waENTKotPug",
-    "iv": "FoOd744niqD2znjl",
-    "tag": "oAyrs5dQi2hmW_pU7ZQHrQ",
+    "ciphertext": "7_08Gk_vb4HjtTk5s105ISfUqwMXv26I_QwLeyngPgV9yERXJ3sXPA623g",
+    "iv": "qY74Q_T736x06WJW",
+    "tag": "h44EQucxDR-w2jR4t4mOSw",
     "version": 1
   }
 }
