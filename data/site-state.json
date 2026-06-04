@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1780532876323,
-      "rationale": "The tweet explicitly says Codex usage limits were reset across all paid plans and use is available again now.",
-      "tweetId": "2062329981548802523",
-      "tweetUrl": "https://x.com/thsottiaux/status/2062329981548802523",
-      "verdict": "reset_confirmed"
+      "decidedAt": 1780555191305,
+      "rationale": "This post is a general comment about OpenAI progress and does not mention rate limits or resets.",
+      "tweetId": "2062423528927015414",
+      "tweetUrl": "https://x.com/thsottiaux/status/2062423528927015414",
+      "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2062329981548802523",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2062329981548802523",
+    "lastSeenTweetId": "2062423528927015414",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2062423528927015414",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1780555191305,
+        "inputTokens": 382,
+        "outputTokens": 74,
+        "rationale": "This post is a general comment about OpenAI progress and does not mention rate limits or resets.",
+        "reasoningTokens": 27,
+        "totalTokens": 456,
+        "tweetId": "2062423528927015414",
+        "tweetText": "Lots of little vectors at OpenAI all pointing in the same direction. Excited to see it all add up and come together over the coming weeks.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2062423528927015414",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1780532876323,
@@ -272,29 +285,31 @@
         "tweetText": "@argofowl Please don't get overly excited, this is mostly about things that we've improved for enterprise deployment. \n\nNothing crazy in there, but good to tune in if you own a small or big company.",
         "tweetUrl": "https://x.com/thsottiaux/status/2061653778403881160",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1780369530908,
-        "inputTokens": 486,
-        "outputTokens": 128,
-        "rationale": "This post is about OpenAI models becoming available on AWS, not user rate limits resetting.",
-        "reasoningTokens": 82,
-        "totalTokens": 614,
-        "tweetId": "2061644307111796984",
-        "tweetText": "Heard that AWS is where the cool kids are. Hello. We have GPT-5.5.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2061644307111796984",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 223720,
-      "totalOutputTokens": 60204,
-      "totalReasoningTokens": 32398,
-      "totalTokens": 283924
+      "totalInputTokens": 224102,
+      "totalOutputTokens": 60278,
+      "totalReasoningTokens": 32425,
+      "totalTokens": 284380
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1780555191305,
+      "inputTokens": 382,
+      "message": "",
+      "outputTokens": 74,
+      "rationale": "This post is a general comment about OpenAI progress and does not mention rate limits or resets.",
+      "reasoningTokens": 27,
+      "totalTokens": 456,
+      "tweetId": "2062423528927015414",
+      "tweetText": "Lots of little vectors at OpenAI all pointing in the same direction. Excited to see it all add up and come together over the coming weeks.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2062423528927015414",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1780532876323,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2060821549079511450",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1780154196714,
-      "inputTokens": 379,
-      "message": "",
-      "outputTokens": 90,
-      "rationale": "This reply is just about a photo and gives no indication that any Codex or ChatGPT limits reset.",
-      "reasoningTokens": 41,
-      "totalTokens": 469,
-      "tweetId": "2060741570308227518",
-      "tweetText": "@trifon_getsov @ajambrosino Picture I took yesterday https://t.co/2ZfulTejTM",
-      "tweetUrl": "https://x.com/thsottiaux/status/2060741570308227518",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "7_08Gk_vb4HjtTk5s105ISfUqwMXv26I_QwLeyngPgV9yERXJ3sXPA623g",
-    "iv": "qY74Q_T736x06WJW",
-    "tag": "h44EQucxDR-w2jR4t4mOSw",
+    "ciphertext": "JvV1Kzr02gb8EUF4uDYotZkUjwiKad0MzM2ChM8JsoHWehb6KRBuKfDk6g",
+    "iv": "xKQ30k0_bixFMSfL",
+    "tag": "TqoVRBBkjygtVJs47rG63A",
     "version": 1
   }
 }
