@@ -1,5 +1,5 @@
 {
-  "currentState": "yes",
+  "currentState": "no",
   "autoResetHours": 20,
   "noSubtitles": [
     "Back to your local model peasant",
@@ -10,22 +10,35 @@
     "Limits reset, go crazy",
     "You can just build things"
   ],
-  "resetAt": 1780604876323,
+  "resetAt": null,
   "updatedAt": 1780532876323,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1780555194400,
-      "rationale": "This reply only says “Sam” and gives no indication that any limits or caps have reset.",
-      "tweetId": "2062423629510672715",
-      "tweetUrl": "https://x.com/thsottiaux/status/2062423629510672715",
+      "confidence": 0.98,
+      "decidedAt": 1780608782721,
+      "rationale": "This is about fixing a token-counting bug, not a clear statement that Codex or ChatGPT limits have reset.",
+      "tweetId": "2062648326332539015",
+      "tweetUrl": "https://x.com/thsottiaux/status/2062648326332539015",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2062423629510672715",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2062423629510672715",
+    "lastSeenTweetId": "2062648326332539015",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2062648326332539015",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.98,
+        "evaluatedAt": 1780608782721,
+        "inputTokens": 417,
+        "outputTokens": 154,
+        "rationale": "This is about fixing a token-counting bug, not a clear statement that Codex or ChatGPT limits have reset.",
+        "reasoningTokens": 102,
+        "totalTokens": 571,
+        "tweetId": "2062648326332539015",
+        "tweetText": "We're fixing a codex bug today that was causing us to undercount tokens being served to some Pro and Plus accounts by a small amount. This impacted &lt; 15% of accounts.\n\nNot the kind of bug you want us to fix, but didn't want to do this silently and thought you should know.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2062648326332539015",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1780555194400,
@@ -272,29 +285,31 @@
         "tweetText": "@apples_jimmy Can I vote or is that illegal?",
         "tweetUrl": "https://x.com/thsottiaux/status/2061671243984822750",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1780372645855,
-        "inputTokens": 373,
-        "outputTokens": 81,
-        "rationale": "This post is a joke/comment about Codex and does not mention limits or a reset.",
-        "reasoningTokens": 35,
-        "totalTokens": 454,
-        "tweetId": "2061657264508006738",
-        "tweetText": "You can just codex ... a farm\nhttps://t.co/pwmS7IvqbH",
-        "tweetUrl": "https://x.com/thsottiaux/status/2061657264508006738",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 224461,
-      "totalOutputTokens": 60349,
-      "totalReasoningTokens": 32449,
-      "totalTokens": 284810
+      "totalInputTokens": 224878,
+      "totalOutputTokens": 60503,
+      "totalReasoningTokens": 32551,
+      "totalTokens": 285381
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.98,
+      "createdAt": 1780608782721,
+      "inputTokens": 417,
+      "message": "",
+      "outputTokens": 154,
+      "rationale": "This is about fixing a token-counting bug, not a clear statement that Codex or ChatGPT limits have reset.",
+      "reasoningTokens": 102,
+      "totalTokens": 571,
+      "tweetId": "2062648326332539015",
+      "tweetText": "We're fixing a codex bug today that was causing us to undercount tokens being served to some Pro and Plus accounts by a small amount. This impacted &lt; 15% of accounts.\n\nNot the kind of bug you want us to fix, but didn't want to do this silently and thought you should know.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2062648326332539015",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1780555194400,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2060960564676034726",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1780183391061,
-      "inputTokens": 367,
-      "message": "",
-      "outputTokens": 64,
-      "rationale": "This reply is just a greeting and does not mention limits or resets.",
-      "reasoningTokens": 22,
-      "totalTokens": 431,
-      "tweetId": "2060863706205180307",
-      "tweetText": "@SIGKITTEN @OpenAI @ajambrosino Hiii",
-      "tweetUrl": "https://x.com/thsottiaux/status/2060863706205180307",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "DVUbzG7S00RSlT1ZlDeCbPLeQu4EKz9VH0hFp4UlaqgAUqV3D0GFdmOheg",
-    "iv": "4RBtM8x7G9hAYdoW",
-    "tag": "Ukz5EKFAPL4BCA8dLwFyJQ",
+    "ciphertext": "nF46O1k0VGaWX2zGXyp2OefvdclXtkD2znisVDu0tjyurdrt307S69Lfcw",
+    "iv": "DNy5HVKt3jy_LsR1",
+    "tag": "_JV3bcID8UzFon8tAr_Z0Q",
     "version": 1
   }
 }
