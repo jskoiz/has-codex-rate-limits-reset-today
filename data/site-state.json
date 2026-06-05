@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1780683417924,
-      "rationale": "This is just a correction about installing openai-codex, not a statement about limits resetting.",
-      "tweetId": "2062961096760447392",
-      "tweetUrl": "https://x.com/thsottiaux/status/2062961096760447392",
+      "decidedAt": 1780684622964,
+      "rationale": "This post discusses ChatGPT memory improvements, not any usage cap or rate limit reset.",
+      "tweetId": "2062966625733861752",
+      "tweetUrl": "https://x.com/thsottiaux/status/2062966625733861752",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2062961096760447392",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2062961096760447392",
+    "lastSeenTweetId": "2062966625733861752",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2062966625733861752",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1780684622964,
+        "inputTokens": 446,
+        "outputTokens": 91,
+        "rationale": "This post discusses ChatGPT memory improvements, not any usage cap or rate limit reset.",
+        "reasoningTokens": 46,
+        "totalTokens": 537,
+        "tweetId": "2062966625733861752",
+        "tweetText": "Better memory = Shorter prompts = More utility per token",
+        "tweetUrl": "https://x.com/thsottiaux/status/2062966625733861752",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1780683417924,
@@ -272,29 +285,31 @@
         "tweetText": "https://t.co/NvKKzB3bt3",
         "tweetUrl": "https://x.com/thsottiaux/status/2061877014999830625",
         "verdict": "uncertain"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1780425005956,
-        "inputTokens": 415,
-        "outputTokens": 99,
-        "rationale": "This is a product update about Codex features, not a statement that usage limits or rate caps reset.",
-        "reasoningTokens": 50,
-        "totalTokens": 514,
-        "tweetId": "2061876999564791952",
-        "tweetText": "Tons of goodies for use of codex for day to day work. \n\nIf you are on a business plan you can now host and share websites, we launched vastly improved plugins and skills for broad roles and you can give feedback to your agent through visual annotations in docs, slides, sheets and more.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2061876999564791952",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 226064,
-      "totalOutputTokens": 60775,
-      "totalReasoningTokens": 32680,
-      "totalTokens": 286839
+      "totalInputTokens": 226510,
+      "totalOutputTokens": 60866,
+      "totalReasoningTokens": 32726,
+      "totalTokens": 287376
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1780684622964,
+      "inputTokens": 446,
+      "message": "",
+      "outputTokens": 91,
+      "rationale": "This post discusses ChatGPT memory improvements, not any usage cap or rate limit reset.",
+      "reasoningTokens": 46,
+      "totalTokens": 537,
+      "tweetId": "2062966625733861752",
+      "tweetText": "Better memory = Shorter prompts = More utility per token",
+      "tweetUrl": "https://x.com/thsottiaux/status/2062966625733861752",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1780683417924,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2060964912726512046",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1780207540038,
-      "inputTokens": 368,
-      "message": "",
-      "outputTokens": 67,
-      "rationale": "This reply is conversational and does not mention limits, caps, or resets.",
-      "reasoningTokens": 24,
-      "totalTokens": 435,
-      "tweetId": "2060964710921715842",
-      "tweetText": "@armlessbandt @argofowl Let’s settle this at high noon",
-      "tweetUrl": "https://x.com/thsottiaux/status/2060964710921715842",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "A80QVwGp50FrVIVAz3opTjOHmDZ4_xuOP2XUuZAXNxBNZYMmygzhICKF_A",
-    "iv": "6bTeK24eDl8yRWOR",
-    "tag": "kUYDFBthjTSZ4G8MlDCFGQ",
+    "ciphertext": "9yRjjq3knthVlC-_wRF7A4lSMBWLb8CZw71lzJwAJOhRj9_SUw0Pf5bU6A",
+    "iv": "qfQfjvtgeNOFYo48",
+    "tag": "Y-GO5eiis9EAWXlUtTKM_g",
     "version": 1
   }
 }
