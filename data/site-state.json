@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1780618434822,
-      "rationale": "This reply is just conversational and does not mention limits, caps, or usage becoming available again.",
-      "tweetId": "2062689198403105262",
-      "tweetUrl": "https://x.com/thsottiaux/status/2062689198403105262",
+      "decidedAt": 1780629262827,
+      "rationale": "This post promotes the Codex Python SDK and does not mention limits, caps, or a reset.",
+      "tweetId": "2062734215494664697",
+      "tweetUrl": "https://x.com/thsottiaux/status/2062734215494664697",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2062689198403105262",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2062689198403105262",
+    "lastSeenTweetId": "2062734215494664697",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2062734215494664697",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1780629262827,
+        "inputTokens": 406,
+        "outputTokens": 74,
+        "rationale": "This post promotes the Codex Python SDK and does not mention limits, caps, or a reset.",
+        "reasoningTokens": 26,
+        "totalTokens": 480,
+        "tweetId": "2062734215494664697",
+        "tweetText": "You can use codex within your own programs using the Python SDK. It's awesome. Built by @ah20im and friends\n\n```\npip install openai-codex\n```\n\nhttps://t.co/GjQVEPwtkF",
+        "tweetUrl": "https://x.com/thsottiaux/status/2062734215494664697",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1780618434822,
@@ -272,29 +285,31 @@
         "tweetText": "@MadisonMills22 Token leader 👀 Is that an actual job title",
         "tweetUrl": "https://x.com/thsottiaux/status/2061876538120065426",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1780419113471,
-        "inputTokens": 375,
-        "outputTokens": 76,
-        "rationale": "This reply is conversational and does not mention limits, caps, or usage resetting.",
-        "reasoningTokens": 32,
-        "totalTokens": 451,
-        "tweetId": "2061853042866282804",
-        "tweetText": "@svilendonmez @sama I can see that you ran a /goal for 155h 👀",
-        "tweetUrl": "https://x.com/thsottiaux/status/2061853042866282804",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 225239,
-      "totalOutputTokens": 60587,
-      "totalReasoningTokens": 32588,
-      "totalTokens": 285826
+      "totalInputTokens": 225645,
+      "totalOutputTokens": 60661,
+      "totalReasoningTokens": 32614,
+      "totalTokens": 286306
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1780629262827,
+      "inputTokens": 406,
+      "message": "",
+      "outputTokens": 74,
+      "rationale": "This post promotes the Codex Python SDK and does not mention limits, caps, or a reset.",
+      "reasoningTokens": 26,
+      "totalTokens": 480,
+      "tweetId": "2062734215494664697",
+      "tweetText": "You can use codex within your own programs using the Python SDK. It's awesome. Built by @ah20im and friends\n\n```\npip install openai-codex\n```\n\nhttps://t.co/GjQVEPwtkF",
+      "tweetUrl": "https://x.com/thsottiaux/status/2062734215494664697",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1780618434822,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2060964284117782996",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1780206598697,
-      "inputTokens": 361,
-      "message": "",
-      "outputTokens": 75,
-      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-      "reasoningTokens": 31,
-      "totalTokens": 436,
-      "tweetId": "2060960833019302023",
-      "tweetText": "@petergyang Can confirm the dank memes",
-      "tweetUrl": "https://x.com/thsottiaux/status/2060960833019302023",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "0ocXU9kqJoIsykG-G_rjF4pzpct1Ri2q7YrqNGCQWRnTOGZngY557HvgNQ",
-    "iv": "dijlidJYQhH3gZ1l",
-    "tag": "egtUA_0x_-ot86e12pGweQ",
+    "ciphertext": "Xac3Sa2AqRQGV2lNocmk5Usqvbt_ds4zX2lW5o1wA-FgeLWHa_qYYiCtug",
+    "iv": "qAOxAbCmEpiyjo8I",
+    "tag": "v_zJ7UcwfXntghZefrWGjw",
     "version": 1
   }
 }
