@@ -21,7 +21,7 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2062997876297609257",
       "verdict": "not_reset"
     },
-    "lastError": null,
+    "lastError": "Tweet fetch failed: Cannot read properties of undefined (reading 'errors') (Cannot read properties of undefined (reading 'errors'))",
     "lastSeenTweetId": "2062997876297609257",
     "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2062997876297609257",
     "pendingReview": null,
@@ -295,6 +295,21 @@
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0,
+      "createdAt": 1780865029092,
+      "inputTokens": 0,
+      "message": "Tweet fetch failed: Cannot read properties of undefined (reading 'errors') (Cannot read properties of undefined (reading 'errors'))",
+      "outputTokens": 0,
+      "rationale": "",
+      "reasoningTokens": 0,
+      "totalTokens": 0,
+      "tweetId": null,
+      "tweetText": "",
+      "tweetUrl": null,
+      "type": "error",
+      "verdict": null
+    },
     {
       "confidence": 0,
       "createdAt": 1780854482998,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2060970557169074418",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.93,
-      "createdAt": 1780207853504,
-      "inputTokens": 379,
-      "message": "",
-      "outputTokens": 139,
-      "rationale": "He says he will reset the usage limits, which is a future action rather than a confirmed current reset.",
-      "reasoningTokens": 90,
-      "totalTokens": 518,
-      "tweetId": "2060966434055061834",
-      "tweetText": "@Trident2Gold Do not worry 🔱 \n\nThis has nothing to do with memory. I will reset the usage limits",
-      "tweetUrl": "https://x.com/thsottiaux/status/2060966434055061834",
-      "type": "review_requested",
-      "verdict": "uncertain"
     }
   ],
   "privateState": {
-    "ciphertext": "RA0ITkdqivCyLFiXFkAKTBpWJ-xgD7xMWQ893CFeE80zQakBLYiJyvbNgw",
-    "iv": "OD7a_JUDab06KP_u",
-    "tag": "_96ZjMxgK1lakWjrPPHsVQ",
+    "ciphertext": "niAsA_PSIDeOvjQqtnclhnJl_XZpPGoritRfMnFs645KT_h9hl5bm_naww",
+    "iv": "6QKg9mW1kfRl8gqT",
+    "tag": "tfYwK16jmxLyk9LvoiJdjw",
     "version": 1
   }
 }
