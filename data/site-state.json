@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1780692126667,
-      "rationale": "This reply praises someone’s work and does not mention limits, caps, or resets.",
-      "tweetId": "2062997876297609257",
-      "tweetUrl": "https://x.com/thsottiaux/status/2062997876297609257",
+      "decidedAt": 1780870912860,
+      "rationale": "This announces a future promotion for higher Codex limits, not that existing limits have reset or become available…",
+      "tweetId": "2063748242681307611",
+      "tweetUrl": "https://x.com/thsottiaux/status/2063748242681307611",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2062997876297609257",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2062997876297609257",
+    "lastSeenTweetId": "2063748242681307611",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2063748242681307611",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1780870912860,
+        "inputTokens": 418,
+        "outputTokens": 89,
+        "rationale": "This announces a future promotion for higher Codex limits, not that existing limits have reset or become available…",
+        "reasoningTokens": 38,
+        "totalTokens": 507,
+        "tweetId": "2063748242681307611",
+        "tweetText": "I have a new kind of big button that I can press for Codex. Over the next 100 days, we will select one person per day who does impressive or incredibly useful work with Codex and give them 10X usage limits for a month to see what they can do with it.\n\nFirst one tomorrow.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2063748242681307611",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1780692126667,
@@ -272,29 +285,31 @@
         "tweetText": "@dumbfook 👨‍🍳 Codex cooking codex",
         "tweetUrl": "https://x.com/thsottiaux/status/2061877437798199411",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.95,
-        "evaluatedAt": 1780425342600,
-        "inputTokens": 368,
-        "outputTokens": 222,
-        "rationale": "This reply contains only a mention and a link, so it does not clearly indicate that any limit has reset.",
-        "reasoningTokens": 172,
-        "totalTokens": 590,
-        "tweetId": "2061877241349546017",
-        "tweetText": "@nicdunz https://t.co/NvKKzB3bt3",
-        "tweetUrl": "https://x.com/thsottiaux/status/2061877241349546017",
-        "verdict": "uncertain"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 227332,
-      "totalOutputTokens": 61028,
-      "totalReasoningTokens": 32797,
-      "totalTokens": 288360
+      "totalInputTokens": 227750,
+      "totalOutputTokens": 61117,
+      "totalReasoningTokens": 32835,
+      "totalTokens": 288867
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1780870912860,
+      "inputTokens": 418,
+      "message": "",
+      "outputTokens": 89,
+      "rationale": "This announces a future promotion for higher Codex limits, not that existing limits have reset or become available…",
+      "reasoningTokens": 38,
+      "totalTokens": 507,
+      "tweetId": "2063748242681307611",
+      "tweetText": "I have a new kind of big button that I can press for Codex. Over the next 100 days, we will select one person per day who does impressive or incredibly useful work with Codex and give them 10X usage limits for a month to see what they can do with it.\n\nFirst one tomorrow.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2063748242681307611",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0,
       "createdAt": 1780865029092,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2060970774471835783",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1780208786051,
-      "inputTokens": 358,
-      "message": "",
-      "outputTokens": 81,
-      "rationale": "This brief reply does not mention limits, caps, or usage becoming available again.",
-      "reasoningTokens": 37,
-      "totalTokens": 439,
-      "tweetId": "2060970557169074418",
-      "tweetText": "@waternux Tibs?",
-      "tweetUrl": "https://x.com/thsottiaux/status/2060970557169074418",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "9hPoklkw7R1zgqXZ2431TYA0v1r0u_8zJLkSK-jAwM3HwsQddM57S_sBjg",
-    "iv": "ghVurP5aHsK5LDnV",
-    "tag": "4o05MmvIE7he6B4crJ2r_g",
+    "ciphertext": "2wAvDIsWqGK4TiedGlAKJJeq1xm3yQutgX3vwVRF04ZkZAgqjXpfezu9Uw",
+    "iv": "1BsN5AORhLrfA6P7",
+    "tag": "XIWvEY1c38UbmFwt7t9OcQ",
     "version": 1
   }
 }
