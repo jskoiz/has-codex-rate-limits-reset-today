@@ -14,18 +14,38 @@
   "updatedAt": 1780532876323,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1780899394444,
-      "rationale": "This is a conversational joke and does not mention limits, caps, or usage resetting.",
-      "tweetId": "2063867254945767838",
-      "tweetUrl": "https://x.com/thsottiaux/status/2063867254945767838",
-      "verdict": "not_reset"
+      "confidence": 0.97,
+      "decidedAt": 1780940410871,
+      "rationale": "This reply alone does not clearly indicate that any limit has reset.",
+      "tweetId": "2064038582529221017",
+      "tweetUrl": "https://x.com/thsottiaux/status/2064038582529221017",
+      "verdict": "uncertain"
     },
     "lastError": null,
-    "lastSeenTweetId": "2063867254945767838",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2063867254945767838",
-    "pendingReview": null,
+    "lastSeenTweetId": "2064038582529221017",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2064038582529221017",
+    "pendingReview": {
+      "confidence": 0.97,
+      "createdAt": 1780940410871,
+      "rationale": "This reply alone does not clearly indicate that any limit has reset.",
+      "tweetId": "2064038582529221017",
+      "tweetText": "@YashHustle_22 No",
+      "tweetUrl": "https://x.com/thsottiaux/status/2064038582529221017"
+    },
     "recentEvaluations": [
+      {
+        "confidence": 0.97,
+        "evaluatedAt": 1780940410871,
+        "inputTokens": 361,
+        "outputTokens": 119,
+        "rationale": "This reply alone does not clearly indicate that any limit has reset.",
+        "reasoningTokens": 78,
+        "totalTokens": 480,
+        "tweetId": "2064038582529221017",
+        "tweetText": "@YashHustle_22 No",
+        "tweetUrl": "https://x.com/thsottiaux/status/2064038582529221017",
+        "verdict": "uncertain"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1780899394444,
@@ -272,29 +292,31 @@
         "tweetText": "ChatGPT\n\nWhether you understand the name or not. It's here to stay. It's the past, the present, the future. Synonym with AI, soon synonym with agents. Much to build.",
         "tweetUrl": "https://x.com/thsottiaux/status/2062057881424506950",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1780443653193,
-        "inputTokens": 413,
-        "outputTokens": 71,
-        "rationale": "This post is a conversational joke about Codex demos, not about limits or usage resetting.",
-        "reasoningTokens": 25,
-        "totalTokens": 484,
-        "tweetId": "2061955520291037289",
-        "tweetText": "@romainhuet in each of our Codex demos. Whether it's last minute or not. Doesn't matter. Always prepared.\n\nWhips out the laptop, proceeds through 23 different personas as if he were Kevin in Split. https://t.co/ewO7LRN7D6",
-        "tweetUrl": "https://x.com/thsottiaux/status/2061955520291037289",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 229578,
-      "totalOutputTokens": 61537,
-      "totalReasoningTokens": 33039,
-      "totalTokens": 291115
+      "totalInputTokens": 229939,
+      "totalOutputTokens": 61656,
+      "totalReasoningTokens": 33117,
+      "totalTokens": 291595
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.97,
+      "createdAt": 1780940410871,
+      "inputTokens": 361,
+      "message": "",
+      "outputTokens": 119,
+      "rationale": "This reply alone does not clearly indicate that any limit has reset.",
+      "reasoningTokens": 78,
+      "totalTokens": 480,
+      "tweetId": "2064038582529221017",
+      "tweetText": "@YashHustle_22 No",
+      "tweetUrl": "https://x.com/thsottiaux/status/2064038582529221017",
+      "type": "review_requested",
+      "verdict": "uncertain"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1780899394444,
@@ -879,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2061307619164541026",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1780288910341,
-      "inputTokens": 366,
-      "message": "",
-      "outputTokens": 110,
-      "rationale": "This reply is just a conversational preference and does not mention limits or a reset.",
-      "reasoningTokens": 66,
-      "totalTokens": 476,
-      "tweetId": "2061306740537434521",
-      "tweetText": "@sflorimm Team ChatGPT and copy/paste into Vim",
-      "tweetUrl": "https://x.com/thsottiaux/status/2061306740537434521",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "aBRYHgS-mIfHJ2AnK_XhhDe80n6sm8q4CMxa0UTIACLcr9uFB4D2RxcMhA",
-    "iv": "7bWU_2-kNHKD8r5e",
-    "tag": "HX5pfveKNdmkV1udXrtWvA",
+    "ciphertext": "VlD3-8YeQiVt4Wmr410tWtK40MgOEI8-ixS6OHiVsUBUz8c4ZrzupTpM6Q",
+    "iv": "Rvs33I4RsMKpa0OY",
+    "tag": "JEF59QByG12aC11jIQdX9Q",
     "version": 1
   }
 }
