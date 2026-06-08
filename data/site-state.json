@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1780877065801,
-      "rationale": "This reply is just conversational and does not mention limits or a reset.",
-      "tweetId": "2063772925644464276",
-      "tweetUrl": "https://x.com/thsottiaux/status/2063772925644464276",
+      "decidedAt": 1780889788744,
+      "rationale": "This reply is just conversational and does not mention limits, caps, or a reset.",
+      "tweetId": "2063826811373658213",
+      "tweetUrl": "https://x.com/thsottiaux/status/2063826811373658213",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2063772925644464276",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2063772925644464276",
+    "lastSeenTweetId": "2063826811373658213",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2063826811373658213",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1780889788744,
+        "inputTokens": 359,
+        "outputTokens": 77,
+        "rationale": "This reply is just conversational and does not mention limits, caps, or a reset.",
+        "reasoningTokens": 32,
+        "totalTokens": 436,
+        "tweetId": "2063826811373658213",
+        "tweetText": "@vqbaobui Build stuff",
+        "tweetUrl": "https://x.com/thsottiaux/status/2063826811373658213",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1780877065801,
@@ -272,29 +285,31 @@
         "tweetText": "@AnthonyBerlin Do you have a thread id?\n\n/feedback",
         "tweetUrl": "https://x.com/thsottiaux/status/2061954293125853361",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1780443351568,
-        "inputTokens": 359,
-        "outputTokens": 96,
-        "rationale": "This reply only says a link is down and does not indicate any limit or rate-limit reset.",
-        "reasoningTokens": 49,
-        "totalTokens": 455,
-        "tweetId": "2061954156143993227",
-        "tweetText": "@rileybrown Link is down",
-        "tweetUrl": "https://x.com/thsottiaux/status/2061954156143993227",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 228844,
-      "totalOutputTokens": 61387,
-      "totalReasoningTokens": 32979,
-      "totalTokens": 290231
+      "totalInputTokens": 229203,
+      "totalOutputTokens": 61464,
+      "totalReasoningTokens": 33011,
+      "totalTokens": 290667
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1780889788744,
+      "inputTokens": 359,
+      "message": "",
+      "outputTokens": 77,
+      "rationale": "This reply is just conversational and does not mention limits, caps, or a reset.",
+      "reasoningTokens": 32,
+      "totalTokens": 436,
+      "tweetId": "2063826811373658213",
+      "tweetText": "@vqbaobui Build stuff",
+      "tweetUrl": "https://x.com/thsottiaux/status/2063826811373658213",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1780877065801,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2061169349453611112",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1780241978630,
-      "inputTokens": 386,
-      "message": "",
-      "outputTokens": 108,
-      "rationale": "This reply is about the meaning of a French word and does not mention any usage limit reset.",
-      "reasoningTokens": 61,
-      "totalTokens": 494,
-      "tweetId": "2061107969392263554",
-      "tweetText": "@rezoundous \"Mitonner\" in French means to simmer. Odd. In the figurative sense it also means to to cleverly devise a secret plan or to trick.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2061107969392263554",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "Eqf388AnzUpJjKPz72d4kWgswcnnz_ekSAnpV4A9Y4rJbKfmmdqXy66wMQ",
-    "iv": "odUPt_yqPV2juFpM",
-    "tag": "qrh6JdvhJtjqyHvC8yMs6Q",
+    "ciphertext": "faI_TNxXjsJZqLsQsNqZ3Ipr3f_o05vWv3apJU5gVUW7aJ-UtuQYvU5sMw",
+    "iv": "-P5tOjUVZXQpViJU",
+    "tag": "ssou-XVq2m2fE1VJVinb7Q",
     "version": 1
   }
 }
