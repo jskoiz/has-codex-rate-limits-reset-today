@@ -14,16 +14,16 @@
   "updatedAt": 1780532876323,
   "automation": {
     "lastDecision": {
-      "confidence": 0.97,
-      "decidedAt": 1780940410871,
-      "rationale": "This reply alone does not clearly indicate that any limit has reset.",
-      "tweetId": "2064038582529221017",
-      "tweetUrl": "https://x.com/thsottiaux/status/2064038582529221017",
-      "verdict": "uncertain"
+      "confidence": 0.99,
+      "decidedAt": 1780940711324,
+      "rationale": "This reply is just conversational about using Codex all day and does not mention limits resetting.",
+      "tweetId": "2064039257392709683",
+      "tweetUrl": "https://x.com/thsottiaux/status/2064039257392709683",
+      "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2064038582529221017",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2064038582529221017",
+    "lastSeenTweetId": "2064039257392709683",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2064039257392709683",
     "pendingReview": {
       "confidence": 0.97,
       "createdAt": 1780940410871,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2064038582529221017"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1780940711324,
+        "inputTokens": 397,
+        "outputTokens": 75,
+        "rationale": "This reply is just conversational about using Codex all day and does not mention limits resetting.",
+        "reasoningTokens": 29,
+        "totalTokens": 472,
+        "tweetId": "2064039257392709683",
+        "tweetText": "@YashHustle_22 Codex at breakfast\nCodex in the morning\nCodex at lunch\nCodex in the afternoon\nCodex at dinner\nCodex in the evening\nCodex at night",
+        "tweetUrl": "https://x.com/thsottiaux/status/2064039257392709683",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.97,
         "evaluatedAt": 1780940410871,
@@ -279,29 +292,31 @@
         "tweetText": "It’s time to fly!\n\nExcited to share the first short brand film for Codex. Catch it airing during Game 1 of the NBA Finals tonight.\n\nhttps://t.co/1J4Epczj8T",
         "tweetUrl": "https://x.com/thsottiaux/status/2062310660806205901",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1780468074420,
-        "inputTokens": 393,
-        "outputTokens": 88,
-        "rationale": "This is general commentary about ChatGPT and does not mention limits, caps, or a reset.",
-        "reasoningTokens": 41,
-        "totalTokens": 481,
-        "tweetId": "2062057881424506950",
-        "tweetText": "ChatGPT\n\nWhether you understand the name or not. It's here to stay. It's the past, the present, the future. Synonym with AI, soon synonym with agents. Much to build.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2062057881424506950",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 229939,
-      "totalOutputTokens": 61656,
-      "totalReasoningTokens": 33117,
-      "totalTokens": 291595
+      "totalInputTokens": 230336,
+      "totalOutputTokens": 61731,
+      "totalReasoningTokens": 33146,
+      "totalTokens": 292067
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1780940711324,
+      "inputTokens": 397,
+      "message": "",
+      "outputTokens": 75,
+      "rationale": "This reply is just conversational about using Codex all day and does not mention limits resetting.",
+      "reasoningTokens": 29,
+      "totalTokens": 472,
+      "tweetId": "2064039257392709683",
+      "tweetText": "@YashHustle_22 Codex at breakfast\nCodex in the morning\nCodex at lunch\nCodex in the afternoon\nCodex at dinner\nCodex in the evening\nCodex at night",
+      "tweetUrl": "https://x.com/thsottiaux/status/2064039257392709683",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.97,
       "createdAt": 1780940410871,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2061572602888589807",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1780289211083,
-      "inputTokens": 369,
-      "message": "",
-      "outputTokens": 80,
-      "rationale": "This reply is a joke and does not mention any ChatGPT or Codex limit reset.",
-      "reasoningTokens": 34,
-      "totalTokens": 449,
-      "tweetId": "2061307619164541026",
-      "tweetText": "@gabrielchua How to burn your chalet in 3..2..1",
-      "tweetUrl": "https://x.com/thsottiaux/status/2061307619164541026",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "VlD3-8YeQiVt4Wmr410tWtK40MgOEI8-ixS6OHiVsUBUz8c4ZrzupTpM6Q",
-    "iv": "Rvs33I4RsMKpa0OY",
-    "tag": "JEF59QByG12aC11jIQdX9Q",
+    "ciphertext": "lIdHXXJZ4EQlOGQG2cBA0umL2J8hdCToQImNQFfLWp57kd-2puRx2mZsIg",
+    "iv": "jVrclzafjB8NdJfP",
+    "tag": "f_vdcTlVfV_036KtmlG9CA",
     "version": 1
   }
 }
