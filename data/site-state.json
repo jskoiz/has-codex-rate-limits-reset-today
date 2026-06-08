@@ -14,18 +14,31 @@
   "updatedAt": 1780532876323,
   "automation": {
     "lastDecision": {
-      "confidence": 0.98,
-      "decidedAt": 1780876444892,
-      "rationale": "This reply is conversational and does not indicate any limits or caps have reset.",
-      "tweetId": "2063771435194261915",
-      "tweetUrl": "https://x.com/thsottiaux/status/2063771435194261915",
+      "confidence": 0.99,
+      "decidedAt": 1780877065801,
+      "rationale": "This reply is just conversational and does not mention limits or a reset.",
+      "tweetId": "2063772925644464276",
+      "tweetUrl": "https://x.com/thsottiaux/status/2063772925644464276",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2063771435194261915",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2063771435194261915",
+    "lastSeenTweetId": "2063772925644464276",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2063772925644464276",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1780877065801,
+        "inputTokens": 364,
+        "outputTokens": 68,
+        "rationale": "This reply is just conversational and does not mention limits or a reset.",
+        "reasoningTokens": 26,
+        "totalTokens": 432,
+        "tweetId": "2063772925644464276",
+        "tweetText": "@ChiaraCervetta @ChatGPTapp Agreed!",
+        "tweetUrl": "https://x.com/thsottiaux/status/2063772925644464276",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.98,
         "evaluatedAt": 1780876444892,
@@ -272,29 +285,31 @@
         "tweetText": "@rileybrown Link is down",
         "tweetUrl": "https://x.com/thsottiaux/status/2061954156143993227",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1780425631000,
-        "inputTokens": 360,
-        "outputTokens": 74,
-        "rationale": "This reply only corrects a typo and does not mention any limit or reset.",
-        "reasoningTokens": 30,
-        "totalTokens": 434,
-        "tweetId": "2061877836408086600",
-        "tweetText": "@haider1 Typo, sorry.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2061877836408086600",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 228480,
-      "totalOutputTokens": 61319,
-      "totalReasoningTokens": 32953,
-      "totalTokens": 289799
+      "totalInputTokens": 228844,
+      "totalOutputTokens": 61387,
+      "totalReasoningTokens": 32979,
+      "totalTokens": 290231
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1780877065801,
+      "inputTokens": 364,
+      "message": "",
+      "outputTokens": 68,
+      "rationale": "This reply is just conversational and does not mention limits or a reset.",
+      "reasoningTokens": 26,
+      "totalTokens": 432,
+      "tweetId": "2063772925644464276",
+      "tweetText": "@ChiaraCervetta @ChatGPTapp Agreed!",
+      "tweetUrl": "https://x.com/thsottiaux/status/2063772925644464276",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.98,
       "createdAt": 1780876444892,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2061107969392263554",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.88,
-      "createdAt": 1780241670783,
-      "inputTokens": 360,
-      "message": "",
-      "outputTokens": 177,
-      "rationale": "This cryptic reply could refer to a reset timing, but it does not clearly say limits are available again now.",
-      "reasoningTokens": 126,
-      "totalTokens": 537,
-      "tweetId": "2061106793271710115",
-      "tweetText": "@bughuntergeek Today is tomorrow",
-      "tweetUrl": "https://x.com/thsottiaux/status/2061106793271710115",
-      "type": "review_requested",
-      "verdict": "uncertain"
     }
   ],
   "privateState": {
-    "ciphertext": "T10OduW530u938OrI2H0R2QteNu-eCz0CCEjyzWwzuy8Cp3-3xeGo-ReAA",
-    "iv": "YOKwQTbQuZ9yBr1m",
-    "tag": "EVbJL8b7Lp0n5ZCkEwCWbA",
+    "ciphertext": "Eqf388AnzUpJjKPz72d4kWgswcnnz_ekSAnpV4A9Y4rJbKfmmdqXy66wMQ",
+    "iv": "odUPt_yqPV2juFpM",
+    "tag": "qrh6JdvhJtjqyHvC8yMs6Q",
     "version": 1
   }
 }
