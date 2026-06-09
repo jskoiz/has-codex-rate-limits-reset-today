@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1780983111901,
-      "rationale": "This post discusses new ChatGPT features and praise for the team, not limits or a reset.",
-      "tweetId": "2064217733722669539",
-      "tweetUrl": "https://x.com/thsottiaux/status/2064217733722669539",
+      "decidedAt": 1780984658998,
+      "rationale": "This post is about a controller and does not mention limits, caps, or usage resetting.",
+      "tweetId": "2064224657822413137",
+      "tweetUrl": "https://x.com/thsottiaux/status/2064224657822413137",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2064217733722669539",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2064217733722669539",
+    "lastSeenTweetId": "2064224657822413137",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2064224657822413137",
     "pendingReview": {
       "confidence": 0.97,
       "createdAt": 1780940410871,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2064038582529221017"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1780984658998,
+        "inputTokens": 370,
+        "outputTokens": 84,
+        "rationale": "This post is about a controller and does not mention limits, caps, or usage resetting.",
+        "reasoningTokens": 38,
+        "totalTokens": 454,
+        "tweetId": "2064224657822413137",
+        "tweetText": "Would you use this controller? https://t.co/k3tWgio5XD",
+        "tweetUrl": "https://x.com/thsottiaux/status/2064224657822413137",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1780983111901,
@@ -279,29 +292,31 @@
         "tweetText": "Lots of little vectors at OpenAI all pointing in the same direction. Excited to see it all add up and come together over the coming weeks.",
         "tweetUrl": "https://x.com/thsottiaux/status/2062423528927015414",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1780532876323,
-        "inputTokens": 410,
-        "outputTokens": 103,
-        "rationale": "The tweet explicitly says Codex usage limits were reset across all paid plans and use is available again now.",
-        "reasoningTokens": 53,
-        "totalTokens": 513,
-        "tweetId": "2062329981548802523",
-        "tweetText": "Hi. Over the last 24 hours we had three separate small incidents that affected Codex reliability. Those are three too many and we are taking active steps for them to not reproduce.\n\nI have reset usage limits for Codex across all paid plans. May the tokens flow again.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2062329981548802523",
-        "verdict": "reset_confirmed"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 231395,
-      "totalOutputTokens": 61988,
-      "totalReasoningTokens": 33305,
-      "totalTokens": 293383
+      "totalInputTokens": 231765,
+      "totalOutputTokens": 62072,
+      "totalReasoningTokens": 33343,
+      "totalTokens": 293837
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1780984658998,
+      "inputTokens": 370,
+      "message": "",
+      "outputTokens": 84,
+      "rationale": "This post is about a controller and does not mention limits, caps, or usage resetting.",
+      "reasoningTokens": 38,
+      "totalTokens": 454,
+      "tweetId": "2064224657822413137",
+      "tweetText": "Would you use this controller? https://t.co/k3tWgio5XD",
+      "tweetUrl": "https://x.com/thsottiaux/status/2064224657822413137",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1780983111902,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2061657264508006738",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1780371716340,
-      "inputTokens": 395,
-      "message": "",
-      "outputTokens": 80,
-      "rationale": "This reply discusses enterprise deployment improvements, not any Codex or ChatGPT limit reset.",
-      "reasoningTokens": 35,
-      "totalTokens": 475,
-      "tweetId": "2061653778403881160",
-      "tweetText": "@argofowl Please don't get overly excited, this is mostly about things that we've improved for enterprise deployment. \n\nNothing crazy in there, but good to tune in if you own a small or big company.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2061653778403881160",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "GVlGelqDEm87sZ0IzlSXvXTOfUL0A4ajdYNnNo-DOSWOt4Ch-fJVBGmAAg",
-    "iv": "TZJIlpwLLBA3sMZd",
-    "tag": "wwCpc_UMlc9qNkvIv77r9A",
+    "ciphertext": "yVav8bbZ_0y5MhTxSTkIX3Sy08HkMZtJ9B8D5xEM7734Uolh22negd7ZAQ",
+    "iv": "yi6t178GdOWH0k7U",
+    "tag": "dmSxUBz2_kfPed6jVH6CyA",
     "version": 1
   }
 }
