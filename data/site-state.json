@@ -14,16 +14,16 @@
   "updatedAt": 1780532876323,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1780985281411,
-      "rationale": "This reply and its quoted post are about model naming, not limits or resets.",
-      "tweetId": "2064227305212580184",
-      "tweetUrl": "https://x.com/thsottiaux/status/2064227305212580184",
+      "confidence": 0.97,
+      "decidedAt": 1780985287792,
+      "rationale": "This reply is a playful comment about “rest/reset” and does not indicate ChatGPT or Codex limits are available again.",
+      "tweetId": "2064227730884055063",
+      "tweetUrl": "https://x.com/thsottiaux/status/2064227730884055063",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2064227305212580184",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2064227305212580184",
+    "lastSeenTweetId": "2064227730884055063",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2064227730884055063",
     "pendingReview": {
       "confidence": 0.97,
       "createdAt": 1780940410871,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2064038582529221017"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.97,
+        "evaluatedAt": 1780985287792,
+        "inputTokens": 384,
+        "outputTokens": 179,
+        "rationale": "This reply is a playful comment about “rest/reset” and does not indicate ChatGPT or Codex limits are available again.",
+        "reasoningTokens": 126,
+        "totalTokens": 563,
+        "tweetId": "2064227730884055063",
+        "tweetText": "@JinjingLiang @adamhfry My schedule:  Rest =&gt; Reset =&gt; Rest =&gt; Reset =&gt; ...",
+        "tweetUrl": "https://x.com/thsottiaux/status/2064227730884055063",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1780985281411,
@@ -279,29 +292,31 @@
         "tweetText": "I meant `uv add openai-codex`. Obviously.",
         "tweetUrl": "https://x.com/thsottiaux/status/2062961096760447392",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1780629262827,
-        "inputTokens": 406,
-        "outputTokens": 74,
-        "rationale": "This post promotes the Codex Python SDK and does not mention limits, caps, or a reset.",
-        "reasoningTokens": 26,
-        "totalTokens": 480,
-        "tweetId": "2062734215494664697",
-        "tweetText": "You can use codex within your own programs using the Python SDK. It's awesome. Built by @ah20im and friends\n\n```\npip install openai-codex\n```\n\nhttps://t.co/GjQVEPwtkF",
-        "tweetUrl": "https://x.com/thsottiaux/status/2062734215494664697",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 233355,
-      "totalOutputTokens": 62482,
-      "totalReasoningTokens": 33568,
-      "totalTokens": 295837
+      "totalInputTokens": 233739,
+      "totalOutputTokens": 62661,
+      "totalReasoningTokens": 33694,
+      "totalTokens": 296400
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.97,
+      "createdAt": 1780985287792,
+      "inputTokens": 384,
+      "message": "",
+      "outputTokens": 179,
+      "rationale": "This reply is a playful comment about “rest/reset” and does not indicate ChatGPT or Codex limits are available again.",
+      "reasoningTokens": 126,
+      "totalTokens": 563,
+      "tweetId": "2064227730884055063",
+      "tweetText": "@JinjingLiang @adamhfry My schedule:  Rest =&gt; Reset =&gt; Rest =&gt; Reset =&gt; ...",
+      "tweetUrl": "https://x.com/thsottiaux/status/2064227730884055063",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1780985281411,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2061877014999830625",
       "type": "review_requested",
       "verdict": "uncertain"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1780425005956,
-      "inputTokens": 415,
-      "message": "",
-      "outputTokens": 99,
-      "rationale": "This is a product update about Codex features, not a statement that usage limits or rate caps reset.",
-      "reasoningTokens": 50,
-      "totalTokens": 514,
-      "tweetId": "2061876999564791952",
-      "tweetText": "Tons of goodies for use of codex for day to day work. \n\nIf you are on a business plan you can now host and share websites, we launched vastly improved plugins and skills for broad roles and you can give feedback to your agent through visual annotations in docs, slides, sheets and more.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2061876999564791952",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "am2jiJfweKloP6sz3SK3fNwnOutqrsBpA3JsmIcK4CVTbsHeWVDQ2dMBAQ",
-    "iv": "9zC_PRadI30RIoSl",
-    "tag": "T1_teZjsJ0GBN11jivg5sA",
+    "ciphertext": "fL7w96FpmUKRminZ537bUCeM8toZakl9CpANaem7Q9ZcyBa8eS6MiK8_TA",
+    "iv": "l619xhVOp2ZL0Y7N",
+    "tag": "AowqHVPR_Y28QcC-H5x2OQ",
     "version": 1
   }
 }
