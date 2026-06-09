@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1780984662332,
-      "rationale": "This reply is just a joke/comment about Codex and does not mention limits or a reset.",
-      "tweetId": "2064224790672769307",
-      "tweetUrl": "https://x.com/thsottiaux/status/2064224790672769307",
+      "decidedAt": 1780984980044,
+      "rationale": "This is a playful reply about a personal schedule and does not indicate any Codex or ChatGPT limits have reset.",
+      "tweetId": "2064226495879668161",
+      "tweetUrl": "https://x.com/thsottiaux/status/2064226495879668161",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2064224790672769307",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2064224790672769307",
+    "lastSeenTweetId": "2064226495879668161",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2064226495879668161",
     "pendingReview": {
       "confidence": 0.97,
       "createdAt": 1780940410871,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2064038582529221017"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1780984980044,
+        "inputTokens": 385,
+        "outputTokens": 119,
+        "rationale": "This is a playful reply about a personal schedule and does not indicate any Codex or ChatGPT limits have reset.",
+        "reasoningTokens": 68,
+        "totalTokens": 504,
+        "tweetId": "2064226495879668161",
+        "tweetText": "@JinjingLiang @adamhfry My schedule:\n\nRest =&gt; Reset =&gt; Reset =&gt; Rest =&gt; ...",
+        "tweetUrl": "https://x.com/thsottiaux/status/2064226495879668161",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1780984662332,
@@ -279,29 +292,31 @@
         "tweetText": "We're fixing a codex bug today that was causing us to undercount tokens being served to some Pro and Plus accounts by a small amount. This impacted &lt; 15% of accounts.\n\nNot the kind of bug you want us to fix, but didn't want to do this silently and thought you should know.",
         "tweetUrl": "https://x.com/thsottiaux/status/2062648326332539015",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1780555194400,
-        "inputTokens": 359,
-        "outputTokens": 71,
-        "rationale": "This reply only says “Sam” and gives no indication that any limits or caps have reset.",
-        "reasoningTokens": 24,
-        "totalTokens": 430,
-        "tweetId": "2062423629510672715",
-        "tweetText": "@sami_babar463 Sam",
-        "tweetUrl": "https://x.com/thsottiaux/status/2062423629510672715",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 232133,
-      "totalOutputTokens": 62166,
-      "totalReasoningTokens": 33390,
-      "totalTokens": 294299
+      "totalInputTokens": 232518,
+      "totalOutputTokens": 62285,
+      "totalReasoningTokens": 33458,
+      "totalTokens": 294803
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1780984980044,
+      "inputTokens": 385,
+      "message": "",
+      "outputTokens": 119,
+      "rationale": "This is a playful reply about a personal schedule and does not indicate any Codex or ChatGPT limits have reset.",
+      "reasoningTokens": 68,
+      "totalTokens": 504,
+      "tweetId": "2064226495879668161",
+      "tweetText": "@JinjingLiang @adamhfry My schedule:\n\nRest =&gt; Reset =&gt; Reset =&gt; Rest =&gt; ...",
+      "tweetUrl": "https://x.com/thsottiaux/status/2064226495879668161",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1780984662332,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2061853042866282804",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1780375725031,
-      "inputTokens": 365,
-      "message": "",
-      "outputTokens": 82,
-      "rationale": "This reply is unrelated to Codex or ChatGPT usage limits resetting.",
-      "reasoningTokens": 40,
-      "totalTokens": 447,
-      "tweetId": "2061671243984822750",
-      "tweetText": "@apples_jimmy Can I vote or is that illegal?",
-      "tweetUrl": "https://x.com/thsottiaux/status/2061671243984822750",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "bLIruyFUtfrMM1Q9YMbbY9sk7qADnpn-8OBP4a8KsHawYP5qOf6-HdOROw",
-    "iv": "xbNWB-ld0MDJc2NF",
-    "tag": "GeRoocB-0SM9RRSDCoNgGA",
+    "ciphertext": "FT3kcJeJ5Y41b5CbR3wvRyeAksMZlVom-sgkWIAvKf0tlc3dF2SsB63lSg",
+    "iv": "SzEuYZrWcc2uVt3J",
+    "tag": "oXCUQyZlSb3RCe_tw8p1oQ",
     "version": 1
   }
 }
