@@ -14,16 +14,16 @@
   "updatedAt": 1780532876323,
   "automation": {
     "lastDecision": {
-      "confidence": 0.98,
-      "decidedAt": 1780980303087,
-      "rationale": "This announces a selected user getting 10X Codex usage, not that rate limits have reset for users now.",
-      "tweetId": "2064206679475134881",
-      "tweetUrl": "https://x.com/thsottiaux/status/2064206679475134881",
+      "confidence": 0.99,
+      "decidedAt": 1780983111901,
+      "rationale": "This post discusses new ChatGPT features and praise for the team, not limits or a reset.",
+      "tweetId": "2064217733722669539",
+      "tweetUrl": "https://x.com/thsottiaux/status/2064217733722669539",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2064206679475134881",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2064206679475134881",
+    "lastSeenTweetId": "2064217733722669539",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2064217733722669539",
     "pendingReview": {
       "confidence": 0.97,
       "createdAt": 1780940410871,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2064038582529221017"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1780983111901,
+        "inputTokens": 574,
+        "outputTokens": 107,
+        "rationale": "This post discusses new ChatGPT features and praise for the team, not limits or a reset.",
+        "reasoningTokens": 60,
+        "totalTokens": 681,
+        "tweetId": "2064217733722669539",
+        "tweetText": "ChatGPT goes interactive and gets better everyday. I am told @adamhfry, the team and codex won't rest until it is perfect.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2064217733722669539",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.98,
         "evaluatedAt": 1780980303087,
@@ -279,29 +292,31 @@
         "tweetText": "Hi. Over the last 24 hours we had three separate small incidents that affected Codex reliability. Those are three too many and we are taking active steps for them to not reproduce.\n\nI have reset usage limits for Codex across all paid plans. May the tokens flow again.",
         "tweetUrl": "https://x.com/thsottiaux/status/2062329981548802523",
         "verdict": "reset_confirmed"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1780528281973,
-        "inputTokens": 357,
-        "outputTokens": 81,
-        "rationale": "This reply is conversational and does not mention limits, caps, or usage returning.",
-        "reasoningTokens": 37,
-        "totalTokens": 438,
-        "tweetId": "2062310691076558929",
-        "tweetText": "Can't stop watching it.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2062310691076558929",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 230821,
-      "totalOutputTokens": 61881,
-      "totalReasoningTokens": 33245,
-      "totalTokens": 292702
+      "totalInputTokens": 231395,
+      "totalOutputTokens": 61988,
+      "totalReasoningTokens": 33305,
+      "totalTokens": 293383
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1780983111902,
+      "inputTokens": 574,
+      "message": "",
+      "outputTokens": 107,
+      "rationale": "This post discusses new ChatGPT features and praise for the team, not limits or a reset.",
+      "reasoningTokens": 60,
+      "totalTokens": 681,
+      "tweetId": "2064217733722669539",
+      "tweetText": "ChatGPT goes interactive and gets better everyday. I am told @adamhfry, the team and codex won't rest until it is perfect.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2064217733722669539",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.98,
       "createdAt": 1780980303087,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2061653778403881160",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1780369530908,
-      "inputTokens": 486,
-      "message": "",
-      "outputTokens": 128,
-      "rationale": "This post is about OpenAI models becoming available on AWS, not user rate limits resetting.",
-      "reasoningTokens": 82,
-      "totalTokens": 614,
-      "tweetId": "2061644307111796984",
-      "tweetText": "Heard that AWS is where the cool kids are. Hello. We have GPT-5.5.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2061644307111796984",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "kHa-DeGwVem7rOjCT1KTm95UwHG9dxVxXRNA5PpBVfkZFDNoc_PCl8b1ag",
-    "iv": "QduMJYVOlek58QnA",
-    "tag": "iCJ3WY0hkGhKQLfsno-dxA",
+    "ciphertext": "GVlGelqDEm87sZ0IzlSXvXTOfUL0A4ajdYNnNo-DOSWOt4Ch-fJVBGmAAg",
+    "iv": "TZJIlpwLLBA3sMZd",
+    "tag": "wwCpc_UMlc9qNkvIv77r9A",
     "version": 1
   }
 }
