@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1781004414481,
-      "rationale": "This post and its quote discuss using Codex features, not any cap or rate-limit reset.",
-      "tweetId": "2064307859903447396",
-      "tweetUrl": "https://x.com/thsottiaux/status/2064307859903447396",
+      "decidedAt": 1781004727114,
+      "rationale": "This is just a usage question about Codex, not a statement that limits reset or are available again.",
+      "tweetId": "2064308436133716008",
+      "tweetUrl": "https://x.com/thsottiaux/status/2064308436133716008",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2064307859903447396",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2064307859903447396",
+    "lastSeenTweetId": "2064308436133716008",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2064308436133716008",
     "pendingReview": {
       "confidence": 0.97,
       "createdAt": 1780940410871,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2064038582529221017"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1781004727114,
+        "inputTokens": 370,
+        "outputTokens": 88,
+        "rationale": "This is just a usage question about Codex, not a statement that limits reset or are available again.",
+        "reasoningTokens": 39,
+        "totalTokens": 458,
+        "tweetId": "2064308436133716008",
+        "tweetText": "Do you use codex /goal occasionally or as your main way to get things done?",
+        "tweetUrl": "https://x.com/thsottiaux/status/2064308436133716008",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1781004414481,
@@ -279,29 +292,31 @@
         "tweetText": "Incredible work from @simpsoka and team",
         "tweetUrl": "https://x.com/thsottiaux/status/2062997876297609257",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1780692123037,
-        "inputTokens": 459,
-        "outputTokens": 77,
-        "rationale": "This post is about Codex product improvements and adoption, not limits or rate-limit resets.",
-        "reasoningTokens": 31,
-        "totalTokens": 536,
-        "tweetId": "2062997768470474765",
-        "tweetText": "Codex papercuts 📉\nCodex adoption 📈",
-        "tweetUrl": "https://x.com/thsottiaux/status/2062997768470474765",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 234568,
-      "totalOutputTokens": 62846,
-      "totalReasoningTokens": 33786,
-      "totalTokens": 297414
+      "totalInputTokens": 234938,
+      "totalOutputTokens": 62934,
+      "totalReasoningTokens": 33825,
+      "totalTokens": 297872
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1781004727114,
+      "inputTokens": 370,
+      "message": "",
+      "outputTokens": 88,
+      "rationale": "This is just a usage question about Codex, not a statement that limits reset or are available again.",
+      "reasoningTokens": 39,
+      "totalTokens": 458,
+      "tweetId": "2064308436133716008",
+      "tweetText": "Do you use codex /goal occasionally or as your main way to get things done?",
+      "tweetUrl": "https://x.com/thsottiaux/status/2064308436133716008",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1781004414481,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2061877437798199411",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.95,
-      "createdAt": 1780425342600,
-      "inputTokens": 368,
-      "message": "",
-      "outputTokens": 222,
-      "rationale": "This reply contains only a mention and a link, so it does not clearly indicate that any limit has reset.",
-      "reasoningTokens": 172,
-      "totalTokens": 590,
-      "tweetId": "2061877241349546017",
-      "tweetText": "@nicdunz https://t.co/NvKKzB3bt3",
-      "tweetUrl": "https://x.com/thsottiaux/status/2061877241349546017",
-      "type": "review_requested",
-      "verdict": "uncertain"
     }
   ],
   "privateState": {
-    "ciphertext": "3pqV0VYMgCQb4L03d8vAaAWnK_Z-nMXJpUSbz8cSoS4BozxnXQyeKSqiWw",
-    "iv": "Hj2s4lahoB0vji_p",
-    "tag": "yAqfTP_q5UVd_2WggoVKRA",
+    "ciphertext": "HQg1uJJUU0-NXhccZtESXCjmbeyivQw40wPkuFi0Rl5Lap9AFCvUUgi69g",
+    "iv": "LoTflTmBR5ZoEx2Q",
+    "tag": "oBGjJcGZOMj3PtIUuw1xmQ",
     "version": 1
   }
 }
