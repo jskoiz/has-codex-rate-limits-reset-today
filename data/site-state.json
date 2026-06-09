@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1780985573435,
-      "rationale": "This reply is conversational and does not mention limits, caps, or usage becoming available again.",
-      "tweetId": "2064228137924448569",
-      "tweetUrl": "https://x.com/thsottiaux/status/2064228137924448569",
+      "decidedAt": 1781004414481,
+      "rationale": "This post and its quote discuss using Codex features, not any cap or rate-limit reset.",
+      "tweetId": "2064307859903447396",
+      "tweetUrl": "https://x.com/thsottiaux/status/2064307859903447396",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2064228137924448569",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2064228137924448569",
+    "lastSeenTweetId": "2064307859903447396",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2064307859903447396",
     "pendingReview": {
       "confidence": 0.97,
       "createdAt": 1780940410871,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2064038582529221017"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1781004414481,
+        "inputTokens": 462,
+        "outputTokens": 101,
+        "rationale": "This post and its quote discuss using Codex features, not any cap or rate-limit reset.",
+        "reasoningTokens": 54,
+        "totalTokens": 563,
+        "tweetId": "2064307859903447396",
+        "tweetText": "Playing codex like an orchestra. One /goal at a time.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2064307859903447396",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1780985573435,
@@ -279,29 +292,31 @@
         "tweetText": "Codex papercuts 📉\nCodex adoption 📈",
         "tweetUrl": "https://x.com/thsottiaux/status/2062997768470474765",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1780684622964,
-        "inputTokens": 446,
-        "outputTokens": 91,
-        "rationale": "This post discusses ChatGPT memory improvements, not any usage cap or rate limit reset.",
-        "reasoningTokens": 46,
-        "totalTokens": 537,
-        "tweetId": "2062966625733861752",
-        "tweetText": "Better memory = Shorter prompts = More utility per token",
-        "tweetUrl": "https://x.com/thsottiaux/status/2062966625733861752",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 234106,
-      "totalOutputTokens": 62745,
-      "totalReasoningTokens": 33732,
-      "totalTokens": 296851
+      "totalInputTokens": 234568,
+      "totalOutputTokens": 62846,
+      "totalReasoningTokens": 33786,
+      "totalTokens": 297414
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1781004414481,
+      "inputTokens": 462,
+      "message": "",
+      "outputTokens": 101,
+      "rationale": "This post and its quote discuss using Codex features, not any cap or rate-limit reset.",
+      "reasoningTokens": 54,
+      "totalTokens": 563,
+      "tweetId": "2064307859903447396",
+      "tweetText": "Playing codex like an orchestra. One /goal at a time.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2064307859903447396",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1780985573435,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2061877241349546017",
       "type": "review_requested",
       "verdict": "uncertain"
-    },
-    {
-      "confidence": 0.98,
-      "createdAt": 1780425335396,
-      "inputTokens": 375,
-      "message": "",
-      "outputTokens": 105,
-      "rationale": "This reply is just conversational and does not say limits or usage have reset.",
-      "reasoningTokens": 62,
-      "totalTokens": 480,
-      "tweetId": "2061877157387977188",
-      "tweetText": "@egorkabantsov It was this\n\nhttps://t.co/NvKKzB3bt3",
-      "tweetUrl": "https://x.com/thsottiaux/status/2061877157387977188",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "92-DM40WgUc39g7sZ7Q4BHiRKt9hIyP3yMhrVz2QRT-TZ8xidk97pAa8PA",
-    "iv": "m5nBjyFUag-NCPuF",
-    "tag": "ImCeHI12YAuDcKCtrg77WQ",
+    "ciphertext": "3pqV0VYMgCQb4L03d8vAaAWnK_Z-nMXJpUSbz8cSoS4BozxnXQyeKSqiWw",
+    "iv": "Hj2s4lahoB0vji_p",
+    "tag": "yAqfTP_q5UVd_2WggoVKRA",
     "version": 1
   }
 }
