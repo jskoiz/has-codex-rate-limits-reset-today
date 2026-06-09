@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1780984658998,
-      "rationale": "This post is about a controller and does not mention limits, caps, or usage resetting.",
-      "tweetId": "2064224657822413137",
-      "tweetUrl": "https://x.com/thsottiaux/status/2064224657822413137",
+      "decidedAt": 1780984662332,
+      "rationale": "This reply is just a joke/comment about Codex and does not mention limits or a reset.",
+      "tweetId": "2064224790672769307",
+      "tweetUrl": "https://x.com/thsottiaux/status/2064224790672769307",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2064224657822413137",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2064224657822413137",
+    "lastSeenTweetId": "2064224790672769307",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2064224790672769307",
     "pendingReview": {
       "confidence": 0.97,
       "createdAt": 1780940410871,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2064038582529221017"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1780984662332,
+        "inputTokens": 368,
+        "outputTokens": 94,
+        "rationale": "This reply is just a joke/comment about Codex and does not mention limits or a reset.",
+        "reasoningTokens": 47,
+        "totalTokens": 462,
+        "tweetId": "2064224790672769307",
+        "tweetText": "Not clear from the image, but the codex dial goes to 11.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2064224790672769307",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1780984658998,
@@ -279,29 +292,31 @@
         "tweetText": "@sami_babar463 Sam",
         "tweetUrl": "https://x.com/thsottiaux/status/2062423629510672715",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1780555191305,
-        "inputTokens": 382,
-        "outputTokens": 74,
-        "rationale": "This post is a general comment about OpenAI progress and does not mention rate limits or resets.",
-        "reasoningTokens": 27,
-        "totalTokens": 456,
-        "tweetId": "2062423528927015414",
-        "tweetText": "Lots of little vectors at OpenAI all pointing in the same direction. Excited to see it all add up and come together over the coming weeks.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2062423528927015414",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 231765,
-      "totalOutputTokens": 62072,
-      "totalReasoningTokens": 33343,
-      "totalTokens": 293837
+      "totalInputTokens": 232133,
+      "totalOutputTokens": 62166,
+      "totalReasoningTokens": 33390,
+      "totalTokens": 294299
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1780984662332,
+      "inputTokens": 368,
+      "message": "",
+      "outputTokens": 94,
+      "rationale": "This reply is just a joke/comment about Codex and does not mention limits or a reset.",
+      "reasoningTokens": 47,
+      "totalTokens": 462,
+      "tweetId": "2064224790672769307",
+      "tweetText": "Not clear from the image, but the codex dial goes to 11.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2064224790672769307",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1780984658998,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2061671243984822750",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1780372645855,
-      "inputTokens": 373,
-      "message": "",
-      "outputTokens": 81,
-      "rationale": "This post is a joke/comment about Codex and does not mention limits or a reset.",
-      "reasoningTokens": 35,
-      "totalTokens": 454,
-      "tweetId": "2061657264508006738",
-      "tweetText": "You can just codex ... a farm\nhttps://t.co/pwmS7IvqbH",
-      "tweetUrl": "https://x.com/thsottiaux/status/2061657264508006738",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "yVav8bbZ_0y5MhTxSTkIX3Sy08HkMZtJ9B8D5xEM7734Uolh22negd7ZAQ",
-    "iv": "yi6t178GdOWH0k7U",
-    "tag": "dmSxUBz2_kfPed6jVH6CyA",
+    "ciphertext": "bLIruyFUtfrMM1Q9YMbbY9sk7qADnpn-8OBP4a8KsHawYP5qOf6-HdOROw",
+    "iv": "xbNWB-ld0MDJc2NF",
+    "tag": "GeRoocB-0SM9RRSDCoNgGA",
     "version": 1
   }
 }
