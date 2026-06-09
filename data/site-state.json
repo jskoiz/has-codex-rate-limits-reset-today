@@ -14,16 +14,16 @@
   "updatedAt": 1780532876323,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1780940711324,
-      "rationale": "This reply is just conversational about using Codex all day and does not mention limits resetting.",
-      "tweetId": "2064039257392709683",
-      "tweetUrl": "https://x.com/thsottiaux/status/2064039257392709683",
+      "confidence": 0.98,
+      "decidedAt": 1780980303087,
+      "rationale": "This announces a selected user getting 10X Codex usage, not that rate limits have reset for users now.",
+      "tweetId": "2064206679475134881",
+      "tweetUrl": "https://x.com/thsottiaux/status/2064206679475134881",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2064039257392709683",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2064039257392709683",
+    "lastSeenTweetId": "2064206679475134881",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2064206679475134881",
     "pendingReview": {
       "confidence": 0.97,
       "createdAt": 1780940410871,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2064038582529221017"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.98,
+        "evaluatedAt": 1780980303087,
+        "inputTokens": 485,
+        "outputTokens": 150,
+        "rationale": "This announces a selected user getting 10X Codex usage, not that rate limits have reset for users now.",
+        "reasoningTokens": 99,
+        "totalTokens": 635,
+        "tweetId": "2064206679475134881",
+        "tweetText": "First one is @skirano. Enjoy the 10X and keep building magic. Who's next?\n\nhttps://t.co/2L3XWyhikG",
+        "tweetUrl": "https://x.com/thsottiaux/status/2064206679475134881",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1780940711324,
@@ -279,29 +292,31 @@
         "tweetText": "Can't stop watching it.",
         "tweetUrl": "https://x.com/thsottiaux/status/2062310691076558929",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1780528278525,
-        "inputTokens": 403,
-        "outputTokens": 58,
-        "rationale": "This is a promotional post about a Codex brand film and does not mention limits or availability resetting.",
-        "reasoningTokens": 10,
-        "totalTokens": 461,
-        "tweetId": "2062310660806205901",
-        "tweetText": "It’s time to fly!\n\nExcited to share the first short brand film for Codex. Catch it airing during Game 1 of the NBA Finals tonight.\n\nhttps://t.co/1J4Epczj8T",
-        "tweetUrl": "https://x.com/thsottiaux/status/2062310660806205901",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 230336,
-      "totalOutputTokens": 61731,
-      "totalReasoningTokens": 33146,
-      "totalTokens": 292067
+      "totalInputTokens": 230821,
+      "totalOutputTokens": 61881,
+      "totalReasoningTokens": 33245,
+      "totalTokens": 292702
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.98,
+      "createdAt": 1780980303087,
+      "inputTokens": 485,
+      "message": "",
+      "outputTokens": 150,
+      "rationale": "This announces a selected user getting 10X Codex usage, not that rate limits have reset for users now.",
+      "reasoningTokens": 99,
+      "totalTokens": 635,
+      "tweetId": "2064206679475134881",
+      "tweetText": "First one is @skirano. Enjoy the 10X and keep building magic. Who's next?\n\nhttps://t.co/2L3XWyhikG",
+      "tweetUrl": "https://x.com/thsottiaux/status/2064206679475134881",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1780940711324,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2061644307111796984",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1780352440954,
-      "inputTokens": 361,
-      "message": "",
-      "outputTokens": 91,
-      "rationale": "This is just a joking naming suggestion and says nothing about limits or availability.",
-      "reasoningTokens": 48,
-      "totalTokens": 452,
-      "tweetId": "2061572602888589807",
-      "tweetText": "Should we rename Codex to ChadGPT?",
-      "tweetUrl": "https://x.com/thsottiaux/status/2061572602888589807",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "lIdHXXJZ4EQlOGQG2cBA0umL2J8hdCToQImNQFfLWp57kd-2puRx2mZsIg",
-    "iv": "jVrclzafjB8NdJfP",
-    "tag": "f_vdcTlVfV_036KtmlG9CA",
+    "ciphertext": "kHa-DeGwVem7rOjCT1KTm95UwHG9dxVxXRNA5PpBVfkZFDNoc_PCl8b1ag",
+    "iv": "QduMJYVOlek58QnA",
+    "tag": "iCJ3WY0hkGhKQLfsno-dxA",
     "version": 1
   }
 }
