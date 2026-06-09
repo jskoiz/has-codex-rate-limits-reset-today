@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1780984980044,
-      "rationale": "This is a playful reply about a personal schedule and does not indicate any Codex or ChatGPT limits have reset.",
-      "tweetId": "2064226495879668161",
-      "tweetUrl": "https://x.com/thsottiaux/status/2064226495879668161",
+      "decidedAt": 1780985276344,
+      "rationale": "This post discusses coding-agent workflows and does not mention limits or a reset.",
+      "tweetId": "2064226958494572727",
+      "tweetUrl": "https://x.com/thsottiaux/status/2064226958494572727",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2064226495879668161",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2064226495879668161",
+    "lastSeenTweetId": "2064226958494572727",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2064226958494572727",
     "pendingReview": {
       "confidence": 0.97,
       "createdAt": 1780940410871,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2064038582529221017"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1780985276344,
+        "inputTokens": 416,
+        "outputTokens": 90,
+        "rationale": "This post discusses coding-agent workflows and does not mention limits or a reset.",
+        "reasoningTokens": 47,
+        "totalTokens": 506,
+        "tweetId": "2064226958494572727",
+        "tweetText": "Anyone writing nested loops yet?",
+        "tweetUrl": "https://x.com/thsottiaux/status/2064226958494572727",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1780984980044,
@@ -279,29 +292,31 @@
         "tweetText": "@Kappaemme1926 That's my line",
         "tweetUrl": "https://x.com/thsottiaux/status/2062689198403105262",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.98,
-        "evaluatedAt": 1780608782721,
-        "inputTokens": 417,
-        "outputTokens": 154,
-        "rationale": "This is about fixing a token-counting bug, not a clear statement that Codex or ChatGPT limits have reset.",
-        "reasoningTokens": 102,
-        "totalTokens": 571,
-        "tweetId": "2062648326332539015",
-        "tweetText": "We're fixing a codex bug today that was causing us to undercount tokens being served to some Pro and Plus accounts by a small amount. This impacted &lt; 15% of accounts.\n\nNot the kind of bug you want us to fix, but didn't want to do this silently and thought you should know.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2062648326332539015",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 232518,
-      "totalOutputTokens": 62285,
-      "totalReasoningTokens": 33458,
-      "totalTokens": 294803
+      "totalInputTokens": 232934,
+      "totalOutputTokens": 62375,
+      "totalReasoningTokens": 33505,
+      "totalTokens": 295309
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1780985276344,
+      "inputTokens": 416,
+      "message": "",
+      "outputTokens": 90,
+      "rationale": "This post discusses coding-agent workflows and does not mention limits or a reset.",
+      "reasoningTokens": 47,
+      "totalTokens": 506,
+      "tweetId": "2064226958494572727",
+      "tweetText": "Anyone writing nested loops yet?",
+      "tweetUrl": "https://x.com/thsottiaux/status/2064226958494572727",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1780984980044,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2061876538120065426",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1780419113471,
-      "inputTokens": 375,
-      "message": "",
-      "outputTokens": 76,
-      "rationale": "This reply is conversational and does not mention limits, caps, or usage resetting.",
-      "reasoningTokens": 32,
-      "totalTokens": 451,
-      "tweetId": "2061853042866282804",
-      "tweetText": "@svilendonmez @sama I can see that you ran a /goal for 155h 👀",
-      "tweetUrl": "https://x.com/thsottiaux/status/2061853042866282804",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "FT3kcJeJ5Y41b5CbR3wvRyeAksMZlVom-sgkWIAvKf0tlc3dF2SsB63lSg",
-    "iv": "SzEuYZrWcc2uVt3J",
-    "tag": "oXCUQyZlSb3RCe_tw8p1oQ",
+    "ciphertext": "C50muoVjbD-TvXfC3uvMO9YYtwarr6_ieDiuSf89eqJIb9av3WxD1oOHUA",
+    "iv": "oqlAcsXOe9VsGYxF",
+    "tag": "IfTtkrBSZVh1AAR7A7xYqg",
     "version": 1
   }
 }
