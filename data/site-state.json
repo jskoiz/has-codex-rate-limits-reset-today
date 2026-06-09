@@ -14,16 +14,16 @@
   "updatedAt": 1780532876323,
   "automation": {
     "lastDecision": {
-      "confidence": 0.97,
-      "decidedAt": 1780985287792,
-      "rationale": "This reply is a playful comment about “rest/reset” and does not indicate ChatGPT or Codex limits are available again.",
-      "tweetId": "2064227730884055063",
-      "tweetUrl": "https://x.com/thsottiaux/status/2064227730884055063",
+      "confidence": 0.99,
+      "decidedAt": 1780985573435,
+      "rationale": "This reply is conversational and does not mention limits, caps, or usage becoming available again.",
+      "tweetId": "2064228137924448569",
+      "tweetUrl": "https://x.com/thsottiaux/status/2064228137924448569",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2064227730884055063",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2064227730884055063",
+    "lastSeenTweetId": "2064228137924448569",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2064228137924448569",
     "pendingReview": {
       "confidence": 0.97,
       "createdAt": 1780940410871,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2064038582529221017"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1780985573435,
+        "inputTokens": 367,
+        "outputTokens": 84,
+        "rationale": "This reply is conversational and does not mention limits, caps, or usage becoming available again.",
+        "reasoningTokens": 38,
+        "totalTokens": 451,
+        "tweetId": "2064228137924448569",
+        "tweetText": "@llmDestructor 99 days left, 99 more opportunities to disappoint",
+        "tweetUrl": "https://x.com/thsottiaux/status/2064228137924448569",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.97,
         "evaluatedAt": 1780985287792,
@@ -279,29 +292,31 @@
         "tweetText": "Better memory = Shorter prompts = More utility per token",
         "tweetUrl": "https://x.com/thsottiaux/status/2062966625733861752",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1780683417924,
-        "inputTokens": 419,
-        "outputTokens": 114,
-        "rationale": "This is just a correction about installing openai-codex, not a statement about limits resetting.",
-        "reasoningTokens": 66,
-        "totalTokens": 533,
-        "tweetId": "2062961096760447392",
-        "tweetText": "I meant `uv add openai-codex`. Obviously.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2062961096760447392",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 233739,
-      "totalOutputTokens": 62661,
-      "totalReasoningTokens": 33694,
-      "totalTokens": 296400
+      "totalInputTokens": 234106,
+      "totalOutputTokens": 62745,
+      "totalReasoningTokens": 33732,
+      "totalTokens": 296851
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1780985573435,
+      "inputTokens": 367,
+      "message": "",
+      "outputTokens": 84,
+      "rationale": "This reply is conversational and does not mention limits, caps, or usage becoming available again.",
+      "reasoningTokens": 38,
+      "totalTokens": 451,
+      "tweetId": "2064228137924448569",
+      "tweetText": "@llmDestructor 99 days left, 99 more opportunities to disappoint",
+      "tweetUrl": "https://x.com/thsottiaux/status/2064228137924448569",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.97,
       "createdAt": 1780985287792,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2061877157387977188",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.15,
-      "createdAt": 1780425012008,
-      "inputTokens": 365,
-      "message": "",
-      "outputTokens": 218,
-      "rationale": "This reply only contains a link, so it does not clearly show that limits have reset.",
-      "reasoningTokens": 172,
-      "totalTokens": 583,
-      "tweetId": "2061877014999830625",
-      "tweetText": "https://t.co/NvKKzB3bt3",
-      "tweetUrl": "https://x.com/thsottiaux/status/2061877014999830625",
-      "type": "review_requested",
-      "verdict": "uncertain"
     }
   ],
   "privateState": {
-    "ciphertext": "fL7w96FpmUKRminZ537bUCeM8toZakl9CpANaem7Q9ZcyBa8eS6MiK8_TA",
-    "iv": "l619xhVOp2ZL0Y7N",
-    "tag": "AowqHVPR_Y28QcC-H5x2OQ",
+    "ciphertext": "92-DM40WgUc39g7sZ7Q4BHiRKt9hIyP3yMhrVz2QRT-TZ8xidk97pAa8PA",
+    "iv": "m5nBjyFUag-NCPuF",
+    "tag": "ImCeHI12YAuDcKCtrg77WQ",
     "version": 1
   }
 }
