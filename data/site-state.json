@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1781004727114,
-      "rationale": "This is just a usage question about Codex, not a statement that limits reset or are available again.",
-      "tweetId": "2064308436133716008",
-      "tweetUrl": "https://x.com/thsottiaux/status/2064308436133716008",
+      "decidedAt": 1781005371060,
+      "rationale": "This reply is a joke about thread complexity and does not mention limits or a reset.",
+      "tweetId": "2064311852461371604",
+      "tweetUrl": "https://x.com/thsottiaux/status/2064311852461371604",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2064308436133716008",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2064308436133716008",
+    "lastSeenTweetId": "2064311852461371604",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2064311852461371604",
     "pendingReview": {
       "confidence": 0.97,
       "createdAt": 1780940410871,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2064038582529221017"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1781005371060,
+        "inputTokens": 365,
+        "outputTokens": 71,
+        "rationale": "This reply is a joke about thread complexity and does not mention limits or a reset.",
+        "reasoningTokens": 26,
+        "totalTokens": 436,
+        "tweetId": "2064311852461371604",
+        "tweetText": "@Dimillian Soon you will need an org chart for your threads",
+        "tweetUrl": "https://x.com/thsottiaux/status/2064311852461371604",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1781004727114,
@@ -279,29 +292,31 @@
         "tweetText": "I have a new kind of big button that I can press for Codex. Over the next 100 days, we will select one person per day who does impressive or incredibly useful work with Codex and give them 10X usage limits for a month to see what they can do with it.\n\nFirst one tomorrow.",
         "tweetUrl": "https://x.com/thsottiaux/status/2063748242681307611",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1780692126667,
-        "inputTokens": 363,
-        "outputTokens": 85,
-        "rationale": "This reply praises someone’s work and does not mention limits, caps, or resets.",
-        "reasoningTokens": 40,
-        "totalTokens": 448,
-        "tweetId": "2062997876297609257",
-        "tweetText": "Incredible work from @simpsoka and team",
-        "tweetUrl": "https://x.com/thsottiaux/status/2062997876297609257",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 234938,
-      "totalOutputTokens": 62934,
-      "totalReasoningTokens": 33825,
-      "totalTokens": 297872
+      "totalInputTokens": 235303,
+      "totalOutputTokens": 63005,
+      "totalReasoningTokens": 33851,
+      "totalTokens": 298308
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1781005371060,
+      "inputTokens": 365,
+      "message": "",
+      "outputTokens": 71,
+      "rationale": "This reply is a joke about thread complexity and does not mention limits or a reset.",
+      "reasoningTokens": 26,
+      "totalTokens": 436,
+      "tweetId": "2064311852461371604",
+      "tweetText": "@Dimillian Soon you will need an org chart for your threads",
+      "tweetUrl": "https://x.com/thsottiaux/status/2064311852461371604",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1781004727114,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2061877692937695675",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1780425621987,
-      "inputTokens": 367,
-      "message": "",
-      "outputTokens": 110,
-      "rationale": "This reply is just conversational and does not mention any Codex or ChatGPT limit reset.",
-      "reasoningTokens": 64,
-      "totalTokens": 477,
-      "tweetId": "2061877437798199411",
-      "tweetText": "@dumbfook 👨‍🍳 Codex cooking codex",
-      "tweetUrl": "https://x.com/thsottiaux/status/2061877437798199411",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "HQg1uJJUU0-NXhccZtESXCjmbeyivQw40wPkuFi0Rl5Lap9AFCvUUgi69g",
-    "iv": "LoTflTmBR5ZoEx2Q",
-    "tag": "oBGjJcGZOMj3PtIUuw1xmQ",
+    "ciphertext": "MTZbdY0VrjHJgPesammeAB8B-UXOaSiOiGV-EGnJVBKtd43vgvaDn1YM4g",
+    "iv": "SRGCYaPzE7_i2LOZ",
+    "tag": "KAx243ptmP9GHs-W1zFF2Q",
     "version": 1
   }
 }
