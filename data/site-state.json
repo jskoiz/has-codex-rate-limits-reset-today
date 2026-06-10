@@ -14,16 +14,16 @@
   "updatedAt": 1780532876323,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1781066806116,
-      "rationale": "This reply is promotional and does not mention limits, caps, or a reset.",
-      "tweetId": "2064569673367404624",
-      "tweetUrl": "https://x.com/thsottiaux/status/2064569673367404624",
+      "confidence": 0.97,
+      "decidedAt": 1781067414523,
+      "rationale": "This reply is just conversational and does not mention limits, caps, or usage becoming available again.",
+      "tweetId": "2064572118264913923",
+      "tweetUrl": "https://x.com/thsottiaux/status/2064572118264913923",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2064569673367404624",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2064569673367404624",
+    "lastSeenTweetId": "2064572118264913923",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2064572118264913923",
     "pendingReview": {
       "confidence": 0.97,
       "createdAt": 1780940410871,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2064038582529221017"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.97,
+        "evaluatedAt": 1781067414523,
+        "inputTokens": 362,
+        "outputTokens": 184,
+        "rationale": "This reply is just conversational and does not mention limits, caps, or usage becoming available again.",
+        "reasoningTokens": 137,
+        "totalTokens": 546,
+        "tweetId": "2064572118264913923",
+        "tweetText": "@robertcourson Feeling pretty good about things",
+        "tweetUrl": "https://x.com/thsottiaux/status/2064572118264913923",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1781066806116,
@@ -279,29 +292,31 @@
         "tweetText": "@ajambrosino Loopdedoo https://t.co/kCOPW6QpiS",
         "tweetUrl": "https://x.com/thsottiaux/status/2063771435194261915",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1780876441975,
-        "inputTokens": 359,
-        "outputTokens": 76,
-        "rationale": "This reply does not mention limits, caps, or a reset.",
-        "reasoningTokens": 35,
-        "totalTokens": 435,
-        "tweetId": "2063771005332697532",
-        "tweetText": "@BHolmesDev Accelerating",
-        "tweetUrl": "https://x.com/thsottiaux/status/2063771005332697532",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 235670,
-      "totalOutputTokens": 63085,
-      "totalReasoningTokens": 33887,
-      "totalTokens": 298755
+      "totalInputTokens": 236032,
+      "totalOutputTokens": 63269,
+      "totalReasoningTokens": 34024,
+      "totalTokens": 299301
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.97,
+      "createdAt": 1781067414523,
+      "inputTokens": 362,
+      "message": "",
+      "outputTokens": 184,
+      "rationale": "This reply is just conversational and does not mention limits, caps, or usage becoming available again.",
+      "reasoningTokens": 137,
+      "totalTokens": 546,
+      "tweetId": "2064572118264913923",
+      "tweetText": "@robertcourson Feeling pretty good about things",
+      "tweetUrl": "https://x.com/thsottiaux/status/2064572118264913923",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1781066806116,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2061954156143993227",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1780425631000,
-      "inputTokens": 360,
-      "message": "",
-      "outputTokens": 74,
-      "rationale": "This reply only corrects a typo and does not mention any limit or reset.",
-      "reasoningTokens": 30,
-      "totalTokens": 434,
-      "tweetId": "2061877836408086600",
-      "tweetText": "@haider1 Typo, sorry.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2061877836408086600",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "si4GO9WV0LtsWCUcY0SE-q_6ALcUvatPf5vIM9fXNy-vCb6QoOYLmCSBDQ",
-    "iv": "Zcf5AbHXKkIG0IAc",
-    "tag": "R8dCX6v3RYikY4sKEKAcsw",
+    "ciphertext": "jqPhwEP1fSUKqWq4vLEFeYyGyHILtXw5P4cAPEMXW6aFLbJxTeqkRdJ9KA",
+    "iv": "V-wSB-qk23f7EATJ",
+    "tag": "FuFVHV0AwwckIaFgYMbdAw",
     "version": 1
   }
 }
