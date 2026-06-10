@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1781005371060,
-      "rationale": "This reply is a joke about thread complexity and does not mention limits or a reset.",
-      "tweetId": "2064311852461371604",
-      "tweetUrl": "https://x.com/thsottiaux/status/2064311852461371604",
+      "decidedAt": 1781066806116,
+      "rationale": "This reply is promotional and does not mention limits, caps, or a reset.",
+      "tweetId": "2064569673367404624",
+      "tweetUrl": "https://x.com/thsottiaux/status/2064569673367404624",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2064311852461371604",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2064311852461371604",
+    "lastSeenTweetId": "2064569673367404624",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2064569673367404624",
     "pendingReview": {
       "confidence": 0.97,
       "createdAt": 1780940410871,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2064038582529221017"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1781066806116,
+        "inputTokens": 367,
+        "outputTokens": 80,
+        "rationale": "This reply is promotional and does not mention limits, caps, or a reset.",
+        "reasoningTokens": 36,
+        "totalTokens": 447,
+        "tweetId": "2064569673367404624",
+        "tweetText": "@MeekMill Can't live without the Codex App. Built for everyone.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2064569673367404624",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1781005371060,
@@ -279,29 +292,31 @@
         "tweetText": "@BHolmesDev Accelerating",
         "tweetUrl": "https://x.com/thsottiaux/status/2063771005332697532",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1780870912860,
-        "inputTokens": 418,
-        "outputTokens": 89,
-        "rationale": "This announces a future promotion for higher Codex limits, not that existing limits have reset or become available…",
-        "reasoningTokens": 38,
-        "totalTokens": 507,
-        "tweetId": "2063748242681307611",
-        "tweetText": "I have a new kind of big button that I can press for Codex. Over the next 100 days, we will select one person per day who does impressive or incredibly useful work with Codex and give them 10X usage limits for a month to see what they can do with it.\n\nFirst one tomorrow.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2063748242681307611",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 235303,
-      "totalOutputTokens": 63005,
-      "totalReasoningTokens": 33851,
-      "totalTokens": 298308
+      "totalInputTokens": 235670,
+      "totalOutputTokens": 63085,
+      "totalReasoningTokens": 33887,
+      "totalTokens": 298755
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1781066806116,
+      "inputTokens": 367,
+      "message": "",
+      "outputTokens": 80,
+      "rationale": "This reply is promotional and does not mention limits, caps, or a reset.",
+      "reasoningTokens": 36,
+      "totalTokens": 447,
+      "tweetId": "2064569673367404624",
+      "tweetText": "@MeekMill Can't live without the Codex App. Built for everyone.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2064569673367404624",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1781005371060,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2061877836408086600",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1780425625929,
-      "inputTokens": 382,
-      "message": "",
-      "outputTokens": 129,
-      "rationale": "This reply does not mention Codex or ChatGPT limits, caps, or usage becoming available again.",
-      "reasoningTokens": 81,
-      "totalTokens": 511,
-      "tweetId": "2061877692937695675",
-      "tweetText": "@yacineMTB @ajambrosino Time to go on that 6 month holiday. Tell the team. It's over. We did it.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2061877692937695675",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "MTZbdY0VrjHJgPesammeAB8B-UXOaSiOiGV-EGnJVBKtd43vgvaDn1YM4g",
-    "iv": "SRGCYaPzE7_i2LOZ",
-    "tag": "KAx243ptmP9GHs-W1zFF2Q",
+    "ciphertext": "si4GO9WV0LtsWCUcY0SE-q_6ALcUvatPf5vIM9fXNy-vCb6QoOYLmCSBDQ",
+    "iv": "Zcf5AbHXKkIG0IAc",
+    "tag": "R8dCX6v3RYikY4sKEKAcsw",
     "version": 1
   }
 }
