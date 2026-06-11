@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1781147064504,
-      "rationale": "This reply is just conversational and does not mention limits or a reset.",
-      "tweetId": "2064905824640856256",
-      "tweetUrl": "https://x.com/thsottiaux/status/2064905824640856256",
+      "decidedAt": 1781147067520,
+      "rationale": "This reply is unrelated to rate limits or usage resets.",
+      "tweetId": "2064905973643583559",
+      "tweetUrl": "https://x.com/thsottiaux/status/2064905973643583559",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2064905824640856256",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2064905824640856256",
+    "lastSeenTweetId": "2064905973643583559",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2064905973643583559",
     "pendingReview": {
       "confidence": 0.92,
       "createdAt": 1781145838417,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2064900424264798601"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1781147067520,
+        "inputTokens": 359,
+        "outputTokens": 73,
+        "rationale": "This reply is unrelated to rate limits or usage resets.",
+        "reasoningTokens": 34,
+        "totalTokens": 432,
+        "tweetId": "2064905973643583559",
+        "tweetText": "@jxnlco Doesn't iron well",
+        "tweetUrl": "https://x.com/thsottiaux/status/2064905973643583559",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1781147064504,
@@ -279,29 +292,31 @@
         "tweetText": "Not clear from the image, but the codex dial goes to 11.",
         "tweetUrl": "https://x.com/thsottiaux/status/2064224790672769307",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1780984658998,
-        "inputTokens": 370,
-        "outputTokens": 84,
-        "rationale": "This post is about a controller and does not mention limits, caps, or usage resetting.",
-        "reasoningTokens": 38,
-        "totalTokens": 454,
-        "tweetId": "2064224657822413137",
-        "tweetText": "Would you use this controller? https://t.co/k3tWgio5XD",
-        "tweetUrl": "https://x.com/thsottiaux/status/2064224657822413137",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 240149,
-      "totalOutputTokens": 64164,
-      "totalReasoningTokens": 34554,
-      "totalTokens": 304313
+      "totalInputTokens": 240508,
+      "totalOutputTokens": 64237,
+      "totalReasoningTokens": 34588,
+      "totalTokens": 304745
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1781147067520,
+      "inputTokens": 359,
+      "message": "",
+      "outputTokens": 73,
+      "rationale": "This reply is unrelated to rate limits or usage resets.",
+      "reasoningTokens": 34,
+      "totalTokens": 432,
+      "tweetId": "2064905973643583559",
+      "tweetText": "@jxnlco Doesn't iron well",
+      "tweetUrl": "https://x.com/thsottiaux/status/2064905973643583559",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1781147064504,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2062648326332539015",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1780555194400,
-      "inputTokens": 359,
-      "message": "",
-      "outputTokens": 71,
-      "rationale": "This reply only says “Sam” and gives no indication that any limits or caps have reset.",
-      "reasoningTokens": 24,
-      "totalTokens": 430,
-      "tweetId": "2062423629510672715",
-      "tweetText": "@sami_babar463 Sam",
-      "tweetUrl": "https://x.com/thsottiaux/status/2062423629510672715",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "cZejf0hLYG0QzTNNiKp_L-CA0imlE92Kdvo7zT9YYZ5kpfSdQ3S4KDYklg",
-    "iv": "WbYhI4fwK6yBrwRf",
-    "tag": "prUFmxbBST8qOVhIvM168g",
+    "ciphertext": "rz762eeYk4nZUfT08B8kG12g1Idn78IuOI5IybIHF5eZscMWpJWdogpxFw",
+    "iv": "WpI6YqGqwas4itvF",
+    "tag": "QpDJ6eb3jUU5fq22nbIXsQ",
     "version": 1
   }
 }
