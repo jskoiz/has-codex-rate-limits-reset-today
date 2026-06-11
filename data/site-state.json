@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1781138420100,
-      "rationale": "This post and its quote are about OpenAI cybersecurity hiring and plans, not usage limits or a rate-limit reset.",
-      "tweetId": "2064869401359417799",
-      "tweetUrl": "https://x.com/thsottiaux/status/2064869401359417799",
+      "decidedAt": 1781145831636,
+      "rationale": "This post comments on a ChatGPT model picker update, not on usage limits or a rate-limit reset.",
+      "tweetId": "2064900105032135010",
+      "tweetUrl": "https://x.com/thsottiaux/status/2064900105032135010",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2064869401359417799",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2064869401359417799",
+    "lastSeenTweetId": "2064900105032135010",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2064900105032135010",
     "pendingReview": {
       "confidence": 0.97,
       "createdAt": 1780940410871,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2064038582529221017"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1781145831636,
+        "inputTokens": 671,
+        "outputTokens": 107,
+        "rationale": "This post comments on a ChatGPT model picker update, not on usage limits or a rate-limit reset.",
+        "reasoningTokens": 58,
+        "totalTokens": 778,
+        "tweetId": "2064900105032135010",
+        "tweetText": "Simplify until there is nothing to simplify",
+        "tweetUrl": "https://x.com/thsottiaux/status/2064900105032135010",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1781138420100,
@@ -279,29 +292,31 @@
         "tweetText": "@ajambrosino @Miles_Brundage BRB training on your tweets to power the goblin personality",
         "tweetUrl": "https://x.com/thsottiaux/status/2063867254945767838",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1780889788744,
-        "inputTokens": 359,
-        "outputTokens": 77,
-        "rationale": "This reply is just conversational and does not mention limits, caps, or a reset.",
-        "reasoningTokens": 32,
-        "totalTokens": 436,
-        "tweetId": "2063826811373658213",
-        "tweetText": "@vqbaobui Build stuff",
-        "tweetUrl": "https://x.com/thsottiaux/status/2063826811373658213",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 237672,
-      "totalOutputTokens": 63477,
-      "totalReasoningTokens": 34137,
-      "totalTokens": 301149
+      "totalInputTokens": 238343,
+      "totalOutputTokens": 63584,
+      "totalReasoningTokens": 34195,
+      "totalTokens": 301927
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1781145831636,
+      "inputTokens": 671,
+      "message": "",
+      "outputTokens": 107,
+      "rationale": "This post comments on a ChatGPT model picker update, not on usage limits or a rate-limit reset.",
+      "reasoningTokens": 58,
+      "totalTokens": 778,
+      "tweetId": "2064900105032135010",
+      "tweetText": "Simplify until there is nothing to simplify",
+      "tweetUrl": "https://x.com/thsottiaux/status/2064900105032135010",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1781138420100,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2062057881424506950",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1780443653193,
-      "inputTokens": 413,
-      "message": "",
-      "outputTokens": 71,
-      "rationale": "This post is a conversational joke about Codex demos, not about limits or usage resetting.",
-      "reasoningTokens": 25,
-      "totalTokens": 484,
-      "tweetId": "2061955520291037289",
-      "tweetText": "@romainhuet in each of our Codex demos. Whether it's last minute or not. Doesn't matter. Always prepared.\n\nWhips out the laptop, proceeds through 23 different personas as if he were Kevin in Split. https://t.co/ewO7LRN7D6",
-      "tweetUrl": "https://x.com/thsottiaux/status/2061955520291037289",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "7_3UWhUFFWt1KFCBIpDWyfwdCK62oG0aCpW6Veg0RGYsPnIvp800jW7m6g",
-    "iv": "2i4WsGf22Mz2ru5V",
-    "tag": "M0TbFZejtmw_qsIsU7XARA",
+    "ciphertext": "lMCBNH88GE00MURT1TcWY0ui2MjM0nyE6P1afFE3MvYZ9UKZ6z9gL1pmFw",
+    "iv": "QcQKYqD_V6rz1zRo",
+    "tag": "YI2RwAAsQ2Iqt6DAUuod6Q",
     "version": 1
   }
 }
