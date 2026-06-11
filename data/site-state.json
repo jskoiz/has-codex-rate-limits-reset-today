@@ -14,25 +14,38 @@
   "updatedAt": 1780532876323,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1781145831636,
-      "rationale": "This post comments on a ChatGPT model picker update, not on usage limits or a rate-limit reset.",
-      "tweetId": "2064900105032135010",
-      "tweetUrl": "https://x.com/thsottiaux/status/2064900105032135010",
-      "verdict": "not_reset"
+      "confidence": 0.92,
+      "decidedAt": 1781145838417,
+      "rationale": "This reply only says “Exactly,” so it gives no clear evidence that limits have reset.",
+      "tweetId": "2064900424264798601",
+      "tweetUrl": "https://x.com/thsottiaux/status/2064900424264798601",
+      "verdict": "uncertain"
     },
     "lastError": null,
-    "lastSeenTweetId": "2064900105032135010",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2064900105032135010",
+    "lastSeenTweetId": "2064900424264798601",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2064900424264798601",
     "pendingReview": {
-      "confidence": 0.97,
-      "createdAt": 1780940410871,
-      "rationale": "This reply alone does not clearly indicate that any limit has reset.",
-      "tweetId": "2064038582529221017",
-      "tweetText": "@YashHustle_22 No",
-      "tweetUrl": "https://x.com/thsottiaux/status/2064038582529221017"
+      "confidence": 0.92,
+      "createdAt": 1781145838417,
+      "rationale": "This reply only says “Exactly,” so it gives no clear evidence that limits have reset.",
+      "tweetId": "2064900424264798601",
+      "tweetText": "@ArduousAtaraxia Exactly",
+      "tweetUrl": "https://x.com/thsottiaux/status/2064900424264798601"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.92,
+        "evaluatedAt": 1781145838417,
+        "inputTokens": 361,
+        "outputTokens": 277,
+        "rationale": "This reply only says “Exactly,” so it gives no clear evidence that limits have reset.",
+        "reasoningTokens": 231,
+        "totalTokens": 638,
+        "tweetId": "2064900424264798601",
+        "tweetText": "@ArduousAtaraxia Exactly",
+        "tweetUrl": "https://x.com/thsottiaux/status/2064900424264798601",
+        "verdict": "uncertain"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1781145831636,
@@ -279,29 +292,31 @@
         "tweetText": "@YashHustle_22 No",
         "tweetUrl": "https://x.com/thsottiaux/status/2064038582529221017",
         "verdict": "uncertain"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1780899394444,
-        "inputTokens": 375,
-        "outputTokens": 73,
-        "rationale": "This is a conversational joke and does not mention limits, caps, or usage resetting.",
-        "reasoningTokens": 28,
-        "totalTokens": 448,
-        "tweetId": "2063867254945767838",
-        "tweetText": "@ajambrosino @Miles_Brundage BRB training on your tweets to power the goblin personality",
-        "tweetUrl": "https://x.com/thsottiaux/status/2063867254945767838",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 238343,
-      "totalOutputTokens": 63584,
-      "totalReasoningTokens": 34195,
-      "totalTokens": 301927
+      "totalInputTokens": 238704,
+      "totalOutputTokens": 63861,
+      "totalReasoningTokens": 34426,
+      "totalTokens": 302565
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.92,
+      "createdAt": 1781145838417,
+      "inputTokens": 361,
+      "message": "",
+      "outputTokens": 277,
+      "rationale": "This reply only says “Exactly,” so it gives no clear evidence that limits have reset.",
+      "reasoningTokens": 231,
+      "totalTokens": 638,
+      "tweetId": "2064900424264798601",
+      "tweetText": "@ArduousAtaraxia Exactly",
+      "tweetUrl": "https://x.com/thsottiaux/status/2064900424264798601",
+      "type": "review_requested",
+      "verdict": "uncertain"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1781145831636,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2062310660806205901",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1780468074420,
-      "inputTokens": 393,
-      "message": "",
-      "outputTokens": 88,
-      "rationale": "This is general commentary about ChatGPT and does not mention limits, caps, or a reset.",
-      "reasoningTokens": 41,
-      "totalTokens": 481,
-      "tweetId": "2062057881424506950",
-      "tweetText": "ChatGPT\n\nWhether you understand the name or not. It's here to stay. It's the past, the present, the future. Synonym with AI, soon synonym with agents. Much to build.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2062057881424506950",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "lMCBNH88GE00MURT1TcWY0ui2MjM0nyE6P1afFE3MvYZ9UKZ6z9gL1pmFw",
-    "iv": "QcQKYqD_V6rz1zRo",
-    "tag": "YI2RwAAsQ2Iqt6DAUuod6Q",
+    "ciphertext": "Q_lS511QeugxrkSHCUaT-Gkz4V83nh6UWO7fyIoMygdU9SFtmRfdKv_A1A",
+    "iv": "D_HCGg3WmmdUce5L",
+    "tag": "IAjMhKbKPShT0L4KHtMFLw",
     "version": 1
   }
 }
