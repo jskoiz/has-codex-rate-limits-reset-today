@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1781067418048,
-      "rationale": "This is a joke about model naming and does not mention limits or a reset.",
-      "tweetId": "2064572276180484475",
-      "tweetUrl": "https://x.com/thsottiaux/status/2064572276180484475",
+      "decidedAt": 1781138420100,
+      "rationale": "This post and its quote are about OpenAI cybersecurity hiring and plans, not usage limits or a rate-limit reset.",
+      "tweetId": "2064869401359417799",
+      "tweetUrl": "https://x.com/thsottiaux/status/2064869401359417799",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2064572276180484475",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2064572276180484475",
+    "lastSeenTweetId": "2064869401359417799",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2064869401359417799",
     "pendingReview": {
       "confidence": 0.97,
       "createdAt": 1780940410871,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2064038582529221017"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1781138420100,
+        "inputTokens": 1226,
+        "outputTokens": 104,
+        "rationale": "This post and its quote are about OpenAI cybersecurity hiring and plans, not usage limits or a rate-limit reset.",
+        "reasoningTokens": 53,
+        "totalTokens": 1330,
+        "tweetId": "2064869401359417799",
+        "tweetText": "Welcome Clint and Michael! Incredibly excited to see what we do together to contribute to the cybersecurity field and accelerate defenders across the globe.\n\nIt's time to build.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2064869401359417799",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1781067418048,
@@ -279,29 +292,31 @@
         "tweetText": "@vqbaobui Build stuff",
         "tweetUrl": "https://x.com/thsottiaux/status/2063826811373658213",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1780877065801,
-        "inputTokens": 364,
-        "outputTokens": 68,
-        "rationale": "This reply is just conversational and does not mention limits or a reset.",
-        "reasoningTokens": 26,
-        "totalTokens": 432,
-        "tweetId": "2063772925644464276",
-        "tweetText": "@ChiaraCervetta @ChatGPTapp Agreed!",
-        "tweetUrl": "https://x.com/thsottiaux/status/2063772925644464276",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 236446,
-      "totalOutputTokens": 63373,
-      "totalReasoningTokens": 34084,
-      "totalTokens": 299819
+      "totalInputTokens": 237672,
+      "totalOutputTokens": 63477,
+      "totalReasoningTokens": 34137,
+      "totalTokens": 301149
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1781138420100,
+      "inputTokens": 1226,
+      "message": "",
+      "outputTokens": 104,
+      "rationale": "This post and its quote are about OpenAI cybersecurity hiring and plans, not usage limits or a rate-limit reset.",
+      "reasoningTokens": 53,
+      "totalTokens": 1330,
+      "tweetId": "2064869401359417799",
+      "tweetText": "Welcome Clint and Michael! Incredibly excited to see what we do together to contribute to the cybersecurity field and accelerate defenders across the globe.\n\nIt's time to build.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2064869401359417799",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1781067418048,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2061955520291037289",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1780443354381,
-      "inputTokens": 366,
-      "message": "",
-      "outputTokens": 78,
-      "rationale": "This reply is about troubleshooting feedback and does not mention limits or a reset.",
-      "reasoningTokens": 35,
-      "totalTokens": 444,
-      "tweetId": "2061954293125853361",
-      "tweetText": "@AnthonyBerlin Do you have a thread id?\n\n/feedback",
-      "tweetUrl": "https://x.com/thsottiaux/status/2061954293125853361",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "oOAMT9a1v7h3Kh35c818aSNlV_NujUxaEtL3uk9Z66p56dlMOpbnvQ6hQQ",
-    "iv": "XpG7s6UNj1opS2kM",
-    "tag": "nzxKkIoKRm1ILXHZJCReSg",
+    "ciphertext": "7_3UWhUFFWt1KFCBIpDWyfwdCK62oG0aCpW6Veg0RGYsPnIvp800jW7m6g",
+    "iv": "2i4WsGf22Mz2ru5V",
+    "tag": "M0TbFZejtmw_qsIsU7XARA",
     "version": 1
   }
 }
