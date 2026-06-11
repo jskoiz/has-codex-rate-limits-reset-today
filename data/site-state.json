@@ -14,16 +14,16 @@
   "updatedAt": 1780532876323,
   "automation": {
     "lastDecision": {
-      "confidence": 0.6,
-      "decidedAt": 1781198110161,
-      "rationale": "This reply could be acknowledging a reset, but without the parent tweet it is not explicit enough to confirm.",
-      "tweetId": "2065119757205151786",
-      "tweetUrl": "https://x.com/thsottiaux/status/2065119757205151786",
-      "verdict": "uncertain"
+      "confidence": 0.99,
+      "decidedAt": 1781215504564,
+      "rationale": "This post is about Ona joining the Codex team, not about usage limits or resets.",
+      "tweetId": "2065193272952422852",
+      "tweetUrl": "https://x.com/thsottiaux/status/2065193272952422852",
+      "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2065119757205151786",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2065119757205151786",
+    "lastSeenTweetId": "2065193272952422852",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2065193272952422852",
     "pendingReview": {
       "confidence": 0.6,
       "createdAt": 1781198110161,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2065119757205151786"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1781215504564,
+        "inputTokens": 477,
+        "outputTokens": 77,
+        "rationale": "This post is about Ona joining the Codex team, not about usage limits or resets.",
+        "reasoningTokens": 31,
+        "totalTokens": 554,
+        "tweetId": "2065193272952422852",
+        "tweetText": "Codex 🤟Ona\n\nBeyond excited to work with Johannes and team to build the future.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2065193272952422852",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.6,
         "evaluatedAt": 1781198110162,
@@ -279,29 +292,31 @@
         "tweetText": "@adxtyahq Uh..\n\nhttps://t.co/QxqpvVD1zy",
         "tweetUrl": "https://x.com/thsottiaux/status/2064227305212580184",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1780985276344,
-        "inputTokens": 416,
-        "outputTokens": 90,
-        "rationale": "This post discusses coding-agent workflows and does not mention limits or a reset.",
-        "reasoningTokens": 47,
-        "totalTokens": 506,
-        "tweetId": "2064226958494572727",
-        "tweetText": "Anyone writing nested loops yet?",
-        "tweetUrl": "https://x.com/thsottiaux/status/2064226958494572727",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 241366,
-      "totalOutputTokens": 64515,
-      "totalReasoningTokens": 34771,
-      "totalTokens": 305881
+      "totalInputTokens": 241843,
+      "totalOutputTokens": 64592,
+      "totalReasoningTokens": 34802,
+      "totalTokens": 306435
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1781215504564,
+      "inputTokens": 477,
+      "message": "",
+      "outputTokens": 77,
+      "rationale": "This post is about Ona joining the Codex team, not about usage limits or resets.",
+      "reasoningTokens": 31,
+      "totalTokens": 554,
+      "tweetId": "2065193272952422852",
+      "tweetText": "Codex 🤟Ona\n\nBeyond excited to work with Johannes and team to build the future.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2065193272952422852",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.6,
       "createdAt": 1781198110162,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2062961096760447392",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1780629262827,
-      "inputTokens": 406,
-      "message": "",
-      "outputTokens": 74,
-      "rationale": "This post promotes the Codex Python SDK and does not mention limits, caps, or a reset.",
-      "reasoningTokens": 26,
-      "totalTokens": 480,
-      "tweetId": "2062734215494664697",
-      "tweetText": "You can use codex within your own programs using the Python SDK. It's awesome. Built by @ah20im and friends\n\n```\npip install openai-codex\n```\n\nhttps://t.co/GjQVEPwtkF",
-      "tweetUrl": "https://x.com/thsottiaux/status/2062734215494664697",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "IHEh72n9A48dpHB5nnyfG32TW8JYcLXEBaRJY6vNpinNoZhLtYMl0CbAOQ",
-    "iv": "1_aFmggzEg6w7Ysd",
-    "tag": "WvHC_KJV0KqMMKVcmrBp6A",
+    "ciphertext": "eZIjXigdS5MGfKriV05iC6EMYHoGllHuEkhvoQ-jsDK9JwmYl_sBZQkTyA",
+    "iv": "iKvK9SI6HqzRHjY4",
+    "tag": "VG5v48tIoTpVOmBb6Fj5EA",
     "version": 1
   }
 }
