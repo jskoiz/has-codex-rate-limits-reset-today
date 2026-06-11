@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1781146739735,
-      "rationale": "This is just a casual reply and provides no indication that any limits have reset.",
-      "tweetId": "2064904541783675281",
-      "tweetUrl": "https://x.com/thsottiaux/status/2064904541783675281",
+      "decidedAt": 1781146743201,
+      "rationale": "This reply is conversational and gives no indication that any Codex or ChatGPT limits have reset.",
+      "tweetId": "2064904673228972310",
+      "tweetUrl": "https://x.com/thsottiaux/status/2064904673228972310",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2064904541783675281",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2064904541783675281",
+    "lastSeenTweetId": "2064904673228972310",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2064904673228972310",
     "pendingReview": {
       "confidence": 0.92,
       "createdAt": 1781145838417,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2064900424264798601"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1781146743201,
+        "inputTokens": 359,
+        "outputTokens": 87,
+        "rationale": "This reply is conversational and gives no indication that any Codex or ChatGPT limits have reset.",
+        "reasoningTokens": 40,
+        "totalTokens": 446,
+        "tweetId": "2064904673228972310",
+        "tweetText": "@charliermarsh You're projecting",
+        "tweetUrl": "https://x.com/thsottiaux/status/2064904673228972310",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1781146739735,
@@ -279,29 +292,31 @@
         "tweetText": "First one is @skirano. Enjoy the 10X and keep building magic. Who's next?\n\nhttps://t.co/2L3XWyhikG",
         "tweetUrl": "https://x.com/thsottiaux/status/2064206679475134881",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1780940711324,
-        "inputTokens": 397,
-        "outputTokens": 75,
-        "rationale": "This reply is just conversational about using Codex all day and does not mention limits resetting.",
-        "reasoningTokens": 29,
-        "totalTokens": 472,
-        "tweetId": "2064039257392709683",
-        "tweetText": "@YashHustle_22 Codex at breakfast\nCodex in the morning\nCodex at lunch\nCodex in the afternoon\nCodex at dinner\nCodex in the evening\nCodex at night",
-        "tweetUrl": "https://x.com/thsottiaux/status/2064039257392709683",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 239062,
-      "totalOutputTokens": 63934,
-      "totalReasoningTokens": 34455,
-      "totalTokens": 302996
+      "totalInputTokens": 239421,
+      "totalOutputTokens": 64021,
+      "totalReasoningTokens": 34495,
+      "totalTokens": 303442
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1781146743201,
+      "inputTokens": 359,
+      "message": "",
+      "outputTokens": 87,
+      "rationale": "This reply is conversational and gives no indication that any Codex or ChatGPT limits have reset.",
+      "reasoningTokens": 40,
+      "totalTokens": 446,
+      "tweetId": "2064904673228972310",
+      "tweetText": "@charliermarsh You're projecting",
+      "tweetUrl": "https://x.com/thsottiaux/status/2064904673228972310",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1781146739735,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2062329981548802523",
       "type": "reset_confirmed",
       "verdict": "reset_confirmed"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1780528281973,
-      "inputTokens": 357,
-      "message": "",
-      "outputTokens": 81,
-      "rationale": "This reply is conversational and does not mention limits, caps, or usage returning.",
-      "reasoningTokens": 37,
-      "totalTokens": 438,
-      "tweetId": "2062310691076558929",
-      "tweetText": "Can't stop watching it.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2062310691076558929",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "SlWZ_Tl3eBitWoAx-i0TUW4yKlxmiRn2i5-srs6coh6UmeZbgC5uE6vjLw",
-    "iv": "CV72fQXkJ6XFuLPM",
-    "tag": "_SBwxSIXpRpZGrzP5DngGQ",
+    "ciphertext": "39cao7HQRoOQR9KyrELrUxQICckXhQb7G4X3BiYAgxyfvOhj20tldi95NQ",
+    "iv": "X8LZG08Jdh91lod1",
+    "tag": "0rkpc5SW2z9upRqoEbh13w",
     "version": 1
   }
 }
