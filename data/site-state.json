@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1781147067520,
-      "rationale": "This reply is unrelated to rate limits or usage resets.",
-      "tweetId": "2064905973643583559",
-      "tweetUrl": "https://x.com/thsottiaux/status/2064905973643583559",
+      "decidedAt": 1781148301638,
+      "rationale": "It discusses increased Codex usage and user preference, not any limit or rate-cap reset.",
+      "tweetId": "2064911328087810308",
+      "tweetUrl": "https://x.com/thsottiaux/status/2064911328087810308",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2064905973643583559",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2064905973643583559",
+    "lastSeenTweetId": "2064911328087810308",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2064911328087810308",
     "pendingReview": {
       "confidence": 0.92,
       "createdAt": 1781145838417,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2064900424264798601"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1781148301638,
+        "inputTokens": 496,
+        "outputTokens": 114,
+        "rationale": "It discusses increased Codex usage and user preference, not any limit or rate-cap reset.",
+        "reasoningTokens": 68,
+        "totalTokens": 610,
+        "tweetId": "2064911328087810308",
+        "tweetText": "Can confirm we saw a strong spike in growth of token consumption for Codex over last 48 hours. Unusual when we don't launch something.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2064911328087810308",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1781147067520,
@@ -279,29 +292,31 @@
         "tweetText": "@JinjingLiang @adamhfry My schedule:\n\nRest =&gt; Reset =&gt; Reset =&gt; Rest =&gt; ...",
         "tweetUrl": "https://x.com/thsottiaux/status/2064226495879668161",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1780984662332,
-        "inputTokens": 368,
-        "outputTokens": 94,
-        "rationale": "This reply is just a joke/comment about Codex and does not mention limits or a reset.",
-        "reasoningTokens": 47,
-        "totalTokens": 462,
-        "tweetId": "2064224790672769307",
-        "tweetText": "Not clear from the image, but the codex dial goes to 11.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2064224790672769307",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 240508,
-      "totalOutputTokens": 64237,
-      "totalReasoningTokens": 34588,
-      "totalTokens": 304745
+      "totalInputTokens": 241004,
+      "totalOutputTokens": 64351,
+      "totalReasoningTokens": 34656,
+      "totalTokens": 305355
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1781148301638,
+      "inputTokens": 496,
+      "message": "",
+      "outputTokens": 114,
+      "rationale": "It discusses increased Codex usage and user preference, not any limit or rate-cap reset.",
+      "reasoningTokens": 68,
+      "totalTokens": 610,
+      "tweetId": "2064911328087810308",
+      "tweetText": "Can confirm we saw a strong spike in growth of token consumption for Codex over last 48 hours. Unusual when we don't launch something.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2064911328087810308",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1781147067520,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2062689198403105262",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.98,
-      "createdAt": 1780608782721,
-      "inputTokens": 417,
-      "message": "",
-      "outputTokens": 154,
-      "rationale": "This is about fixing a token-counting bug, not a clear statement that Codex or ChatGPT limits have reset.",
-      "reasoningTokens": 102,
-      "totalTokens": 571,
-      "tweetId": "2062648326332539015",
-      "tweetText": "We're fixing a codex bug today that was causing us to undercount tokens being served to some Pro and Plus accounts by a small amount. This impacted &lt; 15% of accounts.\n\nNot the kind of bug you want us to fix, but didn't want to do this silently and thought you should know.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2062648326332539015",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "rz762eeYk4nZUfT08B8kG12g1Idn78IuOI5IybIHF5eZscMWpJWdogpxFw",
-    "iv": "WpI6YqGqwas4itvF",
-    "tag": "QpDJ6eb3jUU5fq22nbIXsQ",
+    "ciphertext": "AjesV2BwO365kRvUhoBz_lyi98WEC9N1_usFqRf-rzi34zC0rTHg6GMxGA",
+    "iv": "n1FTBdBbOhV_2Eaz",
+    "tag": "gBIRWI8ebfo6RLooPYrGRg",
     "version": 1
   }
 }
