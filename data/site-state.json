@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1781146743201,
-      "rationale": "This reply is conversational and gives no indication that any Codex or ChatGPT limits have reset.",
-      "tweetId": "2064904673228972310",
-      "tweetUrl": "https://x.com/thsottiaux/status/2064904673228972310",
+      "decidedAt": 1781147061874,
+      "rationale": "This reply is just conversational and does not mention limits or a reset.",
+      "tweetId": "2064905715421270208",
+      "tweetUrl": "https://x.com/thsottiaux/status/2064905715421270208",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2064904673228972310",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2064904673228972310",
+    "lastSeenTweetId": "2064905715421270208",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2064905715421270208",
     "pendingReview": {
       "confidence": 0.92,
       "createdAt": 1781145838417,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2064900424264798601"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1781147061874,
+        "inputTokens": 368,
+        "outputTokens": 66,
+        "rationale": "This reply is just conversational and does not mention limits or a reset.",
+        "reasoningTokens": 24,
+        "totalTokens": 434,
+        "tweetId": "2064905715421270208",
+        "tweetText": "@frisohakkers @OpenAI @outpacestudios Nice one!",
+        "tweetUrl": "https://x.com/thsottiaux/status/2064905715421270208",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1781146743201,
@@ -279,29 +292,31 @@
         "tweetText": "ChatGPT goes interactive and gets better everyday. I am told @adamhfry, the team and codex won't rest until it is perfect.",
         "tweetUrl": "https://x.com/thsottiaux/status/2064217733722669539",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.98,
-        "evaluatedAt": 1780980303087,
-        "inputTokens": 485,
-        "outputTokens": 150,
-        "rationale": "This announces a selected user getting 10X Codex usage, not that rate limits have reset for users now.",
-        "reasoningTokens": 99,
-        "totalTokens": 635,
-        "tweetId": "2064206679475134881",
-        "tweetText": "First one is @skirano. Enjoy the 10X and keep building magic. Who's next?\n\nhttps://t.co/2L3XWyhikG",
-        "tweetUrl": "https://x.com/thsottiaux/status/2064206679475134881",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 239421,
-      "totalOutputTokens": 64021,
-      "totalReasoningTokens": 34495,
-      "totalTokens": 303442
+      "totalInputTokens": 239789,
+      "totalOutputTokens": 64087,
+      "totalReasoningTokens": 34519,
+      "totalTokens": 303876
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1781147061874,
+      "inputTokens": 368,
+      "message": "",
+      "outputTokens": 66,
+      "rationale": "This reply is just conversational and does not mention limits or a reset.",
+      "reasoningTokens": 24,
+      "totalTokens": 434,
+      "tweetId": "2064905715421270208",
+      "tweetText": "@frisohakkers @OpenAI @outpacestudios Nice one!",
+      "tweetUrl": "https://x.com/thsottiaux/status/2064905715421270208",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1781146743201,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2062423528927015414",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1780532876323,
-      "inputTokens": 410,
-      "message": "",
-      "outputTokens": 103,
-      "rationale": "The tweet explicitly says Codex usage limits were reset across all paid plans and use is available again now.",
-      "reasoningTokens": 53,
-      "totalTokens": 513,
-      "tweetId": "2062329981548802523",
-      "tweetText": "Hi. Over the last 24 hours we had three separate small incidents that affected Codex reliability. Those are three too many and we are taking active steps for them to not reproduce.\n\nI have reset usage limits for Codex across all paid plans. May the tokens flow again.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2062329981548802523",
-      "type": "reset_confirmed",
-      "verdict": "reset_confirmed"
     }
   ],
   "privateState": {
-    "ciphertext": "39cao7HQRoOQR9KyrELrUxQICckXhQb7G4X3BiYAgxyfvOhj20tldi95NQ",
-    "iv": "X8LZG08Jdh91lod1",
-    "tag": "0rkpc5SW2z9upRqoEbh13w",
+    "ciphertext": "memIRuBuxik_-uA04P81sXtZsaDPbyVltkIBnObafdGCGjQQQn6RTIjyaw",
+    "iv": "nkl2IAqoMrV7Yglj",
+    "tag": "C9owCpk5u77qO_7iF95_mw",
     "version": 1
   }
 }
