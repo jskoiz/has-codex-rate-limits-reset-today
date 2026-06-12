@@ -14,16 +14,16 @@
   "updatedAt": 1780532876323,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1781215504564,
-      "rationale": "This post is about Ona joining the Codex team, not about usage limits or resets.",
-      "tweetId": "2065193272952422852",
-      "tweetUrl": "https://x.com/thsottiaux/status/2065193272952422852",
+      "confidence": 0.95,
+      "decidedAt": 1781281266944,
+      "rationale": "The post says users now have a saved/free Codex reset available, not that limits have already reset now.",
+      "tweetId": "2065468501750649006",
+      "tweetUrl": "https://x.com/thsottiaux/status/2065468501750649006",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2065193272952422852",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2065193272952422852",
+    "lastSeenTweetId": "2065468501750649006",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2065468501750649006",
     "pendingReview": {
       "confidence": 0.6,
       "createdAt": 1781198110161,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2065119757205151786"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.95,
+        "evaluatedAt": 1781281266944,
+        "inputTokens": 497,
+        "outputTokens": 238,
+        "rationale": "The post says users now have a saved/free Codex reset available, not that limits have already reset now.",
+        "reasoningTokens": 188,
+        "totalTokens": 735,
+        "tweetId": "2065468501750649006",
+        "tweetText": "Heard your (amusing) feedback that it was at times annoying to receive a reset of your Codex usage without warning. \n\nNext time we press the button you will get to choose when it actually applies. Happy codexing.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2065468501750649006",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1781215504564,
@@ -279,29 +292,31 @@
         "tweetText": "@JinjingLiang @adamhfry My schedule:  Rest =&gt; Reset =&gt; Rest =&gt; Reset =&gt; ...",
         "tweetUrl": "https://x.com/thsottiaux/status/2064227730884055063",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1780985281411,
-        "inputTokens": 421,
-        "outputTokens": 107,
-        "rationale": "This reply and its quoted post are about model naming, not limits or resets.",
-        "reasoningTokens": 63,
-        "totalTokens": 528,
-        "tweetId": "2064227305212580184",
-        "tweetText": "@adxtyahq Uh..\n\nhttps://t.co/QxqpvVD1zy",
-        "tweetUrl": "https://x.com/thsottiaux/status/2064227305212580184",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 241843,
-      "totalOutputTokens": 64592,
-      "totalReasoningTokens": 34802,
-      "totalTokens": 306435
+      "totalInputTokens": 242340,
+      "totalOutputTokens": 64830,
+      "totalReasoningTokens": 34990,
+      "totalTokens": 307170
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.95,
+      "createdAt": 1781281266944,
+      "inputTokens": 497,
+      "message": "",
+      "outputTokens": 238,
+      "rationale": "The post says users now have a saved/free Codex reset available, not that limits have already reset now.",
+      "reasoningTokens": 188,
+      "totalTokens": 735,
+      "tweetId": "2065468501750649006",
+      "tweetText": "Heard your (amusing) feedback that it was at times annoying to receive a reset of your Codex usage without warning. \n\nNext time we press the button you will get to choose when it actually applies. Happy codexing.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2065468501750649006",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1781215504564,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2062966625733861752",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1780683417924,
-      "inputTokens": 419,
-      "message": "",
-      "outputTokens": 114,
-      "rationale": "This is just a correction about installing openai-codex, not a statement about limits resetting.",
-      "reasoningTokens": 66,
-      "totalTokens": 533,
-      "tweetId": "2062961096760447392",
-      "tweetText": "I meant `uv add openai-codex`. Obviously.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2062961096760447392",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "eZIjXigdS5MGfKriV05iC6EMYHoGllHuEkhvoQ-jsDK9JwmYl_sBZQkTyA",
-    "iv": "iKvK9SI6HqzRHjY4",
-    "tag": "VG5v48tIoTpVOmBb6Fj5EA",
+    "ciphertext": "8qcH4Dhw0lxDjYoRhsq_7LHFbw6E1zeDJz3ZnxHuNKvaYxjQr-ikCEQ4Gg",
+    "iv": "o_90GCB8l7ue1v6n",
+    "tag": "vvXgepXQ04IFgfcFjE38Fw",
     "version": 1
   }
 }
