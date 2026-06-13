@@ -14,16 +14,16 @@
   "updatedAt": 1780532876323,
   "automation": {
     "lastDecision": {
-      "confidence": 0.95,
-      "decidedAt": 1781281266944,
-      "rationale": "The post says users now have a saved/free Codex reset available, not that limits have already reset now.",
-      "tweetId": "2065468501750649006",
-      "tweetUrl": "https://x.com/thsottiaux/status/2065468501750649006",
+      "confidence": 0.99,
+      "decidedAt": 1781376364420,
+      "rationale": "This reply is just conversational and does not mention limits, caps, or availability resetting.",
+      "tweetId": "2065867866986217669",
+      "tweetUrl": "https://x.com/thsottiaux/status/2065867866986217669",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2065468501750649006",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2065468501750649006",
+    "lastSeenTweetId": "2065867866986217669",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2065867866986217669",
     "pendingReview": {
       "confidence": 0.6,
       "createdAt": 1781198110161,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2065119757205151786"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1781376364420,
+        "inputTokens": 369,
+        "outputTokens": 65,
+        "rationale": "This reply is just conversational and does not mention limits, caps, or availability resetting.",
+        "reasoningTokens": 20,
+        "totalTokens": 434,
+        "tweetId": "2065867866986217669",
+        "tweetText": "@simpsoka Are we continuing the conversation here or back to slack? 👀",
+        "tweetUrl": "https://x.com/thsottiaux/status/2065867866986217669",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.95,
         "evaluatedAt": 1781281266944,
@@ -279,29 +292,31 @@
         "tweetText": "@llmDestructor 99 days left, 99 more opportunities to disappoint",
         "tweetUrl": "https://x.com/thsottiaux/status/2064228137924448569",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.97,
-        "evaluatedAt": 1780985287792,
-        "inputTokens": 384,
-        "outputTokens": 179,
-        "rationale": "This reply is a playful comment about “rest/reset” and does not indicate ChatGPT or Codex limits are available again.",
-        "reasoningTokens": 126,
-        "totalTokens": 563,
-        "tweetId": "2064227730884055063",
-        "tweetText": "@JinjingLiang @adamhfry My schedule:  Rest =&gt; Reset =&gt; Rest =&gt; Reset =&gt; ...",
-        "tweetUrl": "https://x.com/thsottiaux/status/2064227730884055063",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 242340,
-      "totalOutputTokens": 64830,
-      "totalReasoningTokens": 34990,
-      "totalTokens": 307170
+      "totalInputTokens": 242709,
+      "totalOutputTokens": 64895,
+      "totalReasoningTokens": 35010,
+      "totalTokens": 307604
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1781376364420,
+      "inputTokens": 369,
+      "message": "",
+      "outputTokens": 65,
+      "rationale": "This reply is just conversational and does not mention limits, caps, or availability resetting.",
+      "reasoningTokens": 20,
+      "totalTokens": 434,
+      "tweetId": "2065867866986217669",
+      "tweetText": "@simpsoka Are we continuing the conversation here or back to slack? 👀",
+      "tweetUrl": "https://x.com/thsottiaux/status/2065867866986217669",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0,
       "createdAt": 1781374830133,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2062997768470474765",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1780684622964,
-      "inputTokens": 446,
-      "message": "",
-      "outputTokens": 91,
-      "rationale": "This post discusses ChatGPT memory improvements, not any usage cap or rate limit reset.",
-      "reasoningTokens": 46,
-      "totalTokens": 537,
-      "tweetId": "2062966625733861752",
-      "tweetText": "Better memory = Shorter prompts = More utility per token",
-      "tweetUrl": "https://x.com/thsottiaux/status/2062966625733861752",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "rReWoOov4eCjDME2gjduNuhZ9DUp-Q1iUkx3x2Hf3HYe28uZI7UIIYzQ-w",
-    "iv": "pqWZ_wt9a-O_19t-",
-    "tag": "yAPOlamkT6Q9mOT686x-9w",
+    "ciphertext": "q1Z0pyxp3SfgricXj_1gUo_BYLL6IWIRXrgtzUHeNIkyKu4-DglFA79v9Q",
+    "iv": "JS-7DWdjUXu21sdR",
+    "tag": "CRyieZfljD8kB1Gs6gltrw",
     "version": 1
   }
 }
