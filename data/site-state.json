@@ -14,25 +14,38 @@
   "updatedAt": 1780532876323,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1781413569341,
-      "rationale": "This reply is a joke/comment and does not mention any limit or reset.",
-      "tweetId": "2066023944315109820",
-      "tweetUrl": "https://x.com/thsottiaux/status/2066023944315109820",
-      "verdict": "not_reset"
+      "confidence": 0.15,
+      "decidedAt": 1781413573391,
+      "rationale": "This reply lacks enough context to tell whether it confirms a current limit reset.",
+      "tweetId": "2066024169851273239",
+      "tweetUrl": "https://x.com/thsottiaux/status/2066024169851273239",
+      "verdict": "uncertain"
     },
     "lastError": null,
-    "lastSeenTweetId": "2066023944315109820",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2066023944315109820",
+    "lastSeenTweetId": "2066024169851273239",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2066024169851273239",
     "pendingReview": {
-      "confidence": 0.6,
-      "createdAt": 1781198110161,
-      "rationale": "This reply could be acknowledging a reset, but without the parent tweet it is not explicit enough to confirm.",
-      "tweetId": "2065119757205151786",
-      "tweetText": "@araseb_ Do you have to ask",
-      "tweetUrl": "https://x.com/thsottiaux/status/2065119757205151786"
+      "confidence": 0.15,
+      "createdAt": 1781413573391,
+      "rationale": "This reply lacks enough context to tell whether it confirms a current limit reset.",
+      "tweetId": "2066024169851273239",
+      "tweetText": "@itsrubenbtw Would have to see it to believe it. But... yes.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2066024169851273239"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.15,
+        "evaluatedAt": 1781413573391,
+        "inputTokens": 370,
+        "outputTokens": 167,
+        "rationale": "This reply lacks enough context to tell whether it confirms a current limit reset.",
+        "reasoningTokens": 124,
+        "totalTokens": 537,
+        "tweetId": "2066024169851273239",
+        "tweetText": "@itsrubenbtw Would have to see it to believe it. But... yes.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2066024169851273239",
+        "verdict": "uncertain"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1781413569341,
@@ -279,29 +292,31 @@
         "tweetText": "@charliermarsh You're projecting",
         "tweetUrl": "https://x.com/thsottiaux/status/2064904673228972310",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1781146739735,
-        "inputTokens": 358,
-        "outputTokens": 73,
-        "rationale": "This is just a casual reply and provides no indication that any limits have reset.",
-        "reasoningTokens": 29,
-        "totalTokens": 431,
-        "tweetId": "2064904541783675281",
-        "tweetText": "@daniel_mac8 Haha",
-        "tweetUrl": "https://x.com/thsottiaux/status/2064904541783675281",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 246497,
-      "totalOutputTokens": 65901,
-      "totalReasoningTokens": 35560,
-      "totalTokens": 312398
+      "totalInputTokens": 246867,
+      "totalOutputTokens": 66068,
+      "totalReasoningTokens": 35684,
+      "totalTokens": 312935
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.15,
+      "createdAt": 1781413573391,
+      "inputTokens": 370,
+      "message": "",
+      "outputTokens": 167,
+      "rationale": "This reply lacks enough context to tell whether it confirms a current limit reset.",
+      "reasoningTokens": 124,
+      "totalTokens": 537,
+      "tweetId": "2066024169851273239",
+      "tweetText": "@itsrubenbtw Would have to see it to believe it. But... yes.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2066024169851273239",
+      "type": "review_requested",
+      "verdict": "uncertain"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1781413569341,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2064206679475134881",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1780940711324,
-      "inputTokens": 397,
-      "message": "",
-      "outputTokens": 75,
-      "rationale": "This reply is just conversational about using Codex all day and does not mention limits resetting.",
-      "reasoningTokens": 29,
-      "totalTokens": 472,
-      "tweetId": "2064039257392709683",
-      "tweetText": "@YashHustle_22 Codex at breakfast\nCodex in the morning\nCodex at lunch\nCodex in the afternoon\nCodex at dinner\nCodex in the evening\nCodex at night",
-      "tweetUrl": "https://x.com/thsottiaux/status/2064039257392709683",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "9y_wkAhIiuarci1K3cQ8QFcxbLMobaLobNsqPqxM1MaaZHtfpr2tCm16Vg",
-    "iv": "KhbacaWIJcguwl-a",
-    "tag": "jFMsUEVG9puWJx063438MA",
+    "ciphertext": "AGesIyZF7oq1iCxsDfTosoPJzbcqUPj5WE4wVfgKy9xumiraK8b5pUjtCQ",
+    "iv": "IVMTNZsRDlcDkHHT",
+    "tag": "Du0bd43RI2DrUUzAkckI4g",
     "version": 1
   }
 }
