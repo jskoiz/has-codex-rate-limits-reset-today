@@ -14,25 +14,38 @@
   "updatedAt": 1780532876323,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1781414795233,
-      "rationale": "This reply only says issues are being fixed and does not indicate any limits have reset.",
-      "tweetId": "2066028643588133158",
-      "tweetUrl": "https://x.com/thsottiaux/status/2066028643588133158",
-      "verdict": "not_reset"
+      "confidence": 0.96,
+      "decidedAt": 1781414798029,
+      "rationale": "This reply is too context-dependent and does not explicitly say any limit has reset.",
+      "tweetId": "2066028715012989281",
+      "tweetUrl": "https://x.com/thsottiaux/status/2066028715012989281",
+      "verdict": "uncertain"
     },
     "lastError": null,
-    "lastSeenTweetId": "2066028643588133158",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2066028643588133158",
+    "lastSeenTweetId": "2066028715012989281",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2066028715012989281",
     "pendingReview": {
-      "confidence": 0.95,
-      "createdAt": 1781414470699,
-      "rationale": "This reply gives no clear indication that any Codex or ChatGPT limit has reset.",
-      "tweetId": "2066027101179007459",
-      "tweetText": "@allseejay Working on this",
-      "tweetUrl": "https://x.com/thsottiaux/status/2066027101179007459"
+      "confidence": 0.96,
+      "createdAt": 1781414798029,
+      "rationale": "This reply is too context-dependent and does not explicitly say any limit has reset.",
+      "tweetId": "2066028715012989281",
+      "tweetText": "@aadhilkh Quite soon actually",
+      "tweetUrl": "https://x.com/thsottiaux/status/2066028715012989281"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.96,
+        "evaluatedAt": 1781414798029,
+        "inputTokens": 360,
+        "outputTokens": 145,
+        "rationale": "This reply is too context-dependent and does not explicitly say any limit has reset.",
+        "reasoningTokens": 101,
+        "totalTokens": 505,
+        "tweetId": "2066028715012989281",
+        "tweetText": "@aadhilkh Quite soon actually",
+        "tweetUrl": "https://x.com/thsottiaux/status/2066028715012989281",
+        "verdict": "uncertain"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1781414795233,
@@ -279,29 +292,31 @@
         "tweetText": "if name == \"sourabh.gurwani\":\n  return False\n\nAnd every time a user registers, you start a Codex automation job to add a new if clause (very quickly).\n\nIf you want to optimize you can use GPT-5.3-Spark, which is faster.\n\nIf you want to optimize further, ask Codex how to implement an index.",
         "tweetUrl": "https://x.com/thsottiaux/status/2066014487539564555",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1781411061820,
-        "inputTokens": 361,
-        "outputTokens": 75,
-        "rationale": "This reply only says someone uses Codex and does not mention limits or resets.",
-        "reasoningTokens": 31,
-        "totalTokens": 436,
-        "tweetId": "2066013128513736925",
-        "tweetText": "@sflorimm They use Codex",
-        "tweetUrl": "https://x.com/thsottiaux/status/2066013128513736925",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 250167,
-      "totalOutputTokens": 66939,
-      "totalReasoningTokens": 36157,
-      "totalTokens": 317106
+      "totalInputTokens": 250527,
+      "totalOutputTokens": 67084,
+      "totalReasoningTokens": 36258,
+      "totalTokens": 317611
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.96,
+      "createdAt": 1781414798029,
+      "inputTokens": 360,
+      "message": "",
+      "outputTokens": 145,
+      "rationale": "This reply is too context-dependent and does not explicitly say any limit has reset.",
+      "reasoningTokens": 101,
+      "totalTokens": 505,
+      "tweetId": "2066028715012989281",
+      "tweetText": "@aadhilkh Quite soon actually",
+      "tweetUrl": "https://x.com/thsottiaux/status/2066028715012989281",
+      "type": "review_requested",
+      "verdict": "uncertain"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1781414795233,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2064308436133716008",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1781004414481,
-      "inputTokens": 462,
-      "message": "",
-      "outputTokens": 101,
-      "rationale": "This post and its quote discuss using Codex features, not any cap or rate-limit reset.",
-      "reasoningTokens": 54,
-      "totalTokens": 563,
-      "tweetId": "2064307859903447396",
-      "tweetText": "Playing codex like an orchestra. One /goal at a time.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2064307859903447396",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "i4x4uai-mUHcpWYuyuUtGkdy21gUtxqxZlHn6ia-t9o6R2hIz5tAjaFvZA",
-    "iv": "QMLr_oc5S5lrJz8E",
-    "tag": "p6UGcH6Bt0fNCjiF53JFBQ",
+    "ciphertext": "obMabDtsi7Juq78_wtLiXNlEqLMP1lYcxsgovguVZb8jzzzmkziRRqvcaw",
+    "iv": "7dwYYV4HsjqCuoVe",
+    "tag": "kgaFZxfoDNn_mnTLgd003w",
     "version": 1
   }
 }
