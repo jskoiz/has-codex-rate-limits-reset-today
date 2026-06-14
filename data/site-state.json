@@ -14,16 +14,16 @@
   "updatedAt": 1780532876323,
   "automation": {
     "lastDecision": {
-      "confidence": 0.98,
-      "decidedAt": 1781413243184,
-      "rationale": "It’s a promotional reply about getting future resets from referrals, not saying any current limit has reset.",
-      "tweetId": "2066022465789436223",
-      "tweetUrl": "https://x.com/thsottiaux/status/2066022465789436223",
+      "confidence": 0.99,
+      "decidedAt": 1781413245826,
+      "rationale": "This is just a conversational remark about discovering Codex, not a rate-limit reset.",
+      "tweetId": "2066022651760721931",
+      "tweetUrl": "https://x.com/thsottiaux/status/2066022651760721931",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2066022465789436223",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2066022465789436223",
+    "lastSeenTweetId": "2066022651760721931",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2066022651760721931",
     "pendingReview": {
       "confidence": 0.6,
       "createdAt": 1781198110161,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2065119757205151786"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1781413245826,
+        "inputTokens": 366,
+        "outputTokens": 77,
+        "rationale": "This is just a conversational remark about discovering Codex, not a rate-limit reset.",
+        "reasoningTokens": 32,
+        "totalTokens": 443,
+        "tweetId": "2066022651760721931",
+        "tweetText": "Hi, I'm Tibo and I just discovered Codex. AMA",
+        "tweetUrl": "https://x.com/thsottiaux/status/2066022651760721931",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.98,
         "evaluatedAt": 1781413243184,
@@ -279,29 +292,31 @@
         "tweetText": "@MeekMill Can't live without the Codex App. Built for everyone.",
         "tweetUrl": "https://x.com/thsottiaux/status/2064569673367404624",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1781005371060,
-        "inputTokens": 365,
-        "outputTokens": 71,
-        "rationale": "This reply is a joke about thread complexity and does not mention limits or a reset.",
-        "reasoningTokens": 26,
-        "totalTokens": 436,
-        "tweetId": "2064311852461371604",
-        "tweetText": "@Dimillian Soon you will need an org chart for your threads",
-        "tweetUrl": "https://x.com/thsottiaux/status/2064311852461371604",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 243924,
-      "totalOutputTokens": 65190,
-      "totalReasoningTokens": 35169,
-      "totalTokens": 309114
+      "totalInputTokens": 244290,
+      "totalOutputTokens": 65267,
+      "totalReasoningTokens": 35201,
+      "totalTokens": 309557
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1781413245826,
+      "inputTokens": 366,
+      "message": "",
+      "outputTokens": 77,
+      "rationale": "This is just a conversational remark about discovering Codex, not a rate-limit reset.",
+      "reasoningTokens": 32,
+      "totalTokens": 443,
+      "tweetId": "2066022651760721931",
+      "tweetText": "Hi, I'm Tibo and I just discovered Codex. AMA",
+      "tweetUrl": "https://x.com/thsottiaux/status/2066022651760721931",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.98,
       "createdAt": 1781413243184,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2063771005332697532",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1780870912860,
-      "inputTokens": 418,
-      "message": "",
-      "outputTokens": 89,
-      "rationale": "This announces a future promotion for higher Codex limits, not that existing limits have reset or become available…",
-      "reasoningTokens": 38,
-      "totalTokens": 507,
-      "tweetId": "2063748242681307611",
-      "tweetText": "I have a new kind of big button that I can press for Codex. Over the next 100 days, we will select one person per day who does impressive or incredibly useful work with Codex and give them 10X usage limits for a month to see what they can do with it.\n\nFirst one tomorrow.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2063748242681307611",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "QNCtpoPfdlXxTdekRJNh7_Itf2KHNjzRfOyl_b2qdhzTSEOVG00ezyHyog",
-    "iv": "oLBbkV2wHw6Q_kR0",
-    "tag": "LVyjVkSmp0-L4xZZN26q7g",
+    "ciphertext": "rggOHh475BUB08sb6sfq5uQ8qN-jj8zKeJ7SVJ97gopUsdBKX1udkOoCGg",
+    "iv": "2J9TNuM9ov__ezd6",
+    "tag": "VCaxgsd5XlteOwod3sSu4g",
     "version": 1
   }
 }
