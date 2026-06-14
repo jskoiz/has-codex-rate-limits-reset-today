@@ -14,16 +14,16 @@
   "updatedAt": 1780532876323,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1781413561806,
-      "rationale": "This reply discusses product releases and does not indicate any limit or rate-cap reset.",
-      "tweetId": "2066023082557653241",
-      "tweetUrl": "https://x.com/thsottiaux/status/2066023082557653241",
+      "confidence": 0.98,
+      "decidedAt": 1781413564355,
+      "rationale": "This is a joking reply about OpenAI employees having \"unlimited resets,\" not a report that user limits have reset now.",
+      "tweetId": "2066023220747419692",
+      "tweetUrl": "https://x.com/thsottiaux/status/2066023220747419692",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2066023082557653241",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2066023082557653241",
+    "lastSeenTweetId": "2066023220747419692",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2066023220747419692",
     "pendingReview": {
       "confidence": 0.6,
       "createdAt": 1781198110161,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2065119757205151786"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.98,
+        "evaluatedAt": 1781413564355,
+        "inputTokens": 372,
+        "outputTokens": 135,
+        "rationale": "This is a joking reply about OpenAI employees having \"unlimited resets,\" not a report that user limits have reset now.",
+        "reasoningTokens": 82,
+        "totalTokens": 507,
+        "tweetId": "2066023220747419692",
+        "tweetText": "@dvyio Many. But they misunderstood and they now work at OpenAI and get unlimited resets",
+        "tweetUrl": "https://x.com/thsottiaux/status/2066023220747419692",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1781413561806,
@@ -279,29 +292,31 @@
         "tweetText": "Simplify until there is nothing to simplify",
         "tweetUrl": "https://x.com/thsottiaux/status/2064900105032135010",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1781138420100,
-        "inputTokens": 1226,
-        "outputTokens": 104,
-        "rationale": "This post and its quote are about OpenAI cybersecurity hiring and plans, not usage limits or a rate-limit reset.",
-        "reasoningTokens": 53,
-        "totalTokens": 1330,
-        "tweetId": "2064869401359417799",
-        "tweetText": "Welcome Clint and Michael! Incredibly excited to see what we do together to contribute to the cybersecurity field and accelerate defenders across the globe.\n\nIt's time to build.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2064869401359417799",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 245395,
-      "totalOutputTokens": 65558,
-      "totalReasoningTokens": 35357,
-      "totalTokens": 310953
+      "totalInputTokens": 245767,
+      "totalOutputTokens": 65693,
+      "totalReasoningTokens": 35439,
+      "totalTokens": 311460
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.98,
+      "createdAt": 1781413564355,
+      "inputTokens": 372,
+      "message": "",
+      "outputTokens": 135,
+      "rationale": "This is a joking reply about OpenAI employees having \"unlimited resets,\" not a report that user limits have reset now.",
+      "reasoningTokens": 82,
+      "totalTokens": 507,
+      "tweetId": "2066023220747419692",
+      "tweetText": "@dvyio Many. But they misunderstood and they now work at OpenAI and get unlimited resets",
+      "tweetUrl": "https://x.com/thsottiaux/status/2066023220747419692",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1781413561806,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2063867254945767838",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1780889788744,
-      "inputTokens": 359,
-      "message": "",
-      "outputTokens": 77,
-      "rationale": "This reply is just conversational and does not mention limits, caps, or a reset.",
-      "reasoningTokens": 32,
-      "totalTokens": 436,
-      "tweetId": "2063826811373658213",
-      "tweetText": "@vqbaobui Build stuff",
-      "tweetUrl": "https://x.com/thsottiaux/status/2063826811373658213",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "FUEGcx2XONawjcbOpHGmzibIK_k6qu7pZjYr6KXdD7D232S06I6dnop8uQ",
-    "iv": "D22iD0hazznnx4Yo",
-    "tag": "XCYYHpXWyfxhReMzZk2cVQ",
+    "ciphertext": "11UV0yZvVPHI_ars1-dYFmLeRyqwIbXpLfYX9RPqSztmnTo34b7bztTATw",
+    "iv": "y5SDWB1rHd_GHoCG",
+    "tag": "7jmfzXTiuxS-Ho7pieFFiQ",
     "version": 1
   }
 }
