@@ -14,16 +14,16 @@
   "updatedAt": 1780532876323,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1781411360024,
-      "rationale": "This reply is a joke about coding and says nothing about limits or a reset.",
-      "tweetId": "2066014487539564555",
-      "tweetUrl": "https://x.com/thsottiaux/status/2066014487539564555",
+      "confidence": 0.98,
+      "decidedAt": 1781413243184,
+      "rationale": "It’s a promotional reply about getting future resets from referrals, not saying any current limit has reset.",
+      "tweetId": "2066022465789436223",
+      "tweetUrl": "https://x.com/thsottiaux/status/2066022465789436223",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2066014487539564555",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2066014487539564555",
+    "lastSeenTweetId": "2066022465789436223",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2066022465789436223",
     "pendingReview": {
       "confidence": 0.6,
       "createdAt": 1781198110161,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2065119757205151786"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.98,
+        "evaluatedAt": 1781413243184,
+        "inputTokens": 420,
+        "outputTokens": 148,
+        "rationale": "It’s a promotional reply about getting future resets from referrals, not saying any current limit has reset.",
+        "reasoningTokens": 100,
+        "totalTokens": 568,
+        "tweetId": "2066022465789436223",
+        "tweetText": "@MehakdeepK81 I would \n\n1) Try Codex for free, it's included with any ChatGPT account\n2) Realize it's awesome\n3) Smile\n4) ...\n5) Smile some more\n6) Get a subscription\n7) Invite friends and get many resets\n8) Keep smiling",
+        "tweetUrl": "https://x.com/thsottiaux/status/2066022465789436223",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1781411360024,
@@ -279,29 +292,31 @@
         "tweetText": "@Dimillian Soon you will need an org chart for your threads",
         "tweetUrl": "https://x.com/thsottiaux/status/2064311852461371604",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1781004727114,
-        "inputTokens": 370,
-        "outputTokens": 88,
-        "rationale": "This is just a usage question about Codex, not a statement that limits reset or are available again.",
-        "reasoningTokens": 39,
-        "totalTokens": 458,
-        "tweetId": "2064308436133716008",
-        "tweetText": "Do you use codex /goal occasionally or as your main way to get things done?",
-        "tweetUrl": "https://x.com/thsottiaux/status/2064308436133716008",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 243504,
-      "totalOutputTokens": 65042,
-      "totalReasoningTokens": 35069,
-      "totalTokens": 308546
+      "totalInputTokens": 243924,
+      "totalOutputTokens": 65190,
+      "totalReasoningTokens": 35169,
+      "totalTokens": 309114
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.98,
+      "createdAt": 1781413243184,
+      "inputTokens": 420,
+      "message": "",
+      "outputTokens": 148,
+      "rationale": "It’s a promotional reply about getting future resets from referrals, not saying any current limit has reset.",
+      "reasoningTokens": 100,
+      "totalTokens": 568,
+      "tweetId": "2066022465789436223",
+      "tweetText": "@MehakdeepK81 I would \n\n1) Try Codex for free, it's included with any ChatGPT account\n2) Realize it's awesome\n3) Smile\n4) ...\n5) Smile some more\n6) Get a subscription\n7) Invite friends and get many resets\n8) Keep smiling",
+      "tweetUrl": "https://x.com/thsottiaux/status/2066022465789436223",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1781411360024,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2063748242681307611",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0,
-      "createdAt": 1780865029092,
-      "inputTokens": 0,
-      "message": "Tweet fetch failed: Cannot read properties of undefined (reading 'errors') (Cannot read properties of undefined (reading 'errors'))",
-      "outputTokens": 0,
-      "rationale": "",
-      "reasoningTokens": 0,
-      "totalTokens": 0,
-      "tweetId": null,
-      "tweetText": "",
-      "tweetUrl": null,
-      "type": "error",
-      "verdict": null
     }
   ],
   "privateState": {
-    "ciphertext": "KnM7XJSME0qMbJNdNkWtw_YZ2jx-qq1TCaTP8ZgFR48TW44kz6_QbRiZIg",
-    "iv": "F_jRSqSwwf0A41AE",
-    "tag": "7cukCFE95kS5o0qI2NJ2Kg",
+    "ciphertext": "QNCtpoPfdlXxTdekRJNh7_Itf2KHNjzRfOyl_b2qdhzTSEOVG00ezyHyog",
+    "iv": "oLBbkV2wHw6Q_kR0",
+    "tag": "LVyjVkSmp0-L4xZZN26q7g",
     "version": 1
   }
 }
