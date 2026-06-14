@@ -14,16 +14,16 @@
   "updatedAt": 1780532876323,
   "automation": {
     "lastDecision": {
-      "confidence": 0.98,
-      "decidedAt": 1781413564355,
-      "rationale": "This is a joking reply about OpenAI employees having \"unlimited resets,\" not a report that user limits have reset now.",
-      "tweetId": "2066023220747419692",
-      "tweetUrl": "https://x.com/thsottiaux/status/2066023220747419692",
+      "confidence": 0.99,
+      "decidedAt": 1781413567061,
+      "rationale": "This reply is just conversational and does not indicate any rate limit or cap reset.",
+      "tweetId": "2066023278335111597",
+      "tweetUrl": "https://x.com/thsottiaux/status/2066023278335111597",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2066023220747419692",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2066023220747419692",
+    "lastSeenTweetId": "2066023278335111597",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2066023278335111597",
     "pendingReview": {
       "confidence": 0.6,
       "createdAt": 1781198110161,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2065119757205151786"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1781413567061,
+        "inputTokens": 362,
+        "outputTokens": 113,
+        "rationale": "This reply is just conversational and does not indicate any rate limit or cap reset.",
+        "reasoningTokens": 69,
+        "totalTokens": 475,
+        "tweetId": "2066023278335111597",
+        "tweetText": "@Sourabhsinr The update button",
+        "tweetUrl": "https://x.com/thsottiaux/status/2066023278335111597",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.98,
         "evaluatedAt": 1781413564355,
@@ -279,29 +292,31 @@
         "tweetText": "@ArduousAtaraxia Exactly",
         "tweetUrl": "https://x.com/thsottiaux/status/2064900424264798601",
         "verdict": "uncertain"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1781145831636,
-        "inputTokens": 671,
-        "outputTokens": 107,
-        "rationale": "This post comments on a ChatGPT model picker update, not on usage limits or a rate-limit reset.",
-        "reasoningTokens": 58,
-        "totalTokens": 778,
-        "tweetId": "2064900105032135010",
-        "tweetText": "Simplify until there is nothing to simplify",
-        "tweetUrl": "https://x.com/thsottiaux/status/2064900105032135010",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 245767,
-      "totalOutputTokens": 65693,
-      "totalReasoningTokens": 35439,
-      "totalTokens": 311460
+      "totalInputTokens": 246129,
+      "totalOutputTokens": 65806,
+      "totalReasoningTokens": 35508,
+      "totalTokens": 311935
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1781413567061,
+      "inputTokens": 362,
+      "message": "",
+      "outputTokens": 113,
+      "rationale": "This reply is just conversational and does not indicate any rate limit or cap reset.",
+      "reasoningTokens": 69,
+      "totalTokens": 475,
+      "tweetId": "2066023278335111597",
+      "tweetText": "@Sourabhsinr The update button",
+      "tweetUrl": "https://x.com/thsottiaux/status/2066023278335111597",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.98,
       "createdAt": 1781413564355,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2064038582529221017",
       "type": "review_requested",
       "verdict": "uncertain"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1780899394444,
-      "inputTokens": 375,
-      "message": "",
-      "outputTokens": 73,
-      "rationale": "This is a conversational joke and does not mention limits, caps, or usage resetting.",
-      "reasoningTokens": 28,
-      "totalTokens": 448,
-      "tweetId": "2063867254945767838",
-      "tweetText": "@ajambrosino @Miles_Brundage BRB training on your tweets to power the goblin personality",
-      "tweetUrl": "https://x.com/thsottiaux/status/2063867254945767838",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "11UV0yZvVPHI_ars1-dYFmLeRyqwIbXpLfYX9RPqSztmnTo34b7bztTATw",
-    "iv": "y5SDWB1rHd_GHoCG",
-    "tag": "7jmfzXTiuxS-Ho7pieFFiQ",
+    "ciphertext": "oVaQ5Yx3r2qZJ-4v9XqO61FueTT_I5DM3EIN4UDYzPX63dEq3C-mQxXVPg",
+    "iv": "Si3fz_u58Msi5K63",
+    "tag": "tadQANV6o6QfdVaIha_8PA",
     "version": 1
   }
 }
