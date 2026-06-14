@@ -15,24 +15,37 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.98,
-      "decidedAt": 1781415102482,
-      "rationale": "This reply discusses remaining context tokens, not a reset of usage limits or rate caps.",
-      "tweetId": "2066028860194591006",
-      "tweetUrl": "https://x.com/thsottiaux/status/2066028860194591006",
-      "verdict": "not_reset"
+      "decidedAt": 1781415105639,
+      "rationale": "This reply only says “Sí” without enough visible context to confirm a rate-limit reset.",
+      "tweetId": "2066028968105697761",
+      "tweetUrl": "https://x.com/thsottiaux/status/2066028968105697761",
+      "verdict": "uncertain"
     },
     "lastError": null,
-    "lastSeenTweetId": "2066028860194591006",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2066028860194591006",
+    "lastSeenTweetId": "2066028968105697761",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2066028968105697761",
     "pendingReview": {
-      "confidence": 0.96,
-      "createdAt": 1781414798029,
-      "rationale": "This reply is too context-dependent and does not explicitly say any limit has reset.",
-      "tweetId": "2066028715012989281",
-      "tweetText": "@aadhilkh Quite soon actually",
-      "tweetUrl": "https://x.com/thsottiaux/status/2066028715012989281"
+      "confidence": 0.98,
+      "createdAt": 1781415105639,
+      "rationale": "This reply only says “Sí” without enough visible context to confirm a rate-limit reset.",
+      "tweetId": "2066028968105697761",
+      "tweetText": "@Zoneofsavi Sí",
+      "tweetUrl": "https://x.com/thsottiaux/status/2066028968105697761"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.98,
+        "evaluatedAt": 1781415105639,
+        "inputTokens": 357,
+        "outputTokens": 177,
+        "rationale": "This reply only says “Sí” without enough visible context to confirm a rate-limit reset.",
+        "reasoningTokens": 131,
+        "totalTokens": 534,
+        "tweetId": "2066028968105697761",
+        "tweetText": "@Zoneofsavi Sí",
+        "tweetUrl": "https://x.com/thsottiaux/status/2066028968105697761",
+        "verdict": "uncertain"
+      },
       {
         "confidence": 0.98,
         "evaluatedAt": 1781415102482,
@@ -279,29 +292,31 @@
         "tweetText": "Hi, I'm Tibo and I just discovered Codex. AMA",
         "tweetUrl": "https://x.com/thsottiaux/status/2066022651760721931",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.98,
-        "evaluatedAt": 1781413243184,
-        "inputTokens": 420,
-        "outputTokens": 148,
-        "rationale": "It’s a promotional reply about getting future resets from referrals, not saying any current limit has reset.",
-        "reasoningTokens": 100,
-        "totalTokens": 568,
-        "tweetId": "2066022465789436223",
-        "tweetText": "@MehakdeepK81 I would \n\n1) Try Codex for free, it's included with any ChatGPT account\n2) Realize it's awesome\n3) Smile\n4) ...\n5) Smile some more\n6) Get a subscription\n7) Invite friends and get many resets\n8) Keep smiling",
-        "tweetUrl": "https://x.com/thsottiaux/status/2066022465789436223",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 250898,
-      "totalOutputTokens": 67181,
-      "totalReasoningTokens": 36310,
-      "totalTokens": 318079
+      "totalInputTokens": 251255,
+      "totalOutputTokens": 67358,
+      "totalReasoningTokens": 36441,
+      "totalTokens": 318613
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.98,
+      "createdAt": 1781415105639,
+      "inputTokens": 357,
+      "message": "",
+      "outputTokens": 177,
+      "rationale": "This reply only says “Sí” without enough visible context to confirm a rate-limit reset.",
+      "reasoningTokens": 131,
+      "totalTokens": 534,
+      "tweetId": "2066028968105697761",
+      "tweetText": "@Zoneofsavi Sí",
+      "tweetUrl": "https://x.com/thsottiaux/status/2066028968105697761",
+      "type": "review_requested",
+      "verdict": "uncertain"
+    },
     {
       "confidence": 0.98,
       "createdAt": 1781415102482,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2064569673367404624",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1781005371060,
-      "inputTokens": 365,
-      "message": "",
-      "outputTokens": 71,
-      "rationale": "This reply is a joke about thread complexity and does not mention limits or a reset.",
-      "reasoningTokens": 26,
-      "totalTokens": 436,
-      "tweetId": "2064311852461371604",
-      "tweetText": "@Dimillian Soon you will need an org chart for your threads",
-      "tweetUrl": "https://x.com/thsottiaux/status/2064311852461371604",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "aF8VLfm6FgwAjtXyKrynb8rT-YNTO3pr0PTtLOOQnL241nSTRPWWHfBGxw",
-    "iv": "KER5QSRWUOWK5HA2",
-    "tag": "vo-W-Q-16GOFQv0LxLAAGQ",
+    "ciphertext": "BFjsFlTVdfVMFB_FFUJBq94GB7MZyEXCilVLXdMIXStzji_hdxBqWg_5tw",
+    "iv": "UF2253VMUulHX3H9",
+    "tag": "sL-PjMF6i8shwq8OUJUURQ",
     "version": 1
   }
 }
