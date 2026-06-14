@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1781376364420,
-      "rationale": "This reply is just conversational and does not mention limits, caps, or availability resetting.",
-      "tweetId": "2065867866986217669",
-      "tweetUrl": "https://x.com/thsottiaux/status/2065867866986217669",
+      "decidedAt": 1781411061820,
+      "rationale": "This reply only says someone uses Codex and does not mention limits or resets.",
+      "tweetId": "2066013128513736925",
+      "tweetUrl": "https://x.com/thsottiaux/status/2066013128513736925",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2065867866986217669",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2065867866986217669",
+    "lastSeenTweetId": "2066013128513736925",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2066013128513736925",
     "pendingReview": {
       "confidence": 0.6,
       "createdAt": 1781198110161,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2065119757205151786"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1781411061820,
+        "inputTokens": 361,
+        "outputTokens": 75,
+        "rationale": "This reply only says someone uses Codex and does not mention limits or resets.",
+        "reasoningTokens": 31,
+        "totalTokens": 436,
+        "tweetId": "2066013128513736925",
+        "tweetText": "@sflorimm They use Codex",
+        "tweetUrl": "https://x.com/thsottiaux/status/2066013128513736925",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1781376364420,
@@ -279,29 +292,31 @@
         "tweetText": "Playing codex like an orchestra. One /goal at a time.",
         "tweetUrl": "https://x.com/thsottiaux/status/2064307859903447396",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1780985573435,
-        "inputTokens": 367,
-        "outputTokens": 84,
-        "rationale": "This reply is conversational and does not mention limits, caps, or usage becoming available again.",
-        "reasoningTokens": 38,
-        "totalTokens": 451,
-        "tweetId": "2064228137924448569",
-        "tweetText": "@llmDestructor 99 days left, 99 more opportunities to disappoint",
-        "tweetUrl": "https://x.com/thsottiaux/status/2064228137924448569",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 242709,
-      "totalOutputTokens": 64895,
-      "totalReasoningTokens": 35010,
-      "totalTokens": 307604
+      "totalInputTokens": 243070,
+      "totalOutputTokens": 64970,
+      "totalReasoningTokens": 35041,
+      "totalTokens": 308040
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1781411061820,
+      "inputTokens": 361,
+      "message": "",
+      "outputTokens": 75,
+      "rationale": "This reply only says someone uses Codex and does not mention limits or resets.",
+      "reasoningTokens": 31,
+      "totalTokens": 436,
+      "tweetId": "2066013128513736925",
+      "tweetText": "@sflorimm They use Codex",
+      "tweetUrl": "https://x.com/thsottiaux/status/2066013128513736925",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1781376364420,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2062997876297609257",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1780692123037,
-      "inputTokens": 459,
-      "message": "",
-      "outputTokens": 77,
-      "rationale": "This post is about Codex product improvements and adoption, not limits or rate-limit resets.",
-      "reasoningTokens": 31,
-      "totalTokens": 536,
-      "tweetId": "2062997768470474765",
-      "tweetText": "Codex papercuts 📉\nCodex adoption 📈",
-      "tweetUrl": "https://x.com/thsottiaux/status/2062997768470474765",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "q1Z0pyxp3SfgricXj_1gUo_BYLL6IWIRXrgtzUHeNIkyKu4-DglFA79v9Q",
-    "iv": "JS-7DWdjUXu21sdR",
-    "tag": "CRyieZfljD8kB1Gs6gltrw",
+    "ciphertext": "NwfiGGN6aOu7s20nMJ562eTxHcpVQpJkk90cKfjzaOTACnuOHlsLaXPiNA",
+    "iv": "w-g0gwP1RnmJNfWr",
+    "tag": "mJOAmcW-u5YKpY1nYSS20g",
     "version": 1
   }
 }
