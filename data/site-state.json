@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1781414159525,
-      "rationale": "This reply just says “Codex 2” and does not indicate any limits or caps have reset.",
-      "tweetId": "2066026202100609461",
-      "tweetUrl": "https://x.com/thsottiaux/status/2066026202100609461",
+      "decidedAt": 1781414467439,
+      "rationale": "This reply is just conversational and says nothing about limits or resets.",
+      "tweetId": "2066027075354685923",
+      "tweetUrl": "https://x.com/thsottiaux/status/2066027075354685923",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2066026202100609461",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2066026202100609461",
+    "lastSeenTweetId": "2066027075354685923",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2066027075354685923",
     "pendingReview": {
       "confidence": 0.15,
       "createdAt": 1781413573391,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2066024169851273239"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1781414467439,
+        "inputTokens": 362,
+        "outputTokens": 82,
+        "rationale": "This reply is just conversational and says nothing about limits or resets.",
+        "reasoningTokens": 41,
+        "totalTokens": 444,
+        "tweetId": "2066027075354685923",
+        "tweetText": "@RussWonsley Humor, empathy and kindness",
+        "tweetUrl": "https://x.com/thsottiaux/status/2066027075354685923",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1781414159525,
@@ -279,29 +292,31 @@
         "tweetText": "@araseb_ Do you have to ask",
         "tweetUrl": "https://x.com/thsottiaux/status/2065119757205151786",
         "verdict": "uncertain"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1781148301638,
-        "inputTokens": 496,
-        "outputTokens": 114,
-        "rationale": "It discusses increased Codex usage and user preference, not any limit or rate-cap reset.",
-        "reasoningTokens": 68,
-        "totalTokens": 610,
-        "tweetId": "2064911328087810308",
-        "tweetText": "Can confirm we saw a strong spike in growth of token consumption for Codex over last 48 hours. Unusual when we don't launch something.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2064911328087810308",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 248359,
-      "totalOutputTokens": 66420,
-      "totalReasoningTokens": 35860,
-      "totalTokens": 314779
+      "totalInputTokens": 248721,
+      "totalOutputTokens": 66502,
+      "totalReasoningTokens": 35901,
+      "totalTokens": 315223
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1781414467439,
+      "inputTokens": 362,
+      "message": "",
+      "outputTokens": 82,
+      "rationale": "This reply is just conversational and says nothing about limits or resets.",
+      "reasoningTokens": 41,
+      "totalTokens": 444,
+      "tweetId": "2066027075354685923",
+      "tweetText": "@RussWonsley Humor, empathy and kindness",
+      "tweetUrl": "https://x.com/thsottiaux/status/2066027075354685923",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1781414159525,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2064226958494572727",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1780984980044,
-      "inputTokens": 385,
-      "message": "",
-      "outputTokens": 119,
-      "rationale": "This is a playful reply about a personal schedule and does not indicate any Codex or ChatGPT limits have reset.",
-      "reasoningTokens": 68,
-      "totalTokens": 504,
-      "tweetId": "2064226495879668161",
-      "tweetText": "@JinjingLiang @adamhfry My schedule:\n\nRest =&gt; Reset =&gt; Reset =&gt; Rest =&gt; ...",
-      "tweetUrl": "https://x.com/thsottiaux/status/2064226495879668161",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "nHCMUEfM1jaWxSFd2BNa0PqLboSEP9feUxDrsIf0H-X6U7SBqyoKa7YoJg",
-    "iv": "i9XSZfPTu0NOXetZ",
-    "tag": "KcYY1J55Ij3-kL1fmN6R1Q",
+    "ciphertext": "SksVoU3fZw0Uyaqf6zacj-Z3AxFBCTMDtEpWEWtosiPDJp48V9TRh8mC1w",
+    "iv": "eQVgskJzbZYEuvl-",
+    "tag": "VHtXlqHbucnYsrS-AhmPrg",
     "version": 1
   }
 }
