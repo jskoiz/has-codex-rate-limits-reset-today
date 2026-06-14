@@ -14,16 +14,16 @@
   "updatedAt": 1780532876323,
   "automation": {
     "lastDecision": {
-      "confidence": 0.15,
-      "decidedAt": 1781413573391,
-      "rationale": "This reply lacks enough context to tell whether it confirms a current limit reset.",
-      "tweetId": "2066024169851273239",
-      "tweetUrl": "https://x.com/thsottiaux/status/2066024169851273239",
-      "verdict": "uncertain"
+      "confidence": 0.99,
+      "decidedAt": 1781413859065,
+      "rationale": "This reply is conversational and says nothing about limits or resets.",
+      "tweetId": "2066024544918442056",
+      "tweetUrl": "https://x.com/thsottiaux/status/2066024544918442056",
+      "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2066024169851273239",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2066024169851273239",
+    "lastSeenTweetId": "2066024544918442056",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2066024544918442056",
     "pendingReview": {
       "confidence": 0.15,
       "createdAt": 1781413573391,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2066024169851273239"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1781413859065,
+        "inputTokens": 395,
+        "outputTokens": 69,
+        "rationale": "This reply is conversational and says nothing about limits or resets.",
+        "reasoningTokens": 29,
+        "totalTokens": 464,
+        "tweetId": "2066024544918442056",
+        "tweetText": "@CadenJ06 Working with people like @ajambrosino , @edbayes, @ah20im  and many many other brilliant people who can't help but figure out what the future will look like",
+        "tweetUrl": "https://x.com/thsottiaux/status/2066024544918442056",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.15,
         "evaluatedAt": 1781413573391,
@@ -279,29 +292,31 @@
         "tweetText": "@frisohakkers @OpenAI @outpacestudios Nice one!",
         "tweetUrl": "https://x.com/thsottiaux/status/2064905715421270208",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1781146743201,
-        "inputTokens": 359,
-        "outputTokens": 87,
-        "rationale": "This reply is conversational and gives no indication that any Codex or ChatGPT limits have reset.",
-        "reasoningTokens": 40,
-        "totalTokens": 446,
-        "tweetId": "2064904673228972310",
-        "tweetText": "@charliermarsh You're projecting",
-        "tweetUrl": "https://x.com/thsottiaux/status/2064904673228972310",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 246867,
-      "totalOutputTokens": 66068,
-      "totalReasoningTokens": 35684,
-      "totalTokens": 312935
+      "totalInputTokens": 247262,
+      "totalOutputTokens": 66137,
+      "totalReasoningTokens": 35713,
+      "totalTokens": 313399
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1781413859065,
+      "inputTokens": 395,
+      "message": "",
+      "outputTokens": 69,
+      "rationale": "This reply is conversational and says nothing about limits or resets.",
+      "reasoningTokens": 29,
+      "totalTokens": 464,
+      "tweetId": "2066024544918442056",
+      "tweetText": "@CadenJ06 Working with people like @ajambrosino , @edbayes, @ah20im  and many many other brilliant people who can't help but figure out what the future will look like",
+      "tweetUrl": "https://x.com/thsottiaux/status/2066024544918442056",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.15,
       "createdAt": 1781413573391,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2064217733722669539",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.98,
-      "createdAt": 1780980303087,
-      "inputTokens": 485,
-      "message": "",
-      "outputTokens": 150,
-      "rationale": "This announces a selected user getting 10X Codex usage, not that rate limits have reset for users now.",
-      "reasoningTokens": 99,
-      "totalTokens": 635,
-      "tweetId": "2064206679475134881",
-      "tweetText": "First one is @skirano. Enjoy the 10X and keep building magic. Who's next?\n\nhttps://t.co/2L3XWyhikG",
-      "tweetUrl": "https://x.com/thsottiaux/status/2064206679475134881",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "AGesIyZF7oq1iCxsDfTosoPJzbcqUPj5WE4wVfgKy9xumiraK8b5pUjtCQ",
-    "iv": "IVMTNZsRDlcDkHHT",
-    "tag": "Du0bd43RI2DrUUzAkckI4g",
+    "ciphertext": "rST5jAHnWSEgyyd3WDMv2NFn3EGeUM-tmOEkuEj5qINdnmrdfRDjelcFWw",
+    "iv": "f71NP30ixiR6GcP7",
+    "tag": "8M-cTMcaibhBjRGUDyOYtw",
     "version": 1
   }
 }
