@@ -14,16 +14,16 @@
   "updatedAt": 1780532876323,
   "automation": {
     "lastDecision": {
-      "confidence": 0.98,
-      "decidedAt": 1781415105639,
-      "rationale": "This reply only says “Sí” without enough visible context to confirm a rate-limit reset.",
-      "tweetId": "2066028968105697761",
-      "tweetUrl": "https://x.com/thsottiaux/status/2066028968105697761",
-      "verdict": "uncertain"
+      "confidence": 0.99,
+      "decidedAt": 1781415407977,
+      "rationale": "This reply just says \"Batching\" and does not indicate any limit reset.",
+      "tweetId": "2066029393789776366",
+      "tweetUrl": "https://x.com/thsottiaux/status/2066029393789776366",
+      "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2066028968105697761",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2066028968105697761",
+    "lastSeenTweetId": "2066029393789776366",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2066029393789776366",
     "pendingReview": {
       "confidence": 0.98,
       "createdAt": 1781415105639,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2066028968105697761"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1781415407977,
+        "inputTokens": 359,
+        "outputTokens": 79,
+        "rationale": "This reply just says \"Batching\" and does not indicate any limit reset.",
+        "reasoningTokens": 35,
+        "totalTokens": 438,
+        "tweetId": "2066029393789776366",
+        "tweetText": "@joshbuildings Batching",
+        "tweetUrl": "https://x.com/thsottiaux/status/2066029393789776366",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.98,
         "evaluatedAt": 1781415105639,
@@ -279,29 +292,31 @@
         "tweetText": "@defido Won't answer questions about GPT 6 👀",
         "tweetUrl": "https://x.com/thsottiaux/status/2066022807910396083",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1781413245826,
-        "inputTokens": 366,
-        "outputTokens": 77,
-        "rationale": "This is just a conversational remark about discovering Codex, not a rate-limit reset.",
-        "reasoningTokens": 32,
-        "totalTokens": 443,
-        "tweetId": "2066022651760721931",
-        "tweetText": "Hi, I'm Tibo and I just discovered Codex. AMA",
-        "tweetUrl": "https://x.com/thsottiaux/status/2066022651760721931",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 251255,
-      "totalOutputTokens": 67358,
-      "totalReasoningTokens": 36441,
-      "totalTokens": 318613
+      "totalInputTokens": 251614,
+      "totalOutputTokens": 67437,
+      "totalReasoningTokens": 36476,
+      "totalTokens": 319051
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1781415407977,
+      "inputTokens": 359,
+      "message": "",
+      "outputTokens": 79,
+      "rationale": "This reply just says \"Batching\" and does not indicate any limit reset.",
+      "reasoningTokens": 35,
+      "totalTokens": 438,
+      "tweetId": "2066029393789776366",
+      "tweetText": "@joshbuildings Batching",
+      "tweetUrl": "https://x.com/thsottiaux/status/2066029393789776366",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.98,
       "createdAt": 1781415105639,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2064572118264913923",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1781066806116,
-      "inputTokens": 367,
-      "message": "",
-      "outputTokens": 80,
-      "rationale": "This reply is promotional and does not mention limits, caps, or a reset.",
-      "reasoningTokens": 36,
-      "totalTokens": 447,
-      "tweetId": "2064569673367404624",
-      "tweetText": "@MeekMill Can't live without the Codex App. Built for everyone.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2064569673367404624",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "BFjsFlTVdfVMFB_FFUJBq94GB7MZyEXCilVLXdMIXStzji_hdxBqWg_5tw",
-    "iv": "UF2253VMUulHX3H9",
-    "tag": "sL-PjMF6i8shwq8OUJUURQ",
+    "ciphertext": "LhfGpDN7B4dyDZ08U9Jm0ZvuKLPEwA3PC7CQtESgFS0spBKJvCJjFY2bxA",
+    "iv": "-W8STRO2Y_BVuFTT",
+    "tag": "Hg9sCdhWu7y2yencH7uEJg",
     "version": 1
   }
 }
