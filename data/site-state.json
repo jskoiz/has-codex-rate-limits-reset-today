@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1781413567061,
-      "rationale": "This reply is just conversational and does not indicate any rate limit or cap reset.",
-      "tweetId": "2066023278335111597",
-      "tweetUrl": "https://x.com/thsottiaux/status/2066023278335111597",
+      "decidedAt": 1781413569341,
+      "rationale": "This reply is a joke/comment and does not mention any limit or reset.",
+      "tweetId": "2066023944315109820",
+      "tweetUrl": "https://x.com/thsottiaux/status/2066023944315109820",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2066023278335111597",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2066023278335111597",
+    "lastSeenTweetId": "2066023944315109820",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2066023944315109820",
     "pendingReview": {
       "confidence": 0.6,
       "createdAt": 1781198110161,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2065119757205151786"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1781413569341,
+        "inputTokens": 368,
+        "outputTokens": 95,
+        "rationale": "This reply is a joke/comment and does not mention any limit or reset.",
+        "reasoningTokens": 52,
+        "totalTokens": 463,
+        "tweetId": "2066023944315109820",
+        "tweetText": "@ns123abc Codex is many things. I am not one of them.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2066023944315109820",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1781413567061,
@@ -279,29 +292,31 @@
         "tweetText": "@daniel_mac8 Haha",
         "tweetUrl": "https://x.com/thsottiaux/status/2064904541783675281",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.92,
-        "evaluatedAt": 1781145838417,
-        "inputTokens": 361,
-        "outputTokens": 277,
-        "rationale": "This reply only says “Exactly,” so it gives no clear evidence that limits have reset.",
-        "reasoningTokens": 231,
-        "totalTokens": 638,
-        "tweetId": "2064900424264798601",
-        "tweetText": "@ArduousAtaraxia Exactly",
-        "tweetUrl": "https://x.com/thsottiaux/status/2064900424264798601",
-        "verdict": "uncertain"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 246129,
-      "totalOutputTokens": 65806,
-      "totalReasoningTokens": 35508,
-      "totalTokens": 311935
+      "totalInputTokens": 246497,
+      "totalOutputTokens": 65901,
+      "totalReasoningTokens": 35560,
+      "totalTokens": 312398
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1781413569341,
+      "inputTokens": 368,
+      "message": "",
+      "outputTokens": 95,
+      "rationale": "This reply is a joke/comment and does not mention any limit or reset.",
+      "reasoningTokens": 52,
+      "totalTokens": 463,
+      "tweetId": "2066023944315109820",
+      "tweetText": "@ns123abc Codex is many things. I am not one of them.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2066023944315109820",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1781413567061,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2064039257392709683",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.97,
-      "createdAt": 1780940410871,
-      "inputTokens": 361,
-      "message": "",
-      "outputTokens": 119,
-      "rationale": "This reply alone does not clearly indicate that any limit has reset.",
-      "reasoningTokens": 78,
-      "totalTokens": 480,
-      "tweetId": "2064038582529221017",
-      "tweetText": "@YashHustle_22 No",
-      "tweetUrl": "https://x.com/thsottiaux/status/2064038582529221017",
-      "type": "review_requested",
-      "verdict": "uncertain"
     }
   ],
   "privateState": {
-    "ciphertext": "oVaQ5Yx3r2qZJ-4v9XqO61FueTT_I5DM3EIN4UDYzPX63dEq3C-mQxXVPg",
-    "iv": "Si3fz_u58Msi5K63",
-    "tag": "tadQANV6o6QfdVaIha_8PA",
+    "ciphertext": "9y_wkAhIiuarci1K3cQ8QFcxbLMobaLobNsqPqxM1MaaZHtfpr2tCm16Vg",
+    "iv": "KhbacaWIJcguwl-a",
+    "tag": "jFMsUEVG9puWJx063438MA",
     "version": 1
   }
 }
