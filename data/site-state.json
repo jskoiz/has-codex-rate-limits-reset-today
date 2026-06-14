@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1781411061820,
-      "rationale": "This reply only says someone uses Codex and does not mention limits or resets.",
-      "tweetId": "2066013128513736925",
-      "tweetUrl": "https://x.com/thsottiaux/status/2066013128513736925",
+      "decidedAt": 1781411360024,
+      "rationale": "This reply is a joke about coding and says nothing about limits or a reset.",
+      "tweetId": "2066014487539564555",
+      "tweetUrl": "https://x.com/thsottiaux/status/2066014487539564555",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2066013128513736925",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2066013128513736925",
+    "lastSeenTweetId": "2066014487539564555",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2066014487539564555",
     "pendingReview": {
       "confidence": 0.6,
       "createdAt": 1781198110161,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2065119757205151786"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1781411360024,
+        "inputTokens": 434,
+        "outputTokens": 72,
+        "rationale": "This reply is a joke about coding and says nothing about limits or a reset.",
+        "reasoningTokens": 28,
+        "totalTokens": 506,
+        "tweetId": "2066014487539564555",
+        "tweetText": "if name == \"sourabh.gurwani\":\n  return False\n\nAnd every time a user registers, you start a Codex automation job to add a new if clause (very quickly).\n\nIf you want to optimize you can use GPT-5.3-Spark, which is faster.\n\nIf you want to optimize further, ask Codex how to implement an index.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2066014487539564555",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1781411061820,
@@ -279,29 +292,31 @@
         "tweetText": "Do you use codex /goal occasionally or as your main way to get things done?",
         "tweetUrl": "https://x.com/thsottiaux/status/2064308436133716008",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1781004414481,
-        "inputTokens": 462,
-        "outputTokens": 101,
-        "rationale": "This post and its quote discuss using Codex features, not any cap or rate-limit reset.",
-        "reasoningTokens": 54,
-        "totalTokens": 563,
-        "tweetId": "2064307859903447396",
-        "tweetText": "Playing codex like an orchestra. One /goal at a time.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2064307859903447396",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 243070,
-      "totalOutputTokens": 64970,
-      "totalReasoningTokens": 35041,
-      "totalTokens": 308040
+      "totalInputTokens": 243504,
+      "totalOutputTokens": 65042,
+      "totalReasoningTokens": 35069,
+      "totalTokens": 308546
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1781411360024,
+      "inputTokens": 434,
+      "message": "",
+      "outputTokens": 72,
+      "rationale": "This reply is a joke about coding and says nothing about limits or a reset.",
+      "reasoningTokens": 28,
+      "totalTokens": 506,
+      "tweetId": "2066014487539564555",
+      "tweetText": "if name == \"sourabh.gurwani\":\n  return False\n\nAnd every time a user registers, you start a Codex automation job to add a new if clause (very quickly).\n\nIf you want to optimize you can use GPT-5.3-Spark, which is faster.\n\nIf you want to optimize further, ask Codex how to implement an index.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2066014487539564555",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1781411061820,
@@ -886,27 +901,12 @@
       "tweetUrl": null,
       "type": "error",
       "verdict": null
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1780692126667,
-      "inputTokens": 363,
-      "message": "",
-      "outputTokens": 85,
-      "rationale": "This reply praises someone’s work and does not mention limits, caps, or resets.",
-      "reasoningTokens": 40,
-      "totalTokens": 448,
-      "tweetId": "2062997876297609257",
-      "tweetText": "Incredible work from @simpsoka and team",
-      "tweetUrl": "https://x.com/thsottiaux/status/2062997876297609257",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "NwfiGGN6aOu7s20nMJ562eTxHcpVQpJkk90cKfjzaOTACnuOHlsLaXPiNA",
-    "iv": "w-g0gwP1RnmJNfWr",
-    "tag": "mJOAmcW-u5YKpY1nYSS20g",
+    "ciphertext": "KnM7XJSME0qMbJNdNkWtw_YZ2jx-qq1TCaTP8ZgFR48TW44kz6_QbRiZIg",
+    "iv": "F_jRSqSwwf0A41AE",
+    "tag": "7cukCFE95kS5o0qI2NJ2Kg",
     "version": 1
   }
 }
