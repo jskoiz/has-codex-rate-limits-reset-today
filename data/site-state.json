@@ -14,16 +14,16 @@
   "updatedAt": 1780532876323,
   "automation": {
     "lastDecision": {
-      "confidence": 0.95,
-      "decidedAt": 1781414470699,
-      "rationale": "This reply gives no clear indication that any Codex or ChatGPT limit has reset.",
-      "tweetId": "2066027101179007459",
-      "tweetUrl": "https://x.com/thsottiaux/status/2066027101179007459",
-      "verdict": "uncertain"
+      "confidence": 0.99,
+      "decidedAt": 1781414789895,
+      "rationale": "This is just a casual reply and says nothing about limits or resets.",
+      "tweetId": "2066028235801137437",
+      "tweetUrl": "https://x.com/thsottiaux/status/2066028235801137437",
+      "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2066027101179007459",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2066027101179007459",
+    "lastSeenTweetId": "2066028235801137437",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2066028235801137437",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1781414470699,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2066027101179007459"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1781414789895,
+        "inputTokens": 361,
+        "outputTokens": 85,
+        "rationale": "This is just a casual reply and says nothing about limits or resets.",
+        "reasoningTokens": 43,
+        "totalTokens": 446,
+        "tweetId": "2066028235801137437",
+        "tweetText": "@buildwithhassan Lowkey love it",
+        "tweetUrl": "https://x.com/thsottiaux/status/2066028235801137437",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.95,
         "evaluatedAt": 1781414470699,
@@ -279,29 +292,31 @@
         "tweetText": "Heard your (amusing) feedback that it was at times annoying to receive a reset of your Codex usage without warning. \n\nNext time we press the button you will get to choose when it actually applies. Happy codexing.",
         "tweetUrl": "https://x.com/thsottiaux/status/2065468501750649006",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1781215504564,
-        "inputTokens": 477,
-        "outputTokens": 77,
-        "rationale": "This post is about Ona joining the Codex team, not about usage limits or resets.",
-        "reasoningTokens": 31,
-        "totalTokens": 554,
-        "tweetId": "2065193272952422852",
-        "tweetText": "Codex 🤟Ona\n\nBeyond excited to work with Johannes and team to build the future.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2065193272952422852",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 249080,
-      "totalOutputTokens": 66662,
-      "totalReasoningTokens": 36016,
-      "totalTokens": 315742
+      "totalInputTokens": 249441,
+      "totalOutputTokens": 66747,
+      "totalReasoningTokens": 36059,
+      "totalTokens": 316188
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1781414789895,
+      "inputTokens": 361,
+      "message": "",
+      "outputTokens": 85,
+      "rationale": "This is just a casual reply and says nothing about limits or resets.",
+      "reasoningTokens": 43,
+      "totalTokens": 446,
+      "tweetId": "2066028235801137437",
+      "tweetText": "@buildwithhassan Lowkey love it",
+      "tweetUrl": "https://x.com/thsottiaux/status/2066028235801137437",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.95,
       "createdAt": 1781414470699,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2064227730884055063",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1780985281411,
-      "inputTokens": 421,
-      "message": "",
-      "outputTokens": 107,
-      "rationale": "This reply and its quoted post are about model naming, not limits or resets.",
-      "reasoningTokens": 63,
-      "totalTokens": 528,
-      "tweetId": "2064227305212580184",
-      "tweetText": "@adxtyahq Uh..\n\nhttps://t.co/QxqpvVD1zy",
-      "tweetUrl": "https://x.com/thsottiaux/status/2064227305212580184",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "ix206xwuPWS9bJFFkZLeel1NT7sxGo19-CRatwFsJd4lZYtgUN_4fs7gZw",
-    "iv": "ux-IVpr9X41ZWXIi",
-    "tag": "6yIBrZcEGxCm-xtBQ6P8Bw",
+    "ciphertext": "UUtsN6RIvUObbxaXYGbAZwNo-bVF433w8dGveIVSeRisJQe7p3G4ls-TjA",
+    "iv": "kLaIfcgeIpLrM6T4",
+    "tag": "IfdVOo5bLj6hcqZcQcSCxQ",
     "version": 1
   }
 }
