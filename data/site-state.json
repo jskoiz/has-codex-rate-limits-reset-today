@@ -14,16 +14,16 @@
   "updatedAt": 1780532876323,
   "automation": {
     "lastDecision": {
-      "confidence": 0.96,
-      "decidedAt": 1781414798029,
-      "rationale": "This reply is too context-dependent and does not explicitly say any limit has reset.",
-      "tweetId": "2066028715012989281",
-      "tweetUrl": "https://x.com/thsottiaux/status/2066028715012989281",
-      "verdict": "uncertain"
+      "confidence": 0.98,
+      "decidedAt": 1781415102482,
+      "rationale": "This reply discusses remaining context tokens, not a reset of usage limits or rate caps.",
+      "tweetId": "2066028860194591006",
+      "tweetUrl": "https://x.com/thsottiaux/status/2066028860194591006",
+      "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2066028715012989281",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2066028715012989281",
+    "lastSeenTweetId": "2066028860194591006",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2066028860194591006",
     "pendingReview": {
       "confidence": 0.96,
       "createdAt": 1781414798029,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2066028715012989281"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.98,
+        "evaluatedAt": 1781415102482,
+        "inputTokens": 371,
+        "outputTokens": 97,
+        "rationale": "This reply discusses remaining context tokens, not a reset of usage limits or rate caps.",
+        "reasoningTokens": 52,
+        "totalTokens": 468,
+        "tweetId": "2066028860194591006",
+        "tweetText": "@kaeden_dev Can confirm, only 22k tokens in the context. Plenty to go",
+        "tweetUrl": "https://x.com/thsottiaux/status/2066028860194591006",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.96,
         "evaluatedAt": 1781414798029,
@@ -279,29 +292,31 @@
         "tweetText": "@MehakdeepK81 I would \n\n1) Try Codex for free, it's included with any ChatGPT account\n2) Realize it's awesome\n3) Smile\n4) ...\n5) Smile some more\n6) Get a subscription\n7) Invite friends and get many resets\n8) Keep smiling",
         "tweetUrl": "https://x.com/thsottiaux/status/2066022465789436223",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1781411360024,
-        "inputTokens": 434,
-        "outputTokens": 72,
-        "rationale": "This reply is a joke about coding and says nothing about limits or a reset.",
-        "reasoningTokens": 28,
-        "totalTokens": 506,
-        "tweetId": "2066014487539564555",
-        "tweetText": "if name == \"sourabh.gurwani\":\n  return False\n\nAnd every time a user registers, you start a Codex automation job to add a new if clause (very quickly).\n\nIf you want to optimize you can use GPT-5.3-Spark, which is faster.\n\nIf you want to optimize further, ask Codex how to implement an index.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2066014487539564555",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 250527,
-      "totalOutputTokens": 67084,
-      "totalReasoningTokens": 36258,
-      "totalTokens": 317611
+      "totalInputTokens": 250898,
+      "totalOutputTokens": 67181,
+      "totalReasoningTokens": 36310,
+      "totalTokens": 318079
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.98,
+      "createdAt": 1781415102482,
+      "inputTokens": 371,
+      "message": "",
+      "outputTokens": 97,
+      "rationale": "This reply discusses remaining context tokens, not a reset of usage limits or rate caps.",
+      "reasoningTokens": 52,
+      "totalTokens": 468,
+      "tweetId": "2066028860194591006",
+      "tweetText": "@kaeden_dev Can confirm, only 22k tokens in the context. Plenty to go",
+      "tweetUrl": "https://x.com/thsottiaux/status/2066028860194591006",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.96,
       "createdAt": 1781414798029,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2064311852461371604",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1781004727114,
-      "inputTokens": 370,
-      "message": "",
-      "outputTokens": 88,
-      "rationale": "This is just a usage question about Codex, not a statement that limits reset or are available again.",
-      "reasoningTokens": 39,
-      "totalTokens": 458,
-      "tweetId": "2064308436133716008",
-      "tweetText": "Do you use codex /goal occasionally or as your main way to get things done?",
-      "tweetUrl": "https://x.com/thsottiaux/status/2064308436133716008",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "obMabDtsi7Juq78_wtLiXNlEqLMP1lYcxsgovguVZb8jzzzmkziRRqvcaw",
-    "iv": "7dwYYV4HsjqCuoVe",
-    "tag": "kgaFZxfoDNn_mnTLgd003w",
+    "ciphertext": "aF8VLfm6FgwAjtXyKrynb8rT-YNTO3pr0PTtLOOQnL241nSTRPWWHfBGxw",
+    "iv": "KER5QSRWUOWK5HA2",
+    "tag": "vo-W-Q-16GOFQv0LxLAAGQ",
     "version": 1
   }
 }
