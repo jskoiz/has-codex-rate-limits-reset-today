@@ -14,16 +14,16 @@
   "updatedAt": 1780532876323,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1781414789895,
-      "rationale": "This is just a casual reply and says nothing about limits or resets.",
-      "tweetId": "2066028235801137437",
-      "tweetUrl": "https://x.com/thsottiaux/status/2066028235801137437",
+      "confidence": 0.98,
+      "decidedAt": 1781414792680,
+      "rationale": "This is a joking reply about “resets,” not a clear statement that any limit has reset now.",
+      "tweetId": "2066028460796162096",
+      "tweetUrl": "https://x.com/thsottiaux/status/2066028460796162096",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2066028235801137437",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2066028235801137437",
+    "lastSeenTweetId": "2066028460796162096",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2066028460796162096",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1781414470699,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2066027101179007459"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.98,
+        "evaluatedAt": 1781414792680,
+        "inputTokens": 366,
+        "outputTokens": 105,
+        "rationale": "This is a joking reply about “resets,” not a clear statement that any limit has reset now.",
+        "reasoningTokens": 56,
+        "totalTokens": 471,
+        "tweetId": "2066028460796162096",
+        "tweetText": "@Sedrak1010 That must be worth at least 3 resets",
+        "tweetUrl": "https://x.com/thsottiaux/status/2066028460796162096",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1781414789895,
@@ -279,29 +292,31 @@
         "tweetText": "@simpsoka Are we continuing the conversation here or back to slack? 👀",
         "tweetUrl": "https://x.com/thsottiaux/status/2065867866986217669",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.95,
-        "evaluatedAt": 1781281266944,
-        "inputTokens": 497,
-        "outputTokens": 238,
-        "rationale": "The post says users now have a saved/free Codex reset available, not that limits have already reset now.",
-        "reasoningTokens": 188,
-        "totalTokens": 735,
-        "tweetId": "2065468501750649006",
-        "tweetText": "Heard your (amusing) feedback that it was at times annoying to receive a reset of your Codex usage without warning. \n\nNext time we press the button you will get to choose when it actually applies. Happy codexing.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2065468501750649006",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 249441,
-      "totalOutputTokens": 66747,
-      "totalReasoningTokens": 36059,
-      "totalTokens": 316188
+      "totalInputTokens": 249807,
+      "totalOutputTokens": 66852,
+      "totalReasoningTokens": 36115,
+      "totalTokens": 316659
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.98,
+      "createdAt": 1781414792680,
+      "inputTokens": 366,
+      "message": "",
+      "outputTokens": 105,
+      "rationale": "This is a joking reply about “resets,” not a clear statement that any limit has reset now.",
+      "reasoningTokens": 56,
+      "totalTokens": 471,
+      "tweetId": "2066028460796162096",
+      "tweetText": "@Sedrak1010 That must be worth at least 3 resets",
+      "tweetUrl": "https://x.com/thsottiaux/status/2066028460796162096",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1781414789895,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2064228137924448569",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.97,
-      "createdAt": 1780985287792,
-      "inputTokens": 384,
-      "message": "",
-      "outputTokens": 179,
-      "rationale": "This reply is a playful comment about “rest/reset” and does not indicate ChatGPT or Codex limits are available again.",
-      "reasoningTokens": 126,
-      "totalTokens": 563,
-      "tweetId": "2064227730884055063",
-      "tweetText": "@JinjingLiang @adamhfry My schedule:  Rest =&gt; Reset =&gt; Rest =&gt; Reset =&gt; ...",
-      "tweetUrl": "https://x.com/thsottiaux/status/2064227730884055063",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "UUtsN6RIvUObbxaXYGbAZwNo-bVF433w8dGveIVSeRisJQe7p3G4ls-TjA",
-    "iv": "kLaIfcgeIpLrM6T4",
-    "tag": "IfdVOo5bLj6hcqZcQcSCxQ",
+    "ciphertext": "1NBv_0g3-Bh6oHpDyf-02zR7ZByfvwDm87Voh0kSLIkDGSNRy306FpDh1g",
+    "iv": "ZgTzDJ38_uyw18Fy",
+    "tag": "YhQNohLnWBESPd-kY9CJNQ",
     "version": 1
   }
 }
