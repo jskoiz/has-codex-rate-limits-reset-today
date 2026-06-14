@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1781413864090,
-      "rationale": "This reply does not mention rate limits, caps, or a reset.",
-      "tweetId": "2066025002680582225",
-      "tweetUrl": "https://x.com/thsottiaux/status/2066025002680582225",
+      "decidedAt": 1781414159525,
+      "rationale": "This reply just says “Codex 2” and does not indicate any limits or caps have reset.",
+      "tweetId": "2066026202100609461",
+      "tweetUrl": "https://x.com/thsottiaux/status/2066026202100609461",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2066025002680582225",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2066025002680582225",
+    "lastSeenTweetId": "2066026202100609461",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2066026202100609461",
     "pendingReview": {
       "confidence": 0.15,
       "createdAt": 1781413573391,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2066024169851273239"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1781414159525,
+        "inputTokens": 360,
+        "outputTokens": 92,
+        "rationale": "This reply just says “Codex 2” and does not indicate any limits or caps have reset.",
+        "reasoningTokens": 43,
+        "totalTokens": 452,
+        "tweetId": "2066026202100609461",
+        "tweetText": "@nicksdot Codex 2",
+        "tweetUrl": "https://x.com/thsottiaux/status/2066026202100609461",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1781413864090,
@@ -279,29 +292,31 @@
         "tweetText": "Can confirm we saw a strong spike in growth of token consumption for Codex over last 48 hours. Unusual when we don't launch something.",
         "tweetUrl": "https://x.com/thsottiaux/status/2064911328087810308",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1781147067520,
-        "inputTokens": 359,
-        "outputTokens": 73,
-        "rationale": "This reply is unrelated to rate limits or usage resets.",
-        "reasoningTokens": 34,
-        "totalTokens": 432,
-        "tweetId": "2064905973643583559",
-        "tweetText": "@jxnlco Doesn't iron well",
-        "tweetUrl": "https://x.com/thsottiaux/status/2064905973643583559",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 247999,
-      "totalOutputTokens": 66328,
-      "totalReasoningTokens": 35817,
-      "totalTokens": 314327
+      "totalInputTokens": 248359,
+      "totalOutputTokens": 66420,
+      "totalReasoningTokens": 35860,
+      "totalTokens": 314779
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1781414159525,
+      "inputTokens": 360,
+      "message": "",
+      "outputTokens": 92,
+      "rationale": "This reply just says “Codex 2” and does not indicate any limits or caps have reset.",
+      "reasoningTokens": 43,
+      "totalTokens": 452,
+      "tweetId": "2066026202100609461",
+      "tweetText": "@nicksdot Codex 2",
+      "tweetUrl": "https://x.com/thsottiaux/status/2066026202100609461",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1781413864090,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2064226495879668161",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1780984662332,
-      "inputTokens": 368,
-      "message": "",
-      "outputTokens": 94,
-      "rationale": "This reply is just a joke/comment about Codex and does not mention limits or a reset.",
-      "reasoningTokens": 47,
-      "totalTokens": 462,
-      "tweetId": "2064224790672769307",
-      "tweetText": "Not clear from the image, but the codex dial goes to 11.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2064224790672769307",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "K5EprVL1bKcbDMVbw4BkPU2uoACmIwPHLvXXBYhm7jZRgwkWhyEzAHRTmw",
-    "iv": "ExRbGppiBkqlEJ0K",
-    "tag": "bn0ljTKQo6sRO12Pfy62nQ",
+    "ciphertext": "nHCMUEfM1jaWxSFd2BNa0PqLboSEP9feUxDrsIf0H-X6U7SBqyoKa7YoJg",
+    "iv": "i9XSZfPTu0NOXetZ",
+    "tag": "KcYY1J55Ij3-kL1fmN6R1Q",
     "version": 1
   }
 }
