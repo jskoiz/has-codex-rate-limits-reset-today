@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1781415411376,
-      "rationale": "This reply is just conversational and does not mention limits, caps, or availability resetting.",
-      "tweetId": "2066029988776935667",
-      "tweetUrl": "https://x.com/thsottiaux/status/2066029988776935667",
+      "decidedAt": 1781415413569,
+      "rationale": "This reply is conversational and does not mention any limit or reset.",
+      "tweetId": "2066030245942370359",
+      "tweetUrl": "https://x.com/thsottiaux/status/2066030245942370359",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2066029988776935667",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2066029988776935667",
+    "lastSeenTweetId": "2066030245942370359",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2066030245942370359",
     "pendingReview": {
       "confidence": 0.98,
       "createdAt": 1781415105639,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2066028968105697761"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1781415413569,
+        "inputTokens": 364,
+        "outputTokens": 84,
+        "rationale": "This reply is conversational and does not mention any limit or reset.",
+        "reasoningTokens": 43,
+        "totalTokens": 448,
+        "tweetId": "2066030245942370359",
+        "tweetText": "@YossiEliaz Slack by day. Twitter by night.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2066030245942370359",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1781415411376,
@@ -279,29 +292,31 @@
         "tweetText": "@ErRahul337 We shipped a few smaller things. Working on a bigger bigger release",
         "tweetUrl": "https://x.com/thsottiaux/status/2066023082557653241",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1781413559118,
-        "inputTokens": 370,
-        "outputTokens": 107,
-        "rationale": "This reply is a joke about being upgraded and does not mention any limit or rate-limit reset.",
-        "reasoningTokens": 60,
-        "totalTokens": 477,
-        "tweetId": "2066022975435161768",
-        "tweetText": "@Fbcontentlock Currently running on Tibo 2026. I get upgraded every year",
-        "tweetUrl": "https://x.com/thsottiaux/status/2066022975435161768",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 251974,
-      "totalOutputTokens": 67526,
-      "totalReasoningTokens": 36520,
-      "totalTokens": 319500
+      "totalInputTokens": 252338,
+      "totalOutputTokens": 67610,
+      "totalReasoningTokens": 36563,
+      "totalTokens": 319948
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1781415413569,
+      "inputTokens": 364,
+      "message": "",
+      "outputTokens": 84,
+      "rationale": "This reply is conversational and does not mention any limit or reset.",
+      "reasoningTokens": 43,
+      "totalTokens": 448,
+      "tweetId": "2066030245942370359",
+      "tweetText": "@YossiEliaz Slack by day. Twitter by night.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2066030245942370359",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1781415411376,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2064869401359417799",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1781067418048,
-      "inputTokens": 414,
-      "message": "",
-      "outputTokens": 104,
-      "rationale": "This is a joke about model naming and does not mention limits or a reset.",
-      "reasoningTokens": 60,
-      "totalTokens": 518,
-      "tweetId": "2064572276180484475",
-      "tweetText": "I would like to claim my 1% of royalty fees.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2064572276180484475",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "SWJ9Mi7AJ6nQSEBj8d005BKmnqcCF6IIr1m4A9I1uURO6kHxq2EGhUvubw",
-    "iv": "G1rlPjqSa5a7C1Tu",
-    "tag": "YvqB3ijke-9CD6HHSj8Yxg",
+    "ciphertext": "ZnbYypL63UdzN6-EETEkIy-O2gTib0fotLhaQ4Giz-ePZO75NF8VqaWgGQ",
+    "iv": "hDEqFPr9cKNKabHl",
+    "tag": "_8j2LvM36Ui7p7jSnhVfPQ",
     "version": 1
   }
 }
