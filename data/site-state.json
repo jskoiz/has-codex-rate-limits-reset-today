@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1781535876453,
-      "rationale": "This reply is just a thank-you and says nothing about limits or a reset.",
-      "tweetId": "2066536854870954186",
-      "tweetUrl": "https://x.com/thsottiaux/status/2066536854870954186",
+      "decidedAt": 1781535879863,
+      "rationale": "This is just a conversational reply and does not mention limits, caps, or usage resetting.",
+      "tweetId": "2066537086614642711",
+      "tweetUrl": "https://x.com/thsottiaux/status/2066537086614642711",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2066536854870954186",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2066536854870954186",
+    "lastSeenTweetId": "2066537086614642711",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2066537086614642711",
     "pendingReview": {
       "confidence": 0.98,
       "createdAt": 1781415105639,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2066028968105697761"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1781535879863,
+        "inputTokens": 376,
+        "outputTokens": 89,
+        "rationale": "This is just a conversational reply and does not mention limits, caps, or usage resetting.",
+        "reasoningTokens": 43,
+        "totalTokens": 465,
+        "tweetId": "2066537086614642711",
+        "tweetText": "@Luca_Hagenmayer @OpenAIDevs @gdb And that's even before Codex had coffee",
+        "tweetUrl": "https://x.com/thsottiaux/status/2066537086614642711",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1781535876453,
@@ -279,29 +292,31 @@
         "tweetText": "@ns123abc Codex is many things. I am not one of them.",
         "tweetUrl": "https://x.com/thsottiaux/status/2066023944315109820",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1781413567061,
-        "inputTokens": 362,
-        "outputTokens": 113,
-        "rationale": "This reply is just conversational and does not indicate any rate limit or cap reset.",
-        "reasoningTokens": 69,
-        "totalTokens": 475,
-        "tweetId": "2066023278335111597",
-        "tweetText": "@Sourabhsinr The update button",
-        "tweetUrl": "https://x.com/thsottiaux/status/2066023278335111597",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 253185,
-      "totalOutputTokens": 67772,
-      "totalReasoningTokens": 36636,
-      "totalTokens": 320957
+      "totalInputTokens": 253561,
+      "totalOutputTokens": 67861,
+      "totalReasoningTokens": 36679,
+      "totalTokens": 321422
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1781535879863,
+      "inputTokens": 376,
+      "message": "",
+      "outputTokens": 89,
+      "rationale": "This is just a conversational reply and does not mention limits, caps, or usage resetting.",
+      "reasoningTokens": 43,
+      "totalTokens": 465,
+      "tweetId": "2066537086614642711",
+      "tweetText": "@Luca_Hagenmayer @OpenAIDevs @gdb And that's even before Codex had coffee",
+      "tweetUrl": "https://x.com/thsottiaux/status/2066537086614642711",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1781535876453,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2064904541783675281",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.92,
-      "createdAt": 1781145838417,
-      "inputTokens": 361,
-      "message": "",
-      "outputTokens": 277,
-      "rationale": "This reply only says “Exactly,” so it gives no clear evidence that limits have reset.",
-      "reasoningTokens": 231,
-      "totalTokens": 638,
-      "tweetId": "2064900424264798601",
-      "tweetText": "@ArduousAtaraxia Exactly",
-      "tweetUrl": "https://x.com/thsottiaux/status/2064900424264798601",
-      "type": "review_requested",
-      "verdict": "uncertain"
     }
   ],
   "privateState": {
-    "ciphertext": "qYdNPahqSp6dgH-4X2fKOoQ5lCu_csO85oCDB3jDwBD9iuoJJ1-6eQeDMA",
-    "iv": "aULZonDoh3pbIYgS",
-    "tag": "IMQQ8qxKaR6nNkKE8kAdhg",
+    "ciphertext": "KSVd_VWA7ntwTFZWz06dWeN6UpxybzuUd2o85RTjSVqw3BcMcxcE5qW4lQ",
+    "iv": "deiwWCvVUgNV79Tz",
+    "tag": "SYZ4ehPPjlOyFAhswbBNsg",
     "version": 1
   }
 }
