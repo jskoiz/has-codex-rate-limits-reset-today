@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1781472294421,
-      "rationale": "This post discusses Codex goal-setting behavior, not rate limits or a usage reset.",
-      "tweetId": "2066270561081454989",
-      "tweetUrl": "https://x.com/thsottiaux/status/2066270561081454989",
+      "decidedAt": 1781535876453,
+      "rationale": "This reply is just a thank-you and says nothing about limits or a reset.",
+      "tweetId": "2066536854870954186",
+      "tweetUrl": "https://x.com/thsottiaux/status/2066536854870954186",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2066270561081454989",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2066270561081454989",
+    "lastSeenTweetId": "2066536854870954186",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2066536854870954186",
     "pendingReview": {
       "confidence": 0.98,
       "createdAt": 1781415105639,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2066028968105697761"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1781535876453,
+        "inputTokens": 368,
+        "outputTokens": 83,
+        "rationale": "This reply is just a thank-you and says nothing about limits or a reset.",
+        "reasoningTokens": 39,
+        "totalTokens": 451,
+        "tweetId": "2066536854870954186",
+        "tweetText": "@Dimillian Thank you for making the world a little bit more productive every day",
+        "tweetUrl": "https://x.com/thsottiaux/status/2066536854870954186",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1781472294421,
@@ -279,29 +292,31 @@
         "tweetText": "@Sourabhsinr The update button",
         "tweetUrl": "https://x.com/thsottiaux/status/2066023278335111597",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.98,
-        "evaluatedAt": 1781413564355,
-        "inputTokens": 372,
-        "outputTokens": 135,
-        "rationale": "This is a joking reply about OpenAI employees having \"unlimited resets,\" not a report that user limits have reset now.",
-        "reasoningTokens": 82,
-        "totalTokens": 507,
-        "tweetId": "2066023220747419692",
-        "tweetText": "@dvyio Many. But they misunderstood and they now work at OpenAI and get unlimited resets",
-        "tweetUrl": "https://x.com/thsottiaux/status/2066023220747419692",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 252817,
-      "totalOutputTokens": 67689,
-      "totalReasoningTokens": 36597,
-      "totalTokens": 320506
+      "totalInputTokens": 253185,
+      "totalOutputTokens": 67772,
+      "totalReasoningTokens": 36636,
+      "totalTokens": 320957
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1781535876453,
+      "inputTokens": 368,
+      "message": "",
+      "outputTokens": 83,
+      "rationale": "This reply is just a thank-you and says nothing about limits or a reset.",
+      "reasoningTokens": 39,
+      "totalTokens": 451,
+      "tweetId": "2066536854870954186",
+      "tweetText": "@Dimillian Thank you for making the world a little bit more productive every day",
+      "tweetUrl": "https://x.com/thsottiaux/status/2066536854870954186",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1781472294421,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2064900424264798601",
       "type": "review_requested",
       "verdict": "uncertain"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1781145831636,
-      "inputTokens": 671,
-      "message": "",
-      "outputTokens": 107,
-      "rationale": "This post comments on a ChatGPT model picker update, not on usage limits or a rate-limit reset.",
-      "reasoningTokens": 58,
-      "totalTokens": 778,
-      "tweetId": "2064900105032135010",
-      "tweetText": "Simplify until there is nothing to simplify",
-      "tweetUrl": "https://x.com/thsottiaux/status/2064900105032135010",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "d5uSOUxoqnMXClRCAY53txAQGTL65jphhncSpMQm5NIzJnH9a4-EN-4iOg",
-    "iv": "uopWfpNAi7ySPubn",
-    "tag": "L95Md2myiX95FeIBq7xCAQ",
+    "ciphertext": "qYdNPahqSp6dgH-4X2fKOoQ5lCu_csO85oCDB3jDwBD9iuoJJ1-6eQeDMA",
+    "iv": "aULZonDoh3pbIYgS",
+    "tag": "IMQQ8qxKaR6nNkKE8kAdhg",
     "version": 1
   }
 }
