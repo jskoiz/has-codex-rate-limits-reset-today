@@ -14,16 +14,16 @@
   "updatedAt": 1780532876323,
   "automation": {
     "lastDecision": {
-      "confidence": 0.98,
-      "decidedAt": 1781614064744,
-      "rationale": "This reports a capacity/stability issue, not that any user limits or rate limits have reset.",
-      "tweetId": "2066865154902380796",
-      "tweetUrl": "https://x.com/thsottiaux/status/2066865154902380796",
+      "confidence": 0.99,
+      "decidedAt": 1781617480283,
+      "rationale": "This reply is just a joke about starring a repo and says nothing about ChatGPT or Codex limits resetting.",
+      "tweetId": "2066879211139170514",
+      "tweetUrl": "https://x.com/thsottiaux/status/2066879211139170514",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2066865154902380796",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2066865154902380796",
+    "lastSeenTweetId": "2066879211139170514",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2066879211139170514",
     "pendingReview": {
       "confidence": 0.98,
       "createdAt": 1781415105639,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2066028968105697761"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1781617480283,
+        "inputTokens": 369,
+        "outputTokens": 81,
+        "rationale": "This reply is just a joke about starring a repo and says nothing about ChatGPT or Codex limits resetting.",
+        "reasoningTokens": 31,
+        "totalTokens": 450,
+        "tweetId": "2066879211139170514",
+        "tweetText": "@jxnlco You didn't even star your own repo. The repo is officially sad",
+        "tweetUrl": "https://x.com/thsottiaux/status/2066879211139170514",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.98,
         "evaluatedAt": 1781614064744,
@@ -279,29 +292,31 @@
         "tweetText": "@CadenJ06 Working with people like @ajambrosino , @edbayes, @ah20im  and many many other brilliant people who can't help but figure out what the future will look like",
         "tweetUrl": "https://x.com/thsottiaux/status/2066024544918442056",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.15,
-        "evaluatedAt": 1781413573391,
-        "inputTokens": 370,
-        "outputTokens": 167,
-        "rationale": "This reply lacks enough context to tell whether it confirms a current limit reset.",
-        "reasoningTokens": 124,
-        "totalTokens": 537,
-        "tweetId": "2066024169851273239",
-        "tweetText": "@itsrubenbtw Would have to see it to believe it. But... yes.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2066024169851273239",
-        "verdict": "uncertain"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 253960,
-      "totalOutputTokens": 67969,
-      "totalReasoningTokens": 36740,
-      "totalTokens": 321929
+      "totalInputTokens": 254329,
+      "totalOutputTokens": 68050,
+      "totalReasoningTokens": 36771,
+      "totalTokens": 322379
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1781617480283,
+      "inputTokens": 369,
+      "message": "",
+      "outputTokens": 81,
+      "rationale": "This reply is just a joke about starring a repo and says nothing about ChatGPT or Codex limits resetting.",
+      "reasoningTokens": 31,
+      "totalTokens": 450,
+      "tweetId": "2066879211139170514",
+      "tweetText": "@jxnlco You didn't even star your own repo. The repo is officially sad",
+      "tweetUrl": "https://x.com/thsottiaux/status/2066879211139170514",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.98,
       "createdAt": 1781614064744,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2064905824640856256",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1781147061874,
-      "inputTokens": 368,
-      "message": "",
-      "outputTokens": 66,
-      "rationale": "This reply is just conversational and does not mention limits or a reset.",
-      "reasoningTokens": 24,
-      "totalTokens": 434,
-      "tweetId": "2064905715421270208",
-      "tweetText": "@frisohakkers @OpenAI @outpacestudios Nice one!",
-      "tweetUrl": "https://x.com/thsottiaux/status/2064905715421270208",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "zTW6idNTm6nxm9jRju2MUvagjQgrNxqN7pxhl5o6XyYOoJAdNE8wehU7Mw",
-    "iv": "cRzcMSSwGn_FJhkn",
-    "tag": "Ii-6770nfUHa1IMi78UvRg",
+    "ciphertext": "fQmgfATxc4YyhQLWer2jaGjSW0hOJEXhsBivA7-sQjaAIqQpCVDKZ5iyqA",
+    "iv": "a54vSAy4gQNEBtF3",
+    "tag": "YJXpvL8i_ihaAYjBbg4Caw",
     "version": 1
   }
 }
