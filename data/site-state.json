@@ -14,16 +14,16 @@
   "updatedAt": 1780532876323,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1781535879863,
-      "rationale": "This is just a conversational reply and does not mention limits, caps, or usage resetting.",
-      "tweetId": "2066537086614642711",
-      "tweetUrl": "https://x.com/thsottiaux/status/2066537086614642711",
+      "confidence": 0.98,
+      "decidedAt": 1781614064744,
+      "rationale": "This reports a capacity/stability issue, not that any user limits or rate limits have reset.",
+      "tweetId": "2066865154902380796",
+      "tweetUrl": "https://x.com/thsottiaux/status/2066865154902380796",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2066537086614642711",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2066537086614642711",
+    "lastSeenTweetId": "2066865154902380796",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2066865154902380796",
     "pendingReview": {
       "confidence": 0.98,
       "createdAt": 1781415105639,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2066028968105697761"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.98,
+        "evaluatedAt": 1781614064744,
+        "inputTokens": 399,
+        "outputTokens": 108,
+        "rationale": "This reports a capacity/stability issue, not that any user limits or rate limits have reset.",
+        "reasoningTokens": 61,
+        "totalTokens": 507,
+        "tweetId": "2066865154902380796",
+        "tweetText": "Oy. We are aware that some Codex users are experiencing high error rates with \"model at capacity\" and are working to bring things back to being stable.\n\nhttps://t.co/R3dCKGGtQw",
+        "tweetUrl": "https://x.com/thsottiaux/status/2066865154902380796",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1781535879863,
@@ -279,29 +292,31 @@
         "tweetText": "@itsrubenbtw Would have to see it to believe it. But... yes.",
         "tweetUrl": "https://x.com/thsottiaux/status/2066024169851273239",
         "verdict": "uncertain"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1781413569341,
-        "inputTokens": 368,
-        "outputTokens": 95,
-        "rationale": "This reply is a joke/comment and does not mention any limit or reset.",
-        "reasoningTokens": 52,
-        "totalTokens": 463,
-        "tweetId": "2066023944315109820",
-        "tweetText": "@ns123abc Codex is many things. I am not one of them.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2066023944315109820",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 253561,
-      "totalOutputTokens": 67861,
-      "totalReasoningTokens": 36679,
-      "totalTokens": 321422
+      "totalInputTokens": 253960,
+      "totalOutputTokens": 67969,
+      "totalReasoningTokens": 36740,
+      "totalTokens": 321929
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.98,
+      "createdAt": 1781614064744,
+      "inputTokens": 399,
+      "message": "",
+      "outputTokens": 108,
+      "rationale": "This reports a capacity/stability issue, not that any user limits or rate limits have reset.",
+      "reasoningTokens": 61,
+      "totalTokens": 507,
+      "tweetId": "2066865154902380796",
+      "tweetText": "Oy. We are aware that some Codex users are experiencing high error rates with \"model at capacity\" and are working to bring things back to being stable.\n\nhttps://t.co/R3dCKGGtQw",
+      "tweetUrl": "https://x.com/thsottiaux/status/2066865154902380796",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0,
       "createdAt": 1781606945227,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2064905715421270208",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1781146743201,
-      "inputTokens": 359,
-      "message": "",
-      "outputTokens": 87,
-      "rationale": "This reply is conversational and gives no indication that any Codex or ChatGPT limits have reset.",
-      "reasoningTokens": 40,
-      "totalTokens": 446,
-      "tweetId": "2064904673228972310",
-      "tweetText": "@charliermarsh You're projecting",
-      "tweetUrl": "https://x.com/thsottiaux/status/2064904673228972310",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "JVM7yB304G6TXFH-HC5d8VmYBkhrjScW6AoLo_50TYTPuoh5tMQpL-CVmQ",
-    "iv": "PzlACIGEKCVtr-7Z",
-    "tag": "L88HBCd_aEjOt_q1DLkGFw",
+    "ciphertext": "zTW6idNTm6nxm9jRju2MUvagjQgrNxqN7pxhl5o6XyYOoJAdNE8wehU7Mw",
+    "iv": "cRzcMSSwGn_FJhkn",
+    "tag": "Ii-6770nfUHa1IMi78UvRg",
     "version": 1
   }
 }
