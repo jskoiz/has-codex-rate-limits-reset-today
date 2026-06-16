@@ -14,16 +14,16 @@
   "updatedAt": 1780532876323,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1781617480283,
-      "rationale": "This reply is just a joke about starring a repo and says nothing about ChatGPT or Codex limits resetting.",
-      "tweetId": "2066879211139170514",
-      "tweetUrl": "https://x.com/thsottiaux/status/2066879211139170514",
+      "confidence": 0.98,
+      "decidedAt": 1781636044706,
+      "rationale": "It says the Codex rate limits will be reset within 24 hours, not that they have reset already.",
+      "tweetId": "2066956441173323943",
+      "tweetUrl": "https://x.com/thsottiaux/status/2066956441173323943",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2066879211139170514",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2066879211139170514",
+    "lastSeenTweetId": "2066956441173323943",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2066956441173323943",
     "pendingReview": {
       "confidence": 0.98,
       "createdAt": 1781415105639,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2066028968105697761"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.98,
+        "evaluatedAt": 1781636044706,
+        "inputTokens": 459,
+        "outputTokens": 187,
+        "rationale": "It says the Codex rate limits will be reset within 24 hours, not that they have reset already.",
+        "reasoningTokens": 137,
+        "totalTokens": 646,
+        "tweetId": "2066956441173323943",
+        "tweetText": "This was fixed. You know what's coming 👀\n\nGive us 24 hours to reset the Codex rate limits across all plans.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2066956441173323943",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1781617480283,
@@ -279,29 +292,31 @@
         "tweetText": "@YuYoshimuta 2 in the Codex app, a couple hundred on a devbox (experimenting on something)",
         "tweetUrl": "https://x.com/thsottiaux/status/2066024814561853644",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1781413859065,
-        "inputTokens": 395,
-        "outputTokens": 69,
-        "rationale": "This reply is conversational and says nothing about limits or resets.",
-        "reasoningTokens": 29,
-        "totalTokens": 464,
-        "tweetId": "2066024544918442056",
-        "tweetText": "@CadenJ06 Working with people like @ajambrosino , @edbayes, @ah20im  and many many other brilliant people who can't help but figure out what the future will look like",
-        "tweetUrl": "https://x.com/thsottiaux/status/2066024544918442056",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 254329,
-      "totalOutputTokens": 68050,
-      "totalReasoningTokens": 36771,
-      "totalTokens": 322379
+      "totalInputTokens": 254788,
+      "totalOutputTokens": 68237,
+      "totalReasoningTokens": 36908,
+      "totalTokens": 323025
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.98,
+      "createdAt": 1781636044706,
+      "inputTokens": 459,
+      "message": "",
+      "outputTokens": 187,
+      "rationale": "It says the Codex rate limits will be reset within 24 hours, not that they have reset already.",
+      "reasoningTokens": 137,
+      "totalTokens": 646,
+      "tweetId": "2066956441173323943",
+      "tweetText": "This was fixed. You know what's coming 👀\n\nGive us 24 hours to reset the Codex rate limits across all plans.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2066956441173323943",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1781617480283,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2064905973643583559",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1781147064504,
-      "inputTokens": 360,
-      "message": "",
-      "outputTokens": 77,
-      "rationale": "This reply is just conversational and does not mention limits or a reset.",
-      "reasoningTokens": 35,
-      "totalTokens": 437,
-      "tweetId": "2064905824640856256",
-      "tweetText": "@CastAsHuman Do you like it",
-      "tweetUrl": "https://x.com/thsottiaux/status/2064905824640856256",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "fQmgfATxc4YyhQLWer2jaGjSW0hOJEXhsBivA7-sQjaAIqQpCVDKZ5iyqA",
-    "iv": "a54vSAy4gQNEBtF3",
-    "tag": "YJXpvL8i_ihaAYjBbg4Caw",
+    "ciphertext": "MrXKsE_AY8Kt8-DJWYZNXh8aYEBbYYufcHuuhbK-EuCVfdeKhdZYBNpciw",
+    "iv": "BqpRSccib7FeeFO1",
+    "tag": "iDntX2xATHOPasx7tfA6sA",
     "version": 1
   }
 }
