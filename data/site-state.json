@@ -21,7 +21,7 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2066956441173323943",
       "verdict": "not_reset"
     },
-    "lastError": null,
+    "lastError": "GitHub raw read failed with 502",
     "lastSeenTweetId": "2066956441173323943",
     "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2066956441173323943",
     "pendingReview": {
@@ -302,6 +302,21 @@
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0,
+      "createdAt": 1781654314721,
+      "inputTokens": 0,
+      "message": "GitHub raw read failed with 502",
+      "outputTokens": 0,
+      "rationale": "",
+      "reasoningTokens": 0,
+      "totalTokens": 0,
+      "tweetId": null,
+      "tweetText": "",
+      "tweetUrl": null,
+      "type": "error",
+      "verdict": null
+    },
     {
       "confidence": 0.98,
       "createdAt": 1781636044706,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2064911328087810308",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1781147067520,
-      "inputTokens": 359,
-      "message": "",
-      "outputTokens": 73,
-      "rationale": "This reply is unrelated to rate limits or usage resets.",
-      "reasoningTokens": 34,
-      "totalTokens": 432,
-      "tweetId": "2064905973643583559",
-      "tweetText": "@jxnlco Doesn't iron well",
-      "tweetUrl": "https://x.com/thsottiaux/status/2064905973643583559",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "MrXKsE_AY8Kt8-DJWYZNXh8aYEBbYYufcHuuhbK-EuCVfdeKhdZYBNpciw",
-    "iv": "BqpRSccib7FeeFO1",
-    "tag": "iDntX2xATHOPasx7tfA6sA",
+    "ciphertext": "B3OBcnNZNss6zgEyYl9jv794MbkxXYaUm8oXM53zYmBLftB8EOMDwUsDQQ",
+    "iv": "BcHtWNqQwYOlMDQ9",
+    "tag": "ZqL1JU5Il-bDXg-XQl_K0Q",
     "version": 1
   }
 }
