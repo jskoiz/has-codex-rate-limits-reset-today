@@ -21,7 +21,7 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2066537086614642711",
       "verdict": "not_reset"
     },
-    "lastError": null,
+    "lastError": "Tweet fetch failed: Request failed with status code 503 (Request failed with status code 503)",
     "lastSeenTweetId": "2066537086614642711",
     "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2066537086614642711",
     "pendingReview": {
@@ -302,6 +302,21 @@
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0,
+      "createdAt": 1781606945227,
+      "inputTokens": 0,
+      "message": "Tweet fetch failed: Request failed with status code 503 (Request failed with status code 503)",
+      "outputTokens": 0,
+      "rationale": "",
+      "reasoningTokens": 0,
+      "totalTokens": 0,
+      "tweetId": null,
+      "tweetText": "",
+      "tweetUrl": null,
+      "type": "error",
+      "verdict": null
+    },
     {
       "confidence": 0.99,
       "createdAt": 1781535879863,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2064904673228972310",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1781146739735,
-      "inputTokens": 358,
-      "message": "",
-      "outputTokens": 73,
-      "rationale": "This is just a casual reply and provides no indication that any limits have reset.",
-      "reasoningTokens": 29,
-      "totalTokens": 431,
-      "tweetId": "2064904541783675281",
-      "tweetText": "@daniel_mac8 Haha",
-      "tweetUrl": "https://x.com/thsottiaux/status/2064904541783675281",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "KSVd_VWA7ntwTFZWz06dWeN6UpxybzuUd2o85RTjSVqw3BcMcxcE5qW4lQ",
-    "iv": "deiwWCvVUgNV79Tz",
-    "tag": "SYZ4ehPPjlOyFAhswbBNsg",
+    "ciphertext": "E_rMwYolAYGBtHtPLP6bELfsLD_-qSxj7czJ4r_6_n7wpbcZVpDIBgV3ow",
+    "iv": "ZhrR_vBbMRaR07_e",
+    "tag": "u-Xt40fzT94PCITP0f32Mg",
     "version": 1
   }
 }
