@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1781661826485,
-      "rationale": "This post is about feature rollout in Europe, not user caps or rate limits resetting.",
-      "tweetId": "2067064381855187231",
-      "tweetUrl": "https://x.com/thsottiaux/status/2067064381855187231",
+      "decidedAt": 1781661830511,
+      "rationale": "This reply is conversational and does not mention limits, caps, or availability resetting.",
+      "tweetId": "2067064857724092590",
+      "tweetUrl": "https://x.com/thsottiaux/status/2067064857724092590",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2067064381855187231",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2067064381855187231",
+    "lastSeenTweetId": "2067064857724092590",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2067064857724092590",
     "pendingReview": {
       "confidence": 0.98,
       "createdAt": 1781415105639,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2066028968105697761"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1781661830511,
+        "inputTokens": 367,
+        "outputTokens": 69,
+        "rationale": "This reply is conversational and does not mention limits, caps, or availability resetting.",
+        "reasoningTokens": 25,
+        "totalTokens": 436,
+        "tweetId": "2067064857724092590",
+        "tweetText": "@ajambrosino france also has house parties and you're also not there",
+        "tweetUrl": "https://x.com/thsottiaux/status/2067064857724092590",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1781661826485,
@@ -279,29 +292,31 @@
         "tweetText": "@nicksdot Codex 2",
         "tweetUrl": "https://x.com/thsottiaux/status/2066026202100609461",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1781413864090,
-        "inputTokens": 359,
-        "outputTokens": 82,
-        "rationale": "This reply does not mention rate limits, caps, or a reset.",
-        "reasoningTokens": 40,
-        "totalTokens": 441,
-        "tweetId": "2066025002680582225",
-        "tweetText": "@CowNumber95 Not a question",
-        "tweetUrl": "https://x.com/thsottiaux/status/2066025002680582225",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 255275,
-      "totalOutputTokens": 68321,
-      "totalReasoningTokens": 36947,
-      "totalTokens": 323596
+      "totalInputTokens": 255642,
+      "totalOutputTokens": 68390,
+      "totalReasoningTokens": 36972,
+      "totalTokens": 324032
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1781661830511,
+      "inputTokens": 367,
+      "message": "",
+      "outputTokens": 69,
+      "rationale": "This reply is conversational and does not mention limits, caps, or availability resetting.",
+      "reasoningTokens": 25,
+      "totalTokens": 436,
+      "tweetId": "2067064857724092590",
+      "tweetText": "@ajambrosino france also has house parties and you're also not there",
+      "tweetUrl": "https://x.com/thsottiaux/status/2067064857724092590",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1781661826486,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2065193272952422852",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.6,
-      "createdAt": 1781198110162,
-      "inputTokens": 362,
-      "message": "",
-      "outputTokens": 164,
-      "rationale": "This reply could be acknowledging a reset, but without the parent tweet it is not explicit enough to confirm.",
-      "reasoningTokens": 115,
-      "totalTokens": 526,
-      "tweetId": "2065119757205151786",
-      "tweetText": "@araseb_ Do you have to ask",
-      "tweetUrl": "https://x.com/thsottiaux/status/2065119757205151786",
-      "type": "review_requested",
-      "verdict": "uncertain"
     }
   ],
   "privateState": {
-    "ciphertext": "rrmh4yIw6i4YpefTVRbS4B8ayzlAv4us4bxD4TrQBxY6B6q73Yuj9a5Vjg",
-    "iv": "NWeRnXg6Wz5WW_pz",
-    "tag": "P_DB80Tv3R7jqEY4tXcwZA",
+    "ciphertext": "6A3ALxyG_7N0URAG804r4meOxzWnBLlMQzHrIAoFJumAIrc7Nm6CwvFXLg",
+    "iv": "iZbUmBTQ-Pv59TKR",
+    "tag": "dGIZWlXZ_X1thKKUAvqGcQ",
     "version": 1
   }
 }
