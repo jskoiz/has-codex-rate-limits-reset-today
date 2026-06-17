@@ -14,16 +14,16 @@
   "updatedAt": 1780532876323,
   "automation": {
     "lastDecision": {
-      "confidence": 0.98,
-      "decidedAt": 1781661833358,
-      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-      "tweetId": "2067065166479471060",
-      "tweetUrl": "https://x.com/thsottiaux/status/2067065166479471060",
+      "confidence": 0.99,
+      "decidedAt": 1781689713717,
+      "rationale": "This is a product reminder about Codex model compatibility, not about limits or a reset.",
+      "tweetId": "2067181377028538431",
+      "tweetUrl": "https://x.com/thsottiaux/status/2067181377028538431",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2067065166479471060",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2067065166479471060",
+    "lastSeenTweetId": "2067181377028538431",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2067181377028538431",
     "pendingReview": {
       "confidence": 0.98,
       "createdAt": 1781415105639,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2066028968105697761"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1781689713717,
+        "inputTokens": 392,
+        "outputTokens": 71,
+        "rationale": "This is a product reminder about Codex model compatibility, not about limits or a reset.",
+        "reasoningTokens": 25,
+        "totalTokens": 463,
+        "tweetId": "2067181377028538431",
+        "tweetText": "Reminder that you can use the Codex App, CLI and SDK with any open source model, not just with OpenAI models.\n\nhttps://t.co/spPifB4ck3",
+        "tweetUrl": "https://x.com/thsottiaux/status/2067181377028538431",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.98,
         "evaluatedAt": 1781661833358,
@@ -279,29 +292,31 @@
         "tweetText": "@allseejay Working on this",
         "tweetUrl": "https://x.com/thsottiaux/status/2066027101179007459",
         "verdict": "uncertain"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1781414467439,
-        "inputTokens": 362,
-        "outputTokens": 82,
-        "rationale": "This reply is just conversational and says nothing about limits or resets.",
-        "reasoningTokens": 41,
-        "totalTokens": 444,
-        "tweetId": "2066027075354685923",
-        "tweetText": "@RussWonsley Humor, empathy and kindness",
-        "tweetUrl": "https://x.com/thsottiaux/status/2066027075354685923",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 256007,
-      "totalOutputTokens": 68511,
-      "totalReasoningTokens": 37049,
-      "totalTokens": 324518
+      "totalInputTokens": 256399,
+      "totalOutputTokens": 68582,
+      "totalReasoningTokens": 37074,
+      "totalTokens": 324981
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1781689713717,
+      "inputTokens": 392,
+      "message": "",
+      "outputTokens": 71,
+      "rationale": "This is a product reminder about Codex model compatibility, not about limits or a reset.",
+      "reasoningTokens": 25,
+      "totalTokens": 463,
+      "tweetId": "2067181377028538431",
+      "tweetText": "Reminder that you can use the Codex App, CLI and SDK with any open source model, not just with OpenAI models.\n\nhttps://t.co/spPifB4ck3",
+      "tweetUrl": "https://x.com/thsottiaux/status/2067181377028538431",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.98,
       "createdAt": 1781661833358,
@@ -886,27 +901,12 @@
       "tweetUrl": null,
       "type": "error",
       "verdict": null
-    },
-    {
-      "confidence": 0.95,
-      "createdAt": 1781281266944,
-      "inputTokens": 497,
-      "message": "",
-      "outputTokens": 238,
-      "rationale": "The post says users now have a saved/free Codex reset available, not that limits have already reset now.",
-      "reasoningTokens": 188,
-      "totalTokens": 735,
-      "tweetId": "2065468501750649006",
-      "tweetText": "Heard your (amusing) feedback that it was at times annoying to receive a reset of your Codex usage without warning. \n\nNext time we press the button you will get to choose when it actually applies. Happy codexing.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2065468501750649006",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "wvCwR9XssI43laM6j0hKJEw3OlfEMYJGNpUFc7o1wmpNnQj5qVXcDva0kw",
-    "iv": "GTEBnr0Sz74ttmJ8",
-    "tag": "Luypy1ipRFvWyddTr4rO3g",
+    "ciphertext": "ibWqk0QXhYzI7nIVbnGEPmb2WTQT7xwKSSBgq_7IoWO3HVLSx9-rPkS0gQ",
+    "iv": "yy7t-RsQg-GbggIH",
+    "tag": "samtkPsgqzAyn5qOG9aGpw",
     "version": 1
   }
 }
