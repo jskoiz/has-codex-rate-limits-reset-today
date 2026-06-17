@@ -14,16 +14,16 @@
   "updatedAt": 1780532876323,
   "automation": {
     "lastDecision": {
-      "confidence": 0.98,
-      "decidedAt": 1781636044706,
-      "rationale": "It says the Codex rate limits will be reset within 24 hours, not that they have reset already.",
-      "tweetId": "2066956441173323943",
-      "tweetUrl": "https://x.com/thsottiaux/status/2066956441173323943",
+      "confidence": 0.99,
+      "decidedAt": 1781661826485,
+      "rationale": "This post is about feature rollout in Europe, not user caps or rate limits resetting.",
+      "tweetId": "2067064381855187231",
+      "tweetUrl": "https://x.com/thsottiaux/status/2067064381855187231",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2066956441173323943",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2066956441173323943",
+    "lastSeenTweetId": "2067064381855187231",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2067064381855187231",
     "pendingReview": {
       "confidence": 0.98,
       "createdAt": 1781415105639,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2066028968105697761"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1781661826485,
+        "inputTokens": 487,
+        "outputTokens": 84,
+        "rationale": "This post is about feature rollout in Europe, not user caps or rate limits resetting.",
+        "reasoningTokens": 39,
+        "totalTokens": 571,
+        "tweetId": "2067064381855187231",
+        "tweetText": "Bim bada boum. I am in France for the week and we are rolling out all the most exciting Codex features across Europe. Coincidence or did the team think I wasn't able to be productive otherwise?",
+        "tweetUrl": "https://x.com/thsottiaux/status/2067064381855187231",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.98,
         "evaluatedAt": 1781636044706,
@@ -279,29 +292,31 @@
         "tweetText": "@CowNumber95 Not a question",
         "tweetUrl": "https://x.com/thsottiaux/status/2066025002680582225",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1781413861716,
-        "inputTokens": 378,
-        "outputTokens": 109,
-        "rationale": "This reply discusses usage counts in Codex and does not indicate any rate limit reset.",
-        "reasoningTokens": 64,
-        "totalTokens": 487,
-        "tweetId": "2066024814561853644",
-        "tweetText": "@YuYoshimuta 2 in the Codex app, a couple hundred on a devbox (experimenting on something)",
-        "tweetUrl": "https://x.com/thsottiaux/status/2066024814561853644",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 254788,
-      "totalOutputTokens": 68237,
-      "totalReasoningTokens": 36908,
-      "totalTokens": 323025
+      "totalInputTokens": 255275,
+      "totalOutputTokens": 68321,
+      "totalReasoningTokens": 36947,
+      "totalTokens": 323596
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1781661826486,
+      "inputTokens": 487,
+      "message": "",
+      "outputTokens": 84,
+      "rationale": "This post is about feature rollout in Europe, not user caps or rate limits resetting.",
+      "reasoningTokens": 39,
+      "totalTokens": 571,
+      "tweetId": "2067064381855187231",
+      "tweetText": "Bim bada boum. I am in France for the week and we are rolling out all the most exciting Codex features across Europe. Coincidence or did the team think I wasn't able to be productive otherwise?",
+      "tweetUrl": "https://x.com/thsottiaux/status/2067064381855187231",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0,
       "createdAt": 1781654314721,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2065119757205151786",
       "type": "review_requested",
       "verdict": "uncertain"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1781148301638,
-      "inputTokens": 496,
-      "message": "",
-      "outputTokens": 114,
-      "rationale": "It discusses increased Codex usage and user preference, not any limit or rate-cap reset.",
-      "reasoningTokens": 68,
-      "totalTokens": 610,
-      "tweetId": "2064911328087810308",
-      "tweetText": "Can confirm we saw a strong spike in growth of token consumption for Codex over last 48 hours. Unusual when we don't launch something.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2064911328087810308",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "MhKpMMbDE2g1O8kdE3nXicTx1sXyv29gklAC_xWhkg162p1xT6_IZmKhOA",
-    "iv": "1vNThIzdBxgGOyDV",
-    "tag": "HrwDz5swKC5xkZQg7ovSMQ",
+    "ciphertext": "rrmh4yIw6i4YpefTVRbS4B8ayzlAv4us4bxD4TrQBxY6B6q73Yuj9a5Vjg",
+    "iv": "NWeRnXg6Wz5WW_pz",
+    "tag": "P_DB80Tv3R7jqEY4tXcwZA",
     "version": 1
   }
 }
