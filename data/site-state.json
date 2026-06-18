@@ -1,5 +1,5 @@
 {
-  "currentState": "no",
+  "currentState": "yes",
   "autoResetHours": 20,
   "noSubtitles": [
     "Back to your local model peasant",
@@ -10,29 +10,35 @@
     "Limits reset, go crazy",
     "You can just build things"
   ],
-  "resetAt": null,
-  "updatedAt": 1780532876323,
+  "resetAt": 1781813564670,
+  "updatedAt": 1781741564670,
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1781689713717,
-      "rationale": "This is a product reminder about Codex model compatibility, not about limits or a reset.",
-      "tweetId": "2067181377028538431",
-      "tweetUrl": "https://x.com/thsottiaux/status/2067181377028538431",
-      "verdict": "not_reset"
+      "decidedAt": 1781741564670,
+      "rationale": "The main tweet explicitly says Codex users got a full reset now plus an extra banked reset.",
+      "tweetId": "2067399435009622521",
+      "tweetUrl": "https://x.com/thsottiaux/status/2067399435009622521",
+      "verdict": "reset_confirmed"
     },
     "lastError": null,
-    "lastSeenTweetId": "2067181377028538431",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2067181377028538431",
-    "pendingReview": {
-      "confidence": 0.98,
-      "createdAt": 1781415105639,
-      "rationale": "This reply only says “Sí” without enough visible context to confirm a rate-limit reset.",
-      "tweetId": "2066028968105697761",
-      "tweetText": "@Zoneofsavi Sí",
-      "tweetUrl": "https://x.com/thsottiaux/status/2066028968105697761"
-    },
+    "lastSeenTweetId": "2067399435009622521",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2067399435009622521",
+    "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1781741564670,
+        "inputTokens": 597,
+        "outputTokens": 166,
+        "rationale": "The main tweet explicitly says Codex users got a full reset now plus an extra banked reset.",
+        "reasoningTokens": 117,
+        "totalTokens": 763,
+        "tweetId": "2067399435009622521",
+        "tweetText": "Dearest gentle codexer.\n\nWe did a sneaky double reset. Not only do you get a full reset on us. But you are also getting one into the reset bank to use at your own leisure. \n\nEnjoy",
+        "tweetUrl": "https://x.com/thsottiaux/status/2067399435009622521",
+        "verdict": "reset_confirmed"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1781689713717,
@@ -279,29 +285,31 @@
         "tweetText": "@buildwithhassan Lowkey love it",
         "tweetUrl": "https://x.com/thsottiaux/status/2066028235801137437",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.95,
-        "evaluatedAt": 1781414470699,
-        "inputTokens": 359,
-        "outputTokens": 160,
-        "rationale": "This reply gives no clear indication that any Codex or ChatGPT limit has reset.",
-        "reasoningTokens": 115,
-        "totalTokens": 519,
-        "tweetId": "2066027101179007459",
-        "tweetText": "@allseejay Working on this",
-        "tweetUrl": "https://x.com/thsottiaux/status/2066027101179007459",
-        "verdict": "uncertain"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 256399,
-      "totalOutputTokens": 68582,
-      "totalReasoningTokens": 37074,
-      "totalTokens": 324981
+      "totalInputTokens": 256996,
+      "totalOutputTokens": 68748,
+      "totalReasoningTokens": 37191,
+      "totalTokens": 325744
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1781741564670,
+      "inputTokens": 597,
+      "message": "",
+      "outputTokens": 166,
+      "rationale": "The main tweet explicitly says Codex users got a full reset now plus an extra banked reset.",
+      "reasoningTokens": 117,
+      "totalTokens": 763,
+      "tweetId": "2067399435009622521",
+      "tweetText": "Dearest gentle codexer.\n\nWe did a sneaky double reset. Not only do you get a full reset on us. But you are also getting one into the reset bank to use at your own leisure. \n\nEnjoy",
+      "tweetUrl": "https://x.com/thsottiaux/status/2067399435009622521",
+      "type": "reset_confirmed",
+      "verdict": "reset_confirmed"
+    },
     {
       "confidence": 0,
       "createdAt": 1781708350182,
@@ -886,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2065867866986217669",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0,
-      "createdAt": 1781374830133,
-      "inputTokens": 0,
-      "message": "Tweet fetch failed: Request failed with status code 404 (Request failed with status code 404)",
-      "outputTokens": 0,
-      "rationale": "",
-      "reasoningTokens": 0,
-      "totalTokens": 0,
-      "tweetId": null,
-      "tweetText": "",
-      "tweetUrl": null,
-      "type": "error",
-      "verdict": null
     }
   ],
   "privateState": {
-    "ciphertext": "_UKIBHV2lpRDuWYUo2XcO5YQ3IY46dWxFsLbGQ_A7Rdhlc4urBf_DXQ9Iw",
-    "iv": "o6wOvv6lAk92S4Zq",
-    "tag": "E82oJf_M_k1TbtkGUrx1fg",
+    "ciphertext": "j7oANtPObGjdmL0zII19Q3mAfmbylBtpE5cX3Ui37AKKxDqfa6mGmFKgXw",
+    "iv": "wajlxvlhsbg5lmkT",
+    "tag": "7vGze7HxtzSWu5PpXKoC7g",
     "version": 1
   }
 }
