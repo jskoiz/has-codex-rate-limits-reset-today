@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1781741564670,
-      "rationale": "The main tweet explicitly says Codex users got a full reset now plus an extra banked reset.",
-      "tweetId": "2067399435009622521",
-      "tweetUrl": "https://x.com/thsottiaux/status/2067399435009622521",
-      "verdict": "reset_confirmed"
+      "decidedAt": 1781745896173,
+      "rationale": "This reply is just a thank-you and does not mention any limit or reset.",
+      "tweetId": "2067417986575589782",
+      "tweetUrl": "https://x.com/thsottiaux/status/2067417986575589782",
+      "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2067399435009622521",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2067399435009622521",
+    "lastSeenTweetId": "2067417986575589782",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2067417986575589782",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1781745896173,
+        "inputTokens": 362,
+        "outputTokens": 70,
+        "rationale": "This reply is just a thank-you and does not mention any limit or reset.",
+        "reasoningTokens": 26,
+        "totalTokens": 432,
+        "tweetId": "2067417986575589782",
+        "tweetText": "@argofowl Thank you for using codex.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2067417986575589782",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1781741564670,
@@ -272,29 +285,31 @@
         "tweetText": "@Sedrak1010 That must be worth at least 3 resets",
         "tweetUrl": "https://x.com/thsottiaux/status/2066028460796162096",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1781414789895,
-        "inputTokens": 361,
-        "outputTokens": 85,
-        "rationale": "This is just a casual reply and says nothing about limits or resets.",
-        "reasoningTokens": 43,
-        "totalTokens": 446,
-        "tweetId": "2066028235801137437",
-        "tweetText": "@buildwithhassan Lowkey love it",
-        "tweetUrl": "https://x.com/thsottiaux/status/2066028235801137437",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 256996,
-      "totalOutputTokens": 68748,
-      "totalReasoningTokens": 37191,
-      "totalTokens": 325744
+      "totalInputTokens": 257358,
+      "totalOutputTokens": 68818,
+      "totalReasoningTokens": 37217,
+      "totalTokens": 326176
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1781745896173,
+      "inputTokens": 362,
+      "message": "",
+      "outputTokens": 70,
+      "rationale": "This reply is just a thank-you and does not mention any limit or reset.",
+      "reasoningTokens": 26,
+      "totalTokens": 432,
+      "tweetId": "2067417986575589782",
+      "tweetText": "@argofowl Thank you for using codex.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2067417986575589782",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1781741564670,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2066013128513736925",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1781376364420,
-      "inputTokens": 369,
-      "message": "",
-      "outputTokens": 65,
-      "rationale": "This reply is just conversational and does not mention limits, caps, or availability resetting.",
-      "reasoningTokens": 20,
-      "totalTokens": 434,
-      "tweetId": "2065867866986217669",
-      "tweetText": "@simpsoka Are we continuing the conversation here or back to slack? 👀",
-      "tweetUrl": "https://x.com/thsottiaux/status/2065867866986217669",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "j7oANtPObGjdmL0zII19Q3mAfmbylBtpE5cX3Ui37AKKxDqfa6mGmFKgXw",
-    "iv": "wajlxvlhsbg5lmkT",
-    "tag": "7vGze7HxtzSWu5PpXKoC7g",
+    "ciphertext": "ym0ZHuxvy6WpYk2IqKb5XgnQfhH8KMYElv2FDoB9d7zP9b9u_e5w6jzSCg",
+    "iv": "HSsyyl7RV-SrB1xf",
+    "tag": "mrs5DLYtefT2Xl9RfkuaGg",
     "version": 1
   }
 }
