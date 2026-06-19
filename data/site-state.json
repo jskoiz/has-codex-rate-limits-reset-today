@@ -14,18 +14,31 @@
   "updatedAt": 1781741564670,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1781833352786,
-      "rationale": "This post is just a general question and does not mention any limit or reset.",
-      "tweetId": "2067783964077547520",
-      "tweetUrl": "https://x.com/thsottiaux/status/2067783964077547520",
+      "confidence": 0.98,
+      "decidedAt": 1781833355997,
+      "rationale": "This reply is just conversational and does not mention limits, caps, or a reset.",
+      "tweetId": "2067784025121468692",
+      "tweetUrl": "https://x.com/thsottiaux/status/2067784025121468692",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2067783964077547520",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2067783964077547520",
+    "lastSeenTweetId": "2067784025121468692",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2067784025121468692",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.98,
+        "evaluatedAt": 1781833355997,
+        "inputTokens": 358,
+        "outputTokens": 152,
+        "rationale": "This reply is just conversational and does not mention limits, caps, or a reset.",
+        "reasoningTokens": 107,
+        "totalTokens": 510,
+        "tweetId": "2067784025121468692",
+        "tweetText": "@CastAsHuman Would you",
+        "tweetUrl": "https://x.com/thsottiaux/status/2067784025121468692",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1781833352786,
@@ -272,29 +285,31 @@
         "tweetText": "@aadhilkh Quite soon actually",
         "tweetUrl": "https://x.com/thsottiaux/status/2066028715012989281",
         "verdict": "uncertain"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1781414795233,
-        "inputTokens": 360,
-        "outputTokens": 87,
-        "rationale": "This reply only says issues are being fixed and does not indicate any limits have reset.",
-        "reasoningTokens": 42,
-        "totalTokens": 447,
-        "tweetId": "2066028643588133158",
-        "tweetText": "@imrayhon These are getting fixed",
-        "tweetUrl": "https://x.com/thsottiaux/status/2066028643588133158",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 257715,
-      "totalOutputTokens": 68886,
-      "totalReasoningTokens": 37241,
-      "totalTokens": 326601
+      "totalInputTokens": 258073,
+      "totalOutputTokens": 69038,
+      "totalReasoningTokens": 37348,
+      "totalTokens": 327111
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.98,
+      "createdAt": 1781833355997,
+      "inputTokens": 358,
+      "message": "",
+      "outputTokens": 152,
+      "rationale": "This reply is just conversational and does not mention limits, caps, or a reset.",
+      "reasoningTokens": 107,
+      "totalTokens": 510,
+      "tweetId": "2067784025121468692",
+      "tweetText": "@CastAsHuman Would you",
+      "tweetUrl": "https://x.com/thsottiaux/status/2067784025121468692",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1781833352786,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2066022465789436223",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1781411360024,
-      "inputTokens": 434,
-      "message": "",
-      "outputTokens": 72,
-      "rationale": "This reply is a joke about coding and says nothing about limits or a reset.",
-      "reasoningTokens": 28,
-      "totalTokens": 506,
-      "tweetId": "2066014487539564555",
-      "tweetText": "if name == \"sourabh.gurwani\":\n  return False\n\nAnd every time a user registers, you start a Codex automation job to add a new if clause (very quickly).\n\nIf you want to optimize you can use GPT-5.3-Spark, which is faster.\n\nIf you want to optimize further, ask Codex how to implement an index.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2066014487539564555",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "xtQA6bi7f1__68tDzWrXG-GG_8DF4aZSvMDosXt09Ao0FTeLHuNcRkefug",
-    "iv": "_6xqzub0tiyEdysg",
-    "tag": "QJ6kE5JJm1Apw9z2ZBVLsg",
+    "ciphertext": "FhR9hA3P-ZOPxKqBt7flr0lF1EZ9iAIt1fHa3efMqMtegAIm2obqwNV5zQ",
+    "iv": "BhlySTEd-noCqpIy",
+    "tag": "_dqMs0qhwA6QR7WOk9rAOw",
     "version": 1
   }
 }
