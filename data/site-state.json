@@ -1,5 +1,5 @@
 {
-  "currentState": "yes",
+  "currentState": "no",
   "autoResetHours": 20,
   "noSubtitles": [
     "Back to your local model peasant",
@@ -10,22 +10,35 @@
     "Limits reset, go crazy",
     "You can just build things"
   ],
-  "resetAt": 1781813564670,
+  "resetAt": null,
   "updatedAt": 1781741564670,
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1781745896173,
-      "rationale": "This reply is just a thank-you and does not mention any limit or reset.",
-      "tweetId": "2067417986575589782",
-      "tweetUrl": "https://x.com/thsottiaux/status/2067417986575589782",
+      "decidedAt": 1781833352786,
+      "rationale": "This post is just a general question and does not mention any limit or reset.",
+      "tweetId": "2067783964077547520",
+      "tweetUrl": "https://x.com/thsottiaux/status/2067783964077547520",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2067417986575589782",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2067417986575589782",
+    "lastSeenTweetId": "2067783964077547520",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2067783964077547520",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1781833352786,
+        "inputTokens": 357,
+        "outputTokens": 68,
+        "rationale": "This post is just a general question and does not mention any limit or reset.",
+        "reasoningTokens": 24,
+        "totalTokens": 425,
+        "tweetId": "2067783964077547520",
+        "tweetText": "What do you use",
+        "tweetUrl": "https://x.com/thsottiaux/status/2067783964077547520",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1781745896173,
@@ -272,29 +285,31 @@
         "tweetText": "@imrayhon These are getting fixed",
         "tweetUrl": "https://x.com/thsottiaux/status/2066028643588133158",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.98,
-        "evaluatedAt": 1781414792680,
-        "inputTokens": 366,
-        "outputTokens": 105,
-        "rationale": "This is a joking reply about “resets,” not a clear statement that any limit has reset now.",
-        "reasoningTokens": 56,
-        "totalTokens": 471,
-        "tweetId": "2066028460796162096",
-        "tweetText": "@Sedrak1010 That must be worth at least 3 resets",
-        "tweetUrl": "https://x.com/thsottiaux/status/2066028460796162096",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 257358,
-      "totalOutputTokens": 68818,
-      "totalReasoningTokens": 37217,
-      "totalTokens": 326176
+      "totalInputTokens": 257715,
+      "totalOutputTokens": 68886,
+      "totalReasoningTokens": 37241,
+      "totalTokens": 326601
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1781833352786,
+      "inputTokens": 357,
+      "message": "",
+      "outputTokens": 68,
+      "rationale": "This post is just a general question and does not mention any limit or reset.",
+      "reasoningTokens": 24,
+      "totalTokens": 425,
+      "tweetId": "2067783964077547520",
+      "tweetText": "What do you use",
+      "tweetUrl": "https://x.com/thsottiaux/status/2067783964077547520",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1781745896173,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2066014487539564555",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1781411061820,
-      "inputTokens": 361,
-      "message": "",
-      "outputTokens": 75,
-      "rationale": "This reply only says someone uses Codex and does not mention limits or resets.",
-      "reasoningTokens": 31,
-      "totalTokens": 436,
-      "tweetId": "2066013128513736925",
-      "tweetText": "@sflorimm They use Codex",
-      "tweetUrl": "https://x.com/thsottiaux/status/2066013128513736925",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "ym0ZHuxvy6WpYk2IqKb5XgnQfhH8KMYElv2FDoB9d7zP9b9u_e5w6jzSCg",
-    "iv": "HSsyyl7RV-SrB1xf",
-    "tag": "mrs5DLYtefT2Xl9RfkuaGg",
+    "ciphertext": "xtQA6bi7f1__68tDzWrXG-GG_8DF4aZSvMDosXt09Ao0FTeLHuNcRkefug",
+    "iv": "_6xqzub0tiyEdysg",
+    "tag": "QJ6kE5JJm1Apw9z2ZBVLsg",
     "version": 1
   }
 }
