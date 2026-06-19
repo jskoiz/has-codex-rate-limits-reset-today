@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1781833358241,
-      "rationale": "This reply only tags users and does not mention limits or resets.",
-      "tweetId": "2067784144117989802",
-      "tweetUrl": "https://x.com/thsottiaux/status/2067784144117989802",
+      "decidedAt": 1781833360500,
+      "rationale": "This reply is conversational and does not mention limits, caps, or usage resetting.",
+      "tweetId": "2067784195993194965",
+      "tweetUrl": "https://x.com/thsottiaux/status/2067784195993194965",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2067784144117989802",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2067784144117989802",
+    "lastSeenTweetId": "2067784195993194965",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2067784195993194965",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1781833360500,
+        "inputTokens": 365,
+        "outputTokens": 88,
+        "rationale": "This reply is conversational and does not mention limits, caps, or usage resetting.",
+        "reasoningTokens": 44,
+        "totalTokens": 453,
+        "tweetId": "2067784195993194965",
+        "tweetText": "@DannyNemer @adelbucetta It's time to fly",
+        "tweetUrl": "https://x.com/thsottiaux/status/2067784195993194965",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1781833358241,
@@ -272,29 +285,31 @@
         "tweetText": "@Zoneofsavi Sí",
         "tweetUrl": "https://x.com/thsottiaux/status/2066028968105697761",
         "verdict": "uncertain"
-      },
-      {
-        "confidence": 0.98,
-        "evaluatedAt": 1781415102482,
-        "inputTokens": 371,
-        "outputTokens": 97,
-        "rationale": "This reply discusses remaining context tokens, not a reset of usage limits or rate caps.",
-        "reasoningTokens": 52,
-        "totalTokens": 468,
-        "tweetId": "2066028860194591006",
-        "tweetText": "@kaeden_dev Can confirm, only 22k tokens in the context. Plenty to go",
-        "tweetUrl": "https://x.com/thsottiaux/status/2066028860194591006",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 258436,
-      "totalOutputTokens": 69111,
-      "totalReasoningTokens": 37380,
-      "totalTokens": 327547
+      "totalInputTokens": 258801,
+      "totalOutputTokens": 69199,
+      "totalReasoningTokens": 37424,
+      "totalTokens": 328000
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1781833360500,
+      "inputTokens": 365,
+      "message": "",
+      "outputTokens": 88,
+      "rationale": "This reply is conversational and does not mention limits, caps, or usage resetting.",
+      "reasoningTokens": 44,
+      "totalTokens": 453,
+      "tweetId": "2067784195993194965",
+      "tweetText": "@DannyNemer @adelbucetta It's time to fly",
+      "tweetUrl": "https://x.com/thsottiaux/status/2067784195993194965",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1781833358241,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2066022807910396083",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1781413245826,
-      "inputTokens": 366,
-      "message": "",
-      "outputTokens": 77,
-      "rationale": "This is just a conversational remark about discovering Codex, not a rate-limit reset.",
-      "reasoningTokens": 32,
-      "totalTokens": 443,
-      "tweetId": "2066022651760721931",
-      "tweetText": "Hi, I'm Tibo and I just discovered Codex. AMA",
-      "tweetUrl": "https://x.com/thsottiaux/status/2066022651760721931",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "BMIry4To4xXg22o4CfT1KHyfZznKA5100rsfiqDz18xkKXNeA9YrkFqRGQ",
-    "iv": "4cPY0aZdRvMRtgv_",
-    "tag": "KxyCXZ5sKlDJaVBgHoE5dA",
+    "ciphertext": "gnbNTxZjLYIJFx1sXirz9i0GlTr-Kd-_m3siOZ2_19ByvkE9e4gnBK4QYA",
+    "iv": "AEkfFoCrYbLTeBlz",
+    "tag": "gmEkO4bB5BZERgBckYPFNg",
     "version": 1
   }
 }
