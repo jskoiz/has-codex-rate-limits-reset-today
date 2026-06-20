@@ -14,16 +14,16 @@
   "updatedAt": 1781741564670,
   "automation": {
     "lastDecision": {
-      "confidence": 0.98,
-      "decidedAt": 1781981552660,
-      "rationale": "This reply is conversational and does not say anything about limits, caps, or a reset.",
-      "tweetId": "2068405912830976123",
-      "tweetUrl": "https://x.com/thsottiaux/status/2068405912830976123",
+      "confidence": 0.99,
+      "decidedAt": 1781990239352,
+      "rationale": "This is a promotional remark about the Codex app and does not mention limits or a reset.",
+      "tweetId": "2068443037907522002",
+      "tweetUrl": "https://x.com/thsottiaux/status/2068443037907522002",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2068405912830976123",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2068405912830976123",
+    "lastSeenTweetId": "2068443037907522002",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2068443037907522002",
     "pendingReview": {
       "confidence": 0.3,
       "createdAt": 1781915198654,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2068125990304489562"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1781990239352,
+        "inputTokens": 373,
+        "outputTokens": 71,
+        "rationale": "This is a promotional remark about the Codex app and does not mention limits or a reset.",
+        "reasoningTokens": 24,
+        "totalTokens": 444,
+        "tweetId": "2068443037907522002",
+        "tweetText": "Some tokens work harder than others. Some of the most valuable ones are found in the Codex app.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2068443037907522002",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.98,
         "evaluatedAt": 1781981552660,
@@ -279,29 +292,31 @@
         "tweetText": "This was fixed. You know what's coming 👀\n\nGive us 24 hours to reset the Codex rate limits across all plans.",
         "tweetUrl": "https://x.com/thsottiaux/status/2066956441173323943",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1781617480283,
-        "inputTokens": 369,
-        "outputTokens": 81,
-        "rationale": "This reply is just a joke about starring a repo and says nothing about ChatGPT or Codex limits resetting.",
-        "reasoningTokens": 31,
-        "totalTokens": 450,
-        "tweetId": "2066879211139170514",
-        "tweetText": "@jxnlco You didn't even star your own repo. The repo is officially sad",
-        "tweetUrl": "https://x.com/thsottiaux/status/2066879211139170514",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 261963,
-      "totalOutputTokens": 70067,
-      "totalReasoningTokens": 37922,
-      "totalTokens": 332030
+      "totalInputTokens": 262336,
+      "totalOutputTokens": 70138,
+      "totalReasoningTokens": 37946,
+      "totalTokens": 332474
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1781990239352,
+      "inputTokens": 373,
+      "message": "",
+      "outputTokens": 71,
+      "rationale": "This is a promotional remark about the Codex app and does not mention limits or a reset.",
+      "reasoningTokens": 24,
+      "totalTokens": 444,
+      "tweetId": "2068443037907522002",
+      "tweetText": "Some tokens work harder than others. Some of the most valuable ones are found in the Codex app.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2068443037907522002",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.98,
       "createdAt": 1781981552660,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2066025002680582225",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1781413861716,
-      "inputTokens": 378,
-      "message": "",
-      "outputTokens": 109,
-      "rationale": "This reply discusses usage counts in Codex and does not indicate any rate limit reset.",
-      "reasoningTokens": 64,
-      "totalTokens": 487,
-      "tweetId": "2066024814561853644",
-      "tweetText": "@YuYoshimuta 2 in the Codex app, a couple hundred on a devbox (experimenting on something)",
-      "tweetUrl": "https://x.com/thsottiaux/status/2066024814561853644",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "rSc_JAWKUmT0lrVqqjfoCse0CooPHDZ5thRheQVsaPaZW-36n-z6ud4hHA",
-    "iv": "JGvvO1PsaUxNYJB4",
-    "tag": "RJSKD90xOZT-cecIG_COtw",
+    "ciphertext": "gAPRb5yfxQnAwPSds6vLwKx_bzzGXcKanDCrGb0dkeivxICEJ6ADEjmJ6g",
+    "iv": "l7HiscE7qiNLpe1j",
+    "tag": "A6O71zKMTablHwOMxf12zg",
     "version": 1
   }
 }
