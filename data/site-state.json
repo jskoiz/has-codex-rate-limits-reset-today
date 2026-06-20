@@ -14,16 +14,16 @@
   "updatedAt": 1781741564670,
   "automation": {
     "lastDecision": {
-      "confidence": 0.3,
-      "decidedAt": 1781915198654,
-      "rationale": "This reply gives no clear indication that any Codex or ChatGPT limit has reset.",
-      "tweetId": "2068125990304489562",
-      "tweetUrl": "https://x.com/thsottiaux/status/2068125990304489562",
-      "verdict": "uncertain"
+      "confidence": 0.99,
+      "decidedAt": 1781919249656,
+      "rationale": "This post just praises Codex and a quoted tip thread, with no mention of limits or resets.",
+      "tweetId": "2068144722460475527",
+      "tweetUrl": "https://x.com/thsottiaux/status/2068144722460475527",
+      "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2068125990304489562",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2068125990304489562",
+    "lastSeenTweetId": "2068144722460475527",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2068144722460475527",
     "pendingReview": {
       "confidence": 0.3,
       "createdAt": 1781915198654,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2068125990304489562"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1781919249656,
+        "inputTokens": 445,
+        "outputTokens": 69,
+        "rationale": "This post just praises Codex and a quoted tip thread, with no mention of limits or resets.",
+        "reasoningTokens": 21,
+        "totalTokens": 514,
+        "tweetId": "2068144722460475527",
+        "tweetText": "Late to this one, but follow @danshipper for S-tier codex tips. These days I spend more time in the codex app than all other apps combined on my Mac.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2068144722460475527",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.3,
         "evaluatedAt": 1781915198654,
@@ -279,29 +292,31 @@
         "tweetText": "@Dimillian Thank you for making the world a little bit more productive every day",
         "tweetUrl": "https://x.com/thsottiaux/status/2066536854870954186",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1781472294421,
-        "inputTokens": 479,
-        "outputTokens": 79,
-        "rationale": "This post discusses Codex goal-setting behavior, not rate limits or a usage reset.",
-        "reasoningTokens": 34,
-        "totalTokens": 558,
-        "tweetId": "2066270561081454989",
-        "tweetText": "Codex can see and set its own /goal. Everything we build, we build also as a tool for the agent. This is a generalization of meta prompting, where you let the agent set its own task based on your intent.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2066270561081454989",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 260370,
-      "totalOutputTokens": 69716,
-      "totalReasoningTokens": 37757,
-      "totalTokens": 330086
+      "totalInputTokens": 260815,
+      "totalOutputTokens": 69785,
+      "totalReasoningTokens": 37778,
+      "totalTokens": 330600
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1781919249656,
+      "inputTokens": 445,
+      "message": "",
+      "outputTokens": 69,
+      "rationale": "This post just praises Codex and a quoted tip thread, with no mention of limits or resets.",
+      "reasoningTokens": 21,
+      "totalTokens": 514,
+      "tweetId": "2068144722460475527",
+      "tweetText": "Late to this one, but follow @danshipper for S-tier codex tips. These days I spend more time in the codex app than all other apps combined on my Mac.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2068144722460475527",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.3,
       "createdAt": 1781915198654,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2066023944315109820",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1781413567061,
-      "inputTokens": 362,
-      "message": "",
-      "outputTokens": 113,
-      "rationale": "This reply is just conversational and does not indicate any rate limit or cap reset.",
-      "reasoningTokens": 69,
-      "totalTokens": 475,
-      "tweetId": "2066023278335111597",
-      "tweetText": "@Sourabhsinr The update button",
-      "tweetUrl": "https://x.com/thsottiaux/status/2066023278335111597",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "bZZDVjDslzRCOEDlUogkS9JSbg4M7deJ4E1_k2bFZcQ61Ub5G-s8e6myHg",
-    "iv": "Jz8iEDF4yqoy2HJv",
-    "tag": "AX5woORqXBxtMxN9Fwbn7Q",
+    "ciphertext": "DjwCShWhVTnFb94T_nIDtsp-RGGiAGjJfiAbeRto6XyLWeEdjyF_xFmdgg",
+    "iv": "K84pB47yRmcGFnho",
+    "tag": "U6hkJu4ZPX1JJPo5exEpIA",
     "version": 1
   }
 }
