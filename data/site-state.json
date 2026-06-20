@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1781990239352,
-      "rationale": "This is a promotional remark about the Codex app and does not mention limits or a reset.",
-      "tweetId": "2068443037907522002",
-      "tweetUrl": "https://x.com/thsottiaux/status/2068443037907522002",
+      "decidedAt": 1781990568584,
+      "rationale": "This reply is unrelated to rate limits or usage resets.",
+      "tweetId": "2068443443983192472",
+      "tweetUrl": "https://x.com/thsottiaux/status/2068443443983192472",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2068443037907522002",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2068443037907522002",
+    "lastSeenTweetId": "2068443443983192472",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2068443443983192472",
     "pendingReview": {
       "confidence": 0.3,
       "createdAt": 1781915198654,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2068125990304489562"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1781990568584,
+        "inputTokens": 365,
+        "outputTokens": 86,
+        "rationale": "This reply is unrelated to rate limits or usage resets.",
+        "reasoningTokens": 47,
+        "totalTokens": 451,
+        "tweetId": "2068443443983192472",
+        "tweetText": "@ajambrosino It's like TikTok, but for code.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2068443443983192472",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1781990239352,
@@ -279,29 +292,31 @@
         "tweetText": "Bim bada boum. I am in France for the week and we are rolling out all the most exciting Codex features across Europe. Coincidence or did the team think I wasn't able to be productive otherwise?",
         "tweetUrl": "https://x.com/thsottiaux/status/2067064381855187231",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.98,
-        "evaluatedAt": 1781636044706,
-        "inputTokens": 459,
-        "outputTokens": 187,
-        "rationale": "It says the Codex rate limits will be reset within 24 hours, not that they have reset already.",
-        "reasoningTokens": 137,
-        "totalTokens": 646,
-        "tweetId": "2066956441173323943",
-        "tweetText": "This was fixed. You know what's coming 👀\n\nGive us 24 hours to reset the Codex rate limits across all plans.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2066956441173323943",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 262336,
-      "totalOutputTokens": 70138,
-      "totalReasoningTokens": 37946,
-      "totalTokens": 332474
+      "totalInputTokens": 262701,
+      "totalOutputTokens": 70224,
+      "totalReasoningTokens": 37993,
+      "totalTokens": 332925
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1781990568584,
+      "inputTokens": 365,
+      "message": "",
+      "outputTokens": 86,
+      "rationale": "This reply is unrelated to rate limits or usage resets.",
+      "reasoningTokens": 47,
+      "totalTokens": 451,
+      "tweetId": "2068443443983192472",
+      "tweetText": "@ajambrosino It's like TikTok, but for code.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2068443443983192472",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1781990239352,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2066026202100609461",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1781413864090,
-      "inputTokens": 359,
-      "message": "",
-      "outputTokens": 82,
-      "rationale": "This reply does not mention rate limits, caps, or a reset.",
-      "reasoningTokens": 40,
-      "totalTokens": 441,
-      "tweetId": "2066025002680582225",
-      "tweetText": "@CowNumber95 Not a question",
-      "tweetUrl": "https://x.com/thsottiaux/status/2066025002680582225",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "gAPRb5yfxQnAwPSds6vLwKx_bzzGXcKanDCrGb0dkeivxICEJ6ADEjmJ6g",
-    "iv": "l7HiscE7qiNLpe1j",
-    "tag": "A6O71zKMTablHwOMxf12zg",
+    "ciphertext": "pImVyypDEKgNImPihz88YS2aygQnaRCjT_6NnY7mBUGVt1OrKRQB9V9eBA",
+    "iv": "jFKY8LMeKvDt6Ktq",
+    "tag": "_dbUi8pYM8DnuTwn8MSycA",
     "version": 1
   }
 }
