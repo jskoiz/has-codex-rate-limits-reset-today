@@ -14,25 +14,38 @@
   "updatedAt": 1781741564670,
   "automation": {
     "lastDecision": {
-      "confidence": 0.96,
-      "decidedAt": 1781914882586,
-      "rationale": "This reply alone does not clearly say limits have reset or usage is available again.",
-      "tweetId": "2068125862550274432",
-      "tweetUrl": "https://x.com/thsottiaux/status/2068125862550274432",
+      "confidence": 0.3,
+      "decidedAt": 1781915198654,
+      "rationale": "This reply gives no clear indication that any Codex or ChatGPT limit has reset.",
+      "tweetId": "2068125990304489562",
+      "tweetUrl": "https://x.com/thsottiaux/status/2068125990304489562",
       "verdict": "uncertain"
     },
     "lastError": null,
-    "lastSeenTweetId": "2068125862550274432",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2068125862550274432",
+    "lastSeenTweetId": "2068125990304489562",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2068125990304489562",
     "pendingReview": {
-      "confidence": 0.96,
-      "createdAt": 1781914882586,
-      "rationale": "This reply alone does not clearly say limits have reset or usage is available again.",
-      "tweetId": "2068125862550274432",
-      "tweetText": "@Astrob0i91 Real?",
-      "tweetUrl": "https://x.com/thsottiaux/status/2068125862550274432"
+      "confidence": 0.3,
+      "createdAt": 1781915198654,
+      "rationale": "This reply gives no clear indication that any Codex or ChatGPT limit has reset.",
+      "tweetId": "2068125990304489562",
+      "tweetText": "@CastAsHuman Third time is the charm",
+      "tweetUrl": "https://x.com/thsottiaux/status/2068125990304489562"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.3,
+        "evaluatedAt": 1781915198654,
+        "inputTokens": 361,
+        "outputTokens": 203,
+        "rationale": "This reply gives no clear indication that any Codex or ChatGPT limit has reset.",
+        "reasoningTokens": 158,
+        "totalTokens": 564,
+        "tweetId": "2068125990304489562",
+        "tweetText": "@CastAsHuman Third time is the charm",
+        "tweetUrl": "https://x.com/thsottiaux/status/2068125990304489562",
+        "verdict": "uncertain"
+      },
       {
         "confidence": 0.96,
         "evaluatedAt": 1781914882586,
@@ -279,29 +292,31 @@
         "tweetText": "Codex can see and set its own /goal. Everything we build, we build also as a tool for the agent. This is a generalization of meta prompting, where you let the agent set its own task based on your intent.",
         "tweetUrl": "https://x.com/thsottiaux/status/2066270561081454989",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1781415413569,
-        "inputTokens": 364,
-        "outputTokens": 84,
-        "rationale": "This reply is conversational and does not mention any limit or reset.",
-        "reasoningTokens": 43,
-        "totalTokens": 448,
-        "tweetId": "2066030245942370359",
-        "tweetText": "@YossiEliaz Slack by day. Twitter by night.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2066030245942370359",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 260009,
-      "totalOutputTokens": 69513,
-      "totalReasoningTokens": 37599,
-      "totalTokens": 329522
+      "totalInputTokens": 260370,
+      "totalOutputTokens": 69716,
+      "totalReasoningTokens": 37757,
+      "totalTokens": 330086
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.3,
+      "createdAt": 1781915198654,
+      "inputTokens": 361,
+      "message": "",
+      "outputTokens": 203,
+      "rationale": "This reply gives no clear indication that any Codex or ChatGPT limit has reset.",
+      "reasoningTokens": 158,
+      "totalTokens": 564,
+      "tweetId": "2068125990304489562",
+      "tweetText": "@CastAsHuman Third time is the charm",
+      "tweetUrl": "https://x.com/thsottiaux/status/2068125990304489562",
+      "type": "review_requested",
+      "verdict": "uncertain"
+    },
     {
       "confidence": 0.96,
       "createdAt": 1781914882586,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2066023278335111597",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.98,
-      "createdAt": 1781413564355,
-      "inputTokens": 372,
-      "message": "",
-      "outputTokens": 135,
-      "rationale": "This is a joking reply about OpenAI employees having \"unlimited resets,\" not a report that user limits have reset now.",
-      "reasoningTokens": 82,
-      "totalTokens": 507,
-      "tweetId": "2066023220747419692",
-      "tweetText": "@dvyio Many. But they misunderstood and they now work at OpenAI and get unlimited resets",
-      "tweetUrl": "https://x.com/thsottiaux/status/2066023220747419692",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "faIEtyequlkY6WQYPCrQwVPQv-A08_h_jBHA2MydHmPlyxyWS-BrDGItSA",
-    "iv": "goSE5klMsfLBnEit",
-    "tag": "L-SxHYlk6HOTHo4LgTVB7Q",
+    "ciphertext": "bZZDVjDslzRCOEDlUogkS9JSbg4M7deJ4E1_k2bFZcQ61Ub5G-s8e6myHg",
+    "iv": "Jz8iEDF4yqoy2HJv",
+    "tag": "AX5woORqXBxtMxN9Fwbn7Q",
     "version": 1
   }
 }
