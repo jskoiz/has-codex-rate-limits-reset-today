@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1781833990213,
-      "rationale": "This reply is just a joke about Codex and does not mention rate limits or a reset.",
-      "tweetId": "2067786942092075198",
-      "tweetUrl": "https://x.com/thsottiaux/status/2067786942092075198",
+      "decidedAt": 1781913653533,
+      "rationale": "This post and its quoted tweet discuss a Codex feature, not rate limits or usage caps resetting.",
+      "tweetId": "2068120572673077274",
+      "tweetUrl": "https://x.com/thsottiaux/status/2068120572673077274",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2067786942092075198",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2067786942092075198",
+    "lastSeenTweetId": "2068120572673077274",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2068120572673077274",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1781913653533,
+        "inputTokens": 486,
+        "outputTokens": 66,
+        "rationale": "This post and its quoted tweet discuss a Codex feature, not rate limits or usage caps resetting.",
+        "reasoningTokens": 18,
+        "totalTokens": 552,
+        "tweetId": "2068120572673077274",
+        "tweetText": "Remote / local handoff in Codex! Removing boundaries one at a time. \n\nWhen you let the model be in the driver seat, you actually need less infrastructure.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2068120572673077274",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1781833990213,
@@ -272,29 +285,31 @@
         "tweetText": "@xadhish Tibo Sotyo",
         "tweetUrl": "https://x.com/thsottiaux/status/2066029988776935667",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1781415407977,
-        "inputTokens": 359,
-        "outputTokens": 79,
-        "rationale": "This reply just says \"Batching\" and does not indicate any limit reset.",
-        "reasoningTokens": 35,
-        "totalTokens": 438,
-        "tweetId": "2066029393789776366",
-        "tweetText": "@joshbuildings Batching",
-        "tweetUrl": "https://x.com/thsottiaux/status/2066029393789776366",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 259164,
-      "totalOutputTokens": 69274,
-      "totalReasoningTokens": 37452,
-      "totalTokens": 328438
+      "totalInputTokens": 259650,
+      "totalOutputTokens": 69340,
+      "totalReasoningTokens": 37470,
+      "totalTokens": 328990
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1781913653533,
+      "inputTokens": 486,
+      "message": "",
+      "outputTokens": 66,
+      "rationale": "This post and its quoted tweet discuss a Codex feature, not rate limits or usage caps resetting.",
+      "reasoningTokens": 18,
+      "totalTokens": 552,
+      "tweetId": "2068120572673077274",
+      "tweetText": "Remote / local handoff in Codex! Removing boundaries one at a time. \n\nWhen you let the model be in the driver seat, you actually need less infrastructure.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2068120572673077274",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1781833990213,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2066023082557653241",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1781413559118,
-      "inputTokens": 370,
-      "message": "",
-      "outputTokens": 107,
-      "rationale": "This reply is a joke about being upgraded and does not mention any limit or rate-limit reset.",
-      "reasoningTokens": 60,
-      "totalTokens": 477,
-      "tweetId": "2066022975435161768",
-      "tweetText": "@Fbcontentlock Currently running on Tibo 2026. I get upgraded every year",
-      "tweetUrl": "https://x.com/thsottiaux/status/2066022975435161768",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "JysPrJVNKD8C8hVpVsA3lHqz11l2Yo0pJll4j-fLcoWnVG61roavYXl_yg",
-    "iv": "OmB5hJE8L4lx_bOx",
-    "tag": "MJwMSqD_UGGdnHunSCqjIA",
+    "ciphertext": "979DffWe4wvCN_zdTCJj0DNDqmflWMh4CCjfUjcxqPRORvmxF6mzNHJASw",
+    "iv": "NHAfYGAN_58KFqMu",
+    "tag": "7B6oyGR51hRuGxoGlUr0ZQ",
     "version": 1
   }
 }
