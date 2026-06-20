@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1781990568584,
-      "rationale": "This reply is unrelated to rate limits or usage resets.",
-      "tweetId": "2068443443983192472",
-      "tweetUrl": "https://x.com/thsottiaux/status/2068443443983192472",
+      "decidedAt": 1781990852799,
+      "rationale": "This reply is conversational and does not mention any limit or usage reset.",
+      "tweetId": "2068444484795564527",
+      "tweetUrl": "https://x.com/thsottiaux/status/2068444484795564527",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2068443443983192472",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2068443443983192472",
+    "lastSeenTweetId": "2068444484795564527",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2068444484795564527",
     "pendingReview": {
       "confidence": 0.3,
       "createdAt": 1781915198654,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2068125990304489562"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1781990852799,
+        "inputTokens": 358,
+        "outputTokens": 72,
+        "rationale": "This reply is conversational and does not mention any limit or usage reset.",
+        "reasoningTokens": 30,
+        "totalTokens": 430,
+        "tweetId": "2068444484795564527",
+        "tweetText": "@ajambrosino discerning",
+        "tweetUrl": "https://x.com/thsottiaux/status/2068444484795564527",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1781990568584,
@@ -279,29 +292,31 @@
         "tweetText": "@ajambrosino france also has house parties and you're also not there",
         "tweetUrl": "https://x.com/thsottiaux/status/2067064857724092590",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1781661826485,
-        "inputTokens": 487,
-        "outputTokens": 84,
-        "rationale": "This post is about feature rollout in Europe, not user caps or rate limits resetting.",
-        "reasoningTokens": 39,
-        "totalTokens": 571,
-        "tweetId": "2067064381855187231",
-        "tweetText": "Bim bada boum. I am in France for the week and we are rolling out all the most exciting Codex features across Europe. Coincidence or did the team think I wasn't able to be productive otherwise?",
-        "tweetUrl": "https://x.com/thsottiaux/status/2067064381855187231",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 262701,
-      "totalOutputTokens": 70224,
-      "totalReasoningTokens": 37993,
-      "totalTokens": 332925
+      "totalInputTokens": 263059,
+      "totalOutputTokens": 70296,
+      "totalReasoningTokens": 38023,
+      "totalTokens": 333355
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1781990852799,
+      "inputTokens": 358,
+      "message": "",
+      "outputTokens": 72,
+      "rationale": "This reply is conversational and does not mention any limit or usage reset.",
+      "reasoningTokens": 30,
+      "totalTokens": 430,
+      "tweetId": "2068444484795564527",
+      "tweetText": "@ajambrosino discerning",
+      "tweetUrl": "https://x.com/thsottiaux/status/2068444484795564527",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1781990568584,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2066027075354685923",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1781414159525,
-      "inputTokens": 360,
-      "message": "",
-      "outputTokens": 92,
-      "rationale": "This reply just says “Codex 2” and does not indicate any limits or caps have reset.",
-      "reasoningTokens": 43,
-      "totalTokens": 452,
-      "tweetId": "2066026202100609461",
-      "tweetText": "@nicksdot Codex 2",
-      "tweetUrl": "https://x.com/thsottiaux/status/2066026202100609461",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "pImVyypDEKgNImPihz88YS2aygQnaRCjT_6NnY7mBUGVt1OrKRQB9V9eBA",
-    "iv": "jFKY8LMeKvDt6Ktq",
-    "tag": "_dbUi8pYM8DnuTwn8MSycA",
+    "ciphertext": "JVDGveNm2sgFqU9Kud1XyqlQeR2RnzT0b-SsFx7cfi4cW0-0Lss2j6gobQ",
+    "iv": "OMNTjp7-4eLNWHG0",
+    "tag": "TuwqUHsCJA5uw4tERbZv3g",
     "version": 1
   }
 }
