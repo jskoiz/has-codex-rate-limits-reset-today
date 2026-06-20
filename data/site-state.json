@@ -14,16 +14,16 @@
   "updatedAt": 1781741564670,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1781981549784,
-      "rationale": "This reply just jokes about Codex model names and does not mention limits or a reset.",
-      "tweetId": "2068405394079412267",
-      "tweetUrl": "https://x.com/thsottiaux/status/2068405394079412267",
+      "confidence": 0.98,
+      "decidedAt": 1781981552660,
+      "rationale": "This reply is conversational and does not say anything about limits, caps, or a reset.",
+      "tweetId": "2068405912830976123",
+      "tweetUrl": "https://x.com/thsottiaux/status/2068405912830976123",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2068405394079412267",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2068405394079412267",
+    "lastSeenTweetId": "2068405912830976123",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2068405912830976123",
     "pendingReview": {
       "confidence": 0.3,
       "createdAt": 1781915198654,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2068125990304489562"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.98,
+        "evaluatedAt": 1781981552660,
+        "inputTokens": 375,
+        "outputTokens": 103,
+        "rationale": "This reply is conversational and does not say anything about limits, caps, or a reset.",
+        "reasoningTokens": 57,
+        "totalTokens": 478,
+        "tweetId": "2068405912830976123",
+        "tweetText": "@Gaus450 Just pasting your header back at you https://t.co/x3QIWyH4yt",
+        "tweetUrl": "https://x.com/thsottiaux/status/2068405912830976123",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1781981549784,
@@ -279,29 +292,31 @@
         "tweetText": "@jxnlco You didn't even star your own repo. The repo is officially sad",
         "tweetUrl": "https://x.com/thsottiaux/status/2066879211139170514",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.98,
-        "evaluatedAt": 1781614064744,
-        "inputTokens": 399,
-        "outputTokens": 108,
-        "rationale": "This reports a capacity/stability issue, not that any user limits or rate limits have reset.",
-        "reasoningTokens": 61,
-        "totalTokens": 507,
-        "tweetId": "2066865154902380796",
-        "tweetText": "Oy. We are aware that some Codex users are experiencing high error rates with \"model at capacity\" and are working to bring things back to being stable.\n\nhttps://t.co/R3dCKGGtQw",
-        "tweetUrl": "https://x.com/thsottiaux/status/2066865154902380796",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 261588,
-      "totalOutputTokens": 69964,
-      "totalReasoningTokens": 37865,
-      "totalTokens": 331552
+      "totalInputTokens": 261963,
+      "totalOutputTokens": 70067,
+      "totalReasoningTokens": 37922,
+      "totalTokens": 332030
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.98,
+      "createdAt": 1781981552660,
+      "inputTokens": 375,
+      "message": "",
+      "outputTokens": 103,
+      "rationale": "This reply is conversational and does not say anything about limits, caps, or a reset.",
+      "reasoningTokens": 57,
+      "totalTokens": 478,
+      "tweetId": "2068405912830976123",
+      "tweetText": "@Gaus450 Just pasting your header back at you https://t.co/x3QIWyH4yt",
+      "tweetUrl": "https://x.com/thsottiaux/status/2068405912830976123",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1781981549784,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2066024814561853644",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1781413859065,
-      "inputTokens": 395,
-      "message": "",
-      "outputTokens": 69,
-      "rationale": "This reply is conversational and says nothing about limits or resets.",
-      "reasoningTokens": 29,
-      "totalTokens": 464,
-      "tweetId": "2066024544918442056",
-      "tweetText": "@CadenJ06 Working with people like @ajambrosino , @edbayes, @ah20im  and many many other brilliant people who can't help but figure out what the future will look like",
-      "tweetUrl": "https://x.com/thsottiaux/status/2066024544918442056",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "WorekEpN_hJdxpV8yZFKnKwSqvRKfaN3xEpQl3FQI83VgIEIEpPTpD-6GQ",
-    "iv": "WxD2VimSZ_koCMhB",
-    "tag": "eKkel5FUKP-DqVbYI_dVSw",
+    "ciphertext": "rSc_JAWKUmT0lrVqqjfoCse0CooPHDZ5thRheQVsaPaZW-36n-z6ud4hHA",
+    "iv": "JGvvO1PsaUxNYJB4",
+    "tag": "RJSKD90xOZT-cecIG_COtw",
     "version": 1
   }
 }
