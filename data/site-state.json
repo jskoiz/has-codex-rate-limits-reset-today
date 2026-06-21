@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1782020317970,
-      "rationale": "This tweet discusses model front-end capabilities, not any usage cap or rate-limit reset.",
-      "tweetId": "2068568650924409260",
-      "tweetUrl": "https://x.com/thsottiaux/status/2068568650924409260",
+      "decidedAt": 1782060568993,
+      "rationale": "This is a product feedback question and does not mention limits or a reset.",
+      "tweetId": "2068736857312198928",
+      "tweetUrl": "https://x.com/thsottiaux/status/2068736857312198928",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2068568650924409260",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2068568650924409260",
+    "lastSeenTweetId": "2068736857312198928",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2068736857312198928",
     "pendingReview": {
       "confidence": 0.3,
       "createdAt": 1781915198654,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2068125990304489562"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1782060568993,
+        "inputTokens": 366,
+        "outputTokens": 75,
+        "rationale": "This is a product feedback question and does not mention limits or a reset.",
+        "reasoningTokens": 32,
+        "totalTokens": 441,
+        "tweetId": "2068736857312198928",
+        "tweetText": "What should we improve in the Codex app. What's not delightful?",
+        "tweetUrl": "https://x.com/thsottiaux/status/2068736857312198928",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1782020317970,
@@ -279,29 +292,31 @@
         "tweetText": "Dearest gentle codexer.\n\nWe did a sneaky double reset. Not only do you get a full reset on us. But you are also getting one into the reset bank to use at your own leisure. \n\nEnjoy",
         "tweetUrl": "https://x.com/thsottiaux/status/2067399435009622521",
         "verdict": "reset_confirmed"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1781689713717,
-        "inputTokens": 392,
-        "outputTokens": 71,
-        "rationale": "This is a product reminder about Codex model compatibility, not about limits or a reset.",
-        "reasoningTokens": 25,
-        "totalTokens": 463,
-        "tweetId": "2067181377028538431",
-        "tweetText": "Reminder that you can use the Codex App, CLI and SDK with any open source model, not just with OpenAI models.\n\nhttps://t.co/spPifB4ck3",
-        "tweetUrl": "https://x.com/thsottiaux/status/2067181377028538431",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 263817,
-      "totalOutputTokens": 70465,
-      "totalReasoningTokens": 38101,
-      "totalTokens": 334282
+      "totalInputTokens": 264183,
+      "totalOutputTokens": 70540,
+      "totalReasoningTokens": 38133,
+      "totalTokens": 334723
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1782060568993,
+      "inputTokens": 366,
+      "message": "",
+      "outputTokens": 75,
+      "rationale": "This is a product feedback question and does not mention limits or a reset.",
+      "reasoningTokens": 32,
+      "totalTokens": 441,
+      "tweetId": "2068736857312198928",
+      "tweetText": "What should we improve in the Codex app. What's not delightful?",
+      "tweetUrl": "https://x.com/thsottiaux/status/2068736857312198928",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1782020317970,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2066028460796162096",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1781414789895,
-      "inputTokens": 361,
-      "message": "",
-      "outputTokens": 85,
-      "rationale": "This is just a casual reply and says nothing about limits or resets.",
-      "reasoningTokens": 43,
-      "totalTokens": 446,
-      "tweetId": "2066028235801137437",
-      "tweetText": "@buildwithhassan Lowkey love it",
-      "tweetUrl": "https://x.com/thsottiaux/status/2066028235801137437",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "yFEqj9D1XXvfZ4GPRrX2eP6HkZJFXTJJ7N5p6-VxRrYiPhwSG7dBGLksqg",
-    "iv": "b_Rkz9FFi3tBRn5r",
-    "tag": "P7u6YaUQWbNfLVplOQo3XQ",
+    "ciphertext": "WbYc9AmUdLMZ6iuA01YziZG1Wlj6FBJmHq2vPW4g7J37xfO1HhvdwFm3QA",
+    "iv": "Kv3AD1y4JksN5C6K",
+    "tag": "GVD5BQHUIXmYh0pb4Uq4Pg",
     "version": 1
   }
 }
