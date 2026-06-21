@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1782060568993,
-      "rationale": "This is a product feedback question and does not mention limits or a reset.",
-      "tweetId": "2068736857312198928",
-      "tweetUrl": "https://x.com/thsottiaux/status/2068736857312198928",
+      "decidedAt": 1782060873569,
+      "rationale": "This reply mentions using Codex but says nothing about limits or a reset.",
+      "tweetId": "2068738262907461729",
+      "tweetUrl": "https://x.com/thsottiaux/status/2068738262907461729",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2068736857312198928",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2068736857312198928",
+    "lastSeenTweetId": "2068738262907461729",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2068738262907461729",
     "pendingReview": {
       "confidence": 0.3,
       "createdAt": 1781915198654,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2068125990304489562"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1782060873569,
+        "inputTokens": 366,
+        "outputTokens": 86,
+        "rationale": "This reply mentions using Codex but says nothing about limits or a reset.",
+        "reasoningTokens": 43,
+        "totalTokens": 452,
+        "tweetId": "2068738262907461729",
+        "tweetText": "@ajambrosino Go write a loop. Straight into Codex.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2068738262907461729",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1782060568993,
@@ -279,29 +292,31 @@
         "tweetText": "@argofowl Thank you for using codex.",
         "tweetUrl": "https://x.com/thsottiaux/status/2067417986575589782",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1781741564670,
-        "inputTokens": 597,
-        "outputTokens": 166,
-        "rationale": "The main tweet explicitly says Codex users got a full reset now plus an extra banked reset.",
-        "reasoningTokens": 117,
-        "totalTokens": 763,
-        "tweetId": "2067399435009622521",
-        "tweetText": "Dearest gentle codexer.\n\nWe did a sneaky double reset. Not only do you get a full reset on us. But you are also getting one into the reset bank to use at your own leisure. \n\nEnjoy",
-        "tweetUrl": "https://x.com/thsottiaux/status/2067399435009622521",
-        "verdict": "reset_confirmed"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 264183,
-      "totalOutputTokens": 70540,
-      "totalReasoningTokens": 38133,
-      "totalTokens": 334723
+      "totalInputTokens": 264549,
+      "totalOutputTokens": 70626,
+      "totalReasoningTokens": 38176,
+      "totalTokens": 335175
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1782060873569,
+      "inputTokens": 366,
+      "message": "",
+      "outputTokens": 86,
+      "rationale": "This reply mentions using Codex but says nothing about limits or a reset.",
+      "reasoningTokens": 43,
+      "totalTokens": 452,
+      "tweetId": "2068738262907461729",
+      "tweetText": "@ajambrosino Go write a loop. Straight into Codex.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2068738262907461729",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1782060568993,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2066028643588133158",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.98,
-      "createdAt": 1781414792680,
-      "inputTokens": 366,
-      "message": "",
-      "outputTokens": 105,
-      "rationale": "This is a joking reply about “resets,” not a clear statement that any limit has reset now.",
-      "reasoningTokens": 56,
-      "totalTokens": 471,
-      "tweetId": "2066028460796162096",
-      "tweetText": "@Sedrak1010 That must be worth at least 3 resets",
-      "tweetUrl": "https://x.com/thsottiaux/status/2066028460796162096",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "WbYc9AmUdLMZ6iuA01YziZG1Wlj6FBJmHq2vPW4g7J37xfO1HhvdwFm3QA",
-    "iv": "Kv3AD1y4JksN5C6K",
-    "tag": "GVD5BQHUIXmYh0pb4Uq4Pg",
+    "ciphertext": "ffUnF2fXGwyNzCnP8zis4GGYUnL5_eoEXoZt38Po2h_Hb7_go5cj9K9IjA",
+    "iv": "tShOT2SGRUBUjGkK",
+    "tag": "BjRXw5hA-ytHttV00a42hw",
     "version": 1
   }
 }
