@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1782060876308,
-      "rationale": "This reply is just a conversational remark and does not mention any limits or reset.",
-      "tweetId": "2068738384840020019",
-      "tweetUrl": "https://x.com/thsottiaux/status/2068738384840020019",
+      "decidedAt": 1782065202051,
+      "rationale": "This reply is conversational and does not mention limits, caps, or resets.",
+      "tweetId": "2068757167054987547",
+      "tweetUrl": "https://x.com/thsottiaux/status/2068757167054987547",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2068738384840020019",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2068738384840020019",
+    "lastSeenTweetId": "2068757167054987547",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2068757167054987547",
     "pendingReview": {
       "confidence": 0.3,
       "createdAt": 1781915198654,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2068125990304489562"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1782065202051,
+        "inputTokens": 364,
+        "outputTokens": 77,
+        "rationale": "This reply is conversational and does not mention limits, caps, or resets.",
+        "reasoningTokens": 34,
+        "totalTokens": 441,
+        "tweetId": "2068757167054987547",
+        "tweetText": "@ajambrosino Are you writing temporal logic specs yet",
+        "tweetUrl": "https://x.com/thsottiaux/status/2068757167054987547",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1782060876308,
@@ -279,29 +292,31 @@
         "tweetText": "@CastAsHuman Would you",
         "tweetUrl": "https://x.com/thsottiaux/status/2067784025121468692",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1781833352786,
-        "inputTokens": 357,
-        "outputTokens": 68,
-        "rationale": "This post is just a general question and does not mention any limit or reset.",
-        "reasoningTokens": 24,
-        "totalTokens": 425,
-        "tweetId": "2067783964077547520",
-        "tweetText": "What do you use",
-        "tweetUrl": "https://x.com/thsottiaux/status/2067783964077547520",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 264910,
-      "totalOutputTokens": 70718,
-      "totalReasoningTokens": 38224,
-      "totalTokens": 335628
+      "totalInputTokens": 265274,
+      "totalOutputTokens": 70795,
+      "totalReasoningTokens": 38258,
+      "totalTokens": 336069
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1782065202051,
+      "inputTokens": 364,
+      "message": "",
+      "outputTokens": 77,
+      "rationale": "This reply is conversational and does not mention limits, caps, or resets.",
+      "reasoningTokens": 34,
+      "totalTokens": 441,
+      "tweetId": "2068757167054987547",
+      "tweetText": "@ajambrosino Are you writing temporal logic specs yet",
+      "tweetUrl": "https://x.com/thsottiaux/status/2068757167054987547",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1782060876308,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2066028860194591006",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.96,
-      "createdAt": 1781414798029,
-      "inputTokens": 360,
-      "message": "",
-      "outputTokens": 145,
-      "rationale": "This reply is too context-dependent and does not explicitly say any limit has reset.",
-      "reasoningTokens": 101,
-      "totalTokens": 505,
-      "tweetId": "2066028715012989281",
-      "tweetText": "@aadhilkh Quite soon actually",
-      "tweetUrl": "https://x.com/thsottiaux/status/2066028715012989281",
-      "type": "review_requested",
-      "verdict": "uncertain"
     }
   ],
   "privateState": {
-    "ciphertext": "x9Z6MCVb9keP0YJGpvv4l-nUDsSv2XLRvG4hflmFa4mTYkGhI0AjW1FVNw",
-    "iv": "xc4csgvNubAvc2kf",
-    "tag": "rKnyPDiFuo0OlX_Duxhbtg",
+    "ciphertext": "LSm6qxz1Q6nx6EKKugBwpH5OsZSqVakriaZcZMHDRgbJ7d8PvDQRs6_SQg",
+    "iv": "DFTm1XMit7FkmF5P",
+    "tag": "uLhx8ZBYvCfAJ9PwkUmbRg",
     "version": 1
   }
 }
