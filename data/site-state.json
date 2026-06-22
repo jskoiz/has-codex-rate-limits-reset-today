@@ -14,25 +14,38 @@
   "updatedAt": 1781741564670,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1782159473036,
-      "rationale": "This post is a product update and does not mention any limit, cap, or rate reset.",
-      "tweetId": "2069152290326630518",
-      "tweetUrl": "https://x.com/thsottiaux/status/2069152290326630518",
-      "verdict": "not_reset"
+      "confidence": 0.97,
+      "decidedAt": 1782159478255,
+      "rationale": "This reply contains only a link, so it does not explicitly say any limit or cap has reset.",
+      "tweetId": "2069152499416928256",
+      "tweetUrl": "https://x.com/thsottiaux/status/2069152499416928256",
+      "verdict": "uncertain"
     },
     "lastError": null,
-    "lastSeenTweetId": "2069152290326630518",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2069152290326630518",
+    "lastSeenTweetId": "2069152499416928256",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2069152499416928256",
     "pendingReview": {
-      "confidence": 0.95,
-      "createdAt": 1782149260771,
-      "rationale": "The post text is only a link, so it does not clearly state that limits have reset.",
-      "tweetId": "2069110008722436484",
-      "tweetText": "https://t.co/vVg1iBJQhd",
-      "tweetUrl": "https://x.com/thsottiaux/status/2069110008722436484"
+      "confidence": 0.97,
+      "createdAt": 1782159478255,
+      "rationale": "This reply contains only a link, so it does not explicitly say any limit or cap has reset.",
+      "tweetId": "2069152499416928256",
+      "tweetText": "https://t.co/aEkhh523n3",
+      "tweetUrl": "https://x.com/thsottiaux/status/2069152499416928256"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.97,
+        "evaluatedAt": 1782159478255,
+        "inputTokens": 364,
+        "outputTokens": 236,
+        "rationale": "This reply contains only a link, so it does not explicitly say any limit or cap has reset.",
+        "reasoningTokens": 188,
+        "totalTokens": 600,
+        "tweetId": "2069152499416928256",
+        "tweetText": "https://t.co/aEkhh523n3",
+        "tweetUrl": "https://x.com/thsottiaux/status/2069152499416928256",
+        "verdict": "uncertain"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1782159473036,
@@ -279,29 +292,31 @@
         "tweetText": "@Astrob0i91 Real?",
         "tweetUrl": "https://x.com/thsottiaux/status/2068125862550274432",
         "verdict": "uncertain"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1781913653533,
-        "inputTokens": 486,
-        "outputTokens": 66,
-        "rationale": "This post and its quoted tweet discuss a Codex feature, not rate limits or usage caps resetting.",
-        "reasoningTokens": 18,
-        "totalTokens": 552,
-        "tweetId": "2068120572673077274",
-        "tweetText": "Remote / local handoff in Codex! Removing boundaries one at a time. \n\nWhen you let the model be in the driver seat, you actually need less infrastructure.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2068120572673077274",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 266785,
-      "totalOutputTokens": 71401,
-      "totalReasoningTokens": 38677,
-      "totalTokens": 338186
+      "totalInputTokens": 267149,
+      "totalOutputTokens": 71637,
+      "totalReasoningTokens": 38865,
+      "totalTokens": 338786
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.97,
+      "createdAt": 1782159478255,
+      "inputTokens": 364,
+      "message": "",
+      "outputTokens": 236,
+      "rationale": "This reply contains only a link, so it does not explicitly say any limit or cap has reset.",
+      "reasoningTokens": 188,
+      "totalTokens": 600,
+      "tweetId": "2069152499416928256",
+      "tweetText": "https://t.co/aEkhh523n3",
+      "tweetUrl": "https://x.com/thsottiaux/status/2069152499416928256",
+      "type": "review_requested",
+      "verdict": "uncertain"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1782159473036,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2066537086614642711",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1781535876453,
-      "inputTokens": 368,
-      "message": "",
-      "outputTokens": 83,
-      "rationale": "This reply is just a thank-you and says nothing about limits or a reset.",
-      "reasoningTokens": 39,
-      "totalTokens": 451,
-      "tweetId": "2066536854870954186",
-      "tweetText": "@Dimillian Thank you for making the world a little bit more productive every day",
-      "tweetUrl": "https://x.com/thsottiaux/status/2066536854870954186",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "iX3xBtQI1SOo-3jj8afdA42rVYe1_zgguIjPQsK2kfPo22FW4F989VO9Hw",
-    "iv": "OuH-3HXpH2eRNoh_",
-    "tag": "i8HlhUg3UetVdo7Hhcn-Og",
+    "ciphertext": "9VLuC9AiqxlrxBcDfRiMkeJIoHB0BpmbIbQPAqK_nwZjbI5qqPMQPoNRUQ",
+    "iv": "oV6eKNlzQ1F7Xt-g",
+    "tag": "t8zFNjK0LWHtBNSHVW8UEQ",
     "version": 1
   }
 }
