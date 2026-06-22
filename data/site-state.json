@@ -21,7 +21,7 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2068792061265121316",
       "verdict": "uncertain"
     },
-    "lastError": null,
+    "lastError": "Tweet fetch failed: Tweet search failed: Request failed with status code 503; timeline fallback failed: Request failed with status code 503 (Request failed with status code 503) (Tweet search failed: Request failed with status code 503; timeline fallback failed: Request failed with status code 503)",
     "lastSeenTweetId": "2068792061265121316",
     "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2068792061265121316",
     "pendingReview": {
@@ -302,6 +302,21 @@
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0,
+      "createdAt": 1782137502315,
+      "inputTokens": 0,
+      "message": "Tweet fetch failed: Tweet search failed: Request failed with status code 503; timeline fallback failed: Request failed with status code 503 (Request failed with status code 503) (Tweet search failed: Request failed with status code 503; timeline fallback failed: Request failed with status code 503)",
+      "outputTokens": 0,
+      "rationale": "",
+      "reasoningTokens": 0,
+      "totalTokens": 0,
+      "tweetId": null,
+      "tweetText": "",
+      "tweetUrl": null,
+      "type": "error",
+      "verdict": null
+    },
     {
       "confidence": 0.12,
       "createdAt": 1782073595526,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2066029988776935667",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1781415407977,
-      "inputTokens": 359,
-      "message": "",
-      "outputTokens": 79,
-      "rationale": "This reply just says \"Batching\" and does not indicate any limit reset.",
-      "reasoningTokens": 35,
-      "totalTokens": 438,
-      "tweetId": "2066029393789776366",
-      "tweetText": "@joshbuildings Batching",
-      "tweetUrl": "https://x.com/thsottiaux/status/2066029393789776366",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "BdJlZ42zLTvUfRXyTq1VdhXiEg43nDziHL0quofrtOQKsykBmAOmdF5Fzw",
-    "iv": "mE27ffDEUgb4dDFt",
-    "tag": "TYw1maQcWJ7PSlBI_xNKWg",
+    "ciphertext": "IZLfpsLQ9RAMIqkPgkS2-qD7LjxClL-Q4Ei78yROhSvyj91gcuJ7ZFW_Ig",
+    "iv": "n8rfOxC2fmlaCwge",
+    "tag": "ecaTGwgZWzfJMCcIC3z1gA",
     "version": 1
   }
 }
