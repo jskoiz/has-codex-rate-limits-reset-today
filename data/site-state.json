@@ -21,7 +21,7 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2068792061265121316",
       "verdict": "uncertain"
     },
-    "lastError": "Tweet fetch failed: Request failed with status code 503 (Request failed with status code 503)",
+    "lastError": null,
     "lastSeenTweetId": "2068792061265121316",
     "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2068792061265121316",
     "pendingReview": {
@@ -904,9 +904,9 @@
     }
   ],
   "privateState": {
-    "ciphertext": "wzA4HKJi1CJN34L2GmWt-gVU0tiup-Y96yHcuWlJhogMFUwW0IeZJdYfAA",
-    "iv": "zxgd9TscJERW8T5w",
-    "tag": "cGDXiSWKb1RZcJgYkU8Mlw",
+    "ciphertext": "j6ZMBq6XPeJaInjWZiLYObCfWVeNitUxdPsUaag2CRvRgbbzboz8uGciPw",
+    "iv": "IZw6dEsITJPSkCrH",
+    "tag": "YRoSQ0pfn3e0QaLoAEV3Fw",
     "version": 1
   }
 }
