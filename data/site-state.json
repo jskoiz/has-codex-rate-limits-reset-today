@@ -14,25 +14,38 @@
   "updatedAt": 1781741564670,
   "automation": {
     "lastDecision": {
-      "confidence": 0.12,
-      "decidedAt": 1782073595526,
-      "rationale": "This reply contains only a link, so it does not clearly say that limits have reset.",
-      "tweetId": "2068792061265121316",
-      "tweetUrl": "https://x.com/thsottiaux/status/2068792061265121316",
+      "confidence": 0.95,
+      "decidedAt": 1782149260771,
+      "rationale": "The post text is only a link, so it does not clearly state that limits have reset.",
+      "tweetId": "2069110008722436484",
+      "tweetUrl": "https://x.com/thsottiaux/status/2069110008722436484",
       "verdict": "uncertain"
     },
     "lastError": null,
-    "lastSeenTweetId": "2068792061265121316",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2068792061265121316",
+    "lastSeenTweetId": "2069110008722436484",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2069110008722436484",
     "pendingReview": {
-      "confidence": 0.12,
-      "createdAt": 1782073595526,
-      "rationale": "This reply contains only a link, so it does not clearly say that limits have reset.",
-      "tweetId": "2068792061265121316",
-      "tweetText": "https://t.co/pBWhE53c4A",
-      "tweetUrl": "https://x.com/thsottiaux/status/2068792061265121316"
+      "confidence": 0.95,
+      "createdAt": 1782149260771,
+      "rationale": "The post text is only a link, so it does not clearly state that limits have reset.",
+      "tweetId": "2069110008722436484",
+      "tweetText": "https://t.co/vVg1iBJQhd",
+      "tweetUrl": "https://x.com/thsottiaux/status/2069110008722436484"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.95,
+        "evaluatedAt": 1782149260771,
+        "inputTokens": 365,
+        "outputTokens": 114,
+        "rationale": "The post text is only a link, so it does not clearly state that limits have reset.",
+        "reasoningTokens": 67,
+        "totalTokens": 479,
+        "tweetId": "2069110008722436484",
+        "tweetText": "https://t.co/vVg1iBJQhd",
+        "tweetUrl": "https://x.com/thsottiaux/status/2069110008722436484",
+        "verdict": "uncertain"
+      },
       {
         "confidence": 0.12,
         "evaluatedAt": 1782073595526,
@@ -279,29 +292,31 @@
         "tweetText": "@AionForge Maybe they use codex to vote",
         "tweetUrl": "https://x.com/thsottiaux/status/2067786942092075198",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1781833360500,
-        "inputTokens": 365,
-        "outputTokens": 88,
-        "rationale": "This reply is conversational and does not mention limits, caps, or usage resetting.",
-        "reasoningTokens": 44,
-        "totalTokens": 453,
-        "tweetId": "2067784195993194965",
-        "tweetText": "@DannyNemer @adelbucetta It's time to fly",
-        "tweetUrl": "https://x.com/thsottiaux/status/2067784195993194965",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 266024,
-      "totalOutputTokens": 71206,
-      "totalReasoningTokens": 38576,
-      "totalTokens": 337230
+      "totalInputTokens": 266389,
+      "totalOutputTokens": 71320,
+      "totalReasoningTokens": 38643,
+      "totalTokens": 337709
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.95,
+      "createdAt": 1782149260771,
+      "inputTokens": 365,
+      "message": "",
+      "outputTokens": 114,
+      "rationale": "The post text is only a link, so it does not clearly state that limits have reset.",
+      "reasoningTokens": 67,
+      "totalTokens": 479,
+      "tweetId": "2069110008722436484",
+      "tweetText": "https://t.co/vVg1iBJQhd",
+      "tweetUrl": "https://x.com/thsottiaux/status/2069110008722436484",
+      "type": "review_requested",
+      "verdict": "uncertain"
+    },
     {
       "confidence": 0,
       "createdAt": 1782138119823,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2066030245942370359",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1781415411376,
-      "inputTokens": 360,
-      "message": "",
-      "outputTokens": 89,
-      "rationale": "This reply is just conversational and does not mention limits, caps, or availability resetting.",
-      "reasoningTokens": 44,
-      "totalTokens": 449,
-      "tweetId": "2066029988776935667",
-      "tweetText": "@xadhish Tibo Sotyo",
-      "tweetUrl": "https://x.com/thsottiaux/status/2066029988776935667",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "j6ZMBq6XPeJaInjWZiLYObCfWVeNitUxdPsUaag2CRvRgbbzboz8uGciPw",
-    "iv": "IZw6dEsITJPSkCrH",
-    "tag": "YRoSQ0pfn3e0QaLoAEV3Fw",
+    "ciphertext": "ZY-B1dTMcXNW5hmH-H9FlpxC_xQNBvLX4eXk7wUpXTpNd96Bm45FHIsNxQ",
+    "iv": "Fpc3G9YkvysRZ1Fb",
+    "tag": "n0QObpLt35p8agAMpmi8Wg",
     "version": 1
   }
 }
