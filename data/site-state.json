@@ -14,16 +14,16 @@
   "updatedAt": 1781741564670,
   "automation": {
     "lastDecision": {
-      "confidence": 0.95,
-      "decidedAt": 1782149260771,
-      "rationale": "The post text is only a link, so it does not clearly state that limits have reset.",
-      "tweetId": "2069110008722436484",
-      "tweetUrl": "https://x.com/thsottiaux/status/2069110008722436484",
-      "verdict": "uncertain"
+      "confidence": 0.99,
+      "decidedAt": 1782159473036,
+      "rationale": "This post is a product update and does not mention any limit, cap, or rate reset.",
+      "tweetId": "2069152290326630518",
+      "tweetUrl": "https://x.com/thsottiaux/status/2069152290326630518",
+      "verdict": "not_reset"
     },
-    "lastError": "Tweet fetch failed: Tweet search failed: Unknown error; timeline fallback failed: Unknown error (Unknown error) (Tweet search failed: Unknown error; timeline fallback failed: Unknown error)",
-    "lastSeenTweetId": "2069110008722436484",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2069110008722436484",
+    "lastError": null,
+    "lastSeenTweetId": "2069152290326630518",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2069152290326630518",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1782149260771,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2069110008722436484"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1782159473036,
+        "inputTokens": 396,
+        "outputTokens": 81,
+        "rationale": "This post is a product update and does not mention any limit, cap, or rate reset.",
+        "reasoningTokens": 34,
+        "totalTokens": 477,
+        "tweetId": "2069152290326630518",
+        "tweetText": "Let's Patch The Planet. Updates to codex security and a new GPT-5.5-Cyber. A day of celebration for cyber defense acceleration.\n\nhttps://t.co/SYKQvsTA44",
+        "tweetUrl": "https://x.com/thsottiaux/status/2069152290326630518",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.95,
         "evaluatedAt": 1782149260771,
@@ -279,29 +292,31 @@
         "tweetText": "Remote / local handoff in Codex! Removing boundaries one at a time. \n\nWhen you let the model be in the driver seat, you actually need less infrastructure.",
         "tweetUrl": "https://x.com/thsottiaux/status/2068120572673077274",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1781833990213,
-        "inputTokens": 363,
-        "outputTokens": 75,
-        "rationale": "This reply is just a joke about Codex and does not mention rate limits or a reset.",
-        "reasoningTokens": 28,
-        "totalTokens": 438,
-        "tweetId": "2067786942092075198",
-        "tweetText": "@AionForge Maybe they use codex to vote",
-        "tweetUrl": "https://x.com/thsottiaux/status/2067786942092075198",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 266389,
-      "totalOutputTokens": 71320,
-      "totalReasoningTokens": 38643,
-      "totalTokens": 337709
+      "totalInputTokens": 266785,
+      "totalOutputTokens": 71401,
+      "totalReasoningTokens": 38677,
+      "totalTokens": 338186
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1782159473036,
+      "inputTokens": 396,
+      "message": "",
+      "outputTokens": 81,
+      "rationale": "This post is a product update and does not mention any limit, cap, or rate reset.",
+      "reasoningTokens": 34,
+      "totalTokens": 477,
+      "tweetId": "2069152290326630518",
+      "tweetText": "Let's Patch The Planet. Updates to codex security and a new GPT-5.5-Cyber. A day of celebration for cyber defense acceleration.\n\nhttps://t.co/SYKQvsTA44",
+      "tweetUrl": "https://x.com/thsottiaux/status/2069152290326630518",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0,
       "createdAt": 1782159162989,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2066536854870954186",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1781472294421,
-      "inputTokens": 479,
-      "message": "",
-      "outputTokens": 79,
-      "rationale": "This post discusses Codex goal-setting behavior, not rate limits or a usage reset.",
-      "reasoningTokens": 34,
-      "totalTokens": 558,
-      "tweetId": "2066270561081454989",
-      "tweetText": "Codex can see and set its own /goal. Everything we build, we build also as a tool for the agent. This is a generalization of meta prompting, where you let the agent set its own task based on your intent.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2066270561081454989",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "URboaHUuaGNgG26sElaTPiqkRp4Fl_g7daUnDcR8ogQKDnng3gW71me6ew",
-    "iv": "E4E6lVVJzAmlVs6y",
-    "tag": "lwKhJpyiV-3MgpOrRC2hFQ",
+    "ciphertext": "iX3xBtQI1SOo-3jj8afdA42rVYe1_zgguIjPQsK2kfPo22FW4F989VO9Hw",
+    "iv": "OuH-3HXpH2eRNoh_",
+    "tag": "i8HlhUg3UetVdo7Hhcn-Og",
     "version": 1
   }
 }
