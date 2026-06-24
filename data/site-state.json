@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1782283561445,
-      "rationale": "This reply is conversational and does not mention limits, caps, or usage becoming available again.",
-      "tweetId": "2069594605197414735",
-      "tweetUrl": "https://x.com/thsottiaux/status/2069594605197414735",
+      "decidedAt": 1782283564814,
+      "rationale": "This reply is just a support request and does not mention limits resetting.",
+      "tweetId": "2069594889961251072",
+      "tweetUrl": "https://x.com/thsottiaux/status/2069594889961251072",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2069594605197414735",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2069594605197414735",
+    "lastSeenTweetId": "2069594889961251072",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2069594889961251072",
     "pendingReview": {
       "confidence": 0.97,
       "createdAt": 1782159478255,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2069152499416928256"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1782283564814,
+        "inputTokens": 359,
+        "outputTokens": 84,
+        "rationale": "This reply is just a support request and does not mention limits resetting.",
+        "reasoningTokens": 42,
+        "totalTokens": 443,
+        "tweetId": "2069594889961251072",
+        "tweetText": "@slomoassassin Please file",
+        "tweetUrl": "https://x.com/thsottiaux/status/2069594889961251072",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1782283561445,
@@ -279,29 +292,31 @@
         "tweetText": "@Gaus450 Just pasting your header back at you https://t.co/x3QIWyH4yt",
         "tweetUrl": "https://x.com/thsottiaux/status/2068405912830976123",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1781981549784,
-        "inputTokens": 414,
-        "outputTokens": 85,
-        "rationale": "This reply just jokes about Codex model names and does not mention limits or a reset.",
-        "reasoningTokens": 39,
-        "totalTokens": 499,
-        "tweetId": "2068405394079412267",
-        "tweetText": "@Prathkum You forgot\n\nGPT-5-Codex\nGPT-5.1-Codex\nGPT-5.1-Codex-Max\nGPT-5.2-Codex\nGPT-5.2-Codex-XMas\nGPT-5.3-Codex",
-        "tweetUrl": "https://x.com/thsottiaux/status/2068405394079412267",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 268676,
-      "totalOutputTokens": 71990,
-      "totalReasoningTokens": 39034,
-      "totalTokens": 340666
+      "totalInputTokens": 269035,
+      "totalOutputTokens": 72074,
+      "totalReasoningTokens": 39076,
+      "totalTokens": 341109
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1782283564814,
+      "inputTokens": 359,
+      "message": "",
+      "outputTokens": 84,
+      "rationale": "This reply is just a support request and does not mention limits resetting.",
+      "reasoningTokens": 42,
+      "totalTokens": 443,
+      "tweetId": "2069594889961251072",
+      "tweetText": "@slomoassassin Please file",
+      "tweetUrl": "https://x.com/thsottiaux/status/2069594889961251072",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1782283561445,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2067064857724092590",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1781661826486,
-      "inputTokens": 487,
-      "message": "",
-      "outputTokens": 84,
-      "rationale": "This post is about feature rollout in Europe, not user caps or rate limits resetting.",
-      "reasoningTokens": 39,
-      "totalTokens": 571,
-      "tweetId": "2067064381855187231",
-      "tweetText": "Bim bada boum. I am in France for the week and we are rolling out all the most exciting Codex features across Europe. Coincidence or did the team think I wasn't able to be productive otherwise?",
-      "tweetUrl": "https://x.com/thsottiaux/status/2067064381855187231",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "NflD7ceNJIHnpO4ZakyKWXgjw62yAfjZUIfFH3OcllBFioaBslQNQ5PeCw",
-    "iv": "tLcLUP4ZLjoZAdk7",
-    "tag": "CjorCKIEesX_-sBIbt-EIg",
+    "ciphertext": "S_PyAiHCaEEt_ui_-h9PcKfTHI0IwhCHh9656_ws6Yn1pGQnsh1HLqa-Sg",
+    "iv": "OAx4kaYZJA9oNMqb",
+    "tag": "mpUGpZPksarb3ykranyaCQ",
     "version": 1
   }
 }
