@@ -14,16 +14,16 @@
   "updatedAt": 1781741564670,
   "automation": {
     "lastDecision": {
-      "confidence": 0.97,
-      "decidedAt": 1782159478255,
-      "rationale": "This reply contains only a link, so it does not explicitly say any limit or cap has reset.",
-      "tweetId": "2069152499416928256",
-      "tweetUrl": "https://x.com/thsottiaux/status/2069152499416928256",
-      "verdict": "uncertain"
+      "confidence": 0.99,
+      "decidedAt": 1782283550921,
+      "rationale": "This post is about a Codex bug fix, not user caps or rate limits resetting.",
+      "tweetId": "2069579993588625574",
+      "tweetUrl": "https://x.com/thsottiaux/status/2069579993588625574",
+      "verdict": "not_reset"
     },
-    "lastError": "Tweet fetch failed: Tweet search failed: Unknown error; timeline fallback failed: Unknown error (Unknown error) (Tweet search failed: Unknown error; timeline fallback failed: Unknown error)",
-    "lastSeenTweetId": "2069152499416928256",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2069152499416928256",
+    "lastError": null,
+    "lastSeenTweetId": "2069579993588625574",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2069579993588625574",
     "pendingReview": {
       "confidence": 0.97,
       "createdAt": 1782159478255,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2069152499416928256"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1782283550921,
+        "inputTokens": 434,
+        "outputTokens": 101,
+        "rationale": "This post is about a Codex bug fix, not user caps or rate limits resetting.",
+        "reasoningTokens": 55,
+        "totalTokens": 535,
+        "tweetId": "2069579993588625574",
+        "tweetText": "Codex **had** a bug. Fixed.\n\nMore feedback. Better product. Keep it coming.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2069579993588625574",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.97,
         "evaluatedAt": 1782159478255,
@@ -279,29 +292,31 @@
         "tweetText": "@CastAsHuman Third time is the charm",
         "tweetUrl": "https://x.com/thsottiaux/status/2068125990304489562",
         "verdict": "uncertain"
-      },
-      {
-        "confidence": 0.96,
-        "evaluatedAt": 1781914882586,
-        "inputTokens": 359,
-        "outputTokens": 173,
-        "rationale": "This reply alone does not clearly say limits have reset or usage is available again.",
-        "reasoningTokens": 129,
-        "totalTokens": 532,
-        "tweetId": "2068125862550274432",
-        "tweetText": "@Astrob0i91 Real?",
-        "tweetUrl": "https://x.com/thsottiaux/status/2068125862550274432",
-        "verdict": "uncertain"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 267149,
-      "totalOutputTokens": 71637,
-      "totalReasoningTokens": 38865,
-      "totalTokens": 338786
+      "totalInputTokens": 267583,
+      "totalOutputTokens": 71738,
+      "totalReasoningTokens": 38920,
+      "totalTokens": 339321
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1782283550921,
+      "inputTokens": 434,
+      "message": "",
+      "outputTokens": 101,
+      "rationale": "This post is about a Codex bug fix, not user caps or rate limits resetting.",
+      "reasoningTokens": 55,
+      "totalTokens": 535,
+      "tweetId": "2069579993588625574",
+      "tweetText": "Codex **had** a bug. Fixed.\n\nMore feedback. Better product. Keep it coming.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2069579993588625574",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0,
       "createdAt": 1782163187286,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2066865154902380796",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1781535879863,
-      "inputTokens": 376,
-      "message": "",
-      "outputTokens": 89,
-      "rationale": "This is just a conversational reply and does not mention limits, caps, or usage resetting.",
-      "reasoningTokens": 43,
-      "totalTokens": 465,
-      "tweetId": "2066537086614642711",
-      "tweetText": "@Luca_Hagenmayer @OpenAIDevs @gdb And that's even before Codex had coffee",
-      "tweetUrl": "https://x.com/thsottiaux/status/2066537086614642711",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "KfHg60RWVsN-M2N-SSN3xp36oWEgkOBu6kb_z75z-AfTtFMSxaazaACVig",
-    "iv": "cH6UVTa42Z8HmYf2",
-    "tag": "vvgN36bzwUAasusi8c5nww",
+    "ciphertext": "oYTNjZKFsAXnYDpA-0L6EtEHyE-jGdRl13qLZ7n55wVTYf90Op0dr2NKoQ",
+    "iv": "H3bL3sVKydPchgFu",
+    "tag": "xjaI-BUxNwTVeCR4HRMthw",
     "version": 1
   }
 }
