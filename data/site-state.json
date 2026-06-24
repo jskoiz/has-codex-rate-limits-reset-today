@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1782283550921,
-      "rationale": "This post is about a Codex bug fix, not user caps or rate limits resetting.",
-      "tweetId": "2069579993588625574",
-      "tweetUrl": "https://x.com/thsottiaux/status/2069579993588625574",
+      "decidedAt": 1782283554126,
+      "rationale": "This reply is conversational and does not mention limits, caps, or usage becoming available again.",
+      "tweetId": "2069584792652525674",
+      "tweetUrl": "https://x.com/thsottiaux/status/2069584792652525674",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2069579993588625574",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2069579993588625574",
+    "lastSeenTweetId": "2069584792652525674",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2069584792652525674",
     "pendingReview": {
       "confidence": 0.97,
       "createdAt": 1782159478255,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2069152499416928256"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1782283554126,
+        "inputTokens": 360,
+        "outputTokens": 70,
+        "rationale": "This reply is conversational and does not mention limits, caps, or usage becoming available again.",
+        "reasoningTokens": 24,
+        "totalTokens": 430,
+        "tweetId": "2069584792652525674",
+        "tweetText": "@JustinBleuel The bugs are shaking",
+        "tweetUrl": "https://x.com/thsottiaux/status/2069584792652525674",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1782283550921,
@@ -279,29 +292,31 @@
         "tweetText": "Late to this one, but follow @danshipper for S-tier codex tips. These days I spend more time in the codex app than all other apps combined on my Mac.",
         "tweetUrl": "https://x.com/thsottiaux/status/2068144722460475527",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.3,
-        "evaluatedAt": 1781915198654,
-        "inputTokens": 361,
-        "outputTokens": 203,
-        "rationale": "This reply gives no clear indication that any Codex or ChatGPT limit has reset.",
-        "reasoningTokens": 158,
-        "totalTokens": 564,
-        "tweetId": "2068125990304489562",
-        "tweetText": "@CastAsHuman Third time is the charm",
-        "tweetUrl": "https://x.com/thsottiaux/status/2068125990304489562",
-        "verdict": "uncertain"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 267583,
-      "totalOutputTokens": 71738,
-      "totalReasoningTokens": 38920,
-      "totalTokens": 339321
+      "totalInputTokens": 267943,
+      "totalOutputTokens": 71808,
+      "totalReasoningTokens": 38944,
+      "totalTokens": 339751
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1782283554126,
+      "inputTokens": 360,
+      "message": "",
+      "outputTokens": 70,
+      "rationale": "This reply is conversational and does not mention limits, caps, or usage becoming available again.",
+      "reasoningTokens": 24,
+      "totalTokens": 430,
+      "tweetId": "2069584792652525674",
+      "tweetText": "@JustinBleuel The bugs are shaking",
+      "tweetUrl": "https://x.com/thsottiaux/status/2069584792652525674",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1782283550921,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2066879211139170514",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.98,
-      "createdAt": 1781614064744,
-      "inputTokens": 399,
-      "message": "",
-      "outputTokens": 108,
-      "rationale": "This reports a capacity/stability issue, not that any user limits or rate limits have reset.",
-      "reasoningTokens": 61,
-      "totalTokens": 507,
-      "tweetId": "2066865154902380796",
-      "tweetText": "Oy. We are aware that some Codex users are experiencing high error rates with \"model at capacity\" and are working to bring things back to being stable.\n\nhttps://t.co/R3dCKGGtQw",
-      "tweetUrl": "https://x.com/thsottiaux/status/2066865154902380796",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "oYTNjZKFsAXnYDpA-0L6EtEHyE-jGdRl13qLZ7n55wVTYf90Op0dr2NKoQ",
-    "iv": "H3bL3sVKydPchgFu",
-    "tag": "xjaI-BUxNwTVeCR4HRMthw",
+    "ciphertext": "34jGA9KPF3zWYABPFUX_AiXtWyeD-y-i-fJZsyjQHZhBVznxQjbnqvC5fQ",
+    "iv": "kTeCvyx9shILklDJ",
+    "tag": "2OvCdNV-VDN4Sin6m0uODw",
     "version": 1
   }
 }
