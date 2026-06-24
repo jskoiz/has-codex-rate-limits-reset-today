@@ -14,16 +14,16 @@
   "updatedAt": 1781741564670,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1782283564814,
-      "rationale": "This reply is just a support request and does not mention limits resetting.",
-      "tweetId": "2069594889961251072",
-      "tweetUrl": "https://x.com/thsottiaux/status/2069594889961251072",
+      "confidence": 0.96,
+      "decidedAt": 1782283567536,
+      "rationale": "This post is conversational and does not say or imply that any Codex or ChatGPT usage limits have reset.",
+      "tweetId": "2069624530960838914",
+      "tweetUrl": "https://x.com/thsottiaux/status/2069624530960838914",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2069594889961251072",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2069594889961251072",
+    "lastSeenTweetId": "2069624530960838914",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2069624530960838914",
     "pendingReview": {
       "confidence": 0.97,
       "createdAt": 1782159478255,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2069152499416928256"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.96,
+        "evaluatedAt": 1782283567536,
+        "inputTokens": 389,
+        "outputTokens": 144,
+        "rationale": "This post is conversational and does not say or imply that any Codex or ChatGPT usage limits have reset.",
+        "reasoningTokens": 94,
+        "totalTokens": 533,
+        "tweetId": "2069624530960838914",
+        "tweetText": "If you are at OpenAI, you would know that this never happens. Be right back celebrating 5 minutes of peace. https://t.co/kxMOXFsg8s",
+        "tweetUrl": "https://x.com/thsottiaux/status/2069624530960838914",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1782283564814,
@@ -279,29 +292,31 @@
         "tweetText": "Some tokens work harder than others. Some of the most valuable ones are found in the Codex app.",
         "tweetUrl": "https://x.com/thsottiaux/status/2068443037907522002",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.98,
-        "evaluatedAt": 1781981552660,
-        "inputTokens": 375,
-        "outputTokens": 103,
-        "rationale": "This reply is conversational and does not say anything about limits, caps, or a reset.",
-        "reasoningTokens": 57,
-        "totalTokens": 478,
-        "tweetId": "2068405912830976123",
-        "tweetText": "@Gaus450 Just pasting your header back at you https://t.co/x3QIWyH4yt",
-        "tweetUrl": "https://x.com/thsottiaux/status/2068405912830976123",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 269035,
-      "totalOutputTokens": 72074,
-      "totalReasoningTokens": 39076,
-      "totalTokens": 341109
+      "totalInputTokens": 269424,
+      "totalOutputTokens": 72218,
+      "totalReasoningTokens": 39170,
+      "totalTokens": 341642
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.96,
+      "createdAt": 1782283567536,
+      "inputTokens": 389,
+      "message": "",
+      "outputTokens": 144,
+      "rationale": "This post is conversational and does not say or imply that any Codex or ChatGPT usage limits have reset.",
+      "reasoningTokens": 94,
+      "totalTokens": 533,
+      "tweetId": "2069624530960838914",
+      "tweetText": "If you are at OpenAI, you would know that this never happens. Be right back celebrating 5 minutes of peace. https://t.co/kxMOXFsg8s",
+      "tweetUrl": "https://x.com/thsottiaux/status/2069624530960838914",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1782283564814,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2067065166479471060",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1781661830511,
-      "inputTokens": 367,
-      "message": "",
-      "outputTokens": 69,
-      "rationale": "This reply is conversational and does not mention limits, caps, or availability resetting.",
-      "reasoningTokens": 25,
-      "totalTokens": 436,
-      "tweetId": "2067064857724092590",
-      "tweetText": "@ajambrosino france also has house parties and you're also not there",
-      "tweetUrl": "https://x.com/thsottiaux/status/2067064857724092590",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "S_PyAiHCaEEt_ui_-h9PcKfTHI0IwhCHh9656_ws6Yn1pGQnsh1HLqa-Sg",
-    "iv": "OAx4kaYZJA9oNMqb",
-    "tag": "mpUGpZPksarb3ykranyaCQ",
+    "ciphertext": "AYGMb5AQwyA9BKeubm6kzQflVu_YBjyyom99smxiH57YSqcPNtjkmr850w",
+    "iv": "p0z3QgIdPvGeoQIn",
+    "tag": "Ue-MCfsooK5l_UlghvdHFA",
     "version": 1
   }
 }
