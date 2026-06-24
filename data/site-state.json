@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1782283569981,
-      "rationale": "This is just a conversational reply and does not mention limits or a reset.",
-      "tweetId": "2069625300871454742",
-      "tweetUrl": "https://x.com/thsottiaux/status/2069625300871454742",
+      "decidedAt": 1782322913741,
+      "rationale": "This is a reaction to OpenAI’s chip announcement and says nothing about limits or usage resetting.",
+      "tweetId": "2069837606574289329",
+      "tweetUrl": "https://x.com/thsottiaux/status/2069837606574289329",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2069625300871454742",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2069625300871454742",
+    "lastSeenTweetId": "2069837606574289329",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2069837606574289329",
     "pendingReview": {
       "confidence": 0.97,
       "createdAt": 1782159478255,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2069152499416928256"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1782322913741,
+        "inputTokens": 487,
+        "outputTokens": 86,
+        "rationale": "This is a reaction to OpenAI’s chip announcement and says nothing about limits or usage resetting.",
+        "reasoningTokens": 39,
+        "totalTokens": 573,
+        "tweetId": "2069837606574289329",
+        "tweetText": "Spicy",
+        "tweetUrl": "https://x.com/thsottiaux/status/2069837606574289329",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1782283569981,
@@ -279,29 +292,31 @@
         "tweetText": "@ajambrosino discerning",
         "tweetUrl": "https://x.com/thsottiaux/status/2068444484795564527",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1781990568584,
-        "inputTokens": 365,
-        "outputTokens": 86,
-        "rationale": "This reply is unrelated to rate limits or usage resets.",
-        "reasoningTokens": 47,
-        "totalTokens": 451,
-        "tweetId": "2068443443983192472",
-        "tweetText": "@ajambrosino It's like TikTok, but for code.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2068443443983192472",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 269781,
-      "totalOutputTokens": 72288,
-      "totalReasoningTokens": 39197,
-      "totalTokens": 342069
+      "totalInputTokens": 270268,
+      "totalOutputTokens": 72374,
+      "totalReasoningTokens": 39236,
+      "totalTokens": 342642
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1782322913741,
+      "inputTokens": 487,
+      "message": "",
+      "outputTokens": 86,
+      "rationale": "This is a reaction to OpenAI’s chip announcement and says nothing about limits or usage resetting.",
+      "reasoningTokens": 39,
+      "totalTokens": 573,
+      "tweetId": "2069837606574289329",
+      "tweetText": "Spicy",
+      "tweetUrl": "https://x.com/thsottiaux/status/2069837606574289329",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0,
       "createdAt": 1782305591973,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2067399435009622521",
       "type": "reset_confirmed",
       "verdict": "reset_confirmed"
-    },
-    {
-      "confidence": 0,
-      "createdAt": 1781708350182,
-      "inputTokens": 0,
-      "message": "GitHub raw read failed with 502",
-      "outputTokens": 0,
-      "rationale": "",
-      "reasoningTokens": 0,
-      "totalTokens": 0,
-      "tweetId": null,
-      "tweetText": "",
-      "tweetUrl": null,
-      "type": "error",
-      "verdict": null
     }
   ],
   "privateState": {
-    "ciphertext": "dRB334ce9CKzfshMOuZzNR_Pm8t-9wsMZ7qv9ZGSpS4UNMSgkJ1zFEk8AQ",
-    "iv": "lSSHqc4f4DPwkT9D",
-    "tag": "QlDGBsg_7L-tUlweMijFvw",
+    "ciphertext": "An1vypSQ2S0tGCqbMXJ7fnFXT3YIAfiv0KJKpF-R3nK42dyR7L9cpJKwlw",
+    "iv": "5XUOuTlNVAbHUrcj",
+    "tag": "Zg7WvNoyv9EJDdm5iemvAA",
     "version": 1
   }
 }
