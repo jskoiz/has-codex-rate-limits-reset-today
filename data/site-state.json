@@ -21,7 +21,7 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2069625300871454742",
       "verdict": "not_reset"
     },
-    "lastError": null,
+    "lastError": "GitHub raw read failed with 401",
     "lastSeenTweetId": "2069625300871454742",
     "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2069625300871454742",
     "pendingReview": {
@@ -302,6 +302,21 @@
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0,
+      "createdAt": 1782305591973,
+      "inputTokens": 0,
+      "message": "GitHub raw read failed with 401",
+      "outputTokens": 0,
+      "rationale": "",
+      "reasoningTokens": 0,
+      "totalTokens": 0,
+      "tweetId": null,
+      "tweetText": "",
+      "tweetUrl": null,
+      "type": "error",
+      "verdict": null
+    },
     {
       "confidence": 0.99,
       "createdAt": 1782283569981,
@@ -886,27 +901,12 @@
       "tweetUrl": null,
       "type": "error",
       "verdict": null
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1781689713717,
-      "inputTokens": 392,
-      "message": "",
-      "outputTokens": 71,
-      "rationale": "This is a product reminder about Codex model compatibility, not about limits or a reset.",
-      "reasoningTokens": 25,
-      "totalTokens": 463,
-      "tweetId": "2067181377028538431",
-      "tweetText": "Reminder that you can use the Codex App, CLI and SDK with any open source model, not just with OpenAI models.\n\nhttps://t.co/spPifB4ck3",
-      "tweetUrl": "https://x.com/thsottiaux/status/2067181377028538431",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "Mth0bGgDgtORhaiwhTsWc2bgVN8w7eLd-qOfbrV0RyDgErBAUHj6v2zMgw",
-    "iv": "NaWuAsuBTjArs-Mx",
-    "tag": "16IvtONVCvDvrH-93fx1og",
+    "ciphertext": "gD49OMHldH_oeOqTDghnbMae96PZkw1FtAy6oLfjDJ-FFtXA7-nchUdjTw",
+    "iv": "bvvZmrThxmMNhXq_",
+    "tag": "IhI9a_aiMKfzD83ManTpqw",
     "version": 1
   }
 }
