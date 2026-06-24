@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1782283554126,
-      "rationale": "This reply is conversational and does not mention limits, caps, or usage becoming available again.",
-      "tweetId": "2069584792652525674",
-      "tweetUrl": "https://x.com/thsottiaux/status/2069584792652525674",
+      "decidedAt": 1782283557951,
+      "rationale": "This post is just a comment about Codex and does not mention limits or a reset.",
+      "tweetId": "2069592160966733853",
+      "tweetUrl": "https://x.com/thsottiaux/status/2069592160966733853",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2069584792652525674",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2069584792652525674",
+    "lastSeenTweetId": "2069592160966733853",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2069592160966733853",
     "pendingReview": {
       "confidence": 0.97,
       "createdAt": 1782159478255,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2069152499416928256"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1782283557951,
+        "inputTokens": 373,
+        "outputTokens": 82,
+        "rationale": "This post is just a comment about Codex and does not mention limits or a reset.",
+        "reasoningTokens": 36,
+        "totalTokens": 455,
+        "tweetId": "2069592160966733853",
+        "tweetText": "Codex loves slurping up bugs https://t.co/2REc24J0VO",
+        "tweetUrl": "https://x.com/thsottiaux/status/2069592160966733853",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1782283554126,
@@ -279,29 +292,31 @@
         "tweetText": "@Dimillian It's time to fly",
         "tweetUrl": "https://x.com/thsottiaux/status/2068404728867008712",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1781919249656,
-        "inputTokens": 445,
-        "outputTokens": 69,
-        "rationale": "This post just praises Codex and a quoted tip thread, with no mention of limits or resets.",
-        "reasoningTokens": 21,
-        "totalTokens": 514,
-        "tweetId": "2068144722460475527",
-        "tweetText": "Late to this one, but follow @danshipper for S-tier codex tips. These days I spend more time in the codex app than all other apps combined on my Mac.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2068144722460475527",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 267943,
-      "totalOutputTokens": 71808,
-      "totalReasoningTokens": 38944,
-      "totalTokens": 339751
+      "totalInputTokens": 268316,
+      "totalOutputTokens": 71890,
+      "totalReasoningTokens": 38980,
+      "totalTokens": 340206
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1782283557951,
+      "inputTokens": 373,
+      "message": "",
+      "outputTokens": 82,
+      "rationale": "This post is just a comment about Codex and does not mention limits or a reset.",
+      "reasoningTokens": 36,
+      "totalTokens": 455,
+      "tweetId": "2069592160966733853",
+      "tweetText": "Codex loves slurping up bugs https://t.co/2REc24J0VO",
+      "tweetUrl": "https://x.com/thsottiaux/status/2069592160966733853",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1782283554126,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2066956441173323943",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1781617480283,
-      "inputTokens": 369,
-      "message": "",
-      "outputTokens": 81,
-      "rationale": "This reply is just a joke about starring a repo and says nothing about ChatGPT or Codex limits resetting.",
-      "reasoningTokens": 31,
-      "totalTokens": 450,
-      "tweetId": "2066879211139170514",
-      "tweetText": "@jxnlco You didn't even star your own repo. The repo is officially sad",
-      "tweetUrl": "https://x.com/thsottiaux/status/2066879211139170514",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "34jGA9KPF3zWYABPFUX_AiXtWyeD-y-i-fJZsyjQHZhBVznxQjbnqvC5fQ",
-    "iv": "kTeCvyx9shILklDJ",
-    "tag": "2OvCdNV-VDN4Sin6m0uODw",
+    "ciphertext": "Y13ZgeJKz5G_SK7Jrrg5EF0ni6rx2awGMAlJnncJVWE0Is_Z-_wsl-u5bQ",
+    "iv": "2cW4wgUSkbRfExYS",
+    "tag": "8neZqcphgeYh06nM6Sy5lg",
     "version": 1
   }
 }
