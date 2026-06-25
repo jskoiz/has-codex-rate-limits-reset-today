@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1782363988628,
-      "rationale": "This reply is about open source software and does not mention limits or resets.",
-      "tweetId": "2070010435420762505",
-      "tweetUrl": "https://x.com/thsottiaux/status/2070010435420762505",
+      "decidedAt": 1782364300477,
+      "rationale": "This post is casual commentary and does not mention limits, caps, or usage becoming available again.",
+      "tweetId": "2070010718288843204",
+      "tweetUrl": "https://x.com/thsottiaux/status/2070010718288843204",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2070010435420762505",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2070010435420762505",
+    "lastSeenTweetId": "2070010718288843204",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2070010718288843204",
     "pendingReview": {
       "confidence": 0.97,
       "createdAt": 1782159478255,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2069152499416928256"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1782364300477,
+        "inputTokens": 365,
+        "outputTokens": 64,
+        "rationale": "This post is casual commentary and does not mention limits, caps, or usage becoming available again.",
+        "reasoningTokens": 17,
+        "totalTokens": 429,
+        "tweetId": "2070010718288843204",
+        "tweetText": "At times our internal Slack is at least as fun as twitter.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2070010718288843204",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1782363988628,
@@ -279,29 +292,31 @@
         "tweetText": "We built the Codex App with models that were okayish at front-end.\n\nWait to see what we can do when we finally improve front-end capabilities significantly in our models. That day will be something.",
         "tweetUrl": "https://x.com/thsottiaux/status/2068568650924409260",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1782009783453,
-        "inputTokens": 363,
-        "outputTokens": 88,
-        "rationale": "This is just a conversational reply and does not mention limits, caps, or a reset.",
-        "reasoningTokens": 42,
-        "totalTokens": 451,
-        "tweetId": "2068524691372032081",
-        "tweetText": "@kanavtwt Codex, is that you",
-        "tweetUrl": "https://x.com/thsottiaux/status/2068524691372032081",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 270634,
-      "totalOutputTokens": 72455,
-      "totalReasoningTokens": 39274,
-      "totalTokens": 343089
+      "totalInputTokens": 270999,
+      "totalOutputTokens": 72519,
+      "totalReasoningTokens": 39291,
+      "totalTokens": 343518
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1782364300477,
+      "inputTokens": 365,
+      "message": "",
+      "outputTokens": 64,
+      "rationale": "This post is casual commentary and does not mention limits, caps, or usage becoming available again.",
+      "reasoningTokens": 17,
+      "totalTokens": 429,
+      "tweetId": "2070010718288843204",
+      "tweetText": "At times our internal Slack is at least as fun as twitter.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2070010718288843204",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1782363988628,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2067783964077547520",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1781745896173,
-      "inputTokens": 362,
-      "message": "",
-      "outputTokens": 70,
-      "rationale": "This reply is just a thank-you and does not mention any limit or reset.",
-      "reasoningTokens": 26,
-      "totalTokens": 432,
-      "tweetId": "2067417986575589782",
-      "tweetText": "@argofowl Thank you for using codex.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2067417986575589782",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "PC_jPM0wG954hO6ysgQkG4xuxJj1migj3vWAb8yt2adgYhovRMrwMEDUrQ",
-    "iv": "wE1BZINWObEGbnRi",
-    "tag": "acFd8WxqHZ2DvqV8gOpJWA",
+    "ciphertext": "YZLziF6mS4VAlN-yE0Z8sbMsaNUdX6EKi1t3VBOQJ0jZByJ4VzANPkVf2w",
+    "iv": "nH11KINo3NvQ2fhn",
+    "tag": "4hQbiLsF4dBh779SMR7dXA",
     "version": 1
   }
 }
