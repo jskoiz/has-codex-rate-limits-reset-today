@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1782364300477,
-      "rationale": "This post is casual commentary and does not mention limits, caps, or usage becoming available again.",
-      "tweetId": "2070010718288843204",
-      "tweetUrl": "https://x.com/thsottiaux/status/2070010718288843204",
+      "decidedAt": 1782410550248,
+      "rationale": "This is a promotional post about Codex usage at OpenAI, not about limits or availability resetting.",
+      "tweetId": "2070205520552886305",
+      "tweetUrl": "https://x.com/thsottiaux/status/2070205520552886305",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2070010718288843204",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2070010718288843204",
+    "lastSeenTweetId": "2070205520552886305",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2070205520552886305",
     "pendingReview": {
       "confidence": 0.97,
       "createdAt": 1782159478255,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2069152499416928256"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1782410550248,
+        "inputTokens": 471,
+        "outputTokens": 86,
+        "rationale": "This is a promotional post about Codex usage at OpenAI, not about limits or availability resetting.",
+        "reasoningTokens": 38,
+        "totalTokens": 557,
+        "tweetId": "2070205520552886305",
+        "tweetText": "Codex for everything at OpenAI https://t.co/6mFz5XQiJd",
+        "tweetUrl": "https://x.com/thsottiaux/status/2070205520552886305",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1782364300477,
@@ -279,29 +292,31 @@
         "tweetText": "What should we improve in the Codex app. What's not delightful?",
         "tweetUrl": "https://x.com/thsottiaux/status/2068736857312198928",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1782020317970,
-        "inputTokens": 395,
-        "outputTokens": 81,
-        "rationale": "This tweet discusses model front-end capabilities, not any usage cap or rate-limit reset.",
-        "reasoningTokens": 36,
-        "totalTokens": 476,
-        "tweetId": "2068568650924409260",
-        "tweetText": "We built the Codex App with models that were okayish at front-end.\n\nWait to see what we can do when we finally improve front-end capabilities significantly in our models. That day will be something.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2068568650924409260",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 270999,
-      "totalOutputTokens": 72519,
-      "totalReasoningTokens": 39291,
-      "totalTokens": 343518
+      "totalInputTokens": 271470,
+      "totalOutputTokens": 72605,
+      "totalReasoningTokens": 39329,
+      "totalTokens": 344075
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1782410550248,
+      "inputTokens": 471,
+      "message": "",
+      "outputTokens": 86,
+      "rationale": "This is a promotional post about Codex usage at OpenAI, not about limits or availability resetting.",
+      "reasoningTokens": 38,
+      "totalTokens": 557,
+      "tweetId": "2070205520552886305",
+      "tweetText": "Codex for everything at OpenAI https://t.co/6mFz5XQiJd",
+      "tweetUrl": "https://x.com/thsottiaux/status/2070205520552886305",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1782364300477,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2067784025121468692",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1781833352786,
-      "inputTokens": 357,
-      "message": "",
-      "outputTokens": 68,
-      "rationale": "This post is just a general question and does not mention any limit or reset.",
-      "reasoningTokens": 24,
-      "totalTokens": 425,
-      "tweetId": "2067783964077547520",
-      "tweetText": "What do you use",
-      "tweetUrl": "https://x.com/thsottiaux/status/2067783964077547520",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "YZLziF6mS4VAlN-yE0Z8sbMsaNUdX6EKi1t3VBOQJ0jZByJ4VzANPkVf2w",
-    "iv": "nH11KINo3NvQ2fhn",
-    "tag": "4hQbiLsF4dBh779SMR7dXA",
+    "ciphertext": "N_tNblVNfHkOi6Qff683dYBibIqdwV3YS_4SCyVw3bld4R0C8KKQSGmoyg",
+    "iv": "WZ1RCFV3VTBkN-rN",
+    "tag": "888bu9yLzWKqOZHfon8X6w",
     "version": 1
   }
 }
