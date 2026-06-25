@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1782410550248,
-      "rationale": "This is a promotional post about Codex usage at OpenAI, not about limits or availability resetting.",
-      "tweetId": "2070205520552886305",
-      "tweetUrl": "https://x.com/thsottiaux/status/2070205520552886305",
+      "decidedAt": 1782410553572,
+      "rationale": "This reply discusses Codex app adoption and says nothing about limits or availability resetting.",
+      "tweetId": "2070205719501254860",
+      "tweetUrl": "https://x.com/thsottiaux/status/2070205719501254860",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2070205520552886305",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2070205520552886305",
+    "lastSeenTweetId": "2070205719501254860",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2070205719501254860",
     "pendingReview": {
       "confidence": 0.97,
       "createdAt": 1782159478255,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2069152499416928256"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1782410553572,
+        "inputTokens": 387,
+        "outputTokens": 66,
+        "rationale": "This reply discusses Codex app adoption and says nothing about limits or availability resetting.",
+        "reasoningTokens": 22,
+        "totalTokens": 453,
+        "tweetId": "2070205719501254860",
+        "tweetText": "February 2nd was the release of the Codex App. You can see what it did to adoption outside of engineering.\n\n👀 @ajambrosino",
+        "tweetUrl": "https://x.com/thsottiaux/status/2070205719501254860",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1782410550248,
@@ -279,29 +292,31 @@
         "tweetText": "@ajambrosino Go write a loop. Straight into Codex.",
         "tweetUrl": "https://x.com/thsottiaux/status/2068738262907461729",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1782060568993,
-        "inputTokens": 366,
-        "outputTokens": 75,
-        "rationale": "This is a product feedback question and does not mention limits or a reset.",
-        "reasoningTokens": 32,
-        "totalTokens": 441,
-        "tweetId": "2068736857312198928",
-        "tweetText": "What should we improve in the Codex app. What's not delightful?",
-        "tweetUrl": "https://x.com/thsottiaux/status/2068736857312198928",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 271470,
-      "totalOutputTokens": 72605,
-      "totalReasoningTokens": 39329,
-      "totalTokens": 344075
+      "totalInputTokens": 271857,
+      "totalOutputTokens": 72671,
+      "totalReasoningTokens": 39351,
+      "totalTokens": 344528
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1782410553572,
+      "inputTokens": 387,
+      "message": "",
+      "outputTokens": 66,
+      "rationale": "This reply discusses Codex app adoption and says nothing about limits or availability resetting.",
+      "reasoningTokens": 22,
+      "totalTokens": 453,
+      "tweetId": "2070205719501254860",
+      "tweetText": "February 2nd was the release of the Codex App. You can see what it did to adoption outside of engineering.\n\n👀 @ajambrosino",
+      "tweetUrl": "https://x.com/thsottiaux/status/2070205719501254860",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1782410550248,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2067784144117989802",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.98,
-      "createdAt": 1781833355997,
-      "inputTokens": 358,
-      "message": "",
-      "outputTokens": 152,
-      "rationale": "This reply is just conversational and does not mention limits, caps, or a reset.",
-      "reasoningTokens": 107,
-      "totalTokens": 510,
-      "tweetId": "2067784025121468692",
-      "tweetText": "@CastAsHuman Would you",
-      "tweetUrl": "https://x.com/thsottiaux/status/2067784025121468692",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "N_tNblVNfHkOi6Qff683dYBibIqdwV3YS_4SCyVw3bld4R0C8KKQSGmoyg",
-    "iv": "WZ1RCFV3VTBkN-rN",
-    "tag": "888bu9yLzWKqOZHfon8X6w",
+    "ciphertext": "OuwRDE8NWPwN6wcHzbZX8BUU1Q7U0KnjAlBR293q7HCad98-aZxPmxL-DA",
+    "iv": "pmbMHoq7WMAy8c1B",
+    "tag": "LZKI2sk1Hg73GtoKT3yPZg",
     "version": 1
   }
 }
