@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1782322913741,
-      "rationale": "This is a reaction to OpenAI’s chip announcement and says nothing about limits or usage resetting.",
-      "tweetId": "2069837606574289329",
-      "tweetUrl": "https://x.com/thsottiaux/status/2069837606574289329",
+      "decidedAt": 1782363988628,
+      "rationale": "This reply is about open source software and does not mention limits or resets.",
+      "tweetId": "2070010435420762505",
+      "tweetUrl": "https://x.com/thsottiaux/status/2070010435420762505",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2069837606574289329",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2069837606574289329",
+    "lastSeenTweetId": "2070010435420762505",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2070010435420762505",
     "pendingReview": {
       "confidence": 0.97,
       "createdAt": 1782159478255,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2069152499416928256"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1782363988628,
+        "inputTokens": 366,
+        "outputTokens": 81,
+        "rationale": "This reply is about open source software and does not mention limits or resets.",
+        "reasoningTokens": 38,
+        "totalTokens": 447,
+        "tweetId": "2070010435420762505",
+        "tweetText": "@psviderski Orrrrr maybe we actually like open source software",
+        "tweetUrl": "https://x.com/thsottiaux/status/2070010435420762505",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1782322913741,
@@ -279,29 +292,31 @@
         "tweetText": "@kanavtwt Codex, is that you",
         "tweetUrl": "https://x.com/thsottiaux/status/2068524691372032081",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1781990852799,
-        "inputTokens": 358,
-        "outputTokens": 72,
-        "rationale": "This reply is conversational and does not mention any limit or usage reset.",
-        "reasoningTokens": 30,
-        "totalTokens": 430,
-        "tweetId": "2068444484795564527",
-        "tweetText": "@ajambrosino discerning",
-        "tweetUrl": "https://x.com/thsottiaux/status/2068444484795564527",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 270268,
-      "totalOutputTokens": 72374,
-      "totalReasoningTokens": 39236,
-      "totalTokens": 342642
+      "totalInputTokens": 270634,
+      "totalOutputTokens": 72455,
+      "totalReasoningTokens": 39274,
+      "totalTokens": 343089
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1782363988628,
+      "inputTokens": 366,
+      "message": "",
+      "outputTokens": 81,
+      "rationale": "This reply is about open source software and does not mention limits or resets.",
+      "reasoningTokens": 38,
+      "totalTokens": 447,
+      "tweetId": "2070010435420762505",
+      "tweetText": "@psviderski Orrrrr maybe we actually like open source software",
+      "tweetUrl": "https://x.com/thsottiaux/status/2070010435420762505",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1782322913741,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2067417986575589782",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1781741564670,
-      "inputTokens": 597,
-      "message": "",
-      "outputTokens": 166,
-      "rationale": "The main tweet explicitly says Codex users got a full reset now plus an extra banked reset.",
-      "reasoningTokens": 117,
-      "totalTokens": 763,
-      "tweetId": "2067399435009622521",
-      "tweetText": "Dearest gentle codexer.\n\nWe did a sneaky double reset. Not only do you get a full reset on us. But you are also getting one into the reset bank to use at your own leisure. \n\nEnjoy",
-      "tweetUrl": "https://x.com/thsottiaux/status/2067399435009622521",
-      "type": "reset_confirmed",
-      "verdict": "reset_confirmed"
     }
   ],
   "privateState": {
-    "ciphertext": "An1vypSQ2S0tGCqbMXJ7fnFXT3YIAfiv0KJKpF-R3nK42dyR7L9cpJKwlw",
-    "iv": "5XUOuTlNVAbHUrcj",
-    "tag": "Zg7WvNoyv9EJDdm5iemvAA",
+    "ciphertext": "PC_jPM0wG954hO6ysgQkG4xuxJj1migj3vWAb8yt2adgYhovRMrwMEDUrQ",
+    "iv": "wE1BZINWObEGbnRi",
+    "tag": "acFd8WxqHZ2DvqV8gOpJWA",
     "version": 1
   }
 }
