@@ -14,16 +14,16 @@
   "updatedAt": 1781741564670,
   "automation": {
     "lastDecision": {
-      "confidence": 0.97,
-      "decidedAt": 1782442997240,
-      "rationale": "This reply is conversational and does not mention limits, caps, or restored usage.",
-      "tweetId": "2070341600203714686",
-      "tweetUrl": "https://x.com/thsottiaux/status/2070341600203714686",
+      "confidence": 0.99,
+      "decidedAt": 1782443312617,
+      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+      "tweetId": "2070342588364939560",
+      "tweetUrl": "https://x.com/thsottiaux/status/2070342588364939560",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2070341600203714686",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2070341600203714686",
+    "lastSeenTweetId": "2070342588364939560",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2070342588364939560",
     "pendingReview": {
       "confidence": 0.97,
       "createdAt": 1782159478255,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2069152499416928256"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1782443312617,
+        "inputTokens": 364,
+        "outputTokens": 75,
+        "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+        "reasoningTokens": 31,
+        "totalTokens": 439,
+        "tweetId": "2070342588364939560",
+        "tweetText": "@adonis_singh Maybe we just stopped training models",
+        "tweetUrl": "https://x.com/thsottiaux/status/2070342588364939560",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.97,
         "evaluatedAt": 1782442997240,
@@ -279,29 +292,31 @@
         "tweetText": "Let's Patch The Planet. Updates to codex security and a new GPT-5.5-Cyber. A day of celebration for cyber defense acceleration.\n\nhttps://t.co/SYKQvsTA44",
         "tweetUrl": "https://x.com/thsottiaux/status/2069152290326630518",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.95,
-        "evaluatedAt": 1782149260771,
-        "inputTokens": 365,
-        "outputTokens": 114,
-        "rationale": "The post text is only a link, so it does not clearly state that limits have reset.",
-        "reasoningTokens": 67,
-        "totalTokens": 479,
-        "tweetId": "2069110008722436484",
-        "tweetText": "https://t.co/vVg1iBJQhd",
-        "tweetUrl": "https://x.com/thsottiaux/status/2069110008722436484",
-        "verdict": "uncertain"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 273677,
-      "totalOutputTokens": 73216,
-      "totalReasoningTokens": 39676,
-      "totalTokens": 346893
+      "totalInputTokens": 274041,
+      "totalOutputTokens": 73291,
+      "totalReasoningTokens": 39707,
+      "totalTokens": 347332
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1782443312617,
+      "inputTokens": 364,
+      "message": "",
+      "outputTokens": 75,
+      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+      "reasoningTokens": 31,
+      "totalTokens": 439,
+      "tweetId": "2070342588364939560",
+      "tweetText": "@adonis_singh Maybe we just stopped training models",
+      "tweetUrl": "https://x.com/thsottiaux/status/2070342588364939560",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.97,
       "createdAt": 1782442997240,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2068144722460475527",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.3,
-      "createdAt": 1781915198654,
-      "inputTokens": 361,
-      "message": "",
-      "outputTokens": 203,
-      "rationale": "This reply gives no clear indication that any Codex or ChatGPT limit has reset.",
-      "reasoningTokens": 158,
-      "totalTokens": 564,
-      "tweetId": "2068125990304489562",
-      "tweetText": "@CastAsHuman Third time is the charm",
-      "tweetUrl": "https://x.com/thsottiaux/status/2068125990304489562",
-      "type": "review_requested",
-      "verdict": "uncertain"
     }
   ],
   "privateState": {
-    "ciphertext": "Bl1I6LyV_-CPg4KsjFmLC64Uw6Ct3kankEaEfuyH5gR-Eb-BXQO8bjMv_A",
-    "iv": "rU0cL-I2mlkP1kO8",
-    "tag": "XW-qM9Z99ikH0gYits-miA",
+    "ciphertext": "yCBsQkGDxiNtAoNCdVXqyZFruxtYtAj6DTAbBhh-Vac96_2jDJCMhjfJWw",
+    "iv": "gg2m2lZ41CB8zUAj",
+    "tag": "fvizzK6CZDkykkxPTV2jbg",
     "version": 1
   }
 }
