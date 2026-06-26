@@ -21,7 +21,7 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2070343597111812414",
       "verdict": "not_reset"
     },
-    "lastError": null,
+    "lastError": "Tweet fetch failed: Tweet search failed: Request failed with status code 403; timeline fallback failed: Request failed with status code 403 (Request failed with status code 403) (Tweet search failed: Request failed with status code 403; timeline fallback failed: Request failed with status code 403)",
     "lastSeenTweetId": "2070343597111812414",
     "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2070343597111812414",
     "pendingReview": {
@@ -302,6 +302,21 @@
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0,
+      "createdAt": 1782462234483,
+      "inputTokens": 0,
+      "message": "Tweet fetch failed: Tweet search failed: Request failed with status code 403; timeline fallback failed: Request failed with status code 403 (Request failed with status code 403) (Tweet search failed: Request failed with status code 403; timeline fallback failed: Request failed with status code 403)",
+      "outputTokens": 0,
+      "rationale": "",
+      "reasoningTokens": 0,
+      "totalTokens": 0,
+      "tweetId": null,
+      "tweetText": "",
+      "tweetUrl": null,
+      "type": "error",
+      "verdict": null
+    },
     {
       "confidence": 0,
       "createdAt": 1782460366156,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2068405912830976123",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1781981549784,
-      "inputTokens": 414,
-      "message": "",
-      "outputTokens": 85,
-      "rationale": "This reply just jokes about Codex model names and does not mention limits or a reset.",
-      "reasoningTokens": 39,
-      "totalTokens": 499,
-      "tweetId": "2068405394079412267",
-      "tweetText": "@Prathkum You forgot\n\nGPT-5-Codex\nGPT-5.1-Codex\nGPT-5.1-Codex-Max\nGPT-5.2-Codex\nGPT-5.2-Codex-XMas\nGPT-5.3-Codex",
-      "tweetUrl": "https://x.com/thsottiaux/status/2068405394079412267",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "T9ZqmvksLJ4mCLbq-4JEP-ETomTwc7xoHD1mOXbN9pDU4UDr_qeHkOHGGQ",
-    "iv": "TENO0viXfT6dFxvi",
-    "tag": "8j9R5m3Os2tARLLRmQPInw",
+    "ciphertext": "ofEUM95zmdQ0DeYuHUHP1An8W5-T8s7hfw4Hp0y-J4HljjnMuYuKDDqVEA",
+    "iv": "38EbpUuA6vfTSNb8",
+    "tag": "swVpABY7Uabhs8kVCgeYgQ",
     "version": 1
   }
 }
