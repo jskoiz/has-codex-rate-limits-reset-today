@@ -21,7 +21,7 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2070343597111812414",
       "verdict": "not_reset"
     },
-    "lastError": "Tweet fetch failed: Tweet search failed: Request failed with status code 403; timeline fallback failed: Request failed with status code 403 (Request failed with status code 403) (Tweet search failed: Request failed with status code 403; timeline fallback failed: Request failed with status code 403)",
+    "lastError": null,
     "lastSeenTweetId": "2070343597111812414",
     "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2070343597111812414",
     "pendingReview": {
@@ -904,9 +904,9 @@
     }
   ],
   "privateState": {
-    "ciphertext": "ofEUM95zmdQ0DeYuHUHP1An8W5-T8s7hfw4Hp0y-J4HljjnMuYuKDDqVEA",
-    "iv": "38EbpUuA6vfTSNb8",
-    "tag": "swVpABY7Uabhs8kVCgeYgQ",
+    "ciphertext": "F9VVOUm5EbN2S58UR65QD0UbbiedFisyrGW8YSHLNgtKy9snvleorlVMnQ",
+    "iv": "clpUm8ONvA6ZAERQ",
+    "tag": "itvkHGLu1or-i9YeoCWx0A",
     "version": 1
   }
 }
