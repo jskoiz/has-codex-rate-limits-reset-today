@@ -14,16 +14,16 @@
   "updatedAt": 1781741564670,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1782442710918,
-      "rationale": "This reply is just conversational about apps and does not mention limits, caps, or resets.",
-      "tweetId": "2070339854953787432",
-      "tweetUrl": "https://x.com/thsottiaux/status/2070339854953787432",
+      "confidence": 0.97,
+      "decidedAt": 1782442997240,
+      "rationale": "This reply is conversational and does not mention limits, caps, or restored usage.",
+      "tweetId": "2070341600203714686",
+      "tweetUrl": "https://x.com/thsottiaux/status/2070341600203714686",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2070339854953787432",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2070339854953787432",
+    "lastSeenTweetId": "2070341600203714686",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2070341600203714686",
     "pendingReview": {
       "confidence": 0.97,
       "createdAt": 1782159478255,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2069152499416928256"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.97,
+        "evaluatedAt": 1782442997240,
+        "inputTokens": 367,
+        "outputTokens": 153,
+        "rationale": "This reply is conversational and does not mention limits, caps, or restored usage.",
+        "reasoningTokens": 109,
+        "totalTokens": 520,
+        "tweetId": "2070341600203714686",
+        "tweetText": "@FintechKristen Good news is that he is less busy these days",
+        "tweetUrl": "https://x.com/thsottiaux/status/2070341600203714686",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1782442710918,
@@ -279,29 +292,31 @@
         "tweetText": "https://t.co/vVg1iBJQhd",
         "tweetUrl": "https://x.com/thsottiaux/status/2069110008722436484",
         "verdict": "uncertain"
-      },
-      {
-        "confidence": 0.12,
-        "evaluatedAt": 1782073595526,
-        "inputTokens": 365,
-        "outputTokens": 202,
-        "rationale": "This reply contains only a link, so it does not clearly say that limits have reset.",
-        "reasoningTokens": 156,
-        "totalTokens": 567,
-        "tweetId": "2068792061265121316",
-        "tweetText": "https://t.co/pBWhE53c4A",
-        "tweetUrl": "https://x.com/thsottiaux/status/2068792061265121316",
-        "verdict": "uncertain"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 273310,
-      "totalOutputTokens": 73063,
-      "totalReasoningTokens": 39567,
-      "totalTokens": 346373
+      "totalInputTokens": 273677,
+      "totalOutputTokens": 73216,
+      "totalReasoningTokens": 39676,
+      "totalTokens": 346893
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.97,
+      "createdAt": 1782442997240,
+      "inputTokens": 367,
+      "message": "",
+      "outputTokens": 153,
+      "rationale": "This reply is conversational and does not mention limits, caps, or restored usage.",
+      "reasoningTokens": 109,
+      "totalTokens": 520,
+      "tweetId": "2070341600203714686",
+      "tweetText": "@FintechKristen Good news is that he is less busy these days",
+      "tweetUrl": "https://x.com/thsottiaux/status/2070341600203714686",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1782442710918,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2068125990304489562",
       "type": "review_requested",
       "verdict": "uncertain"
-    },
-    {
-      "confidence": 0.96,
-      "createdAt": 1781914882586,
-      "inputTokens": 359,
-      "message": "",
-      "outputTokens": 173,
-      "rationale": "This reply alone does not clearly say limits have reset or usage is available again.",
-      "reasoningTokens": 129,
-      "totalTokens": 532,
-      "tweetId": "2068125862550274432",
-      "tweetText": "@Astrob0i91 Real?",
-      "tweetUrl": "https://x.com/thsottiaux/status/2068125862550274432",
-      "type": "review_requested",
-      "verdict": "uncertain"
     }
   ],
   "privateState": {
-    "ciphertext": "i1VKVqMh0hO1QZiHyjbYCu0ijIwt-hnyZX5LDU5aJ4AsRj3jgqeefLw4-w",
-    "iv": "H2bBrFiWnIyWpqU1",
-    "tag": "aG060kj407GAb4QIOwXqiQ",
+    "ciphertext": "Bl1I6LyV_-CPg4KsjFmLC64Uw6Ct3kankEaEfuyH5gR-Eb-BXQO8bjMv_A",
+    "iv": "rU0cL-I2mlkP1kO8",
+    "tag": "XW-qM9Z99ikH0gYits-miA",
     "version": 1
   }
 }
