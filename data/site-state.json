@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1782442706867,
-      "rationale": "This reply is conversational and gives no indication that any limits or caps have reset.",
-      "tweetId": "2070339574702997674",
-      "tweetUrl": "https://x.com/thsottiaux/status/2070339574702997674",
+      "decidedAt": 1782442710918,
+      "rationale": "This reply is just conversational about apps and does not mention limits, caps, or resets.",
+      "tweetId": "2070339854953787432",
+      "tweetUrl": "https://x.com/thsottiaux/status/2070339854953787432",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2070339574702997674",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2070339574702997674",
+    "lastSeenTweetId": "2070339854953787432",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2070339854953787432",
     "pendingReview": {
       "confidence": 0.97,
       "createdAt": 1782159478255,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2069152499416928256"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1782442710918,
+        "inputTokens": 373,
+        "outputTokens": 101,
+        "rationale": "This reply is just conversational about apps and does not mention limits, caps, or resets.",
+        "reasoningTokens": 55,
+        "totalTokens": 474,
+        "tweetId": "2070339854953787432",
+        "tweetText": "@0xPrajwal_ Spend $1M or make $1M? Different apps for each",
+        "tweetUrl": "https://x.com/thsottiaux/status/2070339854953787432",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1782442706867,
@@ -279,29 +292,31 @@
         "tweetText": "https://t.co/pBWhE53c4A",
         "tweetUrl": "https://x.com/thsottiaux/status/2068792061265121316",
         "verdict": "uncertain"
-      },
-      {
-        "confidence": 0.95,
-        "evaluatedAt": 1782073591474,
-        "inputTokens": 385,
-        "outputTokens": 209,
-        "rationale": "This discusses a Codex feature about banking usage resets, not that limits have reset right now.",
-        "reasoningTokens": 162,
-        "totalTokens": 594,
-        "tweetId": "2068792010715324444",
-        "tweetText": "Now that you can bank usage resets in Codex. Are you a hoarder or do you use them without breaking a sweat? How do you think about them?",
-        "tweetUrl": "https://x.com/thsottiaux/status/2068792010715324444",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 272937,
-      "totalOutputTokens": 72962,
-      "totalReasoningTokens": 39512,
-      "totalTokens": 345899
+      "totalInputTokens": 273310,
+      "totalOutputTokens": 73063,
+      "totalReasoningTokens": 39567,
+      "totalTokens": 346373
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1782442710918,
+      "inputTokens": 373,
+      "message": "",
+      "outputTokens": 101,
+      "rationale": "This reply is just conversational about apps and does not mention limits, caps, or resets.",
+      "reasoningTokens": 55,
+      "totalTokens": 474,
+      "tweetId": "2070339854953787432",
+      "tweetText": "@0xPrajwal_ Spend $1M or make $1M? Different apps for each",
+      "tweetUrl": "https://x.com/thsottiaux/status/2070339854953787432",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1782442706867,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2068125862550274432",
       "type": "review_requested",
       "verdict": "uncertain"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1781913653533,
-      "inputTokens": 486,
-      "message": "",
-      "outputTokens": 66,
-      "rationale": "This post and its quoted tweet discuss a Codex feature, not rate limits or usage caps resetting.",
-      "reasoningTokens": 18,
-      "totalTokens": 552,
-      "tweetId": "2068120572673077274",
-      "tweetText": "Remote / local handoff in Codex! Removing boundaries one at a time. \n\nWhen you let the model be in the driver seat, you actually need less infrastructure.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2068120572673077274",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "BoUOLcZzqgO3JPuFwqD_0jFiUNuD9kZUY-3Ubrix-vSQ_gAixVWRH0B-Qg",
-    "iv": "NO-H3EemEAWLIk_k",
-    "tag": "sSSBNMzjHAh6QeO_JRJaiQ",
+    "ciphertext": "i1VKVqMh0hO1QZiHyjbYCu0ijIwt-hnyZX5LDU5aJ4AsRj3jgqeefLw4-w",
+    "iv": "H2bBrFiWnIyWpqU1",
+    "tag": "aG060kj407GAb4QIOwXqiQ",
     "version": 1
   }
 }
