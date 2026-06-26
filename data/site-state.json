@@ -14,16 +14,16 @@
   "updatedAt": 1781741564670,
   "automation": {
     "lastDecision": {
-      "confidence": 0.98,
-      "decidedAt": 1782439606531,
-      "rationale": "This is just a conversational reply and gives no indication that any limits have reset.",
-      "tweetId": "2070327657720603101",
-      "tweetUrl": "https://x.com/thsottiaux/status/2070327657720603101",
+      "confidence": 0.99,
+      "decidedAt": 1782442380160,
+      "rationale": "This reply is just conversational and says nothing about limits or a reset.",
+      "tweetId": "2070339320259711183",
+      "tweetUrl": "https://x.com/thsottiaux/status/2070339320259711183",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2070327657720603101",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2070327657720603101",
+    "lastSeenTweetId": "2070339320259711183",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2070339320259711183",
     "pendingReview": {
       "confidence": 0.97,
       "createdAt": 1782159478255,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2069152499416928256"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1782442380160,
+        "inputTokens": 362,
+        "outputTokens": 97,
+        "rationale": "This reply is just conversational and says nothing about limits or a reset.",
+        "reasoningTokens": 55,
+        "totalTokens": 459,
+        "tweetId": "2070339320259711183",
+        "tweetText": "@andrewchen Personally, I Codex things",
+        "tweetUrl": "https://x.com/thsottiaux/status/2070339320259711183",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.98,
         "evaluatedAt": 1782439606531,
@@ -279,29 +292,31 @@
         "tweetText": "@ajambrosino Are you writing temporal logic specs yet",
         "tweetUrl": "https://x.com/thsottiaux/status/2068757167054987547",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1782060876308,
-        "inputTokens": 361,
-        "outputTokens": 92,
-        "rationale": "This reply is just a conversational remark and does not mention any limits or reset.",
-        "reasoningTokens": 48,
-        "totalTokens": 453,
-        "tweetId": "2068738384840020019",
-        "tweetText": "@TechByTaraa You're a Claude user",
-        "tweetUrl": "https://x.com/thsottiaux/status/2068738384840020019",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 272215,
-      "totalOutputTokens": 72770,
-      "totalReasoningTokens": 39406,
-      "totalTokens": 344985
+      "totalInputTokens": 272577,
+      "totalOutputTokens": 72867,
+      "totalReasoningTokens": 39461,
+      "totalTokens": 345444
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1782442380160,
+      "inputTokens": 362,
+      "message": "",
+      "outputTokens": 97,
+      "rationale": "This reply is just conversational and says nothing about limits or a reset.",
+      "reasoningTokens": 55,
+      "totalTokens": 459,
+      "tweetId": "2070339320259711183",
+      "tweetText": "@andrewchen Personally, I Codex things",
+      "tweetUrl": "https://x.com/thsottiaux/status/2070339320259711183",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.98,
       "createdAt": 1782439606531,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2067786942092075198",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1781833360500,
-      "inputTokens": 365,
-      "message": "",
-      "outputTokens": 88,
-      "rationale": "This reply is conversational and does not mention limits, caps, or usage resetting.",
-      "reasoningTokens": 44,
-      "totalTokens": 453,
-      "tweetId": "2067784195993194965",
-      "tweetText": "@DannyNemer @adelbucetta It's time to fly",
-      "tweetUrl": "https://x.com/thsottiaux/status/2067784195993194965",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "gC8OPV3ANi3Ln7vaDCghWMxhu-2EsFef5Kl3FcsZboItZIc0VQu5d0z9sQ",
-    "iv": "R-s9eWmwnVkzlu38",
-    "tag": "zgEk6Dn7JDhMj7NQlSoHdw",
+    "ciphertext": "JMzNfg86-6aghNa9jOKVtxJUD7lurBWV25xXop_ejxFxlgfVV9HCWI_FqQ",
+    "iv": "UhrLzx3ZfcbE9JzR",
+    "tag": "D4xwGqdHQ3ag465YGBrWmQ",
     "version": 1
   }
 }
