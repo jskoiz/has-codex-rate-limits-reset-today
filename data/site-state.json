@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1782443312617,
-      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-      "tweetId": "2070342588364939560",
-      "tweetUrl": "https://x.com/thsottiaux/status/2070342588364939560",
+      "decidedAt": 1782443928466,
+      "rationale": "This is just praise for a model update and does not mention limits, caps, or availability resetting.",
+      "tweetId": "2070343597111812414",
+      "tweetUrl": "https://x.com/thsottiaux/status/2070343597111812414",
       "verdict": "not_reset"
     },
-    "lastError": "Tweet fetch failed: Tweet search failed: Unknown error; timeline fallback failed: Unknown error (Unknown error) (Tweet search failed: Unknown error; timeline fallback failed: Unknown error)",
-    "lastSeenTweetId": "2070342588364939560",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2070342588364939560",
+    "lastError": null,
+    "lastSeenTweetId": "2070343597111812414",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2070343597111812414",
     "pendingReview": {
       "confidence": 0.97,
       "createdAt": 1782159478255,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2069152499416928256"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1782443928466,
+        "inputTokens": 454,
+        "outputTokens": 112,
+        "rationale": "This is just praise for a model update and does not mention limits, caps, or availability resetting.",
+        "reasoningTokens": 64,
+        "totalTokens": 566,
+        "tweetId": "2070343597111812414",
+        "tweetText": "It's a fantastic update",
+        "tweetUrl": "https://x.com/thsottiaux/status/2070343597111812414",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1782443312617,
@@ -279,29 +292,31 @@
         "tweetText": "https://t.co/aEkhh523n3",
         "tweetUrl": "https://x.com/thsottiaux/status/2069152499416928256",
         "verdict": "uncertain"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1782159473036,
-        "inputTokens": 396,
-        "outputTokens": 81,
-        "rationale": "This post is a product update and does not mention any limit, cap, or rate reset.",
-        "reasoningTokens": 34,
-        "totalTokens": 477,
-        "tweetId": "2069152290326630518",
-        "tweetText": "Let's Patch The Planet. Updates to codex security and a new GPT-5.5-Cyber. A day of celebration for cyber defense acceleration.\n\nhttps://t.co/SYKQvsTA44",
-        "tweetUrl": "https://x.com/thsottiaux/status/2069152290326630518",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 274041,
-      "totalOutputTokens": 73291,
-      "totalReasoningTokens": 39707,
-      "totalTokens": 347332
+      "totalInputTokens": 274495,
+      "totalOutputTokens": 73403,
+      "totalReasoningTokens": 39771,
+      "totalTokens": 347898
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1782443928466,
+      "inputTokens": 454,
+      "message": "",
+      "outputTokens": 112,
+      "rationale": "This is just praise for a model update and does not mention limits, caps, or availability resetting.",
+      "reasoningTokens": 64,
+      "totalTokens": 566,
+      "tweetId": "2070343597111812414",
+      "tweetText": "It's a fantastic update",
+      "tweetUrl": "https://x.com/thsottiaux/status/2070343597111812414",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0,
       "createdAt": 1782443622280,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2068404728867008712",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1781919249656,
-      "inputTokens": 445,
-      "message": "",
-      "outputTokens": 69,
-      "rationale": "This post just praises Codex and a quoted tip thread, with no mention of limits or resets.",
-      "reasoningTokens": 21,
-      "totalTokens": 514,
-      "tweetId": "2068144722460475527",
-      "tweetText": "Late to this one, but follow @danshipper for S-tier codex tips. These days I spend more time in the codex app than all other apps combined on my Mac.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2068144722460475527",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "nToaNj6An20VOwTfrgMlcjUywouOoMK-voAPxV1EWamV_Eh0Gj4TW-Qphw",
-    "iv": "LvUMGoB9xIVH_BLS",
-    "tag": "-u5ULC_NJPsiotLkJl1MKg",
+    "ciphertext": "EK_ULsWpFb-DecrKp3tAkf9mTNTcIE6t4HWzu2c75HPTHCyAlNsEArNJZw",
+    "iv": "6Lnk_KFs3r7t96yQ",
+    "tag": "L3s9ToZXaYFysiTEJTuGIA",
     "version": 1
   }
 }
