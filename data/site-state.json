@@ -14,16 +14,16 @@
   "updatedAt": 1781741564670,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1782708734310,
-      "rationale": "It discusses what consumes weekly usage in the background, not a limit reset or restored availability.",
-      "tweetId": "2071329159037481032",
-      "tweetUrl": "https://x.com/thsottiaux/status/2071329159037481032",
+      "confidence": 0.98,
+      "decidedAt": 1782708737092,
+      "rationale": "The post explicitly says downgrading plans will not reset usage limits.",
+      "tweetId": "2071329580829319493",
+      "tweetUrl": "https://x.com/thsottiaux/status/2071329580829319493",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2071329159037481032",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2071329159037481032",
+    "lastSeenTweetId": "2071329580829319493",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2071329580829319493",
     "pendingReview": {
       "confidence": 0.97,
       "createdAt": 1782159478255,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2069152499416928256"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.98,
+        "evaluatedAt": 1782708737092,
+        "inputTokens": 424,
+        "outputTokens": 91,
+        "rationale": "The post explicitly says downgrading plans will not reset usage limits.",
+        "reasoningTokens": 49,
+        "totalTokens": 515,
+        "tweetId": "2071329580829319493",
+        "tweetText": "Going from pro to plus gets you less usage, so if you already consumed your pro limits, downgrading to plus will not reset things for you. \n\nIt's like buying a large coffee at starbucks, drinking it and then throwing the cup away and asking for a smaller cup. You wouldn't expect coffee to be in the small cup I think?",
+        "tweetUrl": "https://x.com/thsottiaux/status/2071329580829319493",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1782708734310,
@@ -279,29 +292,31 @@
         "tweetText": "@0xDesigner Nice!",
         "tweetUrl": "https://x.com/thsottiaux/status/2069625300871454742",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.96,
-        "evaluatedAt": 1782283567536,
-        "inputTokens": 389,
-        "outputTokens": 144,
-        "rationale": "This post is conversational and does not say or imply that any Codex or ChatGPT usage limits have reset.",
-        "reasoningTokens": 94,
-        "totalTokens": 533,
-        "tweetId": "2069624530960838914",
-        "tweetText": "If you are at OpenAI, you would know that this never happens. Be right back celebrating 5 minutes of peace. https://t.co/kxMOXFsg8s",
-        "tweetUrl": "https://x.com/thsottiaux/status/2069624530960838914",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 276773,
-      "totalOutputTokens": 73943,
-      "totalReasoningTokens": 40038,
-      "totalTokens": 350716
+      "totalInputTokens": 277197,
+      "totalOutputTokens": 74034,
+      "totalReasoningTokens": 40087,
+      "totalTokens": 351231
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.98,
+      "createdAt": 1782708737092,
+      "inputTokens": 424,
+      "message": "",
+      "outputTokens": 91,
+      "rationale": "The post explicitly says downgrading plans will not reset usage limits.",
+      "reasoningTokens": 49,
+      "totalTokens": 515,
+      "tweetId": "2071329580829319493",
+      "tweetText": "Going from pro to plus gets you less usage, so if you already consumed your pro limits, downgrading to plus will not reset things for you. \n\nIt's like buying a large coffee at starbucks, drinking it and then throwing the cup away and asking for a smaller cup. You wouldn't expect coffee to be in the small cup I think?",
+      "tweetUrl": "https://x.com/thsottiaux/status/2071329580829319493",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1782708734310,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2068738384840020019",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1782060873569,
-      "inputTokens": 366,
-      "message": "",
-      "outputTokens": 86,
-      "rationale": "This reply mentions using Codex but says nothing about limits or a reset.",
-      "reasoningTokens": 43,
-      "totalTokens": 452,
-      "tweetId": "2068738262907461729",
-      "tweetText": "@ajambrosino Go write a loop. Straight into Codex.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2068738262907461729",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "favO1BM3KEWpIAQukBx1UXBFxqdxJOmkIrKbw1tVZPSsPAD_yrsk0tPg1w",
-    "iv": "dLgbstHKnaTSCtcD",
-    "tag": "oFQaEP4cTQZ5CLtC9AjwTg",
+    "ciphertext": "DASbWBKoHciJ3RvPO3pLbDmKLEzrXYIQQv8McDbrL2iK1tY9ZNXRrclKJw",
+    "iv": "IWS3XUCqgNgvxV3p",
+    "tag": "WOclRyN6Q7Jz3W3bJSpnGQ",
     "version": 1
   }
 }
