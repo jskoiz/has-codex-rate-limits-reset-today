@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1782708723393,
-      "rationale": "This reply discusses background usage consumption and settings, not a limit reset or restored availability.",
-      "tweetId": "2071213347849023513",
-      "tweetUrl": "https://x.com/thsottiaux/status/2071213347849023513",
+      "decidedAt": 1782708726118,
+      "rationale": "This reply does not mention limits, caps, or a reset.",
+      "tweetId": "2071217245611491805",
+      "tweetUrl": "https://x.com/thsottiaux/status/2071217245611491805",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2071213347849023513",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2071213347849023513",
+    "lastSeenTweetId": "2071217245611491805",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2071217245611491805",
     "pendingReview": {
       "confidence": 0.97,
       "createdAt": 1782159478255,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2069152499416928256"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1782708726118,
+        "inputTokens": 359,
+        "outputTokens": 70,
+        "rationale": "This reply does not mention limits, caps, or a reset.",
+        "reasoningTokens": 29,
+        "totalTokens": 429,
+        "tweetId": "2071217245611491805",
+        "tweetText": "@appsicle_ Just do it",
+        "tweetUrl": "https://x.com/thsottiaux/status/2071217245611491805",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1782708723393,
@@ -279,29 +292,31 @@
         "tweetText": "Codex loves slurping up bugs https://t.co/2REc24J0VO",
         "tweetUrl": "https://x.com/thsottiaux/status/2069592160966733853",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1782283554126,
-        "inputTokens": 360,
-        "outputTokens": 70,
-        "rationale": "This reply is conversational and does not mention limits, caps, or usage becoming available again.",
-        "reasoningTokens": 24,
-        "totalTokens": 430,
-        "tweetId": "2069584792652525674",
-        "tweetText": "@JustinBleuel The bugs are shaking",
-        "tweetUrl": "https://x.com/thsottiaux/status/2069584792652525674",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 275272,
-      "totalOutputTokens": 73567,
-      "totalReasoningTokens": 39843,
-      "totalTokens": 348839
+      "totalInputTokens": 275631,
+      "totalOutputTokens": 73637,
+      "totalReasoningTokens": 39872,
+      "totalTokens": 349268
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1782708726118,
+      "inputTokens": 359,
+      "message": "",
+      "outputTokens": 70,
+      "rationale": "This reply does not mention limits, caps, or a reset.",
+      "reasoningTokens": 29,
+      "totalTokens": 429,
+      "tweetId": "2071217245611491805",
+      "tweetText": "@appsicle_ Just do it",
+      "tweetUrl": "https://x.com/thsottiaux/status/2071217245611491805",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1782708723393,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2068524691372032081",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1781990852799,
-      "inputTokens": 358,
-      "message": "",
-      "outputTokens": 72,
-      "rationale": "This reply is conversational and does not mention any limit or usage reset.",
-      "reasoningTokens": 30,
-      "totalTokens": 430,
-      "tweetId": "2068444484795564527",
-      "tweetText": "@ajambrosino discerning",
-      "tweetUrl": "https://x.com/thsottiaux/status/2068444484795564527",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "CI7Ed6ViTMJo6V3CAMPZZ3i5BfKNTGPHSv8XuvuwYrIdjGkvPv8HGc6ffQ",
-    "iv": "VtRFhrJe7sV-pG4-",
-    "tag": "9rUuJ_mE8Vm-AXJS3sBC0A",
+    "ciphertext": "bncVFcWBobBHJLHaMlQlRcVG8gKb8Hqv3LBleVyVM1aScm_87T6TVQwFGw",
+    "iv": "-0GMhWXMCfXo13v8",
+    "tag": "bZxd3u3Z22ixoNXu2OBxpQ",
     "version": 1
   }
 }
