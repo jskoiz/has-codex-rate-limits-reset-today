@@ -14,18 +14,38 @@
   "updatedAt": 1782708750070,
   "automation": {
     "lastDecision": {
-      "confidence": 0.95,
-      "decidedAt": 1782709041584,
-      "rationale": "It discusses past and future manual resets during an investigation, not a current reset being available now.",
-      "tweetId": "2071383430634344902",
-      "tweetUrl": "https://x.com/thsottiaux/status/2071383430634344902",
-      "verdict": "not_reset"
+      "confidence": 0.91,
+      "decidedAt": 1782709045620,
+      "rationale": "This reply only says to wait and does not explicitly state that any ChatGPT or Codex limit has reset.",
+      "tweetId": "2071383696934842498",
+      "tweetUrl": "https://x.com/thsottiaux/status/2071383696934842498",
+      "verdict": "uncertain"
     },
     "lastError": null,
-    "lastSeenTweetId": "2071383430634344902",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2071383430634344902",
-    "pendingReview": null,
+    "lastSeenTweetId": "2071383696934842498",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2071383696934842498",
+    "pendingReview": {
+      "confidence": 0.91,
+      "createdAt": 1782709045620,
+      "rationale": "This reply only says to wait and does not explicitly state that any ChatGPT or Codex limit has reset.",
+      "tweetId": "2071383696934842498",
+      "tweetText": "@ShashankDe5535 You'll have to wait a bit to enjoy that",
+      "tweetUrl": "https://x.com/thsottiaux/status/2071383696934842498"
+    },
     "recentEvaluations": [
+      {
+        "confidence": 0.91,
+        "evaluatedAt": 1782709045620,
+        "inputTokens": 368,
+        "outputTokens": 179,
+        "rationale": "This reply only says to wait and does not explicitly state that any ChatGPT or Codex limit has reset.",
+        "reasoningTokens": 129,
+        "totalTokens": 547,
+        "tweetId": "2071383696934842498",
+        "tweetText": "@ShashankDe5535 You'll have to wait a bit to enjoy that",
+        "tweetUrl": "https://x.com/thsottiaux/status/2071383696934842498",
+        "verdict": "uncertain"
+      },
       {
         "confidence": 0.95,
         "evaluatedAt": 1782709041584,
@@ -272,29 +292,31 @@
         "tweetText": "@andrewchen Personally, I Codex things",
         "tweetUrl": "https://x.com/thsottiaux/status/2070339320259711183",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.98,
-        "evaluatedAt": 1782439606531,
-        "inputTokens": 358,
-        "outputTokens": 99,
-        "rationale": "This is just a conversational reply and gives no indication that any limits have reset.",
-        "reasoningTokens": 55,
-        "totalTokens": 457,
-        "tweetId": "2070327657720603101",
-        "tweetText": "@0xSero Totally",
-        "tweetUrl": "https://x.com/thsottiaux/status/2070327657720603101",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 279661,
-      "totalOutputTokens": 74677,
-      "totalReasoningTokens": 40450,
-      "totalTokens": 354338
+      "totalInputTokens": 280029,
+      "totalOutputTokens": 74856,
+      "totalReasoningTokens": 40579,
+      "totalTokens": 354885
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.91,
+      "createdAt": 1782709045620,
+      "inputTokens": 368,
+      "message": "",
+      "outputTokens": 179,
+      "rationale": "This reply only says to wait and does not explicitly state that any ChatGPT or Codex limit has reset.",
+      "reasoningTokens": 129,
+      "totalTokens": 547,
+      "tweetId": "2071383696934842498",
+      "tweetText": "@ShashankDe5535 You'll have to wait a bit to enjoy that",
+      "tweetUrl": "https://x.com/thsottiaux/status/2071383696934842498",
+      "type": "review_requested",
+      "verdict": "uncertain"
+    },
     {
       "confidence": 0.95,
       "createdAt": 1782709041584,
@@ -879,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2069152290326630518",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.95,
-      "createdAt": 1782149260771,
-      "inputTokens": 365,
-      "message": "",
-      "outputTokens": 114,
-      "rationale": "The post text is only a link, so it does not clearly state that limits have reset.",
-      "reasoningTokens": 67,
-      "totalTokens": 479,
-      "tweetId": "2069110008722436484",
-      "tweetText": "https://t.co/vVg1iBJQhd",
-      "tweetUrl": "https://x.com/thsottiaux/status/2069110008722436484",
-      "type": "review_requested",
-      "verdict": "uncertain"
     }
   ],
   "privateState": {
-    "ciphertext": "LIQv7426zAAhnZFiSSuStJte_mc2fc9ljUPwfcf3RYUAPkPEodD5WOGgyA",
-    "iv": "AlWU0NHWqVdPiJko",
-    "tag": "3igRwoFAvXvCjD9oC0elwQ",
+    "ciphertext": "WbL3B8JmmElWBh32HwGNTuQchOGy_9mlyZa9ihv-NcFhu0GYCuaETED_bw",
+    "iv": "dbyegiFtp8tGLHVR",
+    "tag": "O11A0Q_aLnaKVOU4mxAM5w",
     "version": 1
   }
 }
