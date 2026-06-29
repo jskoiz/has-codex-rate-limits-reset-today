@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1782708745272,
-      "rationale": "This reply is about YouTube recommendations and does not mention any ChatGPT or Codex limit reset.",
-      "tweetId": "2071357780313645541",
-      "tweetUrl": "https://x.com/thsottiaux/status/2071357780313645541",
+      "decidedAt": 1782708747540,
+      "rationale": "This reply discusses model routing for auto review and says nothing about limits or resets.",
+      "tweetId": "2071360845309714620",
+      "tweetUrl": "https://x.com/thsottiaux/status/2071360845309714620",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2071357780313645541",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2071357780313645541",
+    "lastSeenTweetId": "2071360845309714620",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2071360845309714620",
     "pendingReview": {
       "confidence": 0.97,
       "createdAt": 1782159478255,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2069152499416928256"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1782708747540,
+        "inputTokens": 380,
+        "outputTokens": 70,
+        "rationale": "This reply discusses model routing for auto review and says nothing about limits or resets.",
+        "reasoningTokens": 26,
+        "totalTokens": 450,
+        "tweetId": "2071360845309714620",
+        "tweetText": "@solipsnitsyn Auto review is using GPT-5.4. We do not route. Do not spread misinformation, thank you.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2071360845309714620",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1782708745272,
@@ -279,29 +292,31 @@
         "tweetText": "Codex for everything at OpenAI https://t.co/6mFz5XQiJd",
         "tweetUrl": "https://x.com/thsottiaux/status/2070205520552886305",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1782364300477,
-        "inputTokens": 365,
-        "outputTokens": 64,
-        "rationale": "This post is casual commentary and does not mention limits, caps, or usage becoming available again.",
-        "reasoningTokens": 17,
-        "totalTokens": 429,
-        "tweetId": "2070010718288843204",
-        "tweetText": "At times our internal Slack is at least as fun as twitter.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2070010718288843204",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 278379,
-      "totalOutputTokens": 74288,
-      "totalReasoningTokens": 40200,
-      "totalTokens": 352667
+      "totalInputTokens": 278759,
+      "totalOutputTokens": 74358,
+      "totalReasoningTokens": 40226,
+      "totalTokens": 353117
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1782708747540,
+      "inputTokens": 380,
+      "message": "",
+      "outputTokens": 70,
+      "rationale": "This reply discusses model routing for auto review and says nothing about limits or resets.",
+      "reasoningTokens": 26,
+      "totalTokens": 450,
+      "tweetId": "2071360845309714620",
+      "tweetText": "@solipsnitsyn Auto review is using GPT-5.4. We do not route. Do not spread misinformation, thank you.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2071360845309714620",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1782708745272,
@@ -886,27 +901,12 @@
       "tweetUrl": null,
       "type": "error",
       "verdict": null
-    },
-    {
-      "confidence": 0.12,
-      "createdAt": 1782073595526,
-      "inputTokens": 365,
-      "message": "",
-      "outputTokens": 202,
-      "rationale": "This reply contains only a link, so it does not clearly say that limits have reset.",
-      "reasoningTokens": 156,
-      "totalTokens": 567,
-      "tweetId": "2068792061265121316",
-      "tweetText": "https://t.co/pBWhE53c4A",
-      "tweetUrl": "https://x.com/thsottiaux/status/2068792061265121316",
-      "type": "review_requested",
-      "verdict": "uncertain"
     }
   ],
   "privateState": {
-    "ciphertext": "uNt7h3fjT8jbeA1evfbSI1TgB5bWtDUK2assf44jU1T59QdYNBOONN8ZAg",
-    "iv": "pYWddVISNDr6kXXJ",
-    "tag": "1GPPhFgAfEpR7irVVNDP6g",
+    "ciphertext": "6mCrzWmJ4jWqWc5tgyTYXI8uukhUEmNlIet8EN11O1Xbyyqf3ACER4Yz6A",
+    "iv": "60C0Z8IH99K-jk0P",
+    "tag": "2zqQtLoN-dDUh_OB-6J8Og",
     "version": 1
   }
 }
