@@ -14,16 +14,16 @@
   "updatedAt": 1781741564670,
   "automation": {
     "lastDecision": {
-      "confidence": 0.98,
-      "decidedAt": 1782708737092,
-      "rationale": "The post explicitly says downgrading plans will not reset usage limits.",
-      "tweetId": "2071329580829319493",
-      "tweetUrl": "https://x.com/thsottiaux/status/2071329580829319493",
+      "confidence": 0.99,
+      "decidedAt": 1782708739601,
+      "rationale": "This reply asks about using auto-review and does not mention limits, caps, or resets.",
+      "tweetId": "2071350153080959237",
+      "tweetUrl": "https://x.com/thsottiaux/status/2071350153080959237",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2071329580829319493",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2071329580829319493",
+    "lastSeenTweetId": "2071350153080959237",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2071350153080959237",
     "pendingReview": {
       "confidence": 0.97,
       "createdAt": 1782159478255,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2069152499416928256"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1782708739601,
+        "inputTokens": 364,
+        "outputTokens": 82,
+        "rationale": "This reply asks about using auto-review and does not mention limits, caps, or resets.",
+        "reasoningTokens": 36,
+        "totalTokens": 446,
+        "tweetId": "2071350153080959237",
+        "tweetText": "@SAlbahra Do you use \"auto-review\"?",
+        "tweetUrl": "https://x.com/thsottiaux/status/2071350153080959237",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.98,
         "evaluatedAt": 1782708737092,
@@ -279,29 +292,31 @@
         "tweetText": "Spicy",
         "tweetUrl": "https://x.com/thsottiaux/status/2069837606574289329",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1782283569981,
-        "inputTokens": 357,
-        "outputTokens": 70,
-        "rationale": "This is just a conversational reply and does not mention limits or a reset.",
-        "reasoningTokens": 27,
-        "totalTokens": 427,
-        "tweetId": "2069625300871454742",
-        "tweetText": "@0xDesigner Nice!",
-        "tweetUrl": "https://x.com/thsottiaux/status/2069625300871454742",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 277197,
-      "totalOutputTokens": 74034,
-      "totalReasoningTokens": 40087,
-      "totalTokens": 351231
+      "totalInputTokens": 277561,
+      "totalOutputTokens": 74116,
+      "totalReasoningTokens": 40123,
+      "totalTokens": 351677
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1782708739601,
+      "inputTokens": 364,
+      "message": "",
+      "outputTokens": 82,
+      "rationale": "This reply asks about using auto-review and does not mention limits, caps, or resets.",
+      "reasoningTokens": 36,
+      "totalTokens": 446,
+      "tweetId": "2071350153080959237",
+      "tweetText": "@SAlbahra Do you use \"auto-review\"?",
+      "tweetUrl": "https://x.com/thsottiaux/status/2071350153080959237",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.98,
       "createdAt": 1782708737092,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2068757167054987547",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1782060876308,
-      "inputTokens": 361,
-      "message": "",
-      "outputTokens": 92,
-      "rationale": "This reply is just a conversational remark and does not mention any limits or reset.",
-      "reasoningTokens": 48,
-      "totalTokens": 453,
-      "tweetId": "2068738384840020019",
-      "tweetText": "@TechByTaraa You're a Claude user",
-      "tweetUrl": "https://x.com/thsottiaux/status/2068738384840020019",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "DASbWBKoHciJ3RvPO3pLbDmKLEzrXYIQQv8McDbrL2iK1tY9ZNXRrclKJw",
-    "iv": "IWS3XUCqgNgvxV3p",
-    "tag": "WOclRyN6Q7Jz3W3bJSpnGQ",
+    "ciphertext": "MTsuueakfo_RATmvGA-7m2FShGagCtS_qo-HEfkuGX0Uz5MjdtlYRZW0jQ",
+    "iv": "xdAWsiD1pDxJLfDF",
+    "tag": "PaaiGX-bDwhUT2_UX0euVA",
     "version": 1
   }
 }
