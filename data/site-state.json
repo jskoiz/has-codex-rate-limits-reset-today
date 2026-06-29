@@ -14,18 +14,31 @@
   "updatedAt": 1782708750070,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1782708750070,
-      "rationale": "The tweet explicitly says everyone's Codex usage limits have been hard reset and are available again now.",
-      "tweetId": "2071381664853319742",
-      "tweetUrl": "https://x.com/thsottiaux/status/2071381664853319742",
-      "verdict": "reset_confirmed"
+      "confidence": 0.95,
+      "decidedAt": 1782709041584,
+      "rationale": "It discusses past and future manual resets during an investigation, not a current reset being available now.",
+      "tweetId": "2071383430634344902",
+      "tweetUrl": "https://x.com/thsottiaux/status/2071383430634344902",
+      "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2071381664853319742",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2071381664853319742",
+    "lastSeenTweetId": "2071383430634344902",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2071383430634344902",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.95,
+        "evaluatedAt": 1782709041584,
+        "inputTokens": 389,
+        "outputTokens": 211,
+        "rationale": "It discusses past and future manual resets during an investigation, not a current reset being available now.",
+        "reasoningTokens": 164,
+        "totalTokens": 600,
+        "tweetId": "2071383430634344902",
+        "tweetText": "If you happened to have used your previous reset in the few hours before and didn't go through your usage, do not worry, you will get more manual resets after we conclude the investigation.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2071383430634344902",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1782708750071,
@@ -272,29 +285,31 @@
         "tweetText": "@0xSero Totally",
         "tweetUrl": "https://x.com/thsottiaux/status/2070327657720603101",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1782410553572,
-        "inputTokens": 387,
-        "outputTokens": 66,
-        "rationale": "This reply discusses Codex app adoption and says nothing about limits or availability resetting.",
-        "reasoningTokens": 22,
-        "totalTokens": 453,
-        "tweetId": "2070205719501254860",
-        "tweetText": "February 2nd was the release of the Codex App. You can see what it did to adoption outside of engineering.\n\n👀 @ajambrosino",
-        "tweetUrl": "https://x.com/thsottiaux/status/2070205719501254860",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 279272,
-      "totalOutputTokens": 74466,
-      "totalReasoningTokens": 40286,
-      "totalTokens": 353738
+      "totalInputTokens": 279661,
+      "totalOutputTokens": 74677,
+      "totalReasoningTokens": 40450,
+      "totalTokens": 354338
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.95,
+      "createdAt": 1782709041584,
+      "inputTokens": 389,
+      "message": "",
+      "outputTokens": 211,
+      "rationale": "It discusses past and future manual resets during an investigation, not a current reset being available now.",
+      "reasoningTokens": 164,
+      "totalTokens": 600,
+      "tweetId": "2071383430634344902",
+      "tweetText": "If you happened to have used your previous reset in the few hours before and didn't go through your usage, do not worry, you will get more manual resets after we conclude the investigation.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2071383430634344902",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1782708750071,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2069110008722436484",
       "type": "review_requested",
       "verdict": "uncertain"
-    },
-    {
-      "confidence": 0,
-      "createdAt": 1782138119823,
-      "inputTokens": 0,
-      "message": "Tweet fetch failed: Request failed with status code 503 (Request failed with status code 503)",
-      "outputTokens": 0,
-      "rationale": "",
-      "reasoningTokens": 0,
-      "totalTokens": 0,
-      "tweetId": null,
-      "tweetText": "",
-      "tweetUrl": null,
-      "type": "error",
-      "verdict": null
     }
   ],
   "privateState": {
-    "ciphertext": "zMYRZ1Z_qjtdEdmD7n8UBg5jhpE2QzKesPN5mpe7fUXnW0t6Zz5lxyCC_w",
-    "iv": "XFAPN07E5UWn0zEh",
-    "tag": "qAY4DVWpoU3HshOXIs0aTg",
+    "ciphertext": "LIQv7426zAAhnZFiSSuStJte_mc2fc9ljUPwfcf3RYUAPkPEodD5WOGgyA",
+    "iv": "AlWU0NHWqVdPiJko",
+    "tag": "3igRwoFAvXvCjD9oC0elwQ",
     "version": 1
   }
 }
