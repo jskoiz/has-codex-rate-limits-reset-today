@@ -14,16 +14,16 @@
   "updatedAt": 1781741564670,
   "automation": {
     "lastDecision": {
-      "confidence": 0.98,
-      "decidedAt": 1782708742465,
-      "rationale": "This discusses investigating abnormal usage drains, not that any Codex or ChatGPT limits have reset.",
-      "tweetId": "2071357473659707441",
-      "tweetUrl": "https://x.com/thsottiaux/status/2071357473659707441",
+      "confidence": 0.99,
+      "decidedAt": 1782708745272,
+      "rationale": "This reply is about YouTube recommendations and does not mention any ChatGPT or Codex limit reset.",
+      "tweetId": "2071357780313645541",
+      "tweetUrl": "https://x.com/thsottiaux/status/2071357780313645541",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2071357473659707441",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2071357473659707441",
+    "lastSeenTweetId": "2071357780313645541",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2071357780313645541",
     "pendingReview": {
       "confidence": 0.97,
       "createdAt": 1782159478255,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2069152499416928256"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1782708745272,
+        "inputTokens": 363,
+        "outputTokens": 75,
+        "rationale": "This reply is about YouTube recommendations and does not mention any ChatGPT or Codex limit reset.",
+        "reasoningTokens": 27,
+        "totalTokens": 438,
+        "tweetId": "2071357780313645541",
+        "tweetText": "@Dimillian Not curating your Youtube enough I see",
+        "tweetUrl": "https://x.com/thsottiaux/status/2071357780313645541",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.98,
         "evaluatedAt": 1782708742465,
@@ -279,29 +292,31 @@
         "tweetText": "At times our internal Slack is at least as fun as twitter.",
         "tweetUrl": "https://x.com/thsottiaux/status/2070010718288843204",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1782363988628,
-        "inputTokens": 366,
-        "outputTokens": 81,
-        "rationale": "This reply is about open source software and does not mention limits or resets.",
-        "reasoningTokens": 38,
-        "totalTokens": 447,
-        "tweetId": "2070010435420762505",
-        "tweetText": "@psviderski Orrrrr maybe we actually like open source software",
-        "tweetUrl": "https://x.com/thsottiaux/status/2070010435420762505",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 278016,
-      "totalOutputTokens": 74213,
-      "totalReasoningTokens": 40173,
-      "totalTokens": 352229
+      "totalInputTokens": 278379,
+      "totalOutputTokens": 74288,
+      "totalReasoningTokens": 40200,
+      "totalTokens": 352667
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1782708745272,
+      "inputTokens": 363,
+      "message": "",
+      "outputTokens": 75,
+      "rationale": "This reply is about YouTube recommendations and does not mention any ChatGPT or Codex limit reset.",
+      "reasoningTokens": 27,
+      "totalTokens": 438,
+      "tweetId": "2071357780313645541",
+      "tweetText": "@Dimillian Not curating your Youtube enough I see",
+      "tweetUrl": "https://x.com/thsottiaux/status/2071357780313645541",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.98,
       "createdAt": 1782708742465,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2068792061265121316",
       "type": "review_requested",
       "verdict": "uncertain"
-    },
-    {
-      "confidence": 0.95,
-      "createdAt": 1782073591474,
-      "inputTokens": 385,
-      "message": "",
-      "outputTokens": 209,
-      "rationale": "This discusses a Codex feature about banking usage resets, not that limits have reset right now.",
-      "reasoningTokens": 162,
-      "totalTokens": 594,
-      "tweetId": "2068792010715324444",
-      "tweetText": "Now that you can bank usage resets in Codex. Are you a hoarder or do you use them without breaking a sweat? How do you think about them?",
-      "tweetUrl": "https://x.com/thsottiaux/status/2068792010715324444",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "Wl5SlCCWdXhJeQuaQn1hQK-Qx2bNbZO9KKSAU2Ib8ADgfP4HAeT36C5btw",
-    "iv": "2QeQxTsKQ5PmWeWw",
-    "tag": "qKOVpn14pLf3ssjAr1sDXA",
+    "ciphertext": "uNt7h3fjT8jbeA1evfbSI1TgB5bWtDUK2assf44jU1T59QdYNBOONN8ZAg",
+    "iv": "pYWddVISNDr6kXXJ",
+    "tag": "1GPPhFgAfEpR7irVVNDP6g",
     "version": 1
   }
 }
