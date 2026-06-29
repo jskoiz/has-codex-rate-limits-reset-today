@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1782709352617,
-      "rationale": "This is just a thank-you reply and gives no information about limits or resets.",
-      "tweetId": "2071389318019482018",
-      "tweetUrl": "https://x.com/thsottiaux/status/2071389318019482018",
+      "decidedAt": 1782751796118,
+      "rationale": "This is a product update about Codex permissions and says nothing about usage limits resetting.",
+      "tweetId": "2071636285807059315",
+      "tweetUrl": "https://x.com/thsottiaux/status/2071636285807059315",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2071389318019482018",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2071389318019482018",
+    "lastSeenTweetId": "2071636285807059315",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2071636285807059315",
     "pendingReview": {
       "confidence": 0.91,
       "createdAt": 1782709045620,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2071383696934842498"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1782751796118,
+        "inputTokens": 422,
+        "outputTokens": 87,
+        "rationale": "This is a product update about Codex permissions and says nothing about usage limits resetting.",
+        "reasoningTokens": 42,
+        "totalTokens": 509,
+        "tweetId": "2071636285807059315",
+        "tweetText": "Advanced Codex users. We shipped a replacement to coarse sandbox modes: reusable, inheritable permission profiles binding OS-enforced file read/write/deny rules (even **/*.env) to per-domain network + Unix sockets. Plus fail-closed admin allowlists. Least privilege per task.\n\nhttps://t.co/jHyAnUhyFs",
+        "tweetUrl": "https://x.com/thsottiaux/status/2071636285807059315",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1782709352617,
@@ -279,29 +292,31 @@
         "tweetText": "@0xPrajwal_ Spend $1M or make $1M? Different apps for each",
         "tweetUrl": "https://x.com/thsottiaux/status/2070339854953787432",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1782442706867,
-        "inputTokens": 360,
-        "outputTokens": 95,
-        "rationale": "This reply is conversational and gives no indication that any limits or caps have reset.",
-        "reasoningTokens": 51,
-        "totalTokens": 455,
-        "tweetId": "2070339574702997674",
-        "tweetText": "@argofowl Light as a feather",
-        "tweetUrl": "https://x.com/thsottiaux/status/2070339574702997674",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 280387,
-      "totalOutputTokens": 74933,
-      "totalReasoningTokens": 40612,
-      "totalTokens": 355320
+      "totalInputTokens": 280809,
+      "totalOutputTokens": 75020,
+      "totalReasoningTokens": 40654,
+      "totalTokens": 355829
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1782751796118,
+      "inputTokens": 422,
+      "message": "",
+      "outputTokens": 87,
+      "rationale": "This is a product update about Codex permissions and says nothing about usage limits resetting.",
+      "reasoningTokens": 42,
+      "totalTokens": 509,
+      "tweetId": "2071636285807059315",
+      "tweetText": "Advanced Codex users. We shipped a replacement to coarse sandbox modes: reusable, inheritable permission profiles binding OS-enforced file read/write/deny rules (even **/*.env) to per-domain network + Unix sockets. Plus fail-closed admin allowlists. Least privilege per task.\n\nhttps://t.co/jHyAnUhyFs",
+      "tweetUrl": "https://x.com/thsottiaux/status/2071636285807059315",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1782709352617,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2069579993588625574",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.97,
-      "createdAt": 1782159478255,
-      "inputTokens": 364,
-      "message": "",
-      "outputTokens": 236,
-      "rationale": "This reply contains only a link, so it does not explicitly say any limit or cap has reset.",
-      "reasoningTokens": 188,
-      "totalTokens": 600,
-      "tweetId": "2069152499416928256",
-      "tweetText": "https://t.co/aEkhh523n3",
-      "tweetUrl": "https://x.com/thsottiaux/status/2069152499416928256",
-      "type": "review_requested",
-      "verdict": "uncertain"
     }
   ],
   "privateState": {
-    "ciphertext": "JtZ6sCJleTVwPmCYGBLIbOcrTErGjpYx0Z3WkEaImWOUsyrCEK7zvhHtDg",
-    "iv": "J39LY4tG8FWJG_4L",
-    "tag": "0tqUa0kFrG4yxG1HuItIOQ",
+    "ciphertext": "5lB-eIGyp3VEHNnfH4zDG9Xg18tYzRZlBvBvp67PkcBk4BFjVwJMJILZqQ",
+    "iv": "wgTbOH5pBBCuAWLV",
+    "tag": "7PR8GE2sTzz5vDcNck1OLQ",
     "version": 1
   }
 }
