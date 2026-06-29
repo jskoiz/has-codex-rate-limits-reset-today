@@ -14,16 +14,16 @@
   "updatedAt": 1782708750070,
   "automation": {
     "lastDecision": {
-      "confidence": 0.91,
-      "decidedAt": 1782709045620,
-      "rationale": "This reply only says to wait and does not explicitly state that any ChatGPT or Codex limit has reset.",
-      "tweetId": "2071383696934842498",
-      "tweetUrl": "https://x.com/thsottiaux/status/2071383696934842498",
-      "verdict": "uncertain"
+      "confidence": 0.99,
+      "decidedAt": 1782709352617,
+      "rationale": "This is just a thank-you reply and gives no information about limits or resets.",
+      "tweetId": "2071389318019482018",
+      "tweetUrl": "https://x.com/thsottiaux/status/2071389318019482018",
+      "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2071383696934842498",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2071383696934842498",
+    "lastSeenTweetId": "2071389318019482018",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2071389318019482018",
     "pendingReview": {
       "confidence": 0.91,
       "createdAt": 1782709045620,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2071383696934842498"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1782709352617,
+        "inputTokens": 358,
+        "outputTokens": 77,
+        "rationale": "This is just a thank-you reply and gives no information about limits or resets.",
+        "reasoningTokens": 33,
+        "totalTokens": 435,
+        "tweetId": "2071389318019482018",
+        "tweetText": "@nicdunz Thx!",
+        "tweetUrl": "https://x.com/thsottiaux/status/2071389318019482018",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.91,
         "evaluatedAt": 1782709045620,
@@ -279,29 +292,31 @@
         "tweetText": "@argofowl Light as a feather",
         "tweetUrl": "https://x.com/thsottiaux/status/2070339574702997674",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1782442380160,
-        "inputTokens": 362,
-        "outputTokens": 97,
-        "rationale": "This reply is just conversational and says nothing about limits or a reset.",
-        "reasoningTokens": 55,
-        "totalTokens": 459,
-        "tweetId": "2070339320259711183",
-        "tweetText": "@andrewchen Personally, I Codex things",
-        "tweetUrl": "https://x.com/thsottiaux/status/2070339320259711183",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 280029,
-      "totalOutputTokens": 74856,
-      "totalReasoningTokens": 40579,
-      "totalTokens": 354885
+      "totalInputTokens": 280387,
+      "totalOutputTokens": 74933,
+      "totalReasoningTokens": 40612,
+      "totalTokens": 355320
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1782709352617,
+      "inputTokens": 358,
+      "message": "",
+      "outputTokens": 77,
+      "rationale": "This is just a thank-you reply and gives no information about limits or resets.",
+      "reasoningTokens": 33,
+      "totalTokens": 435,
+      "tweetId": "2071389318019482018",
+      "tweetText": "@nicdunz Thx!",
+      "tweetUrl": "https://x.com/thsottiaux/status/2071389318019482018",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.91,
       "createdAt": 1782709045620,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2069152499416928256",
       "type": "review_requested",
       "verdict": "uncertain"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1782159473036,
-      "inputTokens": 396,
-      "message": "",
-      "outputTokens": 81,
-      "rationale": "This post is a product update and does not mention any limit, cap, or rate reset.",
-      "reasoningTokens": 34,
-      "totalTokens": 477,
-      "tweetId": "2069152290326630518",
-      "tweetText": "Let's Patch The Planet. Updates to codex security and a new GPT-5.5-Cyber. A day of celebration for cyber defense acceleration.\n\nhttps://t.co/SYKQvsTA44",
-      "tweetUrl": "https://x.com/thsottiaux/status/2069152290326630518",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "WbL3B8JmmElWBh32HwGNTuQchOGy_9mlyZa9ihv-NcFhu0GYCuaETED_bw",
-    "iv": "dbyegiFtp8tGLHVR",
-    "tag": "O11A0Q_aLnaKVOU4mxAM5w",
+    "ciphertext": "JtZ6sCJleTVwPmCYGBLIbOcrTErGjpYx0Z3WkEaImWOUsyrCEK7zvhHtDg",
+    "iv": "J39LY4tG8FWJG_4L",
+    "tag": "0tqUa0kFrG4yxG1HuItIOQ",
     "version": 1
   }
 }
