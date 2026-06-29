@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1782751796118,
-      "rationale": "This is a product update about Codex permissions and says nothing about usage limits resetting.",
-      "tweetId": "2071636285807059315",
-      "tweetUrl": "https://x.com/thsottiaux/status/2071636285807059315",
+      "decidedAt": 1782751798704,
+      "rationale": "This reply discusses appearance and does not mention limits, caps, or availability resetting.",
+      "tweetId": "2071636834736574719",
+      "tweetUrl": "https://x.com/thsottiaux/status/2071636834736574719",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2071636285807059315",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2071636285807059315",
+    "lastSeenTweetId": "2071636834736574719",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2071636834736574719",
     "pendingReview": {
       "confidence": 0.91,
       "createdAt": 1782709045620,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2071383696934842498"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1782751798704,
+        "inputTokens": 364,
+        "outputTokens": 62,
+        "rationale": "This reply discusses appearance and does not mention limits, caps, or availability resetting.",
+        "reasoningTokens": 18,
+        "totalTokens": 426,
+        "tweetId": "2071636834736574719",
+        "tweetText": "@rizaardiyanto What's not good looking about it?",
+        "tweetUrl": "https://x.com/thsottiaux/status/2071636834736574719",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1782751796118,
@@ -279,29 +292,31 @@
         "tweetText": "@FintechKristen Good news is that he is less busy these days",
         "tweetUrl": "https://x.com/thsottiaux/status/2070341600203714686",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1782442710918,
-        "inputTokens": 373,
-        "outputTokens": 101,
-        "rationale": "This reply is just conversational about apps and does not mention limits, caps, or resets.",
-        "reasoningTokens": 55,
-        "totalTokens": 474,
-        "tweetId": "2070339854953787432",
-        "tweetText": "@0xPrajwal_ Spend $1M or make $1M? Different apps for each",
-        "tweetUrl": "https://x.com/thsottiaux/status/2070339854953787432",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 280809,
-      "totalOutputTokens": 75020,
-      "totalReasoningTokens": 40654,
-      "totalTokens": 355829
+      "totalInputTokens": 281173,
+      "totalOutputTokens": 75082,
+      "totalReasoningTokens": 40672,
+      "totalTokens": 356255
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1782751798704,
+      "inputTokens": 364,
+      "message": "",
+      "outputTokens": 62,
+      "rationale": "This reply discusses appearance and does not mention limits, caps, or availability resetting.",
+      "reasoningTokens": 18,
+      "totalTokens": 426,
+      "tweetId": "2071636834736574719",
+      "tweetText": "@rizaardiyanto What's not good looking about it?",
+      "tweetUrl": "https://x.com/thsottiaux/status/2071636834736574719",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1782751796118,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2069584792652525674",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1782283550921,
-      "inputTokens": 434,
-      "message": "",
-      "outputTokens": 101,
-      "rationale": "This post is about a Codex bug fix, not user caps or rate limits resetting.",
-      "reasoningTokens": 55,
-      "totalTokens": 535,
-      "tweetId": "2069579993588625574",
-      "tweetText": "Codex **had** a bug. Fixed.\n\nMore feedback. Better product. Keep it coming.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2069579993588625574",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "5lB-eIGyp3VEHNnfH4zDG9Xg18tYzRZlBvBvp67PkcBk4BFjVwJMJILZqQ",
-    "iv": "wgTbOH5pBBCuAWLV",
-    "tag": "7PR8GE2sTzz5vDcNck1OLQ",
+    "ciphertext": "wvaUmrWHG5YsewMpVd05GY-KNYYqw3tS_gokD2am4sUSvDVk5H45QxpxYQ",
+    "iv": "9zuKaPdkVHIsSmFc",
+    "tag": "gOk8mfAW-_fncVacXpbMug",
     "version": 1
   }
 }
