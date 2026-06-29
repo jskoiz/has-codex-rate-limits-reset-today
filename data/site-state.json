@@ -1,5 +1,5 @@
 {
-  "currentState": "no",
+  "currentState": "yes",
   "autoResetHours": 20,
   "noSubtitles": [
     "Back to your local model peasant",
@@ -10,29 +10,35 @@
     "Limits reset, go crazy",
     "You can just build things"
   ],
-  "resetAt": null,
-  "updatedAt": 1781741564670,
+  "resetAt": 1782780750070,
+  "updatedAt": 1782708750070,
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1782708747540,
-      "rationale": "This reply discusses model routing for auto review and says nothing about limits or resets.",
-      "tweetId": "2071360845309714620",
-      "tweetUrl": "https://x.com/thsottiaux/status/2071360845309714620",
-      "verdict": "not_reset"
+      "decidedAt": 1782708750070,
+      "rationale": "The tweet explicitly says everyone's Codex usage limits have been hard reset and are available again now.",
+      "tweetId": "2071381664853319742",
+      "tweetUrl": "https://x.com/thsottiaux/status/2071381664853319742",
+      "verdict": "reset_confirmed"
     },
     "lastError": null,
-    "lastSeenTweetId": "2071360845309714620",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2071360845309714620",
-    "pendingReview": {
-      "confidence": 0.97,
-      "createdAt": 1782159478255,
-      "rationale": "This reply contains only a link, so it does not explicitly say any limit or cap has reset.",
-      "tweetId": "2069152499416928256",
-      "tweetText": "https://t.co/aEkhh523n3",
-      "tweetUrl": "https://x.com/thsottiaux/status/2069152499416928256"
-    },
+    "lastSeenTweetId": "2071381664853319742",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2071381664853319742",
+    "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1782708750071,
+        "inputTokens": 513,
+        "outputTokens": 108,
+        "rationale": "The tweet explicitly says everyone's Codex usage limits have been hard reset and are available again now.",
+        "reasoningTokens": 60,
+        "totalTokens": 621,
+        "tweetId": "2071381664853319742",
+        "tweetText": "As we are still investigating, I have reset everyone's Codex usage limits. This is a hard reset given some users had stacked up to three banked resets already that they can apply on their own schedule.\n\nFunnily enough, this week at OpenAI is called the RESET week, which is meant for folks to relax a bit. However it will be a different kind of RESET week. Enjoy.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2071381664853319742",
+        "verdict": "reset_confirmed"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1782708747540,
@@ -279,29 +285,31 @@
         "tweetText": "February 2nd was the release of the Codex App. You can see what it did to adoption outside of engineering.\n\n👀 @ajambrosino",
         "tweetUrl": "https://x.com/thsottiaux/status/2070205719501254860",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1782410550248,
-        "inputTokens": 471,
-        "outputTokens": 86,
-        "rationale": "This is a promotional post about Codex usage at OpenAI, not about limits or availability resetting.",
-        "reasoningTokens": 38,
-        "totalTokens": 557,
-        "tweetId": "2070205520552886305",
-        "tweetText": "Codex for everything at OpenAI https://t.co/6mFz5XQiJd",
-        "tweetUrl": "https://x.com/thsottiaux/status/2070205520552886305",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 278759,
-      "totalOutputTokens": 74358,
-      "totalReasoningTokens": 40226,
-      "totalTokens": 353117
+      "totalInputTokens": 279272,
+      "totalOutputTokens": 74466,
+      "totalReasoningTokens": 40286,
+      "totalTokens": 353738
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1782708750071,
+      "inputTokens": 513,
+      "message": "",
+      "outputTokens": 108,
+      "rationale": "The tweet explicitly says everyone's Codex usage limits have been hard reset and are available again now.",
+      "reasoningTokens": 60,
+      "totalTokens": 621,
+      "tweetId": "2071381664853319742",
+      "tweetText": "As we are still investigating, I have reset everyone's Codex usage limits. This is a hard reset given some users had stacked up to three banked resets already that they can apply on their own schedule.\n\nFunnily enough, this week at OpenAI is called the RESET week, which is meant for folks to relax a bit. However it will be a different kind of RESET week. Enjoy.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2071381664853319742",
+      "type": "reset_confirmed",
+      "verdict": "reset_confirmed"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1782708747540,
@@ -886,27 +894,12 @@
       "tweetUrl": null,
       "type": "error",
       "verdict": null
-    },
-    {
-      "confidence": 0,
-      "createdAt": 1782137502315,
-      "inputTokens": 0,
-      "message": "Tweet fetch failed: Tweet search failed: Request failed with status code 503; timeline fallback failed: Request failed with status code 503 (Request failed with status code 503) (Tweet search failed: Request failed with status code 503; timeline fallback failed: Request failed with status code 503)",
-      "outputTokens": 0,
-      "rationale": "",
-      "reasoningTokens": 0,
-      "totalTokens": 0,
-      "tweetId": null,
-      "tweetText": "",
-      "tweetUrl": null,
-      "type": "error",
-      "verdict": null
     }
   ],
   "privateState": {
-    "ciphertext": "6mCrzWmJ4jWqWc5tgyTYXI8uukhUEmNlIet8EN11O1Xbyyqf3ACER4Yz6A",
-    "iv": "60C0Z8IH99K-jk0P",
-    "tag": "2zqQtLoN-dDUh_OB-6J8Og",
+    "ciphertext": "zMYRZ1Z_qjtdEdmD7n8UBg5jhpE2QzKesPN5mpe7fUXnW0t6Zz5lxyCC_w",
+    "iv": "XFAPN07E5UWn0zEh",
+    "tag": "qAY4DVWpoU3HshOXIs0aTg",
     "version": 1
   }
 }
