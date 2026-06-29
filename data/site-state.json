@@ -14,16 +14,16 @@
   "updatedAt": 1782708750070,
   "automation": {
     "lastDecision": {
-      "confidence": 0.88,
-      "decidedAt": 1782752108240,
-      "rationale": "This reply is too context-dependent and does not explicitly say limits have reset or are available again.",
-      "tweetId": "2071637953755930883",
-      "tweetUrl": "https://x.com/thsottiaux/status/2071637953755930883",
-      "verdict": "uncertain"
+      "confidence": 0.99,
+      "decidedAt": 1782769481583,
+      "rationale": "This is a playful comment on a product update and does not indicate any rate-limit reset.",
+      "tweetId": "2071710834527523030",
+      "tweetUrl": "https://x.com/thsottiaux/status/2071710834527523030",
+      "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2071637953755930883",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2071637953755930883",
+    "lastSeenTweetId": "2071710834527523030",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2071710834527523030",
     "pendingReview": {
       "confidence": 0.88,
       "createdAt": 1782752108240,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2071637953755930883"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1782769481583,
+        "inputTokens": 422,
+        "outputTokens": 113,
+        "rationale": "This is a playful comment on a product update and does not indicate any rate-limit reset.",
+        "reasoningTokens": 67,
+        "totalTokens": 535,
+        "tweetId": "2071710834527523030",
+        "tweetText": "Do you think it has a reset button?",
+        "tweetUrl": "https://x.com/thsottiaux/status/2071710834527523030",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.88,
         "evaluatedAt": 1782752108240,
@@ -279,29 +292,31 @@
         "tweetText": "It's a fantastic update",
         "tweetUrl": "https://x.com/thsottiaux/status/2070343597111812414",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1782443312617,
-        "inputTokens": 364,
-        "outputTokens": 75,
-        "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-        "reasoningTokens": 31,
-        "totalTokens": 439,
-        "tweetId": "2070342588364939560",
-        "tweetText": "@adonis_singh Maybe we just stopped training models",
-        "tweetUrl": "https://x.com/thsottiaux/status/2070342588364939560",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 281544,
-      "totalOutputTokens": 75247,
-      "totalReasoningTokens": 40790,
-      "totalTokens": 356791
+      "totalInputTokens": 281966,
+      "totalOutputTokens": 75360,
+      "totalReasoningTokens": 40857,
+      "totalTokens": 357326
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1782769481583,
+      "inputTokens": 422,
+      "message": "",
+      "outputTokens": 113,
+      "rationale": "This is a playful comment on a product update and does not indicate any rate-limit reset.",
+      "reasoningTokens": 67,
+      "totalTokens": 535,
+      "tweetId": "2071710834527523030",
+      "tweetText": "Do you think it has a reset button?",
+      "tweetUrl": "https://x.com/thsottiaux/status/2071710834527523030",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.88,
       "createdAt": 1782752108240,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2069594605197414735",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1782283557951,
-      "inputTokens": 373,
-      "message": "",
-      "outputTokens": 82,
-      "rationale": "This post is just a comment about Codex and does not mention limits or a reset.",
-      "reasoningTokens": 36,
-      "totalTokens": 455,
-      "tweetId": "2069592160966733853",
-      "tweetText": "Codex loves slurping up bugs https://t.co/2REc24J0VO",
-      "tweetUrl": "https://x.com/thsottiaux/status/2069592160966733853",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "zZbRgnfaupcyhDhCii0j3LV6SZUQVzn7_bwMDLE6uwmjmRHZ6gzCHJM-NQ",
-    "iv": "W0lGV38NpgXGf3M6",
-    "tag": "7gGYCNEGXkt-g5nLHtIEEA",
+    "ciphertext": "fiMovoaTMCmzzRn3kPIlysHb3wz2PgYX8Uap0q6rLBhnaaLTljjcqwsxfA",
+    "iv": "1tBsww7xZ50-PLn8",
+    "tag": "j-304LDkBXYSrxVej3OduQ",
     "version": 1
   }
 }
