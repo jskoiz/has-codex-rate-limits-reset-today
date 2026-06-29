@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1782708731655,
-      "rationale": "This reply is just a correction and does not indicate any rate-limit or usage reset.",
-      "tweetId": "2071328893735219327",
-      "tweetUrl": "https://x.com/thsottiaux/status/2071328893735219327",
+      "decidedAt": 1782708734310,
+      "rationale": "It discusses what consumes weekly usage in the background, not a limit reset or restored availability.",
+      "tweetId": "2071329159037481032",
+      "tweetUrl": "https://x.com/thsottiaux/status/2071329159037481032",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2071328893735219327",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2071328893735219327",
+    "lastSeenTweetId": "2071329159037481032",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2071329159037481032",
     "pendingReview": {
       "confidence": 0.97,
       "createdAt": 1782159478255,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2069152499416928256"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1782708734310,
+        "inputTokens": 418,
+        "outputTokens": 85,
+        "rationale": "It discusses what consumes weekly usage in the background, not a limit reset or restored availability.",
+        "reasoningTokens": 39,
+        "totalTokens": 503,
+        "tweetId": "2071329159037481032",
+        "tweetText": "Three things that can consume usage in the background  \n\n- automations \n- memory \n- suggested prompts  \n\nand for memory and suggested prompts they use a small percentage, around 1% of the weekly limit each under normal conditions. You can disable all three in the settings if you wish.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2071329159037481032",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1782708731655,
@@ -279,29 +292,31 @@
         "tweetText": "If you are at OpenAI, you would know that this never happens. Be right back celebrating 5 minutes of peace. https://t.co/kxMOXFsg8s",
         "tweetUrl": "https://x.com/thsottiaux/status/2069624530960838914",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1782283564814,
-        "inputTokens": 359,
-        "outputTokens": 84,
-        "rationale": "This reply is just a support request and does not mention limits resetting.",
-        "reasoningTokens": 42,
-        "totalTokens": 443,
-        "tweetId": "2069594889961251072",
-        "tweetText": "@slomoassassin Please file",
-        "tweetUrl": "https://x.com/thsottiaux/status/2069594889961251072",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 276355,
-      "totalOutputTokens": 73858,
-      "totalReasoningTokens": 39999,
-      "totalTokens": 350213
+      "totalInputTokens": 276773,
+      "totalOutputTokens": 73943,
+      "totalReasoningTokens": 40038,
+      "totalTokens": 350716
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1782708734310,
+      "inputTokens": 418,
+      "message": "",
+      "outputTokens": 85,
+      "rationale": "It discusses what consumes weekly usage in the background, not a limit reset or restored availability.",
+      "reasoningTokens": 39,
+      "totalTokens": 503,
+      "tweetId": "2071329159037481032",
+      "tweetText": "Three things that can consume usage in the background  \n\n- automations \n- memory \n- suggested prompts  \n\nand for memory and suggested prompts they use a small percentage, around 1% of the weekly limit each under normal conditions. You can disable all three in the settings if you wish.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2071329159037481032",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1782708731655,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2068738262907461729",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1782060568993,
-      "inputTokens": 366,
-      "message": "",
-      "outputTokens": 75,
-      "rationale": "This is a product feedback question and does not mention limits or a reset.",
-      "reasoningTokens": 32,
-      "totalTokens": 441,
-      "tweetId": "2068736857312198928",
-      "tweetText": "What should we improve in the Codex app. What's not delightful?",
-      "tweetUrl": "https://x.com/thsottiaux/status/2068736857312198928",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "KQnfLdAaYE6BSGIUxrSj3jiR1fcxou8NHycG6ofgfEEEhFoh0oBqJ9gmWw",
-    "iv": "Bw8ucRzxdjwK1KDt",
-    "tag": "fg-WCuD3plDUMuEqC0AXxQ",
+    "ciphertext": "favO1BM3KEWpIAQukBx1UXBFxqdxJOmkIrKbw1tVZPSsPAD_yrsk0tPg1w",
+    "iv": "dLgbstHKnaTSCtcD",
+    "tag": "oFQaEP4cTQZ5CLtC9AjwTg",
     "version": 1
   }
 }
