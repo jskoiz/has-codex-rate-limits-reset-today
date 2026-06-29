@@ -14,16 +14,16 @@
   "updatedAt": 1781741564670,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1782708739601,
-      "rationale": "This reply asks about using auto-review and does not mention limits, caps, or resets.",
-      "tweetId": "2071350153080959237",
-      "tweetUrl": "https://x.com/thsottiaux/status/2071350153080959237",
+      "confidence": 0.98,
+      "decidedAt": 1782708742465,
+      "rationale": "This discusses investigating abnormal usage drains, not that any Codex or ChatGPT limits have reset.",
+      "tweetId": "2071357473659707441",
+      "tweetUrl": "https://x.com/thsottiaux/status/2071357473659707441",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2071350153080959237",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2071350153080959237",
+    "lastSeenTweetId": "2071357473659707441",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2071357473659707441",
     "pendingReview": {
       "confidence": 0.97,
       "createdAt": 1782159478255,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2069152499416928256"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.98,
+        "evaluatedAt": 1782708742465,
+        "inputTokens": 455,
+        "outputTokens": 97,
+        "rationale": "This discusses investigating abnormal usage drains, not that any Codex or ChatGPT limits have reset.",
+        "reasoningTokens": 50,
+        "totalTokens": 552,
+        "tweetId": "2071357473659707441",
+        "tweetText": "Codex team is in a warroom on a Sunday combing through logs and checking whether there is anything that could lead to increased usage drains for some users. Taking it very seriously and won't rest until we get to the bottom of it.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2071357473659707441",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1782708739601,
@@ -279,29 +292,31 @@
         "tweetText": "@psviderski Orrrrr maybe we actually like open source software",
         "tweetUrl": "https://x.com/thsottiaux/status/2070010435420762505",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1782322913741,
-        "inputTokens": 487,
-        "outputTokens": 86,
-        "rationale": "This is a reaction to OpenAI’s chip announcement and says nothing about limits or usage resetting.",
-        "reasoningTokens": 39,
-        "totalTokens": 573,
-        "tweetId": "2069837606574289329",
-        "tweetText": "Spicy",
-        "tweetUrl": "https://x.com/thsottiaux/status/2069837606574289329",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 277561,
-      "totalOutputTokens": 74116,
-      "totalReasoningTokens": 40123,
-      "totalTokens": 351677
+      "totalInputTokens": 278016,
+      "totalOutputTokens": 74213,
+      "totalReasoningTokens": 40173,
+      "totalTokens": 352229
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.98,
+      "createdAt": 1782708742465,
+      "inputTokens": 455,
+      "message": "",
+      "outputTokens": 97,
+      "rationale": "This discusses investigating abnormal usage drains, not that any Codex or ChatGPT limits have reset.",
+      "reasoningTokens": 50,
+      "totalTokens": 552,
+      "tweetId": "2071357473659707441",
+      "tweetText": "Codex team is in a warroom on a Sunday combing through logs and checking whether there is anything that could lead to increased usage drains for some users. Taking it very seriously and won't rest until we get to the bottom of it.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2071357473659707441",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1782708739601,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2068792010715324444",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1782065202051,
-      "inputTokens": 364,
-      "message": "",
-      "outputTokens": 77,
-      "rationale": "This reply is conversational and does not mention limits, caps, or resets.",
-      "reasoningTokens": 34,
-      "totalTokens": 441,
-      "tweetId": "2068757167054987547",
-      "tweetText": "@ajambrosino Are you writing temporal logic specs yet",
-      "tweetUrl": "https://x.com/thsottiaux/status/2068757167054987547",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "MTsuueakfo_RATmvGA-7m2FShGagCtS_qo-HEfkuGX0Uz5MjdtlYRZW0jQ",
-    "iv": "xdAWsiD1pDxJLfDF",
-    "tag": "PaaiGX-bDwhUT2_UX0euVA",
+    "ciphertext": "Wl5SlCCWdXhJeQuaQn1hQK-Qx2bNbZO9KKSAU2Ib8ADgfP4HAeT36C5btw",
+    "iv": "2QeQxTsKQ5PmWeWw",
+    "tag": "qKOVpn14pLf3ssjAr1sDXA",
     "version": 1
   }
 }
