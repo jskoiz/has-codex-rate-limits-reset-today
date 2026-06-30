@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1782814141182,
-      "rationale": "This reply describes a Codex workflow and does not mention limits or resets.",
-      "tweetId": "2071897922510164152",
-      "tweetUrl": "https://x.com/thsottiaux/status/2071897922510164152",
+      "decidedAt": 1782814143813,
+      "rationale": "This reply is conversational and says nothing about limits or a reset.",
+      "tweetId": "2071898323577905636",
+      "tweetUrl": "https://x.com/thsottiaux/status/2071898323577905636",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2071897922510164152",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2071897922510164152",
+    "lastSeenTweetId": "2071898323577905636",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2071898323577905636",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1782814143813,
+        "inputTokens": 363,
+        "outputTokens": 67,
+        "rationale": "This reply is conversational and says nothing about limits or a reset.",
+        "reasoningTokens": 26,
+        "totalTokens": 430,
+        "tweetId": "2071898323577905636",
+        "tweetText": "@ah20im @ah20im absolutely cooked here",
+        "tweetUrl": "https://x.com/thsottiaux/status/2071898323577905636",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1782814141182,
@@ -272,29 +285,31 @@
         "tweetText": "@appsicle_ Just do it",
         "tweetUrl": "https://x.com/thsottiaux/status/2071217245611491805",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1782708723393,
-        "inputTokens": 417,
-        "outputTokens": 88,
-        "rationale": "This reply discusses background usage consumption and settings, not a limit reset or restored availability.",
-        "reasoningTokens": 43,
-        "totalTokens": 505,
-        "tweetId": "2071213347849023513",
-        "tweetText": "@rizaardiyanto Three things that can consume usage in the background\n\n- automations\n- memory\n- suggested prompts\n\nand for memory and suggested prompts they use a small percentage, around 1% of the weekly limit each under normal conditions. You can disable all three in the settings if you wish.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2071213347849023513",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 283163,
-      "totalOutputTokens": 75660,
-      "totalReasoningTokens": 41064,
-      "totalTokens": 358823
+      "totalInputTokens": 283526,
+      "totalOutputTokens": 75727,
+      "totalReasoningTokens": 41090,
+      "totalTokens": 359253
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1782814143813,
+      "inputTokens": 363,
+      "message": "",
+      "outputTokens": 67,
+      "rationale": "This reply is conversational and says nothing about limits or a reset.",
+      "reasoningTokens": 26,
+      "totalTokens": 430,
+      "tweetId": "2071898323577905636",
+      "tweetText": "@ah20im @ah20im absolutely cooked here",
+      "tweetUrl": "https://x.com/thsottiaux/status/2071898323577905636",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1782814141183,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2069625300871454742",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.96,
-      "createdAt": 1782283567536,
-      "inputTokens": 389,
-      "message": "",
-      "outputTokens": 144,
-      "rationale": "This post is conversational and does not say or imply that any Codex or ChatGPT usage limits have reset.",
-      "reasoningTokens": 94,
-      "totalTokens": 533,
-      "tweetId": "2069624530960838914",
-      "tweetText": "If you are at OpenAI, you would know that this never happens. Be right back celebrating 5 minutes of peace. https://t.co/kxMOXFsg8s",
-      "tweetUrl": "https://x.com/thsottiaux/status/2069624530960838914",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "A-4tJVYmrdEfcuMCN8ABHfKpGJ_seDz4ltYwguSMPXar8ld_L91yJw3wfg",
-    "iv": "-us60-cUw_qYWUIf",
-    "tag": "Vs7o3wP5_sxJmT2PtUlj4g",
+    "ciphertext": "zgGeEhUYyYS1tO_Y31hZ_hJQueuUEL21efnLJBfGqa_4XwYzkqPOXiy_IQ",
+    "iv": "rvY_FiBOkSmpx5iP",
+    "tag": "nsJAuWcgXAgsGYHlEnPcFw",
     "version": 1
   }
 }
