@@ -1,5 +1,5 @@
 {
-  "currentState": "yes",
+  "currentState": "no",
   "autoResetHours": 20,
   "noSubtitles": [
     "Back to your local model peasant",
@@ -10,22 +10,35 @@
     "Limits reset, go crazy",
     "You can just build things"
   ],
-  "resetAt": 1782848637294,
+  "resetAt": null,
   "updatedAt": 1782776637294,
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1782814143813,
-      "rationale": "This reply is conversational and says nothing about limits or a reset.",
-      "tweetId": "2071898323577905636",
-      "tweetUrl": "https://x.com/thsottiaux/status/2071898323577905636",
+      "decidedAt": 1782871759351,
+      "rationale": "This reply discusses an image on a page and does not mention limits, caps, or resets.",
+      "tweetId": "2072140052008702216",
+      "tweetUrl": "https://x.com/thsottiaux/status/2072140052008702216",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2071898323577905636",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2071898323577905636",
+    "lastSeenTweetId": "2072140052008702216",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2072140052008702216",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1782871759351,
+        "inputTokens": 396,
+        "outputTokens": 74,
+        "rationale": "This reply discusses an image on a page and does not mention limits, caps, or resets.",
+        "reasoningTokens": 27,
+        "totalTokens": 470,
+        "tweetId": "2072140052008702216",
+        "tweetText": "@vezmenov @OpenAI @OpenAIDevs It's one of the images from the testimonials. Scroll through the page, you will see it https://t.co/0QvVOOpJ7j",
+        "tweetUrl": "https://x.com/thsottiaux/status/2072140052008702216",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1782814143813,
@@ -272,29 +285,31 @@
         "tweetText": "@R2Cdev_ y",
         "tweetUrl": "https://x.com/thsottiaux/status/2071217596179861670",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1782708726118,
-        "inputTokens": 359,
-        "outputTokens": 70,
-        "rationale": "This reply does not mention limits, caps, or a reset.",
-        "reasoningTokens": 29,
-        "totalTokens": 429,
-        "tweetId": "2071217245611491805",
-        "tweetText": "@appsicle_ Just do it",
-        "tweetUrl": "https://x.com/thsottiaux/status/2071217245611491805",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 283526,
-      "totalOutputTokens": 75727,
-      "totalReasoningTokens": 41090,
-      "totalTokens": 359253
+      "totalInputTokens": 283922,
+      "totalOutputTokens": 75801,
+      "totalReasoningTokens": 41117,
+      "totalTokens": 359723
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1782871759351,
+      "inputTokens": 396,
+      "message": "",
+      "outputTokens": 74,
+      "rationale": "This reply discusses an image on a page and does not mention limits, caps, or resets.",
+      "reasoningTokens": 27,
+      "totalTokens": 470,
+      "tweetId": "2072140052008702216",
+      "tweetText": "@vezmenov @OpenAI @OpenAIDevs It's one of the images from the testimonials. Scroll through the page, you will see it https://t.co/0QvVOOpJ7j",
+      "tweetUrl": "https://x.com/thsottiaux/status/2072140052008702216",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1782814143813,
@@ -879,27 +894,12 @@
       "tweetUrl": null,
       "type": "error",
       "verdict": null
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1782283569981,
-      "inputTokens": 357,
-      "message": "",
-      "outputTokens": 70,
-      "rationale": "This is just a conversational reply and does not mention limits or a reset.",
-      "reasoningTokens": 27,
-      "totalTokens": 427,
-      "tweetId": "2069625300871454742",
-      "tweetText": "@0xDesigner Nice!",
-      "tweetUrl": "https://x.com/thsottiaux/status/2069625300871454742",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "zgGeEhUYyYS1tO_Y31hZ_hJQueuUEL21efnLJBfGqa_4XwYzkqPOXiy_IQ",
-    "iv": "rvY_FiBOkSmpx5iP",
-    "tag": "nsJAuWcgXAgsGYHlEnPcFw",
+    "ciphertext": "xcnjRaeeOWSzenjrw3sf9i8J9jiwyJnvAHoZMDAMCtGOUs0DOsT24XS_Ng",
+    "iv": "-kQ_r-xTTdKwv7Eb",
+    "tag": "Lun2PDGuNIL4umk-C6fKOA",
     "version": 1
   }
 }
