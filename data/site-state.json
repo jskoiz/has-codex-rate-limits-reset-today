@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1782871759351,
-      "rationale": "This reply discusses an image on a page and does not mention limits, caps, or resets.",
-      "tweetId": "2072140052008702216",
-      "tweetUrl": "https://x.com/thsottiaux/status/2072140052008702216",
+      "decidedAt": 1782871762604,
+      "rationale": "This reply is just conversational and does not mention limits, caps, or a reset.",
+      "tweetId": "2072140190919905511",
+      "tweetUrl": "https://x.com/thsottiaux/status/2072140190919905511",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2072140052008702216",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2072140052008702216",
+    "lastSeenTweetId": "2072140190919905511",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2072140190919905511",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1782871762604,
+        "inputTokens": 358,
+        "outputTokens": 77,
+        "rationale": "This reply is just conversational and does not mention limits, caps, or a reset.",
+        "reasoningTokens": 32,
+        "totalTokens": 435,
+        "tweetId": "2072140190919905511",
+        "tweetText": "@vezmenov Appreciate you",
+        "tweetUrl": "https://x.com/thsottiaux/status/2072140190919905511",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1782871759351,
@@ -272,29 +285,31 @@
         "tweetText": "@Conor_D_Dart No mate, that is not correct",
         "tweetUrl": "https://x.com/thsottiaux/status/2071328893735219327",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1782708728432,
-        "inputTokens": 359,
-        "outputTokens": 82,
-        "rationale": "This is just a brief reply and gives no indication that any ChatGPT or Codex limits have reset.",
-        "reasoningTokens": 33,
-        "totalTokens": 441,
-        "tweetId": "2071217596179861670",
-        "tweetText": "@R2Cdev_ y",
-        "tweetUrl": "https://x.com/thsottiaux/status/2071217596179861670",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 283922,
-      "totalOutputTokens": 75801,
-      "totalReasoningTokens": 41117,
-      "totalTokens": 359723
+      "totalInputTokens": 284280,
+      "totalOutputTokens": 75878,
+      "totalReasoningTokens": 41149,
+      "totalTokens": 360158
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1782871762604,
+      "inputTokens": 358,
+      "message": "",
+      "outputTokens": 77,
+      "rationale": "This reply is just conversational and does not mention limits, caps, or a reset.",
+      "reasoningTokens": 32,
+      "totalTokens": 435,
+      "tweetId": "2072140190919905511",
+      "tweetText": "@vezmenov Appreciate you",
+      "tweetUrl": "https://x.com/thsottiaux/status/2072140190919905511",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1782871759351,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2069837606574289329",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0,
-      "createdAt": 1782305591973,
-      "inputTokens": 0,
-      "message": "GitHub raw read failed with 401",
-      "outputTokens": 0,
-      "rationale": "",
-      "reasoningTokens": 0,
-      "totalTokens": 0,
-      "tweetId": null,
-      "tweetText": "",
-      "tweetUrl": null,
-      "type": "error",
-      "verdict": null
     }
   ],
   "privateState": {
-    "ciphertext": "xcnjRaeeOWSzenjrw3sf9i8J9jiwyJnvAHoZMDAMCtGOUs0DOsT24XS_Ng",
-    "iv": "-kQ_r-xTTdKwv7Eb",
-    "tag": "Lun2PDGuNIL4umk-C6fKOA",
+    "ciphertext": "Nvoq-IMNYQtdbLNjik7UiJKBbZ0YWbIxTPswpuTO3Jfc1KmiSxIHtMxIWw",
+    "iv": "UKfurEGHvxIv69VO",
+    "tag": "pf0amrZfs2I3kWcusMR8dg",
     "version": 1
   }
 }
