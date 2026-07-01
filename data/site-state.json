@@ -14,18 +14,31 @@
   "updatedAt": 1782776637294,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1782936073082,
-      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-      "tweetId": "2072409369786851678",
-      "tweetUrl": "https://x.com/thsottiaux/status/2072409369786851678",
+      "confidence": 0.95,
+      "decidedAt": 1782936400160,
+      "rationale": "This is an event promo about seeing a Codex reset button demo, not a clear statement that public usage limits have…",
+      "tweetId": "2072410623380468190",
+      "tweetUrl": "https://x.com/thsottiaux/status/2072410623380468190",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2072409369786851678",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2072409369786851678",
+    "lastSeenTweetId": "2072410623380468190",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2072410623380468190",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.95,
+        "evaluatedAt": 1782936400160,
+        "inputTokens": 460,
+        "outputTokens": 245,
+        "rationale": "This is an event promo about seeing a Codex reset button demo, not a clear statement that public usage limits have…",
+        "reasoningTokens": 191,
+        "totalTokens": 705,
+        "tweetId": "2072410623380468190",
+        "tweetText": "It's happening",
+        "tweetUrl": "https://x.com/thsottiaux/status/2072410623380468190",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1782936073082,
@@ -272,29 +285,31 @@
         "tweetText": "Going from pro to plus gets you less usage, so if you already consumed your pro limits, downgrading to plus will not reset things for you. \n\nIt's like buying a large coffee at starbucks, drinking it and then throwing the cup away and asking for a smaller cup. You wouldn't expect coffee to be in the small cup I think?",
         "tweetUrl": "https://x.com/thsottiaux/status/2071329580829319493",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1782708734310,
-        "inputTokens": 418,
-        "outputTokens": 85,
-        "rationale": "It discusses what consumes weekly usage in the background, not a limit reset or restored availability.",
-        "reasoningTokens": 39,
-        "totalTokens": 503,
-        "tweetId": "2071329159037481032",
-        "tweetText": "Three things that can consume usage in the background  \n\n- automations \n- memory \n- suggested prompts  \n\nand for memory and suggested prompts they use a small percentage, around 1% of the weekly limit each under normal conditions. You can disable all three in the settings if you wish.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2071329159037481032",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 284639,
-      "totalOutputTokens": 75953,
-      "totalReasoningTokens": 41180,
-      "totalTokens": 360592
+      "totalInputTokens": 285099,
+      "totalOutputTokens": 76198,
+      "totalReasoningTokens": 41371,
+      "totalTokens": 361297
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.95,
+      "createdAt": 1782936400160,
+      "inputTokens": 460,
+      "message": "",
+      "outputTokens": 245,
+      "rationale": "This is an event promo about seeing a Codex reset button demo, not a clear statement that public usage limits have…",
+      "reasoningTokens": 191,
+      "totalTokens": 705,
+      "tweetId": "2072410623380468190",
+      "tweetText": "It's happening",
+      "tweetUrl": "https://x.com/thsottiaux/status/2072410623380468190",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1782936073082,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2070010718288843204",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1782363988628,
-      "inputTokens": 366,
-      "message": "",
-      "outputTokens": 81,
-      "rationale": "This reply is about open source software and does not mention limits or resets.",
-      "reasoningTokens": 38,
-      "totalTokens": 447,
-      "tweetId": "2070010435420762505",
-      "tweetText": "@psviderski Orrrrr maybe we actually like open source software",
-      "tweetUrl": "https://x.com/thsottiaux/status/2070010435420762505",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "Cub_IrNLUvUmdIWA23wPYbxQKWzyyFTPx1ravjzpGa95Rc_Wbo4d2eC9lQ",
-    "iv": "SleigqhfQx7_my6G",
-    "tag": "qqvOkSjz4O4xS8ie028dGA",
+    "ciphertext": "gIDcTpfL6fdY8tKyn42oz91uzcyXKh-X2xKy82Jwaj5tN4NR9Ed6_enYbA",
+    "iv": "0IXoerR-RMjEZSXT",
+    "tag": "wDyQk_eXUpxGhzrZ9egESQ",
     "version": 1
   }
 }
