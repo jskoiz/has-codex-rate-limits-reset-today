@@ -14,18 +14,38 @@
   "updatedAt": 1782776637294,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1782983258613,
-      "rationale": "This is a general comment about a model release and does not indicate any limits or caps have reset.",
-      "tweetId": "2072607914217320644",
-      "tweetUrl": "https://x.com/thsottiaux/status/2072607914217320644",
-      "verdict": "not_reset"
+      "confidence": 0.68,
+      "decidedAt": 1782983566172,
+      "rationale": "This sounds like something was added to accounts, but it does not clearly say rate limits or usage caps have reset.",
+      "tweetId": "2072608196993188002",
+      "tweetUrl": "https://x.com/thsottiaux/status/2072608196993188002",
+      "verdict": "uncertain"
     },
     "lastError": null,
-    "lastSeenTweetId": "2072607914217320644",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2072607914217320644",
-    "pendingReview": null,
+    "lastSeenTweetId": "2072608196993188002",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2072608196993188002",
+    "pendingReview": {
+      "confidence": 0.68,
+      "createdAt": 1782983566172,
+      "rationale": "This sounds like something was added to accounts, but it does not clearly say rate limits or usage caps have reset.",
+      "tweetId": "2072608196993188002",
+      "tweetText": "@LexnLin Should be in your little piggy bank. It is for everyone. Let me know if it doesn't show in your account and we'll definitely investigate.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2072608196993188002"
+    },
     "recentEvaluations": [
+      {
+        "confidence": 0.68,
+        "evaluatedAt": 1782983566172,
+        "inputTokens": 384,
+        "outputTokens": 225,
+        "rationale": "This sounds like something was added to accounts, but it does not clearly say rate limits or usage caps have reset.",
+        "reasoningTokens": 174,
+        "totalTokens": 609,
+        "tweetId": "2072608196993188002",
+        "tweetText": "@LexnLin Should be in your little piggy bank. It is for everyone. Let me know if it doesn't show in your account and we'll definitely investigate.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2072608196993188002",
+        "verdict": "uncertain"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1782983258613,
@@ -272,29 +292,31 @@
         "tweetText": "Codex team is in a warroom on a Sunday combing through logs and checking whether there is anything that could lead to increased usage drains for some users. Taking it very seriously and won't rest until we get to the bottom of it.",
         "tweetUrl": "https://x.com/thsottiaux/status/2071357473659707441",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1782708739601,
-        "inputTokens": 364,
-        "outputTokens": 82,
-        "rationale": "This reply asks about using auto-review and does not mention limits, caps, or resets.",
-        "reasoningTokens": 36,
-        "totalTokens": 446,
-        "tweetId": "2071350153080959237",
-        "tweetText": "@SAlbahra Do you use \"auto-review\"?",
-        "tweetUrl": "https://x.com/thsottiaux/status/2071350153080959237",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 285475,
-      "totalOutputTokens": 76276,
-      "totalReasoningTokens": 41401,
-      "totalTokens": 361751
+      "totalInputTokens": 285859,
+      "totalOutputTokens": 76501,
+      "totalReasoningTokens": 41575,
+      "totalTokens": 362360
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.68,
+      "createdAt": 1782983566172,
+      "inputTokens": 384,
+      "message": "",
+      "outputTokens": 225,
+      "rationale": "This sounds like something was added to accounts, but it does not clearly say rate limits or usage caps have reset.",
+      "reasoningTokens": 174,
+      "totalTokens": 609,
+      "tweetId": "2072608196993188002",
+      "tweetText": "@LexnLin Should be in your little piggy bank. It is for everyone. Let me know if it doesn't show in your account and we'll definitely investigate.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2072608196993188002",
+      "type": "review_requested",
+      "verdict": "uncertain"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1782983258613,
@@ -879,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2070205719501254860",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1782410550248,
-      "inputTokens": 471,
-      "message": "",
-      "outputTokens": 86,
-      "rationale": "This is a promotional post about Codex usage at OpenAI, not about limits or availability resetting.",
-      "reasoningTokens": 38,
-      "totalTokens": 557,
-      "tweetId": "2070205520552886305",
-      "tweetText": "Codex for everything at OpenAI https://t.co/6mFz5XQiJd",
-      "tweetUrl": "https://x.com/thsottiaux/status/2070205520552886305",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "5QGrWbI8tM8QYGdSfhyqWn3EsbnYaVtiyK6_0EaYjFPquEA_pImKMzArXw",
-    "iv": "YYhnKnnxPHDtSDo2",
-    "tag": "RNLK0gFRS0LKLb7iL0kyXw",
+    "ciphertext": "1myV4WHHx8L18HfuS9VS9lM1nKVzPdzaprxDj8lylr8ZcxZymEeerbIGlQ",
+    "iv": "MCWg3duoIBAUpM75",
+    "tag": "tt9CAlDVXR1eS_xJoMXN8w",
     "version": 1
   }
 }
