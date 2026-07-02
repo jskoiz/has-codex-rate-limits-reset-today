@@ -14,18 +14,31 @@
   "updatedAt": 1782776637294,
   "automation": {
     "lastDecision": {
-      "confidence": 0.95,
-      "decidedAt": 1782936400160,
-      "rationale": "This is an event promo about seeing a Codex reset button demo, not a clear statement that public usage limits have…",
-      "tweetId": "2072410623380468190",
-      "tweetUrl": "https://x.com/thsottiaux/status/2072410623380468190",
+      "confidence": 0.99,
+      "decidedAt": 1782983258613,
+      "rationale": "This is a general comment about a model release and does not indicate any limits or caps have reset.",
+      "tweetId": "2072607914217320644",
+      "tweetUrl": "https://x.com/thsottiaux/status/2072607914217320644",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2072410623380468190",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2072410623380468190",
+    "lastSeenTweetId": "2072607914217320644",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2072607914217320644",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1782983258613,
+        "inputTokens": 376,
+        "outputTokens": 78,
+        "rationale": "This is a general comment about a model release and does not indicate any limits or caps have reset.",
+        "reasoningTokens": 30,
+        "totalTokens": 454,
+        "tweetId": "2072607914217320644",
+        "tweetText": "Can't wait to see what people will do with GPT-5.6 Sol Ultra. Stash your hardest prompts somewhere.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2072607914217320644",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.95,
         "evaluatedAt": 1782936400160,
@@ -272,29 +285,31 @@
         "tweetText": "@SAlbahra Do you use \"auto-review\"?",
         "tweetUrl": "https://x.com/thsottiaux/status/2071350153080959237",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.98,
-        "evaluatedAt": 1782708737092,
-        "inputTokens": 424,
-        "outputTokens": 91,
-        "rationale": "The post explicitly says downgrading plans will not reset usage limits.",
-        "reasoningTokens": 49,
-        "totalTokens": 515,
-        "tweetId": "2071329580829319493",
-        "tweetText": "Going from pro to plus gets you less usage, so if you already consumed your pro limits, downgrading to plus will not reset things for you. \n\nIt's like buying a large coffee at starbucks, drinking it and then throwing the cup away and asking for a smaller cup. You wouldn't expect coffee to be in the small cup I think?",
-        "tweetUrl": "https://x.com/thsottiaux/status/2071329580829319493",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 285099,
-      "totalOutputTokens": 76198,
-      "totalReasoningTokens": 41371,
-      "totalTokens": 361297
+      "totalInputTokens": 285475,
+      "totalOutputTokens": 76276,
+      "totalReasoningTokens": 41401,
+      "totalTokens": 361751
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1782983258613,
+      "inputTokens": 376,
+      "message": "",
+      "outputTokens": 78,
+      "rationale": "This is a general comment about a model release and does not indicate any limits or caps have reset.",
+      "reasoningTokens": 30,
+      "totalTokens": 454,
+      "tweetId": "2072607914217320644",
+      "tweetText": "Can't wait to see what people will do with GPT-5.6 Sol Ultra. Stash your hardest prompts somewhere.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2072607914217320644",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.95,
       "createdAt": 1782936400160,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2070205520552886305",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1782364300477,
-      "inputTokens": 365,
-      "message": "",
-      "outputTokens": 64,
-      "rationale": "This post is casual commentary and does not mention limits, caps, or usage becoming available again.",
-      "reasoningTokens": 17,
-      "totalTokens": 429,
-      "tweetId": "2070010718288843204",
-      "tweetText": "At times our internal Slack is at least as fun as twitter.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2070010718288843204",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "gIDcTpfL6fdY8tKyn42oz91uzcyXKh-X2xKy82Jwaj5tN4NR9Ed6_enYbA",
-    "iv": "0IXoerR-RMjEZSXT",
-    "tag": "wDyQk_eXUpxGhzrZ9egESQ",
+    "ciphertext": "5QGrWbI8tM8QYGdSfhyqWn3EsbnYaVtiyK6_0EaYjFPquEA_pImKMzArXw",
+    "iv": "YYhnKnnxPHDtSDo2",
+    "tag": "RNLK0gFRS0LKLb7iL0kyXw",
     "version": 1
   }
 }
