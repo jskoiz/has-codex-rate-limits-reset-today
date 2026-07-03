@@ -21,7 +21,7 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2072608196993188002",
       "verdict": "uncertain"
     },
-    "lastError": null,
+    "lastError": "Tweet fetch failed: Request failed with status code 404 (Request failed with status code 404)",
     "lastSeenTweetId": "2072608196993188002",
     "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2072608196993188002",
     "pendingReview": {
@@ -302,6 +302,21 @@
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0,
+      "createdAt": 1783073245600,
+      "inputTokens": 0,
+      "message": "Tweet fetch failed: Request failed with status code 404 (Request failed with status code 404)",
+      "outputTokens": 0,
+      "rationale": "",
+      "reasoningTokens": 0,
+      "totalTokens": 0,
+      "tweetId": null,
+      "tweetText": "",
+      "tweetUrl": null,
+      "type": "error",
+      "verdict": null
+    },
     {
       "confidence": 0.68,
       "createdAt": 1782983566172,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2070327657720603101",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1782410553572,
-      "inputTokens": 387,
-      "message": "",
-      "outputTokens": 66,
-      "rationale": "This reply discusses Codex app adoption and says nothing about limits or availability resetting.",
-      "reasoningTokens": 22,
-      "totalTokens": 453,
-      "tweetId": "2070205719501254860",
-      "tweetText": "February 2nd was the release of the Codex App. You can see what it did to adoption outside of engineering.\n\n👀 @ajambrosino",
-      "tweetUrl": "https://x.com/thsottiaux/status/2070205719501254860",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "1myV4WHHx8L18HfuS9VS9lM1nKVzPdzaprxDj8lylr8ZcxZymEeerbIGlQ",
-    "iv": "MCWg3duoIBAUpM75",
-    "tag": "tt9CAlDVXR1eS_xJoMXN8w",
+    "ciphertext": "AqYBPVm5f22jNCmLhW5YPA-2EQ87WgN57T6J-xqk8GWnbX2oDHPq4B8uHg",
+    "iv": "yIFWDIEOAc6KuA2q",
+    "tag": "maEVfZkKaQni9UWUkcmSOA",
     "version": 1
   }
 }
