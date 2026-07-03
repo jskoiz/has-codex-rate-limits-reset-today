@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1783095536800,
-      "rationale": "This reply suggests buying a Codex subscription and does not mention limits resetting.",
-      "tweetId": "2073078115132137756",
-      "tweetUrl": "https://x.com/thsottiaux/status/2073078115132137756",
+      "decidedAt": 1783095837671,
+      "rationale": "This post does not mention Codex or ChatGPT limits resetting or becoming available again.",
+      "tweetId": "2073079378808901663",
+      "tweetUrl": "https://x.com/thsottiaux/status/2073079378808901663",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2073078115132137756",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2073078115132137756",
+    "lastSeenTweetId": "2073079378808901663",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2073079378808901663",
     "pendingReview": {
       "confidence": 0.96,
       "createdAt": 1783086882235,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2073041653087023525"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1783095837671,
+        "inputTokens": 370,
+        "outputTokens": 80,
+        "rationale": "This post does not mention Codex or ChatGPT limits resetting or becoming available again.",
+        "reasoningTokens": 35,
+        "totalTokens": 450,
+        "tweetId": "2073079378808901663",
+        "tweetText": "What it could have been https://t.co/HAzHOFvIzd",
+        "tweetUrl": "https://x.com/thsottiaux/status/2073079378808901663",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1783095536800,
@@ -279,29 +292,31 @@
         "tweetText": "If you happened to have used your previous reset in the few hours before and didn't go through your usage, do not worry, you will get more manual resets after we conclude the investigation.",
         "tweetUrl": "https://x.com/thsottiaux/status/2071383430634344902",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1782708750071,
-        "inputTokens": 513,
-        "outputTokens": 108,
-        "rationale": "The tweet explicitly says everyone's Codex usage limits have been hard reset and are available again now.",
-        "reasoningTokens": 60,
-        "totalTokens": 621,
-        "tweetId": "2071381664853319742",
-        "tweetText": "As we are still investigating, I have reset everyone's Codex usage limits. This is a hard reset given some users had stacked up to three banked resets already that they can apply on their own schedule.\n\nFunnily enough, this week at OpenAI is called the RESET week, which is meant for folks to relax a bit. However it will be a different kind of RESET week. Enjoy.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2071381664853319742",
-        "verdict": "reset_confirmed"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 286945,
-      "totalOutputTokens": 76847,
-      "totalReasoningTokens": 41792,
-      "totalTokens": 363792
+      "totalInputTokens": 287315,
+      "totalOutputTokens": 76927,
+      "totalReasoningTokens": 41827,
+      "totalTokens": 364242
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1783095837671,
+      "inputTokens": 370,
+      "message": "",
+      "outputTokens": 80,
+      "rationale": "This post does not mention Codex or ChatGPT limits resetting or becoming available again.",
+      "reasoningTokens": 35,
+      "totalTokens": 450,
+      "tweetId": "2073079378808901663",
+      "tweetText": "What it could have been https://t.co/HAzHOFvIzd",
+      "tweetUrl": "https://x.com/thsottiaux/status/2073079378808901663",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1783095536800,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2070341600203714686",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1782442710918,
-      "inputTokens": 373,
-      "message": "",
-      "outputTokens": 101,
-      "rationale": "This reply is just conversational about apps and does not mention limits, caps, or resets.",
-      "reasoningTokens": 55,
-      "totalTokens": 474,
-      "tweetId": "2070339854953787432",
-      "tweetText": "@0xPrajwal_ Spend $1M or make $1M? Different apps for each",
-      "tweetUrl": "https://x.com/thsottiaux/status/2070339854953787432",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "kOJmhQEf10Cd53umgCZ3ImGyrShhmhOG2YXWYOShzXVUlfUaQqwDNj7T4w",
-    "iv": "2_QdXGRhSVuY536g",
-    "tag": "G3CDWD1bE7nUDGjC5DPFaA",
+    "ciphertext": "aYhg0kNemKQ-oPNwQ7bJGBi80KcualMNSjQQVzCg4MgoS7xMMREB5t2wwA",
+    "iv": "xcehlV0lWKmH0k9z",
+    "tag": "eZbhkhLXJlN56rv6odX8Gg",
     "version": 1
   }
 }
