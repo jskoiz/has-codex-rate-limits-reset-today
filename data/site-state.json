@@ -14,16 +14,16 @@
   "updatedAt": 1782776637294,
   "automation": {
     "lastDecision": {
-      "confidence": 0.68,
-      "decidedAt": 1782983566172,
-      "rationale": "This sounds like something was added to accounts, but it does not clearly say rate limits or usage caps have reset.",
-      "tweetId": "2072608196993188002",
-      "tweetUrl": "https://x.com/thsottiaux/status/2072608196993188002",
-      "verdict": "uncertain"
+      "confidence": 0.98,
+      "decidedAt": 1783086560988,
+      "rationale": "This is just a conversational reply and does not indicate any rate-limit reset.",
+      "tweetId": "2073040599461101578",
+      "tweetUrl": "https://x.com/thsottiaux/status/2073040599461101578",
+      "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2072608196993188002",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2072608196993188002",
+    "lastSeenTweetId": "2073040599461101578",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2073040599461101578",
     "pendingReview": {
       "confidence": 0.68,
       "createdAt": 1782983566172,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2072608196993188002"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.98,
+        "evaluatedAt": 1783086560988,
+        "inputTokens": 358,
+        "outputTokens": 84,
+        "rationale": "This is just a conversational reply and does not indicate any rate-limit reset.",
+        "reasoningTokens": 41,
+        "totalTokens": 442,
+        "tweetId": "2073040599461101578",
+        "tweetText": "@LexnLin Let's see",
+        "tweetUrl": "https://x.com/thsottiaux/status/2073040599461101578",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.68,
         "evaluatedAt": 1782983566172,
@@ -279,29 +292,31 @@
         "tweetText": "@Dimillian Not curating your Youtube enough I see",
         "tweetUrl": "https://x.com/thsottiaux/status/2071357780313645541",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.98,
-        "evaluatedAt": 1782708742465,
-        "inputTokens": 455,
-        "outputTokens": 97,
-        "rationale": "This discusses investigating abnormal usage drains, not that any Codex or ChatGPT limits have reset.",
-        "reasoningTokens": 50,
-        "totalTokens": 552,
-        "tweetId": "2071357473659707441",
-        "tweetText": "Codex team is in a warroom on a Sunday combing through logs and checking whether there is anything that could lead to increased usage drains for some users. Taking it very seriously and won't rest until we get to the bottom of it.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2071357473659707441",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 285859,
-      "totalOutputTokens": 76501,
-      "totalReasoningTokens": 41575,
-      "totalTokens": 362360
+      "totalInputTokens": 286217,
+      "totalOutputTokens": 76585,
+      "totalReasoningTokens": 41616,
+      "totalTokens": 362802
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.98,
+      "createdAt": 1783086560988,
+      "inputTokens": 358,
+      "message": "",
+      "outputTokens": 84,
+      "rationale": "This is just a conversational reply and does not indicate any rate-limit reset.",
+      "reasoningTokens": 41,
+      "totalTokens": 442,
+      "tweetId": "2073040599461101578",
+      "tweetText": "@LexnLin Let's see",
+      "tweetUrl": "https://x.com/thsottiaux/status/2073040599461101578",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0,
       "createdAt": 1783085653151,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2070339320259711183",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.98,
-      "createdAt": 1782439606531,
-      "inputTokens": 358,
-      "message": "",
-      "outputTokens": 99,
-      "rationale": "This is just a conversational reply and gives no indication that any limits have reset.",
-      "reasoningTokens": 55,
-      "totalTokens": 457,
-      "tweetId": "2070327657720603101",
-      "tweetText": "@0xSero Totally",
-      "tweetUrl": "https://x.com/thsottiaux/status/2070327657720603101",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "Zb8VLuW165BLg8qCXVh4qw-CnQlU60l0L1ELIkl5JI2TME4AqNEW57HTJg",
-    "iv": "Zz50lJ0W0sKUqmMa",
-    "tag": "CgDqi4tNWbsk0MnepQMBYg",
+    "ciphertext": "SIsE3tNaSn9LXj0kOTEQ4lC6mBZIjy1fgGLgJmD0PWjVNLj7gEnzpGELpg",
+    "iv": "rF1qctDXl20b0pGI",
+    "tag": "D8GQV5sf79JFQUu9zOr12A",
     "version": 1
   }
 }
