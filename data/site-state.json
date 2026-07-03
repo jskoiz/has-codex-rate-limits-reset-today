@@ -14,16 +14,16 @@
   "updatedAt": 1782776637294,
   "automation": {
     "lastDecision": {
-      "confidence": 0.96,
-      "decidedAt": 1783086882235,
-      "rationale": "This reply alone does not clearly indicate that any limit or cap has reset.",
-      "tweetId": "2073041653087023525",
-      "tweetUrl": "https://x.com/thsottiaux/status/2073041653087023525",
-      "verdict": "uncertain"
+      "confidence": 0.99,
+      "decidedAt": 1783095536800,
+      "rationale": "This reply suggests buying a Codex subscription and does not mention limits resetting.",
+      "tweetId": "2073078115132137756",
+      "tweetUrl": "https://x.com/thsottiaux/status/2073078115132137756",
+      "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2073041653087023525",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2073041653087023525",
+    "lastSeenTweetId": "2073078115132137756",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2073078115132137756",
     "pendingReview": {
       "confidence": 0.96,
       "createdAt": 1783086882235,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2073041653087023525"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1783095536800,
+        "inputTokens": 370,
+        "outputTokens": 95,
+        "rationale": "This reply suggests buying a Codex subscription and does not mention limits resetting.",
+        "reasoningTokens": 52,
+        "totalTokens": 465,
+        "tweetId": "2073078115132137756",
+        "tweetText": "@adilmania @g0da_s Give her a codex subscription and make her day",
+        "tweetUrl": "https://x.com/thsottiaux/status/2073078115132137756",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.96,
         "evaluatedAt": 1783086882235,
@@ -279,29 +292,31 @@
         "tweetText": "As we are still investigating, I have reset everyone's Codex usage limits. This is a hard reset given some users had stacked up to three banked resets already that they can apply on their own schedule.\n\nFunnily enough, this week at OpenAI is called the RESET week, which is meant for folks to relax a bit. However it will be a different kind of RESET week. Enjoy.",
         "tweetUrl": "https://x.com/thsottiaux/status/2071381664853319742",
         "verdict": "reset_confirmed"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1782708747540,
-        "inputTokens": 380,
-        "outputTokens": 70,
-        "rationale": "This reply discusses model routing for auto review and says nothing about limits or resets.",
-        "reasoningTokens": 26,
-        "totalTokens": 450,
-        "tweetId": "2071360845309714620",
-        "tweetText": "@solipsnitsyn Auto review is using GPT-5.4. We do not route. Do not spread misinformation, thank you.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2071360845309714620",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 286575,
-      "totalOutputTokens": 76752,
-      "totalReasoningTokens": 41740,
-      "totalTokens": 363327
+      "totalInputTokens": 286945,
+      "totalOutputTokens": 76847,
+      "totalReasoningTokens": 41792,
+      "totalTokens": 363792
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1783095536800,
+      "inputTokens": 370,
+      "message": "",
+      "outputTokens": 95,
+      "rationale": "This reply suggests buying a Codex subscription and does not mention limits resetting.",
+      "reasoningTokens": 52,
+      "totalTokens": 465,
+      "tweetId": "2073078115132137756",
+      "tweetText": "@adilmania @g0da_s Give her a codex subscription and make her day",
+      "tweetUrl": "https://x.com/thsottiaux/status/2073078115132137756",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.96,
       "createdAt": 1783086882235,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2070339854953787432",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1782442706867,
-      "inputTokens": 360,
-      "message": "",
-      "outputTokens": 95,
-      "rationale": "This reply is conversational and gives no indication that any limits or caps have reset.",
-      "reasoningTokens": 51,
-      "totalTokens": 455,
-      "tweetId": "2070339574702997674",
-      "tweetText": "@argofowl Light as a feather",
-      "tweetUrl": "https://x.com/thsottiaux/status/2070339574702997674",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "V4PrAu3Rr_XvVgMVEyro24e7JL1nMpSEZ91vQHjaH5NQK37ofd_-E1eHrg",
-    "iv": "ilUX2f8MsV7RYt8r",
-    "tag": "QwEA6v30hDySWa6dDUPl9Q",
+    "ciphertext": "kOJmhQEf10Cd53umgCZ3ImGyrShhmhOG2YXWYOShzXVUlfUaQqwDNj7T4w",
+    "iv": "2_QdXGRhSVuY536g",
+    "tag": "G3CDWD1bE7nUDGjC5DPFaA",
     "version": 1
   }
 }
