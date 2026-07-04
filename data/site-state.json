@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1783197853428,
-      "rationale": "This is a conversational joke about ChatGPT and Codex, not a limit reset announcement.",
-      "tweetId": "2073506936725581911",
-      "tweetUrl": "https://x.com/thsottiaux/status/2073506936725581911",
+      "decidedAt": 1783197855857,
+      "rationale": "This reply discusses model training and does not mention any limit, cap, or rate-limit reset.",
+      "tweetId": "2073507252544180478",
+      "tweetUrl": "https://x.com/thsottiaux/status/2073507252544180478",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2073506936725581911",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2073506936725581911",
+    "lastSeenTweetId": "2073507252544180478",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2073507252544180478",
     "pendingReview": {
       "confidence": 0.96,
       "createdAt": 1783086882235,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2073041653087023525"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1783197855857,
+        "inputTokens": 371,
+        "outputTokens": 89,
+        "rationale": "This reply discusses model training and does not mention any limit, cap, or rate-limit reset.",
+        "reasoningTokens": 42,
+        "totalTokens": 460,
+        "tweetId": "2073507252544180478",
+        "tweetText": "@l_hey_l @hqmank Did you think we would stop training models after Sol?",
+        "tweetUrl": "https://x.com/thsottiaux/status/2073507252544180478",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1783197853428,
@@ -279,29 +292,31 @@
         "tweetText": "@ah20im @ah20im absolutely cooked here",
         "tweetUrl": "https://x.com/thsottiaux/status/2071898323577905636",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1782814141182,
-        "inputTokens": 407,
-        "outputTokens": 73,
-        "rationale": "This reply describes a Codex workflow and does not mention limits or resets.",
-        "reasoningTokens": 30,
-        "totalTokens": 480,
-        "tweetId": "2071897922510164152",
-        "tweetText": "@iamsahaj_xyz I personally DM it to Codex and it stores it into my notes folder all neatly organized. Some things it then just does itself and for the rest it reminds me of things I need to do a few when I have free time based on my calendar",
-        "tweetUrl": "https://x.com/thsottiaux/status/2071897922510164152",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 290365,
-      "totalOutputTokens": 77788,
-      "totalReasoningTokens": 42322,
-      "totalTokens": 368153
+      "totalInputTokens": 290736,
+      "totalOutputTokens": 77877,
+      "totalReasoningTokens": 42364,
+      "totalTokens": 368613
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1783197855857,
+      "inputTokens": 371,
+      "message": "",
+      "outputTokens": 89,
+      "rationale": "This reply discusses model training and does not mention any limit, cap, or rate-limit reset.",
+      "reasoningTokens": 42,
+      "totalTokens": 460,
+      "tweetId": "2073507252544180478",
+      "tweetText": "@l_hey_l @hqmank Did you think we would stop training models after Sol?",
+      "tweetUrl": "https://x.com/thsottiaux/status/2073507252544180478",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1783197853428,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2071217245611491805",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1782708723393,
-      "inputTokens": 417,
-      "message": "",
-      "outputTokens": 88,
-      "rationale": "This reply discusses background usage consumption and settings, not a limit reset or restored availability.",
-      "reasoningTokens": 43,
-      "totalTokens": 505,
-      "tweetId": "2071213347849023513",
-      "tweetText": "@rizaardiyanto Three things that can consume usage in the background\n\n- automations\n- memory\n- suggested prompts\n\nand for memory and suggested prompts they use a small percentage, around 1% of the weekly limit each under normal conditions. You can disable all three in the settings if you wish.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2071213347849023513",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "-mv_8LpCqe-9miyXMC21cuBu6zMgeQfZn09gNTstNnquTEYi_Quh9dvjXg",
-    "iv": "ZXlUcYJCceo6yObK",
-    "tag": "e8zYvw62KH10FXjesvaDvg",
+    "ciphertext": "it6IRt87GRVOVtRqgzTpDGh6sXQHwksbhqTLtpQ3-OACyquSHy02xUd0rA",
+    "iv": "mbWLRVZcK_bHqj84",
+    "tag": "bYt9I_SoUBPDqCZyOyt89w",
     "version": 1
   }
 }
