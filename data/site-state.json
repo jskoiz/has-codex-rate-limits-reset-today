@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1783197855857,
-      "rationale": "This reply discusses model training and does not mention any limit, cap, or rate-limit reset.",
-      "tweetId": "2073507252544180478",
-      "tweetUrl": "https://x.com/thsottiaux/status/2073507252544180478",
+      "decidedAt": 1783198158769,
+      "rationale": "This is just a conversational reply and does not indicate any rate-limit or cap reset.",
+      "tweetId": "2073508703764906111",
+      "tweetUrl": "https://x.com/thsottiaux/status/2073508703764906111",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2073507252544180478",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2073507252544180478",
+    "lastSeenTweetId": "2073508703764906111",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2073508703764906111",
     "pendingReview": {
       "confidence": 0.96,
       "createdAt": 1783086882235,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2073041653087023525"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1783198158769,
+        "inputTokens": 366,
+        "outputTokens": 91,
+        "rationale": "This is just a conversational reply and does not indicate any rate-limit or cap reset.",
+        "reasoningTokens": 46,
+        "totalTokens": 457,
+        "tweetId": "2073508703764906111",
+        "tweetText": "@Alex_m @mark_k @OpenAI No. Tell me more",
+        "tweetUrl": "https://x.com/thsottiaux/status/2073508703764906111",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1783197855857,
@@ -279,29 +292,31 @@
         "tweetText": "@vezmenov @OpenAI @OpenAIDevs It's one of the images from the testimonials. Scroll through the page, you will see it https://t.co/0QvVOOpJ7j",
         "tweetUrl": "https://x.com/thsottiaux/status/2072140052008702216",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1782814143813,
-        "inputTokens": 363,
-        "outputTokens": 67,
-        "rationale": "This reply is conversational and says nothing about limits or a reset.",
-        "reasoningTokens": 26,
-        "totalTokens": 430,
-        "tweetId": "2071898323577905636",
-        "tweetText": "@ah20im @ah20im absolutely cooked here",
-        "tweetUrl": "https://x.com/thsottiaux/status/2071898323577905636",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 290736,
-      "totalOutputTokens": 77877,
-      "totalReasoningTokens": 42364,
-      "totalTokens": 368613
+      "totalInputTokens": 291102,
+      "totalOutputTokens": 77968,
+      "totalReasoningTokens": 42410,
+      "totalTokens": 369070
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1783198158769,
+      "inputTokens": 366,
+      "message": "",
+      "outputTokens": 91,
+      "rationale": "This is just a conversational reply and does not indicate any rate-limit or cap reset.",
+      "reasoningTokens": 46,
+      "totalTokens": 457,
+      "tweetId": "2073508703764906111",
+      "tweetText": "@Alex_m @mark_k @OpenAI No. Tell me more",
+      "tweetUrl": "https://x.com/thsottiaux/status/2073508703764906111",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1783197855857,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2071217596179861670",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1782708726118,
-      "inputTokens": 359,
-      "message": "",
-      "outputTokens": 70,
-      "rationale": "This reply does not mention limits, caps, or a reset.",
-      "reasoningTokens": 29,
-      "totalTokens": 429,
-      "tweetId": "2071217245611491805",
-      "tweetText": "@appsicle_ Just do it",
-      "tweetUrl": "https://x.com/thsottiaux/status/2071217245611491805",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "it6IRt87GRVOVtRqgzTpDGh6sXQHwksbhqTLtpQ3-OACyquSHy02xUd0rA",
-    "iv": "mbWLRVZcK_bHqj84",
-    "tag": "bYt9I_SoUBPDqCZyOyt89w",
+    "ciphertext": "G2nSfPZvOZvgYkos3Sow62IxOKltARy7woKhSjXHFVhQRklbcuSEmpQ-tw",
+    "iv": "pfdPopQR9Cm7mFEc",
+    "tag": "bSt7O4bLlzmHCbDzLDGBCA",
     "version": 1
   }
 }
