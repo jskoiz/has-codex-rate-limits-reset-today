@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.98,
-      "decidedAt": 1783187927106,
-      "rationale": "This reply is just conversational and does not indicate any limit or cap has reset.",
-      "tweetId": "2073465715596607993",
-      "tweetUrl": "https://x.com/thsottiaux/status/2073465715596607993",
+      "decidedAt": 1783188227452,
+      "rationale": "This acknowledges a feature request about viewing resets, not that any Codex or ChatGPT limit has reset now.",
+      "tweetId": "2073466730643399043",
+      "tweetUrl": "https://x.com/thsottiaux/status/2073466730643399043",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2073465715596607993",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2073465715596607993",
+    "lastSeenTweetId": "2073466730643399043",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2073466730643399043",
     "pendingReview": {
       "confidence": 0.96,
       "createdAt": 1783086882235,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2073041653087023525"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.98,
+        "evaluatedAt": 1783188227452,
+        "inputTokens": 494,
+        "outputTokens": 164,
+        "rationale": "This acknowledges a feature request about viewing resets, not that any Codex or ChatGPT limit has reset now.",
+        "reasoningTokens": 114,
+        "totalTokens": 658,
+        "tweetId": "2073466730643399043",
+        "tweetText": "This is a good feature request. We will take more feature requests like this one. The combination of {motivation, explanation, screenshot} forms a perfect prompt for Codex. Thank you.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2073466730643399043",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.98,
         "evaluatedAt": 1783187927106,
@@ -279,29 +292,31 @@
         "tweetText": "@Enderman Codex says 9 https://t.co/57gwhIHrmY",
         "tweetUrl": "https://x.com/thsottiaux/status/2071637953755930883",
         "verdict": "uncertain"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1782751798704,
-        "inputTokens": 364,
-        "outputTokens": 62,
-        "rationale": "This reply discusses appearance and does not mention limits, caps, or availability resetting.",
-        "reasoningTokens": 18,
-        "totalTokens": 426,
-        "tweetId": "2071636834736574719",
-        "tweetText": "@rizaardiyanto What's not good looking about it?",
-        "tweetUrl": "https://x.com/thsottiaux/status/2071636834736574719",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 288757,
-      "totalOutputTokens": 77367,
-      "totalReasoningTokens": 42086,
-      "totalTokens": 366124
+      "totalInputTokens": 289251,
+      "totalOutputTokens": 77531,
+      "totalReasoningTokens": 42200,
+      "totalTokens": 366782
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.98,
+      "createdAt": 1783188227452,
+      "inputTokens": 494,
+      "message": "",
+      "outputTokens": 164,
+      "rationale": "This acknowledges a feature request about viewing resets, not that any Codex or ChatGPT limit has reset now.",
+      "reasoningTokens": 114,
+      "totalTokens": 658,
+      "tweetId": "2073466730643399043",
+      "tweetText": "This is a good feature request. We will take more feature requests like this one. The combination of {motivation, explanation, screenshot} forms a perfect prompt for Codex. Thank you.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2073466730643399043",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.98,
       "createdAt": 1783187927106,
@@ -886,27 +901,12 @@
       "tweetUrl": null,
       "type": "error",
       "verdict": null
-    },
-    {
-      "confidence": 0,
-      "createdAt": 1782462234483,
-      "inputTokens": 0,
-      "message": "Tweet fetch failed: Tweet search failed: Request failed with status code 403; timeline fallback failed: Request failed with status code 403 (Request failed with status code 403) (Tweet search failed: Request failed with status code 403; timeline fallback failed: Request failed with status code 403)",
-      "outputTokens": 0,
-      "rationale": "",
-      "reasoningTokens": 0,
-      "totalTokens": 0,
-      "tweetId": null,
-      "tweetText": "",
-      "tweetUrl": null,
-      "type": "error",
-      "verdict": null
     }
   ],
   "privateState": {
-    "ciphertext": "bx1U0Ka0KT1vJirkTnv3cLWdbNzbMy0m0klqtU_Jzib_Mdg14e6kg5W-3Q",
-    "iv": "5vxPE2sDvsAMugzk",
-    "tag": "RKgtmodczwu_zfZiJaDlkw",
+    "ciphertext": "CqcRZi1kVktruJ0mlMyOsgaf0L2TECYxp8qI2X-o4y5N4VYdTsK5poZiZw",
+    "iv": "kn7AhbTBzBuBTA4R",
+    "tag": "y9nwrY8gFHY6APlTJn-xlA",
     "version": 1
   }
 }
