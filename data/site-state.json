@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1783203447143,
-      "rationale": "This reply is conversational and does not mention limits, caps, or resets.",
-      "tweetId": "2073531523920195597",
-      "tweetUrl": "https://x.com/thsottiaux/status/2073531523920195597",
+      "decidedAt": 1783207774977,
+      "rationale": "This is a general comment about Codex and does not mention limits or usage resetting.",
+      "tweetId": "2073549572673028572",
+      "tweetUrl": "https://x.com/thsottiaux/status/2073549572673028572",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2073531523920195597",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2073531523920195597",
+    "lastSeenTweetId": "2073549572673028572",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2073549572673028572",
     "pendingReview": {
       "confidence": 0.96,
       "createdAt": 1783086882235,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2073041653087023525"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1783207774977,
+        "inputTokens": 361,
+        "outputTokens": 76,
+        "rationale": "This is a general comment about Codex and does not mention limits or usage resetting.",
+        "reasoningTokens": 31,
+        "totalTokens": 437,
+        "tweetId": "2073549572673028572",
+        "tweetText": "Codex is probably the fastest growing browser.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2073549572673028572",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1783203447143,
@@ -279,29 +292,31 @@
         "tweetText": "Can't wait to see what people will do with GPT-5.6 Sol Ultra. Stash your hardest prompts somewhere.",
         "tweetUrl": "https://x.com/thsottiaux/status/2072607914217320644",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.95,
-        "evaluatedAt": 1782936400160,
-        "inputTokens": 460,
-        "outputTokens": 245,
-        "rationale": "This is an event promo about seeing a Codex reset button demo, not a clear statement that public usage limits have…",
-        "reasoningTokens": 191,
-        "totalTokens": 705,
-        "tweetId": "2072410623380468190",
-        "tweetText": "It's happening",
-        "tweetUrl": "https://x.com/thsottiaux/status/2072410623380468190",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 292184,
-      "totalOutputTokens": 78191,
-      "totalReasoningTokens": 42503,
-      "totalTokens": 370375
+      "totalInputTokens": 292545,
+      "totalOutputTokens": 78267,
+      "totalReasoningTokens": 42534,
+      "totalTokens": 370812
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1783207774977,
+      "inputTokens": 361,
+      "message": "",
+      "outputTokens": 76,
+      "rationale": "This is a general comment about Codex and does not mention limits or usage resetting.",
+      "reasoningTokens": 31,
+      "totalTokens": 437,
+      "tweetId": "2073549572673028572",
+      "tweetText": "Codex is probably the fastest growing browser.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2073549572673028572",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1783203447143,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2071350153080959237",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.98,
-      "createdAt": 1782708737092,
-      "inputTokens": 424,
-      "message": "",
-      "outputTokens": 91,
-      "rationale": "The post explicitly says downgrading plans will not reset usage limits.",
-      "reasoningTokens": 49,
-      "totalTokens": 515,
-      "tweetId": "2071329580829319493",
-      "tweetText": "Going from pro to plus gets you less usage, so if you already consumed your pro limits, downgrading to plus will not reset things for you. \n\nIt's like buying a large coffee at starbucks, drinking it and then throwing the cup away and asking for a smaller cup. You wouldn't expect coffee to be in the small cup I think?",
-      "tweetUrl": "https://x.com/thsottiaux/status/2071329580829319493",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "Lec25q9ISPwfEafHs8W9OBtLrgWTDvtV2f4F8D4FGj0PpybrCUB1QjI3bg",
-    "iv": "9SlOb_s6VPInYkZd",
-    "tag": "daOp7eTEuyNgc40c-DEN2Q",
+    "ciphertext": "L3n4s9aKhrhE-F1sH7gskIAns6yumyL2yALswvVURsnryW-JmQcT3Rv-3g",
+    "iv": "BuDW0ZrvwG4Rc2LA",
+    "tag": "VHyvYUGPdMZ31__G5QWmzw",
     "version": 1
   }
 }
