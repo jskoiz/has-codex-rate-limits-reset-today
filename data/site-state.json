@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1783207774977,
-      "rationale": "This is a general comment about Codex and does not mention limits or usage resetting.",
-      "tweetId": "2073549572673028572",
-      "tweetUrl": "https://x.com/thsottiaux/status/2073549572673028572",
+      "decidedAt": 1783208394075,
+      "rationale": "This is a general question about Codex capabilities and does not mention limits or a reset.",
+      "tweetId": "2073551549494596079",
+      "tweetUrl": "https://x.com/thsottiaux/status/2073551549494596079",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2073549572673028572",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2073549572673028572",
+    "lastSeenTweetId": "2073551549494596079",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2073551549494596079",
     "pendingReview": {
       "confidence": 0.96,
       "createdAt": 1783086882235,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2073041653087023525"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1783208394075,
+        "inputTokens": 377,
+        "outputTokens": 77,
+        "rationale": "This is a general question about Codex capabilities and does not mention limits or a reset.",
+        "reasoningTokens": 31,
+        "totalTokens": 454,
+        "tweetId": "2073551549494596079",
+        "tweetText": "What is something that you feel is surprising that Codex still can't do well and we should have gotten right a while ago?",
+        "tweetUrl": "https://x.com/thsottiaux/status/2073551549494596079",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1783207774977,
@@ -279,29 +292,31 @@
         "tweetText": "@LexnLin Should be in your little piggy bank. It is for everyone. Let me know if it doesn't show in your account and we'll definitely investigate.",
         "tweetUrl": "https://x.com/thsottiaux/status/2072608196993188002",
         "verdict": "uncertain"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1782983258613,
-        "inputTokens": 376,
-        "outputTokens": 78,
-        "rationale": "This is a general comment about a model release and does not indicate any limits or caps have reset.",
-        "reasoningTokens": 30,
-        "totalTokens": 454,
-        "tweetId": "2072607914217320644",
-        "tweetText": "Can't wait to see what people will do with GPT-5.6 Sol Ultra. Stash your hardest prompts somewhere.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2072607914217320644",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 292545,
-      "totalOutputTokens": 78267,
-      "totalReasoningTokens": 42534,
-      "totalTokens": 370812
+      "totalInputTokens": 292922,
+      "totalOutputTokens": 78344,
+      "totalReasoningTokens": 42565,
+      "totalTokens": 371266
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1783208394075,
+      "inputTokens": 377,
+      "message": "",
+      "outputTokens": 77,
+      "rationale": "This is a general question about Codex capabilities and does not mention limits or a reset.",
+      "reasoningTokens": 31,
+      "totalTokens": 454,
+      "tweetId": "2073551549494596079",
+      "tweetText": "What is something that you feel is surprising that Codex still can't do well and we should have gotten right a while ago?",
+      "tweetUrl": "https://x.com/thsottiaux/status/2073551549494596079",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1783207774977,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2071357473659707441",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1782708739601,
-      "inputTokens": 364,
-      "message": "",
-      "outputTokens": 82,
-      "rationale": "This reply asks about using auto-review and does not mention limits, caps, or resets.",
-      "reasoningTokens": 36,
-      "totalTokens": 446,
-      "tweetId": "2071350153080959237",
-      "tweetText": "@SAlbahra Do you use \"auto-review\"?",
-      "tweetUrl": "https://x.com/thsottiaux/status/2071350153080959237",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "L3n4s9aKhrhE-F1sH7gskIAns6yumyL2yALswvVURsnryW-JmQcT3Rv-3g",
-    "iv": "BuDW0ZrvwG4Rc2LA",
-    "tag": "VHyvYUGPdMZ31__G5QWmzw",
+    "ciphertext": "pvBdhMU_TB84YIsCxB-foZFmT0CrKc0MnyA-HvtKV9HfoQ227iTi01Zv5Q",
+    "iv": "P4WT3B29QAwRNyuN",
+    "tag": "CTMCxvfJF5AVlGdXG9sr1w",
     "version": 1
   }
 }
