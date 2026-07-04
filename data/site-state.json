@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1783197240691,
-      "rationale": "This reply is just asking for a tutorial and does not mention limits or a reset.",
-      "tweetId": "2073504987276087806",
-      "tweetUrl": "https://x.com/thsottiaux/status/2073504987276087806",
+      "decidedAt": 1783197853428,
+      "rationale": "This is a conversational joke about ChatGPT and Codex, not a limit reset announcement.",
+      "tweetId": "2073506936725581911",
+      "tweetUrl": "https://x.com/thsottiaux/status/2073506936725581911",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2073504987276087806",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2073504987276087806",
+    "lastSeenTweetId": "2073506936725581911",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2073506936725581911",
     "pendingReview": {
       "confidence": 0.96,
       "createdAt": 1783086882235,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2073041653087023525"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1783197853428,
+        "inputTokens": 385,
+        "outputTokens": 83,
+        "rationale": "This is a conversational joke about ChatGPT and Codex, not a limit reset announcement.",
+        "reasoningTokens": 37,
+        "totalTokens": 468,
+        "tweetId": "2073506936725581911",
+        "tweetText": "@mark_k @OpenAI It's pretty simple. We are bringing ChatGPT to Codex so that Codex can be in ChatGPT in Codex in ChatGPT.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2073506936725581911",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1783197240691,
@@ -279,29 +292,31 @@
         "tweetText": "@iamsahaj_xyz I personally DM it to Codex and it stores it into my notes folder all neatly organized. Some things it then just does itself and for the rest it reminds me of things I need to do a few when I have free time based on my calendar",
         "tweetUrl": "https://x.com/thsottiaux/status/2071897922510164152",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.98,
-        "evaluatedAt": 1782776637294,
-        "inputTokens": 790,
-        "outputTokens": 227,
-        "rationale": "The post explicitly says Codex usage limits were reset already, with another full reset coming within the hour.",
-        "reasoningTokens": 177,
-        "totalTokens": 1017,
-        "tweetId": "2071740419030053227",
-        "tweetText": "Codex usage limits will be fully reset again in the next hour and we will credit one additional reset into your bank for your own usage over the next 24 hours.\n\nWe investigated reports that Codex usage was being consumed faster than expected. There wasn't one central issue, but a few smaller problems compounded for some users.   \n\nHere's what we found and changed: \n- Actual usage: Auto-review had become more proactive, another change was triggering more subagent work, and background suggestions could run twice or retry too frequently after failures. We reverted the changes and fixed suggestion scheduling, duplicate generation, and retry behavior. This should reduce unnecessary background token consumption while preserving the work users explicitly request. \n- Usage reporting: Auto-review was incorrectly appearing as GPT‑5.4 usage, and failed or rate-limited requests were still shown as turns. Auto-review now appears as its own category, and only successful requests count toward the turn graphs. Rate-limited requests were never charged, but they were being displayed incorrectly. \n- Immediate relief: We reset usage limits while rolling out the fixes, then shipped hotfixes across the CLI, desktop app, and usage backend. \n- What to expect: New usage data should be clearer and actual consumption should be lower. Historical charts may still show auto-review under GPT‑5.4 because older turn data was not relabeled. Features that intentionally perform more work; such as /goal, subagents, and higher reasoning levels will still naturally use more capacity.  \n\nAll fixes are now deployed, and we've added more detailed monitoring so we can detect background-usage regressions sooner. We'll continue watching the results closely.\n\nThank you for building and doing all sorts of things with Codex.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2071740419030053227",
-        "verdict": "reset_confirmed"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 289980,
-      "totalOutputTokens": 77705,
-      "totalReasoningTokens": 42285,
-      "totalTokens": 367685
+      "totalInputTokens": 290365,
+      "totalOutputTokens": 77788,
+      "totalReasoningTokens": 42322,
+      "totalTokens": 368153
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1783197853428,
+      "inputTokens": 385,
+      "message": "",
+      "outputTokens": 83,
+      "rationale": "This is a conversational joke about ChatGPT and Codex, not a limit reset announcement.",
+      "reasoningTokens": 37,
+      "totalTokens": 468,
+      "tweetId": "2073506936725581911",
+      "tweetText": "@mark_k @OpenAI It's pretty simple. We are bringing ChatGPT to Codex so that Codex can be in ChatGPT in Codex in ChatGPT.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2073506936725581911",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1783197240691,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2071213347849023513",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0,
-      "createdAt": 1782489284725,
-      "inputTokens": 0,
-      "message": "Tweet fetch failed: Tweet search failed: Unknown error; timeline fallback failed: Unknown error (Unknown error) (Tweet search failed: Unknown error; timeline fallback failed: Unknown error)",
-      "outputTokens": 0,
-      "rationale": "",
-      "reasoningTokens": 0,
-      "totalTokens": 0,
-      "tweetId": null,
-      "tweetText": "",
-      "tweetUrl": null,
-      "type": "error",
-      "verdict": null
     }
   ],
   "privateState": {
-    "ciphertext": "KElc6q0PjMI4a8CZY8MApQSqSp_J71uNczKEWTepHKmEDwia_NrFmmfmTQ",
-    "iv": "ukCqrdduJhTvkNu_",
-    "tag": "MtP-3ALIzgPbMqpZHzUzJQ",
+    "ciphertext": "-mv_8LpCqe-9miyXMC21cuBu6zMgeQfZn09gNTstNnquTEYi_Quh9dvjXg",
+    "iv": "ZXlUcYJCceo6yObK",
+    "tag": "e8zYvw62KH10FXjesvaDvg",
     "version": 1
   }
 }
