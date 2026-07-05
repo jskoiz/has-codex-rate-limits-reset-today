@@ -14,25 +14,38 @@
   "updatedAt": 1782776637294,
   "automation": {
     "lastDecision": {
-      "confidence": 0.98,
-      "decidedAt": 1783211189427,
-      "rationale": "This reply contains no explicit statement that any Codex or ChatGPT limit has reset.",
-      "tweetId": "2073563036757950878",
-      "tweetUrl": "https://x.com/thsottiaux/status/2073563036757950878",
-      "verdict": "not_reset"
+      "confidence": 0.95,
+      "decidedAt": 1783211809623,
+      "rationale": "The post is cryptic and provides no explicit text indicating that limits have reset or usage is available again.",
+      "tweetId": "2073565412336308699",
+      "tweetUrl": "https://x.com/thsottiaux/status/2073565412336308699",
+      "verdict": "uncertain"
     },
     "lastError": null,
-    "lastSeenTweetId": "2073563036757950878",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2073563036757950878",
+    "lastSeenTweetId": "2073565412336308699",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2073565412336308699",
     "pendingReview": {
-      "confidence": 0.96,
-      "createdAt": 1783086882235,
-      "rationale": "This reply alone does not clearly indicate that any limit or cap has reset.",
-      "tweetId": "2073041653087023525",
-      "tweetText": "@wilzerjb Let's see",
-      "tweetUrl": "https://x.com/thsottiaux/status/2073041653087023525"
+      "confidence": 0.95,
+      "createdAt": 1783211809623,
+      "rationale": "The post is cryptic and provides no explicit text indicating that limits have reset or usage is available again.",
+      "tweetId": "2073565412336308699",
+      "tweetText": "iykyk https://t.co/irvzysRIpT",
+      "tweetUrl": "https://x.com/thsottiaux/status/2073565412336308699"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.95,
+        "evaluatedAt": 1783211809624,
+        "inputTokens": 367,
+        "outputTokens": 174,
+        "rationale": "The post is cryptic and provides no explicit text indicating that limits have reset or usage is available again.",
+        "reasoningTokens": 125,
+        "totalTokens": 541,
+        "tweetId": "2073565412336308699",
+        "tweetText": "iykyk https://t.co/irvzysRIpT",
+        "tweetUrl": "https://x.com/thsottiaux/status/2073565412336308699",
+        "verdict": "uncertain"
+      },
       {
         "confidence": 0.98,
         "evaluatedAt": 1783211189427,
@@ -279,29 +292,31 @@
         "tweetText": "What it could have been https://t.co/HAzHOFvIzd",
         "tweetUrl": "https://x.com/thsottiaux/status/2073079378808901663",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1783095536800,
-        "inputTokens": 370,
-        "outputTokens": 95,
-        "rationale": "This reply suggests buying a Codex subscription and does not mention limits resetting.",
-        "reasoningTokens": 52,
-        "totalTokens": 465,
-        "tweetId": "2073078115132137756",
-        "tweetText": "@adilmania @g0da_s Give her a codex subscription and make her day",
-        "tweetUrl": "https://x.com/thsottiaux/status/2073078115132137756",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 294465,
-      "totalOutputTokens": 78603,
-      "totalReasoningTokens": 42687,
-      "totalTokens": 373068
+      "totalInputTokens": 294832,
+      "totalOutputTokens": 78777,
+      "totalReasoningTokens": 42812,
+      "totalTokens": 373609
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.95,
+      "createdAt": 1783211809624,
+      "inputTokens": 367,
+      "message": "",
+      "outputTokens": 174,
+      "rationale": "The post is cryptic and provides no explicit text indicating that limits have reset or usage is available again.",
+      "reasoningTokens": 125,
+      "totalTokens": 541,
+      "tweetId": "2073565412336308699",
+      "tweetText": "iykyk https://t.co/irvzysRIpT",
+      "tweetUrl": "https://x.com/thsottiaux/status/2073565412336308699",
+      "type": "review_requested",
+      "verdict": "uncertain"
+    },
     {
       "confidence": 0.98,
       "createdAt": 1783211189427,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2071383430634344902",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1782708750071,
-      "inputTokens": 513,
-      "message": "",
-      "outputTokens": 108,
-      "rationale": "The tweet explicitly says everyone's Codex usage limits have been hard reset and are available again now.",
-      "reasoningTokens": 60,
-      "totalTokens": 621,
-      "tweetId": "2071381664853319742",
-      "tweetText": "As we are still investigating, I have reset everyone's Codex usage limits. This is a hard reset given some users had stacked up to three banked resets already that they can apply on their own schedule.\n\nFunnily enough, this week at OpenAI is called the RESET week, which is meant for folks to relax a bit. However it will be a different kind of RESET week. Enjoy.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2071381664853319742",
-      "type": "reset_confirmed",
-      "verdict": "reset_confirmed"
     }
   ],
   "privateState": {
-    "ciphertext": "cNndpwLn66AKaL1Q8kD96zkD5SUH0RMGewbwb1Dq8gCclyeETxrl7bAWkw",
-    "iv": "aiI4BVLX2Dn2WuS5",
-    "tag": "TXYyk3KdcunOo2zYOIAC_g",
+    "ciphertext": "Zbxg-uQ2XxXB9gkjSMQdY5KTmk-OIn0nwMaw8v37yxWyDKqeBQTZnq4H5g",
+    "iv": "KGQW-ucI9Zxwxxia",
+    "tag": "agpiSu9NnYC-jB_o9xHsIg",
     "version": 1
   }
 }
