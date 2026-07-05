@@ -14,16 +14,16 @@
   "updatedAt": 1782776637294,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1783209012847,
-      "rationale": "This is a humorous chat excerpt and does not mention any Codex or ChatGPT limit reset.",
-      "tweetId": "2073554978053005607",
-      "tweetUrl": "https://x.com/thsottiaux/status/2073554978053005607",
+      "confidence": 0.98,
+      "decidedAt": 1783211189427,
+      "rationale": "This reply contains no explicit statement that any Codex or ChatGPT limit has reset.",
+      "tweetId": "2073563036757950878",
+      "tweetUrl": "https://x.com/thsottiaux/status/2073563036757950878",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2073554978053005607",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2073554978053005607",
+    "lastSeenTweetId": "2073563036757950878",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2073563036757950878",
     "pendingReview": {
       "confidence": 0.96,
       "createdAt": 1783086882235,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2073041653087023525"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.98,
+        "evaluatedAt": 1783211189427,
+        "inputTokens": 369,
+        "outputTokens": 132,
+        "rationale": "This reply contains no explicit statement that any Codex or ChatGPT limit has reset.",
+        "reasoningTokens": 87,
+        "totalTokens": 501,
+        "tweetId": "2073563036757950878",
+        "tweetText": "@rezoundous https://t.co/zGXEwS9iOQ",
+        "tweetUrl": "https://x.com/thsottiaux/status/2073563036757950878",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1783209012847,
@@ -279,29 +292,31 @@
         "tweetText": "@adilmania @g0da_s Give her a codex subscription and make her day",
         "tweetUrl": "https://x.com/thsottiaux/status/2073078115132137756",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.96,
-        "evaluatedAt": 1783086882235,
-        "inputTokens": 358,
-        "outputTokens": 167,
-        "rationale": "This reply alone does not clearly indicate that any limit or cap has reset.",
-        "reasoningTokens": 124,
-        "totalTokens": 525,
-        "tweetId": "2073041653087023525",
-        "tweetText": "@wilzerjb Let's see",
-        "tweetUrl": "https://x.com/thsottiaux/status/2073041653087023525",
-        "verdict": "uncertain"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 294096,
-      "totalOutputTokens": 78471,
-      "totalReasoningTokens": 42600,
-      "totalTokens": 372567
+      "totalInputTokens": 294465,
+      "totalOutputTokens": 78603,
+      "totalReasoningTokens": 42687,
+      "totalTokens": 373068
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.98,
+      "createdAt": 1783211189427,
+      "inputTokens": 369,
+      "message": "",
+      "outputTokens": 132,
+      "rationale": "This reply contains no explicit statement that any Codex or ChatGPT limit has reset.",
+      "reasoningTokens": 87,
+      "totalTokens": 501,
+      "tweetId": "2073563036757950878",
+      "tweetText": "@rezoundous https://t.co/zGXEwS9iOQ",
+      "tweetUrl": "https://x.com/thsottiaux/status/2073563036757950878",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1783209012847,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2071381664853319742",
       "type": "reset_confirmed",
       "verdict": "reset_confirmed"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1782708747540,
-      "inputTokens": 380,
-      "message": "",
-      "outputTokens": 70,
-      "rationale": "This reply discusses model routing for auto review and says nothing about limits or resets.",
-      "reasoningTokens": 26,
-      "totalTokens": 450,
-      "tweetId": "2071360845309714620",
-      "tweetText": "@solipsnitsyn Auto review is using GPT-5.4. We do not route. Do not spread misinformation, thank you.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2071360845309714620",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "O7C5C8ex01DxhY0lnpL_hHn8-_l1kVB8wA6gVvKFTfu9Zf-KLa1JWxcM2w",
-    "iv": "utmNxqP1U10P8Hfv",
-    "tag": "5AdNk1THukT0x53Eo4lbZQ",
+    "ciphertext": "cNndpwLn66AKaL1Q8kD96zkD5SUH0RMGewbwb1Dq8gCclyeETxrl7bAWkw",
+    "iv": "aiI4BVLX2Dn2WuS5",
+    "tag": "TXYyk3KdcunOo2zYOIAC_g",
     "version": 1
   }
 }
