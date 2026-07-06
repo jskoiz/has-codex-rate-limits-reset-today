@@ -14,16 +14,16 @@
   "updatedAt": 1782776637294,
   "automation": {
     "lastDecision": {
-      "confidence": 0.95,
-      "decidedAt": 1783211809623,
-      "rationale": "The post is cryptic and provides no explicit text indicating that limits have reset or usage is available again.",
-      "tweetId": "2073565412336308699",
-      "tweetUrl": "https://x.com/thsottiaux/status/2073565412336308699",
-      "verdict": "uncertain"
+      "confidence": 0.99,
+      "decidedAt": 1783297498123,
+      "rationale": "This reply discusses model availability choices and does not indicate any limits or caps have reset.",
+      "tweetId": "2073925225142792576",
+      "tweetUrl": "https://x.com/thsottiaux/status/2073925225142792576",
+      "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2073565412336308699",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2073565412336308699",
+    "lastSeenTweetId": "2073925225142792576",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2073925225142792576",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1783211809623,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2073565412336308699"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1783297498123,
+        "inputTokens": 371,
+        "outputTokens": 66,
+        "rationale": "This reply discusses model availability choices and does not indicate any limits or caps have reset.",
+        "reasoningTokens": 21,
+        "totalTokens": 437,
+        "tweetId": "2073925225142792576",
+        "tweetText": "@kr0der Everyone gets to choose whether they want their models to be broadly available or not.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2073925225142792576",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.95,
         "evaluatedAt": 1783211809624,
@@ -279,29 +292,31 @@
         "tweetText": "@bridgemindai For the first time 👀",
         "tweetUrl": "https://x.com/thsottiaux/status/2073158555809566899",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1783095837671,
-        "inputTokens": 370,
-        "outputTokens": 80,
-        "rationale": "This post does not mention Codex or ChatGPT limits resetting or becoming available again.",
-        "reasoningTokens": 35,
-        "totalTokens": 450,
-        "tweetId": "2073079378808901663",
-        "tweetText": "What it could have been https://t.co/HAzHOFvIzd",
-        "tweetUrl": "https://x.com/thsottiaux/status/2073079378808901663",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 294832,
-      "totalOutputTokens": 78777,
-      "totalReasoningTokens": 42812,
-      "totalTokens": 373609
+      "totalInputTokens": 295203,
+      "totalOutputTokens": 78843,
+      "totalReasoningTokens": 42833,
+      "totalTokens": 374046
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1783297498123,
+      "inputTokens": 371,
+      "message": "",
+      "outputTokens": 66,
+      "rationale": "This reply discusses model availability choices and does not indicate any limits or caps have reset.",
+      "reasoningTokens": 21,
+      "totalTokens": 437,
+      "tweetId": "2073925225142792576",
+      "tweetText": "@kr0der Everyone gets to choose whether they want their models to be broadly available or not.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2073925225142792576",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.95,
       "createdAt": 1783211809624,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2071383696934842498",
       "type": "review_requested",
       "verdict": "uncertain"
-    },
-    {
-      "confidence": 0.95,
-      "createdAt": 1782709041584,
-      "inputTokens": 389,
-      "message": "",
-      "outputTokens": 211,
-      "rationale": "It discusses past and future manual resets during an investigation, not a current reset being available now.",
-      "reasoningTokens": 164,
-      "totalTokens": 600,
-      "tweetId": "2071383430634344902",
-      "tweetText": "If you happened to have used your previous reset in the few hours before and didn't go through your usage, do not worry, you will get more manual resets after we conclude the investigation.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2071383430634344902",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "Zbxg-uQ2XxXB9gkjSMQdY5KTmk-OIn0nwMaw8v37yxWyDKqeBQTZnq4H5g",
-    "iv": "KGQW-ucI9Zxwxxia",
-    "tag": "agpiSu9NnYC-jB_o9xHsIg",
+    "ciphertext": "DS2YGLjbXN5ma7b-yyq69Qr94vIHX_CwnTXht3gJFiyVVJP3mE9OPRrAsA",
+    "iv": "KwmahE5ESBmcWY1f",
+    "tag": "ZAzrzL4Fa_g55Sp1xgeN8Q",
     "version": 1
   }
 }
