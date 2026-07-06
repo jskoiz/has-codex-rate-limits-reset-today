@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1783299693312,
-      "rationale": "This is just a conversational reply and gives no indication that any Codex or ChatGPT limit has reset.",
-      "tweetId": "2073934120363937892",
-      "tweetUrl": "https://x.com/thsottiaux/status/2073934120363937892",
+      "decidedAt": 1783361717139,
+      "rationale": "This is a DevDay event promotion and does not mention limits, caps, or usage becoming available again.",
+      "tweetId": "2074195169990357398",
+      "tweetUrl": "https://x.com/thsottiaux/status/2074195169990357398",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2073934120363937892",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2073934120363937892",
+    "lastSeenTweetId": "2074195169990357398",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2074195169990357398",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1783211809623,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2073565412336308699"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1783361717139,
+        "inputTokens": 502,
+        "outputTokens": 88,
+        "rationale": "This is a DevDay event promotion and does not mention limits, caps, or usage becoming available again.",
+        "reasoningTokens": 39,
+        "totalTokens": 590,
+        "tweetId": "2074195169990357398",
+        "tweetText": "Closing this week. Much of the teams building ChatGPT, Codex and OpenClaw will be there and we'll have a few surprises for folks. Hope to see many of you 👀",
+        "tweetUrl": "https://x.com/thsottiaux/status/2074195169990357398",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1783299693312,
@@ -279,29 +292,31 @@
         "tweetText": "This is a good feature request. We will take more feature requests like this one. The combination of {motivation, explanation, screenshot} forms a perfect prompt for Codex. Thank you.",
         "tweetUrl": "https://x.com/thsottiaux/status/2073466730643399043",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.98,
-        "evaluatedAt": 1783187927106,
-        "inputTokens": 361,
-        "outputTokens": 147,
-        "rationale": "This reply is just conversational and does not indicate any limit or cap has reset.",
-        "reasoningTokens": 103,
-        "totalTokens": 508,
-        "tweetId": "2073465715596607993",
-        "tweetText": "@charliermarsh Is that a prediction?",
-        "tweetUrl": "https://x.com/thsottiaux/status/2073465715596607993",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 296289,
-      "totalOutputTokens": 79092,
-      "totalReasoningTokens": 42944,
-      "totalTokens": 375381
+      "totalInputTokens": 296791,
+      "totalOutputTokens": 79180,
+      "totalReasoningTokens": 42983,
+      "totalTokens": 375971
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1783361717139,
+      "inputTokens": 502,
+      "message": "",
+      "outputTokens": 88,
+      "rationale": "This is a DevDay event promotion and does not mention limits, caps, or usage becoming available again.",
+      "reasoningTokens": 39,
+      "totalTokens": 590,
+      "tweetId": "2074195169990357398",
+      "tweetText": "Closing this week. Much of the teams building ChatGPT, Codex and OpenClaw will be there and we'll have a few surprises for folks. Hope to see many of you 👀",
+      "tweetUrl": "https://x.com/thsottiaux/status/2074195169990357398",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1783299693312,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2071637953755930883",
       "type": "review_requested",
       "verdict": "uncertain"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1782751798704,
-      "inputTokens": 364,
-      "message": "",
-      "outputTokens": 62,
-      "rationale": "This reply discusses appearance and does not mention limits, caps, or availability resetting.",
-      "reasoningTokens": 18,
-      "totalTokens": 426,
-      "tweetId": "2071636834736574719",
-      "tweetText": "@rizaardiyanto What's not good looking about it?",
-      "tweetUrl": "https://x.com/thsottiaux/status/2071636834736574719",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "expYBIZ-B_DpC3X23InvaSIuaXT0Nzd7eEBMXP3_Qh1-Yxvz7l21hLgBjQ",
-    "iv": "5foh7Hwt8dWvBsNT",
-    "tag": "q2ymaO3i54JJCp6ytER9Jw",
+    "ciphertext": "tX48DfBdE3WxNtCsJTzP6MEIBFSjSaQW79OMhCypWiUYGrwW1WqxXvegEw",
+    "iv": "3EnO3Tm_i3GScjnp",
+    "tag": "ik_VxAFmMvhfRALUl5IPuw",
     "version": 1
   }
 }
