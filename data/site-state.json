@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1783361717139,
-      "rationale": "This is a DevDay event promotion and does not mention limits, caps, or usage becoming available again.",
-      "tweetId": "2074195169990357398",
-      "tweetUrl": "https://x.com/thsottiaux/status/2074195169990357398",
+      "decidedAt": 1783365118172,
+      "rationale": "This reply discusses a feature flag and code path, not any Codex or ChatGPT limit reset.",
+      "tweetId": "2074209218517942601",
+      "tweetUrl": "https://x.com/thsottiaux/status/2074209218517942601",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2074195169990357398",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2074195169990357398",
+    "lastSeenTweetId": "2074209218517942601",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2074209218517942601",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1783211809623,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2073565412336308699"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1783365118172,
+        "inputTokens": 374,
+        "outputTokens": 91,
+        "rationale": "This reply discusses a feature flag and code path, not any Codex or ChatGPT limit reset.",
+        "reasoningTokens": 43,
+        "totalTokens": 465,
+        "tweetId": "2074209218517942601",
+        "tweetText": "@WesRoth Checks notes... they forced the feature flag to be on so that the code path triggers.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2074209218517942601",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1783361717139,
@@ -279,29 +292,31 @@
         "tweetText": "@hqmank Impressive https://t.co/A2Vnkbw1jy",
         "tweetUrl": "https://x.com/thsottiaux/status/2073504549764030511",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.98,
-        "evaluatedAt": 1783188227452,
-        "inputTokens": 494,
-        "outputTokens": 164,
-        "rationale": "This acknowledges a feature request about viewing resets, not that any Codex or ChatGPT limit has reset now.",
-        "reasoningTokens": 114,
-        "totalTokens": 658,
-        "tweetId": "2073466730643399043",
-        "tweetText": "This is a good feature request. We will take more feature requests like this one. The combination of {motivation, explanation, screenshot} forms a perfect prompt for Codex. Thank you.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2073466730643399043",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 296791,
-      "totalOutputTokens": 79180,
-      "totalReasoningTokens": 42983,
-      "totalTokens": 375971
+      "totalInputTokens": 297165,
+      "totalOutputTokens": 79271,
+      "totalReasoningTokens": 43026,
+      "totalTokens": 376436
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1783365118172,
+      "inputTokens": 374,
+      "message": "",
+      "outputTokens": 91,
+      "rationale": "This reply discusses a feature flag and code path, not any Codex or ChatGPT limit reset.",
+      "reasoningTokens": 43,
+      "totalTokens": 465,
+      "tweetId": "2074209218517942601",
+      "tweetText": "@WesRoth Checks notes... they forced the feature flag to be on so that the code path triggers.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2074209218517942601",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1783361717139,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2071710834527523030",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.88,
-      "createdAt": 1782752108240,
-      "inputTokens": 371,
-      "message": "",
-      "outputTokens": 165,
-      "rationale": "This reply is too context-dependent and does not explicitly say limits have reset or are available again.",
-      "reasoningTokens": 118,
-      "totalTokens": 536,
-      "tweetId": "2071637953755930883",
-      "tweetText": "@Enderman Codex says 9 https://t.co/57gwhIHrmY",
-      "tweetUrl": "https://x.com/thsottiaux/status/2071637953755930883",
-      "type": "review_requested",
-      "verdict": "uncertain"
     }
   ],
   "privateState": {
-    "ciphertext": "tX48DfBdE3WxNtCsJTzP6MEIBFSjSaQW79OMhCypWiUYGrwW1WqxXvegEw",
-    "iv": "3EnO3Tm_i3GScjnp",
-    "tag": "ik_VxAFmMvhfRALUl5IPuw",
+    "ciphertext": "AHG32Q36XYk5Hpx92UUIsmVHdU__c-WAGFbueZaMKP1M-1zoKEQS9m6g5A",
+    "iv": "aqfiKcp-AInqzFTs",
+    "tag": "VGfTR1midlyCjwABxMsWKA",
     "version": 1
   }
 }
