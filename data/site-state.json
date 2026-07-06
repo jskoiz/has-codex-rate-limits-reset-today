@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1783365118172,
-      "rationale": "This reply discusses a feature flag and code path, not any Codex or ChatGPT limit reset.",
-      "tweetId": "2074209218517942601",
-      "tweetUrl": "https://x.com/thsottiaux/status/2074209218517942601",
+      "decidedAt": 1783365121822,
+      "rationale": "The post and quoted tweet discuss Ultra being in Codex, not any rate-limit or usage reset.",
+      "tweetId": "2074209421799166138",
+      "tweetUrl": "https://x.com/thsottiaux/status/2074209421799166138",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2074209218517942601",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2074209218517942601",
+    "lastSeenTweetId": "2074209421799166138",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2074209421799166138",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1783211809623,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2073565412336308699"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1783365121822,
+        "inputTokens": 405,
+        "outputTokens": 114,
+        "rationale": "The post and quoted tweet discuss Ultra being in Codex, not any rate-limit or usage reset.",
+        "reasoningTokens": 66,
+        "totalTokens": 519,
+        "tweetId": "2074209421799166138",
+        "tweetText": "https://t.co/PXjlm4RLJJ",
+        "tweetUrl": "https://x.com/thsottiaux/status/2074209421799166138",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1783365118172,
@@ -279,29 +292,31 @@
         "tweetText": "@steipete Need a tutorial",
         "tweetUrl": "https://x.com/thsottiaux/status/2073504987276087806",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.98,
-        "evaluatedAt": 1783197237875,
-        "inputTokens": 370,
-        "outputTokens": 78,
-        "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-        "reasoningTokens": 34,
-        "totalTokens": 448,
-        "tweetId": "2073504549764030511",
-        "tweetText": "@hqmank Impressive https://t.co/A2Vnkbw1jy",
-        "tweetUrl": "https://x.com/thsottiaux/status/2073504549764030511",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 297165,
-      "totalOutputTokens": 79271,
-      "totalReasoningTokens": 43026,
-      "totalTokens": 376436
+      "totalInputTokens": 297570,
+      "totalOutputTokens": 79385,
+      "totalReasoningTokens": 43092,
+      "totalTokens": 376955
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1783365121822,
+      "inputTokens": 405,
+      "message": "",
+      "outputTokens": 114,
+      "rationale": "The post and quoted tweet discuss Ultra being in Codex, not any rate-limit or usage reset.",
+      "reasoningTokens": 66,
+      "totalTokens": 519,
+      "tweetId": "2074209421799166138",
+      "tweetText": "https://t.co/PXjlm4RLJJ",
+      "tweetUrl": "https://x.com/thsottiaux/status/2074209421799166138",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1783365118172,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2071740419030053227",
       "type": "reset_confirmed",
       "verdict": "reset_confirmed"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1782769481583,
-      "inputTokens": 422,
-      "message": "",
-      "outputTokens": 113,
-      "rationale": "This is a playful comment on a product update and does not indicate any rate-limit reset.",
-      "reasoningTokens": 67,
-      "totalTokens": 535,
-      "tweetId": "2071710834527523030",
-      "tweetText": "Do you think it has a reset button?",
-      "tweetUrl": "https://x.com/thsottiaux/status/2071710834527523030",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "AHG32Q36XYk5Hpx92UUIsmVHdU__c-WAGFbueZaMKP1M-1zoKEQS9m6g5A",
-    "iv": "aqfiKcp-AInqzFTs",
-    "tag": "VGfTR1midlyCjwABxMsWKA",
+    "ciphertext": "ERZ9igedwpnh4AIBQdVj7fwG5QtjUCUzDlnZqthb6TsnXiPaycyqpPh4MA",
+    "iv": "yswFOWBZ8J20w5TA",
+    "tag": "KYqCqD_PU6gW6QskZArqHw",
     "version": 1
   }
 }
