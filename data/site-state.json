@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1783297812905,
-      "rationale": "This reply does not mention rate limits, caps, or any reset.",
-      "tweetId": "2073926196413555048",
-      "tweetUrl": "https://x.com/thsottiaux/status/2073926196413555048",
+      "decidedAt": 1783299372157,
+      "rationale": "This reply discusses Ultra being in Codex and does not indicate any limit or rate cap reset.",
+      "tweetId": "2073933490513752151",
+      "tweetUrl": "https://x.com/thsottiaux/status/2073933490513752151",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2073926196413555048",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2073926196413555048",
+    "lastSeenTweetId": "2073933490513752151",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2073933490513752151",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1783211809623,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2073565412336308699"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1783299372157,
+        "inputTokens": 362,
+        "outputTokens": 76,
+        "rationale": "This reply discusses Ultra being in Codex and does not indicate any limit or rate cap reset.",
+        "reasoningTokens": 29,
+        "totalTokens": 438,
+        "tweetId": "2073933490513752151",
+        "tweetText": "@haider1 Ultra will be in codex.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2073933490513752151",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1783297812905,
@@ -279,29 +292,31 @@
         "tweetText": "@Dimillian Terra too",
         "tweetUrl": "https://x.com/thsottiaux/status/2073465131397189850",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1783116522525,
-        "inputTokens": 361,
-        "outputTokens": 85,
-        "rationale": "This is just a casual reply and says nothing about Codex or ChatGPT limits resetting.",
-        "reasoningTokens": 39,
-        "totalTokens": 446,
-        "tweetId": "2073166701428932801",
-        "tweetText": "@Vedantdzn @figma Nice one",
-        "tweetUrl": "https://x.com/thsottiaux/status/2073166701428932801",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 295564,
-      "totalOutputTokens": 78929,
-      "totalReasoningTokens": 42877,
-      "totalTokens": 374493
+      "totalInputTokens": 295926,
+      "totalOutputTokens": 79005,
+      "totalReasoningTokens": 42906,
+      "totalTokens": 374931
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1783299372157,
+      "inputTokens": 362,
+      "message": "",
+      "outputTokens": 76,
+      "rationale": "This reply discusses Ultra being in Codex and does not indicate any limit or rate cap reset.",
+      "reasoningTokens": 29,
+      "totalTokens": 438,
+      "tweetId": "2073933490513752151",
+      "tweetText": "@haider1 Ultra will be in codex.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2073933490513752151",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1783297812905,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2071636285807059315",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1782709352617,
-      "inputTokens": 358,
-      "message": "",
-      "outputTokens": 77,
-      "rationale": "This is just a thank-you reply and gives no information about limits or resets.",
-      "reasoningTokens": 33,
-      "totalTokens": 435,
-      "tweetId": "2071389318019482018",
-      "tweetText": "@nicdunz Thx!",
-      "tweetUrl": "https://x.com/thsottiaux/status/2071389318019482018",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "tMtnNxXJ8jeAm-t_VCMEnkqppzzy2EPvi4Uuh3SRyh7iOfAqTeZic4OWqg",
-    "iv": "cLJrm0bhUJ_e8tIH",
-    "tag": "cRbnjJJN_PnTibmgipypGA",
+    "ciphertext": "2djthEiEwVpL6BTUS3dvampti-cvXzS7MtO4IsiN9R4ngRV4mWpVMH0kzQ",
+    "iv": "OTk8LV9sT2ngzkko",
+    "tag": "sKJskNtaEcE4OT0iI9kznw",
     "version": 1
   }
 }
