@@ -21,7 +21,7 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2074209421799166138",
       "verdict": "not_reset"
     },
-    "lastError": "Tweet fetch failed: Tweet search failed: Unknown error; timeline fallback failed: Unknown error (Unknown error) (Tweet search failed: Unknown error; timeline fallback failed: Unknown error)",
+    "lastError": "Tweet fetch failed: Unknown error (Unknown error)",
     "lastSeenTweetId": "2074209421799166138",
     "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2074209421799166138",
     "pendingReview": {
@@ -302,6 +302,21 @@
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0,
+      "createdAt": 1783451688952,
+      "inputTokens": 0,
+      "message": "Tweet fetch failed: Unknown error (Unknown error)",
+      "outputTokens": 0,
+      "rationale": "",
+      "reasoningTokens": 0,
+      "totalTokens": 0,
+      "tweetId": null,
+      "tweetText": "",
+      "tweetUrl": null,
+      "type": "error",
+      "verdict": null
+    },
     {
       "confidence": 0,
       "createdAt": 1783451064777,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2072140052008702216",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1782814143813,
-      "inputTokens": 363,
-      "message": "",
-      "outputTokens": 67,
-      "rationale": "This reply is conversational and says nothing about limits or a reset.",
-      "reasoningTokens": 26,
-      "totalTokens": 430,
-      "tweetId": "2071898323577905636",
-      "tweetText": "@ah20im @ah20im absolutely cooked here",
-      "tweetUrl": "https://x.com/thsottiaux/status/2071898323577905636",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "4vjtOhkAsfl63tQ-Z-zdITD3l2Ld__isaeLblsQCwpuvq3FEqdoUbZHc6Q",
-    "iv": "QsVnMgeQ6PC_bJqL",
-    "tag": "kKFFTMrlqWGMPJezvgwIGg",
+    "ciphertext": "Dp9_Ggik_8y3L0HWquKeLLQozCQuGAbj2BvscJx7JWju_dxzZeyRtuUJwA",
+    "iv": "eYB1acA5t8hasYoJ",
+    "tag": "Lp2P_R2KWWoFbMpF3cmG1g",
     "version": 1
   }
 }
