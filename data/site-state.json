@@ -21,7 +21,7 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2074209421799166138",
       "verdict": "not_reset"
     },
-    "lastError": "Tweet fetch failed: Tweet search failed: Unknown error; timeline fallback failed: Unknown error (Unknown error) (Tweet search failed: Unknown error; timeline fallback failed: Unknown error)",
+    "lastError": "Tweet fetch failed: Unknown error (Unknown error)",
     "lastSeenTweetId": "2074209421799166138",
     "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2074209421799166138",
     "pendingReview": {
@@ -304,6 +304,21 @@
   "automationEvents": [
     {
       "confidence": 0,
+      "createdAt": 1783455715044,
+      "inputTokens": 0,
+      "message": "Tweet fetch failed: Unknown error (Unknown error)",
+      "outputTokens": 0,
+      "rationale": "",
+      "reasoningTokens": 0,
+      "totalTokens": 0,
+      "tweetId": null,
+      "tweetText": "",
+      "tweetUrl": null,
+      "type": "error",
+      "verdict": null
+    },
+    {
+      "confidence": 0,
       "createdAt": 1783453550396,
       "inputTokens": 0,
       "message": "Tweet fetch failed: Tweet search failed: Unknown error; timeline fallback failed: Unknown error (Unknown error) (Tweet search failed: Unknown error; timeline fallback failed: Unknown error)",
@@ -322,21 +337,6 @@
       "createdAt": 1783453238743,
       "inputTokens": 0,
       "message": "Tweet fetch failed: Tweet search failed: Request failed with status code 404; timeline fallback failed: Unknown error (Unknown error) (Tweet search failed: Request failed with status code 404; timeline fallback failed: Unknown error)",
-      "outputTokens": 0,
-      "rationale": "",
-      "reasoningTokens": 0,
-      "totalTokens": 0,
-      "tweetId": null,
-      "tweetText": "",
-      "tweetUrl": null,
-      "type": "error",
-      "verdict": null
-    },
-    {
-      "confidence": 0,
-      "createdAt": 1783452609751,
-      "inputTokens": 0,
-      "message": "Tweet fetch failed: Unknown error (Unknown error)",
       "outputTokens": 0,
       "rationale": "",
       "reasoningTokens": 0,
@@ -904,9 +904,9 @@
     }
   ],
   "privateState": {
-    "ciphertext": "CHXPkdKhuO0hJl1EDE9wmEgiDc3St_srhajpgXEWdA2ATCkUQfVrfWSrtg",
-    "iv": "xR3i2nrGTtEnDM5_",
-    "tag": "btcT2dSPe9MVgua_4ELJyA",
+    "ciphertext": "Gw9t-V0jkvQLFuiFHiW3ED8AOLcgHof1BfYVWRP1t3Ai_CRVaR_-HZBCYQ",
+    "iv": "krI9e-12aK2uMVye",
+    "tag": "B7YK3g80FMNz9-KOz4vjLQ",
     "version": 1
   }
 }
