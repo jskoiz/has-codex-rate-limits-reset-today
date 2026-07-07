@@ -21,7 +21,7 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2074209421799166138",
       "verdict": "not_reset"
     },
-    "lastError": null,
+    "lastError": "Tweet fetch failed: Tweet search failed: Unknown error; timeline fallback failed: Unknown error (Unknown error) (Tweet search failed: Unknown error; timeline fallback failed: Unknown error)",
     "lastSeenTweetId": "2074209421799166138",
     "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2074209421799166138",
     "pendingReview": {
@@ -302,6 +302,21 @@
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0,
+      "createdAt": 1783448274510,
+      "inputTokens": 0,
+      "message": "Tweet fetch failed: Tweet search failed: Unknown error; timeline fallback failed: Unknown error (Unknown error) (Tweet search failed: Unknown error; timeline fallback failed: Unknown error)",
+      "outputTokens": 0,
+      "rationale": "",
+      "reasoningTokens": 0,
+      "totalTokens": 0,
+      "tweetId": null,
+      "tweetText": "",
+      "tweetUrl": null,
+      "type": "error",
+      "verdict": null
+    },
     {
       "confidence": 0,
       "createdAt": 1783427174801,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2071898323577905636",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1782814141183,
-      "inputTokens": 407,
-      "message": "",
-      "outputTokens": 73,
-      "rationale": "This reply describes a Codex workflow and does not mention limits or resets.",
-      "reasoningTokens": 30,
-      "totalTokens": 480,
-      "tweetId": "2071897922510164152",
-      "tweetText": "@iamsahaj_xyz I personally DM it to Codex and it stores it into my notes folder all neatly organized. Some things it then just does itself and for the rest it reminds me of things I need to do a few when I have free time based on my calendar",
-      "tweetUrl": "https://x.com/thsottiaux/status/2071897922510164152",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "POTslYh3vUCZIdI2wDOyUOu5HG0TyTmJC7lC6ozeuhBCpWwSwW3v2Cbouw",
-    "iv": "z1PwO5042BhNmSI4",
-    "tag": "pOXnTqYAEggeLeEBWvt4rw",
+    "ciphertext": "lcfR4t9qAJB1aGhbBgPZbP2kvPrr_Zyd7TNaedu1vIkKnKYbI4-2L9oE1w",
+    "iv": "AhWs9LXmAsIp4Egc",
+    "tag": "nt8R3A-S2LrdiCaAJe4sKg",
     "version": 1
   }
 }
