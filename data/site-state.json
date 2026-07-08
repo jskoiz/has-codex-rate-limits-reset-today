@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.97,
-      "decidedAt": 1783526491374,
-      "rationale": "This is promotional livestream chatter and does not say any Codex or ChatGPT limits have reset now.",
-      "tweetId": "2074885402918601082",
-      "tweetUrl": "https://x.com/thsottiaux/status/2074885402918601082",
+      "decidedAt": 1783527107656,
+      "rationale": "This reply only mentions getting access tomorrow and does not indicate any current limit or rate-cap reset.",
+      "tweetId": "2074888296430530606",
+      "tweetUrl": "https://x.com/thsottiaux/status/2074888296430530606",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2074885402918601082",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2074885402918601082",
+    "lastSeenTweetId": "2074888296430530606",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2074888296430530606",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1783211809623,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2073565412336308699"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.97,
+        "evaluatedAt": 1783527107656,
+        "inputTokens": 372,
+        "outputTokens": 150,
+        "rationale": "This reply only mentions getting access tomorrow and does not indicate any current limit or rate-cap reset.",
+        "reasoningTokens": 103,
+        "totalTokens": 522,
+        "tweetId": "2074888296430530606",
+        "tweetText": "@LukeberryPi Wait until you get access tomorrow! Then you'll be writing \"paid posts\" too.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2074888296430530606",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.97,
         "evaluatedAt": 1783526491374,
@@ -279,29 +292,31 @@
         "tweetText": "@rezoundous Nice try",
         "tweetUrl": "https://x.com/thsottiaux/status/2073520131125166086",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1783198158769,
-        "inputTokens": 366,
-        "outputTokens": 91,
-        "rationale": "This is just a conversational reply and does not indicate any rate-limit or cap reset.",
-        "reasoningTokens": 46,
-        "totalTokens": 457,
-        "tweetId": "2073508703764906111",
-        "tweetText": "@Alex_m @mark_k @OpenAI No. Tell me more",
-        "tweetUrl": "https://x.com/thsottiaux/status/2073508703764906111",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 298790,
-      "totalOutputTokens": 79791,
-      "totalReasoningTokens": 43358,
-      "totalTokens": 378581
+      "totalInputTokens": 299162,
+      "totalOutputTokens": 79941,
+      "totalReasoningTokens": 43461,
+      "totalTokens": 379103
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.97,
+      "createdAt": 1783527107656,
+      "inputTokens": 372,
+      "message": "",
+      "outputTokens": 150,
+      "rationale": "This reply only mentions getting access tomorrow and does not indicate any current limit or rate-cap reset.",
+      "reasoningTokens": 103,
+      "totalTokens": 522,
+      "tweetId": "2074888296430530606",
+      "tweetText": "@LukeberryPi Wait until you get access tomorrow! Then you'll be writing \"paid posts\" too.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2074888296430530606",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.97,
       "createdAt": 1783526491374,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2072608196993188002",
       "type": "review_requested",
       "verdict": "uncertain"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1782983258613,
-      "inputTokens": 376,
-      "message": "",
-      "outputTokens": 78,
-      "rationale": "This is a general comment about a model release and does not indicate any limits or caps have reset.",
-      "reasoningTokens": 30,
-      "totalTokens": 454,
-      "tweetId": "2072607914217320644",
-      "tweetText": "Can't wait to see what people will do with GPT-5.6 Sol Ultra. Stash your hardest prompts somewhere.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2072607914217320644",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "eKrEWNexY8lFatoTpyNKWN42yeJriN2pa8MjKlf25XVK88i92FE9x_yJsQ",
-    "iv": "2jXkEEf8jLBnJqwT",
-    "tag": "FpyRVaRTx1Ml83FQcAV_qw",
+    "ciphertext": "dWSMzq4EN4r6f2lAISx_WiZmOv-KgyEE2botP35G9NJ2s5vYrN-goLrhBw",
+    "iv": "DA9lQzoQDW7CwC2n",
+    "tag": "9X5GF8G1s4Glh0In8zVbcA",
     "version": 1
   }
 }
