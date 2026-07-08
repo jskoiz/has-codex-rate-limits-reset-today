@@ -21,7 +21,7 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2074209421799166138",
       "verdict": "not_reset"
     },
-    "lastError": "Tweet fetch failed: Unknown error (Unknown error)",
+    "lastError": null,
     "lastSeenTweetId": "2074209421799166138",
     "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2074209421799166138",
     "pendingReview": {
@@ -904,9 +904,9 @@
     }
   ],
   "privateState": {
-    "ciphertext": "lg33qKo6HjTXiYGhqC6ZmudyX7r0OWTDDrc9fh6nQ-tT6HI1CafN3swSug",
-    "iv": "LlQc__grOfxO3wQ1",
-    "tag": "ZtkP4ZENtma6DaJ3eghNDg",
+    "ciphertext": "bwflG1WljNJp4e50XiQBeNN1XDtf0l4A74WZSb45rTKF4c23FVkm1xHQlA",
+    "iv": "PlFxdzTnRIzsyC6D",
+    "tag": "PeOR4Uw8Tm8Q_sBsiTDUpA",
     "version": 1
   }
 }
