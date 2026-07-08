@@ -14,16 +14,16 @@
   "updatedAt": 1782776637294,
   "automation": {
     "lastDecision": {
-      "confidence": 0.87,
-      "decidedAt": 1783527129200,
-      "rationale": "This reply lacks enough context to tell whether it is denying a rate-limit reset claim or something else.",
-      "tweetId": "2074888736429814114",
-      "tweetUrl": "https://x.com/thsottiaux/status/2074888736429814114",
-      "verdict": "uncertain"
+      "confidence": 0.97,
+      "decidedAt": 1783536119604,
+      "rationale": "This reply only clarifies it is ChatGPT and does not say any limit or cap has reset.",
+      "tweetId": "2074926588739879183",
+      "tweetUrl": "https://x.com/thsottiaux/status/2074926588739879183",
+      "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2074888736429814114",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2074888736429814114",
+    "lastSeenTweetId": "2074926588739879183",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2074926588739879183",
     "pendingReview": {
       "confidence": 0.87,
       "createdAt": 1783527129200,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2074888736429814114"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.97,
+        "evaluatedAt": 1783536119604,
+        "inputTokens": 362,
+        "outputTokens": 124,
+        "rationale": "This reply only clarifies it is ChatGPT and does not say any limit or cap has reset.",
+        "reasoningTokens": 76,
+        "totalTokens": 486,
+        "tweetId": "2074926588739879183",
+        "tweetText": "@nunezvice No, it's ChatGPT",
+        "tweetUrl": "https://x.com/thsottiaux/status/2074926588739879183",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.87,
         "evaluatedAt": 1783527129200,
@@ -279,29 +292,31 @@
         "tweetText": "@TokenGremlin I'm not that serious.",
         "tweetUrl": "https://x.com/thsottiaux/status/2073531523920195597",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1783201272813,
-        "inputTokens": 364,
-        "outputTokens": 76,
-        "rationale": "This reply only says the team will investigate and does not indicate any limits have reset.",
-        "reasoningTokens": 31,
-        "totalTokens": 440,
-        "tweetId": "2073521824416125324",
-        "tweetText": "@Alex_m @mark_k @OpenAI Team will look!",
-        "tweetUrl": "https://x.com/thsottiaux/status/2073521824416125324",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 299534,
-      "totalOutputTokens": 80257,
-      "totalReasoningTokens": 43729,
-      "totalTokens": 379791
+      "totalInputTokens": 299896,
+      "totalOutputTokens": 80381,
+      "totalReasoningTokens": 43805,
+      "totalTokens": 380277
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.97,
+      "createdAt": 1783536119604,
+      "inputTokens": 362,
+      "message": "",
+      "outputTokens": 124,
+      "rationale": "This reply only clarifies it is ChatGPT and does not say any limit or cap has reset.",
+      "reasoningTokens": 76,
+      "totalTokens": 486,
+      "tweetId": "2074926588739879183",
+      "tweetText": "@nunezvice No, it's ChatGPT",
+      "tweetUrl": "https://x.com/thsottiaux/status/2074926588739879183",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.87,
       "createdAt": 1783527129200,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2073041653087023525",
       "type": "review_requested",
       "verdict": "uncertain"
-    },
-    {
-      "confidence": 0.98,
-      "createdAt": 1783086560988,
-      "inputTokens": 358,
-      "message": "",
-      "outputTokens": 84,
-      "rationale": "This is just a conversational reply and does not indicate any rate-limit reset.",
-      "reasoningTokens": 41,
-      "totalTokens": 442,
-      "tweetId": "2073040599461101578",
-      "tweetText": "@LexnLin Let's see",
-      "tweetUrl": "https://x.com/thsottiaux/status/2073040599461101578",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "SQZozaHDV4ELouSMeoTEGKc4VW16Z0_5LdVmT1uKPseF74yY_ABR1jjjDw",
-    "iv": "184INesk50-26E-0",
-    "tag": "ZvbeObE9cp3geiZlTj3gcw",
+    "ciphertext": "5wiVQNvzUW_YPX9aPsxMOdtQnyioFNXumx5bco7_Nb6KyNPO-c8VbSFFiQ",
+    "iv": "BzABJ7y0AXcjwR_X",
+    "tag": "RSwLuqS_Y6xZGqtTJWXUQg",
     "version": 1
   }
 }
