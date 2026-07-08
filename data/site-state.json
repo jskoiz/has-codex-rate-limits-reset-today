@@ -14,16 +14,16 @@
   "updatedAt": 1782776637294,
   "automation": {
     "lastDecision": {
-      "confidence": 0.96,
-      "decidedAt": 1783483658315,
-      "rationale": "This is a product launch and access-expansion announcement, not a statement that usage caps or rate limits reset.",
-      "tweetId": "2074705681920520526",
-      "tweetUrl": "https://x.com/thsottiaux/status/2074705681920520526",
+      "confidence": 0.99,
+      "decidedAt": 1783521208428,
+      "rationale": "This is just a conversational reply and does not mention limits or resets.",
+      "tweetId": "2074864353308987868",
+      "tweetUrl": "https://x.com/thsottiaux/status/2074864353308987868",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2074705681920520526",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2074705681920520526",
+    "lastSeenTweetId": "2074864353308987868",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2074864353308987868",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1783211809623,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2073565412336308699"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1783521208428,
+        "inputTokens": 360,
+        "outputTokens": 105,
+        "rationale": "This is just a conversational reply and does not mention limits or resets.",
+        "reasoningTokens": 63,
+        "totalTokens": 465,
+        "tweetId": "2074864353308987868",
+        "tweetText": "@thdxr Let's go Dax!",
+        "tweetUrl": "https://x.com/thsottiaux/status/2074864353308987868",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.96,
         "evaluatedAt": 1783483658315,
@@ -279,29 +292,31 @@
         "tweetText": "@l_hey_l @hqmank Did you think we would stop training models after Sol?",
         "tweetUrl": "https://x.com/thsottiaux/status/2073507252544180478",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1783197853428,
-        "inputTokens": 385,
-        "outputTokens": 83,
-        "rationale": "This is a conversational joke about ChatGPT and Codex, not a limit reset announcement.",
-        "reasoningTokens": 37,
-        "totalTokens": 468,
-        "tweetId": "2073506936725581911",
-        "tweetText": "@mark_k @OpenAI It's pretty simple. We are bringing ChatGPT to Codex so that Codex can be in ChatGPT in Codex in ChatGPT.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2073506936725581911",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 298004,
-      "totalOutputTokens": 79565,
-      "totalReasoningTokens": 43222,
-      "totalTokens": 377569
+      "totalInputTokens": 298364,
+      "totalOutputTokens": 79670,
+      "totalReasoningTokens": 43285,
+      "totalTokens": 378034
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1783521208428,
+      "inputTokens": 360,
+      "message": "",
+      "outputTokens": 105,
+      "rationale": "This is just a conversational reply and does not mention limits or resets.",
+      "reasoningTokens": 63,
+      "totalTokens": 465,
+      "tweetId": "2074864353308987868",
+      "tweetText": "@thdxr Let's go Dax!",
+      "tweetUrl": "https://x.com/thsottiaux/status/2074864353308987868",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.96,
       "createdAt": 1783483658315,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2072410623380468190",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1782936073082,
-      "inputTokens": 359,
-      "message": "",
-      "outputTokens": 75,
-      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-      "reasoningTokens": 31,
-      "totalTokens": 434,
-      "tweetId": "2072409369786851678",
-      "tweetText": "@ericlim What's ChatGPT?",
-      "tweetUrl": "https://x.com/thsottiaux/status/2072409369786851678",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "tjleZxYJgn1po3n5t8qXzrdY6P97amCyXYzBL8Ly0zZ_E85k6OZ-SmBmzw",
-    "iv": "DHEfPDncTL_dypv8",
-    "tag": "XrqoyUrGN-bQwVBm1yrR-g",
+    "ciphertext": "leJRQtSw3TTifV4WZc4oDTsD9ms3H09HsBeIQGuw28m9LFVNgOaFOqN87w",
+    "iv": "YqpCfT_XRfHlBkjF",
+    "tag": "jNyhoTl0PuMa0SSwnjEfLA",
     "version": 1
   }
 }
