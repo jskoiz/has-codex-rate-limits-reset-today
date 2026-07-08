@@ -14,16 +14,16 @@
   "updatedAt": 1782776637294,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1783521208428,
-      "rationale": "This is just a conversational reply and does not mention limits or resets.",
-      "tweetId": "2074864353308987868",
-      "tweetUrl": "https://x.com/thsottiaux/status/2074864353308987868",
+      "confidence": 0.97,
+      "decidedAt": 1783526491374,
+      "rationale": "This is promotional livestream chatter and does not say any Codex or ChatGPT limits have reset now.",
+      "tweetId": "2074885402918601082",
+      "tweetUrl": "https://x.com/thsottiaux/status/2074885402918601082",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2074864353308987868",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2074864353308987868",
+    "lastSeenTweetId": "2074885402918601082",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2074885402918601082",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1783211809623,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2073565412336308699"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.97,
+        "evaluatedAt": 1783526491374,
+        "inputTokens": 426,
+        "outputTokens": 121,
+        "rationale": "This is promotional livestream chatter and does not say any Codex or ChatGPT limits have reset now.",
+        "reasoningTokens": 73,
+        "totalTokens": 547,
+        "tweetId": "2074885402918601082",
+        "tweetText": "We were resetting last week. This week we are SHIPPING. Tune in for the livestream at 10am.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2074885402918601082",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1783521208428,
@@ -279,29 +292,31 @@
         "tweetText": "@Alex_m @mark_k @OpenAI No. Tell me more",
         "tweetUrl": "https://x.com/thsottiaux/status/2073508703764906111",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1783197855857,
-        "inputTokens": 371,
-        "outputTokens": 89,
-        "rationale": "This reply discusses model training and does not mention any limit, cap, or rate-limit reset.",
-        "reasoningTokens": 42,
-        "totalTokens": 460,
-        "tweetId": "2073507252544180478",
-        "tweetText": "@l_hey_l @hqmank Did you think we would stop training models after Sol?",
-        "tweetUrl": "https://x.com/thsottiaux/status/2073507252544180478",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 298364,
-      "totalOutputTokens": 79670,
-      "totalReasoningTokens": 43285,
-      "totalTokens": 378034
+      "totalInputTokens": 298790,
+      "totalOutputTokens": 79791,
+      "totalReasoningTokens": 43358,
+      "totalTokens": 378581
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.97,
+      "createdAt": 1783526491374,
+      "inputTokens": 426,
+      "message": "",
+      "outputTokens": 121,
+      "rationale": "This is promotional livestream chatter and does not say any Codex or ChatGPT limits have reset now.",
+      "reasoningTokens": 73,
+      "totalTokens": 547,
+      "tweetId": "2074885402918601082",
+      "tweetText": "We were resetting last week. This week we are SHIPPING. Tune in for the livestream at 10am.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2074885402918601082",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1783521208428,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2072607914217320644",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.95,
-      "createdAt": 1782936400160,
-      "inputTokens": 460,
-      "message": "",
-      "outputTokens": 245,
-      "rationale": "This is an event promo about seeing a Codex reset button demo, not a clear statement that public usage limits have…",
-      "reasoningTokens": 191,
-      "totalTokens": 705,
-      "tweetId": "2072410623380468190",
-      "tweetText": "It's happening",
-      "tweetUrl": "https://x.com/thsottiaux/status/2072410623380468190",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "leJRQtSw3TTifV4WZc4oDTsD9ms3H09HsBeIQGuw28m9LFVNgOaFOqN87w",
-    "iv": "YqpCfT_XRfHlBkjF",
-    "tag": "jNyhoTl0PuMa0SSwnjEfLA",
+    "ciphertext": "eKrEWNexY8lFatoTpyNKWN42yeJriN2pa8MjKlf25XVK88i92FE9x_yJsQ",
+    "iv": "2jXkEEf8jLBnJqwT",
+    "tag": "FpyRVaRTx1Ml83FQcAV_qw",
     "version": 1
   }
 }
