@@ -14,25 +14,38 @@
   "updatedAt": 1782776637294,
   "automation": {
     "lastDecision": {
-      "confidence": 0.97,
-      "decidedAt": 1783527107656,
-      "rationale": "This reply only mentions getting access tomorrow and does not indicate any current limit or rate-cap reset.",
-      "tweetId": "2074888296430530606",
-      "tweetUrl": "https://x.com/thsottiaux/status/2074888296430530606",
-      "verdict": "not_reset"
+      "confidence": 0.87,
+      "decidedAt": 1783527129200,
+      "rationale": "This reply lacks enough context to tell whether it is denying a rate-limit reset claim or something else.",
+      "tweetId": "2074888736429814114",
+      "tweetUrl": "https://x.com/thsottiaux/status/2074888736429814114",
+      "verdict": "uncertain"
     },
     "lastError": null,
-    "lastSeenTweetId": "2074888296430530606",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2074888296430530606",
+    "lastSeenTweetId": "2074888736429814114",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2074888736429814114",
     "pendingReview": {
-      "confidence": 0.95,
-      "createdAt": 1783211809623,
-      "rationale": "The post is cryptic and provides no explicit text indicating that limits have reset or usage is available again.",
-      "tweetId": "2073565412336308699",
-      "tweetText": "iykyk https://t.co/irvzysRIpT",
-      "tweetUrl": "https://x.com/thsottiaux/status/2073565412336308699"
+      "confidence": 0.87,
+      "createdAt": 1783527129200,
+      "rationale": "This reply lacks enough context to tell whether it is denying a rate-limit reset claim or something else.",
+      "tweetId": "2074888736429814114",
+      "tweetText": "@VicVijayakumar For the avoidance of any doubt. This is not a true statement.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2074888736429814114"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.87,
+        "evaluatedAt": 1783527129200,
+        "inputTokens": 372,
+        "outputTokens": 316,
+        "rationale": "This reply lacks enough context to tell whether it is denying a rate-limit reset claim or something else.",
+        "reasoningTokens": 268,
+        "totalTokens": 688,
+        "tweetId": "2074888736429814114",
+        "tweetText": "@VicVijayakumar For the avoidance of any doubt. This is not a true statement.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2074888736429814114",
+        "verdict": "uncertain"
+      },
       {
         "confidence": 0.97,
         "evaluatedAt": 1783527107656,
@@ -279,29 +292,31 @@
         "tweetText": "@Alex_m @mark_k @OpenAI Team will look!",
         "tweetUrl": "https://x.com/thsottiaux/status/2073521824416125324",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1783200957928,
-        "inputTokens": 358,
-        "outputTokens": 64,
-        "rationale": "This reply does not mention rate limits, caps, or any reset.",
-        "reasoningTokens": 22,
-        "totalTokens": 422,
-        "tweetId": "2073520131125166086",
-        "tweetText": "@rezoundous Nice try",
-        "tweetUrl": "https://x.com/thsottiaux/status/2073520131125166086",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 299162,
-      "totalOutputTokens": 79941,
-      "totalReasoningTokens": 43461,
-      "totalTokens": 379103
+      "totalInputTokens": 299534,
+      "totalOutputTokens": 80257,
+      "totalReasoningTokens": 43729,
+      "totalTokens": 379791
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.87,
+      "createdAt": 1783527129200,
+      "inputTokens": 372,
+      "message": "",
+      "outputTokens": 316,
+      "rationale": "This reply lacks enough context to tell whether it is denying a rate-limit reset claim or something else.",
+      "reasoningTokens": 268,
+      "totalTokens": 688,
+      "tweetId": "2074888736429814114",
+      "tweetText": "@VicVijayakumar For the avoidance of any doubt. This is not a true statement.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2074888736429814114",
+      "type": "review_requested",
+      "verdict": "uncertain"
+    },
     {
       "confidence": 0.97,
       "createdAt": 1783527107656,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2073040599461101578",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.68,
-      "createdAt": 1782983566172,
-      "inputTokens": 384,
-      "message": "",
-      "outputTokens": 225,
-      "rationale": "This sounds like something was added to accounts, but it does not clearly say rate limits or usage caps have reset.",
-      "reasoningTokens": 174,
-      "totalTokens": 609,
-      "tweetId": "2072608196993188002",
-      "tweetText": "@LexnLin Should be in your little piggy bank. It is for everyone. Let me know if it doesn't show in your account and we'll definitely investigate.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2072608196993188002",
-      "type": "review_requested",
-      "verdict": "uncertain"
     }
   ],
   "privateState": {
-    "ciphertext": "dWSMzq4EN4r6f2lAISx_WiZmOv-KgyEE2botP35G9NJ2s5vYrN-goLrhBw",
-    "iv": "DA9lQzoQDW7CwC2n",
-    "tag": "9X5GF8G1s4Glh0In8zVbcA",
+    "ciphertext": "SQZozaHDV4ELouSMeoTEGKc4VW16Z0_5LdVmT1uKPseF74yY_ABR1jjjDw",
+    "iv": "184INesk50-26E-0",
+    "tag": "ZvbeObE9cp3geiZlTj3gcw",
     "version": 1
   }
 }
