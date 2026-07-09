@@ -14,16 +14,16 @@
   "updatedAt": 1782776637294,
   "automation": {
     "lastDecision": {
-      "confidence": 0.98,
-      "decidedAt": 1783630275640,
-      "rationale": "This is just an emoji reply and does not indicate any limits or usage have reset.",
-      "tweetId": "2075320999625851151",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075320999625851151",
+      "confidence": 0.99,
+      "decidedAt": 1783630585423,
+      "rationale": "This is a promotional quote tweet about OpenAI Build Week, not about limits resetting.",
+      "tweetId": "2075322213834875026",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075322213834875026",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2075320999625851151",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075320999625851151",
+    "lastSeenTweetId": "2075322213834875026",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075322213834875026",
     "pendingReview": {
       "confidence": 0.9,
       "createdAt": 1783629959034,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2075319370369409428"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1783630585423,
+        "inputTokens": 462,
+        "outputTokens": 91,
+        "rationale": "This is a promotional quote tweet about OpenAI Build Week, not about limits resetting.",
+        "reasoningTokens": 46,
+        "totalTokens": 553,
+        "tweetId": "2075322213834875026",
+        "tweetText": "Builders of the world. This is your time.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2075322213834875026",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.98,
         "evaluatedAt": 1783630275640,
@@ -279,29 +292,31 @@
         "tweetText": "@LLMJunky It's the little things",
         "tweetUrl": "https://x.com/thsottiaux/status/2075279666085298593",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1783615431279,
-        "inputTokens": 408,
-        "outputTokens": 83,
-        "rationale": "This post is promotional about an event and does not mention limits or availability resetting.",
-        "reasoningTokens": 39,
-        "totalTokens": 491,
-        "tweetId": "2075259145373323439",
-        "tweetText": "Join us for a few unexpected things!",
-        "tweetUrl": "https://x.com/thsottiaux/status/2075259145373323439",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 309777,
-      "totalOutputTokens": 82951,
-      "totalReasoningTokens": 45204,
-      "totalTokens": 392728
+      "totalInputTokens": 310239,
+      "totalOutputTokens": 83042,
+      "totalReasoningTokens": 45250,
+      "totalTokens": 393281
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1783630585423,
+      "inputTokens": 462,
+      "message": "",
+      "outputTokens": 91,
+      "rationale": "This is a promotional quote tweet about OpenAI Build Week, not about limits resetting.",
+      "reasoningTokens": 46,
+      "totalTokens": 553,
+      "tweetId": "2075322213834875026",
+      "tweetText": "Builders of the world. This is your time.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075322213834875026",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.98,
       "createdAt": 1783630275640,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2074209421799166138",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1783365118172,
-      "inputTokens": 374,
-      "message": "",
-      "outputTokens": 91,
-      "rationale": "This reply discusses a feature flag and code path, not any Codex or ChatGPT limit reset.",
-      "reasoningTokens": 43,
-      "totalTokens": 465,
-      "tweetId": "2074209218517942601",
-      "tweetText": "@WesRoth Checks notes... they forced the feature flag to be on so that the code path triggers.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2074209218517942601",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "yuXEr6PUgPEw-wxI27l3nBG3ZclIhLCc7Gmut5P59_9rn1eZMVqLdwrv9Q",
-    "iv": "dBv0JkOpjppK4s9Y",
-    "tag": "dA8jb-7sW2Qik93XWQzKdw",
+    "ciphertext": "svuLjDr9BjjR8V-ocBmxu-OlJTa5xzaSrtTf_99XPxaeQRwNOwBQmbv1bw",
+    "iv": "FTUoQ4pO3k_EehWN",
+    "tag": "CTdaPeK5SSiB87DdVC8wKQ",
     "version": 1
   }
 }
