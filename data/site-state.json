@@ -14,25 +14,38 @@
   "updatedAt": 1782776637294,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1783630585423,
-      "rationale": "This is a promotional quote tweet about OpenAI Build Week, not about limits resetting.",
-      "tweetId": "2075322213834875026",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075322213834875026",
-      "verdict": "not_reset"
+      "confidence": 0.26,
+      "decidedAt": 1783631519856,
+      "rationale": "This reply alone is too vague to confirm a rate-limit reset without the original question.",
+      "tweetId": "2075326229264380138",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075326229264380138",
+      "verdict": "uncertain"
     },
     "lastError": null,
-    "lastSeenTweetId": "2075322213834875026",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075322213834875026",
+    "lastSeenTweetId": "2075326229264380138",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075326229264380138",
     "pendingReview": {
-      "confidence": 0.9,
-      "createdAt": 1783629959034,
-      "rationale": "The reply only says \"Ramping,\" which is too vague to confirm that limits have reset or usage is available again now.",
-      "tweetId": "2075319370369409428",
-      "tweetText": "@cjzafir Ramping",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075319370369409428"
+      "confidence": 0.26,
+      "createdAt": 1783631519856,
+      "rationale": "This reply alone is too vague to confirm a rate-limit reset without the original question.",
+      "tweetId": "2075326229264380138",
+      "tweetText": "@cherry_mx_reds It seems so",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075326229264380138"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.26,
+        "evaluatedAt": 1783631519856,
+        "inputTokens": 362,
+        "outputTokens": 115,
+        "rationale": "This reply alone is too vague to confirm a rate-limit reset without the original question.",
+        "reasoningTokens": 70,
+        "totalTokens": 477,
+        "tweetId": "2075326229264380138",
+        "tweetText": "@cherry_mx_reds It seems so",
+        "tweetUrl": "https://x.com/thsottiaux/status/2075326229264380138",
+        "verdict": "uncertain"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1783630585423,
@@ -279,29 +292,31 @@
         "tweetText": "GPT 5.6 Sol is our best model so far at ~everything. \n\nIt's remarkable how stark the difference is with GPT-5.5 across coding, hard context and strategy tasks, building sites, ... and literally anything I need to get done. Totally requires raising the ambition of what you try.",
         "tweetUrl": "https://x.com/thsottiaux/status/2075283734136525255",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1783620402566,
-        "inputTokens": 360,
-        "outputTokens": 75,
-        "rationale": "This reply is conversational and does not indicate any Codex or ChatGPT limit reset.",
-        "reasoningTokens": 30,
-        "totalTokens": 435,
-        "tweetId": "2075279666085298593",
-        "tweetText": "@LLMJunky It's the little things",
-        "tweetUrl": "https://x.com/thsottiaux/status/2075279666085298593",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 310239,
-      "totalOutputTokens": 83042,
-      "totalReasoningTokens": 45250,
-      "totalTokens": 393281
+      "totalInputTokens": 310601,
+      "totalOutputTokens": 83157,
+      "totalReasoningTokens": 45320,
+      "totalTokens": 393758
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.26,
+      "createdAt": 1783631519856,
+      "inputTokens": 362,
+      "message": "",
+      "outputTokens": 115,
+      "rationale": "This reply alone is too vague to confirm a rate-limit reset without the original question.",
+      "reasoningTokens": 70,
+      "totalTokens": 477,
+      "tweetId": "2075326229264380138",
+      "tweetText": "@cherry_mx_reds It seems so",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075326229264380138",
+      "type": "review_requested",
+      "verdict": "uncertain"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1783630585423,
@@ -886,27 +901,12 @@
       "tweetUrl": null,
       "type": "error",
       "verdict": null
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1783365121822,
-      "inputTokens": 405,
-      "message": "",
-      "outputTokens": 114,
-      "rationale": "The post and quoted tweet discuss Ultra being in Codex, not any rate-limit or usage reset.",
-      "reasoningTokens": 66,
-      "totalTokens": 519,
-      "tweetId": "2074209421799166138",
-      "tweetText": "https://t.co/PXjlm4RLJJ",
-      "tweetUrl": "https://x.com/thsottiaux/status/2074209421799166138",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "svuLjDr9BjjR8V-ocBmxu-OlJTa5xzaSrtTf_99XPxaeQRwNOwBQmbv1bw",
-    "iv": "FTUoQ4pO3k_EehWN",
-    "tag": "CTdaPeK5SSiB87DdVC8wKQ",
+    "ciphertext": "6eiUfeP5vdMFTpwNEElNZwBg3mbtTDbRRd_ns0oCcJlyyp0FLE2HcaPg8w",
+    "iv": "EeJV15aEVGpv-DjK",
+    "tag": "kzzcuucYOvzxWe7nQaCPmA",
     "version": 1
   }
 }
