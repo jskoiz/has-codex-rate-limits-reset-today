@@ -14,25 +14,38 @@
   "updatedAt": 1782776637294,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1783623432631,
-      "rationale": "This is a product rollout announcement, not a statement that usage limits or rate caps have reset.",
-      "tweetId": "2075292097658392602",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075292097658392602",
-      "verdict": "not_reset"
+      "confidence": 0.2,
+      "decidedAt": 1783623437724,
+      "rationale": "This reply contains only a link and provides no explicit evidence that limits have reset.",
+      "tweetId": "2075292240747073546",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075292240747073546",
+      "verdict": "uncertain"
     },
     "lastError": null,
-    "lastSeenTweetId": "2075292097658392602",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075292097658392602",
+    "lastSeenTweetId": "2075292240747073546",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075292240747073546",
     "pendingReview": {
-      "confidence": 0.97,
-      "createdAt": 1783621923977,
-      "rationale": "This reply only contains a link, so it does not explicitly show that limits have reset.",
-      "tweetId": "2075285898724536777",
-      "tweetText": "https://t.co/sYVBMT3pTH",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075285898724536777"
+      "confidence": 0.2,
+      "createdAt": 1783623437724,
+      "rationale": "This reply contains only a link and provides no explicit evidence that limits have reset.",
+      "tweetId": "2075292240747073546",
+      "tweetText": "https://t.co/rvJ7EawhHh",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075292240747073546"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.2,
+        "evaluatedAt": 1783623437724,
+        "inputTokens": 366,
+        "outputTokens": 177,
+        "rationale": "This reply contains only a link and provides no explicit evidence that limits have reset.",
+        "reasoningTokens": 133,
+        "totalTokens": 543,
+        "tweetId": "2075292240747073546",
+        "tweetText": "https://t.co/rvJ7EawhHh",
+        "tweetUrl": "https://x.com/thsottiaux/status/2075292240747073546",
+        "verdict": "uncertain"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1783623432631,
@@ -279,29 +292,31 @@
         "tweetText": "@nunezvice No, it's ChatGPT",
         "tweetUrl": "https://x.com/thsottiaux/status/2074926588739879183",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.87,
-        "evaluatedAt": 1783527129200,
-        "inputTokens": 372,
-        "outputTokens": 316,
-        "rationale": "This reply lacks enough context to tell whether it is denying a rate-limit reset claim or something else.",
-        "reasoningTokens": 268,
-        "totalTokens": 688,
-        "tweetId": "2074888736429814114",
-        "tweetText": "@VicVijayakumar For the avoidance of any doubt. This is not a true statement.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2074888736429814114",
-        "verdict": "uncertain"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 306718,
-      "totalOutputTokens": 81972,
-      "totalReasoningTokens": 44594,
-      "totalTokens": 388690
+      "totalInputTokens": 307084,
+      "totalOutputTokens": 82149,
+      "totalReasoningTokens": 44727,
+      "totalTokens": 389233
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.2,
+      "createdAt": 1783623437724,
+      "inputTokens": 366,
+      "message": "",
+      "outputTokens": 177,
+      "rationale": "This reply contains only a link and provides no explicit evidence that limits have reset.",
+      "reasoningTokens": 133,
+      "totalTokens": 543,
+      "tweetId": "2075292240747073546",
+      "tweetText": "https://t.co/rvJ7EawhHh",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075292240747073546",
+      "type": "review_requested",
+      "verdict": "uncertain"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1783623432631,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2073563036757950878",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1783209012847,
-      "inputTokens": 808,
-      "message": "",
-      "outputTokens": 66,
-      "rationale": "This is a humorous chat excerpt and does not mention any Codex or ChatGPT limit reset.",
-      "reasoningTokens": 19,
-      "totalTokens": 874,
-      "tweetId": "2073554978053005607",
-      "tweetText": "A silly, but made me laugh interaction with Sol\n\n-----------------\n\n🫡🫡🫡🫡🫡🫡🫡🫡🫡🫡🫡🫡🫡\n🫡🫡🫡🫡🫡🫡🫡🫡🫡🫡🫡🫡🫡\n🫡🫡🫡🫡🫡🫡🫡🫡🫡🫡🫡🫡🫡\n\n> 🫡 Salute received, loud and clear. Carry on!\n\n* 12\n\n> 39 × 12 = 468 🫡\n\n- 800\n\n> 468 − 800 = −332 🫡\n\n?\n\n> There were 39 🫡 emojis.\n> (39 × 12) − 800 = 468 − 800 = −332.\n\nhow can you have negative emojis\n\n> You can’t physically. −332 🫡 means you’re short 332 salutes or ... owe 332 salutes.\n> Actual emojis remaining: 0 🫡, with a 332-salute debt.\n\n🫡🫡🫡🫡🫡🫡🫡🫡🫡🫡🫡🫡🫡\n🫡🫡🫡🫡🫡🫡🫡🫡🫡🫡🫡🫡🫡\n🫡🫡🫡🫡🫡🫡🫡🫡🫡🫡🫡🫡🫡\n\n> Payment received: 39 🫡\n> Remaining salute debt: 293 🫡\n\nhahaha\n\n> The salute economy is ruthless. 🫡📉",
-      "tweetUrl": "https://x.com/thsottiaux/status/2073554978053005607",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "8d8dmFnuOhXJbPwDgaIwmBHzjqfA_2Elk1nRxOS84pY1xRabBhPqhBMfVQ",
-    "iv": "YOYgffba4wQoUUco",
-    "tag": "-EoG3-7DLL4UfxdGIVNfaA",
+    "ciphertext": "ZLYVu3PC18RSZc0dtjUYtiPUyk73xl0SS56aAOdkv4Rq-kFbUURMfKpL8g",
+    "iv": "UNNSY-CPmZiXalF4",
+    "tag": "jDz_kJywHzZ0rXi6flJUGA",
     "version": 1
   }
 }
