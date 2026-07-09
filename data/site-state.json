@@ -14,25 +14,38 @@
   "updatedAt": 1782776637294,
   "automation": {
     "lastDecision": {
-      "confidence": 0.98,
-      "decidedAt": 1783621321449,
-      "rationale": "This reply describes a feature rollout timing, not a rate-limit or usage-cap reset.",
-      "tweetId": "2075283825048064261",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075283825048064261",
-      "verdict": "not_reset"
+      "confidence": 0.97,
+      "decidedAt": 1783621325673,
+      "rationale": "This reply only contains a link, so it does not clearly state that limits have reset.",
+      "tweetId": "2075283864470392897",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075283864470392897",
+      "verdict": "uncertain"
     },
     "lastError": null,
-    "lastSeenTweetId": "2075283825048064261",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075283825048064261",
+    "lastSeenTweetId": "2075283864470392897",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075283864470392897",
     "pendingReview": {
-      "confidence": 0.87,
-      "createdAt": 1783527129200,
-      "rationale": "This reply lacks enough context to tell whether it is denying a rate-limit reset claim or something else.",
-      "tweetId": "2074888736429814114",
-      "tweetText": "@VicVijayakumar For the avoidance of any doubt. This is not a true statement.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2074888736429814114"
+      "confidence": 0.97,
+      "createdAt": 1783621325673,
+      "rationale": "This reply only contains a link, so it does not clearly state that limits have reset.",
+      "tweetId": "2075283864470392897",
+      "tweetText": "https://t.co/BH02Ky7WDe",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075283864470392897"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.97,
+        "evaluatedAt": 1783621325673,
+        "inputTokens": 364,
+        "outputTokens": 141,
+        "rationale": "This reply only contains a link, so it does not clearly state that limits have reset.",
+        "reasoningTokens": 95,
+        "totalTokens": 505,
+        "tweetId": "2075283864470392897",
+        "tweetText": "https://t.co/BH02Ky7WDe",
+        "tweetUrl": "https://x.com/thsottiaux/status/2075283864470392897",
+        "verdict": "uncertain"
+      },
       {
         "confidence": 0.98,
         "evaluatedAt": 1783621321449,
@@ -279,29 +292,31 @@
         "tweetText": "Closing this week. Much of the teams building ChatGPT, Codex and OpenClaw will be there and we'll have a few surprises for folks. Hope to see many of you 👀",
         "tweetUrl": "https://x.com/thsottiaux/status/2074195169990357398",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1783299693312,
-        "inputTokens": 363,
-        "outputTokens": 87,
-        "rationale": "This is just a conversational reply and gives no indication that any Codex or ChatGPT limit has reset.",
-        "reasoningTokens": 38,
-        "totalTokens": 450,
-        "tweetId": "2073934120363937892",
-        "tweetText": "@Adidotdev @ajambrosino Noted",
-        "tweetUrl": "https://x.com/thsottiaux/status/2073934120363937892",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 303645,
-      "totalOutputTokens": 81195,
-      "totalReasoningTokens": 44175,
-      "totalTokens": 384840
+      "totalInputTokens": 304009,
+      "totalOutputTokens": 81336,
+      "totalReasoningTokens": 44270,
+      "totalTokens": 385345
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.97,
+      "createdAt": 1783621325673,
+      "inputTokens": 364,
+      "message": "",
+      "outputTokens": 141,
+      "rationale": "This reply only contains a link, so it does not clearly state that limits have reset.",
+      "reasoningTokens": 95,
+      "totalTokens": 505,
+      "tweetId": "2075283864470392897",
+      "tweetText": "https://t.co/BH02Ky7WDe",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075283864470392897",
+      "type": "review_requested",
+      "verdict": "uncertain"
+    },
     {
       "confidence": 0.98,
       "createdAt": 1783621321449,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2073508703764906111",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1783197855857,
-      "inputTokens": 371,
-      "message": "",
-      "outputTokens": 89,
-      "rationale": "This reply discusses model training and does not mention any limit, cap, or rate-limit reset.",
-      "reasoningTokens": 42,
-      "totalTokens": 460,
-      "tweetId": "2073507252544180478",
-      "tweetText": "@l_hey_l @hqmank Did you think we would stop training models after Sol?",
-      "tweetUrl": "https://x.com/thsottiaux/status/2073507252544180478",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "ZB4VnPJNo5APPIJO6A3WOgDIvEazq2tun2OO9OcIUx5tchu076qy3Uge9Q",
-    "iv": "NT0tKsyY058VTaGx",
-    "tag": "CinEhYJYJ2bTXWU9Km408w",
+    "ciphertext": "Ug1cKB0eLBcR8uYRhWrVv56C6-UzQFTP91uLhqq1oM0ouYseglA7jlR9HQ",
+    "iv": "d0ufVhQwCRMI5s_P",
+    "tag": "mldFASzsWH-v3AEyEDqFyQ",
     "version": 1
   }
 }
