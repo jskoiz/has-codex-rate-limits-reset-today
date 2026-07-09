@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1783639305318,
-      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-      "tweetId": "2075358687145906547",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075358687145906547",
+      "decidedAt": 1783640869817,
+      "rationale": "This reply is about a setting and does not indicate any rate limit or cap reset.",
+      "tweetId": "2075365738802766064",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075365738802766064",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2075358687145906547",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075358687145906547",
+    "lastSeenTweetId": "2075365738802766064",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075365738802766064",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1783640869817,
+        "inputTokens": 367,
+        "outputTokens": 84,
+        "rationale": "This reply is about a setting and does not indicate any rate limit or cap reset.",
+        "reasoningTokens": 39,
+        "totalTokens": 451,
+        "tweetId": "2075365738802766064",
+        "tweetText": "@pedropverani @ajambrosino It’s in a setting",
+        "tweetUrl": "https://x.com/thsottiaux/status/2075365738802766064",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1783639305318,
@@ -272,29 +285,31 @@
         "tweetText": "https://t.co/sYVBMT3pTH",
         "tweetUrl": "https://x.com/thsottiaux/status/2075285898724536777",
         "verdict": "uncertain"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1783621920124,
-        "inputTokens": 419,
-        "outputTokens": 77,
-        "rationale": "This is a product adoption promo and does not mention any limits, caps, or resets.",
-        "reasoningTokens": 31,
-        "totalTokens": 496,
-        "tweetId": "2075285881376919789",
-        "tweetText": "ChatGPT Work brings the power of agents to everyone. It works across mobile, web and desktop. \n\nWe have seen fast adoption within OpenAI and virtually 100% of our staff uses it on a regularly to do everything from finance, recruiting, comms, marketing, product ideation and coordination and so much more.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2075285881376919789",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 311748,
-      "totalOutputTokens": 83441,
-      "totalReasoningTokens": 45463,
-      "totalTokens": 395189
+      "totalInputTokens": 312115,
+      "totalOutputTokens": 83525,
+      "totalReasoningTokens": 45502,
+      "totalTokens": 395640
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1783640869817,
+      "inputTokens": 367,
+      "message": "",
+      "outputTokens": 84,
+      "rationale": "This reply is about a setting and does not indicate any rate limit or cap reset.",
+      "reasoningTokens": 39,
+      "totalTokens": 451,
+      "tweetId": "2075365738802766064",
+      "tweetText": "@pedropverani @ajambrosino It’s in a setting",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075365738802766064",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1783639305318,
@@ -879,27 +894,12 @@
       "tweetUrl": null,
       "type": "error",
       "verdict": null
-    },
-    {
-      "confidence": 0,
-      "createdAt": 1783478388870,
-      "inputTokens": 0,
-      "message": "Tweet fetch failed: Unknown error (Unknown error)",
-      "outputTokens": 0,
-      "rationale": "",
-      "reasoningTokens": 0,
-      "totalTokens": 0,
-      "tweetId": null,
-      "tweetText": "",
-      "tweetUrl": null,
-      "type": "error",
-      "verdict": null
     }
   ],
   "privateState": {
-    "ciphertext": "I9Wv8hbfEpKpNcIWv2984qiWMZVujqNAnWjvi4oJFd97r-ots2v7NrdUaQ",
-    "iv": "ee1RHsGKjA5Y9PBS",
-    "tag": "Cr1HUPf5JosQnH6BIDrYJQ",
+    "ciphertext": "ndR-bPRnZOJzpg9r2q7YZ5PVEgz9wBabJK2BcotF2sMBeDNbMi3dNTsv0Q",
+    "iv": "TorJKOrWlZaSB3rQ",
+    "tag": "NbSlEZ6RK5EOye0qDRiUkw",
     "version": 1
   }
 }
