@@ -14,16 +14,16 @@
   "updatedAt": 1782776637294,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1783623757937,
-      "rationale": "This reply just says \"Settings\" and gives no indication that any limits have reset.",
-      "tweetId": "2075294400662692204",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075294400662692204",
+      "confidence": 0.98,
+      "decidedAt": 1783624359424,
+      "rationale": "It only says a reset will happen later this afternoon, not that limits have reset now.",
+      "tweetId": "2075296200761418073",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075296200761418073",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2075294400662692204",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075294400662692204",
+    "lastSeenTweetId": "2075296200761418073",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075296200761418073",
     "pendingReview": {
       "confidence": 0.2,
       "createdAt": 1783623437724,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2075292240747073546"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.98,
+        "evaluatedAt": 1783624359424,
+        "inputTokens": 370,
+        "outputTokens": 180,
+        "rationale": "It only says a reset will happen later this afternoon, not that limits have reset now.",
+        "reasoningTokens": 134,
+        "totalTokens": 550,
+        "tweetId": "2075296200761418073",
+        "tweetText": "@sohamstwt No need to call me babe. Reset will be coming this afternoon",
+        "tweetUrl": "https://x.com/thsottiaux/status/2075296200761418073",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1783623757937,
@@ -279,29 +292,31 @@
         "tweetText": "You know OpenAI is cooking when the sushi and tacos orders pile at the entrance of the office at 11pm. \n\nBizarrely we need to eat to cook.",
         "tweetUrl": "https://x.com/thsottiaux/status/2075103845114663325",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1783564276722,
-        "inputTokens": 358,
-        "outputTokens": 95,
-        "rationale": "This is just a conversational reply and does not mention limits or availability resetting.",
-        "reasoningTokens": 52,
-        "totalTokens": 453,
-        "tweetId": "2075045022458859810",
-        "tweetText": "@stanleytang Believe",
-        "tweetUrl": "https://x.com/thsottiaux/status/2075045022458859810",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 307893,
-      "totalOutputTokens": 82313,
-      "totalReasoningTokens": 44797,
-      "totalTokens": 390206
+      "totalInputTokens": 308263,
+      "totalOutputTokens": 82493,
+      "totalReasoningTokens": 44931,
+      "totalTokens": 390756
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.98,
+      "createdAt": 1783624359424,
+      "inputTokens": 370,
+      "message": "",
+      "outputTokens": 180,
+      "rationale": "It only says a reset will happen later this afternoon, not that limits have reset now.",
+      "reasoningTokens": 134,
+      "totalTokens": 550,
+      "tweetId": "2075296200761418073",
+      "tweetText": "@sohamstwt No need to call me babe. Reset will be coming this afternoon",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075296200761418073",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1783623757937,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2073926196413555048",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1783297498123,
-      "inputTokens": 371,
-      "message": "",
-      "outputTokens": 66,
-      "rationale": "This reply discusses model availability choices and does not indicate any limits or caps have reset.",
-      "reasoningTokens": 21,
-      "totalTokens": 437,
-      "tweetId": "2073925225142792576",
-      "tweetText": "@kr0der Everyone gets to choose whether they want their models to be broadly available or not.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2073925225142792576",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "MQOBQmSEUQzYSg5okxIgOIbGBB7xG4RI9TudeBcj8J7lBMpZEhLXJE6wJg",
-    "iv": "B5ll5cnLdEVUIQeP",
-    "tag": "-0RmSRMHj5jgpdiuoaZEeQ",
+    "ciphertext": "LyxcLKA3tvUxK5RAFvYXmwEaW5IROPGgWoLs96DJCtzScGt2l91gu68hYw",
+    "iv": "ipwA-fxtK5jgW3EH",
+    "tag": "7wbIP7pRjL_52IuUWM9blg",
     "version": 1
   }
 }
