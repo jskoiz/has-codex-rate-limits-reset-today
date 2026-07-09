@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1783622233126,
-      "rationale": "This reply is unrelated to Codex or ChatGPT limits resetting.",
-      "tweetId": "2075287605890126324",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075287605890126324",
+      "decidedAt": 1783623135091,
+      "rationale": "This reply only asks for clarification and does not indicate any rate-limit reset.",
+      "tweetId": "2075291027943178644",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075291027943178644",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2075287605890126324",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075287605890126324",
+    "lastSeenTweetId": "2075291027943178644",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075291027943178644",
     "pendingReview": {
       "confidence": 0.97,
       "createdAt": 1783621923977,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2075285898724536777"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1783623135091,
+        "inputTokens": 360,
+        "outputTokens": 82,
+        "rationale": "This reply only asks for clarification and does not indicate any rate-limit reset.",
+        "reasoningTokens": 39,
+        "totalTokens": 442,
+        "tweetId": "2075291027943178644",
+        "tweetText": "@STUD_MAN_X Can you expand?",
+        "tweetUrl": "https://x.com/thsottiaux/status/2075291027943178644",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1783622233126,
@@ -279,29 +292,31 @@
         "tweetText": "@LukeberryPi Wait until you get access tomorrow! Then you'll be writing \"paid posts\" too.",
         "tweetUrl": "https://x.com/thsottiaux/status/2074888296430530606",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.97,
-        "evaluatedAt": 1783526491374,
-        "inputTokens": 426,
-        "outputTokens": 121,
-        "rationale": "This is promotional livestream chatter and does not say any Codex or ChatGPT limits have reset now.",
-        "reasoningTokens": 73,
-        "totalTokens": 547,
-        "tweetId": "2074885402918601082",
-        "tweetText": "We were resetting last week. This week we are SHIPPING. Tune in for the livestream at 10am.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2074885402918601082",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 305922,
-      "totalOutputTokens": 81800,
-      "totalReasoningTokens": 44512,
-      "totalTokens": 387722
+      "totalInputTokens": 306282,
+      "totalOutputTokens": 81882,
+      "totalReasoningTokens": 44551,
+      "totalTokens": 388164
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1783623135091,
+      "inputTokens": 360,
+      "message": "",
+      "outputTokens": 82,
+      "rationale": "This reply only asks for clarification and does not indicate any rate-limit reset.",
+      "reasoningTokens": 39,
+      "totalTokens": 442,
+      "tweetId": "2075291027943178644",
+      "tweetText": "@STUD_MAN_X Can you expand?",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075291027943178644",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1783622233126,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2073551962675597572",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1783208394075,
-      "inputTokens": 377,
-      "message": "",
-      "outputTokens": 77,
-      "rationale": "This is a general question about Codex capabilities and does not mention limits or a reset.",
-      "reasoningTokens": 31,
-      "totalTokens": 454,
-      "tweetId": "2073551549494596079",
-      "tweetText": "What is something that you feel is surprising that Codex still can't do well and we should have gotten right a while ago?",
-      "tweetUrl": "https://x.com/thsottiaux/status/2073551549494596079",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "CqnSjYqiRuyi-xt8DQTPizVRLvnnB2dXLBqKu0S5qcgCFR0X3aFX45Kpjg",
-    "iv": "MmFr3Vm1AMi9KSv2",
-    "tag": "x_fxuNdUxjyAI4sPOPuaIQ",
+    "ciphertext": "xwfQGdlgP7dhpYrHO_1STlcF4Wn07TTQVClIRFzevXy8OfzUC9V2Yszq1A",
+    "iv": "UAgWEgHGy1vPVf8G",
+    "tag": "uLdcSYjQH3nSaFGj-ds1oA",
     "version": 1
   }
 }
