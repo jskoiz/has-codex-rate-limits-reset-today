@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1783623135091,
-      "rationale": "This reply only asks for clarification and does not indicate any rate-limit reset.",
-      "tweetId": "2075291027943178644",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075291027943178644",
+      "decidedAt": 1783623432631,
+      "rationale": "This is a product rollout announcement, not a statement that usage limits or rate caps have reset.",
+      "tweetId": "2075292097658392602",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075292097658392602",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2075291027943178644",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075291027943178644",
+    "lastSeenTweetId": "2075292097658392602",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075292097658392602",
     "pendingReview": {
       "confidence": 0.97,
       "createdAt": 1783621923977,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2075285898724536777"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1783623432631,
+        "inputTokens": 436,
+        "outputTokens": 90,
+        "rationale": "This is a product rollout announcement, not a statement that usage limits or rate caps have reset.",
+        "reasoningTokens": 43,
+        "totalTokens": 526,
+        "tweetId": "2075292097658392602",
+        "tweetText": "ChatGPT Work is now rolled out to 100% of our Pro users. Open the ChatGPT mobile app on a phone near you and enjoy productivity on the go. Or install the new ChatGPT desktop app if you need full access to your apps, browser and local files.\n\nOne advice: Raise your ambition. GPT 5.6 Sol is different from what you might have seen before. 👀",
+        "tweetUrl": "https://x.com/thsottiaux/status/2075292097658392602",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1783623135091,
@@ -279,29 +292,31 @@
         "tweetText": "@VicVijayakumar For the avoidance of any doubt. This is not a true statement.",
         "tweetUrl": "https://x.com/thsottiaux/status/2074888736429814114",
         "verdict": "uncertain"
-      },
-      {
-        "confidence": 0.97,
-        "evaluatedAt": 1783527107656,
-        "inputTokens": 372,
-        "outputTokens": 150,
-        "rationale": "This reply only mentions getting access tomorrow and does not indicate any current limit or rate-cap reset.",
-        "reasoningTokens": 103,
-        "totalTokens": 522,
-        "tweetId": "2074888296430530606",
-        "tweetText": "@LukeberryPi Wait until you get access tomorrow! Then you'll be writing \"paid posts\" too.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2074888296430530606",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 306282,
-      "totalOutputTokens": 81882,
-      "totalReasoningTokens": 44551,
-      "totalTokens": 388164
+      "totalInputTokens": 306718,
+      "totalOutputTokens": 81972,
+      "totalReasoningTokens": 44594,
+      "totalTokens": 388690
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1783623432631,
+      "inputTokens": 436,
+      "message": "",
+      "outputTokens": 90,
+      "rationale": "This is a product rollout announcement, not a statement that usage limits or rate caps have reset.",
+      "reasoningTokens": 43,
+      "totalTokens": 526,
+      "tweetId": "2075292097658392602",
+      "tweetText": "ChatGPT Work is now rolled out to 100% of our Pro users. Open the ChatGPT mobile app on a phone near you and enjoy productivity on the go. Or install the new ChatGPT desktop app if you need full access to your apps, browser and local files.\n\nOne advice: Raise your ambition. GPT 5.6 Sol is different from what you might have seen before. 👀",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075292097658392602",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1783623135091,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2073554978053005607",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1783208396392,
-      "inputTokens": 366,
-      "message": "",
-      "outputTokens": 61,
-      "rationale": "This reply is just conversational and does not mention limits, caps, or a reset.",
-      "reasoningTokens": 16,
-      "totalTokens": 427,
-      "tweetId": "2073551962675597572",
-      "tweetText": "@aienginerd GPT-5.5 you say. Interesting",
-      "tweetUrl": "https://x.com/thsottiaux/status/2073551962675597572",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "xwfQGdlgP7dhpYrHO_1STlcF4Wn07TTQVClIRFzevXy8OfzUC9V2Yszq1A",
-    "iv": "UAgWEgHGy1vPVf8G",
-    "tag": "uLdcSYjQH3nSaFGj-ds1oA",
+    "ciphertext": "8d8dmFnuOhXJbPwDgaIwmBHzjqfA_2Elk1nRxOS84pY1xRabBhPqhBMfVQ",
+    "iv": "YOYgffba4wQoUUco",
+    "tag": "-EoG3-7DLL4UfxdGIVNfaA",
     "version": 1
   }
 }
