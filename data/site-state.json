@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1783564276722,
-      "rationale": "This is just a conversational reply and does not mention limits or availability resetting.",
-      "tweetId": "2075045022458859810",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075045022458859810",
+      "decidedAt": 1783578538385,
+      "rationale": "This post is just a humorous comment about late-night work and does not mention limits or resets.",
+      "tweetId": "2075103845114663325",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075103845114663325",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2075045022458859810",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075045022458859810",
+    "lastSeenTweetId": "2075103845114663325",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075103845114663325",
     "pendingReview": {
       "confidence": 0.87,
       "createdAt": 1783527129200,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2074888736429814114"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1783578538385,
+        "inputTokens": 389,
+        "outputTokens": 65,
+        "rationale": "This post is just a humorous comment about late-night work and does not mention limits or resets.",
+        "reasoningTokens": 18,
+        "totalTokens": 454,
+        "tweetId": "2075103845114663325",
+        "tweetText": "You know OpenAI is cooking when the sushi and tacos orders pile at the entrance of the office at 11pm. \n\nBizarrely we need to eat to cook.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2075103845114663325",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1783564276722,
@@ -279,29 +292,31 @@
         "tweetText": "@aienginerd GPT-5.5 you say. Interesting",
         "tweetUrl": "https://x.com/thsottiaux/status/2073551962675597572",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1783208394075,
-        "inputTokens": 377,
-        "outputTokens": 77,
-        "rationale": "This is a general question about Codex capabilities and does not mention limits or a reset.",
-        "reasoningTokens": 31,
-        "totalTokens": 454,
-        "tweetId": "2073551549494596079",
-        "tweetText": "What is something that you feel is surprising that Codex still can't do well and we should have gotten right a while ago?",
-        "tweetUrl": "https://x.com/thsottiaux/status/2073551549494596079",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 300616,
-      "totalOutputTokens": 80552,
-      "totalReasoningTokens": 43890,
-      "totalTokens": 381168
+      "totalInputTokens": 301005,
+      "totalOutputTokens": 80617,
+      "totalReasoningTokens": 43908,
+      "totalTokens": 381622
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1783578538385,
+      "inputTokens": 389,
+      "message": "",
+      "outputTokens": 65,
+      "rationale": "This post is just a humorous comment about late-night work and does not mention limits or resets.",
+      "reasoningTokens": 18,
+      "totalTokens": 454,
+      "tweetId": "2075103845114663325",
+      "tweetText": "You know OpenAI is cooking when the sushi and tacos orders pile at the entrance of the office at 11pm. \n\nBizarrely we need to eat to cook.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075103845114663325",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1783564276722,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2073158555809566899",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1783095837671,
-      "inputTokens": 370,
-      "message": "",
-      "outputTokens": 80,
-      "rationale": "This post does not mention Codex or ChatGPT limits resetting or becoming available again.",
-      "reasoningTokens": 35,
-      "totalTokens": 450,
-      "tweetId": "2073079378808901663",
-      "tweetText": "What it could have been https://t.co/HAzHOFvIzd",
-      "tweetUrl": "https://x.com/thsottiaux/status/2073079378808901663",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "hDLNs2QQQWB1kDpuV0HLjPmpBObqqKD0F6ZDlJaKPJyC184JCYHDJYFnOg",
-    "iv": "B7At3Rr80zIsOP_a",
-    "tag": "wirYXw_GavonLPL2qj0QfA",
+    "ciphertext": "CONmJF1zaeWYfYv8MDp_myu3jwahU1zwKAKJFike2upVaSwEBdeuw_orYg",
+    "iv": "kGqFe3SJbu0Q6_H7",
+    "tag": "nOEruUI_L9K2v4p2Jsg1hQ",
     "version": 1
   }
 }
