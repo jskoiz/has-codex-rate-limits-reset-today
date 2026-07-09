@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1783604024610,
-      "rationale": "This reply discusses removing an upgrade warning, not limits or a reset.",
-      "tweetId": "2075211600278204919",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075211600278204919",
+      "decidedAt": 1783604316177,
+      "rationale": "This is just a greeting and does not mention any limit, cap, or reset.",
+      "tweetId": "2075211827617952239",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075211827617952239",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2075211600278204919",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075211600278204919",
+    "lastSeenTweetId": "2075211827617952239",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075211827617952239",
     "pendingReview": {
       "confidence": 0.87,
       "createdAt": 1783527129200,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2074888736429814114"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1783604316177,
+        "inputTokens": 358,
+        "outputTokens": 67,
+        "rationale": "This is just a greeting and does not mention any limit, cap, or reset.",
+        "reasoningTokens": 22,
+        "totalTokens": 425,
+        "tweetId": "2075211827617952239",
+        "tweetText": "Good morning ☀️",
+        "tweetUrl": "https://x.com/thsottiaux/status/2075211827617952239",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1783604024610,
@@ -279,29 +292,31 @@
         "tweetText": "@rezoundous https://t.co/zGXEwS9iOQ",
         "tweetUrl": "https://x.com/thsottiaux/status/2073563036757950878",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1783209012847,
-        "inputTokens": 808,
-        "outputTokens": 66,
-        "rationale": "This is a humorous chat excerpt and does not mention any Codex or ChatGPT limit reset.",
-        "reasoningTokens": 19,
-        "totalTokens": 874,
-        "tweetId": "2073554978053005607",
-        "tweetText": "A silly, but made me laugh interaction with Sol\n\n-----------------\n\n🫡🫡🫡🫡🫡🫡🫡🫡🫡🫡🫡🫡🫡\n🫡🫡🫡🫡🫡🫡🫡🫡🫡🫡🫡🫡🫡\n🫡🫡🫡🫡🫡🫡🫡🫡🫡🫡🫡🫡🫡\n\n> 🫡 Salute received, loud and clear. Carry on!\n\n* 12\n\n> 39 × 12 = 468 🫡\n\n- 800\n\n> 468 − 800 = −332 🫡\n\n?\n\n> There were 39 🫡 emojis.\n> (39 × 12) − 800 = 468 − 800 = −332.\n\nhow can you have negative emojis\n\n> You can’t physically. −332 🫡 means you’re short 332 salutes or ... owe 332 salutes.\n> Actual emojis remaining: 0 🫡, with a 332-salute debt.\n\n🫡🫡🫡🫡🫡🫡🫡🫡🫡🫡🫡🫡🫡\n🫡🫡🫡🫡🫡🫡🫡🫡🫡🫡🫡🫡🫡\n🫡🫡🫡🫡🫡🫡🫡🫡🫡🫡🫡🫡🫡\n\n> Payment received: 39 🫡\n> Remaining salute debt: 293 🫡\n\nhahaha\n\n> The salute economy is ruthless. 🫡📉",
-        "tweetUrl": "https://x.com/thsottiaux/status/2073554978053005607",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 301376,
-      "totalOutputTokens": 80706,
-      "totalReasoningTokens": 43955,
-      "totalTokens": 382082
+      "totalInputTokens": 301734,
+      "totalOutputTokens": 80773,
+      "totalReasoningTokens": 43977,
+      "totalTokens": 382507
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1783604316177,
+      "inputTokens": 358,
+      "message": "",
+      "outputTokens": 67,
+      "rationale": "This is just a greeting and does not mention any limit, cap, or reset.",
+      "reasoningTokens": 22,
+      "totalTokens": 425,
+      "tweetId": "2075211827617952239",
+      "tweetText": "Good morning ☀️",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075211827617952239",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1783604024610,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2073465131397189850",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1783116522525,
-      "inputTokens": 361,
-      "message": "",
-      "outputTokens": 85,
-      "rationale": "This is just a casual reply and says nothing about Codex or ChatGPT limits resetting.",
-      "reasoningTokens": 39,
-      "totalTokens": 446,
-      "tweetId": "2073166701428932801",
-      "tweetText": "@Vedantdzn @figma Nice one",
-      "tweetUrl": "https://x.com/thsottiaux/status/2073166701428932801",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "rJvOpJ3tiElFA9d-PIamuTQ4SKInVIZRS8gbC96zEMr2xetsO7aa5qK7pw",
-    "iv": "7IVI5hQQ1W9_VpAt",
-    "tag": "GgNONBLAH5oePwvLvuH-8g",
+    "ciphertext": "cAYnBmy1IMGGlL3u_TedVeAMgGzxHgumv5GyvTtGDGCOOK1DNCgvbDbvMQ",
+    "iv": "EWNHljG0e5E365uY",
+    "tag": "e-khKZxdgjeFzayiqqNRWw",
     "version": 1
   }
 }
