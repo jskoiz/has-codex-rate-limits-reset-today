@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1783640869817,
-      "rationale": "This reply is about a setting and does not indicate any rate limit or cap reset.",
-      "tweetId": "2075365738802766064",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075365738802766064",
+      "decidedAt": 1783640872225,
+      "rationale": "This reply is conversational and says nothing about limits or usage becoming available again.",
+      "tweetId": "2075365968772251766",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075365968772251766",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2075365738802766064",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075365738802766064",
+    "lastSeenTweetId": "2075365968772251766",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075365968772251766",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1783640872225,
+        "inputTokens": 359,
+        "outputTokens": 68,
+        "rationale": "This reply is conversational and says nothing about limits or usage becoming available again.",
+        "reasoningTokens": 25,
+        "totalTokens": 427,
+        "tweetId": "2075365968772251766",
+        "tweetText": "@thekitze Developers developers developers",
+        "tweetUrl": "https://x.com/thsottiaux/status/2075365968772251766",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1783640869817,
@@ -272,29 +285,31 @@
         "tweetText": "@Lentils80 Most technical staff I know still refers to it as Codex. It's all the same, actually significantly improved. And no way back after you try it with GPT-5.6 Sol. https://t.co/OfJtIcYKky",
         "tweetUrl": "https://x.com/thsottiaux/status/2075286930527547676",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.97,
-        "evaluatedAt": 1783621923977,
-        "inputTokens": 364,
-        "outputTokens": 149,
-        "rationale": "This reply only contains a link, so it does not explicitly show that limits have reset.",
-        "reasoningTokens": 103,
-        "totalTokens": 513,
-        "tweetId": "2075285898724536777",
-        "tweetText": "https://t.co/sYVBMT3pTH",
-        "tweetUrl": "https://x.com/thsottiaux/status/2075285898724536777",
-        "verdict": "uncertain"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 312115,
-      "totalOutputTokens": 83525,
-      "totalReasoningTokens": 45502,
-      "totalTokens": 395640
+      "totalInputTokens": 312474,
+      "totalOutputTokens": 83593,
+      "totalReasoningTokens": 45527,
+      "totalTokens": 396067
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1783640872225,
+      "inputTokens": 359,
+      "message": "",
+      "outputTokens": 68,
+      "rationale": "This reply is conversational and says nothing about limits or usage becoming available again.",
+      "reasoningTokens": 25,
+      "totalTokens": 427,
+      "tweetId": "2075365968772251766",
+      "tweetText": "@thekitze Developers developers developers",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075365968772251766",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1783640869817,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2074705681920520526",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0,
-      "createdAt": 1783483354301,
-      "inputTokens": 0,
-      "message": "Tweet fetch failed: Request failed with status code 404 (Request failed with status code 404)",
-      "outputTokens": 0,
-      "rationale": "",
-      "reasoningTokens": 0,
-      "totalTokens": 0,
-      "tweetId": null,
-      "tweetText": "",
-      "tweetUrl": null,
-      "type": "error",
-      "verdict": null
     }
   ],
   "privateState": {
-    "ciphertext": "ndR-bPRnZOJzpg9r2q7YZ5PVEgz9wBabJK2BcotF2sMBeDNbMi3dNTsv0Q",
-    "iv": "TorJKOrWlZaSB3rQ",
-    "tag": "NbSlEZ6RK5EOye0qDRiUkw",
+    "ciphertext": "l_fpIoudDgkmwE1DzkezLdUwqYo5gDSd1naZugRGBnpPn0a5qbYuQcNoDw",
+    "iv": "LokueIr3JxEL7nhu",
+    "tag": "7pabQb5jG95vNa6dSKn8Rw",
     "version": 1
   }
 }
