@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1783604319556,
-      "rationale": "This reply is conversational and does not indicate any rate limit reset.",
-      "tweetId": "2075212075954307499",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075212075954307499",
+      "decidedAt": 1783615431279,
+      "rationale": "This post is promotional about an event and does not mention limits or availability resetting.",
+      "tweetId": "2075259145373323439",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075259145373323439",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2075212075954307499",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075212075954307499",
+    "lastSeenTweetId": "2075259145373323439",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075259145373323439",
     "pendingReview": {
       "confidence": 0.87,
       "createdAt": 1783527129200,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2074888736429814114"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1783615431279,
+        "inputTokens": 408,
+        "outputTokens": 83,
+        "rationale": "This post is promotional about an event and does not mention limits or availability resetting.",
+        "reasoningTokens": 39,
+        "totalTokens": 491,
+        "tweetId": "2075259145373323439",
+        "tweetText": "Join us for a few unexpected things!",
+        "tweetUrl": "https://x.com/thsottiaux/status/2075259145373323439",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1783604319556,
@@ -279,29 +292,31 @@
         "tweetText": "@kr0der Everyone gets to choose whether they want their models to be broadly available or not.",
         "tweetUrl": "https://x.com/thsottiaux/status/2073925225142792576",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.95,
-        "evaluatedAt": 1783211809624,
-        "inputTokens": 367,
-        "outputTokens": 174,
-        "rationale": "The post is cryptic and provides no explicit text indicating that limits have reset or usage is available again.",
-        "reasoningTokens": 125,
-        "totalTokens": 541,
-        "tweetId": "2073565412336308699",
-        "tweetText": "iykyk https://t.co/irvzysRIpT",
-        "tweetUrl": "https://x.com/thsottiaux/status/2073565412336308699",
-        "verdict": "uncertain"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 302091,
-      "totalOutputTokens": 80850,
-      "totalReasoningTokens": 44013,
-      "totalTokens": 382941
+      "totalInputTokens": 302499,
+      "totalOutputTokens": 80933,
+      "totalReasoningTokens": 44052,
+      "totalTokens": 383432
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1783615431279,
+      "inputTokens": 408,
+      "message": "",
+      "outputTokens": 83,
+      "rationale": "This post is promotional about an event and does not mention limits or availability resetting.",
+      "reasoningTokens": 39,
+      "totalTokens": 491,
+      "tweetId": "2075259145373323439",
+      "tweetText": "Join us for a few unexpected things!",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075259145373323439",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0,
       "createdAt": 1783610514650,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2073504549764030511",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.98,
-      "createdAt": 1783188227452,
-      "inputTokens": 494,
-      "message": "",
-      "outputTokens": 164,
-      "rationale": "This acknowledges a feature request about viewing resets, not that any Codex or ChatGPT limit has reset now.",
-      "reasoningTokens": 114,
-      "totalTokens": 658,
-      "tweetId": "2073466730643399043",
-      "tweetText": "This is a good feature request. We will take more feature requests like this one. The combination of {motivation, explanation, screenshot} forms a perfect prompt for Codex. Thank you.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2073466730643399043",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "fd2pA1-xoBkqntZpvHktvpVlzEhIkcEdEjyWANAPY5BY_GgTENnPFlUppw",
-    "iv": "34EUx_ZarIEJNtHb",
-    "tag": "0fSBjiCGHdu77oBDwQN6Rg",
+    "ciphertext": "dHt54Gdr0jplFBJ6yJ6ANXFu046bkcIGRTjNzGIVch4LeJJuhvNq335fwA",
+    "iv": "52U6Fm1-4D74B7ue",
+    "tag": "XRsb91GV99qRQ4pwGcZV6Q",
     "version": 1
   }
 }
