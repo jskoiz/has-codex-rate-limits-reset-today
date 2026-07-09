@@ -14,16 +14,16 @@
   "updatedAt": 1782776637294,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1783621318476,
-      "rationale": "This post is just praising a model and does not mention limits, caps, or usage becoming available again.",
-      "tweetId": "2075283734136525255",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075283734136525255",
+      "confidence": 0.98,
+      "decidedAt": 1783621321449,
+      "rationale": "This reply describes a feature rollout timing, not a rate-limit or usage-cap reset.",
+      "tweetId": "2075283825048064261",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075283825048064261",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2075283734136525255",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075283734136525255",
+    "lastSeenTweetId": "2075283825048064261",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075283825048064261",
     "pendingReview": {
       "confidence": 0.87,
       "createdAt": 1783527129200,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2074888736429814114"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.98,
+        "evaluatedAt": 1783621321449,
+        "inputTokens": 370,
+        "outputTokens": 113,
+        "rationale": "This reply describes a feature rollout timing, not a rate-limit or usage-cap reset.",
+        "reasoningTokens": 68,
+        "totalTokens": 483,
+        "tweetId": "2075283825048064261",
+        "tweetText": "Rolling out to Pro plans first and then all paid plans over the next 24 hours.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2075283825048064261",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1783621318476,
@@ -279,29 +292,31 @@
         "tweetText": "@Adidotdev @ajambrosino Noted",
         "tweetUrl": "https://x.com/thsottiaux/status/2073934120363937892",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1783299372157,
-        "inputTokens": 362,
-        "outputTokens": 76,
-        "rationale": "This reply discusses Ultra being in Codex and does not indicate any limit or rate cap reset.",
-        "reasoningTokens": 29,
-        "totalTokens": 438,
-        "tweetId": "2073933490513752151",
-        "tweetText": "@haider1 Ultra will be in codex.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2073933490513752151",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 303275,
-      "totalOutputTokens": 81082,
-      "totalReasoningTokens": 44107,
-      "totalTokens": 384357
+      "totalInputTokens": 303645,
+      "totalOutputTokens": 81195,
+      "totalReasoningTokens": 44175,
+      "totalTokens": 384840
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.98,
+      "createdAt": 1783621321449,
+      "inputTokens": 370,
+      "message": "",
+      "outputTokens": 113,
+      "rationale": "This reply describes a feature rollout timing, not a rate-limit or usage-cap reset.",
+      "reasoningTokens": 68,
+      "totalTokens": 483,
+      "tweetId": "2075283825048064261",
+      "tweetText": "Rolling out to Pro plans first and then all paid plans over the next 24 hours.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075283825048064261",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1783621318476,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2073507252544180478",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1783197853428,
-      "inputTokens": 385,
-      "message": "",
-      "outputTokens": 83,
-      "rationale": "This is a conversational joke about ChatGPT and Codex, not a limit reset announcement.",
-      "reasoningTokens": 37,
-      "totalTokens": 468,
-      "tweetId": "2073506936725581911",
-      "tweetText": "@mark_k @OpenAI It's pretty simple. We are bringing ChatGPT to Codex so that Codex can be in ChatGPT in Codex in ChatGPT.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2073506936725581911",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "_ylk-XaqVXAy5s1V0XuYZ8UyDA5TAYgf6v5_GfJtEhVvYcU6idkNF4OQYw",
-    "iv": "Q6g4IOr1uNLOLHLr",
-    "tag": "GcfGNmQnMl3VvW_lsWhdmw",
+    "ciphertext": "ZB4VnPJNo5APPIJO6A3WOgDIvEazq2tun2OO9OcIUx5tchu076qy3Uge9Q",
+    "iv": "NT0tKsyY058VTaGx",
+    "tag": "CinEhYJYJ2bTXWU9Km408w",
     "version": 1
   }
 }
