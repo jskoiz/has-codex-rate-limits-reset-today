@@ -1,5 +1,5 @@
 {
-  "currentState": "no",
+  "currentState": "yes",
   "autoResetHours": 20,
   "noSubtitles": [
     "Back to your local model peasant",
@@ -10,29 +10,35 @@
     "Limits reset, go crazy",
     "You can just build things"
   ],
-  "resetAt": null,
-  "updatedAt": 1782776637294,
+  "resetAt": 1783704442451,
+  "updatedAt": 1783632442451,
   "automation": {
     "lastDecision": {
-      "confidence": 0.26,
-      "decidedAt": 1783631519856,
-      "rationale": "This reply alone is too vague to confirm a rate-limit reset without the original question.",
-      "tweetId": "2075326229264380138",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075326229264380138",
-      "verdict": "uncertain"
+      "confidence": 0.99,
+      "decidedAt": 1783632442451,
+      "rationale": "The tweet explicitly says ChatGPT Work and Codex usage limits got a full reset, rolling out within the next hour.",
+      "tweetId": "2075330198887940337",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075330198887940337",
+      "verdict": "reset_confirmed"
     },
     "lastError": null,
-    "lastSeenTweetId": "2075326229264380138",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075326229264380138",
-    "pendingReview": {
-      "confidence": 0.26,
-      "createdAt": 1783631519856,
-      "rationale": "This reply alone is too vague to confirm a rate-limit reset without the original question.",
-      "tweetId": "2075326229264380138",
-      "tweetText": "@cherry_mx_reds It seems so",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075326229264380138"
-    },
+    "lastSeenTweetId": "2075330198887940337",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075330198887940337",
+    "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1783632442451,
+        "inputTokens": 419,
+        "outputTokens": 134,
+        "rationale": "The tweet explicitly says ChatGPT Work and Codex usage limits got a full reset, rolling out within the next hour.",
+        "reasoningTokens": 81,
+        "totalTokens": 553,
+        "tweetId": "2075330198887940337",
+        "tweetText": "Enjoy a full reset of your usage limits for ChatGPT Work and Codex. Propagating in the next hour.\n\n@_rajanagarwal just joined to work on model research and push on coding capabilities. You can thank him for pressing the button today. https://t.co/vMMwKJibBI",
+        "tweetUrl": "https://x.com/thsottiaux/status/2075330198887940337",
+        "verdict": "reset_confirmed"
+      },
       {
         "confidence": 0.26,
         "evaluatedAt": 1783631519856,
@@ -279,29 +285,31 @@
         "tweetText": "Rolling out to Pro plans first and then all paid plans over the next 24 hours.",
         "tweetUrl": "https://x.com/thsottiaux/status/2075283825048064261",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1783621318476,
-        "inputTokens": 416,
-        "outputTokens": 74,
-        "rationale": "This post is just praising a model and does not mention limits, caps, or usage becoming available again.",
-        "reasoningTokens": 25,
-        "totalTokens": 490,
-        "tweetId": "2075283734136525255",
-        "tweetText": "GPT 5.6 Sol is our best model so far at ~everything. \n\nIt's remarkable how stark the difference is with GPT-5.5 across coding, hard context and strategy tasks, building sites, ... and literally anything I need to get done. Totally requires raising the ambition of what you try.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2075283734136525255",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 310601,
-      "totalOutputTokens": 83157,
-      "totalReasoningTokens": 45320,
-      "totalTokens": 393758
+      "totalInputTokens": 311020,
+      "totalOutputTokens": 83291,
+      "totalReasoningTokens": 45401,
+      "totalTokens": 394311
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1783632442451,
+      "inputTokens": 419,
+      "message": "",
+      "outputTokens": 134,
+      "rationale": "The tweet explicitly says ChatGPT Work and Codex usage limits got a full reset, rolling out within the next hour.",
+      "reasoningTokens": 81,
+      "totalTokens": 553,
+      "tweetId": "2075330198887940337",
+      "tweetText": "Enjoy a full reset of your usage limits for ChatGPT Work and Codex. Propagating in the next hour.\n\n@_rajanagarwal just joined to work on model research and push on coding capabilities. You can thank him for pressing the button today. https://t.co/vMMwKJibBI",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075330198887940337",
+      "type": "reset_confirmed",
+      "verdict": "reset_confirmed"
+    },
     {
       "confidence": 0.26,
       "createdAt": 1783631519856,
@@ -886,27 +894,12 @@
       "tweetUrl": null,
       "type": "error",
       "verdict": null
-    },
-    {
-      "confidence": 0,
-      "createdAt": 1783427174801,
-      "inputTokens": 0,
-      "message": "GitHub raw read failed with 401",
-      "outputTokens": 0,
-      "rationale": "",
-      "reasoningTokens": 0,
-      "totalTokens": 0,
-      "tweetId": null,
-      "tweetText": "",
-      "tweetUrl": null,
-      "type": "error",
-      "verdict": null
     }
   ],
   "privateState": {
-    "ciphertext": "6eiUfeP5vdMFTpwNEElNZwBg3mbtTDbRRd_ns0oCcJlyyp0FLE2HcaPg8w",
-    "iv": "EeJV15aEVGpv-DjK",
-    "tag": "kzzcuucYOvzxWe7nQaCPmA",
+    "ciphertext": "0VVfICjq-9Gdeu3i3qWs04X8G0scOz1mr7g9kuUk5plo0xkWMF-t934TNg",
+    "iv": "ZAI-pbmRJ3eDOGEf",
+    "tag": "hULnjyevMcxkiq4Far9VfQ",
     "version": 1
   }
 }
