@@ -14,25 +14,38 @@
   "updatedAt": 1782776637294,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1783625926392,
-      "rationale": "This reply discusses ChatGPT memory and plugins, not rate limits or a usage reset.",
-      "tweetId": "2075303191785402571",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075303191785402571",
-      "verdict": "not_reset"
+      "confidence": 0.9,
+      "decidedAt": 1783629959034,
+      "rationale": "The reply only says \"Ramping,\" which is too vague to confirm that limits have reset or usage is available again now.",
+      "tweetId": "2075319370369409428",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075319370369409428",
+      "verdict": "uncertain"
     },
     "lastError": null,
-    "lastSeenTweetId": "2075303191785402571",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075303191785402571",
+    "lastSeenTweetId": "2075319370369409428",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075319370369409428",
     "pendingReview": {
-      "confidence": 0.2,
-      "createdAt": 1783623437724,
-      "rationale": "This reply contains only a link and provides no explicit evidence that limits have reset.",
-      "tweetId": "2075292240747073546",
-      "tweetText": "https://t.co/rvJ7EawhHh",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075292240747073546"
+      "confidence": 0.9,
+      "createdAt": 1783629959034,
+      "rationale": "The reply only says \"Ramping,\" which is too vague to confirm that limits have reset or usage is available again now.",
+      "tweetId": "2075319370369409428",
+      "tweetText": "@cjzafir Ramping",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075319370369409428"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.9,
+        "evaluatedAt": 1783629959035,
+        "inputTokens": 358,
+        "outputTokens": 160,
+        "rationale": "The reply only says \"Ramping,\" which is too vague to confirm that limits have reset or usage is available again now.",
+        "reasoningTokens": 107,
+        "totalTokens": 518,
+        "tweetId": "2075319370369409428",
+        "tweetText": "@cjzafir Ramping",
+        "tweetUrl": "https://x.com/thsottiaux/status/2075319370369409428",
+        "verdict": "uncertain"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1783625926392,
@@ -279,29 +292,31 @@
         "tweetText": "Good morning ☀️",
         "tweetUrl": "https://x.com/thsottiaux/status/2075211827617952239",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1783604024610,
-        "inputTokens": 371,
-        "outputTokens": 89,
-        "rationale": "This reply discusses removing an upgrade warning, not limits or a reset.",
-        "reasoningTokens": 47,
-        "totalTokens": 460,
-        "tweetId": "2075211600278204919",
-        "tweetText": "@imjustnewatai Actually works just fine. We’re removing the warning when upgrading a thread.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2075211600278204919",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 308691,
-      "totalOutputTokens": 82574,
-      "totalReasoningTokens": 44967,
-      "totalTokens": 391265
+      "totalInputTokens": 309049,
+      "totalOutputTokens": 82734,
+      "totalReasoningTokens": 45074,
+      "totalTokens": 391783
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.9,
+      "createdAt": 1783629959035,
+      "inputTokens": 358,
+      "message": "",
+      "outputTokens": 160,
+      "rationale": "The reply only says \"Ramping,\" which is too vague to confirm that limits have reset or usage is available again now.",
+      "reasoningTokens": 107,
+      "totalTokens": 518,
+      "tweetId": "2075319370369409428",
+      "tweetText": "@cjzafir Ramping",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075319370369409428",
+      "type": "review_requested",
+      "verdict": "uncertain"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1783625926392,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2073934120363937892",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1783299372157,
-      "inputTokens": 362,
-      "message": "",
-      "outputTokens": 76,
-      "rationale": "This reply discusses Ultra being in Codex and does not indicate any limit or rate cap reset.",
-      "reasoningTokens": 29,
-      "totalTokens": 438,
-      "tweetId": "2073933490513752151",
-      "tweetText": "@haider1 Ultra will be in codex.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2073933490513752151",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "gNNqnp9N5q40TFzVjGaw9kVWG1guuO0E7HVLH0RnpDtZNpz0Nq_4-eVE-A",
-    "iv": "aRPayieYV54S2kx4",
-    "tag": "v7F0s6zKLcmrwdYpVKHjYw",
+    "ciphertext": "Ejv_UAVPTaJ_JICROkVv70jc3Q9LY7WmE15KJhqCkIAWGUakjE_QzWVbag",
+    "iv": "UDjHmV8xqCmEv0Tj",
+    "tag": "Tl_WXJS0hm2cSz4LZ0h8LA",
     "version": 1
   }
 }
