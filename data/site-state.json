@@ -14,16 +14,16 @@
   "updatedAt": 1782776637294,
   "automation": {
     "lastDecision": {
-      "confidence": 0.97,
-      "decidedAt": 1783621325673,
-      "rationale": "This reply only contains a link, so it does not clearly state that limits have reset.",
-      "tweetId": "2075283864470392897",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075283864470392897",
-      "verdict": "uncertain"
+      "confidence": 0.99,
+      "decidedAt": 1783621920124,
+      "rationale": "This is a product adoption promo and does not mention any limits, caps, or resets.",
+      "tweetId": "2075285881376919789",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075285881376919789",
+      "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2075283864470392897",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075283864470392897",
+    "lastSeenTweetId": "2075285881376919789",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075285881376919789",
     "pendingReview": {
       "confidence": 0.97,
       "createdAt": 1783621325673,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2075283864470392897"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1783621920124,
+        "inputTokens": 419,
+        "outputTokens": 77,
+        "rationale": "This is a product adoption promo and does not mention any limits, caps, or resets.",
+        "reasoningTokens": 31,
+        "totalTokens": 496,
+        "tweetId": "2075285881376919789",
+        "tweetText": "ChatGPT Work brings the power of agents to everyone. It works across mobile, web and desktop. \n\nWe have seen fast adoption within OpenAI and virtually 100% of our staff uses it on a regularly to do everything from finance, recruiting, comms, marketing, product ideation and coordination and so much more.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2075285881376919789",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.97,
         "evaluatedAt": 1783621325673,
@@ -279,29 +292,31 @@
         "tweetText": "@WesRoth Checks notes... they forced the feature flag to be on so that the code path triggers.",
         "tweetUrl": "https://x.com/thsottiaux/status/2074209218517942601",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1783361717139,
-        "inputTokens": 502,
-        "outputTokens": 88,
-        "rationale": "This is a DevDay event promotion and does not mention limits, caps, or usage becoming available again.",
-        "reasoningTokens": 39,
-        "totalTokens": 590,
-        "tweetId": "2074195169990357398",
-        "tweetText": "Closing this week. Much of the teams building ChatGPT, Codex and OpenClaw will be there and we'll have a few surprises for folks. Hope to see many of you 👀",
-        "tweetUrl": "https://x.com/thsottiaux/status/2074195169990357398",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 304009,
-      "totalOutputTokens": 81336,
-      "totalReasoningTokens": 44270,
-      "totalTokens": 385345
+      "totalInputTokens": 304428,
+      "totalOutputTokens": 81413,
+      "totalReasoningTokens": 44301,
+      "totalTokens": 385841
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1783621920124,
+      "inputTokens": 419,
+      "message": "",
+      "outputTokens": 77,
+      "rationale": "This is a product adoption promo and does not mention any limits, caps, or resets.",
+      "reasoningTokens": 31,
+      "totalTokens": 496,
+      "tweetId": "2075285881376919789",
+      "tweetText": "ChatGPT Work brings the power of agents to everyone. It works across mobile, web and desktop. \n\nWe have seen fast adoption within OpenAI and virtually 100% of our staff uses it on a regularly to do everything from finance, recruiting, comms, marketing, product ideation and coordination and so much more.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075285881376919789",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.97,
       "createdAt": 1783621325673,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2073520131125166086",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1783198158769,
-      "inputTokens": 366,
-      "message": "",
-      "outputTokens": 91,
-      "rationale": "This is just a conversational reply and does not indicate any rate-limit or cap reset.",
-      "reasoningTokens": 46,
-      "totalTokens": 457,
-      "tweetId": "2073508703764906111",
-      "tweetText": "@Alex_m @mark_k @OpenAI No. Tell me more",
-      "tweetUrl": "https://x.com/thsottiaux/status/2073508703764906111",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "Ug1cKB0eLBcR8uYRhWrVv56C6-UzQFTP91uLhqq1oM0ouYseglA7jlR9HQ",
-    "iv": "d0ufVhQwCRMI5s_P",
-    "tag": "mldFASzsWH-v3AEyEDqFyQ",
+    "ciphertext": "DZU90QPTLiHXkdrR30UUdBhi2dT_5go9dhLInc4-PsR0LQc8bW0bjSzvZQ",
+    "iv": "r__UaR0l0DVxuoUr",
+    "tag": "pTRKxnEXrSS3b405ZZ6wXg",
     "version": 1
   }
 }
