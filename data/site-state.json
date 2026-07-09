@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1783604316177,
-      "rationale": "This is just a greeting and does not mention any limit, cap, or reset.",
-      "tweetId": "2075211827617952239",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075211827617952239",
+      "decidedAt": 1783604319556,
+      "rationale": "This reply is conversational and does not indicate any rate limit reset.",
+      "tweetId": "2075212075954307499",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075212075954307499",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2075211827617952239",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075211827617952239",
+    "lastSeenTweetId": "2075212075954307499",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075212075954307499",
     "pendingReview": {
       "confidence": 0.87,
       "createdAt": 1783527129200,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2074888736429814114"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1783604319556,
+        "inputTokens": 357,
+        "outputTokens": 77,
+        "rationale": "This reply is conversational and does not indicate any rate limit reset.",
+        "reasoningTokens": 36,
+        "totalTokens": 434,
+        "tweetId": "2075212075954307499",
+        "tweetText": "@mweinbach What",
+        "tweetUrl": "https://x.com/thsottiaux/status/2075212075954307499",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1783604316177,
@@ -279,29 +292,31 @@
         "tweetText": "iykyk https://t.co/irvzysRIpT",
         "tweetUrl": "https://x.com/thsottiaux/status/2073565412336308699",
         "verdict": "uncertain"
-      },
-      {
-        "confidence": 0.98,
-        "evaluatedAt": 1783211189427,
-        "inputTokens": 369,
-        "outputTokens": 132,
-        "rationale": "This reply contains no explicit statement that any Codex or ChatGPT limit has reset.",
-        "reasoningTokens": 87,
-        "totalTokens": 501,
-        "tweetId": "2073563036757950878",
-        "tweetText": "@rezoundous https://t.co/zGXEwS9iOQ",
-        "tweetUrl": "https://x.com/thsottiaux/status/2073563036757950878",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 301734,
-      "totalOutputTokens": 80773,
-      "totalReasoningTokens": 43977,
-      "totalTokens": 382507
+      "totalInputTokens": 302091,
+      "totalOutputTokens": 80850,
+      "totalReasoningTokens": 44013,
+      "totalTokens": 382941
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1783604319556,
+      "inputTokens": 357,
+      "message": "",
+      "outputTokens": 77,
+      "rationale": "This reply is conversational and does not indicate any rate limit reset.",
+      "reasoningTokens": 36,
+      "totalTokens": 434,
+      "tweetId": "2075212075954307499",
+      "tweetText": "@mweinbach What",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075212075954307499",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1783604316177,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2073465715596607993",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1783187616338,
-      "inputTokens": 357,
-      "message": "",
-      "outputTokens": 97,
-      "rationale": "This reply is just conversational and does not mention limits, caps, or a reset.",
-      "reasoningTokens": 52,
-      "totalTokens": 454,
-      "tweetId": "2073465131397189850",
-      "tweetText": "@Dimillian Terra too",
-      "tweetUrl": "https://x.com/thsottiaux/status/2073465131397189850",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "cAYnBmy1IMGGlL3u_TedVeAMgGzxHgumv5GyvTtGDGCOOK1DNCgvbDbvMQ",
-    "iv": "EWNHljG0e5E365uY",
-    "tag": "e-khKZxdgjeFzayiqqNRWw",
+    "ciphertext": "M455181mpHInXMqm3xQfjiEsYaHqQtEZfk-KXATXXdKJ_8-Z705Eh-oyeA",
+    "iv": "2uFnNTxW78pad2g2",
+    "tag": "ex93NzFvO_HJPIxj3iO3lQ",
     "version": 1
   }
 }
