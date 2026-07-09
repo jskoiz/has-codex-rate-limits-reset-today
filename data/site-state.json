@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1783623755247,
-      "rationale": "This post is a general product update and does not mention limits, caps, or usage becoming available again.",
-      "tweetId": "2075293835127922748",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075293835127922748",
+      "decidedAt": 1783623757937,
+      "rationale": "This reply just says \"Settings\" and gives no indication that any limits have reset.",
+      "tweetId": "2075294400662692204",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075294400662692204",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2075293835127922748",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075293835127922748",
+    "lastSeenTweetId": "2075294400662692204",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075294400662692204",
     "pendingReview": {
       "confidence": 0.2,
       "createdAt": 1783623437724,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2075292240747073546"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1783623757937,
+        "inputTokens": 363,
+        "outputTokens": 76,
+        "rationale": "This reply just says \"Settings\" and gives no indication that any limits have reset.",
+        "reasoningTokens": 31,
+        "totalTokens": 439,
+        "tweetId": "2075294400662692204",
+        "tweetText": "@TomasPuelma @scaling01 Settings",
+        "tweetUrl": "https://x.com/thsottiaux/status/2075294400662692204",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1783623755247,
@@ -279,29 +292,31 @@
         "tweetText": "@stanleytang Believe",
         "tweetUrl": "https://x.com/thsottiaux/status/2075045022458859810",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1783564273061,
-        "inputTokens": 362,
-        "outputTokens": 76,
-        "rationale": "This reply does not mention limits, caps, resets, or usage availability.",
-        "reasoningTokens": 33,
-        "totalTokens": 438,
-        "tweetId": "2075044642887000137",
-        "tweetText": "@mitchellh We are getting rid of Franklin",
-        "tweetUrl": "https://x.com/thsottiaux/status/2075044642887000137",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 307530,
-      "totalOutputTokens": 82237,
-      "totalReasoningTokens": 44766,
-      "totalTokens": 389767
+      "totalInputTokens": 307893,
+      "totalOutputTokens": 82313,
+      "totalReasoningTokens": 44797,
+      "totalTokens": 390206
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1783623757937,
+      "inputTokens": 363,
+      "message": "",
+      "outputTokens": 76,
+      "rationale": "This reply just says \"Settings\" and gives no indication that any limits have reset.",
+      "reasoningTokens": 31,
+      "totalTokens": 439,
+      "tweetId": "2075294400662692204",
+      "tweetText": "@TomasPuelma @scaling01 Settings",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075294400662692204",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1783623755247,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2073925225142792576",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.95,
-      "createdAt": 1783211809624,
-      "inputTokens": 367,
-      "message": "",
-      "outputTokens": 174,
-      "rationale": "The post is cryptic and provides no explicit text indicating that limits have reset or usage is available again.",
-      "reasoningTokens": 125,
-      "totalTokens": 541,
-      "tweetId": "2073565412336308699",
-      "tweetText": "iykyk https://t.co/irvzysRIpT",
-      "tweetUrl": "https://x.com/thsottiaux/status/2073565412336308699",
-      "type": "review_requested",
-      "verdict": "uncertain"
     }
   ],
   "privateState": {
-    "ciphertext": "ChMKB1H0FKwYCc8rhrmOgfU4j5VPmVJKDAJsGuTxuRwCwUAqQEgkP0szBg",
-    "iv": "vzPS6ul0_x35gO3y",
-    "tag": "hknIOU02VNJkRhyKIRV8Dg",
+    "ciphertext": "MQOBQmSEUQzYSg5okxIgOIbGBB7xG4RI9TudeBcj8J7lBMpZEhLXJE6wJg",
+    "iv": "B5ll5cnLdEVUIQeP",
+    "tag": "-0RmSRMHj5jgpdiuoaZEeQ",
     "version": 1
   }
 }
