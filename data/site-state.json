@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1783635228915,
-      "rationale": "This reply is conversational and does not mention limits, caps, or availability resetting.",
-      "tweetId": "2075341924366696503",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075341924366696503",
+      "decidedAt": 1783639305318,
+      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+      "tweetId": "2075358687145906547",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075358687145906547",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2075341924366696503",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075341924366696503",
+    "lastSeenTweetId": "2075358687145906547",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075358687145906547",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1783639305318,
+        "inputTokens": 369,
+        "outputTokens": 78,
+        "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+        "reasoningTokens": 34,
+        "totalTokens": 447,
+        "tweetId": "2075358687145906547",
+        "tweetText": "@TokenGremlin ChatGPT Chat\n\nHmmm. Yes yes. I see.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2075358687145906547",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1783635228915,
@@ -272,29 +285,31 @@
         "tweetText": "ChatGPT Work brings the power of agents to everyone. It works across mobile, web and desktop. \n\nWe have seen fast adoption within OpenAI and virtually 100% of our staff uses it on a regularly to do everything from finance, recruiting, comms, marketing, product ideation and coordination and so much more.",
         "tweetUrl": "https://x.com/thsottiaux/status/2075285881376919789",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.97,
-        "evaluatedAt": 1783621325673,
-        "inputTokens": 364,
-        "outputTokens": 141,
-        "rationale": "This reply only contains a link, so it does not clearly state that limits have reset.",
-        "reasoningTokens": 95,
-        "totalTokens": 505,
-        "tweetId": "2075283864470392897",
-        "tweetText": "https://t.co/BH02Ky7WDe",
-        "tweetUrl": "https://x.com/thsottiaux/status/2075283864470392897",
-        "verdict": "uncertain"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 311379,
-      "totalOutputTokens": 83363,
-      "totalReasoningTokens": 45429,
-      "totalTokens": 394742
+      "totalInputTokens": 311748,
+      "totalOutputTokens": 83441,
+      "totalReasoningTokens": 45463,
+      "totalTokens": 395189
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1783639305318,
+      "inputTokens": 369,
+      "message": "",
+      "outputTokens": 78,
+      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+      "reasoningTokens": 34,
+      "totalTokens": 447,
+      "tweetId": "2075358687145906547",
+      "tweetText": "@TokenGremlin ChatGPT Chat\n\nHmmm. Yes yes. I see.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075358687145906547",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1783635228915,
@@ -879,27 +894,12 @@
       "tweetUrl": null,
       "type": "error",
       "verdict": null
-    },
-    {
-      "confidence": 0,
-      "createdAt": 1783456643022,
-      "inputTokens": 0,
-      "message": "Tweet fetch failed: Tweet search failed: Unknown error; timeline fallback failed: Unknown error (Unknown error) (Tweet search failed: Unknown error; timeline fallback failed: Unknown error)",
-      "outputTokens": 0,
-      "rationale": "",
-      "reasoningTokens": 0,
-      "totalTokens": 0,
-      "tweetId": null,
-      "tweetText": "",
-      "tweetUrl": null,
-      "type": "error",
-      "verdict": null
     }
   ],
   "privateState": {
-    "ciphertext": "Ubo_0qA3AiL18wvpanFX_hRpLGAVvzDDQMUBY2qphgh_A_D83icPieM4nw",
-    "iv": "7JIbc-AAHqYXAHnL",
-    "tag": "I4EuKiIWI_qvwvXQD8aKbA",
+    "ciphertext": "I9Wv8hbfEpKpNcIWv2984qiWMZVujqNAnWjvi4oJFd97r-ots2v7NrdUaQ",
+    "iv": "ee1RHsGKjA5Y9PBS",
+    "tag": "Cr1HUPf5JosQnH6BIDrYJQ",
     "version": 1
   }
 }
