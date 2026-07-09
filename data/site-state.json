@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1783622230016,
-      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-      "tweetId": "2075287108680601929",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075287108680601929",
+      "decidedAt": 1783622233126,
+      "rationale": "This reply is unrelated to Codex or ChatGPT limits resetting.",
+      "tweetId": "2075287605890126324",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075287605890126324",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2075287108680601929",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075287108680601929",
+    "lastSeenTweetId": "2075287605890126324",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075287605890126324",
     "pendingReview": {
       "confidence": 0.97,
       "createdAt": 1783621923977,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2075285898724536777"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1783622233126,
+        "inputTokens": 365,
+        "outputTokens": 72,
+        "rationale": "This reply is unrelated to Codex or ChatGPT limits resetting.",
+        "reasoningTokens": 31,
+        "totalTokens": 437,
+        "tweetId": "2075287605890126324",
+        "tweetText": "@scaling01 Without the Sun we would be a sad rock",
+        "tweetUrl": "https://x.com/thsottiaux/status/2075287605890126324",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1783622230016,
@@ -279,29 +292,31 @@
         "tweetText": "We were resetting last week. This week we are SHIPPING. Tune in for the livestream at 10am.",
         "tweetUrl": "https://x.com/thsottiaux/status/2074885402918601082",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1783521208428,
-        "inputTokens": 360,
-        "outputTokens": 105,
-        "rationale": "This is just a conversational reply and does not mention limits or resets.",
-        "reasoningTokens": 63,
-        "totalTokens": 465,
-        "tweetId": "2074864353308987868",
-        "tweetText": "@thdxr Let's go Dax!",
-        "tweetUrl": "https://x.com/thsottiaux/status/2074864353308987868",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 305557,
-      "totalOutputTokens": 81728,
-      "totalReasoningTokens": 44481,
-      "totalTokens": 387285
+      "totalInputTokens": 305922,
+      "totalOutputTokens": 81800,
+      "totalReasoningTokens": 44512,
+      "totalTokens": 387722
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1783622233126,
+      "inputTokens": 365,
+      "message": "",
+      "outputTokens": 72,
+      "rationale": "This reply is unrelated to Codex or ChatGPT limits resetting.",
+      "reasoningTokens": 31,
+      "totalTokens": 437,
+      "tweetId": "2075287605890126324",
+      "tweetText": "@scaling01 Without the Sun we would be a sad rock",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075287605890126324",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1783622230016,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2073551549494596079",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1783207774977,
-      "inputTokens": 361,
-      "message": "",
-      "outputTokens": 76,
-      "rationale": "This is a general comment about Codex and does not mention limits or usage resetting.",
-      "reasoningTokens": 31,
-      "totalTokens": 437,
-      "tweetId": "2073549572673028572",
-      "tweetText": "Codex is probably the fastest growing browser.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2073549572673028572",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "Bp_JP3cA1NtAJtKnpfD1XCn4noxKtiCFV3JgYGzGKCYe3Hrd03hlWep6ew",
-    "iv": "YcUaVWuPIoEUbYyE",
-    "tag": "-kSsgG-yddxKz4o69cbPhw",
+    "ciphertext": "CqnSjYqiRuyi-xt8DQTPizVRLvnnB2dXLBqKu0S5qcgCFR0X3aFX45Kpjg",
+    "iv": "MmFr3Vm1AMi9KSv2",
+    "tag": "x_fxuNdUxjyAI4sPOPuaIQ",
     "version": 1
   }
 }
