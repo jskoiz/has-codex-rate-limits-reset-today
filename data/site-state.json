@@ -14,16 +14,16 @@
   "updatedAt": 1782776637294,
   "automation": {
     "lastDecision": {
-      "confidence": 0.97,
-      "decidedAt": 1783621923977,
-      "rationale": "This reply only contains a link, so it does not explicitly show that limits have reset.",
-      "tweetId": "2075285898724536777",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075285898724536777",
-      "verdict": "uncertain"
+      "confidence": 0.99,
+      "decidedAt": 1783622227088,
+      "rationale": "This reply discusses Codex naming and product quality, not rate limits or usage resets.",
+      "tweetId": "2075286930527547676",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075286930527547676",
+      "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2075285898724536777",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075285898724536777",
+    "lastSeenTweetId": "2075286930527547676",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075286930527547676",
     "pendingReview": {
       "confidence": 0.97,
       "createdAt": 1783621923977,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2075285898724536777"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1783622227088,
+        "inputTokens": 406,
+        "outputTokens": 94,
+        "rationale": "This reply discusses Codex naming and product quality, not rate limits or usage resets.",
+        "reasoningTokens": 49,
+        "totalTokens": 500,
+        "tweetId": "2075286930527547676",
+        "tweetText": "@Lentils80 Most technical staff I know still refers to it as Codex. It's all the same, actually significantly improved. And no way back after you try it with GPT-5.6 Sol. https://t.co/OfJtIcYKky",
+        "tweetUrl": "https://x.com/thsottiaux/status/2075286930527547676",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.97,
         "evaluatedAt": 1783621923977,
@@ -279,29 +292,31 @@
         "tweetText": "Prepare your sunglasses. Sol is coming. 😎",
         "tweetUrl": "https://x.com/thsottiaux/status/2074705681920520526",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1783365121822,
-        "inputTokens": 405,
-        "outputTokens": 114,
-        "rationale": "The post and quoted tweet discuss Ultra being in Codex, not any rate-limit or usage reset.",
-        "reasoningTokens": 66,
-        "totalTokens": 519,
-        "tweetId": "2074209421799166138",
-        "tweetText": "https://t.co/PXjlm4RLJJ",
-        "tweetUrl": "https://x.com/thsottiaux/status/2074209421799166138",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 304792,
-      "totalOutputTokens": 81562,
-      "totalReasoningTokens": 44404,
-      "totalTokens": 386354
+      "totalInputTokens": 305198,
+      "totalOutputTokens": 81656,
+      "totalReasoningTokens": 44453,
+      "totalTokens": 386854
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1783622227088,
+      "inputTokens": 406,
+      "message": "",
+      "outputTokens": 94,
+      "rationale": "This reply discusses Codex naming and product quality, not rate limits or usage resets.",
+      "reasoningTokens": 49,
+      "totalTokens": 500,
+      "tweetId": "2075286930527547676",
+      "tweetText": "@Lentils80 Most technical staff I know still refers to it as Codex. It's all the same, actually significantly improved. And no way back after you try it with GPT-5.6 Sol. https://t.co/OfJtIcYKky",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075286930527547676",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.97,
       "createdAt": 1783621923977,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2073531523920195597",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1783201272813,
-      "inputTokens": 364,
-      "message": "",
-      "outputTokens": 76,
-      "rationale": "This reply only says the team will investigate and does not indicate any limits have reset.",
-      "reasoningTokens": 31,
-      "totalTokens": 440,
-      "tweetId": "2073521824416125324",
-      "tweetText": "@Alex_m @mark_k @OpenAI Team will look!",
-      "tweetUrl": "https://x.com/thsottiaux/status/2073521824416125324",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "SGhQe08AnN4LaXsshuA2bGiyWMpoj90MtNeu7ZGYuIGiXYevd4DSei5eEg",
-    "iv": "x_bJ6KNtQOi13sQU",
-    "tag": "W7htcvkMkOToOAEObxtVsA",
+    "ciphertext": "k9Nd_a6wzH4k5GxtEs_9RLY6_0MkKroM6lw6QmvLlgXWmJzJfh0UUtIO-g",
+    "iv": "KylTyushrbFZ9qtf",
+    "tag": "LI0N6MVnwq42o8-XY3JNxQ",
     "version": 1
   }
 }
