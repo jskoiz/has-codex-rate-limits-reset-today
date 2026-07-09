@@ -14,16 +14,16 @@
   "updatedAt": 1782776637294,
   "automation": {
     "lastDecision": {
-      "confidence": 0.98,
-      "decidedAt": 1783624359424,
-      "rationale": "It only says a reset will happen later this afternoon, not that limits have reset now.",
-      "tweetId": "2075296200761418073",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075296200761418073",
+      "confidence": 0.99,
+      "decidedAt": 1783625926392,
+      "rationale": "This reply discusses ChatGPT memory and plugins, not rate limits or a usage reset.",
+      "tweetId": "2075303191785402571",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075303191785402571",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2075296200761418073",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075296200761418073",
+    "lastSeenTweetId": "2075303191785402571",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075303191785402571",
     "pendingReview": {
       "confidence": 0.2,
       "createdAt": 1783623437724,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2075292240747073546"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1783625926392,
+        "inputTokens": 428,
+        "outputTokens": 81,
+        "rationale": "This reply discusses ChatGPT memory and plugins, not rate limits or a usage reset.",
+        "reasoningTokens": 36,
+        "totalTokens": 509,
+        "tweetId": "2075303191785402571",
+        "tweetText": "@_simonsmith 1. In web and mobile we have shared ChatGPT memory. This is not yet on desktop (yet) where memory is local to your machine.\n\n2. Yes, this is coming. \n\n3. Retired. No specific plans we can share now on a replacement, but there are indeed great 3P plugins for this!",
+        "tweetUrl": "https://x.com/thsottiaux/status/2075303191785402571",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.98,
         "evaluatedAt": 1783624359424,
@@ -279,29 +292,31 @@
         "tweetText": "@imjustnewatai Actually works just fine. We’re removing the warning when upgrading a thread.",
         "tweetUrl": "https://x.com/thsottiaux/status/2075211600278204919",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1783578538385,
-        "inputTokens": 389,
-        "outputTokens": 65,
-        "rationale": "This post is just a humorous comment about late-night work and does not mention limits or resets.",
-        "reasoningTokens": 18,
-        "totalTokens": 454,
-        "tweetId": "2075103845114663325",
-        "tweetText": "You know OpenAI is cooking when the sushi and tacos orders pile at the entrance of the office at 11pm. \n\nBizarrely we need to eat to cook.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2075103845114663325",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 308263,
-      "totalOutputTokens": 82493,
-      "totalReasoningTokens": 44931,
-      "totalTokens": 390756
+      "totalInputTokens": 308691,
+      "totalOutputTokens": 82574,
+      "totalReasoningTokens": 44967,
+      "totalTokens": 391265
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1783625926392,
+      "inputTokens": 428,
+      "message": "",
+      "outputTokens": 81,
+      "rationale": "This reply discusses ChatGPT memory and plugins, not rate limits or a usage reset.",
+      "reasoningTokens": 36,
+      "totalTokens": 509,
+      "tweetId": "2075303191785402571",
+      "tweetText": "@_simonsmith 1. In web and mobile we have shared ChatGPT memory. This is not yet on desktop (yet) where memory is local to your machine.\n\n2. Yes, this is coming. \n\n3. Retired. No specific plans we can share now on a replacement, but there are indeed great 3P plugins for this!",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075303191785402571",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.98,
       "createdAt": 1783624359424,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2073933490513752151",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1783297812905,
-      "inputTokens": 361,
-      "message": "",
-      "outputTokens": 86,
-      "rationale": "This reply does not mention rate limits, caps, or any reset.",
-      "reasoningTokens": 44,
-      "totalTokens": 447,
-      "tweetId": "2073926196413555048",
-      "tweetText": "@noor36758 I would rather not",
-      "tweetUrl": "https://x.com/thsottiaux/status/2073926196413555048",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "LyxcLKA3tvUxK5RAFvYXmwEaW5IROPGgWoLs96DJCtzScGt2l91gu68hYw",
-    "iv": "ipwA-fxtK5jgW3EH",
-    "tag": "7wbIP7pRjL_52IuUWM9blg",
+    "ciphertext": "gNNqnp9N5q40TFzVjGaw9kVWG1guuO0E7HVLH0RnpDtZNpz0Nq_4-eVE-A",
+    "iv": "aRPayieYV54S2kx4",
+    "tag": "v7F0s6zKLcmrwdYpVKHjYw",
     "version": 1
   }
 }
