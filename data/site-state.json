@@ -14,25 +14,38 @@
   "updatedAt": 1782776637294,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1783621920124,
-      "rationale": "This is a product adoption promo and does not mention any limits, caps, or resets.",
-      "tweetId": "2075285881376919789",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075285881376919789",
-      "verdict": "not_reset"
+      "confidence": 0.97,
+      "decidedAt": 1783621923977,
+      "rationale": "This reply only contains a link, so it does not explicitly show that limits have reset.",
+      "tweetId": "2075285898724536777",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075285898724536777",
+      "verdict": "uncertain"
     },
     "lastError": null,
-    "lastSeenTweetId": "2075285881376919789",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075285881376919789",
+    "lastSeenTweetId": "2075285898724536777",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075285898724536777",
     "pendingReview": {
       "confidence": 0.97,
-      "createdAt": 1783621325673,
-      "rationale": "This reply only contains a link, so it does not clearly state that limits have reset.",
-      "tweetId": "2075283864470392897",
-      "tweetText": "https://t.co/BH02Ky7WDe",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075283864470392897"
+      "createdAt": 1783621923977,
+      "rationale": "This reply only contains a link, so it does not explicitly show that limits have reset.",
+      "tweetId": "2075285898724536777",
+      "tweetText": "https://t.co/sYVBMT3pTH",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075285898724536777"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.97,
+        "evaluatedAt": 1783621923977,
+        "inputTokens": 364,
+        "outputTokens": 149,
+        "rationale": "This reply only contains a link, so it does not explicitly show that limits have reset.",
+        "reasoningTokens": 103,
+        "totalTokens": 513,
+        "tweetId": "2075285898724536777",
+        "tweetText": "https://t.co/sYVBMT3pTH",
+        "tweetUrl": "https://x.com/thsottiaux/status/2075285898724536777",
+        "verdict": "uncertain"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1783621920124,
@@ -279,29 +292,31 @@
         "tweetText": "https://t.co/PXjlm4RLJJ",
         "tweetUrl": "https://x.com/thsottiaux/status/2074209421799166138",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1783365118172,
-        "inputTokens": 374,
-        "outputTokens": 91,
-        "rationale": "This reply discusses a feature flag and code path, not any Codex or ChatGPT limit reset.",
-        "reasoningTokens": 43,
-        "totalTokens": 465,
-        "tweetId": "2074209218517942601",
-        "tweetText": "@WesRoth Checks notes... they forced the feature flag to be on so that the code path triggers.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2074209218517942601",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 304428,
-      "totalOutputTokens": 81413,
-      "totalReasoningTokens": 44301,
-      "totalTokens": 385841
+      "totalInputTokens": 304792,
+      "totalOutputTokens": 81562,
+      "totalReasoningTokens": 44404,
+      "totalTokens": 386354
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.97,
+      "createdAt": 1783621923977,
+      "inputTokens": 364,
+      "message": "",
+      "outputTokens": 149,
+      "rationale": "This reply only contains a link, so it does not explicitly show that limits have reset.",
+      "reasoningTokens": 103,
+      "totalTokens": 513,
+      "tweetId": "2075285898724536777",
+      "tweetText": "https://t.co/sYVBMT3pTH",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075285898724536777",
+      "type": "review_requested",
+      "verdict": "uncertain"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1783621920124,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2073521824416125324",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1783200957928,
-      "inputTokens": 358,
-      "message": "",
-      "outputTokens": 64,
-      "rationale": "This reply does not mention rate limits, caps, or any reset.",
-      "reasoningTokens": 22,
-      "totalTokens": 422,
-      "tweetId": "2073520131125166086",
-      "tweetText": "@rezoundous Nice try",
-      "tweetUrl": "https://x.com/thsottiaux/status/2073520131125166086",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "DZU90QPTLiHXkdrR30UUdBhi2dT_5go9dhLInc4-PsR0LQc8bW0bjSzvZQ",
-    "iv": "r__UaR0l0DVxuoUr",
-    "tag": "pTRKxnEXrSS3b405ZZ6wXg",
+    "ciphertext": "SGhQe08AnN4LaXsshuA2bGiyWMpoj90MtNeu7ZGYuIGiXYevd4DSei5eEg",
+    "iv": "x_bJ6KNtQOi13sQU",
+    "tag": "W7htcvkMkOToOAEObxtVsA",
     "version": 1
   }
 }
