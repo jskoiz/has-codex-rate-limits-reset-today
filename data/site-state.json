@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1783564273061,
-      "rationale": "This reply does not mention limits, caps, resets, or usage availability.",
-      "tweetId": "2075044642887000137",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075044642887000137",
+      "decidedAt": 1783564276722,
+      "rationale": "This is just a conversational reply and does not mention limits or availability resetting.",
+      "tweetId": "2075045022458859810",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075045022458859810",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2075044642887000137",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075044642887000137",
+    "lastSeenTweetId": "2075045022458859810",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075045022458859810",
     "pendingReview": {
       "confidence": 0.87,
       "createdAt": 1783527129200,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2074888736429814114"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1783564276722,
+        "inputTokens": 358,
+        "outputTokens": 95,
+        "rationale": "This is just a conversational reply and does not mention limits or availability resetting.",
+        "reasoningTokens": 52,
+        "totalTokens": 453,
+        "tweetId": "2075045022458859810",
+        "tweetText": "@stanleytang Believe",
+        "tweetUrl": "https://x.com/thsottiaux/status/2075045022458859810",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1783564273061,
@@ -279,29 +292,31 @@
         "tweetText": "What is something that you feel is surprising that Codex still can't do well and we should have gotten right a while ago?",
         "tweetUrl": "https://x.com/thsottiaux/status/2073551549494596079",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1783207774977,
-        "inputTokens": 361,
-        "outputTokens": 76,
-        "rationale": "This is a general comment about Codex and does not mention limits or usage resetting.",
-        "reasoningTokens": 31,
-        "totalTokens": 437,
-        "tweetId": "2073549572673028572",
-        "tweetText": "Codex is probably the fastest growing browser.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2073549572673028572",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 300258,
-      "totalOutputTokens": 80457,
-      "totalReasoningTokens": 43838,
-      "totalTokens": 380715
+      "totalInputTokens": 300616,
+      "totalOutputTokens": 80552,
+      "totalReasoningTokens": 43890,
+      "totalTokens": 381168
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1783564276722,
+      "inputTokens": 358,
+      "message": "",
+      "outputTokens": 95,
+      "rationale": "This is just a conversational reply and does not mention limits or availability resetting.",
+      "reasoningTokens": 52,
+      "totalTokens": 453,
+      "tweetId": "2075045022458859810",
+      "tweetText": "@stanleytang Believe",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075045022458859810",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1783564273061,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2073079378808901663",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1783095536800,
-      "inputTokens": 370,
-      "message": "",
-      "outputTokens": 95,
-      "rationale": "This reply suggests buying a Codex subscription and does not mention limits resetting.",
-      "reasoningTokens": 52,
-      "totalTokens": 465,
-      "tweetId": "2073078115132137756",
-      "tweetText": "@adilmania @g0da_s Give her a codex subscription and make her day",
-      "tweetUrl": "https://x.com/thsottiaux/status/2073078115132137756",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "nm4khpOEiWuHerqcCbuN1Ec8gRnr5abnSJLXnBpvjPAng8So-mAAw5fFpw",
-    "iv": "8IZkATFPSNPCaPvA",
-    "tag": "31D69hoQpYPT1NsICEThFg",
+    "ciphertext": "hDLNs2QQQWB1kDpuV0HLjPmpBObqqKD0F6ZDlJaKPJyC184JCYHDJYFnOg",
+    "iv": "B7At3Rr80zIsOP_a",
+    "tag": "wirYXw_GavonLPL2qj0QfA",
     "version": 1
   }
 }
