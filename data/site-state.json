@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1783578538385,
-      "rationale": "This post is just a humorous comment about late-night work and does not mention limits or resets.",
-      "tweetId": "2075103845114663325",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075103845114663325",
+      "decidedAt": 1783604024610,
+      "rationale": "This reply discusses removing an upgrade warning, not limits or a reset.",
+      "tweetId": "2075211600278204919",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075211600278204919",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2075103845114663325",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075103845114663325",
+    "lastSeenTweetId": "2075211600278204919",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075211600278204919",
     "pendingReview": {
       "confidence": 0.87,
       "createdAt": 1783527129200,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2074888736429814114"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1783604024610,
+        "inputTokens": 371,
+        "outputTokens": 89,
+        "rationale": "This reply discusses removing an upgrade warning, not limits or a reset.",
+        "reasoningTokens": 47,
+        "totalTokens": 460,
+        "tweetId": "2075211600278204919",
+        "tweetText": "@imjustnewatai Actually works just fine. We’re removing the warning when upgrading a thread.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2075211600278204919",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1783578538385,
@@ -279,29 +292,31 @@
         "tweetText": "A silly, but made me laugh interaction with Sol\n\n-----------------\n\n🫡🫡🫡🫡🫡🫡🫡🫡🫡🫡🫡🫡🫡\n🫡🫡🫡🫡🫡🫡🫡🫡🫡🫡🫡🫡🫡\n🫡🫡🫡🫡🫡🫡🫡🫡🫡🫡🫡🫡🫡\n\n> 🫡 Salute received, loud and clear. Carry on!\n\n* 12\n\n> 39 × 12 = 468 🫡\n\n- 800\n\n> 468 − 800 = −332 🫡\n\n?\n\n> There were 39 🫡 emojis.\n> (39 × 12) − 800 = 468 − 800 = −332.\n\nhow can you have negative emojis\n\n> You can’t physically. −332 🫡 means you’re short 332 salutes or ... owe 332 salutes.\n> Actual emojis remaining: 0 🫡, with a 332-salute debt.\n\n🫡🫡🫡🫡🫡🫡🫡🫡🫡🫡🫡🫡🫡\n🫡🫡🫡🫡🫡🫡🫡🫡🫡🫡🫡🫡🫡\n🫡🫡🫡🫡🫡🫡🫡🫡🫡🫡🫡🫡🫡\n\n> Payment received: 39 🫡\n> Remaining salute debt: 293 🫡\n\nhahaha\n\n> The salute economy is ruthless. 🫡📉",
         "tweetUrl": "https://x.com/thsottiaux/status/2073554978053005607",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1783208396392,
-        "inputTokens": 366,
-        "outputTokens": 61,
-        "rationale": "This reply is just conversational and does not mention limits, caps, or a reset.",
-        "reasoningTokens": 16,
-        "totalTokens": 427,
-        "tweetId": "2073551962675597572",
-        "tweetText": "@aienginerd GPT-5.5 you say. Interesting",
-        "tweetUrl": "https://x.com/thsottiaux/status/2073551962675597572",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 301005,
-      "totalOutputTokens": 80617,
-      "totalReasoningTokens": 43908,
-      "totalTokens": 381622
+      "totalInputTokens": 301376,
+      "totalOutputTokens": 80706,
+      "totalReasoningTokens": 43955,
+      "totalTokens": 382082
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1783604024610,
+      "inputTokens": 371,
+      "message": "",
+      "outputTokens": 89,
+      "rationale": "This reply discusses removing an upgrade warning, not limits or a reset.",
+      "reasoningTokens": 47,
+      "totalTokens": 460,
+      "tweetId": "2075211600278204919",
+      "tweetText": "@imjustnewatai Actually works just fine. We’re removing the warning when upgrading a thread.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075211600278204919",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1783578538385,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2073166701428932801",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.98,
-      "createdAt": 1783114671762,
-      "inputTokens": 363,
-      "message": "",
-      "outputTokens": 111,
-      "rationale": "This reply is conversational and does not mention limits, caps, or usage becoming available again.",
-      "reasoningTokens": 65,
-      "totalTokens": 474,
-      "tweetId": "2073158555809566899",
-      "tweetText": "@bridgemindai For the first time 👀",
-      "tweetUrl": "https://x.com/thsottiaux/status/2073158555809566899",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "CONmJF1zaeWYfYv8MDp_myu3jwahU1zwKAKJFike2upVaSwEBdeuw_orYg",
-    "iv": "kGqFe3SJbu0Q6_H7",
-    "tag": "nOEruUI_L9K2v4p2Jsg1hQ",
+    "ciphertext": "rJvOpJ3tiElFA9d-PIamuTQ4SKInVIZRS8gbC96zEMr2xetsO7aa5qK7pw",
+    "iv": "7IVI5hQQ1W9_VpAt",
+    "tag": "GgNONBLAH5oePwvLvuH-8g",
     "version": 1
   }
 }
