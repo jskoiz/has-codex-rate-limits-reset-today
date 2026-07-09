@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1783622227088,
-      "rationale": "This reply discusses Codex naming and product quality, not rate limits or usage resets.",
-      "tweetId": "2075286930527547676",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075286930527547676",
+      "decidedAt": 1783622230016,
+      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+      "tweetId": "2075287108680601929",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075287108680601929",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2075286930527547676",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075286930527547676",
+    "lastSeenTweetId": "2075287108680601929",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075287108680601929",
     "pendingReview": {
       "confidence": 0.97,
       "createdAt": 1783621923977,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2075285898724536777"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1783622230016,
+        "inputTokens": 359,
+        "outputTokens": 72,
+        "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+        "reasoningTokens": 28,
+        "totalTokens": 431,
+        "tweetId": "2075287108680601929",
+        "tweetText": "@ClaudeDevs I smell fear",
+        "tweetUrl": "https://x.com/thsottiaux/status/2075287108680601929",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1783622227088,
@@ -279,29 +292,31 @@
         "tweetText": "@thdxr Let's go Dax!",
         "tweetUrl": "https://x.com/thsottiaux/status/2074864353308987868",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.96,
-        "evaluatedAt": 1783483658315,
-        "inputTokens": 434,
-        "outputTokens": 180,
-        "rationale": "This is a product launch and access-expansion announcement, not a statement that usage caps or rate limits reset.",
-        "reasoningTokens": 130,
-        "totalTokens": 614,
-        "tweetId": "2074705681920520526",
-        "tweetText": "Prepare your sunglasses. Sol is coming. 😎",
-        "tweetUrl": "https://x.com/thsottiaux/status/2074705681920520526",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 305198,
-      "totalOutputTokens": 81656,
-      "totalReasoningTokens": 44453,
-      "totalTokens": 386854
+      "totalInputTokens": 305557,
+      "totalOutputTokens": 81728,
+      "totalReasoningTokens": 44481,
+      "totalTokens": 387285
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1783622230016,
+      "inputTokens": 359,
+      "message": "",
+      "outputTokens": 72,
+      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+      "reasoningTokens": 28,
+      "totalTokens": 431,
+      "tweetId": "2075287108680601929",
+      "tweetText": "@ClaudeDevs I smell fear",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075287108680601929",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1783622227088,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2073549572673028572",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1783203447143,
-      "inputTokens": 360,
-      "message": "",
-      "outputTokens": 83,
-      "rationale": "This reply is conversational and does not mention limits, caps, or resets.",
-      "reasoningTokens": 40,
-      "totalTokens": 443,
-      "tweetId": "2073531523920195597",
-      "tweetText": "@TokenGremlin I'm not that serious.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2073531523920195597",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "k9Nd_a6wzH4k5GxtEs_9RLY6_0MkKroM6lw6QmvLlgXWmJzJfh0UUtIO-g",
-    "iv": "KylTyushrbFZ9qtf",
-    "tag": "LI0N6MVnwq42o8-XY3JNxQ",
+    "ciphertext": "Bp_JP3cA1NtAJtKnpfD1XCn4noxKtiCFV3JgYGzGKCYe3Hrd03hlWep6ew",
+    "iv": "YcUaVWuPIoEUbYyE",
+    "tag": "-kSsgG-yddxKz4o69cbPhw",
     "version": 1
   }
 }
