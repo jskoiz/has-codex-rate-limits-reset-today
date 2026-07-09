@@ -14,16 +14,16 @@
   "updatedAt": 1782776637294,
   "automation": {
     "lastDecision": {
-      "confidence": 0.2,
-      "decidedAt": 1783623437724,
-      "rationale": "This reply contains only a link and provides no explicit evidence that limits have reset.",
-      "tweetId": "2075292240747073546",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075292240747073546",
-      "verdict": "uncertain"
+      "confidence": 0.99,
+      "decidedAt": 1783623755247,
+      "rationale": "This post is a general product update and does not mention limits, caps, or usage becoming available again.",
+      "tweetId": "2075293835127922748",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075293835127922748",
+      "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2075292240747073546",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075292240747073546",
+    "lastSeenTweetId": "2075293835127922748",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075293835127922748",
     "pendingReview": {
       "confidence": 0.2,
       "createdAt": 1783623437724,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2075292240747073546"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1783623755247,
+        "inputTokens": 446,
+        "outputTokens": 88,
+        "rationale": "This post is a general product update and does not mention limits, caps, or usage becoming available again.",
+        "reasoningTokens": 39,
+        "totalTokens": 534,
+        "tweetId": "2075293835127922748",
+        "tweetText": "Today, the OpenAI product and engineering team is humming, there is so much to coordinate and keep running across the release of GPT 5.6 Sol/Terra/Luna, ChatGPT Work, the new ChatGPT desktop app, hosted sites and a million other things... together with the new ChatGPT Voice just launched yesterday.\n\nWe will not get it all right, give us feedback and we will iterate quickly. Thank you for being an amazing community.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2075293835127922748",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.2,
         "evaluatedAt": 1783623437724,
@@ -279,29 +292,31 @@
         "tweetText": "@mitchellh We are getting rid of Franklin",
         "tweetUrl": "https://x.com/thsottiaux/status/2075044642887000137",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.97,
-        "evaluatedAt": 1783536119604,
-        "inputTokens": 362,
-        "outputTokens": 124,
-        "rationale": "This reply only clarifies it is ChatGPT and does not say any limit or cap has reset.",
-        "reasoningTokens": 76,
-        "totalTokens": 486,
-        "tweetId": "2074926588739879183",
-        "tweetText": "@nunezvice No, it's ChatGPT",
-        "tweetUrl": "https://x.com/thsottiaux/status/2074926588739879183",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 307084,
-      "totalOutputTokens": 82149,
-      "totalReasoningTokens": 44727,
-      "totalTokens": 389233
+      "totalInputTokens": 307530,
+      "totalOutputTokens": 82237,
+      "totalReasoningTokens": 44766,
+      "totalTokens": 389767
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1783623755247,
+      "inputTokens": 446,
+      "message": "",
+      "outputTokens": 88,
+      "rationale": "This post is a general product update and does not mention limits, caps, or usage becoming available again.",
+      "reasoningTokens": 39,
+      "totalTokens": 534,
+      "tweetId": "2075293835127922748",
+      "tweetText": "Today, the OpenAI product and engineering team is humming, there is so much to coordinate and keep running across the release of GPT 5.6 Sol/Terra/Luna, ChatGPT Work, the new ChatGPT desktop app, hosted sites and a million other things... together with the new ChatGPT Voice just launched yesterday.\n\nWe will not get it all right, give us feedback and we will iterate quickly. Thank you for being an amazing community.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075293835127922748",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.2,
       "createdAt": 1783623437724,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2073565412336308699",
       "type": "review_requested",
       "verdict": "uncertain"
-    },
-    {
-      "confidence": 0.98,
-      "createdAt": 1783211189427,
-      "inputTokens": 369,
-      "message": "",
-      "outputTokens": 132,
-      "rationale": "This reply contains no explicit statement that any Codex or ChatGPT limit has reset.",
-      "reasoningTokens": 87,
-      "totalTokens": 501,
-      "tweetId": "2073563036757950878",
-      "tweetText": "@rezoundous https://t.co/zGXEwS9iOQ",
-      "tweetUrl": "https://x.com/thsottiaux/status/2073563036757950878",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "ZLYVu3PC18RSZc0dtjUYtiPUyk73xl0SS56aAOdkv4Rq-kFbUURMfKpL8g",
-    "iv": "UNNSY-CPmZiXalF4",
-    "tag": "jDz_kJywHzZ0rXi6flJUGA",
+    "ciphertext": "ChMKB1H0FKwYCc8rhrmOgfU4j5VPmVJKDAJsGuTxuRwCwUAqQEgkP0szBg",
+    "iv": "vzPS6ul0_x35gO3y",
+    "tag": "hknIOU02VNJkRhyKIRV8Dg",
     "version": 1
   }
 }
