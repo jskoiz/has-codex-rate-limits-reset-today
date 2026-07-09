@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1783620402566,
-      "rationale": "This reply is conversational and does not indicate any Codex or ChatGPT limit reset.",
-      "tweetId": "2075279666085298593",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075279666085298593",
+      "decidedAt": 1783621318476,
+      "rationale": "This post is just praising a model and does not mention limits, caps, or usage becoming available again.",
+      "tweetId": "2075283734136525255",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075283734136525255",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2075279666085298593",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075279666085298593",
+    "lastSeenTweetId": "2075283734136525255",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075283734136525255",
     "pendingReview": {
       "confidence": 0.87,
       "createdAt": 1783527129200,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2074888736429814114"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1783621318476,
+        "inputTokens": 416,
+        "outputTokens": 74,
+        "rationale": "This post is just praising a model and does not mention limits, caps, or usage becoming available again.",
+        "reasoningTokens": 25,
+        "totalTokens": 490,
+        "tweetId": "2075283734136525255",
+        "tweetText": "GPT 5.6 Sol is our best model so far at ~everything. \n\nIt's remarkable how stark the difference is with GPT-5.5 across coding, hard context and strategy tasks, building sites, ... and literally anything I need to get done. Totally requires raising the ambition of what you try.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2075283734136525255",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1783620402566,
@@ -279,29 +292,31 @@
         "tweetText": "@haider1 Ultra will be in codex.",
         "tweetUrl": "https://x.com/thsottiaux/status/2073933490513752151",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1783297812905,
-        "inputTokens": 361,
-        "outputTokens": 86,
-        "rationale": "This reply does not mention rate limits, caps, or any reset.",
-        "reasoningTokens": 44,
-        "totalTokens": 447,
-        "tweetId": "2073926196413555048",
-        "tweetText": "@noor36758 I would rather not",
-        "tweetUrl": "https://x.com/thsottiaux/status/2073926196413555048",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 302859,
-      "totalOutputTokens": 81008,
-      "totalReasoningTokens": 44082,
-      "totalTokens": 383867
+      "totalInputTokens": 303275,
+      "totalOutputTokens": 81082,
+      "totalReasoningTokens": 44107,
+      "totalTokens": 384357
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1783621318476,
+      "inputTokens": 416,
+      "message": "",
+      "outputTokens": 74,
+      "rationale": "This post is just praising a model and does not mention limits, caps, or usage becoming available again.",
+      "reasoningTokens": 25,
+      "totalTokens": 490,
+      "tweetId": "2075283734136525255",
+      "tweetText": "GPT 5.6 Sol is our best model so far at ~everything. \n\nIt's remarkable how stark the difference is with GPT-5.5 across coding, hard context and strategy tasks, building sites, ... and literally anything I need to get done. Totally requires raising the ambition of what you try.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075283734136525255",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1783620402566,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2073506936725581911",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1783197240691,
-      "inputTokens": 359,
-      "message": "",
-      "outputTokens": 96,
-      "rationale": "This reply is just asking for a tutorial and does not mention limits or a reset.",
-      "reasoningTokens": 51,
-      "totalTokens": 455,
-      "tweetId": "2073504987276087806",
-      "tweetText": "@steipete Need a tutorial",
-      "tweetUrl": "https://x.com/thsottiaux/status/2073504987276087806",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "VyNP8zFcaVD6bPDttagTHHKmx0N1M7RAU6Rk7sbAxYb-qyVZfx_QeeexRQ",
-    "iv": "tVqhwXHKuWvNyduB",
-    "tag": "jdxzX5aiagQrBTqI24EBaQ",
+    "ciphertext": "_ylk-XaqVXAy5s1V0XuYZ8UyDA5TAYgf6v5_GfJtEhVvYcU6idkNF4OQYw",
+    "iv": "Q6g4IOr1uNLOLHLr",
+    "tag": "GcfGNmQnMl3VvW_lsWhdmw",
     "version": 1
   }
 }
