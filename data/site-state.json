@@ -14,16 +14,16 @@
   "updatedAt": 1782776637294,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1783630272549,
-      "rationale": "This reply is just conversational and does not mention limits or a reset.",
-      "tweetId": "2075319446667940005",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075319446667940005",
+      "confidence": 0.98,
+      "decidedAt": 1783630275640,
+      "rationale": "This is just an emoji reply and does not indicate any limits or usage have reset.",
+      "tweetId": "2075320999625851151",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075320999625851151",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2075319446667940005",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075319446667940005",
+    "lastSeenTweetId": "2075320999625851151",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075320999625851151",
     "pendingReview": {
       "confidence": 0.9,
       "createdAt": 1783629959034,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2075319370369409428"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.98,
+        "evaluatedAt": 1783630275640,
+        "inputTokens": 367,
+        "outputTokens": 137,
+        "rationale": "This is just an emoji reply and does not indicate any limits or usage have reset.",
+        "reasoningTokens": 92,
+        "totalTokens": 504,
+        "tweetId": "2075320999625851151",
+        "tweetText": "@tunahorse21 🍿=&gt;☀️😎",
+        "tweetUrl": "https://x.com/thsottiaux/status/2075320999625851151",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1783630272549,
@@ -279,29 +292,31 @@
         "tweetText": "Join us for a few unexpected things!",
         "tweetUrl": "https://x.com/thsottiaux/status/2075259145373323439",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1783604319556,
-        "inputTokens": 357,
-        "outputTokens": 77,
-        "rationale": "This reply is conversational and does not indicate any rate limit reset.",
-        "reasoningTokens": 36,
-        "totalTokens": 434,
-        "tweetId": "2075212075954307499",
-        "tweetText": "@mweinbach What",
-        "tweetUrl": "https://x.com/thsottiaux/status/2075212075954307499",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 309410,
-      "totalOutputTokens": 82814,
-      "totalReasoningTokens": 45112,
-      "totalTokens": 392224
+      "totalInputTokens": 309777,
+      "totalOutputTokens": 82951,
+      "totalReasoningTokens": 45204,
+      "totalTokens": 392728
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.98,
+      "createdAt": 1783630275640,
+      "inputTokens": 367,
+      "message": "",
+      "outputTokens": 137,
+      "rationale": "This is just an emoji reply and does not indicate any limits or usage have reset.",
+      "reasoningTokens": 92,
+      "totalTokens": 504,
+      "tweetId": "2075320999625851151",
+      "tweetText": "@tunahorse21 🍿=&gt;☀️😎",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075320999625851151",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1783630272549,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2074209218517942601",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1783361717139,
-      "inputTokens": 502,
-      "message": "",
-      "outputTokens": 88,
-      "rationale": "This is a DevDay event promotion and does not mention limits, caps, or usage becoming available again.",
-      "reasoningTokens": 39,
-      "totalTokens": 590,
-      "tweetId": "2074195169990357398",
-      "tweetText": "Closing this week. Much of the teams building ChatGPT, Codex and OpenClaw will be there and we'll have a few surprises for folks. Hope to see many of you 👀",
-      "tweetUrl": "https://x.com/thsottiaux/status/2074195169990357398",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "KZH-hkl3hlU5ZdWLN3uRFr9-oLwG9JhoQnOx-WN0j4sFzmZifiBkG_4Zow",
-    "iv": "2kQ8s7l98zz4IbZG",
-    "tag": "JNzDPHHkKiOuneZf5TL4xg",
+    "ciphertext": "yuXEr6PUgPEw-wxI27l3nBG3ZclIhLCc7Gmut5P59_9rn1eZMVqLdwrv9Q",
+    "iv": "dBv0JkOpjppK4s9Y",
+    "tag": "dA8jb-7sW2Qik93XWQzKdw",
     "version": 1
   }
 }
