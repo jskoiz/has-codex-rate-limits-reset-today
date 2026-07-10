@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1783692251834,
-      "rationale": "This reply discusses token spend by plan, not any limit or rate-cap reset.",
-      "tweetId": "2075581691025125655",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075581691025125655",
+      "decidedAt": 1783695057214,
+      "rationale": "This post discusses traffic, reliability, and product direction, not limits or a reset.",
+      "tweetId": "2075592331349430581",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075592331349430581",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2075581691025125655",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075581691025125655",
+    "lastSeenTweetId": "2075592331349430581",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075592331349430581",
     "pendingReview": {
       "confidence": 0.11,
       "createdAt": 1783660946435,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2075449887190294599"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1783695057214,
+        "inputTokens": 467,
+        "outputTokens": 86,
+        "rationale": "This post discusses traffic, reliability, and product direction, not limits or a reset.",
+        "reasoningTokens": 41,
+        "totalTokens": 553,
+        "tweetId": "2075592331349430581",
+        "tweetText": "Or a generational run. We will continue to make tweaks and we have a TON coming for developers. Meanwhile traffic yesterday sat at ~2X previous peak, team is scrambling to keep everything up and reliable.\n\nTime will tell, but I have conviction that attempting to build the one interface to AGI is worthwhile.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2075592331349430581",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1783692251834,
@@ -279,29 +292,31 @@
         "tweetText": "@sohamstwt No need to call me babe. Reset will be coming this afternoon",
         "tweetUrl": "https://x.com/thsottiaux/status/2075296200761418073",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1783623757937,
-        "inputTokens": 363,
-        "outputTokens": 76,
-        "rationale": "This reply just says \"Settings\" and gives no indication that any limits have reset.",
-        "reasoningTokens": 31,
-        "totalTokens": 439,
-        "tweetId": "2075294400662692204",
-        "tweetText": "@TomasPuelma @scaling01 Settings",
-        "tweetUrl": "https://x.com/thsottiaux/status/2075294400662692204",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 315269,
-      "totalOutputTokens": 84457,
-      "totalReasoningTokens": 46065,
-      "totalTokens": 399726
+      "totalInputTokens": 315736,
+      "totalOutputTokens": 84543,
+      "totalReasoningTokens": 46106,
+      "totalTokens": 400279
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1783695057214,
+      "inputTokens": 467,
+      "message": "",
+      "outputTokens": 86,
+      "rationale": "This post discusses traffic, reliability, and product direction, not limits or a reset.",
+      "reasoningTokens": 41,
+      "totalTokens": 553,
+      "tweetId": "2075592331349430581",
+      "tweetText": "Or a generational run. We will continue to make tweaks and we have a TON coming for developers. Meanwhile traffic yesterday sat at ~2X previous peak, team is scrambling to keep everything up and reliable.\n\nTime will tell, but I have conviction that attempting to build the one interface to AGI is worthwhile.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075592331349430581",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1783692251834,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2075211827617952239",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1783604024610,
-      "inputTokens": 371,
-      "message": "",
-      "outputTokens": 89,
-      "rationale": "This reply discusses removing an upgrade warning, not limits or a reset.",
-      "reasoningTokens": 47,
-      "totalTokens": 460,
-      "tweetId": "2075211600278204919",
-      "tweetText": "@imjustnewatai Actually works just fine. We’re removing the warning when upgrading a thread.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075211600278204919",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "h4BCTsvMisjT5oswmAgtuEosK49CpJgCWQed1dVXmktLcYZk5e1bJsowWA",
-    "iv": "Ur6REAI_JlYTHfZW",
-    "tag": "EE7wMMVwoPpMweD4IvjdTQ",
+    "ciphertext": "82OMtYC50UstymNi6tBrB4whFVNgqXYALyb2kJ3ONy6ZHhsOvWQGKQuFwA",
+    "iv": "Aixiy4OnzkuLRJhZ",
+    "tag": "6MN7BsDcJuTeVQwtaSPuRA",
     "version": 1
   }
 }
