@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.98,
-      "decidedAt": 1783661562411,
-      "rationale": "It announces future resets over the next 24 hours, not that limits have reset now.",
-      "tweetId": "2075452680760443190",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075452680760443190",
+      "decidedAt": 1783692245574,
+      "rationale": "This reply only notes the user's `ultra` plan and does not indicate any limit or cap has reset.",
+      "tweetId": "2075580693627970030",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075580693627970030",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2075452680760443190",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075452680760443190",
+    "lastSeenTweetId": "2075580693627970030",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075580693627970030",
     "pendingReview": {
       "confidence": 0.11,
       "createdAt": 1783660946435,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2075449887190294599"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.98,
+        "evaluatedAt": 1783692245574,
+        "inputTokens": 372,
+        "outputTokens": 102,
+        "rationale": "This reply only notes the user's `ultra` plan and does not indicate any limit or cap has reset.",
+        "reasoningTokens": 52,
+        "totalTokens": 474,
+        "tweetId": "2075580693627970030",
+        "tweetText": "@Youssofal_ I would like to point out that you are on `ultra`!",
+        "tweetUrl": "https://x.com/thsottiaux/status/2075580693627970030",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.98,
         "evaluatedAt": 1783661562411,
@@ -279,29 +292,31 @@
         "tweetText": "https://t.co/rvJ7EawhHh",
         "tweetUrl": "https://x.com/thsottiaux/status/2075292240747073546",
         "verdict": "uncertain"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1783623432631,
-        "inputTokens": 436,
-        "outputTokens": 90,
-        "rationale": "This is a product rollout announcement, not a statement that usage limits or rate caps have reset.",
-        "reasoningTokens": 43,
-        "totalTokens": 526,
-        "tweetId": "2075292097658392602",
-        "tweetText": "ChatGPT Work is now rolled out to 100% of our Pro users. Open the ChatGPT mobile app on a phone near you and enjoy productivity on the go. Or install the new ChatGPT desktop app if you need full access to your apps, browser and local files.\n\nOne advice: Raise your ambition. GPT 5.6 Sol is different from what you might have seen before. 👀",
-        "tweetUrl": "https://x.com/thsottiaux/status/2075292097658392602",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 314118,
-      "totalOutputTokens": 84176,
-      "totalReasoningTokens": 45925,
-      "totalTokens": 398294
+      "totalInputTokens": 314490,
+      "totalOutputTokens": 84278,
+      "totalReasoningTokens": 45977,
+      "totalTokens": 398768
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.98,
+      "createdAt": 1783692245574,
+      "inputTokens": 372,
+      "message": "",
+      "outputTokens": 102,
+      "rationale": "This reply only notes the user's `ultra` plan and does not indicate any limit or cap has reset.",
+      "reasoningTokens": 52,
+      "totalTokens": 474,
+      "tweetId": "2075580693627970030",
+      "tweetText": "@Youssofal_ I would like to point out that you are on `ultra`!",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075580693627970030",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0,
       "createdAt": 1783689158751,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2075045022458859810",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1783564273061,
-      "inputTokens": 362,
-      "message": "",
-      "outputTokens": 76,
-      "rationale": "This reply does not mention limits, caps, resets, or usage availability.",
-      "reasoningTokens": 33,
-      "totalTokens": 438,
-      "tweetId": "2075044642887000137",
-      "tweetText": "@mitchellh We are getting rid of Franklin",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075044642887000137",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "S4GszwBLaZM6w63FHhPNEHmGzrRLUgbufnVHNBuAsrbQrqHO6UBK0Lly_w",
-    "iv": "hNJ5TGC4JJ6V4oEB",
-    "tag": "i18ArjuB4Ws8csNeJmivNg",
+    "ciphertext": "FArKhF7fA5cKgwkh0bad2-wTjoCLDG6Tm6AfzGY-Z-qcLHI7QVo9oE2WmQ",
+    "iv": "z05WKfW6QtlPoHEX",
+    "tag": "riS45Gd27B_EE94zMO2QUQ",
     "version": 1
   }
 }
