@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1783707817119,
-      "rationale": "This reply only asks about the user's plan and does not indicate any limit reset.",
-      "tweetId": "2075647006878670896",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075647006878670896",
+      "decidedAt": 1783708728112,
+      "rationale": "This reply only says they are fixing something and does not indicate limits have reset.",
+      "tweetId": "2075649912692437451",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075649912692437451",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2075647006878670896",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075647006878670896",
+    "lastSeenTweetId": "2075649912692437451",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075649912692437451",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1783708728112,
+        "inputTokens": 365,
+        "outputTokens": 74,
+        "rationale": "This reply only says they are fixing something and does not indicate limits have reset.",
+        "reasoningTokens": 30,
+        "totalTokens": 439,
+        "tweetId": "2075649912692437451",
+        "tweetText": "@antonpme @OpenAI @ChatGPTapp We're fixing",
+        "tweetUrl": "https://x.com/thsottiaux/status/2075649912692437451",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1783707817119,
@@ -272,29 +285,31 @@
         "tweetText": "@cherry_mx_reds It seems so",
         "tweetUrl": "https://x.com/thsottiaux/status/2075326229264380138",
         "verdict": "uncertain"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1783630585423,
-        "inputTokens": 462,
-        "outputTokens": 91,
-        "rationale": "This is a promotional quote tweet about OpenAI Build Week, not about limits resetting.",
-        "reasoningTokens": 46,
-        "totalTokens": 553,
-        "tweetId": "2075322213834875026",
-        "tweetText": "Builders of the world. This is your time.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2075322213834875026",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 318153,
-      "totalOutputTokens": 85129,
-      "totalReasoningTokens": 46457,
-      "totalTokens": 403282
+      "totalInputTokens": 318518,
+      "totalOutputTokens": 85203,
+      "totalReasoningTokens": 46487,
+      "totalTokens": 403721
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1783708728112,
+      "inputTokens": 365,
+      "message": "",
+      "outputTokens": 74,
+      "rationale": "This reply only says they are fixing something and does not indicate limits have reset.",
+      "reasoningTokens": 30,
+      "totalTokens": 439,
+      "tweetId": "2075649912692437451",
+      "tweetText": "@antonpme @OpenAI @ChatGPTapp We're fixing",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075649912692437451",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1783707817119,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2075283825048064261",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1783621318476,
-      "inputTokens": 416,
-      "message": "",
-      "outputTokens": 74,
-      "rationale": "This post is just praising a model and does not mention limits, caps, or usage becoming available again.",
-      "reasoningTokens": 25,
-      "totalTokens": 490,
-      "tweetId": "2075283734136525255",
-      "tweetText": "GPT 5.6 Sol is our best model so far at ~everything. \n\nIt's remarkable how stark the difference is with GPT-5.5 across coding, hard context and strategy tasks, building sites, ... and literally anything I need to get done. Totally requires raising the ambition of what you try.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075283734136525255",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "UO9xWuHjQuMsOloPDG6PXJaV0ax2SS8QGWcpg1QUba9O9ajLNyx80t1saw",
-    "iv": "Vpkd6ceVm5emWraF",
-    "tag": "SbuezgdVNuF8VCfyTcOAxg",
+    "ciphertext": "uPaBGQoW01qLrkglzOGymc80jZs4j6lb3f66iWiY5_jED1u_QBaEfj74FA",
+    "iv": "Zq-2I1f_djpk_195",
+    "tag": "tVt_-WWxR81xP3icBC5xtw",
     "version": 1
   }
 }
