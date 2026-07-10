@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1783646796127,
-      "rationale": "This post is just sharing a 3D demo and says nothing about limits or a reset.",
-      "tweetId": "2075389936564588714",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075389936564588714",
+      "decidedAt": 1783660636800,
+      "rationale": "This is just a reply asking about an image generation model and says nothing about limits or resets.",
+      "tweetId": "2075448833321177557",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075448833321177557",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2075389936564588714",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075389936564588714",
+    "lastSeenTweetId": "2075448833321177557",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075448833321177557",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1783660636800,
+        "inputTokens": 369,
+        "outputTokens": 76,
+        "rationale": "This is just a reply asking about an image generation model and says nothing about limits or resets.",
+        "reasoningTokens": 29,
+        "totalTokens": 445,
+        "tweetId": "2075448833321177557",
+        "tweetText": "@maria_rcks What kind of low image generation model did you use for that",
+        "tweetUrl": "https://x.com/thsottiaux/status/2075448833321177557",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1783646796127,
@@ -272,29 +285,31 @@
         "tweetText": "@scaling01 Without the Sun we would be a sad rock",
         "tweetUrl": "https://x.com/thsottiaux/status/2075287605890126324",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1783622230016,
-        "inputTokens": 359,
-        "outputTokens": 72,
-        "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-        "reasoningTokens": 28,
-        "totalTokens": 431,
-        "tweetId": "2075287108680601929",
-        "tweetText": "@ClaudeDevs I smell fear",
-        "tweetUrl": "https://x.com/thsottiaux/status/2075287108680601929",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 312978,
-      "totalOutputTokens": 83696,
-      "totalReasoningTokens": 45583,
-      "totalTokens": 396674
+      "totalInputTokens": 313347,
+      "totalOutputTokens": 83772,
+      "totalReasoningTokens": 45612,
+      "totalTokens": 397119
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1783660636800,
+      "inputTokens": 369,
+      "message": "",
+      "outputTokens": 76,
+      "rationale": "This is just a reply asking about an image generation model and says nothing about limits or resets.",
+      "reasoningTokens": 29,
+      "totalTokens": 445,
+      "tweetId": "2075448833321177557",
+      "tweetText": "@maria_rcks What kind of low image generation model did you use for that",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075448833321177557",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1783646796127,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2074885402918601082",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1783521208428,
-      "inputTokens": 360,
-      "message": "",
-      "outputTokens": 105,
-      "rationale": "This is just a conversational reply and does not mention limits or resets.",
-      "reasoningTokens": 63,
-      "totalTokens": 465,
-      "tweetId": "2074864353308987868",
-      "tweetText": "@thdxr Let's go Dax!",
-      "tweetUrl": "https://x.com/thsottiaux/status/2074864353308987868",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "98fUX_QFglHy-OGTVb1_VYT4XWCtiQuVcTO563HhuROz7MyA_QZrLLzweg",
-    "iv": "_NSG-svzMxSfTf6Q",
-    "tag": "pVypM_cV9396LLkNJdmncQ",
+    "ciphertext": "adQIFyco60_1qS9QbncmGpe-cWR1wPfbjUYc5nUgICkcEuoV1loEC0hWxg",
+    "iv": "U_2kkZE8-SBxJd-v",
+    "tag": "2-qPu_NiT00dFvToQNFZgQ",
     "version": 1
   }
 }
