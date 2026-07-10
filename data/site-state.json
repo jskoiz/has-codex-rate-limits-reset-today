@@ -14,18 +14,31 @@
   "updatedAt": 1783706579400,
   "automation": {
     "lastDecision": {
-      "confidence": 0.9,
-      "decidedAt": 1783707813113,
-      "rationale": "This reply only asks about the user's plan and does not clearly state that any limit has reset.",
-      "tweetId": "2075646865148920283",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075646865148920283",
+      "confidence": 0.99,
+      "decidedAt": 1783707817119,
+      "rationale": "This reply only asks about the user's plan and does not indicate any limit reset.",
+      "tweetId": "2075647006878670896",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075647006878670896",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2075646865148920283",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075646865148920283",
+    "lastSeenTweetId": "2075647006878670896",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075647006878670896",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1783707817119,
+        "inputTokens": 361,
+        "outputTokens": 77,
+        "rationale": "This reply only asks about the user's plan and does not indicate any limit reset.",
+        "reasoningTokens": 33,
+        "totalTokens": 438,
+        "tweetId": "2075647006878670896",
+        "tweetText": "@ShadowfetchNews Which plan are you on?",
+        "tweetUrl": "https://x.com/thsottiaux/status/2075647006878670896",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.9,
         "evaluatedAt": 1783707813113,
@@ -272,29 +285,31 @@
         "tweetText": "Builders of the world. This is your time.",
         "tweetUrl": "https://x.com/thsottiaux/status/2075322213834875026",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.98,
-        "evaluatedAt": 1783630275640,
-        "inputTokens": 367,
-        "outputTokens": 137,
-        "rationale": "This is just an emoji reply and does not indicate any limits or usage have reset.",
-        "reasoningTokens": 92,
-        "totalTokens": 504,
-        "tweetId": "2075320999625851151",
-        "tweetText": "@tunahorse21 🍿=&gt;☀️😎",
-        "tweetUrl": "https://x.com/thsottiaux/status/2075320999625851151",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 317792,
-      "totalOutputTokens": 85052,
-      "totalReasoningTokens": 46424,
-      "totalTokens": 402844
+      "totalInputTokens": 318153,
+      "totalOutputTokens": 85129,
+      "totalReasoningTokens": 46457,
+      "totalTokens": 403282
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1783707817119,
+      "inputTokens": 361,
+      "message": "",
+      "outputTokens": 77,
+      "rationale": "This reply only asks about the user's plan and does not indicate any limit reset.",
+      "reasoningTokens": 33,
+      "totalTokens": 438,
+      "tweetId": "2075647006878670896",
+      "tweetText": "@ShadowfetchNews Which plan are you on?",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075647006878670896",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.9,
       "createdAt": 1783707813113,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2075283734136525255",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1783620402566,
-      "inputTokens": 360,
-      "message": "",
-      "outputTokens": 75,
-      "rationale": "This reply is conversational and does not indicate any Codex or ChatGPT limit reset.",
-      "reasoningTokens": 30,
-      "totalTokens": 435,
-      "tweetId": "2075279666085298593",
-      "tweetText": "@LLMJunky It's the little things",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075279666085298593",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "lX8LQV8JTZ1T-TILcRSkN5m8juqTzvbow4V51n-GsTAtA0acEiNMYZ6Cag",
-    "iv": "SJ1HIIIiXgd-8DNG",
-    "tag": "lVcMbal9vU9VGcmIzjcYow",
+    "ciphertext": "UO9xWuHjQuMsOloPDG6PXJaV0ax2SS8QGWcpg1QUba9O9ajLNyx80t1saw",
+    "iv": "Vpkd6ceVm5emWraF",
+    "tag": "SbuezgdVNuF8VCfyTcOAxg",
     "version": 1
   }
 }
