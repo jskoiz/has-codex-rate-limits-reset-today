@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1783695057214,
-      "rationale": "This post discusses traffic, reliability, and product direction, not limits or a reset.",
-      "tweetId": "2075592331349430581",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075592331349430581",
+      "decidedAt": 1783695062692,
+      "rationale": "The post and quoted text are promotional and do not mention limits, caps, or a reset.",
+      "tweetId": "2075592670832107910",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075592670832107910",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2075592331349430581",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075592331349430581",
+    "lastSeenTweetId": "2075592670832107910",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075592670832107910",
     "pendingReview": {
       "confidence": 0.11,
       "createdAt": 1783660946435,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2075449887190294599"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1783695062692,
+        "inputTokens": 405,
+        "outputTokens": 98,
+        "rationale": "The post and quoted text are promotional and do not mention limits, caps, or a reset.",
+        "reasoningTokens": 51,
+        "totalTokens": 503,
+        "tweetId": "2075592670832107910",
+        "tweetText": "https://t.co/XKG1CBaLa2",
+        "tweetUrl": "https://x.com/thsottiaux/status/2075592670832107910",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1783695057214,
@@ -279,29 +292,31 @@
         "tweetText": "@_simonsmith 1. In web and mobile we have shared ChatGPT memory. This is not yet on desktop (yet) where memory is local to your machine.\n\n2. Yes, this is coming. \n\n3. Retired. No specific plans we can share now on a replacement, but there are indeed great 3P plugins for this!",
         "tweetUrl": "https://x.com/thsottiaux/status/2075303191785402571",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.98,
-        "evaluatedAt": 1783624359424,
-        "inputTokens": 370,
-        "outputTokens": 180,
-        "rationale": "It only says a reset will happen later this afternoon, not that limits have reset now.",
-        "reasoningTokens": 134,
-        "totalTokens": 550,
-        "tweetId": "2075296200761418073",
-        "tweetText": "@sohamstwt No need to call me babe. Reset will be coming this afternoon",
-        "tweetUrl": "https://x.com/thsottiaux/status/2075296200761418073",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 315736,
-      "totalOutputTokens": 84543,
-      "totalReasoningTokens": 46106,
-      "totalTokens": 400279
+      "totalInputTokens": 316141,
+      "totalOutputTokens": 84641,
+      "totalReasoningTokens": 46157,
+      "totalTokens": 400782
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1783695062692,
+      "inputTokens": 405,
+      "message": "",
+      "outputTokens": 98,
+      "rationale": "The post and quoted text are promotional and do not mention limits, caps, or a reset.",
+      "reasoningTokens": 51,
+      "totalTokens": 503,
+      "tweetId": "2075592670832107910",
+      "tweetText": "https://t.co/XKG1CBaLa2",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075592670832107910",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1783695057214,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2075212075954307499",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1783604316177,
-      "inputTokens": 358,
-      "message": "",
-      "outputTokens": 67,
-      "rationale": "This is just a greeting and does not mention any limit, cap, or reset.",
-      "reasoningTokens": 22,
-      "totalTokens": 425,
-      "tweetId": "2075211827617952239",
-      "tweetText": "Good morning ☀️",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075211827617952239",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "82OMtYC50UstymNi6tBrB4whFVNgqXYALyb2kJ3ONy6ZHhsOvWQGKQuFwA",
-    "iv": "Aixiy4OnzkuLRJhZ",
-    "tag": "6MN7BsDcJuTeVQwtaSPuRA",
+    "ciphertext": "H9ItMc9_0wbSjmNcHJqZ2qcRp4B1cQszjo6Bb8cQWIKiOBNOf-kUx0hJPA",
+    "iv": "UKLzVRuavxj_Y5PY",
+    "tag": "pXVn_WRHEleQIQpNG8G6rQ",
     "version": 1
   }
 }
