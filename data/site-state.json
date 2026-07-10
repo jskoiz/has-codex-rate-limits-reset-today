@@ -14,18 +14,31 @@
   "updatedAt": 1783706579400,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1783706579400,
-      "rationale": "The tweet explicitly says usage limits across Codex and ChatGPT Work have been reset now.",
-      "tweetId": "2075641131002700120",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075641131002700120",
-      "verdict": "reset_confirmed"
+      "confidence": 0.9,
+      "decidedAt": 1783707813113,
+      "rationale": "This reply only asks about the user's plan and does not clearly state that any limit has reset.",
+      "tweetId": "2075646865148920283",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075646865148920283",
+      "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2075641131002700120",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075641131002700120",
+    "lastSeenTweetId": "2075646865148920283",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075646865148920283",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.9,
+        "evaluatedAt": 1783707813113,
+        "inputTokens": 364,
+        "outputTokens": 182,
+        "rationale": "This reply only asks about the user's plan and does not clearly state that any limit has reset.",
+        "reasoningTokens": 135,
+        "totalTokens": 546,
+        "tweetId": "2075646865148920283",
+        "tweetText": "@LogicaISoIution Which plan are you on?",
+        "tweetUrl": "https://x.com/thsottiaux/status/2075646865148920283",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1783706579400,
@@ -272,29 +285,31 @@
         "tweetText": "@tunahorse21 🍿=&gt;☀️😎",
         "tweetUrl": "https://x.com/thsottiaux/status/2075320999625851151",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1783630272549,
-        "inputTokens": 361,
-        "outputTokens": 80,
-        "rationale": "This reply is just conversational and does not mention limits or a reset.",
-        "reasoningTokens": 38,
-        "totalTokens": 441,
-        "tweetId": "2075319446667940005",
-        "tweetText": "@IamYashKapoor Thanks for trying",
-        "tweetUrl": "https://x.com/thsottiaux/status/2075319446667940005",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 317428,
-      "totalOutputTokens": 84870,
-      "totalReasoningTokens": 46289,
-      "totalTokens": 402298
+      "totalInputTokens": 317792,
+      "totalOutputTokens": 85052,
+      "totalReasoningTokens": 46424,
+      "totalTokens": 402844
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.9,
+      "createdAt": 1783707813113,
+      "inputTokens": 364,
+      "message": "",
+      "outputTokens": 182,
+      "rationale": "This reply only asks about the user's plan and does not clearly state that any limit has reset.",
+      "reasoningTokens": 135,
+      "totalTokens": 546,
+      "tweetId": "2075646865148920283",
+      "tweetText": "@LogicaISoIution Which plan are you on?",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075646865148920283",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1783706579400,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2075279666085298593",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1783615431279,
-      "inputTokens": 408,
-      "message": "",
-      "outputTokens": 83,
-      "rationale": "This post is promotional about an event and does not mention limits or availability resetting.",
-      "reasoningTokens": 39,
-      "totalTokens": 491,
-      "tweetId": "2075259145373323439",
-      "tweetText": "Join us for a few unexpected things!",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075259145373323439",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "f0wnLZzcFqRTHY06AB_KplCnvLONN92gq6PVY08098jFBw-2-HEjHhSURg",
-    "iv": "yBTzNosTq7A_woE2",
-    "tag": "3qUCSPbA-ef16qQHJhEbUA",
+    "ciphertext": "lX8LQV8JTZ1T-TILcRSkN5m8juqTzvbow4V51n-GsTAtA0acEiNMYZ6Cag",
+    "iv": "SJ1HIIIiXgd-8DNG",
+    "tag": "lVcMbal9vU9VGcmIzjcYow",
     "version": 1
   }
 }
