@@ -10,29 +10,35 @@
     "Limits reset, go crazy",
     "You can just build things"
   ],
-  "resetAt": 1783704442451,
-  "updatedAt": 1783632442451,
+  "resetAt": 1783778579400,
+  "updatedAt": 1783706579400,
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1783695993971,
-      "rationale": "This post and its quote discuss model speed on Cerebras, not any ChatGPT or Codex limit reset.",
-      "tweetId": "2075596669958472146",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075596669958472146",
-      "verdict": "not_reset"
+      "decidedAt": 1783706579400,
+      "rationale": "The tweet explicitly says usage limits across Codex and ChatGPT Work have been reset now.",
+      "tweetId": "2075641131002700120",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075641131002700120",
+      "verdict": "reset_confirmed"
     },
     "lastError": null,
-    "lastSeenTweetId": "2075596669958472146",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075596669958472146",
-    "pendingReview": {
-      "confidence": 0.11,
-      "createdAt": 1783660946435,
-      "rationale": "This reply alone lacks enough context to tell whether it refers to a current limit reset.",
-      "tweetId": "2075449887190294599",
-      "tweetText": "@adrianmg Still is",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075449887190294599"
-    },
+    "lastSeenTweetId": "2075641131002700120",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075641131002700120",
+    "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1783706579400,
+        "inputTokens": 823,
+        "outputTokens": 123,
+        "rationale": "The tweet explicitly says usage limits across Codex and ChatGPT Work have been reset now.",
+        "reasoningTokens": 76,
+        "totalTokens": 946,
+        "tweetId": "2075641131002700120",
+        "tweetText": "Hello beautiful people! We have reset usage limits across Codex and ChatGPT Work. And another one will come later in the day. Rejoice.\n\nNow that I have your attention, a quick update on ChatGPT Work, Codex and all the updates we shared yesterday.\n\nWe’ve spent the last 24 hours reading feedback, looking at usage patterns, and talking with many of you. The short version is that there is a *lot* of excitement for GPT 5.6 Sol, ChatGPT Work on mobile & web, but also that we didn't get everything quite right.\n\n- We made it too easy to use the highest-compute settings without making the impact on usage limits sufficiently clear.\n- We reorganized the desktop app in one bold move, making familiar things like chats and projects harder to find.\n- Our launch framing was focused on ChatGPT Work and to some of our Codex fans it made it feel like Codex was going away over time. Absolutely not our intention, we love Codex and it is here to stay.\n- And we introduced regressions for some existing multi-agent workflows, alongside a collection of rough edges in plugins and other parts of the experience.\n\nWe’re landing a first set of improvements today. We’re resetting usage twice so people can keep experimenting, changing defaults and the model picker so they don’t push people toward unnecessarily expensive settings, fixing several plugin submission issues, improving how we represent Codex in the product, and cleaning up some of the most immediate desktop problems.\n\nA larger set of improvements will land next week. We’re bringing chats and projects back into the sidebar in a more familiar and customizable way, making usage and reset timing much more visible, clarifying when to use ChatGPT Work and when to use Codex, and addressing the many other smaller pieces of great feedback we've had.\n\nThe ambition behind this launch hasn’t changed. We think bringing ChatGPT and Codex together into a workspace where people and agents can collaborate is a very important step forward. But an ambitious direction doesn’t excuse avoidable confusion or regressions in the first version.\n\nPlease keep the feedback coming. We’re moving quickly, and you should see the experience already get better with a few updates today; and substantially better again next week.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2075641131002700120",
+        "verdict": "reset_confirmed"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1783695993971,
@@ -279,29 +285,31 @@
         "tweetText": "@IamYashKapoor Thanks for trying",
         "tweetUrl": "https://x.com/thsottiaux/status/2075319446667940005",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.9,
-        "evaluatedAt": 1783629959035,
-        "inputTokens": 358,
-        "outputTokens": 160,
-        "rationale": "The reply only says \"Ramping,\" which is too vague to confirm that limits have reset or usage is available again now.",
-        "reasoningTokens": 107,
-        "totalTokens": 518,
-        "tweetId": "2075319370369409428",
-        "tweetText": "@cjzafir Ramping",
-        "tweetUrl": "https://x.com/thsottiaux/status/2075319370369409428",
-        "verdict": "uncertain"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 316605,
-      "totalOutputTokens": 84747,
-      "totalReasoningTokens": 46213,
-      "totalTokens": 401352
+      "totalInputTokens": 317428,
+      "totalOutputTokens": 84870,
+      "totalReasoningTokens": 46289,
+      "totalTokens": 402298
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1783706579400,
+      "inputTokens": 823,
+      "message": "",
+      "outputTokens": 123,
+      "rationale": "The tweet explicitly says usage limits across Codex and ChatGPT Work have been reset now.",
+      "reasoningTokens": 76,
+      "totalTokens": 946,
+      "tweetId": "2075641131002700120",
+      "tweetText": "Hello beautiful people! We have reset usage limits across Codex and ChatGPT Work. And another one will come later in the day. Rejoice.\n\nNow that I have your attention, a quick update on ChatGPT Work, Codex and all the updates we shared yesterday.\n\nWe’ve spent the last 24 hours reading feedback, looking at usage patterns, and talking with many of you. The short version is that there is a *lot* of excitement for GPT 5.6 Sol, ChatGPT Work on mobile & web, but also that we didn't get everything quite right.\n\n- We made it too easy to use the highest-compute settings without making the impact on usage limits sufficiently clear.\n- We reorganized the desktop app in one bold move, making familiar things like chats and projects harder to find.\n- Our launch framing was focused on ChatGPT Work and to some of our Codex fans it made it feel like Codex was going away over time. Absolutely not our intention, we love Codex and it is here to stay.\n- And we introduced regressions for some existing multi-agent workflows, alongside a collection of rough edges in plugins and other parts of the experience.\n\nWe’re landing a first set of improvements today. We’re resetting usage twice so people can keep experimenting, changing defaults and the model picker so they don’t push people toward unnecessarily expensive settings, fixing several plugin submission issues, improving how we represent Codex in the product, and cleaning up some of the most immediate desktop problems.\n\nA larger set of improvements will land next week. We’re bringing chats and projects back into the sidebar in a more familiar and customizable way, making usage and reset timing much more visible, clarifying when to use ChatGPT Work and when to use Codex, and addressing the many other smaller pieces of great feedback we've had.\n\nThe ambition behind this launch hasn’t changed. We think bringing ChatGPT and Codex together into a workspace where people and agents can collaborate is a very important step forward. But an ambitious direction doesn’t excuse avoidable confusion or regressions in the first version.\n\nPlease keep the feedback coming. We’re moving quickly, and you should see the experience already get better with a few updates today; and substantially better again next week.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075641131002700120",
+      "type": "reset_confirmed",
+      "verdict": "reset_confirmed"
+    },
     {
       "confidence": 0,
       "createdAt": 1783704089719,
@@ -886,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2075259145373323439",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0,
-      "createdAt": 1783610514650,
-      "inputTokens": 0,
-      "message": "Tweet fetch failed: Tweet search failed: Request failed with status code 403; timeline fallback failed: Request failed with status code 403 (Request failed with status code 403) (Tweet search failed: Request failed with status code 403; timeline fallback failed: Request failed with status code 403)",
-      "outputTokens": 0,
-      "rationale": "",
-      "reasoningTokens": 0,
-      "totalTokens": 0,
-      "tweetId": null,
-      "tweetText": "",
-      "tweetUrl": null,
-      "type": "error",
-      "verdict": null
     }
   ],
   "privateState": {
-    "ciphertext": "38dq0_XxOH9KPBnOiJbhjo35LoXNHrdmgVVtFx4HH0lZJTCtgIrPlSA5Gw",
-    "iv": "ke5eH8GnfAfFd3IQ",
-    "tag": "DzRFqmDpMu5b8WeW61v68Q",
+    "ciphertext": "f0wnLZzcFqRTHY06AB_KplCnvLONN92gq6PVY08098jFBw-2-HEjHhSURg",
+    "iv": "yBTzNosTq7A_woE2",
+    "tag": "3qUCSPbA-ef16qQHJhEbUA",
     "version": 1
   }
 }
