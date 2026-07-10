@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1783640872225,
-      "rationale": "This reply is conversational and says nothing about limits or usage becoming available again.",
-      "tweetId": "2075365968772251766",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075365968772251766",
+      "decidedAt": 1783646796127,
+      "rationale": "This post is just sharing a 3D demo and says nothing about limits or a reset.",
+      "tweetId": "2075389936564588714",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075389936564588714",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2075365968772251766",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075365968772251766",
+    "lastSeenTweetId": "2075389936564588714",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075389936564588714",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1783646796127,
+        "inputTokens": 504,
+        "outputTokens": 103,
+        "rationale": "This post is just sharing a 3D demo and says nothing about limits or a reset.",
+        "reasoningTokens": 56,
+        "totalTokens": 607,
+        "tweetId": "2075389936564588714",
+        "tweetText": "3D pelicans brought to you by Keyan",
+        "tweetUrl": "https://x.com/thsottiaux/status/2075389936564588714",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1783640872225,
@@ -272,29 +285,31 @@
         "tweetText": "@ClaudeDevs I smell fear",
         "tweetUrl": "https://x.com/thsottiaux/status/2075287108680601929",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1783622227088,
-        "inputTokens": 406,
-        "outputTokens": 94,
-        "rationale": "This reply discusses Codex naming and product quality, not rate limits or usage resets.",
-        "reasoningTokens": 49,
-        "totalTokens": 500,
-        "tweetId": "2075286930527547676",
-        "tweetText": "@Lentils80 Most technical staff I know still refers to it as Codex. It's all the same, actually significantly improved. And no way back after you try it with GPT-5.6 Sol. https://t.co/OfJtIcYKky",
-        "tweetUrl": "https://x.com/thsottiaux/status/2075286930527547676",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 312474,
-      "totalOutputTokens": 83593,
-      "totalReasoningTokens": 45527,
-      "totalTokens": 396067
+      "totalInputTokens": 312978,
+      "totalOutputTokens": 83696,
+      "totalReasoningTokens": 45583,
+      "totalTokens": 396674
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1783646796127,
+      "inputTokens": 504,
+      "message": "",
+      "outputTokens": 103,
+      "rationale": "This post is just sharing a 3D demo and says nothing about limits or a reset.",
+      "reasoningTokens": 56,
+      "totalTokens": 607,
+      "tweetId": "2075389936564588714",
+      "tweetText": "3D pelicans brought to you by Keyan",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075389936564588714",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1783640872225,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2074864353308987868",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.96,
-      "createdAt": 1783483658315,
-      "inputTokens": 434,
-      "message": "",
-      "outputTokens": 180,
-      "rationale": "This is a product launch and access-expansion announcement, not a statement that usage caps or rate limits reset.",
-      "reasoningTokens": 130,
-      "totalTokens": 614,
-      "tweetId": "2074705681920520526",
-      "tweetText": "Prepare your sunglasses. Sol is coming. 😎",
-      "tweetUrl": "https://x.com/thsottiaux/status/2074705681920520526",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "l_fpIoudDgkmwE1DzkezLdUwqYo5gDSd1naZugRGBnpPn0a5qbYuQcNoDw",
-    "iv": "LokueIr3JxEL7nhu",
-    "tag": "7pabQb5jG95vNa6dSKn8Rw",
+    "ciphertext": "98fUX_QFglHy-OGTVb1_VYT4XWCtiQuVcTO563HhuROz7MyA_QZrLLzweg",
+    "iv": "_NSG-svzMxSfTf6Q",
+    "tag": "pVypM_cV9396LLkNJdmncQ",
     "version": 1
   }
 }
