@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1783692248293,
-      "rationale": "This is just usage advice about model tiers and says nothing about limits resetting or being available again.",
-      "tweetId": "2075581430055493909",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075581430055493909",
+      "decidedAt": 1783692251834,
+      "rationale": "This reply discusses token spend by plan, not any limit or rate-cap reset.",
+      "tweetId": "2075581691025125655",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075581691025125655",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2075581430055493909",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075581430055493909",
+    "lastSeenTweetId": "2075581691025125655",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075581691025125655",
     "pendingReview": {
       "confidence": 0.11,
       "createdAt": 1783660946435,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2075449887190294599"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1783692251834,
+        "inputTokens": 377,
+        "outputTokens": 96,
+        "rationale": "This reply discusses token spend by plan, not any limit or rate-cap reset.",
+        "reasoningTokens": 52,
+        "totalTokens": 473,
+        "tweetId": "2075581691025125655",
+        "tweetText": "There is often a 5-10x difference in token spend between Medium and Ultra depending on how hard the task is.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2075581691025125655",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1783692248293,
@@ -279,29 +292,31 @@
         "tweetText": "@TomasPuelma @scaling01 Settings",
         "tweetUrl": "https://x.com/thsottiaux/status/2075294400662692204",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1783623755247,
-        "inputTokens": 446,
-        "outputTokens": 88,
-        "rationale": "This post is a general product update and does not mention limits, caps, or usage becoming available again.",
-        "reasoningTokens": 39,
-        "totalTokens": 534,
-        "tweetId": "2075293835127922748",
-        "tweetText": "Today, the OpenAI product and engineering team is humming, there is so much to coordinate and keep running across the release of GPT 5.6 Sol/Terra/Luna, ChatGPT Work, the new ChatGPT desktop app, hosted sites and a million other things... together with the new ChatGPT Voice just launched yesterday.\n\nWe will not get it all right, give us feedback and we will iterate quickly. Thank you for being an amazing community.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2075293835127922748",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 314892,
-      "totalOutputTokens": 84361,
-      "totalReasoningTokens": 46013,
-      "totalTokens": 399253
+      "totalInputTokens": 315269,
+      "totalOutputTokens": 84457,
+      "totalReasoningTokens": 46065,
+      "totalTokens": 399726
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1783692251834,
+      "inputTokens": 377,
+      "message": "",
+      "outputTokens": 96,
+      "rationale": "This reply discusses token spend by plan, not any limit or rate-cap reset.",
+      "reasoningTokens": 52,
+      "totalTokens": 473,
+      "tweetId": "2075581691025125655",
+      "tweetText": "There is often a 5-10x difference in token spend between Medium and Ultra depending on how hard the task is.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075581691025125655",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1783692248293,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2075211600278204919",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1783578538385,
-      "inputTokens": 389,
-      "message": "",
-      "outputTokens": 65,
-      "rationale": "This post is just a humorous comment about late-night work and does not mention limits or resets.",
-      "reasoningTokens": 18,
-      "totalTokens": 454,
-      "tweetId": "2075103845114663325",
-      "tweetText": "You know OpenAI is cooking when the sushi and tacos orders pile at the entrance of the office at 11pm. \n\nBizarrely we need to eat to cook.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075103845114663325",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "cebXHinHdZ7AUpSe20sWOrQLNyDNmc6W8rDUraQL4ZodWRdxR8ydnti5rg",
-    "iv": "GMn2cmFngZ872XB5",
-    "tag": "MsDKUbLxdcemvfN15FF9Sg",
+    "ciphertext": "h4BCTsvMisjT5oswmAgtuEosK49CpJgCWQed1dVXmktLcYZk5e1bJsowWA",
+    "iv": "Ur6REAI_JlYTHfZW",
+    "tag": "EE7wMMVwoPpMweD4IvjdTQ",
     "version": 1
   }
 }
