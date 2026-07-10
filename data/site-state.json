@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1783695062692,
-      "rationale": "The post and quoted text are promotional and do not mention limits, caps, or a reset.",
-      "tweetId": "2075592670832107910",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075592670832107910",
+      "decidedAt": 1783695993971,
+      "rationale": "This post and its quote discuss model speed on Cerebras, not any ChatGPT or Codex limit reset.",
+      "tweetId": "2075596669958472146",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075596669958472146",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2075592670832107910",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075592670832107910",
+    "lastSeenTweetId": "2075596669958472146",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075596669958472146",
     "pendingReview": {
       "confidence": 0.11,
       "createdAt": 1783660946435,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2075449887190294599"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1783695993971,
+        "inputTokens": 464,
+        "outputTokens": 106,
+        "rationale": "This post and its quote discuss model speed on Cerebras, not any ChatGPT or Codex limit reset.",
+        "reasoningTokens": 56,
+        "totalTokens": 570,
+        "tweetId": "2075596669958472146",
+        "tweetText": "This actually not the version of GPT-5.6 Sol on Cerebras. Just normal /fast mode. Running it at 750+ TPS is a whole other thing.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2075596669958472146",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1783695062692,
@@ -279,29 +292,31 @@
         "tweetText": "@cjzafir Ramping",
         "tweetUrl": "https://x.com/thsottiaux/status/2075319370369409428",
         "verdict": "uncertain"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1783625926392,
-        "inputTokens": 428,
-        "outputTokens": 81,
-        "rationale": "This reply discusses ChatGPT memory and plugins, not rate limits or a usage reset.",
-        "reasoningTokens": 36,
-        "totalTokens": 509,
-        "tweetId": "2075303191785402571",
-        "tweetText": "@_simonsmith 1. In web and mobile we have shared ChatGPT memory. This is not yet on desktop (yet) where memory is local to your machine.\n\n2. Yes, this is coming. \n\n3. Retired. No specific plans we can share now on a replacement, but there are indeed great 3P plugins for this!",
-        "tweetUrl": "https://x.com/thsottiaux/status/2075303191785402571",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 316141,
-      "totalOutputTokens": 84641,
-      "totalReasoningTokens": 46157,
-      "totalTokens": 400782
+      "totalInputTokens": 316605,
+      "totalOutputTokens": 84747,
+      "totalReasoningTokens": 46213,
+      "totalTokens": 401352
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1783695993971,
+      "inputTokens": 464,
+      "message": "",
+      "outputTokens": 106,
+      "rationale": "This post and its quote discuss model speed on Cerebras, not any ChatGPT or Codex limit reset.",
+      "reasoningTokens": 56,
+      "totalTokens": 570,
+      "tweetId": "2075596669958472146",
+      "tweetText": "This actually not the version of GPT-5.6 Sol on Cerebras. Just normal /fast mode. Running it at 750+ TPS is a whole other thing.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075596669958472146",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1783695062692,
@@ -886,27 +901,12 @@
       "tweetUrl": null,
       "type": "error",
       "verdict": null
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1783604319556,
-      "inputTokens": 357,
-      "message": "",
-      "outputTokens": 77,
-      "rationale": "This reply is conversational and does not indicate any rate limit reset.",
-      "reasoningTokens": 36,
-      "totalTokens": 434,
-      "tweetId": "2075212075954307499",
-      "tweetText": "@mweinbach What",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075212075954307499",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "H9ItMc9_0wbSjmNcHJqZ2qcRp4B1cQszjo6Bb8cQWIKiOBNOf-kUx0hJPA",
-    "iv": "UKLzVRuavxj_Y5PY",
-    "tag": "pXVn_WRHEleQIQpNG8G6rQ",
+    "ciphertext": "ctmz3yV61pHXuC1gctNzdc8POHDndYbrAddhsqNhNM2Ie4O4NOMn2P8JaA",
+    "iv": "5cP0BFIKGtyBKlKT",
+    "tag": "DZCXB9b0rMwctYSFNgk6XA",
     "version": 1
   }
 }
