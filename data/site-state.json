@@ -21,7 +21,7 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2075452680760443190",
       "verdict": "not_reset"
     },
-    "lastError": null,
+    "lastError": "GitHub raw read failed with 401",
     "lastSeenTweetId": "2075452680760443190",
     "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075452680760443190",
     "pendingReview": {
@@ -302,6 +302,21 @@
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0,
+      "createdAt": 1783689158751,
+      "inputTokens": 0,
+      "message": "GitHub raw read failed with 401",
+      "outputTokens": 0,
+      "rationale": "",
+      "reasoningTokens": 0,
+      "totalTokens": 0,
+      "tweetId": null,
+      "tweetText": "",
+      "tweetUrl": null,
+      "type": "error",
+      "verdict": null
+    },
     {
       "confidence": 0,
       "createdAt": 1783687920327,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2075044642887000137",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.97,
-      "createdAt": 1783536119604,
-      "inputTokens": 362,
-      "message": "",
-      "outputTokens": 124,
-      "rationale": "This reply only clarifies it is ChatGPT and does not say any limit or cap has reset.",
-      "reasoningTokens": 76,
-      "totalTokens": 486,
-      "tweetId": "2074926588739879183",
-      "tweetText": "@nunezvice No, it's ChatGPT",
-      "tweetUrl": "https://x.com/thsottiaux/status/2074926588739879183",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "HcPHYe7S1eu1uk4OPaqoWhbSgg2kupHVvB_WtEc8TyJGsAqDM0mecfnw6A",
-    "iv": "2AMQ_QpoVGdnw47C",
-    "tag": "tMk9al8e93NcYZ71Bb48vA",
+    "ciphertext": "iM4o_3vDkKjU35smDp7c-0LGrHSjzoEj68BT45_qw9qY1r9t68pJb7iyRg",
+    "iv": "OK-yHjDYv_VaskBJ",
+    "tag": "JvdfT3ZWQL-sf1kj-luwxw",
     "version": 1
   }
 }
