@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1783708728112,
-      "rationale": "This reply only says they are fixing something and does not indicate limits have reset.",
-      "tweetId": "2075649912692437451",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075649912692437451",
+      "decidedAt": 1783715530383,
+      "rationale": "This is just a conversational reply and does not mention any limit or reset.",
+      "tweetId": "2075678919664222361",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075678919664222361",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2075649912692437451",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075649912692437451",
+    "lastSeenTweetId": "2075678919664222361",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075678919664222361",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1783715530383,
+        "inputTokens": 358,
+        "outputTokens": 78,
+        "rationale": "This is just a conversational reply and does not mention any limit or reset.",
+        "reasoningTokens": 35,
+        "totalTokens": 436,
+        "tweetId": "2075678919664222361",
+        "tweetText": "@KarolCodes Ship it",
+        "tweetUrl": "https://x.com/thsottiaux/status/2075678919664222361",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1783708728112,
@@ -272,29 +285,31 @@
         "tweetText": "Enjoy a full reset of your usage limits for ChatGPT Work and Codex. Propagating in the next hour.\n\n@_rajanagarwal just joined to work on model research and push on coding capabilities. You can thank him for pressing the button today. https://t.co/vMMwKJibBI",
         "tweetUrl": "https://x.com/thsottiaux/status/2075330198887940337",
         "verdict": "reset_confirmed"
-      },
-      {
-        "confidence": 0.26,
-        "evaluatedAt": 1783631519856,
-        "inputTokens": 362,
-        "outputTokens": 115,
-        "rationale": "This reply alone is too vague to confirm a rate-limit reset without the original question.",
-        "reasoningTokens": 70,
-        "totalTokens": 477,
-        "tweetId": "2075326229264380138",
-        "tweetText": "@cherry_mx_reds It seems so",
-        "tweetUrl": "https://x.com/thsottiaux/status/2075326229264380138",
-        "verdict": "uncertain"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 318518,
-      "totalOutputTokens": 85203,
-      "totalReasoningTokens": 46487,
-      "totalTokens": 403721
+      "totalInputTokens": 318876,
+      "totalOutputTokens": 85281,
+      "totalReasoningTokens": 46522,
+      "totalTokens": 404157
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1783715530383,
+      "inputTokens": 358,
+      "message": "",
+      "outputTokens": 78,
+      "rationale": "This is just a conversational reply and does not mention any limit or reset.",
+      "reasoningTokens": 35,
+      "totalTokens": 436,
+      "tweetId": "2075678919664222361",
+      "tweetText": "@KarolCodes Ship it",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075678919664222361",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1783708728112,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2075283864470392897",
       "type": "review_requested",
       "verdict": "uncertain"
-    },
-    {
-      "confidence": 0.98,
-      "createdAt": 1783621321449,
-      "inputTokens": 370,
-      "message": "",
-      "outputTokens": 113,
-      "rationale": "This reply describes a feature rollout timing, not a rate-limit or usage-cap reset.",
-      "reasoningTokens": 68,
-      "totalTokens": 483,
-      "tweetId": "2075283825048064261",
-      "tweetText": "Rolling out to Pro plans first and then all paid plans over the next 24 hours.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075283825048064261",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "uPaBGQoW01qLrkglzOGymc80jZs4j6lb3f66iWiY5_jED1u_QBaEfj74FA",
-    "iv": "Zq-2I1f_djpk_195",
-    "tag": "tVt_-WWxR81xP3icBC5xtw",
+    "ciphertext": "TWPCOHXBfhHDG3vxskOhf7a6D1d3x0P3w-TOgIOygOFNEBs6qLuOGlARWg",
+    "iv": "FMbdy8zK1EqrbUIv",
+    "tag": "-V5qr68xFMMALmPU09h-Ug",
     "version": 1
   }
 }
