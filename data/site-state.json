@@ -14,16 +14,16 @@
   "updatedAt": 1783632442451,
   "automation": {
     "lastDecision": {
-      "confidence": 0.11,
-      "decidedAt": 1783660946435,
-      "rationale": "This reply alone lacks enough context to tell whether it refers to a current limit reset.",
-      "tweetId": "2075449887190294599",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075449887190294599",
-      "verdict": "uncertain"
+      "confidence": 0.98,
+      "decidedAt": 1783661562411,
+      "rationale": "It announces future resets over the next 24 hours, not that limits have reset now.",
+      "tweetId": "2075452680760443190",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075452680760443190",
+      "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2075449887190294599",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075449887190294599",
+    "lastSeenTweetId": "2075452680760443190",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075452680760443190",
     "pendingReview": {
       "confidence": 0.11,
       "createdAt": 1783660946435,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2075449887190294599"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.98,
+        "evaluatedAt": 1783661562411,
+        "inputTokens": 413,
+        "outputTokens": 194,
+        "rationale": "It announces future resets over the next 24 hours, not that limits have reset now.",
+        "reasoningTokens": 148,
+        "totalTokens": 607,
+        "tweetId": "2075452680760443190",
+        "tweetText": "To celebrate the launch of GPT-5.6 Sol, we will reset the rate limits again (twice) across ChatGPT Work and Codex over the next 24 hours.\n\nWe want you to have the time to truly try ambitious tasks and get the hang of it. Happy exploring!",
+        "tweetUrl": "https://x.com/thsottiaux/status/2075452680760443190",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.11,
         "evaluatedAt": 1783660946435,
@@ -279,29 +292,31 @@
         "tweetText": "ChatGPT Work is now rolled out to 100% of our Pro users. Open the ChatGPT mobile app on a phone near you and enjoy productivity on the go. Or install the new ChatGPT desktop app if you need full access to your apps, browser and local files.\n\nOne advice: Raise your ambition. GPT 5.6 Sol is different from what you might have seen before. 👀",
         "tweetUrl": "https://x.com/thsottiaux/status/2075292097658392602",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1783623135091,
-        "inputTokens": 360,
-        "outputTokens": 82,
-        "rationale": "This reply only asks for clarification and does not indicate any rate-limit reset.",
-        "reasoningTokens": 39,
-        "totalTokens": 442,
-        "tweetId": "2075291027943178644",
-        "tweetText": "@STUD_MAN_X Can you expand?",
-        "tweetUrl": "https://x.com/thsottiaux/status/2075291027943178644",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 313705,
-      "totalOutputTokens": 83982,
-      "totalReasoningTokens": 45777,
-      "totalTokens": 397687
+      "totalInputTokens": 314118,
+      "totalOutputTokens": 84176,
+      "totalReasoningTokens": 45925,
+      "totalTokens": 398294
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.98,
+      "createdAt": 1783661562411,
+      "inputTokens": 413,
+      "message": "",
+      "outputTokens": 194,
+      "rationale": "It announces future resets over the next 24 hours, not that limits have reset now.",
+      "reasoningTokens": 148,
+      "totalTokens": 607,
+      "tweetId": "2075452680760443190",
+      "tweetText": "To celebrate the launch of GPT-5.6 Sol, we will reset the rate limits again (twice) across ChatGPT Work and Codex over the next 24 hours.\n\nWe want you to have the time to truly try ambitious tasks and get the hang of it. Happy exploring!",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075452680760443190",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.11,
       "createdAt": 1783660946435,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2074888736429814114",
       "type": "review_requested",
       "verdict": "uncertain"
-    },
-    {
-      "confidence": 0.97,
-      "createdAt": 1783527107656,
-      "inputTokens": 372,
-      "message": "",
-      "outputTokens": 150,
-      "rationale": "This reply only mentions getting access tomorrow and does not indicate any current limit or rate-cap reset.",
-      "reasoningTokens": 103,
-      "totalTokens": 522,
-      "tweetId": "2074888296430530606",
-      "tweetText": "@LukeberryPi Wait until you get access tomorrow! Then you'll be writing \"paid posts\" too.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2074888296430530606",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "mDUHj7QUxNwk6sf02y9jM7A9gsSNaq7rlJop2KFb9ZIM4I9ausyj7GH1zg",
-    "iv": "r-6r9Q6WBWVqNQox",
-    "tag": "itbFMSJj24hJxdhJGrga6w",
+    "ciphertext": "WMj6ftclrP70tNZGlAKA4_iT891SdIGI6HMu-TQHEWEe98Dhuf9KZnrpSg",
+    "iv": "RMjcl4TO6DP-uSaG",
+    "tag": "5fJXABxRTcyMe6q-JL438w",
     "version": 1
   }
 }
