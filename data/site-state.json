@@ -14,16 +14,16 @@
   "updatedAt": 1783632442451,
   "automation": {
     "lastDecision": {
-      "confidence": 0.98,
-      "decidedAt": 1783692245574,
-      "rationale": "This reply only notes the user's `ultra` plan and does not indicate any limit or cap has reset.",
-      "tweetId": "2075580693627970030",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075580693627970030",
+      "confidence": 0.99,
+      "decidedAt": 1783692248293,
+      "rationale": "This is just usage advice about model tiers and says nothing about limits resetting or being available again.",
+      "tweetId": "2075581430055493909",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075581430055493909",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2075580693627970030",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075580693627970030",
+    "lastSeenTweetId": "2075581430055493909",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075581430055493909",
     "pendingReview": {
       "confidence": 0.11,
       "createdAt": 1783660946435,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2075449887190294599"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1783692248293,
+        "inputTokens": 402,
+        "outputTokens": 83,
+        "rationale": "This is just usage advice about model tiers and says nothing about limits resetting or being available again.",
+        "reasoningTokens": 36,
+        "totalTokens": 485,
+        "tweetId": "2075581430055493909",
+        "tweetText": "I recommend using GPT-5.6 Sol Medium as your daily driver, and for really hard problems to switch to Extra High. \n\nIf you want the absolute best and are not afraid to burn usage fast, then Ultra is a beast.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2075581430055493909",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.98,
         "evaluatedAt": 1783692245574,
@@ -279,29 +292,31 @@
         "tweetText": "Today, the OpenAI product and engineering team is humming, there is so much to coordinate and keep running across the release of GPT 5.6 Sol/Terra/Luna, ChatGPT Work, the new ChatGPT desktop app, hosted sites and a million other things... together with the new ChatGPT Voice just launched yesterday.\n\nWe will not get it all right, give us feedback and we will iterate quickly. Thank you for being an amazing community.",
         "tweetUrl": "https://x.com/thsottiaux/status/2075293835127922748",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.2,
-        "evaluatedAt": 1783623437724,
-        "inputTokens": 366,
-        "outputTokens": 177,
-        "rationale": "This reply contains only a link and provides no explicit evidence that limits have reset.",
-        "reasoningTokens": 133,
-        "totalTokens": 543,
-        "tweetId": "2075292240747073546",
-        "tweetText": "https://t.co/rvJ7EawhHh",
-        "tweetUrl": "https://x.com/thsottiaux/status/2075292240747073546",
-        "verdict": "uncertain"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 314490,
-      "totalOutputTokens": 84278,
-      "totalReasoningTokens": 45977,
-      "totalTokens": 398768
+      "totalInputTokens": 314892,
+      "totalOutputTokens": 84361,
+      "totalReasoningTokens": 46013,
+      "totalTokens": 399253
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1783692248293,
+      "inputTokens": 402,
+      "message": "",
+      "outputTokens": 83,
+      "rationale": "This is just usage advice about model tiers and says nothing about limits resetting or being available again.",
+      "reasoningTokens": 36,
+      "totalTokens": 485,
+      "tweetId": "2075581430055493909",
+      "tweetText": "I recommend using GPT-5.6 Sol Medium as your daily driver, and for really hard problems to switch to Extra High. \n\nIf you want the absolute best and are not afraid to burn usage fast, then Ultra is a beast.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075581430055493909",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.98,
       "createdAt": 1783692245574,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2075103845114663325",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1783564276722,
-      "inputTokens": 358,
-      "message": "",
-      "outputTokens": 95,
-      "rationale": "This is just a conversational reply and does not mention limits or availability resetting.",
-      "reasoningTokens": 52,
-      "totalTokens": 453,
-      "tweetId": "2075045022458859810",
-      "tweetText": "@stanleytang Believe",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075045022458859810",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "FArKhF7fA5cKgwkh0bad2-wTjoCLDG6Tm6AfzGY-Z-qcLHI7QVo9oE2WmQ",
-    "iv": "z05WKfW6QtlPoHEX",
-    "tag": "riS45Gd27B_EE94zMO2QUQ",
+    "ciphertext": "cebXHinHdZ7AUpSe20sWOrQLNyDNmc6W8rDUraQL4ZodWRdxR8ydnti5rg",
+    "iv": "GMn2cmFngZ872XB5",
+    "tag": "MsDKUbLxdcemvfN15FF9Sg",
     "version": 1
   }
 }
