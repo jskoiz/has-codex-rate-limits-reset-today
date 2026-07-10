@@ -21,7 +21,7 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2075452680760443190",
       "verdict": "not_reset"
     },
-    "lastError": null,
+    "lastError": "GitHub raw read failed with 502",
     "lastSeenTweetId": "2075452680760443190",
     "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075452680760443190",
     "pendingReview": {
@@ -302,6 +302,21 @@
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0,
+      "createdAt": 1783665270358,
+      "inputTokens": 0,
+      "message": "GitHub raw read failed with 502",
+      "outputTokens": 0,
+      "rationale": "",
+      "reasoningTokens": 0,
+      "totalTokens": 0,
+      "tweetId": null,
+      "tweetText": "",
+      "tweetUrl": null,
+      "type": "error",
+      "verdict": null
+    },
     {
       "confidence": 0.98,
       "createdAt": 1783661562411,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2074926588739879183",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.87,
-      "createdAt": 1783527129200,
-      "inputTokens": 372,
-      "message": "",
-      "outputTokens": 316,
-      "rationale": "This reply lacks enough context to tell whether it is denying a rate-limit reset claim or something else.",
-      "reasoningTokens": 268,
-      "totalTokens": 688,
-      "tweetId": "2074888736429814114",
-      "tweetText": "@VicVijayakumar For the avoidance of any doubt. This is not a true statement.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2074888736429814114",
-      "type": "review_requested",
-      "verdict": "uncertain"
     }
   ],
   "privateState": {
-    "ciphertext": "WMj6ftclrP70tNZGlAKA4_iT891SdIGI6HMu-TQHEWEe98Dhuf9KZnrpSg",
-    "iv": "RMjcl4TO6DP-uSaG",
-    "tag": "5fJXABxRTcyMe6q-JL438w",
+    "ciphertext": "YygeXvWbXGTbk4y0-410igXVcO4eF8xfqgLTaaYVprtvedKhJmXEznIqZw",
+    "iv": "Y9GajvbjLhexPUGC",
+    "tag": "Ws5H0TMvKdx5WV6ubNywxg",
     "version": 1
   }
 }
