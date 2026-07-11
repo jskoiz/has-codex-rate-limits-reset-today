@@ -14,18 +14,38 @@
   "updatedAt": 1783706579400,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1783740080650,
-      "rationale": "This is just a casual reply and gives no indication that any limits have reset.",
-      "tweetId": "2075782144593674488",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075782144593674488",
-      "verdict": "not_reset"
+      "confidence": 0.95,
+      "decidedAt": 1783749381885,
+      "rationale": "This post announces a reset that should arrive in the next 30 minutes, while the quoted post confirms an earlier…",
+      "tweetId": "2075820987833274448",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075820987833274448",
+      "verdict": "uncertain"
     },
     "lastError": null,
-    "lastSeenTweetId": "2075782144593674488",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075782144593674488",
-    "pendingReview": null,
+    "lastSeenTweetId": "2075820987833274448",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075820987833274448",
+    "pendingReview": {
+      "confidence": 0.95,
+      "createdAt": 1783749381885,
+      "rationale": "This post announces a reset that should arrive in the next 30 minutes, while the quoted post confirms an earlier…",
+      "tweetId": "2075820987833274448",
+      "tweetText": "Introducing... another usage limit reset for all our ChatGPT Work and Codex users. Should land over next 30 minutes. Hope you have an awesome weekend.\n\nThank you for pushing our systems to the absolute limit, we have never seen traffic increase so quickly. Keep the feedback coming and we'll keep shipping.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075820987833274448"
+    },
     "recentEvaluations": [
+      {
+        "confidence": 0.95,
+        "evaluatedAt": 1783749381885,
+        "inputTokens": 917,
+        "outputTokens": 577,
+        "rationale": "This post announces a reset that should arrive in the next 30 minutes, while the quoted post confirms an earlier…",
+        "reasoningTokens": 516,
+        "totalTokens": 1494,
+        "tweetId": "2075820987833274448",
+        "tweetText": "Introducing... another usage limit reset for all our ChatGPT Work and Codex users. Should land over next 30 minutes. Hope you have an awesome weekend.\n\nThank you for pushing our systems to the absolute limit, we have never seen traffic increase so quickly. Keep the feedback coming and we'll keep shipping.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2075820987833274448",
+        "verdict": "uncertain"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1783740080650,
@@ -272,29 +292,31 @@
         "tweetText": "@TokenGremlin ChatGPT Chat\n\nHmmm. Yes yes. I see.",
         "tweetUrl": "https://x.com/thsottiaux/status/2075358687145906547",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1783635228915,
-        "inputTokens": 359,
-        "outputTokens": 72,
-        "rationale": "This reply is conversational and does not mention limits, caps, or availability resetting.",
-        "reasoningTokens": 28,
-        "totalTokens": 431,
-        "tweetId": "2075341924366696503",
-        "tweetText": "@_simonsmith Love this",
-        "tweetUrl": "https://x.com/thsottiaux/status/2075341924366696503",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 319234,
-      "totalOutputTokens": 85346,
-      "totalReasoningTokens": 46543,
-      "totalTokens": 404580
+      "totalInputTokens": 320151,
+      "totalOutputTokens": 85923,
+      "totalReasoningTokens": 47059,
+      "totalTokens": 406074
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.95,
+      "createdAt": 1783749381885,
+      "inputTokens": 917,
+      "message": "",
+      "outputTokens": 577,
+      "rationale": "This post announces a reset that should arrive in the next 30 minutes, while the quoted post confirms an earlier…",
+      "reasoningTokens": 516,
+      "totalTokens": 1494,
+      "tweetId": "2075820987833274448",
+      "tweetText": "Introducing... another usage limit reset for all our ChatGPT Work and Codex users. Should land over next 30 minutes. Hope you have an awesome weekend.\n\nThank you for pushing our systems to the absolute limit, we have never seen traffic increase so quickly. Keep the feedback coming and we'll keep shipping.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075820987833274448",
+      "type": "review_requested",
+      "verdict": "uncertain"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1783740080650,
@@ -879,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2075285898724536777",
       "type": "review_requested",
       "verdict": "uncertain"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1783621920124,
-      "inputTokens": 419,
-      "message": "",
-      "outputTokens": 77,
-      "rationale": "This is a product adoption promo and does not mention any limits, caps, or resets.",
-      "reasoningTokens": 31,
-      "totalTokens": 496,
-      "tweetId": "2075285881376919789",
-      "tweetText": "ChatGPT Work brings the power of agents to everyone. It works across mobile, web and desktop. \n\nWe have seen fast adoption within OpenAI and virtually 100% of our staff uses it on a regularly to do everything from finance, recruiting, comms, marketing, product ideation and coordination and so much more.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075285881376919789",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "oro-7Wusy3AiChSp2w9L_Ux3WynXYL8BGEG30oNoJpasPtUP0_RzfwqCqQ",
-    "iv": "_In_SBD5sGypkhma",
-    "tag": "HMsWn6YOvGHu361xHrN2SQ",
+    "ciphertext": "dVJijWNfwoDr1PNysyiflQozJSzFBH_QvDstvGh6Tah7qrp-RiOSBGzkNQ",
+    "iv": "YSKNbnQ7oVrcz3bU",
+    "tag": "NcDJJR1yhrmkiJLA6kTwyw",
     "version": 1
   }
 }
