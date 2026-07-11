@@ -14,25 +14,38 @@
   "updatedAt": 1783781717139,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1783806178252,
-      "rationale": "This is just a conversational reply and says nothing about limits or resets.",
-      "tweetId": "2076059260845515205",
-      "tweetUrl": "https://x.com/thsottiaux/status/2076059260845515205",
-      "verdict": "not_reset"
+      "confidence": 0.95,
+      "decidedAt": 1783806497845,
+      "rationale": "This reply has no clear mention of limits, caps, or a reset.",
+      "tweetId": "2076059884198748175",
+      "tweetUrl": "https://x.com/thsottiaux/status/2076059884198748175",
+      "verdict": "uncertain"
     },
     "lastError": null,
-    "lastSeenTweetId": "2076059260845515205",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2076059260845515205",
+    "lastSeenTweetId": "2076059884198748175",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2076059884198748175",
     "pendingReview": {
-      "confidence": 0.97,
-      "createdAt": 1783783259643,
-      "rationale": "This reply just says “Yes” without enough context to verify a current limit reset.",
-      "tweetId": "2075962321776820275",
-      "tweetText": "@Conor_D_Dart Yes",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075962321776820275"
+      "confidence": 0.95,
+      "createdAt": 1783806497845,
+      "rationale": "This reply has no clear mention of limits, caps, or a reset.",
+      "tweetId": "2076059884198748175",
+      "tweetText": "@MattColeman7 Me too!",
+      "tweetUrl": "https://x.com/thsottiaux/status/2076059884198748175"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.95,
+        "evaluatedAt": 1783806497845,
+        "inputTokens": 359,
+        "outputTokens": 107,
+        "rationale": "This reply has no clear mention of limits, caps, or a reset.",
+        "reasoningTokens": 64,
+        "totalTokens": 466,
+        "tweetId": "2076059884198748175",
+        "tweetText": "@MattColeman7 Me too!",
+        "tweetUrl": "https://x.com/thsottiaux/status/2076059884198748175",
+        "verdict": "uncertain"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1783806178252,
@@ -279,29 +292,31 @@
         "tweetText": "@theo Share the recipe. People want to know how to use GPT-5.6 Sol in CC. We don't discriminate on the harness.",
         "tweetUrl": "https://x.com/thsottiaux/status/2075830097488249060",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.95,
-        "evaluatedAt": 1783749381885,
-        "inputTokens": 917,
-        "outputTokens": 577,
-        "rationale": "This post announces a reset that should arrive in the next 30 minutes, while the quoted post confirms an earlier…",
-        "reasoningTokens": 516,
-        "totalTokens": 1494,
-        "tweetId": "2075820987833274448",
-        "tweetText": "Introducing... another usage limit reset for all our ChatGPT Work and Codex users. Should land over next 30 minutes. Hope you have an awesome weekend.\n\nThank you for pushing our systems to the absolute limit, we have never seen traffic increase so quickly. Keep the feedback coming and we'll keep shipping.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2075820987833274448",
-        "verdict": "uncertain"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 327299,
-      "totalOutputTokens": 87952,
-      "totalReasoningTokens": 48234,
-      "totalTokens": 415251
+      "totalInputTokens": 327658,
+      "totalOutputTokens": 88059,
+      "totalReasoningTokens": 48298,
+      "totalTokens": 415717
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.95,
+      "createdAt": 1783806497845,
+      "inputTokens": 359,
+      "message": "",
+      "outputTokens": 107,
+      "rationale": "This reply has no clear mention of limits, caps, or a reset.",
+      "reasoningTokens": 64,
+      "totalTokens": 466,
+      "tweetId": "2076059884198748175",
+      "tweetText": "@MattColeman7 Me too!",
+      "tweetUrl": "https://x.com/thsottiaux/status/2076059884198748175",
+      "type": "review_requested",
+      "verdict": "uncertain"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1783806178252,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2075389936564588714",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1783640872225,
-      "inputTokens": 359,
-      "message": "",
-      "outputTokens": 68,
-      "rationale": "This reply is conversational and says nothing about limits or usage becoming available again.",
-      "reasoningTokens": 25,
-      "totalTokens": 427,
-      "tweetId": "2075365968772251766",
-      "tweetText": "@thekitze Developers developers developers",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075365968772251766",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "70sHXkJwT95e8Y49_AL3yuKAeGKpky1exBwbvQGwo9_1Ig-wDF410qmYSQ",
-    "iv": "8z7eUFGjTbCBFK1d",
-    "tag": "Hc7E5EhFQAr8d3CTJ5taMQ",
+    "ciphertext": "MqHG2xrN2Vn6hV4tpTjQ7dWGYMVI4DlyDFSetvpeNZ5WOwXjra_MJtBNUg",
+    "iv": "hY3cqC7LzYrASvfT",
+    "tag": "6Bg41yi4STMTBlR9UjT7dQ",
     "version": 1
   }
 }
