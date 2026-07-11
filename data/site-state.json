@@ -1,5 +1,5 @@
 {
-  "currentState": "no",
+  "currentState": "yes",
   "autoResetHours": 20,
   "noSubtitles": [
     "Back to your local model peasant",
@@ -10,29 +10,35 @@
     "Limits reset, go crazy",
     "You can just build things"
   ],
-  "resetAt": null,
-  "updatedAt": 1783706579400,
+  "resetAt": 1783853717139,
+  "updatedAt": 1783781717139,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1783781070975,
-      "rationale": "This reply is conversational and does not mention limits, caps, or usage becoming available again.",
-      "tweetId": "2075954349860421946",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075954349860421946",
-      "verdict": "not_reset"
+      "confidence": 0.96,
+      "decidedAt": 1783781717139,
+      "rationale": "The tweet explicitly says resets were applied automatically, indicating limits were reset now.",
+      "tweetId": "2075956058942820790",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075956058942820790",
+      "verdict": "reset_confirmed"
     },
     "lastError": null,
-    "lastSeenTweetId": "2075954349860421946",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075954349860421946",
-    "pendingReview": {
-      "confidence": 0.95,
-      "createdAt": 1783749381885,
-      "rationale": "This post announces a reset that should arrive in the next 30 minutes, while the quoted post confirms an earlier…",
-      "tweetId": "2075820987833274448",
-      "tweetText": "Introducing... another usage limit reset for all our ChatGPT Work and Codex users. Should land over next 30 minutes. Hope you have an awesome weekend.\n\nThank you for pushing our systems to the absolute limit, we have never seen traffic increase so quickly. Keep the feedback coming and we'll keep shipping.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075820987833274448"
-    },
+    "lastSeenTweetId": "2075956058942820790",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075956058942820790",
+    "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.96,
+        "evaluatedAt": 1783781717139,
+        "inputTokens": 468,
+        "outputTokens": 188,
+        "rationale": "The tweet explicitly says resets were applied automatically, indicating limits were reset now.",
+        "reasoningTokens": 144,
+        "totalTokens": 656,
+        "tweetId": "2075956058942820790",
+        "tweetText": "We applied the resets automatically because of two reasons.\n\n1. It is not possible to use a banked reset from the web or mobile ChatGPT. We are launching it next week and it will require a bit of education for all our new ChatGPT Work users.\n2. The system is under a lot of pressure and full resets are more predictable in how they affect load on the infrastructure. This helps us keeping things stable in the first 48 hours of the launch.\n\nAnd we will use banked resets once we are back in the normal operating cadence!",
+        "tweetUrl": "https://x.com/thsottiaux/status/2075956058942820790",
+        "verdict": "reset_confirmed"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1783781070975,
@@ -279,29 +285,31 @@
         "tweetText": "@maria_rcks What kind of low image generation model did you use for that",
         "tweetUrl": "https://x.com/thsottiaux/status/2075448833321177557",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1783646796127,
-        "inputTokens": 504,
-        "outputTokens": 103,
-        "rationale": "This post is just sharing a 3D demo and says nothing about limits or a reset.",
-        "reasoningTokens": 56,
-        "totalTokens": 607,
-        "tweetId": "2075389936564588714",
-        "tweetText": "3D pelicans brought to you by Keyan",
-        "tweetUrl": "https://x.com/thsottiaux/status/2075389936564588714",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 321256,
-      "totalOutputTokens": 86165,
-      "totalReasoningTokens": 47162,
-      "totalTokens": 407421
+      "totalInputTokens": 321724,
+      "totalOutputTokens": 86353,
+      "totalReasoningTokens": 47306,
+      "totalTokens": 408077
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.96,
+      "createdAt": 1783781717139,
+      "inputTokens": 468,
+      "message": "",
+      "outputTokens": 188,
+      "rationale": "The tweet explicitly says resets were applied automatically, indicating limits were reset now.",
+      "reasoningTokens": 144,
+      "totalTokens": 656,
+      "tweetId": "2075956058942820790",
+      "tweetText": "We applied the resets automatically because of two reasons.\n\n1. It is not possible to use a banked reset from the web or mobile ChatGPT. We are launching it next week and it will require a bit of education for all our new ChatGPT Work users.\n2. The system is under a lot of pressure and full resets are more predictable in how they affect load on the infrastructure. This helps us keeping things stable in the first 48 hours of the launch.\n\nAnd we will use banked resets once we are back in the normal operating cadence!",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075956058942820790",
+      "type": "reset_confirmed",
+      "verdict": "reset_confirmed"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1783781070975,
@@ -886,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2075292097658392602",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1783623135091,
-      "inputTokens": 360,
-      "message": "",
-      "outputTokens": 82,
-      "rationale": "This reply only asks for clarification and does not indicate any rate-limit reset.",
-      "reasoningTokens": 39,
-      "totalTokens": 442,
-      "tweetId": "2075291027943178644",
-      "tweetText": "@STUD_MAN_X Can you expand?",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075291027943178644",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "3eoTlWxN87uu6PCQemIrH6mihA0Ri0SVwgdkhAG1_0RzwBYt0byNI2ZkTw",
-    "iv": "t8SV76_G6_RUUlbO",
-    "tag": "wohdEL6rX-i3bd1uo2UIPQ",
+    "ciphertext": "RRedE0RX3NHZHMWuxwE6PmEH5xVBmsqJViU_aoPOJDQ-_aVHF6LPNFOVWA",
+    "iv": "6Sr3ySTnwV3i11KQ",
+    "tag": "fSlb-b6glaydeE6GMq7Row",
     "version": 1
   }
 }
