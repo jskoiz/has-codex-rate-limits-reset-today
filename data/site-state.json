@@ -14,16 +14,16 @@
   "updatedAt": 1783781717139,
   "automation": {
     "lastDecision": {
-      "confidence": 0.97,
-      "decidedAt": 1783783259643,
-      "rationale": "This reply just says “Yes” without enough context to verify a current limit reset.",
-      "tweetId": "2075962321776820275",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075962321776820275",
-      "verdict": "uncertain"
+      "confidence": 0.99,
+      "decidedAt": 1783783575565,
+      "rationale": "This reply is just conversational and does not mention limits or a reset.",
+      "tweetId": "2075962392362852447",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075962392362852447",
+      "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2075962321776820275",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075962321776820275",
+    "lastSeenTweetId": "2075962392362852447",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075962392362852447",
     "pendingReview": {
       "confidence": 0.97,
       "createdAt": 1783783259643,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2075962321776820275"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1783783575565,
+        "inputTokens": 358,
+        "outputTokens": 81,
+        "rationale": "This reply is just conversational and does not mention limits or a reset.",
+        "reasoningTokens": 39,
+        "totalTokens": 439,
+        "tweetId": "2075962392362852447",
+        "tweetText": "@alright_mark Exciting",
+        "tweetUrl": "https://x.com/thsottiaux/status/2075962392362852447",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.97,
         "evaluatedAt": 1783783259643,
@@ -279,29 +292,31 @@
         "tweetText": "@Youssofal_ I would like to point out that you are on `ultra`!",
         "tweetUrl": "https://x.com/thsottiaux/status/2075580693627970030",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.98,
-        "evaluatedAt": 1783661562411,
-        "inputTokens": 413,
-        "outputTokens": 194,
-        "rationale": "It announces future resets over the next 24 hours, not that limits have reset now.",
-        "reasoningTokens": 148,
-        "totalTokens": 607,
-        "tweetId": "2075452680760443190",
-        "tweetText": "To celebrate the launch of GPT-5.6 Sol, we will reset the rate limits again (twice) across ChatGPT Work and Codex over the next 24 hours.\n\nWe want you to have the time to truly try ambitious tasks and get the hang of it. Happy exploring!",
-        "tweetUrl": "https://x.com/thsottiaux/status/2075452680760443190",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 322503,
-      "totalOutputTokens": 86604,
-      "totalReasoningTokens": 47465,
-      "totalTokens": 409107
+      "totalInputTokens": 322861,
+      "totalOutputTokens": 86685,
+      "totalReasoningTokens": 47504,
+      "totalTokens": 409546
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1783783575565,
+      "inputTokens": 358,
+      "message": "",
+      "outputTokens": 81,
+      "rationale": "This reply is just conversational and does not mention limits or a reset.",
+      "reasoningTokens": 39,
+      "totalTokens": 439,
+      "tweetId": "2075962392362852447",
+      "tweetText": "@alright_mark Exciting",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075962392362852447",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.97,
       "createdAt": 1783783259643,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2075294400662692204",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1783623755247,
-      "inputTokens": 446,
-      "message": "",
-      "outputTokens": 88,
-      "rationale": "This post is a general product update and does not mention limits, caps, or usage becoming available again.",
-      "reasoningTokens": 39,
-      "totalTokens": 534,
-      "tweetId": "2075293835127922748",
-      "tweetText": "Today, the OpenAI product and engineering team is humming, there is so much to coordinate and keep running across the release of GPT 5.6 Sol/Terra/Luna, ChatGPT Work, the new ChatGPT desktop app, hosted sites and a million other things... together with the new ChatGPT Voice just launched yesterday.\n\nWe will not get it all right, give us feedback and we will iterate quickly. Thank you for being an amazing community.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075293835127922748",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "-ZsFmZR6PJwiiYxM3So5v6FlGfJPn0j18C-bHZbQpI-l6EoDc42koZ1YyA",
-    "iv": "5vlhcE6KhgcuRSD4",
-    "tag": "J6sWtce4n8Jhvewv8MO1uw",
+    "ciphertext": "__T5sTCuiVfNsUngBHSfZkqtbBdFjBPTvuN2MS6EUh6CGQLbyApR076gVQ",
+    "iv": "GND-c7mzbw1WeJ9A",
+    "tag": "CStT8wy2ZwZzpGJLkt0jbA",
     "version": 1
   }
 }
