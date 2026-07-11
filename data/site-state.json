@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1783783584875,
-      "rationale": "This reply is conversational and does not mention limits, caps, or any reset.",
-      "tweetId": "2075964506342412717",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075964506342412717",
+      "decidedAt": 1783786677680,
+      "rationale": "This reply is about enabling a setting and does not mention limits or a reset.",
+      "tweetId": "2075977043750387785",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075977043750387785",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2075964506342412717",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075964506342412717",
+    "lastSeenTweetId": "2075977043750387785",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075977043750387785",
     "pendingReview": {
       "confidence": 0.97,
       "createdAt": 1783783259643,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2075962321776820275"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1783786677680,
+        "inputTokens": 364,
+        "outputTokens": 83,
+        "rationale": "This reply is about enabling a setting and does not mention limits or a reset.",
+        "reasoningTokens": 39,
+        "totalTokens": 447,
+        "tweetId": "2075977043750387785",
+        "tweetText": "@interro_9 You can enable it in the settings!",
+        "tweetUrl": "https://x.com/thsottiaux/status/2075977043750387785",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1783783584875,
@@ -279,29 +292,31 @@
         "tweetText": "https://t.co/XKG1CBaLa2",
         "tweetUrl": "https://x.com/thsottiaux/status/2075592670832107910",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1783695057214,
-        "inputTokens": 467,
-        "outputTokens": 86,
-        "rationale": "This post discusses traffic, reliability, and product direction, not limits or a reset.",
-        "reasoningTokens": 41,
-        "totalTokens": 553,
-        "tweetId": "2075592331349430581",
-        "tweetText": "Or a generational run. We will continue to make tweaks and we have a TON coming for developers. Meanwhile traffic yesterday sat at ~2X previous peak, team is scrambling to keep everything up and reliable.\n\nTime will tell, but I have conviction that attempting to build the one interface to AGI is worthwhile.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2075592331349430581",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 323948,
-      "totalOutputTokens": 87118,
-      "totalReasoningTokens": 47805,
-      "totalTokens": 411066
+      "totalInputTokens": 324312,
+      "totalOutputTokens": 87201,
+      "totalReasoningTokens": 47844,
+      "totalTokens": 411513
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1783786677680,
+      "inputTokens": 364,
+      "message": "",
+      "outputTokens": 83,
+      "rationale": "This reply is about enabling a setting and does not mention limits or a reset.",
+      "reasoningTokens": 39,
+      "totalTokens": 447,
+      "tweetId": "2075977043750387785",
+      "tweetText": "@interro_9 You can enable it in the settings!",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075977043750387785",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1783783584875,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2075319446667940005",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.9,
-      "createdAt": 1783629959035,
-      "inputTokens": 358,
-      "message": "",
-      "outputTokens": 160,
-      "rationale": "The reply only says \"Ramping,\" which is too vague to confirm that limits have reset or usage is available again now.",
-      "reasoningTokens": 107,
-      "totalTokens": 518,
-      "tweetId": "2075319370369409428",
-      "tweetText": "@cjzafir Ramping",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075319370369409428",
-      "type": "review_requested",
-      "verdict": "uncertain"
     }
   ],
   "privateState": {
-    "ciphertext": "CjQtz6Pz76euz8hUdwJEpi27eNkbfKODtv97Q3PnVsog8uP5NFJVhG5fgg",
-    "iv": "RPpOML4M4aZf2uEq",
-    "tag": "dwIHH_-2KuEiuQvQiv5o1A",
+    "ciphertext": "rtio5v94n_47F3tH0Ip5vdOeP76dAYw1xB6xpemh2qFDIf3M8DiteCp6pA",
+    "iv": "9dDNX4RNYxLdxbkh",
+    "tag": "s0XskiVlH17mSyRk-fdz4Q",
     "version": 1
   }
 }
