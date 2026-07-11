@@ -14,18 +14,38 @@
   "updatedAt": 1783781717139,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1783782955496,
-      "rationale": "This post is promotional guidance about using Codex and ChatGPT Work, not about limits resetting.",
-      "tweetId": "2075961345351307739",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075961345351307739",
-      "verdict": "not_reset"
+      "confidence": 0.97,
+      "decidedAt": 1783783259643,
+      "rationale": "This reply just says “Yes” without enough context to verify a current limit reset.",
+      "tweetId": "2075962321776820275",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075962321776820275",
+      "verdict": "uncertain"
     },
     "lastError": null,
-    "lastSeenTweetId": "2075961345351307739",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075961345351307739",
-    "pendingReview": null,
+    "lastSeenTweetId": "2075962321776820275",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075962321776820275",
+    "pendingReview": {
+      "confidence": 0.97,
+      "createdAt": 1783783259643,
+      "rationale": "This reply just says “Yes” without enough context to verify a current limit reset.",
+      "tweetId": "2075962321776820275",
+      "tweetText": "@Conor_D_Dart Yes",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075962321776820275"
+    },
     "recentEvaluations": [
+      {
+        "confidence": 0.97,
+        "evaluatedAt": 1783783259643,
+        "inputTokens": 359,
+        "outputTokens": 184,
+        "rationale": "This reply just says “Yes” without enough context to verify a current limit reset.",
+        "reasoningTokens": 139,
+        "totalTokens": 543,
+        "tweetId": "2075962321776820275",
+        "tweetText": "@Conor_D_Dart Yes",
+        "tweetUrl": "https://x.com/thsottiaux/status/2075962321776820275",
+        "verdict": "uncertain"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1783782955496,
@@ -272,29 +292,31 @@
         "tweetText": "To celebrate the launch of GPT-5.6 Sol, we will reset the rate limits again (twice) across ChatGPT Work and Codex over the next 24 hours.\n\nWe want you to have the time to truly try ambitious tasks and get the hang of it. Happy exploring!",
         "tweetUrl": "https://x.com/thsottiaux/status/2075452680760443190",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.11,
-        "evaluatedAt": 1783660946435,
-        "inputTokens": 358,
-        "outputTokens": 210,
-        "rationale": "This reply alone lacks enough context to tell whether it refers to a current limit reset.",
-        "reasoningTokens": 165,
-        "totalTokens": 568,
-        "tweetId": "2075449887190294599",
-        "tweetText": "@adrianmg Still is",
-        "tweetUrl": "https://x.com/thsottiaux/status/2075449887190294599",
-        "verdict": "uncertain"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 322144,
-      "totalOutputTokens": 86420,
-      "totalReasoningTokens": 47326,
-      "totalTokens": 408564
+      "totalInputTokens": 322503,
+      "totalOutputTokens": 86604,
+      "totalReasoningTokens": 47465,
+      "totalTokens": 409107
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.97,
+      "createdAt": 1783783259643,
+      "inputTokens": 359,
+      "message": "",
+      "outputTokens": 184,
+      "rationale": "This reply just says “Yes” without enough context to verify a current limit reset.",
+      "reasoningTokens": 139,
+      "totalTokens": 543,
+      "tweetId": "2075962321776820275",
+      "tweetText": "@Conor_D_Dart Yes",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075962321776820275",
+      "type": "review_requested",
+      "verdict": "uncertain"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1783782955496,
@@ -879,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2075293835127922748",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.2,
-      "createdAt": 1783623437724,
-      "inputTokens": 366,
-      "message": "",
-      "outputTokens": 177,
-      "rationale": "This reply contains only a link and provides no explicit evidence that limits have reset.",
-      "reasoningTokens": 133,
-      "totalTokens": 543,
-      "tweetId": "2075292240747073546",
-      "tweetText": "https://t.co/rvJ7EawhHh",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075292240747073546",
-      "type": "review_requested",
-      "verdict": "uncertain"
     }
   ],
   "privateState": {
-    "ciphertext": "mekNPYtRAPM-QOYfEtZugRNovMJpAO_MtQFyiWoi8HtSRhU8wm-uGoYqAg",
-    "iv": "i-YsPFH18xVQaX4G",
-    "tag": "G3LM-YA76zAa2MQeDtu1NA",
+    "ciphertext": "-ZsFmZR6PJwiiYxM3So5v6FlGfJPn0j18C-bHZbQpI-l6EoDc42koZ1YyA",
+    "iv": "5vlhcE6KhgcuRSD4",
+    "tag": "J6sWtce4n8Jhvewv8MO1uw",
     "version": 1
   }
 }
