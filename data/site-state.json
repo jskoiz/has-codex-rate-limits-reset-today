@@ -14,16 +14,16 @@
   "updatedAt": 1783781717139,
   "automation": {
     "lastDecision": {
-      "confidence": 0.96,
-      "decidedAt": 1783804953465,
-      "rationale": "It discusses usage-limit resets in general via a poster, not that limits have reset and are available again now.",
-      "tweetId": "2076054439140720719",
-      "tweetUrl": "https://x.com/thsottiaux/status/2076054439140720719",
+      "confidence": 0.98,
+      "decidedAt": 1783805261867,
+      "rationale": "This reply is conversational and does not mention limits, caps, or usage resetting.",
+      "tweetId": "2076054852510310733",
+      "tweetUrl": "https://x.com/thsottiaux/status/2076054852510310733",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2076054439140720719",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2076054439140720719",
+    "lastSeenTweetId": "2076054852510310733",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2076054852510310733",
     "pendingReview": {
       "confidence": 0.97,
       "createdAt": 1783783259643,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2075962321776820275"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.98,
+        "evaluatedAt": 1783805261867,
+        "inputTokens": 361,
+        "outputTokens": 88,
+        "rationale": "This reply is conversational and does not mention limits, caps, or usage resetting.",
+        "reasoningTokens": 44,
+        "totalTokens": 449,
+        "tweetId": "2076054852510310733",
+        "tweetText": "@pwgallagher You get it Peter",
+        "tweetUrl": "https://x.com/thsottiaux/status/2076054852510310733",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.96,
         "evaluatedAt": 1783804953465,
@@ -279,29 +292,31 @@
         "tweetText": "@maria_rcks Haha",
         "tweetUrl": "https://x.com/thsottiaux/status/2075782144593674488",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1783715530383,
-        "inputTokens": 358,
-        "outputTokens": 78,
-        "rationale": "This is just a conversational reply and does not mention any limit or reset.",
-        "reasoningTokens": 35,
-        "totalTokens": 436,
-        "tweetId": "2075678919664222361",
-        "tweetText": "@KarolCodes Ship it",
-        "tweetUrl": "https://x.com/thsottiaux/status/2075678919664222361",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 326581,
-      "totalOutputTokens": 87778,
-      "totalReasoningTokens": 48146,
-      "totalTokens": 414359
+      "totalInputTokens": 326942,
+      "totalOutputTokens": 87866,
+      "totalReasoningTokens": 48190,
+      "totalTokens": 414808
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.98,
+      "createdAt": 1783805261867,
+      "inputTokens": 361,
+      "message": "",
+      "outputTokens": 88,
+      "rationale": "This reply is conversational and does not mention limits, caps, or usage resetting.",
+      "reasoningTokens": 44,
+      "totalTokens": 449,
+      "tweetId": "2076054852510310733",
+      "tweetText": "@pwgallagher You get it Peter",
+      "tweetUrl": "https://x.com/thsottiaux/status/2076054852510310733",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.96,
       "createdAt": 1783804953465,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2075365738802766064",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1783639305318,
-      "inputTokens": 369,
-      "message": "",
-      "outputTokens": 78,
-      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-      "reasoningTokens": 34,
-      "totalTokens": 447,
-      "tweetId": "2075358687145906547",
-      "tweetText": "@TokenGremlin ChatGPT Chat\n\nHmmm. Yes yes. I see.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075358687145906547",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "fi1NsxVRYpuJc3CR-J4WpQEe1-lrn1EzXTzMctkCbqQjLbzhn7OdIG02ig",
-    "iv": "fyoi0A31V3XxP0tG",
-    "tag": "1M65-nxjdl8nRH99GsvtUA",
+    "ciphertext": "puKDG-HQnFHpqk09FDW5RRrbjKfG-bzZpeEKMCPq4CcLZZJyq5-lytS3Fw",
+    "iv": "qBev9Tg6Koh-r4tj",
+    "tag": "oDmx-__aR_rJZj8SXohABg",
     "version": 1
   }
 }
