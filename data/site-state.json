@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1783788238044,
-      "rationale": "This reply only says something will get fixed and does not indicate any rate limit or usage reset.",
-      "tweetId": "2075983211780510023",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075983211780510023",
+      "decidedAt": 1783795327101,
+      "rationale": "This reply does not mention limits, caps, resets, or usage becoming available again.",
+      "tweetId": "2076013788881637777",
+      "tweetUrl": "https://x.com/thsottiaux/status/2076013788881637777",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2075983211780510023",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075983211780510023",
+    "lastSeenTweetId": "2076013788881637777",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2076013788881637777",
     "pendingReview": {
       "confidence": 0.97,
       "createdAt": 1783783259643,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2075962321776820275"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1783795327101,
+        "inputTokens": 366,
+        "outputTokens": 86,
+        "rationale": "This reply does not mention limits, caps, resets, or usage becoming available again.",
+        "reasoningTokens": 41,
+        "totalTokens": 452,
+        "tweetId": "2076013788881637777",
+        "tweetText": "@xikhar @ajambrosino when do we ship this?",
+        "tweetUrl": "https://x.com/thsottiaux/status/2076013788881637777",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1783788238044,
@@ -279,29 +292,31 @@
         "tweetText": "Hello beautiful people! We have reset usage limits across Codex and ChatGPT Work. And another one will come later in the day. Rejoice.\n\nNow that I have your attention, a quick update on ChatGPT Work, Codex and all the updates we shared yesterday.\n\nWe’ve spent the last 24 hours reading feedback, looking at usage patterns, and talking with many of you. The short version is that there is a *lot* of excitement for GPT 5.6 Sol, ChatGPT Work on mobile & web, but also that we didn't get everything quite right.\n\n- We made it too easy to use the highest-compute settings without making the impact on usage limits sufficiently clear.\n- We reorganized the desktop app in one bold move, making familiar things like chats and projects harder to find.\n- Our launch framing was focused on ChatGPT Work and to some of our Codex fans it made it feel like Codex was going away over time. Absolutely not our intention, we love Codex and it is here to stay.\n- And we introduced regressions for some existing multi-agent workflows, alongside a collection of rough edges in plugins and other parts of the experience.\n\nWe’re landing a first set of improvements today. We’re resetting usage twice so people can keep experimenting, changing defaults and the model picker so they don’t push people toward unnecessarily expensive settings, fixing several plugin submission issues, improving how we represent Codex in the product, and cleaning up some of the most immediate desktop problems.\n\nA larger set of improvements will land next week. We’re bringing chats and projects back into the sidebar in a more familiar and customizable way, making usage and reset timing much more visible, clarifying when to use ChatGPT Work and when to use Codex, and addressing the many other smaller pieces of great feedback we've had.\n\nThe ambition behind this launch hasn’t changed. We think bringing ChatGPT and Codex together into a workspace where people and agents can collaborate is a very important step forward. But an ambitious direction doesn’t excuse avoidable confusion or regressions in the first version.\n\nPlease keep the feedback coming. We’re moving quickly, and you should see the experience already get better with a few updates today; and substantially better again next week.",
         "tweetUrl": "https://x.com/thsottiaux/status/2075641131002700120",
         "verdict": "reset_confirmed"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1783695993971,
-        "inputTokens": 464,
-        "outputTokens": 106,
-        "rationale": "This post and its quote discuss model speed on Cerebras, not any ChatGPT or Codex limit reset.",
-        "reasoningTokens": 56,
-        "totalTokens": 570,
-        "tweetId": "2075596669958472146",
-        "tweetText": "This actually not the version of GPT-5.6 Sol on Cerebras. Just normal /fast mode. Running it at 750+ TPS is a whole other thing.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2075596669958472146",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 324685,
-      "totalOutputTokens": 87279,
-      "totalReasoningTokens": 47875,
-      "totalTokens": 411964
+      "totalInputTokens": 325051,
+      "totalOutputTokens": 87365,
+      "totalReasoningTokens": 47916,
+      "totalTokens": 412416
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1783795327101,
+      "inputTokens": 366,
+      "message": "",
+      "outputTokens": 86,
+      "rationale": "This reply does not mention limits, caps, resets, or usage becoming available again.",
+      "reasoningTokens": 41,
+      "totalTokens": 452,
+      "tweetId": "2076013788881637777",
+      "tweetText": "@xikhar @ajambrosino when do we ship this?",
+      "tweetUrl": "https://x.com/thsottiaux/status/2076013788881637777",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1783788238044,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2075322213834875026",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.98,
-      "createdAt": 1783630275640,
-      "inputTokens": 367,
-      "message": "",
-      "outputTokens": 137,
-      "rationale": "This is just an emoji reply and does not indicate any limits or usage have reset.",
-      "reasoningTokens": 92,
-      "totalTokens": 504,
-      "tweetId": "2075320999625851151",
-      "tweetText": "@tunahorse21 🍿=&gt;☀️😎",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075320999625851151",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "j7h5HlzlbLMkJjlwOHg2YLtHZpgJxYCuW64TPCaUbWQztQUKQ-5zNB9nig",
-    "iv": "wu-Y2FryjcD-SB5O",
-    "tag": "I2VJXCCMuFzjGvpF_sV0Qg",
+    "ciphertext": "ajOlblSvZomEErCdK3vQEz5Jw7dA6VIn3PiC23C4uzKuasUT1QQt3GLTZA",
+    "iv": "Xq-GfeLq8td-mHrl",
+    "tag": "JtFXXpkRhVcB8OKkUJ0ehA",
     "version": 1
   }
 }
