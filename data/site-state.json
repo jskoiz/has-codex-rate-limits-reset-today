@@ -14,16 +14,16 @@
   "updatedAt": 1783781717139,
   "automation": {
     "lastDecision": {
-      "confidence": 0.95,
-      "decidedAt": 1783783579421,
-      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-      "tweetId": "2075963763698868712",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075963763698868712",
+      "confidence": 0.98,
+      "decidedAt": 1783783582519,
+      "rationale": "This reply is just conversational and does not indicate any rate-limit or usage reset.",
+      "tweetId": "2075963915339735157",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075963915339735157",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2075963763698868712",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075963763698868712",
+    "lastSeenTweetId": "2075963915339735157",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075963915339735157",
     "pendingReview": {
       "confidence": 0.97,
       "createdAt": 1783783259643,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2075962321776820275"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.98,
+        "evaluatedAt": 1783783582519,
+        "inputTokens": 361,
+        "outputTokens": 93,
+        "rationale": "This reply is just conversational and does not indicate any rate-limit or usage reset.",
+        "reasoningTokens": 49,
+        "totalTokens": 454,
+        "tweetId": "2075963915339735157",
+        "tweetText": "@argofowl Nice one. But no.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2075963915339735157",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.95,
         "evaluatedAt": 1783783579421,
@@ -279,29 +292,31 @@
         "tweetText": "There is often a 5-10x difference in token spend between Medium and Ultra depending on how hard the task is.",
         "tweetUrl": "https://x.com/thsottiaux/status/2075581691025125655",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1783692248293,
-        "inputTokens": 402,
-        "outputTokens": 83,
-        "rationale": "This is just usage advice about model tiers and says nothing about limits resetting or being available again.",
-        "reasoningTokens": 36,
-        "totalTokens": 485,
-        "tweetId": "2075581430055493909",
-        "tweetText": "I recommend using GPT-5.6 Sol Medium as your daily driver, and for really hard problems to switch to Extra High. \n\nIf you want the absolute best and are not afraid to burn usage fast, then Ultra is a beast.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2075581430055493909",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 323224,
-      "totalOutputTokens": 86952,
-      "totalReasoningTokens": 47727,
-      "totalTokens": 410176
+      "totalInputTokens": 323585,
+      "totalOutputTokens": 87045,
+      "totalReasoningTokens": 47776,
+      "totalTokens": 410630
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.98,
+      "createdAt": 1783783582519,
+      "inputTokens": 361,
+      "message": "",
+      "outputTokens": 93,
+      "rationale": "This reply is just conversational and does not indicate any rate-limit or usage reset.",
+      "reasoningTokens": 49,
+      "totalTokens": 454,
+      "tweetId": "2075963915339735157",
+      "tweetText": "@argofowl Nice one. But no.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075963915339735157",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.95,
       "createdAt": 1783783579421,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2075303191785402571",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.98,
-      "createdAt": 1783624359424,
-      "inputTokens": 370,
-      "message": "",
-      "outputTokens": 180,
-      "rationale": "It only says a reset will happen later this afternoon, not that limits have reset now.",
-      "reasoningTokens": 134,
-      "totalTokens": 550,
-      "tweetId": "2075296200761418073",
-      "tweetText": "@sohamstwt No need to call me babe. Reset will be coming this afternoon",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075296200761418073",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "m2U2CmFweGQ_GnOH7s5nzXyw3XKCS7xncnxi4NhOpYK9RiD0GxtQEs2-Zw",
-    "iv": "it3mc0-hMgJZaBps",
-    "tag": "PwFSZaJuMhBeY43gKQ43yw",
+    "ciphertext": "XiRKHpWHZ3wXZpgrzBqxf0ZiemlVmILbDTWwnXybwijmc_URH2RwgQJSpA",
+    "iv": "QfTHogmLTlbx_cpF",
+    "tag": "_2COXA6s59wL9LBsugx9iQ",
     "version": 1
   }
 }
