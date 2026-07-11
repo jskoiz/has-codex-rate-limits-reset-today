@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1783786677680,
-      "rationale": "This reply is about enabling a setting and does not mention limits or a reset.",
-      "tweetId": "2075977043750387785",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075977043750387785",
+      "decidedAt": 1783788238044,
+      "rationale": "This reply only says something will get fixed and does not indicate any rate limit or usage reset.",
+      "tweetId": "2075983211780510023",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075983211780510023",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2075977043750387785",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075977043750387785",
+    "lastSeenTweetId": "2075983211780510023",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075983211780510023",
     "pendingReview": {
       "confidence": 0.97,
       "createdAt": 1783783259643,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2075962321776820275"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1783788238044,
+        "inputTokens": 373,
+        "outputTokens": 78,
+        "rationale": "This reply only says something will get fixed and does not indicate any rate limit or usage reset.",
+        "reasoningTokens": 31,
+        "totalTokens": 451,
+        "tweetId": "2075983211780510023",
+        "tweetText": "@theaaron @OpenAIDevs @reach_vb @dkundel Will get fixed!",
+        "tweetUrl": "https://x.com/thsottiaux/status/2075983211780510023",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1783786677680,
@@ -279,29 +292,31 @@
         "tweetText": "This actually not the version of GPT-5.6 Sol on Cerebras. Just normal /fast mode. Running it at 750+ TPS is a whole other thing.",
         "tweetUrl": "https://x.com/thsottiaux/status/2075596669958472146",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1783695062692,
-        "inputTokens": 405,
-        "outputTokens": 98,
-        "rationale": "The post and quoted text are promotional and do not mention limits, caps, or a reset.",
-        "reasoningTokens": 51,
-        "totalTokens": 503,
-        "tweetId": "2075592670832107910",
-        "tweetText": "https://t.co/XKG1CBaLa2",
-        "tweetUrl": "https://x.com/thsottiaux/status/2075592670832107910",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 324312,
-      "totalOutputTokens": 87201,
-      "totalReasoningTokens": 47844,
-      "totalTokens": 411513
+      "totalInputTokens": 324685,
+      "totalOutputTokens": 87279,
+      "totalReasoningTokens": 47875,
+      "totalTokens": 411964
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1783788238044,
+      "inputTokens": 373,
+      "message": "",
+      "outputTokens": 78,
+      "rationale": "This reply only says something will get fixed and does not indicate any rate limit or usage reset.",
+      "reasoningTokens": 31,
+      "totalTokens": 451,
+      "tweetId": "2075983211780510023",
+      "tweetText": "@theaaron @OpenAIDevs @reach_vb @dkundel Will get fixed!",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075983211780510023",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1783786677680,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2075320999625851151",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1783630272549,
-      "inputTokens": 361,
-      "message": "",
-      "outputTokens": 80,
-      "rationale": "This reply is just conversational and does not mention limits or a reset.",
-      "reasoningTokens": 38,
-      "totalTokens": 441,
-      "tweetId": "2075319446667940005",
-      "tweetText": "@IamYashKapoor Thanks for trying",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075319446667940005",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "rtio5v94n_47F3tH0Ip5vdOeP76dAYw1xB6xpemh2qFDIf3M8DiteCp6pA",
-    "iv": "9dDNX4RNYxLdxbkh",
-    "tag": "s0XskiVlH17mSyRk-fdz4Q",
+    "ciphertext": "j7h5HlzlbLMkJjlwOHg2YLtHZpgJxYCuW64TPCaUbWQztQUKQ-5zNB9nig",
+    "iv": "wu-Y2FryjcD-SB5O",
+    "tag": "I2VJXCCMuFzjGvpF_sV0Qg",
     "version": 1
   }
 }
