@@ -21,7 +21,7 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2076059884198748175",
       "verdict": "uncertain"
     },
-    "lastError": "fetch failed (other side closed)",
+    "lastError": null,
     "lastSeenTweetId": "2076059884198748175",
     "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2076059884198748175",
     "pendingReview": {
@@ -904,9 +904,9 @@
     }
   ],
   "privateState": {
-    "ciphertext": "j2KGbvs4u5109vZoRxBGybS9YmhTNyt3U3ryHEruKE2U_E7B9LDhiOVUig",
-    "iv": "63GdSizkygjHezyS",
-    "tag": "ejeKR2gwOJ__s7TJ7Njh_g",
+    "ciphertext": "Y9seaO9sBTBpmiJlnX1rK_W2vE9ID8PPOSvCbFnjhypMdInX9zadrwk7Ug",
+    "iv": "aUXruk1pCEDqVyNu",
+    "tag": "qsWk76tlD-1hWXDOtWNNEA",
     "version": 1
   }
 }
