@@ -14,16 +14,16 @@
   "updatedAt": 1783781717139,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1783797180969,
-      "rationale": "This reply discusses user/token growth and does not indicate any rate-limit reset.",
-      "tweetId": "2076021855841132683",
-      "tweetUrl": "https://x.com/thsottiaux/status/2076021855841132683",
+      "confidence": 0.98,
+      "decidedAt": 1783797485772,
+      "rationale": "This reply discusses user and token growth, not rate limits or a reset.",
+      "tweetId": "2076022381467078931",
+      "tweetUrl": "https://x.com/thsottiaux/status/2076022381467078931",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2076021855841132683",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2076021855841132683",
+    "lastSeenTweetId": "2076022381467078931",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2076022381467078931",
     "pendingReview": {
       "confidence": 0.97,
       "createdAt": 1783783259643,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2075962321776820275"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.98,
+        "evaluatedAt": 1783797485772,
+        "inputTokens": 364,
+        "outputTokens": 88,
+        "rationale": "This reply discusses user and token growth, not rate limits or a reset.",
+        "reasoningTokens": 45,
+        "totalTokens": 452,
+        "tweetId": "2076022381467078931",
+        "tweetText": "@tanishqk Users. Token growth is steeper.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2076022381467078931",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1783797180969,
@@ -279,29 +292,31 @@
         "tweetText": "@antonpme @OpenAI @ChatGPTapp We're fixing",
         "tweetUrl": "https://x.com/thsottiaux/status/2075649912692437451",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1783707817119,
-        "inputTokens": 361,
-        "outputTokens": 77,
-        "rationale": "This reply only asks about the user's plan and does not indicate any limit reset.",
-        "reasoningTokens": 33,
-        "totalTokens": 438,
-        "tweetId": "2075647006878670896",
-        "tweetText": "@ShadowfetchNews Which plan are you on?",
-        "tweetUrl": "https://x.com/thsottiaux/status/2075647006878670896",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 325827,
-      "totalOutputTokens": 87539,
-      "totalReasoningTokens": 48000,
-      "totalTokens": 413366
+      "totalInputTokens": 326191,
+      "totalOutputTokens": 87627,
+      "totalReasoningTokens": 48045,
+      "totalTokens": 413818
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.98,
+      "createdAt": 1783797485772,
+      "inputTokens": 364,
+      "message": "",
+      "outputTokens": 88,
+      "rationale": "This reply discusses user and token growth, not rate limits or a reset.",
+      "reasoningTokens": 45,
+      "totalTokens": 452,
+      "tweetId": "2076022381467078931",
+      "tweetText": "@tanishqk Users. Token growth is steeper.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2076022381467078931",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1783797180969,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2075341924366696503",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1783632442451,
-      "inputTokens": 419,
-      "message": "",
-      "outputTokens": 134,
-      "rationale": "The tweet explicitly says ChatGPT Work and Codex usage limits got a full reset, rolling out within the next hour.",
-      "reasoningTokens": 81,
-      "totalTokens": 553,
-      "tweetId": "2075330198887940337",
-      "tweetText": "Enjoy a full reset of your usage limits for ChatGPT Work and Codex. Propagating in the next hour.\n\n@_rajanagarwal just joined to work on model research and push on coding capabilities. You can thank him for pressing the button today. https://t.co/vMMwKJibBI",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075330198887940337",
-      "type": "reset_confirmed",
-      "verdict": "reset_confirmed"
     }
   ],
   "privateState": {
-    "ciphertext": "VB33yNHyz09Q4o1llif42mxPqtjZvOWzJNaWWy8OsVnjAVHZNTpmRajNLA",
-    "iv": "XMzuM-ubmlrks3yz",
-    "tag": "Xm5ec6f6_Ymjkpey3xcakA",
+    "ciphertext": "sU3HKY075u1pZSEOeSgJTydjolYFrAQQpsfcDQiIzn4THT5_0lqNJiHe5Q",
+    "iv": "1Obvw-kJn9dbdbXu",
+    "tag": "gsE5nC1rfCpK143fpo6eBg",
     "version": 1
   }
 }
