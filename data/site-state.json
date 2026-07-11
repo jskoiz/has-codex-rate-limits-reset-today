@@ -21,7 +21,7 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2076059884198748175",
       "verdict": "uncertain"
     },
-    "lastError": null,
+    "lastError": "fetch failed (other side closed)",
     "lastSeenTweetId": "2076059884198748175",
     "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2076059884198748175",
     "pendingReview": {
@@ -302,6 +302,21 @@
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0,
+      "createdAt": 1783812372452,
+      "inputTokens": 0,
+      "message": "fetch failed (other side closed)",
+      "outputTokens": 0,
+      "rationale": "",
+      "reasoningTokens": 0,
+      "totalTokens": 0,
+      "tweetId": null,
+      "tweetText": "",
+      "tweetUrl": null,
+      "type": "error",
+      "verdict": null
+    },
     {
       "confidence": 0.95,
       "createdAt": 1783806497845,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2075448833321177557",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1783646796127,
-      "inputTokens": 504,
-      "message": "",
-      "outputTokens": 103,
-      "rationale": "This post is just sharing a 3D demo and says nothing about limits or a reset.",
-      "reasoningTokens": 56,
-      "totalTokens": 607,
-      "tweetId": "2075389936564588714",
-      "tweetText": "3D pelicans brought to you by Keyan",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075389936564588714",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "MqHG2xrN2Vn6hV4tpTjQ7dWGYMVI4DlyDFSetvpeNZ5WOwXjra_MJtBNUg",
-    "iv": "hY3cqC7LzYrASvfT",
-    "tag": "6Bg41yi4STMTBlR9UjT7dQ",
+    "ciphertext": "j2KGbvs4u5109vZoRxBGybS9YmhTNyt3U3ryHEruKE2U_E7B9LDhiOVUig",
+    "iv": "63GdSizkygjHezyS",
+    "tag": "ejeKR2gwOJ__s7TJ7Njh_g",
     "version": 1
   }
 }
