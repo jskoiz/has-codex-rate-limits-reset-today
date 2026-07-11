@@ -14,18 +14,31 @@
   "updatedAt": 1783781717139,
   "automation": {
     "lastDecision": {
-      "confidence": 0.96,
-      "decidedAt": 1783781717139,
-      "rationale": "The tweet explicitly says resets were applied automatically, indicating limits were reset now.",
-      "tweetId": "2075956058942820790",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075956058942820790",
-      "verdict": "reset_confirmed"
+      "confidence": 0.99,
+      "decidedAt": 1783782955496,
+      "rationale": "This post is promotional guidance about using Codex and ChatGPT Work, not about limits resetting.",
+      "tweetId": "2075961345351307739",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075961345351307739",
+      "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2075956058942820790",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075956058942820790",
+    "lastSeenTweetId": "2075961345351307739",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075961345351307739",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1783782955496,
+        "inputTokens": 420,
+        "outputTokens": 67,
+        "rationale": "This post is promotional guidance about using Codex and ChatGPT Work, not about limits resetting.",
+        "reasoningTokens": 20,
+        "totalTokens": 487,
+        "tweetId": "2075961345351307739",
+        "tweetText": "If you were using Codex before, two things to do\n\n1. Keep using Codex. It is for you\n2. Tell your friends and family about ChatGPT Work who you always wanted to show Codex but they’re not as technical and don’t work with code every day\n\nand tell me how it goes",
+        "tweetUrl": "https://x.com/thsottiaux/status/2075961345351307739",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.96,
         "evaluatedAt": 1783781717139,
@@ -272,29 +285,31 @@
         "tweetText": "@adrianmg Still is",
         "tweetUrl": "https://x.com/thsottiaux/status/2075449887190294599",
         "verdict": "uncertain"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1783660636800,
-        "inputTokens": 369,
-        "outputTokens": 76,
-        "rationale": "This is just a reply asking about an image generation model and says nothing about limits or resets.",
-        "reasoningTokens": 29,
-        "totalTokens": 445,
-        "tweetId": "2075448833321177557",
-        "tweetText": "@maria_rcks What kind of low image generation model did you use for that",
-        "tweetUrl": "https://x.com/thsottiaux/status/2075448833321177557",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 321724,
-      "totalOutputTokens": 86353,
-      "totalReasoningTokens": 47306,
-      "totalTokens": 408077
+      "totalInputTokens": 322144,
+      "totalOutputTokens": 86420,
+      "totalReasoningTokens": 47326,
+      "totalTokens": 408564
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1783782955496,
+      "inputTokens": 420,
+      "message": "",
+      "outputTokens": 67,
+      "rationale": "This post is promotional guidance about using Codex and ChatGPT Work, not about limits resetting.",
+      "reasoningTokens": 20,
+      "totalTokens": 487,
+      "tweetId": "2075961345351307739",
+      "tweetText": "If you were using Codex before, two things to do\n\n1. Keep using Codex. It is for you\n2. Tell your friends and family about ChatGPT Work who you always wanted to show Codex but they’re not as technical and don’t work with code every day\n\nand tell me how it goes",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075961345351307739",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.96,
       "createdAt": 1783781717139,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2075292240747073546",
       "type": "review_requested",
       "verdict": "uncertain"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1783623432631,
-      "inputTokens": 436,
-      "message": "",
-      "outputTokens": 90,
-      "rationale": "This is a product rollout announcement, not a statement that usage limits or rate caps have reset.",
-      "reasoningTokens": 43,
-      "totalTokens": 526,
-      "tweetId": "2075292097658392602",
-      "tweetText": "ChatGPT Work is now rolled out to 100% of our Pro users. Open the ChatGPT mobile app on a phone near you and enjoy productivity on the go. Or install the new ChatGPT desktop app if you need full access to your apps, browser and local files.\n\nOne advice: Raise your ambition. GPT 5.6 Sol is different from what you might have seen before. 👀",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075292097658392602",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "RRedE0RX3NHZHMWuxwE6PmEH5xVBmsqJViU_aoPOJDQ-_aVHF6LPNFOVWA",
-    "iv": "6Sr3ySTnwV3i11KQ",
-    "tag": "fSlb-b6glaydeE6GMq7Row",
+    "ciphertext": "mekNPYtRAPM-QOYfEtZugRNovMJpAO_MtQFyiWoi8HtSRhU8wm-uGoYqAg",
+    "iv": "i-YsPFH18xVQaX4G",
+    "tag": "G3LM-YA76zAa2MQeDtu1NA",
     "version": 1
   }
 }
