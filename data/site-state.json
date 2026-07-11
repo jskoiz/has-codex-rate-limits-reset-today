@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1783797178665,
-      "rationale": "This is a promotional comment about model growth and installing the desktop app, not about limits resetting.",
-      "tweetId": "2076021263945039876",
-      "tweetUrl": "https://x.com/thsottiaux/status/2076021263945039876",
+      "decidedAt": 1783797180969,
+      "rationale": "This reply discusses user/token growth and does not indicate any rate-limit reset.",
+      "tweetId": "2076021855841132683",
+      "tweetUrl": "https://x.com/thsottiaux/status/2076021855841132683",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2076021263945039876",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2076021263945039876",
+    "lastSeenTweetId": "2076021855841132683",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2076021855841132683",
     "pendingReview": {
       "confidence": 0.97,
       "createdAt": 1783783259643,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2075962321776820275"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1783797180969,
+        "inputTokens": 366,
+        "outputTokens": 94,
+        "rationale": "This reply discusses user/token growth and does not indicate any rate-limit reset.",
+        "reasoningTokens": 51,
+        "totalTokens": 460,
+        "tweetId": "2076021855841132683",
+        "tweetText": "@AArdvarkErick Users. Token growth is steeper.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2076021855841132683",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1783797178665,
@@ -279,29 +292,31 @@
         "tweetText": "@ShadowfetchNews Which plan are you on?",
         "tweetUrl": "https://x.com/thsottiaux/status/2075647006878670896",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.9,
-        "evaluatedAt": 1783707813113,
-        "inputTokens": 364,
-        "outputTokens": 182,
-        "rationale": "This reply only asks about the user's plan and does not clearly state that any limit has reset.",
-        "reasoningTokens": 135,
-        "totalTokens": 546,
-        "tweetId": "2075646865148920283",
-        "tweetText": "@LogicaISoIution Which plan are you on?",
-        "tweetUrl": "https://x.com/thsottiaux/status/2075646865148920283",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 325461,
-      "totalOutputTokens": 87445,
-      "totalReasoningTokens": 47949,
-      "totalTokens": 412906
+      "totalInputTokens": 325827,
+      "totalOutputTokens": 87539,
+      "totalReasoningTokens": 48000,
+      "totalTokens": 413366
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1783797180969,
+      "inputTokens": 366,
+      "message": "",
+      "outputTokens": 94,
+      "rationale": "This reply discusses user/token growth and does not indicate any rate-limit reset.",
+      "reasoningTokens": 51,
+      "totalTokens": 460,
+      "tweetId": "2076021855841132683",
+      "tweetText": "@AArdvarkErick Users. Token growth is steeper.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2076021855841132683",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1783797178665,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2075330198887940337",
       "type": "reset_confirmed",
       "verdict": "reset_confirmed"
-    },
-    {
-      "confidence": 0.26,
-      "createdAt": 1783631519856,
-      "inputTokens": 362,
-      "message": "",
-      "outputTokens": 115,
-      "rationale": "This reply alone is too vague to confirm a rate-limit reset without the original question.",
-      "reasoningTokens": 70,
-      "totalTokens": 477,
-      "tweetId": "2075326229264380138",
-      "tweetText": "@cherry_mx_reds It seems so",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075326229264380138",
-      "type": "review_requested",
-      "verdict": "uncertain"
     }
   ],
   "privateState": {
-    "ciphertext": "3LwXoQpdnFeUnp9nwOhI75TdD2_rWMSJb1bodNDUkQT4tYy8WfIBiLpncQ",
-    "iv": "bHLiPCDh9yrwdf3U",
-    "tag": "kkZgg9s3wxOP2KLX0VDZOw",
+    "ciphertext": "VB33yNHyz09Q4o1llif42mxPqtjZvOWzJNaWWy8OsVnjAVHZNTpmRajNLA",
+    "iv": "XMzuM-ubmlrks3yz",
+    "tag": "Xm5ec6f6_Ymjkpey3xcakA",
     "version": 1
   }
 }
