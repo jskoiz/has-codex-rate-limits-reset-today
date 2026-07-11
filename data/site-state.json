@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1783715530383,
-      "rationale": "This is just a conversational reply and does not mention any limit or reset.",
-      "tweetId": "2075678919664222361",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075678919664222361",
+      "decidedAt": 1783740080650,
+      "rationale": "This is just a casual reply and gives no indication that any limits have reset.",
+      "tweetId": "2075782144593674488",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075782144593674488",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2075678919664222361",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075678919664222361",
+    "lastSeenTweetId": "2075782144593674488",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2075782144593674488",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1783740080650,
+        "inputTokens": 358,
+        "outputTokens": 65,
+        "rationale": "This is just a casual reply and gives no indication that any limits have reset.",
+        "reasoningTokens": 21,
+        "totalTokens": 423,
+        "tweetId": "2075782144593674488",
+        "tweetText": "@maria_rcks Haha",
+        "tweetUrl": "https://x.com/thsottiaux/status/2075782144593674488",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1783715530383,
@@ -272,29 +285,31 @@
         "tweetText": "@_simonsmith Love this",
         "tweetUrl": "https://x.com/thsottiaux/status/2075341924366696503",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1783632442451,
-        "inputTokens": 419,
-        "outputTokens": 134,
-        "rationale": "The tweet explicitly says ChatGPT Work and Codex usage limits got a full reset, rolling out within the next hour.",
-        "reasoningTokens": 81,
-        "totalTokens": 553,
-        "tweetId": "2075330198887940337",
-        "tweetText": "Enjoy a full reset of your usage limits for ChatGPT Work and Codex. Propagating in the next hour.\n\n@_rajanagarwal just joined to work on model research and push on coding capabilities. You can thank him for pressing the button today. https://t.co/vMMwKJibBI",
-        "tweetUrl": "https://x.com/thsottiaux/status/2075330198887940337",
-        "verdict": "reset_confirmed"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 318876,
-      "totalOutputTokens": 85281,
-      "totalReasoningTokens": 46522,
-      "totalTokens": 404157
+      "totalInputTokens": 319234,
+      "totalOutputTokens": 85346,
+      "totalReasoningTokens": 46543,
+      "totalTokens": 404580
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1783740080650,
+      "inputTokens": 358,
+      "message": "",
+      "outputTokens": 65,
+      "rationale": "This is just a casual reply and gives no indication that any limits have reset.",
+      "reasoningTokens": 21,
+      "totalTokens": 423,
+      "tweetId": "2075782144593674488",
+      "tweetText": "@maria_rcks Haha",
+      "tweetUrl": "https://x.com/thsottiaux/status/2075782144593674488",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1783715530383,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2075285881376919789",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.97,
-      "createdAt": 1783621325673,
-      "inputTokens": 364,
-      "message": "",
-      "outputTokens": 141,
-      "rationale": "This reply only contains a link, so it does not clearly state that limits have reset.",
-      "reasoningTokens": 95,
-      "totalTokens": 505,
-      "tweetId": "2075283864470392897",
-      "tweetText": "https://t.co/BH02Ky7WDe",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075283864470392897",
-      "type": "review_requested",
-      "verdict": "uncertain"
     }
   ],
   "privateState": {
-    "ciphertext": "TWPCOHXBfhHDG3vxskOhf7a6D1d3x0P3w-TOgIOygOFNEBs6qLuOGlARWg",
-    "iv": "FMbdy8zK1EqrbUIv",
-    "tag": "-V5qr68xFMMALmPU09h-Ug",
+    "ciphertext": "oro-7Wusy3AiChSp2w9L_Ux3WynXYL8BGEG30oNoJpasPtUP0_RzfwqCqQ",
+    "iv": "_In_SBD5sGypkhma",
+    "tag": "HMsWn6YOvGHu361xHrN2SQ",
     "version": 1
   }
 }
