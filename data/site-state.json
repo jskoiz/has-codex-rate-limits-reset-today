@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1783892669576,
-      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-      "tweetId": "2076421333488194037",
-      "tweetUrl": "https://x.com/thsottiaux/status/2076421333488194037",
+      "decidedAt": 1783892676587,
+      "rationale": "This is a casual reply about Codex branding and says nothing about limits or availability resetting.",
+      "tweetId": "2076421686526890373",
+      "tweetUrl": "https://x.com/thsottiaux/status/2076421686526890373",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2076421333488194037",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2076421333488194037",
+    "lastSeenTweetId": "2076421686526890373",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2076421686526890373",
     "pendingReview": {
       "confidence": 0.06,
       "createdAt": 1783880297233,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2076369340375699589"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1783892676587,
+        "inputTokens": 365,
+        "outputTokens": 66,
+        "rationale": "This is a casual reply about Codex branding and says nothing about limits or availability resetting.",
+        "reasoningTokens": 20,
+        "totalTokens": 431,
+        "tweetId": "2076421686526890373",
+        "tweetText": "@venivci Someone slap a Codex billboard overlay over this",
+        "tweetUrl": "https://x.com/thsottiaux/status/2076421686526890373",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1783892669576,
@@ -279,29 +292,31 @@
         "tweetText": "@AArdvarkErick Thanks for your feedback",
         "tweetUrl": "https://x.com/thsottiaux/status/2076146515698184280",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1783826942749,
-        "inputTokens": 419,
-        "outputTokens": 81,
-        "rationale": "This post is about model quality and features, not usage caps or rate-limit resets.",
-        "reasoningTokens": 36,
-        "totalTokens": 500,
-        "tweetId": "2076145711922696371",
-        "tweetText": "At different times you complained about speed, code slop, frontend quality, ... With each release we improve and GPT 5.6 Sol is  \n\n✅Fast and token efficient\n✅Hardcore at back-end dev\n✅Great at front-end\n✅Does not use useEffect everywhere \n\nWhat is next?",
-        "tweetUrl": "https://x.com/thsottiaux/status/2076145711922696371",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 338575,
-      "totalOutputTokens": 91181,
-      "totalReasoningTokens": 50127,
-      "totalTokens": 429756
+      "totalInputTokens": 338940,
+      "totalOutputTokens": 91247,
+      "totalReasoningTokens": 50147,
+      "totalTokens": 430187
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1783892676587,
+      "inputTokens": 365,
+      "message": "",
+      "outputTokens": 66,
+      "rationale": "This is a casual reply about Codex branding and says nothing about limits or availability resetting.",
+      "reasoningTokens": 20,
+      "totalTokens": 431,
+      "tweetId": "2076421686526890373",
+      "tweetText": "@venivci Someone slap a Codex billboard overlay over this",
+      "tweetUrl": "https://x.com/thsottiaux/status/2076421686526890373",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1783892669576,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2076013788881637777",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1783788238044,
-      "inputTokens": 373,
-      "message": "",
-      "outputTokens": 78,
-      "rationale": "This reply only says something will get fixed and does not indicate any rate limit or usage reset.",
-      "reasoningTokens": 31,
-      "totalTokens": 451,
-      "tweetId": "2075983211780510023",
-      "tweetText": "@theaaron @OpenAIDevs @reach_vb @dkundel Will get fixed!",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075983211780510023",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "PB5vgFxkUUkdTlB15-GT61uQuVwM82VVt4cuta7h_p4r_eh8_w94BvatNw",
-    "iv": "vQic3dNxFxzOF-bt",
-    "tag": "sBSkDDBUCFL-_94E5hKk8A",
+    "ciphertext": "buA5_IcGqOrKmsPwjhw26WqvgmKuxCSpch89tGMQ2TedSPOwATiVn1TQpw",
+    "iv": "E_K03ZJVIvxZttB_",
+    "tag": "sLd1yGonShc8zr7osdn59g",
     "version": 1
   }
 }
