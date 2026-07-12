@@ -14,25 +14,38 @@
   "updatedAt": 1783781717139,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1783827248259,
-      "rationale": "This reply is a joke about Codex and does not mention limits or a reset.",
-      "tweetId": "2076147077990744237",
-      "tweetUrl": "https://x.com/thsottiaux/status/2076147077990744237",
-      "verdict": "not_reset"
+      "confidence": 0.11,
+      "decidedAt": 1783828519352,
+      "rationale": "This reply just says “Update” and provides no clear evidence that any Codex or ChatGPT limit has reset.",
+      "tweetId": "2076153017582354612",
+      "tweetUrl": "https://x.com/thsottiaux/status/2076153017582354612",
+      "verdict": "uncertain"
     },
     "lastError": null,
-    "lastSeenTweetId": "2076147077990744237",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2076147077990744237",
+    "lastSeenTweetId": "2076153017582354612",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2076153017582354612",
     "pendingReview": {
-      "confidence": 0.94,
-      "createdAt": 1783816078414,
-      "rationale": "This reply does not clearly say limits have reset and lacks enough context to infer that safely.",
-      "tweetId": "2076100597787578692",
-      "tweetText": "@rafaelobitten Not correct but team is triple checking!",
-      "tweetUrl": "https://x.com/thsottiaux/status/2076100597787578692"
+      "confidence": 0.11,
+      "createdAt": 1783828519353,
+      "rationale": "This reply just says “Update” and provides no clear evidence that any Codex or ChatGPT limit has reset.",
+      "tweetId": "2076153017582354612",
+      "tweetText": "@gergomoricz Update",
+      "tweetUrl": "https://x.com/thsottiaux/status/2076153017582354612"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.11,
+        "evaluatedAt": 1783828519353,
+        "inputTokens": 358,
+        "outputTokens": 140,
+        "rationale": "This reply just says “Update” and provides no clear evidence that any Codex or ChatGPT limit has reset.",
+        "reasoningTokens": 89,
+        "totalTokens": 498,
+        "tweetId": "2076153017582354612",
+        "tweetText": "@gergomoricz Update",
+        "tweetUrl": "https://x.com/thsottiaux/status/2076153017582354612",
+        "verdict": "uncertain"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1783827248259,
@@ -279,29 +292,31 @@
         "tweetText": "@xikhar @ajambrosino when do we ship this?",
         "tweetUrl": "https://x.com/thsottiaux/status/2076013788881637777",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1783788238044,
-        "inputTokens": 373,
-        "outputTokens": 78,
-        "rationale": "This reply only says something will get fixed and does not indicate any rate limit or usage reset.",
-        "reasoningTokens": 31,
-        "totalTokens": 451,
-        "tweetId": "2075983211780510023",
-        "tweetText": "@theaaron @OpenAIDevs @reach_vb @dkundel Will get fixed!",
-        "tweetUrl": "https://x.com/thsottiaux/status/2075983211780510023",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 331992,
-      "totalOutputTokens": 89159,
-      "totalReasoningTokens": 48902,
-      "totalTokens": 421151
+      "totalInputTokens": 332350,
+      "totalOutputTokens": 89299,
+      "totalReasoningTokens": 48991,
+      "totalTokens": 421649
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.11,
+      "createdAt": 1783828519353,
+      "inputTokens": 358,
+      "message": "",
+      "outputTokens": 140,
+      "rationale": "This reply just says “Update” and provides no clear evidence that any Codex or ChatGPT limit has reset.",
+      "reasoningTokens": 89,
+      "totalTokens": 498,
+      "tweetId": "2076153017582354612",
+      "tweetText": "@gergomoricz Update",
+      "tweetUrl": "https://x.com/thsottiaux/status/2076153017582354612",
+      "type": "review_requested",
+      "verdict": "uncertain"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1783827248259,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2075647006878670896",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.9,
-      "createdAt": 1783707813113,
-      "inputTokens": 364,
-      "message": "",
-      "outputTokens": 182,
-      "rationale": "This reply only asks about the user's plan and does not clearly state that any limit has reset.",
-      "reasoningTokens": 135,
-      "totalTokens": 546,
-      "tweetId": "2075646865148920283",
-      "tweetText": "@LogicaISoIution Which plan are you on?",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075646865148920283",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "s1M_7RSb7gjhN_fTU_zWEwD1OQARnPd8oJCKCuTpPwbCqeleaAhtSEYH8g",
-    "iv": "IE4DXegTagV2Dz8G",
-    "tag": "STm8UpEg-MJ4uaje_NAmXQ",
+    "ciphertext": "P1nzTKMF3DnstSKSk7XWVu0aGFHpcA0KcOuRilfyOSlM1iTqfXAWIL4k2A",
+    "iv": "y4XMz_PyNNsZ8xXo",
+    "tag": "LEz8hTbrkDcaM4hTMU4SlA",
     "version": 1
   }
 }
