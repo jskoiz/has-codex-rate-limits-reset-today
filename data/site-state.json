@@ -14,18 +14,31 @@
   "updatedAt": 1783829134573,
   "automation": {
     "lastDecision": {
-      "confidence": 0.94,
-      "decidedAt": 1783829134573,
-      "rationale": "The tweet directly implies Codex users have gotten a reset now.",
-      "tweetId": "2076155461158699382",
-      "tweetUrl": "https://x.com/thsottiaux/status/2076155461158699382",
-      "verdict": "reset_confirmed"
+      "confidence": 0.99,
+      "decidedAt": 1783831015504,
+      "rationale": "This reply is unrelated to Codex or ChatGPT usage limits or resets.",
+      "tweetId": "2076162897986855107",
+      "tweetUrl": "https://x.com/thsottiaux/status/2076162897986855107",
+      "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2076155461158699382",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2076155461158699382",
+    "lastSeenTweetId": "2076162897986855107",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2076162897986855107",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1783831015504,
+        "inputTokens": 368,
+        "outputTokens": 72,
+        "rationale": "This reply is unrelated to Codex or ChatGPT usage limits or resets.",
+        "reasoningTokens": 29,
+        "totalTokens": 440,
+        "tweetId": "2076162897986855107",
+        "tweetText": "@prz_chojecki It was probably more like one trillion trillion dollars",
+        "tweetUrl": "https://x.com/thsottiaux/status/2076162897986855107",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.94,
         "evaluatedAt": 1783829134573,
@@ -272,29 +285,31 @@
         "tweetText": "New poster for our office that shows how resets of the Codex usage limits affects part of our systems. Data is beautiful. https://t.co/84DCX4XfbF",
         "tweetUrl": "https://x.com/thsottiaux/status/2076054439140720719",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.98,
-        "evaluatedAt": 1783797485772,
-        "inputTokens": 364,
-        "outputTokens": 88,
-        "rationale": "This reply discusses user and token growth, not rate limits or a reset.",
-        "reasoningTokens": 45,
-        "totalTokens": 452,
-        "tweetId": "2076022381467078931",
-        "tweetText": "@tanishqk Users. Token growth is steeper.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2076022381467078931",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 333440,
-      "totalOutputTokens": 89611,
-      "totalReasoningTokens": 49168,
-      "totalTokens": 423051
+      "totalInputTokens": 333808,
+      "totalOutputTokens": 89683,
+      "totalReasoningTokens": 49197,
+      "totalTokens": 423491
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1783831015504,
+      "inputTokens": 368,
+      "message": "",
+      "outputTokens": 72,
+      "rationale": "This reply is unrelated to Codex or ChatGPT usage limits or resets.",
+      "reasoningTokens": 29,
+      "totalTokens": 440,
+      "tweetId": "2076162897986855107",
+      "tweetText": "@prz_chojecki It was probably more like one trillion trillion dollars",
+      "tweetUrl": "https://x.com/thsottiaux/status/2076162897986855107",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.94,
       "createdAt": 1783829134573,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2075820987833274448",
       "type": "review_requested",
       "verdict": "uncertain"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1783740080650,
-      "inputTokens": 358,
-      "message": "",
-      "outputTokens": 65,
-      "rationale": "This is just a casual reply and gives no indication that any limits have reset.",
-      "reasoningTokens": 21,
-      "totalTokens": 423,
-      "tweetId": "2075782144593674488",
-      "tweetText": "@maria_rcks Haha",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075782144593674488",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "uXJ9veW1Nu4s2UoxsTQ0GqB41BgCYivvSVLjAWSNCn_w4C2NOSz5khP1tg",
-    "iv": "bWFhIzyrwuT_chts",
-    "tag": "CPCnU_BmOnXbKhglg8xnvA",
+    "ciphertext": "2SI3YPgbwEJj4zyu91-n8S_-qiz6C8EAV62PHR4_GcdLxKwj9XfLLHqEzg",
+    "iv": "46haO3hQEBtkoHuo",
+    "tag": "5Uj5UuRIDVG2yG1Sk_pkQw",
     "version": 1
   }
 }
