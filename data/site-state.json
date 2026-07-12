@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1783835671288,
-      "rationale": "This reply is about fixes in a next release, not limits or usage becoming available again.",
-      "tweetId": "2076183004008137203",
-      "tweetUrl": "https://x.com/thsottiaux/status/2076183004008137203",
+      "decidedAt": 1783835972718,
+      "rationale": "This reply is unrelated to Codex or ChatGPT limits resetting.",
+      "tweetId": "2076183475611414627",
+      "tweetUrl": "https://x.com/thsottiaux/status/2076183475611414627",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2076183004008137203",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2076183004008137203",
+    "lastSeenTweetId": "2076183475611414627",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2076183475611414627",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1783835972718,
+        "inputTokens": 360,
+        "outputTokens": 83,
+        "rationale": "This reply is unrelated to Codex or ChatGPT limits resetting.",
+        "reasoningTokens": 42,
+        "totalTokens": 443,
+        "tweetId": "2076183475611414627",
+        "tweetText": "@cifilter Click remote my friend",
+        "tweetUrl": "https://x.com/thsottiaux/status/2076183475611414627",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1783835671288,
@@ -272,29 +285,31 @@
         "tweetText": "@MatthewBerman I think it would be fine",
         "tweetUrl": "https://x.com/thsottiaux/status/2076099271888380067",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.95,
-        "evaluatedAt": 1783806497845,
-        "inputTokens": 359,
-        "outputTokens": 107,
-        "rationale": "This reply has no clear mention of limits, caps, or a reset.",
-        "reasoningTokens": 64,
-        "totalTokens": 466,
-        "tweetId": "2076059884198748175",
-        "tweetText": "@MattColeman7 Me too!",
-        "tweetUrl": "https://x.com/thsottiaux/status/2076059884198748175",
-        "verdict": "uncertain"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 334923,
-      "totalOutputTokens": 89928,
-      "totalReasoningTokens": 49305,
-      "totalTokens": 424851
+      "totalInputTokens": 335283,
+      "totalOutputTokens": 90011,
+      "totalReasoningTokens": 49347,
+      "totalTokens": 425294
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1783835972718,
+      "inputTokens": 360,
+      "message": "",
+      "outputTokens": 83,
+      "rationale": "This reply is unrelated to Codex or ChatGPT limits resetting.",
+      "reasoningTokens": 42,
+      "totalTokens": 443,
+      "tweetId": "2076183475611414627",
+      "tweetText": "@cifilter Click remote my friend",
+      "tweetUrl": "https://x.com/thsottiaux/status/2076183475611414627",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1783835671288,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2075954349860421946",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0,
-      "createdAt": 1783780437120,
-      "inputTokens": 0,
-      "message": "Tweet fetch failed: Tweet search failed: Request failed with status code 403; timeline fallback failed: Request failed with status code 403 (Request failed with status code 403) (Tweet search failed: Request failed with status code 403; timeline fallback failed: Request failed with status code 403)",
-      "outputTokens": 0,
-      "rationale": "",
-      "reasoningTokens": 0,
-      "totalTokens": 0,
-      "tweetId": null,
-      "tweetText": "",
-      "tweetUrl": null,
-      "type": "error",
-      "verdict": null
     }
   ],
   "privateState": {
-    "ciphertext": "K88yPFuBQvC8I2GjTPLRqJEl2iPZPxUDwyqHorDuKQ6V9uavatnzBu7Beg",
-    "iv": "4WrP4Hzazu6kaIc4",
-    "tag": "Qi6s_Mbu_rGZB8R5ANlk3A",
+    "ciphertext": "THc06sc39sSKZ_HddS7c9yYA8LoRH6s3z7vRQnnD-7f2GFmgFWMvUfMaFg",
+    "iv": "k_m4e91EP7qi01In",
+    "tag": "hmO_wo97ALovktihRo9bmQ",
     "version": 1
   }
 }
