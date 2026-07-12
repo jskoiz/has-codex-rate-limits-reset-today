@@ -10,22 +10,35 @@
     "Limits reset, go crazy",
     "You can just build things"
   ],
-  "resetAt": 1783901134573,
-  "updatedAt": 1783829134573,
+  "resetAt": 1783951365205,
+  "updatedAt": 1783879365205,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1783879055336,
-      "rationale": "This post is just commentary on model quality and a quoted Claude access extension, not a current Codex or ChatGPT…",
-      "tweetId": "2076364102612680847",
-      "tweetUrl": "https://x.com/thsottiaux/status/2076364102612680847",
-      "verdict": "not_reset"
+      "confidence": 0.97,
+      "decidedAt": 1783879365205,
+      "rationale": "It explicitly says the 5-hour usage limit restriction is being temporarily removed for Plus, Business, and Pro plans.",
+      "tweetId": "2076365965915467978",
+      "tweetUrl": "https://x.com/thsottiaux/status/2076365965915467978",
+      "verdict": "reset_confirmed"
     },
     "lastError": null,
-    "lastSeenTweetId": "2076364102612680847",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2076364102612680847",
+    "lastSeenTweetId": "2076365965915467978",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2076365965915467978",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.97,
+        "evaluatedAt": 1783879365205,
+        "inputTokens": 465,
+        "outputTokens": 188,
+        "rationale": "It explicitly says the 5-hour usage limit restriction is being temporarily removed for Plus, Business, and Pro plans.",
+        "reasoningTokens": 136,
+        "totalTokens": 653,
+        "tweetId": "2076365965915467978",
+        "tweetText": "Morning. The last 48 hours of Codex and ChatGPT Work have been intense! Three important updates:\n\n- Temporarily removing the 5 hour usage limit restriction for all Plus, Business and Pro plans\n- Rolling out changes that will make GPT 5.6 Sol more efficient across the board and that will be reflected in less usage being used so that it can take you further. Exact impact to be quantified and shared\n- We hit 6M active users, and are landing a usage reset in the next hour\n\nGo do things",
+        "tweetUrl": "https://x.com/thsottiaux/status/2076365965915467978",
+        "verdict": "reset_confirmed"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1783879055336,
@@ -272,29 +285,31 @@
         "tweetText": "If you aren't yet bold enough to install the Codex app, you can stay in the presence of your orange crab and point it at GPT 5.6 Sol. Takes 5 minutes. Kudos to Theo for explaining one of the ways to get this done.\n\nStep 1: Install CLIProxyAPI\nStep 2: Connect\nStep 3: Define following alias and enjoy claudex\n\n```\nalias claudex='CLAUDE_CODE_SUBAGENT_MODEL=gpt-5.6-sol \\\nCLAUDE_CODE_ALWAYS_ENABLE_EFFORT=1 \\\nCLAUDE_CODE_MAX_TOOL_USE_CONCURRENCY=3 \\\nENABLE_TOOL_SEARCH=false \\\nclaude --model gpt-5.6-sol'\n```\n\nIf this gets blocked, I owe you a reset.",
         "tweetUrl": "https://x.com/thsottiaux/status/2076119366647894371",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1783820118324,
-        "inputTokens": 358,
-        "outputTokens": 79,
-        "rationale": "This reply is just a thank-you and does not mention limits or availability.",
-        "reasoningTokens": 36,
-        "totalTokens": 437,
-        "tweetId": "2076117207210402250",
-        "tweetText": "@theo Thank you king",
-        "tweetUrl": "https://x.com/thsottiaux/status/2076117207210402250",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 336480,
-      "totalOutputTokens": 90327,
-      "totalReasoningTokens": 49515,
-      "totalTokens": 426807
+      "totalInputTokens": 336945,
+      "totalOutputTokens": 90515,
+      "totalReasoningTokens": 49651,
+      "totalTokens": 427460
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.97,
+      "createdAt": 1783879365205,
+      "inputTokens": 465,
+      "message": "",
+      "outputTokens": 188,
+      "rationale": "It explicitly says the 5-hour usage limit restriction is being temporarily removed for Plus, Business, and Pro plans.",
+      "reasoningTokens": 136,
+      "totalTokens": 653,
+      "tweetId": "2076365965915467978",
+      "tweetText": "Morning. The last 48 hours of Codex and ChatGPT Work have been intense! Three important updates:\n\n- Temporarily removing the 5 hour usage limit restriction for all Plus, Business and Pro plans\n- Rolling out changes that will make GPT 5.6 Sol more efficient across the board and that will be reflected in less usage being used so that it can take you further. Exact impact to be quantified and shared\n- We hit 6M active users, and are landing a usage reset in the next hour\n\nGo do things",
+      "tweetUrl": "https://x.com/thsottiaux/status/2076365965915467978",
+      "type": "reset_confirmed",
+      "verdict": "reset_confirmed"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1783879055336,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2075963763698868712",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1783783575565,
-      "inputTokens": 358,
-      "message": "",
-      "outputTokens": 81,
-      "rationale": "This reply is just conversational and does not mention limits or a reset.",
-      "reasoningTokens": 39,
-      "totalTokens": 439,
-      "tweetId": "2075962392362852447",
-      "tweetText": "@alright_mark Exciting",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075962392362852447",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "yFsFG4Wvlxzh0rChnAlCCu2YtA39HJe-xCy0TJj8bPfHGm1yA5Dq60Zziw",
-    "iv": "g6_FQJlK-6T9ZqOI",
-    "tag": "nkJfalaJLNlQHQOZo_3_9g",
+    "ciphertext": "2-tLGKiBFQ-o1xhbU3kk7kLBpVQvj6cmp92cit9j6ySWFWYx1WksnFffWA",
+    "iv": "EUHxB7ZzXY7UKI7a",
+    "tag": "CK2ak26Ka7h6oGod_ilIPQ",
     "version": 1
   }
 }
