@@ -21,7 +21,7 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2076059884198748175",
       "verdict": "uncertain"
     },
-    "lastError": null,
+    "lastError": "GitHub raw read failed with 502",
     "lastSeenTweetId": "2076059884198748175",
     "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2076059884198748175",
     "pendingReview": {
@@ -302,6 +302,21 @@
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0,
+      "createdAt": 1783814549969,
+      "inputTokens": 0,
+      "message": "GitHub raw read failed with 502",
+      "outputTokens": 0,
+      "rationale": "",
+      "reasoningTokens": 0,
+      "totalTokens": 0,
+      "tweetId": null,
+      "tweetText": "",
+      "tweetUrl": null,
+      "type": "error",
+      "verdict": null
+    },
     {
       "confidence": 0,
       "createdAt": 1783812372452,
@@ -738,21 +753,6 @@
       "verdict": "reset_confirmed"
     },
     {
-      "confidence": 0,
-      "createdAt": 1783704089719,
-      "inputTokens": 0,
-      "message": "GitHub raw read failed with 502",
-      "outputTokens": 0,
-      "rationale": "",
-      "reasoningTokens": 0,
-      "totalTokens": 0,
-      "tweetId": null,
-      "tweetText": "",
-      "tweetUrl": null,
-      "type": "error",
-      "verdict": null
-    },
-    {
       "confidence": 0.99,
       "createdAt": 1783695993971,
       "inputTokens": 464,
@@ -904,9 +904,9 @@
     }
   ],
   "privateState": {
-    "ciphertext": "Y9seaO9sBTBpmiJlnX1rK_W2vE9ID8PPOSvCbFnjhypMdInX9zadrwk7Ug",
-    "iv": "aUXruk1pCEDqVyNu",
-    "tag": "qsWk76tlD-1hWXDOtWNNEA",
+    "ciphertext": "Iwtyg1bXfHaQQzHQLF_keSiRL4FB8Zl0Y0BqkctomEFCTItyDaGl9bzvag",
+    "iv": "A30hVayg9HRwaqGJ",
+    "tag": "1rRBgGg_gl7EiF0xd1OPVQ",
     "version": 1
   }
 }
