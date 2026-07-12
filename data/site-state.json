@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1783829128368,
-      "rationale": "This reply is about a t-shirt and gives no indication that any Codex or ChatGPT limit has reset.",
-      "tweetId": "2076154770658828598",
-      "tweetUrl": "https://x.com/thsottiaux/status/2076154770658828598",
+      "decidedAt": 1783829130843,
+      "rationale": "This reply does not mention limits, caps, or usage becoming available again.",
+      "tweetId": "2076155274994618630",
+      "tweetUrl": "https://x.com/thsottiaux/status/2076155274994618630",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2076154770658828598",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2076154770658828598",
+    "lastSeenTweetId": "2076155274994618630",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2076155274994618630",
     "pendingReview": {
       "confidence": 0.11,
       "createdAt": 1783828519353,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2076153017582354612"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1783829130843,
+        "inputTokens": 360,
+        "outputTokens": 80,
+        "rationale": "This reply does not mention limits, caps, or usage becoming available again.",
+        "reasoningTokens": 37,
+        "totalTokens": 440,
+        "tweetId": "2076155274994618630",
+        "tweetText": "@alencristen Nobody got that one",
+        "tweetUrl": "https://x.com/thsottiaux/status/2076155274994618630",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1783829128368,
@@ -279,29 +292,31 @@
         "tweetText": "@AArdvarkErick Users. Token growth is steeper.",
         "tweetUrl": "https://x.com/thsottiaux/status/2076021855841132683",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1783797178665,
-        "inputTokens": 410,
-        "outputTokens": 80,
-        "rationale": "This is a promotional comment about model growth and installing the desktop app, not about limits resetting.",
-        "reasoningTokens": 33,
-        "totalTokens": 490,
-        "tweetId": "2076021263945039876",
-        "tweetText": "You know it's a good model when you grow more in 1 day than last two weeks combined.\n\nInstall the desktop app from https://t.co/K5PquKnV4q and give it a go! https://t.co/WyQwrT98Xo",
-        "tweetUrl": "https://x.com/thsottiaux/status/2076021263945039876",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 332715,
-      "totalOutputTokens": 89381,
-      "totalReasoningTokens": 49023,
-      "totalTokens": 422096
+      "totalInputTokens": 333075,
+      "totalOutputTokens": 89461,
+      "totalReasoningTokens": 49060,
+      "totalTokens": 422536
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1783829130843,
+      "inputTokens": 360,
+      "message": "",
+      "outputTokens": 80,
+      "rationale": "This reply does not mention limits, caps, or usage becoming available again.",
+      "reasoningTokens": 37,
+      "totalTokens": 440,
+      "tweetId": "2076155274994618630",
+      "tweetText": "@alencristen Nobody got that one",
+      "tweetUrl": "https://x.com/thsottiaux/status/2076155274994618630",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1783829128368,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2075678919664222361",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1783708728112,
-      "inputTokens": 365,
-      "message": "",
-      "outputTokens": 74,
-      "rationale": "This reply only says they are fixing something and does not indicate limits have reset.",
-      "reasoningTokens": 30,
-      "totalTokens": 439,
-      "tweetId": "2075649912692437451",
-      "tweetText": "@antonpme @OpenAI @ChatGPTapp We're fixing",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075649912692437451",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "A9KUHXOZDY4A8kuStAj_SNubnh-l60ydt5BheFibyORER_ABfdNfFPTDhA",
-    "iv": "eLD5fFbVvguTORWR",
-    "tag": "TWdB873DwHPBvputqrvn8g",
+    "ciphertext": "7KmLbSUjCAfiTF2JgjLsPf5V13Xh6pWnBPe1neg7_3U9ykcYA41PKWEI7A",
+    "iv": "r4ESOntKbxWbbkS_",
+    "tag": "j9T2D1M-B2ab5uEZxyRcaw",
     "version": 1
   }
 }
