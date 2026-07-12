@@ -14,16 +14,16 @@
   "updatedAt": 1783879365205,
   "automation": {
     "lastDecision": {
-      "confidence": 0.06,
-      "decidedAt": 1783880297233,
-      "rationale": "This reply just says “Yes” and does not by itself clearly indicate a current limit reset.",
-      "tweetId": "2076369340375699589",
-      "tweetUrl": "https://x.com/thsottiaux/status/2076369340375699589",
-      "verdict": "uncertain"
+      "confidence": 0.95,
+      "decidedAt": 1783892040237,
+      "rationale": "This post is about granting banked reset credits and a future rollout tomorrow, not that limits have reset for users…",
+      "tweetId": "2076418567143408112",
+      "tweetUrl": "https://x.com/thsottiaux/status/2076418567143408112",
+      "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2076369340375699589",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2076369340375699589",
+    "lastSeenTweetId": "2076418567143408112",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2076418567143408112",
     "pendingReview": {
       "confidence": 0.06,
       "createdAt": 1783880297233,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2076369340375699589"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.95,
+        "evaluatedAt": 1783892040237,
+        "inputTokens": 551,
+        "outputTokens": 343,
+        "rationale": "This post is about granting banked reset credits and a future rollout tomorrow, not that limits have reset for users…",
+        "reasoningTokens": 290,
+        "totalTokens": 894,
+        "tweetId": "2076418567143408112",
+        "tweetText": "Added a banked reset to 500k users of ChatGPT Work and Codex.\n\nWhat’s been happening:\n- Just released the ability to use a banked reset from web and mobile. Before today you could only do it in the desktop app\n- Had an issue where less than 10% of users who used a banked reset and it didn’t actually reset. This was during a 2 hour window.\n- It was hard to find all the exact users where it didn’t apply, so instead granted a banked reset to everyone who pressed the reset button in that 2 hour window. This also gives us the opportunity to validate the new infra ahead of tomorrow\n\nTomorrow we will celebrate our 7M active users milestone and grant the first banked reset across all of our ChatGPT Work and Codex users.\n\nWe will also release a bunch of updates to the desktop app, addressing a ton of your feedback.\n\nTalk soon",
+        "tweetUrl": "https://x.com/thsottiaux/status/2076418567143408112",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.06,
         "evaluatedAt": 1783880297234,
@@ -279,29 +292,31 @@
         "tweetText": "@MonospaceNg Granted",
         "tweetUrl": "https://x.com/thsottiaux/status/2076120416742236519",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1783820745040,
-        "inputTokens": 360,
-        "outputTokens": 91,
-        "rationale": "This reply only says something will be fixed in a future release, not that limits have reset now.",
-        "reasoningTokens": 43,
-        "totalTokens": 451,
-        "tweetId": "2076119644658970992",
-        "tweetText": "@scaling01 Fixed in next release",
-        "tweetUrl": "https://x.com/thsottiaux/status/2076119644658970992",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 337302,
-      "totalOutputTokens": 90667,
-      "totalReasoningTokens": 49756,
-      "totalTokens": 427969
+      "totalInputTokens": 337853,
+      "totalOutputTokens": 91010,
+      "totalReasoningTokens": 50046,
+      "totalTokens": 428863
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.95,
+      "createdAt": 1783892040237,
+      "inputTokens": 551,
+      "message": "",
+      "outputTokens": 343,
+      "rationale": "This post is about granting banked reset credits and a future rollout tomorrow, not that limits have reset for users…",
+      "reasoningTokens": 290,
+      "totalTokens": 894,
+      "tweetId": "2076418567143408112",
+      "tweetText": "Added a banked reset to 500k users of ChatGPT Work and Codex.\n\nWhat’s been happening:\n- Just released the ability to use a banked reset from web and mobile. Before today you could only do it in the desktop app\n- Had an issue where less than 10% of users who used a banked reset and it didn’t actually reset. This was during a 2 hour window.\n- It was hard to find all the exact users where it didn’t apply, so instead granted a banked reset to everyone who pressed the reset button in that 2 hour window. This also gives us the opportunity to validate the new infra ahead of tomorrow\n\nTomorrow we will celebrate our 7M active users milestone and grant the first banked reset across all of our ChatGPT Work and Codex users.\n\nWe will also release a bunch of updates to the desktop app, addressing a ton of your feedback.\n\nTalk soon",
+      "tweetUrl": "https://x.com/thsottiaux/status/2076418567143408112",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.06,
       "createdAt": 1783880297234,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2075964506342412717",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.98,
-      "createdAt": 1783783582519,
-      "inputTokens": 361,
-      "message": "",
-      "outputTokens": 93,
-      "rationale": "This reply is just conversational and does not indicate any rate-limit or usage reset.",
-      "reasoningTokens": 49,
-      "totalTokens": 454,
-      "tweetId": "2075963915339735157",
-      "tweetText": "@argofowl Nice one. But no.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075963915339735157",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "hWb7iV2hTHOojlpZcNnb174TFaXRgN8KwwMHOynRX7Obsr4IIFOsh-QZWA",
-    "iv": "7KEmb0V58VskARvS",
-    "tag": "Aw2brL4SiQp2u1RyhTfh8w",
+    "ciphertext": "vIlWD7ZXvwH8bvQkyEnkUl-g2rxh4B45fQZtr0GiPx-74tpBIaM4t7BOwQ",
+    "iv": "jYYIrL9nnMka9MAF",
+    "tag": "HnUYi_zy3ow3BXYxpwm8MA",
     "version": 1
   }
 }
