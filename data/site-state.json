@@ -14,25 +14,38 @@
   "updatedAt": 1783781717139,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1783815771552,
-      "rationale": "This reply does not mention limits, caps, resets, or usage becoming available again.",
-      "tweetId": "2076099271888380067",
-      "tweetUrl": "https://x.com/thsottiaux/status/2076099271888380067",
-      "verdict": "not_reset"
+      "confidence": 0.94,
+      "decidedAt": 1783816078414,
+      "rationale": "This reply does not clearly say limits have reset and lacks enough context to infer that safely.",
+      "tweetId": "2076100597787578692",
+      "tweetUrl": "https://x.com/thsottiaux/status/2076100597787578692",
+      "verdict": "uncertain"
     },
     "lastError": null,
-    "lastSeenTweetId": "2076099271888380067",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2076099271888380067",
+    "lastSeenTweetId": "2076100597787578692",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2076100597787578692",
     "pendingReview": {
-      "confidence": 0.95,
-      "createdAt": 1783806497845,
-      "rationale": "This reply has no clear mention of limits, caps, or a reset.",
-      "tweetId": "2076059884198748175",
-      "tweetText": "@MattColeman7 Me too!",
-      "tweetUrl": "https://x.com/thsottiaux/status/2076059884198748175"
+      "confidence": 0.94,
+      "createdAt": 1783816078414,
+      "rationale": "This reply does not clearly say limits have reset and lacks enough context to infer that safely.",
+      "tweetId": "2076100597787578692",
+      "tweetText": "@rafaelobitten Not correct but team is triple checking!",
+      "tweetUrl": "https://x.com/thsottiaux/status/2076100597787578692"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.94,
+        "evaluatedAt": 1783816078414,
+        "inputTokens": 364,
+        "outputTokens": 153,
+        "rationale": "This reply does not clearly say limits have reset and lacks enough context to infer that safely.",
+        "reasoningTokens": 107,
+        "totalTokens": 517,
+        "tweetId": "2076100597787578692",
+        "tweetText": "@rafaelobitten Not correct but team is triple checking!",
+        "tweetUrl": "https://x.com/thsottiaux/status/2076100597787578692",
+        "verdict": "uncertain"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1783815771552,
@@ -279,29 +292,31 @@
         "tweetText": "@danielrakh Don’t leak our master plan please",
         "tweetUrl": "https://x.com/thsottiaux/status/2075954349860421946",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1783752177227,
-        "inputTokens": 360,
-        "outputTokens": 77,
-        "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-        "reasoningTokens": 33,
-        "totalTokens": 437,
-        "tweetId": "2075832329063506013",
-        "tweetText": "@WanJIvory sorry not sorry",
-        "tweetUrl": "https://x.com/thsottiaux/status/2075832329063506013",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 328020,
-      "totalOutputTokens": 88155,
-      "totalReasoningTokens": 48349,
-      "totalTokens": 416175
+      "totalInputTokens": 328384,
+      "totalOutputTokens": 88308,
+      "totalReasoningTokens": 48456,
+      "totalTokens": 416692
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.94,
+      "createdAt": 1783816078414,
+      "inputTokens": 364,
+      "message": "",
+      "outputTokens": 153,
+      "rationale": "This reply does not clearly say limits have reset and lacks enough context to infer that safely.",
+      "reasoningTokens": 107,
+      "totalTokens": 517,
+      "tweetId": "2076100597787578692",
+      "tweetText": "@rafaelobitten Not correct but team is triple checking!",
+      "tweetUrl": "https://x.com/thsottiaux/status/2076100597787578692",
+      "type": "review_requested",
+      "verdict": "uncertain"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1783815771552,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2075452680760443190",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.11,
-      "createdAt": 1783660946435,
-      "inputTokens": 358,
-      "message": "",
-      "outputTokens": 210,
-      "rationale": "This reply alone lacks enough context to tell whether it refers to a current limit reset.",
-      "reasoningTokens": 165,
-      "totalTokens": 568,
-      "tweetId": "2075449887190294599",
-      "tweetText": "@adrianmg Still is",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075449887190294599",
-      "type": "review_requested",
-      "verdict": "uncertain"
     }
   ],
   "privateState": {
-    "ciphertext": "oKTBpQYjUnu0R-cje_c2lDeWO5HHx4bi_edGYrao7W3LWgLh0mSVJgkZMQ",
-    "iv": "eXcmf_K2cX2d-5SC",
-    "tag": "ghC-Ph2KVed3Xoo5B9QdNw",
+    "ciphertext": "zMjJTbrFuEtthFoiQQd3YqIaY-iLfjojXmOSwXAMaZIO50pkOTXj44-I6A",
+    "iv": "ZQj1KgmVu1V91BYr",
+    "tag": "7YikHG38T3BrJRW8SlMfAg",
     "version": 1
   }
 }
