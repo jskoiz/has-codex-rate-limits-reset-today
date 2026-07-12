@@ -21,7 +21,7 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2076201049086648705",
       "verdict": "not_reset"
     },
-    "lastError": null,
+    "lastError": "GitHub raw read failed with 502",
     "lastSeenTweetId": "2076201049086648705",
     "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2076201049086648705",
     "pendingReview": null,
@@ -297,6 +297,21 @@
   "automationEvents": [
     {
       "confidence": 0,
+      "createdAt": 1783867312403,
+      "inputTokens": 0,
+      "message": "GitHub raw read failed with 502",
+      "outputTokens": 0,
+      "rationale": "",
+      "reasoningTokens": 0,
+      "totalTokens": 0,
+      "tweetId": null,
+      "tweetText": "",
+      "tweetUrl": null,
+      "type": "error",
+      "verdict": null
+    },
+    {
+      "confidence": 0,
       "createdAt": 1783855184968,
       "inputTokens": 0,
       "message": "Tweet fetch failed: Tweet search failed: Request failed with status code 403; timeline fallback failed: Request failed with status code 403 (Request failed with status code 403) (Tweet search failed: Request failed with status code 403; timeline fallback failed: Request failed with status code 403)",
@@ -369,21 +384,6 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2076182200400375979",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0,
-      "createdAt": 1783833183828,
-      "inputTokens": 0,
-      "message": "GitHub raw read failed with 502",
-      "outputTokens": 0,
-      "rationale": "",
-      "reasoningTokens": 0,
-      "totalTokens": 0,
-      "tweetId": null,
-      "tweetText": "",
-      "tweetUrl": null,
-      "type": "error",
-      "verdict": null
     },
     {
       "confidence": 0.99,
@@ -897,9 +897,9 @@
     }
   ],
   "privateState": {
-    "ciphertext": "1KFOCLcTGf5kQ7yMrjBOum98DoP8M9ER6l0Q-mweY-3_v30wO6euT4KsZg",
-    "iv": "1YUih5vdCFDW85Xj",
-    "tag": "BMj4GJpRiPNI1ACSgSD19w",
+    "ciphertext": "gh53SipneN4gOc6pv1euKYMqGfmJFQzlFl1UzNx2EQpryv3V5t4vTF6ogA",
+    "iv": "jukncjOPEWyA5YGP",
+    "tag": "9jiunRjjA4GJ4p2nRriFuA",
     "version": 1
   }
 }
