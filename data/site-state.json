@@ -14,18 +14,31 @@
   "updatedAt": 1783829134573,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1783840019641,
-      "rationale": "This reply discusses context limits and pricing, not a reset of usage caps or rate limits.",
-      "tweetId": "2076201049086648705",
-      "tweetUrl": "https://x.com/thsottiaux/status/2076201049086648705",
+      "confidence": 0.98,
+      "decidedAt": 1783870117072,
+      "rationale": "This is just a conversational reply and does not mention limits, caps, or usage being available again.",
+      "tweetId": "2076326822032355480",
+      "tweetUrl": "https://x.com/thsottiaux/status/2076326822032355480",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2076201049086648705",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2076201049086648705",
+    "lastSeenTweetId": "2076326822032355480",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2076326822032355480",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.98,
+        "evaluatedAt": 1783870117072,
+        "inputTokens": 359,
+        "outputTokens": 108,
+        "rationale": "This is just a conversational reply and does not mention limits, caps, or usage being available again.",
+        "reasoningTokens": 60,
+        "totalTokens": 467,
+        "tweetId": "2076326822032355480",
+        "tweetText": "@maria_rcks 👀",
+        "tweetUrl": "https://x.com/thsottiaux/status/2076326822032355480",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1783840019641,
@@ -272,29 +285,31 @@
         "tweetText": "@ImLunaHey Hi Luna. Given your name you might want to try the model with the same name, however to start I recommend GPT 5.6 Sol with Medium or High reasoning effort!",
         "tweetUrl": "https://x.com/thsottiaux/status/2076115014218555809",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.94,
-        "evaluatedAt": 1783816078414,
-        "inputTokens": 364,
-        "outputTokens": 153,
-        "rationale": "This reply does not clearly say limits have reset and lacks enough context to infer that safely.",
-        "reasoningTokens": 107,
-        "totalTokens": 517,
-        "tweetId": "2076100597787578692",
-        "tweetText": "@rafaelobitten Not correct but team is triple checking!",
-        "tweetUrl": "https://x.com/thsottiaux/status/2076100597787578692",
-        "verdict": "uncertain"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 335694,
-      "totalOutputTokens": 90099,
-      "totalReasoningTokens": 49389,
-      "totalTokens": 425793
+      "totalInputTokens": 336053,
+      "totalOutputTokens": 90207,
+      "totalReasoningTokens": 49449,
+      "totalTokens": 426260
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.98,
+      "createdAt": 1783870117072,
+      "inputTokens": 359,
+      "message": "",
+      "outputTokens": 108,
+      "rationale": "This is just a conversational reply and does not mention limits, caps, or usage being available again.",
+      "reasoningTokens": 60,
+      "totalTokens": 467,
+      "tweetId": "2076326822032355480",
+      "tweetText": "@maria_rcks 👀",
+      "tweetUrl": "https://x.com/thsottiaux/status/2076326822032355480",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0,
       "createdAt": 1783867312403,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2075962321776820275",
       "type": "review_requested",
       "verdict": "uncertain"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1783782955496,
-      "inputTokens": 420,
-      "message": "",
-      "outputTokens": 67,
-      "rationale": "This post is promotional guidance about using Codex and ChatGPT Work, not about limits resetting.",
-      "reasoningTokens": 20,
-      "totalTokens": 487,
-      "tweetId": "2075961345351307739",
-      "tweetText": "If you were using Codex before, two things to do\n\n1. Keep using Codex. It is for you\n2. Tell your friends and family about ChatGPT Work who you always wanted to show Codex but they’re not as technical and don’t work with code every day\n\nand tell me how it goes",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075961345351307739",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "pZszzH7Dt_pVpcUe5nGhOY8CCakcMSk_C0mXWpN0U9PCRLykneKJ8e1Vrw",
-    "iv": "iJyp1lum-nehCtDk",
-    "tag": "ZfoNlqZoXVRrLcwFFawiIQ",
+    "ciphertext": "9g4ZdzPtiORoOfoeC3YNr6MSzXnNuA8ls5zQJEc6heoaXHaX6r85hb9cig",
+    "iv": "BhAdH8njrGzLcF6I",
+    "tag": "yzT7kPQ7B410jyWZOnO3Kg",
     "version": 1
   }
 }
