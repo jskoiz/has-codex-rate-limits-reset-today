@@ -14,16 +14,16 @@
   "updatedAt": 1783781717139,
   "automation": {
     "lastDecision": {
-      "confidence": 0.95,
-      "decidedAt": 1783806497845,
-      "rationale": "This reply has no clear mention of limits, caps, or a reset.",
-      "tweetId": "2076059884198748175",
-      "tweetUrl": "https://x.com/thsottiaux/status/2076059884198748175",
-      "verdict": "uncertain"
+      "confidence": 0.99,
+      "decidedAt": 1783815771552,
+      "rationale": "This reply does not mention limits, caps, resets, or usage becoming available again.",
+      "tweetId": "2076099271888380067",
+      "tweetUrl": "https://x.com/thsottiaux/status/2076099271888380067",
+      "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2076059884198748175",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2076059884198748175",
+    "lastSeenTweetId": "2076099271888380067",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2076099271888380067",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1783806497845,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2076059884198748175"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1783815771552,
+        "inputTokens": 362,
+        "outputTokens": 96,
+        "rationale": "This reply does not mention limits, caps, resets, or usage becoming available again.",
+        "reasoningTokens": 51,
+        "totalTokens": 458,
+        "tweetId": "2076099271888380067",
+        "tweetText": "@MatthewBerman I think it would be fine",
+        "tweetUrl": "https://x.com/thsottiaux/status/2076099271888380067",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.95,
         "evaluatedAt": 1783806497845,
@@ -279,29 +292,31 @@
         "tweetText": "@WanJIvory sorry not sorry",
         "tweetUrl": "https://x.com/thsottiaux/status/2075832329063506013",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1783751557889,
-        "inputTokens": 381,
-        "outputTokens": 95,
-        "rationale": "This reply discusses using GPT-5.6 and does not mention limits, caps, or a reset.",
-        "reasoningTokens": 46,
-        "totalTokens": 476,
-        "tweetId": "2075830097488249060",
-        "tweetText": "@theo Share the recipe. People want to know how to use GPT-5.6 Sol in CC. We don't discriminate on the harness.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2075830097488249060",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 327658,
-      "totalOutputTokens": 88059,
-      "totalReasoningTokens": 48298,
-      "totalTokens": 415717
+      "totalInputTokens": 328020,
+      "totalOutputTokens": 88155,
+      "totalReasoningTokens": 48349,
+      "totalTokens": 416175
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1783815771552,
+      "inputTokens": 362,
+      "message": "",
+      "outputTokens": 96,
+      "rationale": "This reply does not mention limits, caps, resets, or usage becoming available again.",
+      "reasoningTokens": 51,
+      "totalTokens": 458,
+      "tweetId": "2076099271888380067",
+      "tweetText": "@MatthewBerman I think it would be fine",
+      "tweetUrl": "https://x.com/thsottiaux/status/2076099271888380067",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0,
       "createdAt": 1783814549969,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2075449887190294599",
       "type": "review_requested",
       "verdict": "uncertain"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1783660636800,
-      "inputTokens": 369,
-      "message": "",
-      "outputTokens": 76,
-      "rationale": "This is just a reply asking about an image generation model and says nothing about limits or resets.",
-      "reasoningTokens": 29,
-      "totalTokens": 445,
-      "tweetId": "2075448833321177557",
-      "tweetText": "@maria_rcks What kind of low image generation model did you use for that",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075448833321177557",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "UIWj2aUAfeGVu96tbpvrfqx3Rkp0gzkCLIgIRQhAc2JbFxXwt5qdaNi6AQ",
-    "iv": "8kGY1hK9W7kzM1xU",
-    "tag": "oj-MMZgt6Ek-YdWvOX2SvA",
+    "ciphertext": "oKTBpQYjUnu0R-cje_c2lDeWO5HHx4bi_edGYrao7W3LWgLh0mSVJgkZMQ",
+    "iv": "eXcmf_K2cX2d-5SC",
+    "tag": "ghC-Ph2KVed3Xoo5B9QdNw",
     "version": 1
   }
 }
