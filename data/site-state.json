@@ -14,18 +14,31 @@
   "updatedAt": 1783829134573,
   "automation": {
     "lastDecision": {
-      "confidence": 0.98,
-      "decidedAt": 1783870117072,
-      "rationale": "This is just a conversational reply and does not mention limits, caps, or usage being available again.",
-      "tweetId": "2076326822032355480",
-      "tweetUrl": "https://x.com/thsottiaux/status/2076326822032355480",
+      "confidence": 0.99,
+      "decidedAt": 1783879055336,
+      "rationale": "This post is just commentary on model quality and a quoted Claude access extension, not a current Codex or ChatGPT…",
+      "tweetId": "2076364102612680847",
+      "tweetUrl": "https://x.com/thsottiaux/status/2076364102612680847",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2076326822032355480",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2076326822032355480",
+    "lastSeenTweetId": "2076364102612680847",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2076364102612680847",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1783879055336,
+        "inputTokens": 427,
+        "outputTokens": 120,
+        "rationale": "This post is just commentary on model quality and a quoted Claude access extension, not a current Codex or ChatGPT…",
+        "reasoningTokens": 66,
+        "totalTokens": 547,
+        "tweetId": "2076364102612680847",
+        "tweetText": "I think GPT 5.6 is pretty good",
+        "tweetUrl": "https://x.com/thsottiaux/status/2076364102612680847",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.98,
         "evaluatedAt": 1783870117072,
@@ -272,29 +285,31 @@
         "tweetText": "@theo Thank you king",
         "tweetUrl": "https://x.com/thsottiaux/status/2076117207210402250",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1783819497989,
-        "inputTokens": 392,
-        "outputTokens": 79,
-        "rationale": "This reply only recommends a model and says nothing about limits or resets.",
-        "reasoningTokens": 37,
-        "totalTokens": 471,
-        "tweetId": "2076115014218555809",
-        "tweetText": "@ImLunaHey Hi Luna. Given your name you might want to try the model with the same name, however to start I recommend GPT 5.6 Sol with Medium or High reasoning effort!",
-        "tweetUrl": "https://x.com/thsottiaux/status/2076115014218555809",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 336053,
-      "totalOutputTokens": 90207,
-      "totalReasoningTokens": 49449,
-      "totalTokens": 426260
+      "totalInputTokens": 336480,
+      "totalOutputTokens": 90327,
+      "totalReasoningTokens": 49515,
+      "totalTokens": 426807
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1783879055336,
+      "inputTokens": 427,
+      "message": "",
+      "outputTokens": 120,
+      "rationale": "This post is just commentary on model quality and a quoted Claude access extension, not a current Codex or ChatGPT…",
+      "reasoningTokens": 66,
+      "totalTokens": 547,
+      "tweetId": "2076364102612680847",
+      "tweetText": "I think GPT 5.6 is pretty good",
+      "tweetUrl": "https://x.com/thsottiaux/status/2076364102612680847",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.98,
       "createdAt": 1783870117072,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2075962392362852447",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.97,
-      "createdAt": 1783783259643,
-      "inputTokens": 359,
-      "message": "",
-      "outputTokens": 184,
-      "rationale": "This reply just says “Yes” without enough context to verify a current limit reset.",
-      "reasoningTokens": 139,
-      "totalTokens": 543,
-      "tweetId": "2075962321776820275",
-      "tweetText": "@Conor_D_Dart Yes",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075962321776820275",
-      "type": "review_requested",
-      "verdict": "uncertain"
     }
   ],
   "privateState": {
-    "ciphertext": "9g4ZdzPtiORoOfoeC3YNr6MSzXnNuA8ls5zQJEc6heoaXHaX6r85hb9cig",
-    "iv": "BhAdH8njrGzLcF6I",
-    "tag": "yzT7kPQ7B410jyWZOnO3Kg",
+    "ciphertext": "yFsFG4Wvlxzh0rChnAlCCu2YtA39HJe-xCy0TJj8bPfHGm1yA5Dq60Zziw",
+    "iv": "g6_FQJlK-6T9ZqOI",
+    "tag": "nkJfalaJLNlQHQOZo_3_9g",
     "version": 1
   }
 }
