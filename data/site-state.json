@@ -14,16 +14,16 @@
   "updatedAt": 1783781717139,
   "automation": {
     "lastDecision": {
-      "confidence": 0.11,
-      "decidedAt": 1783828519352,
-      "rationale": "This reply just says “Update” and provides no clear evidence that any Codex or ChatGPT limit has reset.",
-      "tweetId": "2076153017582354612",
-      "tweetUrl": "https://x.com/thsottiaux/status/2076153017582354612",
-      "verdict": "uncertain"
+      "confidence": 0.99,
+      "decidedAt": 1783829128368,
+      "rationale": "This reply is about a t-shirt and gives no indication that any Codex or ChatGPT limit has reset.",
+      "tweetId": "2076154770658828598",
+      "tweetUrl": "https://x.com/thsottiaux/status/2076154770658828598",
+      "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2076153017582354612",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2076153017582354612",
+    "lastSeenTweetId": "2076154770658828598",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2076154770658828598",
     "pendingReview": {
       "confidence": 0.11,
       "createdAt": 1783828519353,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2076153017582354612"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1783829128368,
+        "inputTokens": 365,
+        "outputTokens": 82,
+        "rationale": "This reply is about a t-shirt and gives no indication that any Codex or ChatGPT limit has reset.",
+        "reasoningTokens": 32,
+        "totalTokens": 447,
+        "tweetId": "2076154770658828598",
+        "tweetText": "@alencristen It was a Fruit of the Loom t-shirt",
+        "tweetUrl": "https://x.com/thsottiaux/status/2076154770658828598",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.11,
         "evaluatedAt": 1783828519353,
@@ -279,29 +292,31 @@
         "tweetText": "You know it's a good model when you grow more in 1 day than last two weeks combined.\n\nInstall the desktop app from https://t.co/K5PquKnV4q and give it a go! https://t.co/WyQwrT98Xo",
         "tweetUrl": "https://x.com/thsottiaux/status/2076021263945039876",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1783795327101,
-        "inputTokens": 366,
-        "outputTokens": 86,
-        "rationale": "This reply does not mention limits, caps, resets, or usage becoming available again.",
-        "reasoningTokens": 41,
-        "totalTokens": 452,
-        "tweetId": "2076013788881637777",
-        "tweetText": "@xikhar @ajambrosino when do we ship this?",
-        "tweetUrl": "https://x.com/thsottiaux/status/2076013788881637777",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 332350,
-      "totalOutputTokens": 89299,
-      "totalReasoningTokens": 48991,
-      "totalTokens": 421649
+      "totalInputTokens": 332715,
+      "totalOutputTokens": 89381,
+      "totalReasoningTokens": 49023,
+      "totalTokens": 422096
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1783829128368,
+      "inputTokens": 365,
+      "message": "",
+      "outputTokens": 82,
+      "rationale": "This reply is about a t-shirt and gives no indication that any Codex or ChatGPT limit has reset.",
+      "reasoningTokens": 32,
+      "totalTokens": 447,
+      "tweetId": "2076154770658828598",
+      "tweetText": "@alencristen It was a Fruit of the Loom t-shirt",
+      "tweetUrl": "https://x.com/thsottiaux/status/2076154770658828598",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.11,
       "createdAt": 1783828519353,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2075649912692437451",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1783707817119,
-      "inputTokens": 361,
-      "message": "",
-      "outputTokens": 77,
-      "rationale": "This reply only asks about the user's plan and does not indicate any limit reset.",
-      "reasoningTokens": 33,
-      "totalTokens": 438,
-      "tweetId": "2075647006878670896",
-      "tweetText": "@ShadowfetchNews Which plan are you on?",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075647006878670896",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "P1nzTKMF3DnstSKSk7XWVu0aGFHpcA0KcOuRilfyOSlM1iTqfXAWIL4k2A",
-    "iv": "y4XMz_PyNNsZ8xXo",
-    "tag": "LEz8hTbrkDcaM4hTMU4SlA",
+    "ciphertext": "A9KUHXOZDY4A8kuStAj_SNubnh-l60ydt5BheFibyORER_ABfdNfFPTDhA",
+    "iv": "eLD5fFbVvguTORWR",
+    "tag": "TWdB873DwHPBvputqrvn8g",
     "version": 1
   }
 }
