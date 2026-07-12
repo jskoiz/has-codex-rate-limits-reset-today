@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1783826945495,
-      "rationale": "This reply just thanks someone for feedback and does not mention limits or availability.",
-      "tweetId": "2076146515698184280",
-      "tweetUrl": "https://x.com/thsottiaux/status/2076146515698184280",
+      "decidedAt": 1783827248259,
+      "rationale": "This reply is a joke about Codex and does not mention limits or a reset.",
+      "tweetId": "2076147077990744237",
+      "tweetUrl": "https://x.com/thsottiaux/status/2076147077990744237",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2076146515698184280",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2076146515698184280",
+    "lastSeenTweetId": "2076147077990744237",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2076147077990744237",
     "pendingReview": {
       "confidence": 0.94,
       "createdAt": 1783816078414,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2076100597787578692"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1783827248259,
+        "inputTokens": 369,
+        "outputTokens": 80,
+        "rationale": "This reply is a joke about Codex and does not mention limits or a reset.",
+        "reasoningTokens": 35,
+        "totalTokens": 449,
+        "tweetId": "2076147077990744237",
+        "tweetText": "@laurenlself @united Sorry, codex can't fix this one yet",
+        "tweetUrl": "https://x.com/thsottiaux/status/2076147077990744237",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1783826945495,
@@ -279,29 +292,31 @@
         "tweetText": "@theaaron @OpenAIDevs @reach_vb @dkundel Will get fixed!",
         "tweetUrl": "https://x.com/thsottiaux/status/2075983211780510023",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1783786677680,
-        "inputTokens": 364,
-        "outputTokens": 83,
-        "rationale": "This reply is about enabling a setting and does not mention limits or a reset.",
-        "reasoningTokens": 39,
-        "totalTokens": 447,
-        "tweetId": "2075977043750387785",
-        "tweetText": "@interro_9 You can enable it in the settings!",
-        "tweetUrl": "https://x.com/thsottiaux/status/2075977043750387785",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 331623,
-      "totalOutputTokens": 89079,
-      "totalReasoningTokens": 48867,
-      "totalTokens": 420702
+      "totalInputTokens": 331992,
+      "totalOutputTokens": 89159,
+      "totalReasoningTokens": 48902,
+      "totalTokens": 421151
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1783827248259,
+      "inputTokens": 369,
+      "message": "",
+      "outputTokens": 80,
+      "rationale": "This reply is a joke about Codex and does not mention limits or a reset.",
+      "reasoningTokens": 35,
+      "totalTokens": 449,
+      "tweetId": "2076147077990744237",
+      "tweetText": "@laurenlself @united Sorry, codex can't fix this one yet",
+      "tweetUrl": "https://x.com/thsottiaux/status/2076147077990744237",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1783826945495,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2075646865148920283",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1783706579400,
-      "inputTokens": 823,
-      "message": "",
-      "outputTokens": 123,
-      "rationale": "The tweet explicitly says usage limits across Codex and ChatGPT Work have been reset now.",
-      "reasoningTokens": 76,
-      "totalTokens": 946,
-      "tweetId": "2075641131002700120",
-      "tweetText": "Hello beautiful people! We have reset usage limits across Codex and ChatGPT Work. And another one will come later in the day. Rejoice.\n\nNow that I have your attention, a quick update on ChatGPT Work, Codex and all the updates we shared yesterday.\n\nWe’ve spent the last 24 hours reading feedback, looking at usage patterns, and talking with many of you. The short version is that there is a *lot* of excitement for GPT 5.6 Sol, ChatGPT Work on mobile & web, but also that we didn't get everything quite right.\n\n- We made it too easy to use the highest-compute settings without making the impact on usage limits sufficiently clear.\n- We reorganized the desktop app in one bold move, making familiar things like chats and projects harder to find.\n- Our launch framing was focused on ChatGPT Work and to some of our Codex fans it made it feel like Codex was going away over time. Absolutely not our intention, we love Codex and it is here to stay.\n- And we introduced regressions for some existing multi-agent workflows, alongside a collection of rough edges in plugins and other parts of the experience.\n\nWe’re landing a first set of improvements today. We’re resetting usage twice so people can keep experimenting, changing defaults and the model picker so they don’t push people toward unnecessarily expensive settings, fixing several plugin submission issues, improving how we represent Codex in the product, and cleaning up some of the most immediate desktop problems.\n\nA larger set of improvements will land next week. We’re bringing chats and projects back into the sidebar in a more familiar and customizable way, making usage and reset timing much more visible, clarifying when to use ChatGPT Work and when to use Codex, and addressing the many other smaller pieces of great feedback we've had.\n\nThe ambition behind this launch hasn’t changed. We think bringing ChatGPT and Codex together into a workspace where people and agents can collaborate is a very important step forward. But an ambitious direction doesn’t excuse avoidable confusion or regressions in the first version.\n\nPlease keep the feedback coming. We’re moving quickly, and you should see the experience already get better with a few updates today; and substantially better again next week.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075641131002700120",
-      "type": "reset_confirmed",
-      "verdict": "reset_confirmed"
     }
   ],
   "privateState": {
-    "ciphertext": "y1ZlcsTwAqJIMxTAue3sSIvNlTjUgTm5XLxZ5i-xI8pQl7klp34zZrMlbQ",
-    "iv": "u4m34rCfLm30GKWP",
-    "tag": "_ZguPxtxD00bFtMGYKDqJw",
+    "ciphertext": "s1M_7RSb7gjhN_fTU_zWEwD1OQARnPd8oJCKCuTpPwbCqeleaAhtSEYH8g",
+    "iv": "IE4DXegTagV2Dz8G",
+    "tag": "STm8UpEg-MJ4uaje_NAmXQ",
     "version": 1
   }
 }
