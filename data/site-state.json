@@ -14,16 +14,16 @@
   "updatedAt": 1783781717139,
   "automation": {
     "lastDecision": {
-      "confidence": 0.98,
-      "decidedAt": 1783820428500,
-      "rationale": "This is a workaround tip and only mentions a possible future reset if it gets blocked, not that limits have reset now.",
-      "tweetId": "2076119366647894371",
-      "tweetUrl": "https://x.com/thsottiaux/status/2076119366647894371",
+      "confidence": 0.99,
+      "decidedAt": 1783820745040,
+      "rationale": "This reply only says something will be fixed in a future release, not that limits have reset now.",
+      "tweetId": "2076119644658970992",
+      "tweetUrl": "https://x.com/thsottiaux/status/2076119644658970992",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2076119366647894371",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2076119366647894371",
+    "lastSeenTweetId": "2076119644658970992",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2076119644658970992",
     "pendingReview": {
       "confidence": 0.94,
       "createdAt": 1783816078414,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2076100597787578692"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1783820745040,
+        "inputTokens": 360,
+        "outputTokens": 91,
+        "rationale": "This reply only says something will be fixed in a future release, not that limits have reset now.",
+        "reasoningTokens": 43,
+        "totalTokens": 451,
+        "tweetId": "2076119644658970992",
+        "tweetText": "@scaling01 Fixed in next release",
+        "tweetUrl": "https://x.com/thsottiaux/status/2076119644658970992",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.98,
         "evaluatedAt": 1783820428500,
@@ -279,29 +292,31 @@
         "tweetText": "@alright_mark Exciting",
         "tweetUrl": "https://x.com/thsottiaux/status/2075962392362852447",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.97,
-        "evaluatedAt": 1783783259643,
-        "inputTokens": 359,
-        "outputTokens": 184,
-        "rationale": "This reply just says “Yes” without enough context to verify a current limit reset.",
-        "reasoningTokens": 139,
-        "totalTokens": 543,
-        "tweetId": "2075962321776820275",
-        "tweetText": "@Conor_D_Dart Yes",
-        "tweetUrl": "https://x.com/thsottiaux/status/2075962321776820275",
-        "verdict": "uncertain"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 329762,
-      "totalOutputTokens": 88605,
-      "totalReasoningTokens": 48616,
-      "totalTokens": 418367
+      "totalInputTokens": 330122,
+      "totalOutputTokens": 88696,
+      "totalReasoningTokens": 48659,
+      "totalTokens": 418818
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1783820745040,
+      "inputTokens": 360,
+      "message": "",
+      "outputTokens": 91,
+      "rationale": "This reply only says something will be fixed in a future release, not that limits have reset now.",
+      "reasoningTokens": 43,
+      "totalTokens": 451,
+      "tweetId": "2076119644658970992",
+      "tweetText": "@scaling01 Fixed in next release",
+      "tweetUrl": "https://x.com/thsottiaux/status/2076119644658970992",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.98,
       "createdAt": 1783820428500,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2075581691025125655",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1783692248293,
-      "inputTokens": 402,
-      "message": "",
-      "outputTokens": 83,
-      "rationale": "This is just usage advice about model tiers and says nothing about limits resetting or being available again.",
-      "reasoningTokens": 36,
-      "totalTokens": 485,
-      "tweetId": "2075581430055493909",
-      "tweetText": "I recommend using GPT-5.6 Sol Medium as your daily driver, and for really hard problems to switch to Extra High. \n\nIf you want the absolute best and are not afraid to burn usage fast, then Ultra is a beast.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075581430055493909",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "LUAHyQy1ngQkYVNrDH1XNKva0-hTqBkGoWz6rIMX7Y1cr1UubedEW9_Z_A",
-    "iv": "QieCb2WRv4c51AkO",
-    "tag": "MXY2Vp4oRR2Y4w8oSccuTw",
+    "ciphertext": "cKiQ5IOFixJfpYw0B0vhpbKqJzm3eJ69QCSJNLFh-migyBQDiY6zR0nr9A",
+    "iv": "r21u-Js1QybB26TQ",
+    "tag": "B643Vv_KdXmnZm5mV9yFHg",
     "version": 1
   }
 }
