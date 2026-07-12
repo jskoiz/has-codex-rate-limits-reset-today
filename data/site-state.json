@@ -14,16 +14,16 @@
   "updatedAt": 1783781717139,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1783820118324,
-      "rationale": "This reply is just a thank-you and does not mention limits or availability.",
-      "tweetId": "2076117207210402250",
-      "tweetUrl": "https://x.com/thsottiaux/status/2076117207210402250",
+      "confidence": 0.98,
+      "decidedAt": 1783820428500,
+      "rationale": "This is a workaround tip and only mentions a possible future reset if it gets blocked, not that limits have reset now.",
+      "tweetId": "2076119366647894371",
+      "tweetUrl": "https://x.com/thsottiaux/status/2076119366647894371",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2076117207210402250",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2076117207210402250",
+    "lastSeenTweetId": "2076119366647894371",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2076119366647894371",
     "pendingReview": {
       "confidence": 0.94,
       "createdAt": 1783816078414,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2076100597787578692"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.98,
+        "evaluatedAt": 1783820428500,
+        "inputTokens": 628,
+        "outputTokens": 139,
+        "rationale": "This is a workaround tip and only mentions a possible future reset if it gets blocked, not that limits have reset now.",
+        "reasoningTokens": 87,
+        "totalTokens": 767,
+        "tweetId": "2076119366647894371",
+        "tweetText": "If you aren't yet bold enough to install the Codex app, you can stay in the presence of your orange crab and point it at GPT 5.6 Sol. Takes 5 minutes. Kudos to Theo for explaining one of the ways to get this done.\n\nStep 1: Install CLIProxyAPI\nStep 2: Connect\nStep 3: Define following alias and enjoy claudex\n\n```\nalias claudex='CLAUDE_CODE_SUBAGENT_MODEL=gpt-5.6-sol \\\nCLAUDE_CODE_ALWAYS_ENABLE_EFFORT=1 \\\nCLAUDE_CODE_MAX_TOOL_USE_CONCURRENCY=3 \\\nENABLE_TOOL_SEARCH=false \\\nclaude --model gpt-5.6-sol'\n```\n\nIf this gets blocked, I owe you a reset.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2076119366647894371",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1783820118324,
@@ -279,29 +292,31 @@
         "tweetText": "@Conor_D_Dart Yes",
         "tweetUrl": "https://x.com/thsottiaux/status/2075962321776820275",
         "verdict": "uncertain"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1783782955496,
-        "inputTokens": 420,
-        "outputTokens": 67,
-        "rationale": "This post is promotional guidance about using Codex and ChatGPT Work, not about limits resetting.",
-        "reasoningTokens": 20,
-        "totalTokens": 487,
-        "tweetId": "2075961345351307739",
-        "tweetText": "If you were using Codex before, two things to do\n\n1. Keep using Codex. It is for you\n2. Tell your friends and family about ChatGPT Work who you always wanted to show Codex but they’re not as technical and don’t work with code every day\n\nand tell me how it goes",
-        "tweetUrl": "https://x.com/thsottiaux/status/2075961345351307739",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 329134,
-      "totalOutputTokens": 88466,
-      "totalReasoningTokens": 48529,
-      "totalTokens": 417600
+      "totalInputTokens": 329762,
+      "totalOutputTokens": 88605,
+      "totalReasoningTokens": 48616,
+      "totalTokens": 418367
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.98,
+      "createdAt": 1783820428500,
+      "inputTokens": 628,
+      "message": "",
+      "outputTokens": 139,
+      "rationale": "This is a workaround tip and only mentions a possible future reset if it gets blocked, not that limits have reset now.",
+      "reasoningTokens": 87,
+      "totalTokens": 767,
+      "tweetId": "2076119366647894371",
+      "tweetText": "If you aren't yet bold enough to install the Codex app, you can stay in the presence of your orange crab and point it at GPT 5.6 Sol. Takes 5 minutes. Kudos to Theo for explaining one of the ways to get this done.\n\nStep 1: Install CLIProxyAPI\nStep 2: Connect\nStep 3: Define following alias and enjoy claudex\n\n```\nalias claudex='CLAUDE_CODE_SUBAGENT_MODEL=gpt-5.6-sol \\\nCLAUDE_CODE_ALWAYS_ENABLE_EFFORT=1 \\\nCLAUDE_CODE_MAX_TOOL_USE_CONCURRENCY=3 \\\nENABLE_TOOL_SEARCH=false \\\nclaude --model gpt-5.6-sol'\n```\n\nIf this gets blocked, I owe you a reset.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2076119366647894371",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1783820118324,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2075581430055493909",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.98,
-      "createdAt": 1783692245574,
-      "inputTokens": 372,
-      "message": "",
-      "outputTokens": 102,
-      "rationale": "This reply only notes the user's `ultra` plan and does not indicate any limit or cap has reset.",
-      "reasoningTokens": 52,
-      "totalTokens": 474,
-      "tweetId": "2075580693627970030",
-      "tweetText": "@Youssofal_ I would like to point out that you are on `ultra`!",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075580693627970030",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "QPgs1gV7pHzUue4IRNy-RIG-Pocv87-Ejk6Ny6XAVMnwR9ZQgN5F9e0_og",
-    "iv": "nGWiJa6OFD4d-QEV",
-    "tag": "AW0o97dyUoz8KfQjrjpdYw",
+    "ciphertext": "LUAHyQy1ngQkYVNrDH1XNKva0-hTqBkGoWz6rIMX7Y1cr1UubedEW9_Z_A",
+    "iv": "QieCb2WRv4c51AkO",
+    "tag": "MXY2Vp4oRR2Y4w8oSccuTw",
     "version": 1
   }
 }
