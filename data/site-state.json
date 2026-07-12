@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1783831947700,
-      "rationale": "This reply is conversational and does not mention limits, caps, or usage being available again.",
-      "tweetId": "2076166992961409173",
-      "tweetUrl": "https://x.com/thsottiaux/status/2076166992961409173",
+      "decidedAt": 1783835668460,
+      "rationale": "This reply is about a ChatGPT app feature and does not mention limits or resets.",
+      "tweetId": "2076182200400375979",
+      "tweetUrl": "https://x.com/thsottiaux/status/2076182200400375979",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2076166992961409173",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2076166992961409173",
+    "lastSeenTweetId": "2076182200400375979",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2076182200400375979",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1783835668460,
+        "inputTokens": 388,
+        "outputTokens": 84,
+        "rationale": "This reply is about a ChatGPT app feature and does not mention limits or resets.",
+        "reasoningTokens": 39,
+        "totalTokens": 472,
+        "tweetId": "2076182200400375979",
+        "tweetText": "@hobdaydesign We've had this for a while. Install the new ChatGPT app and use /side\n\nhttps://t.co/7SI5Jja9eO",
+        "tweetUrl": "https://x.com/thsottiaux/status/2076182200400375979",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1783831947700,
@@ -272,29 +285,31 @@
         "tweetText": "@weswinder Luna!",
         "tweetUrl": "https://x.com/thsottiaux/status/2076059260845515205",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.98,
-        "evaluatedAt": 1783805261867,
-        "inputTokens": 361,
-        "outputTokens": 88,
-        "rationale": "This reply is conversational and does not mention limits, caps, or usage resetting.",
-        "reasoningTokens": 44,
-        "totalTokens": 449,
-        "tweetId": "2076054852510310733",
-        "tweetText": "@pwgallagher You get it Peter",
-        "tweetUrl": "https://x.com/thsottiaux/status/2076054852510310733",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 334165,
-      "totalOutputTokens": 89753,
-      "totalReasoningTokens": 49221,
-      "totalTokens": 423918
+      "totalInputTokens": 334553,
+      "totalOutputTokens": 89837,
+      "totalReasoningTokens": 49260,
+      "totalTokens": 424390
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1783835668460,
+      "inputTokens": 388,
+      "message": "",
+      "outputTokens": 84,
+      "rationale": "This reply is about a ChatGPT app feature and does not mention limits or resets.",
+      "reasoningTokens": 39,
+      "totalTokens": 472,
+      "tweetId": "2076182200400375979",
+      "tweetText": "@hobdaydesign We've had this for a while. Install the new ChatGPT app and use /side\n\nhttps://t.co/7SI5Jja9eO",
+      "tweetUrl": "https://x.com/thsottiaux/status/2076182200400375979",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0,
       "createdAt": 1783833183828,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2075832329063506013",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1783751557889,
-      "inputTokens": 381,
-      "message": "",
-      "outputTokens": 95,
-      "rationale": "This reply discusses using GPT-5.6 and does not mention limits, caps, or a reset.",
-      "reasoningTokens": 46,
-      "totalTokens": 476,
-      "tweetId": "2075830097488249060",
-      "tweetText": "@theo Share the recipe. People want to know how to use GPT-5.6 Sol in CC. We don't discriminate on the harness.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075830097488249060",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "OoEYRhsjcuSdMN3BDmNHptaRFsfpGS-RC-77lDQBHeT0Q3E38C8szcRK9w",
-    "iv": "GjW6dtll-NjqJiMy",
-    "tag": "PH3bKbzqhUZVNj4BneCsSA",
+    "ciphertext": "woYHtQVi3TTQmE5NLoOMW6X2xeiFVoWJH9rdC1fLerbEcO306EEyiTkmbA",
+    "iv": "NSuhaopesgoNb_dZ",
+    "tag": "dBdSvfYeCyea-W1SfMh6hA",
     "version": 1
   }
 }
