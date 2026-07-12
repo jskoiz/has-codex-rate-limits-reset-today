@@ -14,16 +14,16 @@
   "updatedAt": 1783879365205,
   "automation": {
     "lastDecision": {
-      "confidence": 0.95,
-      "decidedAt": 1783892040237,
-      "rationale": "This post is about granting banked reset credits and a future rollout tomorrow, not that limits have reset for users…",
-      "tweetId": "2076418567143408112",
-      "tweetUrl": "https://x.com/thsottiaux/status/2076418567143408112",
+      "confidence": 0.99,
+      "decidedAt": 1783892359685,
+      "rationale": "This reply is conversational and does not mention limits, caps, or usage becoming available again.",
+      "tweetId": "2076420022239686812",
+      "tweetUrl": "https://x.com/thsottiaux/status/2076420022239686812",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2076418567143408112",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2076418567143408112",
+    "lastSeenTweetId": "2076420022239686812",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2076420022239686812",
     "pendingReview": {
       "confidence": 0.06,
       "createdAt": 1783880297233,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2076369340375699589"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1783892359685,
+        "inputTokens": 363,
+        "outputTokens": 97,
+        "rationale": "This reply is conversational and does not mention limits, caps, or usage becoming available again.",
+        "reasoningTokens": 51,
+        "totalTokens": 460,
+        "tweetId": "2076420022239686812",
+        "tweetText": "@_Mira___Mira_ Fair is fair",
+        "tweetUrl": "https://x.com/thsottiaux/status/2076420022239686812",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.95,
         "evaluatedAt": 1783892040237,
@@ -279,29 +292,31 @@
         "tweetText": "@RhysSullivan We were also surprised",
         "tweetUrl": "https://x.com/thsottiaux/status/2076121836161761613",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1783820747592,
-        "inputTokens": 358,
-        "outputTokens": 103,
-        "rationale": "This reply does not mention limits, caps, or a reset.",
-        "reasoningTokens": 62,
-        "totalTokens": 461,
-        "tweetId": "2076120416742236519",
-        "tweetText": "@MonospaceNg Granted",
-        "tweetUrl": "https://x.com/thsottiaux/status/2076120416742236519",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 337853,
-      "totalOutputTokens": 91010,
-      "totalReasoningTokens": 50046,
-      "totalTokens": 428863
+      "totalInputTokens": 338216,
+      "totalOutputTokens": 91107,
+      "totalReasoningTokens": 50097,
+      "totalTokens": 429323
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1783892359685,
+      "inputTokens": 363,
+      "message": "",
+      "outputTokens": 97,
+      "rationale": "This reply is conversational and does not mention limits, caps, or usage becoming available again.",
+      "reasoningTokens": 51,
+      "totalTokens": 460,
+      "tweetId": "2076420022239686812",
+      "tweetText": "@_Mira___Mira_ Fair is fair",
+      "tweetUrl": "https://x.com/thsottiaux/status/2076420022239686812",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.95,
       "createdAt": 1783892040237,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2075977043750387785",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1783783584875,
-      "inputTokens": 363,
-      "message": "",
-      "outputTokens": 73,
-      "rationale": "This reply is conversational and does not mention limits, caps, or any reset.",
-      "reasoningTokens": 29,
-      "totalTokens": 436,
-      "tweetId": "2075964506342412717",
-      "tweetText": "@emollick Sounds epic. Hope you record that",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075964506342412717",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "vIlWD7ZXvwH8bvQkyEnkUl-g2rxh4B45fQZtr0GiPx-74tpBIaM4t7BOwQ",
-    "iv": "jYYIrL9nnMka9MAF",
-    "tag": "HnUYi_zy3ow3BXYxpwm8MA",
+    "ciphertext": "seMrTu88WWBAPj_CnvuPHRVxAOVDJffJb5jEZT6CQHMxbRyBlS-eeagGyQ",
+    "iv": "2n9tZ5wHyG_e4-uc",
+    "tag": "SR5ZsX1WOc82IkBgnIX0dw",
     "version": 1
   }
 }
