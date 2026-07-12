@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1783819497989,
-      "rationale": "This reply only recommends a model and says nothing about limits or resets.",
-      "tweetId": "2076115014218555809",
-      "tweetUrl": "https://x.com/thsottiaux/status/2076115014218555809",
+      "decidedAt": 1783820118324,
+      "rationale": "This reply is just a thank-you and does not mention limits or availability.",
+      "tweetId": "2076117207210402250",
+      "tweetUrl": "https://x.com/thsottiaux/status/2076117207210402250",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2076115014218555809",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2076115014218555809",
+    "lastSeenTweetId": "2076117207210402250",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2076117207210402250",
     "pendingReview": {
       "confidence": 0.94,
       "createdAt": 1783816078414,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2076100597787578692"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1783820118324,
+        "inputTokens": 358,
+        "outputTokens": 79,
+        "rationale": "This reply is just a thank-you and does not mention limits or availability.",
+        "reasoningTokens": 36,
+        "totalTokens": 437,
+        "tweetId": "2076117207210402250",
+        "tweetText": "@theo Thank you king",
+        "tweetUrl": "https://x.com/thsottiaux/status/2076117207210402250",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1783819497989,
@@ -279,29 +292,31 @@
         "tweetText": "If you were using Codex before, two things to do\n\n1. Keep using Codex. It is for you\n2. Tell your friends and family about ChatGPT Work who you always wanted to show Codex but they’re not as technical and don’t work with code every day\n\nand tell me how it goes",
         "tweetUrl": "https://x.com/thsottiaux/status/2075961345351307739",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.96,
-        "evaluatedAt": 1783781717139,
-        "inputTokens": 468,
-        "outputTokens": 188,
-        "rationale": "The tweet explicitly says resets were applied automatically, indicating limits were reset now.",
-        "reasoningTokens": 144,
-        "totalTokens": 656,
-        "tweetId": "2075956058942820790",
-        "tweetText": "We applied the resets automatically because of two reasons.\n\n1. It is not possible to use a banked reset from the web or mobile ChatGPT. We are launching it next week and it will require a bit of education for all our new ChatGPT Work users.\n2. The system is under a lot of pressure and full resets are more predictable in how they affect load on the infrastructure. This helps us keeping things stable in the first 48 hours of the launch.\n\nAnd we will use banked resets once we are back in the normal operating cadence!",
-        "tweetUrl": "https://x.com/thsottiaux/status/2075956058942820790",
-        "verdict": "reset_confirmed"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 328776,
-      "totalOutputTokens": 88387,
-      "totalReasoningTokens": 48493,
-      "totalTokens": 417163
+      "totalInputTokens": 329134,
+      "totalOutputTokens": 88466,
+      "totalReasoningTokens": 48529,
+      "totalTokens": 417600
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1783820118324,
+      "inputTokens": 358,
+      "message": "",
+      "outputTokens": 79,
+      "rationale": "This reply is just a thank-you and does not mention limits or availability.",
+      "reasoningTokens": 36,
+      "totalTokens": 437,
+      "tweetId": "2076117207210402250",
+      "tweetText": "@theo Thank you king",
+      "tweetUrl": "https://x.com/thsottiaux/status/2076117207210402250",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1783819497989,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2075580693627970030",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0,
-      "createdAt": 1783689158751,
-      "inputTokens": 0,
-      "message": "GitHub raw read failed with 401",
-      "outputTokens": 0,
-      "rationale": "",
-      "reasoningTokens": 0,
-      "totalTokens": 0,
-      "tweetId": null,
-      "tweetText": "",
-      "tweetUrl": null,
-      "type": "error",
-      "verdict": null
     }
   ],
   "privateState": {
-    "ciphertext": "8qonx9akcKRhov5pNKgAjksSJc8VRIKfS0j5tMSFrFC-XPDgArM9KG5ohQ",
-    "iv": "4PVdyRumSt09U7ZQ",
-    "tag": "573MMOO9Ai4UJO30PVUcYA",
+    "ciphertext": "QPgs1gV7pHzUue4IRNy-RIG-Pocv87-Ejk6Ny6XAVMnwR9ZQgN5F9e0_og",
+    "iv": "nGWiJa6OFD4d-QEV",
+    "tag": "AW0o97dyUoz8KfQjrjpdYw",
     "version": 1
   }
 }
