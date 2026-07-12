@@ -21,7 +21,7 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2076201049086648705",
       "verdict": "not_reset"
     },
-    "lastError": null,
+    "lastError": "Tweet fetch failed: Tweet search failed: Request failed with status code 403; timeline fallback failed: Request failed with status code 403 (Request failed with status code 403) (Tweet search failed: Request failed with status code 403; timeline fallback failed: Request failed with status code 403)",
     "lastSeenTweetId": "2076201049086648705",
     "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2076201049086648705",
     "pendingReview": null,
@@ -295,6 +295,21 @@
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0,
+      "createdAt": 1783855184968,
+      "inputTokens": 0,
+      "message": "Tweet fetch failed: Tweet search failed: Request failed with status code 403; timeline fallback failed: Request failed with status code 403 (Request failed with status code 403) (Tweet search failed: Request failed with status code 403; timeline fallback failed: Request failed with status code 403)",
+      "outputTokens": 0,
+      "rationale": "",
+      "reasoningTokens": 0,
+      "totalTokens": 0,
+      "tweetId": null,
+      "tweetText": "",
+      "tweetUrl": null,
+      "type": "error",
+      "verdict": null
+    },
     {
       "confidence": 0.99,
       "createdAt": 1783840019641,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2075961345351307739",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.96,
-      "createdAt": 1783781717139,
-      "inputTokens": 468,
-      "message": "",
-      "outputTokens": 188,
-      "rationale": "The tweet explicitly says resets were applied automatically, indicating limits were reset now.",
-      "reasoningTokens": 144,
-      "totalTokens": 656,
-      "tweetId": "2075956058942820790",
-      "tweetText": "We applied the resets automatically because of two reasons.\n\n1. It is not possible to use a banked reset from the web or mobile ChatGPT. We are launching it next week and it will require a bit of education for all our new ChatGPT Work users.\n2. The system is under a lot of pressure and full resets are more predictable in how they affect load on the infrastructure. This helps us keeping things stable in the first 48 hours of the launch.\n\nAnd we will use banked resets once we are back in the normal operating cadence!",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075956058942820790",
-      "type": "reset_confirmed",
-      "verdict": "reset_confirmed"
     }
   ],
   "privateState": {
-    "ciphertext": "kWaFFLomBwoXmaZgAmrWRUJr_qNg8Pa2Lpg7Q9xKXL1i7-aOCJiUi_rDCQ",
-    "iv": "Xoc-mAzMS5uv-zP0",
-    "tag": "tDXqUlPSahZYruPBS9XBKA",
+    "ciphertext": "wYZ2iYCeCO5xD9u9Qk7Uuw4uhJ59UVpzVwd-Q9QdTdOYmkhRoRnksjvsAQ",
+    "iv": "C68w4mI8OgPI7bbw",
+    "tag": "rH5bGCBls1zAx047CdTtXw",
     "version": 1
   }
 }
