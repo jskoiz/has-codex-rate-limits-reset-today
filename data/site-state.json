@@ -10,29 +10,35 @@
     "Limits reset, go crazy",
     "You can just build things"
   ],
-  "resetAt": 1783853717139,
-  "updatedAt": 1783781717139,
+  "resetAt": 1783901134573,
+  "updatedAt": 1783829134573,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1783829130843,
-      "rationale": "This reply does not mention limits, caps, or usage becoming available again.",
-      "tweetId": "2076155274994618630",
-      "tweetUrl": "https://x.com/thsottiaux/status/2076155274994618630",
-      "verdict": "not_reset"
+      "confidence": 0.94,
+      "decidedAt": 1783829134573,
+      "rationale": "The tweet directly implies Codex users have gotten a reset now.",
+      "tweetId": "2076155461158699382",
+      "tweetUrl": "https://x.com/thsottiaux/status/2076155461158699382",
+      "verdict": "reset_confirmed"
     },
     "lastError": null,
-    "lastSeenTweetId": "2076155274994618630",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2076155274994618630",
-    "pendingReview": {
-      "confidence": 0.11,
-      "createdAt": 1783828519353,
-      "rationale": "This reply just says “Update” and provides no clear evidence that any Codex or ChatGPT limit has reset.",
-      "tweetId": "2076153017582354612",
-      "tweetText": "@gergomoricz Update",
-      "tweetUrl": "https://x.com/thsottiaux/status/2076153017582354612"
-    },
+    "lastSeenTweetId": "2076155461158699382",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2076155461158699382",
+    "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.94,
+        "evaluatedAt": 1783829134573,
+        "inputTokens": 365,
+        "outputTokens": 150,
+        "rationale": "The tweet directly implies Codex users have gotten a reset now.",
+        "reasoningTokens": 108,
+        "totalTokens": 515,
+        "tweetId": "2076155461158699382",
+        "tweetText": "No reset for the wicked. Only for the Codex users.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2076155461158699382",
+        "verdict": "reset_confirmed"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1783829130843,
@@ -279,29 +285,31 @@
         "tweetText": "@tanishqk Users. Token growth is steeper.",
         "tweetUrl": "https://x.com/thsottiaux/status/2076022381467078931",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1783797180969,
-        "inputTokens": 366,
-        "outputTokens": 94,
-        "rationale": "This reply discusses user/token growth and does not indicate any rate-limit reset.",
-        "reasoningTokens": 51,
-        "totalTokens": 460,
-        "tweetId": "2076021855841132683",
-        "tweetText": "@AArdvarkErick Users. Token growth is steeper.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2076021855841132683",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 333075,
-      "totalOutputTokens": 89461,
-      "totalReasoningTokens": 49060,
-      "totalTokens": 422536
+      "totalInputTokens": 333440,
+      "totalOutputTokens": 89611,
+      "totalReasoningTokens": 49168,
+      "totalTokens": 423051
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.94,
+      "createdAt": 1783829134573,
+      "inputTokens": 365,
+      "message": "",
+      "outputTokens": 150,
+      "rationale": "The tweet directly implies Codex users have gotten a reset now.",
+      "reasoningTokens": 108,
+      "totalTokens": 515,
+      "tweetId": "2076155461158699382",
+      "tweetText": "No reset for the wicked. Only for the Codex users.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2076155461158699382",
+      "type": "reset_confirmed",
+      "verdict": "reset_confirmed"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1783829130843,
@@ -886,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2075782144593674488",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1783715530383,
-      "inputTokens": 358,
-      "message": "",
-      "outputTokens": 78,
-      "rationale": "This is just a conversational reply and does not mention any limit or reset.",
-      "reasoningTokens": 35,
-      "totalTokens": 436,
-      "tweetId": "2075678919664222361",
-      "tweetText": "@KarolCodes Ship it",
-      "tweetUrl": "https://x.com/thsottiaux/status/2075678919664222361",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "7KmLbSUjCAfiTF2JgjLsPf5V13Xh6pWnBPe1neg7_3U9ykcYA41PKWEI7A",
-    "iv": "r4ESOntKbxWbbkS_",
-    "tag": "j9T2D1M-B2ab5uEZxyRcaw",
+    "ciphertext": "uXJ9veW1Nu4s2UoxsTQ0GqB41BgCYivvSVLjAWSNCn_w4C2NOSz5khP1tg",
+    "iv": "bWFhIzyrwuT_chts",
+    "tag": "CPCnU_BmOnXbKhglg8xnvA",
     "version": 1
   }
 }
