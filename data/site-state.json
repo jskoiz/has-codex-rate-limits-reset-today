@@ -21,7 +21,7 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2076546918382264529",
       "verdict": "not_reset"
     },
-    "lastError": "GitHub raw read failed with 502",
+    "lastError": null,
     "lastSeenTweetId": "2076546918382264529",
     "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2076546918382264529",
     "pendingReview": {
@@ -904,9 +904,9 @@
     }
   ],
   "privateState": {
-    "ciphertext": "y5db9cm-tZENlHqQVRk0LFb9evTdxapb-F9wP7w7mv88buWrWfwFzchiaA",
-    "iv": "PpnzsZH8RA1UiNs4",
-    "tag": "QYQtMwsXpM1W9Kwfw3nWNg",
+    "ciphertext": "IF5SkVHjU0rpoQWYK45YuekroFJLFrH39PA6pFhVr55gUGKp7g6QwzS4Fw",
+    "iv": "znEAEMfPfk3u9iO7",
+    "tag": "0zXTOD42DakY5DsCigav9A",
     "version": 1
   }
 }
