@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1783922518285,
-      "rationale": "This reply does not mention limits, caps, resets, or renewed availability.",
-      "tweetId": "2076546918382264529",
-      "tweetUrl": "https://x.com/thsottiaux/status/2076546918382264529",
+      "decidedAt": 1783964657838,
+      "rationale": "This post is about a Codex OSS fork and does not mention limits, caps, or availability resetting.",
+      "tweetId": "2076724023338389807",
+      "tweetUrl": "https://x.com/thsottiaux/status/2076724023338389807",
       "verdict": "not_reset"
     },
-    "lastError": "Tweet fetch failed: Tweet search failed: Request failed with status code 404; timeline fallback failed: Unknown error (Unknown error) (Tweet search failed: Request failed with status code 404; timeline fallback failed: Unknown error)",
-    "lastSeenTweetId": "2076546918382264529",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2076546918382264529",
+    "lastError": null,
+    "lastSeenTweetId": "2076724023338389807",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2076724023338389807",
     "pendingReview": {
       "confidence": 0.76,
       "createdAt": 1783912259458,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2076504611264098544"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1783964657839,
+        "inputTokens": 405,
+        "outputTokens": 76,
+        "rationale": "This post is about a Codex OSS fork and does not mention limits, caps, or availability resetting.",
+        "reasoningTokens": 27,
+        "totalTokens": 481,
+        "tweetId": "2076724023338389807",
+        "tweetText": "Pretty cool to see a popular fork of Codex OSS repo with 60k stars out there with my team being top contributors (due to preserving history with the fork)\n\nKeep building\n\nhttps://t.co/ovpDi3UtiT",
+        "tweetUrl": "https://x.com/thsottiaux/status/2076724023338389807",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1783922518285,
@@ -279,29 +292,31 @@
         "tweetText": "@flyosity Next release has the fixes https://t.co/vKHuaR98br",
         "tweetUrl": "https://x.com/thsottiaux/status/2076183004008137203",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1783835668460,
-        "inputTokens": 388,
-        "outputTokens": 84,
-        "rationale": "This reply is about a ChatGPT app feature and does not mention limits or resets.",
-        "reasoningTokens": 39,
-        "totalTokens": 472,
-        "tweetId": "2076182200400375979",
-        "tweetText": "@hobdaydesign We've had this for a while. Install the new ChatGPT app and use /side\n\nhttps://t.co/7SI5Jja9eO",
-        "tweetUrl": "https://x.com/thsottiaux/status/2076182200400375979",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 342481,
-      "totalOutputTokens": 92289,
-      "totalReasoningTokens": 50826,
-      "totalTokens": 434770
+      "totalInputTokens": 342886,
+      "totalOutputTokens": 92365,
+      "totalReasoningTokens": 50853,
+      "totalTokens": 435251
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1783964657839,
+      "inputTokens": 405,
+      "message": "",
+      "outputTokens": 76,
+      "rationale": "This post is about a Codex OSS fork and does not mention limits, caps, or availability resetting.",
+      "reasoningTokens": 27,
+      "totalTokens": 481,
+      "tweetId": "2076724023338389807",
+      "tweetText": "Pretty cool to see a popular fork of Codex OSS repo with 60k stars out there with my team being top contributors (due to preserving history with the fork)\n\nKeep building\n\nhttps://t.co/ovpDi3UtiT",
+      "tweetUrl": "https://x.com/thsottiaux/status/2076724023338389807",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0,
       "createdAt": 1783964337746,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2076100597787578692",
       "type": "review_requested",
       "verdict": "uncertain"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1783815771552,
-      "inputTokens": 362,
-      "message": "",
-      "outputTokens": 96,
-      "rationale": "This reply does not mention limits, caps, resets, or usage becoming available again.",
-      "reasoningTokens": 51,
-      "totalTokens": 458,
-      "tweetId": "2076099271888380067",
-      "tweetText": "@MatthewBerman I think it would be fine",
-      "tweetUrl": "https://x.com/thsottiaux/status/2076099271888380067",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "zCFuaCx_s5_Ozq0DjNC6e2e5uMugs9ccDSyvaTVRZagMIa4Ns3L135Sl_g",
-    "iv": "4xY2KHxqkr73W7Pl",
-    "tag": "mnqf8GGbxB907Z-kdKfo2A",
+    "ciphertext": "k777RVyE59ViWx912Syw0qX6n6gs4gwER5XL2d5hKQWYM2FsGBP8As4dqQ",
+    "iv": "WJVNTHNTIO1Ns5M-",
+    "tag": "a5QZkxX7AUTiJhnoN_meTQ",
     "version": 1
   }
 }
