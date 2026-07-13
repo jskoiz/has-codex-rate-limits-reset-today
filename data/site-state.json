@@ -14,25 +14,38 @@
   "updatedAt": 1783910098871,
   "automation": {
     "lastDecision": {
-      "confidence": 0.9,
-      "decidedAt": 1783910410481,
-      "rationale": "This reply is not explicit about limits resetting and relies on missing context from another post.",
-      "tweetId": "2076495484554994032",
-      "tweetUrl": "https://x.com/thsottiaux/status/2076495484554994032",
+      "confidence": 0.76,
+      "decidedAt": 1783912259458,
+      "rationale": "It hints something may have propagated, but it does not clearly say rate limits or caps have reset.",
+      "tweetId": "2076504611264098544",
+      "tweetUrl": "https://x.com/thsottiaux/status/2076504611264098544",
       "verdict": "uncertain"
     },
     "lastError": null,
-    "lastSeenTweetId": "2076495484554994032",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2076495484554994032",
+    "lastSeenTweetId": "2076504611264098544",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2076504611264098544",
     "pendingReview": {
-      "confidence": 0.9,
-      "createdAt": 1783910410481,
-      "rationale": "This reply is not explicit about limits resetting and relies on missing context from another post.",
-      "tweetId": "2076495484554994032",
-      "tweetText": "@ggg78g89 It's in the post!",
-      "tweetUrl": "https://x.com/thsottiaux/status/2076495484554994032"
+      "confidence": 0.76,
+      "createdAt": 1783912259458,
+      "rationale": "It hints something may have propagated, but it does not clearly say rate limits or caps have reset.",
+      "tweetId": "2076504611264098544",
+      "tweetText": "@iruletheworldmo @AniBaddepudi Always the small propagation delay. Check now?",
+      "tweetUrl": "https://x.com/thsottiaux/status/2076504611264098544"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.76,
+        "evaluatedAt": 1783912259458,
+        "inputTokens": 371,
+        "outputTokens": 145,
+        "rationale": "It hints something may have propagated, but it does not clearly say rate limits or caps have reset.",
+        "reasoningTokens": 97,
+        "totalTokens": 516,
+        "tweetId": "2076504611264098544",
+        "tweetText": "@iruletheworldmo @AniBaddepudi Always the small propagation delay. Check now?",
+        "tweetUrl": "https://x.com/thsottiaux/status/2076504611264098544",
+        "verdict": "uncertain"
+      },
       {
         "confidence": 0.9,
         "evaluatedAt": 1783910410481,
@@ -279,29 +292,31 @@
         "tweetText": "No reset for the wicked. Only for the Codex users.",
         "tweetUrl": "https://x.com/thsottiaux/status/2076155461158699382",
         "verdict": "reset_confirmed"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1783829130843,
-        "inputTokens": 360,
-        "outputTokens": 80,
-        "rationale": "This reply does not mention limits, caps, or usage becoming available again.",
-        "reasoningTokens": 37,
-        "totalTokens": 440,
-        "tweetId": "2076155274994618630",
-        "tweetText": "@alencristen Nobody got that one",
-        "tweetUrl": "https://x.com/thsottiaux/status/2076155274994618630",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 340770,
-      "totalOutputTokens": 91894,
-      "totalReasoningTokens": 50610,
-      "totalTokens": 432664
+      "totalInputTokens": 341141,
+      "totalOutputTokens": 92039,
+      "totalReasoningTokens": 50707,
+      "totalTokens": 433180
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.76,
+      "createdAt": 1783912259458,
+      "inputTokens": 371,
+      "message": "",
+      "outputTokens": 145,
+      "rationale": "It hints something may have propagated, but it does not clearly say rate limits or caps have reset.",
+      "reasoningTokens": 97,
+      "totalTokens": 516,
+      "tweetId": "2076504611264098544",
+      "tweetText": "@iruletheworldmo @AniBaddepudi Always the small propagation delay. Check now?",
+      "tweetUrl": "https://x.com/thsottiaux/status/2076504611264098544",
+      "type": "review_requested",
+      "verdict": "uncertain"
+    },
     {
       "confidence": 0.9,
       "createdAt": 1783910410481,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2076054852510310733",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.96,
-      "createdAt": 1783804953465,
-      "inputTokens": 390,
-      "message": "",
-      "outputTokens": 151,
-      "rationale": "It discusses usage-limit resets in general via a poster, not that limits have reset and are available again now.",
-      "reasoningTokens": 101,
-      "totalTokens": 541,
-      "tweetId": "2076054439140720719",
-      "tweetText": "New poster for our office that shows how resets of the Codex usage limits affects part of our systems. Data is beautiful. https://t.co/84DCX4XfbF",
-      "tweetUrl": "https://x.com/thsottiaux/status/2076054439140720719",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "5N1X1Dw4qBGaG1PJPjxM2BS7QVKtsoCin046i3xwUiCNeodIwbmS8jnnNQ",
-    "iv": "Sn98Mj9MdTHjBqZf",
-    "tag": "KLyi86MXcaJVpHWUs8qp3w",
+    "ciphertext": "Ck3WQqoXV_-tMRr8-00jsgI5xNLMNfxYto9QpiLIk-ofOzi17YObX1fVhg",
+    "iv": "ksZIaDCed3zD7J8f",
+    "tag": "ABbvuFpX2Mz9XxAk2ZcQ5g",
     "version": 1
   }
 }
