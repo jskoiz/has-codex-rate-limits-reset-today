@@ -14,18 +14,38 @@
   "updatedAt": 1783910098871,
   "automation": {
     "lastDecision": {
-      "confidence": 0.97,
-      "decidedAt": 1783910098871,
-      "rationale": "The main tweet explicitly says the 5h limit is temporarily not applying, meaning the cap is currently lifted.",
-      "tweetId": "2076495156757577895",
-      "tweetUrl": "https://x.com/thsottiaux/status/2076495156757577895",
-      "verdict": "reset_confirmed"
+      "confidence": 0.9,
+      "decidedAt": 1783910410481,
+      "rationale": "This reply is not explicit about limits resetting and relies on missing context from another post.",
+      "tweetId": "2076495484554994032",
+      "tweetUrl": "https://x.com/thsottiaux/status/2076495484554994032",
+      "verdict": "uncertain"
     },
     "lastError": null,
-    "lastSeenTweetId": "2076495156757577895",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2076495156757577895",
-    "pendingReview": null,
+    "lastSeenTweetId": "2076495484554994032",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2076495484554994032",
+    "pendingReview": {
+      "confidence": 0.9,
+      "createdAt": 1783910410481,
+      "rationale": "This reply is not explicit about limits resetting and relies on missing context from another post.",
+      "tweetId": "2076495484554994032",
+      "tweetText": "@ggg78g89 It's in the post!",
+      "tweetUrl": "https://x.com/thsottiaux/status/2076495484554994032"
+    },
     "recentEvaluations": [
+      {
+        "confidence": 0.9,
+        "evaluatedAt": 1783910410481,
+        "inputTokens": 362,
+        "outputTokens": 259,
+        "rationale": "This reply is not explicit about limits resetting and relies on missing context from another post.",
+        "reasoningTokens": 214,
+        "totalTokens": 621,
+        "tweetId": "2076495484554994032",
+        "tweetText": "@ggg78g89 It's in the post!",
+        "tweetUrl": "https://x.com/thsottiaux/status/2076495484554994032",
+        "verdict": "uncertain"
+      },
       {
         "confidence": 0.97,
         "evaluatedAt": 1783910098871,
@@ -272,29 +292,31 @@
         "tweetText": "@alencristen Nobody got that one",
         "tweetUrl": "https://x.com/thsottiaux/status/2076155274994618630",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1783829128368,
-        "inputTokens": 365,
-        "outputTokens": 82,
-        "rationale": "This reply is about a t-shirt and gives no indication that any Codex or ChatGPT limit has reset.",
-        "reasoningTokens": 32,
-        "totalTokens": 447,
-        "tweetId": "2076154770658828598",
-        "tweetText": "@alencristen It was a Fruit of the Loom t-shirt",
-        "tweetUrl": "https://x.com/thsottiaux/status/2076154770658828598",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 340408,
-      "totalOutputTokens": 91635,
-      "totalReasoningTokens": 50396,
-      "totalTokens": 432043
+      "totalInputTokens": 340770,
+      "totalOutputTokens": 91894,
+      "totalReasoningTokens": 50610,
+      "totalTokens": 432664
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.9,
+      "createdAt": 1783910410481,
+      "inputTokens": 362,
+      "message": "",
+      "outputTokens": 259,
+      "rationale": "This reply is not explicit about limits resetting and relies on missing context from another post.",
+      "reasoningTokens": 214,
+      "totalTokens": 621,
+      "tweetId": "2076495484554994032",
+      "tweetText": "@ggg78g89 It's in the post!",
+      "tweetUrl": "https://x.com/thsottiaux/status/2076495484554994032",
+      "type": "review_requested",
+      "verdict": "uncertain"
+    },
     {
       "confidence": 0.97,
       "createdAt": 1783910098871,
@@ -879,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2076054439140720719",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.98,
-      "createdAt": 1783797485772,
-      "inputTokens": 364,
-      "message": "",
-      "outputTokens": 88,
-      "rationale": "This reply discusses user and token growth, not rate limits or a reset.",
-      "reasoningTokens": 45,
-      "totalTokens": 452,
-      "tweetId": "2076022381467078931",
-      "tweetText": "@tanishqk Users. Token growth is steeper.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2076022381467078931",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "hUTmD02uZC0gg-rLo2eCKBJ4ljxxLGWtYCYynMiNvmuzTnP7gBnzIUAkfQ",
-    "iv": "qJ7brPM4RSe-jffR",
-    "tag": "TRhacgq3sQsu6fDN_VVVzA",
+    "ciphertext": "5N1X1Dw4qBGaG1PJPjxM2BS7QVKtsoCin046i3xwUiCNeodIwbmS8jnnNQ",
+    "iv": "Sn98Mj9MdTHjBqZf",
+    "tag": "KLyi86MXcaJVpHWUs8qp3w",
     "version": 1
   }
 }
