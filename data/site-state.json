@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1783921577016,
-      "rationale": "This discusses usage charging and context tuning, not a current reset or lifting of limits.",
-      "tweetId": "2076543065045795309",
-      "tweetUrl": "https://x.com/thsottiaux/status/2076543065045795309",
+      "decidedAt": 1783922518285,
+      "rationale": "This reply does not mention limits, caps, resets, or renewed availability.",
+      "tweetId": "2076546918382264529",
+      "tweetUrl": "https://x.com/thsottiaux/status/2076546918382264529",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2076543065045795309",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2076543065045795309",
+    "lastSeenTweetId": "2076546918382264529",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2076546918382264529",
     "pendingReview": {
       "confidence": 0.76,
       "createdAt": 1783912259458,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2076504611264098544"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1783922518285,
+        "inputTokens": 361,
+        "outputTokens": 86,
+        "rationale": "This reply does not mention limits, caps, resets, or renewed availability.",
+        "reasoningTokens": 43,
+        "totalTokens": 447,
+        "tweetId": "2076546918382264529",
+        "tweetText": "@maria_rcks You all are adults",
+        "tweetUrl": "https://x.com/thsottiaux/status/2076546918382264529",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1783921577016,
@@ -279,29 +292,31 @@
         "tweetText": "@hobdaydesign We've had this for a while. Install the new ChatGPT app and use /side\n\nhttps://t.co/7SI5Jja9eO",
         "tweetUrl": "https://x.com/thsottiaux/status/2076182200400375979",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1783831947700,
-        "inputTokens": 357,
-        "outputTokens": 70,
-        "rationale": "This reply is conversational and does not mention limits, caps, or usage being available again.",
-        "reasoningTokens": 24,
-        "totalTokens": 427,
-        "tweetId": "2076166992961409173",
-        "tweetText": "@xeophon Pro tip",
-        "tweetUrl": "https://x.com/thsottiaux/status/2076166992961409173",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 342120,
-      "totalOutputTokens": 92203,
-      "totalReasoningTokens": 50783,
-      "totalTokens": 434323
+      "totalInputTokens": 342481,
+      "totalOutputTokens": 92289,
+      "totalReasoningTokens": 50826,
+      "totalTokens": 434770
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1783922518285,
+      "inputTokens": 361,
+      "message": "",
+      "outputTokens": 86,
+      "rationale": "This reply does not mention limits, caps, resets, or renewed availability.",
+      "reasoningTokens": 43,
+      "totalTokens": 447,
+      "tweetId": "2076546918382264529",
+      "tweetText": "@maria_rcks You all are adults",
+      "tweetUrl": "https://x.com/thsottiaux/status/2076546918382264529",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1783921577016,
@@ -886,27 +901,12 @@
       "tweetUrl": null,
       "type": "error",
       "verdict": null
-    },
-    {
-      "confidence": 0.95,
-      "createdAt": 1783806497845,
-      "inputTokens": 359,
-      "message": "",
-      "outputTokens": 107,
-      "rationale": "This reply has no clear mention of limits, caps, or a reset.",
-      "reasoningTokens": 64,
-      "totalTokens": 466,
-      "tweetId": "2076059884198748175",
-      "tweetText": "@MattColeman7 Me too!",
-      "tweetUrl": "https://x.com/thsottiaux/status/2076059884198748175",
-      "type": "review_requested",
-      "verdict": "uncertain"
     }
   ],
   "privateState": {
-    "ciphertext": "PJtjkYFOQc0HCplJnc4E4t9SdcqyEHqqW0iu-kI_ygD_HhdWuOr4mflR7Q",
-    "iv": "1VRdfaUzNlIEBrYg",
-    "tag": "A5-lXdbhsDWT_oGf9RNhnQ",
+    "ciphertext": "yjonuK5dchb-h3na1RWczBLtpu4ZUTvCp_ZtfGoLOkNGpj9lBBO5f9E-AQ",
+    "iv": "o24ZiCndvD7FTJl8",
+    "tag": "eo5BOhUbF6_BbjTONq7bEg",
     "version": 1
   }
 }
