@@ -10,29 +10,35 @@
     "Limits reset, go crazy",
     "You can just build things"
   ],
-  "resetAt": 1783951365205,
-  "updatedAt": 1783879365205,
+  "resetAt": 1783982098871,
+  "updatedAt": 1783910098871,
   "automation": {
     "lastDecision": {
-      "confidence": 0.98,
-      "decidedAt": 1783901985677,
-      "rationale": "This reply discusses paid subscription types and does not indicate any rate limit or usage reset.",
-      "tweetId": "2076460408437887268",
-      "tweetUrl": "https://x.com/thsottiaux/status/2076460408437887268",
-      "verdict": "not_reset"
+      "confidence": 0.97,
+      "decidedAt": 1783910098871,
+      "rationale": "The main tweet explicitly says the 5h limit is temporarily not applying, meaning the cap is currently lifted.",
+      "tweetId": "2076495156757577895",
+      "tweetUrl": "https://x.com/thsottiaux/status/2076495156757577895",
+      "verdict": "reset_confirmed"
     },
     "lastError": null,
-    "lastSeenTweetId": "2076460408437887268",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2076460408437887268",
-    "pendingReview": {
-      "confidence": 0.06,
-      "createdAt": 1783880297233,
-      "rationale": "This reply just says “Yes” and does not by itself clearly indicate a current limit reset.",
-      "tweetId": "2076369340375699589",
-      "tweetText": "@mweinbach Yes",
-      "tweetUrl": "https://x.com/thsottiaux/status/2076369340375699589"
-    },
+    "lastSeenTweetId": "2076495156757577895",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2076495156757577895",
+    "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.97,
+        "evaluatedAt": 1783910098871,
+        "inputTokens": 710,
+        "outputTokens": 207,
+        "rationale": "The main tweet explicitly says the 5h limit is temporarily not applying, meaning the cap is currently lifted.",
+        "reasoningTokens": 156,
+        "totalTokens": 917,
+        "tweetId": "2076495156757577895",
+        "tweetText": "Updates for Codex and ChatGPT Work users. No nerfing, only good stuff!\n\n- We have landed inference optimizations and are passing down savings to all the subscriptions for GPT-5.6 Sol. That should result in around 10% more usage on its own.\n- We noticed that by changing the context size limit in the product to 372k for GPT-5.6 Sol, up from 272k for GPT-5.5, it resulted in more usage being charged than intended. We have reverted to 272k and will work to roll back out to 372k in the days to come. You should notice that usage drains significantly less after this change.\n- To understand where the extra usage was coming from, we ran some experiments where reasoning efforts were changed (referred to as juice values under the hood) and have reverted this.\n- There is slightly more usage of multi-agent than intended in high and xhigh reasoning effort, we are fixing this going forward. Also fixing a small other thing we noticed with auto-review where we can be more efficient.\n\nAnd we continue to have the 5h limit temporarily not apply. Enjoy the rest of the weekend!",
+        "tweetUrl": "https://x.com/thsottiaux/status/2076495156757577895",
+        "verdict": "reset_confirmed"
+      },
       {
         "confidence": 0.98,
         "evaluatedAt": 1783901985677,
@@ -279,29 +285,31 @@
         "tweetText": "@alencristen It was a Fruit of the Loom t-shirt",
         "tweetUrl": "https://x.com/thsottiaux/status/2076154770658828598",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.11,
-        "evaluatedAt": 1783828519353,
-        "inputTokens": 358,
-        "outputTokens": 140,
-        "rationale": "This reply just says “Update” and provides no clear evidence that any Codex or ChatGPT limit has reset.",
-        "reasoningTokens": 89,
-        "totalTokens": 498,
-        "tweetId": "2076153017582354612",
-        "tweetText": "@gergomoricz Update",
-        "tweetUrl": "https://x.com/thsottiaux/status/2076153017582354612",
-        "verdict": "uncertain"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 339698,
-      "totalOutputTokens": 91428,
-      "totalReasoningTokens": 50240,
-      "totalTokens": 431126
+      "totalInputTokens": 340408,
+      "totalOutputTokens": 91635,
+      "totalReasoningTokens": 50396,
+      "totalTokens": 432043
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.97,
+      "createdAt": 1783910098871,
+      "inputTokens": 710,
+      "message": "",
+      "outputTokens": 207,
+      "rationale": "The main tweet explicitly says the 5h limit is temporarily not applying, meaning the cap is currently lifted.",
+      "reasoningTokens": 156,
+      "totalTokens": 917,
+      "tweetId": "2076495156757577895",
+      "tweetText": "Updates for Codex and ChatGPT Work users. No nerfing, only good stuff!\n\n- We have landed inference optimizations and are passing down savings to all the subscriptions for GPT-5.6 Sol. That should result in around 10% more usage on its own.\n- We noticed that by changing the context size limit in the product to 372k for GPT-5.6 Sol, up from 272k for GPT-5.5, it resulted in more usage being charged than intended. We have reverted to 272k and will work to roll back out to 372k in the days to come. You should notice that usage drains significantly less after this change.\n- To understand where the extra usage was coming from, we ran some experiments where reasoning efforts were changed (referred to as juice values under the hood) and have reverted this.\n- There is slightly more usage of multi-agent than intended in high and xhigh reasoning effort, we are fixing this going forward. Also fixing a small other thing we noticed with auto-review where we can be more efficient.\n\nAnd we continue to have the 5h limit temporarily not apply. Enjoy the rest of the weekend!",
+      "tweetUrl": "https://x.com/thsottiaux/status/2076495156757577895",
+      "type": "reset_confirmed",
+      "verdict": "reset_confirmed"
+    },
     {
       "confidence": 0,
       "createdAt": 1783908549404,
@@ -886,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2076022381467078931",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1783797180969,
-      "inputTokens": 366,
-      "message": "",
-      "outputTokens": 94,
-      "rationale": "This reply discusses user/token growth and does not indicate any rate-limit reset.",
-      "reasoningTokens": 51,
-      "totalTokens": 460,
-      "tweetId": "2076021855841132683",
-      "tweetText": "@AArdvarkErick Users. Token growth is steeper.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2076021855841132683",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "FKU73T1Ubpz67qSlMe25C3RuVPjdqVlKR9tz989Ga--qH_VY9VSyzCiumg",
-    "iv": "DeM9VFjEym3xsZLs",
-    "tag": "JxYGYLHG68BdeahpKF1Geg",
+    "ciphertext": "hUTmD02uZC0gg-rLo2eCKBJ4ljxxLGWtYCYynMiNvmuzTnP7gBnzIUAkfQ",
+    "iv": "qJ7brPM4RSe-jffR",
+    "tag": "TRhacgq3sQsu6fDN_VVVzA",
     "version": 1
   }
 }
