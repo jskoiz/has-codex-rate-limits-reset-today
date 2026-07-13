@@ -14,18 +14,38 @@
   "updatedAt": 1783967459095,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1783967459095,
-      "rationale": "The tweet explicitly says a reset has been added to everyone’s account and can now be applied to replenish weekly usage.",
-      "tweetId": "2076735790567338203",
-      "tweetUrl": "https://x.com/thsottiaux/status/2076735790567338203",
-      "verdict": "reset_confirmed"
+      "confidence": 0.97,
+      "decidedAt": 1783967773074,
+      "rationale": "This reply contains only a mention and a link, so it does not clearly indicate that limits have reset.",
+      "tweetId": "2076736691457691920",
+      "tweetUrl": "https://x.com/thsottiaux/status/2076736691457691920",
+      "verdict": "uncertain"
     },
     "lastError": null,
-    "lastSeenTweetId": "2076735790567338203",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2076735790567338203",
-    "pendingReview": null,
+    "lastSeenTweetId": "2076736691457691920",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2076736691457691920",
+    "pendingReview": {
+      "confidence": 0.97,
+      "createdAt": 1783967773074,
+      "rationale": "This reply contains only a mention and a link, so it does not clearly indicate that limits have reset.",
+      "tweetId": "2076736691457691920",
+      "tweetText": "@ns123abc https://t.co/KqkUqJ6UPq",
+      "tweetUrl": "https://x.com/thsottiaux/status/2076736691457691920"
+    },
     "recentEvaluations": [
+      {
+        "confidence": 0.97,
+        "evaluatedAt": 1783967773074,
+        "inputTokens": 369,
+        "outputTokens": 139,
+        "rationale": "This reply contains only a mention and a link, so it does not clearly indicate that limits have reset.",
+        "reasoningTokens": 90,
+        "totalTokens": 508,
+        "tweetId": "2076736691457691920",
+        "tweetText": "@ns123abc https://t.co/KqkUqJ6UPq",
+        "tweetUrl": "https://x.com/thsottiaux/status/2076736691457691920",
+        "verdict": "uncertain"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1783967459095,
@@ -272,29 +292,31 @@
         "tweetText": "@mylifcc This is not correct. Do not do this if you do not understand exactly what you are doing. \n\nWe do not charge extra above 270k context and the context threshold has been tuned for GPT 5.6 Sol to be perfect at the default limit.",
         "tweetUrl": "https://x.com/thsottiaux/status/2076201049086648705",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1783835972718,
-        "inputTokens": 360,
-        "outputTokens": 83,
-        "rationale": "This reply is unrelated to Codex or ChatGPT limits resetting.",
-        "reasoningTokens": 42,
-        "totalTokens": 443,
-        "tweetId": "2076183475611414627",
-        "tweetText": "@cifilter Click remote my friend",
-        "tweetUrl": "https://x.com/thsottiaux/status/2076183475611414627",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 343304,
-      "totalOutputTokens": 92488,
-      "totalReasoningTokens": 50924,
-      "totalTokens": 435792
+      "totalInputTokens": 343673,
+      "totalOutputTokens": 92627,
+      "totalReasoningTokens": 51014,
+      "totalTokens": 436300
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.97,
+      "createdAt": 1783967773074,
+      "inputTokens": 369,
+      "message": "",
+      "outputTokens": 139,
+      "rationale": "This reply contains only a mention and a link, so it does not clearly indicate that limits have reset.",
+      "reasoningTokens": 90,
+      "totalTokens": 508,
+      "tweetId": "2076736691457691920",
+      "tweetText": "@ns123abc https://t.co/KqkUqJ6UPq",
+      "tweetUrl": "https://x.com/thsottiaux/status/2076736691457691920",
+      "type": "review_requested",
+      "verdict": "uncertain"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1783967459095,
@@ -879,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2076117207210402250",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1783819497989,
-      "inputTokens": 392,
-      "message": "",
-      "outputTokens": 79,
-      "rationale": "This reply only recommends a model and says nothing about limits or resets.",
-      "reasoningTokens": 37,
-      "totalTokens": 471,
-      "tweetId": "2076115014218555809",
-      "tweetText": "@ImLunaHey Hi Luna. Given your name you might want to try the model with the same name, however to start I recommend GPT 5.6 Sol with Medium or High reasoning effort!",
-      "tweetUrl": "https://x.com/thsottiaux/status/2076115014218555809",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "biHjZg4zOyi0MZZs9ahYfLDrtzqrWwSPjeW0ZG03i-NN-3KJ2redArlGxw",
-    "iv": "BPZ4kf6VwXn8CvJc",
-    "tag": "P0SjhHc-T2MAsLpxOAq3NA",
+    "ciphertext": "6YUMS3Szp-vBdFqSBKTEKKRwVUwwZh5cvVSGXnJPJEWgNfshmREh6Y7x8w",
+    "iv": "wh3j8_rapOkHVtoQ",
+    "tag": "OnGGcn4KzJAxie13nFGkqg",
     "version": 1
   }
 }
