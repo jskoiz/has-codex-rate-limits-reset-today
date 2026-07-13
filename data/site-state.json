@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1783912583953,
-      "rationale": "This reply just recommends reading something and does not mention limits or a reset.",
-      "tweetId": "2076504719149924570",
-      "tweetUrl": "https://x.com/thsottiaux/status/2076504719149924570",
+      "decidedAt": 1783921577016,
+      "rationale": "This discusses usage charging and context tuning, not a current reset or lifting of limits.",
+      "tweetId": "2076543065045795309",
+      "tweetUrl": "https://x.com/thsottiaux/status/2076543065045795309",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2076504719149924570",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2076504719149924570",
+    "lastSeenTweetId": "2076543065045795309",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2076543065045795309",
     "pendingReview": {
       "confidence": 0.76,
       "createdAt": 1783912259458,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2076504611264098544"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1783921577016,
+        "inputTokens": 609,
+        "outputTokens": 89,
+        "rationale": "This discusses usage charging and context tuning, not a current reset or lifting of limits.",
+        "reasoningTokens": 44,
+        "totalTokens": 698,
+        "tweetId": "2076543065045795309",
+        "tweetText": "(1) is not correct, it is not due to 2X charging after 272k context, we don't charge for longer context on the subscription for GPT 5.6 Sol as we control all the settings. It is due to something else, which I will attempt to explain below.\n\nThe overall trajectory length, which is the total some of all context windows across compactions, changes little based on the reasoning effort. Similarly the quality of the overall output is similar across context lengths above 272k. The benefits of higher context lengths are mostly overall speed (as you don't wait for compaction), ability to deal with humongously large input and potentially cost if the system is well tuned and you hit your cache perfectly.\n\nThe actual reason is the what you can see depicted in the chart below, which is the difference in the orange line and the blue line. It is caused by overall cost of cache reads going up with the size of the context being shuffled back and forth between toolcalls. The sweet spot in terms of cost is therefore not necessarily to use the maximum possible context length.\n\nWhat we're working on is tuning the system differently so that we can go back higher without it resulting in higher usage being charged. Hope this clarifies a bit.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2076543065045795309",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1783912583953,
@@ -279,29 +292,31 @@
         "tweetText": "@xeophon Pro tip",
         "tweetUrl": "https://x.com/thsottiaux/status/2076166992961409173",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1783831015504,
-        "inputTokens": 368,
-        "outputTokens": 72,
-        "rationale": "This reply is unrelated to Codex or ChatGPT usage limits or resets.",
-        "reasoningTokens": 29,
-        "totalTokens": 440,
-        "tweetId": "2076162897986855107",
-        "tweetText": "@prz_chojecki It was probably more like one trillion trillion dollars",
-        "tweetUrl": "https://x.com/thsottiaux/status/2076162897986855107",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 341511,
-      "totalOutputTokens": 92114,
-      "totalReasoningTokens": 50739,
-      "totalTokens": 433625
+      "totalInputTokens": 342120,
+      "totalOutputTokens": 92203,
+      "totalReasoningTokens": 50783,
+      "totalTokens": 434323
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1783921577016,
+      "inputTokens": 609,
+      "message": "",
+      "outputTokens": 89,
+      "rationale": "This discusses usage charging and context tuning, not a current reset or lifting of limits.",
+      "reasoningTokens": 44,
+      "totalTokens": 698,
+      "tweetId": "2076543065045795309",
+      "tweetText": "(1) is not correct, it is not due to 2X charging after 272k context, we don't charge for longer context on the subscription for GPT 5.6 Sol as we control all the settings. It is due to something else, which I will attempt to explain below.\n\nThe overall trajectory length, which is the total some of all context windows across compactions, changes little based on the reasoning effort. Similarly the quality of the overall output is similar across context lengths above 272k. The benefits of higher context lengths are mostly overall speed (as you don't wait for compaction), ability to deal with humongously large input and potentially cost if the system is well tuned and you hit your cache perfectly.\n\nThe actual reason is the what you can see depicted in the chart below, which is the difference in the orange line and the blue line. It is caused by overall cost of cache reads going up with the size of the context being shuffled back and forth between toolcalls. The sweet spot in terms of cost is therefore not necessarily to use the maximum possible context length.\n\nWhat we're working on is tuning the system differently so that we can go back higher without it resulting in higher usage being charged. Hope this clarifies a bit.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2076543065045795309",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1783912583953,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2076059884198748175",
       "type": "review_requested",
       "verdict": "uncertain"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1783806178252,
-      "inputTokens": 357,
-      "message": "",
-      "outputTokens": 86,
-      "rationale": "This is just a conversational reply and says nothing about limits or resets.",
-      "reasoningTokens": 44,
-      "totalTokens": 443,
-      "tweetId": "2076059260845515205",
-      "tweetText": "@weswinder Luna!",
-      "tweetUrl": "https://x.com/thsottiaux/status/2076059260845515205",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "Oxvz1V1OY0PSW40E8KLU6fgFzsDPcUuYUfZtTqZdN6r7f4A-lxcQrpSczw",
-    "iv": "Pf-d7hXwBtHNbIGu",
-    "tag": "i-rMu8pfD6hf6ESGUOhKaw",
+    "ciphertext": "PJtjkYFOQc0HCplJnc4E4t9SdcqyEHqqW0iu-kI_ygD_HhdWuOr4mflR7Q",
+    "iv": "1VRdfaUzNlIEBrYg",
+    "tag": "A5-lXdbhsDWT_oGf9RNhnQ",
     "version": 1
   }
 }
