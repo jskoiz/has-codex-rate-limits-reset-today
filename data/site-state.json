@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1783892676587,
-      "rationale": "This is a casual reply about Codex branding and says nothing about limits or availability resetting.",
-      "tweetId": "2076421686526890373",
-      "tweetUrl": "https://x.com/thsottiaux/status/2076421686526890373",
+      "decidedAt": 1783901669627,
+      "rationale": "This discusses subscription model availability, not a rate-limit or usage-cap reset.",
+      "tweetId": "2076459871021736245",
+      "tweetUrl": "https://x.com/thsottiaux/status/2076459871021736245",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2076421686526890373",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2076421686526890373",
+    "lastSeenTweetId": "2076459871021736245",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2076459871021736245",
     "pendingReview": {
       "confidence": 0.06,
       "createdAt": 1783880297233,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2076369340375699589"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1783901669627,
+        "inputTokens": 390,
+        "outputTokens": 74,
+        "rationale": "This discusses subscription model availability, not a rate-limit or usage-cap reset.",
+        "reasoningTokens": 31,
+        "totalTokens": 464,
+        "tweetId": "2076459871021736245",
+        "tweetText": "Rest assured that GPT 5.6 Sol will stay in the ChatGPT subscription you pay for. Including Go, Plus and Pro subscriptions. At least until we ship an even better model.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2076459871021736245",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1783892676587,
@@ -279,29 +292,31 @@
         "tweetText": "@laurenlself @united Sorry, codex can't fix this one yet",
         "tweetUrl": "https://x.com/thsottiaux/status/2076147077990744237",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1783826945495,
-        "inputTokens": 363,
-        "outputTokens": 78,
-        "rationale": "This reply just thanks someone for feedback and does not mention limits or availability.",
-        "reasoningTokens": 35,
-        "totalTokens": 441,
-        "tweetId": "2076146515698184280",
-        "tweetText": "@AArdvarkErick Thanks for your feedback",
-        "tweetUrl": "https://x.com/thsottiaux/status/2076146515698184280",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 338940,
-      "totalOutputTokens": 91247,
-      "totalReasoningTokens": 50147,
-      "totalTokens": 430187
+      "totalInputTokens": 339330,
+      "totalOutputTokens": 91321,
+      "totalReasoningTokens": 50178,
+      "totalTokens": 430651
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1783901669627,
+      "inputTokens": 390,
+      "message": "",
+      "outputTokens": 74,
+      "rationale": "This discusses subscription model availability, not a rate-limit or usage-cap reset.",
+      "reasoningTokens": 31,
+      "totalTokens": 464,
+      "tweetId": "2076459871021736245",
+      "tweetText": "Rest assured that GPT 5.6 Sol will stay in the ChatGPT subscription you pay for. Including Go, Plus and Pro subscriptions. At least until we ship an even better model.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2076459871021736245",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1783892676587,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2076021263945039876",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1783795327101,
-      "inputTokens": 366,
-      "message": "",
-      "outputTokens": 86,
-      "rationale": "This reply does not mention limits, caps, resets, or usage becoming available again.",
-      "reasoningTokens": 41,
-      "totalTokens": 452,
-      "tweetId": "2076013788881637777",
-      "tweetText": "@xikhar @ajambrosino when do we ship this?",
-      "tweetUrl": "https://x.com/thsottiaux/status/2076013788881637777",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "buA5_IcGqOrKmsPwjhw26WqvgmKuxCSpch89tGMQ2TedSPOwATiVn1TQpw",
-    "iv": "E_K03ZJVIvxZttB_",
-    "tag": "sLd1yGonShc8zr7osdn59g",
+    "ciphertext": "sgkP-nc6HDFq5qmsFaLymO98rrhdiRJ2zgNF3ejEJ3hertEH41hD1Eze0g",
+    "iv": "S-RGuRhE_gYCs3gF",
+    "tag": "LfmYH-eS5ziyBFe2O7a0Mg",
     "version": 1
   }
 }
