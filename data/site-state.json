@@ -14,16 +14,16 @@
   "updatedAt": 1783879365205,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1783901669627,
-      "rationale": "This discusses subscription model availability, not a rate-limit or usage-cap reset.",
-      "tweetId": "2076459871021736245",
-      "tweetUrl": "https://x.com/thsottiaux/status/2076459871021736245",
+      "confidence": 0.98,
+      "decidedAt": 1783901985677,
+      "rationale": "This reply discusses paid subscription types and does not indicate any rate limit or usage reset.",
+      "tweetId": "2076460408437887268",
+      "tweetUrl": "https://x.com/thsottiaux/status/2076460408437887268",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2076459871021736245",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2076459871021736245",
+    "lastSeenTweetId": "2076460408437887268",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2076460408437887268",
     "pendingReview": {
       "confidence": 0.06,
       "createdAt": 1783880297233,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2076369340375699589"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.98,
+        "evaluatedAt": 1783901985677,
+        "inputTokens": 368,
+        "outputTokens": 107,
+        "rationale": "This reply discusses paid subscription types and does not indicate any rate limit or usage reset.",
+        "reasoningTokens": 62,
+        "totalTokens": 475,
+        "tweetId": "2076460408437887268",
+        "tweetText": "Team, Edu, ... and any other paid subscription too. Quite simple really.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2076460408437887268",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1783901669627,
@@ -279,29 +292,31 @@
         "tweetText": "@gergomoricz Update",
         "tweetUrl": "https://x.com/thsottiaux/status/2076153017582354612",
         "verdict": "uncertain"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1783827248259,
-        "inputTokens": 369,
-        "outputTokens": 80,
-        "rationale": "This reply is a joke about Codex and does not mention limits or a reset.",
-        "reasoningTokens": 35,
-        "totalTokens": 449,
-        "tweetId": "2076147077990744237",
-        "tweetText": "@laurenlself @united Sorry, codex can't fix this one yet",
-        "tweetUrl": "https://x.com/thsottiaux/status/2076147077990744237",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 339330,
-      "totalOutputTokens": 91321,
-      "totalReasoningTokens": 50178,
-      "totalTokens": 430651
+      "totalInputTokens": 339698,
+      "totalOutputTokens": 91428,
+      "totalReasoningTokens": 50240,
+      "totalTokens": 431126
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.98,
+      "createdAt": 1783901985677,
+      "inputTokens": 368,
+      "message": "",
+      "outputTokens": 107,
+      "rationale": "This reply discusses paid subscription types and does not indicate any rate limit or usage reset.",
+      "reasoningTokens": 62,
+      "totalTokens": 475,
+      "tweetId": "2076460408437887268",
+      "tweetText": "Team, Edu, ... and any other paid subscription too. Quite simple really.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2076460408437887268",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1783901669627,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2076021855841132683",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1783797178665,
-      "inputTokens": 410,
-      "message": "",
-      "outputTokens": 80,
-      "rationale": "This is a promotional comment about model growth and installing the desktop app, not about limits resetting.",
-      "reasoningTokens": 33,
-      "totalTokens": 490,
-      "tweetId": "2076021263945039876",
-      "tweetText": "You know it's a good model when you grow more in 1 day than last two weeks combined.\n\nInstall the desktop app from https://t.co/K5PquKnV4q and give it a go! https://t.co/WyQwrT98Xo",
-      "tweetUrl": "https://x.com/thsottiaux/status/2076021263945039876",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "sgkP-nc6HDFq5qmsFaLymO98rrhdiRJ2zgNF3ejEJ3hertEH41hD1Eze0g",
-    "iv": "S-RGuRhE_gYCs3gF",
-    "tag": "LfmYH-eS5ziyBFe2O7a0Mg",
+    "ciphertext": "4TQt7jIAF7cBLfKiEvYVijHqLa6npYsvlvQaWfIRHTG73lpApr35XR7q7Q",
+    "iv": "1dU53sU_1skNcnDU",
+    "tag": "JUrkeG7Oh1xP3Xe8_B0WzQ",
     "version": 1
   }
 }
