@@ -14,16 +14,16 @@
   "updatedAt": 1783967459095,
   "automation": {
     "lastDecision": {
-      "confidence": 0.97,
-      "decidedAt": 1783967773074,
-      "rationale": "This reply contains only a mention and a link, so it does not clearly indicate that limits have reset.",
-      "tweetId": "2076736691457691920",
-      "tweetUrl": "https://x.com/thsottiaux/status/2076736691457691920",
-      "verdict": "uncertain"
+      "confidence": 0.99,
+      "decidedAt": 1784005317577,
+      "rationale": "This is a promotional post and does not mention limits, caps, or usage resetting.",
+      "tweetId": "2076894071323537898",
+      "tweetUrl": "https://x.com/thsottiaux/status/2076894071323537898",
+      "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2076736691457691920",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2076736691457691920",
+    "lastSeenTweetId": "2076894071323537898",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2076894071323537898",
     "pendingReview": {
       "confidence": 0.97,
       "createdAt": 1783967773074,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2076736691457691920"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1784005317577,
+        "inputTokens": 369,
+        "outputTokens": 72,
+        "rationale": "This is a promotional post and does not mention limits, caps, or usage resetting.",
+        "reasoningTokens": 27,
+        "totalTokens": 441,
+        "tweetId": "2076894071323537898",
+        "tweetText": "ChatGPT Work presents https://t.co/pY5Vei9OIz",
+        "tweetUrl": "https://x.com/thsottiaux/status/2076894071323537898",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.97,
         "evaluatedAt": 1783967773074,
@@ -279,29 +292,31 @@
         "tweetText": "@maria_rcks 👀",
         "tweetUrl": "https://x.com/thsottiaux/status/2076326822032355480",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1783840019641,
-        "inputTokens": 411,
-        "outputTokens": 88,
-        "rationale": "This reply discusses context limits and pricing, not a reset of usage caps or rate limits.",
-        "reasoningTokens": 42,
-        "totalTokens": 499,
-        "tweetId": "2076201049086648705",
-        "tweetText": "@mylifcc This is not correct. Do not do this if you do not understand exactly what you are doing. \n\nWe do not charge extra above 270k context and the context threshold has been tuned for GPT 5.6 Sol to be perfect at the default limit.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2076201049086648705",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 343673,
-      "totalOutputTokens": 92627,
-      "totalReasoningTokens": 51014,
-      "totalTokens": 436300
+      "totalInputTokens": 344042,
+      "totalOutputTokens": 92699,
+      "totalReasoningTokens": 51041,
+      "totalTokens": 436741
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1784005317577,
+      "inputTokens": 369,
+      "message": "",
+      "outputTokens": 72,
+      "rationale": "This is a promotional post and does not mention limits, caps, or usage resetting.",
+      "reasoningTokens": 27,
+      "totalTokens": 441,
+      "tweetId": "2076894071323537898",
+      "tweetText": "ChatGPT Work presents https://t.co/pY5Vei9OIz",
+      "tweetUrl": "https://x.com/thsottiaux/status/2076894071323537898",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0,
       "createdAt": 1784000380895,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2076119644658970992",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.98,
-      "createdAt": 1783820428500,
-      "inputTokens": 628,
-      "message": "",
-      "outputTokens": 139,
-      "rationale": "This is a workaround tip and only mentions a possible future reset if it gets blocked, not that limits have reset now.",
-      "reasoningTokens": 87,
-      "totalTokens": 767,
-      "tweetId": "2076119366647894371",
-      "tweetText": "If you aren't yet bold enough to install the Codex app, you can stay in the presence of your orange crab and point it at GPT 5.6 Sol. Takes 5 minutes. Kudos to Theo for explaining one of the ways to get this done.\n\nStep 1: Install CLIProxyAPI\nStep 2: Connect\nStep 3: Define following alias and enjoy claudex\n\n```\nalias claudex='CLAUDE_CODE_SUBAGENT_MODEL=gpt-5.6-sol \\\nCLAUDE_CODE_ALWAYS_ENABLE_EFFORT=1 \\\nCLAUDE_CODE_MAX_TOOL_USE_CONCURRENCY=3 \\\nENABLE_TOOL_SEARCH=false \\\nclaude --model gpt-5.6-sol'\n```\n\nIf this gets blocked, I owe you a reset.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2076119366647894371",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "aEjceeyJDdhPqSukjJikqNt6t7dvrqbbT3wyvDvgXWkYdtddzQ5c9sYmoA",
-    "iv": "SuN4D5Ad81GN5T8U",
-    "tag": "YL-z4NyvXjNz254eXlOLxA",
+    "ciphertext": "ssNnIvkk5QPtlMU9uyYGr75MLVQJkWWcqzObtP_CfjcEeI7AO8UGDi7lGA",
+    "iv": "jUM_zaOX6NFUKcFl",
+    "tag": "zaob9FsJeS5a3xs9Hx8hXw",
     "version": 1
   }
 }
