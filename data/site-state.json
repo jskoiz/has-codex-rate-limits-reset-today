@@ -21,7 +21,7 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2077114635308986427",
       "verdict": "reset_confirmed"
     },
-    "lastError": null,
+    "lastError": "Tweet fetch failed: Tweet search failed: Unknown error; timeline fallback failed: Unknown error (Unknown error) (Tweet search failed: Unknown error; timeline fallback failed: Unknown error)",
     "lastSeenTweetId": "2077114635308986427",
     "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2077114635308986427",
     "pendingReview": null,
@@ -297,9 +297,9 @@
   "automationEvents": [
     {
       "confidence": 0,
-      "createdAt": 1784072215094,
+      "createdAt": 1784072835431,
       "inputTokens": 0,
-      "message": "Tweet fetch failed: Tweet search failed: Request failed with status code 404; timeline fallback failed: Unknown error (Unknown error) (Tweet search failed: Request failed with status code 404; timeline fallback failed: Unknown error)",
+      "message": "Tweet fetch failed: Tweet search failed: Unknown error; timeline fallback failed: Unknown error (Unknown error) (Tweet search failed: Unknown error; timeline fallback failed: Unknown error)",
       "outputTokens": 0,
       "rationale": "",
       "reasoningTokens": 0,
@@ -312,9 +312,9 @@
     },
     {
       "confidence": 0,
-      "createdAt": 1784070049730,
+      "createdAt": 1784072215094,
       "inputTokens": 0,
-      "message": "Tweet fetch failed: Tweet search failed: Unknown error; timeline fallback failed: Unknown error (Unknown error) (Tweet search failed: Unknown error; timeline fallback failed: Unknown error)",
+      "message": "Tweet fetch failed: Tweet search failed: Request failed with status code 404; timeline fallback failed: Unknown error (Unknown error) (Tweet search failed: Request failed with status code 404; timeline fallback failed: Unknown error)",
       "outputTokens": 0,
       "rationale": "",
       "reasoningTokens": 0,
@@ -897,9 +897,9 @@
     }
   ],
   "privateState": {
-    "ciphertext": "OCpQJPPptvJIshcdxb_tSD-TA71J6eYmo8LkKyGoCwXy-GZ5PGncJQ7D9g",
-    "iv": "RmiKOjvHrXA7DXN2",
-    "tag": "5bAdEosripkeHVY1cGP1hQ",
+    "ciphertext": "D-Ionoix38UxDHYo7888D5jL2tKEeslQHNkAZM4QOnMKzS6GrgWbSmphDQ",
+    "iv": "mem0zrd20NNzrXgO",
+    "tag": "qRbgUNvDTFEB1D4G5Kyk5Q",
     "version": 1
   }
 }
