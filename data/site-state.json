@@ -21,7 +21,7 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2077114635308986427",
       "verdict": "reset_confirmed"
     },
-    "lastError": "Tweet fetch failed: Tweet search failed: Request failed with status code 404; timeline fallback failed: Unknown error (Unknown error) (Tweet search failed: Request failed with status code 404; timeline fallback failed: Unknown error)",
+    "lastError": null,
     "lastSeenTweetId": "2077114635308986427",
     "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2077114635308986427",
     "pendingReview": null,
@@ -897,9 +897,9 @@
     }
   ],
   "privateState": {
-    "ciphertext": "-9p5_5YpRGtpiah__lcLJp4TbWNMUYWym5lO07KjjQYL2wVMZqIzyW-FnA",
-    "iv": "T58ZpvVHYM_Hd3H7",
-    "tag": "MEFjxzK_cIcfAnn46fCQ_g",
+    "ciphertext": "OCpQJPPptvJIshcdxb_tSD-TA71J6eYmo8LkKyGoCwXy-GZ5PGncJQ7D9g",
+    "iv": "RmiKOjvHrXA7DXN2",
+    "tag": "5bAdEosripkeHVY1cGP1hQ",
     "version": 1
   }
 }
