@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1784005317577,
-      "rationale": "This is a promotional post and does not mention limits, caps, or usage resetting.",
-      "tweetId": "2076894071323537898",
-      "tweetUrl": "https://x.com/thsottiaux/status/2076894071323537898",
+      "decidedAt": 1784005320500,
+      "rationale": "This reply is generic and does not mention any limit, cap, or reset.",
+      "tweetId": "2076894197488226531",
+      "tweetUrl": "https://x.com/thsottiaux/status/2076894197488226531",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2076894071323537898",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2076894071323537898",
+    "lastSeenTweetId": "2076894197488226531",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2076894197488226531",
     "pendingReview": {
       "confidence": 0.97,
       "createdAt": 1783967773074,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2076736691457691920"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1784005320500,
+        "inputTokens": 356,
+        "outputTokens": 82,
+        "rationale": "This reply is generic and does not mention any limit, cap, or reset.",
+        "reasoningTokens": 38,
+        "totalTokens": 438,
+        "tweetId": "2076894197488226531",
+        "tweetText": "Build your dreams",
+        "tweetUrl": "https://x.com/thsottiaux/status/2076894197488226531",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1784005317577,
@@ -279,29 +292,31 @@
         "tweetText": "I think GPT 5.6 is pretty good",
         "tweetUrl": "https://x.com/thsottiaux/status/2076364102612680847",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.98,
-        "evaluatedAt": 1783870117072,
-        "inputTokens": 359,
-        "outputTokens": 108,
-        "rationale": "This is just a conversational reply and does not mention limits, caps, or usage being available again.",
-        "reasoningTokens": 60,
-        "totalTokens": 467,
-        "tweetId": "2076326822032355480",
-        "tweetText": "@maria_rcks 👀",
-        "tweetUrl": "https://x.com/thsottiaux/status/2076326822032355480",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 344042,
-      "totalOutputTokens": 92699,
-      "totalReasoningTokens": 51041,
-      "totalTokens": 436741
+      "totalInputTokens": 344398,
+      "totalOutputTokens": 92781,
+      "totalReasoningTokens": 51079,
+      "totalTokens": 437179
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1784005320500,
+      "inputTokens": 356,
+      "message": "",
+      "outputTokens": 82,
+      "rationale": "This reply is generic and does not mention any limit, cap, or reset.",
+      "reasoningTokens": 38,
+      "totalTokens": 438,
+      "tweetId": "2076894197488226531",
+      "tweetText": "Build your dreams",
+      "tweetUrl": "https://x.com/thsottiaux/status/2076894197488226531",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1784005317577,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2076120416742236519",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1783820745040,
-      "inputTokens": 360,
-      "message": "",
-      "outputTokens": 91,
-      "rationale": "This reply only says something will be fixed in a future release, not that limits have reset now.",
-      "reasoningTokens": 43,
-      "totalTokens": 451,
-      "tweetId": "2076119644658970992",
-      "tweetText": "@scaling01 Fixed in next release",
-      "tweetUrl": "https://x.com/thsottiaux/status/2076119644658970992",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "ssNnIvkk5QPtlMU9uyYGr75MLVQJkWWcqzObtP_CfjcEeI7AO8UGDi7lGA",
-    "iv": "jUM_zaOX6NFUKcFl",
-    "tag": "zaob9FsJeS5a3xs9Hx8hXw",
+    "ciphertext": "xTmzB3FTRWcJ3ksov10sxW8-EsakkNbXEjrQPw35yH4G1EYJ-NjcC5wPlQ",
+    "iv": "Lv8ue11WoAXT6y4Q",
+    "tag": "xTRQTEJn99Hnp1FE7N1mRQ",
     "version": 1
   }
 }
