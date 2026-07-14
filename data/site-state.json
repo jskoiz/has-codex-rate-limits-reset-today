@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1784005320500,
-      "rationale": "This reply is generic and does not mention any limit, cap, or reset.",
-      "tweetId": "2076894197488226531",
-      "tweetUrl": "https://x.com/thsottiaux/status/2076894197488226531",
+      "decidedAt": 1784008408929,
+      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+      "tweetId": "2076907459625746922",
+      "tweetUrl": "https://x.com/thsottiaux/status/2076907459625746922",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2076894197488226531",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2076894197488226531",
+    "lastSeenTweetId": "2076907459625746922",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2076907459625746922",
     "pendingReview": {
       "confidence": 0.97,
       "createdAt": 1783967773074,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2076736691457691920"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1784008408929,
+        "inputTokens": 364,
+        "outputTokens": 78,
+        "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+        "reasoningTokens": 34,
+        "totalTokens": 442,
+        "tweetId": "2076907459625746922",
+        "tweetText": "@forgebitz Let’s\nGo\nKlaas",
+        "tweetUrl": "https://x.com/thsottiaux/status/2076907459625746922",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1784005320500,
@@ -279,29 +292,31 @@
         "tweetText": "Morning. The last 48 hours of Codex and ChatGPT Work have been intense! Three important updates:\n\n- Temporarily removing the 5 hour usage limit restriction for all Plus, Business and Pro plans\n- Rolling out changes that will make GPT 5.6 Sol more efficient across the board and that will be reflected in less usage being used so that it can take you further. Exact impact to be quantified and shared\n- We hit 6M active users, and are landing a usage reset in the next hour\n\nGo do things",
         "tweetUrl": "https://x.com/thsottiaux/status/2076365965915467978",
         "verdict": "reset_confirmed"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1783879055336,
-        "inputTokens": 427,
-        "outputTokens": 120,
-        "rationale": "This post is just commentary on model quality and a quoted Claude access extension, not a current Codex or ChatGPT…",
-        "reasoningTokens": 66,
-        "totalTokens": 547,
-        "tweetId": "2076364102612680847",
-        "tweetText": "I think GPT 5.6 is pretty good",
-        "tweetUrl": "https://x.com/thsottiaux/status/2076364102612680847",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 344398,
-      "totalOutputTokens": 92781,
-      "totalReasoningTokens": 51079,
-      "totalTokens": 437179
+      "totalInputTokens": 344762,
+      "totalOutputTokens": 92859,
+      "totalReasoningTokens": 51113,
+      "totalTokens": 437621
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1784008408929,
+      "inputTokens": 364,
+      "message": "",
+      "outputTokens": 78,
+      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+      "reasoningTokens": 34,
+      "totalTokens": 442,
+      "tweetId": "2076907459625746922",
+      "tweetText": "@forgebitz Let’s\nGo\nKlaas",
+      "tweetUrl": "https://x.com/thsottiaux/status/2076907459625746922",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1784005320500,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2076121836161761613",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1783820747592,
-      "inputTokens": 358,
-      "message": "",
-      "outputTokens": 103,
-      "rationale": "This reply does not mention limits, caps, or a reset.",
-      "reasoningTokens": 62,
-      "totalTokens": 461,
-      "tweetId": "2076120416742236519",
-      "tweetText": "@MonospaceNg Granted",
-      "tweetUrl": "https://x.com/thsottiaux/status/2076120416742236519",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "xTmzB3FTRWcJ3ksov10sxW8-EsakkNbXEjrQPw35yH4G1EYJ-NjcC5wPlQ",
-    "iv": "Lv8ue11WoAXT6y4Q",
-    "tag": "xTRQTEJn99Hnp1FE7N1mRQ",
+    "ciphertext": "mmVllgzPMhkfHC3Q9UVYhOuH8sYIw8OXS43oqv4Z9-EBqCDes_TEv-sUIQ",
+    "iv": "KX1SinJKd3AG0QPy",
+    "tag": "6CbyGYkSTtvEt1kzh6H_Yg",
     "version": 1
   }
 }
