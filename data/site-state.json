@@ -1,5 +1,5 @@
 {
-  "currentState": "yes",
+  "currentState": "no",
   "autoResetHours": 20,
   "noSubtitles": [
     "Back to your local model peasant",
@@ -10,7 +10,7 @@
     "Limits reset, go crazy",
     "You can just build things"
   ],
-  "resetAt": 1784039459095,
+  "resetAt": null,
   "updatedAt": 1783967459095,
   "automation": {
     "lastDecision": {
@@ -21,7 +21,7 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2076915116231275003",
       "verdict": "not_reset"
     },
-    "lastError": null,
+    "lastError": "Tweet fetch failed: Tweet search failed: Request failed with status code 404; timeline fallback failed: Unknown error (Unknown error) (Tweet search failed: Request failed with status code 404; timeline fallback failed: Unknown error)",
     "lastSeenTweetId": "2076915116231275003",
     "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2076915116231275003",
     "pendingReview": {
@@ -303,6 +303,21 @@
   },
   "automationEvents": [
     {
+      "confidence": 0,
+      "createdAt": 1784044630700,
+      "inputTokens": 0,
+      "message": "Tweet fetch failed: Tweet search failed: Request failed with status code 404; timeline fallback failed: Unknown error (Unknown error) (Tweet search failed: Request failed with status code 404; timeline fallback failed: Unknown error)",
+      "outputTokens": 0,
+      "rationale": "",
+      "reasoningTokens": 0,
+      "totalTokens": 0,
+      "tweetId": null,
+      "tweetText": "",
+      "tweetUrl": null,
+      "type": "error",
+      "verdict": null
+    },
+    {
       "confidence": 0.99,
       "createdAt": 1784010586048,
       "inputTokens": 360,
@@ -436,21 +451,6 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2076724023338389807",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0,
-      "createdAt": 1783964337746,
-      "inputTokens": 0,
-      "message": "Tweet fetch failed: Tweet search failed: Request failed with status code 404; timeline fallback failed: Unknown error (Unknown error) (Tweet search failed: Request failed with status code 404; timeline fallback failed: Unknown error)",
-      "outputTokens": 0,
-      "rationale": "",
-      "reasoningTokens": 0,
-      "totalTokens": 0,
-      "tweetId": null,
-      "tweetText": "",
-      "tweetUrl": null,
-      "type": "error",
-      "verdict": null
     },
     {
       "confidence": 0,
@@ -904,9 +904,9 @@
     }
   ],
   "privateState": {
-    "ciphertext": "dGrF_d1-S5zHCaibMgWENBytUB7gClMUUIZAqIwgdTdR343VJjOKdlp3gw",
-    "iv": "pf5Kk2keYTm51AFu",
-    "tag": "h67BeNTL3xE_fyFVIj0JiQ",
+    "ciphertext": "2Vb-pRoNlROn43iYtxNSPWEI-uNJGPGFOpRooho83FioyOoAOpZIzxYsGw",
+    "iv": "-wQfeaKtll-HBcw_",
+    "tag": "kKqMXFKYZrEOE2SZby0upw",
     "version": 1
   }
 }
