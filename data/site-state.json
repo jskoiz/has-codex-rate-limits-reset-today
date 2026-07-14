@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1784008412505,
-      "rationale": "This is a user milestone comment and does not mention limits, caps, or usage resetting.",
-      "tweetId": "2076907789763621237",
-      "tweetUrl": "https://x.com/thsottiaux/status/2076907789763621237",
+      "decidedAt": 1784010586048,
+      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+      "tweetId": "2076915116231275003",
+      "tweetUrl": "https://x.com/thsottiaux/status/2076915116231275003",
       "verdict": "not_reset"
     },
-    "lastError": "Tweet fetch failed: Tweet search failed: Unknown error; timeline fallback failed: Unknown error (Unknown error) (Tweet search failed: Unknown error; timeline fallback failed: Unknown error)",
-    "lastSeenTweetId": "2076907789763621237",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2076907789763621237",
+    "lastError": null,
+    "lastSeenTweetId": "2076915116231275003",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2076915116231275003",
     "pendingReview": {
       "confidence": 0.97,
       "createdAt": 1783967773074,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2076736691457691920"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1784010586048,
+        "inputTokens": 360,
+        "outputTokens": 64,
+        "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+        "reasoningTokens": 20,
+        "totalTokens": 424,
+        "tweetId": "2076915116231275003",
+        "tweetText": "@RylanSchaeffer Good reasons",
+        "tweetUrl": "https://x.com/thsottiaux/status/2076915116231275003",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1784008412505,
@@ -279,29 +292,31 @@
         "tweetText": "Added a banked reset to 500k users of ChatGPT Work and Codex.\n\nWhat’s been happening:\n- Just released the ability to use a banked reset from web and mobile. Before today you could only do it in the desktop app\n- Had an issue where less than 10% of users who used a banked reset and it didn’t actually reset. This was during a 2 hour window.\n- It was hard to find all the exact users where it didn’t apply, so instead granted a banked reset to everyone who pressed the reset button in that 2 hour window. This also gives us the opportunity to validate the new infra ahead of tomorrow\n\nTomorrow we will celebrate our 7M active users milestone and grant the first banked reset across all of our ChatGPT Work and Codex users.\n\nWe will also release a bunch of updates to the desktop app, addressing a ton of your feedback.\n\nTalk soon",
         "tweetUrl": "https://x.com/thsottiaux/status/2076418567143408112",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.06,
-        "evaluatedAt": 1783880297234,
-        "inputTokens": 357,
-        "outputTokens": 152,
-        "rationale": "This reply just says “Yes” and does not by itself clearly indicate a current limit reset.",
-        "reasoningTokens": 105,
-        "totalTokens": 509,
-        "tweetId": "2076369340375699589",
-        "tweetText": "@mweinbach Yes",
-        "tweetUrl": "https://x.com/thsottiaux/status/2076369340375699589",
-        "verdict": "uncertain"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 345128,
-      "totalOutputTokens": 92953,
-      "totalReasoningTokens": 51161,
-      "totalTokens": 438081
+      "totalInputTokens": 345488,
+      "totalOutputTokens": 93017,
+      "totalReasoningTokens": 51181,
+      "totalTokens": 438505
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1784010586048,
+      "inputTokens": 360,
+      "message": "",
+      "outputTokens": 64,
+      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+      "reasoningTokens": 20,
+      "totalTokens": 424,
+      "tweetId": "2076915116231275003",
+      "tweetText": "@RylanSchaeffer Good reasons",
+      "tweetUrl": "https://x.com/thsottiaux/status/2076915116231275003",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0,
       "createdAt": 1784010280601,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2076146515698184280",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1783826942749,
-      "inputTokens": 419,
-      "message": "",
-      "outputTokens": 81,
-      "rationale": "This post is about model quality and features, not usage caps or rate-limit resets.",
-      "reasoningTokens": 36,
-      "totalTokens": 500,
-      "tweetId": "2076145711922696371",
-      "tweetText": "At different times you complained about speed, code slop, frontend quality, ... With each release we improve and GPT 5.6 Sol is  \n\n✅Fast and token efficient\n✅Hardcore at back-end dev\n✅Great at front-end\n✅Does not use useEffect everywhere \n\nWhat is next?",
-      "tweetUrl": "https://x.com/thsottiaux/status/2076145711922696371",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "tEXiuFxg_ZQonmaE23XFaWCE8_HxfcIEuvW7I9b3M315aQU9NP1FRaOaUA",
-    "iv": "P3nqNjVLxjdTB2Le",
-    "tag": "gog2vtDFFceNk3AqtejxWw",
+    "ciphertext": "dGrF_d1-S5zHCaibMgWENBytUB7gClMUUIZAqIwgdTdR343VJjOKdlp3gw",
+    "iv": "pf5Kk2keYTm51AFu",
+    "tag": "h67BeNTL3xE_fyFVIj0JiQ",
     "version": 1
   }
 }
