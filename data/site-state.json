@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1784090525663,
-      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-      "tweetId": "2077250804311028096",
-      "tweetUrl": "https://x.com/thsottiaux/status/2077250804311028096",
+      "decidedAt": 1784094244867,
+      "rationale": "This reply is just a joke about using Codex and does not mention limits or resets.",
+      "tweetId": "2077267551038681275",
+      "tweetUrl": "https://x.com/thsottiaux/status/2077267551038681275",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2077250804311028096",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2077250804311028096",
+    "lastSeenTweetId": "2077267551038681275",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2077267551038681275",
     "pendingReview": {
       "confidence": 0.75,
       "createdAt": 1784090223018,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2077249987441037818"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1784094244867,
+        "inputTokens": 365,
+        "outputTokens": 88,
+        "rationale": "This reply is just a joke about using Codex and does not mention limits or resets.",
+        "reasoningTokens": 42,
+        "totalTokens": 453,
+        "tweetId": "2077267551038681275",
+        "tweetText": "@jxnlco We all know you just delegate to Codex",
+        "tweetUrl": "https://x.com/thsottiaux/status/2077267551038681275",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1784090525663,
@@ -279,29 +292,31 @@
         "tweetText": "Pretty cool to see a popular fork of Codex OSS repo with 60k stars out there with my team being top contributors (due to preserving history with the fork)\n\nKeep building\n\nhttps://t.co/ovpDi3UtiT",
         "tweetUrl": "https://x.com/thsottiaux/status/2076724023338389807",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1783922518285,
-        "inputTokens": 361,
-        "outputTokens": 86,
-        "rationale": "This reply does not mention limits, caps, resets, or renewed availability.",
-        "reasoningTokens": 43,
-        "totalTokens": 447,
-        "tweetId": "2076546918382264529",
-        "tweetText": "@maria_rcks You all are adults",
-        "tweetUrl": "https://x.com/thsottiaux/status/2076546918382264529",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 349866,
-      "totalOutputTokens": 94389,
-      "totalReasoningTokens": 52021,
-      "totalTokens": 444255
+      "totalInputTokens": 350231,
+      "totalOutputTokens": 94477,
+      "totalReasoningTokens": 52063,
+      "totalTokens": 444708
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1784094244867,
+      "inputTokens": 365,
+      "message": "",
+      "outputTokens": 88,
+      "rationale": "This reply is just a joke about using Codex and does not mention limits or resets.",
+      "reasoningTokens": 42,
+      "totalTokens": 453,
+      "tweetId": "2077267551038681275",
+      "tweetText": "@jxnlco We all know you just delegate to Codex",
+      "tweetUrl": "https://x.com/thsottiaux/status/2077267551038681275",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0,
       "createdAt": 1784092992978,
@@ -886,27 +901,12 @@
       "tweetUrl": null,
       "type": "error",
       "verdict": null
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1783840019641,
-      "inputTokens": 411,
-      "message": "",
-      "outputTokens": 88,
-      "rationale": "This reply discusses context limits and pricing, not a reset of usage caps or rate limits.",
-      "reasoningTokens": 42,
-      "totalTokens": 499,
-      "tweetId": "2076201049086648705",
-      "tweetText": "@mylifcc This is not correct. Do not do this if you do not understand exactly what you are doing. \n\nWe do not charge extra above 270k context and the context threshold has been tuned for GPT 5.6 Sol to be perfect at the default limit.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2076201049086648705",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "fWPqy-Mh18grTPhkTdgeLfHWz6rz31Thb6bMk5c_TmroTH1Wl9F1TfnE-Q",
-    "iv": "anX19glV5cF063ps",
-    "tag": "GrWxfpxdrqAWRsXgo_JQlg",
+    "ciphertext": "aGk_EyvIogiMBo6GLP3LlhQ7kyMObjPdgcrbQioii_9N-ayTin-kOpW7bA",
+    "iv": "0xIdvJbLLjXmkWil",
+    "tag": "DZCF0scoRTKDmTdteMi7qg",
     "version": 1
   }
 }
