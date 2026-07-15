@@ -14,16 +14,16 @@
   "updatedAt": 1784057982852,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1784090519880,
-      "rationale": "This reply only says it became faster and does not indicate any rate limit or cap reset.",
-      "tweetId": "2077250606767743398",
-      "tweetUrl": "https://x.com/thsottiaux/status/2077250606767743398",
+      "confidence": 0.98,
+      "decidedAt": 1784090523090,
+      "rationale": "This reply is conversational and does not say or imply that any Codex or ChatGPT limit has reset.",
+      "tweetId": "2077250710262141354",
+      "tweetUrl": "https://x.com/thsottiaux/status/2077250710262141354",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2077250606767743398",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2077250606767743398",
+    "lastSeenTweetId": "2077250710262141354",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2077250710262141354",
     "pendingReview": {
       "confidence": 0.75,
       "createdAt": 1784090223018,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2077249987441037818"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.98,
+        "evaluatedAt": 1784090523090,
+        "inputTokens": 366,
+        "outputTokens": 146,
+        "rationale": "This reply is conversational and does not say or imply that any Codex or ChatGPT limit has reset.",
+        "reasoningTokens": 97,
+        "totalTokens": 512,
+        "tweetId": "2077250710262141354",
+        "tweetText": "@EmbDim512Layer7 Shhh. I didn’t hear that",
+        "tweetUrl": "https://x.com/thsottiaux/status/2077250710262141354",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1784090519880,
@@ -279,29 +292,31 @@
         "tweetText": "(1) is not correct, it is not due to 2X charging after 272k context, we don't charge for longer context on the subscription for GPT 5.6 Sol as we control all the settings. It is due to something else, which I will attempt to explain below.\n\nThe overall trajectory length, which is the total some of all context windows across compactions, changes little based on the reasoning effort. Similarly the quality of the overall output is similar across context lengths above 272k. The benefits of higher context lengths are mostly overall speed (as you don't wait for compaction), ability to deal with humongously large input and potentially cost if the system is well tuned and you hit your cache perfectly.\n\nThe actual reason is the what you can see depicted in the chart below, which is the difference in the orange line and the blue line. It is caused by overall cost of cache reads going up with the size of the context being shuffled back and forth between toolcalls. The sweet spot in terms of cost is therefore not necessarily to use the maximum possible context length.\n\nWhat we're working on is tuning the system differently so that we can go back higher without it resulting in higher usage being charged. Hope this clarifies a bit.",
         "tweetUrl": "https://x.com/thsottiaux/status/2076543065045795309",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1783912583953,
-        "inputTokens": 370,
-        "outputTokens": 75,
-        "rationale": "This reply just recommends reading something and does not mention limits or a reset.",
-        "reasoningTokens": 32,
-        "totalTokens": 445,
-        "tweetId": "2076504719149924570",
-        "tweetText": "@ItsAllonzOver Recommend reading https://t.co/BH02Ky7WDe",
-        "tweetUrl": "https://x.com/thsottiaux/status/2076504719149924570",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 349140,
-      "totalOutputTokens": 94178,
-      "totalReasoningTokens": 51903,
-      "totalTokens": 443318
+      "totalInputTokens": 349506,
+      "totalOutputTokens": 94324,
+      "totalReasoningTokens": 52000,
+      "totalTokens": 443830
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.98,
+      "createdAt": 1784090523090,
+      "inputTokens": 366,
+      "message": "",
+      "outputTokens": 146,
+      "rationale": "This reply is conversational and does not say or imply that any Codex or ChatGPT limit has reset.",
+      "reasoningTokens": 97,
+      "totalTokens": 512,
+      "tweetId": "2077250710262141354",
+      "tweetText": "@EmbDim512Layer7 Shhh. I didn’t hear that",
+      "tweetUrl": "https://x.com/thsottiaux/status/2077250710262141354",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1784090519880,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2076183475611414627",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1783835671288,
-      "inputTokens": 370,
-      "message": "",
-      "outputTokens": 91,
-      "rationale": "This reply is about fixes in a next release, not limits or usage becoming available again.",
-      "reasoningTokens": 45,
-      "totalTokens": 461,
-      "tweetId": "2076183004008137203",
-      "tweetText": "@flyosity Next release has the fixes https://t.co/vKHuaR98br",
-      "tweetUrl": "https://x.com/thsottiaux/status/2076183004008137203",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "dqSV2WP8PUv5_tQymMCXw0hW3HL1U2sPw7LbN93DYNnCZ50V4uNkUSGv7w",
-    "iv": "I7KsdjGZyCMPzV3t",
-    "tag": "MWdcda4Q0aNG71iZOx3UMg",
+    "ciphertext": "ZRAbjtb3Dxea159C-jl-6RN89Q02JNcSWo56yEIpZj_thjzRIdOR7T3xbw",
+    "iv": "4QNU_td0JXI5wp7W",
+    "tag": "KjnaeYe3_KTwdMLBc3p5Aw",
     "version": 1
   }
 }
