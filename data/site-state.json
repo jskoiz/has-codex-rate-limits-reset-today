@@ -21,7 +21,7 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2077212009071075330",
       "verdict": "not_reset"
     },
-    "lastError": null,
+    "lastError": "Tweet fetch failed: Tweet search failed: Unknown error; timeline fallback failed: Unknown error (Unknown error) (Tweet search failed: Unknown error; timeline fallback failed: Unknown error)",
     "lastSeenTweetId": "2077212009071075330",
     "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2077212009071075330",
     "pendingReview": {
@@ -304,6 +304,21 @@
   "automationEvents": [
     {
       "confidence": 0,
+      "createdAt": 1784088037044,
+      "inputTokens": 0,
+      "message": "Tweet fetch failed: Tweet search failed: Unknown error; timeline fallback failed: Unknown error (Unknown error) (Tweet search failed: Unknown error; timeline fallback failed: Unknown error)",
+      "outputTokens": 0,
+      "rationale": "",
+      "reasoningTokens": 0,
+      "totalTokens": 0,
+      "tweetId": null,
+      "tweetText": "",
+      "tweetUrl": null,
+      "type": "error",
+      "verdict": null
+    },
+    {
+      "confidence": 0,
       "createdAt": 1784086175617,
       "inputTokens": 0,
       "message": "Tweet fetch failed: Tweet search failed: Request failed with status code 404; timeline fallback failed: Unknown error (Unknown error) (Tweet search failed: Request failed with status code 404; timeline fallback failed: Unknown error)",
@@ -361,21 +376,6 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2077210072749600994",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0,
-      "createdAt": 1784077791789,
-      "inputTokens": 0,
-      "message": "Tweet fetch failed: Tweet search failed: Unknown error; timeline fallback failed: Unknown error (Unknown error) (Tweet search failed: Unknown error; timeline fallback failed: Unknown error)",
-      "outputTokens": 0,
-      "rationale": "",
-      "reasoningTokens": 0,
-      "totalTokens": 0,
-      "tweetId": null,
-      "tweetText": "",
-      "tweetUrl": null,
-      "type": "error",
-      "verdict": null
     },
     {
       "confidence": 0.99,
@@ -904,9 +904,9 @@
     }
   ],
   "privateState": {
-    "ciphertext": "ZuTkL1H_iflEkWwLE8MYVQSeaA_s_XuRCY4YL69Y2R_3ujVnvzfI4E2Uyw",
-    "iv": "Eg_1X_dQPlYIkAE_",
-    "tag": "bSkrrT0NIGqR4xNOK8QM3Q",
+    "ciphertext": "B00W8hc_gc-RcX3relvfVKeLy7041o85eez-MemFlEjZoRR4Vtei7yDFiA",
+    "iv": "lHdWJW6IR1P3Tv1v",
+    "tag": "jB2pNJ3U0DETObUAMW-xQw",
     "version": 1
   }
 }
