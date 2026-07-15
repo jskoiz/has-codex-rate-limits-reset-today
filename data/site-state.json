@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1784081218075,
-      "rationale": "He explicitly says this is not a reset announcement and is only asking for feedback on ChatGPT Work.",
-      "tweetId": "2077212009071075330",
-      "tweetUrl": "https://x.com/thsottiaux/status/2077212009071075330",
+      "decidedAt": 1784089917814,
+      "rationale": "This is a promotional offer for Codex credits, not a statement that limits or rate caps have reset.",
+      "tweetId": "2077248807533003257",
+      "tweetUrl": "https://x.com/thsottiaux/status/2077248807533003257",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2077212009071075330",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2077212009071075330",
+    "lastSeenTweetId": "2077248807533003257",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2077248807533003257",
     "pendingReview": {
       "confidence": 0.8,
       "createdAt": 1784080891248,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2077211193161531797"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1784089917814,
+        "inputTokens": 471,
+        "outputTokens": 70,
+        "rationale": "This is a promotional offer for Codex credits, not a statement that limits or rate caps have reset.",
+        "reasoningTokens": 21,
+        "totalTokens": 541,
+        "tweetId": "2077248807533003257",
+        "tweetText": "Or… what if we gave you $100 in Codex credits if you tell us what you love about GPT-5.6 Sol or why you switched?\n\nTweet it, claim your gift, enjoy more usage. First 10k get the free tokens!\n\nhttps://t.co/8mU93eA13i",
+        "tweetUrl": "https://x.com/thsottiaux/status/2077248807533003257",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1784081218075,
@@ -279,29 +292,31 @@
         "tweetText": "Team, Edu, ... and any other paid subscription too. Quite simple really.",
         "tweetUrl": "https://x.com/thsottiaux/status/2076460408437887268",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1783901669627,
-        "inputTokens": 390,
-        "outputTokens": 74,
-        "rationale": "This discusses subscription model availability, not a rate-limit or usage-cap reset.",
-        "reasoningTokens": 31,
-        "totalTokens": 464,
-        "tweetId": "2076459871021736245",
-        "tweetText": "Rest assured that GPT 5.6 Sol will stay in the ChatGPT subscription you pay for. Including Go, Plus and Pro subscriptions. At least until we ship an even better model.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2076459871021736245",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 347116,
-      "totalOutputTokens": 93461,
-      "totalReasoningTokens": 51430,
-      "totalTokens": 440577
+      "totalInputTokens": 347587,
+      "totalOutputTokens": 93531,
+      "totalReasoningTokens": 51451,
+      "totalTokens": 441118
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1784089917814,
+      "inputTokens": 471,
+      "message": "",
+      "outputTokens": 70,
+      "rationale": "This is a promotional offer for Codex credits, not a statement that limits or rate caps have reset.",
+      "reasoningTokens": 21,
+      "totalTokens": 541,
+      "tweetId": "2077248807533003257",
+      "tweetText": "Or… what if we gave you $100 in Codex credits if you tell us what you love about GPT-5.6 Sol or why you switched?\n\nTweet it, claim your gift, enjoy more usage. First 10k get the free tokens!\n\nhttps://t.co/8mU93eA13i",
+      "tweetUrl": "https://x.com/thsottiaux/status/2077248807533003257",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0,
       "createdAt": 1784088037044,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2076155461158699382",
       "type": "reset_confirmed",
       "verdict": "reset_confirmed"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1783829130843,
-      "inputTokens": 360,
-      "message": "",
-      "outputTokens": 80,
-      "rationale": "This reply does not mention limits, caps, or usage becoming available again.",
-      "reasoningTokens": 37,
-      "totalTokens": 440,
-      "tweetId": "2076155274994618630",
-      "tweetText": "@alencristen Nobody got that one",
-      "tweetUrl": "https://x.com/thsottiaux/status/2076155274994618630",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "xhRFP24xKPnEMBbAZ2KkBbHsJyRmNYSnbahtTbARvBxRbgeyQR8KKLMfgw",
-    "iv": "2yrJzs0z8roK-4Al",
-    "tag": "HW-nR-YRNn3fBZeoP2bMGQ",
+    "ciphertext": "VlBI18NI3kflVxx7Ud05fzUB5XcIFyrbawv9hygxefkBhGiBqQ0q9LMSyQ",
+    "iv": "4pWSFesTdNJId13X",
+    "tag": "BlYywTcMgI-XCaWydp5gvQ",
     "version": 1
   }
 }
