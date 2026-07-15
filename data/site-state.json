@@ -21,7 +21,7 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2077250804311028096",
       "verdict": "not_reset"
     },
-    "lastError": null,
+    "lastError": "Tweet fetch failed: Tweet search failed: Request failed with status code 404; timeline fallback failed: Unknown error (Unknown error) (Tweet search failed: Request failed with status code 404; timeline fallback failed: Unknown error)",
     "lastSeenTweetId": "2077250804311028096",
     "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2077250804311028096",
     "pendingReview": {
@@ -303,6 +303,21 @@
   },
   "automationEvents": [
     {
+      "confidence": 0,
+      "createdAt": 1784092992978,
+      "inputTokens": 0,
+      "message": "Tweet fetch failed: Tweet search failed: Request failed with status code 404; timeline fallback failed: Unknown error (Unknown error) (Tweet search failed: Request failed with status code 404; timeline fallback failed: Unknown error)",
+      "outputTokens": 0,
+      "rationale": "",
+      "reasoningTokens": 0,
+      "totalTokens": 0,
+      "tweetId": null,
+      "tweetText": "",
+      "tweetUrl": null,
+      "type": "error",
+      "verdict": null
+    },
+    {
       "confidence": 0.99,
       "createdAt": 1784090525663,
       "inputTokens": 360,
@@ -412,21 +427,6 @@
       "createdAt": 1784088037044,
       "inputTokens": 0,
       "message": "Tweet fetch failed: Tweet search failed: Unknown error; timeline fallback failed: Unknown error (Unknown error) (Tweet search failed: Unknown error; timeline fallback failed: Unknown error)",
-      "outputTokens": 0,
-      "rationale": "",
-      "reasoningTokens": 0,
-      "totalTokens": 0,
-      "tweetId": null,
-      "tweetText": "",
-      "tweetUrl": null,
-      "type": "error",
-      "verdict": null
-    },
-    {
-      "confidence": 0,
-      "createdAt": 1784086175617,
-      "inputTokens": 0,
-      "message": "Tweet fetch failed: Tweet search failed: Request failed with status code 404; timeline fallback failed: Unknown error (Unknown error) (Tweet search failed: Request failed with status code 404; timeline fallback failed: Unknown error)",
       "outputTokens": 0,
       "rationale": "",
       "reasoningTokens": 0,
@@ -904,9 +904,9 @@
     }
   ],
   "privateState": {
-    "ciphertext": "JHwRKsoTrOTfjz_KaXypKvlBDNNoKCcvjpeyyt-uW1vxGqDMu2H-LTAERA",
-    "iv": "LSgo0xvapZc3dtXZ",
-    "tag": "ae_9hzbxuKBQRNCVHlYewg",
+    "ciphertext": "pFRJ60gaSbxr85k3I9oqiN3UiGayv-bRh23WtJvoLK4YGa4FXMW5SL9ySA",
+    "iv": "UvCjfOhVUlkVow94",
+    "tag": "FVUFSiADm403X6ryAj3svg",
     "version": 1
   }
 }
