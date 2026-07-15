@@ -1,5 +1,5 @@
 {
-  "currentState": "yes",
+  "currentState": "no",
   "autoResetHours": 20,
   "noSubtitles": [
     "Back to your local model peasant",
@@ -10,20 +10,20 @@
     "Limits reset, go crazy",
     "You can just build things"
   ],
-  "resetAt": 1784129982852,
+  "resetAt": null,
   "updatedAt": 1784057982852,
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1784097654916,
-      "rationale": "This reply discusses prompts in an open source repo, not usage limits or resets.",
-      "tweetId": "2077281798258888839",
-      "tweetUrl": "https://x.com/thsottiaux/status/2077281798258888839",
+      "decidedAt": 1784133345281,
+      "rationale": "This reply just says congratulations and gives no indication that any limits have reset.",
+      "tweetId": "2077431736804545006",
+      "tweetUrl": "https://x.com/thsottiaux/status/2077431736804545006",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2077281798258888839",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2077281798258888839",
+    "lastSeenTweetId": "2077431736804545006",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2077431736804545006",
     "pendingReview": {
       "confidence": 0.75,
       "createdAt": 1784090223018,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2077249987441037818"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1784133345281,
+        "inputTokens": 357,
+        "outputTokens": 72,
+        "rationale": "This reply just says congratulations and gives no indication that any limits have reset.",
+        "reasoningTokens": 29,
+        "totalTokens": 429,
+        "tweetId": "2077431736804545006",
+        "tweetText": "@thdxr Congrats",
+        "tweetUrl": "https://x.com/thsottiaux/status/2077431736804545006",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1784097654916,
@@ -279,29 +292,31 @@
         "tweetText": "@forgebitz Let’s\nGo\nKlaas",
         "tweetUrl": "https://x.com/thsottiaux/status/2076907459625746922",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1784005320500,
-        "inputTokens": 356,
-        "outputTokens": 82,
-        "rationale": "This reply is generic and does not mention any limit, cap, or reset.",
-        "reasoningTokens": 38,
-        "totalTokens": 438,
-        "tweetId": "2076894197488226531",
-        "tweetText": "Build your dreams",
-        "tweetUrl": "https://x.com/thsottiaux/status/2076894197488226531",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 351732,
-      "totalOutputTokens": 94941,
-      "totalReasoningTokens": 52346,
-      "totalTokens": 446673
+      "totalInputTokens": 352089,
+      "totalOutputTokens": 95013,
+      "totalReasoningTokens": 52375,
+      "totalTokens": 447102
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1784133345281,
+      "inputTokens": 357,
+      "message": "",
+      "outputTokens": 72,
+      "rationale": "This reply just says congratulations and gives no indication that any limits have reset.",
+      "reasoningTokens": 29,
+      "totalTokens": 429,
+      "tweetId": "2077431736804545006",
+      "tweetText": "@thdxr Congrats",
+      "tweetUrl": "https://x.com/thsottiaux/status/2077431736804545006",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0,
       "createdAt": 1784126209753,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2076418567143408112",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.06,
-      "createdAt": 1783880297234,
-      "inputTokens": 357,
-      "message": "",
-      "outputTokens": 152,
-      "rationale": "This reply just says “Yes” and does not by itself clearly indicate a current limit reset.",
-      "reasoningTokens": 105,
-      "totalTokens": 509,
-      "tweetId": "2076369340375699589",
-      "tweetText": "@mweinbach Yes",
-      "tweetUrl": "https://x.com/thsottiaux/status/2076369340375699589",
-      "type": "review_requested",
-      "verdict": "uncertain"
     }
   ],
   "privateState": {
-    "ciphertext": "BtNJeIjplrmr5My0YqqCG5Me0Axb3f1FGQyHZtEDAPSNwx93eLRcVhOa3w",
-    "iv": "k0UXsVMCyrLiJrb1",
-    "tag": "nRJU7gs3-r_B7zSvwO6o_g",
+    "ciphertext": "qnVNhaHxVywhciOz90kgqjO5AeJeN2dsmiXH_gh_eqrqaWDqD_ZCNkvz0A",
+    "iv": "hmV1VcyNVNzyex3I",
+    "tag": "2Gw7uyohMDHZXAwfRq3JfA",
     "version": 1
   }
 }
