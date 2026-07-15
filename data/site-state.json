@@ -14,18 +14,38 @@
   "updatedAt": 1784057982852,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1784080584154,
-      "rationale": "This reply is conversational and does not mention limits, caps, or usage resetting.",
-      "tweetId": "2077210072749600994",
-      "tweetUrl": "https://x.com/thsottiaux/status/2077210072749600994",
-      "verdict": "not_reset"
+      "confidence": 0.8,
+      "decidedAt": 1784080891248,
+      "rationale": "The reply says “Users are up,” which could mean service availability but does not clearly confirm a rate-limit reset.",
+      "tweetId": "2077211193161531797",
+      "tweetUrl": "https://x.com/thsottiaux/status/2077211193161531797",
+      "verdict": "uncertain"
     },
     "lastError": null,
-    "lastSeenTweetId": "2077210072749600994",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2077210072749600994",
-    "pendingReview": null,
+    "lastSeenTweetId": "2077211193161531797",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2077211193161531797",
+    "pendingReview": {
+      "confidence": 0.8,
+      "createdAt": 1784080891248,
+      "rationale": "The reply says “Users are up,” which could mean service availability but does not clearly confirm a rate-limit reset.",
+      "tweetId": "2077211193161531797",
+      "tweetText": "@matthewmillerai Users are up",
+      "tweetUrl": "https://x.com/thsottiaux/status/2077211193161531797"
+    },
     "recentEvaluations": [
+      {
+        "confidence": 0.8,
+        "evaluatedAt": 1784080891248,
+        "inputTokens": 362,
+        "outputTokens": 162,
+        "rationale": "The reply says “Users are up,” which could mean service availability but does not clearly confirm a rate-limit reset.",
+        "reasoningTokens": 111,
+        "totalTokens": 524,
+        "tweetId": "2077211193161531797",
+        "tweetText": "@matthewmillerai Users are up",
+        "tweetUrl": "https://x.com/thsottiaux/status/2077211193161531797",
+        "verdict": "uncertain"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1784080584154,
@@ -272,29 +292,31 @@
         "tweetText": "@venivci Someone slap a Codex billboard overlay over this",
         "tweetUrl": "https://x.com/thsottiaux/status/2076421686526890373",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1783892669576,
-        "inputTokens": 359,
-        "outputTokens": 74,
-        "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-        "reasoningTokens": 30,
-        "totalTokens": 433,
-        "tweetId": "2076421333488194037",
-        "tweetText": "@mehulmpt Sounds peaceful",
-        "tweetUrl": "https://x.com/thsottiaux/status/2076421333488194037",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 346364,
-      "totalOutputTokens": 93220,
-      "totalReasoningTokens": 51288,
-      "totalTokens": 439584
+      "totalInputTokens": 346726,
+      "totalOutputTokens": 93382,
+      "totalReasoningTokens": 51399,
+      "totalTokens": 440108
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.8,
+      "createdAt": 1784080891248,
+      "inputTokens": 362,
+      "message": "",
+      "outputTokens": 162,
+      "rationale": "The reply says “Users are up,” which could mean service availability but does not clearly confirm a rate-limit reset.",
+      "reasoningTokens": 111,
+      "totalTokens": 524,
+      "tweetId": "2077211193161531797",
+      "tweetText": "@matthewmillerai Users are up",
+      "tweetUrl": "https://x.com/thsottiaux/status/2077211193161531797",
+      "type": "review_requested",
+      "verdict": "uncertain"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1784080584154,
@@ -879,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2076154770658828598",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.11,
-      "createdAt": 1783828519353,
-      "inputTokens": 358,
-      "message": "",
-      "outputTokens": 140,
-      "rationale": "This reply just says “Update” and provides no clear evidence that any Codex or ChatGPT limit has reset.",
-      "reasoningTokens": 89,
-      "totalTokens": 498,
-      "tweetId": "2076153017582354612",
-      "tweetText": "@gergomoricz Update",
-      "tweetUrl": "https://x.com/thsottiaux/status/2076153017582354612",
-      "type": "review_requested",
-      "verdict": "uncertain"
     }
   ],
   "privateState": {
-    "ciphertext": "j56TXQB8YEahAL6d-hldJwvHzHpn3nEb_f1mKOEUGf31o4-T1BB_FKDsJA",
-    "iv": "EGhvRlrXRpK0SKp3",
-    "tag": "HZzrThgjcHRc32W-CL2wnQ",
+    "ciphertext": "iR-4FRlqTJ1T-RT2uof5GsR-Yduy5K3BcdD7Yrc2HTwNHOGms32KpRC5Hg",
+    "iv": "HA0JuoK1SNZMOT9C",
+    "tag": "077bgd6tDhDGlNtcMCwX2g",
     "version": 1
   }
 }
