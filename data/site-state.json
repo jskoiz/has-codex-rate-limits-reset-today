@@ -14,16 +14,16 @@
   "updatedAt": 1784057982852,
   "automation": {
     "lastDecision": {
-      "confidence": 0.98,
-      "decidedAt": 1784095492622,
-      "rationale": "This only discusses possibly resetting usage again in the future, not that limits have reset now.",
-      "tweetId": "2077271889626706300",
-      "tweetUrl": "https://x.com/thsottiaux/status/2077271889626706300",
+      "confidence": 0.99,
+      "decidedAt": 1784097654916,
+      "rationale": "This reply discusses prompts in an open source repo, not usage limits or resets.",
+      "tweetId": "2077281798258888839",
+      "tweetUrl": "https://x.com/thsottiaux/status/2077281798258888839",
       "verdict": "not_reset"
     },
-    "lastError": "Tweet fetch failed: Tweet search failed: Unknown error; timeline fallback failed: Unknown error (Unknown error) (Tweet search failed: Unknown error; timeline fallback failed: Unknown error)",
-    "lastSeenTweetId": "2077271889626706300",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2077271889626706300",
+    "lastError": null,
+    "lastSeenTweetId": "2077281798258888839",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2077281798258888839",
     "pendingReview": {
       "confidence": 0.75,
       "createdAt": 1784090223018,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2077249987441037818"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1784097654916,
+        "inputTokens": 382,
+        "outputTokens": 76,
+        "rationale": "This reply discusses prompts in an open source repo, not usage limits or resets.",
+        "reasoningTokens": 32,
+        "totalTokens": 458,
+        "tweetId": "2077281798258888839",
+        "tweetText": "@elder_plinius You can also read various prompts we use on the open source repo\n\nhttps://t.co/2TH56VNxnb",
+        "tweetUrl": "https://x.com/thsottiaux/status/2077281798258888839",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.98,
         "evaluatedAt": 1784095492622,
@@ -279,29 +292,31 @@
         "tweetText": "Build your dreams",
         "tweetUrl": "https://x.com/thsottiaux/status/2076894197488226531",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1784005317577,
-        "inputTokens": 369,
-        "outputTokens": 72,
-        "rationale": "This is a promotional post and does not mention limits, caps, or usage resetting.",
-        "reasoningTokens": 27,
-        "totalTokens": 441,
-        "tweetId": "2076894071323537898",
-        "tweetText": "ChatGPT Work presents https://t.co/pY5Vei9OIz",
-        "tweetUrl": "https://x.com/thsottiaux/status/2076894071323537898",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 351350,
-      "totalOutputTokens": 94865,
-      "totalReasoningTokens": 52314,
-      "totalTokens": 446215
+      "totalInputTokens": 351732,
+      "totalOutputTokens": 94941,
+      "totalReasoningTokens": 52346,
+      "totalTokens": 446673
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1784097654916,
+      "inputTokens": 382,
+      "message": "",
+      "outputTokens": 76,
+      "rationale": "This reply discusses prompts in an open source repo, not usage limits or resets.",
+      "reasoningTokens": 32,
+      "totalTokens": 458,
+      "tweetId": "2077281798258888839",
+      "tweetText": "@elder_plinius You can also read various prompts we use on the open source repo\n\nhttps://t.co/2TH56VNxnb",
+      "tweetUrl": "https://x.com/thsottiaux/status/2077281798258888839",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0,
       "createdAt": 1784097345163,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2076369340375699589",
       "type": "review_requested",
       "verdict": "uncertain"
-    },
-    {
-      "confidence": 0.97,
-      "createdAt": 1783879365205,
-      "inputTokens": 465,
-      "message": "",
-      "outputTokens": 188,
-      "rationale": "It explicitly says the 5-hour usage limit restriction is being temporarily removed for Plus, Business, and Pro plans.",
-      "reasoningTokens": 136,
-      "totalTokens": 653,
-      "tweetId": "2076365965915467978",
-      "tweetText": "Morning. The last 48 hours of Codex and ChatGPT Work have been intense! Three important updates:\n\n- Temporarily removing the 5 hour usage limit restriction for all Plus, Business and Pro plans\n- Rolling out changes that will make GPT 5.6 Sol more efficient across the board and that will be reflected in less usage being used so that it can take you further. Exact impact to be quantified and shared\n- We hit 6M active users, and are landing a usage reset in the next hour\n\nGo do things",
-      "tweetUrl": "https://x.com/thsottiaux/status/2076365965915467978",
-      "type": "reset_confirmed",
-      "verdict": "reset_confirmed"
     }
   ],
   "privateState": {
-    "ciphertext": "b9VS3WwhI2AYD7gvTNCjnFsdIHBp3VERkYUA0STWGbe5fztFps-RnBL76A",
-    "iv": "YydzxEzA_BoGG_rr",
-    "tag": "GPJUzccczFPDzBR7PBRniw",
+    "ciphertext": "X5HticM2IlBDHsGgluZCHrfsF6fu2TLgk6RmYh0KuAhqzoxTRYvi2bHlkQ",
+    "iv": "FMIi2RoQUiKuXIL8",
+    "tag": "xhl_iljEbNXpBxzHAr5cHQ",
     "version": 1
   }
 }
