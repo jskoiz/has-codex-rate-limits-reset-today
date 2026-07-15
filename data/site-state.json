@@ -21,7 +21,7 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2077447646588109153",
       "verdict": "not_reset"
     },
-    "lastError": null,
+    "lastError": "Tweet fetch failed: Tweet search failed: Unknown error; timeline fallback failed: Unknown error (Unknown error) (Tweet search failed: Unknown error; timeline fallback failed: Unknown error)",
     "lastSeenTweetId": "2077447646588109153",
     "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2077447646588109153",
     "pendingReview": {
@@ -303,6 +303,21 @@
   },
   "automationEvents": [
     {
+      "confidence": 0,
+      "createdAt": 1784139474649,
+      "inputTokens": 0,
+      "message": "Tweet fetch failed: Tweet search failed: Unknown error; timeline fallback failed: Unknown error (Unknown error) (Tweet search failed: Unknown error; timeline fallback failed: Unknown error)",
+      "outputTokens": 0,
+      "rationale": "",
+      "reasoningTokens": 0,
+      "totalTokens": 0,
+      "tweetId": null,
+      "tweetText": "",
+      "tweetUrl": null,
+      "type": "error",
+      "verdict": null
+    },
+    {
       "confidence": 0.99,
       "createdAt": 1784138527687,
       "inputTokens": 364,
@@ -316,21 +331,6 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2077447646588109153",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0,
-      "createdAt": 1784137914857,
-      "inputTokens": 0,
-      "message": "Tweet fetch failed: Tweet search failed: Unknown error; timeline fallback failed: Unknown error (Unknown error) (Tweet search failed: Unknown error; timeline fallback failed: Unknown error)",
-      "outputTokens": 0,
-      "rationale": "",
-      "reasoningTokens": 0,
-      "totalTokens": 0,
-      "tweetId": null,
-      "tweetText": "",
-      "tweetUrl": null,
-      "type": "error",
-      "verdict": null
     },
     {
       "confidence": 0.99,
@@ -904,9 +904,9 @@
     }
   ],
   "privateState": {
-    "ciphertext": "XdIU_WcGuFJolhk0Hjm-NDJWPYOeIMhyhMoHPAo5vr2zW_l1IjzuAI3XiA",
-    "iv": "BJ45UZkaaXorce1p",
-    "tag": "wstGSNwN8YsgIQ1SAwYOVA",
+    "ciphertext": "0CaMkhu8nhSNGfpxyMqistbZdB1tiyISXjzjqKAb_bZNjTg32dGyZrwbDw",
+    "iv": "JBI2XjJc4ynfI1Bj",
+    "tag": "irkYFOeUM8bo8Yh4ytajfg",
     "version": 1
   }
 }
