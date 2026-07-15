@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1784090517013,
-      "rationale": "This is just a conversational reply and gives no indication that any limits have reset.",
-      "tweetId": "2077250502543466823",
-      "tweetUrl": "https://x.com/thsottiaux/status/2077250502543466823",
+      "decidedAt": 1784090519880,
+      "rationale": "This reply only says it became faster and does not indicate any rate limit or cap reset.",
+      "tweetId": "2077250606767743398",
+      "tweetUrl": "https://x.com/thsottiaux/status/2077250606767743398",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2077250502543466823",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2077250502543466823",
+    "lastSeenTweetId": "2077250606767743398",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2077250606767743398",
     "pendingReview": {
       "confidence": 0.75,
       "createdAt": 1784090223018,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2077249987441037818"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1784090519880,
+        "inputTokens": 361,
+        "outputTokens": 76,
+        "rationale": "This reply only says it became faster and does not indicate any rate limit or cap reset.",
+        "reasoningTokens": 30,
+        "totalTokens": 437,
+        "tweetId": "2077250606767743398",
+        "tweetText": "@CampuzanoJoe It did become faster",
+        "tweetUrl": "https://x.com/thsottiaux/status/2077250606767743398",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1784090517013,
@@ -279,29 +292,31 @@
         "tweetText": "@ItsAllonzOver Recommend reading https://t.co/BH02Ky7WDe",
         "tweetUrl": "https://x.com/thsottiaux/status/2076504719149924570",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.76,
-        "evaluatedAt": 1783912259458,
-        "inputTokens": 371,
-        "outputTokens": 145,
-        "rationale": "It hints something may have propagated, but it does not clearly say rate limits or caps have reset.",
-        "reasoningTokens": 97,
-        "totalTokens": 516,
-        "tweetId": "2076504611264098544",
-        "tweetText": "@iruletheworldmo @AniBaddepudi Always the small propagation delay. Check now?",
-        "tweetUrl": "https://x.com/thsottiaux/status/2076504611264098544",
-        "verdict": "uncertain"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 348779,
-      "totalOutputTokens": 94102,
-      "totalReasoningTokens": 51873,
-      "totalTokens": 442881
+      "totalInputTokens": 349140,
+      "totalOutputTokens": 94178,
+      "totalReasoningTokens": 51903,
+      "totalTokens": 443318
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1784090519880,
+      "inputTokens": 361,
+      "message": "",
+      "outputTokens": 76,
+      "rationale": "This reply only says it became faster and does not indicate any rate limit or cap reset.",
+      "reasoningTokens": 30,
+      "totalTokens": 437,
+      "tweetId": "2077250606767743398",
+      "tweetText": "@CampuzanoJoe It did become faster",
+      "tweetUrl": "https://x.com/thsottiaux/status/2077250606767743398",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1784090517013,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2076183004008137203",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1783835668460,
-      "inputTokens": 388,
-      "message": "",
-      "outputTokens": 84,
-      "rationale": "This reply is about a ChatGPT app feature and does not mention limits or resets.",
-      "reasoningTokens": 39,
-      "totalTokens": 472,
-      "tweetId": "2076182200400375979",
-      "tweetText": "@hobdaydesign We've had this for a while. Install the new ChatGPT app and use /side\n\nhttps://t.co/7SI5Jja9eO",
-      "tweetUrl": "https://x.com/thsottiaux/status/2076182200400375979",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "hpSGg_YTkb3VbZqE_Q6CaO5o9GbQlRsv11fiZlV4tsFL5TaHfKRobKawvQ",
-    "iv": "50Xd4tDVtFC3jRqU",
-    "tag": "Qss0Mt1YgebBsRhKgytPdw",
+    "ciphertext": "dqSV2WP8PUv5_tQymMCXw0hW3HL1U2sPw7LbN93DYNnCZ50V4uNkUSGv7w",
+    "iv": "I7KsdjGZyCMPzV3t",
+    "tag": "MWdcda4Q0aNG71iZOx3UMg",
     "version": 1
   }
 }
