@@ -14,16 +14,16 @@
   "updatedAt": 1784057982852,
   "automation": {
     "lastDecision": {
-      "confidence": 0.98,
-      "decidedAt": 1784090523090,
-      "rationale": "This reply is conversational and does not say or imply that any Codex or ChatGPT limit has reset.",
-      "tweetId": "2077250710262141354",
-      "tweetUrl": "https://x.com/thsottiaux/status/2077250710262141354",
+      "confidence": 0.99,
+      "decidedAt": 1784090525663,
+      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+      "tweetId": "2077250804311028096",
+      "tweetUrl": "https://x.com/thsottiaux/status/2077250804311028096",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2077250710262141354",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2077250710262141354",
+    "lastSeenTweetId": "2077250804311028096",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2077250804311028096",
     "pendingReview": {
       "confidence": 0.75,
       "createdAt": 1784090223018,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2077249987441037818"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1784090525663,
+        "inputTokens": 360,
+        "outputTokens": 65,
+        "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+        "reasoningTokens": 21,
+        "totalTokens": 425,
+        "tweetId": "2077250804311028096",
+        "tweetText": "@ServerJsc92470 Nice indeed",
+        "tweetUrl": "https://x.com/thsottiaux/status/2077250804311028096",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.98,
         "evaluatedAt": 1784090523090,
@@ -279,29 +292,31 @@
         "tweetText": "@maria_rcks You all are adults",
         "tweetUrl": "https://x.com/thsottiaux/status/2076546918382264529",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1783921577016,
-        "inputTokens": 609,
-        "outputTokens": 89,
-        "rationale": "This discusses usage charging and context tuning, not a current reset or lifting of limits.",
-        "reasoningTokens": 44,
-        "totalTokens": 698,
-        "tweetId": "2076543065045795309",
-        "tweetText": "(1) is not correct, it is not due to 2X charging after 272k context, we don't charge for longer context on the subscription for GPT 5.6 Sol as we control all the settings. It is due to something else, which I will attempt to explain below.\n\nThe overall trajectory length, which is the total some of all context windows across compactions, changes little based on the reasoning effort. Similarly the quality of the overall output is similar across context lengths above 272k. The benefits of higher context lengths are mostly overall speed (as you don't wait for compaction), ability to deal with humongously large input and potentially cost if the system is well tuned and you hit your cache perfectly.\n\nThe actual reason is the what you can see depicted in the chart below, which is the difference in the orange line and the blue line. It is caused by overall cost of cache reads going up with the size of the context being shuffled back and forth between toolcalls. The sweet spot in terms of cost is therefore not necessarily to use the maximum possible context length.\n\nWhat we're working on is tuning the system differently so that we can go back higher without it resulting in higher usage being charged. Hope this clarifies a bit.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2076543065045795309",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 349506,
-      "totalOutputTokens": 94324,
-      "totalReasoningTokens": 52000,
-      "totalTokens": 443830
+      "totalInputTokens": 349866,
+      "totalOutputTokens": 94389,
+      "totalReasoningTokens": 52021,
+      "totalTokens": 444255
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1784090525663,
+      "inputTokens": 360,
+      "message": "",
+      "outputTokens": 65,
+      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+      "reasoningTokens": 21,
+      "totalTokens": 425,
+      "tweetId": "2077250804311028096",
+      "tweetText": "@ServerJsc92470 Nice indeed",
+      "tweetUrl": "https://x.com/thsottiaux/status/2077250804311028096",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.98,
       "createdAt": 1784090523090,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2076201049086648705",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1783835972718,
-      "inputTokens": 360,
-      "message": "",
-      "outputTokens": 83,
-      "rationale": "This reply is unrelated to Codex or ChatGPT limits resetting.",
-      "reasoningTokens": 42,
-      "totalTokens": 443,
-      "tweetId": "2076183475611414627",
-      "tweetText": "@cifilter Click remote my friend",
-      "tweetUrl": "https://x.com/thsottiaux/status/2076183475611414627",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "ZRAbjtb3Dxea159C-jl-6RN89Q02JNcSWo56yEIpZj_thjzRIdOR7T3xbw",
-    "iv": "4QNU_td0JXI5wp7W",
-    "tag": "KjnaeYe3_KTwdMLBc3p5Aw",
+    "ciphertext": "JHwRKsoTrOTfjz_KaXypKvlBDNNoKCcvjpeyyt-uW1vxGqDMu2H-LTAERA",
+    "iv": "LSgo0xvapZc3dtXZ",
+    "tag": "ae_9hzbxuKBQRNCVHlYewg",
     "version": 1
   }
 }
