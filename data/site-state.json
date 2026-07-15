@@ -14,16 +14,16 @@
   "updatedAt": 1784057982852,
   "automation": {
     "lastDecision": {
-      "confidence": 0.75,
-      "decidedAt": 1784090223018,
-      "rationale": "Saying Codex is \"pretty unlimited\" suggests generous access now, but it does not clearly state that a rate limit…",
-      "tweetId": "2077249987441037818",
-      "tweetUrl": "https://x.com/thsottiaux/status/2077249987441037818",
-      "verdict": "uncertain"
+      "confidence": 0.99,
+      "decidedAt": 1784090517013,
+      "rationale": "This is just a conversational reply and gives no indication that any limits have reset.",
+      "tweetId": "2077250502543466823",
+      "tweetUrl": "https://x.com/thsottiaux/status/2077250502543466823",
+      "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2077249987441037818",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2077249987441037818",
+    "lastSeenTweetId": "2077250502543466823",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2077250502543466823",
     "pendingReview": {
       "confidence": 0.75,
       "createdAt": 1784090223018,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2077249987441037818"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1784090517013,
+        "inputTokens": 359,
+        "outputTokens": 80,
+        "rationale": "This is just a conversational reply and gives no indication that any limits have reset.",
+        "reasoningTokens": 36,
+        "totalTokens": 439,
+        "tweetId": "2077250502543466823",
+        "tweetText": "@Ceoz_1 Never change",
+        "tweetUrl": "https://x.com/thsottiaux/status/2077250502543466823",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.75,
         "evaluatedAt": 1784090223018,
@@ -279,29 +292,31 @@
         "tweetText": "@iruletheworldmo @AniBaddepudi Always the small propagation delay. Check now?",
         "tweetUrl": "https://x.com/thsottiaux/status/2076504611264098544",
         "verdict": "uncertain"
-      },
-      {
-        "confidence": 0.9,
-        "evaluatedAt": 1783910410481,
-        "inputTokens": 362,
-        "outputTokens": 259,
-        "rationale": "This reply is not explicit about limits resetting and relies on missing context from another post.",
-        "reasoningTokens": 214,
-        "totalTokens": 621,
-        "tweetId": "2076495484554994032",
-        "tweetText": "@ggg78g89 It's in the post!",
-        "tweetUrl": "https://x.com/thsottiaux/status/2076495484554994032",
-        "verdict": "uncertain"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 348420,
-      "totalOutputTokens": 94022,
-      "totalReasoningTokens": 51837,
-      "totalTokens": 442442
+      "totalInputTokens": 348779,
+      "totalOutputTokens": 94102,
+      "totalReasoningTokens": 51873,
+      "totalTokens": 442881
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1784090517013,
+      "inputTokens": 359,
+      "message": "",
+      "outputTokens": 80,
+      "rationale": "This is just a conversational reply and gives no indication that any limits have reset.",
+      "reasoningTokens": 36,
+      "totalTokens": 439,
+      "tweetId": "2077250502543466823",
+      "tweetText": "@Ceoz_1 Never change",
+      "tweetUrl": "https://x.com/thsottiaux/status/2077250502543466823",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.75,
       "createdAt": 1784090223018,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2076182200400375979",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1783831947700,
-      "inputTokens": 357,
-      "message": "",
-      "outputTokens": 70,
-      "rationale": "This reply is conversational and does not mention limits, caps, or usage being available again.",
-      "reasoningTokens": 24,
-      "totalTokens": 427,
-      "tweetId": "2076166992961409173",
-      "tweetText": "@xeophon Pro tip",
-      "tweetUrl": "https://x.com/thsottiaux/status/2076166992961409173",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "C-oA4LVAMBQhcK72Vv4eEeVrvKeBm2JjGoESYTOQWeMNnu2koNlnQXIjZQ",
-    "iv": "9MqbiPN5nE1ICsxY",
-    "tag": "FrwXiAIE7aQjeCHN0UuKLw",
+    "ciphertext": "hpSGg_YTkb3VbZqE_Q6CaO5o9GbQlRsv11fiZlV4tsFL5TaHfKRobKawvQ",
+    "iv": "50Xd4tDVtFC3jRqU",
+    "tag": "Qss0Mt1YgebBsRhKgytPdw",
     "version": 1
   }
 }
