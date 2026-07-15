@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1784094244867,
-      "rationale": "This reply is just a joke about using Codex and does not mention limits or resets.",
-      "tweetId": "2077267551038681275",
-      "tweetUrl": "https://x.com/thsottiaux/status/2077267551038681275",
+      "decidedAt": 1784094554245,
+      "rationale": "This reply only says “Not Codex” and does not indicate any rate limit reset.",
+      "tweetId": "2077268737087197564",
+      "tweetUrl": "https://x.com/thsottiaux/status/2077268737087197564",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2077267551038681275",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2077267551038681275",
+    "lastSeenTweetId": "2077268737087197564",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2077268737087197564",
     "pendingReview": {
       "confidence": 0.75,
       "createdAt": 1784090223018,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2077249987441037818"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1784094554245,
+        "inputTokens": 360,
+        "outputTokens": 99,
+        "rationale": "This reply only says “Not Codex” and does not indicate any rate limit reset.",
+        "reasoningTokens": 53,
+        "totalTokens": 459,
+        "tweetId": "2077268737087197564",
+        "tweetText": "@0x45o Not Codex",
+        "tweetUrl": "https://x.com/thsottiaux/status/2077268737087197564",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1784094244867,
@@ -279,29 +292,31 @@
         "tweetText": "Thank you to the 7M active users who are now using Codex and ChatGPT Work.\n\nWe have added a banked reset to everyone's account to celebrate the milestone. You can apply the reset in the desktop app or on web and it will replenish the weekly usage for you.\n\nHave fun out there.",
         "tweetUrl": "https://x.com/thsottiaux/status/2076735790567338203",
         "verdict": "reset_confirmed"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1783964657839,
-        "inputTokens": 405,
-        "outputTokens": 76,
-        "rationale": "This post is about a Codex OSS fork and does not mention limits, caps, or availability resetting.",
-        "reasoningTokens": 27,
-        "totalTokens": 481,
-        "tweetId": "2076724023338389807",
-        "tweetText": "Pretty cool to see a popular fork of Codex OSS repo with 60k stars out there with my team being top contributors (due to preserving history with the fork)\n\nKeep building\n\nhttps://t.co/ovpDi3UtiT",
-        "tweetUrl": "https://x.com/thsottiaux/status/2076724023338389807",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 350231,
-      "totalOutputTokens": 94477,
-      "totalReasoningTokens": 52063,
-      "totalTokens": 444708
+      "totalInputTokens": 350591,
+      "totalOutputTokens": 94576,
+      "totalReasoningTokens": 52116,
+      "totalTokens": 445167
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1784094554245,
+      "inputTokens": 360,
+      "message": "",
+      "outputTokens": 99,
+      "rationale": "This reply only says “Not Codex” and does not indicate any rate limit reset.",
+      "reasoningTokens": 53,
+      "totalTokens": 459,
+      "tweetId": "2077268737087197564",
+      "tweetText": "@0x45o Not Codex",
+      "tweetUrl": "https://x.com/thsottiaux/status/2077268737087197564",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1784094244867,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2076326822032355480",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0,
-      "createdAt": 1783855184968,
-      "inputTokens": 0,
-      "message": "Tweet fetch failed: Tweet search failed: Request failed with status code 403; timeline fallback failed: Request failed with status code 403 (Request failed with status code 403) (Tweet search failed: Request failed with status code 403; timeline fallback failed: Request failed with status code 403)",
-      "outputTokens": 0,
-      "rationale": "",
-      "reasoningTokens": 0,
-      "totalTokens": 0,
-      "tweetId": null,
-      "tweetText": "",
-      "tweetUrl": null,
-      "type": "error",
-      "verdict": null
     }
   ],
   "privateState": {
-    "ciphertext": "aGk_EyvIogiMBo6GLP3LlhQ7kyMObjPdgcrbQioii_9N-ayTin-kOpW7bA",
-    "iv": "0xIdvJbLLjXmkWil",
-    "tag": "DZCF0scoRTKDmTdteMi7qg",
+    "ciphertext": "5QcuGBTIDpqSurKUspo0tcxdetfrVwNTwrcH9tU8c-2L3XM42hOMe9nADw",
+    "iv": "R14JDS6mq9kacesu",
+    "tag": "ByAk2H85J7AOq7y9JjX7Hg",
     "version": 1
   }
 }
