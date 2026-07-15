@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1784057982852,
-      "rationale": "The tweet explicitly says usage limits are being reset for everyone and the 5h rate limit is not in effect.",
-      "tweetId": "2077114635308986427",
-      "tweetUrl": "https://x.com/thsottiaux/status/2077114635308986427",
-      "verdict": "reset_confirmed"
+      "decidedAt": 1784080584154,
+      "rationale": "This reply is conversational and does not mention limits, caps, or usage resetting.",
+      "tweetId": "2077210072749600994",
+      "tweetUrl": "https://x.com/thsottiaux/status/2077210072749600994",
+      "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2077114635308986427",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2077114635308986427",
+    "lastSeenTweetId": "2077210072749600994",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2077210072749600994",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1784080584154,
+        "inputTokens": 367,
+        "outputTokens": 92,
+        "rationale": "This reply is conversational and does not mention limits, caps, or usage resetting.",
+        "reasoningTokens": 48,
+        "totalTokens": 459,
+        "tweetId": "2077210072749600994",
+        "tweetText": "@thegenioo It’s not much, but it’s honest work",
+        "tweetUrl": "https://x.com/thsottiaux/status/2077210072749600994",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1784057982852,
@@ -272,29 +285,31 @@
         "tweetText": "@mehulmpt Sounds peaceful",
         "tweetUrl": "https://x.com/thsottiaux/status/2076421333488194037",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1783892359685,
-        "inputTokens": 363,
-        "outputTokens": 97,
-        "rationale": "This reply is conversational and does not mention limits, caps, or usage becoming available again.",
-        "reasoningTokens": 51,
-        "totalTokens": 460,
-        "tweetId": "2076420022239686812",
-        "tweetText": "@_Mira___Mira_ Fair is fair",
-        "tweetUrl": "https://x.com/thsottiaux/status/2076420022239686812",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 345997,
-      "totalOutputTokens": 93128,
-      "totalReasoningTokens": 51240,
-      "totalTokens": 439125
+      "totalInputTokens": 346364,
+      "totalOutputTokens": 93220,
+      "totalReasoningTokens": 51288,
+      "totalTokens": 439584
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1784080584154,
+      "inputTokens": 367,
+      "message": "",
+      "outputTokens": 92,
+      "rationale": "This reply is conversational and does not mention limits, caps, or usage resetting.",
+      "reasoningTokens": 48,
+      "totalTokens": 459,
+      "tweetId": "2077210072749600994",
+      "tweetText": "@thegenioo It’s not much, but it’s honest work",
+      "tweetUrl": "https://x.com/thsottiaux/status/2077210072749600994",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0,
       "createdAt": 1784077791789,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2076153017582354612",
       "type": "review_requested",
       "verdict": "uncertain"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1783827248259,
-      "inputTokens": 369,
-      "message": "",
-      "outputTokens": 80,
-      "rationale": "This reply is a joke about Codex and does not mention limits or a reset.",
-      "reasoningTokens": 35,
-      "totalTokens": 449,
-      "tweetId": "2076147077990744237",
-      "tweetText": "@laurenlself @united Sorry, codex can't fix this one yet",
-      "tweetUrl": "https://x.com/thsottiaux/status/2076147077990744237",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "ukRg90-2a67cPwxc2-JYl1-_sn7IERebUUoa_ETbHSyJQeKnb5Jj80_XfQ",
-    "iv": "P6hPM2CL-WwwWvRU",
-    "tag": "EMVJorhQSUnUudBg3j9mAw",
+    "ciphertext": "j56TXQB8YEahAL6d-hldJwvHzHpn3nEb_f1mKOEUGf31o4-T1BB_FKDsJA",
+    "iv": "EGhvRlrXRpK0SKp3",
+    "tag": "HZzrThgjcHRc32W-CL2wnQ",
     "version": 1
   }
 }
