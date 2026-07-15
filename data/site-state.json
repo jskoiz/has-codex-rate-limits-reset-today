@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1784089917814,
-      "rationale": "This is a promotional offer for Codex credits, not a statement that limits or rate caps have reset.",
-      "tweetId": "2077248807533003257",
-      "tweetUrl": "https://x.com/thsottiaux/status/2077248807533003257",
+      "decidedAt": 1784090217832,
+      "rationale": "This is a promotional reply about free Codex credits for more usage, not a statement that limits have reset.",
+      "tweetId": "2077249890875502618",
+      "tweetUrl": "https://x.com/thsottiaux/status/2077249890875502618",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2077248807533003257",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2077248807533003257",
+    "lastSeenTweetId": "2077249890875502618",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2077249890875502618",
     "pendingReview": {
       "confidence": 0.8,
       "createdAt": 1784080891248,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2077211193161531797"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1784090217832,
+        "inputTokens": 471,
+        "outputTokens": 120,
+        "rationale": "This is a promotional reply about free Codex credits for more usage, not a statement that limits have reset.",
+        "reasoningTokens": 70,
+        "totalTokens": 591,
+        "tweetId": "2077249890875502618",
+        "tweetText": "@CodeByNZ Do this instead https://t.co/xq6aveHVg6",
+        "tweetUrl": "https://x.com/thsottiaux/status/2077249890875502618",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1784089917814,
@@ -279,29 +292,31 @@
         "tweetText": "Updates for Codex and ChatGPT Work users. No nerfing, only good stuff!\n\n- We have landed inference optimizations and are passing down savings to all the subscriptions for GPT-5.6 Sol. That should result in around 10% more usage on its own.\n- We noticed that by changing the context size limit in the product to 372k for GPT-5.6 Sol, up from 272k for GPT-5.5, it resulted in more usage being charged than intended. We have reverted to 272k and will work to roll back out to 372k in the days to come. You should notice that usage drains significantly less after this change.\n- To understand where the extra usage was coming from, we ran some experiments where reasoning efforts were changed (referred to as juice values under the hood) and have reverted this.\n- There is slightly more usage of multi-agent than intended in high and xhigh reasoning effort, we are fixing this going forward. Also fixing a small other thing we noticed with auto-review where we can be more efficient.\n\nAnd we continue to have the 5h limit temporarily not apply. Enjoy the rest of the weekend!",
         "tweetUrl": "https://x.com/thsottiaux/status/2076495156757577895",
         "verdict": "reset_confirmed"
-      },
-      {
-        "confidence": 0.98,
-        "evaluatedAt": 1783901985677,
-        "inputTokens": 368,
-        "outputTokens": 107,
-        "rationale": "This reply discusses paid subscription types and does not indicate any rate limit or usage reset.",
-        "reasoningTokens": 62,
-        "totalTokens": 475,
-        "tweetId": "2076460408437887268",
-        "tweetText": "Team, Edu, ... and any other paid subscription too. Quite simple really.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2076460408437887268",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 347587,
-      "totalOutputTokens": 93531,
-      "totalReasoningTokens": 51451,
-      "totalTokens": 441118
+      "totalInputTokens": 348058,
+      "totalOutputTokens": 93651,
+      "totalReasoningTokens": 51521,
+      "totalTokens": 441709
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1784090217832,
+      "inputTokens": 471,
+      "message": "",
+      "outputTokens": 120,
+      "rationale": "This is a promotional reply about free Codex credits for more usage, not a statement that limits have reset.",
+      "reasoningTokens": 70,
+      "totalTokens": 591,
+      "tweetId": "2077249890875502618",
+      "tweetText": "@CodeByNZ Do this instead https://t.co/xq6aveHVg6",
+      "tweetUrl": "https://x.com/thsottiaux/status/2077249890875502618",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1784089917814,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2076162897986855107",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.94,
-      "createdAt": 1783829134573,
-      "inputTokens": 365,
-      "message": "",
-      "outputTokens": 150,
-      "rationale": "The tweet directly implies Codex users have gotten a reset now.",
-      "reasoningTokens": 108,
-      "totalTokens": 515,
-      "tweetId": "2076155461158699382",
-      "tweetText": "No reset for the wicked. Only for the Codex users.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2076155461158699382",
-      "type": "reset_confirmed",
-      "verdict": "reset_confirmed"
     }
   ],
   "privateState": {
-    "ciphertext": "VlBI18NI3kflVxx7Ud05fzUB5XcIFyrbawv9hygxefkBhGiBqQ0q9LMSyQ",
-    "iv": "4pWSFesTdNJId13X",
-    "tag": "BlYywTcMgI-XCaWydp5gvQ",
+    "ciphertext": "YA_KxVwge19S2RnPVgpyK0pT6uBiHSDIBGTHG93XdVOrafeGXgEb2jyxJQ",
+    "iv": "4hCNZG4G8xElakmM",
+    "tag": "kyZKWd7biPMyvdPyN6f4fg",
     "version": 1
   }
 }
