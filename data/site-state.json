@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1784133345281,
-      "rationale": "This reply just says congratulations and gives no indication that any limits have reset.",
-      "tweetId": "2077431736804545006",
-      "tweetUrl": "https://x.com/thsottiaux/status/2077431736804545006",
+      "decidedAt": 1784138527687,
+      "rationale": "This reply is just a naming comment and does not mention limits or resets.",
+      "tweetId": "2077447646588109153",
+      "tweetUrl": "https://x.com/thsottiaux/status/2077447646588109153",
       "verdict": "not_reset"
     },
-    "lastError": "Tweet fetch failed: Tweet search failed: Unknown error; timeline fallback failed: Unknown error (Unknown error) (Tweet search failed: Unknown error; timeline fallback failed: Unknown error)",
-    "lastSeenTweetId": "2077431736804545006",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2077431736804545006",
+    "lastError": null,
+    "lastSeenTweetId": "2077447646588109153",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2077447646588109153",
     "pendingReview": {
       "confidence": 0.75,
       "createdAt": 1784090223018,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2077249987441037818"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1784138527687,
+        "inputTokens": 364,
+        "outputTokens": 83,
+        "rationale": "This reply is just a naming comment and does not mention limits or resets.",
+        "reasoningTokens": 40,
+        "totalTokens": 447,
+        "tweetId": "2077447646588109153",
+        "tweetText": "@theo I think you should rename it to ChatGPT",
+        "tweetUrl": "https://x.com/thsottiaux/status/2077447646588109153",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1784133345281,
@@ -279,29 +292,31 @@
         "tweetText": "Tomorrow might be 8M active user celebration day. Just saying",
         "tweetUrl": "https://x.com/thsottiaux/status/2076907789763621237",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1784008408929,
-        "inputTokens": 364,
-        "outputTokens": 78,
-        "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-        "reasoningTokens": 34,
-        "totalTokens": 442,
-        "tweetId": "2076907459625746922",
-        "tweetText": "@forgebitz Let’s\nGo\nKlaas",
-        "tweetUrl": "https://x.com/thsottiaux/status/2076907459625746922",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 352089,
-      "totalOutputTokens": 95013,
-      "totalReasoningTokens": 52375,
-      "totalTokens": 447102
+      "totalInputTokens": 352453,
+      "totalOutputTokens": 95096,
+      "totalReasoningTokens": 52415,
+      "totalTokens": 447549
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1784138527687,
+      "inputTokens": 364,
+      "message": "",
+      "outputTokens": 83,
+      "rationale": "This reply is just a naming comment and does not mention limits or resets.",
+      "reasoningTokens": 40,
+      "totalTokens": 447,
+      "tweetId": "2077447646588109153",
+      "tweetText": "@theo I think you should rename it to ChatGPT",
+      "tweetUrl": "https://x.com/thsottiaux/status/2077447646588109153",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0,
       "createdAt": 1784137914857,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2076420022239686812",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.95,
-      "createdAt": 1783892040237,
-      "inputTokens": 551,
-      "message": "",
-      "outputTokens": 343,
-      "rationale": "This post is about granting banked reset credits and a future rollout tomorrow, not that limits have reset for users…",
-      "reasoningTokens": 290,
-      "totalTokens": 894,
-      "tweetId": "2076418567143408112",
-      "tweetText": "Added a banked reset to 500k users of ChatGPT Work and Codex.\n\nWhat’s been happening:\n- Just released the ability to use a banked reset from web and mobile. Before today you could only do it in the desktop app\n- Had an issue where less than 10% of users who used a banked reset and it didn’t actually reset. This was during a 2 hour window.\n- It was hard to find all the exact users where it didn’t apply, so instead granted a banked reset to everyone who pressed the reset button in that 2 hour window. This also gives us the opportunity to validate the new infra ahead of tomorrow\n\nTomorrow we will celebrate our 7M active users milestone and grant the first banked reset across all of our ChatGPT Work and Codex users.\n\nWe will also release a bunch of updates to the desktop app, addressing a ton of your feedback.\n\nTalk soon",
-      "tweetUrl": "https://x.com/thsottiaux/status/2076418567143408112",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "6uml1Hm-jih8nNgtEjKPKI185_GMndnqRCW7RKwY8P2YTmhpbjDTNHEtZA",
-    "iv": "C-jKjxEH2B9J2AQj",
-    "tag": "aNmRZ_VkxyaPlxI1kdlinw",
+    "ciphertext": "XdIU_WcGuFJolhk0Hjm-NDJWPYOeIMhyhMoHPAo5vr2zW_l1IjzuAI3XiA",
+    "iv": "BJ45UZkaaXorce1p",
+    "tag": "wstGSNwN8YsgIQ1SAwYOVA",
     "version": 1
   }
 }
