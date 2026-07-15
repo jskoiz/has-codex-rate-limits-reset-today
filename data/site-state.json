@@ -14,16 +14,16 @@
   "updatedAt": 1784057982852,
   "automation": {
     "lastDecision": {
-      "confidence": 0.8,
-      "decidedAt": 1784080891248,
-      "rationale": "The reply says “Users are up,” which could mean service availability but does not clearly confirm a rate-limit reset.",
-      "tweetId": "2077211193161531797",
-      "tweetUrl": "https://x.com/thsottiaux/status/2077211193161531797",
-      "verdict": "uncertain"
+      "confidence": 0.99,
+      "decidedAt": 1784081218075,
+      "rationale": "He explicitly says this is not a reset announcement and is only asking for feedback on ChatGPT Work.",
+      "tweetId": "2077212009071075330",
+      "tweetUrl": "https://x.com/thsottiaux/status/2077212009071075330",
+      "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2077211193161531797",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2077211193161531797",
+    "lastSeenTweetId": "2077212009071075330",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2077212009071075330",
     "pendingReview": {
       "confidence": 0.8,
       "createdAt": 1784080891248,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2077211193161531797"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1784081218075,
+        "inputTokens": 390,
+        "outputTokens": 79,
+        "rationale": "He explicitly says this is not a reset announcement and is only asking for feedback on ChatGPT Work.",
+        "reasoningTokens": 31,
+        "totalTokens": 469,
+        "tweetId": "2077212009071075330",
+        "tweetText": "Here you are! Thinking I am about to announce a reset. But no. I’m just scrolling twitter and looking for feedback on ChatGPT Work. \n\nWhat should we improve?",
+        "tweetUrl": "https://x.com/thsottiaux/status/2077212009071075330",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.8,
         "evaluatedAt": 1784080891248,
@@ -279,29 +292,31 @@
         "tweetText": "Rest assured that GPT 5.6 Sol will stay in the ChatGPT subscription you pay for. Including Go, Plus and Pro subscriptions. At least until we ship an even better model.",
         "tweetUrl": "https://x.com/thsottiaux/status/2076459871021736245",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1783892676587,
-        "inputTokens": 365,
-        "outputTokens": 66,
-        "rationale": "This is a casual reply about Codex branding and says nothing about limits or availability resetting.",
-        "reasoningTokens": 20,
-        "totalTokens": 431,
-        "tweetId": "2076421686526890373",
-        "tweetText": "@venivci Someone slap a Codex billboard overlay over this",
-        "tweetUrl": "https://x.com/thsottiaux/status/2076421686526890373",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 346726,
-      "totalOutputTokens": 93382,
-      "totalReasoningTokens": 51399,
-      "totalTokens": 440108
+      "totalInputTokens": 347116,
+      "totalOutputTokens": 93461,
+      "totalReasoningTokens": 51430,
+      "totalTokens": 440577
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1784081218075,
+      "inputTokens": 390,
+      "message": "",
+      "outputTokens": 79,
+      "rationale": "He explicitly says this is not a reset announcement and is only asking for feedback on ChatGPT Work.",
+      "reasoningTokens": 31,
+      "totalTokens": 469,
+      "tweetId": "2077212009071075330",
+      "tweetText": "Here you are! Thinking I am about to announce a reset. But no. I’m just scrolling twitter and looking for feedback on ChatGPT Work. \n\nWhat should we improve?",
+      "tweetUrl": "https://x.com/thsottiaux/status/2077212009071075330",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.8,
       "createdAt": 1784080891248,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2076155274994618630",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1783829128368,
-      "inputTokens": 365,
-      "message": "",
-      "outputTokens": 82,
-      "rationale": "This reply is about a t-shirt and gives no indication that any Codex or ChatGPT limit has reset.",
-      "reasoningTokens": 32,
-      "totalTokens": 447,
-      "tweetId": "2076154770658828598",
-      "tweetText": "@alencristen It was a Fruit of the Loom t-shirt",
-      "tweetUrl": "https://x.com/thsottiaux/status/2076154770658828598",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "iR-4FRlqTJ1T-RT2uof5GsR-Yduy5K3BcdD7Yrc2HTwNHOGms32KpRC5Hg",
-    "iv": "HA0JuoK1SNZMOT9C",
-    "tag": "077bgd6tDhDGlNtcMCwX2g",
+    "ciphertext": "6-l4jrs7GeUGJottqMNxiASZnVXXLg2EhkPmkeW5nXN6f9g4XO1vaTkk5Q",
+    "iv": "kJJ9xXVrzydAXaRl",
+    "tag": "huDLyBPYNQzfF_Nx-57j2g",
     "version": 1
   }
 }
