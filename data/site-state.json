@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.98,
-      "decidedAt": 1784094868790,
-      "rationale": "This reply is just conversational and does not indicate any limits or rate caps have reset.",
-      "tweetId": "2077269435967324505",
-      "tweetUrl": "https://x.com/thsottiaux/status/2077269435967324505",
+      "decidedAt": 1784095492622,
+      "rationale": "This only discusses possibly resetting usage again in the future, not that limits have reset now.",
+      "tweetId": "2077271889626706300",
+      "tweetUrl": "https://x.com/thsottiaux/status/2077271889626706300",
       "verdict": "not_reset"
     },
-    "lastError": "Tweet fetch failed: Tweet search failed: Unknown error; timeline fallback failed: Unknown error (Unknown error) (Tweet search failed: Unknown error; timeline fallback failed: Unknown error)",
-    "lastSeenTweetId": "2077269435967324505",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2077269435967324505",
+    "lastError": null,
+    "lastSeenTweetId": "2077271889626706300",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2077271889626706300",
     "pendingReview": {
       "confidence": 0.75,
       "createdAt": 1784090223018,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2077249987441037818"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.98,
+        "evaluatedAt": 1784095492622,
+        "inputTokens": 387,
+        "outputTokens": 126,
+        "rationale": "This only discusses possibly resetting usage again in the future, not that limits have reset now.",
+        "reasoningTokens": 80,
+        "totalTokens": 513,
+        "tweetId": "2077271889626706300",
+        "tweetText": "Embarrassment of riches. But looks like we might hit 9M soon. Should we reset the ChatGPT Work and Codex usage again or give it some space?",
+        "tweetUrl": "https://x.com/thsottiaux/status/2077271889626706300",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.98,
         "evaluatedAt": 1784094868790,
@@ -279,29 +292,31 @@
         "tweetText": "ChatGPT Work presents https://t.co/pY5Vei9OIz",
         "tweetUrl": "https://x.com/thsottiaux/status/2076894071323537898",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.97,
-        "evaluatedAt": 1783967773074,
-        "inputTokens": 369,
-        "outputTokens": 139,
-        "rationale": "This reply contains only a mention and a link, so it does not clearly indicate that limits have reset.",
-        "reasoningTokens": 90,
-        "totalTokens": 508,
-        "tweetId": "2076736691457691920",
-        "tweetText": "@ns123abc https://t.co/KqkUqJ6UPq",
-        "tweetUrl": "https://x.com/thsottiaux/status/2076736691457691920",
-        "verdict": "uncertain"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 350963,
-      "totalOutputTokens": 94739,
-      "totalReasoningTokens": 52234,
-      "totalTokens": 445702
+      "totalInputTokens": 351350,
+      "totalOutputTokens": 94865,
+      "totalReasoningTokens": 52314,
+      "totalTokens": 446215
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.98,
+      "createdAt": 1784095492622,
+      "inputTokens": 387,
+      "message": "",
+      "outputTokens": 126,
+      "rationale": "This only discusses possibly resetting usage again in the future, not that limits have reset now.",
+      "reasoningTokens": 80,
+      "totalTokens": 513,
+      "tweetId": "2077271889626706300",
+      "tweetText": "Embarrassment of riches. But looks like we might hit 9M soon. Should we reset the ChatGPT Work and Codex usage again or give it some space?",
+      "tweetUrl": "https://x.com/thsottiaux/status/2077271889626706300",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0,
       "createdAt": 1784095165207,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2076365965915467978",
       "type": "reset_confirmed",
       "verdict": "reset_confirmed"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1783879055336,
-      "inputTokens": 427,
-      "message": "",
-      "outputTokens": 120,
-      "rationale": "This post is just commentary on model quality and a quoted Claude access extension, not a current Codex or ChatGPT…",
-      "reasoningTokens": 66,
-      "totalTokens": 547,
-      "tweetId": "2076364102612680847",
-      "tweetText": "I think GPT 5.6 is pretty good",
-      "tweetUrl": "https://x.com/thsottiaux/status/2076364102612680847",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "SKbjS_j08KPk8zrtF05OKSTrymry30Q0EmwiPHxfwnjq0U5u2_Gopn_qTg",
-    "iv": "veFkLW1rwyV78czX",
-    "tag": "Re6Z9QtRN0pzAYgoDEH7Og",
+    "ciphertext": "DOkmNOgBZAOI49SS1SvyETzxlUh9ez3GNqGB8ZXBovuxkTwvlLYUqNSChw",
+    "iv": "87_Jf-fvjJWpeo4K",
+    "tag": "eKUna2aX2gCqBzo26F5PSw",
     "version": 1
   }
 }
