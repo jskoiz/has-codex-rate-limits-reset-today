@@ -1,5 +1,5 @@
 {
-  "currentState": "no",
+  "currentState": "yes",
   "autoResetHours": 20,
   "noSubtitles": [
     "Back to your local model peasant",
@@ -10,29 +10,35 @@
     "Limits reset, go crazy",
     "You can just build things"
   ],
-  "resetAt": null,
-  "updatedAt": 1784057982852,
+  "resetAt": 1784247562950,
+  "updatedAt": 1784175562950,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1784174938322,
-      "rationale": "This reply only asks \"OpenAI?\" and does not indicate any limit or rate cap reset.",
-      "tweetId": "2077604817518895369",
-      "tweetUrl": "https://x.com/thsottiaux/status/2077604817518895369",
-      "verdict": "not_reset"
+      "confidence": 0.86,
+      "decidedAt": 1784175562950,
+      "rationale": "The tweet explicitly announces another reset and says Work users should have their 100% weekly usage limit back…",
+      "tweetId": "2077607697487188198",
+      "tweetUrl": "https://x.com/thsottiaux/status/2077607697487188198",
+      "verdict": "reset_confirmed"
     },
-    "lastError": "Tweet fetch failed: Tweet search failed: Unknown error; timeline fallback failed: Unknown error (Unknown error) (Tweet search failed: Unknown error; timeline fallback failed: Unknown error)",
-    "lastSeenTweetId": "2077604817518895369",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2077604817518895369",
-    "pendingReview": {
-      "confidence": 0.75,
-      "createdAt": 1784090223018,
-      "rationale": "Saying Codex is \"pretty unlimited\" suggests generous access now, but it does not clearly state that a rate limit…",
-      "tweetId": "2077249987441037818",
-      "tweetText": "@zeeg Codex this week is pretty unlimited",
-      "tweetUrl": "https://x.com/thsottiaux/status/2077249987441037818"
-    },
+    "lastError": null,
+    "lastSeenTweetId": "2077607697487188198",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2077607697487188198",
+    "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.86,
+        "evaluatedAt": 1784175562950,
+        "inputTokens": 427,
+        "outputTokens": 280,
+        "rationale": "The tweet explicitly announces another reset and says Work users should have their 100% weekly usage limit back…",
+        "reasoningTokens": 228,
+        "totalTokens": 707,
+        "tweetId": "2077607697487188198",
+        "tweetText": "Another reset for our Codex and ChatGPT Work users. Actually hit 9M active users way earlier today, but then got distracted by the approximately millions of things the team is doing to keep the systems up and reliable.\n\nShould have that sweet 100% weekly usage limit back in a few minutes. Go be your productive self and close twitter. Shoo!",
+        "tweetUrl": "https://x.com/thsottiaux/status/2077607697487188198",
+        "verdict": "reset_confirmed"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1784174938322,
@@ -279,29 +285,31 @@
         "tweetText": "@thegenioo It’s not much, but it’s honest work",
         "tweetUrl": "https://x.com/thsottiaux/status/2077210072749600994",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1784057982852,
-        "inputTokens": 509,
-        "outputTokens": 111,
-        "rationale": "The tweet explicitly says usage limits are being reset for everyone and the 5h rate limit is not in effect.",
-        "reasoningTokens": 59,
-        "totalTokens": 620,
-        "tweetId": "2077114635308986427",
-        "tweetText": "Hello. We have reached 8M active users across Codex and ChatGPT Work.\n\nWe are once again resetting the usage limits for all. And we continue to not have the 5h rate limit as well, allowing everyone to explore the boundaries of GPT-5.6 Sol and discover how ambitious you can be.\n\nSee you tomorrow for more updates on our growth!",
-        "tweetUrl": "https://x.com/thsottiaux/status/2077114635308986427",
-        "verdict": "reset_confirmed"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 353171,
-      "totalOutputTokens": 95258,
-      "totalReasoningTokens": 52485,
-      "totalTokens": 448429
+      "totalInputTokens": 353598,
+      "totalOutputTokens": 95538,
+      "totalReasoningTokens": 52713,
+      "totalTokens": 449136
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.86,
+      "createdAt": 1784175562950,
+      "inputTokens": 427,
+      "message": "",
+      "outputTokens": 280,
+      "rationale": "The tweet explicitly announces another reset and says Work users should have their 100% weekly usage limit back…",
+      "reasoningTokens": 228,
+      "totalTokens": 707,
+      "tweetId": "2077607697487188198",
+      "tweetText": "Another reset for our Codex and ChatGPT Work users. Actually hit 9M active users way earlier today, but then got distracted by the approximately millions of things the team is doing to keep the systems up and reliable.\n\nShould have that sweet 100% weekly usage limit back in a few minutes. Go be your productive self and close twitter. Shoo!",
+      "tweetUrl": "https://x.com/thsottiaux/status/2077607697487188198",
+      "type": "reset_confirmed",
+      "verdict": "reset_confirmed"
+    },
     {
       "confidence": 0,
       "createdAt": 1784175246135,
@@ -886,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2076459871021736245",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1783892676587,
-      "inputTokens": 365,
-      "message": "",
-      "outputTokens": 66,
-      "rationale": "This is a casual reply about Codex branding and says nothing about limits or availability resetting.",
-      "reasoningTokens": 20,
-      "totalTokens": 431,
-      "tweetId": "2076421686526890373",
-      "tweetText": "@venivci Someone slap a Codex billboard overlay over this",
-      "tweetUrl": "https://x.com/thsottiaux/status/2076421686526890373",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "1l1VcNN9SAQhToq8UEdj-haVfs0qXV0jJCt6C_Mo0DhMeOO54Hxyiwth7Q",
-    "iv": "nxH9elweQYXC18vp",
-    "tag": "0D1PUjv2gYrd2-hvwAIpgw",
+    "ciphertext": "R3FGRxBjaGuA_NDbqxjtZW0j1h04pN-XJFRtU5ilbqqLNb4jg65vUXimTg",
+    "iv": "kXILeh08yohK6mv7",
+    "tag": "VT03IqmCdfQcNzXmJ1mchg",
     "version": 1
   }
 }
