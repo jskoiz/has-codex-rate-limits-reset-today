@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1784179928848,
-      "rationale": "This post discusses merging products and does not mention limits, caps, or usage resetting.",
-      "tweetId": "2077627035418239230",
-      "tweetUrl": "https://x.com/thsottiaux/status/2077627035418239230",
+      "decidedAt": 1784180217245,
+      "rationale": "This reply is unrelated to Codex or ChatGPT usage limits resetting.",
+      "tweetId": "2077628059294081034",
+      "tweetUrl": "https://x.com/thsottiaux/status/2077628059294081034",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2077627035418239230",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2077627035418239230",
+    "lastSeenTweetId": "2077628059294081034",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2077628059294081034",
     "pendingReview": {
       "confidence": 0.09,
       "createdAt": 1784176499349,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2077610342260355230"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1784180217245,
+        "inputTokens": 368,
+        "outputTokens": 81,
+        "rationale": "This reply is unrelated to Codex or ChatGPT usage limits resetting.",
+        "reasoningTokens": 39,
+        "totalTokens": 449,
+        "tweetId": "2077628059294081034",
+        "tweetText": "@aidenybai @gdb Concerning... if you're not using Sol",
+        "tweetUrl": "https://x.com/thsottiaux/status/2077628059294081034",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1784179928848,
@@ -279,29 +292,31 @@
         "tweetText": "@ServerJsc92470 Nice indeed",
         "tweetUrl": "https://x.com/thsottiaux/status/2077250804311028096",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.98,
-        "evaluatedAt": 1784090523090,
-        "inputTokens": 366,
-        "outputTokens": 146,
-        "rationale": "This reply is conversational and does not say or imply that any Codex or ChatGPT limit has reset.",
-        "reasoningTokens": 97,
-        "totalTokens": 512,
-        "tweetId": "2077250710262141354",
-        "tweetText": "@EmbDim512Layer7 Shhh. I didn’t hear that",
-        "tweetUrl": "https://x.com/thsottiaux/status/2077250710262141354",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 356539,
-      "totalOutputTokens": 96367,
-      "totalReasoningTokens": 53180,
-      "totalTokens": 452906
+      "totalInputTokens": 356907,
+      "totalOutputTokens": 96448,
+      "totalReasoningTokens": 53219,
+      "totalTokens": 453355
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1784180217245,
+      "inputTokens": 368,
+      "message": "",
+      "outputTokens": 81,
+      "rationale": "This reply is unrelated to Codex or ChatGPT usage limits resetting.",
+      "reasoningTokens": 39,
+      "totalTokens": 449,
+      "tweetId": "2077628059294081034",
+      "tweetText": "@aidenybai @gdb Concerning... if you're not using Sol",
+      "tweetUrl": "https://x.com/thsottiaux/status/2077628059294081034",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1784179928848,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2076724023338389807",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0,
-      "createdAt": 1783949134519,
-      "inputTokens": 0,
-      "message": "GitHub raw read failed with 502",
-      "outputTokens": 0,
-      "rationale": "",
-      "reasoningTokens": 0,
-      "totalTokens": 0,
-      "tweetId": null,
-      "tweetText": "",
-      "tweetUrl": null,
-      "type": "error",
-      "verdict": null
     }
   ],
   "privateState": {
-    "ciphertext": "41UMnOwhqCUr6dbp4kyuIWiYSReurX6xudBJHXYGuIQl7MtPdwoJZXwcHw",
-    "iv": "6te8g5M7DPMX75UH",
-    "tag": "uY8zds4gwIP-8JuTPUV_xA",
+    "ciphertext": "0x1GDX9Y4XbuxXr4UpoeigaUPsjjWSKNi6uqqoZW-IV0kqDWgd6Ci8ofLA",
+    "iv": "5x57D0aMTmKVdwTN",
+    "tag": "pgbY5dEWDTRk9e27QRXTyw",
     "version": 1
   }
 }
