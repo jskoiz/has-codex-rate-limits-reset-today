@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1784179926246,
-      "rationale": "This reply is conversational and does not mention limits, caps, or usage becoming available again.",
-      "tweetId": "2077626767284847024",
-      "tweetUrl": "https://x.com/thsottiaux/status/2077626767284847024",
+      "decidedAt": 1784179928848,
+      "rationale": "This post discusses merging products and does not mention limits, caps, or usage resetting.",
+      "tweetId": "2077627035418239230",
+      "tweetUrl": "https://x.com/thsottiaux/status/2077627035418239230",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2077626767284847024",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2077626767284847024",
+    "lastSeenTweetId": "2077627035418239230",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2077627035418239230",
     "pendingReview": {
       "confidence": 0.09,
       "createdAt": 1784176499349,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2077610342260355230"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1784179928848,
+        "inputTokens": 375,
+        "outputTokens": 93,
+        "rationale": "This post discusses merging products and does not mention limits, caps, or usage resetting.",
+        "reasoningTokens": 48,
+        "totalTokens": 468,
+        "tweetId": "2077627035418239230",
+        "tweetText": "Now that we merged ChatGPT and Codex, what should we merge next? What's the double or nothing move.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2077627035418239230",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1784179926246,
@@ -279,29 +292,31 @@
         "tweetText": "@EmbDim512Layer7 Shhh. I didn’t hear that",
         "tweetUrl": "https://x.com/thsottiaux/status/2077250710262141354",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1784090519880,
-        "inputTokens": 361,
-        "outputTokens": 76,
-        "rationale": "This reply only says it became faster and does not indicate any rate limit or cap reset.",
-        "reasoningTokens": 30,
-        "totalTokens": 437,
-        "tweetId": "2077250606767743398",
-        "tweetText": "@CampuzanoJoe It did become faster",
-        "tweetUrl": "https://x.com/thsottiaux/status/2077250606767743398",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 356164,
-      "totalOutputTokens": 96274,
-      "totalReasoningTokens": 53132,
-      "totalTokens": 452438
+      "totalInputTokens": 356539,
+      "totalOutputTokens": 96367,
+      "totalReasoningTokens": 53180,
+      "totalTokens": 452906
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1784179928848,
+      "inputTokens": 375,
+      "message": "",
+      "outputTokens": 93,
+      "rationale": "This post discusses merging products and does not mention limits, caps, or usage resetting.",
+      "reasoningTokens": 48,
+      "totalTokens": 468,
+      "tweetId": "2077627035418239230",
+      "tweetText": "Now that we merged ChatGPT and Codex, what should we merge next? What's the double or nothing move.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2077627035418239230",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1784179926246,
@@ -886,27 +901,12 @@
       "tweetUrl": null,
       "type": "error",
       "verdict": null
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1783922518285,
-      "inputTokens": 361,
-      "message": "",
-      "outputTokens": 86,
-      "rationale": "This reply does not mention limits, caps, resets, or renewed availability.",
-      "reasoningTokens": 43,
-      "totalTokens": 447,
-      "tweetId": "2076546918382264529",
-      "tweetText": "@maria_rcks You all are adults",
-      "tweetUrl": "https://x.com/thsottiaux/status/2076546918382264529",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "RYBC3CJQsl8YscaTvp2P_BU88Gj-ZkQPJP15oQyQRMxkglaDmhX-R_UFtg",
-    "iv": "5Bv3NdA9uEvrT6me",
-    "tag": "kvWhAkMY_9aMGA0E7PRHAQ",
+    "ciphertext": "41UMnOwhqCUr6dbp4kyuIWiYSReurX6xudBJHXYGuIQl7MtPdwoJZXwcHw",
+    "iv": "6te8g5M7DPMX75UH",
+    "tag": "uY8zds4gwIP-8JuTPUV_xA",
     "version": 1
   }
 }
