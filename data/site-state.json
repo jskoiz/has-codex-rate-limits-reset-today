@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1784176816986,
-      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-      "tweetId": "2077611246611042667",
-      "tweetUrl": "https://x.com/thsottiaux/status/2077611246611042667",
+      "decidedAt": 1784179919631,
+      "rationale": "This reply is conversational and gives no indication that any ChatGPT or Codex limits have reset.",
+      "tweetId": "2077626441152573757",
+      "tweetUrl": "https://x.com/thsottiaux/status/2077626441152573757",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2077611246611042667",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2077611246611042667",
+    "lastSeenTweetId": "2077626441152573757",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2077626441152573757",
     "pendingReview": {
       "confidence": 0.09,
       "createdAt": 1784176499349,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2077610342260355230"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1784179919631,
+        "inputTokens": 361,
+        "outputTokens": 81,
+        "rationale": "This reply is conversational and gives no indication that any ChatGPT or Codex limits have reset.",
+        "reasoningTokens": 34,
+        "totalTokens": 442,
+        "tweetId": "2077626441152573757",
+        "tweetText": "@ztb8888 Quite funny to imagine",
+        "tweetUrl": "https://x.com/thsottiaux/status/2077626441152573757",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1784176816986,
@@ -279,29 +292,31 @@
         "tweetText": "@zeeg Codex this week is pretty unlimited",
         "tweetUrl": "https://x.com/thsottiaux/status/2077249987441037818",
         "verdict": "uncertain"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1784090217832,
-        "inputTokens": 471,
-        "outputTokens": 120,
-        "rationale": "This is a promotional reply about free Codex credits for more usage, not a statement that limits have reset.",
-        "reasoningTokens": 70,
-        "totalTokens": 591,
-        "tweetId": "2077249890875502618",
-        "tweetText": "@CodeByNZ Do this instead https://t.co/xq6aveHVg6",
-        "tweetUrl": "https://x.com/thsottiaux/status/2077249890875502618",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 355065,
-      "totalOutputTokens": 95982,
-      "totalReasoningTokens": 52981,
-      "totalTokens": 451047
+      "totalInputTokens": 355426,
+      "totalOutputTokens": 96063,
+      "totalReasoningTokens": 53015,
+      "totalTokens": 451489
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1784179919631,
+      "inputTokens": 361,
+      "message": "",
+      "outputTokens": 81,
+      "rationale": "This reply is conversational and gives no indication that any ChatGPT or Codex limits have reset.",
+      "reasoningTokens": 34,
+      "totalTokens": 442,
+      "tweetId": "2077626441152573757",
+      "tweetText": "@ztb8888 Quite funny to imagine",
+      "tweetUrl": "https://x.com/thsottiaux/status/2077626441152573757",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0,
       "createdAt": 1784178981747,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2076504719149924570",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.76,
-      "createdAt": 1783912259458,
-      "inputTokens": 371,
-      "message": "",
-      "outputTokens": 145,
-      "rationale": "It hints something may have propagated, but it does not clearly say rate limits or caps have reset.",
-      "reasoningTokens": 97,
-      "totalTokens": 516,
-      "tweetId": "2076504611264098544",
-      "tweetText": "@iruletheworldmo @AniBaddepudi Always the small propagation delay. Check now?",
-      "tweetUrl": "https://x.com/thsottiaux/status/2076504611264098544",
-      "type": "review_requested",
-      "verdict": "uncertain"
     }
   ],
   "privateState": {
-    "ciphertext": "mIWBw2-kQhBfPhKkwJKGkCHZhXQ_3CUOhNSH1dboJnLfCE9GGhKFyZp0zQ",
-    "iv": "ZmyVdouajPbKVVWs",
-    "tag": "0T5XTGrA6JRUmHNqCLWyLA",
+    "ciphertext": "Hr_5jw4_1dfNmDPe_0wrosYGb_IN0mxeNUp5hGTPDySHTZP0eamR4EUs4w",
+    "iv": "KoNd4KlJT-Pv6PDs",
+    "tag": "Oqfxtbv0BkDMzRAsww0vwA",
     "version": 1
   }
 }
