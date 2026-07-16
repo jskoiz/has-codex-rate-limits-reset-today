@@ -14,16 +14,16 @@
   "updatedAt": 1784175562950,
   "automation": {
     "lastDecision": {
-      "confidence": 0.09,
-      "decidedAt": 1784176499349,
-      "rationale": "This post has no visible text or quote indicating that limits have reset.",
-      "tweetId": "2077610342260355230",
-      "tweetUrl": "https://x.com/thsottiaux/status/2077610342260355230",
-      "verdict": "uncertain"
+      "confidence": 0.98,
+      "decidedAt": 1784176811627,
+      "rationale": "This reply mentions ChatGPT Work but does not indicate any rate limit or cap has reset.",
+      "tweetId": "2077610491040657850",
+      "tweetUrl": "https://x.com/thsottiaux/status/2077610491040657850",
+      "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2077610342260355230",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2077610342260355230",
+    "lastSeenTweetId": "2077610491040657850",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2077610491040657850",
     "pendingReview": {
       "confidence": 0.09,
       "createdAt": 1784176499349,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2077610342260355230"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.98,
+        "evaluatedAt": 1784176811627,
+        "inputTokens": 363,
+        "outputTokens": 91,
+        "rationale": "This reply mentions ChatGPT Work but does not indicate any rate limit or cap has reset.",
+        "reasoningTokens": 45,
+        "totalTokens": 454,
+        "tweetId": "2077610491040657850",
+        "tweetText": "Courtesy of ChatGPT Work. Not holding back apparently",
+        "tweetUrl": "https://x.com/thsottiaux/status/2077610491040657850",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.09,
         "evaluatedAt": 1784176499349,
@@ -279,29 +292,31 @@
         "tweetText": "Here you are! Thinking I am about to announce a reset. But no. I’m just scrolling twitter and looking for feedback on ChatGPT Work. \n\nWhat should we improve?",
         "tweetUrl": "https://x.com/thsottiaux/status/2077212009071075330",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.8,
-        "evaluatedAt": 1784080891248,
-        "inputTokens": 362,
-        "outputTokens": 162,
-        "rationale": "The reply says “Users are up,” which could mean service availability but does not clearly confirm a rate-limit reset.",
-        "reasoningTokens": 111,
-        "totalTokens": 524,
-        "tweetId": "2077211193161531797",
-        "tweetText": "@matthewmillerai Users are up",
-        "tweetUrl": "https://x.com/thsottiaux/status/2077211193161531797",
-        "verdict": "uncertain"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 353962,
-      "totalOutputTokens": 95700,
-      "totalReasoningTokens": 52833,
-      "totalTokens": 449662
+      "totalInputTokens": 354325,
+      "totalOutputTokens": 95791,
+      "totalReasoningTokens": 52878,
+      "totalTokens": 450116
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.98,
+      "createdAt": 1784176811627,
+      "inputTokens": 363,
+      "message": "",
+      "outputTokens": 91,
+      "rationale": "This reply mentions ChatGPT Work but does not indicate any rate limit or cap has reset.",
+      "reasoningTokens": 45,
+      "totalTokens": 454,
+      "tweetId": "2077610491040657850",
+      "tweetText": "Courtesy of ChatGPT Work. Not holding back apparently",
+      "tweetUrl": "https://x.com/thsottiaux/status/2077610491040657850",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.09,
       "createdAt": 1784176499349,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2076495156757577895",
       "type": "reset_confirmed",
       "verdict": "reset_confirmed"
-    },
-    {
-      "confidence": 0.98,
-      "createdAt": 1783901985677,
-      "inputTokens": 368,
-      "message": "",
-      "outputTokens": 107,
-      "rationale": "This reply discusses paid subscription types and does not indicate any rate limit or usage reset.",
-      "reasoningTokens": 62,
-      "totalTokens": 475,
-      "tweetId": "2076460408437887268",
-      "tweetText": "Team, Edu, ... and any other paid subscription too. Quite simple really.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2076460408437887268",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "Cme9PIgeGhyNV_9gufTHuorgqI-4eDhvdiTB1CN0Po9R5SHCgBV3C464ww",
-    "iv": "UTvZ0CNN9zYun788",
-    "tag": "S81l0JtboySDlx92LkvCzA",
+    "ciphertext": "v5XALWFhrl9AKu7s-S1ZbLHSFCvHLJFyzm3Px5nM5kpywTKd6zpPFPa93w",
+    "iv": "SonDajxeAE1uRKy1",
+    "tag": "p9qNpqNbmZ31tOkDMx6u5A",
     "version": 1
   }
 }
