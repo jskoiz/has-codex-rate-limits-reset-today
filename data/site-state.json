@@ -21,7 +21,7 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2077632589498913087",
       "verdict": "reset_confirmed"
     },
-    "lastError": null,
+    "lastError": "Tweet fetch failed: Tweet search failed: Unknown error; timeline fallback failed: Unknown error (Unknown error) (Tweet search failed: Unknown error; timeline fallback failed: Unknown error)",
     "lastSeenTweetId": "2077632589498913087",
     "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2077632589498913087",
     "pendingReview": null,
@@ -296,6 +296,21 @@
   },
   "automationEvents": [
     {
+      "confidence": 0,
+      "createdAt": 1784183316273,
+      "inputTokens": 0,
+      "message": "Tweet fetch failed: Tweet search failed: Unknown error; timeline fallback failed: Unknown error (Unknown error) (Tweet search failed: Unknown error; timeline fallback failed: Unknown error)",
+      "outputTokens": 0,
+      "rationale": "",
+      "reasoningTokens": 0,
+      "totalTokens": 0,
+      "tweetId": null,
+      "tweetText": "",
+      "tweetUrl": null,
+      "type": "error",
+      "verdict": null
+    },
+    {
       "confidence": 0.96,
       "createdAt": 1784181463029,
       "inputTokens": 413,
@@ -405,21 +420,6 @@
       "createdAt": 1784178981747,
       "inputTokens": 0,
       "message": "Tweet fetch failed: Tweet search failed: Request failed with status code 404; timeline fallback failed: Unknown error (Unknown error) (Tweet search failed: Request failed with status code 404; timeline fallback failed: Unknown error)",
-      "outputTokens": 0,
-      "rationale": "",
-      "reasoningTokens": 0,
-      "totalTokens": 0,
-      "tweetId": null,
-      "tweetText": "",
-      "tweetUrl": null,
-      "type": "error",
-      "verdict": null
-    },
-    {
-      "confidence": 0,
-      "createdAt": 1784178354794,
-      "inputTokens": 0,
-      "message": "Tweet fetch failed: Tweet search failed: Unknown error; timeline fallback failed: Unknown error (Unknown error) (Tweet search failed: Unknown error; timeline fallback failed: Unknown error)",
       "outputTokens": 0,
       "rationale": "",
       "reasoningTokens": 0,
@@ -897,9 +897,9 @@
     }
   ],
   "privateState": {
-    "ciphertext": "JBPfXOuj-SsRntPrcKIpbrBfkwXVzJFH9LKK3ENxnP2822du3BTMrTFfbA",
-    "iv": "7UTc6J1iwxfzc13A",
-    "tag": "mucQwbAbVOvj0ePK3J_i6w",
+    "ciphertext": "VKhz2p7YO2D0Nke09RXV2TSlBtaWlDi5WcjrLw8tdT5SJ_c1XarW9c_V8w",
+    "iv": "epZUDQWwDe6Umfdp",
+    "tag": "S2xZgV68X661UROg7IPJOg",
     "version": 1
   }
 }
