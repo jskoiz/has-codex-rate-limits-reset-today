@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1784215017746,
-      "rationale": "This is just a conversational reply and gives no indication that any limits have reset.",
-      "tweetId": "2077774339693543680",
-      "tweetUrl": "https://x.com/thsottiaux/status/2077774339693543680",
+      "decidedAt": 1784215317390,
+      "rationale": "This post is just a pronunciation question and gives no sign that any limits have reset.",
+      "tweetId": "2077775690058125383",
+      "tweetUrl": "https://x.com/thsottiaux/status/2077775690058125383",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2077774339693543680",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2077774339693543680",
+    "lastSeenTweetId": "2077775690058125383",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2077775690058125383",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1784215317390,
+        "inputTokens": 358,
+        "outputTokens": 43,
+        "rationale": "This post is just a pronunciation question and gives no sign that any limits have reset.",
+        "reasoningTokens": 0,
+        "totalTokens": 401,
+        "tweetId": "2077775690058125383",
+        "tweetText": "How do you pronounce Sol",
+        "tweetUrl": "https://x.com/thsottiaux/status/2077775690058125383",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1784215017746,
@@ -272,29 +285,31 @@
         "tweetText": "Embarrassment of riches. But looks like we might hit 9M soon. Should we reset the ChatGPT Work and Codex usage again or give it some space?",
         "tweetUrl": "https://x.com/thsottiaux/status/2077271889626706300",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.98,
-        "evaluatedAt": 1784094868790,
-        "inputTokens": 372,
-        "outputTokens": 163,
-        "rationale": "This reply is just conversational and does not indicate any limits or rate caps have reset.",
-        "reasoningTokens": 118,
-        "totalTokens": 535,
-        "tweetId": "2077269435967324505",
-        "tweetText": "@melvynx Hmmmm https://t.co/1dCj10rAkZ",
-        "tweetUrl": "https://x.com/thsottiaux/status/2077269435967324505",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 358242,
-      "totalOutputTokens": 96860,
+      "totalInputTokens": 358600,
+      "totalOutputTokens": 96903,
       "totalReasoningTokens": 53481,
-      "totalTokens": 455102
+      "totalTokens": 455503
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1784215317390,
+      "inputTokens": 358,
+      "message": "",
+      "outputTokens": 43,
+      "rationale": "This post is just a pronunciation question and gives no sign that any limits have reset.",
+      "reasoningTokens": 0,
+      "totalTokens": 401,
+      "tweetId": "2077775690058125383",
+      "tweetText": "How do you pronounce Sol",
+      "tweetUrl": "https://x.com/thsottiaux/status/2077775690058125383",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1784215017746,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2076894197488226531",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1784005317577,
-      "inputTokens": 369,
-      "message": "",
-      "outputTokens": 72,
-      "rationale": "This is a promotional post and does not mention limits, caps, or usage resetting.",
-      "reasoningTokens": 27,
-      "totalTokens": 441,
-      "tweetId": "2076894071323537898",
-      "tweetText": "ChatGPT Work presents https://t.co/pY5Vei9OIz",
-      "tweetUrl": "https://x.com/thsottiaux/status/2076894071323537898",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "8QA4kd8y1ijdcEvdPWIT5nIWi6sAD9co2zS5Q0Rq56Qdz3LcykmLV65q5g",
-    "iv": "65vir2pLZn99yA8_",
-    "tag": "Z_5b6GSRNaObnydQiiGDyw",
+    "ciphertext": "7ydMEZ9VzUv_Q_7wHGlyR_ehVuDFH1M7RolGWrP8w7sXC2PTbuYvNZRmxQ",
+    "iv": "L8yrHeEKQ3CmHX2q",
+    "tag": "Rxk1sjyZqRHiiyICJSTURw",
     "version": 1
   }
 }
