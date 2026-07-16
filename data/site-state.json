@@ -14,16 +14,16 @@
   "updatedAt": 1784175562950,
   "automation": {
     "lastDecision": {
-      "confidence": 0.98,
-      "decidedAt": 1784176811627,
-      "rationale": "This reply mentions ChatGPT Work but does not indicate any rate limit or cap has reset.",
-      "tweetId": "2077610491040657850",
-      "tweetUrl": "https://x.com/thsottiaux/status/2077610491040657850",
+      "confidence": 0.99,
+      "decidedAt": 1784176814575,
+      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+      "tweetId": "2077611089656008736",
+      "tweetUrl": "https://x.com/thsottiaux/status/2077611089656008736",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2077610491040657850",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2077610491040657850",
+    "lastSeenTweetId": "2077611089656008736",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2077611089656008736",
     "pendingReview": {
       "confidence": 0.09,
       "createdAt": 1784176499349,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2077610342260355230"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1784176814575,
+        "inputTokens": 379,
+        "outputTokens": 82,
+        "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+        "reasoningTokens": 38,
+        "totalTokens": 461,
+        "tweetId": "2077611089656008736",
+        "tweetText": "@robin_faraj Put that strip back on your nose, it's not doing much. Then install Codex and breathe. You've arrived.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2077611089656008736",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.98,
         "evaluatedAt": 1784176811627,
@@ -279,29 +292,31 @@
         "tweetText": "Or… what if we gave you $100 in Codex credits if you tell us what you love about GPT-5.6 Sol or why you switched?\n\nTweet it, claim your gift, enjoy more usage. First 10k get the free tokens!\n\nhttps://t.co/8mU93eA13i",
         "tweetUrl": "https://x.com/thsottiaux/status/2077248807533003257",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1784081218075,
-        "inputTokens": 390,
-        "outputTokens": 79,
-        "rationale": "He explicitly says this is not a reset announcement and is only asking for feedback on ChatGPT Work.",
-        "reasoningTokens": 31,
-        "totalTokens": 469,
-        "tweetId": "2077212009071075330",
-        "tweetText": "Here you are! Thinking I am about to announce a reset. But no. I’m just scrolling twitter and looking for feedback on ChatGPT Work. \n\nWhat should we improve?",
-        "tweetUrl": "https://x.com/thsottiaux/status/2077212009071075330",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 354325,
-      "totalOutputTokens": 95791,
-      "totalReasoningTokens": 52878,
-      "totalTokens": 450116
+      "totalInputTokens": 354704,
+      "totalOutputTokens": 95873,
+      "totalReasoningTokens": 52916,
+      "totalTokens": 450577
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1784176814575,
+      "inputTokens": 379,
+      "message": "",
+      "outputTokens": 82,
+      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+      "reasoningTokens": 38,
+      "totalTokens": 461,
+      "tweetId": "2077611089656008736",
+      "tweetText": "@robin_faraj Put that strip back on your nose, it's not doing much. Then install Codex and breathe. You've arrived.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2077611089656008736",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.98,
       "createdAt": 1784176811627,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2076495484554994032",
       "type": "review_requested",
       "verdict": "uncertain"
-    },
-    {
-      "confidence": 0.97,
-      "createdAt": 1783910098871,
-      "inputTokens": 710,
-      "message": "",
-      "outputTokens": 207,
-      "rationale": "The main tweet explicitly says the 5h limit is temporarily not applying, meaning the cap is currently lifted.",
-      "reasoningTokens": 156,
-      "totalTokens": 917,
-      "tweetId": "2076495156757577895",
-      "tweetText": "Updates for Codex and ChatGPT Work users. No nerfing, only good stuff!\n\n- We have landed inference optimizations and are passing down savings to all the subscriptions for GPT-5.6 Sol. That should result in around 10% more usage on its own.\n- We noticed that by changing the context size limit in the product to 372k for GPT-5.6 Sol, up from 272k for GPT-5.5, it resulted in more usage being charged than intended. We have reverted to 272k and will work to roll back out to 372k in the days to come. You should notice that usage drains significantly less after this change.\n- To understand where the extra usage was coming from, we ran some experiments where reasoning efforts were changed (referred to as juice values under the hood) and have reverted this.\n- There is slightly more usage of multi-agent than intended in high and xhigh reasoning effort, we are fixing this going forward. Also fixing a small other thing we noticed with auto-review where we can be more efficient.\n\nAnd we continue to have the 5h limit temporarily not apply. Enjoy the rest of the weekend!",
-      "tweetUrl": "https://x.com/thsottiaux/status/2076495156757577895",
-      "type": "reset_confirmed",
-      "verdict": "reset_confirmed"
     }
   ],
   "privateState": {
-    "ciphertext": "v5XALWFhrl9AKu7s-S1ZbLHSFCvHLJFyzm3Px5nM5kpywTKd6zpPFPa93w",
-    "iv": "SonDajxeAE1uRKy1",
-    "tag": "p9qNpqNbmZ31tOkDMx6u5A",
+    "ciphertext": "xxNLpcMHjHHNPaTr_q794V0pjl8QDsUN6n3d8pI1jWxH8Oqt_4oZb_geEQ",
+    "iv": "f-bc7G7rVYp_vyi8",
+    "tag": "lkebqFlu_YlIv7Z5jTMDdg",
     "version": 1
   }
 }
