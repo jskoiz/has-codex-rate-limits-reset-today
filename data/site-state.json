@@ -14,18 +14,38 @@
   "updatedAt": 1784175562950,
   "automation": {
     "lastDecision": {
-      "confidence": 0.86,
-      "decidedAt": 1784175562950,
-      "rationale": "The tweet explicitly announces another reset and says Work users should have their 100% weekly usage limit back…",
-      "tweetId": "2077607697487188198",
-      "tweetUrl": "https://x.com/thsottiaux/status/2077607697487188198",
-      "verdict": "reset_confirmed"
+      "confidence": 0.09,
+      "decidedAt": 1784176499349,
+      "rationale": "This post has no visible text or quote indicating that limits have reset.",
+      "tweetId": "2077610342260355230",
+      "tweetUrl": "https://x.com/thsottiaux/status/2077610342260355230",
+      "verdict": "uncertain"
     },
-    "lastError": "Tweet fetch failed: Tweet search failed: Unknown error; timeline fallback failed: Unknown error (Unknown error) (Tweet search failed: Unknown error; timeline fallback failed: Unknown error)",
-    "lastSeenTweetId": "2077607697487188198",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2077607697487188198",
-    "pendingReview": null,
+    "lastError": null,
+    "lastSeenTweetId": "2077610342260355230",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2077610342260355230",
+    "pendingReview": {
+      "confidence": 0.09,
+      "createdAt": 1784176499349,
+      "rationale": "This post has no visible text or quote indicating that limits have reset.",
+      "tweetId": "2077610342260355230",
+      "tweetText": "https://t.co/s2aSJqqu5y",
+      "tweetUrl": "https://x.com/thsottiaux/status/2077610342260355230"
+    },
     "recentEvaluations": [
+      {
+        "confidence": 0.09,
+        "evaluatedAt": 1784176499349,
+        "inputTokens": 364,
+        "outputTokens": 162,
+        "rationale": "This post has no visible text or quote indicating that limits have reset.",
+        "reasoningTokens": 120,
+        "totalTokens": 526,
+        "tweetId": "2077610342260355230",
+        "tweetText": "https://t.co/s2aSJqqu5y",
+        "tweetUrl": "https://x.com/thsottiaux/status/2077610342260355230",
+        "verdict": "uncertain"
+      },
       {
         "confidence": 0.86,
         "evaluatedAt": 1784175562950,
@@ -272,29 +292,31 @@
         "tweetText": "@matthewmillerai Users are up",
         "tweetUrl": "https://x.com/thsottiaux/status/2077211193161531797",
         "verdict": "uncertain"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1784080584154,
-        "inputTokens": 367,
-        "outputTokens": 92,
-        "rationale": "This reply is conversational and does not mention limits, caps, or usage resetting.",
-        "reasoningTokens": 48,
-        "totalTokens": 459,
-        "tweetId": "2077210072749600994",
-        "tweetText": "@thegenioo It’s not much, but it’s honest work",
-        "tweetUrl": "https://x.com/thsottiaux/status/2077210072749600994",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 353598,
-      "totalOutputTokens": 95538,
-      "totalReasoningTokens": 52713,
-      "totalTokens": 449136
+      "totalInputTokens": 353962,
+      "totalOutputTokens": 95700,
+      "totalReasoningTokens": 52833,
+      "totalTokens": 449662
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.09,
+      "createdAt": 1784176499349,
+      "inputTokens": 364,
+      "message": "",
+      "outputTokens": 162,
+      "rationale": "This post has no visible text or quote indicating that limits have reset.",
+      "reasoningTokens": 120,
+      "totalTokens": 526,
+      "tweetId": "2077610342260355230",
+      "tweetText": "https://t.co/s2aSJqqu5y",
+      "tweetUrl": "https://x.com/thsottiaux/status/2077610342260355230",
+      "type": "review_requested",
+      "verdict": "uncertain"
+    },
     {
       "confidence": 0,
       "createdAt": 1784176169258,
@@ -879,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2076460408437887268",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1783901669627,
-      "inputTokens": 390,
-      "message": "",
-      "outputTokens": 74,
-      "rationale": "This discusses subscription model availability, not a rate-limit or usage-cap reset.",
-      "reasoningTokens": 31,
-      "totalTokens": 464,
-      "tweetId": "2076459871021736245",
-      "tweetText": "Rest assured that GPT 5.6 Sol will stay in the ChatGPT subscription you pay for. Including Go, Plus and Pro subscriptions. At least until we ship an even better model.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2076459871021736245",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "-m4iMNP3JBe4Z7kpaxKO9wA61l1-xuRwvxkrNV8aCypWI_luyhfnJpDu4g",
-    "iv": "EoaNWFLQbl_0dp6C",
-    "tag": "-A35QPSEAMJpvdcg8zWOZw",
+    "ciphertext": "Cme9PIgeGhyNV_9gufTHuorgqI-4eDhvdiTB1CN0Po9R5SHCgBV3C464ww",
+    "iv": "UTvZ0CNN9zYun788",
+    "tag": "S81l0JtboySDlx92LkvCzA",
     "version": 1
   }
 }
