@@ -14,16 +14,16 @@
   "updatedAt": 1784175562950,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1784179919631,
-      "rationale": "This reply is conversational and gives no indication that any ChatGPT or Codex limits have reset.",
-      "tweetId": "2077626441152573757",
-      "tweetUrl": "https://x.com/thsottiaux/status/2077626441152573757",
+      "confidence": 0.97,
+      "decidedAt": 1784179923438,
+      "rationale": "This is a joking reply and does not clearly say any Codex or ChatGPT limit has reset.",
+      "tweetId": "2077626528020697173",
+      "tweetUrl": "https://x.com/thsottiaux/status/2077626528020697173",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2077626441152573757",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2077626441152573757",
+    "lastSeenTweetId": "2077626528020697173",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2077626528020697173",
     "pendingReview": {
       "confidence": 0.09,
       "createdAt": 1784176499349,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2077610342260355230"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.97,
+        "evaluatedAt": 1784179923438,
+        "inputTokens": 369,
+        "outputTokens": 133,
+        "rationale": "This is a joking reply and does not clearly say any Codex or ChatGPT limit has reset.",
+        "reasoningTokens": 85,
+        "totalTokens": 502,
+        "tweetId": "2077626528020697173",
+        "tweetText": "@Anutar0 @claudeai I actually stole their reset button. You're welcome",
+        "tweetUrl": "https://x.com/thsottiaux/status/2077626528020697173",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1784179919631,
@@ -279,29 +292,31 @@
         "tweetText": "@Ceoz_1 Never change",
         "tweetUrl": "https://x.com/thsottiaux/status/2077250502543466823",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.75,
-        "evaluatedAt": 1784090223018,
-        "inputTokens": 362,
-        "outputTokens": 371,
-        "rationale": "Saying Codex is \"pretty unlimited\" suggests generous access now, but it does not clearly state that a rate limit…",
-        "reasoningTokens": 316,
-        "totalTokens": 733,
-        "tweetId": "2077249987441037818",
-        "tweetText": "@zeeg Codex this week is pretty unlimited",
-        "tweetUrl": "https://x.com/thsottiaux/status/2077249987441037818",
-        "verdict": "uncertain"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 355426,
-      "totalOutputTokens": 96063,
-      "totalReasoningTokens": 53015,
-      "totalTokens": 451489
+      "totalInputTokens": 355795,
+      "totalOutputTokens": 96196,
+      "totalReasoningTokens": 53100,
+      "totalTokens": 451991
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.97,
+      "createdAt": 1784179923438,
+      "inputTokens": 369,
+      "message": "",
+      "outputTokens": 133,
+      "rationale": "This is a joking reply and does not clearly say any Codex or ChatGPT limit has reset.",
+      "reasoningTokens": 85,
+      "totalTokens": 502,
+      "tweetId": "2077626528020697173",
+      "tweetText": "@Anutar0 @claudeai I actually stole their reset button. You're welcome",
+      "tweetUrl": "https://x.com/thsottiaux/status/2077626528020697173",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1784179919631,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2076543065045795309",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1783912583953,
-      "inputTokens": 370,
-      "message": "",
-      "outputTokens": 75,
-      "rationale": "This reply just recommends reading something and does not mention limits or a reset.",
-      "reasoningTokens": 32,
-      "totalTokens": 445,
-      "tweetId": "2076504719149924570",
-      "tweetText": "@ItsAllonzOver Recommend reading https://t.co/BH02Ky7WDe",
-      "tweetUrl": "https://x.com/thsottiaux/status/2076504719149924570",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "Hr_5jw4_1dfNmDPe_0wrosYGb_IN0mxeNUp5hGTPDySHTZP0eamR4EUs4w",
-    "iv": "KoNd4KlJT-Pv6PDs",
-    "tag": "Oqfxtbv0BkDMzRAsww0vwA",
+    "ciphertext": "CSvT9NJtpR_X5p5yHYleLcNkoRsF0Sx6vGQI-w-7QqE7pXR2DA-kUx5zgQ",
+    "iv": "7yWQUKRlzriBaBo6",
+    "tag": "QDw-B6mHWG7PYOWGn7SWtg",
     "version": 1
   }
 }
