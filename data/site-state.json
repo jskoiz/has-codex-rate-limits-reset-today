@@ -10,29 +10,35 @@
     "Limits reset, go crazy",
     "You can just build things"
   ],
-  "resetAt": 1784247562950,
-  "updatedAt": 1784175562950,
+  "resetAt": 1784253463029,
+  "updatedAt": 1784181463029,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1784181458555,
-      "rationale": "This post discusses file deletion incidents and mitigations, not any usage cap or rate-limit reset.",
-      "tweetId": "2077630111499882637",
-      "tweetUrl": "https://x.com/thsottiaux/status/2077630111499882637",
-      "verdict": "not_reset"
+      "confidence": 0.96,
+      "decidedAt": 1784181463029,
+      "rationale": "The tweet explicitly says the Codex Plus/Pro 5h limit has been removed for the past few days, meaning that cap is…",
+      "tweetId": "2077632589498913087",
+      "tweetUrl": "https://x.com/thsottiaux/status/2077632589498913087",
+      "verdict": "reset_confirmed"
     },
     "lastError": null,
-    "lastSeenTweetId": "2077630111499882637",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2077630111499882637",
-    "pendingReview": {
-      "confidence": 0.09,
-      "createdAt": 1784176499349,
-      "rationale": "This post has no visible text or quote indicating that limits have reset.",
-      "tweetId": "2077610342260355230",
-      "tweetText": "https://t.co/s2aSJqqu5y",
-      "tweetUrl": "https://x.com/thsottiaux/status/2077610342260355230"
-    },
+    "lastSeenTweetId": "2077632589498913087",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2077632589498913087",
+    "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.96,
+        "evaluatedAt": 1784181463029,
+        "inputTokens": 413,
+        "outputTokens": 235,
+        "rationale": "The tweet explicitly says the Codex Plus/Pro 5h limit has been removed for the past few days, meaning that cap is…",
+        "reasoningTokens": 176,
+        "totalTokens": 648,
+        "tweetId": "2077632589498913087",
+        "tweetText": "We've had no 5h limit in Codex plus and pro for a few days. Do you think it is better or are you finding it difficult to manage the usage included in the weekly limit effectively?\n\nIf we were to make this different, what should it look like in an ideal world?",
+        "tweetUrl": "https://x.com/thsottiaux/status/2077632589498913087",
+        "verdict": "reset_confirmed"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1784181458555,
@@ -279,29 +285,31 @@
         "tweetText": "@0x45o Not Codex",
         "tweetUrl": "https://x.com/thsottiaux/status/2077268737087197564",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1784094244867,
-        "inputTokens": 365,
-        "outputTokens": 88,
-        "rationale": "This reply is just a joke about using Codex and does not mention limits or resets.",
-        "reasoningTokens": 42,
-        "totalTokens": 453,
-        "tweetId": "2077267551038681275",
-        "tweetText": "@jxnlco We all know you just delegate to Codex",
-        "tweetUrl": "https://x.com/thsottiaux/status/2077267551038681275",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 357471,
-      "totalOutputTokens": 96519,
-      "totalReasoningTokens": 53243,
-      "totalTokens": 453990
+      "totalInputTokens": 357884,
+      "totalOutputTokens": 96754,
+      "totalReasoningTokens": 53419,
+      "totalTokens": 454638
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.96,
+      "createdAt": 1784181463029,
+      "inputTokens": 413,
+      "message": "",
+      "outputTokens": 235,
+      "rationale": "The tweet explicitly says the Codex Plus/Pro 5h limit has been removed for the past few days, meaning that cap is…",
+      "reasoningTokens": 176,
+      "totalTokens": 648,
+      "tweetId": "2077632589498913087",
+      "tweetText": "We've had no 5h limit in Codex plus and pro for a few days. Do you think it is better or are you finding it difficult to manage the usage included in the weekly limit effectively?\n\nIf we were to make this different, what should it look like in an ideal world?",
+      "tweetUrl": "https://x.com/thsottiaux/status/2077632589498913087",
+      "type": "reset_confirmed",
+      "verdict": "reset_confirmed"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1784181458555,
@@ -886,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2076736691457691920",
       "type": "review_requested",
       "verdict": "uncertain"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1783967459095,
-      "inputTokens": 418,
-      "message": "",
-      "outputTokens": 123,
-      "rationale": "The tweet explicitly says a reset has been added to everyone’s account and can now be applied to replenish weekly usage.",
-      "reasoningTokens": 71,
-      "totalTokens": 541,
-      "tweetId": "2076735790567338203",
-      "tweetText": "Thank you to the 7M active users who are now using Codex and ChatGPT Work.\n\nWe have added a banked reset to everyone's account to celebrate the milestone. You can apply the reset in the desktop app or on web and it will replenish the weekly usage for you.\n\nHave fun out there.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2076735790567338203",
-      "type": "reset_confirmed",
-      "verdict": "reset_confirmed"
     }
   ],
   "privateState": {
-    "ciphertext": "nBhKBfzlxpnx9BVUormr1gZuOhD_H0lQvXPlgoydidyxoY7gqM-f2V6pdQ",
-    "iv": "BwvXXhI_O4vxGPIK",
-    "tag": "omHxOaUPoRcf_snADaArBg",
+    "ciphertext": "JBPfXOuj-SsRntPrcKIpbrBfkwXVzJFH9LKK3ENxnP2822du3BTMrTFfbA",
+    "iv": "7UTc6J1iwxfzc13A",
+    "tag": "mucQwbAbVOvj0ePK3J_i6w",
     "version": 1
   }
 }
