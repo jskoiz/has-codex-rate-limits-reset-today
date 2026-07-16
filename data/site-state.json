@@ -14,18 +14,31 @@
   "updatedAt": 1784181463029,
   "automation": {
     "lastDecision": {
-      "confidence": 0.96,
-      "decidedAt": 1784181463029,
-      "rationale": "The tweet explicitly says the Codex Plus/Pro 5h limit has been removed for the past few days, meaning that cap is…",
-      "tweetId": "2077632589498913087",
-      "tweetUrl": "https://x.com/thsottiaux/status/2077632589498913087",
-      "verdict": "reset_confirmed"
+      "confidence": 0.99,
+      "decidedAt": 1784215017746,
+      "rationale": "This is just a conversational reply and gives no indication that any limits have reset.",
+      "tweetId": "2077774339693543680",
+      "tweetUrl": "https://x.com/thsottiaux/status/2077774339693543680",
+      "verdict": "not_reset"
     },
-    "lastError": "Tweet fetch failed: Tweet search failed: Unknown error; timeline fallback failed: Unknown error (Unknown error) (Tweet search failed: Unknown error; timeline fallback failed: Unknown error)",
-    "lastSeenTweetId": "2077632589498913087",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2077632589498913087",
+    "lastError": null,
+    "lastSeenTweetId": "2077774339693543680",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2077774339693543680",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1784215017746,
+        "inputTokens": 358,
+        "outputTokens": 106,
+        "rationale": "This is just a conversational reply and gives no indication that any limits have reset.",
+        "reasoningTokens": 62,
+        "totalTokens": 464,
+        "tweetId": "2077774339693543680",
+        "tweetText": "@Jaytel Please don’t",
+        "tweetUrl": "https://x.com/thsottiaux/status/2077774339693543680",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.96,
         "evaluatedAt": 1784181463029,
@@ -272,29 +285,31 @@
         "tweetText": "@melvynx Hmmmm https://t.co/1dCj10rAkZ",
         "tweetUrl": "https://x.com/thsottiaux/status/2077269435967324505",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1784094554245,
-        "inputTokens": 360,
-        "outputTokens": 99,
-        "rationale": "This reply only says “Not Codex” and does not indicate any rate limit reset.",
-        "reasoningTokens": 53,
-        "totalTokens": 459,
-        "tweetId": "2077268737087197564",
-        "tweetText": "@0x45o Not Codex",
-        "tweetUrl": "https://x.com/thsottiaux/status/2077268737087197564",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 357884,
-      "totalOutputTokens": 96754,
-      "totalReasoningTokens": 53419,
-      "totalTokens": 454638
+      "totalInputTokens": 358242,
+      "totalOutputTokens": 96860,
+      "totalReasoningTokens": 53481,
+      "totalTokens": 455102
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1784215017746,
+      "inputTokens": 358,
+      "message": "",
+      "outputTokens": 106,
+      "rationale": "This is just a conversational reply and gives no indication that any limits have reset.",
+      "reasoningTokens": 62,
+      "totalTokens": 464,
+      "tweetId": "2077774339693543680",
+      "tweetText": "@Jaytel Please don’t",
+      "tweetUrl": "https://x.com/thsottiaux/status/2077774339693543680",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0,
       "createdAt": 1784214713599,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2076894071323537898",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.97,
-      "createdAt": 1783967773074,
-      "inputTokens": 369,
-      "message": "",
-      "outputTokens": 139,
-      "rationale": "This reply contains only a mention and a link, so it does not clearly indicate that limits have reset.",
-      "reasoningTokens": 90,
-      "totalTokens": 508,
-      "tweetId": "2076736691457691920",
-      "tweetText": "@ns123abc https://t.co/KqkUqJ6UPq",
-      "tweetUrl": "https://x.com/thsottiaux/status/2076736691457691920",
-      "type": "review_requested",
-      "verdict": "uncertain"
     }
   ],
   "privateState": {
-    "ciphertext": "I7fmb5LgJ60dYJ2uAQafbgRl-AKIFrq_ic3CdTrvzmvt3vxSKPKSw3ho2g",
-    "iv": "E4tJTMvv_NXd7CtW",
-    "tag": "fzgzWFJCzBhID0xgpHUMGg",
+    "ciphertext": "8QA4kd8y1ijdcEvdPWIT5nIWi6sAD9co2zS5Q0Rq56Qdz3LcykmLV65q5g",
+    "iv": "65vir2pLZn99yA8_",
+    "tag": "Z_5b6GSRNaObnydQiiGDyw",
     "version": 1
   }
 }
