@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1784229608535,
-      "rationale": "This reply is conversational and does not mention limits, caps, or usage becoming available again.",
-      "tweetId": "2077835562460029041",
-      "tweetUrl": "https://x.com/thsottiaux/status/2077835562460029041",
+      "decidedAt": 1784229916098,
+      "rationale": "This post and its quoted text are just recommending Sol, not reporting any limit reset.",
+      "tweetId": "2077835821982601614",
+      "tweetUrl": "https://x.com/thsottiaux/status/2077835821982601614",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2077835562460029041",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2077835562460029041",
+    "lastSeenTweetId": "2077835821982601614",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2077835821982601614",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1784229916098,
+        "inputTokens": 392,
+        "outputTokens": 84,
+        "rationale": "This post and its quoted text are just recommending Sol, not reporting any limit reset.",
+        "reasoningTokens": 39,
+        "totalTokens": 476,
+        "tweetId": "2077835821982601614",
+        "tweetText": "Just call Sol",
+        "tweetUrl": "https://x.com/thsottiaux/status/2077835821982601614",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1784229608535,
@@ -272,29 +285,31 @@
         "tweetText": "@theo I think you should rename it to ChatGPT",
         "tweetUrl": "https://x.com/thsottiaux/status/2077447646588109153",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1784133345281,
-        "inputTokens": 357,
-        "outputTokens": 72,
-        "rationale": "This reply just says congratulations and gives no indication that any limits have reset.",
-        "reasoningTokens": 29,
-        "totalTokens": 429,
-        "tweetId": "2077431736804545006",
-        "tweetText": "@thdxr Congrats",
-        "tweetUrl": "https://x.com/thsottiaux/status/2077431736804545006",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 359329,
-      "totalOutputTokens": 97191,
-      "totalReasoningTokens": 53681,
-      "totalTokens": 456520
+      "totalInputTokens": 359721,
+      "totalOutputTokens": 97275,
+      "totalReasoningTokens": 53720,
+      "totalTokens": 456996
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1784229916098,
+      "inputTokens": 392,
+      "message": "",
+      "outputTokens": 84,
+      "rationale": "This post and its quoted text are just recommending Sol, not reporting any limit reset.",
+      "reasoningTokens": 39,
+      "totalTokens": 476,
+      "tweetId": "2077835821982601614",
+      "tweetText": "Just call Sol",
+      "tweetUrl": "https://x.com/thsottiaux/status/2077835821982601614",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1784229608535,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2076915116231275003",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1784008412505,
-      "inputTokens": 366,
-      "message": "",
-      "outputTokens": 94,
-      "rationale": "This is a user milestone comment and does not mention limits, caps, or usage resetting.",
-      "reasoningTokens": 48,
-      "totalTokens": 460,
-      "tweetId": "2076907789763621237",
-      "tweetText": "Tomorrow might be 8M active user celebration day. Just saying",
-      "tweetUrl": "https://x.com/thsottiaux/status/2076907789763621237",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "uXWrhDbOMJmgXszeEAGgWJAE6g2FJH0Bp8e4D3UZ2QEygJ5wkGSRbbM__g",
-    "iv": "Qohz2oeE8_O7vn1z",
-    "tag": "F_4IgV8LSUl5pni5ikA_7g",
+    "ciphertext": "lEISigLv2cFTuVxvxV409_gWwLAtLeEyXV1F-I4uy55RkeG3-LHBW-QI7Q",
+    "iv": "FVAFmg--6dK8UPIO",
+    "tag": "nb9OeGI6BX-qh8s6ZBY2-w",
     "version": 1
   }
 }
