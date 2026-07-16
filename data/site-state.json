@@ -21,7 +21,7 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2077611246611042667",
       "verdict": "not_reset"
     },
-    "lastError": null,
+    "lastError": "Tweet fetch failed: Tweet search failed: Unknown error; timeline fallback failed: Unknown error (Unknown error) (Tweet search failed: Unknown error; timeline fallback failed: Unknown error)",
     "lastSeenTweetId": "2077611246611042667",
     "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2077611246611042667",
     "pendingReview": {
@@ -304,7 +304,7 @@
   "automationEvents": [
     {
       "confidence": 0,
-      "createdAt": 1784177735649,
+      "createdAt": 1784178354794,
       "inputTokens": 0,
       "message": "Tweet fetch failed: Tweet search failed: Unknown error; timeline fallback failed: Unknown error (Unknown error) (Tweet search failed: Unknown error; timeline fallback failed: Unknown error)",
       "outputTokens": 0,
@@ -904,9 +904,9 @@
     }
   ],
   "privateState": {
-    "ciphertext": "XGmORyfzcC1Q3zIfi5545P8NWYZV8bFYhJ2fdG9d_cS7mgNN36GcwI85KQ",
-    "iv": "OWjqjyRcYR1pL0CG",
-    "tag": "m0vWmfO1w8U5W9qOg89UZQ",
+    "ciphertext": "xnd8h10ZlTzfYiNmF7RUP648Xy6Ymuck_774CDvx_Mn7Ha532TKK_Lwagw",
+    "iv": "m-JAfICotYF__T-r",
+    "tag": "VGRR1qIQMdjV-sC8G3ckaw",
     "version": 1
   }
 }
