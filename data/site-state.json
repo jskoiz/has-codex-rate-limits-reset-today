@@ -21,7 +21,7 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2077611246611042667",
       "verdict": "not_reset"
     },
-    "lastError": null,
+    "lastError": "Tweet fetch failed: Tweet search failed: Unknown error; timeline fallback failed: Unknown error (Unknown error) (Tweet search failed: Unknown error; timeline fallback failed: Unknown error)",
     "lastSeenTweetId": "2077611246611042667",
     "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2077611246611042667",
     "pendingReview": {
@@ -303,6 +303,21 @@
   },
   "automationEvents": [
     {
+      "confidence": 0,
+      "createdAt": 1784177735649,
+      "inputTokens": 0,
+      "message": "Tweet fetch failed: Tweet search failed: Unknown error; timeline fallback failed: Unknown error (Unknown error) (Tweet search failed: Unknown error; timeline fallback failed: Unknown error)",
+      "outputTokens": 0,
+      "rationale": "",
+      "reasoningTokens": 0,
+      "totalTokens": 0,
+      "tweetId": null,
+      "tweetText": "",
+      "tweetUrl": null,
+      "type": "error",
+      "verdict": null
+    },
+    {
       "confidence": 0.99,
       "createdAt": 1784176816986,
       "inputTokens": 361,
@@ -361,21 +376,6 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2077610342260355230",
       "type": "review_requested",
       "verdict": "uncertain"
-    },
-    {
-      "confidence": 0,
-      "createdAt": 1784176169258,
-      "inputTokens": 0,
-      "message": "Tweet fetch failed: Tweet search failed: Unknown error; timeline fallback failed: Unknown error (Unknown error) (Tweet search failed: Unknown error; timeline fallback failed: Unknown error)",
-      "outputTokens": 0,
-      "rationale": "",
-      "reasoningTokens": 0,
-      "totalTokens": 0,
-      "tweetId": null,
-      "tweetText": "",
-      "tweetUrl": null,
-      "type": "error",
-      "verdict": null
     },
     {
       "confidence": 0.86,
@@ -904,9 +904,9 @@
     }
   ],
   "privateState": {
-    "ciphertext": "1twqxJmu2hZUGkGSghh9m-CF22PULuEnTteapln0CcABzsf_S0AxVfZA6A",
-    "iv": "vx82BZQ7HtvgPPyH",
-    "tag": "_bQr2I4EpbS2wsXpWc3v_Q",
+    "ciphertext": "iHL0ptFrPdalmLMBmME2OZ1gsOBKmNdqKeLJgw8ZKHJr2jShG4D8L6YkxA",
+    "iv": "SSPbuiCia9ryA9St",
+    "tag": "2mykraHcGVes98_vKMExQQ",
     "version": 1
   }
 }
