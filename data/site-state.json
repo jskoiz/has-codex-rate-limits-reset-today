@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1784145955451,
-      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-      "tweetId": "2077483919247839377",
-      "tweetUrl": "https://x.com/thsottiaux/status/2077483919247839377",
+      "decidedAt": 1784174938322,
+      "rationale": "This reply only asks \"OpenAI?\" and does not indicate any limit or rate cap reset.",
+      "tweetId": "2077604817518895369",
+      "tweetUrl": "https://x.com/thsottiaux/status/2077604817518895369",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2077483919247839377",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2077483919247839377",
+    "lastSeenTweetId": "2077604817518895369",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2077604817518895369",
     "pendingReview": {
       "confidence": 0.75,
       "createdAt": 1784090223018,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2077249987441037818"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1784174938322,
+        "inputTokens": 358,
+        "outputTokens": 86,
+        "rationale": "This reply only asks \"OpenAI?\" and does not indicate any limit or rate cap reset.",
+        "reasoningTokens": 38,
+        "totalTokens": 444,
+        "tweetId": "2077604817518895369",
+        "tweetText": "@rezoundous OpenAI?",
+        "tweetUrl": "https://x.com/thsottiaux/status/2077604817518895369",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1784145955451,
@@ -279,29 +292,31 @@
         "tweetText": "Hello. We have reached 8M active users across Codex and ChatGPT Work.\n\nWe are once again resetting the usage limits for all. And we continue to not have the 5h rate limit as well, allowing everyone to explore the boundaries of GPT-5.6 Sol and discover how ambitious you can be.\n\nSee you tomorrow for more updates on our growth!",
         "tweetUrl": "https://x.com/thsottiaux/status/2077114635308986427",
         "verdict": "reset_confirmed"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1784010586048,
-        "inputTokens": 360,
-        "outputTokens": 64,
-        "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-        "reasoningTokens": 20,
-        "totalTokens": 424,
-        "tweetId": "2076915116231275003",
-        "tweetText": "@RylanSchaeffer Good reasons",
-        "tweetUrl": "https://x.com/thsottiaux/status/2076915116231275003",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 352813,
-      "totalOutputTokens": 95172,
-      "totalReasoningTokens": 52447,
-      "totalTokens": 447985
+      "totalInputTokens": 353171,
+      "totalOutputTokens": 95258,
+      "totalReasoningTokens": 52485,
+      "totalTokens": 448429
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1784174938322,
+      "inputTokens": 358,
+      "message": "",
+      "outputTokens": 86,
+      "rationale": "This reply only asks \"OpenAI?\" and does not indicate any limit or rate cap reset.",
+      "reasoningTokens": 38,
+      "totalTokens": 444,
+      "tweetId": "2077604817518895369",
+      "tweetText": "@rezoundous OpenAI?",
+      "tweetUrl": "https://x.com/thsottiaux/status/2077604817518895369",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0,
       "createdAt": 1784172463137,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2076421686526890373",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1783892669576,
-      "inputTokens": 359,
-      "message": "",
-      "outputTokens": 74,
-      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-      "reasoningTokens": 30,
-      "totalTokens": 433,
-      "tweetId": "2076421333488194037",
-      "tweetText": "@mehulmpt Sounds peaceful",
-      "tweetUrl": "https://x.com/thsottiaux/status/2076421333488194037",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "nS8jsLOeB6FKHK5sdydShmWUDLHG5pmrBG1_PwI_ZxQTOeW2-OBzK5Lufw",
-    "iv": "3xUaANxpWZdDn2o0",
-    "tag": "RxKNxiTdDKONWMK7JsA9iQ",
+    "ciphertext": "Fx6BylpzvIhmA5r5XlvQtZ7fs3_ZoRx5Fwa9mxzGvLH8m5ij8v-qdz2v2A",
+    "iv": "Ho-oJsSl1zhXR6mC",
+    "tag": "xbtg4F08Nt-NBaeNMOZvHA",
     "version": 1
   }
 }
