@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1784332645903,
-      "rationale": "This is just a conversational reply and does not mention limits or a reset.",
-      "tweetId": "2077969365639790821",
-      "tweetUrl": "https://x.com/thsottiaux/status/2077969365639790821",
+      "decidedAt": 1784332648290,
+      "rationale": "This reply just asks a question and does not mention limits or a reset.",
+      "tweetId": "2077978792732327969",
+      "tweetUrl": "https://x.com/thsottiaux/status/2077978792732327969",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2077969365639790821",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2077969365639790821",
+    "lastSeenTweetId": "2077978792732327969",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2077978792732327969",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1784332648290,
+        "inputTokens": 361,
+        "outputTokens": 61,
+        "rationale": "This reply just asks a question and does not mention limits or a reset.",
+        "reasoningTokens": 18,
+        "totalTokens": 422,
+        "tweetId": "2077978792732327969",
+        "tweetText": "@nickbaumann_ What’s TPOT",
+        "tweetUrl": "https://x.com/thsottiaux/status/2077978792732327969",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1784332645903,
@@ -272,29 +285,31 @@
         "tweetText": "Courtesy of ChatGPT Work. Not holding back apparently",
         "tweetUrl": "https://x.com/thsottiaux/status/2077610491040657850",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.09,
-        "evaluatedAt": 1784176499349,
-        "inputTokens": 364,
-        "outputTokens": 162,
-        "rationale": "This post has no visible text or quote indicating that limits have reset.",
-        "reasoningTokens": 120,
-        "totalTokens": 526,
-        "tweetId": "2077610342260355230",
-        "tweetText": "https://t.co/s2aSJqqu5y",
-        "tweetUrl": "https://x.com/thsottiaux/status/2077610342260355230",
-        "verdict": "uncertain"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 361331,
-      "totalOutputTokens": 97601,
-      "totalReasoningTokens": 53866,
-      "totalTokens": 458932
+      "totalInputTokens": 361692,
+      "totalOutputTokens": 97662,
+      "totalReasoningTokens": 53884,
+      "totalTokens": 459354
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1784332648290,
+      "inputTokens": 361,
+      "message": "",
+      "outputTokens": 61,
+      "rationale": "This reply just asks a question and does not mention limits or a reset.",
+      "reasoningTokens": 18,
+      "totalTokens": 422,
+      "tweetId": "2077978792732327969",
+      "tweetText": "@nickbaumann_ What’s TPOT",
+      "tweetUrl": "https://x.com/thsottiaux/status/2077978792732327969",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1784332645903,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2077248807533003257",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1784081218075,
-      "inputTokens": 390,
-      "message": "",
-      "outputTokens": 79,
-      "rationale": "He explicitly says this is not a reset announcement and is only asking for feedback on ChatGPT Work.",
-      "reasoningTokens": 31,
-      "totalTokens": 469,
-      "tweetId": "2077212009071075330",
-      "tweetText": "Here you are! Thinking I am about to announce a reset. But no. I’m just scrolling twitter and looking for feedback on ChatGPT Work. \n\nWhat should we improve?",
-      "tweetUrl": "https://x.com/thsottiaux/status/2077212009071075330",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "Gk-h6VfuPn77TqwiDfJPuK367xks_NWKkDstV99hCf31JWcmTKd2RNzFxA",
-    "iv": "8EaBmjmcqt3SlcWY",
-    "tag": "fpreADaxby6cC8_eb_zKdw",
+    "ciphertext": "WvAyUxGl75Mh53R7TMzu6wJ1BOF2CFoFkEqiETuOzq1DbAUtjUjZEor7sw",
+    "iv": "zaBDjsEQM2XqOFa0",
+    "tag": "pHb3p9Dl1P_Pw4i9YttfWA",
     "version": 1
   }
 }
