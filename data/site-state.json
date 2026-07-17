@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1784332675152,
-      "rationale": "This reply does not mention any limit, cap, or reset being available now.",
-      "tweetId": "2078249667314528706",
-      "tweetUrl": "https://x.com/thsottiaux/status/2078249667314528706",
+      "decidedAt": 1784332677268,
+      "rationale": "This reply is just conversational and says nothing about limits or availability.",
+      "tweetId": "2078249973712642552",
+      "tweetUrl": "https://x.com/thsottiaux/status/2078249973712642552",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2078249667314528706",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2078249667314528706",
+    "lastSeenTweetId": "2078249973712642552",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2078249973712642552",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1784332677268,
+        "inputTokens": 359,
+        "outputTokens": 65,
+        "rationale": "This reply is just conversational and says nothing about limits or availability.",
+        "reasoningTokens": 24,
+        "totalTokens": 424,
+        "tweetId": "2078249973712642552",
+        "tweetText": "@jxnlco Backstreet boys",
+        "tweetUrl": "https://x.com/thsottiaux/status/2078249973712642552",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1784332675152,
@@ -272,29 +285,31 @@
         "tweetText": "How do you pronounce Sol",
         "tweetUrl": "https://x.com/thsottiaux/status/2077775690058125383",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1784215017746,
-        "inputTokens": 358,
-        "outputTokens": 106,
-        "rationale": "This is just a conversational reply and gives no indication that any limits have reset.",
-        "reasoningTokens": 62,
-        "totalTokens": 464,
-        "tweetId": "2077774339693543680",
-        "tweetText": "@Jaytel Please don’t",
-        "tweetUrl": "https://x.com/thsottiaux/status/2077774339693543680",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 365299,
-      "totalOutputTokens": 98458,
-      "totalReasoningTokens": 54242,
-      "totalTokens": 463757
+      "totalInputTokens": 365658,
+      "totalOutputTokens": 98523,
+      "totalReasoningTokens": 54266,
+      "totalTokens": 464181
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1784332677268,
+      "inputTokens": 359,
+      "message": "",
+      "outputTokens": 65,
+      "rationale": "This reply is just conversational and says nothing about limits or availability.",
+      "reasoningTokens": 24,
+      "totalTokens": 424,
+      "tweetId": "2078249973712642552",
+      "tweetText": "@jxnlco Backstreet boys",
+      "tweetUrl": "https://x.com/thsottiaux/status/2078249973712642552",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1784332675152,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2077281798258888839",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.98,
-      "createdAt": 1784095492622,
-      "inputTokens": 387,
-      "message": "",
-      "outputTokens": 126,
-      "rationale": "This only discusses possibly resetting usage again in the future, not that limits have reset now.",
-      "reasoningTokens": 80,
-      "totalTokens": 513,
-      "tweetId": "2077271889626706300",
-      "tweetText": "Embarrassment of riches. But looks like we might hit 9M soon. Should we reset the ChatGPT Work and Codex usage again or give it some space?",
-      "tweetUrl": "https://x.com/thsottiaux/status/2077271889626706300",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "7Fmzc7_dE4KMp7_G1QCovDV3CiTOr5Y2_LHrEnHxMF3N6sBPUvlpTR8CRQ",
-    "iv": "9MSOuDCIt6koxEqS",
-    "tag": "PpIRVpO8UUYg0oL69gB1mw",
+    "ciphertext": "6zueU3DFaz9d3yTv-Q7KffOneOovgbQOp4xK4DaBupX0NgZkYb9_V8_Bbg",
+    "iv": "FoqLoYMCuz35cjdi",
+    "tag": "qM8EqrchF95aLOnPUS63_g",
     "version": 1
   }
 }
