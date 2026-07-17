@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1784332639597,
-      "rationale": "This reply does not mention limits, caps, or usage resetting.",
-      "tweetId": "2077928889750520141",
-      "tweetUrl": "https://x.com/thsottiaux/status/2077928889750520141",
+      "decidedAt": 1784332642652,
+      "rationale": "This reply just says \"No, sorry\" and does not indicate any limit or cap has reset.",
+      "tweetId": "2077968059852312966",
+      "tweetUrl": "https://x.com/thsottiaux/status/2077968059852312966",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2077928889750520141",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2077928889750520141",
+    "lastSeenTweetId": "2077968059852312966",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2077968059852312966",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1784332642652,
+        "inputTokens": 359,
+        "outputTokens": 86,
+        "rationale": "This reply just says \"No, sorry\" and does not indicate any limit or cap has reset.",
+        "reasoningTokens": 38,
+        "totalTokens": 445,
+        "tweetId": "2077968059852312966",
+        "tweetText": "@xmangonic No, sorry",
+        "tweetUrl": "https://x.com/thsottiaux/status/2077968059852312966",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1784332639597,
@@ -272,29 +285,31 @@
         "tweetText": "Another reset for our Codex and ChatGPT Work users. Actually hit 9M active users way earlier today, but then got distracted by the approximately millions of things the team is doing to keep the systems up and reliable.\n\nShould have that sweet 100% weekly usage limit back in a few minutes. Go be your productive self and close twitter. Shoo!",
         "tweetUrl": "https://x.com/thsottiaux/status/2077607697487188198",
         "verdict": "reset_confirmed"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1784174938322,
-        "inputTokens": 358,
-        "outputTokens": 86,
-        "rationale": "This reply only asks \"OpenAI?\" and does not indicate any limit or rate cap reset.",
-        "reasoningTokens": 38,
-        "totalTokens": 444,
-        "tweetId": "2077604817518895369",
-        "tweetText": "@rezoundous OpenAI?",
-        "tweetUrl": "https://x.com/thsottiaux/status/2077604817518895369",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 360612,
-      "totalOutputTokens": 97427,
-      "totalReasoningTokens": 53783,
-      "totalTokens": 458039
+      "totalInputTokens": 360971,
+      "totalOutputTokens": 97513,
+      "totalReasoningTokens": 53821,
+      "totalTokens": 458484
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1784332642652,
+      "inputTokens": 359,
+      "message": "",
+      "outputTokens": 86,
+      "rationale": "This reply just says \"No, sorry\" and does not indicate any limit or cap has reset.",
+      "reasoningTokens": 38,
+      "totalTokens": 445,
+      "tweetId": "2077968059852312966",
+      "tweetText": "@xmangonic No, sorry",
+      "tweetUrl": "https://x.com/thsottiaux/status/2077968059852312966",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1784332639597,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2077211193161531797",
       "type": "review_requested",
       "verdict": "uncertain"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1784080584154,
-      "inputTokens": 367,
-      "message": "",
-      "outputTokens": 92,
-      "rationale": "This reply is conversational and does not mention limits, caps, or usage resetting.",
-      "reasoningTokens": 48,
-      "totalTokens": 459,
-      "tweetId": "2077210072749600994",
-      "tweetText": "@thegenioo It’s not much, but it’s honest work",
-      "tweetUrl": "https://x.com/thsottiaux/status/2077210072749600994",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "t1ZnfnjmddK9YxPbp1RfgsUuBlDpEMUrlXUUX0eC5i9JEJXIAvO4MRliJA",
-    "iv": "S_npIRwOAuYiXlLd",
-    "tag": "YcIVWfJbdFXtrkshDmmaIQ",
+    "ciphertext": "vQEcSRrSTbl_pVd197mQwITvdydrfvmRjOHmdwtgAjkXD9Oq8vJv-pkgRw",
+    "iv": "tlcxesPbmy_XSmml",
+    "tag": "0ndNuw0MePfR51fQ1Aoydw",
     "version": 1
   }
 }
