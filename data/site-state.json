@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1784332677268,
-      "rationale": "This reply is just conversational and says nothing about limits or availability.",
-      "tweetId": "2078249973712642552",
-      "tweetUrl": "https://x.com/thsottiaux/status/2078249973712642552",
+      "decidedAt": 1784332679798,
+      "rationale": "This is just a conversational reply and says nothing about limits or resets.",
+      "tweetId": "2078253374852743231",
+      "tweetUrl": "https://x.com/thsottiaux/status/2078253374852743231",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2078249973712642552",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2078249973712642552",
+    "lastSeenTweetId": "2078253374852743231",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2078253374852743231",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1784332679798,
+        "inputTokens": 370,
+        "outputTokens": 64,
+        "rationale": "This is just a conversational reply and says nothing about limits or resets.",
+        "reasoningTokens": 22,
+        "totalTokens": 434,
+        "tweetId": "2078253374852743231",
+        "tweetText": "@logangraham @AnthropicAI Excited to see what you do next 👀",
+        "tweetUrl": "https://x.com/thsottiaux/status/2078253374852743231",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1784332677268,
@@ -272,29 +285,31 @@
         "tweetText": "@mxcl https://t.co/CoZRYgqkS2",
         "tweetUrl": "https://x.com/thsottiaux/status/2077835481031770486",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1784215317390,
-        "inputTokens": 358,
-        "outputTokens": 43,
-        "rationale": "This post is just a pronunciation question and gives no sign that any limits have reset.",
-        "reasoningTokens": 0,
-        "totalTokens": 401,
-        "tweetId": "2077775690058125383",
-        "tweetText": "How do you pronounce Sol",
-        "tweetUrl": "https://x.com/thsottiaux/status/2077775690058125383",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 365658,
-      "totalOutputTokens": 98523,
-      "totalReasoningTokens": 54266,
-      "totalTokens": 464181
+      "totalInputTokens": 366028,
+      "totalOutputTokens": 98587,
+      "totalReasoningTokens": 54288,
+      "totalTokens": 464615
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1784332679798,
+      "inputTokens": 370,
+      "message": "",
+      "outputTokens": 64,
+      "rationale": "This is just a conversational reply and says nothing about limits or resets.",
+      "reasoningTokens": 22,
+      "totalTokens": 434,
+      "tweetId": "2078253374852743231",
+      "tweetText": "@logangraham @AnthropicAI Excited to see what you do next 👀",
+      "tweetUrl": "https://x.com/thsottiaux/status/2078253374852743231",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1784332677268,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2077431736804545006",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1784097654916,
-      "inputTokens": 382,
-      "message": "",
-      "outputTokens": 76,
-      "rationale": "This reply discusses prompts in an open source repo, not usage limits or resets.",
-      "reasoningTokens": 32,
-      "totalTokens": 458,
-      "tweetId": "2077281798258888839",
-      "tweetText": "@elder_plinius You can also read various prompts we use on the open source repo\n\nhttps://t.co/2TH56VNxnb",
-      "tweetUrl": "https://x.com/thsottiaux/status/2077281798258888839",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "6zueU3DFaz9d3yTv-Q7KffOneOovgbQOp4xK4DaBupX0NgZkYb9_V8_Bbg",
-    "iv": "FoqLoYMCuz35cjdi",
-    "tag": "qM8EqrchF95aLOnPUS63_g",
+    "ciphertext": "sM-0wOlHi1iA3lLm5e45tugSRnTE8I4pYdZvpUR_k9f_qezUoGbxA4BT3A",
+    "iv": "0GVBbN1V-nQKj9yE",
+    "tag": "UFarScIoNg7lNn6in9MDMw",
     "version": 1
   }
 }
