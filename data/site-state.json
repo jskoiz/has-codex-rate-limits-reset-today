@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1784332666357,
-      "rationale": "This reply is conversational and does not mention limits, caps, or usage being available again.",
-      "tweetId": "2077994010241880444",
-      "tweetUrl": "https://x.com/thsottiaux/status/2077994010241880444",
+      "decidedAt": 1784332669612,
+      "rationale": "This reply does not mention limits, caps, or usage becoming available again.",
+      "tweetId": "2078164278058910140",
+      "tweetUrl": "https://x.com/thsottiaux/status/2078164278058910140",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2077994010241880444",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2077994010241880444",
+    "lastSeenTweetId": "2078164278058910140",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2078164278058910140",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1784332669612,
+        "inputTokens": 360,
+        "outputTokens": 88,
+        "rationale": "This reply does not mention limits, caps, or usage becoming available again.",
+        "reasoningTokens": 45,
+        "totalTokens": 448,
+        "tweetId": "2078164278058910140",
+        "tweetText": "@maxedapps Get back to work",
+        "tweetUrl": "https://x.com/thsottiaux/status/2078164278058910140",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1784332666357,
@@ -272,29 +285,31 @@
         "tweetText": "On file deletions. We’ve investigated a handful of reports where GPT-5.6 unexpectedly deleted files. \n\nWhat we have  found is that this most commonly occurs when:\n- Full access mode is enabled and codex is run without sandboxing protections, including without auto review being enabled\n- The model attempts  to override the $HOME env var to define a temporary directory.\n- The model makes an honest mistake and mistakenly deletes $HOME instead.\n\nThis is of course not how we want the system to behave, even when a user operates the model in full-access mode without the safeguards of our sandbox or without using auto review which checks for these kinds of high risk actions and rejects them. \n\nWe are taking steps to mitigate this risk including by updating the developer message, guiding more users towards safer permission modes, and adding additional harness safeguards. Even though this happens extremely rarely, we’ll share a detailed post-mortem in the coming days that goes into more details and what we are doing to minimize risks further.",
         "tweetUrl": "https://x.com/thsottiaux/status/2077630111499882637",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1784180217245,
-        "inputTokens": 368,
-        "outputTokens": 81,
-        "rationale": "This reply is unrelated to Codex or ChatGPT usage limits resetting.",
-        "reasoningTokens": 39,
-        "totalTokens": 449,
-        "tweetId": "2077628059294081034",
-        "tweetText": "@aidenybai @gdb Concerning... if you're not using Sol",
-        "tweetUrl": "https://x.com/thsottiaux/status/2077628059294081034",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 364215,
-      "totalOutputTokens": 98208,
-      "totalReasoningTokens": 54123,
-      "totalTokens": 462423
+      "totalInputTokens": 364575,
+      "totalOutputTokens": 98296,
+      "totalReasoningTokens": 54168,
+      "totalTokens": 462871
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1784332669612,
+      "inputTokens": 360,
+      "message": "",
+      "outputTokens": 88,
+      "rationale": "This reply does not mention limits, caps, or usage becoming available again.",
+      "reasoningTokens": 45,
+      "totalTokens": 448,
+      "tweetId": "2078164278058910140",
+      "tweetText": "@maxedapps Get back to work",
+      "tweetUrl": "https://x.com/thsottiaux/status/2078164278058910140",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1784332666357,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2077268737087197564",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1784094244867,
-      "inputTokens": 365,
-      "message": "",
-      "outputTokens": 88,
-      "rationale": "This reply is just a joke about using Codex and does not mention limits or resets.",
-      "reasoningTokens": 42,
-      "totalTokens": 453,
-      "tweetId": "2077267551038681275",
-      "tweetText": "@jxnlco We all know you just delegate to Codex",
-      "tweetUrl": "https://x.com/thsottiaux/status/2077267551038681275",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "CzMWe0ddX4gL5HPFIYbR6dkjXfn5ZwUAvbAtEmp9xNPV-K-nghz118wg_Q",
-    "iv": "yxx5VzyqK0m4QL9P",
-    "tag": "oeUdbpF2ce0ernwRHQ4LxA",
+    "ciphertext": "sCKNOLA3d-iH2usqY2t3EPrXhZHDsSDHFBcROUGe9oDHxRAFocKKJRLKlw",
+    "iv": "HCP1Y7NXiPYmLxnD",
+    "tag": "SNRQOFokh5OVak8AoESxMw",
     "version": 1
   }
 }
