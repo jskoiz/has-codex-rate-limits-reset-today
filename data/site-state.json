@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1784332679798,
-      "rationale": "This is just a conversational reply and says nothing about limits or resets.",
-      "tweetId": "2078253374852743231",
-      "tweetUrl": "https://x.com/thsottiaux/status/2078253374852743231",
+      "decidedAt": 1784332682168,
+      "rationale": "This reply just says “Scoop” and does not indicate any rate limit reset.",
+      "tweetId": "2078253555698581623",
+      "tweetUrl": "https://x.com/thsottiaux/status/2078253555698581623",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2078253374852743231",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2078253374852743231",
+    "lastSeenTweetId": "2078253555698581623",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2078253555698581623",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1784332682168,
+        "inputTokens": 357,
+        "outputTokens": 70,
+        "rationale": "This reply just says “Scoop” and does not indicate any rate limit reset.",
+        "reasoningTokens": 25,
+        "totalTokens": 427,
+        "tweetId": "2078253555698581623",
+        "tweetText": "@iamsaranhere Scoop",
+        "tweetUrl": "https://x.com/thsottiaux/status/2078253555698581623",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1784332679798,
@@ -272,29 +285,31 @@
         "tweetText": "@uzairansar That's a new one",
         "tweetUrl": "https://x.com/thsottiaux/status/2077835562460029041",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.95,
-        "evaluatedAt": 1784229605545,
-        "inputTokens": 368,
-        "outputTokens": 202,
-        "rationale": "This reply contains no clear statement that limits or rate caps have reset.",
-        "reasoningTokens": 160,
-        "totalTokens": 570,
-        "tweetId": "2077835481031770486",
-        "tweetText": "@mxcl https://t.co/CoZRYgqkS2",
-        "tweetUrl": "https://x.com/thsottiaux/status/2077835481031770486",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 366028,
-      "totalOutputTokens": 98587,
-      "totalReasoningTokens": 54288,
-      "totalTokens": 464615
+      "totalInputTokens": 366385,
+      "totalOutputTokens": 98657,
+      "totalReasoningTokens": 54313,
+      "totalTokens": 465042
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1784332682168,
+      "inputTokens": 357,
+      "message": "",
+      "outputTokens": 70,
+      "rationale": "This reply just says “Scoop” and does not indicate any rate limit reset.",
+      "reasoningTokens": 25,
+      "totalTokens": 427,
+      "tweetId": "2078253555698581623",
+      "tweetText": "@iamsaranhere Scoop",
+      "tweetUrl": "https://x.com/thsottiaux/status/2078253555698581623",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1784332679798,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2077447646588109153",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1784133345281,
-      "inputTokens": 357,
-      "message": "",
-      "outputTokens": 72,
-      "rationale": "This reply just says congratulations and gives no indication that any limits have reset.",
-      "reasoningTokens": 29,
-      "totalTokens": 429,
-      "tweetId": "2077431736804545006",
-      "tweetText": "@thdxr Congrats",
-      "tweetUrl": "https://x.com/thsottiaux/status/2077431736804545006",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "sM-0wOlHi1iA3lLm5e45tugSRnTE8I4pYdZvpUR_k9f_qezUoGbxA4BT3A",
-    "iv": "0GVBbN1V-nQKj9yE",
-    "tag": "UFarScIoNg7lNn6in9MDMw",
+    "ciphertext": "YnnixsVUjwkusmxHTSqqxxqqZZx7dSXHHD79FJPf3uzOd8HFahdfXSKNFg",
+    "iv": "KTySaLWumHLgZBAS",
+    "tag": "PRGpNHnFEm6HHmt3gBl0uw",
     "version": 1
   }
 }
