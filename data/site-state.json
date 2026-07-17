@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1784332642652,
-      "rationale": "This reply just says \"No, sorry\" and does not indicate any limit or cap has reset.",
-      "tweetId": "2077968059852312966",
-      "tweetUrl": "https://x.com/thsottiaux/status/2077968059852312966",
+      "decidedAt": 1784332645903,
+      "rationale": "This is just a conversational reply and does not mention limits or a reset.",
+      "tweetId": "2077969365639790821",
+      "tweetUrl": "https://x.com/thsottiaux/status/2077969365639790821",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2077968059852312966",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2077968059852312966",
+    "lastSeenTweetId": "2077969365639790821",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2077969365639790821",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1784332645903,
+        "inputTokens": 360,
+        "outputTokens": 88,
+        "rationale": "This is just a conversational reply and does not mention limits or a reset.",
+        "reasoningTokens": 45,
+        "totalTokens": 448,
+        "tweetId": "2077969365639790821",
+        "tweetText": "@JoannaStern You’re welcome",
+        "tweetUrl": "https://x.com/thsottiaux/status/2077969365639790821",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1784332642652,
@@ -272,29 +285,31 @@
         "tweetText": "https://t.co/s2aSJqqu5y",
         "tweetUrl": "https://x.com/thsottiaux/status/2077610342260355230",
         "verdict": "uncertain"
-      },
-      {
-        "confidence": 0.86,
-        "evaluatedAt": 1784175562950,
-        "inputTokens": 427,
-        "outputTokens": 280,
-        "rationale": "The tweet explicitly announces another reset and says Work users should have their 100% weekly usage limit back…",
-        "reasoningTokens": 228,
-        "totalTokens": 707,
-        "tweetId": "2077607697487188198",
-        "tweetText": "Another reset for our Codex and ChatGPT Work users. Actually hit 9M active users way earlier today, but then got distracted by the approximately millions of things the team is doing to keep the systems up and reliable.\n\nShould have that sweet 100% weekly usage limit back in a few minutes. Go be your productive self and close twitter. Shoo!",
-        "tweetUrl": "https://x.com/thsottiaux/status/2077607697487188198",
-        "verdict": "reset_confirmed"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 360971,
-      "totalOutputTokens": 97513,
-      "totalReasoningTokens": 53821,
-      "totalTokens": 458484
+      "totalInputTokens": 361331,
+      "totalOutputTokens": 97601,
+      "totalReasoningTokens": 53866,
+      "totalTokens": 458932
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1784332645903,
+      "inputTokens": 360,
+      "message": "",
+      "outputTokens": 88,
+      "rationale": "This is just a conversational reply and does not mention limits or a reset.",
+      "reasoningTokens": 45,
+      "totalTokens": 448,
+      "tweetId": "2077969365639790821",
+      "tweetText": "@JoannaStern You’re welcome",
+      "tweetUrl": "https://x.com/thsottiaux/status/2077969365639790821",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1784332642652,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2077212009071075330",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.8,
-      "createdAt": 1784080891248,
-      "inputTokens": 362,
-      "message": "",
-      "outputTokens": 162,
-      "rationale": "The reply says “Users are up,” which could mean service availability but does not clearly confirm a rate-limit reset.",
-      "reasoningTokens": 111,
-      "totalTokens": 524,
-      "tweetId": "2077211193161531797",
-      "tweetText": "@matthewmillerai Users are up",
-      "tweetUrl": "https://x.com/thsottiaux/status/2077211193161531797",
-      "type": "review_requested",
-      "verdict": "uncertain"
     }
   ],
   "privateState": {
-    "ciphertext": "vQEcSRrSTbl_pVd197mQwITvdydrfvmRjOHmdwtgAjkXD9Oq8vJv-pkgRw",
-    "iv": "tlcxesPbmy_XSmml",
-    "tag": "0ndNuw0MePfR51fQ1Aoydw",
+    "ciphertext": "Gk-h6VfuPn77TqwiDfJPuK367xks_NWKkDstV99hCf31JWcmTKd2RNzFxA",
+    "iv": "8EaBmjmcqt3SlcWY",
+    "tag": "fpreADaxby6cC8_eb_zKdw",
     "version": 1
   }
 }
