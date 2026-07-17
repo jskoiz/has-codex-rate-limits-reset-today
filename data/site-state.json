@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1784332656417,
-      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-      "tweetId": "2077982567694004462",
-      "tweetUrl": "https://x.com/thsottiaux/status/2077982567694004462",
+      "decidedAt": 1784332658999,
+      "rationale": "This reply does not mention limits, caps, or usage resetting.",
+      "tweetId": "2077992063074000957",
+      "tweetUrl": "https://x.com/thsottiaux/status/2077992063074000957",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2077982567694004462",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2077982567694004462",
+    "lastSeenTweetId": "2077992063074000957",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2077992063074000957",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1784332658999,
+        "inputTokens": 358,
+        "outputTokens": 87,
+        "rationale": "This reply does not mention limits, caps, or usage resetting.",
+        "reasoningTokens": 46,
+        "totalTokens": 445,
+        "tweetId": "2077992063074000957",
+        "tweetText": "@petergyang Look right",
+        "tweetUrl": "https://x.com/thsottiaux/status/2077992063074000957",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1784332656417,
@@ -272,29 +285,31 @@
         "tweetText": "@Anutar0 @claudeai I actually stole their reset button. You're welcome",
         "tweetUrl": "https://x.com/thsottiaux/status/2077626528020697173",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1784179919631,
-        "inputTokens": 361,
-        "outputTokens": 81,
-        "rationale": "This reply is conversational and gives no indication that any ChatGPT or Codex limits have reset.",
-        "reasoningTokens": 34,
-        "totalTokens": 442,
-        "tweetId": "2077626441152573757",
-        "tweetText": "@ztb8888 Quite funny to imagine",
-        "tweetUrl": "https://x.com/thsottiaux/status/2077626441152573757",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 362773,
-      "totalOutputTokens": 97894,
-      "totalReasoningTokens": 53986,
-      "totalTokens": 460667
+      "totalInputTokens": 363131,
+      "totalOutputTokens": 97981,
+      "totalReasoningTokens": 54032,
+      "totalTokens": 461112
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1784332658999,
+      "inputTokens": 358,
+      "message": "",
+      "outputTokens": 87,
+      "rationale": "This reply does not mention limits, caps, or usage resetting.",
+      "reasoningTokens": 46,
+      "totalTokens": 445,
+      "tweetId": "2077992063074000957",
+      "tweetText": "@petergyang Look right",
+      "tweetUrl": "https://x.com/thsottiaux/status/2077992063074000957",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1784332656417,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2077250606767743398",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1784090517013,
-      "inputTokens": 359,
-      "message": "",
-      "outputTokens": 80,
-      "rationale": "This is just a conversational reply and gives no indication that any limits have reset.",
-      "reasoningTokens": 36,
-      "totalTokens": 439,
-      "tweetId": "2077250502543466823",
-      "tweetText": "@Ceoz_1 Never change",
-      "tweetUrl": "https://x.com/thsottiaux/status/2077250502543466823",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "-bLj6D7FlE-c9zv4vEiLw_Fs0UwKCAG-uKzX8g1eMdq51q2r8HMiDJ7B8A",
-    "iv": "GgCMeRjKnQfeh0vc",
-    "tag": "DskA49KBwq_uCclifFsisA",
+    "ciphertext": "oj4zYol98bsqiaPu_IJ7OKOS8bTXwAt5ks3Rm7VyXmpPSnNHaxAvx43iOw",
+    "iv": "ipf9xymBuy5tZGHo",
+    "tag": "4m0Qe7RH5789LNONfwTMUA",
     "version": 1
   }
 }
