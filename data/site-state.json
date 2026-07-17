@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1784332672305,
-      "rationale": "This is just a conversational reply and gives no indication that any limits have reset.",
-      "tweetId": "2078195654497862095",
-      "tweetUrl": "https://x.com/thsottiaux/status/2078195654497862095",
+      "decidedAt": 1784332675152,
+      "rationale": "This reply does not mention any limit, cap, or reset being available now.",
+      "tweetId": "2078249667314528706",
+      "tweetUrl": "https://x.com/thsottiaux/status/2078249667314528706",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2078195654497862095",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2078195654497862095",
+    "lastSeenTweetId": "2078249667314528706",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2078249667314528706",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1784332675152,
+        "inputTokens": 367,
+        "outputTokens": 96,
+        "rationale": "This reply does not mention any limit, cap, or reset being available now.",
+        "reasoningTokens": 52,
+        "totalTokens": 463,
+        "tweetId": "2078249667314528706",
+        "tweetText": "@maxedapps @AnthropicAI Let me see what I can do",
+        "tweetUrl": "https://x.com/thsottiaux/status/2078249667314528706",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1784332672305,
@@ -272,29 +285,31 @@
         "tweetText": "@Jaytel Please don’t",
         "tweetUrl": "https://x.com/thsottiaux/status/2077774339693543680",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.96,
-        "evaluatedAt": 1784181463029,
-        "inputTokens": 413,
-        "outputTokens": 235,
-        "rationale": "The tweet explicitly says the Codex Plus/Pro 5h limit has been removed for the past few days, meaning that cap is…",
-        "reasoningTokens": 176,
-        "totalTokens": 648,
-        "tweetId": "2077632589498913087",
-        "tweetText": "We've had no 5h limit in Codex plus and pro for a few days. Do you think it is better or are you finding it difficult to manage the usage included in the weekly limit effectively?\n\nIf we were to make this different, what should it look like in an ideal world?",
-        "tweetUrl": "https://x.com/thsottiaux/status/2077632589498913087",
-        "verdict": "reset_confirmed"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 364932,
-      "totalOutputTokens": 98362,
-      "totalReasoningTokens": 54190,
-      "totalTokens": 463294
+      "totalInputTokens": 365299,
+      "totalOutputTokens": 98458,
+      "totalReasoningTokens": 54242,
+      "totalTokens": 463757
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1784332675152,
+      "inputTokens": 367,
+      "message": "",
+      "outputTokens": 96,
+      "rationale": "This reply does not mention any limit, cap, or reset being available now.",
+      "reasoningTokens": 52,
+      "totalTokens": 463,
+      "tweetId": "2078249667314528706",
+      "tweetText": "@maxedapps @AnthropicAI Let me see what I can do",
+      "tweetUrl": "https://x.com/thsottiaux/status/2078249667314528706",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1784332672305,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2077271889626706300",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.98,
-      "createdAt": 1784094868790,
-      "inputTokens": 372,
-      "message": "",
-      "outputTokens": 163,
-      "rationale": "This reply is just conversational and does not indicate any limits or rate caps have reset.",
-      "reasoningTokens": 118,
-      "totalTokens": 535,
-      "tweetId": "2077269435967324505",
-      "tweetText": "@melvynx Hmmmm https://t.co/1dCj10rAkZ",
-      "tweetUrl": "https://x.com/thsottiaux/status/2077269435967324505",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "SYp8x2DOx3qjpgF_ktvjXjLIax1W2pLGmyBpe3wdSV45o4-5x089qSADxQ",
-    "iv": "x9i9vTZLqJIjVR4p",
-    "tag": "gKfQ3HadeuULaJ7gvHIweA",
+    "ciphertext": "7Fmzc7_dE4KMp7_G1QCovDV3CiTOr5Y2_LHrEnHxMF3N6sBPUvlpTR8CRQ",
+    "iv": "9MSOuDCIt6koxEqS",
+    "tag": "PpIRVpO8UUYg0oL69gB1mw",
     "version": 1
   }
 }
