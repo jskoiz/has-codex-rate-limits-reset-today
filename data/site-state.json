@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1784332663737,
-      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-      "tweetId": "2077992363465859377",
-      "tweetUrl": "https://x.com/thsottiaux/status/2077992363465859377",
+      "decidedAt": 1784332666357,
+      "rationale": "This reply is conversational and does not mention limits, caps, or usage being available again.",
+      "tweetId": "2077994010241880444",
+      "tweetUrl": "https://x.com/thsottiaux/status/2077994010241880444",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2077992363465859377",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2077992363465859377",
+    "lastSeenTweetId": "2077994010241880444",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2077994010241880444",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1784332666357,
+        "inputTokens": 360,
+        "outputTokens": 74,
+        "rationale": "This reply is conversational and does not mention limits, caps, or usage being available again.",
+        "reasoningTokens": 28,
+        "totalTokens": 434,
+        "tweetId": "2077994010241880444",
+        "tweetText": "@SamiFathi_ Never better!",
+        "tweetUrl": "https://x.com/thsottiaux/status/2077994010241880444",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1784332663737,
@@ -272,29 +285,31 @@
         "tweetText": "@aidenybai @gdb Concerning... if you're not using Sol",
         "tweetUrl": "https://x.com/thsottiaux/status/2077628059294081034",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1784179928848,
-        "inputTokens": 375,
-        "outputTokens": 93,
-        "rationale": "This post discusses merging products and does not mention limits, caps, or usage resetting.",
-        "reasoningTokens": 48,
-        "totalTokens": 468,
-        "tweetId": "2077627035418239230",
-        "tweetText": "Now that we merged ChatGPT and Codex, what should we merge next? What's the double or nothing move.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2077627035418239230",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 363855,
-      "totalOutputTokens": 98134,
-      "totalReasoningTokens": 54095,
-      "totalTokens": 461989
+      "totalInputTokens": 364215,
+      "totalOutputTokens": 98208,
+      "totalReasoningTokens": 54123,
+      "totalTokens": 462423
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1784332666357,
+      "inputTokens": 360,
+      "message": "",
+      "outputTokens": 74,
+      "rationale": "This reply is conversational and does not mention limits, caps, or usage being available again.",
+      "reasoningTokens": 28,
+      "totalTokens": 434,
+      "tweetId": "2077994010241880444",
+      "tweetText": "@SamiFathi_ Never better!",
+      "tweetUrl": "https://x.com/thsottiaux/status/2077994010241880444",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1784332663737,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2077267551038681275",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1784090525663,
-      "inputTokens": 360,
-      "message": "",
-      "outputTokens": 65,
-      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-      "reasoningTokens": 21,
-      "totalTokens": 425,
-      "tweetId": "2077250804311028096",
-      "tweetText": "@ServerJsc92470 Nice indeed",
-      "tweetUrl": "https://x.com/thsottiaux/status/2077250804311028096",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "yMZF7WNQrr4JwOhtkExNABWugiVb1HXeM7EgMlkdbpSznCDlH9l06VH3ng",
-    "iv": "sR7daaKSihs-PPhR",
-    "tag": "8OVzzAbTYBsZYGjjRLwIpQ",
+    "ciphertext": "CzMWe0ddX4gL5HPFIYbR6dkjXfn5ZwUAvbAtEmp9xNPV-K-nghz118wg_Q",
+    "iv": "yxx5VzyqK0m4QL9P",
+    "tag": "oeUdbpF2ce0ernwRHQ4LxA",
     "version": 1
   }
 }
