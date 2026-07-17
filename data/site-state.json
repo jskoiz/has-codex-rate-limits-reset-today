@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1784332653691,
-      "rationale": "This reply is conversational and says nothing about limits or usage resetting.",
-      "tweetId": "2077980159001641227",
-      "tweetUrl": "https://x.com/thsottiaux/status/2077980159001641227",
+      "decidedAt": 1784332656417,
+      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+      "tweetId": "2077982567694004462",
+      "tweetUrl": "https://x.com/thsottiaux/status/2077982567694004462",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2077980159001641227",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2077980159001641227",
+    "lastSeenTweetId": "2077982567694004462",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2077982567694004462",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1784332656417,
+        "inputTokens": 359,
+        "outputTokens": 77,
+        "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+        "reasoningTokens": 33,
+        "totalTokens": 436,
+        "tweetId": "2077982567694004462",
+        "tweetText": "@jxnlco Did he survive?",
+        "tweetUrl": "https://x.com/thsottiaux/status/2077982567694004462",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1784332653691,
@@ -272,29 +285,31 @@
         "tweetText": "@ztb8888 Quite funny to imagine",
         "tweetUrl": "https://x.com/thsottiaux/status/2077626441152573757",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1784176816986,
-        "inputTokens": 361,
-        "outputTokens": 109,
-        "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-        "reasoningTokens": 65,
-        "totalTokens": 470,
-        "tweetId": "2077611246611042667",
-        "tweetText": "@alfredversa You know what to do",
-        "tweetUrl": "https://x.com/thsottiaux/status/2077611246611042667",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 362414,
-      "totalOutputTokens": 97817,
-      "totalReasoningTokens": 53953,
-      "totalTokens": 460231
+      "totalInputTokens": 362773,
+      "totalOutputTokens": 97894,
+      "totalReasoningTokens": 53986,
+      "totalTokens": 460667
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1784332656417,
+      "inputTokens": 359,
+      "message": "",
+      "outputTokens": 77,
+      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+      "reasoningTokens": 33,
+      "totalTokens": 436,
+      "tweetId": "2077982567694004462",
+      "tweetText": "@jxnlco Did he survive?",
+      "tweetUrl": "https://x.com/thsottiaux/status/2077982567694004462",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1784332653691,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2077250502543466823",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.75,
-      "createdAt": 1784090223018,
-      "inputTokens": 362,
-      "message": "",
-      "outputTokens": 371,
-      "rationale": "Saying Codex is \"pretty unlimited\" suggests generous access now, but it does not clearly state that a rate limit…",
-      "reasoningTokens": 316,
-      "totalTokens": 733,
-      "tweetId": "2077249987441037818",
-      "tweetText": "@zeeg Codex this week is pretty unlimited",
-      "tweetUrl": "https://x.com/thsottiaux/status/2077249987441037818",
-      "type": "review_requested",
-      "verdict": "uncertain"
     }
   ],
   "privateState": {
-    "ciphertext": "Bqpu_OCPpEIPhmtxNjl3c2GLI1QU1BtycuDW5YO-qg5Zw6n9-ZwEBb-etg",
-    "iv": "canm8pTt18l_YAIE",
-    "tag": "aWixKheaPMNTfou200_GYA",
+    "ciphertext": "-bLj6D7FlE-c9zv4vEiLw_Fs0UwKCAG-uKzX8g1eMdq51q2r8HMiDJ7B8A",
+    "iv": "GgCMeRjKnQfeh0vc",
+    "tag": "DskA49KBwq_uCclifFsisA",
     "version": 1
   }
 }
