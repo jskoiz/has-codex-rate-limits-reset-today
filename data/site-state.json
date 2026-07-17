@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1784332669612,
-      "rationale": "This reply does not mention limits, caps, or usage becoming available again.",
-      "tweetId": "2078164278058910140",
-      "tweetUrl": "https://x.com/thsottiaux/status/2078164278058910140",
+      "decidedAt": 1784332672305,
+      "rationale": "This is just a conversational reply and gives no indication that any limits have reset.",
+      "tweetId": "2078195654497862095",
+      "tweetUrl": "https://x.com/thsottiaux/status/2078195654497862095",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2078164278058910140",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2078164278058910140",
+    "lastSeenTweetId": "2078195654497862095",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2078195654497862095",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1784332672305,
+        "inputTokens": 357,
+        "outputTokens": 66,
+        "rationale": "This is just a conversational reply and gives no indication that any limits have reset.",
+        "reasoningTokens": 22,
+        "totalTokens": 423,
+        "tweetId": "2078195654497862095",
+        "tweetText": "@nicdunz Haha",
+        "tweetUrl": "https://x.com/thsottiaux/status/2078195654497862095",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1784332669612,
@@ -272,29 +285,31 @@
         "tweetText": "We've had no 5h limit in Codex plus and pro for a few days. Do you think it is better or are you finding it difficult to manage the usage included in the weekly limit effectively?\n\nIf we were to make this different, what should it look like in an ideal world?",
         "tweetUrl": "https://x.com/thsottiaux/status/2077632589498913087",
         "verdict": "reset_confirmed"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1784181458555,
-        "inputTokens": 564,
-        "outputTokens": 71,
-        "rationale": "This post discusses file deletion incidents and mitigations, not any usage cap or rate-limit reset.",
-        "reasoningTokens": 24,
-        "totalTokens": 635,
-        "tweetId": "2077630111499882637",
-        "tweetText": "On file deletions. We’ve investigated a handful of reports where GPT-5.6 unexpectedly deleted files. \n\nWhat we have  found is that this most commonly occurs when:\n- Full access mode is enabled and codex is run without sandboxing protections, including without auto review being enabled\n- The model attempts  to override the $HOME env var to define a temporary directory.\n- The model makes an honest mistake and mistakenly deletes $HOME instead.\n\nThis is of course not how we want the system to behave, even when a user operates the model in full-access mode without the safeguards of our sandbox or without using auto review which checks for these kinds of high risk actions and rejects them. \n\nWe are taking steps to mitigate this risk including by updating the developer message, guiding more users towards safer permission modes, and adding additional harness safeguards. Even though this happens extremely rarely, we’ll share a detailed post-mortem in the coming days that goes into more details and what we are doing to minimize risks further.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2077630111499882637",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 364575,
-      "totalOutputTokens": 98296,
-      "totalReasoningTokens": 54168,
-      "totalTokens": 462871
+      "totalInputTokens": 364932,
+      "totalOutputTokens": 98362,
+      "totalReasoningTokens": 54190,
+      "totalTokens": 463294
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1784332672305,
+      "inputTokens": 357,
+      "message": "",
+      "outputTokens": 66,
+      "rationale": "This is just a conversational reply and gives no indication that any limits have reset.",
+      "reasoningTokens": 22,
+      "totalTokens": 423,
+      "tweetId": "2078195654497862095",
+      "tweetText": "@nicdunz Haha",
+      "tweetUrl": "https://x.com/thsottiaux/status/2078195654497862095",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1784332669612,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2077269435967324505",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1784094554245,
-      "inputTokens": 360,
-      "message": "",
-      "outputTokens": 99,
-      "rationale": "This reply only says “Not Codex” and does not indicate any rate limit reset.",
-      "reasoningTokens": 53,
-      "totalTokens": 459,
-      "tweetId": "2077268737087197564",
-      "tweetText": "@0x45o Not Codex",
-      "tweetUrl": "https://x.com/thsottiaux/status/2077268737087197564",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "sCKNOLA3d-iH2usqY2t3EPrXhZHDsSDHFBcROUGe9oDHxRAFocKKJRLKlw",
-    "iv": "HCP1Y7NXiPYmLxnD",
-    "tag": "SNRQOFokh5OVak8AoESxMw",
+    "ciphertext": "SYp8x2DOx3qjpgF_ktvjXjLIax1W2pLGmyBpe3wdSV45o4-5x089qSADxQ",
+    "iv": "x9i9vTZLqJIjVR4p",
+    "tag": "gKfQ3HadeuULaJ7gvHIweA",
     "version": 1
   }
 }
