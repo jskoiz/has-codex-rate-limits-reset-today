@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1784343218135,
-      "rationale": "This reply is conversational and gives no indication that any rate limit or usage cap has reset.",
-      "tweetId": "2078311057312137359",
-      "tweetUrl": "https://x.com/thsottiaux/status/2078311057312137359",
+      "decidedAt": 1784343220761,
+      "rationale": "This reply is just thanking someone for feedback and does not mention any limit or reset.",
+      "tweetId": "2078311158839488658",
+      "tweetUrl": "https://x.com/thsottiaux/status/2078311158839488658",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2078311057312137359",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2078311057312137359",
+    "lastSeenTweetId": "2078311158839488658",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2078311158839488658",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1784343220761,
+        "inputTokens": 363,
+        "outputTokens": 70,
+        "rationale": "This reply is just thanking someone for feedback and does not mention any limit or reset.",
+        "reasoningTokens": 25,
+        "totalTokens": 433,
+        "tweetId": "2078311158839488658",
+        "tweetText": "@imontenegroc All good feedback, thanks!!",
+        "tweetUrl": "https://x.com/thsottiaux/status/2078311158839488658",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1784343218135,
@@ -272,29 +285,31 @@
         "tweetText": "@xmangonic No, sorry",
         "tweetUrl": "https://x.com/thsottiaux/status/2077968059852312966",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1784332639597,
-        "inputTokens": 368,
-        "outputTokens": 76,
-        "rationale": "This reply does not mention limits, caps, or usage resetting.",
-        "reasoningTokens": 35,
-        "totalTokens": 444,
-        "tweetId": "2077928889750520141",
-        "tweetText": "Look at this beauty https://t.co/arLnM9smr9",
-        "tweetUrl": "https://x.com/thsottiaux/status/2077928889750520141",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 367602,
-      "totalOutputTokens": 99046,
-      "totalReasoningTokens": 54554,
-      "totalTokens": 466648
+      "totalInputTokens": 367965,
+      "totalOutputTokens": 99116,
+      "totalReasoningTokens": 54579,
+      "totalTokens": 467081
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1784343220761,
+      "inputTokens": 363,
+      "message": "",
+      "outputTokens": 70,
+      "rationale": "This reply is just thanking someone for feedback and does not mention any limit or reset.",
+      "reasoningTokens": 25,
+      "totalTokens": 433,
+      "tweetId": "2078311158839488658",
+      "tweetText": "@imontenegroc All good feedback, thanks!!",
+      "tweetUrl": "https://x.com/thsottiaux/status/2078311158839488658",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1784343218135,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2077610342260355230",
       "type": "review_requested",
       "verdict": "uncertain"
-    },
-    {
-      "confidence": 0.86,
-      "createdAt": 1784175562950,
-      "inputTokens": 427,
-      "message": "",
-      "outputTokens": 280,
-      "rationale": "The tweet explicitly announces another reset and says Work users should have their 100% weekly usage limit back…",
-      "reasoningTokens": 228,
-      "totalTokens": 707,
-      "tweetId": "2077607697487188198",
-      "tweetText": "Another reset for our Codex and ChatGPT Work users. Actually hit 9M active users way earlier today, but then got distracted by the approximately millions of things the team is doing to keep the systems up and reliable.\n\nShould have that sweet 100% weekly usage limit back in a few minutes. Go be your productive self and close twitter. Shoo!",
-      "tweetUrl": "https://x.com/thsottiaux/status/2077607697487188198",
-      "type": "reset_confirmed",
-      "verdict": "reset_confirmed"
     }
   ],
   "privateState": {
-    "ciphertext": "ofIMPxcdwZ_lPumBIBimEqQucjZcRhH7hksJr55ukQCQIjBPtShKTqApEQ",
-    "iv": "UUEet9lSDNJA7u4t",
-    "tag": "VV6Ldn8g7BcjAf1cerUA-g",
+    "ciphertext": "KYd0024HATFiC84D8QERkiUO5Pv3brnky_MI1GB908VS8ZhKZNTbjnYHgg",
+    "iv": "8zIjQ-2zWEBzNvI1",
+    "tag": "MILutck6jOjKqgVtew4B8Q",
     "version": 1
   }
 }
