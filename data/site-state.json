@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1784406137773,
-      "rationale": "This reply is unrelated to Codex or ChatGPT usage limits resetting.",
-      "tweetId": "2078575202339012715",
-      "tweetUrl": "https://x.com/thsottiaux/status/2078575202339012715",
+      "decidedAt": 1784406140453,
+      "rationale": "This is a general conversational post and does not mention limits or a reset.",
+      "tweetId": "2078575575669915776",
+      "tweetUrl": "https://x.com/thsottiaux/status/2078575575669915776",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2078575202339012715",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2078575202339012715",
+    "lastSeenTweetId": "2078575575669915776",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2078575575669915776",
     "pendingReview": {
       "confidence": 0.73,
       "createdAt": 1784347251626,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2078328592308818117"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1784406140453,
+        "inputTokens": 359,
+        "outputTokens": 72,
+        "rationale": "This is a general conversational post and does not mention limits or a reset.",
+        "reasoningTokens": 29,
+        "totalTokens": 431,
+        "tweetId": "2078575575669915776",
+        "tweetText": "What are you building this weekend?",
+        "tweetUrl": "https://x.com/thsottiaux/status/2078575575669915776",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1784406137773,
@@ -279,29 +292,31 @@
         "tweetText": "@maxedapps Get back to work",
         "tweetUrl": "https://x.com/thsottiaux/status/2078164278058910140",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1784332666357,
-        "inputTokens": 360,
-        "outputTokens": 74,
-        "rationale": "This reply is conversational and does not mention limits, caps, or usage being available again.",
-        "reasoningTokens": 28,
-        "totalTokens": 434,
-        "tweetId": "2077994010241880444",
-        "tweetText": "@SamiFathi_ Never better!",
-        "tweetUrl": "https://x.com/thsottiaux/status/2077994010241880444",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 371341,
-      "totalOutputTokens": 100061,
-      "totalReasoningTokens": 55107,
-      "totalTokens": 471402
+      "totalInputTokens": 371700,
+      "totalOutputTokens": 100133,
+      "totalReasoningTokens": 55136,
+      "totalTokens": 471833
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1784406140453,
+      "inputTokens": 359,
+      "message": "",
+      "outputTokens": 72,
+      "rationale": "This is a general conversational post and does not mention limits or a reset.",
+      "reasoningTokens": 29,
+      "totalTokens": 431,
+      "tweetId": "2078575575669915776",
+      "tweetText": "What are you building this weekend?",
+      "tweetUrl": "https://x.com/thsottiaux/status/2078575575669915776",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1784406137773,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2077632589498913087",
       "type": "reset_confirmed",
       "verdict": "reset_confirmed"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1784181458555,
-      "inputTokens": 564,
-      "message": "",
-      "outputTokens": 71,
-      "rationale": "This post discusses file deletion incidents and mitigations, not any usage cap or rate-limit reset.",
-      "reasoningTokens": 24,
-      "totalTokens": 635,
-      "tweetId": "2077630111499882637",
-      "tweetText": "On file deletions. We’ve investigated a handful of reports where GPT-5.6 unexpectedly deleted files. \n\nWhat we have  found is that this most commonly occurs when:\n- Full access mode is enabled and codex is run without sandboxing protections, including without auto review being enabled\n- The model attempts  to override the $HOME env var to define a temporary directory.\n- The model makes an honest mistake and mistakenly deletes $HOME instead.\n\nThis is of course not how we want the system to behave, even when a user operates the model in full-access mode without the safeguards of our sandbox or without using auto review which checks for these kinds of high risk actions and rejects them. \n\nWe are taking steps to mitigate this risk including by updating the developer message, guiding more users towards safer permission modes, and adding additional harness safeguards. Even though this happens extremely rarely, we’ll share a detailed post-mortem in the coming days that goes into more details and what we are doing to minimize risks further.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2077630111499882637",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "7wXxjFG_xQ4DX-zjy6S9nZC4I29Y3eVdPQXJPZPuILFF_Q0ewHdEgckPKg",
-    "iv": "R8rt__c-BsITrk6n",
-    "tag": "9rYjD3J8q1W-7JZvmCPSnA",
+    "ciphertext": "4dNkhPr7Lris5eCy7ozypqts9iP5lc2Mc88u5UDQhZ8JtXQJDcuxLrGnwg",
+    "iv": "NldyTjuXburlIpRK",
+    "tag": "tPsGZgTbnq3y5fVo_gfeZg",
     "version": 1
   }
 }
