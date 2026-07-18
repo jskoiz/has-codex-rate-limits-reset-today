@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1784409851306,
-      "rationale": "This reply is just a greeting and gives no indication that any limits have reset.",
-      "tweetId": "2078590079342420088",
-      "tweetUrl": "https://x.com/thsottiaux/status/2078590079342420088",
+      "decidedAt": 1784409853760,
+      "rationale": "This reply is unrelated to any Codex or ChatGPT limit reset.",
+      "tweetId": "2078590377217724792",
+      "tweetUrl": "https://x.com/thsottiaux/status/2078590377217724792",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2078590079342420088",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2078590079342420088",
+    "lastSeenTweetId": "2078590377217724792",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2078590377217724792",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1784409539121,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2078589587149177180"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1784409853760,
+        "inputTokens": 364,
+        "outputTokens": 84,
+        "rationale": "This reply is unrelated to any Codex or ChatGPT limit reset.",
+        "reasoningTokens": 42,
+        "totalTokens": 448,
+        "tweetId": "2078590377217724792",
+        "tweetText": "@0xPrajwal_ Orange is your favorite color",
+        "tweetUrl": "https://x.com/thsottiaux/status/2078590377217724792",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1784409851306,
@@ -279,29 +292,31 @@
         "tweetText": "@jxnlco Backstreet boys",
         "tweetUrl": "https://x.com/thsottiaux/status/2078249973712642552",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1784332675152,
-        "inputTokens": 367,
-        "outputTokens": 96,
-        "rationale": "This reply does not mention any limit, cap, or reset being available now.",
-        "reasoningTokens": 52,
-        "totalTokens": 463,
-        "tweetId": "2078249667314528706",
-        "tweetText": "@maxedapps @AnthropicAI Let me see what I can do",
-        "tweetUrl": "https://x.com/thsottiaux/status/2078249667314528706",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 372416,
-      "totalOutputTokens": 100435,
-      "totalReasoningTokens": 55351,
-      "totalTokens": 472851
+      "totalInputTokens": 372780,
+      "totalOutputTokens": 100519,
+      "totalReasoningTokens": 55393,
+      "totalTokens": 473299
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1784409853760,
+      "inputTokens": 364,
+      "message": "",
+      "outputTokens": 84,
+      "rationale": "This reply is unrelated to any Codex or ChatGPT limit reset.",
+      "reasoningTokens": 42,
+      "totalTokens": 448,
+      "tweetId": "2078590377217724792",
+      "tweetText": "@0xPrajwal_ Orange is your favorite color",
+      "tweetUrl": "https://x.com/thsottiaux/status/2078590377217724792",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1784409851306,
@@ -886,27 +901,12 @@
       "tweetUrl": null,
       "type": "error",
       "verdict": null
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1784215317390,
-      "inputTokens": 358,
-      "message": "",
-      "outputTokens": 43,
-      "rationale": "This post is just a pronunciation question and gives no sign that any limits have reset.",
-      "reasoningTokens": 0,
-      "totalTokens": 401,
-      "tweetId": "2077775690058125383",
-      "tweetText": "How do you pronounce Sol",
-      "tweetUrl": "https://x.com/thsottiaux/status/2077775690058125383",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "5z3Pd4rxm8-BxukiZ6AjI6Gm4VZIPQpak3ZNdwMLmJegmUBKzGCv2l3Dzg",
-    "iv": "AzjvPLxYnxO3hXo-",
-    "tag": "7zVGaXYcdU0y00hqPqz-Ew",
+    "ciphertext": "zd4kpBPaqKXXgdt2jz5Sn2qQ6Irdo30Siuu4-xXZ4TQe4kjj6lYJqWUXNw",
+    "iv": "XuVDFKgvtIZaZkxA",
+    "tag": "Gr97w9xJmJoxgigrSUvJPg",
     "version": 1
   }
 }
