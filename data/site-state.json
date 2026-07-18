@@ -14,18 +14,31 @@
   "updatedAt": 1784181463029,
   "automation": {
     "lastDecision": {
-      "confidence": 0.95,
-      "decidedAt": 1784337944480,
-      "rationale": "This reply is vague and conversational, not a clear statement that any Codex or ChatGPT limits have reset.",
-      "tweetId": "2078289174789275902",
-      "tweetUrl": "https://x.com/thsottiaux/status/2078289174789275902",
+      "confidence": 0.99,
+      "decidedAt": 1784342915976,
+      "rationale": "This post comments on model quality and a quoted rollout announcement, not that any ChatGPT or Codex limits have reset.",
+      "tweetId": "2078310751878647932",
+      "tweetUrl": "https://x.com/thsottiaux/status/2078310751878647932",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2078289174789275902",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2078289174789275902",
+    "lastSeenTweetId": "2078310751878647932",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2078310751878647932",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1784342915976,
+        "inputTokens": 489,
+        "outputTokens": 109,
+        "rationale": "This post comments on model quality and a quoted rollout announcement, not that any ChatGPT or Codex limits have reset.",
+        "reasoningTokens": 57,
+        "totalTokens": 598,
+        "tweetId": "2078310751878647932",
+        "tweetText": "GPT-5.6 Sol confirmed to be an extremely good model",
+        "tweetUrl": "https://x.com/thsottiaux/status/2078310751878647932",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.95,
         "evaluatedAt": 1784337944480,
@@ -272,29 +285,31 @@
         "tweetText": "Evening! We’ve gotten lots of great feedback on the new ChatGPT desktop app (which we didn't get totally quite right on the first try), and as a result, we've made some changes.\n\n1/ ChatGPT conversation history and projects are now visible in the sidebar. Also, your Chat and Work history now sync across web, mobile, and desktop. Local tasks still stay on your computer.\n2/ You can now easily switch between Chat and Work modes inside ChatGPT on desktop, which is now also consistent with how it shows on web and mobile.\n3/ Nothing is changing for users on Codex mode. It's still the OG and best at what it does.\n\nAnd overall we're continuing to fix paper cuts and improve performance, reliability, and efficiency.\n\nKeep up the feedback, hope you like the updates!",
         "tweetUrl": "https://x.com/thsottiaux/status/2077928427936710901",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1784229916098,
-        "inputTokens": 392,
-        "outputTokens": 84,
-        "rationale": "This post and its quoted text are just recommending Sol, not reporting any limit reset.",
-        "reasoningTokens": 39,
-        "totalTokens": 476,
-        "tweetId": "2077835821982601614",
-        "tweetText": "Just call Sol",
-        "tweetUrl": "https://x.com/thsottiaux/status/2077835821982601614",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 366755,
-      "totalOutputTokens": 98849,
-      "totalReasoningTokens": 54455,
-      "totalTokens": 465604
+      "totalInputTokens": 367244,
+      "totalOutputTokens": 98958,
+      "totalReasoningTokens": 54512,
+      "totalTokens": 466202
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1784342915976,
+      "inputTokens": 489,
+      "message": "",
+      "outputTokens": 109,
+      "rationale": "This post comments on model quality and a quoted rollout announcement, not that any ChatGPT or Codex limits have reset.",
+      "reasoningTokens": 57,
+      "totalTokens": 598,
+      "tweetId": "2078310751878647932",
+      "tweetText": "GPT-5.6 Sol confirmed to be an extremely good model",
+      "tweetUrl": "https://x.com/thsottiaux/status/2078310751878647932",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.95,
       "createdAt": 1784337944480,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2077604817518895369",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1784145955451,
-      "inputTokens": 360,
-      "message": "",
-      "outputTokens": 76,
-      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-      "reasoningTokens": 32,
-      "totalTokens": 436,
-      "tweetId": "2077483919247839377",
-      "tweetText": "@kobex___ Made me chuckle",
-      "tweetUrl": "https://x.com/thsottiaux/status/2077483919247839377",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "MM7Jqz52rHivXzwjK3_VEbK9XU0Jc5StT6vY432-yTRJzOz7drFWx795zw",
-    "iv": "Pcb4m8Yu3PQtCqz7",
-    "tag": "_gX7rCusUjRjw0sar5AUgw",
+    "ciphertext": "C1JgjE_RRGvupTduyoeBDKDm4799Sh02kxGttF-idDJKACrF6OHfSWgshA",
+    "iv": "nYKgOfPLOOebc6wA",
+    "tag": "UG4udLhG_Vlz7MxQpJCjCQ",
     "version": 1
   }
 }
