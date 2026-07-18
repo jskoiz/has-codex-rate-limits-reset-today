@@ -14,25 +14,38 @@
   "updatedAt": 1784345380676,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1784346937628,
-      "rationale": "This reply is vague and does not indicate any rate-limit or usage reset.",
-      "tweetId": "2078327209467814145",
-      "tweetUrl": "https://x.com/thsottiaux/status/2078327209467814145",
-      "verdict": "not_reset"
+      "confidence": 0.95,
+      "decidedAt": 1784346959640,
+      "rationale": "This reply only says \"Confirmed\" and does not explicitly state that any rate limit or cap has reset.",
+      "tweetId": "2078327646170337398",
+      "tweetUrl": "https://x.com/thsottiaux/status/2078327646170337398",
+      "verdict": "uncertain"
     },
     "lastError": null,
-    "lastSeenTweetId": "2078327209467814145",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2078327209467814145",
+    "lastSeenTweetId": "2078327646170337398",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2078327646170337398",
     "pendingReview": {
-      "confidence": 0.92,
-      "createdAt": 1784345698480,
-      "rationale": "It speculates that other rate limits might have reset, but does not clearly confirm that any limit is available again…",
-      "tweetId": "2078321266524881065",
-      "tweetText": "And transitively might also have reset other rate limits out there. Let's see. You're welcome if so.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2078321266524881065"
+      "confidence": 0.95,
+      "createdAt": 1784346959641,
+      "rationale": "This reply only says \"Confirmed\" and does not explicitly state that any rate limit or cap has reset.",
+      "tweetId": "2078327646170337398",
+      "tweetText": "@madewithv Confirmed",
+      "tweetUrl": "https://x.com/thsottiaux/status/2078327646170337398"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.95,
+        "evaluatedAt": 1784346959641,
+        "inputTokens": 359,
+        "outputTokens": 148,
+        "rationale": "This reply only says \"Confirmed\" and does not explicitly state that any rate limit or cap has reset.",
+        "reasoningTokens": 99,
+        "totalTokens": 507,
+        "tweetId": "2078327646170337398",
+        "tweetText": "@madewithv Confirmed",
+        "tweetUrl": "https://x.com/thsottiaux/status/2078327646170337398",
+        "verdict": "uncertain"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1784346937628,
@@ -279,29 +292,31 @@
         "tweetText": "@TokenGremlin Shaken, not stirred",
         "tweetUrl": "https://x.com/thsottiaux/status/2077980159001641227",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1784332651254,
-        "inputTokens": 361,
-        "outputTokens": 75,
-        "rationale": "This reply is just conversational and does not mention limits, caps, or a reset.",
-        "reasoningTokens": 30,
-        "totalTokens": 436,
-        "tweetId": "2077979926612050006",
-        "tweetText": "@agreeahmed Great doing business with you",
-        "tweetUrl": "https://x.com/thsottiaux/status/2077979926612050006",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 369164,
-      "totalOutputTokens": 99422,
-      "totalReasoningTokens": 54740,
-      "totalTokens": 468586
+      "totalInputTokens": 369523,
+      "totalOutputTokens": 99570,
+      "totalReasoningTokens": 54839,
+      "totalTokens": 469093
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.95,
+      "createdAt": 1784346959641,
+      "inputTokens": 359,
+      "message": "",
+      "outputTokens": 148,
+      "rationale": "This reply only says \"Confirmed\" and does not explicitly state that any rate limit or cap has reset.",
+      "reasoningTokens": 99,
+      "totalTokens": 507,
+      "tweetId": "2078327646170337398",
+      "tweetText": "@madewithv Confirmed",
+      "tweetUrl": "https://x.com/thsottiaux/status/2078327646170337398",
+      "type": "review_requested",
+      "verdict": "uncertain"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1784346937628,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2077626441152573757",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1784176816986,
-      "inputTokens": 361,
-      "message": "",
-      "outputTokens": 109,
-      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-      "reasoningTokens": 65,
-      "totalTokens": 470,
-      "tweetId": "2077611246611042667",
-      "tweetText": "@alfredversa You know what to do",
-      "tweetUrl": "https://x.com/thsottiaux/status/2077611246611042667",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "JJAnW_oUHjikPy4rLEjEAapRBdktTn6TU2T4ZlfvZl_DtTRS3J1rXuPTPw",
-    "iv": "JaBI6NdnPfK3HG2W",
-    "tag": "yKp9f-VS_o1WDt56_NcWtA",
+    "ciphertext": "jHSb_n3Ga4ka1yb4kUb-3V920mjatcZmZYt3AtjM-ziSraRfLj2hRHo7ug",
+    "iv": "11xjkMjuE3tBgGku",
+    "tag": "0k6RgDFQ-kmeefstJufDFg",
     "version": 1
   }
 }
