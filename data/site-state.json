@@ -14,25 +14,38 @@
   "updatedAt": 1784345380676,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1784406140453,
-      "rationale": "This is a general conversational post and does not mention limits or a reset.",
-      "tweetId": "2078575575669915776",
-      "tweetUrl": "https://x.com/thsottiaux/status/2078575575669915776",
-      "verdict": "not_reset"
+      "confidence": 0.95,
+      "decidedAt": 1784409539121,
+      "rationale": "This reply is too vague to tell whether any rate limit has actually reset.",
+      "tweetId": "2078589587149177180",
+      "tweetUrl": "https://x.com/thsottiaux/status/2078589587149177180",
+      "verdict": "uncertain"
     },
     "lastError": null,
-    "lastSeenTweetId": "2078575575669915776",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2078575575669915776",
+    "lastSeenTweetId": "2078589587149177180",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2078589587149177180",
     "pendingReview": {
-      "confidence": 0.73,
-      "createdAt": 1784347251626,
-      "rationale": "This reply suggests something is fully restored, but it does not clearly state that usage limits or rate caps have…",
-      "tweetId": "2078328592308818117",
-      "tweetText": "@shlummi And now 100%",
-      "tweetUrl": "https://x.com/thsottiaux/status/2078328592308818117"
+      "confidence": 0.95,
+      "createdAt": 1784409539121,
+      "rationale": "This reply is too vague to tell whether any rate limit has actually reset.",
+      "tweetId": "2078589587149177180",
+      "tweetText": "@kelvinbuildss Still early",
+      "tweetUrl": "https://x.com/thsottiaux/status/2078589587149177180"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.95,
+        "evaluatedAt": 1784409539121,
+        "inputTokens": 359,
+        "outputTokens": 226,
+        "rationale": "This reply is too vague to tell whether any rate limit has actually reset.",
+        "reasoningTokens": 183,
+        "totalTokens": 585,
+        "tweetId": "2078589587149177180",
+        "tweetText": "@kelvinbuildss Still early",
+        "tweetUrl": "https://x.com/thsottiaux/status/2078589587149177180",
+        "verdict": "uncertain"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1784406140453,
@@ -279,29 +292,31 @@
         "tweetText": "@nicdunz Haha",
         "tweetUrl": "https://x.com/thsottiaux/status/2078195654497862095",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1784332669612,
-        "inputTokens": 360,
-        "outputTokens": 88,
-        "rationale": "This reply does not mention limits, caps, or usage becoming available again.",
-        "reasoningTokens": 45,
-        "totalTokens": 448,
-        "tweetId": "2078164278058910140",
-        "tweetText": "@maxedapps Get back to work",
-        "tweetUrl": "https://x.com/thsottiaux/status/2078164278058910140",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 371700,
-      "totalOutputTokens": 100133,
-      "totalReasoningTokens": 55136,
-      "totalTokens": 471833
+      "totalInputTokens": 372059,
+      "totalOutputTokens": 100359,
+      "totalReasoningTokens": 55319,
+      "totalTokens": 472418
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.95,
+      "createdAt": 1784409539121,
+      "inputTokens": 359,
+      "message": "",
+      "outputTokens": 226,
+      "rationale": "This reply is too vague to tell whether any rate limit has actually reset.",
+      "reasoningTokens": 183,
+      "totalTokens": 585,
+      "tweetId": "2078589587149177180",
+      "tweetText": "@kelvinbuildss Still early",
+      "tweetUrl": "https://x.com/thsottiaux/status/2078589587149177180",
+      "type": "review_requested",
+      "verdict": "uncertain"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1784406140453,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2077774339693543680",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.96,
-      "createdAt": 1784181463029,
-      "inputTokens": 413,
-      "message": "",
-      "outputTokens": 235,
-      "rationale": "The tweet explicitly says the Codex Plus/Pro 5h limit has been removed for the past few days, meaning that cap is…",
-      "reasoningTokens": 176,
-      "totalTokens": 648,
-      "tweetId": "2077632589498913087",
-      "tweetText": "We've had no 5h limit in Codex plus and pro for a few days. Do you think it is better or are you finding it difficult to manage the usage included in the weekly limit effectively?\n\nIf we were to make this different, what should it look like in an ideal world?",
-      "tweetUrl": "https://x.com/thsottiaux/status/2077632589498913087",
-      "type": "reset_confirmed",
-      "verdict": "reset_confirmed"
     }
   ],
   "privateState": {
-    "ciphertext": "4dNkhPr7Lris5eCy7ozypqts9iP5lc2Mc88u5UDQhZ8JtXQJDcuxLrGnwg",
-    "iv": "NldyTjuXburlIpRK",
-    "tag": "tPsGZgTbnq3y5fVo_gfeZg",
+    "ciphertext": "_xBIu6Cc-9McUcMbQOvhnO4C_jsA8-46wL4kbJlJnbBkAYzxUyDHkiPdhQ",
+    "iv": "zFuKKO33NpPEWip8",
+    "tag": "CDqH-9c9mHZVRQMB3XY72Q",
     "version": 1
   }
 }
