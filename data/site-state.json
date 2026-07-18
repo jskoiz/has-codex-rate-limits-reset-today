@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1784342915976,
-      "rationale": "This post comments on model quality and a quoted rollout announcement, not that any ChatGPT or Codex limits have reset.",
-      "tweetId": "2078310751878647932",
-      "tweetUrl": "https://x.com/thsottiaux/status/2078310751878647932",
+      "decidedAt": 1784343218135,
+      "rationale": "This reply is conversational and gives no indication that any rate limit or usage cap has reset.",
+      "tweetId": "2078311057312137359",
+      "tweetUrl": "https://x.com/thsottiaux/status/2078311057312137359",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2078310751878647932",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2078310751878647932",
+    "lastSeenTweetId": "2078311057312137359",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2078311057312137359",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1784343218135,
+        "inputTokens": 358,
+        "outputTokens": 88,
+        "rationale": "This reply is conversational and gives no indication that any rate limit or usage cap has reset.",
+        "reasoningTokens": 42,
+        "totalTokens": 446,
+        "tweetId": "2078311057312137359",
+        "tweetText": "@thekitze So salty",
+        "tweetUrl": "https://x.com/thsottiaux/status/2078311057312137359",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1784342915976,
@@ -272,29 +285,31 @@
         "tweetText": "Look at this beauty https://t.co/arLnM9smr9",
         "tweetUrl": "https://x.com/thsottiaux/status/2077928889750520141",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1784332636605,
-        "inputTokens": 523,
-        "outputTokens": 76,
-        "rationale": "This is a desktop app update about UI and syncing, not about limits or usage becoming available again.",
-        "reasoningTokens": 28,
-        "totalTokens": 599,
-        "tweetId": "2077928427936710901",
-        "tweetText": "Evening! We’ve gotten lots of great feedback on the new ChatGPT desktop app (which we didn't get totally quite right on the first try), and as a result, we've made some changes.\n\n1/ ChatGPT conversation history and projects are now visible in the sidebar. Also, your Chat and Work history now sync across web, mobile, and desktop. Local tasks still stay on your computer.\n2/ You can now easily switch between Chat and Work modes inside ChatGPT on desktop, which is now also consistent with how it shows on web and mobile.\n3/ Nothing is changing for users on Codex mode. It's still the OG and best at what it does.\n\nAnd overall we're continuing to fix paper cuts and improve performance, reliability, and efficiency.\n\nKeep up the feedback, hope you like the updates!",
-        "tweetUrl": "https://x.com/thsottiaux/status/2077928427936710901",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 367244,
-      "totalOutputTokens": 98958,
-      "totalReasoningTokens": 54512,
-      "totalTokens": 466202
+      "totalInputTokens": 367602,
+      "totalOutputTokens": 99046,
+      "totalReasoningTokens": 54554,
+      "totalTokens": 466648
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1784343218135,
+      "inputTokens": 358,
+      "message": "",
+      "outputTokens": 88,
+      "rationale": "This reply is conversational and gives no indication that any rate limit or usage cap has reset.",
+      "reasoningTokens": 42,
+      "totalTokens": 446,
+      "tweetId": "2078311057312137359",
+      "tweetText": "@thekitze So salty",
+      "tweetUrl": "https://x.com/thsottiaux/status/2078311057312137359",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1784342915976,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2077607697487188198",
       "type": "reset_confirmed",
       "verdict": "reset_confirmed"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1784174938322,
-      "inputTokens": 358,
-      "message": "",
-      "outputTokens": 86,
-      "rationale": "This reply only asks \"OpenAI?\" and does not indicate any limit or rate cap reset.",
-      "reasoningTokens": 38,
-      "totalTokens": 444,
-      "tweetId": "2077604817518895369",
-      "tweetText": "@rezoundous OpenAI?",
-      "tweetUrl": "https://x.com/thsottiaux/status/2077604817518895369",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "C1JgjE_RRGvupTduyoeBDKDm4799Sh02kxGttF-idDJKACrF6OHfSWgshA",
-    "iv": "nYKgOfPLOOebc6wA",
-    "tag": "UG4udLhG_Vlz7MxQpJCjCQ",
+    "ciphertext": "ofIMPxcdwZ_lPumBIBimEqQucjZcRhH7hksJr55ukQCQIjBPtShKTqApEQ",
+    "iv": "UUEet9lSDNJA7u4t",
+    "tag": "VV6Ldn8g7BcjAf1cerUA-g",
     "version": 1
   }
 }
