@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1784409853760,
-      "rationale": "This reply is unrelated to any Codex or ChatGPT limit reset.",
-      "tweetId": "2078590377217724792",
-      "tweetUrl": "https://x.com/thsottiaux/status/2078590377217724792",
+      "decidedAt": 1784409856443,
+      "rationale": "This reply is just conversational and does not mention any limits resetting.",
+      "tweetId": "2078591329605763449",
+      "tweetUrl": "https://x.com/thsottiaux/status/2078591329605763449",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2078590377217724792",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2078590377217724792",
+    "lastSeenTweetId": "2078591329605763449",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2078591329605763449",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1784409539121,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2078589587149177180"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1784409856443,
+        "inputTokens": 367,
+        "outputTokens": 71,
+        "rationale": "This reply is just conversational and does not mention any limits resetting.",
+        "reasoningTokens": 30,
+        "totalTokens": 438,
+        "tweetId": "2078591329605763449",
+        "tweetText": "@lindsmccallum We’re just monitoring each other right now",
+        "tweetUrl": "https://x.com/thsottiaux/status/2078591329605763449",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1784409853760,
@@ -279,29 +292,31 @@
         "tweetText": "@logangraham @AnthropicAI Excited to see what you do next 👀",
         "tweetUrl": "https://x.com/thsottiaux/status/2078253374852743231",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1784332677268,
-        "inputTokens": 359,
-        "outputTokens": 65,
-        "rationale": "This reply is just conversational and says nothing about limits or availability.",
-        "reasoningTokens": 24,
-        "totalTokens": 424,
-        "tweetId": "2078249973712642552",
-        "tweetText": "@jxnlco Backstreet boys",
-        "tweetUrl": "https://x.com/thsottiaux/status/2078249973712642552",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 372780,
-      "totalOutputTokens": 100519,
-      "totalReasoningTokens": 55393,
-      "totalTokens": 473299
+      "totalInputTokens": 373147,
+      "totalOutputTokens": 100590,
+      "totalReasoningTokens": 55423,
+      "totalTokens": 473737
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1784409856443,
+      "inputTokens": 367,
+      "message": "",
+      "outputTokens": 71,
+      "rationale": "This reply is just conversational and does not mention any limits resetting.",
+      "reasoningTokens": 30,
+      "totalTokens": 438,
+      "tweetId": "2078591329605763449",
+      "tweetText": "@lindsmccallum We’re just monitoring each other right now",
+      "tweetUrl": "https://x.com/thsottiaux/status/2078591329605763449",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1784409853760,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2077835481031770486",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0,
-      "createdAt": 1784219665126,
-      "inputTokens": 0,
-      "message": "Tweet fetch failed: Tweet search failed: Request failed with status code 404; timeline fallback failed: Unknown error (Unknown error) (Tweet search failed: Request failed with status code 404; timeline fallback failed: Unknown error)",
-      "outputTokens": 0,
-      "rationale": "",
-      "reasoningTokens": 0,
-      "totalTokens": 0,
-      "tweetId": null,
-      "tweetText": "",
-      "tweetUrl": null,
-      "type": "error",
-      "verdict": null
     }
   ],
   "privateState": {
-    "ciphertext": "zd4kpBPaqKXXgdt2jz5Sn2qQ6Irdo30Siuu4-xXZ4TQe4kjj6lYJqWUXNw",
-    "iv": "XuVDFKgvtIZaZkxA",
-    "tag": "Gr97w9xJmJoxgigrSUvJPg",
+    "ciphertext": "TmObZMuHs3LXlR75-ZbLUfHZEyiLX8rWQLKLSgnGdfLpLZEDt-e0ucNQGA",
+    "iv": "kqRQOKfIGwvWnozl",
+    "tag": "7NXsimFuM3oZz5K6gKNLmg",
     "version": 1
   }
 }
