@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1784383557931,
-      "rationale": "This reply is conversational and does not mention limits, caps, or usage being available again.",
-      "tweetId": "2078481015220347125",
-      "tweetUrl": "https://x.com/thsottiaux/status/2078481015220347125",
+      "decidedAt": 1784406137773,
+      "rationale": "This reply is unrelated to Codex or ChatGPT usage limits resetting.",
+      "tweetId": "2078575202339012715",
+      "tweetUrl": "https://x.com/thsottiaux/status/2078575202339012715",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2078481015220347125",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2078481015220347125",
+    "lastSeenTweetId": "2078575202339012715",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2078575202339012715",
     "pendingReview": {
       "confidence": 0.73,
       "createdAt": 1784347251626,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2078328592308818117"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1784406137773,
+        "inputTokens": 364,
+        "outputTokens": 75,
+        "rationale": "This reply is unrelated to Codex or ChatGPT usage limits resetting.",
+        "reasoningTokens": 33,
+        "totalTokens": 439,
+        "tweetId": "2078575202339012715",
+        "tweetText": "@melvynx Why is the last bullet point empty",
+        "tweetUrl": "https://x.com/thsottiaux/status/2078575202339012715",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1784383557931,
@@ -279,29 +292,31 @@
         "tweetText": "@SamiFathi_ Never better!",
         "tweetUrl": "https://x.com/thsottiaux/status/2077994010241880444",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1784332663737,
-        "inputTokens": 363,
-        "outputTokens": 76,
-        "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-        "reasoningTokens": 32,
-        "totalTokens": 439,
-        "tweetId": "2077992363465859377",
-        "tweetText": "@TokenGremlin Gremlins are important to us",
-        "tweetUrl": "https://x.com/thsottiaux/status/2077992363465859377",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 370977,
-      "totalOutputTokens": 99986,
-      "totalReasoningTokens": 55074,
-      "totalTokens": 470963
+      "totalInputTokens": 371341,
+      "totalOutputTokens": 100061,
+      "totalReasoningTokens": 55107,
+      "totalTokens": 471402
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1784406137773,
+      "inputTokens": 364,
+      "message": "",
+      "outputTokens": 75,
+      "rationale": "This reply is unrelated to Codex or ChatGPT usage limits resetting.",
+      "reasoningTokens": 33,
+      "totalTokens": 439,
+      "tweetId": "2078575202339012715",
+      "tweetText": "@melvynx Why is the last bullet point empty",
+      "tweetUrl": "https://x.com/thsottiaux/status/2078575202339012715",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1784383557931,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2077630111499882637",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1784180217245,
-      "inputTokens": 368,
-      "message": "",
-      "outputTokens": 81,
-      "rationale": "This reply is unrelated to Codex or ChatGPT usage limits resetting.",
-      "reasoningTokens": 39,
-      "totalTokens": 449,
-      "tweetId": "2077628059294081034",
-      "tweetText": "@aidenybai @gdb Concerning... if you're not using Sol",
-      "tweetUrl": "https://x.com/thsottiaux/status/2077628059294081034",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "yrKdb5hOLXx8l9iVzedFSQDeMDOv6796eRuVjoR7MTRgEK9HIDW9jWwV5A",
-    "iv": "N03T8QL_ttTGTB6e",
-    "tag": "ZwL8Y30VSrgaMKCfC5g3TQ",
+    "ciphertext": "7wXxjFG_xQ4DX-zjy6S9nZC4I29Y3eVdPQXJPZPuILFF_Q0ewHdEgckPKg",
+    "iv": "R8rt__c-BsITrk6n",
+    "tag": "9rYjD3J8q1W-7JZvmCPSnA",
     "version": 1
   }
 }
