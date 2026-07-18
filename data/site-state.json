@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1784417917929,
-      "rationale": "This is a general product-feedback question and does not mention limits or a reset.",
-      "tweetId": "2078624985363706343",
-      "tweetUrl": "https://x.com/thsottiaux/status/2078624985363706343",
+      "decidedAt": 1784417921060,
+      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+      "tweetId": "2078625264016453839",
+      "tweetUrl": "https://x.com/thsottiaux/status/2078625264016453839",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2078624985363706343",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2078624985363706343",
+    "lastSeenTweetId": "2078625264016453839",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2078625264016453839",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1784409539121,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2078589587149177180"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1784417921060,
+        "inputTokens": 368,
+        "outputTokens": 80,
+        "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+        "reasoningTokens": 36,
+        "totalTokens": 448,
+        "tweetId": "2078625264016453839",
+        "tweetText": "@CastAsHuman Just say Codex. It’s ok. Free your mind",
+        "tweetUrl": "https://x.com/thsottiaux/status/2078625264016453839",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1784417917929,
@@ -279,29 +292,31 @@
         "tweetText": "GPT-5.6 Sol confirmed to be an extremely good model",
         "tweetUrl": "https://x.com/thsottiaux/status/2078310751878647932",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.95,
-        "evaluatedAt": 1784337944480,
-        "inputTokens": 370,
-        "outputTokens": 192,
-        "rationale": "This reply is vague and conversational, not a clear statement that any Codex or ChatGPT limits have reset.",
-        "reasoningTokens": 142,
-        "totalTokens": 562,
-        "tweetId": "2078289174789275902",
-        "tweetText": "@SamiFathi_ @OpenAI @sama Will give signs of life soon",
-        "tweetUrl": "https://x.com/thsottiaux/status/2078289174789275902",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 373907,
-      "totalOutputTokens": 100755,
-      "totalReasoningTokens": 55497,
-      "totalTokens": 474662
+      "totalInputTokens": 374275,
+      "totalOutputTokens": 100835,
+      "totalReasoningTokens": 55533,
+      "totalTokens": 475110
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1784417921060,
+      "inputTokens": 368,
+      "message": "",
+      "outputTokens": 80,
+      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+      "reasoningTokens": 36,
+      "totalTokens": 448,
+      "tweetId": "2078625264016453839",
+      "tweetText": "@CastAsHuman Just say Codex. It’s ok. Free your mind",
+      "tweetUrl": "https://x.com/thsottiaux/status/2078625264016453839",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1784417917929,
@@ -886,27 +901,12 @@
       "tweetUrl": null,
       "type": "error",
       "verdict": null
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1784229916098,
-      "inputTokens": 392,
-      "message": "",
-      "outputTokens": 84,
-      "rationale": "This post and its quoted text are just recommending Sol, not reporting any limit reset.",
-      "reasoningTokens": 39,
-      "totalTokens": 476,
-      "tweetId": "2077835821982601614",
-      "tweetText": "Just call Sol",
-      "tweetUrl": "https://x.com/thsottiaux/status/2077835821982601614",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "0fPGN8y6ARhOr43vfm7Pzc711RpIqcRWFa5-AcNjDDFdh2Us4Gq-3ufUAQ",
-    "iv": "jpP0T8PouT-djOaX",
-    "tag": "ZhQBLln0n0WXgqEL7EnBnA",
+    "ciphertext": "da0jvf434EAAuAoIw5sZ_B3_B5xLVXTBVbvg0ppn6cQkxpXbkVvIu1yxcQ",
+    "iv": "CjCS0j8Oh6m7JAOZ",
+    "tag": "9eSOwbDed0yWzVFoRhl3rw",
     "version": 1
   }
 }
