@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1784418538339,
-      "rationale": "This reply is a joke about a coin price and does not mention limits or a reset.",
-      "tweetId": "2078627058826318088",
-      "tweetUrl": "https://x.com/thsottiaux/status/2078627058826318088",
+      "decidedAt": 1784418540338,
+      "rationale": "This reply is unrelated to Codex or ChatGPT usage limits resetting.",
+      "tweetId": "2078627224840962147",
+      "tweetUrl": "https://x.com/thsottiaux/status/2078627224840962147",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2078627058826318088",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2078627058826318088",
+    "lastSeenTweetId": "2078627224840962147",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2078627224840962147",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1784409539121,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2078589587149177180"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1784418540338,
+        "inputTokens": 363,
+        "outputTokens": 70,
+        "rationale": "This reply is unrelated to Codex or ChatGPT usage limits resetting.",
+        "reasoningTokens": 28,
+        "totalTokens": 433,
+        "tweetId": "2078627224840962147",
+        "tweetText": "@catalinmpit Who you follow matters now",
+        "tweetUrl": "https://x.com/thsottiaux/status/2078627224840962147",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1784418538339,
@@ -279,29 +292,31 @@
         "tweetText": "And transitively might also have reset other rate limits out there. Let's see. You're welcome if so.",
         "tweetUrl": "https://x.com/thsottiaux/status/2078321266524881065",
         "verdict": "uncertain"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1784345380676,
-        "inputTokens": 466,
-        "outputTokens": 97,
-        "rationale": "The tweet explicitly says usage limits have been reset now for all paid Codex and ChatGPT Work users.",
-        "reasoningTokens": 47,
-        "totalTokens": 563,
-        "tweetId": "2078320950488297917",
-        "tweetText": "Oops... I did it again. \n\nEnjoy reset usage limits for all paid users for Codex and ChatGPT Work. Super grateful for an incredible team who is iterating at lightspeed and keeping the infra up as we scale faster than ever.\n\nEnjoy the weekend! https://t.co/WIuS07doKA",
-        "tweetUrl": "https://x.com/thsottiaux/status/2078320950488297917",
-        "verdict": "reset_confirmed"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 375369,
-      "totalOutputTokens": 101048,
-      "totalReasoningTokens": 55612,
-      "totalTokens": 476417
+      "totalInputTokens": 375732,
+      "totalOutputTokens": 101118,
+      "totalReasoningTokens": 55640,
+      "totalTokens": 476850
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1784418540338,
+      "inputTokens": 363,
+      "message": "",
+      "outputTokens": 70,
+      "rationale": "This reply is unrelated to Codex or ChatGPT usage limits resetting.",
+      "reasoningTokens": 28,
+      "totalTokens": 433,
+      "tweetId": "2078627224840962147",
+      "tweetText": "@catalinmpit Who you follow matters now",
+      "tweetUrl": "https://x.com/thsottiaux/status/2078627224840962147",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1784418538339,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2077969365639790821",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1784332642652,
-      "inputTokens": 359,
-      "message": "",
-      "outputTokens": 86,
-      "rationale": "This reply just says \"No, sorry\" and does not indicate any limit or cap has reset.",
-      "reasoningTokens": 38,
-      "totalTokens": 445,
-      "tweetId": "2077968059852312966",
-      "tweetText": "@xmangonic No, sorry",
-      "tweetUrl": "https://x.com/thsottiaux/status/2077968059852312966",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "8QTCRyR-NBz6OwjqbviU7XTnGOppR-1v2q-KaeMEEtzfJ6Hj1T5pu9EmCA",
-    "iv": "ral8xWNqPpyP2b9o",
-    "tag": "xkYqwFdZKXQSLtAaosk4jw",
+    "ciphertext": "4vjTXhWeQ9KnBtoGxPG7simkvScqaY8jufEXyl-xl-N-Zjiss8KQVowLxQ",
+    "iv": "HF6SVtSHFGWN8xEJ",
+    "tag": "p9EHlN0Xt4U7hr_dthLVyw",
     "version": 1
   }
 }
