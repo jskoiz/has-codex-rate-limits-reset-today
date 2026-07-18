@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1784409856443,
-      "rationale": "This reply is just conversational and does not mention any limits resetting.",
-      "tweetId": "2078591329605763449",
-      "tweetUrl": "https://x.com/thsottiaux/status/2078591329605763449",
+      "decidedAt": 1784416058406,
+      "rationale": "This reply is just a comment about Codex branding and says nothing about limits or a reset.",
+      "tweetId": "2078616513339355386",
+      "tweetUrl": "https://x.com/thsottiaux/status/2078616513339355386",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2078591329605763449",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2078591329605763449",
+    "lastSeenTweetId": "2078616513339355386",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2078616513339355386",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1784409539121,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2078589587149177180"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1784416058406,
+        "inputTokens": 366,
+        "outputTokens": 96,
+        "rationale": "This reply is just a comment about Codex branding and says nothing about limits or a reset.",
+        "reasoningTokens": 49,
+        "totalTokens": 462,
+        "tweetId": "2078616513339355386",
+        "tweetText": "@hantla Someone put a codex banner on top of this!",
+        "tweetUrl": "https://x.com/thsottiaux/status/2078616513339355386",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1784409856443,
@@ -279,29 +292,31 @@
         "tweetText": "@iamsaranhere Scoop",
         "tweetUrl": "https://x.com/thsottiaux/status/2078253555698581623",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1784332679798,
-        "inputTokens": 370,
-        "outputTokens": 64,
-        "rationale": "This is just a conversational reply and says nothing about limits or resets.",
-        "reasoningTokens": 22,
-        "totalTokens": 434,
-        "tweetId": "2078253374852743231",
-        "tweetText": "@logangraham @AnthropicAI Excited to see what you do next 👀",
-        "tweetUrl": "https://x.com/thsottiaux/status/2078253374852743231",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 373147,
-      "totalOutputTokens": 100590,
-      "totalReasoningTokens": 55423,
-      "totalTokens": 473737
+      "totalInputTokens": 373513,
+      "totalOutputTokens": 100686,
+      "totalReasoningTokens": 55472,
+      "totalTokens": 474199
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1784416058406,
+      "inputTokens": 366,
+      "message": "",
+      "outputTokens": 96,
+      "rationale": "This reply is just a comment about Codex branding and says nothing about limits or a reset.",
+      "reasoningTokens": 49,
+      "totalTokens": 462,
+      "tweetId": "2078616513339355386",
+      "tweetText": "@hantla Someone put a codex banner on top of this!",
+      "tweetUrl": "https://x.com/thsottiaux/status/2078616513339355386",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1784409856443,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2077835562460029041",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.95,
-      "createdAt": 1784229605545,
-      "inputTokens": 368,
-      "message": "",
-      "outputTokens": 202,
-      "rationale": "This reply contains no clear statement that limits or rate caps have reset.",
-      "reasoningTokens": 160,
-      "totalTokens": 570,
-      "tweetId": "2077835481031770486",
-      "tweetText": "@mxcl https://t.co/CoZRYgqkS2",
-      "tweetUrl": "https://x.com/thsottiaux/status/2077835481031770486",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "TmObZMuHs3LXlR75-ZbLUfHZEyiLX8rWQLKLSgnGdfLpLZEDt-e0ucNQGA",
-    "iv": "kqRQOKfIGwvWnozl",
-    "tag": "7NXsimFuM3oZz5K6gKNLmg",
+    "ciphertext": "bowuPdgaAwrpu5cBEy0O37z2vnLOmDgFcHRNFMk5sakRgurJyDOp0teVNQ",
+    "iv": "dKq8l6a-QToK-h6X",
+    "tag": "CUQQ40kWRDVmJ2DGcBkZxw",
     "version": 1
   }
 }
