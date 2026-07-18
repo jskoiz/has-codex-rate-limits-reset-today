@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1784418233222,
-      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-      "tweetId": "2078626706789892560",
-      "tweetUrl": "https://x.com/thsottiaux/status/2078626706789892560",
+      "decidedAt": 1784418538339,
+      "rationale": "This reply is a joke about a coin price and does not mention limits or a reset.",
+      "tweetId": "2078627058826318088",
+      "tweetUrl": "https://x.com/thsottiaux/status/2078627058826318088",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2078626706789892560",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2078626706789892560",
+    "lastSeenTweetId": "2078627058826318088",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2078627058826318088",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1784409539121,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2078589587149177180"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1784418538339,
+        "inputTokens": 364,
+        "outputTokens": 70,
+        "rationale": "This reply is a joke about a coin price and does not mention limits or a reset.",
+        "reasoningTokens": 24,
+        "totalTokens": 434,
+        "tweetId": "2078627058826318088",
+        "tweetText": "@badlogicgames Somewhere, a coin went +7500%",
+        "tweetUrl": "https://x.com/thsottiaux/status/2078627058826318088",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1784418233222,
@@ -279,29 +292,31 @@
         "tweetText": "Oops... I did it again. \n\nEnjoy reset usage limits for all paid users for Codex and ChatGPT Work. Super grateful for an incredible team who is iterating at lightspeed and keeping the infra up as we scale faster than ever.\n\nEnjoy the weekend! https://t.co/WIuS07doKA",
         "tweetUrl": "https://x.com/thsottiaux/status/2078320950488297917",
         "verdict": "reset_confirmed"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1784343220761,
-        "inputTokens": 363,
-        "outputTokens": 70,
-        "rationale": "This reply is just thanking someone for feedback and does not mention any limit or reset.",
-        "reasoningTokens": 25,
-        "totalTokens": 433,
-        "tweetId": "2078311158839488658",
-        "tweetText": "@imontenegroc All good feedback, thanks!!",
-        "tweetUrl": "https://x.com/thsottiaux/status/2078311158839488658",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 375005,
-      "totalOutputTokens": 100978,
-      "totalReasoningTokens": 55588,
-      "totalTokens": 475983
+      "totalInputTokens": 375369,
+      "totalOutputTokens": 101048,
+      "totalReasoningTokens": 55612,
+      "totalTokens": 476417
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1784418538339,
+      "inputTokens": 364,
+      "message": "",
+      "outputTokens": 70,
+      "rationale": "This reply is a joke about a coin price and does not mention limits or a reset.",
+      "reasoningTokens": 24,
+      "totalTokens": 434,
+      "tweetId": "2078627058826318088",
+      "tweetText": "@badlogicgames Somewhere, a coin went +7500%",
+      "tweetUrl": "https://x.com/thsottiaux/status/2078627058826318088",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1784418233222,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2077968059852312966",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1784332639597,
-      "inputTokens": 368,
-      "message": "",
-      "outputTokens": 76,
-      "rationale": "This reply does not mention limits, caps, or usage resetting.",
-      "reasoningTokens": 35,
-      "totalTokens": 444,
-      "tweetId": "2077928889750520141",
-      "tweetText": "Look at this beauty https://t.co/arLnM9smr9",
-      "tweetUrl": "https://x.com/thsottiaux/status/2077928889750520141",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "UdsHkFh8PZBSSSBlo5tCrJsG3XD1hYUAOfaVVGAcew8tDPv0TtBHz8L0Tg",
-    "iv": "D9QqkiaCUP1pKDqc",
-    "tag": "wU0uE1At7Wc-K1Jf_UxjLg",
+    "ciphertext": "8QTCRyR-NBz6OwjqbviU7XTnGOppR-1v2q-KaeMEEtzfJ6Hj1T5pu9EmCA",
+    "iv": "ral8xWNqPpyP2b9o",
+    "tag": "xkYqwFdZKXQSLtAaosk4jw",
     "version": 1
   }
 }
