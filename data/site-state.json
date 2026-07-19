@@ -14,16 +14,16 @@
   "updatedAt": 1784345380676,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1784431258135,
-      "rationale": "This reply discusses Codex being open source and does not mention limits or a reset.",
-      "tweetId": "2078680352198217913",
-      "tweetUrl": "https://x.com/thsottiaux/status/2078680352198217913",
+      "confidence": 0.98,
+      "decidedAt": 1784431588097,
+      "rationale": "This reply only says where to find something and does not indicate any rate limit or usage reset.",
+      "tweetId": "2078682677528625477",
+      "tweetUrl": "https://x.com/thsottiaux/status/2078682677528625477",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2078680352198217913",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2078680352198217913",
+    "lastSeenTweetId": "2078682677528625477",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2078682677528625477",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1784409539121,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2078589587149177180"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.98,
+        "evaluatedAt": 1784431588097,
+        "inputTokens": 372,
+        "outputTokens": 152,
+        "rationale": "This reply only says where to find something and does not indicate any rate limit or usage reset.",
+        "reasoningTokens": 105,
+        "totalTokens": 524,
+        "tweetId": "2078682677528625477",
+        "tweetText": "@jonathanroomer Under ‘+’ https://t.co/kkKG7Ymrmy",
+        "tweetUrl": "https://x.com/thsottiaux/status/2078682677528625477",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1784431258135,
@@ -279,29 +292,31 @@
         "tweetText": "@badlogicgames Somewhere, a coin went +7500%",
         "tweetUrl": "https://x.com/thsottiaux/status/2078627058826318088",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1784418233222,
-        "inputTokens": 364,
-        "outputTokens": 65,
-        "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-        "reasoningTokens": 21,
-        "totalTokens": 429,
-        "tweetId": "2078626706789892560",
-        "tweetText": "@testingcatalog Let’s pretend this is … convergent evolution",
-        "tweetUrl": "https://x.com/thsottiaux/status/2078626706789892560",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 382002,
-      "totalOutputTokens": 102523,
-      "totalReasoningTokens": 56289,
-      "totalTokens": 484525
+      "totalInputTokens": 382374,
+      "totalOutputTokens": 102675,
+      "totalReasoningTokens": 56394,
+      "totalTokens": 485049
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.98,
+      "createdAt": 1784431588097,
+      "inputTokens": 372,
+      "message": "",
+      "outputTokens": 152,
+      "rationale": "This reply only says where to find something and does not indicate any rate limit or usage reset.",
+      "reasoningTokens": 105,
+      "totalTokens": 524,
+      "tweetId": "2078682677528625477",
+      "tweetText": "@jonathanroomer Under ‘+’ https://t.co/kkKG7Ymrmy",
+      "tweetUrl": "https://x.com/thsottiaux/status/2078682677528625477",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1784431258135,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2078311158839488658",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1784343218135,
-      "inputTokens": 358,
-      "message": "",
-      "outputTokens": 88,
-      "rationale": "This reply is conversational and gives no indication that any rate limit or usage cap has reset.",
-      "reasoningTokens": 42,
-      "totalTokens": 446,
-      "tweetId": "2078311057312137359",
-      "tweetText": "@thekitze So salty",
-      "tweetUrl": "https://x.com/thsottiaux/status/2078311057312137359",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "vXUIqETudDfqXbEv5rrZFIOE1P5xXrrxh5sAgxGv7_gIEgDo8HrMH7xr9g",
-    "iv": "Im4HmUlhp7FStVWF",
-    "tag": "UD-koroHaDAgVTa9EV72vw",
+    "ciphertext": "tgXiJ0eYkf3d_ZUfBYrdb3rT37Y2Ge9YuIw0mMPd291UNNSLtjEr9MOprA",
+    "iv": "FNfyI9TkHjRMnMJP",
+    "tag": "6ohrM-9LGD9_xOXcZA4TJg",
     "version": 1
   }
 }
