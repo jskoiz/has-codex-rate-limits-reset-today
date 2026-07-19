@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1784423188652,
-      "rationale": "This reply is just discussing UI feedback and does not mention limits or availability resetting.",
-      "tweetId": "2078646773514641783",
-      "tweetUrl": "https://x.com/thsottiaux/status/2078646773514641783",
+      "decidedAt": 1784423191229,
+      "rationale": "This reply discusses a paid ChatGPT subscription option, not a rate-limit or usage reset.",
+      "tweetId": "2078647284380885354",
+      "tweetUrl": "https://x.com/thsottiaux/status/2078647284380885354",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2078646773514641783",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2078646773514641783",
+    "lastSeenTweetId": "2078647284380885354",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2078647284380885354",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1784409539121,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2078589587149177180"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1784423191229,
+        "inputTokens": 371,
+        "outputTokens": 89,
+        "rationale": "This reply discusses a paid ChatGPT subscription option, not a rate-limit or usage reset.",
+        "reasoningTokens": 43,
+        "totalTokens": 460,
+        "tweetId": "2078647284380885354",
+        "tweetText": "@Rishet11 You’re looking for ChatGPT Work, it’s part of the paid subscriptions",
+        "tweetUrl": "https://x.com/thsottiaux/status/2078647284380885354",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1784423188652,
@@ -279,29 +292,31 @@
         "tweetText": "@tomhacks Welcome",
         "tweetUrl": "https://x.com/thsottiaux/status/2078590079342420088",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.95,
-        "evaluatedAt": 1784409539121,
-        "inputTokens": 359,
-        "outputTokens": 226,
-        "rationale": "This reply is too vague to tell whether any rate limit has actually reset.",
-        "reasoningTokens": 183,
-        "totalTokens": 585,
-        "tweetId": "2078589587149177180",
-        "tweetText": "@kelvinbuildss Still early",
-        "tweetUrl": "https://x.com/thsottiaux/status/2078589587149177180",
-        "verdict": "uncertain"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 379080,
-      "totalOutputTokens": 101906,
-      "totalReasoningTokens": 56027,
-      "totalTokens": 480986
+      "totalInputTokens": 379451,
+      "totalOutputTokens": 101995,
+      "totalReasoningTokens": 56070,
+      "totalTokens": 481446
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1784423191229,
+      "inputTokens": 371,
+      "message": "",
+      "outputTokens": 89,
+      "rationale": "This reply discusses a paid ChatGPT subscription option, not a rate-limit or usage reset.",
+      "reasoningTokens": 43,
+      "totalTokens": 460,
+      "tweetId": "2078647284380885354",
+      "tweetText": "@Rishet11 You’re looking for ChatGPT Work, it’s part of the paid subscriptions",
+      "tweetUrl": "https://x.com/thsottiaux/status/2078647284380885354",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1784423188652,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2078195654497862095",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1784332669612,
-      "inputTokens": 360,
-      "message": "",
-      "outputTokens": 88,
-      "rationale": "This reply does not mention limits, caps, or usage becoming available again.",
-      "reasoningTokens": 45,
-      "totalTokens": 448,
-      "tweetId": "2078164278058910140",
-      "tweetText": "@maxedapps Get back to work",
-      "tweetUrl": "https://x.com/thsottiaux/status/2078164278058910140",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "ugbl3ak_wx7PHXxiwFq2SF5w5vbpO349RvlK3TMu_GTwFaggCrSuoi-Rlg",
-    "iv": "cBpNn6wm8x7GbeCu",
-    "tag": "3SKo3jrTM8pdgcHp_54ALg",
+    "ciphertext": "GCSb8l3ipKEnMy7jygBb6sc63texlwunmvsU4ftcjnnde27dyRmDVtVcTA",
+    "iv": "px7ehYTLVNPefYQE",
+    "tag": "osvvBLe2LCjOnKe9K43cUA",
     "version": 1
   }
 }
