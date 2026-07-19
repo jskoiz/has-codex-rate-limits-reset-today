@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1784434940918,
-      "rationale": "This reply is conversational and does not mention rate limits, caps, or usage resetting.",
-      "tweetId": "2078696304939872725",
-      "tweetUrl": "https://x.com/thsottiaux/status/2078696304939872725",
+      "decidedAt": 1784434943654,
+      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+      "tweetId": "2078696757257801917",
+      "tweetUrl": "https://x.com/thsottiaux/status/2078696757257801917",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2078696304939872725",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2078696304939872725",
+    "lastSeenTweetId": "2078696757257801917",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2078696757257801917",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1784409539121,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2078589587149177180"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1784434943654,
+        "inputTokens": 364,
+        "outputTokens": 80,
+        "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+        "reasoningTokens": 36,
+        "totalTokens": 444,
+        "tweetId": "2078696757257801917",
+        "tweetText": "@rezoundous How many of them did you talk to",
+        "tweetUrl": "https://x.com/thsottiaux/status/2078696757257801917",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1784434940918,
@@ -279,29 +292,31 @@
         "tweetText": "If you use ChatGPT Work. Looking to assemble a group of 50-100 to give early access to features and discuss how we can make it better. \n\nSend me a DM, mentioning ChatGPT Work, with how you use it and what you think we should fix and I’ll assemble a group in the next 48 hours. Not looking for developers this time!",
         "tweetUrl": "https://x.com/thsottiaux/status/2078642674572419435",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.98,
-        "evaluatedAt": 1784418853005,
-        "inputTokens": 369,
-        "outputTokens": 133,
-        "rationale": "This reply is just a conversational question and does not indicate any limit or cap has reset.",
-        "reasoningTokens": 87,
-        "totalTokens": 502,
-        "tweetId": "2078629049719738864",
-        "tweetText": "@Ananth7e What happens if I go on a holiday for 3 weeks",
-        "tweetUrl": "https://x.com/thsottiaux/status/2078629049719738864",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 383486,
-      "totalOutputTokens": 102882,
-      "totalReasoningTokens": 56468,
-      "totalTokens": 486368
+      "totalInputTokens": 383850,
+      "totalOutputTokens": 102962,
+      "totalReasoningTokens": 56504,
+      "totalTokens": 486812
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1784434943654,
+      "inputTokens": 364,
+      "message": "",
+      "outputTokens": 80,
+      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+      "reasoningTokens": 36,
+      "totalTokens": 444,
+      "tweetId": "2078696757257801917",
+      "tweetText": "@rezoundous How many of them did you talk to",
+      "tweetUrl": "https://x.com/thsottiaux/status/2078696757257801917",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1784434940918,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2078327646170337398",
       "type": "review_requested",
       "verdict": "uncertain"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1784346937628,
-      "inputTokens": 360,
-      "message": "",
-      "outputTokens": 71,
-      "rationale": "This reply is vague and does not indicate any rate-limit or usage reset.",
-      "reasoningTokens": 28,
-      "totalTokens": 431,
-      "tweetId": "2078327209467814145",
-      "tweetText": "@rezoundous Better things to come",
-      "tweetUrl": "https://x.com/thsottiaux/status/2078327209467814145",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "OtWLBkTf0lvcO8nkERY_m1NwBrZU7c5_MvkznQCmp5OgTUQHHI8ANSfPJw",
-    "iv": "BTNbh2Bk87mWU_Kt",
-    "tag": "qAmLRj_Kgv8ajYmPFoeOfw",
+    "ciphertext": "4yX2GKOVG7Him2uB5qLmpq_GIbJfO_ptItlWRIttxOZk6BKAUHsEOyuehw",
+    "iv": "WI6VAAk4r-XtNOXj",
+    "tag": "_BuA5SQ3J6tE1a6wdRl3TQ",
     "version": 1
   }
 }
