@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1784435264836,
-      "rationale": "This is just a conversational remark about using ChatGPT Work, not about limits or a reset.",
-      "tweetId": "2078697741455356367",
-      "tweetUrl": "https://x.com/thsottiaux/status/2078697741455356367",
+      "decidedAt": 1784436509159,
+      "rationale": "This post is about using ChatGPT Work for DM triage and says nothing about limits or caps resetting.",
+      "tweetId": "2078702412085498087",
+      "tweetUrl": "https://x.com/thsottiaux/status/2078702412085498087",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2078697741455356367",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2078697741455356367",
+    "lastSeenTweetId": "2078702412085498087",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2078702412085498087",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1784409539121,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2078589587149177180"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1784436509159,
+        "inputTokens": 700,
+        "outputTokens": 95,
+        "rationale": "This post is about using ChatGPT Work for DM triage and says nothing about limits or caps resetting.",
+        "reasoningTokens": 46,
+        "totalTokens": 795,
+        "tweetId": "2078702412085498087",
+        "tweetText": "What I just dictated into ChatGPT Work\n\n> Okay, so I received a lot of DMs for, I did a call out for ChatGPT Work, basically early access beta group. I want you to go through all my DMs on Twitter and then just take all of them that mention ChatGPT Work. It's like a lot of them, thousands, and put them all in a spreadsheet. What I want in the spreadsheet is the name, I want the link to the the DM, so I can go back to it quickly. I want the post that they did, but remove any new lines, so it's just in a single cell. And then I want a column which is basically your assessment of what they're doing, right? So for example, if it's like sales, put sales, if it's marketing, put marketing, if it's design, put design. Come up with your own taxonomy for how to classify their work. I expect the taxonomy to have like, you know, roughly 8 to 12 labels maybe, total. And then also put a rating for, like, they normally have to describe what they're currently doing with ChatGPT Work, use that to put a rating in the fifth column on how sophisticated their workflow already is. We're gonna be selecting a cohort of different people of different levels of sophistication, so we're gonna be like taking, you know, maybe like a couple dozens from like, a high level of sophistication, we're gonna take in the middle of a cohort, and then like low level of sophistication, so we have good representation and can test new features and get good feedback from a diverse group at different levels of adoption. So create that spreadsheet, go through all my DMs. Good luck!",
+        "tweetUrl": "https://x.com/thsottiaux/status/2078702412085498087",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1784435264836,
@@ -279,29 +292,31 @@
         "tweetText": "@LukeDashjr Fixing this",
         "tweetUrl": "https://x.com/thsottiaux/status/2078645118123618713",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1784422548436,
-        "inputTokens": 373,
-        "outputTokens": 69,
-        "rationale": "This reply discusses CPUs and GPUs and says nothing about limits or usage resetting.",
-        "reasoningTokens": 26,
-        "totalTokens": 442,
-        "tweetId": "2078643929596281286",
-        "tweetText": "@christianelton_ If this doesn’t exist for CPUs, I doubt it will exist for GPUs",
-        "tweetUrl": "https://x.com/thsottiaux/status/2078643929596281286",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 384647,
-      "totalOutputTokens": 103144,
-      "totalReasoningTokens": 56594,
-      "totalTokens": 487791
+      "totalInputTokens": 385347,
+      "totalOutputTokens": 103239,
+      "totalReasoningTokens": 56640,
+      "totalTokens": 488586
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1784436509159,
+      "inputTokens": 700,
+      "message": "",
+      "outputTokens": 95,
+      "rationale": "This post is about using ChatGPT Work for DM triage and says nothing about limits or caps resetting.",
+      "reasoningTokens": 46,
+      "totalTokens": 795,
+      "tweetId": "2078702412085498087",
+      "tweetText": "What I just dictated into ChatGPT Work\n\n> Okay, so I received a lot of DMs for, I did a call out for ChatGPT Work, basically early access beta group. I want you to go through all my DMs on Twitter and then just take all of them that mention ChatGPT Work. It's like a lot of them, thousands, and put them all in a spreadsheet. What I want in the spreadsheet is the name, I want the link to the the DM, so I can go back to it quickly. I want the post that they did, but remove any new lines, so it's just in a single cell. And then I want a column which is basically your assessment of what they're doing, right? So for example, if it's like sales, put sales, if it's marketing, put marketing, if it's design, put design. Come up with your own taxonomy for how to classify their work. I expect the taxonomy to have like, you know, roughly 8 to 12 labels maybe, total. And then also put a rating for, like, they normally have to describe what they're currently doing with ChatGPT Work, use that to put a rating in the fifth column on how sophisticated their workflow already is. We're gonna be selecting a cohort of different people of different levels of sophistication, so we're gonna be like taking, you know, maybe like a couple dozens from like, a high level of sophistication, we're gonna take in the middle of a cohort, and then like low level of sophistication, so we have good representation and can test new features and get good feedback from a diverse group at different levels of adoption. So create that spreadsheet, go through all my DMs. Good luck!",
+      "tweetUrl": "https://x.com/thsottiaux/status/2078702412085498087",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1784435264836,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2078364828499079489",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1784355319920,
-      "inputTokens": 361,
-      "message": "",
-      "outputTokens": 66,
-      "rationale": "This reply is just conversational and does not mention limits or a reset.",
-      "reasoningTokens": 24,
-      "totalTokens": 427,
-      "tweetId": "2078361990410744095",
-      "tweetText": "@omooretweets Imagine not having Codex",
-      "tweetUrl": "https://x.com/thsottiaux/status/2078361990410744095",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "ypxC34yStOj614O50C-H3tVvEzkHp4vXoZx733HTx5ojjFM47m_oQMN7Uw",
-    "iv": "PqqiPGK_s-t4ahCm",
-    "tag": "0U8heepuLAbtRMpDDStaDw",
+    "ciphertext": "eO0H6UsB7y3XU9m1tN9yntXy4JS6fep5PzjwSfOwoJnollN1q5UsrrshNA",
+    "iv": "UWFAOWPwy-yXWEEq",
+    "tag": "WbPNOf7g4xSGaGrZbUXb-g",
     "version": 1
   }
 }
