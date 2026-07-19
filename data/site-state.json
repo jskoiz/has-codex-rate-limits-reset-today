@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1784422548436,
-      "rationale": "This reply discusses CPUs and GPUs and says nothing about limits or usage resetting.",
-      "tweetId": "2078643929596281286",
-      "tweetUrl": "https://x.com/thsottiaux/status/2078643929596281286",
+      "decidedAt": 1784422857812,
+      "rationale": "This reply does not mention rate limits, caps, or usage becoming available again.",
+      "tweetId": "2078645118123618713",
+      "tweetUrl": "https://x.com/thsottiaux/status/2078645118123618713",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2078643929596281286",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2078643929596281286",
+    "lastSeenTweetId": "2078645118123618713",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2078645118123618713",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1784409539121,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2078589587149177180"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1784422857812,
+        "inputTokens": 359,
+        "outputTokens": 87,
+        "rationale": "This reply does not mention rate limits, caps, or usage becoming available again.",
+        "reasoningTokens": 43,
+        "totalTokens": 446,
+        "tweetId": "2078645118123618713",
+        "tweetText": "@LukeDashjr Fixing this",
+        "tweetUrl": "https://x.com/thsottiaux/status/2078645118123618713",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1784422548436,
@@ -279,29 +292,31 @@
         "tweetText": "@lenatron33 The sun came out",
         "tweetUrl": "https://x.com/thsottiaux/status/2078481015220347125",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1784355942899,
-        "inputTokens": 373,
-        "outputTokens": 72,
-        "rationale": "This reply is about Codex behavior, not limits or a reset.",
-        "reasoningTokens": 30,
-        "totalTokens": 445,
-        "tweetId": "2078364828499079489",
-        "tweetText": "@greg16676935420 The kind of question Codex doesn’t want to answer, but can answer",
-        "tweetUrl": "https://x.com/thsottiaux/status/2078364828499079489",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 377621,
-      "totalOutputTokens": 101571,
-      "totalReasoningTokens": 55870,
-      "totalTokens": 479192
+      "totalInputTokens": 377980,
+      "totalOutputTokens": 101658,
+      "totalReasoningTokens": 55913,
+      "totalTokens": 479638
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1784422857812,
+      "inputTokens": 359,
+      "message": "",
+      "outputTokens": 87,
+      "rationale": "This reply does not mention rate limits, caps, or usage becoming available again.",
+      "reasoningTokens": 43,
+      "totalTokens": 446,
+      "tweetId": "2078645118123618713",
+      "tweetText": "@LukeDashjr Fixing this",
+      "tweetUrl": "https://x.com/thsottiaux/status/2078645118123618713",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1784422548436,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2077992210998685983",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1784332658999,
-      "inputTokens": 358,
-      "message": "",
-      "outputTokens": 87,
-      "rationale": "This reply does not mention limits, caps, or usage resetting.",
-      "reasoningTokens": 46,
-      "totalTokens": 445,
-      "tweetId": "2077992063074000957",
-      "tweetText": "@petergyang Look right",
-      "tweetUrl": "https://x.com/thsottiaux/status/2077992063074000957",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "vjDPv0E_hpOWpkhdcvo2mbNLbNQZ4tMq-xYiDOEQkGxq9pZcLAegNRlCEA",
-    "iv": "oyrg6r2n8qu14i8m",
-    "tag": "u8a5To_ikwDMl3OdKTntmA",
+    "ciphertext": "j23rKXAU2K39MjaODMnQhMs0pAD-RbY56sWK4VhOIhflrPdR0Ytf0UmM4Q",
+    "iv": "R2a8ByccgTCwuyYo",
+    "tag": "kWWkquVFf8JhzmbxZV491Q",
     "version": 1
   }
 }
