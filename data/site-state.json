@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1784423489737,
-      "rationale": "This reply is conversational and gives no indication that any Codex or ChatGPT limits have reset.",
-      "tweetId": "2078648453786390957",
-      "tweetUrl": "https://x.com/thsottiaux/status/2078648453786390957",
+      "decidedAt": 1784423492160,
+      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+      "tweetId": "2078648757894500718",
+      "tweetUrl": "https://x.com/thsottiaux/status/2078648757894500718",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2078648453786390957",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2078648453786390957",
+    "lastSeenTweetId": "2078648757894500718",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2078648757894500718",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1784409539121,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2078589587149177180"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1784423492160,
+        "inputTokens": 361,
+        "outputTokens": 74,
+        "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+        "reasoningTokens": 30,
+        "totalTokens": 435,
+        "tweetId": "2078648757894500718",
+        "tweetText": "@daniel_du Codex is my friend",
+        "tweetUrl": "https://x.com/thsottiaux/status/2078648757894500718",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1784423489737,
@@ -279,29 +292,31 @@
         "tweetText": "How can we make ChatGPT better.\n\nIt’s already on your phone, but what do you wish would happen more or less of when you open the app. How can it bring you more joy?",
         "tweetUrl": "https://x.com/thsottiaux/status/2078624985363706343",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1784416058406,
-        "inputTokens": 366,
-        "outputTokens": 96,
-        "rationale": "This reply is just a comment about Codex branding and says nothing about limits or a reset.",
-        "reasoningTokens": 49,
-        "totalTokens": 462,
-        "tweetId": "2078616513339355386",
-        "tweetText": "@hantla Someone put a codex banner on top of this!",
-        "tweetUrl": "https://x.com/thsottiaux/status/2078616513339355386",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 380528,
-      "totalOutputTokens": 102217,
-      "totalReasoningTokens": 56159,
-      "totalTokens": 482745
+      "totalInputTokens": 380889,
+      "totalOutputTokens": 102291,
+      "totalReasoningTokens": 56189,
+      "totalTokens": 483180
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1784423492160,
+      "inputTokens": 361,
+      "message": "",
+      "outputTokens": 74,
+      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+      "reasoningTokens": 30,
+      "totalTokens": 435,
+      "tweetId": "2078648757894500718",
+      "tweetText": "@daniel_du Codex is my friend",
+      "tweetUrl": "https://x.com/thsottiaux/status/2078648757894500718",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1784423489737,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2078253555698581623",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1784332679798,
-      "inputTokens": 370,
-      "message": "",
-      "outputTokens": 64,
-      "rationale": "This is just a conversational reply and says nothing about limits or resets.",
-      "reasoningTokens": 22,
-      "totalTokens": 434,
-      "tweetId": "2078253374852743231",
-      "tweetText": "@logangraham @AnthropicAI Excited to see what you do next 👀",
-      "tweetUrl": "https://x.com/thsottiaux/status/2078253374852743231",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "LHB7XieIpJi-z68zMrKlOyEuFdVewDIIxmLz9T3-bVuHHxVefwm094t04Q",
-    "iv": "Ng8gjC4Hph3jwXEr",
-    "tag": "7SeevTKZQ1Ifu1vNgsQWhw",
+    "ciphertext": "ZAqRh_dUokvlnpZHnLUgTvcrFREqZDNPFnhGA40jqlPBOxM77fiJH1M3Jg",
+    "iv": "nXibK0PZjobhIv2u",
+    "tag": "0Uh9x9CrOhIuA8TzTlJYUw",
     "version": 1
   }
 }
