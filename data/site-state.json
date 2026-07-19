@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1784422248873,
-      "rationale": "This is just a conversational reply and does not mention limits or a reset.",
-      "tweetId": "2078643144921592196",
-      "tweetUrl": "https://x.com/thsottiaux/status/2078643144921592196",
+      "decidedAt": 1784422548436,
+      "rationale": "This reply discusses CPUs and GPUs and says nothing about limits or usage resetting.",
+      "tweetId": "2078643929596281286",
+      "tweetUrl": "https://x.com/thsottiaux/status/2078643929596281286",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2078643144921592196",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2078643144921592196",
+    "lastSeenTweetId": "2078643929596281286",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2078643929596281286",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1784409539121,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2078589587149177180"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1784422548436,
+        "inputTokens": 373,
+        "outputTokens": 69,
+        "rationale": "This reply discusses CPUs and GPUs and says nothing about limits or usage resetting.",
+        "reasoningTokens": 26,
+        "totalTokens": 442,
+        "tweetId": "2078643929596281286",
+        "tweetText": "@christianelton_ If this doesn’t exist for CPUs, I doubt it will exist for GPUs",
+        "tweetUrl": "https://x.com/thsottiaux/status/2078643929596281286",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1784422248873,
@@ -279,29 +292,31 @@
         "tweetText": "@greg16676935420 The kind of question Codex doesn’t want to answer, but can answer",
         "tweetUrl": "https://x.com/thsottiaux/status/2078364828499079489",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1784355319920,
-        "inputTokens": 361,
-        "outputTokens": 66,
-        "rationale": "This reply is just conversational and does not mention limits or a reset.",
-        "reasoningTokens": 24,
-        "totalTokens": 427,
-        "tweetId": "2078361990410744095",
-        "tweetText": "@omooretweets Imagine not having Codex",
-        "tweetUrl": "https://x.com/thsottiaux/status/2078361990410744095",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 377248,
-      "totalOutputTokens": 101502,
-      "totalReasoningTokens": 55844,
-      "totalTokens": 478750
+      "totalInputTokens": 377621,
+      "totalOutputTokens": 101571,
+      "totalReasoningTokens": 55870,
+      "totalTokens": 479192
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1784422548436,
+      "inputTokens": 373,
+      "message": "",
+      "outputTokens": 69,
+      "rationale": "This reply discusses CPUs and GPUs and says nothing about limits or usage resetting.",
+      "reasoningTokens": 26,
+      "totalTokens": 442,
+      "tweetId": "2078643929596281286",
+      "tweetText": "@christianelton_ If this doesn’t exist for CPUs, I doubt it will exist for GPUs",
+      "tweetUrl": "https://x.com/thsottiaux/status/2078643929596281286",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1784422248873,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2077992063074000957",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1784332656417,
-      "inputTokens": 359,
-      "message": "",
-      "outputTokens": 77,
-      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-      "reasoningTokens": 33,
-      "totalTokens": 436,
-      "tweetId": "2077982567694004462",
-      "tweetText": "@jxnlco Did he survive?",
-      "tweetUrl": "https://x.com/thsottiaux/status/2077982567694004462",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "ekIBZO_vMh8Dv6-QRNeXfpkAuoSyURXDtp4oBWd3wPLZllfthQt7V0AwAQ",
-    "iv": "SZdyqUKak4cF_KeR",
-    "tag": "TfJVYXEhtw0rTq_rj996Og",
+    "ciphertext": "vjDPv0E_hpOWpkhdcvo2mbNLbNQZ4tMq-xYiDOEQkGxq9pZcLAegNRlCEA",
+    "iv": "oyrg6r2n8qu14i8m",
+    "tag": "u8a5To_ikwDMl3OdKTntmA",
     "version": 1
   }
 }
