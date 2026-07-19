@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1784432203710,
-      "rationale": "This reply is conversational and does not mention limits, caps, or usage becoming available again.",
-      "tweetId": "2078684299390488757",
-      "tweetUrl": "https://x.com/thsottiaux/status/2078684299390488757",
+      "decidedAt": 1784434938137,
+      "rationale": "This is just a greeting reply and says nothing about limits or resets.",
+      "tweetId": "2078695654285848967",
+      "tweetUrl": "https://x.com/thsottiaux/status/2078695654285848967",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2078684299390488757",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2078684299390488757",
+    "lastSeenTweetId": "2078695654285848967",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2078695654285848967",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1784409539121,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2078589587149177180"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1784434938137,
+        "inputTokens": 361,
+        "outputTokens": 57,
+        "rationale": "This is just a greeting reply and says nothing about limits or resets.",
+        "reasoningTokens": 15,
+        "totalTokens": 418,
+        "tweetId": "2078695654285848967",
+        "tweetText": "@lindsmccallum hi Lindsay",
+        "tweetUrl": "https://x.com/thsottiaux/status/2078695654285848967",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1784432203710,
@@ -279,29 +292,31 @@
         "tweetText": "@0xBunny Hit me up",
         "tweetUrl": "https://x.com/thsottiaux/status/2078628339217240515",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1784418540338,
-        "inputTokens": 363,
-        "outputTokens": 70,
-        "rationale": "This reply is unrelated to Codex or ChatGPT usage limits resetting.",
-        "reasoningTokens": 28,
-        "totalTokens": 433,
-        "tweetId": "2078627224840962147",
-        "tweetText": "@catalinmpit Who you follow matters now",
-        "tweetUrl": "https://x.com/thsottiaux/status/2078627224840962147",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 382743,
-      "totalOutputTokens": 102739,
-      "totalReasoningTokens": 56412,
-      "totalTokens": 485482
+      "totalInputTokens": 383104,
+      "totalOutputTokens": 102796,
+      "totalReasoningTokens": 56427,
+      "totalTokens": 485900
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1784434938137,
+      "inputTokens": 361,
+      "message": "",
+      "outputTokens": 57,
+      "rationale": "This is just a greeting reply and says nothing about limits or resets.",
+      "reasoningTokens": 15,
+      "totalTokens": 418,
+      "tweetId": "2078695654285848967",
+      "tweetText": "@lindsmccallum hi Lindsay",
+      "tweetUrl": "https://x.com/thsottiaux/status/2078695654285848967",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1784432203710,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2078321266524881065",
       "type": "review_requested",
       "verdict": "uncertain"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1784345380676,
-      "inputTokens": 466,
-      "message": "",
-      "outputTokens": 97,
-      "rationale": "The tweet explicitly says usage limits have been reset now for all paid Codex and ChatGPT Work users.",
-      "reasoningTokens": 47,
-      "totalTokens": 563,
-      "tweetId": "2078320950488297917",
-      "tweetText": "Oops... I did it again. \n\nEnjoy reset usage limits for all paid users for Codex and ChatGPT Work. Super grateful for an incredible team who is iterating at lightspeed and keeping the infra up as we scale faster than ever.\n\nEnjoy the weekend! https://t.co/WIuS07doKA",
-      "tweetUrl": "https://x.com/thsottiaux/status/2078320950488297917",
-      "type": "reset_confirmed",
-      "verdict": "reset_confirmed"
     }
   ],
   "privateState": {
-    "ciphertext": "CfL6W8pWzTfXwpX21ps47DvgbuCiZnipr8Y-twxziYp9gqVnvRRjGurrXQ",
-    "iv": "XpN8krVh6wNnZEVh",
-    "tag": "omukNSKudGx26-veOCPb3A",
+    "ciphertext": "CW4VFwcdZi49Va5uAx4R0wa0zXeibFQLDKQgO1p-shUmFr25lCeb_WZM3g",
+    "iv": "WhmZto_nyAMqiwT-",
+    "tag": "Qopk3Jf7j1B4eRAI4cb2hg",
     "version": 1
   }
 }
