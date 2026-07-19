@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1784426908495,
-      "rationale": "This reply is conversational and does not mention limits, caps, or usage becoming available again.",
-      "tweetId": "2078662856363618714",
-      "tweetUrl": "https://x.com/thsottiaux/status/2078662856363618714",
+      "decidedAt": 1784431258135,
+      "rationale": "This reply discusses Codex being open source and does not mention limits or a reset.",
+      "tweetId": "2078680352198217913",
+      "tweetUrl": "https://x.com/thsottiaux/status/2078680352198217913",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2078662856363618714",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2078662856363618714",
+    "lastSeenTweetId": "2078680352198217913",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2078680352198217913",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1784409539121,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2078589587149177180"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1784431258135,
+        "inputTokens": 371,
+        "outputTokens": 78,
+        "rationale": "This reply discusses Codex being open source and does not mention limits or a reset.",
+        "reasoningTokens": 33,
+        "totalTokens": 449,
+        "tweetId": "2078680352198217913",
+        "tweetText": "@LukeDashjr @MysterE___ Codex is open source. Check out the repo",
+        "tweetUrl": "https://x.com/thsottiaux/status/2078680352198217913",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1784426908495,
@@ -279,29 +292,31 @@
         "tweetText": "@testingcatalog Let’s pretend this is … convergent evolution",
         "tweetUrl": "https://x.com/thsottiaux/status/2078626706789892560",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.98,
-        "evaluatedAt": 1784418230674,
-        "inputTokens": 366,
-        "outputTokens": 78,
-        "rationale": "This reply does not mention rate limits, caps, or usage becoming available again.",
-        "reasoningTokens": 34,
-        "totalTokens": 444,
-        "tweetId": "2078626117708300783",
-        "tweetText": "@lenatron33 Thank you for bringing it back here where it belongs",
-        "tweetUrl": "https://x.com/thsottiaux/status/2078626117708300783",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 381631,
-      "totalOutputTokens": 102445,
-      "totalReasoningTokens": 56256,
-      "totalTokens": 484076
+      "totalInputTokens": 382002,
+      "totalOutputTokens": 102523,
+      "totalReasoningTokens": 56289,
+      "totalTokens": 484525
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1784431258135,
+      "inputTokens": 371,
+      "message": "",
+      "outputTokens": 78,
+      "rationale": "This reply discusses Codex being open source and does not mention limits or a reset.",
+      "reasoningTokens": 33,
+      "totalTokens": 449,
+      "tweetId": "2078680352198217913",
+      "tweetText": "@LukeDashjr @MysterE___ Codex is open source. Check out the repo",
+      "tweetUrl": "https://x.com/thsottiaux/status/2078680352198217913",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1784426908495,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2078311057312137359",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1784342915976,
-      "inputTokens": 489,
-      "message": "",
-      "outputTokens": 109,
-      "rationale": "This post comments on model quality and a quoted rollout announcement, not that any ChatGPT or Codex limits have reset.",
-      "reasoningTokens": 57,
-      "totalTokens": 598,
-      "tweetId": "2078310751878647932",
-      "tweetText": "GPT-5.6 Sol confirmed to be an extremely good model",
-      "tweetUrl": "https://x.com/thsottiaux/status/2078310751878647932",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "w31LWEXLJl_nZYRzmzlEeJ16BmE55uumlz9uTSkrXVZ7I124FQLWrkks4Q",
-    "iv": "M1ildSaCn_x2bAPT",
-    "tag": "-PL2NSkYolX6NwkBKq8U6g",
+    "ciphertext": "vXUIqETudDfqXbEv5rrZFIOE1P5xXrrxh5sAgxGv7_gIEgDo8HrMH7xr9g",
+    "iv": "Im4HmUlhp7FStVWF",
+    "tag": "UD-koroHaDAgVTa9EV72vw",
     "version": 1
   }
 }
