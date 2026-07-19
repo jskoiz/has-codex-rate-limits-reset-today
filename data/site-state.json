@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1784423182690,
-      "rationale": "This reply is just asking a general question and does not mention limits or availability resetting.",
-      "tweetId": "2078646451975213270",
-      "tweetUrl": "https://x.com/thsottiaux/status/2078646451975213270",
+      "decidedAt": 1784423185079,
+      "rationale": "This reply asks about prompt examples and does not mention limits, caps, or resets.",
+      "tweetId": "2078646583646921203",
+      "tweetUrl": "https://x.com/thsottiaux/status/2078646583646921203",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2078646451975213270",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2078646451975213270",
+    "lastSeenTweetId": "2078646583646921203",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2078646583646921203",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1784409539121,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2078589587149177180"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1784423185079,
+        "inputTokens": 370,
+        "outputTokens": 68,
+        "rationale": "This reply asks about prompt examples and does not mention limits, caps, or resets.",
+        "reasoningTokens": 23,
+        "totalTokens": 438,
+        "tweetId": "2078646583646921203",
+        "tweetText": "@tombombadeel What’s an example of a prompt you regularly come back to?",
+        "tweetUrl": "https://x.com/thsottiaux/status/2078646583646921203",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1784423182690,
@@ -279,29 +292,31 @@
         "tweetText": "What are you building this weekend?",
         "tweetUrl": "https://x.com/thsottiaux/status/2078575575669915776",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1784406137773,
-        "inputTokens": 364,
-        "outputTokens": 75,
-        "rationale": "This reply is unrelated to Codex or ChatGPT usage limits resetting.",
-        "reasoningTokens": 33,
-        "totalTokens": 439,
-        "tweetId": "2078575202339012715",
-        "tweetText": "@melvynx Why is the last bullet point empty",
-        "tweetUrl": "https://x.com/thsottiaux/status/2078575202339012715",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 378347,
-      "totalOutputTokens": 101735,
-      "totalReasoningTokens": 55945,
-      "totalTokens": 480082
+      "totalInputTokens": 378717,
+      "totalOutputTokens": 101803,
+      "totalReasoningTokens": 55968,
+      "totalTokens": 480520
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1784423185079,
+      "inputTokens": 370,
+      "message": "",
+      "outputTokens": 68,
+      "rationale": "This reply asks about prompt examples and does not mention limits, caps, or resets.",
+      "reasoningTokens": 23,
+      "totalTokens": 438,
+      "tweetId": "2078646583646921203",
+      "tweetText": "@tombombadeel What’s an example of a prompt you regularly come back to?",
+      "tweetUrl": "https://x.com/thsottiaux/status/2078646583646921203",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1784423182690,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2077994010241880444",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1784332663737,
-      "inputTokens": 363,
-      "message": "",
-      "outputTokens": 76,
-      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-      "reasoningTokens": 32,
-      "totalTokens": 439,
-      "tweetId": "2077992363465859377",
-      "tweetText": "@TokenGremlin Gremlins are important to us",
-      "tweetUrl": "https://x.com/thsottiaux/status/2077992363465859377",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "6M8fAGR0s9AM7M6B5rsh6RyDRTtr3gDQszGF3_QwGPEioVEK4wRKvgY20Q",
-    "iv": "7D9UHyxmpmVG8B2M",
-    "tag": "g5hgg8SbG7MHRvBFuOKAdA",
+    "ciphertext": "SCdzKRuB_o0iTntB3IDIstg_bqQZ5c7bvzaw7vuYbF-DZhYTXZpdRXkKDg",
+    "iv": "VxJCoHtYBsiTyrHb",
+    "tag": "x-2AxYeI5U9Rb_DQGIdhew",
     "version": 1
   }
 }
