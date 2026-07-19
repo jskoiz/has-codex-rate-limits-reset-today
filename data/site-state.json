@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1784437758077,
+      "decidedAt": 1784439613091,
       "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-      "tweetId": "2078707865943207939",
-      "tweetUrl": "https://x.com/thsottiaux/status/2078707865943207939",
+      "tweetId": "2078715394911875574",
+      "tweetUrl": "https://x.com/thsottiaux/status/2078715394911875574",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2078707865943207939",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2078707865943207939",
+    "lastSeenTweetId": "2078715394911875574",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2078715394911875574",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1784409539121,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2078589587149177180"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1784439613091,
+        "inputTokens": 367,
+        "outputTokens": 81,
+        "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+        "reasoningTokens": 37,
+        "totalTokens": 448,
+        "tweetId": "2078715394911875574",
+        "tweetText": "@cjzafir @OpenAI Do I have your permission to change it?",
+        "tweetUrl": "https://x.com/thsottiaux/status/2078715394911875574",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1784437758077,
@@ -279,29 +292,31 @@
         "tweetText": "@tombombadeel What’s an example of a prompt you regularly come back to?",
         "tweetUrl": "https://x.com/thsottiaux/status/2078646583646921203",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1784423182690,
-        "inputTokens": 367,
-        "outputTokens": 77,
-        "rationale": "This reply is just asking a general question and does not mention limits or availability resetting.",
-        "reasoningTokens": 32,
-        "totalTokens": 444,
-        "tweetId": "2078646451975213270",
-        "tweetText": "@sparklingruby How did you use it to transform your day to day?",
-        "tweetUrl": "https://x.com/thsottiaux/status/2078646451975213270",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 385706,
-      "totalOutputTokens": 103311,
-      "totalReasoningTokens": 56668,
-      "totalTokens": 489017
+      "totalInputTokens": 386073,
+      "totalOutputTokens": 103392,
+      "totalReasoningTokens": 56705,
+      "totalTokens": 489465
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1784439613091,
+      "inputTokens": 367,
+      "message": "",
+      "outputTokens": 81,
+      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+      "reasoningTokens": 37,
+      "totalTokens": 448,
+      "tweetId": "2078715394911875574",
+      "tweetText": "@cjzafir @OpenAI Do I have your permission to change it?",
+      "tweetUrl": "https://x.com/thsottiaux/status/2078715394911875574",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1784437758077,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2078575202339012715",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1784383557931,
-      "inputTokens": 360,
-      "message": "",
-      "outputTokens": 89,
-      "rationale": "This reply is conversational and does not mention limits, caps, or usage being available again.",
-      "reasoningTokens": 43,
-      "totalTokens": 449,
-      "tweetId": "2078481015220347125",
-      "tweetText": "@lenatron33 The sun came out",
-      "tweetUrl": "https://x.com/thsottiaux/status/2078481015220347125",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "LlsPPjLbp1ud0oEe2aYozv7ivihEJ7cubOecJDgDuo07wSuecuWoo7t2Vw",
-    "iv": "OOE4gQNS1pwORb88",
-    "tag": "NH8T5VoN4YVbt_Ms7eHkRw",
+    "ciphertext": "zzBdbJbwjesRoi28OKEjGRsyMIQDjSfKqVdgnQJkAgPBYyxSXwccC9oOpg",
+    "iv": "LGuD8uHwJQzLD_oi",
+    "tag": "O6lbV-Hl4J5-ap5EiHbF9A",
     "version": 1
   }
 }
