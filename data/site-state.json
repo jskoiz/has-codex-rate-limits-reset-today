@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1784435261970,
-      "rationale": "This is a promotional feature list and does not mention any rate limit or cap reset.",
-      "tweetId": "2078697631019303273",
-      "tweetUrl": "https://x.com/thsottiaux/status/2078697631019303273",
+      "decidedAt": 1784435264836,
+      "rationale": "This is just a conversational remark about using ChatGPT Work, not about limits or a reset.",
+      "tweetId": "2078697741455356367",
+      "tweetUrl": "https://x.com/thsottiaux/status/2078697741455356367",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2078697631019303273",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2078697631019303273",
+    "lastSeenTweetId": "2078697741455356367",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2078697741455356367",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1784409539121,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2078589587149177180"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1784435264836,
+        "inputTokens": 375,
+        "outputTokens": 106,
+        "rationale": "This is just a conversational remark about using ChatGPT Work, not about limits or a reset.",
+        "reasoningTokens": 59,
+        "totalTokens": 481,
+        "tweetId": "2078697741455356367",
+        "tweetText": "My job is basically delegating to ChatGPT Work now. Can't stop using dictation and have it do everything",
+        "tweetUrl": "https://x.com/thsottiaux/status/2078697741455356367",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1784435261970,
@@ -279,29 +292,31 @@
         "tweetText": "@christianelton_ If this doesn’t exist for CPUs, I doubt it will exist for GPUs",
         "tweetUrl": "https://x.com/thsottiaux/status/2078643929596281286",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1784422248873,
-        "inputTokens": 358,
-        "outputTokens": 106,
-        "rationale": "This is just a conversational reply and does not mention limits or a reset.",
-        "reasoningTokens": 63,
-        "totalTokens": 464,
-        "tweetId": "2078643144921592196",
-        "tweetText": "@siegerts Lucky you!",
-        "tweetUrl": "https://x.com/thsottiaux/status/2078643144921592196",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 384272,
-      "totalOutputTokens": 103038,
-      "totalReasoningTokens": 56535,
-      "totalTokens": 487310
+      "totalInputTokens": 384647,
+      "totalOutputTokens": 103144,
+      "totalReasoningTokens": 56594,
+      "totalTokens": 487791
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1784435264836,
+      "inputTokens": 375,
+      "message": "",
+      "outputTokens": 106,
+      "rationale": "This is just a conversational remark about using ChatGPT Work, not about limits or a reset.",
+      "reasoningTokens": 59,
+      "totalTokens": 481,
+      "tweetId": "2078697741455356367",
+      "tweetText": "My job is basically delegating to ChatGPT Work now. Can't stop using dictation and have it do everything",
+      "tweetUrl": "https://x.com/thsottiaux/status/2078697741455356367",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1784435261970,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2078361990410744095",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.73,
-      "createdAt": 1784347251626,
-      "inputTokens": 360,
-      "message": "",
-      "outputTokens": 189,
-      "rationale": "This reply suggests something is fully restored, but it does not clearly state that usage limits or rate caps have…",
-      "reasoningTokens": 138,
-      "totalTokens": 549,
-      "tweetId": "2078328592308818117",
-      "tweetText": "@shlummi And now 100%",
-      "tweetUrl": "https://x.com/thsottiaux/status/2078328592308818117",
-      "type": "review_requested",
-      "verdict": "uncertain"
     }
   ],
   "privateState": {
-    "ciphertext": "fP-HVoVjk310uFAMXUZIMgclE4hTxuyU3uGBbQCx29WO5NyBakCnI_ePcg",
-    "iv": "a818l6Wjwjp3KmSe",
-    "tag": "-M6dVNPxzdLX8JOnGB4ugQ",
+    "ciphertext": "ypxC34yStOj614O50C-H3tVvEzkHp4vXoZx733HTx5ojjFM47m_oQMN7Uw",
+    "iv": "PqqiPGK_s-t4ahCm",
+    "tag": "0U8heepuLAbtRMpDDStaDw",
     "version": 1
   }
 }
