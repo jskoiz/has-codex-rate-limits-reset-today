@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1784519057766,
-      "rationale": "This is just a conversational reply and does not mention limits or a reset.",
-      "tweetId": "2079048947411374554",
-      "tweetUrl": "https://x.com/thsottiaux/status/2079048947411374554",
+      "decidedAt": 1784521229471,
+      "rationale": "This post is a general prompt about positive experiences with ChatGPT, not about limits resetting.",
+      "tweetId": "2079058139207573541",
+      "tweetUrl": "https://x.com/thsottiaux/status/2079058139207573541",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2079048947411374554",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2079048947411374554",
+    "lastSeenTweetId": "2079058139207573541",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2079058139207573541",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1784409539121,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2078589587149177180"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1784521229471,
+        "inputTokens": 404,
+        "outputTokens": 62,
+        "rationale": "This post is a general prompt about positive experiences with ChatGPT, not about limits resetting.",
+        "reasoningTokens": 16,
+        "totalTokens": 466,
+        "tweetId": "2079058139207573541",
+        "tweetText": "I was so inspired reading all the DMs on how folks here use ChatGPT Work. Let’s try something else that will make the team smile.\n\nWhat’s a time you saw ChatGPT have a deeply positive impact on your or someone’s life?",
+        "tweetUrl": "https://x.com/thsottiaux/status/2079058139207573541",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1784519057766,
@@ -279,29 +292,31 @@
         "tweetText": "@jonathanroomer Tell me more",
         "tweetUrl": "https://x.com/thsottiaux/status/2078648082821243022",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1784423484443,
-        "inputTokens": 358,
-        "outputTokens": 74,
-        "rationale": "This is just a casual reply and says nothing about limits or resets.",
-        "reasoningTokens": 32,
-        "totalTokens": 432,
-        "tweetId": "2078647895985971582",
-        "tweetText": "@Marvinma12 Haha",
-        "tweetUrl": "https://x.com/thsottiaux/status/2078647895985971582",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 387169,
-      "totalOutputTokens": 103644,
-      "totalReasoningTokens": 56821,
-      "totalTokens": 490813
+      "totalInputTokens": 387573,
+      "totalOutputTokens": 103706,
+      "totalReasoningTokens": 56837,
+      "totalTokens": 491279
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1784521229471,
+      "inputTokens": 404,
+      "message": "",
+      "outputTokens": 62,
+      "rationale": "This post is a general prompt about positive experiences with ChatGPT, not about limits resetting.",
+      "reasoningTokens": 16,
+      "totalTokens": 466,
+      "tweetId": "2079058139207573541",
+      "tweetText": "I was so inspired reading all the DMs on how folks here use ChatGPT Work. Let’s try something else that will make the team smile.\n\nWhat’s a time you saw ChatGPT have a deeply positive impact on your or someone’s life?",
+      "tweetUrl": "https://x.com/thsottiaux/status/2079058139207573541",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1784519057766,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2078590377217724792",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1784409851306,
-      "inputTokens": 357,
-      "message": "",
-      "outputTokens": 76,
-      "rationale": "This reply is just a greeting and gives no indication that any limits have reset.",
-      "reasoningTokens": 32,
-      "totalTokens": 433,
-      "tweetId": "2078590079342420088",
-      "tweetText": "@tomhacks Welcome",
-      "tweetUrl": "https://x.com/thsottiaux/status/2078590079342420088",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "f0xBI8g_C-h4pIKGpUEzIfskwyB_oYBV9y2xvkg7hYpnHPbLFPZJ-y2wVQ",
-    "iv": "bHDAETpLKUAJxVnr",
-    "tag": "n21vET1rpc9gFZMShrGujw",
+    "ciphertext": "aO2uDT-GI2YW2TDuE0gYLbLSoPlHGWcPUv-tWIwOm4mPHA4ouydoLc-Chw",
+    "iv": "njUn3gRzph5WoIIp",
+    "tag": "1JWZBgKpmMD1m4UIvevoWQ",
     "version": 1
   }
 }
