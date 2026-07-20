@@ -14,25 +14,38 @@
   "updatedAt": 1784345380676,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1784521229471,
-      "rationale": "This post is a general prompt about positive experiences with ChatGPT, not about limits resetting.",
-      "tweetId": "2079058139207573541",
-      "tweetUrl": "https://x.com/thsottiaux/status/2079058139207573541",
-      "verdict": "not_reset"
+      "confidence": 0.79,
+      "decidedAt": 1784521233029,
+      "rationale": "It mentions future resets continuing, but does not clearly say limits have reset now.",
+      "tweetId": "2079058575440359695",
+      "tweetUrl": "https://x.com/thsottiaux/status/2079058575440359695",
+      "verdict": "uncertain"
     },
     "lastError": null,
-    "lastSeenTweetId": "2079058139207573541",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2079058139207573541",
+    "lastSeenTweetId": "2079058575440359695",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2079058575440359695",
     "pendingReview": {
-      "confidence": 0.95,
-      "createdAt": 1784409539121,
-      "rationale": "This reply is too vague to tell whether any rate limit has actually reset.",
-      "tweetId": "2078589587149177180",
-      "tweetText": "@kelvinbuildss Still early",
-      "tweetUrl": "https://x.com/thsottiaux/status/2078589587149177180"
+      "confidence": 0.79,
+      "createdAt": 1784521233029,
+      "rationale": "It mentions future resets continuing, but does not clearly say limits have reset now.",
+      "tweetId": "2079058575440359695",
+      "tweetText": "@CastAsHuman Don’t really mind it! The resets will continue",
+      "tweetUrl": "https://x.com/thsottiaux/status/2079058575440359695"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.79,
+        "evaluatedAt": 1784521233029,
+        "inputTokens": 366,
+        "outputTokens": 133,
+        "rationale": "It mentions future resets continuing, but does not clearly say limits have reset now.",
+        "reasoningTokens": 89,
+        "totalTokens": 499,
+        "tweetId": "2079058575440359695",
+        "tweetText": "@CastAsHuman Don’t really mind it! The resets will continue",
+        "tweetUrl": "https://x.com/thsottiaux/status/2079058575440359695",
+        "verdict": "uncertain"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1784521229471,
@@ -279,29 +292,31 @@
         "tweetText": "@aRobotNamedSnax Deal",
         "tweetUrl": "https://x.com/thsottiaux/status/2078648453786390957",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1784423486888,
-        "inputTokens": 360,
-        "outputTokens": 67,
-        "rationale": "This reply is conversational and does not indicate any rate limit or cap has reset.",
-        "reasoningTokens": 23,
-        "totalTokens": 427,
-        "tweetId": "2078648082821243022",
-        "tweetText": "@jonathanroomer Tell me more",
-        "tweetUrl": "https://x.com/thsottiaux/status/2078648082821243022",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 387573,
-      "totalOutputTokens": 103706,
-      "totalReasoningTokens": 56837,
-      "totalTokens": 491279
+      "totalInputTokens": 387939,
+      "totalOutputTokens": 103839,
+      "totalReasoningTokens": 56926,
+      "totalTokens": 491778
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.79,
+      "createdAt": 1784521233029,
+      "inputTokens": 366,
+      "message": "",
+      "outputTokens": 133,
+      "rationale": "It mentions future resets continuing, but does not clearly say limits have reset now.",
+      "reasoningTokens": 89,
+      "totalTokens": 499,
+      "tweetId": "2079058575440359695",
+      "tweetText": "@CastAsHuman Don’t really mind it! The resets will continue",
+      "tweetUrl": "https://x.com/thsottiaux/status/2079058575440359695",
+      "type": "review_requested",
+      "verdict": "uncertain"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1784521229471,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2078591329605763449",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1784409853760,
-      "inputTokens": 364,
-      "message": "",
-      "outputTokens": 84,
-      "rationale": "This reply is unrelated to any Codex or ChatGPT limit reset.",
-      "reasoningTokens": 42,
-      "totalTokens": 448,
-      "tweetId": "2078590377217724792",
-      "tweetText": "@0xPrajwal_ Orange is your favorite color",
-      "tweetUrl": "https://x.com/thsottiaux/status/2078590377217724792",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "aO2uDT-GI2YW2TDuE0gYLbLSoPlHGWcPUv-tWIwOm4mPHA4ouydoLc-Chw",
-    "iv": "njUn3gRzph5WoIIp",
-    "tag": "1JWZBgKpmMD1m4UIvevoWQ",
+    "ciphertext": "8YLCpi65clZ0vTbx-Hr9VHX21ps6a8-5GczjcConA6oU5SuJO3dzFTmW1Q",
+    "iv": "qlXpadk0oGpDKHfY",
+    "tag": "87hj7uiJcuhtwfJOrWNY4g",
     "version": 1
   }
 }
