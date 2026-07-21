@@ -21,7 +21,7 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2079609359085289538",
       "verdict": "uncertain"
     },
-    "lastError": null,
+    "lastError": "Tweet fetch failed: Tweet search failed: Unknown error; timeline fallback failed: Unknown error (Unknown error) (Tweet search failed: Unknown error; timeline fallback failed: Unknown error)",
     "lastSeenTweetId": "2079609359085289538",
     "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2079609359085289538",
     "pendingReview": {
@@ -302,6 +302,21 @@
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0,
+      "createdAt": 1784655609533,
+      "inputTokens": 0,
+      "message": "Tweet fetch failed: Tweet search failed: Unknown error; timeline fallback failed: Unknown error (Unknown error) (Tweet search failed: Unknown error; timeline fallback failed: Unknown error)",
+      "outputTokens": 0,
+      "rationale": "",
+      "reasoningTokens": 0,
+      "totalTokens": 0,
+      "tweetId": null,
+      "tweetText": "",
+      "tweetUrl": null,
+      "type": "error",
+      "verdict": null
+    },
     {
       "confidence": 0.95,
       "createdAt": 1784652524359,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2078627224840962147",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1784418538339,
-      "inputTokens": 364,
-      "message": "",
-      "outputTokens": 70,
-      "rationale": "This reply is a joke about a coin price and does not mention limits or a reset.",
-      "reasoningTokens": 24,
-      "totalTokens": 434,
-      "tweetId": "2078627058826318088",
-      "tweetText": "@badlogicgames Somewhere, a coin went +7500%",
-      "tweetUrl": "https://x.com/thsottiaux/status/2078627058826318088",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "bFxWvNm5WR8QvqOrMVlWFlxO2SIdP30JywXrAWSuNEBj7uUwSRVsUgsKEg",
-    "iv": "_OB1uXaE9E7nnkru",
-    "tag": "nqor-lgyOIvlutHWGbfOPQ",
+    "ciphertext": "JPkwFJJAPe3ITXCCyMt-ShscHKY86aaZz4b616YPJSoPvwjLxgzlu2nm9g",
+    "iv": "YAUPYKsN09cEbUTv",
+    "tag": "RacDBiHrL2qcCLGBshDrPQ",
     "version": 1
   }
 }
