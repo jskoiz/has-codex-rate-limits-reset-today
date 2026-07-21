@@ -14,16 +14,16 @@
   "updatedAt": 1784345380676,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1784610899881,
-      "rationale": "This reply is conversational and does not mention limits, caps, or usage resetting.",
-      "tweetId": "2079433708986319143",
-      "tweetUrl": "https://x.com/thsottiaux/status/2079433708986319143",
+      "confidence": 0.95,
+      "decidedAt": 1784652516095,
+      "rationale": "It announces a reset coming in the next hour, not that limits have reset already.",
+      "tweetId": "2079609157934886975",
+      "tweetUrl": "https://x.com/thsottiaux/status/2079609157934886975",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2079433708986319143",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2079433708986319143",
+    "lastSeenTweetId": "2079609157934886975",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2079609157934886975",
     "pendingReview": {
       "confidence": 0.79,
       "createdAt": 1784521233029,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2079058575440359695"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.95,
+        "evaluatedAt": 1784652516095,
+        "inputTokens": 396,
+        "outputTokens": 189,
+        "rationale": "It announces a reset coming in the next hour, not that limits have reset already.",
+        "reasoningTokens": 144,
+        "totalTokens": 585,
+        "tweetId": "2079609157934886975",
+        "tweetText": "10M! \n\nNew day, new usage reset for paid users of Codex and ChatGPT Work. Lands in the next hour. Enjoy. https://t.co/VUJ4S3vKDG",
+        "tweetUrl": "https://x.com/thsottiaux/status/2079609157934886975",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1784610899881,
@@ -279,29 +292,31 @@
         "tweetText": "@jonathanroomer Under ‘+’ https://t.co/kkKG7Ymrmy",
         "tweetUrl": "https://x.com/thsottiaux/status/2078682677528625477",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1784431258135,
-        "inputTokens": 371,
-        "outputTokens": 78,
-        "rationale": "This reply discusses Codex being open source and does not mention limits or a reset.",
-        "reasoningTokens": 33,
-        "totalTokens": 449,
-        "tweetId": "2078680352198217913",
-        "tweetText": "@LukeDashjr @MysterE___ Codex is open source. Check out the repo",
-        "tweetUrl": "https://x.com/thsottiaux/status/2078680352198217913",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 389401,
-      "totalOutputTokens": 104167,
-      "totalReasoningTokens": 57074,
-      "totalTokens": 493568
+      "totalInputTokens": 389797,
+      "totalOutputTokens": 104356,
+      "totalReasoningTokens": 57218,
+      "totalTokens": 494153
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.95,
+      "createdAt": 1784652516095,
+      "inputTokens": 396,
+      "message": "",
+      "outputTokens": 189,
+      "rationale": "It announces a reset coming in the next hour, not that limits have reset already.",
+      "reasoningTokens": 144,
+      "totalTokens": 585,
+      "tweetId": "2079609157934886975",
+      "tweetText": "10M! \n\nNew day, new usage reset for paid users of Codex and ChatGPT Work. Lands in the next hour. Enjoy. https://t.co/VUJ4S3vKDG",
+      "tweetUrl": "https://x.com/thsottiaux/status/2079609157934886975",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1784610899881,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2078626706789892560",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.98,
-      "createdAt": 1784418230674,
-      "inputTokens": 366,
-      "message": "",
-      "outputTokens": 78,
-      "rationale": "This reply does not mention rate limits, caps, or usage becoming available again.",
-      "reasoningTokens": 34,
-      "totalTokens": 444,
-      "tweetId": "2078626117708300783",
-      "tweetText": "@lenatron33 Thank you for bringing it back here where it belongs",
-      "tweetUrl": "https://x.com/thsottiaux/status/2078626117708300783",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "HQowWT4FXhGkLnGs0oKnk_Oc7k-jdtPVWxuk7RpN_-VOlX44Fr22ug6kkA",
-    "iv": "EfTJ2TQ9GjUzvxQf",
-    "tag": "Jy4GR5XWn1ca91RaYhpKyg",
+    "ciphertext": "88pWjwKG6V33FKq-m51e0nteLvo0AzPlEbYbXmqnm3aiI63nxEMD4t8vhw",
+    "iv": "x6FMv7Uk4JjGH6L2",
+    "tag": "CuxMtbTeL2-YUQUB74eL4w",
     "version": 1
   }
 }
