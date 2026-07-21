@@ -15,24 +15,37 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.95,
-      "decidedAt": 1784652516095,
-      "rationale": "It announces a reset coming in the next hour, not that limits have reset already.",
-      "tweetId": "2079609157934886975",
-      "tweetUrl": "https://x.com/thsottiaux/status/2079609157934886975",
-      "verdict": "not_reset"
+      "decidedAt": 1784652524359,
+      "rationale": "This reply only contains a link and gives no explicit indication that limits have reset.",
+      "tweetId": "2079609359085289538",
+      "tweetUrl": "https://x.com/thsottiaux/status/2079609359085289538",
+      "verdict": "uncertain"
     },
     "lastError": null,
-    "lastSeenTweetId": "2079609157934886975",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2079609157934886975",
+    "lastSeenTweetId": "2079609359085289538",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2079609359085289538",
     "pendingReview": {
-      "confidence": 0.79,
-      "createdAt": 1784521233029,
-      "rationale": "It mentions future resets continuing, but does not clearly say limits have reset now.",
-      "tweetId": "2079058575440359695",
-      "tweetText": "@CastAsHuman Don’t really mind it! The resets will continue",
-      "tweetUrl": "https://x.com/thsottiaux/status/2079058575440359695"
+      "confidence": 0.95,
+      "createdAt": 1784652524359,
+      "rationale": "This reply only contains a link and gives no explicit indication that limits have reset.",
+      "tweetId": "2079609359085289538",
+      "tweetText": "https://t.co/bpFdSRO2bH",
+      "tweetUrl": "https://x.com/thsottiaux/status/2079609359085289538"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.95,
+        "evaluatedAt": 1784652524359,
+        "inputTokens": 365,
+        "outputTokens": 250,
+        "rationale": "This reply only contains a link and gives no explicit indication that limits have reset.",
+        "reasoningTokens": 206,
+        "totalTokens": 615,
+        "tweetId": "2079609359085289538",
+        "tweetText": "https://t.co/bpFdSRO2bH",
+        "tweetUrl": "https://x.com/thsottiaux/status/2079609359085289538",
+        "verdict": "uncertain"
+      },
       {
         "confidence": 0.95,
         "evaluatedAt": 1784652516095,
@@ -279,29 +292,31 @@
         "tweetText": "@delaluz2026 @Skoorbkaz What does continuity mean for you?",
         "tweetUrl": "https://x.com/thsottiaux/status/2078684299390488757",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.98,
-        "evaluatedAt": 1784431588097,
-        "inputTokens": 372,
-        "outputTokens": 152,
-        "rationale": "This reply only says where to find something and does not indicate any rate limit or usage reset.",
-        "reasoningTokens": 105,
-        "totalTokens": 524,
-        "tweetId": "2078682677528625477",
-        "tweetText": "@jonathanroomer Under ‘+’ https://t.co/kkKG7Ymrmy",
-        "tweetUrl": "https://x.com/thsottiaux/status/2078682677528625477",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 389797,
-      "totalOutputTokens": 104356,
-      "totalReasoningTokens": 57218,
-      "totalTokens": 494153
+      "totalInputTokens": 390162,
+      "totalOutputTokens": 104606,
+      "totalReasoningTokens": 57424,
+      "totalTokens": 494768
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.95,
+      "createdAt": 1784652524359,
+      "inputTokens": 365,
+      "message": "",
+      "outputTokens": 250,
+      "rationale": "This reply only contains a link and gives no explicit indication that limits have reset.",
+      "reasoningTokens": 206,
+      "totalTokens": 615,
+      "tweetId": "2079609359085289538",
+      "tweetText": "https://t.co/bpFdSRO2bH",
+      "tweetUrl": "https://x.com/thsottiaux/status/2079609359085289538",
+      "type": "review_requested",
+      "verdict": "uncertain"
+    },
     {
       "confidence": 0.95,
       "createdAt": 1784652516095,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2078627058826318088",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1784418233222,
-      "inputTokens": 364,
-      "message": "",
-      "outputTokens": 65,
-      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-      "reasoningTokens": 21,
-      "totalTokens": 429,
-      "tweetId": "2078626706789892560",
-      "tweetText": "@testingcatalog Let’s pretend this is … convergent evolution",
-      "tweetUrl": "https://x.com/thsottiaux/status/2078626706789892560",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "88pWjwKG6V33FKq-m51e0nteLvo0AzPlEbYbXmqnm3aiI63nxEMD4t8vhw",
-    "iv": "x6FMv7Uk4JjGH6L2",
-    "tag": "CuxMtbTeL2-YUQUB74eL4w",
+    "ciphertext": "bFxWvNm5WR8QvqOrMVlWFlxO2SIdP30JywXrAWSuNEBj7uUwSRVsUgsKEg",
+    "iv": "_OB1uXaE9E7nnkru",
+    "tag": "nqor-lgyOIvlutHWGbfOPQ",
     "version": 1
   }
 }
