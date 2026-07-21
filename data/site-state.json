@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1784592245986,
-      "rationale": "This is a general comment about working at OpenAI and does not mention limits or a reset.",
-      "tweetId": "2079355529101705264",
-      "tweetUrl": "https://x.com/thsottiaux/status/2079355529101705264",
+      "decidedAt": 1784610899881,
+      "rationale": "This reply is conversational and does not mention limits, caps, or usage resetting.",
+      "tweetId": "2079433708986319143",
+      "tweetUrl": "https://x.com/thsottiaux/status/2079433708986319143",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2079355529101705264",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2079355529101705264",
+    "lastSeenTweetId": "2079433708986319143",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2079433708986319143",
     "pendingReview": {
       "confidence": 0.79,
       "createdAt": 1784521233029,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2079058575440359695"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1784610899881,
+        "inputTokens": 371,
+        "outputTokens": 69,
+        "rationale": "This reply is conversational and does not mention limits, caps, or usage resetting.",
+        "reasoningTokens": 25,
+        "totalTokens": 440,
+        "tweetId": "2079433708986319143",
+        "tweetText": "@Kappaemme1926 We are being very subtle. Use \"Approve for me\" instead.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2079433708986319143",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1784592245986,
@@ -279,29 +292,31 @@
         "tweetText": "@LukeDashjr @MysterE___ Codex is open source. Check out the repo",
         "tweetUrl": "https://x.com/thsottiaux/status/2078680352198217913",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1784426908495,
-        "inputTokens": 376,
-        "outputTokens": 89,
-        "rationale": "This reply is conversational and does not mention limits, caps, or usage becoming available again.",
-        "reasoningTokens": 43,
-        "totalTokens": 465,
-        "tweetId": "2078662856363618714",
-        "tweetText": "@lovecrypt Made me think of “a mega pint?”, but let’s do something about this. \n\nDM",
-        "tweetUrl": "https://x.com/thsottiaux/status/2078662856363618714",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 389030,
-      "totalOutputTokens": 104098,
-      "totalReasoningTokens": 57049,
-      "totalTokens": 493128
+      "totalInputTokens": 389401,
+      "totalOutputTokens": 104167,
+      "totalReasoningTokens": 57074,
+      "totalTokens": 493568
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1784610899881,
+      "inputTokens": 371,
+      "message": "",
+      "outputTokens": 69,
+      "rationale": "This reply is conversational and does not mention limits, caps, or usage resetting.",
+      "reasoningTokens": 25,
+      "totalTokens": 440,
+      "tweetId": "2079433708986319143",
+      "tweetText": "@Kappaemme1926 We are being very subtle. Use \"Approve for me\" instead.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2079433708986319143",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1784592245986,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2078626117708300783",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1784417921060,
-      "inputTokens": 368,
-      "message": "",
-      "outputTokens": 80,
-      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-      "reasoningTokens": 36,
-      "totalTokens": 448,
-      "tweetId": "2078625264016453839",
-      "tweetText": "@CastAsHuman Just say Codex. It’s ok. Free your mind",
-      "tweetUrl": "https://x.com/thsottiaux/status/2078625264016453839",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "OMi0fzyT7Z1r-VTy2DsI2Yq0TtH2qm-IK8Lpz8sQ4x_pOE2L2Ix-VlZgag",
-    "iv": "eCp83OOzlkigL_rp",
-    "tag": "b2Admd2_0kuIEYvMcLQQwg",
+    "ciphertext": "HQowWT4FXhGkLnGs0oKnk_Oc7k-jdtPVWxuk7RpN_-VOlX44Fr22ug6kkA",
+    "iv": "EfTJ2TQ9GjUzvxQf",
+    "tag": "Jy4GR5XWn1ca91RaYhpKyg",
     "version": 1
   }
 }
