@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1784521545029,
-      "rationale": "This reply is just a preference statement and does not mention any limit or reset.",
-      "tweetId": "2079058868584509528",
-      "tweetUrl": "https://x.com/thsottiaux/status/2079058868584509528",
+      "decidedAt": 1784592245986,
+      "rationale": "This is a general comment about working at OpenAI and does not mention limits or a reset.",
+      "tweetId": "2079355529101705264",
+      "tweetUrl": "https://x.com/thsottiaux/status/2079355529101705264",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2079058868584509528",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2079058868584509528",
+    "lastSeenTweetId": "2079355529101705264",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2079355529101705264",
     "pendingReview": {
       "confidence": 0.79,
       "createdAt": 1784521233029,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2079058575440359695"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1784592245986,
+        "inputTokens": 367,
+        "outputTokens": 70,
+        "rationale": "This is a general comment about working at OpenAI and does not mention limits or a reset.",
+        "reasoningTokens": 23,
+        "totalTokens": 437,
+        "tweetId": "2079355529101705264",
+        "tweetText": "Never a dull moment when you work at OpenAI. Absolutely incredible place.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2079355529101705264",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1784521545029,
@@ -279,29 +292,31 @@
         "tweetText": "@lovecrypt Made me think of “a mega pint?”, but let’s do something about this. \n\nDM",
         "tweetUrl": "https://x.com/thsottiaux/status/2078662856363618714",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1784425018495,
-        "inputTokens": 366,
-        "outputTokens": 65,
-        "rationale": "This reply does not mention limits, caps, or any reset.",
-        "reasoningTokens": 24,
-        "totalTokens": 431,
-        "tweetId": "2078654072689975381",
-        "tweetText": "@maomaohuo @catalinmpit I’m sorry",
-        "tweetUrl": "https://x.com/thsottiaux/status/2078654072689975381",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 388663,
-      "totalOutputTokens": 104028,
-      "totalReasoningTokens": 57026,
-      "totalTokens": 492691
+      "totalInputTokens": 389030,
+      "totalOutputTokens": 104098,
+      "totalReasoningTokens": 57049,
+      "totalTokens": 493128
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1784592245986,
+      "inputTokens": 367,
+      "message": "",
+      "outputTokens": 70,
+      "rationale": "This is a general comment about working at OpenAI and does not mention limits or a reset.",
+      "reasoningTokens": 23,
+      "totalTokens": 437,
+      "tweetId": "2079355529101705264",
+      "tweetText": "Never a dull moment when you work at OpenAI. Absolutely incredible place.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2079355529101705264",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1784521545029,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2078625264016453839",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1784417917929,
-      "inputTokens": 394,
-      "message": "",
-      "outputTokens": 69,
-      "rationale": "This is a general product-feedback question and does not mention limits or a reset.",
-      "reasoningTokens": 25,
-      "totalTokens": 463,
-      "tweetId": "2078624985363706343",
-      "tweetText": "How can we make ChatGPT better.\n\nIt’s already on your phone, but what do you wish would happen more or less of when you open the app. How can it bring you more joy?",
-      "tweetUrl": "https://x.com/thsottiaux/status/2078624985363706343",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "8i2n4WheKqtq4loEg44glcQpD4TNtOFPFnMNoAzNWYbOFHuTVObDGEhH0Q",
-    "iv": "xuHmydMJa0NRGKO5",
-    "tag": "_ZdAHrtfb9zJIJk-0fZoxg",
+    "ciphertext": "OMi0fzyT7Z1r-VTy2DsI2Yq0TtH2qm-IK8Lpz8sQ4x_pOE2L2Ix-VlZgag",
+    "iv": "eCp83OOzlkigL_rp",
+    "tag": "b2Admd2_0kuIEYvMcLQQwg",
     "version": 1
   }
 }
