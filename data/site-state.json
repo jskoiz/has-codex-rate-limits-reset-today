@@ -21,7 +21,7 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2079609359085289538",
       "verdict": "uncertain"
     },
-    "lastError": "Tweet fetch failed: Tweet search failed: Unknown error; timeline fallback failed: Unknown error (Unknown error) (Tweet search failed: Unknown error; timeline fallback failed: Unknown error)",
+    "lastError": "fetch failed (Connect Timeout Error (attempted address: api.github.com:443, timeout: 10000ms))",
     "lastSeenTweetId": "2079609359085289538",
     "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2079609359085289538",
     "pendingReview": {
@@ -302,6 +302,21 @@
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0,
+      "createdAt": 1784890624439,
+      "inputTokens": 0,
+      "message": "fetch failed (Connect Timeout Error (attempted address: api.github.com:443, timeout: 10000ms))",
+      "outputTokens": 0,
+      "rationale": "",
+      "reasoningTokens": 0,
+      "totalTokens": 0,
+      "tweetId": null,
+      "tweetText": "",
+      "tweetUrl": null,
+      "type": "error",
+      "verdict": null
+    },
     {
       "confidence": 0,
       "createdAt": 1784655609533,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2078628339217240515",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1784418540338,
-      "inputTokens": 363,
-      "message": "",
-      "outputTokens": 70,
-      "rationale": "This reply is unrelated to Codex or ChatGPT usage limits resetting.",
-      "reasoningTokens": 28,
-      "totalTokens": 433,
-      "tweetId": "2078627224840962147",
-      "tweetText": "@catalinmpit Who you follow matters now",
-      "tweetUrl": "https://x.com/thsottiaux/status/2078627224840962147",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "JPkwFJJAPe3ITXCCyMt-ShscHKY86aaZz4b616YPJSoPvwjLxgzlu2nm9g",
-    "iv": "YAUPYKsN09cEbUTv",
-    "tag": "RacDBiHrL2qcCLGBshDrPQ",
+    "ciphertext": "tJkuiQr7E3FETDEMLBJSGkmu5pxgohQamatLUQlojKj0yBrgWqgVK8TCig",
+    "iv": "ILzSwIW1zVu3eDpa",
+    "tag": "8M5AbWUzvqlw9PtSIHphhw",
     "version": 1
   }
 }
