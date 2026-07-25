@@ -21,7 +21,7 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2079609359085289538",
       "verdict": "uncertain"
     },
-    "lastError": "GitHub raw read failed with 403",
+    "lastError": "Tweet fetch failed: Tweet search failed: Unknown error; timeline fallback failed: Unknown error (Unknown error) (Tweet search failed: Unknown error; timeline fallback failed: Unknown error)",
     "lastSeenTweetId": "2079609359085289538",
     "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2079609359085289538",
     "pendingReview": {
@@ -304,9 +304,9 @@
   "automationEvents": [
     {
       "confidence": 0,
-      "createdAt": 1785011574217,
+      "createdAt": 1785011881336,
       "inputTokens": 0,
-      "message": "GitHub raw read failed with 403",
+      "message": "Tweet fetch failed: Tweet search failed: Unknown error; timeline fallback failed: Unknown error (Unknown error) (Tweet search failed: Unknown error; timeline fallback failed: Unknown error)",
       "outputTokens": 0,
       "rationale": "",
       "reasoningTokens": 0,
@@ -319,9 +319,9 @@
     },
     {
       "confidence": 0,
-      "createdAt": 1784891257246,
+      "createdAt": 1785011574217,
       "inputTokens": 0,
-      "message": "Tweet fetch failed: Tweet search failed: Unknown error; timeline fallback failed: Unknown error (Unknown error) (Tweet search failed: Unknown error; timeline fallback failed: Unknown error)",
+      "message": "GitHub raw read failed with 403",
       "outputTokens": 0,
       "rationale": "",
       "reasoningTokens": 0,
@@ -904,9 +904,9 @@
     }
   ],
   "privateState": {
-    "ciphertext": "_I66JnjDPwO28S5J82KJniaBMqg3sGnuom7GKfi682IMPL6uE07qjG0-Ag",
-    "iv": "aJ2LfSyEIcj2izXY",
-    "tag": "0nYoBWO0hh2bugqGjUtECw",
+    "ciphertext": "vTtaO7Htsp-jRjhxG7zYdZ_uIdK9dT5w_AkGFQB2RkDzodYDbSwne9rAMA",
+    "iv": "rF0WF6elCC54FC3n",
+    "tag": "n7CvRHubwc5jD-YQ8LKQjQ",
     "version": 1
   }
 }
