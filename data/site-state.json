@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1785302566417,
-      "rationale": "The main tweet explicitly says usage limits for all Codex and ChatGPT Work users have been reset.",
-      "tweetId": "2081096447718723984",
-      "tweetUrl": "https://x.com/thsottiaux/status/2081096447718723984",
-      "verdict": "reset_confirmed"
+      "decidedAt": 1785302743284,
+      "rationale": "This is a usage milestone comment, not an announcement that limits or caps reset.",
+      "tweetId": "2081198608293187635",
+      "tweetUrl": "https://x.com/thsottiaux/status/2081198608293187635",
+      "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2081096447718723984",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2081096447718723984",
+    "lastSeenTweetId": "2081198608293187635",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2081198608293187635",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1785302743284,
+        "inputTokens": 399,
+        "outputTokens": 91,
+        "rationale": "This is a usage milestone comment, not an announcement that limits or caps reset.",
+        "reasoningTokens": 47,
+        "totalTokens": 490,
+        "tweetId": "2081198608293187635",
+        "tweetText": "ChatGPT Work officially has overtaken Codex in number of active users. Way to go.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2081198608293187635",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1785302566417,
@@ -272,29 +285,31 @@
         "tweetText": "@bilaltwovec Do it",
         "tweetUrl": "https://x.com/thsottiaux/status/2078707865943207939",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1784436509159,
-        "inputTokens": 700,
-        "outputTokens": 95,
-        "rationale": "This post is about using ChatGPT Work for DM triage and says nothing about limits or caps resetting.",
-        "reasoningTokens": 46,
-        "totalTokens": 795,
-        "tweetId": "2078702412085498087",
-        "tweetText": "What I just dictated into ChatGPT Work\n\n> Okay, so I received a lot of DMs for, I did a call out for ChatGPT Work, basically early access beta group. I want you to go through all my DMs on Twitter and then just take all of them that mention ChatGPT Work. It's like a lot of them, thousands, and put them all in a spreadsheet. What I want in the spreadsheet is the name, I want the link to the the DM, so I can go back to it quickly. I want the post that they did, but remove any new lines, so it's just in a single cell. And then I want a column which is basically your assessment of what they're doing, right? So for example, if it's like sales, put sales, if it's marketing, put marketing, if it's design, put design. Come up with your own taxonomy for how to classify their work. I expect the taxonomy to have like, you know, roughly 8 to 12 labels maybe, total. And then also put a rating for, like, they normally have to describe what they're currently doing with ChatGPT Work, use that to put a rating in the fifth column on how sophisticated their workflow already is. We're gonna be selecting a cohort of different people of different levels of sophistication, so we're gonna be like taking, you know, maybe like a couple dozens from like, a high level of sophistication, we're gonna take in the middle of a cohort, and then like low level of sophistication, so we have good representation and can test new features and get good feedback from a diverse group at different levels of adoption. So create that spreadsheet, go through all my DMs. Good luck!",
-        "tweetUrl": "https://x.com/thsottiaux/status/2078702412085498087",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 392873,
-      "totalOutputTokens": 105107,
-      "totalReasoningTokens": 57657,
-      "totalTokens": 497980
+      "totalInputTokens": 393272,
+      "totalOutputTokens": 105198,
+      "totalReasoningTokens": 57704,
+      "totalTokens": 498470
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1785302743284,
+      "inputTokens": 399,
+      "message": "",
+      "outputTokens": 91,
+      "rationale": "This is a usage milestone comment, not an announcement that limits or caps reset.",
+      "reasoningTokens": 47,
+      "totalTokens": 490,
+      "tweetId": "2081198608293187635",
+      "tweetText": "ChatGPT Work officially has overtaken Codex in number of active users. Way to go.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2081198608293187635",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1785302566417,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2078646773514641783",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1784423185079,
-      "inputTokens": 370,
-      "message": "",
-      "outputTokens": 68,
-      "rationale": "This reply asks about prompt examples and does not mention limits, caps, or resets.",
-      "reasoningTokens": 23,
-      "totalTokens": 438,
-      "tweetId": "2078646583646921203",
-      "tweetText": "@tombombadeel What’s an example of a prompt you regularly come back to?",
-      "tweetUrl": "https://x.com/thsottiaux/status/2078646583646921203",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "EXNZGb00Jjs0NPUFlAJlQcuqKebb_y2Q3AoNcvCBZRg1dUTFIhsJeaRDRg",
-    "iv": "MsPpN8WM0p7pph8e",
-    "tag": "Pfk6bbMhxibJwQCSEaEa9A",
+    "ciphertext": "9q-7QvtVYOiwFy-ZxitYaRCUFApKubp_5vSi3Tp7djHmqfUIMD4Kkkv1Eg",
+    "iv": "Hs-tDlOHr-cOjHNf",
+    "tag": "eGUWO1-uWCkIgMsi6UXnFw",
     "version": 1
   }
 }
