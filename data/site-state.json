@@ -1,5 +1,5 @@
 {
-  "currentState": "no",
+  "currentState": "yes",
   "autoResetHours": 20,
   "noSubtitles": [
     "Back to your local model peasant",
@@ -10,29 +10,35 @@
     "Limits reset, go crazy",
     "You can just build things"
   ],
-  "resetAt": null,
-  "updatedAt": 1784345380676,
+  "resetAt": 1785374566417,
+  "updatedAt": 1785302566417,
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1785302563737,
-      "rationale": "This announces feature availability for paid plans, not that any usage cap or rate limit has reset.",
-      "tweetId": "2080876712439747052",
-      "tweetUrl": "https://x.com/thsottiaux/status/2080876712439747052",
-      "verdict": "not_reset"
+      "decidedAt": 1785302566417,
+      "rationale": "The main tweet explicitly says usage limits for all Codex and ChatGPT Work users have been reset.",
+      "tweetId": "2081096447718723984",
+      "tweetUrl": "https://x.com/thsottiaux/status/2081096447718723984",
+      "verdict": "reset_confirmed"
     },
     "lastError": null,
-    "lastSeenTweetId": "2080876712439747052",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2080876712439747052",
-    "pendingReview": {
-      "confidence": 0.95,
-      "createdAt": 1784652524359,
-      "rationale": "This reply only contains a link and gives no explicit indication that limits have reset.",
-      "tweetId": "2079609359085289538",
-      "tweetText": "https://t.co/bpFdSRO2bH",
-      "tweetUrl": "https://x.com/thsottiaux/status/2079609359085289538"
-    },
+    "lastSeenTweetId": "2081096447718723984",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2081096447718723984",
+    "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1785302566417,
+        "inputTokens": 493,
+        "outputTokens": 109,
+        "rationale": "The main tweet explicitly says usage limits for all Codex and ChatGPT Work users have been reset.",
+        "reasoningTokens": 60,
+        "totalTokens": 602,
+        "tweetId": "2081096447718723984",
+        "tweetText": "We have reset usage limits for all Codex and ChatGPT Work users.\n\nLast night around 2am to 4am we suffered an almost global outage. All well and recovered, but you know what comes next.\n\nWe learn. We reset. Enjoy.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2081096447718723984",
+        "verdict": "reset_confirmed"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1785302563737,
@@ -279,29 +285,31 @@
         "tweetText": "What I just dictated into ChatGPT Work\n\n> Okay, so I received a lot of DMs for, I did a call out for ChatGPT Work, basically early access beta group. I want you to go through all my DMs on Twitter and then just take all of them that mention ChatGPT Work. It's like a lot of them, thousands, and put them all in a spreadsheet. What I want in the spreadsheet is the name, I want the link to the the DM, so I can go back to it quickly. I want the post that they did, but remove any new lines, so it's just in a single cell. And then I want a column which is basically your assessment of what they're doing, right? So for example, if it's like sales, put sales, if it's marketing, put marketing, if it's design, put design. Come up with your own taxonomy for how to classify their work. I expect the taxonomy to have like, you know, roughly 8 to 12 labels maybe, total. And then also put a rating for, like, they normally have to describe what they're currently doing with ChatGPT Work, use that to put a rating in the fifth column on how sophisticated their workflow already is. We're gonna be selecting a cohort of different people of different levels of sophistication, so we're gonna be like taking, you know, maybe like a couple dozens from like, a high level of sophistication, we're gonna take in the middle of a cohort, and then like low level of sophistication, so we have good representation and can test new features and get good feedback from a diverse group at different levels of adoption. So create that spreadsheet, go through all my DMs. Good luck!",
         "tweetUrl": "https://x.com/thsottiaux/status/2078702412085498087",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1784435264836,
-        "inputTokens": 375,
-        "outputTokens": 106,
-        "rationale": "This is just a conversational remark about using ChatGPT Work, not about limits or a reset.",
-        "reasoningTokens": 59,
-        "totalTokens": 481,
-        "tweetId": "2078697741455356367",
-        "tweetText": "My job is basically delegating to ChatGPT Work now. Can't stop using dictation and have it do everything",
-        "tweetUrl": "https://x.com/thsottiaux/status/2078697741455356367",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 392380,
-      "totalOutputTokens": 104998,
-      "totalReasoningTokens": 57597,
-      "totalTokens": 497378
+      "totalInputTokens": 392873,
+      "totalOutputTokens": 105107,
+      "totalReasoningTokens": 57657,
+      "totalTokens": 497980
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1785302566417,
+      "inputTokens": 493,
+      "message": "",
+      "outputTokens": 109,
+      "rationale": "The main tweet explicitly says usage limits for all Codex and ChatGPT Work users have been reset.",
+      "reasoningTokens": 60,
+      "totalTokens": 602,
+      "tweetId": "2081096447718723984",
+      "tweetText": "We have reset usage limits for all Codex and ChatGPT Work users.\n\nLast night around 2am to 4am we suffered an almost global outage. All well and recovered, but you know what comes next.\n\nWe learn. We reset. Enjoy.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2081096447718723984",
+      "type": "reset_confirmed",
+      "verdict": "reset_confirmed"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1785302563737,
@@ -886,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2078646583646921203",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1784423182690,
-      "inputTokens": 367,
-      "message": "",
-      "outputTokens": 77,
-      "rationale": "This reply is just asking a general question and does not mention limits or availability resetting.",
-      "reasoningTokens": 32,
-      "totalTokens": 444,
-      "tweetId": "2078646451975213270",
-      "tweetText": "@sparklingruby How did you use it to transform your day to day?",
-      "tweetUrl": "https://x.com/thsottiaux/status/2078646451975213270",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "SnkS8Dn-6-ZTCWNrVp4C7sIKiaRdM3Az3-AlXoQO3Af6x5MFdJdIB1OiJw",
-    "iv": "7BP0iLRDjwgyTZ4C",
-    "tag": "ufocMetivV9IdeXvPEgsaQ",
+    "ciphertext": "EXNZGb00Jjs0NPUFlAJlQcuqKebb_y2Q3AoNcvCBZRg1dUTFIhsJeaRDRg",
+    "iv": "MsPpN8WM0p7pph8e",
+    "tag": "Pfk6bbMhxibJwQCSEaEa9A",
     "version": 1
   }
 }
