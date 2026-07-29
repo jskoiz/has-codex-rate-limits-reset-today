@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1785302757712,
-      "rationale": "This post is just a casual Codex mention and does not indicate any limit or cap reset.",
-      "tweetId": "2081839118531834176",
-      "tweetUrl": "https://x.com/thsottiaux/status/2081839118531834176",
+      "decidedAt": 1785302760978,
+      "rationale": "This is promotional commentary about model performance, not a statement that limits or caps have reset.",
+      "tweetId": "2081860991210631476",
+      "tweetUrl": "https://x.com/thsottiaux/status/2081860991210631476",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2081839118531834176",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2081839118531834176",
+    "lastSeenTweetId": "2081860991210631476",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2081860991210631476",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1785302760978,
+        "inputTokens": 432,
+        "outputTokens": 73,
+        "rationale": "This is promotional commentary about model performance, not a statement that limits or caps have reset.",
+        "reasoningTokens": 27,
+        "totalTokens": 505,
+        "tweetId": "2081860991210631476",
+        "tweetText": "Turns out GPT-5.6 Sol and friends are absolutely amazing at performance and efficiency improvements. Good time to brush up on using OpenAI models if you haven’t switched already. \n\nExcited to be able to share more soon. Pretty wild.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2081860991210631476",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1785302757712,
@@ -272,29 +285,31 @@
         "tweetText": "@CastAsHuman Don’t really mind it! The resets will continue",
         "tweetUrl": "https://x.com/thsottiaux/status/2079058575440359695",
         "verdict": "uncertain"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1784521229471,
-        "inputTokens": 404,
-        "outputTokens": 62,
-        "rationale": "This post is a general prompt about positive experiences with ChatGPT, not about limits resetting.",
-        "reasoningTokens": 16,
-        "totalTokens": 466,
-        "tweetId": "2079058139207573541",
-        "tweetText": "I was so inspired reading all the DMs on how folks here use ChatGPT Work. Let’s try something else that will make the team smile.\n\nWhat’s a time you saw ChatGPT have a deeply positive impact on your or someone’s life?",
-        "tweetUrl": "https://x.com/thsottiaux/status/2079058139207573541",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 395669,
-      "totalOutputTokens": 105641,
-      "totalReasoningTokens": 57909,
-      "totalTokens": 501310
+      "totalInputTokens": 396101,
+      "totalOutputTokens": 105714,
+      "totalReasoningTokens": 57936,
+      "totalTokens": 501815
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1785302760978,
+      "inputTokens": 432,
+      "message": "",
+      "outputTokens": 73,
+      "rationale": "This is promotional commentary about model performance, not a statement that limits or caps have reset.",
+      "reasoningTokens": 27,
+      "totalTokens": 505,
+      "tweetId": "2081860991210631476",
+      "tweetText": "Turns out GPT-5.6 Sol and friends are absolutely amazing at performance and efficiency improvements. Good time to brush up on using OpenAI models if you haven’t switched already. \n\nExcited to be able to share more soon. Pretty wild.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2081860991210631476",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1785302757712,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2078654072689975381",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1784423492160,
-      "inputTokens": 361,
-      "message": "",
-      "outputTokens": 74,
-      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-      "reasoningTokens": 30,
-      "totalTokens": 435,
-      "tweetId": "2078648757894500718",
-      "tweetText": "@daniel_du Codex is my friend",
-      "tweetUrl": "https://x.com/thsottiaux/status/2078648757894500718",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "2j0lIrPctqnjAyPWG1EwGgJXzUYuKuSo7oVJBPr9qvXfaUiwbqgdRLPSaw",
-    "iv": "pad_gfA_0KVA3P1a",
-    "tag": "dpQGn6JQC3jMy3VrWdJxYQ",
+    "ciphertext": "kMj5eAa087dj7ge5dwK6taijKTfPV74RNLvTSRT6TZXvUUqzFNxzgeeBcw",
+    "iv": "vRT7jOJo9tMLBeGB",
+    "tag": "FhS87x0bBAPY71YGXGnQTQ",
     "version": 1
   }
 }
