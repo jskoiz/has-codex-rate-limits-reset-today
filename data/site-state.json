@@ -14,25 +14,38 @@
   "updatedAt": 1785303373213,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1785360649269,
-      "rationale": "This post and its quoted tweet discuss efficiency improvements, not any limit or rate-cap reset.",
-      "tweetId": "2082578335167807775",
-      "tweetUrl": "https://x.com/thsottiaux/status/2082578335167807775",
-      "verdict": "not_reset"
+      "confidence": 0.95,
+      "decidedAt": 1785367190621,
+      "rationale": "This reply is just a vague countdown and does not clearly say limits have reset.",
+      "tweetId": "2082606956368609353",
+      "tweetUrl": "https://x.com/thsottiaux/status/2082606956368609353",
+      "verdict": "uncertain"
     },
     "lastError": null,
-    "lastSeenTweetId": "2082578335167807775",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2082578335167807775",
+    "lastSeenTweetId": "2082606956368609353",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2082606956368609353",
     "pendingReview": {
-      "confidence": 0.75,
-      "createdAt": 1785303986183,
-      "rationale": "This reply suggests something is restored, but it does not explicitly say Codex or ChatGPT limits reset.",
-      "tweetId": "2082340992871760182",
-      "tweetText": "@0xrsydn Omg omg omg, back to 100%!",
-      "tweetUrl": "https://x.com/thsottiaux/status/2082340992871760182"
+      "confidence": 0.95,
+      "createdAt": 1785367190621,
+      "rationale": "This reply is just a vague countdown and does not clearly say limits have reset.",
+      "tweetId": "2082606956368609353",
+      "tweetText": "@theo 3 days to go! forgot to update you yesterday 👀",
+      "tweetUrl": "https://x.com/thsottiaux/status/2082606956368609353"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.95,
+        "evaluatedAt": 1785367190621,
+        "inputTokens": 396,
+        "outputTokens": 169,
+        "rationale": "This reply is just a vague countdown and does not clearly say limits have reset.",
+        "reasoningTokens": 125,
+        "totalTokens": 565,
+        "tweetId": "2082606956368609353",
+        "tweetText": "@theo 3 days to go! forgot to update you yesterday 👀",
+        "tweetUrl": "https://x.com/thsottiaux/status/2082606956368609353",
+        "verdict": "uncertain"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1785360649269,
@@ -279,29 +292,31 @@
         "tweetText": "@theo Come back to papa Sol",
         "tweetUrl": "https://x.com/thsottiaux/status/2081895010191192491",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1785302791876,
-        "inputTokens": 388,
-        "outputTokens": 78,
-        "rationale": "This reply is conversational and does not mention any limit, cap, or reset.",
-        "reasoningTokens": 34,
-        "totalTokens": 466,
-        "tweetId": "2081876970393198604",
-        "tweetText": "@federicomobilia Discerning",
-        "tweetUrl": "https://x.com/thsottiaux/status/2081876970393198604",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 407626,
-      "totalOutputTokens": 108514,
-      "totalReasoningTokens": 59530,
-      "totalTokens": 516140
+      "totalInputTokens": 408022,
+      "totalOutputTokens": 108683,
+      "totalReasoningTokens": 59655,
+      "totalTokens": 516705
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.95,
+      "createdAt": 1785367190621,
+      "inputTokens": 396,
+      "message": "",
+      "outputTokens": 169,
+      "rationale": "This reply is just a vague countdown and does not clearly say limits have reset.",
+      "reasoningTokens": 125,
+      "totalTokens": 565,
+      "tweetId": "2082606956368609353",
+      "tweetText": "@theo 3 days to go! forgot to update you yesterday 👀",
+      "tweetUrl": "https://x.com/thsottiaux/status/2082606956368609353",
+      "type": "review_requested",
+      "verdict": "uncertain"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1785360649269,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2080537149204758689",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1785302550603,
-      "inputTokens": 538,
-      "message": "",
-      "outputTokens": 85,
-      "rationale": "This post is about ChatGPT Voice launching in the desktop app, not usage limits resetting.",
-      "reasoningTokens": 39,
-      "totalTokens": 623,
-      "tweetId": "2080408012515340394",
-      "tweetText": "Jarvis / Samantha / TARS / Etc\n\nTry it, and do your best work all while being away from that keyboard. Time to have fun!\n\nAvailable in the ChatGPT desktop app now.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2080408012515340394",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "xAXX_AGsy0yHsLrkR07e_HAcQjQNv8ycjYoXnGjfDpxGjrIehY95UtqI_A",
-    "iv": "AFRqh5qtYewHHsil",
-    "tag": "JfvZXllRbgZvPb6TVsawvQ",
+    "ciphertext": "sTmGidbYQ6nd7gEmjhiEGEnd2LXLsc3ByuO7aX_MY-5uo-5I0dUG4vDNAg",
+    "iv": "Gj5vumYbzmk2c6VD",
+    "tag": "0RZB-xJ-N2Fwd-n2SVSiGQ",
     "version": 1
   }
 }
