@@ -14,16 +14,16 @@
   "updatedAt": 1785302566417,
   "automation": {
     "lastDecision": {
-      "confidence": 0.91,
-      "decidedAt": 1785302801342,
-      "rationale": "He hints at a possible limit reset, but it is not explicit that limits are actually reset or available again now.",
-      "tweetId": "2081899343091843463",
-      "tweetUrl": "https://x.com/thsottiaux/status/2081899343091843463",
-      "verdict": "uncertain"
+      "confidence": 0.98,
+      "decidedAt": 1785303045921,
+      "rationale": "This reply is just conversational and does not indicate any rate limit or cap reset.",
+      "tweetId": "2081939918818025982",
+      "tweetUrl": "https://x.com/thsottiaux/status/2081939918818025982",
+      "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2081899343091843463",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2081899343091843463",
+    "lastSeenTweetId": "2081939918818025982",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2081939918818025982",
     "pendingReview": {
       "confidence": 0.91,
       "createdAt": 1785302801342,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2081899343091843463"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.98,
+        "evaluatedAt": 1785303045921,
+        "inputTokens": 386,
+        "outputTokens": 183,
+        "rationale": "This reply is just conversational and does not indicate any rate limit or cap reset.",
+        "reasoningTokens": 139,
+        "totalTokens": 569,
+        "tweetId": "2081939918818025982",
+        "tweetText": "@charliermarsh Maybe",
+        "tweetUrl": "https://x.com/thsottiaux/status/2081939918818025982",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.91,
         "evaluatedAt": 1785302801342,
@@ -279,29 +292,31 @@
         "tweetText": "We have reset usage limits for all Codex and ChatGPT Work users.\n\nLast night around 2am to 4am we suffered an almost global outage. All well and recovered, but you know what comes next.\n\nWe learn. We reset. Enjoy.",
         "tweetUrl": "https://x.com/thsottiaux/status/2081096447718723984",
         "verdict": "reset_confirmed"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1785302563737,
-        "inputTokens": 420,
-        "outputTokens": 115,
-        "rationale": "This announces feature availability for paid plans, not that any usage cap or rate limit has reset.",
-        "reasoningTokens": 68,
-        "totalTokens": 535,
-        "tweetId": "2080876712439747052",
-        "tweetText": "How to put this🙈ChatGPT Work is available globally for all paid plans across mobile/web/desktop. Probably already on your phone.\n\nPuts a jetpack on your ChatGPT",
-        "tweetUrl": "https://x.com/thsottiaux/status/2080876712439747052",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 400474,
-      "totalOutputTokens": 106858,
-      "totalReasoningTokens": 58592,
-      "totalTokens": 507332
+      "totalInputTokens": 400860,
+      "totalOutputTokens": 107041,
+      "totalReasoningTokens": 58731,
+      "totalTokens": 507901
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.98,
+      "createdAt": 1785303045921,
+      "inputTokens": 386,
+      "message": "",
+      "outputTokens": 183,
+      "rationale": "This reply is just conversational and does not indicate any rate limit or cap reset.",
+      "reasoningTokens": 139,
+      "totalTokens": 569,
+      "tweetId": "2081939918818025982",
+      "tweetText": "@charliermarsh Maybe",
+      "tweetUrl": "https://x.com/thsottiaux/status/2081939918818025982",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.91,
       "createdAt": 1785302801342,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2078715394911875574",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1784437758077,
-      "inputTokens": 359,
-      "message": "",
-      "outputTokens": 72,
-      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-      "reasoningTokens": 28,
-      "totalTokens": 431,
-      "tweetId": "2078707865943207939",
-      "tweetText": "@bilaltwovec Do it",
-      "tweetUrl": "https://x.com/thsottiaux/status/2078707865943207939",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "PJi68oW3jRjDGteqznxE4vs42DDjrIAsRxJelRx7ngCTRBFgdoq_swMw_g",
-    "iv": "fYNRBbT2vXzzc2SE",
-    "tag": "pC1Q0uauIR24NjDTpZSJFQ",
+    "ciphertext": "D99ObfDxoDyhdR1LH3uNjSK2ZiDNJ5R8vNtfWRCTyO5SxYtdwwry16VazA",
+    "iv": "MNsHcji3eVfR5v9I",
+    "tag": "WiI28HjfQWoMOZTQwLBrBQ",
     "version": 1
   }
 }
