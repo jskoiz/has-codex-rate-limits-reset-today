@@ -14,18 +14,31 @@
   "updatedAt": 1785302566417,
   "automation": {
     "lastDecision": {
-      "confidence": 0.98,
-      "decidedAt": 1785302766863,
-      "rationale": "This reply is just a brief correction and does not mention limits, caps, or a reset.",
-      "tweetId": "2081866007422107897",
-      "tweetUrl": "https://x.com/thsottiaux/status/2081866007422107897",
+      "confidence": 0.99,
+      "decidedAt": 1785302771044,
+      "rationale": "This reply jokes about Codex adoption and does not mention limits or a reset.",
+      "tweetId": "2081866242718318707",
+      "tweetUrl": "https://x.com/thsottiaux/status/2081866242718318707",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2081866007422107897",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2081866007422107897",
+    "lastSeenTweetId": "2081866242718318707",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2081866242718318707",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1785302771044,
+        "inputTokens": 394,
+        "outputTokens": 123,
+        "rationale": "This reply jokes about Codex adoption and does not mention limits or a reset.",
+        "reasoningTokens": 79,
+        "totalTokens": 517,
+        "tweetId": "2081866242718318707",
+        "tweetText": "@RyanDetrick Trying to catch up with the Codex adoption curve",
+        "tweetUrl": "https://x.com/thsottiaux/status/2081866242718318707",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.98,
         "evaluatedAt": 1785302766863,
@@ -272,29 +285,31 @@
         "tweetText": "Never a dull moment when you work at OpenAI. Absolutely incredible place.",
         "tweetUrl": "https://x.com/thsottiaux/status/2079355529101705264",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1784521545029,
-        "inputTokens": 361,
-        "outputTokens": 92,
-        "rationale": "This reply is just a preference statement and does not mention any limit or reset.",
-        "reasoningTokens": 48,
-        "totalTokens": 453,
-        "tweetId": "2079058868584509528",
-        "tweetText": "@thepanta82 Codex is nicer",
-        "tweetUrl": "https://x.com/thsottiaux/status/2079058868584509528",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 396910,
-      "totalOutputTokens": 105918,
-      "totalReasoningTokens": 58050,
-      "totalTokens": 502828
+      "totalInputTokens": 397304,
+      "totalOutputTokens": 106041,
+      "totalReasoningTokens": 58129,
+      "totalTokens": 503345
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1785302771044,
+      "inputTokens": 394,
+      "message": "",
+      "outputTokens": 123,
+      "rationale": "This reply jokes about Codex adoption and does not mention limits or a reset.",
+      "reasoningTokens": 79,
+      "totalTokens": 517,
+      "tweetId": "2081866242718318707",
+      "tweetText": "@RyanDetrick Trying to catch up with the Codex adoption curve",
+      "tweetUrl": "https://x.com/thsottiaux/status/2081866242718318707",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.98,
       "createdAt": 1785302766863,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2078682677528625477",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1784431258135,
-      "inputTokens": 371,
-      "message": "",
-      "outputTokens": 78,
-      "rationale": "This reply discusses Codex being open source and does not mention limits or a reset.",
-      "reasoningTokens": 33,
-      "totalTokens": 449,
-      "tweetId": "2078680352198217913",
-      "tweetText": "@LukeDashjr @MysterE___ Codex is open source. Check out the repo",
-      "tweetUrl": "https://x.com/thsottiaux/status/2078680352198217913",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "-_s3nNfFHfsYCG1N9eIPTATl_6Di0OS3nTwQX__oknTH8PSRJ4GoZ-KaiQ",
-    "iv": "dDvoRyB26dFhH8Ro",
-    "tag": "kHRFeBL1QA9SlQM-yehJBg",
+    "ciphertext": "HZi7BTtpgkXAowu187cScioFgulhgbD97qllLFbuNOoN5-7p4SNQFYHbxg",
+    "iv": "TiKdwkLZIeiG8X3E",
+    "tag": "ttKNy_ElYcmqscOELpY5Eg",
     "version": 1
   }
 }
