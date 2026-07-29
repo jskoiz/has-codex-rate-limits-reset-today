@@ -14,18 +14,31 @@
   "updatedAt": 1785303373213,
   "automation": {
     "lastDecision": {
-      "confidence": 0.98,
-      "decidedAt": 1785303685360,
-      "rationale": "This is a nostalgic or promotional remark about a reset button, not an announcement that limits have reset now.",
-      "tweetId": "2082326593532473523",
-      "tweetUrl": "https://x.com/thsottiaux/status/2082326593532473523",
+      "confidence": 0.99,
+      "decidedAt": 1785303688205,
+      "rationale": "This reply is conversational and does not mention any limits or reset.",
+      "tweetId": "2082337830408454248",
+      "tweetUrl": "https://x.com/thsottiaux/status/2082337830408454248",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2082326593532473523",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2082326593532473523",
+    "lastSeenTweetId": "2082337830408454248",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2082337830408454248",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1785303688205,
+        "inputTokens": 406,
+        "outputTokens": 64,
+        "rationale": "This reply is conversational and does not mention any limits or reset.",
+        "reasoningTokens": 23,
+        "totalTokens": 470,
+        "tweetId": "2082337830408454248",
+        "tweetText": "@diligentium I see a Sol in your amazing profile https://t.co/5xe6XKXgzU",
+        "tweetUrl": "https://x.com/thsottiaux/status/2082337830408454248",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.98,
         "evaluatedAt": 1785303685360,
@@ -272,29 +285,31 @@
         "tweetText": "@RyanDetrick Trying to catch up with the Codex adoption curve",
         "tweetUrl": "https://x.com/thsottiaux/status/2081866242718318707",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.98,
-        "evaluatedAt": 1785302766863,
-        "inputTokens": 386,
-        "outputTokens": 117,
-        "rationale": "This reply is just a brief correction and does not mention limits, caps, or a reset.",
-        "reasoningTokens": 70,
-        "totalTokens": 503,
-        "tweetId": "2081866007422107897",
-        "tweetText": "@Angaisb_ wrong",
-        "tweetUrl": "https://x.com/thsottiaux/status/2081866007422107897",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 405041,
-      "totalOutputTokens": 107768,
-      "totalReasoningTokens": 59054,
-      "totalTokens": 512809
+      "totalInputTokens": 405447,
+      "totalOutputTokens": 107832,
+      "totalReasoningTokens": 59077,
+      "totalTokens": 513279
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1785303688205,
+      "inputTokens": 406,
+      "message": "",
+      "outputTokens": 64,
+      "rationale": "This reply is conversational and does not mention any limits or reset.",
+      "reasoningTokens": 23,
+      "totalTokens": 470,
+      "tweetId": "2082337830408454248",
+      "tweetText": "@diligentium I see a Sol in your amazing profile https://t.co/5xe6XKXgzU",
+      "tweetUrl": "https://x.com/thsottiaux/status/2082337830408454248",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.98,
       "createdAt": 1785303685360,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2079609157934886975",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1784610899881,
-      "inputTokens": 371,
-      "message": "",
-      "outputTokens": 69,
-      "rationale": "This reply is conversational and does not mention limits, caps, or usage resetting.",
-      "reasoningTokens": 25,
-      "totalTokens": 440,
-      "tweetId": "2079433708986319143",
-      "tweetText": "@Kappaemme1926 We are being very subtle. Use \"Approve for me\" instead.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2079433708986319143",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "Y6dY1sQl37QBgcDohrEug5OMu_yAUkSpcRFQrDRatZEvK-_Y6q8Cs4N4yw",
-    "iv": "-3bGMOBhXG9UhlOM",
-    "tag": "aKHWGywUUEmST2XUsDrPUg",
+    "ciphertext": "gqDgXA09PJ7zLWccTjOnAvmxeod96mUyNzYkXwF6NKYeB6c8nGPTsIO3zw",
+    "iv": "KMO7NHay-Avd6Ebl",
+    "tag": "CSVxLTxua9efOdKst1h9eQ",
     "version": 1
   }
 }
