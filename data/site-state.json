@@ -14,18 +14,38 @@
   "updatedAt": 1785302566417,
   "automation": {
     "lastDecision": {
-      "confidence": 0.96,
-      "decidedAt": 1785302797898,
-      "rationale": "This reply is conversational and does not say any limits or caps have reset.",
-      "tweetId": "2081898793335984499",
-      "tweetUrl": "https://x.com/thsottiaux/status/2081898793335984499",
-      "verdict": "not_reset"
+      "confidence": 0.91,
+      "decidedAt": 1785302801342,
+      "rationale": "He hints at a possible limit reset, but it is not explicit that limits are actually reset or available again now.",
+      "tweetId": "2081899343091843463",
+      "tweetUrl": "https://x.com/thsottiaux/status/2081899343091843463",
+      "verdict": "uncertain"
     },
     "lastError": null,
-    "lastSeenTweetId": "2081898793335984499",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2081898793335984499",
-    "pendingReview": null,
+    "lastSeenTweetId": "2081899343091843463",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2081899343091843463",
+    "pendingReview": {
+      "confidence": 0.91,
+      "createdAt": 1785302801342,
+      "rationale": "He hints at a possible limit reset, but it is not explicit that limits are actually reset or available again now.",
+      "tweetId": "2081899343091843463",
+      "tweetText": "We’re celebrating the fast adoption of chatGPT Work and all the incredible effort that went into it today. I’m feeling like a limit reset.\n\nHold on tight to your ultra and /fast and see you in a few hours when I’m back at the laptop!",
+      "tweetUrl": "https://x.com/thsottiaux/status/2081899343091843463"
+    },
     "recentEvaluations": [
+      {
+        "confidence": 0.91,
+        "evaluatedAt": 1785302801342,
+        "inputTokens": 435,
+        "outputTokens": 202,
+        "rationale": "He hints at a possible limit reset, but it is not explicit that limits are actually reset or available again now.",
+        "reasoningTokens": 151,
+        "totalTokens": 637,
+        "tweetId": "2081899343091843463",
+        "tweetText": "We’re celebrating the fast adoption of chatGPT Work and all the incredible effort that went into it today. I’m feeling like a limit reset.\n\nHold on tight to your ultra and /fast and see you in a few hours when I’m back at the laptop!",
+        "tweetUrl": "https://x.com/thsottiaux/status/2081899343091843463",
+        "verdict": "uncertain"
+      },
       {
         "confidence": 0.96,
         "evaluatedAt": 1785302797898,
@@ -272,29 +292,31 @@
         "tweetText": "How to put this🙈ChatGPT Work is available globally for all paid plans across mobile/web/desktop. Probably already on your phone.\n\nPuts a jetpack on your ChatGPT",
         "tweetUrl": "https://x.com/thsottiaux/status/2080876712439747052",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1785302560508,
-        "inputTokens": 463,
-        "outputTokens": 85,
-        "rationale": "This post is promotional about sharing custom pets and does not mention limits or a reset.",
-        "reasoningTokens": 40,
-        "totalTokens": 548,
-        "tweetId": "2080756403493560652",
-        "tweetText": "Show me your pet",
-        "tweetUrl": "https://x.com/thsottiaux/status/2080756403493560652",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 400039,
-      "totalOutputTokens": 106656,
-      "totalReasoningTokens": 58441,
-      "totalTokens": 506695
+      "totalInputTokens": 400474,
+      "totalOutputTokens": 106858,
+      "totalReasoningTokens": 58592,
+      "totalTokens": 507332
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.91,
+      "createdAt": 1785302801342,
+      "inputTokens": 435,
+      "message": "",
+      "outputTokens": 202,
+      "rationale": "He hints at a possible limit reset, but it is not explicit that limits are actually reset or available again now.",
+      "reasoningTokens": 151,
+      "totalTokens": 637,
+      "tweetId": "2081899343091843463",
+      "tweetText": "We’re celebrating the fast adoption of chatGPT Work and all the incredible effort that went into it today. I’m feeling like a limit reset.\n\nHold on tight to your ultra and /fast and see you in a few hours when I’m back at the laptop!",
+      "tweetUrl": "https://x.com/thsottiaux/status/2081899343091843463",
+      "type": "review_requested",
+      "verdict": "uncertain"
+    },
     {
       "confidence": 0.96,
       "createdAt": 1785302797898,
@@ -879,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2078707865943207939",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1784436509159,
-      "inputTokens": 700,
-      "message": "",
-      "outputTokens": 95,
-      "rationale": "This post is about using ChatGPT Work for DM triage and says nothing about limits or caps resetting.",
-      "reasoningTokens": 46,
-      "totalTokens": 795,
-      "tweetId": "2078702412085498087",
-      "tweetText": "What I just dictated into ChatGPT Work\n\n> Okay, so I received a lot of DMs for, I did a call out for ChatGPT Work, basically early access beta group. I want you to go through all my DMs on Twitter and then just take all of them that mention ChatGPT Work. It's like a lot of them, thousands, and put them all in a spreadsheet. What I want in the spreadsheet is the name, I want the link to the the DM, so I can go back to it quickly. I want the post that they did, but remove any new lines, so it's just in a single cell. And then I want a column which is basically your assessment of what they're doing, right? So for example, if it's like sales, put sales, if it's marketing, put marketing, if it's design, put design. Come up with your own taxonomy for how to classify their work. I expect the taxonomy to have like, you know, roughly 8 to 12 labels maybe, total. And then also put a rating for, like, they normally have to describe what they're currently doing with ChatGPT Work, use that to put a rating in the fifth column on how sophisticated their workflow already is. We're gonna be selecting a cohort of different people of different levels of sophistication, so we're gonna be like taking, you know, maybe like a couple dozens from like, a high level of sophistication, we're gonna take in the middle of a cohort, and then like low level of sophistication, so we have good representation and can test new features and get good feedback from a diverse group at different levels of adoption. So create that spreadsheet, go through all my DMs. Good luck!",
-      "tweetUrl": "https://x.com/thsottiaux/status/2078702412085498087",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "iQrlz8H7ebEcT35dpSlgy3QodHSatAEIXC98q9WGtX9prHdL_Vlgi6xKag",
-    "iv": "J2jaIut1SmVlcdOy",
-    "tag": "XwE2aNZ9uhkxcAxgdiggZQ",
+    "ciphertext": "PJi68oW3jRjDGteqznxE4vs42DDjrIAsRxJelRx7ngCTRBFgdoq_swMw_g",
+    "iv": "fYNRBbT2vXzzc2SE",
+    "tag": "pC1Q0uauIR24NjDTpZSJFQ",
     "version": 1
   }
 }
