@@ -14,18 +14,31 @@
   "updatedAt": 1785302566417,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1785302794582,
-      "rationale": "This reply is conversational and says nothing about limits or a reset.",
-      "tweetId": "2081895010191192491",
-      "tweetUrl": "https://x.com/thsottiaux/status/2081895010191192491",
+      "confidence": 0.96,
+      "decidedAt": 1785302797898,
+      "rationale": "This reply is conversational and does not say any limits or caps have reset.",
+      "tweetId": "2081898793335984499",
+      "tweetUrl": "https://x.com/thsottiaux/status/2081898793335984499",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2081895010191192491",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2081895010191192491",
+    "lastSeenTweetId": "2081898793335984499",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2081898793335984499",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.96,
+        "evaluatedAt": 1785302797898,
+        "inputTokens": 391,
+        "outputTokens": 133,
+        "rationale": "This reply is conversational and does not say any limits or caps have reset.",
+        "reasoningTokens": 90,
+        "totalTokens": 524,
+        "tweetId": "2081898793335984499",
+        "tweetText": "@blueemi99 I would totally announce it like that",
+        "tweetUrl": "https://x.com/thsottiaux/status/2081898793335984499",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1785302794582,
@@ -272,29 +285,31 @@
         "tweetText": "Show me your pet",
         "tweetUrl": "https://x.com/thsottiaux/status/2080756403493560652",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1785302557730,
-        "inputTokens": 392,
-        "outputTokens": 68,
-        "rationale": "This is just a naming question and says nothing about limits or resets.",
-        "reasoningTokens": 26,
-        "totalTokens": 460,
-        "tweetId": "2080543574211666029",
-        "tweetText": "Should we rename ChatGPT Work to ChatGPT Vibe?",
-        "tweetUrl": "https://x.com/thsottiaux/status/2080543574211666029",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 399648,
-      "totalOutputTokens": 106523,
-      "totalReasoningTokens": 58351,
-      "totalTokens": 506171
+      "totalInputTokens": 400039,
+      "totalOutputTokens": 106656,
+      "totalReasoningTokens": 58441,
+      "totalTokens": 506695
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.96,
+      "createdAt": 1785302797898,
+      "inputTokens": 391,
+      "message": "",
+      "outputTokens": 133,
+      "rationale": "This reply is conversational and does not say any limits or caps have reset.",
+      "reasoningTokens": 90,
+      "totalTokens": 524,
+      "tweetId": "2081898793335984499",
+      "tweetText": "@blueemi99 I would totally announce it like that",
+      "tweetUrl": "https://x.com/thsottiaux/status/2081898793335984499",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1785302794582,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2078702412085498087",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1784435264836,
-      "inputTokens": 375,
-      "message": "",
-      "outputTokens": 106,
-      "rationale": "This is just a conversational remark about using ChatGPT Work, not about limits or a reset.",
-      "reasoningTokens": 59,
-      "totalTokens": 481,
-      "tweetId": "2078697741455356367",
-      "tweetText": "My job is basically delegating to ChatGPT Work now. Can't stop using dictation and have it do everything",
-      "tweetUrl": "https://x.com/thsottiaux/status/2078697741455356367",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "RVlOSlrduncCzu06uZFdETt6LF0yBX-pwvsUwlTl8dXVhGRxA-A6gNGaGw",
-    "iv": "SRoIHUzQd1WjSou_",
-    "tag": "qSO1Jxw6ZLZITj8HkCZhIg",
+    "ciphertext": "iQrlz8H7ebEcT35dpSlgy3QodHSatAEIXC98q9WGtX9prHdL_Vlgi6xKag",
+    "iv": "J2jaIut1SmVlcdOy",
+    "tag": "XwE2aNZ9uhkxcAxgdiggZQ",
     "version": 1
   }
 }
