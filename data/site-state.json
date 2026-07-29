@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1785303357745,
-      "rationale": "This reply is conversational and says nothing about limits or resets.",
-      "tweetId": "2081978301703422280",
-      "tweetUrl": "https://x.com/thsottiaux/status/2081978301703422280",
+      "decidedAt": 1785303361221,
+      "rationale": "This post is just a personal update about taking a break and does not mention limits or resets.",
+      "tweetId": "2081979033261412537",
+      "tweetUrl": "https://x.com/thsottiaux/status/2081979033261412537",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2081978301703422280",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2081978301703422280",
+    "lastSeenTweetId": "2081979033261412537",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2081979033261412537",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1785303361221,
+        "inputTokens": 417,
+        "outputTokens": 71,
+        "rationale": "This post is just a personal update about taking a break and does not mention limits or resets.",
+        "reasoningTokens": 24,
+        "totalTokens": 488,
+        "tweetId": "2081979033261412537",
+        "tweetText": "Update. I have decided to take a break from x to recharge a bit. See you back tomorrow for more ChatGPT and Codex fun. It's going to be a fun week.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2081979033261412537",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1785303357745,
@@ -272,29 +285,31 @@
         "tweetText": "It was always possible to speak to your computer. It wouldn’t do much in return. But we fixed that bug.",
         "tweetUrl": "https://x.com/thsottiaux/status/2081254182502465981",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1785302746370,
-        "inputTokens": 491,
-        "outputTokens": 90,
-        "rationale": "This post is a product comment about ChatGPT Work agent features, not a limit or cap reset.",
-        "reasoningTokens": 42,
-        "totalTokens": 581,
-        "tweetId": "2081229262452097169",
-        "tweetText": "Game changer when used from mobile. Available in the ChatGPT app already.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2081229262452097169",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 401749,
-      "totalOutputTokens": 107191,
-      "totalReasoningTokens": 58792,
-      "totalTokens": 508940
+      "totalInputTokens": 402166,
+      "totalOutputTokens": 107262,
+      "totalReasoningTokens": 58816,
+      "totalTokens": 509428
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1785303361221,
+      "inputTokens": 417,
+      "message": "",
+      "outputTokens": 71,
+      "rationale": "This post is just a personal update about taking a break and does not mention limits or resets.",
+      "reasoningTokens": 24,
+      "totalTokens": 488,
+      "tweetId": "2081979033261412537",
+      "tweetText": "Update. I have decided to take a break from x to recharge a bit. See you back tomorrow for more ChatGPT and Codex fun. It's going to be a fun week.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2081979033261412537",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1785303357745,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2079048947411374554",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.98,
-      "createdAt": 1784492120496,
-      "inputTokens": 368,
-      "message": "",
-      "outputTokens": 101,
-      "rationale": "This reply only mentions filtering for the word \"reset\" and does not say any limit has reset.",
-      "reasoningTokens": 53,
-      "totalTokens": 469,
-      "tweetId": "2078936647518097638",
-      "tweetText": "@melvynx I have a filter on the word reset, worry not",
-      "tweetUrl": "https://x.com/thsottiaux/status/2078936647518097638",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "RdJrTqbjHs8V2CqVFwSpqqEtdDne6UOZ0O4uBpsPegCkm5NwSmaF2FBM4A",
-    "iv": "WKxDpItHcTyAYT0n",
-    "tag": "F2i7qqTzld-wcAOOFLpJmw",
+    "ciphertext": "50uyn9N0H5QNEsOjkwWsi6bqHXz_abeWyW3P4Gl3LQEu7Ogd0CgMdZSEbA",
+    "iv": "CE-AXyBvBsVaItzF",
+    "tag": "V7-82MX_vTM5t5vA8oC82w",
     "version": 1
   }
 }
