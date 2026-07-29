@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1785302749688,
-      "rationale": "This post and its quoted tweet promote ChatGPT Voice on desktop, not a rate-limit or usage reset.",
-      "tweetId": "2081254182502465981",
-      "tweetUrl": "https://x.com/thsottiaux/status/2081254182502465981",
+      "decidedAt": 1785302752546,
+      "rationale": "This post promotes ChatGPT capabilities and does not mention limits, caps, or a reset.",
+      "tweetId": "2081444811647963244",
+      "tweetUrl": "https://x.com/thsottiaux/status/2081444811647963244",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2081254182502465981",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2081254182502465981",
+    "lastSeenTweetId": "2081444811647963244",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2081444811647963244",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1785302752546,
+        "inputTokens": 609,
+        "outputTokens": 79,
+        "rationale": "This post promotes ChatGPT capabilities and does not mention limits, caps, or a reset.",
+        "reasoningTokens": 33,
+        "totalTokens": 688,
+        "tweetId": "2081444811647963244",
+        "tweetText": "Let ChatGPT *work* for you. How many time have you wanted to negotiate your internet bill, get rid of all those spam emails you’re subscribed to, or find the perfect deal for something you wanted to do or buy. It’s quite literally just one prompt away, all from the comfort of your phone. It does at least 20 things for me every single day and I’m still surprised.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2081444811647963244",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1785302749688,
@@ -272,29 +285,31 @@
         "tweetText": "@melvynx I have a filter on the word reset, worry not",
         "tweetUrl": "https://x.com/thsottiaux/status/2078936647518097638",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1784443017945,
-        "inputTokens": 363,
-        "outputTokens": 75,
-        "rationale": "This reply is just conversational and does not mention any limits, caps, or reset.",
-        "reasoningTokens": 30,
-        "totalTokens": 438,
-        "tweetId": "2078729835762122762",
-        "tweetText": "@melvynx Did Codex do the math?",
-        "tweetUrl": "https://x.com/thsottiaux/status/2078729835762122762",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 394263,
-      "totalOutputTokens": 105405,
-      "totalReasoningTokens": 57814,
-      "totalTokens": 499668
+      "totalInputTokens": 394872,
+      "totalOutputTokens": 105484,
+      "totalReasoningTokens": 57847,
+      "totalTokens": 500356
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1785302752546,
+      "inputTokens": 609,
+      "message": "",
+      "outputTokens": 79,
+      "rationale": "This post promotes ChatGPT capabilities and does not mention limits, caps, or a reset.",
+      "reasoningTokens": 33,
+      "totalTokens": 688,
+      "tweetId": "2081444811647963244",
+      "tweetText": "Let ChatGPT *work* for you. How many time have you wanted to negotiate your internet bill, get rid of all those spam emails you’re subscribed to, or find the perfect deal for something you wanted to do or buy. It’s quite literally just one prompt away, all from the comfort of your phone. It does at least 20 things for me every single day and I’m still surprised.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2081444811647963244",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1785302749688,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2078648082821243022",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1784423484443,
-      "inputTokens": 358,
-      "message": "",
-      "outputTokens": 74,
-      "rationale": "This is just a casual reply and says nothing about limits or resets.",
-      "reasoningTokens": 32,
-      "totalTokens": 432,
-      "tweetId": "2078647895985971582",
-      "tweetText": "@Marvinma12 Haha",
-      "tweetUrl": "https://x.com/thsottiaux/status/2078647895985971582",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "1mdQSgMIuKJrAmDi3v9lf9W2bbvIMdg9npIrtzl1wlT94bzEzDGdt01fbA",
-    "iv": "ClYhJR8x7y4OqKNd",
-    "tag": "FscJjYbHBj0ND3TQ055lZQ",
+    "ciphertext": "hz-EqkUbwg6ll7FVrwXfSXIkNsH-2dRed6gkem0SoAwPigJrh_RLcz9Avg",
+    "iv": "E5BWbMnIR0sRXaDI",
+    "tag": "hzRknAxwuyt1LUlzHWlDPg",
     "version": 1
   }
 }
