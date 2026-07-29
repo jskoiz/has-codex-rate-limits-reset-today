@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1785303688205,
-      "rationale": "This reply is conversational and does not mention any limits or reset.",
-      "tweetId": "2082337830408454248",
-      "tweetUrl": "https://x.com/thsottiaux/status/2082337830408454248",
+      "decidedAt": 1785303691170,
+      "rationale": "This reply is just asking for more information and does not say limits have reset.",
+      "tweetId": "2082338260181983532",
+      "tweetUrl": "https://x.com/thsottiaux/status/2082338260181983532",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2082337830408454248",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2082337830408454248",
+    "lastSeenTweetId": "2082338260181983532",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2082338260181983532",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1785303691170,
+        "inputTokens": 393,
+        "outputTokens": 110,
+        "rationale": "This reply is just asking for more information and does not say limits have reset.",
+        "reasoningTokens": 66,
+        "totalTokens": 503,
+        "tweetId": "2082338260181983532",
+        "tweetText": "@gmbueno Haven't seen that. Where is that?",
+        "tweetUrl": "https://x.com/thsottiaux/status/2082338260181983532",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1785303688205,
@@ -272,29 +285,31 @@
         "tweetText": "@Antreges @trueadm Tibo = Impressed",
         "tweetUrl": "https://x.com/thsottiaux/status/2081867598787191007",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1785302771044,
-        "inputTokens": 394,
-        "outputTokens": 123,
-        "rationale": "This reply jokes about Codex adoption and does not mention limits or a reset.",
-        "reasoningTokens": 79,
-        "totalTokens": 517,
-        "tweetId": "2081866242718318707",
-        "tweetText": "@RyanDetrick Trying to catch up with the Codex adoption curve",
-        "tweetUrl": "https://x.com/thsottiaux/status/2081866242718318707",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 405447,
-      "totalOutputTokens": 107832,
-      "totalReasoningTokens": 59077,
-      "totalTokens": 513279
+      "totalInputTokens": 405840,
+      "totalOutputTokens": 107942,
+      "totalReasoningTokens": 59143,
+      "totalTokens": 513782
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1785303691170,
+      "inputTokens": 393,
+      "message": "",
+      "outputTokens": 110,
+      "rationale": "This reply is just asking for more information and does not say limits have reset.",
+      "reasoningTokens": 66,
+      "totalTokens": 503,
+      "tweetId": "2082338260181983532",
+      "tweetText": "@gmbueno Haven't seen that. Where is that?",
+      "tweetUrl": "https://x.com/thsottiaux/status/2082338260181983532",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1785303688205,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2079609359085289538",
       "type": "review_requested",
       "verdict": "uncertain"
-    },
-    {
-      "confidence": 0.95,
-      "createdAt": 1784652516095,
-      "inputTokens": 396,
-      "message": "",
-      "outputTokens": 189,
-      "rationale": "It announces a reset coming in the next hour, not that limits have reset already.",
-      "reasoningTokens": 144,
-      "totalTokens": 585,
-      "tweetId": "2079609157934886975",
-      "tweetText": "10M! \n\nNew day, new usage reset for paid users of Codex and ChatGPT Work. Lands in the next hour. Enjoy. https://t.co/VUJ4S3vKDG",
-      "tweetUrl": "https://x.com/thsottiaux/status/2079609157934886975",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "gqDgXA09PJ7zLWccTjOnAvmxeod96mUyNzYkXwF6NKYeB6c8nGPTsIO3zw",
-    "iv": "KMO7NHay-Avd6Ebl",
-    "tag": "CSVxLTxua9efOdKst1h9eQ",
+    "ciphertext": "FZcTrPQKd1Hstnc_Qvi03Io-gqfzjQLxLkuY8T3lIxfwOYys-OZDdtUmBQ",
+    "iv": "DHUjQ4lkZxuSzCLA",
+    "tag": "A_bEMSw-4G2cBp7U33EJhw",
     "version": 1
   }
 }
