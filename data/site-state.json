@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1785359728518,
-      "rationale": "This is a reaction to a researcher-access announcement, not a statement that limits have reset.",
-      "tweetId": "2082574687020966126",
-      "tweetUrl": "https://x.com/thsottiaux/status/2082574687020966126",
+      "decidedAt": 1785360649269,
+      "rationale": "This post and its quoted tweet discuss efficiency improvements, not any limit or rate-cap reset.",
+      "tweetId": "2082578335167807775",
+      "tweetUrl": "https://x.com/thsottiaux/status/2082578335167807775",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2082574687020966126",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2082574687020966126",
+    "lastSeenTweetId": "2082578335167807775",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2082578335167807775",
     "pendingReview": {
       "confidence": 0.75,
       "createdAt": 1785303986183,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2082340992871760182"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1785360649269,
+        "inputTokens": 521,
+        "outputTokens": 105,
+        "rationale": "This post and its quoted tweet discuss efficiency improvements, not any limit or rate-cap reset.",
+        "reasoningTokens": 59,
+        "totalTokens": 626,
+        "tweetId": "2082578335167807775",
+        "tweetText": "Efficiency! \n\nIn two steps\na) Train fantastic model\nb) Use fantastic model to make everything better, including its own infrastructure, inference stack, kernels, etc, etc\n\nhttps://t.co/kGtmX3LAow",
+        "tweetUrl": "https://x.com/thsottiaux/status/2082578335167807775",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1785359728518,
@@ -279,29 +292,31 @@
         "tweetText": "@federicomobilia Discerning",
         "tweetUrl": "https://x.com/thsottiaux/status/2081876970393198604",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1785302789456,
-        "inputTokens": 388,
-        "outputTokens": 68,
-        "rationale": "This reply is just asking a question and does not indicate any limit reset.",
-        "reasoningTokens": 25,
-        "totalTokens": 456,
-        "tweetId": "2081876686787019010",
-        "tweetText": "@HamelHusain What happened?",
-        "tweetUrl": "https://x.com/thsottiaux/status/2081876686787019010",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 407105,
-      "totalOutputTokens": 108409,
-      "totalReasoningTokens": 59471,
-      "totalTokens": 515514
+      "totalInputTokens": 407626,
+      "totalOutputTokens": 108514,
+      "totalReasoningTokens": 59530,
+      "totalTokens": 516140
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1785360649269,
+      "inputTokens": 521,
+      "message": "",
+      "outputTokens": 105,
+      "rationale": "This post and its quoted tweet discuss efficiency improvements, not any limit or rate-cap reset.",
+      "reasoningTokens": 59,
+      "totalTokens": 626,
+      "tweetId": "2082578335167807775",
+      "tweetText": "Efficiency! \n\nIn two steps\na) Train fantastic model\nb) Use fantastic model to make everything better, including its own infrastructure, inference stack, kernels, etc, etc\n\nhttps://t.co/kGtmX3LAow",
+      "tweetUrl": "https://x.com/thsottiaux/status/2082578335167807775",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1785359728518,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2080408012515340394",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0,
-      "createdAt": 1785011881336,
-      "inputTokens": 0,
-      "message": "Tweet fetch failed: Tweet search failed: Unknown error; timeline fallback failed: Unknown error (Unknown error) (Tweet search failed: Unknown error; timeline fallback failed: Unknown error)",
-      "outputTokens": 0,
-      "rationale": "",
-      "reasoningTokens": 0,
-      "totalTokens": 0,
-      "tweetId": null,
-      "tweetText": "",
-      "tweetUrl": null,
-      "type": "error",
-      "verdict": null
     }
   ],
   "privateState": {
-    "ciphertext": "2orGDUinomLWp_sMowZYwlK1jW02fozpJpMlmetpycIgfb2gssLcv_k40w",
-    "iv": "5jO5bNKvcbIGy64k",
-    "tag": "Aas7EpMngRzYfImHUr_eeQ",
+    "ciphertext": "xAXX_AGsy0yHsLrkR07e_HAcQjQNv8ycjYoXnGjfDpxGjrIehY95UtqI_A",
+    "iv": "AFRqh5qtYewHHsil",
+    "tag": "JfvZXllRbgZvPb6TVsawvQ",
     "version": 1
   }
 }
