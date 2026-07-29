@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1785302771044,
-      "rationale": "This reply jokes about Codex adoption and does not mention limits or a reset.",
-      "tweetId": "2081866242718318707",
-      "tweetUrl": "https://x.com/thsottiaux/status/2081866242718318707",
+      "decidedAt": 1785302773924,
+      "rationale": "This reply is conversational and says nothing about limits, caps, or a reset.",
+      "tweetId": "2081867598787191007",
+      "tweetUrl": "https://x.com/thsottiaux/status/2081867598787191007",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2081866242718318707",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2081866242718318707",
+    "lastSeenTweetId": "2081867598787191007",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2081867598787191007",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1785302773924,
+        "inputTokens": 392,
+        "outputTokens": 99,
+        "rationale": "This reply is conversational and says nothing about limits, caps, or a reset.",
+        "reasoningTokens": 55,
+        "totalTokens": 491,
+        "tweetId": "2081867598787191007",
+        "tweetText": "@Antreges @trueadm Tibo = Impressed",
+        "tweetUrl": "https://x.com/thsottiaux/status/2081867598787191007",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1785302771044,
@@ -272,29 +285,31 @@
         "tweetText": "@Kappaemme1926 We are being very subtle. Use \"Approve for me\" instead.",
         "tweetUrl": "https://x.com/thsottiaux/status/2079433708986319143",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1784592245986,
-        "inputTokens": 367,
-        "outputTokens": 70,
-        "rationale": "This is a general comment about working at OpenAI and does not mention limits or a reset.",
-        "reasoningTokens": 23,
-        "totalTokens": 437,
-        "tweetId": "2079355529101705264",
-        "tweetText": "Never a dull moment when you work at OpenAI. Absolutely incredible place.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2079355529101705264",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 397304,
-      "totalOutputTokens": 106041,
-      "totalReasoningTokens": 58129,
-      "totalTokens": 503345
+      "totalInputTokens": 397696,
+      "totalOutputTokens": 106140,
+      "totalReasoningTokens": 58184,
+      "totalTokens": 503836
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1785302773924,
+      "inputTokens": 392,
+      "message": "",
+      "outputTokens": 99,
+      "rationale": "This reply is conversational and says nothing about limits, caps, or a reset.",
+      "reasoningTokens": 55,
+      "totalTokens": 491,
+      "tweetId": "2081867598787191007",
+      "tweetText": "@Antreges @trueadm Tibo = Impressed",
+      "tweetUrl": "https://x.com/thsottiaux/status/2081867598787191007",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1785302771044,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2078684299390488757",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.98,
-      "createdAt": 1784431588097,
-      "inputTokens": 372,
-      "message": "",
-      "outputTokens": 152,
-      "rationale": "This reply only says where to find something and does not indicate any rate limit or usage reset.",
-      "reasoningTokens": 105,
-      "totalTokens": 524,
-      "tweetId": "2078682677528625477",
-      "tweetText": "@jonathanroomer Under ‘+’ https://t.co/kkKG7Ymrmy",
-      "tweetUrl": "https://x.com/thsottiaux/status/2078682677528625477",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "HZi7BTtpgkXAowu187cScioFgulhgbD97qllLFbuNOoN5-7p4SNQFYHbxg",
-    "iv": "TiKdwkLZIeiG8X3E",
-    "tag": "ttKNy_ElYcmqscOELpY5Eg",
+    "ciphertext": "ETqKmyvaqhnUKA63Oy-RqSyqBvyP2ApLOMfjyn8Vc823Dc0CC4D5EePHWQ",
+    "iv": "ixL-5bRASGnj_jbm",
+    "tag": "uyyXQqysSGiK1ahhersGdw",
     "version": 1
   }
 }
