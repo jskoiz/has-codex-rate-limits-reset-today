@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1785302752546,
-      "rationale": "This post promotes ChatGPT capabilities and does not mention limits, caps, or a reset.",
-      "tweetId": "2081444811647963244",
-      "tweetUrl": "https://x.com/thsottiaux/status/2081444811647963244",
+      "decidedAt": 1785302755162,
+      "rationale": "This is a general comment about OpenAI and does not mention any limit, cap, or reset.",
+      "tweetId": "2081534792903147881",
+      "tweetUrl": "https://x.com/thsottiaux/status/2081534792903147881",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2081444811647963244",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2081444811647963244",
+    "lastSeenTweetId": "2081534792903147881",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2081534792903147881",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1785302755162,
+        "inputTokens": 394,
+        "outputTokens": 84,
+        "rationale": "This is a general comment about OpenAI and does not mention any limit, cap, or reset.",
+        "reasoningTokens": 36,
+        "totalTokens": 478,
+        "tweetId": "2081534792903147881",
+        "tweetText": "Vibes are strong. Never seen OpenAI more focused and humming.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2081534792903147881",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1785302752546,
@@ -272,29 +285,31 @@
         "tweetText": "@charliermarsh Well… can you stop doing that Charlie",
         "tweetUrl": "https://x.com/thsottiaux/status/2079048947411374554",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.98,
-        "evaluatedAt": 1784492120496,
-        "inputTokens": 368,
-        "outputTokens": 101,
-        "rationale": "This reply only mentions filtering for the word \"reset\" and does not say any limit has reset.",
-        "reasoningTokens": 53,
-        "totalTokens": 469,
-        "tweetId": "2078936647518097638",
-        "tweetText": "@melvynx I have a filter on the word reset, worry not",
-        "tweetUrl": "https://x.com/thsottiaux/status/2078936647518097638",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 394872,
-      "totalOutputTokens": 105484,
-      "totalReasoningTokens": 57847,
-      "totalTokens": 500356
+      "totalInputTokens": 395266,
+      "totalOutputTokens": 105568,
+      "totalReasoningTokens": 57883,
+      "totalTokens": 500834
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1785302755162,
+      "inputTokens": 394,
+      "message": "",
+      "outputTokens": 84,
+      "rationale": "This is a general comment about OpenAI and does not mention any limit, cap, or reset.",
+      "reasoningTokens": 36,
+      "totalTokens": 478,
+      "tweetId": "2081534792903147881",
+      "tweetText": "Vibes are strong. Never seen OpenAI more focused and humming.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2081534792903147881",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1785302752546,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2078648453786390957",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1784423486888,
-      "inputTokens": 360,
-      "message": "",
-      "outputTokens": 67,
-      "rationale": "This reply is conversational and does not indicate any rate limit or cap has reset.",
-      "reasoningTokens": 23,
-      "totalTokens": 427,
-      "tweetId": "2078648082821243022",
-      "tweetText": "@jonathanroomer Tell me more",
-      "tweetUrl": "https://x.com/thsottiaux/status/2078648082821243022",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "hz-EqkUbwg6ll7FVrwXfSXIkNsH-2dRed6gkem0SoAwPigJrh_RLcz9Avg",
-    "iv": "E5BWbMnIR0sRXaDI",
-    "tag": "hzRknAxwuyt1LUlzHWlDPg",
+    "ciphertext": "Nr21E96RJo96soux8_0RO4n3CjYkcvFo1GdaLt6MNQs73eev65JPjTwt-g",
+    "iv": "eogfnVP1Dveu8Bix",
+    "tag": "As0hTPdFMFB4HpbpDe_sYA",
     "version": 1
   }
 }
