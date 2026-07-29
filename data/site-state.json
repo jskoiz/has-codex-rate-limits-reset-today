@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1785302746370,
-      "rationale": "This post is a product comment about ChatGPT Work agent features, not a limit or cap reset.",
-      "tweetId": "2081229262452097169",
-      "tweetUrl": "https://x.com/thsottiaux/status/2081229262452097169",
+      "decidedAt": 1785302749688,
+      "rationale": "This post and its quoted tweet promote ChatGPT Voice on desktop, not a rate-limit or usage reset.",
+      "tweetId": "2081254182502465981",
+      "tweetUrl": "https://x.com/thsottiaux/status/2081254182502465981",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2081229262452097169",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2081229262452097169",
+    "lastSeenTweetId": "2081254182502465981",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2081254182502465981",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1785302749688,
+        "inputTokens": 500,
+        "outputTokens": 117,
+        "rationale": "This post and its quoted tweet promote ChatGPT Voice on desktop, not a rate-limit or usage reset.",
+        "reasoningTokens": 68,
+        "totalTokens": 617,
+        "tweetId": "2081254182502465981",
+        "tweetText": "It was always possible to speak to your computer. It wouldn’t do much in return. But we fixed that bug.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2081254182502465981",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1785302746370,
@@ -272,29 +285,31 @@
         "tweetText": "@melvynx Did Codex do the math?",
         "tweetUrl": "https://x.com/thsottiaux/status/2078729835762122762",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1784439613091,
-        "inputTokens": 367,
-        "outputTokens": 81,
-        "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-        "reasoningTokens": 37,
-        "totalTokens": 448,
-        "tweetId": "2078715394911875574",
-        "tweetText": "@cjzafir @OpenAI Do I have your permission to change it?",
-        "tweetUrl": "https://x.com/thsottiaux/status/2078715394911875574",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 393763,
-      "totalOutputTokens": 105288,
-      "totalReasoningTokens": 57746,
-      "totalTokens": 499051
+      "totalInputTokens": 394263,
+      "totalOutputTokens": 105405,
+      "totalReasoningTokens": 57814,
+      "totalTokens": 499668
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1785302749688,
+      "inputTokens": 500,
+      "message": "",
+      "outputTokens": 117,
+      "rationale": "This post and its quoted tweet promote ChatGPT Voice on desktop, not a rate-limit or usage reset.",
+      "reasoningTokens": 68,
+      "totalTokens": 617,
+      "tweetId": "2081254182502465981",
+      "tweetText": "It was always possible to speak to your computer. It wouldn’t do much in return. But we fixed that bug.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2081254182502465981",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1785302746370,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2078647895985971582",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1784423191229,
-      "inputTokens": 371,
-      "message": "",
-      "outputTokens": 89,
-      "rationale": "This reply discusses a paid ChatGPT subscription option, not a rate-limit or usage reset.",
-      "reasoningTokens": 43,
-      "totalTokens": 460,
-      "tweetId": "2078647284380885354",
-      "tweetText": "@Rishet11 You’re looking for ChatGPT Work, it’s part of the paid subscriptions",
-      "tweetUrl": "https://x.com/thsottiaux/status/2078647284380885354",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "J5AuahwZrAsPZ7aQ4K9sUv4R9_hjAorV_lv2nQZEx0duxNjHMFWKetlmdw",
-    "iv": "xOeAUJSXZPFt9ekX",
-    "tag": "K79OFXoc571W6q-LIV1KtQ",
+    "ciphertext": "1mdQSgMIuKJrAmDi3v9lf9W2bbvIMdg9npIrtzl1wlT94bzEzDGdt01fbA",
+    "iv": "ClYhJR8x7y4OqKNd",
+    "tag": "FscJjYbHBj0ND3TQ055lZQ",
     "version": 1
   }
 }
