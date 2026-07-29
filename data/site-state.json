@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1785302791876,
-      "rationale": "This reply is conversational and does not mention any limit, cap, or reset.",
-      "tweetId": "2081876970393198604",
-      "tweetUrl": "https://x.com/thsottiaux/status/2081876970393198604",
+      "decidedAt": 1785302794582,
+      "rationale": "This reply is conversational and says nothing about limits or a reset.",
+      "tweetId": "2081895010191192491",
+      "tweetUrl": "https://x.com/thsottiaux/status/2081895010191192491",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2081876970393198604",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2081876970393198604",
+    "lastSeenTweetId": "2081895010191192491",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2081895010191192491",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1785302794582,
+        "inputTokens": 388,
+        "outputTokens": 55,
+        "rationale": "This reply is conversational and says nothing about limits or a reset.",
+        "reasoningTokens": 14,
+        "totalTokens": 443,
+        "tweetId": "2081895010191192491",
+        "tweetText": "@theo Come back to papa Sol",
+        "tweetUrl": "https://x.com/thsottiaux/status/2081895010191192491",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1785302791876,
@@ -272,29 +285,31 @@
         "tweetText": "Should we rename ChatGPT Work to ChatGPT Vibe?",
         "tweetUrl": "https://x.com/thsottiaux/status/2080543574211666029",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1785302554390,
-        "inputTokens": 405,
-        "outputTokens": 39,
-        "rationale": "This is a recruiting statement and does not mention limits or resets.",
-        "reasoningTokens": 0,
-        "totalTokens": 444,
-        "tweetId": "2080537149204758689",
-        "tweetText": "From Science Fiction to Science Reality. Join the team if you want to work on some of the coolest and most impactful technology.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2080537149204758689",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 399260,
-      "totalOutputTokens": 106468,
-      "totalReasoningTokens": 58337,
-      "totalTokens": 505728
+      "totalInputTokens": 399648,
+      "totalOutputTokens": 106523,
+      "totalReasoningTokens": 58351,
+      "totalTokens": 506171
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1785302794582,
+      "inputTokens": 388,
+      "message": "",
+      "outputTokens": 55,
+      "rationale": "This reply is conversational and says nothing about limits or a reset.",
+      "reasoningTokens": 14,
+      "totalTokens": 443,
+      "tweetId": "2081895010191192491",
+      "tweetText": "@theo Come back to papa Sol",
+      "tweetUrl": "https://x.com/thsottiaux/status/2081895010191192491",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1785302791876,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2078697741455356367",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1784435261970,
-      "inputTokens": 422,
-      "message": "",
-      "outputTokens": 76,
-      "rationale": "This is a promotional feature list and does not mention any rate limit or cap reset.",
-      "reasoningTokens": 31,
-      "totalTokens": 498,
-      "tweetId": "2078697631019303273",
-      "tweetText": "ChatGPT Work is for\n\n✅ Creating and hosting sites\n✅ Managing your emails for you\n✅ Summarizing mountains of documents\n✅ Creating top-notch docs, sheet and slides\n\nAlready in your mobile app or on https://t.co/WtXdTqu9lT, included in Plus, Pro, Business and Enterprise plans",
-      "tweetUrl": "https://x.com/thsottiaux/status/2078697631019303273",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "FU6tI-AsiUhT6hn7M8V6go_xzHZYDv6ocNzA7JB4L1vBg-7RFQtlsm0OJg",
-    "iv": "jYQbehga1w6uc7Y-",
-    "tag": "riNxSJDyeuyuo7yGssK_kQ",
+    "ciphertext": "RVlOSlrduncCzu06uZFdETt6LF0yBX-pwvsUwlTl8dXVhGRxA-A6gNGaGw",
+    "iv": "SRoIHUzQd1WjSou_",
+    "tag": "qSO1Jxw6ZLZITj8HkCZhIg",
     "version": 1
   }
 }
