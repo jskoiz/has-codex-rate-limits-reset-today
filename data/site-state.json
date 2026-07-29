@@ -14,16 +14,16 @@
   "updatedAt": 1785303373213,
   "automation": {
     "lastDecision": {
-      "confidence": 0.75,
-      "decidedAt": 1785303986183,
-      "rationale": "This reply suggests something is restored, but it does not explicitly say Codex or ChatGPT limits reset.",
-      "tweetId": "2082340992871760182",
-      "tweetUrl": "https://x.com/thsottiaux/status/2082340992871760182",
-      "verdict": "uncertain"
+      "confidence": 0.99,
+      "decidedAt": 1785304293062,
+      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+      "tweetId": "2082341416681001277",
+      "tweetUrl": "https://x.com/thsottiaux/status/2082341416681001277",
+      "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2082340992871760182",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2082340992871760182",
+    "lastSeenTweetId": "2082341416681001277",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2082341416681001277",
     "pendingReview": {
       "confidence": 0.75,
       "createdAt": 1785303986183,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2082340992871760182"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1785304293062,
+        "inputTokens": 391,
+        "outputTokens": 106,
+        "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+        "reasoningTokens": 62,
+        "totalTokens": 497,
+        "tweetId": "2082341416681001277",
+        "tweetText": "@rezoundous I read your tweets and decide accordingly",
+        "tweetUrl": "https://x.com/thsottiaux/status/2082341416681001277",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.75,
         "evaluatedAt": 1785303986183,
@@ -279,29 +292,31 @@
         "tweetText": "@Angaisb_ Something something performance and efficiency",
         "tweetUrl": "https://x.com/thsottiaux/status/2081868133032444306",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1785302783650,
-        "inputTokens": 398,
-        "outputTokens": 102,
-        "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-        "reasoningTokens": 58,
-        "totalTokens": 500,
-        "tweetId": "2081868033765822892",
-        "tweetText": "@theo Deleting it one feature at a time seems like a solid *plan*",
-        "tweetUrl": "https://x.com/thsottiaux/status/2081868033765822892",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 406236,
-      "totalOutputTokens": 108202,
-      "totalReasoningTokens": 59354,
-      "totalTokens": 514438
+      "totalInputTokens": 406627,
+      "totalOutputTokens": 108308,
+      "totalReasoningTokens": 59416,
+      "totalTokens": 514935
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1785304293062,
+      "inputTokens": 391,
+      "message": "",
+      "outputTokens": 106,
+      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+      "reasoningTokens": 62,
+      "totalTokens": 497,
+      "tweetId": "2082341416681001277",
+      "tweetText": "@rezoundous I read your tweets and decide accordingly",
+      "tweetUrl": "https://x.com/thsottiaux/status/2082341416681001277",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.75,
       "createdAt": 1785303986183,
@@ -886,27 +901,12 @@
       "tweetUrl": null,
       "type": "error",
       "verdict": null
-    },
-    {
-      "confidence": 0,
-      "createdAt": 1784890624439,
-      "inputTokens": 0,
-      "message": "fetch failed (Connect Timeout Error (attempted address: api.github.com:443, timeout: 10000ms))",
-      "outputTokens": 0,
-      "rationale": "",
-      "reasoningTokens": 0,
-      "totalTokens": 0,
-      "tweetId": null,
-      "tweetText": "",
-      "tweetUrl": null,
-      "type": "error",
-      "verdict": null
     }
   ],
   "privateState": {
-    "ciphertext": "F8gMT12UZL0FPpC7DakQvMHKQ8MBqhz0yXwrKEPA_UYqAakTXIwLGraAqg",
-    "iv": "eEVI7cDIHMIn5Jva",
-    "tag": "sRY8B59oAg7VRq54_6_HzQ",
+    "ciphertext": "R6RnQlHYcPJ02duwFc4N17BxgTb9Q54gPjYGexMTlOUE4uxTwBoCYBp77Q",
+    "iv": "5NguOWS-xozyKuhd",
+    "tag": "Mgwvy8gB8pLuNySB5exJRA",
     "version": 1
   }
 }
