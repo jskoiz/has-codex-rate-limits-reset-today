@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1785302760978,
-      "rationale": "This is promotional commentary about model performance, not a statement that limits or caps have reset.",
-      "tweetId": "2081860991210631476",
-      "tweetUrl": "https://x.com/thsottiaux/status/2081860991210631476",
+      "decidedAt": 1785302763549,
+      "rationale": "This reply praises Octane engineering and says nothing about limits or a reset.",
+      "tweetId": "2081863995271925948",
+      "tweetUrl": "https://x.com/thsottiaux/status/2081863995271925948",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2081860991210631476",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2081860991210631476",
+    "lastSeenTweetId": "2081863995271925948",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2081863995271925948",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1785302763549,
+        "inputTokens": 423,
+        "outputTokens": 87,
+        "rationale": "This reply praises Octane engineering and says nothing about limits or a reset.",
+        "reasoningTokens": 44,
+        "totalTokens": 510,
+        "tweetId": "2081863995271925948",
+        "tweetText": "@trueadm Rarely these days do I look at something and come out deeply impressed. Octane is not one of those. Absolute engineering prowess and can’t wait to see many things get magically faster as a result.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2081863995271925948",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1785302760978,
@@ -272,29 +285,31 @@
         "tweetText": "@reach_vb Something snarky behind this tweet",
         "tweetUrl": "https://x.com/thsottiaux/status/2079058775923990892",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.79,
-        "evaluatedAt": 1784521233029,
-        "inputTokens": 366,
-        "outputTokens": 133,
-        "rationale": "It mentions future resets continuing, but does not clearly say limits have reset now.",
-        "reasoningTokens": 89,
-        "totalTokens": 499,
-        "tweetId": "2079058575440359695",
-        "tweetText": "@CastAsHuman Don’t really mind it! The resets will continue",
-        "tweetUrl": "https://x.com/thsottiaux/status/2079058575440359695",
-        "verdict": "uncertain"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 396101,
-      "totalOutputTokens": 105714,
-      "totalReasoningTokens": 57936,
-      "totalTokens": 501815
+      "totalInputTokens": 396524,
+      "totalOutputTokens": 105801,
+      "totalReasoningTokens": 57980,
+      "totalTokens": 502325
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1785302763549,
+      "inputTokens": 423,
+      "message": "",
+      "outputTokens": 87,
+      "rationale": "This reply praises Octane engineering and says nothing about limits or a reset.",
+      "reasoningTokens": 44,
+      "totalTokens": 510,
+      "tweetId": "2081863995271925948",
+      "tweetText": "@trueadm Rarely these days do I look at something and come out deeply impressed. Octane is not one of those. Absolute engineering prowess and can’t wait to see many things get magically faster as a result.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2081863995271925948",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1785302760978,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2078662856363618714",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1784425018495,
-      "inputTokens": 366,
-      "message": "",
-      "outputTokens": 65,
-      "rationale": "This reply does not mention limits, caps, or any reset.",
-      "reasoningTokens": 24,
-      "totalTokens": 431,
-      "tweetId": "2078654072689975381",
-      "tweetText": "@maomaohuo @catalinmpit I’m sorry",
-      "tweetUrl": "https://x.com/thsottiaux/status/2078654072689975381",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "kMj5eAa087dj7ge5dwK6taijKTfPV74RNLvTSRT6TZXvUUqzFNxzgeeBcw",
-    "iv": "vRT7jOJo9tMLBeGB",
-    "tag": "FhS87x0bBAPY71YGXGnQTQ",
+    "ciphertext": "o2r9wf6gVrpByyQQ0Vth2-yr801a4ZINRqQ6Yr5YP1qZYjUFuK3_7tbWXw",
+    "iv": "fy_i2CA8uhvQoudS",
+    "tag": "C11UIqz_L8OCKKHicR5-MQ",
     "version": 1
   }
 }
