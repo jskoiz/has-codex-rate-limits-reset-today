@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1785303364019,
-      "rationale": "This post is about an open-source security CLI/SDK release, not usage limits or resets.",
-      "tweetId": "2082241164850364555",
-      "tweetUrl": "https://x.com/thsottiaux/status/2082241164850364555",
+      "decidedAt": 1785303366973,
+      "rationale": "This reply discusses agent architecture and says nothing about limits or resets.",
+      "tweetId": "2082241730972442912",
+      "tweetUrl": "https://x.com/thsottiaux/status/2082241730972442912",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2082241164850364555",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2082241164850364555",
+    "lastSeenTweetId": "2082241730972442912",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2082241730972442912",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1785303366973,
+        "inputTokens": 418,
+        "outputTokens": 90,
+        "rationale": "This reply discusses agent architecture and says nothing about limits or resets.",
+        "reasoningTokens": 49,
+        "totalTokens": 508,
+        "tweetId": "2082241730972442912",
+        "tweetText": "@lucasmeijer Different definition of harness. The agent code is the harness. The codex app is an app.\n\nhttps://t.co/2TH56VNxnb",
+        "tweetUrl": "https://x.com/thsottiaux/status/2082241730972442912",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1785303364019,
@@ -272,29 +285,31 @@
         "tweetText": "Vibes are strong. Never seen OpenAI more focused and humming.",
         "tweetUrl": "https://x.com/thsottiaux/status/2081534792903147881",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1785302752546,
-        "inputTokens": 609,
-        "outputTokens": 79,
-        "rationale": "This post promotes ChatGPT capabilities and does not mention limits, caps, or a reset.",
-        "reasoningTokens": 33,
-        "totalTokens": 688,
-        "tweetId": "2081444811647963244",
-        "tweetText": "Let ChatGPT *work* for you. How many time have you wanted to negotiate your internet bill, get rid of all those spam emails you’re subscribed to, or find the perfect deal for something you wanted to do or buy. It’s quite literally just one prompt away, all from the comfort of your phone. It does at least 20 things for me every single day and I’m still surprised.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2081444811647963244",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 402607,
-      "totalOutputTokens": 107344,
-      "totalReasoningTokens": 58851,
-      "totalTokens": 509951
+      "totalInputTokens": 403025,
+      "totalOutputTokens": 107434,
+      "totalReasoningTokens": 58900,
+      "totalTokens": 510459
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1785303366973,
+      "inputTokens": 418,
+      "message": "",
+      "outputTokens": 90,
+      "rationale": "This reply discusses agent architecture and says nothing about limits or resets.",
+      "reasoningTokens": 49,
+      "totalTokens": 508,
+      "tweetId": "2082241730972442912",
+      "tweetText": "@lucasmeijer Different definition of harness. The agent code is the harness. The codex app is an app.\n\nhttps://t.co/2TH56VNxnb",
+      "tweetUrl": "https://x.com/thsottiaux/status/2082241730972442912",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1785303364019,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2079058575440359695",
       "type": "review_requested",
       "verdict": "uncertain"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1784521229471,
-      "inputTokens": 404,
-      "message": "",
-      "outputTokens": 62,
-      "rationale": "This post is a general prompt about positive experiences with ChatGPT, not about limits resetting.",
-      "reasoningTokens": 16,
-      "totalTokens": 466,
-      "tweetId": "2079058139207573541",
-      "tweetText": "I was so inspired reading all the DMs on how folks here use ChatGPT Work. Let’s try something else that will make the team smile.\n\nWhat’s a time you saw ChatGPT have a deeply positive impact on your or someone’s life?",
-      "tweetUrl": "https://x.com/thsottiaux/status/2079058139207573541",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "LH4oq7pe1SloEb769Aji360liiL-RcyKq3ZndnDwWUwv6ArBgiXGuyZoLA",
-    "iv": "vZOLpZdijzv6tgSc",
-    "tag": "RntL_v4tVL8S6DbrPCjuyQ",
+    "ciphertext": "K9B8_UwzHKvU9d4BLP6yGt7wuJa3SSEJGhLmjB7NmpIYv_eSYr2bL8FK1g",
+    "iv": "QXwjbhMdihr3FljP",
+    "tag": "zWtvc__Z56Nyxr4mahbRUA",
     "version": 1
   }
 }
