@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1785303373213,
-      "rationale": "The tweet explicitly says usage limits were reset for all ChatGPT Work and Codex users.",
-      "tweetId": "2082317452755751098",
-      "tweetUrl": "https://x.com/thsottiaux/status/2082317452755751098",
-      "verdict": "reset_confirmed"
+      "decidedAt": 1785303682664,
+      "rationale": "This reply does not mention limits, caps, or any reset.",
+      "tweetId": "2082326159090647355",
+      "tweetUrl": "https://x.com/thsottiaux/status/2082326159090647355",
+      "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2082317452755751098",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2082317452755751098",
+    "lastSeenTweetId": "2082326159090647355",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2082326159090647355",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1785303682664,
+        "inputTokens": 386,
+        "outputTokens": 86,
+        "rationale": "This reply does not mention limits, caps, or any reset.",
+        "reasoningTokens": 45,
+        "totalTokens": 472,
+        "tweetId": "2082326159090647355",
+        "tweetText": "@justindico And yet",
+        "tweetUrl": "https://x.com/thsottiaux/status/2082326159090647355",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1785303373213,
@@ -272,29 +285,31 @@
         "tweetText": "@trueadm Rarely these days do I look at something and come out deeply impressed. Octane is not one of those. Absolute engineering prowess and can’t wait to see many things get magically faster as a result.",
         "tweetUrl": "https://x.com/thsottiaux/status/2081863995271925948",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1785302760978,
-        "inputTokens": 432,
-        "outputTokens": 73,
-        "rationale": "This is promotional commentary about model performance, not a statement that limits or caps have reset.",
-        "reasoningTokens": 27,
-        "totalTokens": 505,
-        "tweetId": "2081860991210631476",
-        "tweetText": "Turns out GPT-5.6 Sol and friends are absolutely amazing at performance and efficiency improvements. Good time to brush up on using OpenAI models if you haven’t switched already. \n\nExcited to be able to share more soon. Pretty wild.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2081860991210631476",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 404262,
-      "totalOutputTokens": 107589,
-      "totalReasoningTokens": 58965,
-      "totalTokens": 511851
+      "totalInputTokens": 404648,
+      "totalOutputTokens": 107675,
+      "totalReasoningTokens": 59010,
+      "totalTokens": 512323
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1785303682664,
+      "inputTokens": 386,
+      "message": "",
+      "outputTokens": 86,
+      "rationale": "This reply does not mention limits, caps, or any reset.",
+      "reasoningTokens": 45,
+      "totalTokens": 472,
+      "tweetId": "2082326159090647355",
+      "tweetText": "@justindico And yet",
+      "tweetUrl": "https://x.com/thsottiaux/status/2082326159090647355",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1785303373213,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2079355529101705264",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1784521545029,
-      "inputTokens": 361,
-      "message": "",
-      "outputTokens": 92,
-      "rationale": "This reply is just a preference statement and does not mention any limit or reset.",
-      "reasoningTokens": 48,
-      "totalTokens": 453,
-      "tweetId": "2079058868584509528",
-      "tweetText": "@thepanta82 Codex is nicer",
-      "tweetUrl": "https://x.com/thsottiaux/status/2079058868584509528",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "OXBuF3meIoaPY_gmeeF_REQruM5R-Se0nHCfsxO0XcqmvSspokBGCIOUDw",
-    "iv": "T0I0N6Fnx3xvjJ8n",
-    "tag": "n1VRBUWH3qhCrhKeizPwdQ",
+    "ciphertext": "7IaHhp1blYehJ9WIzRXPMPmdgYZMHUzzzS22fx1rJUiZoUpjkLZN5lOJog",
+    "iv": "tt0mH-16jzVT2WZT",
+    "tag": "aSiiUz65RUyZ0Lt54APo6Q",
     "version": 1
   }
 }
