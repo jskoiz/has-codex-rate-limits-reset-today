@@ -10,29 +10,35 @@
     "Limits reset, go crazy",
     "You can just build things"
   ],
-  "resetAt": 1785374566417,
-  "updatedAt": 1785302566417,
+  "resetAt": 1785375048743,
+  "updatedAt": 1785303048743,
   "automation": {
     "lastDecision": {
-      "confidence": 0.98,
-      "decidedAt": 1785303045921,
-      "rationale": "This reply is just conversational and does not indicate any rate limit or cap reset.",
-      "tweetId": "2081939918818025982",
-      "tweetUrl": "https://x.com/thsottiaux/status/2081939918818025982",
-      "verdict": "not_reset"
+      "confidence": 0.99,
+      "decidedAt": 1785303048743,
+      "rationale": "The tweet explicitly says usage limits have been reset for all paid Codex and ChatGPT Work users.",
+      "tweetId": "2081940052154933696",
+      "tweetUrl": "https://x.com/thsottiaux/status/2081940052154933696",
+      "verdict": "reset_confirmed"
     },
     "lastError": null,
-    "lastSeenTweetId": "2081939918818025982",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2081939918818025982",
-    "pendingReview": {
-      "confidence": 0.91,
-      "createdAt": 1785302801342,
-      "rationale": "He hints at a possible limit reset, but it is not explicit that limits are actually reset or available again now.",
-      "tweetId": "2081899343091843463",
-      "tweetText": "We’re celebrating the fast adoption of chatGPT Work and all the incredible effort that went into it today. I’m feeling like a limit reset.\n\nHold on tight to your ultra and /fast and see you in a few hours when I’m back at the laptop!",
-      "tweetUrl": "https://x.com/thsottiaux/status/2081899343091843463"
-    },
+    "lastSeenTweetId": "2081940052154933696",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2081940052154933696",
+    "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1785303048743,
+        "inputTokens": 498,
+        "outputTokens": 92,
+        "rationale": "The tweet explicitly says usage limits have been reset for all paid Codex and ChatGPT Work users.",
+        "reasoningTokens": 43,
+        "totalTokens": 590,
+        "tweetId": "2081940052154933696",
+        "tweetText": "Back at the laptop. The usage limits have been reset for all paid users of Codex and ChatGPT Work. Weeeeeeeee. It's a good day!",
+        "tweetUrl": "https://x.com/thsottiaux/status/2081940052154933696",
+        "verdict": "reset_confirmed"
+      },
       {
         "confidence": 0.98,
         "evaluatedAt": 1785303045921,
@@ -279,29 +285,31 @@
         "tweetText": "ChatGPT Work officially has overtaken Codex in number of active users. Way to go.",
         "tweetUrl": "https://x.com/thsottiaux/status/2081198608293187635",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1785302566417,
-        "inputTokens": 493,
-        "outputTokens": 109,
-        "rationale": "The main tweet explicitly says usage limits for all Codex and ChatGPT Work users have been reset.",
-        "reasoningTokens": 60,
-        "totalTokens": 602,
-        "tweetId": "2081096447718723984",
-        "tweetText": "We have reset usage limits for all Codex and ChatGPT Work users.\n\nLast night around 2am to 4am we suffered an almost global outage. All well and recovered, but you know what comes next.\n\nWe learn. We reset. Enjoy.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2081096447718723984",
-        "verdict": "reset_confirmed"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 400860,
-      "totalOutputTokens": 107041,
-      "totalReasoningTokens": 58731,
-      "totalTokens": 507901
+      "totalInputTokens": 401358,
+      "totalOutputTokens": 107133,
+      "totalReasoningTokens": 58774,
+      "totalTokens": 508491
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1785303048743,
+      "inputTokens": 498,
+      "message": "",
+      "outputTokens": 92,
+      "rationale": "The tweet explicitly says usage limits have been reset for all paid Codex and ChatGPT Work users.",
+      "reasoningTokens": 43,
+      "totalTokens": 590,
+      "tweetId": "2081940052154933696",
+      "tweetText": "Back at the laptop. The usage limits have been reset for all paid users of Codex and ChatGPT Work. Weeeeeeeee. It's a good day!",
+      "tweetUrl": "https://x.com/thsottiaux/status/2081940052154933696",
+      "type": "reset_confirmed",
+      "verdict": "reset_confirmed"
+    },
     {
       "confidence": 0.98,
       "createdAt": 1785303045921,
@@ -886,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2078729835762122762",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1784439613091,
-      "inputTokens": 367,
-      "message": "",
-      "outputTokens": 81,
-      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-      "reasoningTokens": 37,
-      "totalTokens": 448,
-      "tweetId": "2078715394911875574",
-      "tweetText": "@cjzafir @OpenAI Do I have your permission to change it?",
-      "tweetUrl": "https://x.com/thsottiaux/status/2078715394911875574",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "D99ObfDxoDyhdR1LH3uNjSK2ZiDNJ5R8vNtfWRCTyO5SxYtdwwry16VazA",
-    "iv": "MNsHcji3eVfR5v9I",
-    "tag": "WiI28HjfQWoMOZTQwLBrBQ",
+    "ciphertext": "YYGM_XDtWcRt9o7wDHjaC5yuG9pfsEFlLlgY9SOEFsDOE5PqggED1GcnHw",
+    "iv": "rc_N5gtrAiplYqKw",
+    "tag": "XGJaizqkJ_OOLbgiSmYblw",
     "version": 1
   }
 }
