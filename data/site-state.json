@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1785302554390,
-      "rationale": "This is a recruiting statement and does not mention limits or resets.",
-      "tweetId": "2080537149204758689",
-      "tweetUrl": "https://x.com/thsottiaux/status/2080537149204758689",
+      "decidedAt": 1785302557730,
+      "rationale": "This is just a naming question and says nothing about limits or resets.",
+      "tweetId": "2080543574211666029",
+      "tweetUrl": "https://x.com/thsottiaux/status/2080543574211666029",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2080537149204758689",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2080537149204758689",
+    "lastSeenTweetId": "2080543574211666029",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2080543574211666029",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1784652524359,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2079609359085289538"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1785302557730,
+        "inputTokens": 392,
+        "outputTokens": 68,
+        "rationale": "This is just a naming question and says nothing about limits or resets.",
+        "reasoningTokens": 26,
+        "totalTokens": 460,
+        "tweetId": "2080543574211666029",
+        "tweetText": "Should we rename ChatGPT Work to ChatGPT Vibe?",
+        "tweetUrl": "https://x.com/thsottiaux/status/2080543574211666029",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1785302554390,
@@ -279,29 +292,31 @@
         "tweetText": "@rezoundous How many of them did you talk to",
         "tweetUrl": "https://x.com/thsottiaux/status/2078696757257801917",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1784434940918,
-        "inputTokens": 382,
-        "outputTokens": 86,
-        "rationale": "This reply is conversational and does not mention rate limits, caps, or usage resetting.",
-        "reasoningTokens": 41,
-        "totalTokens": 468,
-        "tweetId": "2078696304939872725",
-        "tweetText": "@DeryaTR_ @gdb Greg is in the product, the codebase and talking to users every single day, 24/7",
-        "tweetUrl": "https://x.com/thsottiaux/status/2078696304939872725",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 391105,
-      "totalOutputTokens": 104730,
-      "totalReasoningTokens": 57463,
-      "totalTokens": 495835
+      "totalInputTokens": 391497,
+      "totalOutputTokens": 104798,
+      "totalReasoningTokens": 57489,
+      "totalTokens": 496295
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1785302557730,
+      "inputTokens": 392,
+      "message": "",
+      "outputTokens": 68,
+      "rationale": "This is just a naming question and says nothing about limits or resets.",
+      "reasoningTokens": 26,
+      "totalTokens": 460,
+      "tweetId": "2080543574211666029",
+      "tweetText": "Should we rename ChatGPT Work to ChatGPT Vibe?",
+      "tweetUrl": "https://x.com/thsottiaux/status/2080543574211666029",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1785302554391,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2078643929596281286",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1784422248873,
-      "inputTokens": 358,
-      "message": "",
-      "outputTokens": 106,
-      "rationale": "This is just a conversational reply and does not mention limits or a reset.",
-      "reasoningTokens": 63,
-      "totalTokens": 464,
-      "tweetId": "2078643144921592196",
-      "tweetText": "@siegerts Lucky you!",
-      "tweetUrl": "https://x.com/thsottiaux/status/2078643144921592196",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "jSqvUzDUso5HgoskjT41ubICdNkXFkBRWO1xdKEhbIq9a0pZV-3keUqaTw",
-    "iv": "B7UToTxHFCYUY17B",
-    "tag": "s4gKJGYEe5kInulIqaTAVw",
+    "ciphertext": "XWATzjnp1v1grl9tol6lAPjhfkGhYfoEpmbJPtiJ0ZJr_nvybhpacLA-og",
+    "iv": "1HIQh3_M-jLLNGaa",
+    "tag": "DNiyI71VVVK6jmycSB-FXg",
     "version": 1
   }
 }
