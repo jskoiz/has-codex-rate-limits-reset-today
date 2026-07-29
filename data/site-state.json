@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1785302550602,
-      "rationale": "This post is about ChatGPT Voice launching in the desktop app, not usage limits resetting.",
-      "tweetId": "2080408012515340394",
-      "tweetUrl": "https://x.com/thsottiaux/status/2080408012515340394",
+      "decidedAt": 1785302554390,
+      "rationale": "This is a recruiting statement and does not mention limits or resets.",
+      "tweetId": "2080537149204758689",
+      "tweetUrl": "https://x.com/thsottiaux/status/2080537149204758689",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2080408012515340394",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2080408012515340394",
+    "lastSeenTweetId": "2080537149204758689",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2080537149204758689",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1784652524359,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2079609359085289538"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1785302554390,
+        "inputTokens": 405,
+        "outputTokens": 39,
+        "rationale": "This is a recruiting statement and does not mention limits or resets.",
+        "reasoningTokens": 0,
+        "totalTokens": 444,
+        "tweetId": "2080537149204758689",
+        "tweetText": "From Science Fiction to Science Reality. Join the team if you want to work on some of the coolest and most impactful technology.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2080537149204758689",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1785302550603,
@@ -279,29 +292,31 @@
         "tweetText": "@DeryaTR_ @gdb Greg is in the product, the codebase and talking to users every single day, 24/7",
         "tweetUrl": "https://x.com/thsottiaux/status/2078696304939872725",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1784434938137,
-        "inputTokens": 361,
-        "outputTokens": 57,
-        "rationale": "This is just a greeting reply and says nothing about limits or resets.",
-        "reasoningTokens": 15,
-        "totalTokens": 418,
-        "tweetId": "2078695654285848967",
-        "tweetText": "@lindsmccallum hi Lindsay",
-        "tweetUrl": "https://x.com/thsottiaux/status/2078695654285848967",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 390700,
-      "totalOutputTokens": 104691,
+      "totalInputTokens": 391105,
+      "totalOutputTokens": 104730,
       "totalReasoningTokens": 57463,
-      "totalTokens": 495391
+      "totalTokens": 495835
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1785302554391,
+      "inputTokens": 405,
+      "message": "",
+      "outputTokens": 39,
+      "rationale": "This is a recruiting statement and does not mention limits or resets.",
+      "reasoningTokens": 0,
+      "totalTokens": 444,
+      "tweetId": "2080537149204758689",
+      "tweetText": "From Science Fiction to Science Reality. Join the team if you want to work on some of the coolest and most impactful technology.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2080537149204758689",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1785302550603,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2078643144921592196",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1784422245656,
-      "inputTokens": 429,
-      "message": "",
-      "outputTokens": 69,
-      "rationale": "This is recruiting ChatGPT Work users for feedback, not saying any limits or caps have reset.",
-      "reasoningTokens": 22,
-      "totalTokens": 498,
-      "tweetId": "2078642674572419435",
-      "tweetText": "If you use ChatGPT Work. Looking to assemble a group of 50-100 to give early access to features and discuss how we can make it better. \n\nSend me a DM, mentioning ChatGPT Work, with how you use it and what you think we should fix and I’ll assemble a group in the next 48 hours. Not looking for developers this time!",
-      "tweetUrl": "https://x.com/thsottiaux/status/2078642674572419435",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "GGvuKTek-vJB350aEZ5t9m7i3ofpPcEvrwdRrUbvfb9iL-reRtjayKO18Q",
-    "iv": "0xIhAE_-6PW5xCzb",
-    "tag": "iZYHlY_yOo4RKSpA4R7abg",
+    "ciphertext": "jSqvUzDUso5HgoskjT41ubICdNkXFkBRWO1xdKEhbIq9a0pZV-3keUqaTw",
+    "iv": "B7UToTxHFCYUY17B",
+    "tag": "s4gKJGYEe5kInulIqaTAVw",
     "version": 1
   }
 }
