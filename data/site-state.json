@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1785302557730,
-      "rationale": "This is just a naming question and says nothing about limits or resets.",
-      "tweetId": "2080543574211666029",
-      "tweetUrl": "https://x.com/thsottiaux/status/2080543574211666029",
+      "decidedAt": 1785302560508,
+      "rationale": "This post is promotional about sharing custom pets and does not mention limits or a reset.",
+      "tweetId": "2080756403493560652",
+      "tweetUrl": "https://x.com/thsottiaux/status/2080756403493560652",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2080543574211666029",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2080543574211666029",
+    "lastSeenTweetId": "2080756403493560652",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2080756403493560652",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1784652524359,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2079609359085289538"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1785302560508,
+        "inputTokens": 463,
+        "outputTokens": 85,
+        "rationale": "This post is promotional about sharing custom pets and does not mention limits or a reset.",
+        "reasoningTokens": 40,
+        "totalTokens": 548,
+        "tweetId": "2080756403493560652",
+        "tweetText": "Show me your pet",
+        "tweetUrl": "https://x.com/thsottiaux/status/2080756403493560652",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1785302557730,
@@ -279,29 +292,31 @@
         "tweetText": "ChatGPT Work is for\n\n✅ Creating and hosting sites\n✅ Managing your emails for you\n✅ Summarizing mountains of documents\n✅ Creating top-notch docs, sheet and slides\n\nAlready in your mobile app or on https://t.co/WtXdTqu9lT, included in Plus, Pro, Business and Enterprise plans",
         "tweetUrl": "https://x.com/thsottiaux/status/2078697631019303273",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1784434943654,
-        "inputTokens": 364,
-        "outputTokens": 80,
-        "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-        "reasoningTokens": 36,
-        "totalTokens": 444,
-        "tweetId": "2078696757257801917",
-        "tweetText": "@rezoundous How many of them did you talk to",
-        "tweetUrl": "https://x.com/thsottiaux/status/2078696757257801917",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 391497,
-      "totalOutputTokens": 104798,
-      "totalReasoningTokens": 57489,
-      "totalTokens": 496295
+      "totalInputTokens": 391960,
+      "totalOutputTokens": 104883,
+      "totalReasoningTokens": 57529,
+      "totalTokens": 496843
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1785302560508,
+      "inputTokens": 463,
+      "message": "",
+      "outputTokens": 85,
+      "rationale": "This post is promotional about sharing custom pets and does not mention limits or a reset.",
+      "reasoningTokens": 40,
+      "totalTokens": 548,
+      "tweetId": "2080756403493560652",
+      "tweetText": "Show me your pet",
+      "tweetUrl": "https://x.com/thsottiaux/status/2080756403493560652",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1785302557730,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2078645118123618713",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1784422548436,
-      "inputTokens": 373,
-      "message": "",
-      "outputTokens": 69,
-      "rationale": "This reply discusses CPUs and GPUs and says nothing about limits or usage resetting.",
-      "reasoningTokens": 26,
-      "totalTokens": 442,
-      "tweetId": "2078643929596281286",
-      "tweetText": "@christianelton_ If this doesn’t exist for CPUs, I doubt it will exist for GPUs",
-      "tweetUrl": "https://x.com/thsottiaux/status/2078643929596281286",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "XWATzjnp1v1grl9tol6lAPjhfkGhYfoEpmbJPtiJ0ZJr_nvybhpacLA-og",
-    "iv": "1HIQh3_M-jLLNGaa",
-    "tag": "DNiyI71VVVK6jmycSB-FXg",
+    "ciphertext": "pEzpNdKxXhB8lW9x0e5mHowr7-LePX7ehrpY_frPyrI3NV1k1XPBwe2CoQ",
+    "iv": "JDXIsrwxEq2oiAgR",
+    "tag": "JpF0EKeor2VEBtD4BDQVqw",
     "version": 1
   }
 }
