@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1785303361221,
-      "rationale": "This post is just a personal update about taking a break and does not mention limits or resets.",
-      "tweetId": "2081979033261412537",
-      "tweetUrl": "https://x.com/thsottiaux/status/2081979033261412537",
+      "decidedAt": 1785303364019,
+      "rationale": "This post is about an open-source security CLI/SDK release, not usage limits or resets.",
+      "tweetId": "2082241164850364555",
+      "tweetUrl": "https://x.com/thsottiaux/status/2082241164850364555",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2081979033261412537",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2081979033261412537",
+    "lastSeenTweetId": "2082241164850364555",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2082241164850364555",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1785303364019,
+        "inputTokens": 441,
+        "outputTokens": 82,
+        "rationale": "This post is about an open-source security CLI/SDK release, not usage limits or resets.",
+        "reasoningTokens": 35,
+        "totalTokens": 523,
+        "tweetId": "2082241164850364555",
+        "tweetText": "More opensource goodness. We have just released a CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities in your code. Scan repositories, review changes, track findings over time, and run security checks in CI.\n\nhttps://t.co/nkfTbw8p7b",
+        "tweetUrl": "https://x.com/thsottiaux/status/2082241164850364555",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1785303361221,
@@ -272,29 +285,31 @@
         "tweetText": "Let ChatGPT *work* for you. How many time have you wanted to negotiate your internet bill, get rid of all those spam emails you’re subscribed to, or find the perfect deal for something you wanted to do or buy. It’s quite literally just one prompt away, all from the comfort of your phone. It does at least 20 things for me every single day and I’m still surprised.",
         "tweetUrl": "https://x.com/thsottiaux/status/2081444811647963244",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1785302749688,
-        "inputTokens": 500,
-        "outputTokens": 117,
-        "rationale": "This post and its quoted tweet promote ChatGPT Voice on desktop, not a rate-limit or usage reset.",
-        "reasoningTokens": 68,
-        "totalTokens": 617,
-        "tweetId": "2081254182502465981",
-        "tweetText": "It was always possible to speak to your computer. It wouldn’t do much in return. But we fixed that bug.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2081254182502465981",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 402166,
-      "totalOutputTokens": 107262,
-      "totalReasoningTokens": 58816,
-      "totalTokens": 509428
+      "totalInputTokens": 402607,
+      "totalOutputTokens": 107344,
+      "totalReasoningTokens": 58851,
+      "totalTokens": 509951
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1785303364019,
+      "inputTokens": 441,
+      "message": "",
+      "outputTokens": 82,
+      "rationale": "This post is about an open-source security CLI/SDK release, not usage limits or resets.",
+      "reasoningTokens": 35,
+      "totalTokens": 523,
+      "tweetId": "2082241164850364555",
+      "tweetText": "More opensource goodness. We have just released a CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities in your code. Scan repositories, review changes, track findings over time, and run security checks in CI.\n\nhttps://t.co/nkfTbw8p7b",
+      "tweetUrl": "https://x.com/thsottiaux/status/2082241164850364555",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1785303361221,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2079058139207573541",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1784519057766,
-      "inputTokens": 365,
-      "message": "",
-      "outputTokens": 76,
-      "rationale": "This is just a conversational reply and does not mention limits or a reset.",
-      "reasoningTokens": 33,
-      "totalTokens": 441,
-      "tweetId": "2079048947411374554",
-      "tweetText": "@charliermarsh Well… can you stop doing that Charlie",
-      "tweetUrl": "https://x.com/thsottiaux/status/2079048947411374554",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "50uyn9N0H5QNEsOjkwWsi6bqHXz_abeWyW3P4Gl3LQEu7Ogd0CgMdZSEbA",
-    "iv": "CE-AXyBvBsVaItzF",
-    "tag": "V7-82MX_vTM5t5vA8oC82w",
+    "ciphertext": "LH4oq7pe1SloEb769Aji360liiL-RcyKq3ZndnDwWUwv6ArBgiXGuyZoLA",
+    "iv": "vZOLpZdijzv6tgSc",
+    "tag": "RntL_v4tVL8S6DbrPCjuyQ",
     "version": 1
   }
 }
