@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1785302755162,
-      "rationale": "This is a general comment about OpenAI and does not mention any limit, cap, or reset.",
-      "tweetId": "2081534792903147881",
-      "tweetUrl": "https://x.com/thsottiaux/status/2081534792903147881",
+      "decidedAt": 1785302757712,
+      "rationale": "This post is just a casual Codex mention and does not indicate any limit or cap reset.",
+      "tweetId": "2081839118531834176",
+      "tweetUrl": "https://x.com/thsottiaux/status/2081839118531834176",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2081534792903147881",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2081534792903147881",
+    "lastSeenTweetId": "2081839118531834176",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2081839118531834176",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1785302757712,
+        "inputTokens": 403,
+        "outputTokens": 73,
+        "rationale": "This post is just a casual Codex mention and does not indicate any limit or cap reset.",
+        "reasoningTokens": 26,
+        "totalTokens": 476,
+        "tweetId": "2081839118531834176",
+        "tweetText": "Spotted Codex making friends at the OpenAI office https://t.co/M0CAxSHUqc",
+        "tweetUrl": "https://x.com/thsottiaux/status/2081839118531834176",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1785302755162,
@@ -272,29 +285,31 @@
         "tweetText": "I was so inspired reading all the DMs on how folks here use ChatGPT Work. Let’s try something else that will make the team smile.\n\nWhat’s a time you saw ChatGPT have a deeply positive impact on your or someone’s life?",
         "tweetUrl": "https://x.com/thsottiaux/status/2079058139207573541",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1784519057766,
-        "inputTokens": 365,
-        "outputTokens": 76,
-        "rationale": "This is just a conversational reply and does not mention limits or a reset.",
-        "reasoningTokens": 33,
-        "totalTokens": 441,
-        "tweetId": "2079048947411374554",
-        "tweetText": "@charliermarsh Well… can you stop doing that Charlie",
-        "tweetUrl": "https://x.com/thsottiaux/status/2079048947411374554",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 395266,
-      "totalOutputTokens": 105568,
-      "totalReasoningTokens": 57883,
-      "totalTokens": 500834
+      "totalInputTokens": 395669,
+      "totalOutputTokens": 105641,
+      "totalReasoningTokens": 57909,
+      "totalTokens": 501310
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1785302757712,
+      "inputTokens": 403,
+      "message": "",
+      "outputTokens": 73,
+      "rationale": "This post is just a casual Codex mention and does not indicate any limit or cap reset.",
+      "reasoningTokens": 26,
+      "totalTokens": 476,
+      "tweetId": "2081839118531834176",
+      "tweetText": "Spotted Codex making friends at the OpenAI office https://t.co/M0CAxSHUqc",
+      "tweetUrl": "https://x.com/thsottiaux/status/2081839118531834176",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1785302755162,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2078648757894500718",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1784423489737,
-      "inputTokens": 359,
-      "message": "",
-      "outputTokens": 81,
-      "rationale": "This reply is conversational and gives no indication that any Codex or ChatGPT limits have reset.",
-      "reasoningTokens": 34,
-      "totalTokens": 440,
-      "tweetId": "2078648453786390957",
-      "tweetText": "@aRobotNamedSnax Deal",
-      "tweetUrl": "https://x.com/thsottiaux/status/2078648453786390957",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "Nr21E96RJo96soux8_0RO4n3CjYkcvFo1GdaLt6MNQs73eev65JPjTwt-g",
-    "iv": "eogfnVP1Dveu8Bix",
-    "tag": "As0hTPdFMFB4HpbpDe_sYA",
+    "ciphertext": "2j0lIrPctqnjAyPWG1EwGgJXzUYuKuSo7oVJBPr9qvXfaUiwbqgdRLPSaw",
+    "iv": "pad_gfA_0KVA3P1a",
+    "tag": "dpQGn6JQC3jMy3VrWdJxYQ",
     "version": 1
   }
 }
