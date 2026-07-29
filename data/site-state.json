@@ -14,18 +14,31 @@
   "updatedAt": 1785303373213,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1785303682664,
-      "rationale": "This reply does not mention limits, caps, or any reset.",
-      "tweetId": "2082326159090647355",
-      "tweetUrl": "https://x.com/thsottiaux/status/2082326159090647355",
+      "confidence": 0.98,
+      "decidedAt": 1785303685360,
+      "rationale": "This is a nostalgic or promotional remark about a reset button, not an announcement that limits have reset now.",
+      "tweetId": "2082326593532473523",
+      "tweetUrl": "https://x.com/thsottiaux/status/2082326593532473523",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2082326159090647355",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2082326159090647355",
+    "lastSeenTweetId": "2082326593532473523",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2082326593532473523",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.98,
+        "evaluatedAt": 1785303685360,
+        "inputTokens": 393,
+        "outputTokens": 93,
+        "rationale": "This is a nostalgic or promotional remark about a reset button, not an announcement that limits have reset now.",
+        "reasoningTokens": 44,
+        "totalTokens": 486,
+        "tweetId": "2082326593532473523",
+        "tweetText": "One day we created the reset button and the rest is history.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2082326593532473523",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1785303682664,
@@ -272,29 +285,31 @@
         "tweetText": "@Angaisb_ wrong",
         "tweetUrl": "https://x.com/thsottiaux/status/2081866007422107897",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1785302763549,
-        "inputTokens": 423,
-        "outputTokens": 87,
-        "rationale": "This reply praises Octane engineering and says nothing about limits or a reset.",
-        "reasoningTokens": 44,
-        "totalTokens": 510,
-        "tweetId": "2081863995271925948",
-        "tweetText": "@trueadm Rarely these days do I look at something and come out deeply impressed. Octane is not one of those. Absolute engineering prowess and can’t wait to see many things get magically faster as a result.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2081863995271925948",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 404648,
-      "totalOutputTokens": 107675,
-      "totalReasoningTokens": 59010,
-      "totalTokens": 512323
+      "totalInputTokens": 405041,
+      "totalOutputTokens": 107768,
+      "totalReasoningTokens": 59054,
+      "totalTokens": 512809
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.98,
+      "createdAt": 1785303685360,
+      "inputTokens": 393,
+      "message": "",
+      "outputTokens": 93,
+      "rationale": "This is a nostalgic or promotional remark about a reset button, not an announcement that limits have reset now.",
+      "reasoningTokens": 44,
+      "totalTokens": 486,
+      "tweetId": "2082326593532473523",
+      "tweetText": "One day we created the reset button and the rest is history.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2082326593532473523",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1785303682664,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2079433708986319143",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1784592245986,
-      "inputTokens": 367,
-      "message": "",
-      "outputTokens": 70,
-      "rationale": "This is a general comment about working at OpenAI and does not mention limits or a reset.",
-      "reasoningTokens": 23,
-      "totalTokens": 437,
-      "tweetId": "2079355529101705264",
-      "tweetText": "Never a dull moment when you work at OpenAI. Absolutely incredible place.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2079355529101705264",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "7IaHhp1blYehJ9WIzRXPMPmdgYZMHUzzzS22fx1rJUiZoUpjkLZN5lOJog",
-    "iv": "tt0mH-16jzVT2WZT",
-    "tag": "aSiiUz65RUyZ0Lt54APo6Q",
+    "ciphertext": "Y6dY1sQl37QBgcDohrEug5OMu_yAUkSpcRFQrDRatZEvK-_Y6q8Cs4N4yw",
+    "iv": "-3bGMOBhXG9UhlOM",
+    "tag": "aKHWGywUUEmST2XUsDrPUg",
     "version": 1
   }
 }
