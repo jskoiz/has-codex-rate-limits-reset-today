@@ -14,16 +14,16 @@
   "updatedAt": 1785303373213,
   "automation": {
     "lastDecision": {
-      "confidence": 0.95,
-      "decidedAt": 1785367190621,
-      "rationale": "This reply is just a vague countdown and does not clearly say limits have reset.",
-      "tweetId": "2082606956368609353",
-      "tweetUrl": "https://x.com/thsottiaux/status/2082606956368609353",
-      "verdict": "uncertain"
+      "confidence": 0.99,
+      "decidedAt": 1785368119016,
+      "rationale": "This post is about model performance on ARC-AGI-3, not rate limits or usage caps resetting.",
+      "tweetId": "2082609662231502932",
+      "tweetUrl": "https://x.com/thsottiaux/status/2082609662231502932",
+      "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2082606956368609353",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2082606956368609353",
+    "lastSeenTweetId": "2082609662231502932",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2082609662231502932",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1785367190621,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2082606956368609353"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1785368119016,
+        "inputTokens": 447,
+        "outputTokens": 79,
+        "rationale": "This post is about model performance on ARC-AGI-3, not rate limits or usage caps resetting.",
+        "reasoningTokens": 29,
+        "totalTokens": 526,
+        "tweetId": "2082609662231502932",
+        "tweetText": "Turns out GPT-5.6 Sol is actually SoTA on ARC-AGI-3. \n\nJust took two setting changes. You just have to allow it to reason and work over multiple context windows with the help of our canonical compaction implementation.\n\nhttps://t.co/wHjaNsvIv8",
+        "tweetUrl": "https://x.com/thsottiaux/status/2082609662231502932",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.95,
         "evaluatedAt": 1785367190621,
@@ -279,29 +292,31 @@
         "tweetText": "@blueemi99 I would totally announce it like that",
         "tweetUrl": "https://x.com/thsottiaux/status/2081898793335984499",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1785302794582,
-        "inputTokens": 388,
-        "outputTokens": 55,
-        "rationale": "This reply is conversational and says nothing about limits or a reset.",
-        "reasoningTokens": 14,
-        "totalTokens": 443,
-        "tweetId": "2081895010191192491",
-        "tweetText": "@theo Come back to papa Sol",
-        "tweetUrl": "https://x.com/thsottiaux/status/2081895010191192491",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 408022,
-      "totalOutputTokens": 108683,
-      "totalReasoningTokens": 59655,
-      "totalTokens": 516705
+      "totalInputTokens": 408469,
+      "totalOutputTokens": 108762,
+      "totalReasoningTokens": 59684,
+      "totalTokens": 517231
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1785368119016,
+      "inputTokens": 447,
+      "message": "",
+      "outputTokens": 79,
+      "rationale": "This post is about model performance on ARC-AGI-3, not rate limits or usage caps resetting.",
+      "reasoningTokens": 29,
+      "totalTokens": 526,
+      "tweetId": "2082609662231502932",
+      "tweetText": "Turns out GPT-5.6 Sol is actually SoTA on ARC-AGI-3. \n\nJust took two setting changes. You just have to allow it to reason and work over multiple context windows with the help of our canonical compaction implementation.\n\nhttps://t.co/wHjaNsvIv8",
+      "tweetUrl": "https://x.com/thsottiaux/status/2082609662231502932",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.95,
       "createdAt": 1785367190621,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2080543574211666029",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1785302554391,
-      "inputTokens": 405,
-      "message": "",
-      "outputTokens": 39,
-      "rationale": "This is a recruiting statement and does not mention limits or resets.",
-      "reasoningTokens": 0,
-      "totalTokens": 444,
-      "tweetId": "2080537149204758689",
-      "tweetText": "From Science Fiction to Science Reality. Join the team if you want to work on some of the coolest and most impactful technology.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2080537149204758689",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "sTmGidbYQ6nd7gEmjhiEGEnd2LXLsc3ByuO7aX_MY-5uo-5I0dUG4vDNAg",
-    "iv": "Gj5vumYbzmk2c6VD",
-    "tag": "0RZB-xJ-N2Fwd-n2SVSiGQ",
+    "ciphertext": "KOlRF2ey9tUR2x06dvWI3I4VD-MBZvlKBPTedpbRbhIs7JSDypUOMf4CGw",
+    "iv": "4iJT_1BR1EAjVve4",
+    "tag": "L2Wj1Rfeffwtw3GuZ-95ew",
     "version": 1
   }
 }
