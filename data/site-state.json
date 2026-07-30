@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1785368119016,
-      "rationale": "This post is about model performance on ARC-AGI-3, not rate limits or usage caps resetting.",
-      "tweetId": "2082609662231502932",
-      "tweetUrl": "https://x.com/thsottiaux/status/2082609662231502932",
+      "decidedAt": 1785374590846,
+      "rationale": "This post and its quote discuss model evaluation work, not usage limits or a reset.",
+      "tweetId": "2082637967852806207",
+      "tweetUrl": "https://x.com/thsottiaux/status/2082637967852806207",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2082609662231502932",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2082609662231502932",
+    "lastSeenTweetId": "2082637967852806207",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2082637967852806207",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1785367190621,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2082606956368609353"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1785374590846,
+        "inputTokens": 523,
+        "outputTokens": 98,
+        "rationale": "This post and its quote discuss model evaluation work, not usage limits or a reset.",
+        "reasoningTokens": 53,
+        "totalTokens": 621,
+        "tweetId": "2082637967852806207",
+        "tweetText": "Terrific work by @ilanbigio and @sandersted on the investigation and post. Seems like it was a lot of fun.\n\nTake care of your harnesses out there, your model will thank you.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2082637967852806207",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1785368119016,
@@ -279,29 +292,31 @@
         "tweetText": "We’re celebrating the fast adoption of chatGPT Work and all the incredible effort that went into it today. I’m feeling like a limit reset.\n\nHold on tight to your ultra and /fast and see you in a few hours when I’m back at the laptop!",
         "tweetUrl": "https://x.com/thsottiaux/status/2081899343091843463",
         "verdict": "uncertain"
-      },
-      {
-        "confidence": 0.96,
-        "evaluatedAt": 1785302797898,
-        "inputTokens": 391,
-        "outputTokens": 133,
-        "rationale": "This reply is conversational and does not say any limits or caps have reset.",
-        "reasoningTokens": 90,
-        "totalTokens": 524,
-        "tweetId": "2081898793335984499",
-        "tweetText": "@blueemi99 I would totally announce it like that",
-        "tweetUrl": "https://x.com/thsottiaux/status/2081898793335984499",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 408469,
-      "totalOutputTokens": 108762,
-      "totalReasoningTokens": 59684,
-      "totalTokens": 517231
+      "totalInputTokens": 408992,
+      "totalOutputTokens": 108860,
+      "totalReasoningTokens": 59737,
+      "totalTokens": 517852
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1785374590846,
+      "inputTokens": 523,
+      "message": "",
+      "outputTokens": 98,
+      "rationale": "This post and its quote discuss model evaluation work, not usage limits or a reset.",
+      "reasoningTokens": 53,
+      "totalTokens": 621,
+      "tweetId": "2082637967852806207",
+      "tweetText": "Terrific work by @ilanbigio and @sandersted on the investigation and post. Seems like it was a lot of fun.\n\nTake care of your harnesses out there, your model will thank you.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2082637967852806207",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1785368119016,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2080756403493560652",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1785302557730,
-      "inputTokens": 392,
-      "message": "",
-      "outputTokens": 68,
-      "rationale": "This is just a naming question and says nothing about limits or resets.",
-      "reasoningTokens": 26,
-      "totalTokens": 460,
-      "tweetId": "2080543574211666029",
-      "tweetText": "Should we rename ChatGPT Work to ChatGPT Vibe?",
-      "tweetUrl": "https://x.com/thsottiaux/status/2080543574211666029",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "KOlRF2ey9tUR2x06dvWI3I4VD-MBZvlKBPTedpbRbhIs7JSDypUOMf4CGw",
-    "iv": "4iJT_1BR1EAjVve4",
-    "tag": "L2Wj1Rfeffwtw3GuZ-95ew",
+    "ciphertext": "bNO_vINz0KltB-N92Dx2XdYqmjk6n6Rj9L788pf9OLWz5H3DevFZlei-Mw",
+    "iv": "osRCiKAUBiLghQm_",
+    "tag": "xSC_TYzR_jjNa092Gd1aew",
     "version": 1
   }
 }
