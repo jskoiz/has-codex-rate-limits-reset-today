@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.98,
-      "decidedAt": 1785378933427,
-      "rationale": "This is a general product teaser about shipping tomorrow, not a statement that limits have reset.",
-      "tweetId": "2082655731204096275",
-      "tweetUrl": "https://x.com/thsottiaux/status/2082655731204096275",
+      "decidedAt": 1785384528667,
+      "rationale": "This reply is just a reaction and does not mention limits, caps, or a reset.",
+      "tweetId": "2082679366941909176",
+      "tweetUrl": "https://x.com/thsottiaux/status/2082679366941909176",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2082655731204096275",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2082655731204096275",
+    "lastSeenTweetId": "2082679366941909176",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2082679366941909176",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1785367190621,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2082606956368609353"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.98,
+        "evaluatedAt": 1785384528667,
+        "inputTokens": 390,
+        "outputTokens": 98,
+        "rationale": "This reply is just a reaction and does not mention limits, caps, or a reset.",
+        "reasoningTokens": 52,
+        "totalTokens": 488,
+        "tweetId": "2082679366941909176",
+        "tweetText": "@embossedly @simonw 👀",
+        "tweetUrl": "https://x.com/thsottiaux/status/2082679366941909176",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.98,
         "evaluatedAt": 1785378933427,
@@ -279,29 +292,31 @@
         "tweetText": "Update. I have decided to take a break from x to recharge a bit. See you back tomorrow for more ChatGPT and Codex fun. It's going to be a fun week.",
         "tweetUrl": "https://x.com/thsottiaux/status/2081979033261412537",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1785303357745,
-        "inputTokens": 391,
-        "outputTokens": 58,
-        "rationale": "This reply is conversational and says nothing about limits or resets.",
-        "reasoningTokens": 18,
-        "totalTokens": 449,
-        "tweetId": "2081978301703422280",
-        "tweetText": "@Robertg761_ How much did we pay you",
-        "tweetUrl": "https://x.com/thsottiaux/status/2081978301703422280",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 410172,
-      "totalOutputTokens": 109277,
-      "totalReasoningTokens": 60017,
-      "totalTokens": 519449
+      "totalInputTokens": 410562,
+      "totalOutputTokens": 109375,
+      "totalReasoningTokens": 60069,
+      "totalTokens": 519937
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.98,
+      "createdAt": 1785384528667,
+      "inputTokens": 390,
+      "message": "",
+      "outputTokens": 98,
+      "rationale": "This reply is just a reaction and does not mention limits, caps, or a reset.",
+      "reasoningTokens": 52,
+      "totalTokens": 488,
+      "tweetId": "2082679366941909176",
+      "tweetText": "@embossedly @simonw 👀",
+      "tweetUrl": "https://x.com/thsottiaux/status/2082679366941909176",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.98,
       "createdAt": 1785378933427,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2081229262452097169",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1785302743284,
-      "inputTokens": 399,
-      "message": "",
-      "outputTokens": 91,
-      "rationale": "This is a usage milestone comment, not an announcement that limits or caps reset.",
-      "reasoningTokens": 47,
-      "totalTokens": 490,
-      "tweetId": "2081198608293187635",
-      "tweetText": "ChatGPT Work officially has overtaken Codex in number of active users. Way to go.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2081198608293187635",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "Z8bFPLhzI7Dxngz3ul-wYuXfi36MUXxTGQx3UK8rejRIEHsvSCCDU51zUA",
-    "iv": "rUKtpt6Uy1XtNOjh",
-    "tag": "mn9ZUHK4bjOTUXvIjjzCBg",
+    "ciphertext": "XRkshoueq9QwvRTUDumSWFlEn_wVDB_N17hbfxNz0rog3B_jAMV2gA4ugw",
+    "iv": "d5K0gX4x2SsgFW1N",
+    "tag": "x5Kmf8QSWIZMzRUvJ1DR4g",
     "version": 1
   }
 }
