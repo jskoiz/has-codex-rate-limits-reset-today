@@ -1,5 +1,5 @@
 {
-  "currentState": "yes",
+  "currentState": "no",
   "autoResetHours": 20,
   "noSubtitles": [
     "Back to your local model peasant",
@@ -10,20 +10,20 @@
     "Limits reset, go crazy",
     "You can just build things"
   ],
-  "resetAt": 1785375373213,
+  "resetAt": null,
   "updatedAt": 1785303373213,
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1785374590846,
-      "rationale": "This post and its quote discuss model evaluation work, not usage limits or a reset.",
-      "tweetId": "2082637967852806207",
-      "tweetUrl": "https://x.com/thsottiaux/status/2082637967852806207",
+      "decidedAt": 1785378925434,
+      "rationale": "This is a conversational reply and does not mention rate limits, caps, or a reset.",
+      "tweetId": "2082655259319828492",
+      "tweetUrl": "https://x.com/thsottiaux/status/2082655259319828492",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2082637967852806207",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2082637967852806207",
+    "lastSeenTweetId": "2082655259319828492",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2082655259319828492",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1785367190621,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2082606956368609353"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1785378925434,
+        "inputTokens": 396,
+        "outputTokens": 70,
+        "rationale": "This is a conversational reply and does not mention rate limits, caps, or a reset.",
+        "reasoningTokens": 24,
+        "totalTokens": 466,
+        "tweetId": "2082655259319828492",
+        "tweetText": "@charliermarsh Aren’t charts supposed to go up and to the right",
+        "tweetUrl": "https://x.com/thsottiaux/status/2082655259319828492",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1785374590846,
@@ -279,29 +292,31 @@
         "tweetText": "@charliermarsh Maybe",
         "tweetUrl": "https://x.com/thsottiaux/status/2081939918818025982",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.91,
-        "evaluatedAt": 1785302801342,
-        "inputTokens": 435,
-        "outputTokens": 202,
-        "rationale": "He hints at a possible limit reset, but it is not explicit that limits are actually reset or available again now.",
-        "reasoningTokens": 151,
-        "totalTokens": 637,
-        "tweetId": "2081899343091843463",
-        "tweetText": "We’re celebrating the fast adoption of chatGPT Work and all the incredible effort that went into it today. I’m feeling like a limit reset.\n\nHold on tight to your ultra and /fast and see you in a few hours when I’m back at the laptop!",
-        "tweetUrl": "https://x.com/thsottiaux/status/2081899343091843463",
-        "verdict": "uncertain"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 408992,
-      "totalOutputTokens": 108860,
-      "totalReasoningTokens": 59737,
-      "totalTokens": 517852
+      "totalInputTokens": 409388,
+      "totalOutputTokens": 108930,
+      "totalReasoningTokens": 59761,
+      "totalTokens": 518318
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1785378925434,
+      "inputTokens": 396,
+      "message": "",
+      "outputTokens": 70,
+      "rationale": "This is a conversational reply and does not mention rate limits, caps, or a reset.",
+      "reasoningTokens": 24,
+      "totalTokens": 466,
+      "tweetId": "2082655259319828492",
+      "tweetText": "@charliermarsh Aren’t charts supposed to go up and to the right",
+      "tweetUrl": "https://x.com/thsottiaux/status/2082655259319828492",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1785374590846,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2080876712439747052",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1785302560508,
-      "inputTokens": 463,
-      "message": "",
-      "outputTokens": 85,
-      "rationale": "This post is promotional about sharing custom pets and does not mention limits or a reset.",
-      "reasoningTokens": 40,
-      "totalTokens": 548,
-      "tweetId": "2080756403493560652",
-      "tweetText": "Show me your pet",
-      "tweetUrl": "https://x.com/thsottiaux/status/2080756403493560652",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "bNO_vINz0KltB-N92Dx2XdYqmjk6n6Rj9L788pf9OLWz5H3DevFZlei-Mw",
-    "iv": "osRCiKAUBiLghQm_",
-    "tag": "xSC_TYzR_jjNa092Gd1aew",
+    "ciphertext": "2Xu0okd_XNP9GIYc0cDNDezF36xUhmZRRTmbyy3Dzira7Hx8YlnBtlAVCg",
+    "iv": "2WLlt-Wtx7QSHWqn",
+    "tag": "DcWyE7qNAnxJUy9X88gszg",
     "version": 1
   }
 }
