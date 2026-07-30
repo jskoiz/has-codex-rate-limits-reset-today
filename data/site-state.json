@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1785386378805,
-      "rationale": "This reply is just a playful comment and does not mention any limits or reset.",
-      "tweetId": "2082687501370859800",
-      "tweetUrl": "https://x.com/thsottiaux/status/2082687501370859800",
+      "decidedAt": 1785386690591,
+      "rationale": "This reply is promotional/conversational and does not mention limits or a reset.",
+      "tweetId": "2082687571390587306",
+      "tweetUrl": "https://x.com/thsottiaux/status/2082687571390587306",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2082687501370859800",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2082687501370859800",
+    "lastSeenTweetId": "2082687571390587306",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2082687571390587306",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1785367190621,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2082606956368609353"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1785386690591,
+        "inputTokens": 393,
+        "outputTokens": 83,
+        "rationale": "This reply is promotional/conversational and does not mention limits or a reset.",
+        "reasoningTokens": 39,
+        "totalTokens": 476,
+        "tweetId": "2082687571390587306",
+        "tweetText": "@airtable @OpenAI @ChatGPT It's time to fly",
+        "tweetUrl": "https://x.com/thsottiaux/status/2082687571390587306",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1785386378805,
@@ -279,29 +292,31 @@
         "tweetText": "@lucasmeijer Different definition of harness. The agent code is the harness. The codex app is an app.\n\nhttps://t.co/2TH56VNxnb",
         "tweetUrl": "https://x.com/thsottiaux/status/2082241730972442912",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1785303364019,
-        "inputTokens": 441,
-        "outputTokens": 82,
-        "rationale": "This post is about an open-source security CLI/SDK release, not usage limits or resets.",
-        "reasoningTokens": 35,
-        "totalTokens": 523,
-        "tweetId": "2082241164850364555",
-        "tweetText": "More opensource goodness. We have just released a CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities in your code. Scan repositories, review changes, track findings over time, and run security checks in CI.\n\nhttps://t.co/nkfTbw8p7b",
-        "tweetUrl": "https://x.com/thsottiaux/status/2082241164850364555",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 410949,
-      "totalOutputTokens": 109456,
-      "totalReasoningTokens": 60106,
-      "totalTokens": 520405
+      "totalInputTokens": 411342,
+      "totalOutputTokens": 109539,
+      "totalReasoningTokens": 60145,
+      "totalTokens": 520881
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1785386690591,
+      "inputTokens": 393,
+      "message": "",
+      "outputTokens": 83,
+      "rationale": "This reply is promotional/conversational and does not mention limits or a reset.",
+      "reasoningTokens": 39,
+      "totalTokens": 476,
+      "tweetId": "2082687571390587306",
+      "tweetText": "@airtable @OpenAI @ChatGPT It's time to fly",
+      "tweetUrl": "https://x.com/thsottiaux/status/2082687571390587306",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1785386378805,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2081444811647963244",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1785302749688,
-      "inputTokens": 500,
-      "message": "",
-      "outputTokens": 117,
-      "rationale": "This post and its quoted tweet promote ChatGPT Voice on desktop, not a rate-limit or usage reset.",
-      "reasoningTokens": 68,
-      "totalTokens": 617,
-      "tweetId": "2081254182502465981",
-      "tweetText": "It was always possible to speak to your computer. It wouldn’t do much in return. But we fixed that bug.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2081254182502465981",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "vOEl3DgEBiGUpry2uhveGK6IFl9w_X1HB7T1pjj2jpJ4rSQC5AbIQ1yf-A",
-    "iv": "HpO3mKodePevyMvF",
-    "tag": "FBKjeeeWWX8CkSGGgsDvGw",
+    "ciphertext": "jjHMQFD5UvWdl07-jmOexsEI73oUbEdxomhQscegiD8oYPzPf1kl_pVmLw",
+    "iv": "vdkgL65wAGZkAGcw",
+    "tag": "SA95XN1kQBko23R9J3Z2UQ",
     "version": 1
   }
 }
