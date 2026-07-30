@@ -14,16 +14,16 @@
   "updatedAt": 1785303373213,
   "automation": {
     "lastDecision": {
-      "confidence": 0.98,
-      "decidedAt": 1785433438489,
-      "rationale": "This reply mentions pricing and subscription usage changes but does not say limits have reset or are available again…",
-      "tweetId": "2082883808194707792",
-      "tweetUrl": "https://x.com/thsottiaux/status/2082883808194707792",
+      "confidence": 0.99,
+      "decidedAt": 1785435925642,
+      "rationale": "This reply is conversational and gives no indication that any limits or caps have reset.",
+      "tweetId": "2082895176696221738",
+      "tweetUrl": "https://x.com/thsottiaux/status/2082895176696221738",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2082883808194707792",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2082883808194707792",
+    "lastSeenTweetId": "2082895176696221738",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2082895176696221738",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1785367190621,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2082606956368609353"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1785435925642,
+        "inputTokens": 389,
+        "outputTokens": 70,
+        "rationale": "This reply is conversational and gives no indication that any limits or caps have reset.",
+        "reasoningTokens": 26,
+        "totalTokens": 459,
+        "tweetId": "2082895176696221738",
+        "tweetText": "@MatthewBerman Calm down, calm down",
+        "tweetUrl": "https://x.com/thsottiaux/status/2082895176696221738",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.98,
         "evaluatedAt": 1785433438489,
@@ -279,29 +292,31 @@
         "tweetText": "Efficiency! \n\nIn two steps\na) Train fantastic model\nb) Use fantastic model to make everything better, including its own infrastructure, inference stack, kernels, etc, etc\n\nhttps://t.co/kGtmX3LAow",
         "tweetUrl": "https://x.com/thsottiaux/status/2082578335167807775",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1785359728518,
-        "inputTokens": 478,
-        "outputTokens": 101,
-        "rationale": "This is a reaction to a researcher-access announcement, not a statement that limits have reset.",
-        "reasoningTokens": 55,
-        "totalTokens": 579,
-        "tweetId": "2082574687020966126",
-        "tweetText": "Yeah! Science!",
-        "tweetUrl": "https://x.com/thsottiaux/status/2082574687020966126",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 415106,
-      "totalOutputTokens": 110467,
-      "totalReasoningTokens": 60663,
-      "totalTokens": 525573
+      "totalInputTokens": 415495,
+      "totalOutputTokens": 110537,
+      "totalReasoningTokens": 60689,
+      "totalTokens": 526032
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1785435925642,
+      "inputTokens": 389,
+      "message": "",
+      "outputTokens": 70,
+      "rationale": "This reply is conversational and gives no indication that any limits or caps have reset.",
+      "reasoningTokens": 26,
+      "totalTokens": 459,
+      "tweetId": "2082895176696221738",
+      "tweetText": "@MatthewBerman Calm down, calm down",
+      "tweetUrl": "https://x.com/thsottiaux/status/2082895176696221738",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.98,
       "createdAt": 1785433438489,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2081876686787019010",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1785302786921,
-      "inputTokens": 390,
-      "message": "",
-      "outputTokens": 80,
-      "rationale": "This reply is conversational and does not mention limits, caps, or availability resetting.",
-      "reasoningTokens": 36,
-      "totalTokens": 470,
-      "tweetId": "2081868133032444306",
-      "tweetText": "@Angaisb_ Something something performance and efficiency",
-      "tweetUrl": "https://x.com/thsottiaux/status/2081868133032444306",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "u-FaMsxADN7cT0_MjFQ0iYh7SrQaLVEog9NKMtcuNYR1_jEES34VNKm3XA",
-    "iv": "LBs_wgLkOLBUJk9w",
-    "tag": "_SgyoVFi5mycQ46dJxCU1g",
+    "ciphertext": "LUuuUSHxKGO84BASeQFgB0yQa6lz9RmzeYmvLPE6Y3pxvKvZ1pqp54QuZg",
+    "iv": "VWL71VItxa711WzQ",
+    "tag": "ttJ3eP-PiXdTSjHOQAdX_Q",
     "version": 1
   }
 }
