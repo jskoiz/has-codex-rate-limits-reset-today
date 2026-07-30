@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1785436243177,
-      "rationale": "This reply is conversational and does not mention any limits or reset.",
-      "tweetId": "2082895472184987985",
-      "tweetUrl": "https://x.com/thsottiaux/status/2082895472184987985",
+      "decidedAt": 1785436246976,
+      "rationale": "This reply is conversational and says nothing about limits or a reset.",
+      "tweetId": "2082896153277063528",
+      "tweetUrl": "https://x.com/thsottiaux/status/2082896153277063528",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2082895472184987985",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2082895472184987985",
+    "lastSeenTweetId": "2082896153277063528",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2082896153277063528",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1785367190621,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2082606956368609353"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1785436246976,
+        "inputTokens": 389,
+        "outputTokens": 73,
+        "rationale": "This reply is conversational and says nothing about limits or a reset.",
+        "reasoningTokens": 32,
+        "totalTokens": 462,
+        "tweetId": "2082896153277063528",
+        "tweetText": "@thesherlocker What was your bias?",
+        "tweetUrl": "https://x.com/thsottiaux/status/2082896153277063528",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1785436243177,
@@ -279,29 +292,31 @@
         "tweetText": "Turns out GPT-5.6 Sol is actually SoTA on ARC-AGI-3. \n\nJust took two setting changes. You just have to allow it to reason and work over multiple context windows with the help of our canonical compaction implementation.\n\nhttps://t.co/wHjaNsvIv8",
         "tweetUrl": "https://x.com/thsottiaux/status/2082609662231502932",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.95,
-        "evaluatedAt": 1785367190621,
-        "inputTokens": 396,
-        "outputTokens": 169,
-        "rationale": "This reply is just a vague countdown and does not clearly say limits have reset.",
-        "reasoningTokens": 125,
-        "totalTokens": 565,
-        "tweetId": "2082606956368609353",
-        "tweetText": "@theo 3 days to go! forgot to update you yesterday 👀",
-        "tweetUrl": "https://x.com/thsottiaux/status/2082606956368609353",
-        "verdict": "uncertain"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 415882,
-      "totalOutputTokens": 110605,
-      "totalReasoningTokens": 60716,
-      "totalTokens": 526487
+      "totalInputTokens": 416271,
+      "totalOutputTokens": 110678,
+      "totalReasoningTokens": 60748,
+      "totalTokens": 526949
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1785436246977,
+      "inputTokens": 389,
+      "message": "",
+      "outputTokens": 73,
+      "rationale": "This reply is conversational and says nothing about limits or a reset.",
+      "reasoningTokens": 32,
+      "totalTokens": 462,
+      "tweetId": "2082896153277063528",
+      "tweetText": "@thesherlocker What was your bias?",
+      "tweetUrl": "https://x.com/thsottiaux/status/2082896153277063528",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1785436243177,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2081895010191192491",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1785302791876,
-      "inputTokens": 388,
-      "message": "",
-      "outputTokens": 78,
-      "rationale": "This reply is conversational and does not mention any limit, cap, or reset.",
-      "reasoningTokens": 34,
-      "totalTokens": 466,
-      "tweetId": "2081876970393198604",
-      "tweetText": "@federicomobilia Discerning",
-      "tweetUrl": "https://x.com/thsottiaux/status/2081876970393198604",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "Zia-SezKL3M0-pDRfPja_VxVG5GOxPD8t7bXnr2wRXzJ5-La-B5UWKoR9w",
-    "iv": "6BIXEZC-3CXAl_Fo",
-    "tag": "LpqapXmUWw6FkCQYUZAlDg",
+    "ciphertext": "bnDQoMdz0NKcF5SEI3dj8O8s7vJ0AK90qRRj7eNrQ5nimEXeWgrXJ8WtIA",
+    "iv": "WUp08C0SvdE6F-2B",
+    "tag": "DJyMkJzt1FSmM1ZZn48lUA",
     "version": 1
   }
 }
