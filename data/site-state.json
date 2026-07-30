@@ -14,16 +14,16 @@
   "updatedAt": 1785303373213,
   "automation": {
     "lastDecision": {
-      "confidence": 0.96,
-      "decidedAt": 1785398474963,
-      "rationale": "This reply is conversational and does not clearly refer to ChatGPT or Codex usage limits resetting.",
-      "tweetId": "2082737638583501152",
-      "tweetUrl": "https://x.com/thsottiaux/status/2082737638583501152",
+      "confidence": 0.99,
+      "decidedAt": 1785398791099,
+      "rationale": "This reply is just a greeting and gives no indication of any limit reset.",
+      "tweetId": "2082738531391385956",
+      "tweetUrl": "https://x.com/thsottiaux/status/2082738531391385956",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2082737638583501152",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2082737638583501152",
+    "lastSeenTweetId": "2082738531391385956",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2082738531391385956",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1785367190621,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2082606956368609353"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1785398791099,
+        "inputTokens": 388,
+        "outputTokens": 74,
+        "rationale": "This reply is just a greeting and gives no indication of any limit reset.",
+        "reasoningTokens": 31,
+        "totalTokens": 462,
+        "tweetId": "2082738531391385956",
+        "tweetText": "@xikhar @supabase Hi",
+        "tweetUrl": "https://x.com/thsottiaux/status/2082738531391385956",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.96,
         "evaluatedAt": 1785398474963,
@@ -279,29 +292,31 @@
         "tweetText": "@0xrsydn Omg omg omg, back to 100%!",
         "tweetUrl": "https://x.com/thsottiaux/status/2082340992871760182",
         "verdict": "uncertain"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1785303691170,
-        "inputTokens": 393,
-        "outputTokens": 110,
-        "rationale": "This reply is just asking for more information and does not say limits have reset.",
-        "reasoningTokens": 66,
-        "totalTokens": 503,
-        "tweetId": "2082338260181983532",
-        "tweetText": "@gmbueno Haven't seen that. Where is that?",
-        "tweetUrl": "https://x.com/thsottiaux/status/2082338260181983532",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 413715,
-      "totalOutputTokens": 110134,
-      "totalReasoningTokens": 60474,
-      "totalTokens": 523849
+      "totalInputTokens": 414103,
+      "totalOutputTokens": 110208,
+      "totalReasoningTokens": 60505,
+      "totalTokens": 524311
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1785398791099,
+      "inputTokens": 388,
+      "message": "",
+      "outputTokens": 74,
+      "rationale": "This reply is just a greeting and gives no indication of any limit reset.",
+      "reasoningTokens": 31,
+      "totalTokens": 462,
+      "tweetId": "2082738531391385956",
+      "tweetText": "@xikhar @supabase Hi",
+      "tweetUrl": "https://x.com/thsottiaux/status/2082738531391385956",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.96,
       "createdAt": 1785398474963,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2081867598787191007",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1785302771044,
-      "inputTokens": 394,
-      "message": "",
-      "outputTokens": 123,
-      "rationale": "This reply jokes about Codex adoption and does not mention limits or a reset.",
-      "reasoningTokens": 79,
-      "totalTokens": 517,
-      "tweetId": "2081866242718318707",
-      "tweetText": "@RyanDetrick Trying to catch up with the Codex adoption curve",
-      "tweetUrl": "https://x.com/thsottiaux/status/2081866242718318707",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "SvpvOShN8wjoQPXtTlobg1q93ZxhubGIC4MHNP7NjJdi9gvhYj7MMDAeBg",
-    "iv": "_c2UdMLcOZO-RImw",
-    "tag": "_D9U1bZskwyiWg8rADR4pg",
+    "ciphertext": "MVNqKqM5A2L2OQJ2CcWFZ8TNRDl6FtJXSHt45ke6ULhsfLIgGcmEcRy-mg",
+    "iv": "IIt-uh5sxIqWYyUR",
+    "tag": "CWssQiU866CjIQjCI-zW0w",
     "version": 1
   }
 }
