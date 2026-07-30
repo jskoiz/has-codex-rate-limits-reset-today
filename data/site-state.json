@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1785397855884,
-      "rationale": "This reply discusses model behavior conceptually and does not mention any usage limits or reset.",
-      "tweetId": "2082734562103484862",
-      "tweetUrl": "https://x.com/thsottiaux/status/2082734562103484862",
+      "decidedAt": 1785397859320,
+      "rationale": "This reply is just conversational and does not mention limits resetting or being available again.",
+      "tweetId": "2082735280579358753",
+      "tweetUrl": "https://x.com/thsottiaux/status/2082735280579358753",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2082734562103484862",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2082734562103484862",
+    "lastSeenTweetId": "2082735280579358753",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2082735280579358753",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1785367190621,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2082606956368609353"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1785397859320,
+        "inputTokens": 388,
+        "outputTokens": 91,
+        "rationale": "This reply is just conversational and does not mention limits resetting or being available again.",
+        "reasoningTokens": 47,
+        "totalTokens": 479,
+        "tweetId": "2082735280579358753",
+        "tweetText": "@Ananth7e Let’s see",
+        "tweetUrl": "https://x.com/thsottiaux/status/2082735280579358753",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1785397855884,
@@ -279,29 +292,31 @@
         "tweetText": "@justindico And yet",
         "tweetUrl": "https://x.com/thsottiaux/status/2082326159090647355",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1785303373213,
-        "inputTokens": 842,
-        "outputTokens": 94,
-        "rationale": "The tweet explicitly says usage limits were reset for all ChatGPT Work and Codex users.",
-        "reasoningTokens": 47,
-        "totalTokens": 936,
-        "tweetId": "2082317452755751098",
-        "tweetText": "Hello people of Sol! I've reset usage limits for all ChatGPT Work and Codex users. Together with that, a quick update on GPT-5.6 Sol usage limits.\n\nOver the past few weeks, many of you have told us that Sol was using your Codex limits faster than expected. To be clear, we have not reduced usage on any subscription plans.\n\nWe’ve been digging into what was happening and have landed several improvements. As a result, we expect your usage to last around 18% longer during typical use of Sol. Some of you should already see significantly larger improvements from today. Tomorrow, we’ll also restore the five-hour limit that we temporarily paused while investigating.\n\nHere’s what we found:\n- GPT-5.6 Sol is much more willing to work for longer, make additional tool calls, and coordinate complex workflows across tools and subagents. That makes it better at solving hard problems, but some tasks were using far more than we intended.\n- Sol also works harder at the same reasoning effort than previous models. High on Sol can use more tokens than High did on GPT-5.5.\n- Programmatic tool calling, also referred to as code mode, gives Sol much more flexibility to run tool calls in parallel or continue working while waiting. But it also led to more responses per turn, more cached input tokens, and higher usage than expected.\n- This was particularly noticeable when Sol was waiting for tool calls to finish or running many web searches. We’ve improved how we handle both cases and are continuing to make code mode more efficient.\n- The impact was also very uneven. The median user actually found Sol quite token efficient, while some power users working on harder tasks saw their usage drain much faster. We were very focused on average and median usage before launch and missed some cases where the long tail could use significantly more usage.\n\nSol is a significant step forward in what Codex can do, but capability and efficiency do not always improve at the same pace, and some issues only become clear once people are using the model at real-world scale. We should have recognized this sooner and been more upfront about it.\n\nYou keep pushing the frontier and we’ll keep improving efficiency and sharing updates as we go.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2082317452755751098",
-        "verdict": "reset_confirmed"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 412161,
-      "totalOutputTokens": 109691,
-      "totalReasoningTokens": 60208,
-      "totalTokens": 521852
+      "totalInputTokens": 412549,
+      "totalOutputTokens": 109782,
+      "totalReasoningTokens": 60255,
+      "totalTokens": 522331
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1785397859320,
+      "inputTokens": 388,
+      "message": "",
+      "outputTokens": 91,
+      "rationale": "This reply is just conversational and does not mention limits resetting or being available again.",
+      "reasoningTokens": 47,
+      "totalTokens": 479,
+      "tweetId": "2082735280579358753",
+      "tweetText": "@Ananth7e Let’s see",
+      "tweetUrl": "https://x.com/thsottiaux/status/2082735280579358753",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1785397855884,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2081860991210631476",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1785302757712,
-      "inputTokens": 403,
-      "message": "",
-      "outputTokens": 73,
-      "rationale": "This post is just a casual Codex mention and does not indicate any limit or cap reset.",
-      "reasoningTokens": 26,
-      "totalTokens": 476,
-      "tweetId": "2081839118531834176",
-      "tweetText": "Spotted Codex making friends at the OpenAI office https://t.co/M0CAxSHUqc",
-      "tweetUrl": "https://x.com/thsottiaux/status/2081839118531834176",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "jqUpAxxOH65ZwzWD7ekOaSGkn7jkPCQeH39m7mSBcsRugQfhg-k_ECdV5A",
-    "iv": "6yDqs62gxUfWwVSS",
-    "tag": "uH1nvsRHvuM_zmct0qsGsQ",
+    "ciphertext": "_DDm6xkT5iUBzz18s4QMbfsTGg5tWDYz4hApS8nb5smlqnf00jIguNuwww",
+    "iv": "MuVl6lz5O2dEXjGp",
+    "tag": "MyCHiFz1uCGsA8uorYTr3w",
     "version": 1
   }
 }
