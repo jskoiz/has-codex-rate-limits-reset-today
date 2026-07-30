@@ -14,16 +14,16 @@
   "updatedAt": 1785303373213,
   "automation": {
     "lastDecision": {
-      "confidence": 0.98,
-      "decidedAt": 1785384528667,
-      "rationale": "This reply is just a reaction and does not mention limits, caps, or a reset.",
-      "tweetId": "2082679366941909176",
-      "tweetUrl": "https://x.com/thsottiaux/status/2082679366941909176",
+      "confidence": 0.99,
+      "decidedAt": 1785386378805,
+      "rationale": "This reply is just a playful comment and does not mention any limits or reset.",
+      "tweetId": "2082687501370859800",
+      "tweetUrl": "https://x.com/thsottiaux/status/2082687501370859800",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2082679366941909176",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2082679366941909176",
+    "lastSeenTweetId": "2082687501370859800",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2082687501370859800",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1785367190621,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2082606956368609353"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1785386378805,
+        "inputTokens": 387,
+        "outputTokens": 81,
+        "rationale": "This reply is just a playful comment and does not mention any limits or reset.",
+        "reasoningTokens": 37,
+        "totalTokens": 468,
+        "tweetId": "2082687501370859800",
+        "tweetText": "@supabase Supa ChatGPT",
+        "tweetUrl": "https://x.com/thsottiaux/status/2082687501370859800",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.98,
         "evaluatedAt": 1785384528667,
@@ -279,29 +292,31 @@
         "tweetText": "More opensource goodness. We have just released a CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities in your code. Scan repositories, review changes, track findings over time, and run security checks in CI.\n\nhttps://t.co/nkfTbw8p7b",
         "tweetUrl": "https://x.com/thsottiaux/status/2082241164850364555",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1785303361221,
-        "inputTokens": 417,
-        "outputTokens": 71,
-        "rationale": "This post is just a personal update about taking a break and does not mention limits or resets.",
-        "reasoningTokens": 24,
-        "totalTokens": 488,
-        "tweetId": "2081979033261412537",
-        "tweetText": "Update. I have decided to take a break from x to recharge a bit. See you back tomorrow for more ChatGPT and Codex fun. It's going to be a fun week.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2081979033261412537",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 410562,
-      "totalOutputTokens": 109375,
-      "totalReasoningTokens": 60069,
-      "totalTokens": 519937
+      "totalInputTokens": 410949,
+      "totalOutputTokens": 109456,
+      "totalReasoningTokens": 60106,
+      "totalTokens": 520405
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1785386378805,
+      "inputTokens": 387,
+      "message": "",
+      "outputTokens": 81,
+      "rationale": "This reply is just a playful comment and does not mention any limits or reset.",
+      "reasoningTokens": 37,
+      "totalTokens": 468,
+      "tweetId": "2082687501370859800",
+      "tweetText": "@supabase Supa ChatGPT",
+      "tweetUrl": "https://x.com/thsottiaux/status/2082687501370859800",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.98,
       "createdAt": 1785384528667,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2081254182502465981",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1785302746370,
-      "inputTokens": 491,
-      "message": "",
-      "outputTokens": 90,
-      "rationale": "This post is a product comment about ChatGPT Work agent features, not a limit or cap reset.",
-      "reasoningTokens": 42,
-      "totalTokens": 581,
-      "tweetId": "2081229262452097169",
-      "tweetText": "Game changer when used from mobile. Available in the ChatGPT app already.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2081229262452097169",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "XRkshoueq9QwvRTUDumSWFlEn_wVDB_N17hbfxNz0rog3B_jAMV2gA4ugw",
-    "iv": "d5K0gX4x2SsgFW1N",
-    "tag": "x5Kmf8QSWIZMzRUvJ1DR4g",
+    "ciphertext": "vOEl3DgEBiGUpry2uhveGK6IFl9w_X1HB7T1pjj2jpJ4rSQC5AbIQ1yf-A",
+    "iv": "HpO3mKodePevyMvF",
+    "tag": "FBKjeeeWWX8CkSGGgsDvGw",
     "version": 1
   }
 }
