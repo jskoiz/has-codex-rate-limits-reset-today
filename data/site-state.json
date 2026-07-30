@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1785397859320,
-      "rationale": "This reply is just conversational and does not mention limits resetting or being available again.",
-      "tweetId": "2082735280579358753",
-      "tweetUrl": "https://x.com/thsottiaux/status/2082735280579358753",
+      "decidedAt": 1785398160160,
+      "rationale": "This reply is just conversational and does not mention limits, caps, or a reset.",
+      "tweetId": "2082736317977575540",
+      "tweetUrl": "https://x.com/thsottiaux/status/2082736317977575540",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2082735280579358753",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2082735280579358753",
+    "lastSeenTweetId": "2082736317977575540",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2082736317977575540",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1785367190621,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2082606956368609353"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1785398160160,
+        "inputTokens": 385,
+        "outputTokens": 102,
+        "rationale": "This reply is just conversational and does not mention limits, caps, or a reset.",
+        "reasoningTokens": 57,
+        "totalTokens": 487,
+        "tweetId": "2082736317977575540",
+        "tweetText": "@angelbrodin Trend",
+        "tweetUrl": "https://x.com/thsottiaux/status/2082736317977575540",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1785397859320,
@@ -279,29 +292,31 @@
         "tweetText": "One day we created the reset button and the rest is history.",
         "tweetUrl": "https://x.com/thsottiaux/status/2082326593532473523",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1785303682664,
-        "inputTokens": 386,
-        "outputTokens": 86,
-        "rationale": "This reply does not mention limits, caps, or any reset.",
-        "reasoningTokens": 45,
-        "totalTokens": 472,
-        "tweetId": "2082326159090647355",
-        "tweetText": "@justindico And yet",
-        "tweetUrl": "https://x.com/thsottiaux/status/2082326159090647355",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 412549,
-      "totalOutputTokens": 109782,
-      "totalReasoningTokens": 60255,
-      "totalTokens": 522331
+      "totalInputTokens": 412934,
+      "totalOutputTokens": 109884,
+      "totalReasoningTokens": 60312,
+      "totalTokens": 522818
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1785398160160,
+      "inputTokens": 385,
+      "message": "",
+      "outputTokens": 102,
+      "rationale": "This reply is just conversational and does not mention limits, caps, or a reset.",
+      "reasoningTokens": 57,
+      "totalTokens": 487,
+      "tweetId": "2082736317977575540",
+      "tweetText": "@angelbrodin Trend",
+      "tweetUrl": "https://x.com/thsottiaux/status/2082736317977575540",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1785397859320,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2081863995271925948",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1785302760978,
-      "inputTokens": 432,
-      "message": "",
-      "outputTokens": 73,
-      "rationale": "This is promotional commentary about model performance, not a statement that limits or caps have reset.",
-      "reasoningTokens": 27,
-      "totalTokens": 505,
-      "tweetId": "2081860991210631476",
-      "tweetText": "Turns out GPT-5.6 Sol and friends are absolutely amazing at performance and efficiency improvements. Good time to brush up on using OpenAI models if you haven’t switched already. \n\nExcited to be able to share more soon. Pretty wild.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2081860991210631476",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "_DDm6xkT5iUBzz18s4QMbfsTGg5tWDYz4hApS8nb5smlqnf00jIguNuwww",
-    "iv": "MuVl6lz5O2dEXjGp",
-    "tag": "MyCHiFz1uCGsA8uorYTr3w",
+    "ciphertext": "RsfLOh_Js-9wgurn_d6NmSoFrXwU_fD9vtWQrCbE62wTEQVXDZd3RnSyYg",
+    "iv": "S0o6HRI6T30HIQ5j",
+    "tag": "6ATzQ66tTVaH2qjWJDLJ2Q",
     "version": 1
   }
 }
