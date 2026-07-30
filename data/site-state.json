@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1785436246976,
-      "rationale": "This reply is conversational and says nothing about limits or a reset.",
-      "tweetId": "2082896153277063528",
-      "tweetUrl": "https://x.com/thsottiaux/status/2082896153277063528",
+      "decidedAt": 1785436250145,
+      "rationale": "This reply is just conversational and does not mention limits or a reset.",
+      "tweetId": "2082896652680167851",
+      "tweetUrl": "https://x.com/thsottiaux/status/2082896652680167851",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2082896153277063528",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2082896153277063528",
+    "lastSeenTweetId": "2082896652680167851",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2082896652680167851",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1785367190621,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2082606956368609353"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1785436250145,
+        "inputTokens": 388,
+        "outputTokens": 99,
+        "rationale": "This reply is just conversational and does not mention limits or a reset.",
+        "reasoningTokens": 57,
+        "totalTokens": 487,
+        "tweetId": "2082896652680167851",
+        "tweetText": "@theo 2 days to go",
+        "tweetUrl": "https://x.com/thsottiaux/status/2082896652680167851",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1785436246976,
@@ -279,29 +292,31 @@
         "tweetText": "Terrific work by @ilanbigio and @sandersted on the investigation and post. Seems like it was a lot of fun.\n\nTake care of your harnesses out there, your model will thank you.",
         "tweetUrl": "https://x.com/thsottiaux/status/2082637967852806207",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1785368119016,
-        "inputTokens": 447,
-        "outputTokens": 79,
-        "rationale": "This post is about model performance on ARC-AGI-3, not rate limits or usage caps resetting.",
-        "reasoningTokens": 29,
-        "totalTokens": 526,
-        "tweetId": "2082609662231502932",
-        "tweetText": "Turns out GPT-5.6 Sol is actually SoTA on ARC-AGI-3. \n\nJust took two setting changes. You just have to allow it to reason and work over multiple context windows with the help of our canonical compaction implementation.\n\nhttps://t.co/wHjaNsvIv8",
-        "tweetUrl": "https://x.com/thsottiaux/status/2082609662231502932",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 416271,
-      "totalOutputTokens": 110678,
-      "totalReasoningTokens": 60748,
-      "totalTokens": 526949
+      "totalInputTokens": 416659,
+      "totalOutputTokens": 110777,
+      "totalReasoningTokens": 60805,
+      "totalTokens": 527436
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1785436250145,
+      "inputTokens": 388,
+      "message": "",
+      "outputTokens": 99,
+      "rationale": "This reply is just conversational and does not mention limits or a reset.",
+      "reasoningTokens": 57,
+      "totalTokens": 487,
+      "tweetId": "2082896652680167851",
+      "tweetText": "@theo 2 days to go",
+      "tweetUrl": "https://x.com/thsottiaux/status/2082896652680167851",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1785436246977,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2081898793335984499",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1785302794582,
-      "inputTokens": 388,
-      "message": "",
-      "outputTokens": 55,
-      "rationale": "This reply is conversational and says nothing about limits or a reset.",
-      "reasoningTokens": 14,
-      "totalTokens": 443,
-      "tweetId": "2081895010191192491",
-      "tweetText": "@theo Come back to papa Sol",
-      "tweetUrl": "https://x.com/thsottiaux/status/2081895010191192491",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "bnDQoMdz0NKcF5SEI3dj8O8s7vJ0AK90qRRj7eNrQ5nimEXeWgrXJ8WtIA",
-    "iv": "WUp08C0SvdE6F-2B",
-    "tag": "DJyMkJzt1FSmM1ZZn48lUA",
+    "ciphertext": "pED8wG_hN8h-_vrP9r46f-d_wMP5MKZSGtlsfWORgVSy8tQDwLZy_CKS_g",
+    "iv": "ZfgY_7SWVqvc_Y5I",
+    "tag": "krVo8QlSBBJLbDUsBcXl1g",
     "version": 1
   }
 }
