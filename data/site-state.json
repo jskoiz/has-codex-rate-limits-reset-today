@@ -14,16 +14,16 @@
   "updatedAt": 1785303373213,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1785436250145,
-      "rationale": "This reply is just conversational and does not mention limits or a reset.",
-      "tweetId": "2082896652680167851",
-      "tweetUrl": "https://x.com/thsottiaux/status/2082896652680167851",
+      "confidence": 0.98,
+      "decidedAt": 1785436544616,
+      "rationale": "This reply is purely conversational and does not mention limits, caps, or a reset.",
+      "tweetId": "2082897093245694413",
+      "tweetUrl": "https://x.com/thsottiaux/status/2082897093245694413",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2082896652680167851",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2082896652680167851",
+    "lastSeenTweetId": "2082897093245694413",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2082897093245694413",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1785367190621,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2082606956368609353"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.98,
+        "evaluatedAt": 1785436544616,
+        "inputTokens": 387,
+        "outputTokens": 205,
+        "rationale": "This reply is purely conversational and does not mention limits, caps, or a reset.",
+        "reasoningTokens": 160,
+        "totalTokens": 592,
+        "tweetId": "2082897093245694413",
+        "tweetText": "@jumperz You get it",
+        "tweetUrl": "https://x.com/thsottiaux/status/2082897093245694413",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1785436250145,
@@ -279,29 +292,31 @@
         "tweetText": "@charliermarsh Aren’t charts supposed to go up and to the right",
         "tweetUrl": "https://x.com/thsottiaux/status/2082655259319828492",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1785374590846,
-        "inputTokens": 523,
-        "outputTokens": 98,
-        "rationale": "This post and its quote discuss model evaluation work, not usage limits or a reset.",
-        "reasoningTokens": 53,
-        "totalTokens": 621,
-        "tweetId": "2082637967852806207",
-        "tweetText": "Terrific work by @ilanbigio and @sandersted on the investigation and post. Seems like it was a lot of fun.\n\nTake care of your harnesses out there, your model will thank you.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2082637967852806207",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 416659,
-      "totalOutputTokens": 110777,
-      "totalReasoningTokens": 60805,
-      "totalTokens": 527436
+      "totalInputTokens": 417046,
+      "totalOutputTokens": 110982,
+      "totalReasoningTokens": 60965,
+      "totalTokens": 528028
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.98,
+      "createdAt": 1785436544616,
+      "inputTokens": 387,
+      "message": "",
+      "outputTokens": 205,
+      "rationale": "This reply is purely conversational and does not mention limits, caps, or a reset.",
+      "reasoningTokens": 160,
+      "totalTokens": 592,
+      "tweetId": "2082897093245694413",
+      "tweetText": "@jumperz You get it",
+      "tweetUrl": "https://x.com/thsottiaux/status/2082897093245694413",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1785436250145,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2081899343091843463",
       "type": "review_requested",
       "verdict": "uncertain"
-    },
-    {
-      "confidence": 0.96,
-      "createdAt": 1785302797898,
-      "inputTokens": 391,
-      "message": "",
-      "outputTokens": 133,
-      "rationale": "This reply is conversational and does not say any limits or caps have reset.",
-      "reasoningTokens": 90,
-      "totalTokens": 524,
-      "tweetId": "2081898793335984499",
-      "tweetText": "@blueemi99 I would totally announce it like that",
-      "tweetUrl": "https://x.com/thsottiaux/status/2081898793335984499",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "pED8wG_hN8h-_vrP9r46f-d_wMP5MKZSGtlsfWORgVSy8tQDwLZy_CKS_g",
-    "iv": "ZfgY_7SWVqvc_Y5I",
-    "tag": "krVo8QlSBBJLbDUsBcXl1g",
+    "ciphertext": "PckXmsQctHYqqCMERDWhqFNFinAfKGcY1Ab-jPJtefX02lqoIy3J921v0g",
+    "iv": "eiWdkq6GglK56Jhf",
+    "tag": "6C6EHSNnLv38wK6Hs0upig",
     "version": 1
   }
 }
