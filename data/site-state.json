@@ -14,16 +14,16 @@
   "updatedAt": 1785303373213,
   "automation": {
     "lastDecision": {
-      "confidence": 0.98,
-      "decidedAt": 1785436544616,
-      "rationale": "This reply is purely conversational and does not mention limits, caps, or a reset.",
-      "tweetId": "2082897093245694413",
-      "tweetUrl": "https://x.com/thsottiaux/status/2082897093245694413",
+      "confidence": 0.99,
+      "decidedAt": 1785440258219,
+      "rationale": "This reply is about paid subscription behavior and does not mention limits resetting.",
+      "tweetId": "2082912394284827091",
+      "tweetUrl": "https://x.com/thsottiaux/status/2082912394284827091",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2082897093245694413",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2082897093245694413",
+    "lastSeenTweetId": "2082912394284827091",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2082912394284827091",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1785367190621,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2082606956368609353"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1785440258219,
+        "inputTokens": 391,
+        "outputTokens": 88,
+        "rationale": "This reply is about paid subscription behavior and does not mention limits resetting.",
+        "reasoningTokens": 46,
+        "totalTokens": 479,
+        "tweetId": "2082912394284827091",
+        "tweetText": "@dieaud91 Works the same in the paid subscription!",
+        "tweetUrl": "https://x.com/thsottiaux/status/2082912394284827091",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.98,
         "evaluatedAt": 1785436544616,
@@ -279,29 +292,31 @@
         "tweetText": "@notjazii Let’s goooo",
         "tweetUrl": "https://x.com/thsottiaux/status/2082655416669118913",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1785378925434,
-        "inputTokens": 396,
-        "outputTokens": 70,
-        "rationale": "This is a conversational reply and does not mention rate limits, caps, or a reset.",
-        "reasoningTokens": 24,
-        "totalTokens": 466,
-        "tweetId": "2082655259319828492",
-        "tweetText": "@charliermarsh Aren’t charts supposed to go up and to the right",
-        "tweetUrl": "https://x.com/thsottiaux/status/2082655259319828492",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 417046,
-      "totalOutputTokens": 110982,
-      "totalReasoningTokens": 60965,
-      "totalTokens": 528028
+      "totalInputTokens": 417437,
+      "totalOutputTokens": 111070,
+      "totalReasoningTokens": 61011,
+      "totalTokens": 528507
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1785440258219,
+      "inputTokens": 391,
+      "message": "",
+      "outputTokens": 88,
+      "rationale": "This reply is about paid subscription behavior and does not mention limits resetting.",
+      "reasoningTokens": 46,
+      "totalTokens": 479,
+      "tweetId": "2082912394284827091",
+      "tweetText": "@dieaud91 Works the same in the paid subscription!",
+      "tweetUrl": "https://x.com/thsottiaux/status/2082912394284827091",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.98,
       "createdAt": 1785436544616,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2081939918818025982",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.91,
-      "createdAt": 1785302801342,
-      "inputTokens": 435,
-      "message": "",
-      "outputTokens": 202,
-      "rationale": "He hints at a possible limit reset, but it is not explicit that limits are actually reset or available again now.",
-      "reasoningTokens": 151,
-      "totalTokens": 637,
-      "tweetId": "2081899343091843463",
-      "tweetText": "We’re celebrating the fast adoption of chatGPT Work and all the incredible effort that went into it today. I’m feeling like a limit reset.\n\nHold on tight to your ultra and /fast and see you in a few hours when I’m back at the laptop!",
-      "tweetUrl": "https://x.com/thsottiaux/status/2081899343091843463",
-      "type": "review_requested",
-      "verdict": "uncertain"
     }
   ],
   "privateState": {
-    "ciphertext": "PckXmsQctHYqqCMERDWhqFNFinAfKGcY1Ab-jPJtefX02lqoIy3J921v0g",
-    "iv": "eiWdkq6GglK56Jhf",
-    "tag": "6C6EHSNnLv38wK6Hs0upig",
+    "ciphertext": "M1lu5KQ96tBmHuWRZwvKMH-1qd4J2kXgf5OYxS9DKFgPdHU0nCj3Pv_EnA",
+    "iv": "-4dH2-5DmnUpxLm5",
+    "tag": "ysTqRhtWOEamrQy4rx_QsQ",
     "version": 1
   }
 }
