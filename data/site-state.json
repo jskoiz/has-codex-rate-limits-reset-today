@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.98,
-      "decidedAt": 1785433137803,
-      "rationale": "This announces lower prices and better usage efficiency, not that any Codex or ChatGPT limits have reset or been lifted.",
-      "tweetId": "2082883636177916306",
-      "tweetUrl": "https://x.com/thsottiaux/status/2082883636177916306",
+      "decidedAt": 1785433438489,
+      "rationale": "This reply mentions pricing and subscription usage changes but does not say limits have reset or are available again…",
+      "tweetId": "2082883808194707792",
+      "tweetUrl": "https://x.com/thsottiaux/status/2082883808194707792",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2082883636177916306",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2082883636177916306",
+    "lastSeenTweetId": "2082883808194707792",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2082883808194707792",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1785367190621,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2082606956368609353"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.98,
+        "evaluatedAt": 1785433438489,
+        "inputTokens": 395,
+        "outputTokens": 113,
+        "rationale": "This reply mentions pricing and subscription usage changes but does not say limits have reset or are available again…",
+        "reasoningTokens": 64,
+        "totalTokens": 508,
+        "tweetId": "2082883808194707792",
+        "tweetText": "Changes both affect API prices and usage in paid subscriptions. Something for everyone.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2082883808194707792",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.98,
         "evaluatedAt": 1785433137803,
@@ -279,29 +292,31 @@
         "tweetText": "Yeah! Science!",
         "tweetUrl": "https://x.com/thsottiaux/status/2082574687020966126",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1785304293062,
-        "inputTokens": 391,
-        "outputTokens": 106,
-        "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-        "reasoningTokens": 62,
-        "totalTokens": 497,
-        "tweetId": "2082341416681001277",
-        "tweetText": "@rezoundous I read your tweets and decide accordingly",
-        "tweetUrl": "https://x.com/thsottiaux/status/2082341416681001277",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 414711,
-      "totalOutputTokens": 110354,
-      "totalReasoningTokens": 60599,
-      "totalTokens": 525065
+      "totalInputTokens": 415106,
+      "totalOutputTokens": 110467,
+      "totalReasoningTokens": 60663,
+      "totalTokens": 525573
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.98,
+      "createdAt": 1785433438489,
+      "inputTokens": 395,
+      "message": "",
+      "outputTokens": 113,
+      "rationale": "This reply mentions pricing and subscription usage changes but does not say limits have reset or are available again…",
+      "reasoningTokens": 64,
+      "totalTokens": 508,
+      "tweetId": "2082883808194707792",
+      "tweetText": "Changes both affect API prices and usage in paid subscriptions. Something for everyone.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2082883808194707792",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.98,
       "createdAt": 1785433137803,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2081868133032444306",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1785302783650,
-      "inputTokens": 398,
-      "message": "",
-      "outputTokens": 102,
-      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-      "reasoningTokens": 58,
-      "totalTokens": 500,
-      "tweetId": "2081868033765822892",
-      "tweetText": "@theo Deleting it one feature at a time seems like a solid *plan*",
-      "tweetUrl": "https://x.com/thsottiaux/status/2081868033765822892",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "ipv6lDJgVFWyKthAcCy4qE5jByy-H1o-_d3Zv8n1e3GhFMKf8z8oh-prnw",
-    "iv": "0u1L05CQwsJhRmIW",
-    "tag": "wFTKynvDTh5wwGk9HKWnaQ",
+    "ciphertext": "u-FaMsxADN7cT0_MjFQ0iYh7SrQaLVEog9NKMtcuNYR1_jEES34VNKm3XA",
+    "iv": "LBs_wgLkOLBUJk9w",
+    "tag": "_SgyoVFi5mycQ46dJxCU1g",
     "version": 1
   }
 }
