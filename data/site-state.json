@@ -14,16 +14,16 @@
   "updatedAt": 1785303373213,
   "automation": {
     "lastDecision": {
-      "confidence": 0.98,
-      "decidedAt": 1785466021525,
-      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-      "tweetId": "2083020988435071242",
-      "tweetUrl": "https://x.com/thsottiaux/status/2083020988435071242",
+      "confidence": 0.99,
+      "decidedAt": 1785466317604,
+      "rationale": "This reply apologizes and does not mention limits, caps, or a reset.",
+      "tweetId": "2083021693573079260",
+      "tweetUrl": "https://x.com/thsottiaux/status/2083021693573079260",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2083020988435071242",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2083020988435071242",
+    "lastSeenTweetId": "2083021693573079260",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2083021693573079260",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1785367190621,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2082606956368609353"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1785466317604,
+        "inputTokens": 387,
+        "outputTokens": 93,
+        "rationale": "This reply apologizes and does not mention limits, caps, or a reset.",
+        "reasoningTokens": 49,
+        "totalTokens": 480,
+        "tweetId": "2083021693573079260",
+        "tweetText": "@tulseedoshi Very sorry",
+        "tweetUrl": "https://x.com/thsottiaux/status/2083021693573079260",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.98,
         "evaluatedAt": 1785466021525,
@@ -279,29 +292,31 @@
         "tweetText": "@Angaisb_ Ra ra ra",
         "tweetUrl": "https://x.com/thsottiaux/status/2082736698279297105",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1785398160160,
-        "inputTokens": 385,
-        "outputTokens": 102,
-        "rationale": "This reply is just conversational and does not mention limits, caps, or a reset.",
-        "reasoningTokens": 57,
-        "totalTokens": 487,
-        "tweetId": "2082736317977575540",
-        "tweetText": "@angelbrodin Trend",
-        "tweetUrl": "https://x.com/thsottiaux/status/2082736317977575540",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 420662,
-      "totalOutputTokens": 111862,
-      "totalReasoningTokens": 61449,
-      "totalTokens": 532524
+      "totalInputTokens": 421049,
+      "totalOutputTokens": 111955,
+      "totalReasoningTokens": 61498,
+      "totalTokens": 533004
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1785466317604,
+      "inputTokens": 387,
+      "message": "",
+      "outputTokens": 93,
+      "rationale": "This reply apologizes and does not mention limits, caps, or a reset.",
+      "reasoningTokens": 49,
+      "totalTokens": 480,
+      "tweetId": "2083021693573079260",
+      "tweetText": "@tulseedoshi Very sorry",
+      "tweetUrl": "https://x.com/thsottiaux/status/2083021693573079260",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.98,
       "createdAt": 1785466021525,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2082326593532473523",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1785303682664,
-      "inputTokens": 386,
-      "message": "",
-      "outputTokens": 86,
-      "rationale": "This reply does not mention limits, caps, or any reset.",
-      "reasoningTokens": 45,
-      "totalTokens": 472,
-      "tweetId": "2082326159090647355",
-      "tweetText": "@justindico And yet",
-      "tweetUrl": "https://x.com/thsottiaux/status/2082326159090647355",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "Rx-0sfC9lAXpvJ4GzptWRupNf8f5_D8PMSERzbNrrwYdFGVfh8DWx75o4w",
-    "iv": "QBNvjWVz9pEPKENy",
-    "tag": "SgDpAYeunh504adtFRL_Vw",
+    "ciphertext": "wII6-tQ_5YDEQyp__sy5_rHfnjCJFCTg6rKRtrbbkgOxOCIwddbNkYRnIQ",
+    "iv": "9_8nOwDuO7yQ7jYS",
+    "tag": "1smTLTWzBS6rXrEliVQypA",
     "version": 1
   }
 }
