@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1785472542830,
-      "rationale": "This is a general product feedback request and does not mention limits or a reset.",
-      "tweetId": "2083048892405604681",
-      "tweetUrl": "https://x.com/thsottiaux/status/2083048892405604681",
+      "decidedAt": 1785473156663,
+      "rationale": "This reply is unrelated to any Codex or ChatGPT rate-limit reset.",
+      "tweetId": "2083050433925505152",
+      "tweetUrl": "https://x.com/thsottiaux/status/2083050433925505152",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2083048892405604681",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2083048892405604681",
+    "lastSeenTweetId": "2083050433925505152",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2083050433925505152",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1785367190621,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2082606956368609353"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1785473156663,
+        "inputTokens": 388,
+        "outputTokens": 76,
+        "rationale": "This reply is unrelated to any Codex or ChatGPT rate-limit reset.",
+        "reasoningTokens": 33,
+        "totalTokens": 464,
+        "tweetId": "2083050433925505152",
+        "tweetText": "@_aidan_clark_ LSD",
+        "tweetUrl": "https://x.com/thsottiaux/status/2083050433925505152",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1785472542830,
@@ -279,29 +292,31 @@
         "tweetText": "@aryan559552 I approve",
         "tweetUrl": "https://x.com/thsottiaux/status/2082895472184987985",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1785435925642,
-        "inputTokens": 389,
-        "outputTokens": 70,
-        "rationale": "This reply is conversational and gives no indication that any limits or caps have reset.",
-        "reasoningTokens": 26,
-        "totalTokens": 459,
-        "tweetId": "2082895176696221738",
-        "tweetText": "@MatthewBerman Calm down, calm down",
-        "tweetUrl": "https://x.com/thsottiaux/status/2082895176696221738",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 422998,
-      "totalOutputTokens": 112356,
-      "totalReasoningTokens": 61681,
-      "totalTokens": 535354
+      "totalInputTokens": 423386,
+      "totalOutputTokens": 112432,
+      "totalReasoningTokens": 61714,
+      "totalTokens": 535818
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1785473156663,
+      "inputTokens": 388,
+      "message": "",
+      "outputTokens": 76,
+      "rationale": "This reply is unrelated to any Codex or ChatGPT rate-limit reset.",
+      "reasoningTokens": 33,
+      "totalTokens": 464,
+      "tweetId": "2083050433925505152",
+      "tweetText": "@_aidan_clark_ LSD",
+      "tweetUrl": "https://x.com/thsottiaux/status/2083050433925505152",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1785472542830,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2082578335167807775",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1785359728518,
-      "inputTokens": 478,
-      "message": "",
-      "outputTokens": 101,
-      "rationale": "This is a reaction to a researcher-access announcement, not a statement that limits have reset.",
-      "reasoningTokens": 55,
-      "totalTokens": 579,
-      "tweetId": "2082574687020966126",
-      "tweetText": "Yeah! Science!",
-      "tweetUrl": "https://x.com/thsottiaux/status/2082574687020966126",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "Y2MG1wUyLCD_0g2i_VFfyPQ97EOkLAxI9dJZEijJDcUEgFCWCbf1f22QeA",
-    "iv": "9JL1BUvpzjJ0bSxB",
-    "tag": "g6uIua9NYj0LMWWF7GBzxw",
+    "ciphertext": "eaLIcK3FpulXhbgf0kQCQlhf2w_PO-48vvNPau00dkq7EPjdzXqut01F8Q",
+    "iv": "lgQtPLkJowrJH8lJ",
+    "tag": "6d2vGPG_ry-JZv8wGfqLyA",
     "version": 1
   }
 }
