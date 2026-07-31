@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1785466015438,
-      "rationale": "This reply discusses reliability and does not mention limits, caps, or a reset.",
-      "tweetId": "2083020392827077100",
-      "tweetUrl": "https://x.com/thsottiaux/status/2083020392827077100",
+      "decidedAt": 1785466018423,
+      "rationale": "This reply just asks a question and does not indicate any limit or rate-limit reset.",
+      "tweetId": "2083020653297558013",
+      "tweetUrl": "https://x.com/thsottiaux/status/2083020653297558013",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2083020392827077100",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2083020392827077100",
+    "lastSeenTweetId": "2083020653297558013",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2083020653297558013",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1785367190621,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2082606956368609353"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1785466018423,
+        "inputTokens": 389,
+        "outputTokens": 76,
+        "rationale": "This reply just asks a question and does not indicate any limit or rate-limit reset.",
+        "reasoningTokens": 31,
+        "totalTokens": 465,
+        "tweetId": "2083020653297558013",
+        "tweetText": "@_aidan_clark_ LST?",
+        "tweetUrl": "https://x.com/thsottiaux/status/2083020653297558013",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1785466015438,
@@ -279,29 +292,31 @@
         "tweetText": "@Ananth7e Let’s see",
         "tweetUrl": "https://x.com/thsottiaux/status/2082735280579358753",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1785397855884,
-        "inputTokens": 425,
-        "outputTokens": 74,
-        "rationale": "This reply discusses model behavior conceptually and does not mention any usage limits or reset.",
-        "reasoningTokens": 29,
-        "totalTokens": 499,
-        "tweetId": "2082734562103484862",
-        "tweetText": "@GregKamradt With all due respect, things have evolved way beyond token in / token out. If tomorrow you wake up with your eyes on your back, I don’t think you would be very effective for the day.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2082734562103484862",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 419881,
-      "totalOutputTokens": 111689,
-      "totalReasoningTokens": 61365,
-      "totalTokens": 531570
+      "totalInputTokens": 420270,
+      "totalOutputTokens": 111765,
+      "totalReasoningTokens": 61396,
+      "totalTokens": 532035
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1785466018423,
+      "inputTokens": 389,
+      "message": "",
+      "outputTokens": 76,
+      "rationale": "This reply just asks a question and does not indicate any limit or rate-limit reset.",
+      "reasoningTokens": 31,
+      "totalTokens": 465,
+      "tweetId": "2083020653297558013",
+      "tweetText": "@_aidan_clark_ LST?",
+      "tweetUrl": "https://x.com/thsottiaux/status/2083020653297558013",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1785466015438,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2082317452755751098",
       "type": "reset_confirmed",
       "verdict": "reset_confirmed"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1785303369854,
-      "inputTokens": 395,
-      "message": "",
-      "outputTokens": 61,
-      "rationale": "This reply is conversational and does not mention limits, caps, or resets.",
-      "reasoningTokens": 18,
-      "totalTokens": 456,
-      "tweetId": "2082242258791989404",
-      "tweetText": "@daradoescode Why does this look more like theo than theo does",
-      "tweetUrl": "https://x.com/thsottiaux/status/2082242258791989404",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "iv1wxK8ryPcpMa3R2-Fts2o5iZ0_-ffdSBtIzEa71691mnED6bUAa7ZH_A",
-    "iv": "tHvid_lE9r0enwwW",
-    "tag": "VZw4VoH00Bza5NdoqQH7Iw",
+    "ciphertext": "mfZbUK9h-q392sdfmqqxYER6gwzMSOjkTyqvE6RjfDu9qNkygQUTRdaLbQ",
+    "iv": "44vscY8nrrfY_PyZ",
+    "tag": "zbZdFEFxe2lnBCEIg-pF4A",
     "version": 1
   }
 }
