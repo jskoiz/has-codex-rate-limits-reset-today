@@ -14,16 +14,16 @@
   "updatedAt": 1785303373213,
   "automation": {
     "lastDecision": {
-      "confidence": 0.97,
-      "decidedAt": 1785473758822,
-      "rationale": "This is a general, speculative comment and does not say any current user rate limit or cap has reset.",
-      "tweetId": "2083053369351090254",
-      "tweetUrl": "https://x.com/thsottiaux/status/2083053369351090254",
+      "confidence": 0.99,
+      "decidedAt": 1785474372578,
+      "rationale": "This reply does not mention limits, caps, or any reset.",
+      "tweetId": "2083055782510334257",
+      "tweetUrl": "https://x.com/thsottiaux/status/2083055782510334257",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2083053369351090254",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2083053369351090254",
+    "lastSeenTweetId": "2083055782510334257",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2083055782510334257",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1785367190621,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2082606956368609353"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1785474372578,
+        "inputTokens": 388,
+        "outputTokens": 75,
+        "rationale": "This reply does not mention limits, caps, or any reset.",
+        "reasoningTokens": 34,
+        "totalTokens": 463,
+        "tweetId": "2083055782510334257",
+        "tweetText": "@dwarkesh_sp Hmmmmmm",
+        "tweetUrl": "https://x.com/thsottiaux/status/2083055782510334257",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.97,
         "evaluatedAt": 1785473758822,
@@ -279,29 +292,31 @@
         "tweetText": "@theo 2 days to go",
         "tweetUrl": "https://x.com/thsottiaux/status/2082896652680167851",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1785436246976,
-        "inputTokens": 389,
-        "outputTokens": 73,
-        "rationale": "This reply is conversational and says nothing about limits or a reset.",
-        "reasoningTokens": 32,
-        "totalTokens": 462,
-        "tweetId": "2082896153277063528",
-        "tweetText": "@thesherlocker What was your bias?",
-        "tweetUrl": "https://x.com/thsottiaux/status/2082896153277063528",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 423810,
-      "totalOutputTokens": 112592,
-      "totalReasoningTokens": 61825,
-      "totalTokens": 536402
+      "totalInputTokens": 424198,
+      "totalOutputTokens": 112667,
+      "totalReasoningTokens": 61859,
+      "totalTokens": 536865
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1785474372578,
+      "inputTokens": 388,
+      "message": "",
+      "outputTokens": 75,
+      "rationale": "This reply does not mention limits, caps, or any reset.",
+      "reasoningTokens": 34,
+      "totalTokens": 463,
+      "tweetId": "2083055782510334257",
+      "tweetText": "@dwarkesh_sp Hmmmmmm",
+      "tweetUrl": "https://x.com/thsottiaux/status/2083055782510334257",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.97,
       "createdAt": 1785473758822,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2082609662231502932",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.95,
-      "createdAt": 1785367190621,
-      "inputTokens": 396,
-      "message": "",
-      "outputTokens": 169,
-      "rationale": "This reply is just a vague countdown and does not clearly say limits have reset.",
-      "reasoningTokens": 125,
-      "totalTokens": 565,
-      "tweetId": "2082606956368609353",
-      "tweetText": "@theo 3 days to go! forgot to update you yesterday 👀",
-      "tweetUrl": "https://x.com/thsottiaux/status/2082606956368609353",
-      "type": "review_requested",
-      "verdict": "uncertain"
     }
   ],
   "privateState": {
-    "ciphertext": "i-b3mFgQwYCqpbSxkot3Da1jNt35tHP8tHeZEtjYdf-LaSqTnH5zFORmBg",
-    "iv": "QoAuZ3E3p7rZDKxl",
-    "tag": "HyNt6Jt6qusd7uE--HlZig",
+    "ciphertext": "rZZUbtRSaE5XuR6hVcMYEbggdt7fZlLOye6Zcc45C9Ui-VBpUi_Z6rSz4w",
+    "iv": "CnLU6VyWZQKjs645",
+    "tag": "dfW61L6PEdGUUx_CaZ66Jg",
     "version": 1
   }
 }
