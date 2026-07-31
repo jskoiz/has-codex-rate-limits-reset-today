@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1785466320040,
+      "decidedAt": 1785466322500,
       "rationale": "This reply is conversational and does not mention limits, caps, or usage resetting.",
-      "tweetId": "2083022177922842792",
-      "tweetUrl": "https://x.com/thsottiaux/status/2083022177922842792",
+      "tweetId": "2083022388334313564",
+      "tweetUrl": "https://x.com/thsottiaux/status/2083022388334313564",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2083022177922842792",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2083022177922842792",
+    "lastSeenTweetId": "2083022388334313564",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2083022388334313564",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1785367190621,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2082606956368609353"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1785466322500,
+        "inputTokens": 386,
+        "outputTokens": 106,
+        "rationale": "This reply is conversational and does not mention limits, caps, or usage resetting.",
+        "reasoningTokens": 62,
+        "totalTokens": 492,
+        "tweetId": "2083022388334313564",
+        "tweetText": "@AdamHoltererer Lost?",
+        "tweetUrl": "https://x.com/thsottiaux/status/2083022388334313564",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1785466320040,
@@ -279,29 +292,31 @@
         "tweetText": "@xikhar @supabase Hi",
         "tweetUrl": "https://x.com/thsottiaux/status/2082738531391385956",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.96,
-        "evaluatedAt": 1785398474963,
-        "inputTokens": 393,
-        "outputTokens": 175,
-        "rationale": "This reply is conversational and does not clearly refer to ChatGPT or Codex usage limits resetting.",
-        "reasoningTokens": 128,
-        "totalTokens": 568,
-        "tweetId": "2082737638583501152",
-        "tweetText": "@KenWattana Reset and accelerate. It’s ship week",
-        "tweetUrl": "https://x.com/thsottiaux/status/2082737638583501152",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 421440,
-      "totalOutputTokens": 112028,
-      "totalReasoningTokens": 61527,
-      "totalTokens": 533468
+      "totalInputTokens": 421826,
+      "totalOutputTokens": 112134,
+      "totalReasoningTokens": 61589,
+      "totalTokens": 533960
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1785466322500,
+      "inputTokens": 386,
+      "message": "",
+      "outputTokens": 106,
+      "rationale": "This reply is conversational and does not mention limits, caps, or usage resetting.",
+      "reasoningTokens": 62,
+      "totalTokens": 492,
+      "tweetId": "2083022388334313564",
+      "tweetText": "@AdamHoltererer Lost?",
+      "tweetUrl": "https://x.com/thsottiaux/status/2083022388334313564",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1785466320040,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2082338260181983532",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1785303688205,
-      "inputTokens": 406,
-      "message": "",
-      "outputTokens": 64,
-      "rationale": "This reply is conversational and does not mention any limits or reset.",
-      "reasoningTokens": 23,
-      "totalTokens": 470,
-      "tweetId": "2082337830408454248",
-      "tweetText": "@diligentium I see a Sol in your amazing profile https://t.co/5xe6XKXgzU",
-      "tweetUrl": "https://x.com/thsottiaux/status/2082337830408454248",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "bAc_EqefKm4fMXqMGsq8FPlHKzMrVyKt0Vpl1OG7wGoTeWSmJr8Fw3pXYQ",
-    "iv": "WWCYuFUqBZg4L8p6",
-    "tag": "8wj8K0zzXqBB2N0Ep-3zXw",
+    "ciphertext": "h75Mgnmv5zfByaTAjwnXQeU4Iv9eYzZSEcyT16oir7uTXNzwBGV1LezrqQ",
+    "iv": "OxvQj28h_zmoF95D",
+    "tag": "eewSOXN_Q32fGizGEds6BA",
     "version": 1
   }
 }
