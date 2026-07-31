@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1785456658787,
-      "rationale": "This post and its quoted tweet are about OpenAI culture and a video, not rate limits or usage resets.",
-      "tweetId": "2082981910209540352",
-      "tweetUrl": "https://x.com/thsottiaux/status/2082981910209540352",
+      "decidedAt": 1785456662218,
+      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+      "tweetId": "2082982139948380465",
+      "tweetUrl": "https://x.com/thsottiaux/status/2082982139948380465",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2082981910209540352",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2082981910209540352",
+    "lastSeenTweetId": "2082982139948380465",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2082982139948380465",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1785367190621,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2082606956368609353"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1785456662218,
+        "inputTokens": 390,
+        "outputTokens": 82,
+        "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+        "reasoningTokens": 38,
+        "totalTokens": 472,
+        "tweetId": "2082982139948380465",
+        "tweetText": "@dedene It’s agents all the way down",
+        "tweetUrl": "https://x.com/thsottiaux/status/2082982139948380465",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1785456658787,
@@ -279,29 +292,31 @@
         "tweetText": "@Youssofal_ @OpenAI Hope they read the post!",
         "tweetUrl": "https://x.com/thsottiaux/status/2082733262792016233",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1785386690591,
-        "inputTokens": 393,
-        "outputTokens": 83,
-        "rationale": "This reply is promotional/conversational and does not mention limits or a reset.",
-        "reasoningTokens": 39,
-        "totalTokens": 476,
-        "tweetId": "2082687571390587306",
-        "tweetText": "@airtable @OpenAI @ChatGPT It's time to fly",
-        "tweetUrl": "https://x.com/thsottiaux/status/2082687571390587306",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 419097,
-      "totalOutputTokens": 111504,
-      "totalReasoningTokens": 61268,
-      "totalTokens": 530601
+      "totalInputTokens": 419487,
+      "totalOutputTokens": 111586,
+      "totalReasoningTokens": 61306,
+      "totalTokens": 531073
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1785456662218,
+      "inputTokens": 390,
+      "message": "",
+      "outputTokens": 82,
+      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+      "reasoningTokens": 38,
+      "totalTokens": 472,
+      "tweetId": "2082982139948380465",
+      "tweetText": "@dedene It’s agents all the way down",
+      "tweetUrl": "https://x.com/thsottiaux/status/2082982139948380465",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1785456658787,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2082241730972442912",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1785303364019,
-      "inputTokens": 441,
-      "message": "",
-      "outputTokens": 82,
-      "rationale": "This post is about an open-source security CLI/SDK release, not usage limits or resets.",
-      "reasoningTokens": 35,
-      "totalTokens": 523,
-      "tweetId": "2082241164850364555",
-      "tweetText": "More opensource goodness. We have just released a CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities in your code. Scan repositories, review changes, track findings over time, and run security checks in CI.\n\nhttps://t.co/nkfTbw8p7b",
-      "tweetUrl": "https://x.com/thsottiaux/status/2082241164850364555",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "5E8nsmWRH0T2s2PTwE5lLQzn9wVWgCm8VKsSjo6lqAMQKrP6EwWzi6N9dg",
-    "iv": "YoWF6-i8ikD8nIos",
-    "tag": "suULySe-cEiULIwNpK-49A",
+    "ciphertext": "JqBVWRhsSdSEF5ANlZNoC7AKrBD7ENcsFYeVdB-Ts9IMpz9TGGdZlmm-iw",
+    "iv": "GGB36Ley_ecFRPD-",
+    "tag": "y2By40X5mhQq9Oku2KVsHg",
     "version": 1
   }
 }
