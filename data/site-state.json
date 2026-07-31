@@ -14,16 +14,16 @@
   "updatedAt": 1785303373213,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1785474372578,
-      "rationale": "This reply does not mention limits, caps, or any reset.",
-      "tweetId": "2083055782510334257",
-      "tweetUrl": "https://x.com/thsottiaux/status/2083055782510334257",
+      "confidence": 0.98,
+      "decidedAt": 1785529425219,
+      "rationale": "This reply is just a conversational countdown and does not indicate any rate-limit reset.",
+      "tweetId": "2083287127865885060",
+      "tweetUrl": "https://x.com/thsottiaux/status/2083287127865885060",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2083055782510334257",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2083055782510334257",
+    "lastSeenTweetId": "2083287127865885060",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2083287127865885060",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1785367190621,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2082606956368609353"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.98,
+        "evaluatedAt": 1785529425219,
+        "inputTokens": 388,
+        "outputTokens": 180,
+        "rationale": "This reply is just a conversational countdown and does not indicate any rate-limit reset.",
+        "reasoningTokens": 136,
+        "totalTokens": 568,
+        "tweetId": "2083287127865885060",
+        "tweetText": "@theo 1 day to go",
+        "tweetUrl": "https://x.com/thsottiaux/status/2083287127865885060",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1785474372578,
@@ -279,29 +292,31 @@
         "tweetText": "@jumperz You get it",
         "tweetUrl": "https://x.com/thsottiaux/status/2082897093245694413",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1785436250145,
-        "inputTokens": 388,
-        "outputTokens": 99,
-        "rationale": "This reply is just conversational and does not mention limits or a reset.",
-        "reasoningTokens": 57,
-        "totalTokens": 487,
-        "tweetId": "2082896652680167851",
-        "tweetText": "@theo 2 days to go",
-        "tweetUrl": "https://x.com/thsottiaux/status/2082896652680167851",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 424198,
-      "totalOutputTokens": 112667,
-      "totalReasoningTokens": 61859,
-      "totalTokens": 536865
+      "totalInputTokens": 424586,
+      "totalOutputTokens": 112847,
+      "totalReasoningTokens": 61995,
+      "totalTokens": 537433
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.98,
+      "createdAt": 1785529425219,
+      "inputTokens": 388,
+      "message": "",
+      "outputTokens": 180,
+      "rationale": "This reply is just a conversational countdown and does not indicate any rate-limit reset.",
+      "reasoningTokens": 136,
+      "totalTokens": 568,
+      "tweetId": "2083287127865885060",
+      "tweetText": "@theo 1 day to go",
+      "tweetUrl": "https://x.com/thsottiaux/status/2083287127865885060",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1785474372578,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2082637967852806207",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1785368119016,
-      "inputTokens": 447,
-      "message": "",
-      "outputTokens": 79,
-      "rationale": "This post is about model performance on ARC-AGI-3, not rate limits or usage caps resetting.",
-      "reasoningTokens": 29,
-      "totalTokens": 526,
-      "tweetId": "2082609662231502932",
-      "tweetText": "Turns out GPT-5.6 Sol is actually SoTA on ARC-AGI-3. \n\nJust took two setting changes. You just have to allow it to reason and work over multiple context windows with the help of our canonical compaction implementation.\n\nhttps://t.co/wHjaNsvIv8",
-      "tweetUrl": "https://x.com/thsottiaux/status/2082609662231502932",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "rZZUbtRSaE5XuR6hVcMYEbggdt7fZlLOye6Zcc45C9Ui-VBpUi_Z6rSz4w",
-    "iv": "CnLU6VyWZQKjs645",
-    "tag": "dfW61L6PEdGUUx_CaZ66Jg",
+    "ciphertext": "AlvxrChlwE9aDcmPNv0iURr1jdwYF9GB367YgfguhuybxJOQjiwEBeLEJQ",
+    "iv": "AlyiQAKHfy8gqPC6",
+    "tag": "torQXbiYz1Q_FwlacwEpDA",
     "version": 1
   }
 }
