@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1785471927447,
-      "rationale": "This reply is unrelated to any Codex or ChatGPT limit reset.",
-      "tweetId": "2083045630134649028",
-      "tweetUrl": "https://x.com/thsottiaux/status/2083045630134649028",
+      "decidedAt": 1785472542830,
+      "rationale": "This is a general product feedback request and does not mention limits or a reset.",
+      "tweetId": "2083048892405604681",
+      "tweetUrl": "https://x.com/thsottiaux/status/2083048892405604681",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2083045630134649028",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2083045630134649028",
+    "lastSeenTweetId": "2083048892405604681",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2083048892405604681",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1785367190621,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2082606956368609353"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1785472542830,
+        "inputTokens": 397,
+        "outputTokens": 66,
+        "rationale": "This is a general product feedback request and does not mention limits or a reset.",
+        "reasoningTokens": 22,
+        "totalTokens": 463,
+        "tweetId": "2083048892405604681",
+        "tweetText": "What should we improve on Codex to improve the everyday experience? Nothing too small",
+        "tweetUrl": "https://x.com/thsottiaux/status/2083048892405604681",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1785471927447,
@@ -279,29 +292,31 @@
         "tweetText": "@MatthewBerman Calm down, calm down",
         "tweetUrl": "https://x.com/thsottiaux/status/2082895176696221738",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.98,
-        "evaluatedAt": 1785433438489,
-        "inputTokens": 395,
-        "outputTokens": 113,
-        "rationale": "This reply mentions pricing and subscription usage changes but does not say limits have reset or are available again…",
-        "reasoningTokens": 64,
-        "totalTokens": 508,
-        "tweetId": "2082883808194707792",
-        "tweetText": "Changes both affect API prices and usage in paid subscriptions. Something for everyone.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2082883808194707792",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 422601,
-      "totalOutputTokens": 112290,
-      "totalReasoningTokens": 61659,
-      "totalTokens": 534891
+      "totalInputTokens": 422998,
+      "totalOutputTokens": 112356,
+      "totalReasoningTokens": 61681,
+      "totalTokens": 535354
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1785472542830,
+      "inputTokens": 397,
+      "message": "",
+      "outputTokens": 66,
+      "rationale": "This is a general product feedback request and does not mention limits or a reset.",
+      "reasoningTokens": 22,
+      "totalTokens": 463,
+      "tweetId": "2083048892405604681",
+      "tweetText": "What should we improve on Codex to improve the everyday experience? Nothing too small",
+      "tweetUrl": "https://x.com/thsottiaux/status/2083048892405604681",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1785471927447,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2082574687020966126",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1785304293062,
-      "inputTokens": 391,
-      "message": "",
-      "outputTokens": 106,
-      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-      "reasoningTokens": 62,
-      "totalTokens": 497,
-      "tweetId": "2082341416681001277",
-      "tweetText": "@rezoundous I read your tweets and decide accordingly",
-      "tweetUrl": "https://x.com/thsottiaux/status/2082341416681001277",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "tkla3N5veCNIh9p7mOuQLG1B8Gsobqy74D5lRnQ3Ia0vTKJxTPWlF_yUNw",
-    "iv": "PaPEZquwZG3GN9lU",
-    "tag": "eMfpmXgaKF8-CB9yydHD1g",
+    "ciphertext": "Y2MG1wUyLCD_0g2i_VFfyPQ97EOkLAxI9dJZEijJDcUEgFCWCbf1f22QeA",
+    "iv": "9JL1BUvpzjJ0bSxB",
+    "tag": "g6uIua9NYj0LMWWF7GBzxw",
     "version": 1
   }
 }
