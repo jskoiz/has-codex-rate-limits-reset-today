@@ -14,16 +14,16 @@
   "updatedAt": 1785303373213,
   "automation": {
     "lastDecision": {
-      "confidence": 0.98,
-      "decidedAt": 1785455426662,
-      "rationale": "This reply is just conversational and does not mention limits or a reset.",
-      "tweetId": "2082976110384660739",
-      "tweetUrl": "https://x.com/thsottiaux/status/2082976110384660739",
+      "confidence": 0.99,
+      "decidedAt": 1785456658787,
+      "rationale": "This post and its quoted tweet are about OpenAI culture and a video, not rate limits or usage resets.",
+      "tweetId": "2082981910209540352",
+      "tweetUrl": "https://x.com/thsottiaux/status/2082981910209540352",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2082976110384660739",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2082976110384660739",
+    "lastSeenTweetId": "2082981910209540352",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2082981910209540352",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1785367190621,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2082606956368609353"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1785456658787,
+        "inputTokens": 503,
+        "outputTokens": 102,
+        "rationale": "This post and its quoted tweet are about OpenAI culture and a video, not rate limits or usage resets.",
+        "reasoningTokens": 52,
+        "totalTokens": 605,
+        "tweetId": "2082981910209540352",
+        "tweetText": "Benefits all",
+        "tweetUrl": "https://x.com/thsottiaux/status/2082981910209540352",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.98,
         "evaluatedAt": 1785455426662,
@@ -279,29 +292,31 @@
         "tweetText": "@airtable @OpenAI @ChatGPT It's time to fly",
         "tweetUrl": "https://x.com/thsottiaux/status/2082687571390587306",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1785386378805,
-        "inputTokens": 387,
-        "outputTokens": 81,
-        "rationale": "This reply is just a playful comment and does not mention any limits or reset.",
-        "reasoningTokens": 37,
-        "totalTokens": 468,
-        "tweetId": "2082687501370859800",
-        "tweetText": "@supabase Supa ChatGPT",
-        "tweetUrl": "https://x.com/thsottiaux/status/2082687501370859800",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 418594,
-      "totalOutputTokens": 111402,
-      "totalReasoningTokens": 61216,
-      "totalTokens": 529996
+      "totalInputTokens": 419097,
+      "totalOutputTokens": 111504,
+      "totalReasoningTokens": 61268,
+      "totalTokens": 530601
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1785456658787,
+      "inputTokens": 503,
+      "message": "",
+      "outputTokens": 102,
+      "rationale": "This post and its quoted tweet are about OpenAI culture and a video, not rate limits or usage resets.",
+      "reasoningTokens": 52,
+      "totalTokens": 605,
+      "tweetId": "2082981910209540352",
+      "tweetText": "Benefits all",
+      "tweetUrl": "https://x.com/thsottiaux/status/2082981910209540352",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.98,
       "createdAt": 1785455426662,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2082241164850364555",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1785303361221,
-      "inputTokens": 417,
-      "message": "",
-      "outputTokens": 71,
-      "rationale": "This post is just a personal update about taking a break and does not mention limits or resets.",
-      "reasoningTokens": 24,
-      "totalTokens": 488,
-      "tweetId": "2081979033261412537",
-      "tweetText": "Update. I have decided to take a break from x to recharge a bit. See you back tomorrow for more ChatGPT and Codex fun. It's going to be a fun week.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2081979033261412537",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "76TGRLrP5w4gSAaxIPCIYw5qvgiEF5VN1w42P6RIKcnM4ytQab_ne-jzTA",
-    "iv": "nryidbSg5_dCZk81",
-    "tag": "Ift0ij6O3WMiLcDWJ1STZA",
+    "ciphertext": "5E8nsmWRH0T2s2PTwE5lLQzn9wVWgCm8VKsSjo6lqAMQKrP6EwWzi6N9dg",
+    "iv": "YoWF6-i8ikD8nIos",
+    "tag": "suULySe-cEiULIwNpK-49A",
     "version": 1
   }
 }
