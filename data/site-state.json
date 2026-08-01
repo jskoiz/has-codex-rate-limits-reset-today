@@ -14,18 +14,38 @@
   "updatedAt": 1785555178452,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1785555178452,
-      "rationale": "The tweet explicitly says usage limits for Codex and ChatGPT Work have been reset.",
-      "tweetId": "2083395449814229287",
-      "tweetUrl": "https://x.com/thsottiaux/status/2083395449814229287",
-      "verdict": "reset_confirmed"
+      "confidence": 0.92,
+      "decidedAt": 1785555507218,
+      "rationale": "This reply just says “Fixed it” and does not clearly state that any usage limit or rate cap has reset.",
+      "tweetId": "2083395558069199273",
+      "tweetUrl": "https://x.com/thsottiaux/status/2083395558069199273",
+      "verdict": "uncertain"
     },
     "lastError": null,
-    "lastSeenTweetId": "2083395449814229287",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2083395449814229287",
-    "pendingReview": null,
+    "lastSeenTweetId": "2083395558069199273",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2083395558069199273",
+    "pendingReview": {
+      "confidence": 0.92,
+      "createdAt": 1785555507218,
+      "rationale": "This reply just says “Fixed it” and does not clearly state that any usage limit or rate cap has reset.",
+      "tweetId": "2083395558069199273",
+      "tweetText": "@maria_rcks Fixed it",
+      "tweetUrl": "https://x.com/thsottiaux/status/2083395558069199273"
+    },
     "recentEvaluations": [
+      {
+        "confidence": 0.92,
+        "evaluatedAt": 1785555507218,
+        "inputTokens": 387,
+        "outputTokens": 218,
+        "rationale": "This reply just says “Fixed it” and does not clearly state that any usage limit or rate cap has reset.",
+        "reasoningTokens": 167,
+        "totalTokens": 605,
+        "tweetId": "2083395558069199273",
+        "tweetText": "@maria_rcks Fixed it",
+        "tweetUrl": "https://x.com/thsottiaux/status/2083395558069199273",
+        "verdict": "uncertain"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1785555178452,
@@ -272,29 +292,31 @@
         "tweetText": "@ernielm @theo Please inform your doctor",
         "tweetUrl": "https://x.com/thsottiaux/status/2083022177922842792",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1785466317604,
-        "inputTokens": 387,
-        "outputTokens": 93,
-        "rationale": "This reply apologizes and does not mention limits, caps, or a reset.",
-        "reasoningTokens": 49,
-        "totalTokens": 480,
-        "tweetId": "2083021693573079260",
-        "tweetText": "@tulseedoshi Very sorry",
-        "tweetUrl": "https://x.com/thsottiaux/status/2083021693573079260",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 428676,
-      "totalOutputTokens": 113925,
-      "totalReasoningTokens": 62626,
-      "totalTokens": 542601
+      "totalInputTokens": 429063,
+      "totalOutputTokens": 114143,
+      "totalReasoningTokens": 62793,
+      "totalTokens": 543206
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.92,
+      "createdAt": 1785555507218,
+      "inputTokens": 387,
+      "message": "",
+      "outputTokens": 218,
+      "rationale": "This reply just says “Fixed it” and does not clearly state that any usage limit or rate cap has reset.",
+      "reasoningTokens": 167,
+      "totalTokens": 605,
+      "tweetId": "2083395558069199273",
+      "tweetText": "@maria_rcks Fixed it",
+      "tweetUrl": "https://x.com/thsottiaux/status/2083395558069199273",
+      "type": "review_requested",
+      "verdict": "uncertain"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1785555178452,
@@ -879,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2082736698279297105",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1785398160160,
-      "inputTokens": 385,
-      "message": "",
-      "outputTokens": 102,
-      "rationale": "This reply is just conversational and does not mention limits, caps, or a reset.",
-      "reasoningTokens": 57,
-      "totalTokens": 487,
-      "tweetId": "2082736317977575540",
-      "tweetText": "@angelbrodin Trend",
-      "tweetUrl": "https://x.com/thsottiaux/status/2082736317977575540",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "m6Ekko4R9444Siy7HfpgDSiobSyTWJH48hLyUeTCCgkntDHZyZCjczvqjA",
-    "iv": "Qhj2j8R9saZcleN3",
-    "tag": "vSPxi2d9wWw-MAZpObjHXQ",
+    "ciphertext": "yie77zH_516FSOh0lrX6SiT7_izQXqwSwX-m2VmCvY1d2DKpZCXy_fh80g",
+    "iv": "te_-5zw5onWnz7YP",
+    "tag": "8utZVxQO50amyLZ_2yBigw",
     "version": 1
   }
 }
