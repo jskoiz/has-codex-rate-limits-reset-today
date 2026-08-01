@@ -14,16 +14,16 @@
   "updatedAt": 1785555178452,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1785593699266,
-      "rationale": "This post is about Astra science results, not Codex or ChatGPT usage limits resetting.",
-      "tweetId": "2083556636455752050",
-      "tweetUrl": "https://x.com/thsottiaux/status/2083556636455752050",
+      "confidence": 0.97,
+      "decidedAt": 1785593703361,
+      "rationale": "This reply is just a conversational remark and does not indicate any limits or caps have reset.",
+      "tweetId": "2083556863262818803",
+      "tweetUrl": "https://x.com/thsottiaux/status/2083556863262818803",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2083556636455752050",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2083556636455752050",
+    "lastSeenTweetId": "2083556863262818803",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2083556863262818803",
     "pendingReview": {
       "confidence": 0.92,
       "createdAt": 1785555507218,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2083395558069199273"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.97,
+        "evaluatedAt": 1785593703361,
+        "inputTokens": 388,
+        "outputTokens": 167,
+        "rationale": "This reply is just a conversational remark and does not indicate any limits or caps have reset.",
+        "reasoningTokens": 121,
+        "totalTokens": 555,
+        "tweetId": "2083556863262818803",
+        "tweetText": "@kimmonismus “select customers”",
+        "tweetUrl": "https://x.com/thsottiaux/status/2083556863262818803",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1785593699266,
@@ -279,29 +292,31 @@
         "tweetText": "The day we develop really good models. There will be signs.\n\nReliability increasing despite load going up and up. Sudden efficiency gains. Things getting faster. Resets.\n\nThese kinds of things.",
         "tweetUrl": "https://x.com/thsottiaux/status/2083053369351090254",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1785473156663,
-        "inputTokens": 388,
-        "outputTokens": 76,
-        "rationale": "This reply is unrelated to any Codex or ChatGPT rate-limit reset.",
-        "reasoningTokens": 33,
-        "totalTokens": 464,
-        "tweetId": "2083050433925505152",
-        "tweetText": "@_aidan_clark_ LSD",
-        "tweetUrl": "https://x.com/thsottiaux/status/2083050433925505152",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 431175,
-      "totalOutputTokens": 114745,
-      "totalReasoningTokens": 63177,
-      "totalTokens": 545920
+      "totalInputTokens": 431563,
+      "totalOutputTokens": 114912,
+      "totalReasoningTokens": 63298,
+      "totalTokens": 546475
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.97,
+      "createdAt": 1785593703361,
+      "inputTokens": 388,
+      "message": "",
+      "outputTokens": 167,
+      "rationale": "This reply is just a conversational remark and does not indicate any limits or caps have reset.",
+      "reasoningTokens": 121,
+      "totalTokens": 555,
+      "tweetId": "2083556863262818803",
+      "tweetText": "@kimmonismus “select customers”",
+      "tweetUrl": "https://x.com/thsottiaux/status/2083556863262818803",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1785593699266,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2082895472184987985",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1785435925642,
-      "inputTokens": 389,
-      "message": "",
-      "outputTokens": 70,
-      "rationale": "This reply is conversational and gives no indication that any limits or caps have reset.",
-      "reasoningTokens": 26,
-      "totalTokens": 459,
-      "tweetId": "2082895176696221738",
-      "tweetText": "@MatthewBerman Calm down, calm down",
-      "tweetUrl": "https://x.com/thsottiaux/status/2082895176696221738",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "aeu2_nyuwvvnt2BhYNn61DLfNjO9Wj64-q9lcVCFtk42gzCqRnjBdZiglw",
-    "iv": "16u5oLMsbOMqGMin",
-    "tag": "NCvwOE8t2Xoa9oTysdCg5g",
+    "ciphertext": "kp8_KliRMxhkWkZR6M78fNmGvnUq60PWVc9wRWdLe6P_Py4dKGmybpQcyQ",
+    "iv": "cYDVdksRzShWf36Z",
+    "tag": "4hJGx7zBsphX0u3K3M2oFQ",
     "version": 1
   }
 }
