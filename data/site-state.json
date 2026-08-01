@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1785594324340,
-      "rationale": "This reply is conversational and says nothing about limits or a reset.",
-      "tweetId": "2083558591047577681",
-      "tweetUrl": "https://x.com/thsottiaux/status/2083558591047577681",
+      "decidedAt": 1785594925272,
+      "rationale": "This reply is unrelated to Codex or ChatGPT usage limits or any reset.",
+      "tweetId": "2083562039214330341",
+      "tweetUrl": "https://x.com/thsottiaux/status/2083562039214330341",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2083558591047577681",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2083558591047577681",
+    "lastSeenTweetId": "2083562039214330341",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2083562039214330341",
     "pendingReview": {
       "confidence": 0.92,
       "createdAt": 1785555507218,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2083395558069199273"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1785594925272,
+        "inputTokens": 397,
+        "outputTokens": 101,
+        "rationale": "This reply is unrelated to Codex or ChatGPT usage limits or any reset.",
+        "reasoningTokens": 57,
+        "totalTokens": 498,
+        "tweetId": "2083562039214330341",
+        "tweetText": "@jayair Tell us about Luna going to the moon. The people want to know",
+        "tweetUrl": "https://x.com/thsottiaux/status/2083562039214330341",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1785594324340,
@@ -279,29 +292,31 @@
         "tweetText": "@EverydayAI_ @OpenAIDevs Better thank Sol",
         "tweetUrl": "https://x.com/thsottiaux/status/2083290147869663452",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.98,
-        "evaluatedAt": 1785529425219,
-        "inputTokens": 388,
-        "outputTokens": 180,
-        "rationale": "This reply is just a conversational countdown and does not indicate any rate-limit reset.",
-        "reasoningTokens": 136,
-        "totalTokens": 568,
-        "tweetId": "2083287127865885060",
-        "tweetText": "@theo 1 day to go",
-        "tweetUrl": "https://x.com/thsottiaux/status/2083287127865885060",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 432351,
-      "totalOutputTokens": 115102,
-      "totalReasoningTokens": 63403,
-      "totalTokens": 547453
+      "totalInputTokens": 432748,
+      "totalOutputTokens": 115203,
+      "totalReasoningTokens": 63460,
+      "totalTokens": 547951
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1785594925272,
+      "inputTokens": 397,
+      "message": "",
+      "outputTokens": 101,
+      "rationale": "This reply is unrelated to Codex or ChatGPT usage limits or any reset.",
+      "reasoningTokens": 57,
+      "totalTokens": 498,
+      "tweetId": "2083562039214330341",
+      "tweetText": "@jayair Tell us about Luna going to the moon. The people want to know",
+      "tweetUrl": "https://x.com/thsottiaux/status/2083562039214330341",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1785594324340,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2082897093245694413",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1785436250145,
-      "inputTokens": 388,
-      "message": "",
-      "outputTokens": 99,
-      "rationale": "This reply is just conversational and does not mention limits or a reset.",
-      "reasoningTokens": 57,
-      "totalTokens": 487,
-      "tweetId": "2082896652680167851",
-      "tweetText": "@theo 2 days to go",
-      "tweetUrl": "https://x.com/thsottiaux/status/2082896652680167851",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "mH5Yuu_Py7wOPposVdytmvNDGOcJJWDmc0YhXztzxitWI9s8tTVmlmq4DA",
-    "iv": "TfbkpAKoGwdvpWyV",
-    "tag": "9HVdzISDpnAxssXhckfb-Q",
+    "ciphertext": "6VCs64wy2MscEK5h5trX8QEkfmV5R5LSWvDr6uaNGF1Uzg2z3Xge-5P88Q",
+    "iv": "LZ7AbWSTmZyW9a3O",
+    "tag": "n68jZv2pQS1uNpS042MjAA",
     "version": 1
   }
 }
