@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1785595548550,
-      "rationale": "This reply discusses subscription token generosity, not a limit or rate-limit reset.",
-      "tweetId": "2083563784657093008",
-      "tweetUrl": "https://x.com/thsottiaux/status/2083563784657093008",
+      "decidedAt": 1785601088613,
+      "rationale": "This reply just says \"Forgot\" and gives no indication that any limits reset.",
+      "tweetId": "2083587311477182610",
+      "tweetUrl": "https://x.com/thsottiaux/status/2083587311477182610",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2083563784657093008",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2083563784657093008",
+    "lastSeenTweetId": "2083587311477182610",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2083587311477182610",
     "pendingReview": {
       "confidence": 0.92,
       "createdAt": 1785555507218,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2083395558069199273"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1785601088613,
+        "inputTokens": 385,
+        "outputTokens": 100,
+        "rationale": "This reply just says \"Forgot\" and gives no indication that any limits reset.",
+        "reasoningTokens": 56,
+        "totalTokens": 485,
+        "tweetId": "2083587311477182610",
+        "tweetText": "@blueemi99 Forgot",
+        "tweetUrl": "https://x.com/thsottiaux/status/2083587311477182610",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1785595548550,
@@ -279,29 +292,31 @@
         "tweetText": "@theo They shipped it one day early. Thanks Theo. Let's keep learning together.\n\nhttps://t.co/eecKQYRRv7",
         "tweetUrl": "https://x.com/thsottiaux/status/2083331664420192388",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1785540012912,
-        "inputTokens": 388,
-        "outputTokens": 77,
-        "rationale": "This is just a conversational reply and does not mention limits or a reset.",
-        "reasoningTokens": 34,
-        "totalTokens": 465,
-        "tweetId": "2083331374124089479",
-        "tweetText": "@ForwardEditor What's next in the pipeline?",
-        "tweetUrl": "https://x.com/thsottiaux/status/2083331374124089479",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 433149,
-      "totalOutputTokens": 115303,
-      "totalReasoningTokens": 63517,
-      "totalTokens": 548452
+      "totalInputTokens": 433534,
+      "totalOutputTokens": 115403,
+      "totalReasoningTokens": 63573,
+      "totalTokens": 548937
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1785601088613,
+      "inputTokens": 385,
+      "message": "",
+      "outputTokens": 100,
+      "rationale": "This reply just says \"Forgot\" and gives no indication that any limits reset.",
+      "reasoningTokens": 56,
+      "totalTokens": 485,
+      "tweetId": "2083587311477182610",
+      "tweetText": "@blueemi99 Forgot",
+      "tweetUrl": "https://x.com/thsottiaux/status/2083587311477182610",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1785595548551,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2082912608714449399",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1785440258219,
-      "inputTokens": 391,
-      "message": "",
-      "outputTokens": 88,
-      "rationale": "This reply is about paid subscription behavior and does not mention limits resetting.",
-      "reasoningTokens": 46,
-      "totalTokens": 479,
-      "tweetId": "2082912394284827091",
-      "tweetText": "@dieaud91 Works the same in the paid subscription!",
-      "tweetUrl": "https://x.com/thsottiaux/status/2082912394284827091",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "Tay6_lDYE3k855m3FbHdrEaAHM7PHA-4tDf1DFArr1Wg4GC0yPlYje9q6w",
-    "iv": "Bgyra_dgfnKLHU9s",
-    "tag": "JvClzLAtqSpfcwXWXH_jrw",
+    "ciphertext": "9-aya8u743Zcjc884geuWqvqp1A6wva7oQVk8JAk9_WC_GEynNESCF144g",
+    "iv": "Ph13KVtVbfjIeRjz",
+    "tag": "JiNVX5CH23e8DF7A6-g41Q",
     "version": 1
   }
 }
