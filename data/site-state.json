@@ -14,16 +14,16 @@
   "updatedAt": 1785555178452,
   "automation": {
     "lastDecision": {
-      "confidence": 0.97,
-      "decidedAt": 1785593703361,
-      "rationale": "This reply is just a conversational remark and does not indicate any limits or caps have reset.",
-      "tweetId": "2083556863262818803",
-      "tweetUrl": "https://x.com/thsottiaux/status/2083556863262818803",
+      "confidence": 0.99,
+      "decidedAt": 1785594009442,
+      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+      "tweetId": "2083557177911095621",
+      "tweetUrl": "https://x.com/thsottiaux/status/2083557177911095621",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2083556863262818803",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2083556863262818803",
+    "lastSeenTweetId": "2083557177911095621",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2083557177911095621",
     "pendingReview": {
       "confidence": 0.92,
       "createdAt": 1785555507218,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2083395558069199273"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1785594009442,
+        "inputTokens": 389,
+        "outputTokens": 116,
+        "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+        "reasoningTokens": 72,
+        "totalTokens": 505,
+        "tweetId": "2083557177911095621",
+        "tweetText": "@Robertg761_ Too cheap to meter",
+        "tweetUrl": "https://x.com/thsottiaux/status/2083557177911095621",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.97,
         "evaluatedAt": 1785593703361,
@@ -279,29 +292,31 @@
         "tweetText": "@dwarkesh_sp Hmmmmmm",
         "tweetUrl": "https://x.com/thsottiaux/status/2083055782510334257",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.97,
-        "evaluatedAt": 1785473758822,
-        "inputTokens": 424,
-        "outputTokens": 160,
-        "rationale": "This is a general, speculative comment and does not say any current user rate limit or cap has reset.",
-        "reasoningTokens": 111,
-        "totalTokens": 584,
-        "tweetId": "2083053369351090254",
-        "tweetText": "The day we develop really good models. There will be signs.\n\nReliability increasing despite load going up and up. Sudden efficiency gains. Things getting faster. Resets.\n\nThese kinds of things.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2083053369351090254",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 431563,
-      "totalOutputTokens": 114912,
-      "totalReasoningTokens": 63298,
-      "totalTokens": 546475
+      "totalInputTokens": 431952,
+      "totalOutputTokens": 115028,
+      "totalReasoningTokens": 63370,
+      "totalTokens": 546980
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1785594009442,
+      "inputTokens": 389,
+      "message": "",
+      "outputTokens": 116,
+      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+      "reasoningTokens": 72,
+      "totalTokens": 505,
+      "tweetId": "2083557177911095621",
+      "tweetText": "@Robertg761_ Too cheap to meter",
+      "tweetUrl": "https://x.com/thsottiaux/status/2083557177911095621",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.97,
       "createdAt": 1785593703361,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2082896153277063528",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1785436243177,
-      "inputTokens": 387,
-      "message": "",
-      "outputTokens": 68,
-      "rationale": "This reply is conversational and does not mention any limits or reset.",
-      "reasoningTokens": 27,
-      "totalTokens": 455,
-      "tweetId": "2082895472184987985",
-      "tweetText": "@aryan559552 I approve",
-      "tweetUrl": "https://x.com/thsottiaux/status/2082895472184987985",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "kp8_KliRMxhkWkZR6M78fNmGvnUq60PWVc9wRWdLe6P_Py4dKGmybpQcyQ",
-    "iv": "cYDVdksRzShWf36Z",
-    "tag": "4hJGx7zBsphX0u3K3M2oFQ",
+    "ciphertext": "xYqoNafwqMbsXAev9P1DCDm4PXDQT3NAqRBANkSdnX_Nj1asy7zzlf6woA",
+    "iv": "LiXz5Je2TkuV0wKz",
+    "tag": "NGDQpGSSL4enw7QHWxzElg",
     "version": 1
   }
 }
