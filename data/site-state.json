@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1785603588308,
-      "rationale": "This reply is conversational and gives no indication that any Codex or ChatGPT limits have reset.",
-      "tweetId": "2083597851079463140",
-      "tweetUrl": "https://x.com/thsottiaux/status/2083597851079463140",
+      "decidedAt": 1785603591700,
+      "rationale": "This reply only says \"Codex\" and does not mention limits or a reset.",
+      "tweetId": "2083598167120154739",
+      "tweetUrl": "https://x.com/thsottiaux/status/2083598167120154739",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2083597851079463140",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2083597851079463140",
+    "lastSeenTweetId": "2083598167120154739",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2083598167120154739",
     "pendingReview": {
       "confidence": 0.92,
       "createdAt": 1785555507218,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2083395558069199273"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1785603591700,
+        "inputTokens": 386,
+        "outputTokens": 109,
+        "rationale": "This reply only says \"Codex\" and does not mention limits or a reset.",
+        "reasoningTokens": 64,
+        "totalTokens": 495,
+        "tweetId": "2083598167120154739",
+        "tweetText": "@RyanEls4 Codex",
+        "tweetUrl": "https://x.com/thsottiaux/status/2083598167120154739",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1785603588308,
@@ -279,29 +292,31 @@
         "tweetText": "I don't come often to GMail (OpenAI is a Slack company), but I swear, every time I do open it, there is a new button somewhere around the top right corner. https://t.co/ZpasAaoaFl",
         "tweetUrl": "https://x.com/thsottiaux/status/2083373529081291076",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1785541874962,
-        "inputTokens": 392,
-        "outputTokens": 72,
-        "rationale": "This reply is unrelated to Codex or ChatGPT usage limits or resets.",
-        "reasoningTokens": 29,
-        "totalTokens": 464,
-        "tweetId": "2083339625876091065",
-        "tweetText": "@theo Wait. You can get paid on this app?",
-        "tweetUrl": "https://x.com/thsottiaux/status/2083339625876091065",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 434748,
-      "totalOutputTokens": 115636,
-      "totalReasoningTokens": 63666,
-      "totalTokens": 550384
+      "totalInputTokens": 435134,
+      "totalOutputTokens": 115745,
+      "totalReasoningTokens": 63730,
+      "totalTokens": 550879
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1785603591700,
+      "inputTokens": 386,
+      "message": "",
+      "outputTokens": 109,
+      "rationale": "This reply only says \"Codex\" and does not mention limits or a reset.",
+      "reasoningTokens": 64,
+      "totalTokens": 495,
+      "tweetId": "2083598167120154739",
+      "tweetText": "@RyanEls4 Codex",
+      "tweetUrl": "https://x.com/thsottiaux/status/2083598167120154739",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1785603588308,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2082982139948380465",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1785456658787,
-      "inputTokens": 503,
-      "message": "",
-      "outputTokens": 102,
-      "rationale": "This post and its quoted tweet are about OpenAI culture and a video, not rate limits or usage resets.",
-      "reasoningTokens": 52,
-      "totalTokens": 605,
-      "tweetId": "2082981910209540352",
-      "tweetText": "Benefits all",
-      "tweetUrl": "https://x.com/thsottiaux/status/2082981910209540352",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "rXYFvQzIbmVaHKhF3fy0pgKmW8Qmzkt7ybzBzoJf48y1WzkmVTwjBcx2zw",
-    "iv": "IxnpdFCqjfrx6gk9",
-    "tag": "sk21MJf2J0csgx_dam0Z3g",
+    "ciphertext": "EHb9oglmMksiytq4iDtl8VYrovtcmAAxxJY97zP5SqsJzHy70VBKvwmwwg",
+    "iv": "SUoBSl1wBcOfGJJ3",
+    "tag": "2adE0gb2U8q26PeKdeM4Gw",
     "version": 1
   }
 }
