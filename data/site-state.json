@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1785601088613,
-      "rationale": "This reply just says \"Forgot\" and gives no indication that any limits reset.",
-      "tweetId": "2083587311477182610",
-      "tweetUrl": "https://x.com/thsottiaux/status/2083587311477182610",
+      "decidedAt": 1785603274786,
+      "rationale": "This reply discusses past Google/DeepMind product history, not any current ChatGPT or Codex limit reset.",
+      "tweetId": "2083596911060324570",
+      "tweetUrl": "https://x.com/thsottiaux/status/2083596911060324570",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2083587311477182610",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2083587311477182610",
+    "lastSeenTweetId": "2083596911060324570",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2083596911060324570",
     "pendingReview": {
       "confidence": 0.92,
       "createdAt": 1785555507218,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2083395558069199273"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1785603274786,
+        "inputTokens": 441,
+        "outputTokens": 83,
+        "rationale": "This reply discusses past Google/DeepMind product history, not any current ChatGPT or Codex limit reset.",
+        "reasoningTokens": 33,
+        "totalTokens": 524,
+        "tweetId": "2083596911060324570",
+        "tweetText": "@_chenglou I was part of that team. Basically ChatGPT one year before it came out. Called LMChat and then another codename.\n\nGoogle was too nervous to release it and DeepMind was blocked from shipping products that could disrupt Google.\n\nI think about this a lot.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2083596911060324570",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1785601088613,
@@ -279,29 +292,31 @@
         "tweetText": "@viewsfrom02108 Let's circle back soon",
         "tweetUrl": "https://x.com/thsottiaux/status/2083332018356527616",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1785540016305,
-        "inputTokens": 487,
-        "outputTokens": 115,
-        "rationale": "This reply and quoted post are about a ChatGPT desktop app feature, not rate limits resetting.",
-        "reasoningTokens": 68,
-        "totalTokens": 602,
-        "tweetId": "2083331664420192388",
-        "tweetText": "@theo They shipped it one day early. Thanks Theo. Let's keep learning together.\n\nhttps://t.co/eecKQYRRv7",
-        "tweetUrl": "https://x.com/thsottiaux/status/2083331664420192388",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 433534,
-      "totalOutputTokens": 115403,
-      "totalReasoningTokens": 63573,
-      "totalTokens": 548937
+      "totalInputTokens": 433975,
+      "totalOutputTokens": 115486,
+      "totalReasoningTokens": 63606,
+      "totalTokens": 549461
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1785603274786,
+      "inputTokens": 441,
+      "message": "",
+      "outputTokens": 83,
+      "rationale": "This reply discusses past Google/DeepMind product history, not any current ChatGPT or Codex limit reset.",
+      "reasoningTokens": 33,
+      "totalTokens": 524,
+      "tweetId": "2083596911060324570",
+      "tweetText": "@_chenglou I was part of that team. Basically ChatGPT one year before it came out. Called LMChat and then another codename.\n\nGoogle was too nervous to release it and DeepMind was blocked from shipping products that could disrupt Google.\n\nI think about this a lot.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2083596911060324570",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1785601088613,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2082912698053132461",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1785440261739,
-      "inputTokens": 385,
-      "message": "",
-      "outputTokens": 100,
-      "rationale": "This is just a conversational reply and does not mention limits or a reset.",
-      "reasoningTokens": 57,
-      "totalTokens": 485,
-      "tweetId": "2082912608714449399",
-      "tweetText": "@gabriel1 rip",
-      "tweetUrl": "https://x.com/thsottiaux/status/2082912608714449399",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "9-aya8u743Zcjc884geuWqvqp1A6wva7oQVk8JAk9_WC_GEynNESCF144g",
-    "iv": "Ph13KVtVbfjIeRjz",
-    "tag": "JiNVX5CH23e8DF7A6-g41Q",
+    "ciphertext": "Q8A0klpTt5Lw1ew50YiGWXTOZ37aU-JNA_3eOCdtxlR_NTkXRcEDDwTKTg",
+    "iv": "BjR4RqiktFJh5_uf",
+    "tag": "AOBhCqvHbMjwpa49dLk9jg",
     "version": 1
   }
 }
