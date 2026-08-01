@@ -1,5 +1,5 @@
 {
-  "currentState": "no",
+  "currentState": "yes",
   "autoResetHours": 20,
   "noSubtitles": [
     "Back to your local model peasant",
@@ -10,29 +10,35 @@
     "Limits reset, go crazy",
     "You can just build things"
   ],
-  "resetAt": null,
-  "updatedAt": 1785303373213,
+  "resetAt": 1785627178452,
+  "updatedAt": 1785555178452,
   "automation": {
     "lastDecision": {
-      "confidence": 0.95,
-      "decidedAt": 1785553334471,
-      "rationale": "This reply mentions usage counting on ChatGPT Work, not a limit reset or restored availability.",
-      "tweetId": "2083387677945036995",
-      "tweetUrl": "https://x.com/thsottiaux/status/2083387677945036995",
-      "verdict": "not_reset"
+      "confidence": 0.99,
+      "decidedAt": 1785555178452,
+      "rationale": "The tweet explicitly says usage limits for Codex and ChatGPT Work have been reset.",
+      "tweetId": "2083395449814229287",
+      "tweetUrl": "https://x.com/thsottiaux/status/2083395449814229287",
+      "verdict": "reset_confirmed"
     },
     "lastError": null,
-    "lastSeenTweetId": "2083387677945036995",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2083387677945036995",
-    "pendingReview": {
-      "confidence": 0.95,
-      "createdAt": 1785367190621,
-      "rationale": "This reply is just a vague countdown and does not clearly say limits have reset.",
-      "tweetId": "2082606956368609353",
-      "tweetText": "@theo 3 days to go! forgot to update you yesterday 👀",
-      "tweetUrl": "https://x.com/thsottiaux/status/2082606956368609353"
-    },
+    "lastSeenTweetId": "2083395449814229287",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2083395449814229287",
+    "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1785555178452,
+        "inputTokens": 423,
+        "outputTokens": 96,
+        "rationale": "The tweet explicitly says usage limits for Codex and ChatGPT Work have been reset.",
+        "reasoningTokens": 50,
+        "totalTokens": 519,
+        "tweetId": "2083395449814229287",
+        "tweetText": "To celebrate a week of efficiency and let you run 100'000 Luna threads this weekend... that's right... wait for it... I have reset usage limits for Codex and ChatGPT Work.\n\nEnjoy.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2083395449814229287",
+        "verdict": "reset_confirmed"
+      },
       {
         "confidence": 0.95,
         "evaluatedAt": 1785553334471,
@@ -279,29 +285,31 @@
         "tweetText": "@tulseedoshi Very sorry",
         "tweetUrl": "https://x.com/thsottiaux/status/2083021693573079260",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.98,
-        "evaluatedAt": 1785466021525,
-        "inputTokens": 392,
-        "outputTokens": 97,
-        "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-        "reasoningTokens": 53,
-        "totalTokens": 489,
-        "tweetId": "2083020988435071242",
-        "tweetText": "@AdamHoltererer Did we go a bit overboard?",
-        "tweetUrl": "https://x.com/thsottiaux/status/2083020988435071242",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 428253,
-      "totalOutputTokens": 113829,
-      "totalReasoningTokens": 62576,
-      "totalTokens": 542082
+      "totalInputTokens": 428676,
+      "totalOutputTokens": 113925,
+      "totalReasoningTokens": 62626,
+      "totalTokens": 542601
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1785555178452,
+      "inputTokens": 423,
+      "message": "",
+      "outputTokens": 96,
+      "rationale": "The tweet explicitly says usage limits for Codex and ChatGPT Work have been reset.",
+      "reasoningTokens": 50,
+      "totalTokens": 519,
+      "tweetId": "2083395449814229287",
+      "tweetText": "To celebrate a week of efficiency and let you run 100'000 Luna threads this weekend... that's right... wait for it... I have reset usage limits for Codex and ChatGPT Work.\n\nEnjoy.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2083395449814229287",
+      "type": "reset_confirmed",
+      "verdict": "reset_confirmed"
+    },
     {
       "confidence": 0.95,
       "createdAt": 1785553334471,
@@ -886,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2082736317977575540",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1785397859320,
-      "inputTokens": 388,
-      "message": "",
-      "outputTokens": 91,
-      "rationale": "This reply is just conversational and does not mention limits resetting or being available again.",
-      "reasoningTokens": 47,
-      "totalTokens": 479,
-      "tweetId": "2082735280579358753",
-      "tweetText": "@Ananth7e Let’s see",
-      "tweetUrl": "https://x.com/thsottiaux/status/2082735280579358753",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "BoNysZcKeACFuHkk7ptRbuO-aH2zeQ_RZX-iwhziEhGHI1lY7I2jxa3V8w",
-    "iv": "aptnhc2Dr5dV4FPc",
-    "tag": "FHuslOwfy9UXVSEc5Eh3uQ",
+    "ciphertext": "m6Ekko4R9444Siy7HfpgDSiobSyTWJH48hLyUeTCCgkntDHZyZCjczvqjA",
+    "iv": "Qhj2j8R9saZcleN3",
+    "tag": "vSPxi2d9wWw-MAZpObjHXQ",
     "version": 1
   }
 }
