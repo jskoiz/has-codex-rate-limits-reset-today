@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.95,
-      "decidedAt": 1785551463141,
-      "rationale": "This reply mentions a \"reset button\" but does not say rate limits or caps have reset.",
-      "tweetId": "2083378916203343920",
-      "tweetUrl": "https://x.com/thsottiaux/status/2083378916203343920",
+      "decidedAt": 1785553334471,
+      "rationale": "This reply mentions usage counting on ChatGPT Work, not a limit reset or restored availability.",
+      "tweetId": "2083387677945036995",
+      "tweetUrl": "https://x.com/thsottiaux/status/2083387677945036995",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2083378916203343920",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2083378916203343920",
+    "lastSeenTweetId": "2083387677945036995",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2083387677945036995",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1785367190621,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2082606956368609353"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.95,
+        "evaluatedAt": 1785553334471,
+        "inputTokens": 396,
+        "outputTokens": 181,
+        "rationale": "This reply mentions usage counting on ChatGPT Work, not a limit reset or restored availability.",
+        "reasoningTokens": 135,
+        "totalTokens": 577,
+        "tweetId": "2083387677945036995",
+        "tweetText": "ChatGPT Work counted https://t.co/XlnkkYvx1s",
+        "tweetUrl": "https://x.com/thsottiaux/status/2083387677945036995",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.95,
         "evaluatedAt": 1785551463141,
@@ -279,29 +292,31 @@
         "tweetText": "@AdamHoltererer Did we go a bit overboard?",
         "tweetUrl": "https://x.com/thsottiaux/status/2083020988435071242",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1785466018423,
-        "inputTokens": 389,
-        "outputTokens": 76,
-        "rationale": "This reply just asks a question and does not indicate any limit or rate-limit reset.",
-        "reasoningTokens": 31,
-        "totalTokens": 465,
-        "tweetId": "2083020653297558013",
-        "tweetText": "@_aidan_clark_ LST?",
-        "tweetUrl": "https://x.com/thsottiaux/status/2083020653297558013",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 427857,
-      "totalOutputTokens": 113648,
-      "totalReasoningTokens": 62441,
-      "totalTokens": 541505
+      "totalInputTokens": 428253,
+      "totalOutputTokens": 113829,
+      "totalReasoningTokens": 62576,
+      "totalTokens": 542082
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.95,
+      "createdAt": 1785553334471,
+      "inputTokens": 396,
+      "message": "",
+      "outputTokens": 181,
+      "rationale": "This reply mentions usage counting on ChatGPT Work, not a limit reset or restored availability.",
+      "reasoningTokens": 135,
+      "totalTokens": 577,
+      "tweetId": "2083387677945036995",
+      "tweetText": "ChatGPT Work counted https://t.co/XlnkkYvx1s",
+      "tweetUrl": "https://x.com/thsottiaux/status/2083387677945036995",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.95,
       "createdAt": 1785551463141,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2082735280579358753",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1785397855884,
-      "inputTokens": 425,
-      "message": "",
-      "outputTokens": 74,
-      "rationale": "This reply discusses model behavior conceptually and does not mention any usage limits or reset.",
-      "reasoningTokens": 29,
-      "totalTokens": 499,
-      "tweetId": "2082734562103484862",
-      "tweetText": "@GregKamradt With all due respect, things have evolved way beyond token in / token out. If tomorrow you wake up with your eyes on your back, I don’t think you would be very effective for the day.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2082734562103484862",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "MoqzmiWEdLELT_9RTO5Gbqlf3J1VO98-nU6rbCtVECh6oM_9Larv6te26A",
-    "iv": "0czjjWZm1ZhvB9tq",
-    "tag": "NK4phNfsz5srz9mE9neyDQ",
+    "ciphertext": "BoNysZcKeACFuHkk7ptRbuO-aH2zeQ_RZX-iwhziEhGHI1lY7I2jxa3V8w",
+    "iv": "aptnhc2Dr5dV4FPc",
+    "tag": "FHuslOwfy9UXVSEc5Eh3uQ",
     "version": 1
   }
 }
