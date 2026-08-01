@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1785562948832,
-      "rationale": "This post is just a generic statement and does not mention limits or availability.",
-      "tweetId": "2083427516996292992",
-      "tweetUrl": "https://x.com/thsottiaux/status/2083427516996292992",
+      "decidedAt": 1785593699266,
+      "rationale": "This post is about Astra science results, not Codex or ChatGPT usage limits resetting.",
+      "tweetId": "2083556636455752050",
+      "tweetUrl": "https://x.com/thsottiaux/status/2083556636455752050",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2083427516996292992",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2083427516996292992",
+    "lastSeenTweetId": "2083556636455752050",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2083556636455752050",
     "pendingReview": {
       "confidence": 0.92,
       "createdAt": 1785555507218,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2083395558069199273"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1785593699266,
+        "inputTokens": 557,
+        "outputTokens": 82,
+        "rationale": "This post is about Astra science results, not Codex or ChatGPT usage limits resetting.",
+        "reasoningTokens": 36,
+        "totalTokens": 639,
+        "tweetId": "2083556636455752050",
+        "tweetText": "The week was for efficiency. The weekend is for 10 major breakthroughs in science.\n\nThere will be signs.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2083556636455752050",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1785562948832,
@@ -279,29 +292,31 @@
         "tweetText": "@_aidan_clark_ LSD",
         "tweetUrl": "https://x.com/thsottiaux/status/2083050433925505152",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1785472542830,
-        "inputTokens": 397,
-        "outputTokens": 66,
-        "rationale": "This is a general product feedback request and does not mention limits or a reset.",
-        "reasoningTokens": 22,
-        "totalTokens": 463,
-        "tweetId": "2083048892405604681",
-        "tweetText": "What should we improve on Codex to improve the everyday experience? Nothing too small",
-        "tweetUrl": "https://x.com/thsottiaux/status/2083048892405604681",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 430618,
-      "totalOutputTokens": 114663,
-      "totalReasoningTokens": 63141,
-      "totalTokens": 545281
+      "totalInputTokens": 431175,
+      "totalOutputTokens": 114745,
+      "totalReasoningTokens": 63177,
+      "totalTokens": 545920
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1785593699266,
+      "inputTokens": 557,
+      "message": "",
+      "outputTokens": 82,
+      "rationale": "This post is about Astra science results, not Codex or ChatGPT usage limits resetting.",
+      "reasoningTokens": 36,
+      "totalTokens": 639,
+      "tweetId": "2083556636455752050",
+      "tweetText": "The week was for efficiency. The weekend is for 10 major breakthroughs in science.\n\nThere will be signs.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2083556636455752050",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1785562948832,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2082895176696221738",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.98,
-      "createdAt": 1785433438489,
-      "inputTokens": 395,
-      "message": "",
-      "outputTokens": 113,
-      "rationale": "This reply mentions pricing and subscription usage changes but does not say limits have reset or are available again…",
-      "reasoningTokens": 64,
-      "totalTokens": 508,
-      "tweetId": "2082883808194707792",
-      "tweetText": "Changes both affect API prices and usage in paid subscriptions. Something for everyone.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2082883808194707792",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "sA-mO2L_jE9_jeIg7qmHGIAWTn-Pi7byapu9y2nSrjPD6cDHQKU7xwMV7A",
-    "iv": "Y61EbkQKZMunAriP",
-    "tag": "yDK6dF3UQUNuXeo3qD0GFA",
+    "ciphertext": "aeu2_nyuwvvnt2BhYNn61DLfNjO9Wj64-q9lcVCFtk42gzCqRnjBdZiglw",
+    "iv": "16u5oLMsbOMqGMin",
+    "tag": "NCvwOE8t2Xoa9oTysdCg5g",
     "version": 1
   }
 }
