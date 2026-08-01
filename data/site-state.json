@@ -14,16 +14,16 @@
   "updatedAt": 1785555178452,
   "automation": {
     "lastDecision": {
-      "confidence": 0.94,
-      "decidedAt": 1785562639902,
-      "rationale": "This reply contains no clear statement that any limits or rate caps have reset.",
-      "tweetId": "2083426050994774438",
-      "tweetUrl": "https://x.com/thsottiaux/status/2083426050994774438",
+      "confidence": 0.99,
+      "decidedAt": 1785562948832,
+      "rationale": "This post is just a generic statement and does not mention limits or availability.",
+      "tweetId": "2083427516996292992",
+      "tweetUrl": "https://x.com/thsottiaux/status/2083427516996292992",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2083426050994774438",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2083426050994774438",
+    "lastSeenTweetId": "2083427516996292992",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2083427516996292992",
     "pendingReview": {
       "confidence": 0.92,
       "createdAt": 1785555507218,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2083395558069199273"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1785562948832,
+        "inputTokens": 384,
+        "outputTokens": 87,
+        "rationale": "This post is just a generic statement and does not mention limits or availability.",
+        "reasoningTokens": 44,
+        "totalTokens": 471,
+        "tweetId": "2083427516996292992",
+        "tweetText": "Optimize for curiosity",
+        "tweetUrl": "https://x.com/thsottiaux/status/2083427516996292992",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.94,
         "evaluatedAt": 1785562639902,
@@ -279,29 +292,31 @@
         "tweetText": "What should we improve on Codex to improve the everyday experience? Nothing too small",
         "tweetUrl": "https://x.com/thsottiaux/status/2083048892405604681",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1785471927447,
-        "inputTokens": 386,
-        "outputTokens": 64,
-        "rationale": "This reply is unrelated to any Codex or ChatGPT limit reset.",
-        "reasoningTokens": 22,
-        "totalTokens": 450,
-        "tweetId": "2083045630134649028",
-        "tweetText": "@gregpr07 Nice windshield",
-        "tweetUrl": "https://x.com/thsottiaux/status/2083045630134649028",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 430234,
-      "totalOutputTokens": 114576,
-      "totalReasoningTokens": 63097,
-      "totalTokens": 544810
+      "totalInputTokens": 430618,
+      "totalOutputTokens": 114663,
+      "totalReasoningTokens": 63141,
+      "totalTokens": 545281
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1785562948832,
+      "inputTokens": 384,
+      "message": "",
+      "outputTokens": 87,
+      "rationale": "This post is just a generic statement and does not mention limits or availability.",
+      "reasoningTokens": 44,
+      "totalTokens": 471,
+      "tweetId": "2083427516996292992",
+      "tweetText": "Optimize for curiosity",
+      "tweetUrl": "https://x.com/thsottiaux/status/2083427516996292992",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.94,
       "createdAt": 1785562639902,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2082883808194707792",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.98,
-      "createdAt": 1785433137803,
-      "inputTokens": 608,
-      "message": "",
-      "outputTokens": 146,
-      "rationale": "This announces lower prices and better usage efficiency, not that any Codex or ChatGPT limits have reset or been lifted.",
-      "reasoningTokens": 94,
-      "totalTokens": 754,
-      "tweetId": "2082883636177916306",
-      "tweetText": "We kept ourselves busy with GPT-5.6 Sol. It's pretty good at things.\n\nRolling out\n- 80% lower prices on Luna\n- 20% lower prices on Terra\n- faster speeds on GPT-5.6 Sol in /fast mode\n- ~ 10X cheaper auto-approve mode (\"review for me\" in the app), which now uses Luna to prevent many high risk actions from the main agent\n\nTowards intelligence too cheap to meter and many more breakthroughs ahead.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2082883636177916306",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "Bfu4FGNpx5L0Cx93R2dgYN1wa5TXWqlQw7hmmRb8bb3Vutz3jjRlrt21Dg",
-    "iv": "K3c5JUCgDiTltA9e",
-    "tag": "VPV_Ctfo6WwG0PoIG0M-Ow",
+    "ciphertext": "sA-mO2L_jE9_jeIg7qmHGIAWTn-Pi7byapu9y2nSrjPD6cDHQKU7xwMV7A",
+    "iv": "Y61EbkQKZMunAriP",
+    "tag": "yDK6dF3UQUNuXeo3qD0GFA",
     "version": 1
   }
 }
