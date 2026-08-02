@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1785638458273,
-      "rationale": "This reply is conversational and says nothing about limits or usage resetting.",
-      "tweetId": "2083744002961010821",
-      "tweetUrl": "https://x.com/thsottiaux/status/2083744002961010821",
+      "decidedAt": 1785638766125,
+      "rationale": "This reply is unrelated to ChatGPT or Codex limits resetting.",
+      "tweetId": "2083744925024182561",
+      "tweetUrl": "https://x.com/thsottiaux/status/2083744925024182561",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2083744002961010821",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2083744002961010821",
+    "lastSeenTweetId": "2083744925024182561",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2083744925024182561",
     "pendingReview": {
       "confidence": 0.92,
       "createdAt": 1785555507218,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2083395558069199273"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1785638766125,
+        "inputTokens": 398,
+        "outputTokens": 83,
+        "rationale": "This reply is unrelated to ChatGPT or Codex limits resetting.",
+        "reasoningTokens": 42,
+        "totalTokens": 481,
+        "tweetId": "2083744925024182561",
+        "tweetText": "@GaryMarcus @emollick @polynoamial What's an impure LLM",
+        "tweetUrl": "https://x.com/thsottiaux/status/2083744925024182561",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1785638458273,
@@ -279,29 +292,31 @@
         "tweetText": "@maria_rcks Fixed it",
         "tweetUrl": "https://x.com/thsottiaux/status/2083395558069199273",
         "verdict": "uncertain"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1785555178452,
-        "inputTokens": 423,
-        "outputTokens": 96,
-        "rationale": "The tweet explicitly says usage limits for Codex and ChatGPT Work have been reset.",
-        "reasoningTokens": 50,
-        "totalTokens": 519,
-        "tweetId": "2083395449814229287",
-        "tweetText": "To celebrate a week of efficiency and let you run 100'000 Luna threads this weekend... that's right... wait for it... I have reset usage limits for Codex and ChatGPT Work.\n\nEnjoy.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2083395449814229287",
-        "verdict": "reset_confirmed"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 436344,
-      "totalOutputTokens": 115988,
-      "totalReasoningTokens": 63845,
-      "totalTokens": 552332
+      "totalInputTokens": 436742,
+      "totalOutputTokens": 116071,
+      "totalReasoningTokens": 63887,
+      "totalTokens": 552813
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1785638766125,
+      "inputTokens": 398,
+      "message": "",
+      "outputTokens": 83,
+      "rationale": "This reply is unrelated to ChatGPT or Codex limits resetting.",
+      "reasoningTokens": 42,
+      "totalTokens": 481,
+      "tweetId": "2083744925024182561",
+      "tweetText": "@GaryMarcus @emollick @polynoamial What's an impure LLM",
+      "tweetUrl": "https://x.com/thsottiaux/status/2083744925024182561",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1785638458273,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2083021693573079260",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.98,
-      "createdAt": 1785466021525,
-      "inputTokens": 392,
-      "message": "",
-      "outputTokens": 97,
-      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-      "reasoningTokens": 53,
-      "totalTokens": 489,
-      "tweetId": "2083020988435071242",
-      "tweetText": "@AdamHoltererer Did we go a bit overboard?",
-      "tweetUrl": "https://x.com/thsottiaux/status/2083020988435071242",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "NKTGWYsdirZD3Z-PcXgCb2c2g5WLePzwVPLV1-6LWDn0ffTUuBXeKzK56w",
-    "iv": "KtRCMSQnHwjEeyBT",
-    "tag": "aoRuvkOk0eTAqXQX79v67A",
+    "ciphertext": "E5tCSEK7IKVlydPs8IOlj6Jj21HdKNPqNmhcLaZQ5W80HTjJMyA7ABPNwg",
+    "iv": "fkWbEan4lDVTPgYe",
+    "tag": "qHE0YAkkcTNxuo7JuKQh9Q",
     "version": 1
   }
 }
