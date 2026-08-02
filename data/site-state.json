@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1785627870274,
-      "rationale": "This is just a usage observation and does not mention limits or a reset.",
-      "tweetId": "2083699879650463756",
-      "tweetUrl": "https://x.com/thsottiaux/status/2083699879650463756",
+      "decidedAt": 1785638158473,
+      "rationale": "This reply shares a Rust starter link and says nothing about limits or a reset.",
+      "tweetId": "2083743039030165674",
+      "tweetUrl": "https://x.com/thsottiaux/status/2083743039030165674",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2083699879650463756",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2083699879650463756",
+    "lastSeenTweetId": "2083743039030165674",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2083743039030165674",
     "pendingReview": {
       "confidence": 0.92,
       "createdAt": 1785555507218,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2083395558069199273"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1785638158473,
+        "inputTokens": 405,
+        "outputTokens": 84,
+        "rationale": "This reply shares a Rust starter link and says nothing about limits or a reset.",
+        "reasoningTokens": 40,
+        "totalTokens": 489,
+        "tweetId": "2083743039030165674",
+        "tweetText": "@thdxr A good rust base to start from:\nhttps://t.co/2TH56VMZxD",
+        "tweetUrl": "https://x.com/thsottiaux/status/2083743039030165674",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1785627870274,
@@ -279,29 +292,31 @@
         "tweetText": "ChatGPT Work counted https://t.co/XlnkkYvx1s",
         "tweetUrl": "https://x.com/thsottiaux/status/2083387677945036995",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.95,
-        "evaluatedAt": 1785551463141,
-        "inputTokens": 391,
-        "outputTokens": 199,
-        "rationale": "This reply mentions a \"reset button\" but does not say rate limits or caps have reset.",
-        "reasoningTokens": 152,
-        "totalTokens": 590,
-        "tweetId": "2083378916203343920",
-        "tweetText": "And yet, I don't see a reset button there.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2083378916203343920",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 435537,
-      "totalOutputTokens": 115832,
-      "totalReasoningTokens": 63774,
-      "totalTokens": 551369
+      "totalInputTokens": 435942,
+      "totalOutputTokens": 115916,
+      "totalReasoningTokens": 63814,
+      "totalTokens": 551858
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1785638158473,
+      "inputTokens": 405,
+      "message": "",
+      "outputTokens": 84,
+      "rationale": "This reply shares a Rust starter link and says nothing about limits or a reset.",
+      "reasoningTokens": 40,
+      "totalTokens": 489,
+      "tweetId": "2083743039030165674",
+      "tweetText": "@thdxr A good rust base to start from:\nhttps://t.co/2TH56VMZxD",
+      "tweetUrl": "https://x.com/thsottiaux/status/2083743039030165674",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1785627870274,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2083020653297558013",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1785466015438,
-      "inputTokens": 394,
-      "message": "",
-      "outputTokens": 103,
-      "rationale": "This reply discusses reliability and does not mention limits, caps, or a reset.",
-      "reasoningTokens": 59,
-      "totalTokens": 497,
-      "tweetId": "2083020392827077100",
-      "tweetText": "@BradfordHuber4 Welcome to 3 nines of reliability",
-      "tweetUrl": "https://x.com/thsottiaux/status/2083020392827077100",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "WVpQNjc1Tsx_QwqKRyAqTiILDawXB-prZBoKOdRveNTE7uHtl19mCEE5OA",
-    "iv": "eWvqbCiHaFr1XoV9",
-    "tag": "E1zWVQEtIu-BWbE4XfXrLg",
+    "ciphertext": "K-chFI8vA4IhEudB2yyMKlc0KoUXKyeMZ3-tjYxyTB0UM90eh6qcb6mxsg",
+    "iv": "_g68Mkkizj1MJ1up",
+    "tag": "faWfWZQps3OkvdtZkPmzBg",
     "version": 1
   }
 }
