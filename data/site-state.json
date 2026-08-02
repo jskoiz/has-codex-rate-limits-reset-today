@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1785638158473,
-      "rationale": "This reply shares a Rust starter link and says nothing about limits or a reset.",
-      "tweetId": "2083743039030165674",
-      "tweetUrl": "https://x.com/thsottiaux/status/2083743039030165674",
+      "decidedAt": 1785638458273,
+      "rationale": "This reply is conversational and says nothing about limits or usage resetting.",
+      "tweetId": "2083744002961010821",
+      "tweetUrl": "https://x.com/thsottiaux/status/2083744002961010821",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2083743039030165674",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2083743039030165674",
+    "lastSeenTweetId": "2083744002961010821",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2083744002961010821",
     "pendingReview": {
       "confidence": 0.92,
       "createdAt": 1785555507218,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2083395558069199273"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1785638458273,
+        "inputTokens": 402,
+        "outputTokens": 72,
+        "rationale": "This reply is conversational and says nothing about limits or usage resetting.",
+        "reasoningTokens": 31,
+        "totalTokens": 474,
+        "tweetId": "2083744002961010821",
+        "tweetText": "@meta_x_ai @AyanfeCrown @_chenglou Please send the money to a good cause",
+        "tweetUrl": "https://x.com/thsottiaux/status/2083744002961010821",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1785638158473,
@@ -279,29 +292,31 @@
         "tweetText": "To celebrate a week of efficiency and let you run 100'000 Luna threads this weekend... that's right... wait for it... I have reset usage limits for Codex and ChatGPT Work.\n\nEnjoy.",
         "tweetUrl": "https://x.com/thsottiaux/status/2083395449814229287",
         "verdict": "reset_confirmed"
-      },
-      {
-        "confidence": 0.95,
-        "evaluatedAt": 1785553334471,
-        "inputTokens": 396,
-        "outputTokens": 181,
-        "rationale": "This reply mentions usage counting on ChatGPT Work, not a limit reset or restored availability.",
-        "reasoningTokens": 135,
-        "totalTokens": 577,
-        "tweetId": "2083387677945036995",
-        "tweetText": "ChatGPT Work counted https://t.co/XlnkkYvx1s",
-        "tweetUrl": "https://x.com/thsottiaux/status/2083387677945036995",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 435942,
-      "totalOutputTokens": 115916,
-      "totalReasoningTokens": 63814,
-      "totalTokens": 551858
+      "totalInputTokens": 436344,
+      "totalOutputTokens": 115988,
+      "totalReasoningTokens": 63845,
+      "totalTokens": 552332
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1785638458273,
+      "inputTokens": 402,
+      "message": "",
+      "outputTokens": 72,
+      "rationale": "This reply is conversational and says nothing about limits or usage resetting.",
+      "reasoningTokens": 31,
+      "totalTokens": 474,
+      "tweetId": "2083744002961010821",
+      "tweetText": "@meta_x_ai @AyanfeCrown @_chenglou Please send the money to a good cause",
+      "tweetUrl": "https://x.com/thsottiaux/status/2083744002961010821",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1785638158473,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2083020988435071242",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1785466018423,
-      "inputTokens": 389,
-      "message": "",
-      "outputTokens": 76,
-      "rationale": "This reply just asks a question and does not indicate any limit or rate-limit reset.",
-      "reasoningTokens": 31,
-      "totalTokens": 465,
-      "tweetId": "2083020653297558013",
-      "tweetText": "@_aidan_clark_ LST?",
-      "tweetUrl": "https://x.com/thsottiaux/status/2083020653297558013",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "K-chFI8vA4IhEudB2yyMKlc0KoUXKyeMZ3-tjYxyTB0UM90eh6qcb6mxsg",
-    "iv": "_g68Mkkizj1MJ1up",
-    "tag": "faWfWZQps3OkvdtZkPmzBg",
+    "ciphertext": "NKTGWYsdirZD3Z-PcXgCb2c2g5WLePzwVPLV1-6LWDn0ffTUuBXeKzK56w",
+    "iv": "KtRCMSQnHwjEeyBT",
+    "tag": "aoRuvkOk0eTAqXQX79v67A",
     "version": 1
   }
 }
