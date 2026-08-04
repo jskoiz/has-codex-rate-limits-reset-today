@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1785807418063,
-      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-      "tweetId": "2084452261837824210",
-      "tweetUrl": "https://x.com/thsottiaux/status/2084452261837824210",
+      "decidedAt": 1785814240409,
+      "rationale": "This reply is a joke about Codex and does not mention limits or a reset.",
+      "tweetId": "2084481355602354611",
+      "tweetUrl": "https://x.com/thsottiaux/status/2084481355602354611",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2084452261837824210",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2084452261837824210",
+    "lastSeenTweetId": "2084481355602354611",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2084481355602354611",
     "pendingReview": {
       "confidence": 0.92,
       "createdAt": 1785555507218,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2083395558069199273"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1785814240409,
+        "inputTokens": 405,
+        "outputTokens": 80,
+        "rationale": "This reply is a joke about Codex and does not mention limits or a reset.",
+        "reasoningTokens": 35,
+        "totalTokens": 485,
+        "tweetId": "2084481355602354611",
+        "tweetText": "@derrickcchoi Codex, buy this man some furniture https://t.co/VN3JtwbeUw",
+        "tweetUrl": "https://x.com/thsottiaux/status/2084481355602354611",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1785807418063,
@@ -279,29 +292,31 @@
         "tweetText": "The week was for efficiency. The weekend is for 10 major breakthroughs in science.\n\nThere will be signs.",
         "tweetUrl": "https://x.com/thsottiaux/status/2083556636455752050",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1785562948832,
-        "inputTokens": 384,
-        "outputTokens": 87,
-        "rationale": "This post is just a generic statement and does not mention limits or availability.",
-        "reasoningTokens": 44,
-        "totalTokens": 471,
-        "tweetId": "2083427516996292992",
-        "tweetText": "Optimize for curiosity",
-        "tweetUrl": "https://x.com/thsottiaux/status/2083427516996292992",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 438384,
-      "totalOutputTokens": 116426,
-      "totalReasoningTokens": 64068,
-      "totalTokens": 554810
+      "totalInputTokens": 438789,
+      "totalOutputTokens": 116506,
+      "totalReasoningTokens": 64103,
+      "totalTokens": 555295
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1785814240409,
+      "inputTokens": 405,
+      "message": "",
+      "outputTokens": 80,
+      "rationale": "This reply is a joke about Codex and does not mention limits or a reset.",
+      "reasoningTokens": 35,
+      "totalTokens": 485,
+      "tweetId": "2084481355602354611",
+      "tweetText": "@derrickcchoi Codex, buy this man some furniture https://t.co/VN3JtwbeUw",
+      "tweetUrl": "https://x.com/thsottiaux/status/2084481355602354611",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1785807418063,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2083048892405604681",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1785471927447,
-      "inputTokens": 386,
-      "message": "",
-      "outputTokens": 64,
-      "rationale": "This reply is unrelated to any Codex or ChatGPT limit reset.",
-      "reasoningTokens": 22,
-      "totalTokens": 450,
-      "tweetId": "2083045630134649028",
-      "tweetText": "@gregpr07 Nice windshield",
-      "tweetUrl": "https://x.com/thsottiaux/status/2083045630134649028",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "IGttFDbxrqhK3K4Qqbjdbh0g1I2VhoTuhDh1F8NPGDcGPUEt7ejbDXcx6g",
-    "iv": "_epL0r0odjYtv4SB",
-    "tag": "py1SiAnf5FTYVIttTEz5Iw",
+    "ciphertext": "xr4gPbnepC1fUf2DJbC_X4DS0hDKYob57H1vbLG8TkSdPbLDJ3FPM14XsA",
+    "iv": "ny4Q4sfTlUD9VWVO",
+    "tag": "oZp7cdrTU7_vYPtzNW-bQA",
     "version": 1
   }
 }
