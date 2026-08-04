@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1785814851420,
-      "rationale": "This post discusses Codex and future AI model capabilities, not any limit or rate-cap reset.",
-      "tweetId": "2084483765158719542",
-      "tweetUrl": "https://x.com/thsottiaux/status/2084483765158719542",
+      "decidedAt": 1785820155767,
+      "rationale": "This post is about model pricing and says nothing about usage limits or caps resetting.",
+      "tweetId": "2084506501834829833",
+      "tweetUrl": "https://x.com/thsottiaux/status/2084506501834829833",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2084483765158719542",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2084483765158719542",
+    "lastSeenTweetId": "2084506501834829833",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2084506501834829833",
     "pendingReview": {
       "confidence": 0.92,
       "createdAt": 1785555507218,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2083395558069199273"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1785820155767,
+        "inputTokens": 521,
+        "outputTokens": 94,
+        "rationale": "This post is about model pricing and says nothing about usage limits or caps resetting.",
+        "reasoningTokens": 50,
+        "totalTokens": 615,
+        "tweetId": "2084506501834829833",
+        "tweetText": "Some fine folks apparently misunderstood, but the GPT-5.6 Luna price reduction by 80% is not a temporary stunt, it's permanent. Efficiency gains don't go away. Fortunately.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2084506501834829833",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1785814851420,
@@ -279,29 +292,31 @@
         "tweetText": "@jayair Tell us about Luna going to the moon. The people want to know",
         "tweetUrl": "https://x.com/thsottiaux/status/2083562039214330341",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1785594324340,
-        "inputTokens": 399,
-        "outputTokens": 74,
-        "rationale": "This reply is conversational and says nothing about limits or a reset.",
-        "reasoningTokens": 33,
-        "totalTokens": 473,
-        "tweetId": "2083558591047577681",
-        "tweetText": "@loss_gobbler @JuniperViews You can’t make this up. Hahahaha",
-        "tweetUrl": "https://x.com/thsottiaux/status/2083558591047577681",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 440009,
-      "totalOutputTokens": 116746,
-      "totalReasoningTokens": 64209,
-      "totalTokens": 556755
+      "totalInputTokens": 440530,
+      "totalOutputTokens": 116840,
+      "totalReasoningTokens": 64259,
+      "totalTokens": 557370
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1785820155767,
+      "inputTokens": 521,
+      "message": "",
+      "outputTokens": 94,
+      "rationale": "This post is about model pricing and says nothing about usage limits or caps resetting.",
+      "reasoningTokens": 50,
+      "totalTokens": 615,
+      "tweetId": "2084506501834829833",
+      "tweetText": "Some fine folks apparently misunderstood, but the GPT-5.6 Luna price reduction by 80% is not a temporary stunt, it's permanent. Efficiency gains don't go away. Fortunately.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2084506501834829833",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1785814851420,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2083287127865885060",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1785474372578,
-      "inputTokens": 388,
-      "message": "",
-      "outputTokens": 75,
-      "rationale": "This reply does not mention limits, caps, or any reset.",
-      "reasoningTokens": 34,
-      "totalTokens": 463,
-      "tweetId": "2083055782510334257",
-      "tweetText": "@dwarkesh_sp Hmmmmmm",
-      "tweetUrl": "https://x.com/thsottiaux/status/2083055782510334257",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "rD9QXqhRDsJ38Rht2OZnNVjYTjZjlZj5ewgiolY-tMKdZX1Vsat98z9_3A",
-    "iv": "2vNOyIyFoR2ydGLK",
-    "tag": "gyCeDsxmo342757rNYnS-w",
+    "ciphertext": "7eoUzdIugLCapSa0qUFNg9Oktt9Y1sIuIHnMEeAsMMtFqT3RE9CRmfUiCA",
+    "iv": "RiKYDPF7ysSEWeAU",
+    "tag": "yRAmEyAO4z73O70Bj5IXAQ",
     "version": 1
   }
 }
