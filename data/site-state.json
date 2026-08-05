@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1785903538688,
-      "rationale": "This reply is just a reaction and does not mention limits, caps, or availability resetting.",
-      "tweetId": "2084855451255259623",
-      "tweetUrl": "https://x.com/thsottiaux/status/2084855451255259623",
+      "decidedAt": 1785903542252,
+      "rationale": "This reply is just a welcome message and says nothing about limits or resets.",
+      "tweetId": "2084856424749019471",
+      "tweetUrl": "https://x.com/thsottiaux/status/2084856424749019471",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2084855451255259623",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2084855451255259623",
+    "lastSeenTweetId": "2084856424749019471",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2084856424749019471",
     "pendingReview": {
       "confidence": 0.92,
       "createdAt": 1785555507218,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2083395558069199273"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1785903542252,
+        "inputTokens": 396,
+        "outputTokens": 97,
+        "rationale": "This reply is just a welcome message and says nothing about limits or resets.",
+        "reasoningTokens": 54,
+        "totalTokens": 493,
+        "tweetId": "2084856424749019471",
+        "tweetText": "@halvarflake @OpenAI Let's revolutionize a thing or two. Welcome!",
+        "tweetUrl": "https://x.com/thsottiaux/status/2084856424749019471",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1785903538688,
@@ -279,29 +292,31 @@
         "tweetText": "Fun fact, users use /fast less during the weekend. The weekend is for relaxation, even for the model.",
         "tweetUrl": "https://x.com/thsottiaux/status/2083699879650463756",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1785603591700,
-        "inputTokens": 386,
-        "outputTokens": 109,
-        "rationale": "This reply only says \"Codex\" and does not mention limits or a reset.",
-        "reasoningTokens": 64,
-        "totalTokens": 495,
-        "tweetId": "2083598167120154739",
-        "tweetText": "@RyanEls4 Codex",
-        "tweetUrl": "https://x.com/thsottiaux/status/2083598167120154739",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 442880,
-      "totalOutputTokens": 117361,
-      "totalReasoningTokens": 64513,
-      "totalTokens": 560241
+      "totalInputTokens": 443276,
+      "totalOutputTokens": 117458,
+      "totalReasoningTokens": 64567,
+      "totalTokens": 560734
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1785903542252,
+      "inputTokens": 396,
+      "message": "",
+      "outputTokens": 97,
+      "rationale": "This reply is just a welcome message and says nothing about limits or resets.",
+      "reasoningTokens": 54,
+      "totalTokens": 493,
+      "tweetId": "2084856424749019471",
+      "tweetText": "@halvarflake @OpenAI Let's revolutionize a thing or two. Welcome!",
+      "tweetUrl": "https://x.com/thsottiaux/status/2084856424749019471",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1785903538688,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2083373529081291076",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1785541874962,
-      "inputTokens": 392,
-      "message": "",
-      "outputTokens": 72,
-      "rationale": "This reply is unrelated to Codex or ChatGPT usage limits or resets.",
-      "reasoningTokens": 29,
-      "totalTokens": 464,
-      "tweetId": "2083339625876091065",
-      "tweetText": "@theo Wait. You can get paid on this app?",
-      "tweetUrl": "https://x.com/thsottiaux/status/2083339625876091065",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "9qZYcijlto-6adhEHO24DvQr-0zg-7Wo5duln-mtH7Y_vPtNmMwwCb_x-A",
-    "iv": "7v38pD7zZpW97rRn",
-    "tag": "H1tD4rfIkaDDfK0l6Wapnw",
+    "ciphertext": "jfNTQtEYDsDZAB4Qa-j6zvlPZkiEgUC11Vsyzk3l346sLxIMErD9niHLrg",
+    "iv": "1wz-2zY30Y77yS30",
+    "tag": "wFaFIvjacdsypRTUuYF3jw",
     "version": 1
   }
 }
