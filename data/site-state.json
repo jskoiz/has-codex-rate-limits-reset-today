@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1785893645307,
-      "rationale": "This reply just asks about the account type and does not indicate any limits have reset.",
-      "tweetId": "2084814573090296270",
-      "tweetUrl": "https://x.com/thsottiaux/status/2084814573090296270",
+      "decidedAt": 1785893647931,
+      "rationale": "This is a conversational reply and does not mention limits, caps, or a reset.",
+      "tweetId": "2084814837100716074",
+      "tweetUrl": "https://x.com/thsottiaux/status/2084814837100716074",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2084814573090296270",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2084814573090296270",
+    "lastSeenTweetId": "2084814837100716074",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2084814837100716074",
     "pendingReview": {
       "confidence": 0.92,
       "createdAt": 1785555507218,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2083395558069199273"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1785893647931,
+        "inputTokens": 398,
+        "outputTokens": 95,
+        "rationale": "This is a conversational reply and does not mention limits, caps, or a reset.",
+        "reasoningTokens": 50,
+        "totalTokens": 493,
+        "tweetId": "2084814837100716074",
+        "tweetText": "@ajambrosino You're supposed to be on holiday. I will do what I want.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2084814837100716074",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1785893645307,
@@ -279,29 +292,31 @@
         "tweetText": "@blueemi99 Efficiency",
         "tweetUrl": "https://x.com/thsottiaux/status/2083597284252729448",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1785603274786,
-        "inputTokens": 441,
-        "outputTokens": 83,
-        "rationale": "This reply discusses past Google/DeepMind product history, not any current ChatGPT or Codex limit reset.",
-        "reasoningTokens": 33,
-        "totalTokens": 524,
-        "tweetId": "2083596911060324570",
-        "tweetText": "@_chenglou I was part of that team. Basically ChatGPT one year before it came out. Called LMChat and then another codename.\n\nGoogle was too nervous to release it and DeepMind was blocked from shipping products that could disrupt Google.\n\nI think about this a lot.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2083596911060324570",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 441706,
-      "totalOutputTokens": 117105,
-      "totalReasoningTokens": 64389,
-      "totalTokens": 558811
+      "totalInputTokens": 442104,
+      "totalOutputTokens": 117200,
+      "totalReasoningTokens": 64439,
+      "totalTokens": 559304
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1785893647931,
+      "inputTokens": 398,
+      "message": "",
+      "outputTokens": 95,
+      "rationale": "This is a conversational reply and does not mention limits, caps, or a reset.",
+      "reasoningTokens": 50,
+      "totalTokens": 493,
+      "tweetId": "2084814837100716074",
+      "tweetText": "@ajambrosino You're supposed to be on holiday. I will do what I want.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2084814837100716074",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1785893645307,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2083332018356527616",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1785540016305,
-      "inputTokens": 487,
-      "message": "",
-      "outputTokens": 115,
-      "rationale": "This reply and quoted post are about a ChatGPT desktop app feature, not rate limits resetting.",
-      "reasoningTokens": 68,
-      "totalTokens": 602,
-      "tweetId": "2083331664420192388",
-      "tweetText": "@theo They shipped it one day early. Thanks Theo. Let's keep learning together.\n\nhttps://t.co/eecKQYRRv7",
-      "tweetUrl": "https://x.com/thsottiaux/status/2083331664420192388",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "w7l-BsWugDVO4zfCJNyaimW8xW-0BJJ-pJT3_mc1c_gCZ2A_ufpOR4xdyw",
-    "iv": "xOiCp1UUAv1tmwMv",
-    "tag": "Z1SC38npOSlFlHEkzZOjxg",
+    "ciphertext": "EpZ3ahjbyWLZfzqZQRBHirupR7vDDZXJF4GPELPYuErVLAbsxsuSvvEYyw",
+    "iv": "pIp98YOmkiJUqeJW",
+    "tag": "oIbeat13CjE6CqKTS5mGCA",
     "version": 1
   }
 }
