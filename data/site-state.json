@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1785903542252,
-      "rationale": "This reply is just a welcome message and says nothing about limits or resets.",
-      "tweetId": "2084856424749019471",
-      "tweetUrl": "https://x.com/thsottiaux/status/2084856424749019471",
+      "decidedAt": 1785903850982,
+      "rationale": "This reply is just a general comment and does not mention any limits or reset.",
+      "tweetId": "2084857946543120422",
+      "tweetUrl": "https://x.com/thsottiaux/status/2084857946543120422",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2084856424749019471",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2084856424749019471",
+    "lastSeenTweetId": "2084857946543120422",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2084857946543120422",
     "pendingReview": {
       "confidence": 0.92,
       "createdAt": 1785555507218,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2083395558069199273"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1785903850982,
+        "inputTokens": 399,
+        "outputTokens": 109,
+        "rationale": "This reply is just a general comment and does not mention any limits or reset.",
+        "reasoningTokens": 65,
+        "totalTokens": 508,
+        "tweetId": "2084857946543120422",
+        "tweetText": "@ludicrouslytrue Pretty crazy this is in the hands of 1B users",
+        "tweetUrl": "https://x.com/thsottiaux/status/2084857946543120422",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1785903542252,
@@ -279,29 +292,31 @@
         "tweetText": "@thdxr A good rust base to start from:\nhttps://t.co/2TH56VMZxD",
         "tweetUrl": "https://x.com/thsottiaux/status/2083743039030165674",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1785627870274,
-        "inputTokens": 403,
-        "outputTokens": 87,
-        "rationale": "This is just a usage observation and does not mention limits or a reset.",
-        "reasoningTokens": 44,
-        "totalTokens": 490,
-        "tweetId": "2083699879650463756",
-        "tweetText": "Fun fact, users use /fast less during the weekend. The weekend is for relaxation, even for the model.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2083699879650463756",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 443276,
-      "totalOutputTokens": 117458,
-      "totalReasoningTokens": 64567,
-      "totalTokens": 560734
+      "totalInputTokens": 443675,
+      "totalOutputTokens": 117567,
+      "totalReasoningTokens": 64632,
+      "totalTokens": 561242
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1785903850982,
+      "inputTokens": 399,
+      "message": "",
+      "outputTokens": 109,
+      "rationale": "This reply is just a general comment and does not mention any limits or reset.",
+      "reasoningTokens": 65,
+      "totalTokens": 508,
+      "tweetId": "2084857946543120422",
+      "tweetText": "@ludicrouslytrue Pretty crazy this is in the hands of 1B users",
+      "tweetUrl": "https://x.com/thsottiaux/status/2084857946543120422",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1785903542252,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2083378916203343920",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1785550225654,
-      "inputTokens": 429,
-      "message": "",
-      "outputTokens": 66,
-      "rationale": "This tweet jokes about Gmail UI changes and says nothing about ChatGPT or Codex limits resetting.",
-      "reasoningTokens": 19,
-      "totalTokens": 495,
-      "tweetId": "2083373529081291076",
-      "tweetText": "I don't come often to GMail (OpenAI is a Slack company), but I swear, every time I do open it, there is a new button somewhere around the top right corner. https://t.co/ZpasAaoaFl",
-      "tweetUrl": "https://x.com/thsottiaux/status/2083373529081291076",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "jfNTQtEYDsDZAB4Qa-j6zvlPZkiEgUC11Vsyzk3l346sLxIMErD9niHLrg",
-    "iv": "1wz-2zY30Y77yS30",
-    "tag": "wFaFIvjacdsypRTUuYF3jw",
+    "ciphertext": "QH9nbR_lYTfFstmIBJxP6wMaAYehdtPejf2lO9KIFIlTKBZBiQJ1HDIkwA",
+    "iv": "o8LRql2pEZ7STK7K",
+    "tag": "yvdsLg9Ikqx_ihFrM722qg",
     "version": 1
   }
 }
