@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1785903850982,
-      "rationale": "This reply is just a general comment and does not mention any limits or reset.",
-      "tweetId": "2084857946543120422",
-      "tweetUrl": "https://x.com/thsottiaux/status/2084857946543120422",
+      "decidedAt": 1785904788726,
+      "rationale": "This post is about welcoming Halvar Flake and says nothing about ChatGPT or Codex limits resetting.",
+      "tweetId": "2084859308165271658",
+      "tweetUrl": "https://x.com/thsottiaux/status/2084859308165271658",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2084857946543120422",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2084857946543120422",
+    "lastSeenTweetId": "2084859308165271658",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2084859308165271658",
     "pendingReview": {
       "confidence": 0.92,
       "createdAt": 1785555507218,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2083395558069199273"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1785904788726,
+        "inputTokens": 776,
+        "outputTokens": 92,
+        "rationale": "This post is about welcoming Halvar Flake and says nothing about ChatGPT or Codex limits resetting.",
+        "reasoningTokens": 43,
+        "totalTokens": 868,
+        "tweetId": "2084859308165271658",
+        "tweetText": "Better Cyber. Excited to welcome Halvar Flake to the team soon.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2084859308165271658",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1785903850982,
@@ -279,29 +292,31 @@
         "tweetText": "@meta_x_ai @AyanfeCrown @_chenglou Please send the money to a good cause",
         "tweetUrl": "https://x.com/thsottiaux/status/2083744002961010821",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1785638158473,
-        "inputTokens": 405,
-        "outputTokens": 84,
-        "rationale": "This reply shares a Rust starter link and says nothing about limits or a reset.",
-        "reasoningTokens": 40,
-        "totalTokens": 489,
-        "tweetId": "2083743039030165674",
-        "tweetText": "@thdxr A good rust base to start from:\nhttps://t.co/2TH56VMZxD",
-        "tweetUrl": "https://x.com/thsottiaux/status/2083743039030165674",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 443675,
-      "totalOutputTokens": 117567,
-      "totalReasoningTokens": 64632,
-      "totalTokens": 561242
+      "totalInputTokens": 444451,
+      "totalOutputTokens": 117659,
+      "totalReasoningTokens": 64675,
+      "totalTokens": 562110
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1785904788726,
+      "inputTokens": 776,
+      "message": "",
+      "outputTokens": 92,
+      "rationale": "This post is about welcoming Halvar Flake and says nothing about ChatGPT or Codex limits resetting.",
+      "reasoningTokens": 43,
+      "totalTokens": 868,
+      "tweetId": "2084859308165271658",
+      "tweetText": "Better Cyber. Excited to welcome Halvar Flake to the team soon.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2084859308165271658",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1785903850982,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2083387677945036995",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.95,
-      "createdAt": 1785551463141,
-      "inputTokens": 391,
-      "message": "",
-      "outputTokens": 199,
-      "rationale": "This reply mentions a \"reset button\" but does not say rate limits or caps have reset.",
-      "reasoningTokens": 152,
-      "totalTokens": 590,
-      "tweetId": "2083378916203343920",
-      "tweetText": "And yet, I don't see a reset button there.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2083378916203343920",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "QH9nbR_lYTfFstmIBJxP6wMaAYehdtPejf2lO9KIFIlTKBZBiQJ1HDIkwA",
-    "iv": "o8LRql2pEZ7STK7K",
-    "tag": "yvdsLg9Ikqx_ihFrM722qg",
+    "ciphertext": "MQ2tkrMGkKns_Jq3hSLLJRP3zz6khTU2H77ut-TsVVTHirhxNeKBUktrGA",
+    "iv": "KsT5wQ1-YMQRg0-b",
+    "tag": "d3k7byMKWvLnaZb05uN43w",
     "version": 1
   }
 }
