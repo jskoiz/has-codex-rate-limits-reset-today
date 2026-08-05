@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1785875994046,
-      "rationale": "This reply discusses a milestone count and does not mention limits, caps, or a reset.",
-      "tweetId": "2084739990471458869",
-      "tweetUrl": "https://x.com/thsottiaux/status/2084739990471458869",
+      "decidedAt": 1785893645307,
+      "rationale": "This reply just asks about the account type and does not indicate any limits have reset.",
+      "tweetId": "2084814573090296270",
+      "tweetUrl": "https://x.com/thsottiaux/status/2084814573090296270",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2084739990471458869",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2084739990471458869",
+    "lastSeenTweetId": "2084814573090296270",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2084814573090296270",
     "pendingReview": {
       "confidence": 0.92,
       "createdAt": 1785555507218,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2083395558069199273"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1785893645307,
+        "inputTokens": 391,
+        "outputTokens": 89,
+        "rationale": "This reply just asks about the account type and does not indicate any limits have reset.",
+        "reasoningTokens": 44,
+        "totalTokens": 480,
+        "tweetId": "2084814573090296270",
+        "tweetText": "@badlogicgames Which type of account do you have?",
+        "tweetUrl": "https://x.com/thsottiaux/status/2084814573090296270",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1785875994046,
@@ -279,29 +292,31 @@
         "tweetText": "@_chenglou I was part of that team. Basically ChatGPT one year before it came out. Called LMChat and then another codename.\n\nGoogle was too nervous to release it and DeepMind was blocked from shipping products that could disrupt Google.\n\nI think about this a lot.",
         "tweetUrl": "https://x.com/thsottiaux/status/2083596911060324570",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1785601088613,
-        "inputTokens": 385,
-        "outputTokens": 100,
-        "rationale": "This reply just says \"Forgot\" and gives no indication that any limits reset.",
-        "reasoningTokens": 56,
-        "totalTokens": 485,
-        "tweetId": "2083587311477182610",
-        "tweetText": "@blueemi99 Forgot",
-        "tweetUrl": "https://x.com/thsottiaux/status/2083587311477182610",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 441315,
-      "totalOutputTokens": 117016,
-      "totalReasoningTokens": 64345,
-      "totalTokens": 558331
+      "totalInputTokens": 441706,
+      "totalOutputTokens": 117105,
+      "totalReasoningTokens": 64389,
+      "totalTokens": 558811
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1785893645307,
+      "inputTokens": 391,
+      "message": "",
+      "outputTokens": 89,
+      "rationale": "This reply just asks about the account type and does not indicate any limits have reset.",
+      "reasoningTokens": 44,
+      "totalTokens": 480,
+      "tweetId": "2084814573090296270",
+      "tweetText": "@badlogicgames Which type of account do you have?",
+      "tweetUrl": "https://x.com/thsottiaux/status/2084814573090296270",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1785875994046,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2083331664420192388",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1785540012912,
-      "inputTokens": 388,
-      "message": "",
-      "outputTokens": 77,
-      "rationale": "This is just a conversational reply and does not mention limits or a reset.",
-      "reasoningTokens": 34,
-      "totalTokens": 465,
-      "tweetId": "2083331374124089479",
-      "tweetText": "@ForwardEditor What's next in the pipeline?",
-      "tweetUrl": "https://x.com/thsottiaux/status/2083331374124089479",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "p9dINrbFgdbS7H1k6dEm7_hMNoN_qvZvVzbjEm0PgiQPIzFHkLchaVpxbQ",
-    "iv": "7eQxB8mvvYRuqUZB",
-    "tag": "3tPWk4231c_lJQqkApeNbw",
+    "ciphertext": "w7l-BsWugDVO4zfCJNyaimW8xW-0BJJ-pJT3_mc1c_gCZ2A_ufpOR4xdyw",
+    "iv": "xOiCp1UUAv1tmwMv",
+    "tag": "Z1SC38npOSlFlHEkzZOjxg",
     "version": 1
   }
 }
