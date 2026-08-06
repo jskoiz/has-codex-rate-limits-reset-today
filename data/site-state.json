@@ -14,16 +14,16 @@
   "updatedAt": 1785555178452,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1785989725721,
-      "rationale": "This reply is conversational and does not mention any limit or rate-limit reset.",
-      "tweetId": "2085217198352605568",
-      "tweetUrl": "https://x.com/thsottiaux/status/2085217198352605568",
+      "confidence": 0.95,
+      "decidedAt": 1785990663460,
+      "rationale": "He jokes about occasional manual resets, but does not say limits have reset or are available again now.",
+      "tweetId": "2085221386713198988",
+      "tweetUrl": "https://x.com/thsottiaux/status/2085221386713198988",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2085217198352605568",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2085217198352605568",
+    "lastSeenTweetId": "2085221386713198988",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2085221386713198988",
     "pendingReview": {
       "confidence": 0.92,
       "createdAt": 1785555507218,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2083395558069199273"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.95,
+        "evaluatedAt": 1785990663460,
+        "inputTokens": 425,
+        "outputTokens": 248,
+        "rationale": "He jokes about occasional manual resets, but does not say limits have reset or are available again now.",
+        "reasoningTokens": 200,
+        "totalTokens": 673,
+        "tweetId": "2085221386713198988",
+        "tweetText": "I asked Codex to pull up some stats and I receive on average one DM or email every 6 or so minutes to ask for a reset. I occasionally do oblige if it comes with really solid feedback or banter.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2085221386713198988",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1785989725721,
@@ -279,29 +292,31 @@
         "tweetText": "Crazy thing about OpenAI is you just open your laptop, codex a PR into existence and ship an improvement to 1B users. Just like that.",
         "tweetUrl": "https://x.com/thsottiaux/status/2084196918071357707",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1785638768758,
-        "inputTokens": 391,
-        "outputTokens": 98,
-        "rationale": "This reply discusses feedback and does not mention limits resetting or usage being available again.",
-        "reasoningTokens": 54,
-        "totalTokens": 489,
-        "tweetId": "2083745358610342270",
-        "tweetText": "@Robertg761_ Valid complaint. What would help?",
-        "tweetUrl": "https://x.com/thsottiaux/status/2083745358610342270",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 445446,
-      "totalOutputTokens": 117834,
-      "totalReasoningTokens": 64761,
-      "totalTokens": 563280
+      "totalInputTokens": 445871,
+      "totalOutputTokens": 118082,
+      "totalReasoningTokens": 64961,
+      "totalTokens": 563953
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.95,
+      "createdAt": 1785990663460,
+      "inputTokens": 425,
+      "message": "",
+      "outputTokens": 248,
+      "rationale": "He jokes about occasional manual resets, but does not say limits have reset or are available again now.",
+      "reasoningTokens": 200,
+      "totalTokens": 673,
+      "tweetId": "2085221386713198988",
+      "tweetText": "I asked Codex to pull up some stats and I receive on average one DM or email every 6 or so minutes to ask for a reset. I occasionally do oblige if it comes with really solid feedback or banter.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2085221386713198988",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1785989725721,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2083422038878789740",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.92,
-      "createdAt": 1785555507218,
-      "inputTokens": 387,
-      "message": "",
-      "outputTokens": 218,
-      "rationale": "This reply just says “Fixed it” and does not clearly state that any usage limit or rate cap has reset.",
-      "reasoningTokens": 167,
-      "totalTokens": 605,
-      "tweetId": "2083395558069199273",
-      "tweetText": "@maria_rcks Fixed it",
-      "tweetUrl": "https://x.com/thsottiaux/status/2083395558069199273",
-      "type": "review_requested",
-      "verdict": "uncertain"
     }
   ],
   "privateState": {
-    "ciphertext": "7eaZj_Jf7wePpT9AlbRRLhZmqfl80UwX0t2D9VhUt-pXn2K0L85zBEdDzg",
-    "iv": "3TcU2xXm_Kf-Te8r",
-    "tag": "oslzteUDczoAQFfj0A4mBg",
+    "ciphertext": "mkbcGghBieRkk1fxalyaTmhWUHsVt-HAgGUYcKEr1I4jP82_1nUpMCfG_g",
+    "iv": "tmuqnhYcDqKNOvFe",
+    "tag": "CXCspOLej88sVVxDzD5Eig",
     "version": 1
   }
 }
