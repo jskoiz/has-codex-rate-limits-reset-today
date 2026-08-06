@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1785904788726,
-      "rationale": "This post is about welcoming Halvar Flake and says nothing about ChatGPT or Codex limits resetting.",
-      "tweetId": "2084859308165271658",
-      "tweetUrl": "https://x.com/thsottiaux/status/2084859308165271658",
+      "decidedAt": 1785979485300,
+      "rationale": "This post is congratulatory and product-related, with no mention of limits or a reset.",
+      "tweetId": "2085174625655198156",
+      "tweetUrl": "https://x.com/thsottiaux/status/2085174625655198156",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2084859308165271658",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2084859308165271658",
+    "lastSeenTweetId": "2085174625655198156",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2085174625655198156",
     "pendingReview": {
       "confidence": 0.92,
       "createdAt": 1785555507218,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2083395558069199273"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1785979485300,
+        "inputTokens": 604,
+        "outputTokens": 102,
+        "rationale": "This post is congratulatory and product-related, with no mention of limits or a reset.",
+        "reasoningTokens": 56,
+        "totalTokens": 706,
+        "tweetId": "2085174625655198156",
+        "tweetText": "I don't really think these legends needed a pitchdeck. Congrats on taking a crazy, but inspiring leap.\n\nI recommend you explore /goal in Codex, it's a pretty powerful loop with GPT-5.6 Sol.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2085174625655198156",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1785904788726,
@@ -279,29 +292,31 @@
         "tweetText": "@GaryMarcus @emollick @polynoamial What's an impure LLM",
         "tweetUrl": "https://x.com/thsottiaux/status/2083744925024182561",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1785638458273,
-        "inputTokens": 402,
-        "outputTokens": 72,
-        "rationale": "This reply is conversational and says nothing about limits or usage resetting.",
-        "reasoningTokens": 31,
-        "totalTokens": 474,
-        "tweetId": "2083744002961010821",
-        "tweetText": "@meta_x_ai @AyanfeCrown @_chenglou Please send the money to a good cause",
-        "tweetUrl": "https://x.com/thsottiaux/status/2083744002961010821",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 444451,
-      "totalOutputTokens": 117659,
-      "totalReasoningTokens": 64675,
-      "totalTokens": 562110
+      "totalInputTokens": 445055,
+      "totalOutputTokens": 117761,
+      "totalReasoningTokens": 64731,
+      "totalTokens": 562816
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1785979485300,
+      "inputTokens": 604,
+      "message": "",
+      "outputTokens": 102,
+      "rationale": "This post is congratulatory and product-related, with no mention of limits or a reset.",
+      "reasoningTokens": 56,
+      "totalTokens": 706,
+      "tweetId": "2085174625655198156",
+      "tweetText": "I don't really think these legends needed a pitchdeck. Congrats on taking a crazy, but inspiring leap.\n\nI recommend you explore /goal in Codex, it's a pretty powerful loop with GPT-5.6 Sol.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2085174625655198156",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1785904788726,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2083395449814229287",
       "type": "reset_confirmed",
       "verdict": "reset_confirmed"
-    },
-    {
-      "confidence": 0.95,
-      "createdAt": 1785553334471,
-      "inputTokens": 396,
-      "message": "",
-      "outputTokens": 181,
-      "rationale": "This reply mentions usage counting on ChatGPT Work, not a limit reset or restored availability.",
-      "reasoningTokens": 135,
-      "totalTokens": 577,
-      "tweetId": "2083387677945036995",
-      "tweetText": "ChatGPT Work counted https://t.co/XlnkkYvx1s",
-      "tweetUrl": "https://x.com/thsottiaux/status/2083387677945036995",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "MQ2tkrMGkKns_Jq3hSLLJRP3zz6khTU2H77ut-TsVVTHirhxNeKBUktrGA",
-    "iv": "KsT5wQ1-YMQRg0-b",
-    "tag": "d3k7byMKWvLnaZb05uN43w",
+    "ciphertext": "k18V3a2V-CTrEeuRxSm6Fx2lb3_1C4YF9FmqkI81kQdTrlgLBHfsTySuZg",
+    "iv": "adO7X75Ra787YXlx",
+    "tag": "pQI80GUy73TB2rMLZpdOoQ",
     "version": 1
   }
 }
