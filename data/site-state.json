@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1785996548701,
-      "rationale": "This reply is just conversational and does not mention limits or a reset.",
-      "tweetId": "2085246081609171296",
-      "tweetUrl": "https://x.com/thsottiaux/status/2085246081609171296",
+      "decidedAt": 1786041156579,
+      "rationale": "This post is about Agent Plugins and says nothing about usage limits or resets.",
+      "tweetId": "2085432978856083964",
+      "tweetUrl": "https://x.com/thsottiaux/status/2085432978856083964",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2085246081609171296",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2085246081609171296",
+    "lastSeenTweetId": "2085432978856083964",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2085432978856083964",
     "pendingReview": {
       "confidence": 0.92,
       "createdAt": 1785555507218,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2083395558069199273"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1786041156579,
+        "inputTokens": 502,
+        "outputTokens": 94,
+        "rationale": "This post is about Agent Plugins and says nothing about usage limits or resets.",
+        "reasoningTokens": 51,
+        "totalTokens": 596,
+        "tweetId": "2085432978856083964",
+        "tweetText": "Agent Plugins. A standard for (most) of your agents out there, including Codex and ChatGPT.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2085432978856083964",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1785996548701,
@@ -279,29 +292,31 @@
         "tweetText": "@TweetsByJT @theo I reserve the rights to the Cod",
         "tweetUrl": "https://x.com/thsottiaux/status/2084481715104526833",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1785814243328,
-        "inputTokens": 385,
-        "outputTokens": 72,
-        "rationale": "This reply is conversational and does not mention any limit or rate-limit reset.",
-        "reasoningTokens": 29,
-        "totalTokens": 457,
-        "tweetId": "2084481586595262471",
-        "tweetText": "@theo Concerning",
-        "tweetUrl": "https://x.com/thsottiaux/status/2084481586595262471",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 447428,
-      "totalOutputTokens": 118371,
-      "totalReasoningTokens": 65077,
-      "totalTokens": 565799
+      "totalInputTokens": 447930,
+      "totalOutputTokens": 118465,
+      "totalReasoningTokens": 65128,
+      "totalTokens": 566395
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1786041156579,
+      "inputTokens": 502,
+      "message": "",
+      "outputTokens": 94,
+      "rationale": "This post is about Agent Plugins and says nothing about usage limits or resets.",
+      "reasoningTokens": 51,
+      "totalTokens": 596,
+      "tweetId": "2085432978856083964",
+      "tweetText": "Agent Plugins. A standard for (most) of your agents out there, including Codex and ChatGPT.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2085432978856083964",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1785996548701,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2083556863262818803",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1785593699266,
-      "inputTokens": 557,
-      "message": "",
-      "outputTokens": 82,
-      "rationale": "This post is about Astra science results, not Codex or ChatGPT usage limits resetting.",
-      "reasoningTokens": 36,
-      "totalTokens": 639,
-      "tweetId": "2083556636455752050",
-      "tweetText": "The week was for efficiency. The weekend is for 10 major breakthroughs in science.\n\nThere will be signs.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2083556636455752050",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "4lUDoiLDO7nB_jzqZezZW3fyY2uP7oZJ1LPD5zu8Zjyc7BPkYwbNEY-MyA",
-    "iv": "H0_68p1yYPNQ9j0O",
-    "tag": "qz_Oi6eooVIjvOUmLa9S2Q",
+    "ciphertext": "EcJAglXj-l0CeJgDaHvDpHTWx23-enB4iQAVF77-MdrEIb94urrixU7qoA",
+    "iv": "mGHWj0tJpzVied2Q",
+    "tag": "nJBzI2KhRMCD6qqK5-lXmQ",
     "version": 1
   }
 }
