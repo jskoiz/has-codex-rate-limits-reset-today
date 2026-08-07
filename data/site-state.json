@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1786041156579,
-      "rationale": "This post is about Agent Plugins and says nothing about usage limits or resets.",
-      "tweetId": "2085432978856083964",
-      "tweetUrl": "https://x.com/thsottiaux/status/2085432978856083964",
+      "decidedAt": 1786080314373,
+      "rationale": "This post praises Codex capabilities and does not mention limits, caps, or a reset.",
+      "tweetId": "2085597685948813610",
+      "tweetUrl": "https://x.com/thsottiaux/status/2085597685948813610",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2085432978856083964",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2085432978856083964",
+    "lastSeenTweetId": "2085597685948813610",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2085597685948813610",
     "pendingReview": {
       "confidence": 0.92,
       "createdAt": 1785555507218,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2083395558069199273"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1786080314373,
+        "inputTokens": 446,
+        "outputTokens": 78,
+        "rationale": "This post praises Codex capabilities and does not mention limits, caps, or a reset.",
+        "reasoningTokens": 32,
+        "totalTokens": 524,
+        "tweetId": "2085597685948813610",
+        "tweetText": "You can just ask Codex with GPT-5.6 Sol the wildest things and it will just do it.\n\nI talk to it for 5 minutes straight with things that just seem to require weeks of work, get up to get something in the fridge, pet the dog, come back and ... it's done.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2085597685948813610",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1786041156579,
@@ -279,29 +292,31 @@
         "tweetText": "Given some of the results I'm seeing recently, it's pretty clear Codex is a good harness.\n\nBut it will seem primitive in 2-3 months and we're about to go through another major evolution in how we use AI at the frontier. The next generation of models need more than your laptop.",
         "tweetUrl": "https://x.com/thsottiaux/status/2084483765158719542",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1785814246002,
-        "inputTokens": 394,
-        "outputTokens": 82,
-        "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-        "reasoningTokens": 38,
-        "totalTokens": 476,
-        "tweetId": "2084481715104526833",
-        "tweetText": "@TweetsByJT @theo I reserve the rights to the Cod",
-        "tweetUrl": "https://x.com/thsottiaux/status/2084481715104526833",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 447930,
-      "totalOutputTokens": 118465,
-      "totalReasoningTokens": 65128,
-      "totalTokens": 566395
+      "totalInputTokens": 448376,
+      "totalOutputTokens": 118543,
+      "totalReasoningTokens": 65160,
+      "totalTokens": 566919
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1786080314373,
+      "inputTokens": 446,
+      "message": "",
+      "outputTokens": 78,
+      "rationale": "This post praises Codex capabilities and does not mention limits, caps, or a reset.",
+      "reasoningTokens": 32,
+      "totalTokens": 524,
+      "tweetId": "2085597685948813610",
+      "tweetText": "You can just ask Codex with GPT-5.6 Sol the wildest things and it will just do it.\n\nI talk to it for 5 minutes straight with things that just seem to require weeks of work, get up to get something in the fridge, pet the dog, come back and ... it's done.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2085597685948813610",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1786041156579,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2083557177911095621",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.97,
-      "createdAt": 1785593703361,
-      "inputTokens": 388,
-      "message": "",
-      "outputTokens": 167,
-      "rationale": "This reply is just a conversational remark and does not indicate any limits or caps have reset.",
-      "reasoningTokens": 121,
-      "totalTokens": 555,
-      "tweetId": "2083556863262818803",
-      "tweetText": "@kimmonismus “select customers”",
-      "tweetUrl": "https://x.com/thsottiaux/status/2083556863262818803",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "EcJAglXj-l0CeJgDaHvDpHTWx23-enB4iQAVF77-MdrEIb94urrixU7qoA",
-    "iv": "mGHWj0tJpzVied2Q",
-    "tag": "nJBzI2KhRMCD6qqK5-lXmQ",
+    "ciphertext": "-dCrrbbyN1iaUYTlZwzhJc-Bs16tWXQSXEZi1BU_14g4bvRgoQj772pyZQ",
+    "iv": "eGdKku7H2vgGU1va",
+    "tag": "nsZS5YVsu19cpsuITax-kQ",
     "version": 1
   }
 }
