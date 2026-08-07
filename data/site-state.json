@@ -1,5 +1,5 @@
 {
-  "currentState": "no",
+  "currentState": "yes",
   "autoResetHours": 20,
   "noSubtitles": [
     "Back to your local model peasant",
@@ -10,29 +10,35 @@
     "Limits reset, go crazy",
     "You can just build things"
   ],
-  "resetAt": null,
-  "updatedAt": 1785555178452,
+  "resetAt": 1786155363407,
+  "updatedAt": 1786083363407,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1786083359306,
-      "rationale": "This post is just a typo joke and says nothing about limits or a reset.",
-      "tweetId": "2085610005768945984",
-      "tweetUrl": "https://x.com/thsottiaux/status/2085610005768945984",
-      "verdict": "not_reset"
+      "confidence": 0.98,
+      "decidedAt": 1786083363407,
+      "rationale": "The tweet explicitly says free ChatGPT users now have unlimited text chats, meaning the prior usage cap has been lifted.",
+      "tweetId": "2085610231707623750",
+      "tweetUrl": "https://x.com/thsottiaux/status/2085610231707623750",
+      "verdict": "reset_confirmed"
     },
     "lastError": null,
-    "lastSeenTweetId": "2085610005768945984",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2085610005768945984",
-    "pendingReview": {
-      "confidence": 0.92,
-      "createdAt": 1785555507218,
-      "rationale": "This reply just says “Fixed it” and does not clearly state that any usage limit or rate cap has reset.",
-      "tweetId": "2083395558069199273",
-      "tweetText": "@maria_rcks Fixed it",
-      "tweetUrl": "https://x.com/thsottiaux/status/2083395558069199273"
-    },
+    "lastSeenTweetId": "2085610231707623750",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2085610231707623750",
+    "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.98,
+        "evaluatedAt": 1786083363407,
+        "inputTokens": 414,
+        "outputTokens": 172,
+        "rationale": "The tweet explicitly says free ChatGPT users now have unlimited text chats, meaning the prior usage cap has been lifted.",
+        "reasoningTokens": 120,
+        "totalTokens": 586,
+        "tweetId": "2085610231707623750",
+        "tweetText": "Free users of ChatGPT now have unlimited text chats, powered by GPT-5.6 Luna https://t.co/eZq1e1hTQX",
+        "tweetUrl": "https://x.com/thsottiaux/status/2085610231707623750",
+        "verdict": "reset_confirmed"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1786083359306,
@@ -279,29 +285,31 @@
         "tweetText": "What is my title at OpenAI",
         "tweetUrl": "https://x.com/thsottiaux/status/2084738022650892544",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1785820155767,
-        "inputTokens": 521,
-        "outputTokens": 94,
-        "rationale": "This post is about model pricing and says nothing about usage limits or caps resetting.",
-        "reasoningTokens": 50,
-        "totalTokens": 615,
-        "tweetId": "2084506501834829833",
-        "tweetText": "Some fine folks apparently misunderstood, but the GPT-5.6 Luna price reduction by 80% is not a temporary stunt, it's permanent. Efficiency gains don't go away. Fortunately.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2084506501834829833",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 448785,
-      "totalOutputTokens": 118615,
-      "totalReasoningTokens": 65188,
-      "totalTokens": 567400
+      "totalInputTokens": 449199,
+      "totalOutputTokens": 118787,
+      "totalReasoningTokens": 65308,
+      "totalTokens": 567986
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.98,
+      "createdAt": 1786083363407,
+      "inputTokens": 414,
+      "message": "",
+      "outputTokens": 172,
+      "rationale": "The tweet explicitly says free ChatGPT users now have unlimited text chats, meaning the prior usage cap has been lifted.",
+      "reasoningTokens": 120,
+      "totalTokens": 586,
+      "tweetId": "2085610231707623750",
+      "tweetText": "Free users of ChatGPT now have unlimited text chats, powered by GPT-5.6 Luna https://t.co/eZq1e1hTQX",
+      "tweetUrl": "https://x.com/thsottiaux/status/2085610231707623750",
+      "type": "reset_confirmed",
+      "verdict": "reset_confirmed"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1786083359307,
@@ -886,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2083562039214330341",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1785594324340,
-      "inputTokens": 399,
-      "message": "",
-      "outputTokens": 74,
-      "rationale": "This reply is conversational and says nothing about limits or a reset.",
-      "reasoningTokens": 33,
-      "totalTokens": 473,
-      "tweetId": "2083558591047577681",
-      "tweetText": "@loss_gobbler @JuniperViews You can’t make this up. Hahahaha",
-      "tweetUrl": "https://x.com/thsottiaux/status/2083558591047577681",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "tHng8B0Mx9gTQNoAcinXnH2Ao8jmeJ_c2M4xbl_CHLGicHpfTNlZHrRpWw",
-    "iv": "aEtpvcXmyzaWIERm",
-    "tag": "VAiLZJxMJ184Lr_QebZV-Q",
+    "ciphertext": "cnEW-LpfEviNjHsUgvk3V7MYNg_sEKTSr0VsbdVcfBL0ZRdUjlDhKKquZA",
+    "iv": "Ba9gOOflHfTmEEDm",
+    "tag": "ukzfjbJVdKJ483dA1Ajtlg",
     "version": 1
   }
 }
