@@ -14,18 +14,31 @@
   "updatedAt": 1786083363407,
   "automation": {
     "lastDecision": {
-      "confidence": 0.98,
-      "decidedAt": 1786083363407,
-      "rationale": "The tweet explicitly says free ChatGPT users now have unlimited text chats, meaning the prior usage cap has been lifted.",
-      "tweetId": "2085610231707623750",
-      "tweetUrl": "https://x.com/thsottiaux/status/2085610231707623750",
-      "verdict": "reset_confirmed"
+      "confidence": 0.99,
+      "decidedAt": 1786139461325,
+      "rationale": "This is a joke about Theo needing rest, not a Codex or ChatGPT usage reset.",
+      "tweetId": "2085845171363791135",
+      "tweetUrl": "https://x.com/thsottiaux/status/2085845171363791135",
+      "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2085610231707623750",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2085610231707623750",
+    "lastSeenTweetId": "2085845171363791135",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2085845171363791135",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1786139461325,
+        "inputTokens": 435,
+        "outputTokens": 96,
+        "rationale": "This is a joke about Theo needing rest, not a Codex or ChatGPT usage reset.",
+        "reasoningTokens": 49,
+        "totalTokens": 531,
+        "tweetId": "2085845171363791135",
+        "tweetText": "I feel Theo is in need of a reset 👀",
+        "tweetUrl": "https://x.com/thsottiaux/status/2085845171363791135",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.98,
         "evaluatedAt": 1786083363407,
@@ -272,29 +285,31 @@
         "tweetText": "@liran_yo Way past it, but we stopped announcing at 10M.",
         "tweetUrl": "https://x.com/thsottiaux/status/2084739990471458869",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1785875369196,
-        "inputTokens": 388,
-        "outputTokens": 76,
-        "rationale": "This post is conversational and does not mention limits, caps, or a reset.",
-        "reasoningTokens": 32,
-        "totalTokens": 464,
-        "tweetId": "2084738022650892544",
-        "tweetText": "What is my title at OpenAI",
-        "tweetUrl": "https://x.com/thsottiaux/status/2084738022650892544",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 449199,
-      "totalOutputTokens": 118787,
-      "totalReasoningTokens": 65308,
-      "totalTokens": 567986
+      "totalInputTokens": 449634,
+      "totalOutputTokens": 118883,
+      "totalReasoningTokens": 65357,
+      "totalTokens": 568517
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1786139461325,
+      "inputTokens": 435,
+      "message": "",
+      "outputTokens": 96,
+      "rationale": "This is a joke about Theo needing rest, not a Codex or ChatGPT usage reset.",
+      "reasoningTokens": 49,
+      "totalTokens": 531,
+      "tweetId": "2085845171363791135",
+      "tweetText": "I feel Theo is in need of a reset 👀",
+      "tweetUrl": "https://x.com/thsottiaux/status/2085845171363791135",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.98,
       "createdAt": 1786083363407,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2083563784657093008",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1785594925272,
-      "inputTokens": 397,
-      "message": "",
-      "outputTokens": 101,
-      "rationale": "This reply is unrelated to Codex or ChatGPT usage limits or any reset.",
-      "reasoningTokens": 57,
-      "totalTokens": 498,
-      "tweetId": "2083562039214330341",
-      "tweetText": "@jayair Tell us about Luna going to the moon. The people want to know",
-      "tweetUrl": "https://x.com/thsottiaux/status/2083562039214330341",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "cnEW-LpfEviNjHsUgvk3V7MYNg_sEKTSr0VsbdVcfBL0ZRdUjlDhKKquZA",
-    "iv": "Ba9gOOflHfTmEEDm",
-    "tag": "ukzfjbJVdKJ483dA1Ajtlg",
+    "ciphertext": "q6MH2inYleT-cjUtq_u9E-YZsqGkPmJYkHGmFtAmUpeDu-ga1vn250JwxQ",
+    "iv": "fF_r0Vas7HxS3Xvs",
+    "tag": "8xjbTQHCu9-aj5p8T7BdCQ",
     "version": 1
   }
 }
