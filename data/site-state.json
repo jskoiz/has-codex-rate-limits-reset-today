@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1786080314373,
-      "rationale": "This post praises Codex capabilities and does not mention limits, caps, or a reset.",
-      "tweetId": "2085597685948813610",
-      "tweetUrl": "https://x.com/thsottiaux/status/2085597685948813610",
+      "decidedAt": 1786083359306,
+      "rationale": "This post is just a typo joke and says nothing about limits or a reset.",
+      "tweetId": "2085610005768945984",
+      "tweetUrl": "https://x.com/thsottiaux/status/2085610005768945984",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2085597685948813610",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2085597685948813610",
+    "lastSeenTweetId": "2085610005768945984",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2085610005768945984",
     "pendingReview": {
       "confidence": 0.92,
       "createdAt": 1785555507218,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2083395558069199273"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1786083359306,
+        "inputTokens": 409,
+        "outputTokens": 72,
+        "rationale": "This post is just a typo joke and says nothing about limits or a reset.",
+        "reasoningTokens": 28,
+        "totalTokens": 481,
+        "tweetId": "2085610005768945984",
+        "tweetText": "I meant to say \"ghiblify\", but I said \"gimlify\" https://t.co/ZibIfuX99D",
+        "tweetUrl": "https://x.com/thsottiaux/status/2085610005768945984",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1786080314373,
@@ -279,29 +292,31 @@
         "tweetText": "Some fine folks apparently misunderstood, but the GPT-5.6 Luna price reduction by 80% is not a temporary stunt, it's permanent. Efficiency gains don't go away. Fortunately.",
         "tweetUrl": "https://x.com/thsottiaux/status/2084506501834829833",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1785814851420,
-        "inputTokens": 441,
-        "outputTokens": 86,
-        "rationale": "This post discusses Codex and future AI model capabilities, not any limit or rate-cap reset.",
-        "reasoningTokens": 39,
-        "totalTokens": 527,
-        "tweetId": "2084483765158719542",
-        "tweetText": "Given some of the results I'm seeing recently, it's pretty clear Codex is a good harness.\n\nBut it will seem primitive in 2-3 months and we're about to go through another major evolution in how we use AI at the frontier. The next generation of models need more than your laptop.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2084483765158719542",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 448376,
-      "totalOutputTokens": 118543,
-      "totalReasoningTokens": 65160,
-      "totalTokens": 566919
+      "totalInputTokens": 448785,
+      "totalOutputTokens": 118615,
+      "totalReasoningTokens": 65188,
+      "totalTokens": 567400
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1786083359307,
+      "inputTokens": 409,
+      "message": "",
+      "outputTokens": 72,
+      "rationale": "This post is just a typo joke and says nothing about limits or a reset.",
+      "reasoningTokens": 28,
+      "totalTokens": 481,
+      "tweetId": "2085610005768945984",
+      "tweetText": "I meant to say \"ghiblify\", but I said \"gimlify\" https://t.co/ZibIfuX99D",
+      "tweetUrl": "https://x.com/thsottiaux/status/2085610005768945984",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1786080314373,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2083558591047577681",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1785594009442,
-      "inputTokens": 389,
-      "message": "",
-      "outputTokens": 116,
-      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-      "reasoningTokens": 72,
-      "totalTokens": 505,
-      "tweetId": "2083557177911095621",
-      "tweetText": "@Robertg761_ Too cheap to meter",
-      "tweetUrl": "https://x.com/thsottiaux/status/2083557177911095621",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "-dCrrbbyN1iaUYTlZwzhJc-Bs16tWXQSXEZi1BU_14g4bvRgoQj772pyZQ",
-    "iv": "eGdKku7H2vgGU1va",
-    "tag": "nsZS5YVsu19cpsuITax-kQ",
+    "ciphertext": "tHng8B0Mx9gTQNoAcinXnH2Ao8jmeJ_c2M4xbl_CHLGicHpfTNlZHrRpWw",
+    "iv": "aEtpvcXmyzaWIERm",
+    "tag": "VAiLZJxMJ184Lr_QebZV-Q",
     "version": 1
   }
 }
