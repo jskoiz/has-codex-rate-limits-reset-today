@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1786139461325,
-      "rationale": "This is a joke about Theo needing rest, not a Codex or ChatGPT usage reset.",
-      "tweetId": "2085845171363791135",
-      "tweetUrl": "https://x.com/thsottiaux/status/2085845171363791135",
+      "decidedAt": 1786140715148,
+      "rationale": "This is promotional language about a product experience, not an announcement that limits or caps have reset.",
+      "tweetId": "2085850908559298732",
+      "tweetUrl": "https://x.com/thsottiaux/status/2085850908559298732",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2085845171363791135",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2085845171363791135",
+    "lastSeenTweetId": "2085850908559298732",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2085850908559298732",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1786140715148,
+        "inputTokens": 423,
+        "outputTokens": 71,
+        "rationale": "This is promotional language about a product experience, not an announcement that limits or caps have reset.",
+        "reasoningTokens": 24,
+        "totalTokens": 494,
+        "tweetId": "2085850908559298732",
+        "tweetText": "Somewhere on your phone you have the closest thing to magic we have shipped. It does things for you. All day if you want. Go try it. https://t.co/uGlzqntaki",
+        "tweetUrl": "https://x.com/thsottiaux/status/2085850908559298732",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1786139461325,
@@ -272,29 +285,31 @@
         "tweetText": "@badlogicgames Which type of account do you have?",
         "tweetUrl": "https://x.com/thsottiaux/status/2084814573090296270",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1785875994046,
-        "inputTokens": 397,
-        "outputTokens": 100,
-        "rationale": "This reply discusses a milestone count and does not mention limits, caps, or a reset.",
-        "reasoningTokens": 54,
-        "totalTokens": 497,
-        "tweetId": "2084739990471458869",
-        "tweetText": "@liran_yo Way past it, but we stopped announcing at 10M.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2084739990471458869",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 449634,
-      "totalOutputTokens": 118883,
-      "totalReasoningTokens": 65357,
-      "totalTokens": 568517
+      "totalInputTokens": 450057,
+      "totalOutputTokens": 118954,
+      "totalReasoningTokens": 65381,
+      "totalTokens": 569011
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1786140715148,
+      "inputTokens": 423,
+      "message": "",
+      "outputTokens": 71,
+      "rationale": "This is promotional language about a product experience, not an announcement that limits or caps have reset.",
+      "reasoningTokens": 24,
+      "totalTokens": 494,
+      "tweetId": "2085850908559298732",
+      "tweetText": "Somewhere on your phone you have the closest thing to magic we have shipped. It does things for you. All day if you want. Go try it. https://t.co/uGlzqntaki",
+      "tweetUrl": "https://x.com/thsottiaux/status/2085850908559298732",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1786139461325,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2083587311477182610",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1785595548551,
-      "inputTokens": 401,
-      "message": "",
-      "outputTokens": 100,
-      "rationale": "This reply discusses subscription token generosity, not a limit or rate-limit reset.",
-      "reasoningTokens": 57,
-      "totalTokens": 501,
-      "tweetId": "2083563784657093008",
-      "tweetText": "@NanneWielinga @gdb All of them actually. The subscription is very generous in tokens.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2083563784657093008",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "q6MH2inYleT-cjUtq_u9E-YZsqGkPmJYkHGmFtAmUpeDu-ga1vn250JwxQ",
-    "iv": "fF_r0Vas7HxS3Xvs",
-    "tag": "8xjbTQHCu9-aj5p8T7BdCQ",
+    "ciphertext": "8qMjl9AVGJYBZMZ3gRa9AeDF6TRoLv30jODbFefR7gJYgNry4VjcDYkuyg",
+    "iv": "VS_-vPrg4-5oh-Jh",
+    "tag": "mwiCZYTQ9mAmPu6Q5YW_PQ",
     "version": 1
   }
 }
