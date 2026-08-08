@@ -14,16 +14,16 @@
   "updatedAt": 1786083363407,
   "automation": {
     "lastDecision": {
-      "confidence": 0.19,
-      "decidedAt": 1786163597329,
-      "rationale": "This reply just says “Yes” and does not clearly state that any limit has reset.",
-      "tweetId": "2085947378104991967",
-      "tweetUrl": "https://x.com/thsottiaux/status/2085947378104991967",
-      "verdict": "uncertain"
+      "confidence": 0.99,
+      "decidedAt": 1786164530686,
+      "rationale": "This reply is conversational and does not mention limits, caps, or availability resetting.",
+      "tweetId": "2085950401069945106",
+      "tweetUrl": "https://x.com/thsottiaux/status/2085950401069945106",
+      "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2085947378104991967",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2085947378104991967",
+    "lastSeenTweetId": "2085950401069945106",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2085950401069945106",
     "pendingReview": {
       "confidence": 0.19,
       "createdAt": 1786163597329,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2085947378104991967"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1786164530686,
+        "inputTokens": 388,
+        "outputTokens": 75,
+        "rationale": "This reply is conversational and does not mention limits, caps, or availability resetting.",
+        "reasoningTokens": 31,
+        "totalTokens": 463,
+        "tweetId": "2085950401069945106",
+        "tweetText": "@AntoineMinoux Where is this",
+        "tweetUrl": "https://x.com/thsottiaux/status/2085950401069945106",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.19,
         "evaluatedAt": 1786163597329,
@@ -279,29 +292,31 @@
         "tweetText": "@theo @kimmonismus Let's do it",
         "tweetUrl": "https://x.com/thsottiaux/status/2085225238153810366",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1785991297895,
-        "inputTokens": 389,
-        "outputTokens": 71,
-        "rationale": "This reply is conversational and does not mention any limits, caps, or reset.",
-        "reasoningTokens": 27,
-        "totalTokens": 460,
-        "tweetId": "2085223189555126579",
-        "tweetText": "@ivanleomk Going places for sure",
-        "tweetUrl": "https://x.com/thsottiaux/status/2085223189555126579",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 453950,
-      "totalOutputTokens": 119867,
-      "totalReasoningTokens": 65856,
-      "totalTokens": 573817
+      "totalInputTokens": 454338,
+      "totalOutputTokens": 119942,
+      "totalReasoningTokens": 65887,
+      "totalTokens": 574280
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1786164530686,
+      "inputTokens": 388,
+      "message": "",
+      "outputTokens": 75,
+      "rationale": "This reply is conversational and does not mention limits, caps, or availability resetting.",
+      "reasoningTokens": 31,
+      "totalTokens": 463,
+      "tweetId": "2085950401069945106",
+      "tweetText": "@AntoineMinoux Where is this",
+      "tweetUrl": "https://x.com/thsottiaux/status/2085950401069945106",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.19,
       "createdAt": 1786163597329,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2084452044379959542",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1785746416959,
-      "inputTokens": 469,
-      "message": "",
-      "outputTokens": 76,
-      "rationale": "This post is about shipping a product improvement, not limits or rate resets.",
-      "reasoningTokens": 33,
-      "totalTokens": 545,
-      "tweetId": "2084196918071357707",
-      "tweetText": "Crazy thing about OpenAI is you just open your laptop, codex a PR into existence and ship an improvement to 1B users. Just like that.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2084196918071357707",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "PjXWGnL8yJwpOv5rNBbwcT58mQRBi-8thJH4fOIGA9tu_UworU2um3_kSg",
-    "iv": "5Y4WpTETQhxswynR",
-    "tag": "4LNDXTSeyiGEiXO9V0MNKA",
+    "ciphertext": "1HF-mg8KlMYP4pRR4zBgtEGpPOzcsxGRujI2p8fnHvO7NLcIi-9WHMJuFg",
+    "iv": "ZZhfg8GOQQUyc83t",
+    "tag": "FesvlG97WUUzFsvis4ehNw",
     "version": 1
   }
 }
