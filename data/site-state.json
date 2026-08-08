@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1786158924811,
+      "decidedAt": 1786158926954,
       "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-      "tweetId": "2085926986225164529",
-      "tweetUrl": "https://x.com/thsottiaux/status/2085926986225164529",
+      "tweetId": "2085927690041991580",
+      "tweetUrl": "https://x.com/thsottiaux/status/2085927690041991580",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2085926986225164529",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2085926986225164529",
+    "lastSeenTweetId": "2085927690041991580",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2085927690041991580",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1786158926954,
+        "inputTokens": 387,
+        "outputTokens": 80,
+        "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+        "reasoningTokens": 36,
+        "totalTokens": 467,
+        "tweetId": "2085927690041991580",
+        "tweetText": "@sattyyouneed Always improving",
+        "tweetUrl": "https://x.com/thsottiaux/status/2085927690041991580",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1786158924811,
@@ -272,29 +285,31 @@
         "tweetText": "@halvarflake @OpenAI Let's revolutionize a thing or two. Welcome!",
         "tweetUrl": "https://x.com/thsottiaux/status/2084856424749019471",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1785903538688,
-        "inputTokens": 386,
-        "outputTokens": 90,
-        "rationale": "This reply is just a reaction and does not mention limits, caps, or availability resetting.",
-        "reasoningTokens": 44,
-        "totalTokens": 476,
-        "tweetId": "2084855451255259623",
-        "tweetText": "@feedthejim 👀",
-        "tweetUrl": "https://x.com/thsottiaux/status/2084855451255259623",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 451226,
-      "totalOutputTokens": 119198,
-      "totalReasoningTokens": 65494,
-      "totalTokens": 570424
+      "totalInputTokens": 451613,
+      "totalOutputTokens": 119278,
+      "totalReasoningTokens": 65530,
+      "totalTokens": 570891
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1786158926954,
+      "inputTokens": 387,
+      "message": "",
+      "outputTokens": 80,
+      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+      "reasoningTokens": 36,
+      "totalTokens": 467,
+      "tweetId": "2085927690041991580",
+      "tweetText": "@sattyyouneed Always improving",
+      "tweetUrl": "https://x.com/thsottiaux/status/2085927690041991580",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1786158924811,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2083598167120154739",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1785603588308,
-      "inputTokens": 388,
-      "message": "",
-      "outputTokens": 83,
-      "rationale": "This reply is conversational and gives no indication that any Codex or ChatGPT limits have reset.",
-      "reasoningTokens": 36,
-      "totalTokens": 471,
-      "tweetId": "2083597851079463140",
-      "tweetText": "@rezoundous How does it feel",
-      "tweetUrl": "https://x.com/thsottiaux/status/2083597851079463140",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "LlCNJXlL369ACAvhpYSPAscfH_69aPBtJm9V5rOJGHnTmGiVP3dFVjv4AA",
-    "iv": "aicjyzFSFEVZknH5",
-    "tag": "c8reBfh5-WlWavQnDSJCNg",
+    "ciphertext": "b4-YIAtDt-QtE6Hse12zTbMG-KcDHEA4oHVhuxBDpxxpcqT9R5oAXS6obA",
+    "iv": "144HftFLYadW2IFz",
+    "tag": "TmDO8nYEeQYe4wWib2yeKA",
     "version": 1
   }
 }
