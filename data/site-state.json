@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1786160802891,
+      "decidedAt": 1786161418060,
       "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-      "tweetId": "2085934681099485382",
-      "tweetUrl": "https://x.com/thsottiaux/status/2085934681099485382",
+      "tweetId": "2085937262043546037",
+      "tweetUrl": "https://x.com/thsottiaux/status/2085937262043546037",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2085934681099485382",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2085934681099485382",
+    "lastSeenTweetId": "2085937262043546037",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2085937262043546037",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1786161418060,
+        "inputTokens": 389,
+        "outputTokens": 89,
+        "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+        "reasoningTokens": 45,
+        "totalTokens": 478,
+        "tweetId": "2085937262043546037",
+        "tweetText": "@NickADobos Your friends have computers too",
+        "tweetUrl": "https://x.com/thsottiaux/status/2085937262043546037",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1786160802891,
@@ -272,29 +285,31 @@
         "tweetText": "I don't really think these legends needed a pitchdeck. Congrats on taking a crazy, but inspiring leap.\n\nI recommend you explore /goal in Codex, it's a pretty powerful loop with GPT-5.6 Sol.",
         "tweetUrl": "https://x.com/thsottiaux/status/2085174625655198156",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1785904788726,
-        "inputTokens": 776,
-        "outputTokens": 92,
-        "rationale": "This post is about welcoming Halvar Flake and says nothing about ChatGPT or Codex limits resetting.",
-        "reasoningTokens": 43,
-        "totalTokens": 868,
-        "tweetId": "2084859308165271658",
-        "tweetText": "Better Cyber. Excited to welcome Halvar Flake to the team soon.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2084859308165271658",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 452398,
-      "totalOutputTokens": 119420,
-      "totalReasoningTokens": 65589,
-      "totalTokens": 571818
+      "totalInputTokens": 452787,
+      "totalOutputTokens": 119509,
+      "totalReasoningTokens": 65634,
+      "totalTokens": 572296
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1786161418060,
+      "inputTokens": 389,
+      "message": "",
+      "outputTokens": 89,
+      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+      "reasoningTokens": 45,
+      "totalTokens": 478,
+      "tweetId": "2085937262043546037",
+      "tweetText": "@NickADobos Your friends have computers too",
+      "tweetUrl": "https://x.com/thsottiaux/status/2085937262043546037",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1786160802891,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2083744002961010821",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1785638158473,
-      "inputTokens": 405,
-      "message": "",
-      "outputTokens": 84,
-      "rationale": "This reply shares a Rust starter link and says nothing about limits or a reset.",
-      "reasoningTokens": 40,
-      "totalTokens": 489,
-      "tweetId": "2083743039030165674",
-      "tweetText": "@thdxr A good rust base to start from:\nhttps://t.co/2TH56VMZxD",
-      "tweetUrl": "https://x.com/thsottiaux/status/2083743039030165674",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "58gHT_X8DOcB3_syC-aSsOijuMRC28i78hMsuKyHCs77jbWyV3tnVqnsXA",
-    "iv": "dOrEfOsjRkqO6Oz_",
-    "tag": "jP1TgqrDM40F9Cwb3IakUQ",
+    "ciphertext": "JEvwxhMCy7d1sVKB4Tb_ASBHqM2E0keQ2drXqvdFBfI3sFezoLTGoiLn9w",
+    "iv": "fplr9SrzDL5sx1v-",
+    "tag": "nA1FfJWe6jpZDgpnJQr40w",
     "version": 1
   }
 }
