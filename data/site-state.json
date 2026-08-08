@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1786221117755,
-      "rationale": "The tweet explicitly states that usage limits have been reset for all paid ChatGPT Work and Codex users.",
-      "tweetId": "2086188036493344823",
-      "tweetUrl": "https://x.com/thsottiaux/status/2086188036493344823",
-      "verdict": "reset_confirmed"
+      "decidedAt": 1786221445756,
+      "rationale": "This reply is just conversational and does not mention limits, caps, or usage being available again.",
+      "tweetId": "2086189075351130251",
+      "tweetUrl": "https://x.com/thsottiaux/status/2086189075351130251",
+      "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2086188036493344823",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2086188036493344823",
+    "lastSeenTweetId": "2086189075351130251",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2086189075351130251",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1786221445756,
+        "inputTokens": 385,
+        "outputTokens": 108,
+        "rationale": "This reply is just conversational and does not mention limits, caps, or usage being available again.",
+        "reasoningTokens": 61,
+        "totalTokens": 493,
+        "tweetId": "2086189075351130251",
+        "tweetText": "cc @theo",
+        "tweetUrl": "https://x.com/thsottiaux/status/2086189075351130251",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1786221117755,
@@ -272,29 +285,31 @@
         "tweetText": "You can just ask Codex with GPT-5.6 Sol the wildest things and it will just do it.\n\nI talk to it for 5 minutes straight with things that just seem to require weeks of work, get up to get something in the fridge, pet the dog, come back and ... it's done.",
         "tweetUrl": "https://x.com/thsottiaux/status/2085597685948813610",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1786041156579,
-        "inputTokens": 502,
-        "outputTokens": 94,
-        "rationale": "This post is about Agent Plugins and says nothing about usage limits or resets.",
-        "reasoningTokens": 51,
-        "totalTokens": 596,
-        "tweetId": "2085432978856083964",
-        "tweetText": "Agent Plugins. A standard for (most) of your agents out there, including Codex and ChatGPT.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2085432978856083964",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 455845,
-      "totalOutputTokens": 120227,
-      "totalReasoningTokens": 66030,
-      "totalTokens": 576072
+      "totalInputTokens": 456230,
+      "totalOutputTokens": 120335,
+      "totalReasoningTokens": 66091,
+      "totalTokens": 576565
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1786221445756,
+      "inputTokens": 385,
+      "message": "",
+      "outputTokens": 108,
+      "rationale": "This reply is just conversational and does not mention limits, caps, or usage being available again.",
+      "reasoningTokens": 61,
+      "totalTokens": 493,
+      "tweetId": "2086189075351130251",
+      "tweetText": "cc @theo",
+      "tweetUrl": "https://x.com/thsottiaux/status/2086189075351130251",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1786221117755,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2084481715104526833",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1785814243328,
-      "inputTokens": 385,
-      "message": "",
-      "outputTokens": 72,
-      "rationale": "This reply is conversational and does not mention any limit or rate-limit reset.",
-      "reasoningTokens": 29,
-      "totalTokens": 457,
-      "tweetId": "2084481586595262471",
-      "tweetText": "@theo Concerning",
-      "tweetUrl": "https://x.com/thsottiaux/status/2084481586595262471",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "SFSRduxU-PQi2BNKAPXyUl8jk7B6ADgB0mU9NAPfXDjCt1FVwuQRK0ITPA",
-    "iv": "eeQh2dl15vBrY0Zz",
-    "tag": "vnejxbCiY5N5PIvWI7SUNQ",
+    "ciphertext": "uTmscMjzpa34DDdljpuSsfvYzbH0dz4fzLxRru2s5EblrNVIPnTu81-dbw",
+    "iv": "WTdKm4eO9k-hk0Bb",
+    "tag": "469qCczSQmZRtLD2iGy7cA",
     "version": 1
   }
 }
