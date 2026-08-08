@@ -14,18 +14,31 @@
   "updatedAt": 1786221117755,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1786221445756,
-      "rationale": "This reply is just conversational and does not mention limits, caps, or usage being available again.",
-      "tweetId": "2086189075351130251",
-      "tweetUrl": "https://x.com/thsottiaux/status/2086189075351130251",
+      "confidence": 0.97,
+      "decidedAt": 1786221454508,
+      "rationale": "It mentions a future reset on Monday, not that limits have reset now.",
+      "tweetId": "2086189414292865249",
+      "tweetUrl": "https://x.com/thsottiaux/status/2086189414292865249",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2086189075351130251",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2086189075351130251",
+    "lastSeenTweetId": "2086189414292865249",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2086189414292865249",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.97,
+        "evaluatedAt": 1786221454508,
+        "inputTokens": 392,
+        "outputTokens": 191,
+        "rationale": "It mentions a future reset on Monday, not that limits have reset now.",
+        "reasoningTokens": 148,
+        "totalTokens": 583,
+        "tweetId": "2086189414292865249",
+        "tweetText": "@rxmphai I'll do another performative reset on Monday",
+        "tweetUrl": "https://x.com/thsottiaux/status/2086189414292865249",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1786221445756,
@@ -272,29 +285,31 @@
         "tweetText": "I meant to say \"ghiblify\", but I said \"gimlify\" https://t.co/ZibIfuX99D",
         "tweetUrl": "https://x.com/thsottiaux/status/2085610005768945984",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1786080314373,
-        "inputTokens": 446,
-        "outputTokens": 78,
-        "rationale": "This post praises Codex capabilities and does not mention limits, caps, or a reset.",
-        "reasoningTokens": 32,
-        "totalTokens": 524,
-        "tweetId": "2085597685948813610",
-        "tweetText": "You can just ask Codex with GPT-5.6 Sol the wildest things and it will just do it.\n\nI talk to it for 5 minutes straight with things that just seem to require weeks of work, get up to get something in the fridge, pet the dog, come back and ... it's done.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2085597685948813610",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 456230,
-      "totalOutputTokens": 120335,
-      "totalReasoningTokens": 66091,
-      "totalTokens": 576565
+      "totalInputTokens": 456622,
+      "totalOutputTokens": 120526,
+      "totalReasoningTokens": 66239,
+      "totalTokens": 577148
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.97,
+      "createdAt": 1786221454508,
+      "inputTokens": 392,
+      "message": "",
+      "outputTokens": 191,
+      "rationale": "It mentions a future reset on Monday, not that limits have reset now.",
+      "reasoningTokens": 148,
+      "totalTokens": 583,
+      "tweetId": "2086189414292865249",
+      "tweetText": "@rxmphai I'll do another performative reset on Monday",
+      "tweetUrl": "https://x.com/thsottiaux/status/2086189414292865249",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1786221445756,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2084483765158719542",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1785814246002,
-      "inputTokens": 394,
-      "message": "",
-      "outputTokens": 82,
-      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-      "reasoningTokens": 38,
-      "totalTokens": 476,
-      "tweetId": "2084481715104526833",
-      "tweetText": "@TweetsByJT @theo I reserve the rights to the Cod",
-      "tweetUrl": "https://x.com/thsottiaux/status/2084481715104526833",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "uTmscMjzpa34DDdljpuSsfvYzbH0dz4fzLxRru2s5EblrNVIPnTu81-dbw",
-    "iv": "WTdKm4eO9k-hk0Bb",
-    "tag": "469qCczSQmZRtLD2iGy7cA",
+    "ciphertext": "YUBztfBDV3UwyZmUhrBS8UQLOXdFHHSNNHmVPe5LpByivALA1AbfjedOzw",
+    "iv": "aHaxze6RlQ7NI91_",
+    "tag": "XAmSukCk9CN-0wR6AEciFA",
     "version": 1
   }
 }
