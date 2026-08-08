@@ -11,7 +11,7 @@
   "dependencies": {
     "openai": "6.27.0",
     "resend": "6.9.3",
-    "rettiwt-api": "^7.0.2"
+    "rettiwt-api": "7.1.2"
   },
   "overrides": {
     "jsdom": "26.1.0"

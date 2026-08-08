@@ -6,7 +6,7 @@ import { buildNextState, getEnvValue, readSiteState, updateSiteState } from "./s
 const TARGET_USERNAME = "thsottiaux";
 const TARGET_USER_ID = "1953337039510003712";
 const DEFAULT_MODEL = "gpt-5.4";
-const RECENT_TWEET_LOOKBACK_DAYS = 1;
+const RECENT_TWEET_LOOKBACK_DAYS = 14;
 const SEARCH_BATCH_SIZE = 20;
 const MAX_AUTOMATION_EVENT_ENTRIES = 40;
 const MAX_PUBLIC_RATIONALE_LENGTH = 120;
@@ -39,6 +39,7 @@ const classificationInstructions = `
 You classify tweets from @thsottiaux about whether Codex or ChatGPT rate limits have reset.
 
 Return "reset_confirmed" only when the tweet or its quoted post clearly says or directly implies that user limits, caps, or rate limits have reset, been lifted, or usage is available again now.
+Treat an explicitly announced reset that is already rolling out, including language such as "lands in the next hour", as "reset_confirmed".
 Return "not_reset" when the tweet is unrelated, promotional, conversational, or does not mean limits were reset.
 Return "uncertain" when the tweet could plausibly be about a reset but is not explicit enough to safely auto-switch the public site.
 
@@ -237,7 +238,7 @@ const hasExplicitResetLanguage = (value) => {
   }
 
   return (
-    /\b(limit|limits|rate limit|rate limits|cap|caps)\b/.test(text) &&
+    /\b(limit|limits|rate limit|rate limits|cap|caps|usage)\b/.test(text) &&
     (/\breset\b/.test(text) ||
       /\bresetting\b/.test(text) ||
       /\bresets\b/.test(text) ||
@@ -262,6 +263,21 @@ const isFutureResetDiscussion = (value) => {
   ].some((pattern) => pattern.test(text));
 };
 
+const isActiveResetRolloutAnnouncement = (value) => {
+  const text = normalizeWhitespace(value).toLowerCase();
+
+  if (!hasExplicitResetLanguage(text)) {
+    return false;
+  }
+
+  return [
+    /\blands?\b[^.]{0,32}\b(?:in|within)\b[^.]{0,16}\b(?:the )?next hour\b/,
+    /\brolling out\b[^.]{0,32}\b(?:now|today)\b/,
+    /\breset(?:ting)?\b[^.]{0,32}\b(?:now|today)\b/,
+    /\bnew day,\s*new usage reset\b/,
+  ].some((pattern) => pattern.test(text));
+};
+
 const getFallbackRationale = (verdict) => {
   if (verdict === "reset_confirmed") {
     return "Post clearly confirms limits are reset now.";
@@ -282,7 +298,10 @@ const normalizeClassification = (tweet, classification = {}) => {
   const mainText = tweet?.fullText || "";
   const quotedText = tweet?.quoted?.fullText || "";
 
-  if (normalized.verdict === "reset_confirmed" && isFutureResetDiscussion(mainText) && hasExplicitResetLanguage(quotedText)) {
+  if (isActiveResetRolloutAnnouncement(mainText)) {
+    normalized.verdict = "reset_confirmed";
+    normalized.rationale = "Post announces a usage reset that is rolling out now.";
+  } else if (normalized.verdict === "reset_confirmed" && isFutureResetDiscussion(mainText) && hasExplicitResetLanguage(quotedText)) {
     normalized.rationale = "Quoted post confirms limits already reset; this post discusses the next reset.";
   } else if (!normalized.rationale) {
     normalized.rationale = getFallbackRationale(normalized.verdict);
