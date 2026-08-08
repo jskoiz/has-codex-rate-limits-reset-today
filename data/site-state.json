@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1786213075675,
-      "rationale": "This post discusses an Anthropic account suspension, not any Codex or ChatGPT limit reset.",
-      "tweetId": "2086153754525712706",
-      "tweetUrl": "https://x.com/thsottiaux/status/2086153754525712706",
+      "decidedAt": 1786220815198,
+      "rationale": "This reply discusses model choice and upcoming releases, not any limit or cap being reset.",
+      "tweetId": "2086186284528374095",
+      "tweetUrl": "https://x.com/thsottiaux/status/2086186284528374095",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2086153754525712706",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2086153754525712706",
+    "lastSeenTweetId": "2086186284528374095",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2086186284528374095",
     "pendingReview": {
       "confidence": 0.19,
       "createdAt": 1786163597329,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2085947378104991967"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1786220815198,
+        "inputTokens": 443,
+        "outputTokens": 93,
+        "rationale": "This reply discusses model choice and upcoming releases, not any limit or cap being reset.",
+        "reasoningTokens": 48,
+        "totalTokens": 536,
+        "tweetId": "2086186284528374095",
+        "tweetText": "Glad that's all sorted and all is well. Freedom of harness is important and we should let our users decide on which model is best for them.\n\nOn switching, I'm afraid I both love my team too much and I'm also way too excited about the next couple of weeks of releases. Too much fun ahead.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2086186284528374095",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1786213075675,
@@ -279,29 +292,31 @@
         "tweetText": "@shloked Cool analysis",
         "tweetUrl": "https://x.com/thsottiaux/status/2085246081609171296",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1785992848772,
-        "inputTokens": 392,
-        "outputTokens": 66,
-        "rationale": "This is a conversational reply and does not mention any limit or cap reset.",
-        "reasoningTokens": 23,
-        "totalTokens": 458,
-        "tweetId": "2085229896968651198",
-        "tweetText": "@finkd Your plot is dark because you forgot Sol",
-        "tweetUrl": "https://x.com/thsottiaux/status/2085229896968651198",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 454875,
-      "totalOutputTokens": 120035,
-      "totalReasoningTokens": 65933,
-      "totalTokens": 574910
+      "totalInputTokens": 455318,
+      "totalOutputTokens": 120128,
+      "totalReasoningTokens": 65981,
+      "totalTokens": 575446
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1786220815198,
+      "inputTokens": 443,
+      "message": "",
+      "outputTokens": 93,
+      "rationale": "This reply discusses model choice and upcoming releases, not any limit or cap being reset.",
+      "reasoningTokens": 48,
+      "totalTokens": 536,
+      "tweetId": "2086186284528374095",
+      "tweetText": "Glad that's all sorted and all is well. Freedom of harness is important and we should let our users decide on which model is best for them.\n\nOn switching, I'm afraid I both love my team too much and I'm also way too excited about the next couple of weeks of releases. Too much fun ahead.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2086186284528374095",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1786213075675,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2084481355602354611",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1785807418063,
-      "inputTokens": 389,
-      "message": "",
-      "outputTokens": 81,
-      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-      "reasoningTokens": 37,
-      "totalTokens": 470,
-      "tweetId": "2084452261837824210",
-      "tweetText": "@ForwardEditor So hidden it's on my timeline",
-      "tweetUrl": "https://x.com/thsottiaux/status/2084452261837824210",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "AOUIRUAEqZWQxBs_cC9AqLVBbiKpYABt1exRLWx0Dc-usP8HRaaUhD40qQ",
-    "iv": "Ethu4b00mvWqLbvZ",
-    "tag": "ZiHpzTAv8hvAjLLNOOnXAA",
+    "ciphertext": "LUk0IFH5s6Ls5K08mUacb6OOYwsCmXCSTULqxSIOtRrljbhQqnvgvuGlFw",
+    "iv": "KCk_XwMubgrnHPK1",
+    "tag": "D2o2FSvcalWw63MPkvttKg",
     "version": 1
   }
 }
