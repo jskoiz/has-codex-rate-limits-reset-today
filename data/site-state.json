@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1786164530686,
-      "rationale": "This reply is conversational and does not mention limits, caps, or availability resetting.",
-      "tweetId": "2085950401069945106",
-      "tweetUrl": "https://x.com/thsottiaux/status/2085950401069945106",
+      "decidedAt": 1786213075675,
+      "rationale": "This post discusses an Anthropic account suspension, not any Codex or ChatGPT limit reset.",
+      "tweetId": "2086153754525712706",
+      "tweetUrl": "https://x.com/thsottiaux/status/2086153754525712706",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2085950401069945106",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2085950401069945106",
+    "lastSeenTweetId": "2086153754525712706",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2086153754525712706",
     "pendingReview": {
       "confidence": 0.19,
       "createdAt": 1786163597329,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2085947378104991967"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1786213075675,
+        "inputTokens": 537,
+        "outputTokens": 93,
+        "rationale": "This post discusses an Anthropic account suspension, not any Codex or ChatGPT limit reset.",
+        "reasoningTokens": 46,
+        "totalTokens": 630,
+        "tweetId": "2086153754525712706",
+        "tweetText": "I would love to help, but I don’t work at Anthropic. \n\nIt does seem odd that they would ban your account for using their harness with another model.\n\nAnyone else in the same situation?",
+        "tweetUrl": "https://x.com/thsottiaux/status/2086153754525712706",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1786164530686,
@@ -279,29 +292,31 @@
         "tweetText": "@finkd Your plot is dark because you forgot Sol",
         "tweetUrl": "https://x.com/thsottiaux/status/2085229896968651198",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1785991607645,
-        "inputTokens": 390,
-        "outputTokens": 88,
-        "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-        "reasoningTokens": 44,
-        "totalTokens": 478,
-        "tweetId": "2085225238153810366",
-        "tweetText": "@theo @kimmonismus Let's do it",
-        "tweetUrl": "https://x.com/thsottiaux/status/2085225238153810366",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 454338,
-      "totalOutputTokens": 119942,
-      "totalReasoningTokens": 65887,
-      "totalTokens": 574280
+      "totalInputTokens": 454875,
+      "totalOutputTokens": 120035,
+      "totalReasoningTokens": 65933,
+      "totalTokens": 574910
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1786213075675,
+      "inputTokens": 537,
+      "message": "",
+      "outputTokens": 93,
+      "rationale": "This post discusses an Anthropic account suspension, not any Codex or ChatGPT limit reset.",
+      "reasoningTokens": 46,
+      "totalTokens": 630,
+      "tweetId": "2086153754525712706",
+      "tweetText": "I would love to help, but I don’t work at Anthropic. \n\nIt does seem odd that they would ban your account for using their harness with another model.\n\nAnyone else in the same situation?",
+      "tweetUrl": "https://x.com/thsottiaux/status/2086153754525712706",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1786164530686,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2084452261837824210",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1785807121342,
-      "inputTokens": 393,
-      "message": "",
-      "outputTokens": 100,
-      "rationale": "This reply is conversational and does not indicate any limits or caps have reset.",
-      "reasoningTokens": 57,
-      "totalTokens": 493,
-      "tweetId": "2084452044379959542",
-      "tweetText": "@Ema93sh @OpenAI One day at a time",
-      "tweetUrl": "https://x.com/thsottiaux/status/2084452044379959542",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "1HF-mg8KlMYP4pRR4zBgtEGpPOzcsxGRujI2p8fnHvO7NLcIi-9WHMJuFg",
-    "iv": "ZZhfg8GOQQUyc83t",
-    "tag": "FesvlG97WUUzFsvis4ehNw",
+    "ciphertext": "AOUIRUAEqZWQxBs_cC9AqLVBbiKpYABt1exRLWx0Dc-usP8HRaaUhD40qQ",
+    "iv": "Ethu4b00mvWqLbvZ",
+    "tag": "ZiHpzTAv8hvAjLLNOOnXAA",
     "version": 1
   }
 }
