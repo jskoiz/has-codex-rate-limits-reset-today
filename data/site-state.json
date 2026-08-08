@@ -1,5 +1,5 @@
 {
-  "currentState": "yes",
+  "currentState": "no",
   "autoResetHours": 20,
   "noSubtitles": [
     "Back to your local model peasant",
@@ -10,22 +10,35 @@
     "Limits reset, go crazy",
     "You can just build things"
   ],
-  "resetAt": 1786155363407,
+  "resetAt": null,
   "updatedAt": 1786083363407,
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1786140715148,
-      "rationale": "This is promotional language about a product experience, not an announcement that limits or caps have reset.",
-      "tweetId": "2085850908559298732",
-      "tweetUrl": "https://x.com/thsottiaux/status/2085850908559298732",
+      "decidedAt": 1786156765736,
+      "rationale": "This reply is conversational and does not mention limits or a reset.",
+      "tweetId": "2085918244276510988",
+      "tweetUrl": "https://x.com/thsottiaux/status/2085918244276510988",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2085850908559298732",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2085850908559298732",
+    "lastSeenTweetId": "2085918244276510988",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2085918244276510988",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1786156765736,
+        "inputTokens": 392,
+        "outputTokens": 84,
+        "rationale": "This reply is conversational and does not mention limits or a reset.",
+        "reasoningTokens": 43,
+        "totalTokens": 476,
+        "tweetId": "2085918244276510988",
+        "tweetText": "@charliermarsh @mycoliza Always a way",
+        "tweetUrl": "https://x.com/thsottiaux/status/2085918244276510988",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1786140715148,
@@ -272,29 +285,31 @@
         "tweetText": "@ajambrosino You're supposed to be on holiday. I will do what I want.",
         "tweetUrl": "https://x.com/thsottiaux/status/2084814837100716074",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1785893645307,
-        "inputTokens": 391,
-        "outputTokens": 89,
-        "rationale": "This reply just asks about the account type and does not indicate any limits have reset.",
-        "reasoningTokens": 44,
-        "totalTokens": 480,
-        "tweetId": "2084814573090296270",
-        "tweetText": "@badlogicgames Which type of account do you have?",
-        "tweetUrl": "https://x.com/thsottiaux/status/2084814573090296270",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 450057,
-      "totalOutputTokens": 118954,
-      "totalReasoningTokens": 65381,
-      "totalTokens": 569011
+      "totalInputTokens": 450449,
+      "totalOutputTokens": 119038,
+      "totalReasoningTokens": 65424,
+      "totalTokens": 569487
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1786156765736,
+      "inputTokens": 392,
+      "message": "",
+      "outputTokens": 84,
+      "rationale": "This reply is conversational and does not mention limits or a reset.",
+      "reasoningTokens": 43,
+      "totalTokens": 476,
+      "tweetId": "2085918244276510988",
+      "tweetText": "@charliermarsh @mycoliza Always a way",
+      "tweetUrl": "https://x.com/thsottiaux/status/2085918244276510988",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1786140715148,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2083596911060324570",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1785601088613,
-      "inputTokens": 385,
-      "message": "",
-      "outputTokens": 100,
-      "rationale": "This reply just says \"Forgot\" and gives no indication that any limits reset.",
-      "reasoningTokens": 56,
-      "totalTokens": 485,
-      "tweetId": "2083587311477182610",
-      "tweetText": "@blueemi99 Forgot",
-      "tweetUrl": "https://x.com/thsottiaux/status/2083587311477182610",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "8qMjl9AVGJYBZMZ3gRa9AeDF6TRoLv30jODbFefR7gJYgNry4VjcDYkuyg",
-    "iv": "VS_-vPrg4-5oh-Jh",
-    "tag": "mwiCZYTQ9mAmPu6Q5YW_PQ",
+    "ciphertext": "bEWksM00ylMm-7oxgJo4KYeBNZESZuAMy0Zq_e1gvVh4-sv7_qBNq8MbQw",
+    "iv": "vVJxE2ef_4xX3rIn",
+    "tag": "O2krSqd-rpD1-byJQQy22w",
     "version": 1
   }
 }
