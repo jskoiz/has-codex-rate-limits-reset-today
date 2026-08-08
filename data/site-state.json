@@ -1,5 +1,5 @@
 {
-  "currentState": "no",
+  "currentState": "yes",
   "autoResetHours": 20,
   "noSubtitles": [
     "Back to your local model peasant",
@@ -10,29 +10,35 @@
     "Limits reset, go crazy",
     "You can just build things"
   ],
-  "resetAt": null,
-  "updatedAt": 1786083363407,
+  "resetAt": 1786293117755,
+  "updatedAt": 1786221117755,
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1786220815198,
-      "rationale": "This reply discusses model choice and upcoming releases, not any limit or cap being reset.",
-      "tweetId": "2086186284528374095",
-      "tweetUrl": "https://x.com/thsottiaux/status/2086186284528374095",
-      "verdict": "not_reset"
+      "decidedAt": 1786221117755,
+      "rationale": "The tweet explicitly states that usage limits have been reset for all paid ChatGPT Work and Codex users.",
+      "tweetId": "2086188036493344823",
+      "tweetUrl": "https://x.com/thsottiaux/status/2086188036493344823",
+      "verdict": "reset_confirmed"
     },
     "lastError": null,
-    "lastSeenTweetId": "2086186284528374095",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2086186284528374095",
-    "pendingReview": {
-      "confidence": 0.19,
-      "createdAt": 1786163597329,
-      "rationale": "This reply just says “Yes” and does not clearly state that any limit has reset.",
-      "tweetId": "2085947378104991967",
-      "tweetText": "@Ananth7e Yes",
-      "tweetUrl": "https://x.com/thsottiaux/status/2085947378104991967"
-    },
+    "lastSeenTweetId": "2086188036493344823",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2086188036493344823",
+    "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1786221117755,
+        "inputTokens": 527,
+        "outputTokens": 99,
+        "rationale": "The tweet explicitly states that usage limits have been reset for all paid ChatGPT Work and Codex users.",
+        "reasoningTokens": 49,
+        "totalTokens": 626,
+        "tweetId": "2086188036493344823",
+        "tweetText": "That's right, GPT-5.6 Sol is awesome and can be used pretty much anywhere, including in the CC harness. \n\nTo celebrate this, together with the fact that I'm not going anywhere... I have reset usage limits for all paid users of ChatGPT Work and Codex. \n\nHave fun out there!",
+        "tweetUrl": "https://x.com/thsottiaux/status/2086188036493344823",
+        "verdict": "reset_confirmed"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1786220815198,
@@ -279,29 +285,31 @@
         "tweetText": "Agent Plugins. A standard for (most) of your agents out there, including Codex and ChatGPT.",
         "tweetUrl": "https://x.com/thsottiaux/status/2085432978856083964",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1785996548701,
-        "inputTokens": 386,
-        "outputTokens": 64,
-        "rationale": "This reply is just conversational and does not mention limits or a reset.",
-        "reasoningTokens": 22,
-        "totalTokens": 450,
-        "tweetId": "2085246081609171296",
-        "tweetText": "@shloked Cool analysis",
-        "tweetUrl": "https://x.com/thsottiaux/status/2085246081609171296",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 455318,
-      "totalOutputTokens": 120128,
-      "totalReasoningTokens": 65981,
-      "totalTokens": 575446
+      "totalInputTokens": 455845,
+      "totalOutputTokens": 120227,
+      "totalReasoningTokens": 66030,
+      "totalTokens": 576072
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1786221117755,
+      "inputTokens": 527,
+      "message": "",
+      "outputTokens": 99,
+      "rationale": "The tweet explicitly states that usage limits have been reset for all paid ChatGPT Work and Codex users.",
+      "reasoningTokens": 49,
+      "totalTokens": 626,
+      "tweetId": "2086188036493344823",
+      "tweetText": "That's right, GPT-5.6 Sol is awesome and can be used pretty much anywhere, including in the CC harness. \n\nTo celebrate this, together with the fact that I'm not going anywhere... I have reset usage limits for all paid users of ChatGPT Work and Codex. \n\nHave fun out there!",
+      "tweetUrl": "https://x.com/thsottiaux/status/2086188036493344823",
+      "type": "reset_confirmed",
+      "verdict": "reset_confirmed"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1786220815198,
@@ -886,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2084481586595262471",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1785814240409,
-      "inputTokens": 405,
-      "message": "",
-      "outputTokens": 80,
-      "rationale": "This reply is a joke about Codex and does not mention limits or a reset.",
-      "reasoningTokens": 35,
-      "totalTokens": 485,
-      "tweetId": "2084481355602354611",
-      "tweetText": "@derrickcchoi Codex, buy this man some furniture https://t.co/VN3JtwbeUw",
-      "tweetUrl": "https://x.com/thsottiaux/status/2084481355602354611",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "LUk0IFH5s6Ls5K08mUacb6OOYwsCmXCSTULqxSIOtRrljbhQqnvgvuGlFw",
-    "iv": "KCk_XwMubgrnHPK1",
-    "tag": "D2o2FSvcalWw63MPkvttKg",
+    "ciphertext": "SFSRduxU-PQi2BNKAPXyUl8jk7B6ADgB0mU9NAPfXDjCt1FVwuQRK0ITPA",
+    "iv": "eeQh2dl15vBrY0Zz",
+    "tag": "vnejxbCiY5N5PIvWI7SUNQ",
     "version": 1
   }
 }
