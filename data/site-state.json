@@ -14,18 +14,38 @@
   "updatedAt": 1786083363407,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1786162981361,
-      "rationale": "This reply is conversational and does not mention limits, caps, or usage becoming available again.",
-      "tweetId": "2085943692326830097",
-      "tweetUrl": "https://x.com/thsottiaux/status/2085943692326830097",
-      "verdict": "not_reset"
+      "confidence": 0.19,
+      "decidedAt": 1786163597329,
+      "rationale": "This reply just says “Yes” and does not clearly state that any limit has reset.",
+      "tweetId": "2085947378104991967",
+      "tweetUrl": "https://x.com/thsottiaux/status/2085947378104991967",
+      "verdict": "uncertain"
     },
     "lastError": null,
-    "lastSeenTweetId": "2085943692326830097",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2085943692326830097",
-    "pendingReview": null,
+    "lastSeenTweetId": "2085947378104991967",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2085947378104991967",
+    "pendingReview": {
+      "confidence": 0.19,
+      "createdAt": 1786163597329,
+      "rationale": "This reply just says “Yes” and does not clearly state that any limit has reset.",
+      "tweetId": "2085947378104991967",
+      "tweetText": "@Ananth7e Yes",
+      "tweetUrl": "https://x.com/thsottiaux/status/2085947378104991967"
+    },
     "recentEvaluations": [
+      {
+        "confidence": 0.19,
+        "evaluatedAt": 1786163597329,
+        "inputTokens": 386,
+        "outputTokens": 173,
+        "rationale": "This reply just says “Yes” and does not clearly state that any limit has reset.",
+        "reasoningTokens": 127,
+        "totalTokens": 559,
+        "tweetId": "2085947378104991967",
+        "tweetText": "@Ananth7e Yes",
+        "tweetUrl": "https://x.com/thsottiaux/status/2085947378104991967",
+        "verdict": "uncertain"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1786162981361,
@@ -272,29 +292,31 @@
         "tweetText": "@ivanleomk Going places for sure",
         "tweetUrl": "https://x.com/thsottiaux/status/2085223189555126579",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.95,
-        "evaluatedAt": 1785990663460,
-        "inputTokens": 425,
-        "outputTokens": 248,
-        "rationale": "He jokes about occasional manual resets, but does not say limits have reset or are available again now.",
-        "reasoningTokens": 200,
-        "totalTokens": 673,
-        "tweetId": "2085221386713198988",
-        "tweetText": "I asked Codex to pull up some stats and I receive on average one DM or email every 6 or so minutes to ask for a reset. I occasionally do oblige if it comes with really solid feedback or banter.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2085221386713198988",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 453564,
-      "totalOutputTokens": 119694,
-      "totalReasoningTokens": 65729,
-      "totalTokens": 573258
+      "totalInputTokens": 453950,
+      "totalOutputTokens": 119867,
+      "totalReasoningTokens": 65856,
+      "totalTokens": 573817
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.19,
+      "createdAt": 1786163597329,
+      "inputTokens": 386,
+      "message": "",
+      "outputTokens": 173,
+      "rationale": "This reply just says “Yes” and does not clearly state that any limit has reset.",
+      "reasoningTokens": 127,
+      "totalTokens": 559,
+      "tweetId": "2085947378104991967",
+      "tweetText": "@Ananth7e Yes",
+      "tweetUrl": "https://x.com/thsottiaux/status/2085947378104991967",
+      "type": "review_requested",
+      "verdict": "uncertain"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1786162981361,
@@ -879,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2084196918071357707",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1785638768758,
-      "inputTokens": 391,
-      "message": "",
-      "outputTokens": 98,
-      "rationale": "This reply discusses feedback and does not mention limits resetting or usage being available again.",
-      "reasoningTokens": 54,
-      "totalTokens": 489,
-      "tweetId": "2083745358610342270",
-      "tweetText": "@Robertg761_ Valid complaint. What would help?",
-      "tweetUrl": "https://x.com/thsottiaux/status/2083745358610342270",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "7Y83m7-g-WpLdQ_Wj77oHl442UbGBgNVn9YnFW7ZwJ5kl-gIPcSsVR5TPQ",
-    "iv": "3hdfkkW0E2bL4X5q",
-    "tag": "dq1PHmkN6gXvE8E-rVzX5w",
+    "ciphertext": "PjXWGnL8yJwpOv5rNBbwcT58mQRBi-8thJH4fOIGA9tu_UworU2um3_kSg",
+    "iv": "5Y4WpTETQhxswynR",
+    "tag": "4LNDXTSeyiGEiXO9V0MNKA",
     "version": 1
   }
 }
