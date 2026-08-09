@@ -14,18 +14,31 @@
   "updatedAt": 1786221117755,
   "automation": {
     "lastDecision": {
-      "confidence": 0.97,
-      "decidedAt": 1786221454508,
-      "rationale": "It mentions a future reset on Monday, not that limits have reset now.",
-      "tweetId": "2086189414292865249",
-      "tweetUrl": "https://x.com/thsottiaux/status/2086189414292865249",
+      "confidence": 0.99,
+      "decidedAt": 1786233838850,
+      "rationale": "This is just a brief reply and does not indicate any rate-limit reset.",
+      "tweetId": "2086241500690866580",
+      "tweetUrl": "https://x.com/thsottiaux/status/2086241500690866580",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2086189414292865249",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2086189414292865249",
+    "lastSeenTweetId": "2086241500690866580",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2086241500690866580",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1786233838850,
+        "inputTokens": 386,
+        "outputTokens": 98,
+        "rationale": "This is just a brief reply and does not indicate any rate-limit reset.",
+        "reasoningTokens": 55,
+        "totalTokens": 484,
+        "tweetId": "2086241500690866580",
+        "tweetText": "@alexgetmancom yw",
+        "tweetUrl": "https://x.com/thsottiaux/status/2086241500690866580",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.97,
         "evaluatedAt": 1786221454508,
@@ -272,29 +285,31 @@
         "tweetText": "Free users of ChatGPT now have unlimited text chats, powered by GPT-5.6 Luna https://t.co/eZq1e1hTQX",
         "tweetUrl": "https://x.com/thsottiaux/status/2085610231707623750",
         "verdict": "reset_confirmed"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1786083359306,
-        "inputTokens": 409,
-        "outputTokens": 72,
-        "rationale": "This post is just a typo joke and says nothing about limits or a reset.",
-        "reasoningTokens": 28,
-        "totalTokens": 481,
-        "tweetId": "2085610005768945984",
-        "tweetText": "I meant to say \"ghiblify\", but I said \"gimlify\" https://t.co/ZibIfuX99D",
-        "tweetUrl": "https://x.com/thsottiaux/status/2085610005768945984",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 456622,
-      "totalOutputTokens": 120526,
-      "totalReasoningTokens": 66239,
-      "totalTokens": 577148
+      "totalInputTokens": 457008,
+      "totalOutputTokens": 120624,
+      "totalReasoningTokens": 66294,
+      "totalTokens": 577632
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1786233838850,
+      "inputTokens": 386,
+      "message": "",
+      "outputTokens": 98,
+      "rationale": "This is just a brief reply and does not indicate any rate-limit reset.",
+      "reasoningTokens": 55,
+      "totalTokens": 484,
+      "tweetId": "2086241500690866580",
+      "tweetText": "@alexgetmancom yw",
+      "tweetUrl": "https://x.com/thsottiaux/status/2086241500690866580",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.97,
       "createdAt": 1786221454508,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2084506501834829833",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1785814851420,
-      "inputTokens": 441,
-      "message": "",
-      "outputTokens": 86,
-      "rationale": "This post discusses Codex and future AI model capabilities, not any limit or rate-cap reset.",
-      "reasoningTokens": 39,
-      "totalTokens": 527,
-      "tweetId": "2084483765158719542",
-      "tweetText": "Given some of the results I'm seeing recently, it's pretty clear Codex is a good harness.\n\nBut it will seem primitive in 2-3 months and we're about to go through another major evolution in how we use AI at the frontier. The next generation of models need more than your laptop.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2084483765158719542",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "YUBztfBDV3UwyZmUhrBS8UQLOXdFHHSNNHmVPe5LpByivALA1AbfjedOzw",
-    "iv": "aHaxze6RlQ7NI91_",
-    "tag": "XAmSukCk9CN-0wR6AEciFA",
+    "ciphertext": "6CER5eL8_-R4LVLLAKokrCE79707eiG8VSVxhwebUDvTXkrQeXaArCw70g",
+    "iv": "-5k7saDsfaH4GT5q",
+    "tag": "4ZS8MWsOdm30ofi1eEHY_A",
     "version": 1
   }
 }
