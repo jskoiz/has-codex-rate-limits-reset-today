@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1786240320124,
-      "rationale": "This is a joking reply and does not mention limits, caps, or a reset.",
-      "tweetId": "2086268347319243025",
-      "tweetUrl": "https://x.com/thsottiaux/status/2086268347319243025",
+      "decidedAt": 1786260512428,
+      "rationale": "This is a casual remark about coding and does not mention any limits or resets.",
+      "tweetId": "2086353229894529148",
+      "tweetUrl": "https://x.com/thsottiaux/status/2086353229894529148",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2086268347319243025",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2086268347319243025",
+    "lastSeenTweetId": "2086353229894529148",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2086353229894529148",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1786260512428,
+        "inputTokens": 399,
+        "outputTokens": 59,
+        "rationale": "This is a casual remark about coding and does not mention any limits or resets.",
+        "reasoningTokens": 15,
+        "totalTokens": 458,
+        "tweetId": "2086353229894529148",
+        "tweetText": "Midnight coding is the best coding. Until you read the code the next day at least.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2086353229894529148",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1786240320124,
@@ -272,29 +285,31 @@
         "tweetText": "@charliermarsh @mycoliza Always a way",
         "tweetUrl": "https://x.com/thsottiaux/status/2085918244276510988",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1786140715148,
-        "inputTokens": 423,
-        "outputTokens": 71,
-        "rationale": "This is promotional language about a product experience, not an announcement that limits or caps have reset.",
-        "reasoningTokens": 24,
-        "totalTokens": 494,
-        "tweetId": "2085850908559298732",
-        "tweetText": "Somewhere on your phone you have the closest thing to magic we have shipped. It does things for you. All day if you want. Go try it. https://t.co/uGlzqntaki",
-        "tweetUrl": "https://x.com/thsottiaux/status/2085850908559298732",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 457798,
-      "totalOutputTokens": 120778,
-      "totalReasoningTokens": 66359,
-      "totalTokens": 578576
+      "totalInputTokens": 458197,
+      "totalOutputTokens": 120837,
+      "totalReasoningTokens": 66374,
+      "totalTokens": 579034
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1786260512428,
+      "inputTokens": 399,
+      "message": "",
+      "outputTokens": 59,
+      "rationale": "This is a casual remark about coding and does not mention any limits or resets.",
+      "reasoningTokens": 15,
+      "totalTokens": 458,
+      "tweetId": "2086353229894529148",
+      "tweetText": "Midnight coding is the best coding. Until you read the code the next day at least.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2086353229894529148",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1786240320124,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2084814573090296270",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1785875994046,
-      "inputTokens": 397,
-      "message": "",
-      "outputTokens": 100,
-      "rationale": "This reply discusses a milestone count and does not mention limits, caps, or a reset.",
-      "reasoningTokens": 54,
-      "totalTokens": 497,
-      "tweetId": "2084739990471458869",
-      "tweetText": "@liran_yo Way past it, but we stopped announcing at 10M.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2084739990471458869",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "cprIfHMbiSIcM7OsS6pq-teWFuCd62ZtTFlovINRsfpi4aVCeaTe0o7Gdw",
-    "iv": "gjAyFEBgEhb-Fc7K",
-    "tag": "3IVpjTKxprdSkLFbEeF7bw",
+    "ciphertext": "u4GTchvi2S6dOu7bds3oxH0o0hLT3sf5bskamrQrGMLUhWlg9cpqKdtJGw",
+    "iv": "K2ksfNGoUb-M_KFL",
+    "tag": "0DYGaj70LNCC_CUUaMsydQ",
     "version": 1
   }
 }
