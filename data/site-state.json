@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1786234163360,
-      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-      "tweetId": "2086242101055131960",
-      "tweetUrl": "https://x.com/thsottiaux/status/2086242101055131960",
+      "decidedAt": 1786240320124,
+      "rationale": "This is a joking reply and does not mention limits, caps, or a reset.",
+      "tweetId": "2086268347319243025",
+      "tweetUrl": "https://x.com/thsottiaux/status/2086268347319243025",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2086242101055131960",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2086242101055131960",
+    "lastSeenTweetId": "2086268347319243025",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2086268347319243025",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1786240320124,
+        "inputTokens": 397,
+        "outputTokens": 80,
+        "rationale": "This is a joking reply and does not mention limits, caps, or a reset.",
+        "reasoningTokens": 35,
+        "totalTokens": 477,
+        "tweetId": "2086268347319243025",
+        "tweetText": "@ryanbrewer @kobex___ I also turn into interactive spreadsheets at times",
+        "tweetUrl": "https://x.com/thsottiaux/status/2086268347319243025",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1786234163360,
@@ -272,29 +285,31 @@
         "tweetText": "Somewhere on your phone you have the closest thing to magic we have shipped. It does things for you. All day if you want. Go try it. https://t.co/uGlzqntaki",
         "tweetUrl": "https://x.com/thsottiaux/status/2085850908559298732",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1786139461325,
-        "inputTokens": 435,
-        "outputTokens": 96,
-        "rationale": "This is a joke about Theo needing rest, not a Codex or ChatGPT usage reset.",
-        "reasoningTokens": 49,
-        "totalTokens": 531,
-        "tweetId": "2085845171363791135",
-        "tweetText": "I feel Theo is in need of a reset 👀",
-        "tweetUrl": "https://x.com/thsottiaux/status/2085845171363791135",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 457401,
-      "totalOutputTokens": 120698,
-      "totalReasoningTokens": 66324,
-      "totalTokens": 578099
+      "totalInputTokens": 457798,
+      "totalOutputTokens": 120778,
+      "totalReasoningTokens": 66359,
+      "totalTokens": 578576
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1786240320124,
+      "inputTokens": 397,
+      "message": "",
+      "outputTokens": 80,
+      "rationale": "This is a joking reply and does not mention limits, caps, or a reset.",
+      "reasoningTokens": 35,
+      "totalTokens": 477,
+      "tweetId": "2086268347319243025",
+      "tweetText": "@ryanbrewer @kobex___ I also turn into interactive spreadsheets at times",
+      "tweetUrl": "https://x.com/thsottiaux/status/2086268347319243025",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1786234163360,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2084739990471458869",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1785875369196,
-      "inputTokens": 388,
-      "message": "",
-      "outputTokens": 76,
-      "rationale": "This post is conversational and does not mention limits, caps, or a reset.",
-      "reasoningTokens": 32,
-      "totalTokens": 464,
-      "tweetId": "2084738022650892544",
-      "tweetText": "What is my title at OpenAI",
-      "tweetUrl": "https://x.com/thsottiaux/status/2084738022650892544",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "dUqfaqiRt96gxqtQjyFmPBp5ZvgsBTjMhF0-9I-Mqag1DszNDVQodb2UGQ",
-    "iv": "d7Kh-DEmh0bR-g7U",
-    "tag": "AWPEHc08UKPH_TgkpY052A",
+    "ciphertext": "cprIfHMbiSIcM7OsS6pq-teWFuCd62ZtTFlovINRsfpi4aVCeaTe0o7Gdw",
+    "iv": "gjAyFEBgEhb-Fc7K",
+    "tag": "3IVpjTKxprdSkLFbEeF7bw",
     "version": 1
   }
 }
