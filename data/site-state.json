@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1786384546296,
-      "rationale": "This post announces cybersecurity access tiers and a new model, not a reset of ChatGPT or Codex usage limits.",
-      "tweetId": "2086873743138427262",
-      "tweetUrl": "https://x.com/thsottiaux/status/2086873743138427262",
+      "decidedAt": 1786384857923,
+      "rationale": "This post is a product announcement about cybersecurity access tiers and GPT-5.6-Cyber, not a rate-limit reset.",
+      "tweetId": "2086874565909815403",
+      "tweetUrl": "https://x.com/thsottiaux/status/2086874565909815403",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2086873743138427262",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2086873743138427262",
+    "lastSeenTweetId": "2086874565909815403",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2086874565909815403",
     "pendingReview": {
       "confidence": 0.83,
       "createdAt": 1786367222402,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2086800639120888014"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1786384857923,
+        "inputTokens": 557,
+        "outputTokens": 86,
+        "rationale": "This post is a product announcement about cybersecurity access tiers and GPT-5.6-Cyber, not a rate-limit reset.",
+        "reasoningTokens": 32,
+        "totalTokens": 643,
+        "tweetId": "2086874565909815403",
+        "tweetText": "Cybersecurity is changing rapidly. \n\nTo help accelerate defense, we are broadening access to frontier cyber capabilities through the new Daybreak Blue & Red access tiers and are introducing a new model GPT-5.6-Cyber.\n\nIf you don't know where to start, a good step is to contact one of our partners who can use our latest cyber models to help you find issues, patch them quickly, do pentesting, etc.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2086874565909815403",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1786384546296,
@@ -279,29 +292,31 @@
         "tweetText": "Astro Boy and Sol https://t.co/41S3qXca91",
         "tweetUrl": "https://x.com/thsottiaux/status/2085932920188072013",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1786158926954,
-        "inputTokens": 387,
-        "outputTokens": 80,
-        "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-        "reasoningTokens": 36,
-        "totalTokens": 467,
-        "tweetId": "2085927690041991580",
-        "tweetText": "@sattyyouneed Always improving",
-        "tweetUrl": "https://x.com/thsottiaux/status/2085927690041991580",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 459541,
-      "totalOutputTokens": 121148,
-      "totalReasoningTokens": 66541,
-      "totalTokens": 580689
+      "totalInputTokens": 460098,
+      "totalOutputTokens": 121234,
+      "totalReasoningTokens": 66573,
+      "totalTokens": 581332
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1786384857923,
+      "inputTokens": 557,
+      "message": "",
+      "outputTokens": 86,
+      "rationale": "This post is a product announcement about cybersecurity access tiers and GPT-5.6-Cyber, not a rate-limit reset.",
+      "reasoningTokens": 32,
+      "totalTokens": 643,
+      "tweetId": "2086874565909815403",
+      "tweetText": "Cybersecurity is changing rapidly. \n\nTo help accelerate defense, we are broadening access to frontier cyber capabilities through the new Daybreak Blue & Red access tiers and are introducing a new model GPT-5.6-Cyber.\n\nIf you don't know where to start, a good step is to contact one of our partners who can use our latest cyber models to help you find issues, patch them quickly, do pentesting, etc.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2086874565909815403",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1786384546296,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2084856424749019471",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1785903538688,
-      "inputTokens": 386,
-      "message": "",
-      "outputTokens": 90,
-      "rationale": "This reply is just a reaction and does not mention limits, caps, or availability resetting.",
-      "reasoningTokens": 44,
-      "totalTokens": 476,
-      "tweetId": "2084855451255259623",
-      "tweetText": "@feedthejim 👀",
-      "tweetUrl": "https://x.com/thsottiaux/status/2084855451255259623",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "HX3p4eMieMAT_CFLonH_dBhm_ymemdO_Q-x-AlvSrLfS7WfhmzuKIcYMfw",
-    "iv": "nqI6ew03QlEydasw",
-    "tag": "EV5hsiLVllYB2EduiLlD7w",
+    "ciphertext": "yBoiWdFqsbdnRjxZOixrKXLNrgo-kQizYjGgUBM86HHBrS1PZsh_9IO37Q",
+    "iv": "g9KqTwoc1uxmU2TH",
+    "tag": "EHPnlgs2u5jFJbs6zfka8Q",
     "version": 1
   }
 }
