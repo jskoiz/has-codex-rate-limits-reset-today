@@ -1,5 +1,5 @@
 {
-  "currentState": "yes",
+  "currentState": "no",
   "autoResetHours": 20,
   "noSubtitles": [
     "Back to your local model peasant",
@@ -10,22 +10,35 @@
     "Limits reset, go crazy",
     "You can just build things"
   ],
-  "resetAt": 1786293117755,
+  "resetAt": null,
   "updatedAt": 1786221117755,
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1786260512428,
-      "rationale": "This is a casual remark about coding and does not mention any limits or resets.",
-      "tweetId": "2086353229894529148",
-      "tweetUrl": "https://x.com/thsottiaux/status/2086353229894529148",
+      "decidedAt": 1786366916275,
+      "rationale": "This is just a conversational reply and says nothing about limits or resets.",
+      "tweetId": "2086800050630676504",
+      "tweetUrl": "https://x.com/thsottiaux/status/2086800050630676504",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2086353229894529148",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2086353229894529148",
+    "lastSeenTweetId": "2086800050630676504",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2086800050630676504",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1786366916275,
+        "inputTokens": 387,
+        "outputTokens": 74,
+        "rationale": "This is just a conversational reply and says nothing about limits or resets.",
+        "reasoningTokens": 32,
+        "totalTokens": 461,
+        "tweetId": "2086800050630676504",
+        "tweetText": "@maria_rcks Good morning",
+        "tweetUrl": "https://x.com/thsottiaux/status/2086800050630676504",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1786260512428,
@@ -272,29 +285,31 @@
         "tweetText": "@arcprize @OpenAI Shocking 😳",
         "tweetUrl": "https://x.com/thsottiaux/status/2085926373303164961",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1786156765736,
-        "inputTokens": 392,
-        "outputTokens": 84,
-        "rationale": "This reply is conversational and does not mention limits or a reset.",
-        "reasoningTokens": 43,
-        "totalTokens": 476,
-        "tweetId": "2085918244276510988",
-        "tweetText": "@charliermarsh @mycoliza Always a way",
-        "tweetUrl": "https://x.com/thsottiaux/status/2085918244276510988",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 458197,
-      "totalOutputTokens": 120837,
-      "totalReasoningTokens": 66374,
-      "totalTokens": 579034
+      "totalInputTokens": 458584,
+      "totalOutputTokens": 120911,
+      "totalReasoningTokens": 66406,
+      "totalTokens": 579495
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1786366916275,
+      "inputTokens": 387,
+      "message": "",
+      "outputTokens": 74,
+      "rationale": "This is just a conversational reply and says nothing about limits or resets.",
+      "reasoningTokens": 32,
+      "totalTokens": 461,
+      "tweetId": "2086800050630676504",
+      "tweetText": "@maria_rcks Good morning",
+      "tweetUrl": "https://x.com/thsottiaux/status/2086800050630676504",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1786260512428,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2084814837100716074",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1785893645307,
-      "inputTokens": 391,
-      "message": "",
-      "outputTokens": 89,
-      "rationale": "This reply just asks about the account type and does not indicate any limits have reset.",
-      "reasoningTokens": 44,
-      "totalTokens": 480,
-      "tweetId": "2084814573090296270",
-      "tweetText": "@badlogicgames Which type of account do you have?",
-      "tweetUrl": "https://x.com/thsottiaux/status/2084814573090296270",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "u4GTchvi2S6dOu7bds3oxH0o0hLT3sf5bskamrQrGMLUhWlg9cpqKdtJGw",
-    "iv": "K2ksfNGoUb-M_KFL",
-    "tag": "0DYGaj70LNCC_CUUaMsydQ",
+    "ciphertext": "cHHp41BF_mWT_-veWtx6ZZ7d3GmDgg-d1_ZHbg6k1zchl3mhzwOeH_KNHw",
+    "iv": "XgKS3JBSWHX2DzCP",
+    "tag": "Y7CaNuuEO7c-4BMGFnkceg",
     "version": 1
   }
 }
