@@ -14,16 +14,16 @@
   "updatedAt": 1786221117755,
   "automation": {
     "lastDecision": {
-      "confidence": 0.83,
-      "decidedAt": 1786367222402,
-      "rationale": "This reply mentions a \"reset\" but does not clearly say Codex or ChatGPT limits are available again now.",
-      "tweetId": "2086800639120888014",
-      "tweetUrl": "https://x.com/thsottiaux/status/2086800639120888014",
-      "verdict": "uncertain"
+      "confidence": 0.99,
+      "decidedAt": 1786384546296,
+      "rationale": "This post announces cybersecurity access tiers and a new model, not a reset of ChatGPT or Codex usage limits.",
+      "tweetId": "2086873743138427262",
+      "tweetUrl": "https://x.com/thsottiaux/status/2086873743138427262",
+      "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2086800639120888014",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2086800639120888014",
+    "lastSeenTweetId": "2086873743138427262",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2086873743138427262",
     "pendingReview": {
       "confidence": 0.83,
       "createdAt": 1786367222402,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2086800639120888014"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1786384546296,
+        "inputTokens": 558,
+        "outputTokens": 85,
+        "rationale": "This post announces cybersecurity access tiers and a new model, not a reset of ChatGPT or Codex usage limits.",
+        "reasoningTokens": 34,
+        "totalTokens": 643,
+        "tweetId": "2086873743138427262",
+        "tweetText": "Cybersecurity is changing rapidly. \n\nTo help accelerate defense, we are broadening access to frontier cyber capabilities through the new Daybreak Blue & Red access tiers and are introducing a new model GPT-5.6-Cyber.\n\nIf you don't know where to start, a good step is to contact one of our maybe partners who can use our latest cyber models to help you find issues, patch them quickly, do pentesting, etc.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2086873743138427262",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.83,
         "evaluatedAt": 1786367222402,
@@ -279,29 +292,31 @@
         "tweetText": "@sattyyouneed Always improving",
         "tweetUrl": "https://x.com/thsottiaux/status/2085927690041991580",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1786158924811,
-        "inputTokens": 386,
-        "outputTokens": 68,
-        "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-        "reasoningTokens": 24,
-        "totalTokens": 454,
-        "tweetId": "2085926986225164529",
-        "tweetText": "@argofowl nice try",
-        "tweetUrl": "https://x.com/thsottiaux/status/2085926986225164529",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 458983,
-      "totalOutputTokens": 121063,
-      "totalReasoningTokens": 66507,
-      "totalTokens": 580046
+      "totalInputTokens": 459541,
+      "totalOutputTokens": 121148,
+      "totalReasoningTokens": 66541,
+      "totalTokens": 580689
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1786384546296,
+      "inputTokens": 558,
+      "message": "",
+      "outputTokens": 85,
+      "rationale": "This post announces cybersecurity access tiers and a new model, not a reset of ChatGPT or Codex usage limits.",
+      "reasoningTokens": 34,
+      "totalTokens": 643,
+      "tweetId": "2086873743138427262",
+      "tweetText": "Cybersecurity is changing rapidly. \n\nTo help accelerate defense, we are broadening access to frontier cyber capabilities through the new Daybreak Blue & Red access tiers and are introducing a new model GPT-5.6-Cyber.\n\nIf you don't know where to start, a good step is to contact one of our maybe partners who can use our latest cyber models to help you find issues, patch them quickly, do pentesting, etc.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2086873743138427262",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.83,
       "createdAt": 1786367222402,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2084855451255259623",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1785903211762,
-      "inputTokens": 390,
-      "message": "",
-      "outputTokens": 71,
-      "rationale": "This reply is conversational and says nothing about limits or a reset.",
-      "reasoningTokens": 30,
-      "totalTokens": 461,
-      "tweetId": "2084854859967410582",
-      "tweetText": "@anshgrows Ansh'ovy, please",
-      "tweetUrl": "https://x.com/thsottiaux/status/2084854859967410582",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "97OGxkOoPD-Bg6Mci6sUIi_nIqOdCiPLOFcnpdk79FUlfAe-kY3lm-p7Ew",
-    "iv": "lVqUV-VMUEYwu_D4",
-    "tag": "vIncFPEjjCxhN-Vq-Tyeug",
+    "ciphertext": "HX3p4eMieMAT_CFLonH_dBhm_ymemdO_Q-x-AlvSrLfS7WfhmzuKIcYMfw",
+    "iv": "nqI6ew03QlEydasw",
+    "tag": "EV5hsiLVllYB2EduiLlD7w",
     "version": 1
   }
 }
