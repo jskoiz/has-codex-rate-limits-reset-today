@@ -14,18 +14,38 @@
   "updatedAt": 1786221117755,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1786366916275,
-      "rationale": "This is just a conversational reply and says nothing about limits or resets.",
-      "tweetId": "2086800050630676504",
-      "tweetUrl": "https://x.com/thsottiaux/status/2086800050630676504",
-      "verdict": "not_reset"
+      "confidence": 0.83,
+      "decidedAt": 1786367222402,
+      "rationale": "This reply mentions a \"reset\" but does not clearly say Codex or ChatGPT limits are available again now.",
+      "tweetId": "2086800639120888014",
+      "tweetUrl": "https://x.com/thsottiaux/status/2086800639120888014",
+      "verdict": "uncertain"
     },
     "lastError": null,
-    "lastSeenTweetId": "2086800050630676504",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2086800050630676504",
-    "pendingReview": null,
+    "lastSeenTweetId": "2086800639120888014",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2086800639120888014",
+    "pendingReview": {
+      "confidence": 0.83,
+      "createdAt": 1786367222402,
+      "rationale": "This reply mentions a \"reset\" but does not clearly say Codex or ChatGPT limits are available again now.",
+      "tweetId": "2086800639120888014",
+      "tweetText": "@hqmank Just like any other reset, but picture me doing a little dance with it",
+      "tweetUrl": "https://x.com/thsottiaux/status/2086800639120888014"
+    },
     "recentEvaluations": [
+      {
+        "confidence": 0.83,
+        "evaluatedAt": 1786367222402,
+        "inputTokens": 399,
+        "outputTokens": 152,
+        "rationale": "This reply mentions a \"reset\" but does not clearly say Codex or ChatGPT limits are available again now.",
+        "reasoningTokens": 101,
+        "totalTokens": 551,
+        "tweetId": "2086800639120888014",
+        "tweetText": "@hqmank Just like any other reset, but picture me doing a little dance with it",
+        "tweetUrl": "https://x.com/thsottiaux/status/2086800639120888014",
+        "verdict": "uncertain"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1786366916275,
@@ -272,29 +292,31 @@
         "tweetText": "@argofowl nice try",
         "tweetUrl": "https://x.com/thsottiaux/status/2085926986225164529",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1786158613191,
-        "inputTokens": 391,
-        "outputTokens": 92,
-        "rationale": "This reply is just a reaction and does not mention limits, caps, or a reset.",
-        "reasoningTokens": 46,
-        "totalTokens": 483,
-        "tweetId": "2085926373303164961",
-        "tweetText": "@arcprize @OpenAI Shocking 😳",
-        "tweetUrl": "https://x.com/thsottiaux/status/2085926373303164961",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 458584,
-      "totalOutputTokens": 120911,
-      "totalReasoningTokens": 66406,
-      "totalTokens": 579495
+      "totalInputTokens": 458983,
+      "totalOutputTokens": 121063,
+      "totalReasoningTokens": 66507,
+      "totalTokens": 580046
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.83,
+      "createdAt": 1786367222402,
+      "inputTokens": 399,
+      "message": "",
+      "outputTokens": 152,
+      "rationale": "This reply mentions a \"reset\" but does not clearly say Codex or ChatGPT limits are available again now.",
+      "reasoningTokens": 101,
+      "totalTokens": 551,
+      "tweetId": "2086800639120888014",
+      "tweetText": "@hqmank Just like any other reset, but picture me doing a little dance with it",
+      "tweetUrl": "https://x.com/thsottiaux/status/2086800639120888014",
+      "type": "review_requested",
+      "verdict": "uncertain"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1786366916275,
@@ -879,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2084854859967410582",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1785893647931,
-      "inputTokens": 398,
-      "message": "",
-      "outputTokens": 95,
-      "rationale": "This is a conversational reply and does not mention limits, caps, or a reset.",
-      "reasoningTokens": 50,
-      "totalTokens": 493,
-      "tweetId": "2084814837100716074",
-      "tweetText": "@ajambrosino You're supposed to be on holiday. I will do what I want.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2084814837100716074",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "cHHp41BF_mWT_-veWtx6ZZ7d3GmDgg-d1_ZHbg6k1zchl3mhzwOeH_KNHw",
-    "iv": "XgKS3JBSWHX2DzCP",
-    "tag": "Y7CaNuuEO7c-4BMGFnkceg",
+    "ciphertext": "97OGxkOoPD-Bg6Mci6sUIi_nIqOdCiPLOFcnpdk79FUlfAe-kY3lm-p7Ew",
+    "iv": "lVqUV-VMUEYwu_D4",
+    "tag": "vIncFPEjjCxhN-Vq-Tyeug",
     "version": 1
   }
 }
