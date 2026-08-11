@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1786411179374,
+      "decidedAt": 1786421386651,
       "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-      "tweetId": "2086985239549907221",
-      "tweetUrl": "https://x.com/thsottiaux/status/2086985239549907221",
+      "tweetId": "2087027703870521616",
+      "tweetUrl": "https://x.com/thsottiaux/status/2087027703870521616",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2086985239549907221",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2086985239549907221",
+    "lastSeenTweetId": "2087027703870521616",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2087027703870521616",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1786421386651,
+        "inputTokens": 390,
+        "outputTokens": 97,
+        "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+        "reasoningTokens": 53,
+        "totalTokens": 487,
+        "tweetId": "2087027703870521616",
+        "tweetText": "@henry0284928382 How is it",
+        "tweetUrl": "https://x.com/thsottiaux/status/2087027703870521616",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1786411179374,
@@ -272,29 +285,31 @@
         "tweetText": "@johnlindquist Concerning",
         "tweetUrl": "https://x.com/thsottiaux/status/2085943692326830097",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1786162978294,
-        "inputTokens": 390,
-        "outputTokens": 78,
-        "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-        "reasoningTokens": 34,
-        "totalTokens": 468,
-        "tweetId": "2085943554027978822",
-        "tweetText": "@cheaf25master Why am I a model",
-        "tweetUrl": "https://x.com/thsottiaux/status/2085943554027978822",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 461321,
-      "totalOutputTokens": 121538,
-      "totalReasoningTokens": 66732,
-      "totalTokens": 582859
+      "totalInputTokens": 461711,
+      "totalOutputTokens": 121635,
+      "totalReasoningTokens": 66785,
+      "totalTokens": 583346
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1786421386651,
+      "inputTokens": 390,
+      "message": "",
+      "outputTokens": 97,
+      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+      "reasoningTokens": 53,
+      "totalTokens": 487,
+      "tweetId": "2087027703870521616",
+      "tweetText": "@henry0284928382 How is it",
+      "tweetUrl": "https://x.com/thsottiaux/status/2087027703870521616",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1786411179374,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2085217198352605568",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1785979485300,
-      "inputTokens": 604,
-      "message": "",
-      "outputTokens": 102,
-      "rationale": "This post is congratulatory and product-related, with no mention of limits or a reset.",
-      "reasoningTokens": 56,
-      "totalTokens": 706,
-      "tweetId": "2085174625655198156",
-      "tweetText": "I don't really think these legends needed a pitchdeck. Congrats on taking a crazy, but inspiring leap.\n\nI recommend you explore /goal in Codex, it's a pretty powerful loop with GPT-5.6 Sol.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2085174625655198156",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "JQ-s0V9Eyp_4ypdRo6u2ao-1cAFdKRd-tngyvfHWlAjXpOq48nyYn1ICaA",
-    "iv": "TR7VucpTE0KriywS",
-    "tag": "XaL7c61A7cL_AI4hj-UwkA",
+    "ciphertext": "zCqt5dUvN6CtIb3R3gAXeU7Wc7s6cPOXl1CjCvAPJp-ZiZv0IRHYBFDy0Q",
+    "iv": "gBZZsf7y5rGmcmJe",
+    "tag": "oLThUW4C7-Stlf9xvKdKIQ",
     "version": 1
   }
 }
