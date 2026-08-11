@@ -1,5 +1,5 @@
 {
-  "currentState": "no",
+  "currentState": "yes",
   "autoResetHours": 20,
   "noSubtitles": [
     "Back to your local model peasant",
@@ -10,29 +10,35 @@
     "Limits reset, go crazy",
     "You can just build things"
   ],
-  "resetAt": null,
-  "updatedAt": 1786221117755,
+  "resetAt": 1786480082110,
+  "updatedAt": 1786408082110,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1786384857923,
-      "rationale": "This post is a product announcement about cybersecurity access tiers and GPT-5.6-Cyber, not a rate-limit reset.",
-      "tweetId": "2086874565909815403",
-      "tweetUrl": "https://x.com/thsottiaux/status/2086874565909815403",
-      "verdict": "not_reset"
+      "confidence": 0.96,
+      "decidedAt": 1786408082110,
+      "rationale": "The quoted post asks about a reset, and this tweet replies \"It is done,\" directly confirming it has happened.",
+      "tweetId": "2086972802457063486",
+      "tweetUrl": "https://x.com/thsottiaux/status/2086972802457063486",
+      "verdict": "reset_confirmed"
     },
     "lastError": null,
-    "lastSeenTweetId": "2086874565909815403",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2086874565909815403",
-    "pendingReview": {
-      "confidence": 0.83,
-      "createdAt": 1786367222402,
-      "rationale": "This reply mentions a \"reset\" but does not clearly say Codex or ChatGPT limits are available again now.",
-      "tweetId": "2086800639120888014",
-      "tweetText": "@hqmank Just like any other reset, but picture me doing a little dance with it",
-      "tweetUrl": "https://x.com/thsottiaux/status/2086800639120888014"
-    },
+    "lastSeenTweetId": "2086972802457063486",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2086972802457063486",
+    "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.96,
+        "evaluatedAt": 1786408082110,
+        "inputTokens": 425,
+        "outputTokens": 132,
+        "rationale": "The quoted post asks about a reset, and this tweet replies \"It is done,\" directly confirming it has happened.",
+        "reasoningTokens": 80,
+        "totalTokens": 557,
+        "tweetId": "2086972802457063486",
+        "tweetText": "Hi.\n\nIt is done.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2086972802457063486",
+        "verdict": "reset_confirmed"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1786384857923,
@@ -279,29 +285,31 @@
         "tweetText": "@rezoundous And that is?",
         "tweetUrl": "https://x.com/thsottiaux/status/2085934681099485382",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1786160188372,
-        "inputTokens": 398,
-        "outputTokens": 66,
-        "rationale": "This post is unrelated to rate limits or usage resets.",
-        "reasoningTokens": 27,
-        "totalTokens": 464,
-        "tweetId": "2085932920188072013",
-        "tweetText": "Astro Boy and Sol https://t.co/41S3qXca91",
-        "tweetUrl": "https://x.com/thsottiaux/status/2085932920188072013",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 460098,
-      "totalOutputTokens": 121234,
-      "totalReasoningTokens": 66573,
-      "totalTokens": 581332
+      "totalInputTokens": 460523,
+      "totalOutputTokens": 121366,
+      "totalReasoningTokens": 66653,
+      "totalTokens": 581889
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.96,
+      "createdAt": 1786408082110,
+      "inputTokens": 425,
+      "message": "",
+      "outputTokens": 132,
+      "rationale": "The quoted post asks about a reset, and this tweet replies \"It is done,\" directly confirming it has happened.",
+      "reasoningTokens": 80,
+      "totalTokens": 557,
+      "tweetId": "2086972802457063486",
+      "tweetText": "Hi.\n\nIt is done.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2086972802457063486",
+      "type": "reset_confirmed",
+      "verdict": "reset_confirmed"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1786384857923,
@@ -886,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2084857946543120422",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1785903542252,
-      "inputTokens": 396,
-      "message": "",
-      "outputTokens": 97,
-      "rationale": "This reply is just a welcome message and says nothing about limits or resets.",
-      "reasoningTokens": 54,
-      "totalTokens": 493,
-      "tweetId": "2084856424749019471",
-      "tweetText": "@halvarflake @OpenAI Let's revolutionize a thing or two. Welcome!",
-      "tweetUrl": "https://x.com/thsottiaux/status/2084856424749019471",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "yBoiWdFqsbdnRjxZOixrKXLNrgo-kQizYjGgUBM86HHBrS1PZsh_9IO37Q",
-    "iv": "g9KqTwoc1uxmU2TH",
-    "tag": "EHPnlgs2u5jFJbs6zfka8Q",
+    "ciphertext": "UlC1e3T93bTefbs16Sphzzw9q7v5Qh-IKx_k9uZvwjx_YZO_5Jk1MY_V4Q",
+    "iv": "EkC2aqiwhq4_yQ_q",
+    "tag": "bdONi7jNVDkGwKco_4F5vw",
     "version": 1
   }
 }
