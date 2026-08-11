@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1786475344105,
-      "rationale": "This post and its quoted tweet announce Linux desktop app availability, not any limit or rate-limit reset.",
-      "tweetId": "2087254026232775052",
-      "tweetUrl": "https://x.com/thsottiaux/status/2087254026232775052",
+      "decidedAt": 1786475347242,
+      "rationale": "This reply encourages trying Codex but does not mention limits, caps, or a reset.",
+      "tweetId": "2087254340079915272",
+      "tweetUrl": "https://x.com/thsottiaux/status/2087254340079915272",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2087254026232775052",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2087254026232775052",
+    "lastSeenTweetId": "2087254340079915272",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2087254340079915272",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1786475347242,
+        "inputTokens": 411,
+        "outputTokens": 80,
+        "rationale": "This reply encourages trying Codex but does not mention limits, caps, or a reset.",
+        "reasoningTokens": 34,
+        "totalTokens": 491,
+        "tweetId": "2087254340079915272",
+        "tweetText": "@arthurkatcher No comment on the rest, but yes, you should try Codex and give me your feedback.\n\nTeam is on a roll.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2087254340079915272",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1786475344105,
@@ -272,29 +285,31 @@
         "tweetText": "cc @theo",
         "tweetUrl": "https://x.com/thsottiaux/status/2086189075351130251",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1786221117755,
-        "inputTokens": 527,
-        "outputTokens": 99,
-        "rationale": "The tweet explicitly states that usage limits have been reset for all paid ChatGPT Work and Codex users.",
-        "reasoningTokens": 49,
-        "totalTokens": 626,
-        "tweetId": "2086188036493344823",
-        "tweetText": "That's right, GPT-5.6 Sol is awesome and can be used pretty much anywhere, including in the CC harness. \n\nTo celebrate this, together with the fact that I'm not going anywhere... I have reset usage limits for all paid users of ChatGPT Work and Codex. \n\nHave fun out there!",
-        "tweetUrl": "https://x.com/thsottiaux/status/2086188036493344823",
-        "verdict": "reset_confirmed"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 463887,
-      "totalOutputTokens": 122102,
-      "totalReasoningTokens": 67025,
-      "totalTokens": 585989
+      "totalInputTokens": 464298,
+      "totalOutputTokens": 122182,
+      "totalReasoningTokens": 67059,
+      "totalTokens": 586480
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1786475347242,
+      "inputTokens": 411,
+      "message": "",
+      "outputTokens": 80,
+      "rationale": "This reply encourages trying Codex but does not mention limits, caps, or a reset.",
+      "reasoningTokens": 34,
+      "totalTokens": 491,
+      "tweetId": "2087254340079915272",
+      "tweetText": "@arthurkatcher No comment on the rest, but yes, you should try Codex and give me your feedback.\n\nTeam is on a roll.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2087254340079915272",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1786475344105,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2085597685948813610",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1786041156579,
-      "inputTokens": 502,
-      "message": "",
-      "outputTokens": 94,
-      "rationale": "This post is about Agent Plugins and says nothing about usage limits or resets.",
-      "reasoningTokens": 51,
-      "totalTokens": 596,
-      "tweetId": "2085432978856083964",
-      "tweetText": "Agent Plugins. A standard for (most) of your agents out there, including Codex and ChatGPT.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2085432978856083964",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "V9Ca3449QwNEwLArfxX4tqP3Gn9HsRUF5ZlIYwlryJ2Duawju7a4122FAg",
-    "iv": "hzq47PJRWqAP29Gl",
-    "tag": "-sDGxhuxxFfAQz3LMZ65lg",
+    "ciphertext": "AALdkaArEMnHuuPMPO6qetXNpjTiSZO9LiQituJNGbb9_KJoFam5skWn5Q",
+    "iv": "rqLI323Dwz9sRcDJ",
+    "tag": "yGKreuRoTgzqh1OHkD6zZA",
     "version": 1
   }
 }
