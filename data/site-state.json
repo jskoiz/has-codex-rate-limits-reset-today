@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1786408391912,
-      "rationale": "The tweet explicitly says usage limits have been reset for all paid ChatGPT Work and Codex users.",
-      "tweetId": "2086972933566857393",
-      "tweetUrl": "https://x.com/thsottiaux/status/2086972933566857393",
-      "verdict": "reset_confirmed"
+      "decidedAt": 1786411179374,
+      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+      "tweetId": "2086985239549907221",
+      "tweetUrl": "https://x.com/thsottiaux/status/2086985239549907221",
+      "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2086972933566857393",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2086972933566857393",
+    "lastSeenTweetId": "2086985239549907221",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2086985239549907221",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1786411179374,
+        "inputTokens": 390,
+        "outputTokens": 77,
+        "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+        "reasoningTokens": 33,
+        "totalTokens": 467,
+        "tweetId": "2086985239549907221",
+        "tweetText": "@AdamHoltererer You win the internet today",
+        "tweetUrl": "https://x.com/thsottiaux/status/2086985239549907221",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1786408391912,
@@ -272,29 +285,31 @@
         "tweetText": "@cheaf25master Why am I a model",
         "tweetUrl": "https://x.com/thsottiaux/status/2085943554027978822",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1786161418060,
-        "inputTokens": 389,
-        "outputTokens": 89,
-        "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-        "reasoningTokens": 45,
-        "totalTokens": 478,
-        "tweetId": "2085937262043546037",
-        "tweetText": "@NickADobos Your friends have computers too",
-        "tweetUrl": "https://x.com/thsottiaux/status/2085937262043546037",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 460931,
-      "totalOutputTokens": 121461,
-      "totalReasoningTokens": 66699,
-      "totalTokens": 582392
+      "totalInputTokens": 461321,
+      "totalOutputTokens": 121538,
+      "totalReasoningTokens": 66732,
+      "totalTokens": 582859
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1786411179374,
+      "inputTokens": 390,
+      "message": "",
+      "outputTokens": 77,
+      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+      "reasoningTokens": 33,
+      "totalTokens": 467,
+      "tweetId": "2086985239549907221",
+      "tweetText": "@AdamHoltererer You win the internet today",
+      "tweetUrl": "https://x.com/thsottiaux/status/2086985239549907221",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1786408391912,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2085174625655198156",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1785904788726,
-      "inputTokens": 776,
-      "message": "",
-      "outputTokens": 92,
-      "rationale": "This post is about welcoming Halvar Flake and says nothing about ChatGPT or Codex limits resetting.",
-      "reasoningTokens": 43,
-      "totalTokens": 868,
-      "tweetId": "2084859308165271658",
-      "tweetText": "Better Cyber. Excited to welcome Halvar Flake to the team soon.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2084859308165271658",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "qu1mdhQwHCb7G7YUzLkwMhy2IH-VKLrLdRYrm9XyBqLRl3nvNQqh3Ixc-A",
-    "iv": "3i_N_LVx9rcWiXLt",
-    "tag": "VH-gO1_ivoE8xby7Aw2yOA",
+    "ciphertext": "JQ-s0V9Eyp_4ypdRo6u2ao-1cAFdKRd-tngyvfHWlAjXpOq48nyYn1ICaA",
+    "iv": "TR7VucpTE0KriywS",
+    "tag": "XaL7c61A7cL_AI4hj-UwkA",
     "version": 1
   }
 }
