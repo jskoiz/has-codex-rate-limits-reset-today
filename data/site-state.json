@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1786475042718,
-      "rationale": "This reply is just a conversational question and does not mention limits or a reset.",
-      "tweetId": "2087252623611318503",
-      "tweetUrl": "https://x.com/thsottiaux/status/2087252623611318503",
+      "decidedAt": 1786475046493,
+      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+      "tweetId": "2087252859087880257",
+      "tweetUrl": "https://x.com/thsottiaux/status/2087252859087880257",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2087252623611318503",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2087252623611318503",
+    "lastSeenTweetId": "2087252859087880257",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2087252859087880257",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1786475046493,
+        "inputTokens": 390,
+        "outputTokens": 110,
+        "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+        "reasoningTokens": 66,
+        "totalTokens": 500,
+        "tweetId": "2087252859087880257",
+        "tweetText": "@jxnlco Works because you have great ideas",
+        "tweetUrl": "https://x.com/thsottiaux/status/2087252859087880257",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1786475042718,
@@ -272,29 +285,31 @@
         "tweetText": "Glad that's all sorted and all is well. Freedom of harness is important and we should let our users decide on which model is best for them.\n\nOn switching, I'm afraid I both love my team too much and I'm also way too excited about the next couple of weeks of releases. Too much fun ahead.",
         "tweetUrl": "https://x.com/thsottiaux/status/2086186284528374095",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1786213075675,
-        "inputTokens": 537,
-        "outputTokens": 93,
-        "rationale": "This post discusses an Anthropic account suspension, not any Codex or ChatGPT limit reset.",
-        "reasoningTokens": 46,
-        "totalTokens": 630,
-        "tweetId": "2086153754525712706",
-        "tweetText": "I would love to help, but I don’t work at Anthropic. \n\nIt does seem odd that they would ban your account for using their harness with another model.\n\nAnyone else in the same situation?",
-        "tweetUrl": "https://x.com/thsottiaux/status/2086153754525712706",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 462985,
-      "totalOutputTokens": 121913,
-      "totalReasoningTokens": 66928,
-      "totalTokens": 584898
+      "totalInputTokens": 463375,
+      "totalOutputTokens": 122023,
+      "totalReasoningTokens": 66994,
+      "totalTokens": 585398
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1786475046493,
+      "inputTokens": 390,
+      "message": "",
+      "outputTokens": 110,
+      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+      "reasoningTokens": 66,
+      "totalTokens": 500,
+      "tweetId": "2087252859087880257",
+      "tweetText": "@jxnlco Works because you have great ideas",
+      "tweetUrl": "https://x.com/thsottiaux/status/2087252859087880257",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1786475042718,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2085246081609171296",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1785992848772,
-      "inputTokens": 392,
-      "message": "",
-      "outputTokens": 66,
-      "rationale": "This is a conversational reply and does not mention any limit or cap reset.",
-      "reasoningTokens": 23,
-      "totalTokens": 458,
-      "tweetId": "2085229896968651198",
-      "tweetText": "@finkd Your plot is dark because you forgot Sol",
-      "tweetUrl": "https://x.com/thsottiaux/status/2085229896968651198",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "23IBKlSLdWmrqINY8dNn255743BY5HVlYzrGyLbSfuRZRFaT2GQ0ZmkzCg",
-    "iv": "-oC-ii8OF7GnmD4Y",
-    "tag": "7MEtyqMi6xI8n528QWZ3fA",
+    "ciphertext": "PIa2Al2aENp2A1VmiBc83G_jEVRwi-i-yxR8HzDbF5ptNmKPJC1u9KqJqw",
+    "iv": "NtgcbIBgK4KkPJWz",
+    "tag": "mgPt_X3hLAji_2UjJG4y9g",
     "version": 1
   }
 }
