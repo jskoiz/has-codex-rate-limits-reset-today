@@ -14,25 +14,38 @@
   "updatedAt": 1786408391912,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1786515612801,
-      "rationale": "This reply is just praise about Luna and does not mention limits or a reset.",
-      "tweetId": "2087422975935136252",
-      "tweetUrl": "https://x.com/thsottiaux/status/2087422975935136252",
-      "verdict": "not_reset"
+      "confidence": 0.94,
+      "decidedAt": 1786515915365,
+      "rationale": "It hints at a possible Codex reset tomorrow, but does not say limits have reset or are available again now.",
+      "tweetId": "2087423996115681767",
+      "tweetUrl": "https://x.com/thsottiaux/status/2087423996115681767",
+      "verdict": "uncertain"
     },
     "lastError": null,
-    "lastSeenTweetId": "2087422975935136252",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2087422975935136252",
+    "lastSeenTweetId": "2087423996115681767",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2087423996115681767",
     "pendingReview": {
-      "confidence": 0.93,
-      "createdAt": 1786514996909,
-      "rationale": "This reply is too context-dependent to tell whether it refers to a current limit reset.",
-      "tweetId": "2087420960223973675",
-      "tweetText": "@TheStalwart Already? Interesting",
-      "tweetUrl": "https://x.com/thsottiaux/status/2087420960223973675"
+      "confidence": 0.94,
+      "createdAt": 1786515915365,
+      "rationale": "It hints at a possible Codex reset tomorrow, but does not say limits have reset or are available again now.",
+      "tweetId": "2087423996115681767",
+      "tweetText": "I previously promised a reset for every 1M in additional active users for Codex, until 10M. \n\nWe blew past that and have been silent since 10M. Little surprise for you tomorrow.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2087423996115681767"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.94,
+        "evaluatedAt": 1786515915365,
+        "inputTokens": 425,
+        "outputTokens": 280,
+        "rationale": "It hints at a possible Codex reset tomorrow, but does not say limits have reset or are available again now.",
+        "reasoningTokens": 229,
+        "totalTokens": 705,
+        "tweetId": "2087423996115681767",
+        "tweetText": "I previously promised a reset for every 1M in additional active users for Codex, until 10M. \n\nWe blew past that and have been silent since 10M. Little surprise for you tomorrow.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2087423996115681767",
+        "verdict": "uncertain"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1786515612801,
@@ -279,29 +292,31 @@
         "tweetText": "Midnight coding is the best coding. Until you read the code the next day at least.",
         "tweetUrl": "https://x.com/thsottiaux/status/2086353229894529148",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1786240320124,
-        "inputTokens": 397,
-        "outputTokens": 80,
-        "rationale": "This is a joking reply and does not mention limits, caps, or a reset.",
-        "reasoningTokens": 35,
-        "totalTokens": 477,
-        "tweetId": "2086268347319243025",
-        "tweetText": "@ryanbrewer @kobex___ I also turn into interactive spreadsheets at times",
-        "tweetUrl": "https://x.com/thsottiaux/status/2086268347319243025",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 465857,
-      "totalOutputTokens": 122685,
-      "totalReasoningTokens": 67386,
-      "totalTokens": 588542
+      "totalInputTokens": 466282,
+      "totalOutputTokens": 122965,
+      "totalReasoningTokens": 67615,
+      "totalTokens": 589247
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.94,
+      "createdAt": 1786515915365,
+      "inputTokens": 425,
+      "message": "",
+      "outputTokens": 280,
+      "rationale": "It hints at a possible Codex reset tomorrow, but does not say limits have reset or are available again now.",
+      "reasoningTokens": 229,
+      "totalTokens": 705,
+      "tweetId": "2087423996115681767",
+      "tweetText": "I previously promised a reset for every 1M in additional active users for Codex, until 10M. \n\nWe blew past that and have been silent since 10M. Little surprise for you tomorrow.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2087423996115681767",
+      "type": "review_requested",
+      "verdict": "uncertain"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1786515612801,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2085918244276510988",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1786140715148,
-      "inputTokens": 423,
-      "message": "",
-      "outputTokens": 71,
-      "rationale": "This is promotional language about a product experience, not an announcement that limits or caps have reset.",
-      "reasoningTokens": 24,
-      "totalTokens": 494,
-      "tweetId": "2085850908559298732",
-      "tweetText": "Somewhere on your phone you have the closest thing to magic we have shipped. It does things for you. All day if you want. Go try it. https://t.co/uGlzqntaki",
-      "tweetUrl": "https://x.com/thsottiaux/status/2085850908559298732",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "5Ho2nZKpsen6xWkBJAcYAzP3ByQ4W1C508jKyXdNiiD3OAfeU4r5Z_gY8Q",
-    "iv": "kqUHqEC5PBKNc6iV",
-    "tag": "RjRi4xyjF1nLNHex9q9Afg",
+    "ciphertext": "EL3BzDT_7WHYgSkulwg_57JxYMqd7aeDbQWMvrRwI2Mv-CiyRMZQTxRn6g",
+    "iv": "X04t5Oe_KC2Xbas3",
+    "tag": "t1wtf9FYJisZGNZB0Gm0TQ",
     "version": 1
   }
 }
