@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1786519640635,
-      "rationale": "This reply is about shipping Linux support, not any limit or rate-limit reset.",
-      "tweetId": "2087439859493617908",
-      "tweetUrl": "https://x.com/thsottiaux/status/2087439859493617908",
+      "decidedAt": 1786560815228,
+      "rationale": "This is just a conversational reply and says nothing about limits or resets.",
+      "tweetId": "2087612441123569930",
+      "tweetUrl": "https://x.com/thsottiaux/status/2087612441123569930",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2087439859493617908",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2087439859493617908",
+    "lastSeenTweetId": "2087612441123569930",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2087612441123569930",
     "pendingReview": {
       "confidence": 0.94,
       "createdAt": 1786515915365,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2087423996115681767"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1786560815228,
+        "inputTokens": 387,
+        "outputTokens": 82,
+        "rationale": "This is just a conversational reply and says nothing about limits or resets.",
+        "reasoningTokens": 40,
+        "totalTokens": 469,
+        "tweetId": "2087612441123569930",
+        "tweetText": "@ajambrosino oh hi",
+        "tweetUrl": "https://x.com/thsottiaux/status/2087612441123569930",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1786519640635,
@@ -279,29 +292,31 @@
         "tweetText": "Hi.\n\nIt is done.",
         "tweetUrl": "https://x.com/thsottiaux/status/2086972802457063486",
         "verdict": "reset_confirmed"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1786384857923,
-        "inputTokens": 557,
-        "outputTokens": 86,
-        "rationale": "This post is a product announcement about cybersecurity access tiers and GPT-5.6-Cyber, not a rate-limit reset.",
-        "reasoningTokens": 32,
-        "totalTokens": 643,
-        "tweetId": "2086874565909815403",
-        "tweetText": "Cybersecurity is changing rapidly. \n\nTo help accelerate defense, we are broadening access to frontier cyber capabilities through the new Daybreak Blue & Red access tiers and are introducing a new model GPT-5.6-Cyber.\n\nIf you don't know where to start, a good step is to contact one of our partners who can use our latest cyber models to help you find issues, patch them quickly, do pentesting, etc.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2086874565909815403",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 467854,
-      "totalOutputTokens": 123306,
-      "totalReasoningTokens": 67783,
-      "totalTokens": 591160
+      "totalInputTokens": 468241,
+      "totalOutputTokens": 123388,
+      "totalReasoningTokens": 67823,
+      "totalTokens": 591629
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1786560815228,
+      "inputTokens": 387,
+      "message": "",
+      "outputTokens": 82,
+      "rationale": "This is just a conversational reply and says nothing about limits or resets.",
+      "reasoningTokens": 40,
+      "totalTokens": 469,
+      "tweetId": "2087612441123569930",
+      "tweetText": "@ajambrosino oh hi",
+      "tweetUrl": "https://x.com/thsottiaux/status/2087612441123569930",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1786519640635,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2085934681099485382",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1786160188372,
-      "inputTokens": 398,
-      "message": "",
-      "outputTokens": 66,
-      "rationale": "This post is unrelated to rate limits or usage resets.",
-      "reasoningTokens": 27,
-      "totalTokens": 464,
-      "tweetId": "2085932920188072013",
-      "tweetText": "Astro Boy and Sol https://t.co/41S3qXca91",
-      "tweetUrl": "https://x.com/thsottiaux/status/2085932920188072013",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "jU_HKtDFLaW2fLK0HedgricKuYBGLLo-WrVltqP2LB9oYlmnatOrxIx9tA",
-    "iv": "Gez4UrBkBRq08Rvh",
-    "tag": "hVRlvfKexmWSBt4jixxyQw",
+    "ciphertext": "YOBxyqOi81mEGU--V-aJ6eJLBJusd-X5-75Ar5ojiZo6PSwZLJ7NP66S9A",
+    "iv": "Es3iC_TSXd4RAGX_",
+    "tag": "a16Pjxf3f4c6f3S60AKp6w",
     "version": 1
   }
 }
