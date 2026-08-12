@@ -14,16 +14,16 @@
   "updatedAt": 1786408391912,
   "automation": {
     "lastDecision": {
-      "confidence": 0.93,
-      "decidedAt": 1786514996909,
-      "rationale": "This reply is too context-dependent to tell whether it refers to a current limit reset.",
-      "tweetId": "2087420960223973675",
-      "tweetUrl": "https://x.com/thsottiaux/status/2087420960223973675",
-      "verdict": "uncertain"
+      "confidence": 0.99,
+      "decidedAt": 1786515297732,
+      "rationale": "This reply just says congratulations and does not mention limits or availability.",
+      "tweetId": "2087421146862121101",
+      "tweetUrl": "https://x.com/thsottiaux/status/2087421146862121101",
+      "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2087420960223973675",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2087420960223973675",
+    "lastSeenTweetId": "2087421146862121101",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2087421146862121101",
     "pendingReview": {
       "confidence": 0.93,
       "createdAt": 1786514996909,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2087420960223973675"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1786515297732,
+        "inputTokens": 387,
+        "outputTokens": 67,
+        "rationale": "This reply just says congratulations and does not mention limits or availability.",
+        "reasoningTokens": 26,
+        "totalTokens": 454,
+        "tweetId": "2087421146862121101",
+        "tweetText": "@ZixuanLi_ Congrats",
+        "tweetUrl": "https://x.com/thsottiaux/status/2087421146862121101",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.93,
         "evaluatedAt": 1786514996909,
@@ -279,29 +292,31 @@
         "tweetText": "@alexgetmancom yw",
         "tweetUrl": "https://x.com/thsottiaux/status/2086241500690866580",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.97,
-        "evaluatedAt": 1786221454508,
-        "inputTokens": 392,
-        "outputTokens": 191,
-        "rationale": "It mentions a future reset on Monday, not that limits have reset now.",
-        "reasoningTokens": 148,
-        "totalTokens": 583,
-        "tweetId": "2086189414292865249",
-        "tweetText": "@rxmphai I'll do another performative reset on Monday",
-        "tweetUrl": "https://x.com/thsottiaux/status/2086189414292865249",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 464686,
-      "totalOutputTokens": 122426,
-      "totalReasoningTokens": 67258,
-      "totalTokens": 587112
+      "totalInputTokens": 465073,
+      "totalOutputTokens": 122493,
+      "totalReasoningTokens": 67284,
+      "totalTokens": 587566
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1786515297732,
+      "inputTokens": 387,
+      "message": "",
+      "outputTokens": 67,
+      "rationale": "This reply just says congratulations and does not mention limits or availability.",
+      "reasoningTokens": 26,
+      "totalTokens": 454,
+      "tweetId": "2087421146862121101",
+      "tweetText": "@ZixuanLi_ Congrats",
+      "tweetUrl": "https://x.com/thsottiaux/status/2087421146862121101",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.93,
       "createdAt": 1786514996909,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2085610231707623750",
       "type": "reset_confirmed",
       "verdict": "reset_confirmed"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1786083359307,
-      "inputTokens": 409,
-      "message": "",
-      "outputTokens": 72,
-      "rationale": "This post is just a typo joke and says nothing about limits or a reset.",
-      "reasoningTokens": 28,
-      "totalTokens": 481,
-      "tweetId": "2085610005768945984",
-      "tweetText": "I meant to say \"ghiblify\", but I said \"gimlify\" https://t.co/ZibIfuX99D",
-      "tweetUrl": "https://x.com/thsottiaux/status/2085610005768945984",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "YqGikbadFr0NSJ2fXOTsuZjv47zOUOkf_lADUFCUiVibEm0u9KmP1oaKZA",
-    "iv": "GPLY7XZVIgjcZhf9",
-    "tag": "KU3FxuB8RLSJZmycZWtSOg",
+    "ciphertext": "zZBReJSJfEYPaSr18MNv_QEB3_59AM22DCvQr8Kzx2hEpXGtpsF5Z1XCGQ",
+    "iv": "RWJeefguTQDOB8nd",
+    "tag": "CYM-OqCxL9BA3qxnNEeHQw",
     "version": 1
   }
 }
