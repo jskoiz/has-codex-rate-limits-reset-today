@@ -14,16 +14,16 @@
   "updatedAt": 1786408391912,
   "automation": {
     "lastDecision": {
-      "confidence": 0.94,
-      "decidedAt": 1786515915365,
-      "rationale": "It hints at a possible Codex reset tomorrow, but does not say limits have reset or are available again now.",
-      "tweetId": "2087423996115681767",
-      "tweetUrl": "https://x.com/thsottiaux/status/2087423996115681767",
-      "verdict": "uncertain"
+      "confidence": 0.99,
+      "decidedAt": 1786516226671,
+      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+      "tweetId": "2087424641484890587",
+      "tweetUrl": "https://x.com/thsottiaux/status/2087424641484890587",
+      "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2087423996115681767",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2087423996115681767",
+    "lastSeenTweetId": "2087424641484890587",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2087424641484890587",
     "pendingReview": {
       "confidence": 0.94,
       "createdAt": 1786515915365,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2087423996115681767"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1786516226671,
+        "inputTokens": 387,
+        "outputTokens": 85,
+        "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+        "reasoningTokens": 41,
+        "totalTokens": 472,
+        "tweetId": "2087424641484890587",
+        "tweetText": "@rezoundous Make them dance",
+        "tweetUrl": "https://x.com/thsottiaux/status/2087424641484890587",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.94,
         "evaluatedAt": 1786515915365,
@@ -279,29 +292,31 @@
         "tweetText": "@maria_rcks Good morning",
         "tweetUrl": "https://x.com/thsottiaux/status/2086800050630676504",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1786260512428,
-        "inputTokens": 399,
-        "outputTokens": 59,
-        "rationale": "This is a casual remark about coding and does not mention any limits or resets.",
-        "reasoningTokens": 15,
-        "totalTokens": 458,
-        "tweetId": "2086353229894529148",
-        "tweetText": "Midnight coding is the best coding. Until you read the code the next day at least.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2086353229894529148",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 466282,
-      "totalOutputTokens": 122965,
-      "totalReasoningTokens": 67615,
-      "totalTokens": 589247
+      "totalInputTokens": 466669,
+      "totalOutputTokens": 123050,
+      "totalReasoningTokens": 67656,
+      "totalTokens": 589719
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1786516226671,
+      "inputTokens": 387,
+      "message": "",
+      "outputTokens": 85,
+      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+      "reasoningTokens": 41,
+      "totalTokens": 472,
+      "tweetId": "2087424641484890587",
+      "tweetText": "@rezoundous Make them dance",
+      "tweetUrl": "https://x.com/thsottiaux/status/2087424641484890587",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.94,
       "createdAt": 1786515915365,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2085926373303164961",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1786156765736,
-      "inputTokens": 392,
-      "message": "",
-      "outputTokens": 84,
-      "rationale": "This reply is conversational and does not mention limits or a reset.",
-      "reasoningTokens": 43,
-      "totalTokens": 476,
-      "tweetId": "2085918244276510988",
-      "tweetText": "@charliermarsh @mycoliza Always a way",
-      "tweetUrl": "https://x.com/thsottiaux/status/2085918244276510988",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "EL3BzDT_7WHYgSkulwg_57JxYMqd7aeDbQWMvrRwI2Mv-CiyRMZQTxRn6g",
-    "iv": "X04t5Oe_KC2Xbas3",
-    "tag": "t1wtf9FYJisZGNZB0Gm0TQ",
+    "ciphertext": "eX5oeNvTdq4t7TCgzOtGSx4WT0EowcuAFR1hQSO-LjmE5yQv0lD09nihIA",
+    "iv": "u6raWyQKbw7wPOM6",
+    "tag": "bNtAHhNqvNmTn1rbTPOZQA",
     "version": 1
   }
 }
