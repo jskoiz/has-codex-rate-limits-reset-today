@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1786560818938,
-      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-      "tweetId": "2087613056708972955",
-      "tweetUrl": "https://x.com/thsottiaux/status/2087613056708972955",
+      "decidedAt": 1786561125870,
+      "rationale": "This is a conversational comment about a team and says nothing about limits or resets.",
+      "tweetId": "2087614555203809395",
+      "tweetUrl": "https://x.com/thsottiaux/status/2087614555203809395",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2087613056708972955",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2087613056708972955",
+    "lastSeenTweetId": "2087614555203809395",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2087614555203809395",
     "pendingReview": {
       "confidence": 0.94,
       "createdAt": 1786515915365,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2087423996115681767"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1786561125870,
+        "inputTokens": 438,
+        "outputTokens": 63,
+        "rationale": "This is a conversational comment about a team and says nothing about limits or resets.",
+        "reasoningTokens": 19,
+        "totalTokens": 501,
+        "tweetId": "2087614555203809395",
+        "tweetText": "Typical conversation with @ajambrosino \n\nA: core alignment has been reached\nT: core alignment you say\nA: i say\nT: say more\nA: more\n\nAnd yet I’ve never been more excited about what him and the team are building.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2087614555203809395",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1786560818938,
@@ -279,29 +292,31 @@
         "tweetText": "@AdamHoltererer You win the internet today",
         "tweetUrl": "https://x.com/thsottiaux/status/2086985239549907221",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1786408391912,
-        "inputTokens": 408,
-        "outputTokens": 95,
-        "rationale": "The tweet explicitly says usage limits have been reset for all paid ChatGPT Work and Codex users.",
-        "reasoningTokens": 46,
-        "totalTokens": 503,
-        "tweetId": "2086972933566857393",
-        "tweetText": "Usage limits have been reset for all paid ChatGPT Work and Codex users. Happy Monday you all. Hope it is a fantastic week.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2086972933566857393",
-        "verdict": "reset_confirmed"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 468630,
-      "totalOutputTokens": 123472,
-      "totalReasoningTokens": 67863,
-      "totalTokens": 592102
+      "totalInputTokens": 469068,
+      "totalOutputTokens": 123535,
+      "totalReasoningTokens": 67882,
+      "totalTokens": 592603
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1786561125870,
+      "inputTokens": 438,
+      "message": "",
+      "outputTokens": 63,
+      "rationale": "This is a conversational comment about a team and says nothing about limits or resets.",
+      "reasoningTokens": 19,
+      "totalTokens": 501,
+      "tweetId": "2087614555203809395",
+      "tweetText": "Typical conversation with @ajambrosino \n\nA: core alignment has been reached\nT: core alignment you say\nA: i say\nT: say more\nA: more\n\nAnd yet I’ve never been more excited about what him and the team are building.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2087614555203809395",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1786560818938,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2085943554027978822",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1786161418060,
-      "inputTokens": 389,
-      "message": "",
-      "outputTokens": 89,
-      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-      "reasoningTokens": 45,
-      "totalTokens": 478,
-      "tweetId": "2085937262043546037",
-      "tweetText": "@NickADobos Your friends have computers too",
-      "tweetUrl": "https://x.com/thsottiaux/status/2085937262043546037",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "yDfwSdJOlhLsNtHPAtUtFxEmCrlmRSFT9pKpnmHClkwd244f1nGoO_6dTA",
-    "iv": "Ec5irIGEzoz2vCnc",
-    "tag": "tT8u9QlrvMrLHOdMGz5B8g",
+    "ciphertext": "GoSV20gGDiHEjGW8jR0b3zaMsULTbPJOJgZCkR5XNLK4cfduDhTn2XhbNw",
+    "iv": "k4mfgYrDXQjkni0S",
+    "tag": "gKSzPVY8hQ3SCxtuy5Caxw",
     "version": 1
   }
 }
