@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1786516229428,
-      "rationale": "This reply does not mention rate limits, caps, or any reset.",
-      "tweetId": "2087425764581142567",
-      "tweetUrl": "https://x.com/thsottiaux/status/2087425764581142567",
+      "decidedAt": 1786519319455,
+      "rationale": "This is a conversational question and does not say limits or caps have reset.",
+      "tweetId": "2087438544323420273",
+      "tweetUrl": "https://x.com/thsottiaux/status/2087438544323420273",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2087425764581142567",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2087425764581142567",
+    "lastSeenTweetId": "2087438544323420273",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2087438544323420273",
     "pendingReview": {
       "confidence": 0.94,
       "createdAt": 1786515915365,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2087423996115681767"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1786519319455,
+        "inputTokens": 408,
+        "outputTokens": 82,
+        "rationale": "This is a conversational question and does not say limits or caps have reset.",
+        "reasoningTokens": 39,
+        "totalTokens": 490,
+        "tweetId": "2087438544323420273",
+        "tweetText": "Why did you switch to Codex? \n\nWhat do you like about it and what could we improve? Don’t say reset.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2087438544323420273",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1786516229428,
@@ -279,29 +292,31 @@
         "tweetText": "Cybersecurity is changing rapidly. \n\nTo help accelerate defense, we are broadening access to frontier cyber capabilities through the new Daybreak Blue & Red access tiers and are introducing a new model GPT-5.6-Cyber.\n\nIf you don't know where to start, a good step is to contact one of our maybe partners who can use our latest cyber models to help you find issues, patch them quickly, do pentesting, etc.",
         "tweetUrl": "https://x.com/thsottiaux/status/2086873743138427262",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.83,
-        "evaluatedAt": 1786367222402,
-        "inputTokens": 399,
-        "outputTokens": 152,
-        "rationale": "This reply mentions a \"reset\" but does not clearly say Codex or ChatGPT limits are available again now.",
-        "reasoningTokens": 101,
-        "totalTokens": 551,
-        "tweetId": "2086800639120888014",
-        "tweetText": "@hqmank Just like any other reset, but picture me doing a little dance with it",
-        "tweetUrl": "https://x.com/thsottiaux/status/2086800639120888014",
-        "verdict": "uncertain"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 467055,
-      "totalOutputTokens": 123128,
-      "totalReasoningTokens": 67692,
-      "totalTokens": 590183
+      "totalInputTokens": 467463,
+      "totalOutputTokens": 123210,
+      "totalReasoningTokens": 67731,
+      "totalTokens": 590673
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1786519319455,
+      "inputTokens": 408,
+      "message": "",
+      "outputTokens": 82,
+      "rationale": "This is a conversational question and does not say limits or caps have reset.",
+      "reasoningTokens": 39,
+      "totalTokens": 490,
+      "tweetId": "2087438544323420273",
+      "tweetText": "Why did you switch to Codex? \n\nWhat do you like about it and what could we improve? Don’t say reset.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2087438544323420273",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1786516229428,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2085927690041991580",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1786158924811,
-      "inputTokens": 386,
-      "message": "",
-      "outputTokens": 68,
-      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-      "reasoningTokens": 24,
-      "totalTokens": 454,
-      "tweetId": "2085926986225164529",
-      "tweetText": "@argofowl nice try",
-      "tweetUrl": "https://x.com/thsottiaux/status/2085926986225164529",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "5shcwf7SM77eOB3Wd3c6EkQ3K8FKcTX4x0J1s9J3fFjOaMdecdYJ0DALiQ",
-    "iv": "DAZbcOOvZXum2Bq4",
-    "tag": "49JXUkowFeDAmlJ_thxX4Q",
+    "ciphertext": "DdDP5m5ayGGozYNoQSxjBA2JOcChsDfosHi0Q8Sk_f-1jWk3_vt7RZfDsg",
+    "iv": "qB9BZw59Pq8LtIQj",
+    "tag": "5aVT0NsB-SEQE7_Yk4hPcg",
     "version": 1
   }
 }
