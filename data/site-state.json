@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1786560815228,
-      "rationale": "This is just a conversational reply and says nothing about limits or resets.",
-      "tweetId": "2087612441123569930",
-      "tweetUrl": "https://x.com/thsottiaux/status/2087612441123569930",
+      "decidedAt": 1786560818938,
+      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+      "tweetId": "2087613056708972955",
+      "tweetUrl": "https://x.com/thsottiaux/status/2087613056708972955",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2087612441123569930",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2087612441123569930",
+    "lastSeenTweetId": "2087613056708972955",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2087613056708972955",
     "pendingReview": {
       "confidence": 0.94,
       "createdAt": 1786515915365,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2087423996115681767"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1786560818938,
+        "inputTokens": 389,
+        "outputTokens": 84,
+        "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+        "reasoningTokens": 40,
+        "totalTokens": 473,
+        "tweetId": "2087613056708972955",
+        "tweetText": "@vocci_ai Thanks for the free advertisement!",
+        "tweetUrl": "https://x.com/thsottiaux/status/2087613056708972955",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1786560815228,
@@ -279,29 +292,31 @@
         "tweetText": "Usage limits have been reset for all paid ChatGPT Work and Codex users. Happy Monday you all. Hope it is a fantastic week.",
         "tweetUrl": "https://x.com/thsottiaux/status/2086972933566857393",
         "verdict": "reset_confirmed"
-      },
-      {
-        "confidence": 0.96,
-        "evaluatedAt": 1786408082110,
-        "inputTokens": 425,
-        "outputTokens": 132,
-        "rationale": "The quoted post asks about a reset, and this tweet replies \"It is done,\" directly confirming it has happened.",
-        "reasoningTokens": 80,
-        "totalTokens": 557,
-        "tweetId": "2086972802457063486",
-        "tweetText": "Hi.\n\nIt is done.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2086972802457063486",
-        "verdict": "reset_confirmed"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 468241,
-      "totalOutputTokens": 123388,
-      "totalReasoningTokens": 67823,
-      "totalTokens": 591629
+      "totalInputTokens": 468630,
+      "totalOutputTokens": 123472,
+      "totalReasoningTokens": 67863,
+      "totalTokens": 592102
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1786560818938,
+      "inputTokens": 389,
+      "message": "",
+      "outputTokens": 84,
+      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+      "reasoningTokens": 40,
+      "totalTokens": 473,
+      "tweetId": "2087613056708972955",
+      "tweetText": "@vocci_ai Thanks for the free advertisement!",
+      "tweetUrl": "https://x.com/thsottiaux/status/2087613056708972955",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1786560815228,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2085937262043546037",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1786160802891,
-      "inputTokens": 387,
-      "message": "",
-      "outputTokens": 76,
-      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-      "reasoningTokens": 32,
-      "totalTokens": 463,
-      "tweetId": "2085934681099485382",
-      "tweetText": "@rezoundous And that is?",
-      "tweetUrl": "https://x.com/thsottiaux/status/2085934681099485382",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "YOBxyqOi81mEGU--V-aJ6eJLBJusd-X5-75Ar5ojiZo6PSwZLJ7NP66S9A",
-    "iv": "Es3iC_TSXd4RAGX_",
-    "tag": "a16Pjxf3f4c6f3S60AKp6w",
+    "ciphertext": "yDfwSdJOlhLsNtHPAtUtFxEmCrlmRSFT9pKpnmHClkwd244f1nGoO_6dTA",
+    "iv": "Ec5irIGEzoz2vCnc",
+    "tag": "tT8u9QlrvMrLHOdMGz5B8g",
     "version": 1
   }
 }
