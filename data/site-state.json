@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1786603668905,
-      "rationale": "This reply is conversational and does not mention any limit, cap, or reset.",
-      "tweetId": "2087792567719252193",
-      "tweetUrl": "https://x.com/thsottiaux/status/2087792567719252193",
+      "decidedAt": 1786643679244,
+      "rationale": "This reply is just troubleshooting and does not say limits have reset or are available again.",
+      "tweetId": "2087960561728569362",
+      "tweetUrl": "https://x.com/thsottiaux/status/2087960561728569362",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2087792567719252193",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2087792567719252193",
+    "lastSeenTweetId": "2087960561728569362",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2087960561728569362",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1786643679244,
+        "inputTokens": 393,
+        "outputTokens": 97,
+        "rationale": "This reply is just troubleshooting and does not say limits have reset or are available again.",
+        "reasoningTokens": 52,
+        "totalTokens": 490,
+        "tweetId": "2087960561728569362",
+        "tweetText": "@senbuilds That seems odd, let me look into it",
+        "tweetUrl": "https://x.com/thsottiaux/status/2087960561728569362",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1786603668905,
@@ -272,29 +285,31 @@
         "tweetText": "@jxnlco Works because you have great ideas",
         "tweetUrl": "https://x.com/thsottiaux/status/2087252859087880257",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1786475042718,
-        "inputTokens": 389,
-        "outputTokens": 81,
-        "rationale": "This reply is just a conversational question and does not mention limits or a reset.",
-        "reasoningTokens": 37,
-        "totalTokens": 470,
-        "tweetId": "2087252623611318503",
-        "tweetText": "@ajambrosino What does he mean",
-        "tweetUrl": "https://x.com/thsottiaux/status/2087252623611318503",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 470765,
-      "totalOutputTokens": 123922,
-      "totalReasoningTokens": 68084,
-      "totalTokens": 594687
+      "totalInputTokens": 471158,
+      "totalOutputTokens": 124019,
+      "totalReasoningTokens": 68136,
+      "totalTokens": 595177
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1786643679244,
+      "inputTokens": 393,
+      "message": "",
+      "outputTokens": 97,
+      "rationale": "This reply is just troubleshooting and does not say limits have reset or are available again.",
+      "reasoningTokens": 52,
+      "totalTokens": 490,
+      "tweetId": "2087960561728569362",
+      "tweetText": "@senbuilds That seems odd, let me look into it",
+      "tweetUrl": "https://x.com/thsottiaux/status/2087960561728569362",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1786603668905,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2086186284528374095",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1786213075675,
-      "inputTokens": 537,
-      "message": "",
-      "outputTokens": 93,
-      "rationale": "This post discusses an Anthropic account suspension, not any Codex or ChatGPT limit reset.",
-      "reasoningTokens": 46,
-      "totalTokens": 630,
-      "tweetId": "2086153754525712706",
-      "tweetText": "I would love to help, but I don’t work at Anthropic. \n\nIt does seem odd that they would ban your account for using their harness with another model.\n\nAnyone else in the same situation?",
-      "tweetUrl": "https://x.com/thsottiaux/status/2086153754525712706",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "YP5O92OGKItXTxwteaZY-zec8Xc4TUih_PnW7lDHO3mFbCPzHhE4ATOSaw",
-    "iv": "koJLNmzLmiTofTzJ",
-    "tag": "UYWFJrtYgoYImpcAG0DWRg",
+    "ciphertext": "qq7InInS9Abl5aOcdAYxXHrwNLELEIo94wpm_woZ3vrNe3kESuGt3i_jww",
+    "iv": "4FZE1LsLH8Aj-ck_",
+    "tag": "uRe7-a3Ajd6NZYILHxfjvw",
     "version": 1
   }
 }
