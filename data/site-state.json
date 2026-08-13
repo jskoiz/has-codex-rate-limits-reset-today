@@ -1,5 +1,5 @@
 {
-  "currentState": "yes",
+  "currentState": "no",
   "autoResetHours": 20,
   "noSubtitles": [
     "Back to your local model peasant",
@@ -10,22 +10,35 @@
     "Limits reset, go crazy",
     "You can just build things"
   ],
-  "resetAt": 1786655136086,
+  "resetAt": null,
   "updatedAt": 1786583136086,
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1786643990492,
-      "rationale": "This reply is just conversational and does not mention any limit, cap, or reset.",
-      "tweetId": "2087961114168664288",
-      "tweetUrl": "https://x.com/thsottiaux/status/2087961114168664288",
+      "decidedAt": 1786657347968,
+      "rationale": "This post and its quoted tweet announce a feature, not a rate-limit or usage-cap reset.",
+      "tweetId": "2088017529587573025",
+      "tweetUrl": "https://x.com/thsottiaux/status/2088017529587573025",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2087961114168664288",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2087961114168664288",
+    "lastSeenTweetId": "2088017529587573025",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2088017529587573025",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1786657347968,
+        "inputTokens": 463,
+        "outputTokens": 117,
+        "rationale": "This post and its quoted tweet announce a feature, not a rate-limit or usage-cap reset.",
+        "reasoningTokens": 70,
+        "totalTokens": 580,
+        "tweetId": "2088017529587573025",
+        "tweetText": "Computer history is here.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2088017529587573025",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1786643990492,
@@ -272,29 +285,31 @@
         "tweetText": "@arthurkatcher No comment on the rest, but yes, you should try Codex and give me your feedback.\n\nTeam is on a roll.",
         "tweetUrl": "https://x.com/thsottiaux/status/2087254340079915272",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1786475344105,
-        "inputTokens": 512,
-        "outputTokens": 79,
-        "rationale": "This post and its quoted tweet announce Linux desktop app availability, not any limit or rate-limit reset.",
-        "reasoningTokens": 31,
-        "totalTokens": 591,
-        "tweetId": "2087254026232775052",
-        "tweetText": "We did it, finally... Codex &amp; ChatGPT desktop, now on Linux. \n\nThanks for waiting and you can cancel that MacBook order if you got impatient. It’s that good.\n\n👀",
-        "tweetUrl": "https://x.com/thsottiaux/status/2087254026232775052",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 471549,
-      "totalOutputTokens": 124086,
-      "totalReasoningTokens": 68158,
-      "totalTokens": 595635
+      "totalInputTokens": 472012,
+      "totalOutputTokens": 124203,
+      "totalReasoningTokens": 68228,
+      "totalTokens": 596215
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1786657347968,
+      "inputTokens": 463,
+      "message": "",
+      "outputTokens": 117,
+      "rationale": "This post and its quoted tweet announce a feature, not a rate-limit or usage-cap reset.",
+      "reasoningTokens": 70,
+      "totalTokens": 580,
+      "tweetId": "2088017529587573025",
+      "tweetText": "Computer history is here.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2088017529587573025",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1786643990492,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2086189075351130251",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1786221117755,
-      "inputTokens": 527,
-      "message": "",
-      "outputTokens": 99,
-      "rationale": "The tweet explicitly states that usage limits have been reset for all paid ChatGPT Work and Codex users.",
-      "reasoningTokens": 49,
-      "totalTokens": 626,
-      "tweetId": "2086188036493344823",
-      "tweetText": "That's right, GPT-5.6 Sol is awesome and can be used pretty much anywhere, including in the CC harness. \n\nTo celebrate this, together with the fact that I'm not going anywhere... I have reset usage limits for all paid users of ChatGPT Work and Codex. \n\nHave fun out there!",
-      "tweetUrl": "https://x.com/thsottiaux/status/2086188036493344823",
-      "type": "reset_confirmed",
-      "verdict": "reset_confirmed"
     }
   ],
   "privateState": {
-    "ciphertext": "IqIC4ogdv9pXk8I5LUfbNwJ6i_ldScUQR9Zi0KdAltireME4z7kVe_VHdQ",
-    "iv": "UTU6fmR5SYR1f294",
-    "tag": "3JHl-KS22TMXoBlErfyAHA",
+    "ciphertext": "GG2SQgiEzA-uWCmtsOIvZO7O3qBzhgiHdJ8flHaG4hSeokA-eI_BQ8BAVQ",
+    "iv": "ooCSXBrk9GRf0Kk0",
+    "tag": "qXJH1vyLO_haOuuQ-FoIdg",
     "version": 1
   }
 }
