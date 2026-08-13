@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1786603665910,
-      "rationale": "This is just a congratulatory reply and does not mention limits or a reset.",
-      "tweetId": "2087792302429556805",
-      "tweetUrl": "https://x.com/thsottiaux/status/2087792302429556805",
+      "decidedAt": 1786603668905,
+      "rationale": "This reply is conversational and does not mention any limit, cap, or reset.",
+      "tweetId": "2087792567719252193",
+      "tweetUrl": "https://x.com/thsottiaux/status/2087792567719252193",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2087792302429556805",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2087792302429556805",
+    "lastSeenTweetId": "2087792567719252193",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2087792567719252193",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1786603668905,
+        "inputTokens": 388,
+        "outputTokens": 79,
+        "rationale": "This reply is conversational and does not mention any limit, cap, or reset.",
+        "reasoningTokens": 35,
+        "totalTokens": 467,
+        "tweetId": "2087792567719252193",
+        "tweetText": "@maria_rcks Nice model sizes",
+        "tweetUrl": "https://x.com/thsottiaux/status/2087792567719252193",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1786603665910,
@@ -272,29 +285,31 @@
         "tweetText": "@ajambrosino What does he mean",
         "tweetUrl": "https://x.com/thsottiaux/status/2087252623611318503",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1786475038449,
-        "inputTokens": 489,
-        "outputTokens": 110,
-        "rationale": "This post promotes a Codex/ChatGPT feature and does not mention limits or a reset.",
-        "reasoningTokens": 63,
-        "totalTokens": 599,
-        "tweetId": "2087252528513814773",
-        "tweetText": "Import your world. Codex. Run.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2087252528513814773",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 470377,
-      "totalOutputTokens": 123843,
-      "totalReasoningTokens": 68049,
-      "totalTokens": 594220
+      "totalInputTokens": 470765,
+      "totalOutputTokens": 123922,
+      "totalReasoningTokens": 68084,
+      "totalTokens": 594687
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1786603668905,
+      "inputTokens": 388,
+      "message": "",
+      "outputTokens": 79,
+      "rationale": "This reply is conversational and does not mention any limit, cap, or reset.",
+      "reasoningTokens": 35,
+      "totalTokens": 467,
+      "tweetId": "2087792567719252193",
+      "tweetText": "@maria_rcks Nice model sizes",
+      "tweetUrl": "https://x.com/thsottiaux/status/2087792567719252193",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1786603665910,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2086153754525712706",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1786164530686,
-      "inputTokens": 388,
-      "message": "",
-      "outputTokens": 75,
-      "rationale": "This reply is conversational and does not mention limits, caps, or availability resetting.",
-      "reasoningTokens": 31,
-      "totalTokens": 463,
-      "tweetId": "2085950401069945106",
-      "tweetText": "@AntoineMinoux Where is this",
-      "tweetUrl": "https://x.com/thsottiaux/status/2085950401069945106",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "YsM7FDIcz9kTkGBvJzmR4QF_qUOVKrlHdkW-kK_9sq5VupDAgTXtTZCnZg",
-    "iv": "HcYqGZMVczdKPWoS",
-    "tag": "KD9F3inu22kaeWrwCiqOHA",
+    "ciphertext": "YP5O92OGKItXTxwteaZY-zec8Xc4TUih_PnW7lDHO3mFbCPzHhE4ATOSaw",
+    "iv": "koJLNmzLmiTofTzJ",
+    "tag": "UYWFJrtYgoYImpcAG0DWRg",
     "version": 1
   }
 }
