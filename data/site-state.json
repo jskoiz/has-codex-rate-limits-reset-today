@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1786591874871,
-      "rationale": "This reply discusses model selection and settings, not any limit or rate-limit reset.",
-      "tweetId": "2087742538769924280",
-      "tweetUrl": "https://x.com/thsottiaux/status/2087742538769924280",
+      "decidedAt": 1786603665910,
+      "rationale": "This is just a congratulatory reply and does not mention limits or a reset.",
+      "tweetId": "2087792302429556805",
+      "tweetUrl": "https://x.com/thsottiaux/status/2087792302429556805",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2087742538769924280",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2087742538769924280",
+    "lastSeenTweetId": "2087792302429556805",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2087792302429556805",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1786603665910,
+        "inputTokens": 390,
+        "outputTokens": 84,
+        "rationale": "This is just a congratulatory reply and does not mention limits or a reset.",
+        "reasoningTokens": 40,
+        "totalTokens": 474,
+        "tweetId": "2087792302429556805",
+        "tweetText": "@thdxr Barely getting started. Congrats",
+        "tweetUrl": "https://x.com/thsottiaux/status/2087792302429556805",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1786591874871,
@@ -272,29 +285,31 @@
         "tweetText": "Import your world. Codex. Run.",
         "tweetUrl": "https://x.com/thsottiaux/status/2087252528513814773",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1786421389501,
-        "inputTokens": 396,
-        "outputTokens": 87,
-        "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-        "reasoningTokens": 43,
-        "totalTokens": 483,
-        "tweetId": "2087027830861521374",
-        "tweetText": "@echoed_gg @AdamHoltererer Use \"make no mistake\"",
-        "tweetUrl": "https://x.com/thsottiaux/status/2087027830861521374",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 469987,
-      "totalOutputTokens": 123759,
-      "totalReasoningTokens": 68009,
-      "totalTokens": 593746
+      "totalInputTokens": 470377,
+      "totalOutputTokens": 123843,
+      "totalReasoningTokens": 68049,
+      "totalTokens": 594220
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1786603665910,
+      "inputTokens": 390,
+      "message": "",
+      "outputTokens": 84,
+      "rationale": "This is just a congratulatory reply and does not mention limits or a reset.",
+      "reasoningTokens": 40,
+      "totalTokens": 474,
+      "tweetId": "2087792302429556805",
+      "tweetText": "@thdxr Barely getting started. Congrats",
+      "tweetUrl": "https://x.com/thsottiaux/status/2087792302429556805",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1786591874871,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2085950401069945106",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.19,
-      "createdAt": 1786163597329,
-      "inputTokens": 386,
-      "message": "",
-      "outputTokens": 173,
-      "rationale": "This reply just says “Yes” and does not clearly state that any limit has reset.",
-      "reasoningTokens": 127,
-      "totalTokens": 559,
-      "tweetId": "2085947378104991967",
-      "tweetText": "@Ananth7e Yes",
-      "tweetUrl": "https://x.com/thsottiaux/status/2085947378104991967",
-      "type": "review_requested",
-      "verdict": "uncertain"
     }
   ],
   "privateState": {
-    "ciphertext": "bITR1w1wvHJKAbl_SLK7RViwH7Evue5Le-PwHj0y5pm7NYIiirWIUB1_YQ",
-    "iv": "9mQeR6_D1ji1Kfsk",
-    "tag": "5IGJzJXaPWHLFuOqacEtrA",
+    "ciphertext": "YsM7FDIcz9kTkGBvJzmR4QF_qUOVKrlHdkW-kK_9sq5VupDAgTXtTZCnZg",
+    "iv": "HcYqGZMVczdKPWoS",
+    "tag": "KD9F3inu22kaeWrwCiqOHA",
     "version": 1
   }
 }
