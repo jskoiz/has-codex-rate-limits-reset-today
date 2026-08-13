@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1786657347968,
-      "rationale": "This post and its quoted tweet announce a feature, not a rate-limit or usage-cap reset.",
-      "tweetId": "2088017529587573025",
-      "tweetUrl": "https://x.com/thsottiaux/status/2088017529587573025",
+      "decidedAt": 1786657969099,
+      "rationale": "This is about previewing Ultrafast mode, not limits or a usage cap reset.",
+      "tweetId": "2088019704803897705",
+      "tweetUrl": "https://x.com/thsottiaux/status/2088019704803897705",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2088017529587573025",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2088017529587573025",
+    "lastSeenTweetId": "2088019704803897705",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2088019704803897705",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1786657969099,
+        "inputTokens": 478,
+        "outputTokens": 134,
+        "rationale": "This is about previewing Ultrafast mode, not limits or a usage cap reset.",
+        "reasoningTokens": 88,
+        "totalTokens": 612,
+        "tweetId": "2088019704803897705",
+        "tweetText": "Sometimes you have have to go /ultrafast.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2088019704803897705",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1786657347968,
@@ -272,29 +285,31 @@
         "tweetText": "@TheStalwart Already? Interesting",
         "tweetUrl": "https://x.com/thsottiaux/status/2087420960223973675",
         "verdict": "uncertain"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1786475347242,
-        "inputTokens": 411,
-        "outputTokens": 80,
-        "rationale": "This reply encourages trying Codex but does not mention limits, caps, or a reset.",
-        "reasoningTokens": 34,
-        "totalTokens": 491,
-        "tweetId": "2087254340079915272",
-        "tweetText": "@arthurkatcher No comment on the rest, but yes, you should try Codex and give me your feedback.\n\nTeam is on a roll.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2087254340079915272",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 472012,
-      "totalOutputTokens": 124203,
-      "totalReasoningTokens": 68228,
-      "totalTokens": 596215
+      "totalInputTokens": 472490,
+      "totalOutputTokens": 124337,
+      "totalReasoningTokens": 68316,
+      "totalTokens": 596827
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1786657969099,
+      "inputTokens": 478,
+      "message": "",
+      "outputTokens": 134,
+      "rationale": "This is about previewing Ultrafast mode, not limits or a usage cap reset.",
+      "reasoningTokens": 88,
+      "totalTokens": 612,
+      "tweetId": "2088019704803897705",
+      "tweetText": "Sometimes you have have to go /ultrafast.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2088019704803897705",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1786657347968,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2086189414292865249",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1786221445756,
-      "inputTokens": 385,
-      "message": "",
-      "outputTokens": 108,
-      "rationale": "This reply is just conversational and does not mention limits, caps, or usage being available again.",
-      "reasoningTokens": 61,
-      "totalTokens": 493,
-      "tweetId": "2086189075351130251",
-      "tweetText": "cc @theo",
-      "tweetUrl": "https://x.com/thsottiaux/status/2086189075351130251",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "GG2SQgiEzA-uWCmtsOIvZO7O3qBzhgiHdJ8flHaG4hSeokA-eI_BQ8BAVQ",
-    "iv": "ooCSXBrk9GRf0Kk0",
-    "tag": "qXJH1vyLO_haOuuQ-FoIdg",
+    "ciphertext": "67wOMtHFTxLBsZsf32OERmHAVDcYaJ883W6NPlKHqjMK9v3b9GuhIkQh_w",
+    "iv": "jWSKHDWCnODqpN3E",
+    "tag": "M97tdv_b9uLZ5hyJxg0vrw",
     "version": 1
   }
 }
