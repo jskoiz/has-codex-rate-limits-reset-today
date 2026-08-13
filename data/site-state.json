@@ -1,5 +1,5 @@
 {
-  "currentState": "no",
+  "currentState": "yes",
   "autoResetHours": 20,
   "noSubtitles": [
     "Back to your local model peasant",
@@ -10,29 +10,35 @@
     "Limits reset, go crazy",
     "You can just build things"
   ],
-  "resetAt": null,
-  "updatedAt": 1786408391912,
+  "resetAt": 1786655136086,
+  "updatedAt": 1786583136086,
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1786561125870,
-      "rationale": "This is a conversational comment about a team and says nothing about limits or resets.",
-      "tweetId": "2087614555203809395",
-      "tweetUrl": "https://x.com/thsottiaux/status/2087614555203809395",
-      "verdict": "not_reset"
+      "decidedAt": 1786583136086,
+      "rationale": "The main tweet explicitly announces a reset rolling out now, saying it is “landing in the next hour or so.”",
+      "tweetId": "2087706104814023111",
+      "tweetUrl": "https://x.com/thsottiaux/status/2087706104814023111",
+      "verdict": "reset_confirmed"
     },
     "lastError": null,
-    "lastSeenTweetId": "2087614555203809395",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2087614555203809395",
-    "pendingReview": {
-      "confidence": 0.94,
-      "createdAt": 1786515915365,
-      "rationale": "It hints at a possible Codex reset tomorrow, but does not say limits have reset or are available again now.",
-      "tweetId": "2087423996115681767",
-      "tweetText": "I previously promised a reset for every 1M in additional active users for Codex, until 10M. \n\nWe blew past that and have been silent since 10M. Little surprise for you tomorrow.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2087423996115681767"
-    },
+    "lastSeenTweetId": "2087706104814023111",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2087706104814023111",
+    "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1786583136086,
+        "inputTokens": 491,
+        "outputTokens": 128,
+        "rationale": "The main tweet explicitly announces a reset rolling out now, saying it is “landing in the next hour or so.”",
+        "reasoningTokens": 75,
+        "totalTokens": 619,
+        "tweetId": "2087706104814023111",
+        "tweetText": "Old news actually from a bunch of days ago, but crossed that 15M. Enjoy a nice reset everyone. Landing in the next hour or so, go /fast.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2087706104814023111",
+        "verdict": "reset_confirmed"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1786561125870,
@@ -279,29 +285,31 @@
         "tweetText": "@henry0284928382 How is it",
         "tweetUrl": "https://x.com/thsottiaux/status/2087027703870521616",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1786411179374,
-        "inputTokens": 390,
-        "outputTokens": 77,
-        "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-        "reasoningTokens": 33,
-        "totalTokens": 467,
-        "tweetId": "2086985239549907221",
-        "tweetText": "@AdamHoltererer You win the internet today",
-        "tweetUrl": "https://x.com/thsottiaux/status/2086985239549907221",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 469068,
-      "totalOutputTokens": 123535,
-      "totalReasoningTokens": 67882,
-      "totalTokens": 592603
+      "totalInputTokens": 469559,
+      "totalOutputTokens": 123663,
+      "totalReasoningTokens": 67957,
+      "totalTokens": 593222
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1786583136086,
+      "inputTokens": 491,
+      "message": "",
+      "outputTokens": 128,
+      "rationale": "The main tweet explicitly announces a reset rolling out now, saying it is “landing in the next hour or so.”",
+      "reasoningTokens": 75,
+      "totalTokens": 619,
+      "tweetId": "2087706104814023111",
+      "tweetText": "Old news actually from a bunch of days ago, but crossed that 15M. Enjoy a nice reset everyone. Landing in the next hour or so, go /fast.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2087706104814023111",
+      "type": "reset_confirmed",
+      "verdict": "reset_confirmed"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1786561125870,
@@ -886,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2085943692326830097",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1786162978294,
-      "inputTokens": 390,
-      "message": "",
-      "outputTokens": 78,
-      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-      "reasoningTokens": 34,
-      "totalTokens": 468,
-      "tweetId": "2085943554027978822",
-      "tweetText": "@cheaf25master Why am I a model",
-      "tweetUrl": "https://x.com/thsottiaux/status/2085943554027978822",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "GoSV20gGDiHEjGW8jR0b3zaMsULTbPJOJgZCkR5XNLK4cfduDhTn2XhbNw",
-    "iv": "k4mfgYrDXQjkni0S",
-    "tag": "gKSzPVY8hQ3SCxtuy5Caxw",
+    "ciphertext": "xbhlBBDZgD4_2FlkrlXEh7NJ3fWq7mHvDI7iReJbzbgmjvItWqe7XlT9jQ",
+    "iv": "92ieIOHdXe1vwkTO",
+    "tag": "RuV9ppKrYCh2fVxizCxRlQ",
     "version": 1
   }
 }
