@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1786657971909,
-      "rationale": "This reply is conversational and does not mention limits or a reset.",
-      "tweetId": "2088019866133672217",
-      "tweetUrl": "https://x.com/thsottiaux/status/2088019866133672217",
+      "decidedAt": 1786677837079,
+      "rationale": "This post is about Google Docs/Sheets/Slides integration rolling out, not usage limits or rate-limit resets.",
+      "tweetId": "2088103609477238858",
+      "tweetUrl": "https://x.com/thsottiaux/status/2088103609477238858",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2088019866133672217",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2088019866133672217",
+    "lastSeenTweetId": "2088103609477238858",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2088103609477238858",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1786677837079,
+        "inputTokens": 538,
+        "outputTokens": 84,
+        "rationale": "This post is about Google Docs/Sheets/Slides integration rolling out, not usage limits or rate-limit resets.",
+        "reasoningTokens": 34,
+        "totalTokens": 622,
+        "tweetId": "2088103609477238858",
+        "tweetText": "Work with Google docs, sheets and slides right inside ChatGPT.\n\nThis has changed how I write documents, brainstorm or proofread things. I just open it and then chat or talk my way through changes and it all happens right there in the flow.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2088103609477238858",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1786657971909,
@@ -272,29 +285,31 @@
         "tweetText": "@vansh22b That’s a lot",
         "tweetUrl": "https://x.com/thsottiaux/status/2087422502201114985",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1786515297732,
-        "inputTokens": 387,
-        "outputTokens": 67,
-        "rationale": "This reply just says congratulations and does not mention limits or availability.",
-        "reasoningTokens": 26,
-        "totalTokens": 454,
-        "tweetId": "2087421146862121101",
-        "tweetText": "@ZixuanLi_ Congrats",
-        "tweetUrl": "https://x.com/thsottiaux/status/2087421146862121101",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 472882,
-      "totalOutputTokens": 124406,
-      "totalReasoningTokens": 68344,
-      "totalTokens": 597288
+      "totalInputTokens": 473420,
+      "totalOutputTokens": 124490,
+      "totalReasoningTokens": 68378,
+      "totalTokens": 597910
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1786677837079,
+      "inputTokens": 538,
+      "message": "",
+      "outputTokens": 84,
+      "rationale": "This post is about Google Docs/Sheets/Slides integration rolling out, not usage limits or rate-limit resets.",
+      "reasoningTokens": 34,
+      "totalTokens": 622,
+      "tweetId": "2088103609477238858",
+      "tweetText": "Work with Google docs, sheets and slides right inside ChatGPT.\n\nThis has changed how I write documents, brainstorm or proofread things. I just open it and then chat or talk my way through changes and it all happens right there in the flow.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2088103609477238858",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1786657971909,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2086242101055131960",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1786233838850,
-      "inputTokens": 386,
-      "message": "",
-      "outputTokens": 98,
-      "rationale": "This is just a brief reply and does not indicate any rate-limit reset.",
-      "reasoningTokens": 55,
-      "totalTokens": 484,
-      "tweetId": "2086241500690866580",
-      "tweetText": "@alexgetmancom yw",
-      "tweetUrl": "https://x.com/thsottiaux/status/2086241500690866580",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "l-yox_7dF_5D9fHPW4d-yI3gKLjT-BLZheP98hBQJ1wHelJWl65RsIK8ng",
-    "iv": "FR2Bo1uN7k7HEdYT",
-    "tag": "V6Mcr7WzVKYf2scc7A1pmg",
+    "ciphertext": "OYUgPG9eYpKIFDNDiBo3SmFb_8UakdRWUGOgAn0hOxEk_7tdwoRJXVRGOA",
+    "iv": "tiTfTPkQHY9AwSna",
+    "tag": "WP6YJHq5IZ0h0HMsNw8OjQ",
     "version": 1
   }
 }
