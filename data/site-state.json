@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1786684906190,
-      "rationale": "This post promotes a ChatGPT plugin use case and says nothing about limits or resets.",
-      "tweetId": "2088133823619895712",
-      "tweetUrl": "https://x.com/thsottiaux/status/2088133823619895712",
+      "decidedAt": 1786687408883,
+      "rationale": "This reply is unrelated to rate limits, caps, or usage resets.",
+      "tweetId": "2088144034372128901",
+      "tweetUrl": "https://x.com/thsottiaux/status/2088144034372128901",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2088133823619895712",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2088133823619895712",
+    "lastSeenTweetId": "2088144034372128901",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2088144034372128901",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1786687408883,
+        "inputTokens": 400,
+        "outputTokens": 119,
+        "rationale": "This reply is unrelated to rate limits, caps, or usage resets.",
+        "reasoningTokens": 77,
+        "totalTokens": 519,
+        "tweetId": "2088144034372128901",
+        "tweetText": "@jun_song A fast rock is still just a rock. Where we are going we won't need rocks",
+        "tweetUrl": "https://x.com/thsottiaux/status/2088144034372128901",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1786684906190,
@@ -272,29 +285,31 @@
         "tweetText": "I previously promised a reset for every 1M in additional active users for Codex, until 10M. \n\nWe blew past that and have been silent since 10M. Little surprise for you tomorrow.",
         "tweetUrl": "https://x.com/thsottiaux/status/2087423996115681767",
         "verdict": "uncertain"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1786515612801,
-        "inputTokens": 394,
-        "outputTokens": 82,
-        "rationale": "This reply is just praise about Luna and does not mention limits or a reset.",
-        "reasoningTokens": 38,
-        "totalTokens": 476,
-        "tweetId": "2087422975935136252",
-        "tweetText": "@SPAC89 Luna is almost impossibly good. Glad you noticed",
-        "tweetUrl": "https://x.com/thsottiaux/status/2087422975935136252",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 474154,
-      "totalOutputTokens": 124587,
-      "totalReasoningTokens": 68430,
-      "totalTokens": 598741
+      "totalInputTokens": 474554,
+      "totalOutputTokens": 124706,
+      "totalReasoningTokens": 68507,
+      "totalTokens": 599260
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1786687408883,
+      "inputTokens": 400,
+      "message": "",
+      "outputTokens": 119,
+      "rationale": "This reply is unrelated to rate limits, caps, or usage resets.",
+      "reasoningTokens": 77,
+      "totalTokens": 519,
+      "tweetId": "2088144034372128901",
+      "tweetText": "@jun_song A fast rock is still just a rock. Where we are going we won't need rocks",
+      "tweetUrl": "https://x.com/thsottiaux/status/2088144034372128901",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1786684906190,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2086353229894529148",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1786240320124,
-      "inputTokens": 397,
-      "message": "",
-      "outputTokens": 80,
-      "rationale": "This is a joking reply and does not mention limits, caps, or a reset.",
-      "reasoningTokens": 35,
-      "totalTokens": 477,
-      "tweetId": "2086268347319243025",
-      "tweetText": "@ryanbrewer @kobex___ I also turn into interactive spreadsheets at times",
-      "tweetUrl": "https://x.com/thsottiaux/status/2086268347319243025",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "rCS_4dmUItPRhmuk1Uswqkh3sqaB4HqcxWHFhL8YM385Xyicz1tuyzYuXw",
-    "iv": "PFjQgsi7rNL2Lla3",
-    "tag": "I4RYmA9ZwEqdqwtbxloznQ",
+    "ciphertext": "25GGM-0GMKQi9CbUM7jGk4ogxP3nKcq7a07OlCRgIDD9i4pOo3AAbbinyA",
+    "iv": "kh56lt890xHI5avn",
+    "tag": "UpuwKhvooqzg197mmiRThg",
     "version": 1
   }
 }
