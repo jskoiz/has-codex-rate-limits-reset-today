@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1786687408883,
-      "rationale": "This reply is unrelated to rate limits, caps, or usage resets.",
-      "tweetId": "2088144034372128901",
-      "tweetUrl": "https://x.com/thsottiaux/status/2088144034372128901",
+      "decidedAt": 1786687411710,
+      "rationale": "This reply is just asking a question and does not mention any limits or a reset.",
+      "tweetId": "2088144272986108305",
+      "tweetUrl": "https://x.com/thsottiaux/status/2088144272986108305",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2088144034372128901",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2088144034372128901",
+    "lastSeenTweetId": "2088144272986108305",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2088144272986108305",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1786687411710,
+        "inputTokens": 387,
+        "outputTokens": 70,
+        "rationale": "This reply is just asking a question and does not mention any limits or a reset.",
+        "reasoningTokens": 25,
+        "totalTokens": 457,
+        "tweetId": "2088144272986108305",
+        "tweetText": "@ngosoft Migrating to?",
+        "tweetUrl": "https://x.com/thsottiaux/status/2088144272986108305",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1786687408883,
@@ -272,29 +285,31 @@
         "tweetText": "@rezoundous Make them dance",
         "tweetUrl": "https://x.com/thsottiaux/status/2087424641484890587",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.94,
-        "evaluatedAt": 1786515915365,
-        "inputTokens": 425,
-        "outputTokens": 280,
-        "rationale": "It hints at a possible Codex reset tomorrow, but does not say limits have reset or are available again now.",
-        "reasoningTokens": 229,
-        "totalTokens": 705,
-        "tweetId": "2087423996115681767",
-        "tweetText": "I previously promised a reset for every 1M in additional active users for Codex, until 10M. \n\nWe blew past that and have been silent since 10M. Little surprise for you tomorrow.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2087423996115681767",
-        "verdict": "uncertain"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 474554,
-      "totalOutputTokens": 124706,
-      "totalReasoningTokens": 68507,
-      "totalTokens": 599260
+      "totalInputTokens": 474941,
+      "totalOutputTokens": 124776,
+      "totalReasoningTokens": 68532,
+      "totalTokens": 599717
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1786687411710,
+      "inputTokens": 387,
+      "message": "",
+      "outputTokens": 70,
+      "rationale": "This reply is just asking a question and does not mention any limits or a reset.",
+      "reasoningTokens": 25,
+      "totalTokens": 457,
+      "tweetId": "2088144272986108305",
+      "tweetText": "@ngosoft Migrating to?",
+      "tweetUrl": "https://x.com/thsottiaux/status/2088144272986108305",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1786687408883,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2086800050630676504",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1786260512428,
-      "inputTokens": 399,
-      "message": "",
-      "outputTokens": 59,
-      "rationale": "This is a casual remark about coding and does not mention any limits or resets.",
-      "reasoningTokens": 15,
-      "totalTokens": 458,
-      "tweetId": "2086353229894529148",
-      "tweetText": "Midnight coding is the best coding. Until you read the code the next day at least.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2086353229894529148",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "25GGM-0GMKQi9CbUM7jGk4ogxP3nKcq7a07OlCRgIDD9i4pOo3AAbbinyA",
-    "iv": "kh56lt890xHI5avn",
-    "tag": "UpuwKhvooqzg197mmiRThg",
+    "ciphertext": "LWvO6k4ZOOxKacUGfqCFIJmAQfx16EpBq1Yihcsm79hSsEdP8ZZ-icrujA",
+    "iv": "QYOMd-__sLFPpZ9M",
+    "tag": "vJShh5QS5JfSKZuuMxvRDg",
     "version": 1
   }
 }
