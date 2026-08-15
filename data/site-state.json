@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1786772626600,
-      "rationale": "This is just a brief reply and gives no indication that any limits or caps reset.",
-      "tweetId": "2088501704849534991",
-      "tweetUrl": "https://x.com/thsottiaux/status/2088501704849534991",
+      "decidedAt": 1786773262990,
+      "rationale": "This reply gives usage advice and does not mention any limit or rate-cap reset.",
+      "tweetId": "2088504145573736896",
+      "tweetUrl": "https://x.com/thsottiaux/status/2088504145573736896",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2088501704849534991",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2088501704849534991",
+    "lastSeenTweetId": "2088504145573736896",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2088504145573736896",
     "pendingReview": {
       "confidence": 0.14,
       "createdAt": 1786772328268,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2088500194757460096"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1786773262990,
+        "inputTokens": 395,
+        "outputTokens": 103,
+        "rationale": "This reply gives usage advice and does not mention any limit or rate-cap reset.",
+        "reasoningTokens": 59,
+        "totalTokens": 498,
+        "tweetId": "2088504145573736896",
+        "tweetText": "@rezoundous Ask it to clean up 1 in 50 prompts",
+        "tweetUrl": "https://x.com/thsottiaux/status/2088504145573736896",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1786772626600,
@@ -279,29 +292,31 @@
         "tweetText": "Old news actually from a bunch of days ago, but crossed that 15M. Enjoy a nice reset everyone. Landing in the next hour or so, go /fast.",
         "tweetUrl": "https://x.com/thsottiaux/status/2087706104814023111",
         "verdict": "reset_confirmed"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1786561125870,
-        "inputTokens": 438,
-        "outputTokens": 63,
-        "rationale": "This is a conversational comment about a team and says nothing about limits or resets.",
-        "reasoningTokens": 19,
-        "totalTokens": 501,
-        "tweetId": "2087614555203809395",
-        "tweetText": "Typical conversation with @ajambrosino \n\nA: core alignment has been reached\nT: core alignment you say\nA: i say\nT: say more\nA: more\n\nAnd yet I’ve never been more excited about what him and the team are building.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2087614555203809395",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 477526,
-      "totalOutputTokens": 125388,
-      "totalReasoningTokens": 68878,
-      "totalTokens": 602914
+      "totalInputTokens": 477921,
+      "totalOutputTokens": 125491,
+      "totalReasoningTokens": 68937,
+      "totalTokens": 603412
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1786773262990,
+      "inputTokens": 395,
+      "message": "",
+      "outputTokens": 103,
+      "rationale": "This reply gives usage advice and does not mention any limit or rate-cap reset.",
+      "reasoningTokens": 59,
+      "totalTokens": 498,
+      "tweetId": "2088504145573736896",
+      "tweetText": "@rezoundous Ask it to clean up 1 in 50 prompts",
+      "tweetUrl": "https://x.com/thsottiaux/status/2088504145573736896",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1786772626600,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2087027703870521616",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1786411179374,
-      "inputTokens": 390,
-      "message": "",
-      "outputTokens": 77,
-      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-      "reasoningTokens": 33,
-      "totalTokens": 467,
-      "tweetId": "2086985239549907221",
-      "tweetText": "@AdamHoltererer You win the internet today",
-      "tweetUrl": "https://x.com/thsottiaux/status/2086985239549907221",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "XlUnZBbcCYGUUcUwDqtccSNij1JeKVkbGrHC94sw9sm-3bCCft9DLh2Ing",
-    "iv": "5QTII_zFf-DD2Q9p",
-    "tag": "88u_bKxxSpDO3OciKRF-cw",
+    "ciphertext": "zB4-fGbAEIL3L3RQFbOhMySEtDfC6aEMrCZjdfeixZMTm3gGEsEaFvEhyQ",
+    "iv": "V3A6Bbfdevn9Ih7e",
+    "tag": "RlV86rO2DScvJsUBonkkPw",
     "version": 1
   }
 }
