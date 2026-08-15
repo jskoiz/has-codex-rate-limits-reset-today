@@ -14,16 +14,16 @@
   "updatedAt": 1786583136086,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1786828095087,
-      "rationale": "This is just a brief reply and does not mention limits, caps, or usage becoming available again.",
-      "tweetId": "2088734201097101488",
-      "tweetUrl": "https://x.com/thsottiaux/status/2088734201097101488",
+      "confidence": 0.95,
+      "decidedAt": 1786834957544,
+      "rationale": "He mentions regular resets generally, but does not say any limit has reset or is available again now.",
+      "tweetId": "2088763063495450791",
+      "tweetUrl": "https://x.com/thsottiaux/status/2088763063495450791",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2088734201097101488",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2088734201097101488",
+    "lastSeenTweetId": "2088763063495450791",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2088763063495450791",
     "pendingReview": {
       "confidence": 0.14,
       "createdAt": 1786772328268,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2088500194757460096"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.95,
+        "evaluatedAt": 1786834957544,
+        "inputTokens": 410,
+        "outputTokens": 200,
+        "rationale": "He mentions regular resets generally, but does not say any limit has reset or is available again now.",
+        "reasoningTokens": 152,
+        "totalTokens": 610,
+        "tweetId": "2088763063495450791",
+        "tweetText": "@ishuagra02 You should actually try Codex instead of self-rationalizing. Usage included in the subscription is fantastic, even without my regular resets.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2088763063495450791",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1786828095087,
@@ -279,29 +292,31 @@
         "tweetText": "Computer history is here.",
         "tweetUrl": "https://x.com/thsottiaux/status/2088017529587573025",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1786643990492,
-        "inputTokens": 391,
-        "outputTokens": 67,
-        "rationale": "This reply is just conversational and does not mention any limit, cap, or reset.",
-        "reasoningTokens": 22,
-        "totalTokens": 458,
-        "tweetId": "2087961114168664288",
-        "tweetText": "@jullerino Hi Sol, I am Tibo",
-        "tweetUrl": "https://x.com/thsottiaux/status/2087961114168664288",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 479991,
-      "totalOutputTokens": 125936,
-      "totalReasoningTokens": 69155,
-      "totalTokens": 605927
+      "totalInputTokens": 480401,
+      "totalOutputTokens": 126136,
+      "totalReasoningTokens": 69307,
+      "totalTokens": 606537
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.95,
+      "createdAt": 1786834957544,
+      "inputTokens": 410,
+      "message": "",
+      "outputTokens": 200,
+      "rationale": "He mentions regular resets generally, but does not say any limit has reset or is available again now.",
+      "reasoningTokens": 152,
+      "totalTokens": 610,
+      "tweetId": "2088763063495450791",
+      "tweetText": "@ishuagra02 You should actually try Codex instead of self-rationalizing. Usage included in the subscription is fantastic, even without my regular resets.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2088763063495450791",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1786828095087,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2087254026232775052",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1786475046493,
-      "inputTokens": 390,
-      "message": "",
-      "outputTokens": 110,
-      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-      "reasoningTokens": 66,
-      "totalTokens": 500,
-      "tweetId": "2087252859087880257",
-      "tweetText": "@jxnlco Works because you have great ideas",
-      "tweetUrl": "https://x.com/thsottiaux/status/2087252859087880257",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "XKfQYSH4rAp32L60ROqEnQ7cxsRNDuxlcWlPaVMEKsea9M898-4Z--jNvA",
-    "iv": "iqtA2kg-8i9wkUV6",
-    "tag": "L4Rcmnj2k-G0q5A0LTjFbg",
+    "ciphertext": "eM6vKXZcfOqlrJXxbd9B0jHv74nalEQwTmxmPaPGJS9gYDKIUElniFak_g",
+    "iv": "WWLj8gALl8ZVi-Zw",
+    "tag": "9al4Kf1UNGjHi71cs-cTuA",
     "version": 1
   }
 }
