@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1786773265870,
-      "rationale": "This reply is conversational and gives no indication that any Codex or ChatGPT limits have reset.",
-      "tweetId": "2088504253421846933",
-      "tweetUrl": "https://x.com/thsottiaux/status/2088504253421846933",
+      "decidedAt": 1786825958410,
+      "rationale": "This post is product promotion about multi-agent delegation, not a rate-limit reset.",
+      "tweetId": "2088725163923984638",
+      "tweetUrl": "https://x.com/thsottiaux/status/2088725163923984638",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2088504253421846933",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2088504253421846933",
+    "lastSeenTweetId": "2088725163923984638",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2088725163923984638",
     "pendingReview": {
       "confidence": 0.14,
       "createdAt": 1786772328268,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2088500194757460096"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1786825958410,
+        "inputTokens": 501,
+        "outputTokens": 81,
+        "rationale": "This post is product promotion about multi-agent delegation, not a rate-limit reset.",
+        "reasoningTokens": 37,
+        "totalTokens": 582,
+        "tweetId": "2088725163923984638",
+        "tweetText": "Let Sol manage an efficient fleet of Luna agents for you.\n\nThese models know each other well and collaborate to achieve the result in an incredibly fast and efficient way.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2088725163923984638",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1786773265870,
@@ -279,29 +292,31 @@
         "tweetText": "@thdxr Barely getting started. Congrats",
         "tweetUrl": "https://x.com/thsottiaux/status/2087792302429556805",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1786591874871,
-        "inputTokens": 428,
-        "outputTokens": 96,
-        "rationale": "This reply discusses model selection and settings, not any limit or rate-limit reset.",
-        "reasoningTokens": 52,
-        "totalTokens": 524,
-        "tweetId": "2087742538769924280",
-        "tweetText": "@ThePeterMick Click the '+' and then 'Think harder'. And then you can select what you are looking for.\n\nAlternative is you can use ChatGPT Work and you can select exactly the model and settings you want there too.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2087742538769924280",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 478310,
-      "totalOutputTokens": 125594,
-      "totalReasoningTokens": 68993,
-      "totalTokens": 603904
+      "totalInputTokens": 478811,
+      "totalOutputTokens": 125675,
+      "totalReasoningTokens": 69030,
+      "totalTokens": 604486
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1786825958410,
+      "inputTokens": 501,
+      "message": "",
+      "outputTokens": 81,
+      "rationale": "This post is product promotion about multi-agent delegation, not a rate-limit reset.",
+      "reasoningTokens": 37,
+      "totalTokens": 582,
+      "tweetId": "2088725163923984638",
+      "tweetText": "Let Sol manage an efficient fleet of Luna agents for you.\n\nThese models know each other well and collaborate to achieve the result in an incredibly fast and efficient way.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2088725163923984638",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1786773265870,
@@ -886,27 +901,12 @@
       "tweetUrl": null,
       "type": "error",
       "verdict": null
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1786421389501,
-      "inputTokens": 396,
-      "message": "",
-      "outputTokens": 87,
-      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-      "reasoningTokens": 43,
-      "totalTokens": 483,
-      "tweetId": "2087027830861521374",
-      "tweetText": "@echoed_gg @AdamHoltererer Use \"make no mistake\"",
-      "tweetUrl": "https://x.com/thsottiaux/status/2087027830861521374",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "J--9R6GdJ7DA5ryhoRdSHR1i0tqB8x-oy1KEpYBJjts5yqH4f98eZjqI1A",
-    "iv": "HXSPLi1KmVcUXINv",
-    "tag": "Laa48UV6KyX1lk8cELfMmA",
+    "ciphertext": "MobzEIvoqrhQMod528YclSFv1DEWRESv3vXnILDwjgzKJHw-SztkyhyjSQ",
+    "iv": "XNOFuH-17M6VAF82",
+    "tag": "UEaxh3pniJrU_GAslprdzg",
     "version": 1
   }
 }
