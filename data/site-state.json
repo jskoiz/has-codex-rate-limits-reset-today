@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1786826877478,
-      "rationale": "This reply discusses context-window instructions, not rate limits or a reset.",
-      "tweetId": "2088729222777094624",
-      "tweetUrl": "https://x.com/thsottiaux/status/2088729222777094624",
+      "decidedAt": 1786828095087,
+      "rationale": "This is just a brief reply and does not mention limits, caps, or usage becoming available again.",
+      "tweetId": "2088734201097101488",
+      "tweetUrl": "https://x.com/thsottiaux/status/2088734201097101488",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2088729222777094624",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2088729222777094624",
+    "lastSeenTweetId": "2088734201097101488",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2088734201097101488",
     "pendingReview": {
       "confidence": 0.14,
       "createdAt": 1786772328268,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2088500194757460096"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1786828095087,
+        "inputTokens": 387,
+        "outputTokens": 93,
+        "rationale": "This is just a brief reply and does not mention limits, caps, or usage becoming available again.",
+        "reasoningTokens": 45,
+        "totalTokens": 480,
+        "tweetId": "2088734201097101488",
+        "tweetText": "@coah80 That’s ultra",
+        "tweetUrl": "https://x.com/thsottiaux/status/2088734201097101488",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1786826877478,
@@ -279,29 +292,31 @@
         "tweetText": "@jullerino Hi Sol, I am Tibo",
         "tweetUrl": "https://x.com/thsottiaux/status/2087961114168664288",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1786643679244,
-        "inputTokens": 393,
-        "outputTokens": 97,
-        "rationale": "This reply is just troubleshooting and does not say limits have reset or are available again.",
-        "reasoningTokens": 52,
-        "totalTokens": 490,
-        "tweetId": "2087960561728569362",
-        "tweetText": "@senbuilds That seems odd, let me look into it",
-        "tweetUrl": "https://x.com/thsottiaux/status/2087960561728569362",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 479604,
-      "totalOutputTokens": 125843,
-      "totalReasoningTokens": 69110,
-      "totalTokens": 605447
+      "totalInputTokens": 479991,
+      "totalOutputTokens": 125936,
+      "totalReasoningTokens": 69155,
+      "totalTokens": 605927
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1786828095087,
+      "inputTokens": 387,
+      "message": "",
+      "outputTokens": 93,
+      "rationale": "This is just a brief reply and does not mention limits, caps, or usage becoming available again.",
+      "reasoningTokens": 45,
+      "totalTokens": 480,
+      "tweetId": "2088734201097101488",
+      "tweetText": "@coah80 That’s ultra",
+      "tweetUrl": "https://x.com/thsottiaux/status/2088734201097101488",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1786826877478,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2087252859087880257",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1786475042718,
-      "inputTokens": 389,
-      "message": "",
-      "outputTokens": 81,
-      "rationale": "This reply is just a conversational question and does not mention limits or a reset.",
-      "reasoningTokens": 37,
-      "totalTokens": 470,
-      "tweetId": "2087252623611318503",
-      "tweetText": "@ajambrosino What does he mean",
-      "tweetUrl": "https://x.com/thsottiaux/status/2087252623611318503",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "OXnIpdZ3-d3MpoYNfDZvRU7jii_TydQ2FCo9IEwn2dOwi6bNJHpO2D63uA",
-    "iv": "A9PmcKGgynnalZb6",
-    "tag": "lk6HbBUWGgh--_f8EyzCVw",
+    "ciphertext": "XKfQYSH4rAp32L60ROqEnQ7cxsRNDuxlcWlPaVMEKsea9M898-4Z--jNvA",
+    "iv": "iqtA2kg-8i9wkUV6",
+    "tag": "L4Rcmnj2k-G0q5A0LTjFbg",
     "version": 1
   }
 }
