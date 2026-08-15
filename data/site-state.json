@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1786770764465,
-      "rationale": "This post and its quoted feature drop announce product features, not any limit or rate-cap reset.",
-      "tweetId": "2088493756391768252",
-      "tweetUrl": "https://x.com/thsottiaux/status/2088493756391768252",
+      "decidedAt": 1786772013033,
+      "rationale": "This reply is conversational and does not mention any limit or rate-limit reset.",
+      "tweetId": "2088498761488306264",
+      "tweetUrl": "https://x.com/thsottiaux/status/2088498761488306264",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2088493756391768252",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2088493756391768252",
+    "lastSeenTweetId": "2088498761488306264",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2088498761488306264",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1786772013033,
+        "inputTokens": 391,
+        "outputTokens": 103,
+        "rationale": "This reply is conversational and does not mention any limit or rate-limit reset.",
+        "reasoningTokens": 60,
+        "totalTokens": 494,
+        "tweetId": "2088498761488306264",
+        "tweetText": "@ajambrosino @scaling01 Concerning",
+        "tweetUrl": "https://x.com/thsottiaux/status/2088498761488306264",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1786770764465,
@@ -272,29 +285,31 @@
         "tweetText": "Also don’t say Linux, we just shipped that.",
         "tweetUrl": "https://x.com/thsottiaux/status/2087439859493617908",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1786519319455,
-        "inputTokens": 408,
-        "outputTokens": 82,
-        "rationale": "This is a conversational question and does not say limits or caps have reset.",
-        "reasoningTokens": 39,
-        "totalTokens": 490,
-        "tweetId": "2087438544323420273",
-        "tweetText": "Why did you switch to Codex? \n\nWhat do you like about it and what could we improve? Don’t say reset.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2087438544323420273",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 475954,
-      "totalOutputTokens": 124943,
-      "totalReasoningTokens": 68610,
-      "totalTokens": 600897
+      "totalInputTokens": 476345,
+      "totalOutputTokens": 125046,
+      "totalReasoningTokens": 68670,
+      "totalTokens": 601391
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1786772013033,
+      "inputTokens": 391,
+      "message": "",
+      "outputTokens": 103,
+      "rationale": "This reply is conversational and does not mention any limit or rate-limit reset.",
+      "reasoningTokens": 60,
+      "totalTokens": 494,
+      "tweetId": "2088498761488306264",
+      "tweetText": "@ajambrosino @scaling01 Concerning",
+      "tweetUrl": "https://x.com/thsottiaux/status/2088498761488306264",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1786770764465,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2086874565909815403",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1786384546296,
-      "inputTokens": 558,
-      "message": "",
-      "outputTokens": 85,
-      "rationale": "This post announces cybersecurity access tiers and a new model, not a reset of ChatGPT or Codex usage limits.",
-      "reasoningTokens": 34,
-      "totalTokens": 643,
-      "tweetId": "2086873743138427262",
-      "tweetText": "Cybersecurity is changing rapidly. \n\nTo help accelerate defense, we are broadening access to frontier cyber capabilities through the new Daybreak Blue & Red access tiers and are introducing a new model GPT-5.6-Cyber.\n\nIf you don't know where to start, a good step is to contact one of our maybe partners who can use our latest cyber models to help you find issues, patch them quickly, do pentesting, etc.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2086873743138427262",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "5RUCm7ILZcYdDYsldHw8pwTcwJHkt0a6F0fsxOu7QMzVzg-qmgzdTSCqvg",
-    "iv": "UDtzx_87GcIso95H",
-    "tag": "Axy_OTRLBSfM5a4uEG-inw",
+    "ciphertext": "hfnCJa3vkHBNQkLeC-JKIccTQjzJ_cuJd4jM6UysUliW7_fvQOcgekbBNg",
+    "iv": "SE2ac3aVfssNrPOV",
+    "tag": "lTQJmRHTY5xuQOZ-sOP9eQ",
     "version": 1
   }
 }
