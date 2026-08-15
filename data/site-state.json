@@ -14,16 +14,16 @@
   "updatedAt": 1786583136086,
   "automation": {
     "lastDecision": {
-      "confidence": 0.95,
-      "decidedAt": 1786834957544,
-      "rationale": "He mentions regular resets generally, but does not say any limit has reset or is available again now.",
-      "tweetId": "2088763063495450791",
-      "tweetUrl": "https://x.com/thsottiaux/status/2088763063495450791",
+      "confidence": 0.99,
+      "decidedAt": 1786835874771,
+      "rationale": "This reply is just a greeting and does not mention any reset or rate-limit change.",
+      "tweetId": "2088765949596090629",
+      "tweetUrl": "https://x.com/thsottiaux/status/2088765949596090629",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2088763063495450791",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2088763063495450791",
+    "lastSeenTweetId": "2088765949596090629",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2088765949596090629",
     "pendingReview": {
       "confidence": 0.14,
       "createdAt": 1786772328268,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2088500194757460096"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1786835874771,
+        "inputTokens": 387,
+        "outputTokens": 69,
+        "rationale": "This reply is just a greeting and does not mention any reset or rate-limit change.",
+        "reasoningTokens": 24,
+        "totalTokens": 456,
+        "tweetId": "2088765949596090629",
+        "tweetText": "@Venkydotdev Hi",
+        "tweetUrl": "https://x.com/thsottiaux/status/2088765949596090629",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.95,
         "evaluatedAt": 1786834957544,
@@ -279,29 +292,31 @@
         "tweetText": "Sometimes you have have to go /ultrafast.",
         "tweetUrl": "https://x.com/thsottiaux/status/2088019704803897705",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1786657347968,
-        "inputTokens": 463,
-        "outputTokens": 117,
-        "rationale": "This post and its quoted tweet announce a feature, not a rate-limit or usage-cap reset.",
-        "reasoningTokens": 70,
-        "totalTokens": 580,
-        "tweetId": "2088017529587573025",
-        "tweetText": "Computer history is here.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2088017529587573025",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 480401,
-      "totalOutputTokens": 126136,
-      "totalReasoningTokens": 69307,
-      "totalTokens": 606537
+      "totalInputTokens": 480788,
+      "totalOutputTokens": 126205,
+      "totalReasoningTokens": 69331,
+      "totalTokens": 606993
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1786835874771,
+      "inputTokens": 387,
+      "message": "",
+      "outputTokens": 69,
+      "rationale": "This reply is just a greeting and does not mention any reset or rate-limit change.",
+      "reasoningTokens": 24,
+      "totalTokens": 456,
+      "tweetId": "2088765949596090629",
+      "tweetText": "@Venkydotdev Hi",
+      "tweetUrl": "https://x.com/thsottiaux/status/2088765949596090629",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.95,
       "createdAt": 1786834957544,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2087254340079915272",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1786475344105,
-      "inputTokens": 512,
-      "message": "",
-      "outputTokens": 79,
-      "rationale": "This post and its quoted tweet announce Linux desktop app availability, not any limit or rate-limit reset.",
-      "reasoningTokens": 31,
-      "totalTokens": 591,
-      "tweetId": "2087254026232775052",
-      "tweetText": "We did it, finally... Codex &amp; ChatGPT desktop, now on Linux. \n\nThanks for waiting and you can cancel that MacBook order if you got impatient. It’s that good.\n\n👀",
-      "tweetUrl": "https://x.com/thsottiaux/status/2087254026232775052",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "eM6vKXZcfOqlrJXxbd9B0jHv74nalEQwTmxmPaPGJS9gYDKIUElniFak_g",
-    "iv": "WWLj8gALl8ZVi-Zw",
-    "tag": "9al4Kf1UNGjHi71cs-cTuA",
+    "ciphertext": "M8w4cfQiGfE2cO1MIHNqhi7HYyoCNSdYQuH2hW4BfF1sQlVX8WxN4cZbzQ",
+    "iv": "1EjYY9wBrZ6JsoaT",
+    "tag": "38l_CA5FcCbRyUnbKL5rLg",
     "version": 1
   }
 }
