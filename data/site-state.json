@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1786825958410,
-      "rationale": "This post is product promotion about multi-agent delegation, not a rate-limit reset.",
-      "tweetId": "2088725163923984638",
-      "tweetUrl": "https://x.com/thsottiaux/status/2088725163923984638",
+      "decidedAt": 1786825961548,
+      "rationale": "This is a general comment about OpenAI and does not mention any limit or usage reset.",
+      "tweetId": "2088725514542575903",
+      "tweetUrl": "https://x.com/thsottiaux/status/2088725514542575903",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2088725163923984638",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2088725163923984638",
+    "lastSeenTweetId": "2088725514542575903",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2088725514542575903",
     "pendingReview": {
       "confidence": 0.14,
       "createdAt": 1786772328268,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2088500194757460096"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1786825961548,
+        "inputTokens": 395,
+        "outputTokens": 83,
+        "rationale": "This is a general comment about OpenAI and does not mention any limit or usage reset.",
+        "reasoningTokens": 37,
+        "totalTokens": 478,
+        "tweetId": "2088725514542575903",
+        "tweetText": "Incredible things are happening at OpenAI right now. Energy is high.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2088725514542575903",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1786825958410,
@@ -279,29 +292,31 @@
         "tweetText": "@maria_rcks Nice model sizes",
         "tweetUrl": "https://x.com/thsottiaux/status/2087792567719252193",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1786603665910,
-        "inputTokens": 390,
-        "outputTokens": 84,
-        "rationale": "This is just a congratulatory reply and does not mention limits or a reset.",
-        "reasoningTokens": 40,
-        "totalTokens": 474,
-        "tweetId": "2087792302429556805",
-        "tweetText": "@thdxr Barely getting started. Congrats",
-        "tweetUrl": "https://x.com/thsottiaux/status/2087792302429556805",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 478811,
-      "totalOutputTokens": 125675,
-      "totalReasoningTokens": 69030,
-      "totalTokens": 604486
+      "totalInputTokens": 479206,
+      "totalOutputTokens": 125758,
+      "totalReasoningTokens": 69067,
+      "totalTokens": 604964
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1786825961548,
+      "inputTokens": 395,
+      "message": "",
+      "outputTokens": 83,
+      "rationale": "This is a general comment about OpenAI and does not mention any limit or usage reset.",
+      "reasoningTokens": 37,
+      "totalTokens": 478,
+      "tweetId": "2088725514542575903",
+      "tweetText": "Incredible things are happening at OpenAI right now. Energy is high.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2088725514542575903",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1786825958410,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2087252528513814773",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0,
-      "createdAt": 1786453038623,
-      "inputTokens": 0,
-      "message": "fetch failed (other side closed)",
-      "outputTokens": 0,
-      "rationale": "",
-      "reasoningTokens": 0,
-      "totalTokens": 0,
-      "tweetId": null,
-      "tweetText": "",
-      "tweetUrl": null,
-      "type": "error",
-      "verdict": null
     }
   ],
   "privateState": {
-    "ciphertext": "MobzEIvoqrhQMod528YclSFv1DEWRESv3vXnILDwjgzKJHw-SztkyhyjSQ",
-    "iv": "XNOFuH-17M6VAF82",
-    "tag": "UEaxh3pniJrU_GAslprdzg",
+    "ciphertext": "I_2rONSY-WL4l45BSVdCpJmZ7vkRetfH-KUun49PHhcp4ilul2tDlz_u8g",
+    "iv": "nVZYkQzYjbhPB3Qa",
+    "tag": "l5INOkM_SiMzfJ4t5PQfRQ",
     "version": 1
   }
 }
