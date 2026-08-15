@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1786761766969,
-      "rationale": "This reply is just conversational and does not mention limits or a reset.",
-      "tweetId": "2088456062932598784",
-      "tweetUrl": "https://x.com/thsottiaux/status/2088456062932598784",
+      "decidedAt": 1786770764465,
+      "rationale": "This post and its quoted feature drop announce product features, not any limit or rate-cap reset.",
+      "tweetId": "2088493756391768252",
+      "tweetUrl": "https://x.com/thsottiaux/status/2088493756391768252",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2088456062932598784",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2088456062932598784",
+    "lastSeenTweetId": "2088493756391768252",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2088493756391768252",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1786770764465,
+        "inputTokens": 622,
+        "outputTokens": 94,
+        "rationale": "This post and its quoted feature drop announce product features, not any limit or rate-cap reset.",
+        "reasoningTokens": 47,
+        "totalTokens": 716,
+        "tweetId": "2088493756391768252",
+        "tweetText": "Looking for a quick restaurant reservation is now super easy in ChatGPT. Together with a bunch more ships",
+        "tweetUrl": "https://x.com/thsottiaux/status/2088493756391768252",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1786761766969,
@@ -272,29 +285,31 @@
         "tweetText": "Why did you switch to Codex? \n\nWhat do you like about it and what could we improve? Don’t say reset.",
         "tweetUrl": "https://x.com/thsottiaux/status/2087438544323420273",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1786516229428,
-        "inputTokens": 386,
-        "outputTokens": 78,
-        "rationale": "This reply does not mention rate limits, caps, or any reset.",
-        "reasoningTokens": 36,
-        "totalTokens": 464,
-        "tweetId": "2087425764581142567",
-        "tweetText": "@amanrsanger Nice try",
-        "tweetUrl": "https://x.com/thsottiaux/status/2087425764581142567",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 475332,
-      "totalOutputTokens": 124849,
-      "totalReasoningTokens": 68563,
-      "totalTokens": 600181
+      "totalInputTokens": 475954,
+      "totalOutputTokens": 124943,
+      "totalReasoningTokens": 68610,
+      "totalTokens": 600897
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1786770764465,
+      "inputTokens": 622,
+      "message": "",
+      "outputTokens": 94,
+      "rationale": "This post and its quoted feature drop announce product features, not any limit or rate-cap reset.",
+      "reasoningTokens": 47,
+      "totalTokens": 716,
+      "tweetId": "2088493756391768252",
+      "tweetText": "Looking for a quick restaurant reservation is now super easy in ChatGPT. Together with a bunch more ships",
+      "tweetUrl": "https://x.com/thsottiaux/status/2088493756391768252",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1786761766969,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2086873743138427262",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.83,
-      "createdAt": 1786367222402,
-      "inputTokens": 399,
-      "message": "",
-      "outputTokens": 152,
-      "rationale": "This reply mentions a \"reset\" but does not clearly say Codex or ChatGPT limits are available again now.",
-      "reasoningTokens": 101,
-      "totalTokens": 551,
-      "tweetId": "2086800639120888014",
-      "tweetText": "@hqmank Just like any other reset, but picture me doing a little dance with it",
-      "tweetUrl": "https://x.com/thsottiaux/status/2086800639120888014",
-      "type": "review_requested",
-      "verdict": "uncertain"
     }
   ],
   "privateState": {
-    "ciphertext": "fqq36-oWqDQ15d44BYtvSAAIg56y2m9BU5I0VB5viuJQ6hTJwZItsMjNgQ",
-    "iv": "48ulQ6r4joclXL4T",
-    "tag": "meKgIAC__RmEvpqdiOqfpA",
+    "ciphertext": "5RUCm7ILZcYdDYsldHw8pwTcwJHkt0a6F0fsxOu7QMzVzg-qmgzdTSCqvg",
+    "iv": "UDtzx_87GcIso95H",
+    "tag": "Axy_OTRLBSfM5a4uEG-inw",
     "version": 1
   }
 }
