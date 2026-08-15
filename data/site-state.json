@@ -14,18 +14,38 @@
   "updatedAt": 1786583136086,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1786772325014,
-      "rationale": "This is a general discussion question and does not mention limits, caps, or a reset.",
-      "tweetId": "2088500028721832432",
-      "tweetUrl": "https://x.com/thsottiaux/status/2088500028721832432",
-      "verdict": "not_reset"
+      "confidence": 0.14,
+      "decidedAt": 1786772328268,
+      "rationale": "This reply alone is too context-free to tell whether any limits have reset.",
+      "tweetId": "2088500194757460096",
+      "tweetUrl": "https://x.com/thsottiaux/status/2088500194757460096",
+      "verdict": "uncertain"
     },
     "lastError": null,
-    "lastSeenTweetId": "2088500028721832432",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2088500028721832432",
-    "pendingReview": null,
+    "lastSeenTweetId": "2088500194757460096",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2088500194757460096",
+    "pendingReview": {
+      "confidence": 0.14,
+      "createdAt": 1786772328268,
+      "rationale": "This reply alone is too context-free to tell whether any limits have reset.",
+      "tweetId": "2088500194757460096",
+      "tweetText": "@TokenGremlin We are",
+      "tweetUrl": "https://x.com/thsottiaux/status/2088500194757460096"
+    },
     "recentEvaluations": [
+      {
+        "confidence": 0.14,
+        "evaluatedAt": 1786772328268,
+        "inputTokens": 386,
+        "outputTokens": 167,
+        "rationale": "This reply alone is too context-free to tell whether any limits have reset.",
+        "reasoningTokens": 124,
+        "totalTokens": 553,
+        "tweetId": "2088500194757460096",
+        "tweetText": "@TokenGremlin We are",
+        "tweetUrl": "https://x.com/thsottiaux/status/2088500194757460096",
+        "verdict": "uncertain"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1786772325014,
@@ -272,29 +292,31 @@
         "tweetText": "@vocci_ai Thanks for the free advertisement!",
         "tweetUrl": "https://x.com/thsottiaux/status/2087613056708972955",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1786560815228,
-        "inputTokens": 387,
-        "outputTokens": 82,
-        "rationale": "This is just a conversational reply and says nothing about limits or resets.",
-        "reasoningTokens": 40,
-        "totalTokens": 469,
-        "tweetId": "2087612441123569930",
-        "tweetText": "@ajambrosino oh hi",
-        "tweetUrl": "https://x.com/thsottiaux/status/2087612441123569930",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 476751,
-      "totalOutputTokens": 125111,
-      "totalReasoningTokens": 68689,
-      "totalTokens": 601862
+      "totalInputTokens": 477137,
+      "totalOutputTokens": 125278,
+      "totalReasoningTokens": 68813,
+      "totalTokens": 602415
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.14,
+      "createdAt": 1786772328268,
+      "inputTokens": 386,
+      "message": "",
+      "outputTokens": 167,
+      "rationale": "This reply alone is too context-free to tell whether any limits have reset.",
+      "reasoningTokens": 124,
+      "totalTokens": 553,
+      "tweetId": "2088500194757460096",
+      "tweetText": "@TokenGremlin We are",
+      "tweetUrl": "https://x.com/thsottiaux/status/2088500194757460096",
+      "type": "review_requested",
+      "verdict": "uncertain"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1786772325014,
@@ -879,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2086972933566857393",
       "type": "reset_confirmed",
       "verdict": "reset_confirmed"
-    },
-    {
-      "confidence": 0.96,
-      "createdAt": 1786408082110,
-      "inputTokens": 425,
-      "message": "",
-      "outputTokens": 132,
-      "rationale": "The quoted post asks about a reset, and this tweet replies \"It is done,\" directly confirming it has happened.",
-      "reasoningTokens": 80,
-      "totalTokens": 557,
-      "tweetId": "2086972802457063486",
-      "tweetText": "Hi.\n\nIt is done.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2086972802457063486",
-      "type": "reset_confirmed",
-      "verdict": "reset_confirmed"
     }
   ],
   "privateState": {
-    "ciphertext": "lmT2bk0kjBSGrYSRe8eQrrWBOBXWEGSvdamqMKwLkx_hgWIDENR7pZiOpw",
-    "iv": "MPGyBZ8rC_HfCNo3",
-    "tag": "j4dYq9BctunoyiYrdOx38g",
+    "ciphertext": "CXoeytZpzT_xugCqjoPGjWALC-kLa54fyfAZUl9vEOGNRa_hkZbKQ5eGjw",
+    "iv": "okwwpWc05T2iXVdY",
+    "tag": "o1ygcNeSuE98uRJ1wOcgCw",
     "version": 1
   }
 }
