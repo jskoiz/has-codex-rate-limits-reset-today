@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1786835874771,
-      "rationale": "This reply is just a greeting and does not mention any reset or rate-limit change.",
-      "tweetId": "2088765949596090629",
-      "tweetUrl": "https://x.com/thsottiaux/status/2088765949596090629",
+      "decidedAt": 1786835877466,
+      "rationale": "This reply does not mention limits, caps, or any reset being available now.",
+      "tweetId": "2088766482557907136",
+      "tweetUrl": "https://x.com/thsottiaux/status/2088766482557907136",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2088765949596090629",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2088765949596090629",
+    "lastSeenTweetId": "2088766482557907136",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2088766482557907136",
     "pendingReview": {
       "confidence": 0.14,
       "createdAt": 1786772328268,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2088500194757460096"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1786835877466,
+        "inputTokens": 388,
+        "outputTokens": 92,
+        "rationale": "This reply does not mention limits, caps, or any reset being available now.",
+        "reasoningTokens": 48,
+        "totalTokens": 480,
+        "tweetId": "2088766482557907136",
+        "tweetText": "@charlietlamb Only two misses",
+        "tweetUrl": "https://x.com/thsottiaux/status/2088766482557907136",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1786835874771,
@@ -279,29 +292,31 @@
         "tweetText": "@AbdoKerdawy @jullerino Not me",
         "tweetUrl": "https://x.com/thsottiaux/status/2088019866133672217",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1786657969099,
-        "inputTokens": 478,
-        "outputTokens": 134,
-        "rationale": "This is about previewing Ultrafast mode, not limits or a usage cap reset.",
-        "reasoningTokens": 88,
-        "totalTokens": 612,
-        "tweetId": "2088019704803897705",
-        "tweetText": "Sometimes you have have to go /ultrafast.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2088019704803897705",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 480788,
-      "totalOutputTokens": 126205,
-      "totalReasoningTokens": 69331,
-      "totalTokens": 606993
+      "totalInputTokens": 481176,
+      "totalOutputTokens": 126297,
+      "totalReasoningTokens": 69379,
+      "totalTokens": 607473
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1786835877466,
+      "inputTokens": 388,
+      "message": "",
+      "outputTokens": 92,
+      "rationale": "This reply does not mention limits, caps, or any reset being available now.",
+      "reasoningTokens": 48,
+      "totalTokens": 480,
+      "tweetId": "2088766482557907136",
+      "tweetText": "@charlietlamb Only two misses",
+      "tweetUrl": "https://x.com/thsottiaux/status/2088766482557907136",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1786835874771,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2087420960223973675",
       "type": "review_requested",
       "verdict": "uncertain"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1786475347242,
-      "inputTokens": 411,
-      "message": "",
-      "outputTokens": 80,
-      "rationale": "This reply encourages trying Codex but does not mention limits, caps, or a reset.",
-      "reasoningTokens": 34,
-      "totalTokens": 491,
-      "tweetId": "2087254340079915272",
-      "tweetText": "@arthurkatcher No comment on the rest, but yes, you should try Codex and give me your feedback.\n\nTeam is on a roll.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2087254340079915272",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "M8w4cfQiGfE2cO1MIHNqhi7HYyoCNSdYQuH2hW4BfF1sQlVX8WxN4cZbzQ",
-    "iv": "1EjYY9wBrZ6JsoaT",
-    "tag": "38l_CA5FcCbRyUnbKL5rLg",
+    "ciphertext": "8xL14ml5cbTcVYDIQxGTq2W261LnP24NEk869JWhTOdIOXOXIXrK2m9jBA",
+    "iv": "LcNhl-pONkienmcK",
+    "tag": "3PkD_Wg55b3usArpoIBt2g",
     "version": 1
   }
 }
