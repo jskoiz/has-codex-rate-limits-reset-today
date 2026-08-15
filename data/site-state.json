@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1786772013033,
-      "rationale": "This reply is conversational and does not mention any limit or rate-limit reset.",
-      "tweetId": "2088498761488306264",
-      "tweetUrl": "https://x.com/thsottiaux/status/2088498761488306264",
+      "decidedAt": 1786772325014,
+      "rationale": "This is a general discussion question and does not mention limits, caps, or a reset.",
+      "tweetId": "2088500028721832432",
+      "tweetUrl": "https://x.com/thsottiaux/status/2088500028721832432",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2088498761488306264",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2088498761488306264",
+    "lastSeenTweetId": "2088500028721832432",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2088500028721832432",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1786772325014,
+        "inputTokens": 406,
+        "outputTokens": 65,
+        "rationale": "This is a general discussion question and does not mention limits, caps, or a reset.",
+        "reasoningTokens": 19,
+        "totalTokens": 471,
+        "tweetId": "2088500028721832432",
+        "tweetText": "What’s a hard problem codex solved for you this week? Where do you learn from others on how to push the frontier?",
+        "tweetUrl": "https://x.com/thsottiaux/status/2088500028721832432",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1786772013033,
@@ -272,29 +285,31 @@
         "tweetText": "@ajambrosino oh hi",
         "tweetUrl": "https://x.com/thsottiaux/status/2087612441123569930",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1786519640635,
-        "inputTokens": 391,
-        "outputTokens": 96,
-        "rationale": "This reply is about shipping Linux support, not any limit or rate-limit reset.",
-        "reasoningTokens": 52,
-        "totalTokens": 487,
-        "tweetId": "2087439859493617908",
-        "tweetText": "Also don’t say Linux, we just shipped that.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2087439859493617908",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 476345,
-      "totalOutputTokens": 125046,
-      "totalReasoningTokens": 68670,
-      "totalTokens": 601391
+      "totalInputTokens": 476751,
+      "totalOutputTokens": 125111,
+      "totalReasoningTokens": 68689,
+      "totalTokens": 601862
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1786772325014,
+      "inputTokens": 406,
+      "message": "",
+      "outputTokens": 65,
+      "rationale": "This is a general discussion question and does not mention limits, caps, or a reset.",
+      "reasoningTokens": 19,
+      "totalTokens": 471,
+      "tweetId": "2088500028721832432",
+      "tweetText": "What’s a hard problem codex solved for you this week? Where do you learn from others on how to push the frontier?",
+      "tweetUrl": "https://x.com/thsottiaux/status/2088500028721832432",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1786772013033,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2086972802457063486",
       "type": "reset_confirmed",
       "verdict": "reset_confirmed"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1786384857923,
-      "inputTokens": 557,
-      "message": "",
-      "outputTokens": 86,
-      "rationale": "This post is a product announcement about cybersecurity access tiers and GPT-5.6-Cyber, not a rate-limit reset.",
-      "reasoningTokens": 32,
-      "totalTokens": 643,
-      "tweetId": "2086874565909815403",
-      "tweetText": "Cybersecurity is changing rapidly. \n\nTo help accelerate defense, we are broadening access to frontier cyber capabilities through the new Daybreak Blue & Red access tiers and are introducing a new model GPT-5.6-Cyber.\n\nIf you don't know where to start, a good step is to contact one of our partners who can use our latest cyber models to help you find issues, patch them quickly, do pentesting, etc.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2086874565909815403",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "hfnCJa3vkHBNQkLeC-JKIccTQjzJ_cuJd4jM6UysUliW7_fvQOcgekbBNg",
-    "iv": "SE2ac3aVfssNrPOV",
-    "tag": "lTQJmRHTY5xuQOZ-sOP9eQ",
+    "ciphertext": "lmT2bk0kjBSGrYSRe8eQrrWBOBXWEGSvdamqMKwLkx_hgWIDENR7pZiOpw",
+    "iv": "MPGyBZ8rC_HfCNo3",
+    "tag": "j4dYq9BctunoyiYrdOx38g",
     "version": 1
   }
 }
