@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1786911153665,
-      "rationale": "This post is a Codex configuration tip about context window size, not a rate-limit or usage reset.",
-      "tweetId": "2089082893804896524",
-      "tweetUrl": "https://x.com/thsottiaux/status/2089082893804896524",
+      "decidedAt": 1786916067118,
+      "rationale": "This reply is just a casual comment about a Codex sticker, not about limits or availability.",
+      "tweetId": "2089102679217742081",
+      "tweetUrl": "https://x.com/thsottiaux/status/2089102679217742081",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2089082893804896524",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2089082893804896524",
+    "lastSeenTweetId": "2089102679217742081",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2089102679217742081",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1786906826584,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2089063967301730789"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1786916067118,
+        "inputTokens": 391,
+        "outputTokens": 93,
+        "rationale": "This reply is just a casual comment about a Codex sticker, not about limits or availability.",
+        "reasoningTokens": 46,
+        "totalTokens": 484,
+        "tweetId": "2089102679217742081",
+        "tweetText": "@MarieAdant That you're missing a Codex sticker",
+        "tweetUrl": "https://x.com/thsottiaux/status/2089102679217742081",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1786911153665,
@@ -279,29 +292,31 @@
         "tweetText": "@AbdoKerdawy Sol supports 1M, tell me more?",
         "tweetUrl": "https://x.com/thsottiaux/status/2088851940172280251",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1786856085536,
-        "inputTokens": 421,
-        "outputTokens": 84,
-        "rationale": "This reply discusses evals and pricing, not any limit, cap, or reset.",
-        "reasoningTokens": 39,
-        "totalTokens": 505,
-        "tweetId": "2088851696952951204",
-        "tweetText": "@AISupplyGuy1 Do you have evals? Quite surprising as I would expect for most things you would net out 40-50% cheaper per task with Sol.\n\nCan you share more?",
-        "tweetUrl": "https://x.com/thsottiaux/status/2088851696952951204",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 490489,
-      "totalOutputTokens": 128646,
-      "totalReasoningTokens": 70737,
-      "totalTokens": 619135
+      "totalInputTokens": 490880,
+      "totalOutputTokens": 128739,
+      "totalReasoningTokens": 70783,
+      "totalTokens": 619619
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1786916067118,
+      "inputTokens": 391,
+      "message": "",
+      "outputTokens": 93,
+      "rationale": "This reply is just a casual comment about a Codex sticker, not about limits or availability.",
+      "reasoningTokens": 46,
+      "totalTokens": 484,
+      "tweetId": "2089102679217742081",
+      "tweetText": "@MarieAdant That you're missing a Codex sticker",
+      "tweetUrl": "https://x.com/thsottiaux/status/2089102679217742081",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1786911153665,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2088144272986108305",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1786687408883,
-      "inputTokens": 400,
-      "message": "",
-      "outputTokens": 119,
-      "rationale": "This reply is unrelated to rate limits, caps, or usage resets.",
-      "reasoningTokens": 77,
-      "totalTokens": 519,
-      "tweetId": "2088144034372128901",
-      "tweetText": "@jun_song A fast rock is still just a rock. Where we are going we won't need rocks",
-      "tweetUrl": "https://x.com/thsottiaux/status/2088144034372128901",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "uaUQT1ajidCmT8kEhWUXmPcp6XY-1xYR3OkHdk-SIieRQ4smiwKLXRwEqg",
-    "iv": "GNPkR9Wc3E9qOtYh",
-    "tag": "7itWPrAvKA6GAVJiYxfBCw",
+    "ciphertext": "mKjKVFZYrgRm3pzfPK718r0nhPwAs_wOs4DZlqva2PbXqPkPpRv1Z_y6FA",
+    "iv": "WOeJvz6zmi1tupA0",
+    "tag": "bZaRZ9iFOS_he-B7wRx7tg",
     "version": 1
   }
 }
