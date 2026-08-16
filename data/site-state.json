@@ -14,16 +14,16 @@
   "updatedAt": 1786583136086,
   "automation": {
     "lastDecision": {
-      "confidence": 0.98,
-      "decidedAt": 1786910223195,
-      "rationale": "This reply is just conversational and does not itself indicate any rate-limit reset.",
-      "tweetId": "2089078705230377033",
-      "tweetUrl": "https://x.com/thsottiaux/status/2089078705230377033",
+      "confidence": 0.99,
+      "decidedAt": 1786910843824,
+      "rationale": "This is a generic personal post and does not mention limits, caps, or availability resetting.",
+      "tweetId": "2089080720396317053",
+      "tweetUrl": "https://x.com/thsottiaux/status/2089080720396317053",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2089078705230377033",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2089078705230377033",
+    "lastSeenTweetId": "2089080720396317053",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2089080720396317053",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1786906826584,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2089063967301730789"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1786910843824,
+        "inputTokens": 398,
+        "outputTokens": 69,
+        "rationale": "This is a generic personal post and does not mention limits, caps, or availability resetting.",
+        "reasoningTokens": 23,
+        "totalTokens": 467,
+        "tweetId": "2089080720396317053",
+        "tweetText": "Sunday is for good vibes. As is any day of the week, but especially Sunday.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2089080720396317053",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.98,
         "evaluatedAt": 1786910223195,
@@ -279,29 +292,31 @@
         "tweetText": "@nxc42 DM",
         "tweetUrl": "https://x.com/thsottiaux/status/2088851430325248376",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1786856079422,
-        "inputTokens": 413,
-        "outputTokens": 68,
-        "rationale": "This is a product/pricing question and does not mention any Codex or ChatGPT limit reset.",
-        "reasoningTokens": 20,
-        "totalTokens": 481,
-        "tweetId": "2088850995430477882",
-        "tweetText": "If you have a company and still use Opus instead of Sol, why so? Does price not matter to you? What's something that would convince you to switch?",
-        "tweetUrl": "https://x.com/thsottiaux/status/2088850995430477882",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 489393,
-      "totalOutputTokens": 128497,
-      "totalReasoningTokens": 70683,
-      "totalTokens": 617890
+      "totalInputTokens": 489791,
+      "totalOutputTokens": 128566,
+      "totalReasoningTokens": 70706,
+      "totalTokens": 618357
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1786910843824,
+      "inputTokens": 398,
+      "message": "",
+      "outputTokens": 69,
+      "rationale": "This is a generic personal post and does not mention limits, caps, or availability resetting.",
+      "reasoningTokens": 23,
+      "totalTokens": 467,
+      "tweetId": "2089080720396317053",
+      "tweetText": "Sunday is for good vibes. As is any day of the week, but especially Sunday.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2089080720396317053",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.98,
       "createdAt": 1786910223195,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2088133823619895712",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1786677837079,
-      "inputTokens": 538,
-      "message": "",
-      "outputTokens": 84,
-      "rationale": "This post is about Google Docs/Sheets/Slides integration rolling out, not usage limits or rate-limit resets.",
-      "reasoningTokens": 34,
-      "totalTokens": 622,
-      "tweetId": "2088103609477238858",
-      "tweetText": "Work with Google docs, sheets and slides right inside ChatGPT.\n\nThis has changed how I write documents, brainstorm or proofread things. I just open it and then chat or talk my way through changes and it all happens right there in the flow.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2088103609477238858",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "rWm9elN2mG2vP8F0uxOt0VNQUCXKqk5hEwM0540UzOkJ29ti0g3aqPTWNA",
-    "iv": "kx0hggFFBUoAuwD8",
-    "tag": "e0_rsJt6luRYJqhaXYo2pw",
+    "ciphertext": "IE_B221-GCSRNdu2NMBuUUqrmk8ANS6zRSjBL3cJhtd-YpWYHIIwNuo5ww",
+    "iv": "joFfOyiTyW4K3bWC",
+    "tag": "AeaBWEQMA9XQ1D96jhqoiQ",
     "version": 1
   }
 }
