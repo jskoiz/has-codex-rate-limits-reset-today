@@ -14,16 +14,16 @@
   "updatedAt": 1786583136086,
   "automation": {
     "lastDecision": {
-      "confidence": 0.79,
-      "decidedAt": 1786860102675,
-      "rationale": "This reply only mentions the time and does not clearly say limits have reset or are available again.",
-      "tweetId": "2088868557128135006",
-      "tweetUrl": "https://x.com/thsottiaux/status/2088868557128135006",
-      "verdict": "uncertain"
+      "confidence": 0.99,
+      "decidedAt": 1786861661213,
+      "rationale": "This reply is conversational and does not mention limits or a reset.",
+      "tweetId": "2088875095733547066",
+      "tweetUrl": "https://x.com/thsottiaux/status/2088875095733547066",
+      "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2088868557128135006",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2088868557128135006",
+    "lastSeenTweetId": "2088875095733547066",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2088875095733547066",
     "pendingReview": {
       "confidence": 0.79,
       "createdAt": 1786860102675,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2088868557128135006"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1786861661213,
+        "inputTokens": 391,
+        "outputTokens": 81,
+        "rationale": "This reply is conversational and does not mention limits or a reset.",
+        "reasoningTokens": 40,
+        "totalTokens": 472,
+        "tweetId": "2088875095733547066",
+        "tweetText": "@Ethan_Smartsys Happens to the best",
+        "tweetUrl": "https://x.com/thsottiaux/status/2088875095733547066",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.79,
         "evaluatedAt": 1786860102675,
@@ -279,29 +292,31 @@
         "tweetText": "@albfresco Because it’s set as an instruction at the start of the context window",
         "tweetUrl": "https://x.com/thsottiaux/status/2088729222777094624",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1786825961548,
-        "inputTokens": 395,
-        "outputTokens": 83,
-        "rationale": "This is a general comment about OpenAI and does not mention any limit or usage reset.",
-        "reasoningTokens": 37,
-        "totalTokens": 478,
-        "tweetId": "2088725514542575903",
-        "tweetText": "Incredible things are happening at OpenAI right now. Energy is high.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2088725514542575903",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 487070,
-      "totalOutputTokens": 127710,
-      "totalReasoningTokens": 70160,
-      "totalTokens": 614780
+      "totalInputTokens": 487461,
+      "totalOutputTokens": 127791,
+      "totalReasoningTokens": 70200,
+      "totalTokens": 615252
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1786861661213,
+      "inputTokens": 391,
+      "message": "",
+      "outputTokens": 81,
+      "rationale": "This reply is conversational and does not mention limits or a reset.",
+      "reasoningTokens": 40,
+      "totalTokens": 472,
+      "tweetId": "2088875095733547066",
+      "tweetText": "@Ethan_Smartsys Happens to the best",
+      "tweetUrl": "https://x.com/thsottiaux/status/2088875095733547066",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.79,
       "createdAt": 1786860102675,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2087792567719252193",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1786603665910,
-      "inputTokens": 390,
-      "message": "",
-      "outputTokens": 84,
-      "rationale": "This is just a congratulatory reply and does not mention limits or a reset.",
-      "reasoningTokens": 40,
-      "totalTokens": 474,
-      "tweetId": "2087792302429556805",
-      "tweetText": "@thdxr Barely getting started. Congrats",
-      "tweetUrl": "https://x.com/thsottiaux/status/2087792302429556805",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "4LfWRiaFSnuF2GlB6Bzz_BI-NWBiSNgYPXXNkMq9a88nxaGhc_DZle4YlA",
-    "iv": "2E7VFChy7l6kr0QA",
-    "tag": "S2Gsu9O9HI7WvxoEG_tK5g",
+    "ciphertext": "eQYIhrkmPfH6IB5q_HzUVf7GoQkQX-eMo-pKms6i9nfWqg_PY73-_qW5-A",
+    "iv": "lI9rIcYtuUhzxnQU",
+    "tag": "US-lJyRaUUEs4gndgk0Ubg",
     "version": 1
   }
 }
