@@ -14,16 +14,16 @@
   "updatedAt": 1786583136086,
   "automation": {
     "lastDecision": {
-      "confidence": 0.95,
-      "decidedAt": 1786906826584,
-      "rationale": "This reply alone does not clearly say limits have reset or are available again now.",
-      "tweetId": "2089063967301730789",
-      "tweetUrl": "https://x.com/thsottiaux/status/2089063967301730789",
-      "verdict": "uncertain"
+      "confidence": 0.98,
+      "decidedAt": 1786910219464,
+      "rationale": "This is just a brief conversational reply and does not indicate any limits or caps have reset.",
+      "tweetId": "2089078284487139347",
+      "tweetUrl": "https://x.com/thsottiaux/status/2089078284487139347",
+      "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2089063967301730789",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2089063967301730789",
+    "lastSeenTweetId": "2089078284487139347",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2089078284487139347",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1786906826584,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2089063967301730789"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.98,
+        "evaluatedAt": 1786910219464,
+        "inputTokens": 386,
+        "outputTokens": 141,
+        "rationale": "This is just a brief conversational reply and does not indicate any limits or caps have reset.",
+        "reasoningTokens": 95,
+        "totalTokens": 527,
+        "tweetId": "2089078284487139347",
+        "tweetText": "@Ananth7e Maybe",
+        "tweetUrl": "https://x.com/thsottiaux/status/2089078284487139347",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.95,
         "evaluatedAt": 1786906826584,
@@ -279,29 +292,31 @@
         "tweetText": "@charlietlamb Only two misses",
         "tweetUrl": "https://x.com/thsottiaux/status/2088766482557907136",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1786835874771,
-        "inputTokens": 387,
-        "outputTokens": 69,
-        "rationale": "This reply is just a greeting and does not mention any reset or rate-limit change.",
-        "reasoningTokens": 24,
-        "totalTokens": 456,
-        "tweetId": "2088765949596090629",
-        "tweetText": "@Venkydotdev Hi",
-        "tweetUrl": "https://x.com/thsottiaux/status/2088765949596090629",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 488621,
-      "totalOutputTokens": 128205,
-      "totalReasoningTokens": 70480,
-      "totalTokens": 616826
+      "totalInputTokens": 489007,
+      "totalOutputTokens": 128346,
+      "totalReasoningTokens": 70575,
+      "totalTokens": 617353
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.98,
+      "createdAt": 1786910219464,
+      "inputTokens": 386,
+      "message": "",
+      "outputTokens": 141,
+      "rationale": "This is just a brief conversational reply and does not indicate any limits or caps have reset.",
+      "reasoningTokens": 95,
+      "totalTokens": 527,
+      "tweetId": "2089078284487139347",
+      "tweetText": "@Ananth7e Maybe",
+      "tweetUrl": "https://x.com/thsottiaux/status/2089078284487139347",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.95,
       "createdAt": 1786906826584,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2088019866133672217",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1786657969099,
-      "inputTokens": 478,
-      "message": "",
-      "outputTokens": 134,
-      "rationale": "This is about previewing Ultrafast mode, not limits or a usage cap reset.",
-      "reasoningTokens": 88,
-      "totalTokens": 612,
-      "tweetId": "2088019704803897705",
-      "tweetText": "Sometimes you have have to go /ultrafast.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2088019704803897705",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "OOxvrNRsfbgEKX1iB1futduGxzpApzrAhX140_18bh3xF5IAFXF-m9Cm9Q",
-    "iv": "VFTtmOYL9cevKUla",
-    "tag": "bit3uNawhbmKM-RnEbwMJQ",
+    "ciphertext": "ZbLt-FhSxwgGlsE06YsFPSP2z84S9f-Vbt0JGkVFz_HVNj39bV6DXALetA",
+    "iv": "F5q_rQEPTvrTPnj7",
+    "tag": "a87HvNQrcoPWX0817xR7QA",
     "version": 1
   }
 }
