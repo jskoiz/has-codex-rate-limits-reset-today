@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1786857616668,
-      "rationale": "This reply discusses ZDR and does not mention limits, caps, or usage becoming available again.",
-      "tweetId": "2088857900903289192",
-      "tweetUrl": "https://x.com/thsottiaux/status/2088857900903289192",
+      "decidedAt": 1786857619286,
+      "rationale": "This reply discusses migration costs and says nothing about limits or availability resetting.",
+      "tweetId": "2088858208668614841",
+      "tweetUrl": "https://x.com/thsottiaux/status/2088858208668614841",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2088857900903289192",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2088857900903289192",
+    "lastSeenTweetId": "2088858208668614841",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2088858208668614841",
     "pendingReview": {
       "confidence": 0.08,
       "createdAt": 1786856998456,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2088854576686612859"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1786857619286,
+        "inputTokens": 408,
+        "outputTokens": 80,
+        "rationale": "This reply discusses migration costs and says nothing about limits or availability resetting.",
+        "reasoningTokens": 38,
+        "totalTokens": 488,
+        "tweetId": "2088858208668614841",
+        "tweetText": "@RJMcGirr Sol can probably migrate you in a few hours. Why isn't it worth the many $$$ you would get back in return?",
+        "tweetUrl": "https://x.com/thsottiaux/status/2088858208668614841",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1786857616668,
@@ -279,29 +292,31 @@
         "tweetText": "@gdb What did Greg see 👀",
         "tweetUrl": "https://x.com/thsottiaux/status/2088504253421846933",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1786773262990,
-        "inputTokens": 395,
-        "outputTokens": 103,
-        "rationale": "This reply gives usage advice and does not mention any limit or rate-cap reset.",
-        "reasoningTokens": 59,
-        "totalTokens": 498,
-        "tweetId": "2088504145573736896",
-        "tweetText": "@rezoundous Ask it to clean up 1 in 50 prompts",
-        "tweetUrl": "https://x.com/thsottiaux/status/2088504145573736896",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 485568,
-      "totalOutputTokens": 127321,
-      "totalReasoningTokens": 69905,
-      "totalTokens": 612889
+      "totalInputTokens": 485976,
+      "totalOutputTokens": 127401,
+      "totalReasoningTokens": 69943,
+      "totalTokens": 613377
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1786857619286,
+      "inputTokens": 408,
+      "message": "",
+      "outputTokens": 80,
+      "rationale": "This reply discusses migration costs and says nothing about limits or availability resetting.",
+      "reasoningTokens": 38,
+      "totalTokens": 488,
+      "tweetId": "2088858208668614841",
+      "tweetText": "@RJMcGirr Sol can probably migrate you in a few hours. Why isn't it worth the many $$$ you would get back in return?",
+      "tweetUrl": "https://x.com/thsottiaux/status/2088858208668614841",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1786857616668,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2087706104814023111",
       "type": "reset_confirmed",
       "verdict": "reset_confirmed"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1786561125870,
-      "inputTokens": 438,
-      "message": "",
-      "outputTokens": 63,
-      "rationale": "This is a conversational comment about a team and says nothing about limits or resets.",
-      "reasoningTokens": 19,
-      "totalTokens": 501,
-      "tweetId": "2087614555203809395",
-      "tweetText": "Typical conversation with @ajambrosino \n\nA: core alignment has been reached\nT: core alignment you say\nA: i say\nT: say more\nA: more\n\nAnd yet I’ve never been more excited about what him and the team are building.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2087614555203809395",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "cjZrsHwP3vyBH37LjK0fkhyl8vB2rAdQ9lv-Y2atH2f7rri1ntSqFJoxuw",
-    "iv": "WpWRLFMSOA5wS6pc",
-    "tag": "82u0Cm2V7M4CSISJIHB0qA",
+    "ciphertext": "goq1YSHEn4lJk_1A27leDlog1zjJ2GgDchy8mY0tY7MoLMtSQgAlF_4WWw",
+    "iv": "ARtW8sAlmwon1wT7",
+    "tag": "PyNqDsyL96emJgpyfvFecg",
     "version": 1
   }
 }
