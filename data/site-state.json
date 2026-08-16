@@ -14,25 +14,38 @@
   "updatedAt": 1786583136086,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1786859789836,
-      "rationale": "This post discusses token pricing and billing, not any rate-limit or usage-cap reset.",
-      "tweetId": "2088866513008873560",
-      "tweetUrl": "https://x.com/thsottiaux/status/2088866513008873560",
-      "verdict": "not_reset"
+      "confidence": 0.79,
+      "decidedAt": 1786860102675,
+      "rationale": "This reply only mentions the time and does not clearly say limits have reset or are available again.",
+      "tweetId": "2088868557128135006",
+      "tweetUrl": "https://x.com/thsottiaux/status/2088868557128135006",
+      "verdict": "uncertain"
     },
     "lastError": null,
-    "lastSeenTweetId": "2088866513008873560",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2088866513008873560",
+    "lastSeenTweetId": "2088868557128135006",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2088868557128135006",
     "pendingReview": {
-      "confidence": 0.08,
-      "createdAt": 1786856998456,
-      "rationale": "This reply just says “Yes” without enough context to tell whether a limit reset is being confirmed.",
-      "tweetId": "2088854576686612859",
-      "tweetText": "@_hibana01 Yes",
-      "tweetUrl": "https://x.com/thsottiaux/status/2088854576686612859"
+      "confidence": 0.79,
+      "createdAt": 1786860102675,
+      "rationale": "This reply only mentions the time and does not clearly say limits have reset or are available again.",
+      "tweetId": "2088868557128135006",
+      "tweetText": "@butter86396 Sorry, only 11pm over here.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2088868557128135006"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.79,
+        "evaluatedAt": 1786860102675,
+        "inputTokens": 393,
+        "outputTokens": 210,
+        "rationale": "This reply only mentions the time and does not clearly say limits have reset or are available again.",
+        "reasoningTokens": 163,
+        "totalTokens": 603,
+        "tweetId": "2088868557128135006",
+        "tweetText": "@butter86396 Sorry, only 11pm over here.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2088868557128135006",
+        "verdict": "uncertain"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1786859789836,
@@ -279,29 +292,31 @@
         "tweetText": "Incredible things are happening at OpenAI right now. Energy is high.",
         "tweetUrl": "https://x.com/thsottiaux/status/2088725514542575903",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1786825958410,
-        "inputTokens": 501,
-        "outputTokens": 81,
-        "rationale": "This post is product promotion about multi-agent delegation, not a rate-limit reset.",
-        "reasoningTokens": 37,
-        "totalTokens": 582,
-        "tweetId": "2088725163923984638",
-        "tweetText": "Let Sol manage an efficient fleet of Luna agents for you.\n\nThese models know each other well and collaborate to achieve the result in an incredibly fast and efficient way.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2088725163923984638",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 486677,
-      "totalOutputTokens": 127500,
-      "totalReasoningTokens": 69997,
-      "totalTokens": 614177
+      "totalInputTokens": 487070,
+      "totalOutputTokens": 127710,
+      "totalReasoningTokens": 70160,
+      "totalTokens": 614780
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.79,
+      "createdAt": 1786860102675,
+      "inputTokens": 393,
+      "message": "",
+      "outputTokens": 210,
+      "rationale": "This reply only mentions the time and does not clearly say limits have reset or are available again.",
+      "reasoningTokens": 163,
+      "totalTokens": 603,
+      "tweetId": "2088868557128135006",
+      "tweetText": "@butter86396 Sorry, only 11pm over here.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2088868557128135006",
+      "type": "review_requested",
+      "verdict": "uncertain"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1786859789836,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2087792302429556805",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1786591874871,
-      "inputTokens": 428,
-      "message": "",
-      "outputTokens": 96,
-      "rationale": "This reply discusses model selection and settings, not any limit or rate-limit reset.",
-      "reasoningTokens": 52,
-      "totalTokens": 524,
-      "tweetId": "2087742538769924280",
-      "tweetText": "@ThePeterMick Click the '+' and then 'Think harder'. And then you can select what you are looking for.\n\nAlternative is you can use ChatGPT Work and you can select exactly the model and settings you want there too.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2087742538769924280",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "ebekjVayAqJlQ1RoV3ZQNGJQ3lQE8G-IC-a3cPknUGBOHD5F8-1aPf-MwQ",
-    "iv": "8SDzd0_gMb0VdkPh",
-    "tag": "dkk7ZqrkSW-ewjbBGXHRSQ",
+    "ciphertext": "4LfWRiaFSnuF2GlB6Bzz_BI-NWBiSNgYPXXNkMq9a88nxaGhc_DZle4YlA",
+    "iv": "2E7VFChy7l6kr0QA",
+    "tag": "S2Gsu9O9HI7WvxoEG_tK5g",
     "version": 1
   }
 }
