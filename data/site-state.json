@@ -14,16 +14,16 @@
   "updatedAt": 1786583136086,
   "automation": {
     "lastDecision": {
-      "confidence": 0.08,
-      "decidedAt": 1786856998455,
-      "rationale": "This reply just says “Yes” without enough context to tell whether a limit reset is being confirmed.",
-      "tweetId": "2088854576686612859",
-      "tweetUrl": "https://x.com/thsottiaux/status/2088854576686612859",
-      "verdict": "uncertain"
+      "confidence": 0.99,
+      "decidedAt": 1786857315581,
+      "rationale": "This reply is about partnership programs and does not mention any limit or cap reset.",
+      "tweetId": "2088854763119280442",
+      "tweetUrl": "https://x.com/thsottiaux/status/2088854763119280442",
+      "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2088854576686612859",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2088854576686612859",
+    "lastSeenTweetId": "2088854763119280442",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2088854763119280442",
     "pendingReview": {
       "confidence": 0.08,
       "createdAt": 1786856998456,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2088854576686612859"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1786857315581,
+        "inputTokens": 392,
+        "outputTokens": 88,
+        "rationale": "This reply is about partnership programs and does not mention any limit or cap reset.",
+        "reasoningTokens": 44,
+        "totalTokens": 480,
+        "tweetId": "2088854763119280442",
+        "tweetText": "@SnoyIatK Which partnership programs do we need?",
+        "tweetUrl": "https://x.com/thsottiaux/status/2088854763119280442",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.08,
         "evaluatedAt": 1786856998456,
@@ -279,29 +292,31 @@
         "tweetText": "@TokenGremlin We are",
         "tweetUrl": "https://x.com/thsottiaux/status/2088500194757460096",
         "verdict": "uncertain"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1786772325014,
-        "inputTokens": 406,
-        "outputTokens": 65,
-        "rationale": "This is a general discussion question and does not mention limits, caps, or a reset.",
-        "reasoningTokens": 19,
-        "totalTokens": 471,
-        "tweetId": "2088500028721832432",
-        "tweetText": "What’s a hard problem codex solved for you this week? Where do you learn from others on how to push the frontier?",
-        "tweetUrl": "https://x.com/thsottiaux/status/2088500028721832432",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 484340,
-      "totalOutputTokens": 127063,
-      "totalReasoningTokens": 69783,
-      "totalTokens": 611403
+      "totalInputTokens": 484732,
+      "totalOutputTokens": 127151,
+      "totalReasoningTokens": 69827,
+      "totalTokens": 611883
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1786857315582,
+      "inputTokens": 392,
+      "message": "",
+      "outputTokens": 88,
+      "rationale": "This reply is about partnership programs and does not mention any limit or cap reset.",
+      "reasoningTokens": 44,
+      "totalTokens": 480,
+      "tweetId": "2088854763119280442",
+      "tweetText": "@SnoyIatK Which partnership programs do we need?",
+      "tweetUrl": "https://x.com/thsottiaux/status/2088854763119280442",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.08,
       "createdAt": 1786856998456,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2087612441123569930",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1786519640635,
-      "inputTokens": 391,
-      "message": "",
-      "outputTokens": 96,
-      "rationale": "This reply is about shipping Linux support, not any limit or rate-limit reset.",
-      "reasoningTokens": 52,
-      "totalTokens": 487,
-      "tweetId": "2087439859493617908",
-      "tweetText": "Also don’t say Linux, we just shipped that.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2087439859493617908",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "kDlPqDuKcxCVAoZx92gempNiOFkGXV_ve67qkopTnjYeEvdM-T2f259iuA",
-    "iv": "R_K4MHuvOfjGGq5I",
-    "tag": "bNX6cgBAt3ujkot5h0FZjw",
+    "ciphertext": "hSO7isZXFyRDMMqUnOUSVWu-xYapj2WTJX3s1WlRS-zWwm3FcL7OMbEsRg",
+    "iv": "TJmwUfRdP59ghCxc",
+    "tag": "zTvIHWju7a6j6TaovPjjbQ",
     "version": 1
   }
 }
