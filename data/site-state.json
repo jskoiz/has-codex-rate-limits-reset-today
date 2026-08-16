@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1786910843824,
-      "rationale": "This is a generic personal post and does not mention limits, caps, or availability resetting.",
-      "tweetId": "2089080720396317053",
-      "tweetUrl": "https://x.com/thsottiaux/status/2089080720396317053",
+      "decidedAt": 1786911153665,
+      "rationale": "This post is a Codex configuration tip about context window size, not a rate-limit or usage reset.",
+      "tweetId": "2089082893804896524",
+      "tweetUrl": "https://x.com/thsottiaux/status/2089082893804896524",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2089080720396317053",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2089080720396317053",
+    "lastSeenTweetId": "2089082893804896524",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2089082893804896524",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1786906826584,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2089063967301730789"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1786911153665,
+        "inputTokens": 698,
+        "outputTokens": 80,
+        "rationale": "This post is a Codex configuration tip about context window size, not a rate-limit or usage reset.",
+        "reasoningTokens": 31,
+        "totalTokens": 778,
+        "tweetId": "2089082893804896524",
+        "tweetText": "Here is how to enable a 1M-token context window in Codex for GPT-5.6 Sol. \n\nEven though we have tuned the context limit in Codex to be set optimally when it comes to performance and cost, this is a common ask, so here it is documented.\n\nA larger context window lets Codex retain more code, tool output, and conversation history before summarizing older material. You need a model that supports it. And GPT-5.6 Sol, for example, has a documented 1,050,000-token window. \n\nOpen ~/.codex/config.toml and add or update these settings at the top level, before any [section] headers:\n\n```\nmodel = \"gpt-5.6-sol\"\nmodel_context_window = 1000000\nmodel_auto_compact_token_limit = 900000\n```\n\nThe first setting selects the model. The second tells Codex to use a one-million-token context budget. The third starts automatic history compaction around 900,000 tokens, leaving some headroom. Restart Codex client and start a new session after saving. \n\nTo try the configuration for a single CLI session without changing your defaults:\n\n```\ncodex -m gpt-5.6-sol \\\n  -c model_context_window=1000000 \\\n  -c model_auto_compact_token_limit=900000\n```\n\nHave fun, but also know that we tuned the default carefully!",
+        "tweetUrl": "https://x.com/thsottiaux/status/2089082893804896524",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1786910843824,
@@ -279,29 +292,31 @@
         "tweetText": "@AISupplyGuy1 Do you have evals? Quite surprising as I would expect for most things you would net out 40-50% cheaper per task with Sol.\n\nCan you share more?",
         "tweetUrl": "https://x.com/thsottiaux/status/2088851696952951204",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1786856083009,
-        "inputTokens": 385,
-        "outputTokens": 86,
-        "rationale": "This reply just says “DM” and does not mention limits or a reset.",
-        "reasoningTokens": 42,
-        "totalTokens": 471,
-        "tweetId": "2088851430325248376",
-        "tweetText": "@nxc42 DM",
-        "tweetUrl": "https://x.com/thsottiaux/status/2088851430325248376",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 489791,
-      "totalOutputTokens": 128566,
-      "totalReasoningTokens": 70706,
-      "totalTokens": 618357
+      "totalInputTokens": 490489,
+      "totalOutputTokens": 128646,
+      "totalReasoningTokens": 70737,
+      "totalTokens": 619135
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1786911153665,
+      "inputTokens": 698,
+      "message": "",
+      "outputTokens": 80,
+      "rationale": "This post is a Codex configuration tip about context window size, not a rate-limit or usage reset.",
+      "reasoningTokens": 31,
+      "totalTokens": 778,
+      "tweetId": "2089082893804896524",
+      "tweetText": "Here is how to enable a 1M-token context window in Codex for GPT-5.6 Sol. \n\nEven though we have tuned the context limit in Codex to be set optimally when it comes to performance and cost, this is a common ask, so here it is documented.\n\nA larger context window lets Codex retain more code, tool output, and conversation history before summarizing older material. You need a model that supports it. And GPT-5.6 Sol, for example, has a documented 1,050,000-token window. \n\nOpen ~/.codex/config.toml and add or update these settings at the top level, before any [section] headers:\n\n```\nmodel = \"gpt-5.6-sol\"\nmodel_context_window = 1000000\nmodel_auto_compact_token_limit = 900000\n```\n\nThe first setting selects the model. The second tells Codex to use a one-million-token context budget. The third starts automatic history compaction around 900,000 tokens, leaving some headroom. Restart Codex client and start a new session after saving. \n\nTo try the configuration for a single CLI session without changing your defaults:\n\n```\ncodex -m gpt-5.6-sol \\\n  -c model_context_window=1000000 \\\n  -c model_auto_compact_token_limit=900000\n```\n\nHave fun, but also know that we tuned the default carefully!",
+      "tweetUrl": "https://x.com/thsottiaux/status/2089082893804896524",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1786910843824,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2088144034372128901",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1786684906190,
-      "inputTokens": 734,
-      "message": "",
-      "outputTokens": 97,
-      "rationale": "This post promotes a ChatGPT plugin use case and says nothing about limits or resets.",
-      "reasoningTokens": 52,
-      "totalTokens": 831,
-      "tweetId": "2088133823619895712",
-      "tweetText": "Ask ChatGPT to roast your computer usage after a day. Install the Computer History plugin, do things as usual and kindly ask it to roast your behavior. It's ... insightful 👀\n\n=====\n\n- You don’t use Slack. Slack uses you. It accounted for 48% of your recorded activity. Your Mac is essentially a $3,000 Slack notification with a keyboard.\n- Your productivity system is clicking “Clear” until God intervenes. You clicked it 339 times while submitting 253 Slack messages. You are playing Whac-A-Mole against an organization chart.\n- Your most-used keyboard shortcut is Delete. 1,191 times, including 1,065 in Slack. You’re not drafting messages. You’re negotiating peace treaties between your first thought and your executive function.\n- You pressed ⌘C 133 times and ⌘V just 26 times. You acquire information like a Victorian gentleman collecting exotic birds and then apparently release most of it into the clipboard wilderness.\n- You opened 42 tabs and closed 53. Technically, this makes browser-tab management your most successful project of the day.\n- You switched between actual applications more than 200 times, while reading an X post that literally said, “You probably hate tab switching.” The call is coming from inside the Chrome window.\n- Your busiest hour was 9 p.m., with more than 1,500 Slack events. Apparently “end of day” is less a time than a theoretical concept you enjoy discussing in meetings.\n- Your document at the center of several important workstreams was called “Hello.” Nothing says organizational clarity like running half the company through a Google Doc named after the first thing software prints.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2088133823619895712",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "IE_B221-GCSRNdu2NMBuUUqrmk8ANS6zRSjBL3cJhtd-YpWYHIIwNuo5ww",
-    "iv": "joFfOyiTyW4K3bWC",
-    "tag": "AeaBWEQMA9XQ1D96jhqoiQ",
+    "ciphertext": "uaUQT1ajidCmT8kEhWUXmPcp6XY-1xYR3OkHdk-SIieRQ4smiwKLXRwEqg",
+    "iv": "GNPkR9Wc3E9qOtYh",
+    "tag": "7itWPrAvKA6GAVJiYxfBCw",
     "version": 1
   }
 }
