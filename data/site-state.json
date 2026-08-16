@@ -14,25 +14,38 @@
   "updatedAt": 1786583136086,
   "automation": {
     "lastDecision": {
-      "confidence": 0.1,
-      "decidedAt": 1786862579295,
-      "rationale": "This reply only says “Yes” without enough visible context to confirm a rate-limit reset.",
-      "tweetId": "2088878697998844277",
-      "tweetUrl": "https://x.com/thsottiaux/status/2088878697998844277",
+      "confidence": 0.95,
+      "decidedAt": 1786906826584,
+      "rationale": "This reply alone does not clearly say limits have reset or are available again now.",
+      "tweetId": "2089063967301730789",
+      "tweetUrl": "https://x.com/thsottiaux/status/2089063967301730789",
       "verdict": "uncertain"
     },
     "lastError": null,
-    "lastSeenTweetId": "2088878697998844277",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2088878697998844277",
+    "lastSeenTweetId": "2089063967301730789",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2089063967301730789",
     "pendingReview": {
-      "confidence": 0.1,
-      "createdAt": 1786862579295,
-      "rationale": "This reply only says “Yes” without enough visible context to confirm a rate-limit reset.",
-      "tweetId": "2088878697998844277",
-      "tweetText": "@NotiDivad Yes",
-      "tweetUrl": "https://x.com/thsottiaux/status/2088878697998844277"
+      "confidence": 0.95,
+      "createdAt": 1786906826584,
+      "rationale": "This reply alone does not clearly say limits have reset or are available again now.",
+      "tweetId": "2089063967301730789",
+      "tweetText": "@Ananth7e Maybe",
+      "tweetUrl": "https://x.com/thsottiaux/status/2089063967301730789"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.95,
+        "evaluatedAt": 1786906826584,
+        "inputTokens": 386,
+        "outputTokens": 134,
+        "rationale": "This reply alone does not clearly say limits have reset or are available again now.",
+        "reasoningTokens": 90,
+        "totalTokens": 520,
+        "tweetId": "2089063967301730789",
+        "tweetText": "@Ananth7e Maybe",
+        "tweetUrl": "https://x.com/thsottiaux/status/2089063967301730789",
+        "verdict": "uncertain"
+      },
       {
         "confidence": 0.1,
         "evaluatedAt": 1786862579295,
@@ -279,29 +292,31 @@
         "tweetText": "@Venkydotdev Hi",
         "tweetUrl": "https://x.com/thsottiaux/status/2088765949596090629",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.95,
-        "evaluatedAt": 1786834957544,
-        "inputTokens": 410,
-        "outputTokens": 200,
-        "rationale": "He mentions regular resets generally, but does not say any limit has reset or is available again now.",
-        "reasoningTokens": 152,
-        "totalTokens": 610,
-        "tweetId": "2088763063495450791",
-        "tweetText": "@ishuagra02 You should actually try Codex instead of self-rationalizing. Usage included in the subscription is fantastic, even without my regular resets.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2088763063495450791",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 488235,
-      "totalOutputTokens": 128071,
-      "totalReasoningTokens": 70390,
-      "totalTokens": 616306
+      "totalInputTokens": 488621,
+      "totalOutputTokens": 128205,
+      "totalReasoningTokens": 70480,
+      "totalTokens": 616826
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.95,
+      "createdAt": 1786906826584,
+      "inputTokens": 386,
+      "message": "",
+      "outputTokens": 134,
+      "rationale": "This reply alone does not clearly say limits have reset or are available again now.",
+      "reasoningTokens": 90,
+      "totalTokens": 520,
+      "tweetId": "2089063967301730789",
+      "tweetText": "@Ananth7e Maybe",
+      "tweetUrl": "https://x.com/thsottiaux/status/2089063967301730789",
+      "type": "review_requested",
+      "verdict": "uncertain"
+    },
     {
       "confidence": 0,
       "createdAt": 1786873778755,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2088019704803897705",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1786657347968,
-      "inputTokens": 463,
-      "message": "",
-      "outputTokens": 117,
-      "rationale": "This post and its quoted tweet announce a feature, not a rate-limit or usage-cap reset.",
-      "reasoningTokens": 70,
-      "totalTokens": 580,
-      "tweetId": "2088017529587573025",
-      "tweetText": "Computer history is here.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2088017529587573025",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "W7bbDAvVO8iWKvPKU0zI4vbc_rDlAvkZilkQ-bzeptDEwr4LnTMSb4t5cQ",
-    "iv": "2pRAb7hXbiKAN7D9",
-    "tag": "Kq49y6pkxdT_K9jZWtUK4w",
+    "ciphertext": "OOxvrNRsfbgEKX1iB1futduGxzpApzrAhX140_18bh3xF5IAFXF-m9Cm9Q",
+    "iv": "VFTtmOYL9cevKUla",
+    "tag": "bit3uNawhbmKM-RnEbwMJQ",
     "version": 1
   }
 }
