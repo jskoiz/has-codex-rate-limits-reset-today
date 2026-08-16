@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1786857619286,
-      "rationale": "This reply discusses migration costs and says nothing about limits or availability resetting.",
-      "tweetId": "2088858208668614841",
-      "tweetUrl": "https://x.com/thsottiaux/status/2088858208668614841",
+      "decidedAt": 1786859789836,
+      "rationale": "This post discusses token pricing and billing, not any rate-limit or usage-cap reset.",
+      "tweetId": "2088866513008873560",
+      "tweetUrl": "https://x.com/thsottiaux/status/2088866513008873560",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2088858208668614841",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2088858208668614841",
+    "lastSeenTweetId": "2088866513008873560",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2088866513008873560",
     "pendingReview": {
       "confidence": 0.08,
       "createdAt": 1786856998456,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2088854576686612859"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1786859789836,
+        "inputTokens": 701,
+        "outputTokens": 99,
+        "rationale": "This post discusses token pricing and billing, not any rate-limit or usage-cap reset.",
+        "reasoningTokens": 54,
+        "totalTokens": 800,
+        "tweetId": "2088866513008873560",
+        "tweetText": "On tokens and prices per token.\n\nI said I’d write more about this, so here goes: an OpenAI token != another model’s token. We compare AI prices in dollars per million tokens as if a token were a standardized unit, like a gram or a kilowatt-hour. It isn’t. Different models use and produce the exact same text using different numbers of tokens, which means a lower price per token does not necessarily mean a lower bill.\n\nImagine two identical pizzas. One is cut into 8 slices at $2 each. The other is cut into 16 slices at $1.25 each. The second place advertises cheaper slices, but the whole pizza costs $20 instead of $16. Bummer ... your stomach doesn't actually care about the number of slices you just ate.\n\nI know you are hungry now, but back to tokens. In one small comparison spanning English, technical, multilingual, and numerical text, the tokenizer we use for GPT-5.6 Sol used 766 tokens versus an estimated 1,170 for Claude Opus 5. That's a very significant difference of about 34.5% fewer tokens. You can get the same exact text, but pay for all those extra tokens. The price per token doesn't really tell this story.\n\nEven correcting for tokenizer differences misses the bigger point. What actually matters is price per successful outcome, and for that you can use benchmarks as a starting point, but really you have to try it and measure on your own use cases.\n\nThat's all. May the tokens flow.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2088866513008873560",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1786857619286,
@@ -279,29 +292,31 @@
         "tweetText": "Let Sol manage an efficient fleet of Luna agents for you.\n\nThese models know each other well and collaborate to achieve the result in an incredibly fast and efficient way.",
         "tweetUrl": "https://x.com/thsottiaux/status/2088725163923984638",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1786773265870,
-        "inputTokens": 389,
-        "outputTokens": 103,
-        "rationale": "This reply is conversational and gives no indication that any Codex or ChatGPT limits have reset.",
-        "reasoningTokens": 56,
-        "totalTokens": 492,
-        "tweetId": "2088504253421846933",
-        "tweetText": "@gdb What did Greg see 👀",
-        "tweetUrl": "https://x.com/thsottiaux/status/2088504253421846933",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 485976,
-      "totalOutputTokens": 127401,
-      "totalReasoningTokens": 69943,
-      "totalTokens": 613377
+      "totalInputTokens": 486677,
+      "totalOutputTokens": 127500,
+      "totalReasoningTokens": 69997,
+      "totalTokens": 614177
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1786859789836,
+      "inputTokens": 701,
+      "message": "",
+      "outputTokens": 99,
+      "rationale": "This post discusses token pricing and billing, not any rate-limit or usage-cap reset.",
+      "reasoningTokens": 54,
+      "totalTokens": 800,
+      "tweetId": "2088866513008873560",
+      "tweetText": "On tokens and prices per token.\n\nI said I’d write more about this, so here goes: an OpenAI token != another model’s token. We compare AI prices in dollars per million tokens as if a token were a standardized unit, like a gram or a kilowatt-hour. It isn’t. Different models use and produce the exact same text using different numbers of tokens, which means a lower price per token does not necessarily mean a lower bill.\n\nImagine two identical pizzas. One is cut into 8 slices at $2 each. The other is cut into 16 slices at $1.25 each. The second place advertises cheaper slices, but the whole pizza costs $20 instead of $16. Bummer ... your stomach doesn't actually care about the number of slices you just ate.\n\nI know you are hungry now, but back to tokens. In one small comparison spanning English, technical, multilingual, and numerical text, the tokenizer we use for GPT-5.6 Sol used 766 tokens versus an estimated 1,170 for Claude Opus 5. That's a very significant difference of about 34.5% fewer tokens. You can get the same exact text, but pay for all those extra tokens. The price per token doesn't really tell this story.\n\nEven correcting for tokenizer differences misses the bigger point. What actually matters is price per successful outcome, and for that you can use benchmarks as a starting point, but really you have to try it and measure on your own use cases.\n\nThat's all. May the tokens flow.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2088866513008873560",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1786857619286,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2087742538769924280",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1786583136086,
-      "inputTokens": 491,
-      "message": "",
-      "outputTokens": 128,
-      "rationale": "The main tweet explicitly announces a reset rolling out now, saying it is “landing in the next hour or so.”",
-      "reasoningTokens": 75,
-      "totalTokens": 619,
-      "tweetId": "2087706104814023111",
-      "tweetText": "Old news actually from a bunch of days ago, but crossed that 15M. Enjoy a nice reset everyone. Landing in the next hour or so, go /fast.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2087706104814023111",
-      "type": "reset_confirmed",
-      "verdict": "reset_confirmed"
     }
   ],
   "privateState": {
-    "ciphertext": "goq1YSHEn4lJk_1A27leDlog1zjJ2GgDchy8mY0tY7MoLMtSQgAlF_4WWw",
-    "iv": "ARtW8sAlmwon1wT7",
-    "tag": "PyNqDsyL96emJgpyfvFecg",
+    "ciphertext": "ebekjVayAqJlQ1RoV3ZQNGJQ3lQE8G-IC-a3cPknUGBOHD5F8-1aPf-MwQ",
+    "iv": "8SDzd0_gMb0VdkPh",
+    "tag": "dkk7ZqrkSW-ewjbBGXHRSQ",
     "version": 1
   }
 }
