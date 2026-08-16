@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1786856382351,
-      "rationale": "This reply just says “DM” and does not mention limits, caps, or availability resetting.",
-      "tweetId": "2088851978524958868",
-      "tweetUrl": "https://x.com/thsottiaux/status/2088851978524958868",
+      "decidedAt": 1786856692564,
+      "rationale": "This reply just says “DM” and does not mention limits or a reset.",
+      "tweetId": "2088853232177328603",
+      "tweetUrl": "https://x.com/thsottiaux/status/2088853232177328603",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2088851978524958868",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2088851978524958868",
+    "lastSeenTweetId": "2088853232177328603",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2088853232177328603",
     "pendingReview": {
       "confidence": 0.14,
       "createdAt": 1786772328268,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2088500194757460096"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1786856692564,
+        "inputTokens": 390,
+        "outputTokens": 101,
+        "rationale": "This reply just says “DM” and does not mention limits or a reset.",
+        "reasoningTokens": 57,
+        "totalTokens": 491,
+        "tweetId": "2088853232177328603",
+        "tweetText": "@drgrandehead @nxc42 DM",
+        "tweetUrl": "https://x.com/thsottiaux/status/2088853232177328603",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1786856382351,
@@ -279,29 +292,31 @@
         "tweetText": "Looking for a quick restaurant reservation is now super easy in ChatGPT. Together with a bunch more ships",
         "tweetUrl": "https://x.com/thsottiaux/status/2088493756391768252",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1786761766969,
-        "inputTokens": 391,
-        "outputTokens": 73,
-        "rationale": "This reply is just conversational and does not mention limits or a reset.",
-        "reasoningTokens": 31,
-        "totalTokens": 464,
-        "tweetId": "2088456062932598784",
-        "tweetText": "@ajambrosino @btraut Hype",
-        "tweetUrl": "https://x.com/thsottiaux/status/2088456062932598784",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 483176,
-      "totalOutputTokens": 126730,
-      "totalReasoningTokens": 69586,
-      "totalTokens": 609906
+      "totalInputTokens": 483566,
+      "totalOutputTokens": 126831,
+      "totalReasoningTokens": 69643,
+      "totalTokens": 610397
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1786856692564,
+      "inputTokens": 390,
+      "message": "",
+      "outputTokens": 101,
+      "rationale": "This reply just says “DM” and does not mention limits or a reset.",
+      "reasoningTokens": 57,
+      "totalTokens": 491,
+      "tweetId": "2088853232177328603",
+      "tweetText": "@drgrandehead @nxc42 DM",
+      "tweetUrl": "https://x.com/thsottiaux/status/2088853232177328603",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1786856382351,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2087425764581142567",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1786516226671,
-      "inputTokens": 387,
-      "message": "",
-      "outputTokens": 85,
-      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-      "reasoningTokens": 41,
-      "totalTokens": 472,
-      "tweetId": "2087424641484890587",
-      "tweetText": "@rezoundous Make them dance",
-      "tweetUrl": "https://x.com/thsottiaux/status/2087424641484890587",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "N7txewXVHUqNd12W0s7zxEP45wjvjmDjLeUeUPiz_cowEjbIO6ZbfnRT7Q",
-    "iv": "AiA3rKIMSfTjgURG",
-    "tag": "r_e8yp8GZmhAk3dwtGX1AQ",
+    "ciphertext": "vTzDqfWYFhGhmLF1vp-UyFdFcn_6T7505b8CaM_rHK-qUvMTv2YBKMF3bA",
+    "iv": "vyTnFevu1RneCpsG",
+    "tag": "F8Vyt0c2yrY7wsJEfMwkeQ",
     "version": 1
   }
 }
