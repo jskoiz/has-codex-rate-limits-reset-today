@@ -14,25 +14,38 @@
   "updatedAt": 1786583136086,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1786856695582,
-      "rationale": "This reply is conversational and does not mention limits, caps, or usage resetting.",
-      "tweetId": "2088854046987932154",
-      "tweetUrl": "https://x.com/thsottiaux/status/2088854046987932154",
-      "verdict": "not_reset"
+      "confidence": 0.08,
+      "decidedAt": 1786856998455,
+      "rationale": "This reply just says “Yes” without enough context to tell whether a limit reset is being confirmed.",
+      "tweetId": "2088854576686612859",
+      "tweetUrl": "https://x.com/thsottiaux/status/2088854576686612859",
+      "verdict": "uncertain"
     },
     "lastError": null,
-    "lastSeenTweetId": "2088854046987932154",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2088854046987932154",
+    "lastSeenTweetId": "2088854576686612859",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2088854576686612859",
     "pendingReview": {
-      "confidence": 0.14,
-      "createdAt": 1786772328268,
-      "rationale": "This reply alone is too context-free to tell whether any limits have reset.",
-      "tweetId": "2088500194757460096",
-      "tweetText": "@TokenGremlin We are",
-      "tweetUrl": "https://x.com/thsottiaux/status/2088500194757460096"
+      "confidence": 0.08,
+      "createdAt": 1786856998456,
+      "rationale": "This reply just says “Yes” without enough context to tell whether a limit reset is being confirmed.",
+      "tweetId": "2088854576686612859",
+      "tweetText": "@_hibana01 Yes",
+      "tweetUrl": "https://x.com/thsottiaux/status/2088854576686612859"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.08,
+        "evaluatedAt": 1786856998456,
+        "inputTokens": 386,
+        "outputTokens": 157,
+        "rationale": "This reply just says “Yes” without enough context to tell whether a limit reset is being confirmed.",
+        "reasoningTokens": 109,
+        "totalTokens": 543,
+        "tweetId": "2088854576686612859",
+        "tweetText": "@_hibana01 Yes",
+        "tweetUrl": "https://x.com/thsottiaux/status/2088854576686612859",
+        "verdict": "uncertain"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1786856695582,
@@ -279,29 +292,31 @@
         "tweetText": "What’s a hard problem codex solved for you this week? Where do you learn from others on how to push the frontier?",
         "tweetUrl": "https://x.com/thsottiaux/status/2088500028721832432",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1786772013033,
-        "inputTokens": 391,
-        "outputTokens": 103,
-        "rationale": "This reply is conversational and does not mention any limit or rate-limit reset.",
-        "reasoningTokens": 60,
-        "totalTokens": 494,
-        "tweetId": "2088498761488306264",
-        "tweetText": "@ajambrosino @scaling01 Concerning",
-        "tweetUrl": "https://x.com/thsottiaux/status/2088498761488306264",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 483954,
-      "totalOutputTokens": 126906,
-      "totalReasoningTokens": 69674,
-      "totalTokens": 610860
+      "totalInputTokens": 484340,
+      "totalOutputTokens": 127063,
+      "totalReasoningTokens": 69783,
+      "totalTokens": 611403
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.08,
+      "createdAt": 1786856998456,
+      "inputTokens": 386,
+      "message": "",
+      "outputTokens": 157,
+      "rationale": "This reply just says “Yes” without enough context to tell whether a limit reset is being confirmed.",
+      "reasoningTokens": 109,
+      "totalTokens": 543,
+      "tweetId": "2088854576686612859",
+      "tweetText": "@_hibana01 Yes",
+      "tweetUrl": "https://x.com/thsottiaux/status/2088854576686612859",
+      "type": "review_requested",
+      "verdict": "uncertain"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1786856695582,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2087439859493617908",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1786519319455,
-      "inputTokens": 408,
-      "message": "",
-      "outputTokens": 82,
-      "rationale": "This is a conversational question and does not say limits or caps have reset.",
-      "reasoningTokens": 39,
-      "totalTokens": 490,
-      "tweetId": "2087438544323420273",
-      "tweetText": "Why did you switch to Codex? \n\nWhat do you like about it and what could we improve? Don’t say reset.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2087438544323420273",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "ewIHDxetnGz0Vlt4tvBDC9GhqIZRo9JIQSDTnIDgHiqN6sV0KHt2fOWi9A",
-    "iv": "L3mUCacoWuaOYUdg",
-    "tag": "d6WpTDgUavUuOIKVTgYpzQ",
+    "ciphertext": "kDlPqDuKcxCVAoZx92gempNiOFkGXV_ve67qkopTnjYeEvdM-T2f259iuA",
+    "iv": "R_K4MHuvOfjGGq5I",
+    "tag": "bNX6cgBAt3ujkot5h0FZjw",
     "version": 1
   }
 }
