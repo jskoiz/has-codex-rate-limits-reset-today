@@ -21,7 +21,7 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2088878697998844277",
       "verdict": "uncertain"
     },
-    "lastError": null,
+    "lastError": "Tweet fetch failed: Tweet search failed: Request failed with status code 403; timeline fallback failed: Request failed with status code 403 (Request failed with status code 403) (Tweet search failed: Request failed with status code 403; timeline fallback failed: Request failed with status code 403)",
     "lastSeenTweetId": "2088878697998844277",
     "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2088878697998844277",
     "pendingReview": {
@@ -302,6 +302,21 @@
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0,
+      "createdAt": 1786869114399,
+      "inputTokens": 0,
+      "message": "Tweet fetch failed: Tweet search failed: Request failed with status code 403; timeline fallback failed: Request failed with status code 403 (Request failed with status code 403) (Tweet search failed: Request failed with status code 403; timeline fallback failed: Request failed with status code 403)",
+      "outputTokens": 0,
+      "rationale": "",
+      "reasoningTokens": 0,
+      "totalTokens": 0,
+      "tweetId": null,
+      "tweetText": "",
+      "tweetUrl": null,
+      "type": "error",
+      "verdict": null
+    },
     {
       "confidence": 0.1,
       "createdAt": 1786862579295,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2088017529587573025",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1786643990492,
-      "inputTokens": 391,
-      "message": "",
-      "outputTokens": 67,
-      "rationale": "This reply is just conversational and does not mention any limit, cap, or reset.",
-      "reasoningTokens": 22,
-      "totalTokens": 458,
-      "tweetId": "2087961114168664288",
-      "tweetText": "@jullerino Hi Sol, I am Tibo",
-      "tweetUrl": "https://x.com/thsottiaux/status/2087961114168664288",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "8RsU8V_Wt4k2ohikL0Bl52DUsDUAe8wwxDjvPAhtzD8TSApQ9y-361Uiaw",
-    "iv": "VrUjpefgEa6PDFda",
-    "tag": "S4SKU8fUkMuaTCUJRPZDaQ",
+    "ciphertext": "aiXZYCG7rr2PYsGlWG3HA4ps3dl0b8T3YQXw87tZQ7TkauFcBr4q75d71w",
+    "iv": "-x4BqrDMe3ExUBc9",
+    "tag": "B7al99m_JEkr4iV2n1ymMQ",
     "version": 1
   }
 }
