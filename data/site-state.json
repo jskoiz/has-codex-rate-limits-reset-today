@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1786856079422,
-      "rationale": "This is a product/pricing question and does not mention any Codex or ChatGPT limit reset.",
-      "tweetId": "2088850995430477882",
-      "tweetUrl": "https://x.com/thsottiaux/status/2088850995430477882",
+      "decidedAt": 1786856083009,
+      "rationale": "This reply just says “DM” and does not mention limits or a reset.",
+      "tweetId": "2088851430325248376",
+      "tweetUrl": "https://x.com/thsottiaux/status/2088851430325248376",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2088850995430477882",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2088850995430477882",
+    "lastSeenTweetId": "2088851430325248376",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2088851430325248376",
     "pendingReview": {
       "confidence": 0.14,
       "createdAt": 1786772328268,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2088500194757460096"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1786856083009,
+        "inputTokens": 385,
+        "outputTokens": 86,
+        "rationale": "This reply just says “DM” and does not mention limits or a reset.",
+        "reasoningTokens": 42,
+        "totalTokens": 471,
+        "tweetId": "2088851430325248376",
+        "tweetText": "@nxc42 DM",
+        "tweetUrl": "https://x.com/thsottiaux/status/2088851430325248376",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1786856079422,
@@ -279,29 +292,31 @@
         "tweetText": "Ask ChatGPT to roast your computer usage after a day. Install the Computer History plugin, do things as usual and kindly ask it to roast your behavior. It's ... insightful 👀\n\n=====\n\n- You don’t use Slack. Slack uses you. It accounted for 48% of your recorded activity. Your Mac is essentially a $3,000 Slack notification with a keyboard.\n- Your productivity system is clicking “Clear” until God intervenes. You clicked it 339 times while submitting 253 Slack messages. You are playing Whac-A-Mole against an organization chart.\n- Your most-used keyboard shortcut is Delete. 1,191 times, including 1,065 in Slack. You’re not drafting messages. You’re negotiating peace treaties between your first thought and your executive function.\n- You pressed ⌘C 133 times and ⌘V just 26 times. You acquire information like a Victorian gentleman collecting exotic birds and then apparently release most of it into the clipboard wilderness.\n- You opened 42 tabs and closed 53. Technically, this makes browser-tab management your most successful project of the day.\n- You switched between actual applications more than 200 times, while reading an X post that literally said, “You probably hate tab switching.” The call is coming from inside the Chrome window.\n- Your busiest hour was 9 p.m., with more than 1,500 Slack events. Apparently “end of day” is less a time than a theoretical concept you enjoy discussing in meetings.\n- Your document at the center of several important workstreams was called “Hello.” Nothing says organizational clarity like running half the company through a Google Doc named after the first thing software prints.",
         "tweetUrl": "https://x.com/thsottiaux/status/2088133823619895712",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1786677837079,
-        "inputTokens": 538,
-        "outputTokens": 84,
-        "rationale": "This post is about Google Docs/Sheets/Slides integration rolling out, not usage limits or rate-limit resets.",
-        "reasoningTokens": 34,
-        "totalTokens": 622,
-        "tweetId": "2088103609477238858",
-        "tweetText": "Work with Google docs, sheets and slides right inside ChatGPT.\n\nThis has changed how I write documents, brainstorm or proofread things. I just open it and then chat or talk my way through changes and it all happens right there in the flow.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2088103609477238858",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 481589,
-      "totalOutputTokens": 126365,
-      "totalReasoningTokens": 69399,
-      "totalTokens": 607954
+      "totalInputTokens": 481974,
+      "totalOutputTokens": 126451,
+      "totalReasoningTokens": 69441,
+      "totalTokens": 608425
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1786856083009,
+      "inputTokens": 385,
+      "message": "",
+      "outputTokens": 86,
+      "rationale": "This reply just says “DM” and does not mention limits or a reset.",
+      "reasoningTokens": 42,
+      "totalTokens": 471,
+      "tweetId": "2088851430325248376",
+      "tweetText": "@nxc42 DM",
+      "tweetUrl": "https://x.com/thsottiaux/status/2088851430325248376",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1786856079422,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2087422502201114985",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1786515297732,
-      "inputTokens": 387,
-      "message": "",
-      "outputTokens": 67,
-      "rationale": "This reply just says congratulations and does not mention limits or availability.",
-      "reasoningTokens": 26,
-      "totalTokens": 454,
-      "tweetId": "2087421146862121101",
-      "tweetText": "@ZixuanLi_ Congrats",
-      "tweetUrl": "https://x.com/thsottiaux/status/2087421146862121101",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "0X5i9p3O4VIUuvnWwMc2TWfcbiCZ-u0CFWa5cetDBiWWYR51TpFAfmUTIg",
-    "iv": "3r-mSJm6dQmYv0SV",
-    "tag": "GGNhkYvyOxme4E95Lm6Fmw",
+    "ciphertext": "CHAO4h-eNPxhnKoIx6UMTYgYnGv9iMEK8W8q1OWVGmHRMcp4NVR8SprTvg",
+    "iv": "LrQQy9vEh-78Chml",
+    "tag": "FghZWhI0uPm6DNm2S95CeQ",
     "version": 1
   }
 }
