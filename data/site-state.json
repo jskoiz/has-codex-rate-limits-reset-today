@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1786856085536,
-      "rationale": "This reply discusses evals and pricing, not any limit, cap, or reset.",
-      "tweetId": "2088851696952951204",
-      "tweetUrl": "https://x.com/thsottiaux/status/2088851696952951204",
+      "decidedAt": 1786856379708,
+      "rationale": "This reply discusses model support and does not mention limits or a reset.",
+      "tweetId": "2088851940172280251",
+      "tweetUrl": "https://x.com/thsottiaux/status/2088851940172280251",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2088851696952951204",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2088851696952951204",
+    "lastSeenTweetId": "2088851940172280251",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2088851940172280251",
     "pendingReview": {
       "confidence": 0.14,
       "createdAt": 1786772328268,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2088500194757460096"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1786856379708,
+        "inputTokens": 395,
+        "outputTokens": 107,
+        "rationale": "This reply discusses model support and does not mention limits or a reset.",
+        "reasoningTokens": 65,
+        "totalTokens": 502,
+        "tweetId": "2088851940172280251",
+        "tweetText": "@AbdoKerdawy Sol supports 1M, tell me more?",
+        "tweetUrl": "https://x.com/thsottiaux/status/2088851940172280251",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1786856085536,
@@ -279,29 +292,31 @@
         "tweetText": "@ngosoft Migrating to?",
         "tweetUrl": "https://x.com/thsottiaux/status/2088144272986108305",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1786687408883,
-        "inputTokens": 400,
-        "outputTokens": 119,
-        "rationale": "This reply is unrelated to rate limits, caps, or usage resets.",
-        "reasoningTokens": 77,
-        "totalTokens": 519,
-        "tweetId": "2088144034372128901",
-        "tweetText": "@jun_song A fast rock is still just a rock. Where we are going we won't need rocks",
-        "tweetUrl": "https://x.com/thsottiaux/status/2088144034372128901",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 482395,
-      "totalOutputTokens": 126535,
-      "totalReasoningTokens": 69480,
-      "totalTokens": 608930
+      "totalInputTokens": 482790,
+      "totalOutputTokens": 126642,
+      "totalReasoningTokens": 69545,
+      "totalTokens": 609432
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1786856379708,
+      "inputTokens": 395,
+      "message": "",
+      "outputTokens": 107,
+      "rationale": "This reply discusses model support and does not mention limits or a reset.",
+      "reasoningTokens": 65,
+      "totalTokens": 502,
+      "tweetId": "2088851940172280251",
+      "tweetText": "@AbdoKerdawy Sol supports 1M, tell me more?",
+      "tweetUrl": "https://x.com/thsottiaux/status/2088851940172280251",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1786856085536,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2087423996115681767",
       "type": "review_requested",
       "verdict": "uncertain"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1786515612801,
-      "inputTokens": 394,
-      "message": "",
-      "outputTokens": 82,
-      "rationale": "This reply is just praise about Luna and does not mention limits or a reset.",
-      "reasoningTokens": 38,
-      "totalTokens": 476,
-      "tweetId": "2087422975935136252",
-      "tweetText": "@SPAC89 Luna is almost impossibly good. Glad you noticed",
-      "tweetUrl": "https://x.com/thsottiaux/status/2087422975935136252",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "eNwQlxinuA9aHTT5AtZAIJIR03gNQoHUoggtDXMAlDi8CqRPg-L4G0yWTQ",
-    "iv": "9eT8myafdrErOm2a",
-    "tag": "Om5M0AWOnVxM_t4Jtf2yAQ",
+    "ciphertext": "48HGH2MVO7Ls3igDXJomoZacpEpigYkoeiWxvpFUfao6ZOhodEVSoG3dwg",
+    "iv": "Rtp7Uv2ArW3G3GEK",
+    "tag": "rscUwr8enFXn41n4J2MK4w",
     "version": 1
   }
 }
