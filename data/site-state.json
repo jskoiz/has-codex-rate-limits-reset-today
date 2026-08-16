@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1786856379708,
-      "rationale": "This reply discusses model support and does not mention limits or a reset.",
-      "tweetId": "2088851940172280251",
-      "tweetUrl": "https://x.com/thsottiaux/status/2088851940172280251",
+      "decidedAt": 1786856382351,
+      "rationale": "This reply just says “DM” and does not mention limits, caps, or availability resetting.",
+      "tweetId": "2088851978524958868",
+      "tweetUrl": "https://x.com/thsottiaux/status/2088851978524958868",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2088851940172280251",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2088851940172280251",
+    "lastSeenTweetId": "2088851978524958868",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2088851978524958868",
     "pendingReview": {
       "confidence": 0.14,
       "createdAt": 1786772328268,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2088500194757460096"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1786856382351,
+        "inputTokens": 386,
+        "outputTokens": 88,
+        "rationale": "This reply just says “DM” and does not mention limits, caps, or availability resetting.",
+        "reasoningTokens": 41,
+        "totalTokens": 474,
+        "tweetId": "2088851978524958868",
+        "tweetText": "@DustdrifterX DM",
+        "tweetUrl": "https://x.com/thsottiaux/status/2088851978524958868",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1786856379708,
@@ -279,29 +292,31 @@
         "tweetText": "@ajambrosino @btraut Hype",
         "tweetUrl": "https://x.com/thsottiaux/status/2088456062932598784",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1786687411710,
-        "inputTokens": 387,
-        "outputTokens": 70,
-        "rationale": "This reply is just asking a question and does not mention any limits or a reset.",
-        "reasoningTokens": 25,
-        "totalTokens": 457,
-        "tweetId": "2088144272986108305",
-        "tweetText": "@ngosoft Migrating to?",
-        "tweetUrl": "https://x.com/thsottiaux/status/2088144272986108305",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 482790,
-      "totalOutputTokens": 126642,
-      "totalReasoningTokens": 69545,
-      "totalTokens": 609432
+      "totalInputTokens": 483176,
+      "totalOutputTokens": 126730,
+      "totalReasoningTokens": 69586,
+      "totalTokens": 609906
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1786856382351,
+      "inputTokens": 386,
+      "message": "",
+      "outputTokens": 88,
+      "rationale": "This reply just says “DM” and does not mention limits, caps, or availability resetting.",
+      "reasoningTokens": 41,
+      "totalTokens": 474,
+      "tweetId": "2088851978524958868",
+      "tweetText": "@DustdrifterX DM",
+      "tweetUrl": "https://x.com/thsottiaux/status/2088851978524958868",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1786856379708,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2087424641484890587",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.94,
-      "createdAt": 1786515915365,
-      "inputTokens": 425,
-      "message": "",
-      "outputTokens": 280,
-      "rationale": "It hints at a possible Codex reset tomorrow, but does not say limits have reset or are available again now.",
-      "reasoningTokens": 229,
-      "totalTokens": 705,
-      "tweetId": "2087423996115681767",
-      "tweetText": "I previously promised a reset for every 1M in additional active users for Codex, until 10M. \n\nWe blew past that and have been silent since 10M. Little surprise for you tomorrow.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2087423996115681767",
-      "type": "review_requested",
-      "verdict": "uncertain"
     }
   ],
   "privateState": {
-    "ciphertext": "48HGH2MVO7Ls3igDXJomoZacpEpigYkoeiWxvpFUfao6ZOhodEVSoG3dwg",
-    "iv": "Rtp7Uv2ArW3G3GEK",
-    "tag": "rscUwr8enFXn41n4J2MK4w",
+    "ciphertext": "N7txewXVHUqNd12W0s7zxEP45wjvjmDjLeUeUPiz_cowEjbIO6ZbfnRT7Q",
+    "iv": "AiA3rKIMSfTjgURG",
+    "tag": "r_e8yp8GZmhAk3dwtGX1AQ",
     "version": 1
   }
 }
