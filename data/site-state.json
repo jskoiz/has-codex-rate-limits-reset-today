@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1786857315581,
-      "rationale": "This reply is about partnership programs and does not mention any limit or cap reset.",
-      "tweetId": "2088854763119280442",
-      "tweetUrl": "https://x.com/thsottiaux/status/2088854763119280442",
+      "decidedAt": 1786857318091,
+      "rationale": "This reply discusses tokenizer efficiency and token costs, not any cap or rate-limit reset.",
+      "tweetId": "2088856449959276836",
+      "tweetUrl": "https://x.com/thsottiaux/status/2088856449959276836",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2088854763119280442",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2088854763119280442",
+    "lastSeenTweetId": "2088856449959276836",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2088856449959276836",
     "pendingReview": {
       "confidence": 0.08,
       "createdAt": 1786856998456,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2088854576686612859"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1786857318091,
+        "inputTokens": 443,
+        "outputTokens": 87,
+        "rationale": "This reply discusses tokenizer efficiency and token costs, not any cap or rate-limit reset.",
+        "reasoningTokens": 42,
+        "totalTokens": 530,
+        "tweetId": "2088856449959276836",
+        "tweetText": "I'll write more extensively about this, but OpenAI token != A\\ token. We use different tokenizers. And OpenAI's tokenizer is significantly more efficient.\n\nThis is important given you pay per token over the API and in usage. The difference is ~30% in number of tokens, definitely significant.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2088856449959276836",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1786857315581,
@@ -279,29 +292,31 @@
         "tweetText": "@SIGKITTEN 👀🙈",
         "tweetUrl": "https://x.com/thsottiaux/status/2088501704849534991",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.14,
-        "evaluatedAt": 1786772328268,
-        "inputTokens": 386,
-        "outputTokens": 167,
-        "rationale": "This reply alone is too context-free to tell whether any limits have reset.",
-        "reasoningTokens": 124,
-        "totalTokens": 553,
-        "tweetId": "2088500194757460096",
-        "tweetText": "@TokenGremlin We are",
-        "tweetUrl": "https://x.com/thsottiaux/status/2088500194757460096",
-        "verdict": "uncertain"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 484732,
-      "totalOutputTokens": 127151,
-      "totalReasoningTokens": 69827,
-      "totalTokens": 611883
+      "totalInputTokens": 485175,
+      "totalOutputTokens": 127238,
+      "totalReasoningTokens": 69869,
+      "totalTokens": 612413
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1786857318091,
+      "inputTokens": 443,
+      "message": "",
+      "outputTokens": 87,
+      "rationale": "This reply discusses tokenizer efficiency and token costs, not any cap or rate-limit reset.",
+      "reasoningTokens": 42,
+      "totalTokens": 530,
+      "tweetId": "2088856449959276836",
+      "tweetText": "I'll write more extensively about this, but OpenAI token != A\\ token. We use different tokenizers. And OpenAI's tokenizer is significantly more efficient.\n\nThis is important given you pay per token over the API and in usage. The difference is ~30% in number of tokens, definitely significant.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2088856449959276836",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1786857315582,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2087613056708972955",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1786560815228,
-      "inputTokens": 387,
-      "message": "",
-      "outputTokens": 82,
-      "rationale": "This is just a conversational reply and says nothing about limits or resets.",
-      "reasoningTokens": 40,
-      "totalTokens": 469,
-      "tweetId": "2087612441123569930",
-      "tweetText": "@ajambrosino oh hi",
-      "tweetUrl": "https://x.com/thsottiaux/status/2087612441123569930",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "hSO7isZXFyRDMMqUnOUSVWu-xYapj2WTJX3s1WlRS-zWwm3FcL7OMbEsRg",
-    "iv": "TJmwUfRdP59ghCxc",
-    "tag": "zTvIHWju7a6j6TaovPjjbQ",
+    "ciphertext": "LPxv_XQayus44FPkHuKQkLsItLWo_eBx0tAsOK8tQrPOOwf1PP2-qjADFw",
+    "iv": "zk2MlRQDEUhU2cwi",
+    "tag": "wvK1kSGAx7Arl4MJQNfvTw",
     "version": 1
   }
 }
