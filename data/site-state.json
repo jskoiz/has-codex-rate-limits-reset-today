@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1786916067118,
-      "rationale": "This reply is just a casual comment about a Codex sticker, not about limits or availability.",
-      "tweetId": "2089102679217742081",
-      "tweetUrl": "https://x.com/thsottiaux/status/2089102679217742081",
+      "decidedAt": 1786916069946,
+      "rationale": "This is just a conversational reply and says nothing about limits or resets.",
+      "tweetId": "2089103028204765350",
+      "tweetUrl": "https://x.com/thsottiaux/status/2089103028204765350",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2089102679217742081",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2089102679217742081",
+    "lastSeenTweetId": "2089103028204765350",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2089103028204765350",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1786906826584,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2089063967301730789"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1786916069946,
+        "inputTokens": 386,
+        "outputTokens": 75,
+        "rationale": "This is just a conversational reply and says nothing about limits or resets.",
+        "reasoningTokens": 33,
+        "totalTokens": 461,
+        "tweetId": "2089103028204765350",
+        "tweetText": "@xikhar Banger",
+        "tweetUrl": "https://x.com/thsottiaux/status/2089103028204765350",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1786916067118,
@@ -279,29 +292,31 @@
         "tweetText": "@DustdrifterX DM",
         "tweetUrl": "https://x.com/thsottiaux/status/2088851978524958868",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1786856379708,
-        "inputTokens": 395,
-        "outputTokens": 107,
-        "rationale": "This reply discusses model support and does not mention limits or a reset.",
-        "reasoningTokens": 65,
-        "totalTokens": 502,
-        "tweetId": "2088851940172280251",
-        "tweetText": "@AbdoKerdawy Sol supports 1M, tell me more?",
-        "tweetUrl": "https://x.com/thsottiaux/status/2088851940172280251",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 490880,
-      "totalOutputTokens": 128739,
-      "totalReasoningTokens": 70783,
-      "totalTokens": 619619
+      "totalInputTokens": 491266,
+      "totalOutputTokens": 128814,
+      "totalReasoningTokens": 70816,
+      "totalTokens": 620080
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1786916069946,
+      "inputTokens": 386,
+      "message": "",
+      "outputTokens": 75,
+      "rationale": "This is just a conversational reply and says nothing about limits or resets.",
+      "reasoningTokens": 33,
+      "totalTokens": 461,
+      "tweetId": "2089103028204765350",
+      "tweetText": "@xikhar Banger",
+      "tweetUrl": "https://x.com/thsottiaux/status/2089103028204765350",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1786916067118,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2088456062932598784",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1786687411710,
-      "inputTokens": 387,
-      "message": "",
-      "outputTokens": 70,
-      "rationale": "This reply is just asking a question and does not mention any limits or a reset.",
-      "reasoningTokens": 25,
-      "totalTokens": 457,
-      "tweetId": "2088144272986108305",
-      "tweetText": "@ngosoft Migrating to?",
-      "tweetUrl": "https://x.com/thsottiaux/status/2088144272986108305",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "mKjKVFZYrgRm3pzfPK718r0nhPwAs_wOs4DZlqva2PbXqPkPpRv1Z_y6FA",
-    "iv": "WOeJvz6zmi1tupA0",
-    "tag": "bZaRZ9iFOS_he-B7wRx7tg",
+    "ciphertext": "TMMRNDfVGDNmbntYX7fq4ZJLUCJAvx0FVzQIU551tJGdwDcxMPzEpcTW3g",
+    "iv": "eTL8BbB3dD4ahcFk",
+    "tag": "lhQth2rFnKL3YXb_r53d9g",
     "version": 1
   }
 }
