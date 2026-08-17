@@ -14,16 +14,16 @@
   "updatedAt": 1786583136086,
   "automation": {
     "lastDecision": {
-      "confidence": 0.97,
-      "decidedAt": 1786927225693,
-      "rationale": "This is a general product comment mentioning occasional resets, not a current limit reset announcement.",
-      "tweetId": "2089149255382438340",
-      "tweetUrl": "https://x.com/thsottiaux/status/2089149255382438340",
+      "confidence": 0.99,
+      "decidedAt": 1786927228384,
+      "rationale": "This reply is just conversational and does not indicate any limits or caps have reset.",
+      "tweetId": "2089149434235900033",
+      "tweetUrl": "https://x.com/thsottiaux/status/2089149434235900033",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2089149255382438340",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2089149255382438340",
+    "lastSeenTweetId": "2089149434235900033",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2089149434235900033",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1786906826584,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2089063967301730789"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1786927228384,
+        "inputTokens": 386,
+        "outputTokens": 101,
+        "rationale": "This reply is just conversational and does not indicate any limits or caps have reset.",
+        "reasoningTokens": 57,
+        "totalTokens": 487,
+        "tweetId": "2089149434235900033",
+        "tweetText": "@LLMJunky No way",
+        "tweetUrl": "https://x.com/thsottiaux/status/2089149434235900033",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.97,
         "evaluatedAt": 1786927225693,
@@ -279,29 +292,31 @@
         "tweetText": "I'll write more extensively about this, but OpenAI token != A\\ token. We use different tokenizers. And OpenAI's tokenizer is significantly more efficient.\n\nThis is important given you pay per token over the API and in usage. The difference is ~30% in number of tokens, definitely significant.",
         "tweetUrl": "https://x.com/thsottiaux/status/2088856449959276836",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1786857315581,
-        "inputTokens": 392,
-        "outputTokens": 88,
-        "rationale": "This reply is about partnership programs and does not mention any limit or cap reset.",
-        "reasoningTokens": 44,
-        "totalTokens": 480,
-        "tweetId": "2088854763119280442",
-        "tweetText": "@SnoyIatK Which partnership programs do we need?",
-        "tweetUrl": "https://x.com/thsottiaux/status/2088854763119280442",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 493275,
-      "totalOutputTokens": 129288,
-      "totalReasoningTokens": 71105,
-      "totalTokens": 622563
+      "totalInputTokens": 493661,
+      "totalOutputTokens": 129389,
+      "totalReasoningTokens": 71162,
+      "totalTokens": 623050
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1786927228384,
+      "inputTokens": 386,
+      "message": "",
+      "outputTokens": 101,
+      "rationale": "This reply is just conversational and does not indicate any limits or caps have reset.",
+      "reasoningTokens": 57,
+      "totalTokens": 487,
+      "tweetId": "2089149434235900033",
+      "tweetText": "@LLMJunky No way",
+      "tweetUrl": "https://x.com/thsottiaux/status/2089149434235900033",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.97,
       "createdAt": 1786927225693,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2088501704849534991",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.14,
-      "createdAt": 1786772328268,
-      "inputTokens": 386,
-      "message": "",
-      "outputTokens": 167,
-      "rationale": "This reply alone is too context-free to tell whether any limits have reset.",
-      "reasoningTokens": 124,
-      "totalTokens": 553,
-      "tweetId": "2088500194757460096",
-      "tweetText": "@TokenGremlin We are",
-      "tweetUrl": "https://x.com/thsottiaux/status/2088500194757460096",
-      "type": "review_requested",
-      "verdict": "uncertain"
     }
   ],
   "privateState": {
-    "ciphertext": "YskyDiiYgRCfUIqlU_IDFyP4PxazZiE_reVS1RkCjO1XyqAZ6bqVj6LtKg",
-    "iv": "js5d2KTRiPPVGEuJ",
-    "tag": "Zo0WGcoOzzqFo59xlmQqcw",
+    "ciphertext": "JSBeEiQGdln_pmtInFi6iyZwg56SjqokR8hideMk6N_5fc3YNGAzeRCi6w",
+    "iv": "0EkQe1k_3kUBNWzc",
+    "tag": "81QNzscmZMw5u_0pRU7mjA",
     "version": 1
   }
 }
