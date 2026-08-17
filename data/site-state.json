@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1786943088517,
-      "rationale": "This reply is conversational and does not mention limits, caps, or availability resetting.",
-      "tweetId": "2089216314498027657",
-      "tweetUrl": "https://x.com/thsottiaux/status/2089216314498027657",
+      "decidedAt": 1786943397874,
+      "rationale": "This is a casual reply and does not mention any limit or reset.",
+      "tweetId": "2089217426378653864",
+      "tweetUrl": "https://x.com/thsottiaux/status/2089217426378653864",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2089216314498027657",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2089216314498027657",
+    "lastSeenTweetId": "2089217426378653864",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2089217426378653864",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1786906826584,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2089063967301730789"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1786943397874,
+        "inputTokens": 399,
+        "outputTokens": 84,
+        "rationale": "This is a casual reply and does not mention any limit or reset.",
+        "reasoningTokens": 42,
+        "totalTokens": 483,
+        "tweetId": "2089217426378653864",
+        "tweetText": "@ns123abc I know you’re a fan, you just don’t want to admit it",
+        "tweetUrl": "https://x.com/thsottiaux/status/2089217426378653864",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1786943088517,
@@ -279,29 +292,31 @@
         "tweetText": "@Ananth7e Maybe",
         "tweetUrl": "https://x.com/thsottiaux/status/2089063967301730789",
         "verdict": "uncertain"
-      },
-      {
-        "confidence": 0.1,
-        "evaluatedAt": 1786862579295,
-        "inputTokens": 386,
-        "outputTokens": 183,
-        "rationale": "This reply only says “Yes” without enough visible context to confirm a rate-limit reset.",
-        "reasoningTokens": 137,
-        "totalTokens": 569,
-        "tweetId": "2088878697998844277",
-        "tweetText": "@NotiDivad Yes",
-        "tweetUrl": "https://x.com/thsottiaux/status/2088878697998844277",
-        "verdict": "uncertain"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 496405,
-      "totalOutputTokens": 129984,
-      "totalReasoningTokens": 71454,
-      "totalTokens": 626389
+      "totalInputTokens": 496804,
+      "totalOutputTokens": 130068,
+      "totalReasoningTokens": 71496,
+      "totalTokens": 626872
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1786943397874,
+      "inputTokens": 399,
+      "message": "",
+      "outputTokens": 84,
+      "rationale": "This is a casual reply and does not mention any limit or reset.",
+      "reasoningTokens": 42,
+      "totalTokens": 483,
+      "tweetId": "2089217426378653864",
+      "tweetText": "@ns123abc I know you’re a fan, you just don’t want to admit it",
+      "tweetUrl": "https://x.com/thsottiaux/status/2089217426378653864",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1786943088517,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2088765949596090629",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.95,
-      "createdAt": 1786834957544,
-      "inputTokens": 410,
-      "message": "",
-      "outputTokens": 200,
-      "rationale": "He mentions regular resets generally, but does not say any limit has reset or is available again now.",
-      "reasoningTokens": 152,
-      "totalTokens": 610,
-      "tweetId": "2088763063495450791",
-      "tweetText": "@ishuagra02 You should actually try Codex instead of self-rationalizing. Usage included in the subscription is fantastic, even without my regular resets.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2088763063495450791",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "1zJzfbfd04G6_bm-BtlkLzZpJxTjJ0l3VDBj_rCS7AM0r1mz4aR8eW3Bsg",
-    "iv": "OcK8XRYdxLQs2QGt",
-    "tag": "yw-OQoTZz0EeiHLfmYqhrQ",
+    "ciphertext": "Ju8peR8U6oUdPeDyTrckYv5oudj6XGk8yK9pk4OD7gYkYXOdEqmneFbmfA",
+    "iv": "ab23wQ-5Gehbb20U",
+    "tag": "L1vE6b2nsXErD5Y3ClO1cg",
     "version": 1
   }
 }
