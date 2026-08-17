@@ -14,16 +14,16 @@
   "updatedAt": 1786583136086,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1786926288271,
-      "rationale": "This reply only mentions Codex casually and does not indicate any limits or caps have reset.",
-      "tweetId": "2089146141388505191",
-      "tweetUrl": "https://x.com/thsottiaux/status/2089146141388505191",
+      "confidence": 0.97,
+      "decidedAt": 1786927225693,
+      "rationale": "This is a general product comment mentioning occasional resets, not a current limit reset announcement.",
+      "tweetId": "2089149255382438340",
+      "tweetUrl": "https://x.com/thsottiaux/status/2089149255382438340",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2089146141388505191",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2089146141388505191",
+    "lastSeenTweetId": "2089149255382438340",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2089149255382438340",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1786906826584,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2089063967301730789"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.97,
+        "evaluatedAt": 1786927225693,
+        "inputTokens": 417,
+        "outputTokens": 166,
+        "rationale": "This is a general product comment mentioning occasional resets, not a current limit reset announcement.",
+        "reasoningTokens": 121,
+        "totalTokens": 583,
+        "tweetId": "2089149255382438340",
+        "tweetText": "Codex\n\n✅ Almost 100% reliable\n✅ Occasional resets\n✅ Open-source\n✅ (will have Astra) https://t.co/DxNdAgpag5",
+        "tweetUrl": "https://x.com/thsottiaux/status/2089149255382438340",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1786926288271,
@@ -279,29 +292,31 @@
         "tweetText": "@SnoyIatK Which partnership programs do we need?",
         "tweetUrl": "https://x.com/thsottiaux/status/2088854763119280442",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.08,
-        "evaluatedAt": 1786856998456,
-        "inputTokens": 386,
-        "outputTokens": 157,
-        "rationale": "This reply just says “Yes” without enough context to tell whether a limit reset is being confirmed.",
-        "reasoningTokens": 109,
-        "totalTokens": 543,
-        "tweetId": "2088854576686612859",
-        "tweetText": "@_hibana01 Yes",
-        "tweetUrl": "https://x.com/thsottiaux/status/2088854576686612859",
-        "verdict": "uncertain"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 492858,
-      "totalOutputTokens": 129122,
-      "totalReasoningTokens": 70984,
-      "totalTokens": 621980
+      "totalInputTokens": 493275,
+      "totalOutputTokens": 129288,
+      "totalReasoningTokens": 71105,
+      "totalTokens": 622563
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.97,
+      "createdAt": 1786927225693,
+      "inputTokens": 417,
+      "message": "",
+      "outputTokens": 166,
+      "rationale": "This is a general product comment mentioning occasional resets, not a current limit reset announcement.",
+      "reasoningTokens": 121,
+      "totalTokens": 583,
+      "tweetId": "2089149255382438340",
+      "tweetText": "Codex\n\n✅ Almost 100% reliable\n✅ Occasional resets\n✅ Open-source\n✅ (will have Astra) https://t.co/DxNdAgpag5",
+      "tweetUrl": "https://x.com/thsottiaux/status/2089149255382438340",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1786926288271,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2088500194757460096",
       "type": "review_requested",
       "verdict": "uncertain"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1786772325014,
-      "inputTokens": 406,
-      "message": "",
-      "outputTokens": 65,
-      "rationale": "This is a general discussion question and does not mention limits, caps, or a reset.",
-      "reasoningTokens": 19,
-      "totalTokens": 471,
-      "tweetId": "2088500028721832432",
-      "tweetText": "What’s a hard problem codex solved for you this week? Where do you learn from others on how to push the frontier?",
-      "tweetUrl": "https://x.com/thsottiaux/status/2088500028721832432",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "DppuLgIeX-49pgoVyd36EHEOsogqQCvq5H0-a6pNgCPGaNQ_ivxeI4WpPQ",
-    "iv": "fqMs6hOUtG3QWJrO",
-    "tag": "iUFeMbWENeVWKx76IjFW9Q",
+    "ciphertext": "YskyDiiYgRCfUIqlU_IDFyP4PxazZiE_reVS1RkCjO1XyqAZ6bqVj6LtKg",
+    "iv": "js5d2KTRiPPVGEuJ",
+    "tag": "Zo0WGcoOzzqFo59xlmQqcw",
     "version": 1
   }
 }
