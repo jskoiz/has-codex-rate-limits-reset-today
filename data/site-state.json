@@ -14,16 +14,16 @@
   "updatedAt": 1786583136086,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1786925364684,
-      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-      "tweetId": "2089141897017057754",
-      "tweetUrl": "https://x.com/thsottiaux/status/2089141897017057754",
+      "confidence": 0.98,
+      "decidedAt": 1786925676964,
+      "rationale": "This announces a 1M context window feature for ChatGPT accounts, not a limit or rate-cap reset.",
+      "tweetId": "2089143488696705077",
+      "tweetUrl": "https://x.com/thsottiaux/status/2089143488696705077",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2089141897017057754",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2089141897017057754",
+    "lastSeenTweetId": "2089143488696705077",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2089143488696705077",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1786906826584,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2089063967301730789"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.98,
+        "evaluatedAt": 1786925676964,
+        "inputTokens": 802,
+        "outputTokens": 137,
+        "rationale": "This announces a 1M context window feature for ChatGPT accounts, not a limit or rate-cap reset.",
+        "reasoningTokens": 87,
+        "totalTokens": 939,
+        "tweetId": "2089143488696705077",
+        "tweetText": "GPT-5.6 Sol 1M in Codex. This used to only work for API keys, but we just flipped the switch and works for usage through ChatGPT accounts now too. \n\nThe same warning applies, there is a reason the current context length is the default, we have tuned it to ~perfection. But you do you!",
+        "tweetUrl": "https://x.com/thsottiaux/status/2089143488696705077",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1786925364684,
@@ -279,29 +292,31 @@
         "tweetText": "@ns123abc Talking about sticker price?",
         "tweetUrl": "https://x.com/thsottiaux/status/2088854046987932154",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1786856692564,
-        "inputTokens": 390,
-        "outputTokens": 101,
-        "rationale": "This reply just says “DM” and does not mention limits or a reset.",
-        "reasoningTokens": 57,
-        "totalTokens": 491,
-        "tweetId": "2088853232177328603",
-        "tweetText": "@drgrandehead @nxc42 DM",
-        "tweetUrl": "https://x.com/thsottiaux/status/2088853232177328603",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 491658,
-      "totalOutputTokens": 128906,
-      "totalReasoningTokens": 70864,
-      "totalTokens": 620564
+      "totalInputTokens": 492460,
+      "totalOutputTokens": 129043,
+      "totalReasoningTokens": 70951,
+      "totalTokens": 621503
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.98,
+      "createdAt": 1786925676964,
+      "inputTokens": 802,
+      "message": "",
+      "outputTokens": 137,
+      "rationale": "This announces a 1M context window feature for ChatGPT accounts, not a limit or rate-cap reset.",
+      "reasoningTokens": 87,
+      "totalTokens": 939,
+      "tweetId": "2089143488696705077",
+      "tweetText": "GPT-5.6 Sol 1M in Codex. This used to only work for API keys, but we just flipped the switch and works for usage through ChatGPT accounts now too. \n\nThe same warning applies, there is a reason the current context length is the default, we have tuned it to ~perfection. But you do you!",
+      "tweetUrl": "https://x.com/thsottiaux/status/2089143488696705077",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1786925364684,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2088498761488306264",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1786770764465,
-      "inputTokens": 622,
-      "message": "",
-      "outputTokens": 94,
-      "rationale": "This post and its quoted feature drop announce product features, not any limit or rate-cap reset.",
-      "reasoningTokens": 47,
-      "totalTokens": 716,
-      "tweetId": "2088493756391768252",
-      "tweetText": "Looking for a quick restaurant reservation is now super easy in ChatGPT. Together with a bunch more ships",
-      "tweetUrl": "https://x.com/thsottiaux/status/2088493756391768252",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "oZfCSDF0uCva8BplPmeooAz10yBYedoQtidhgxcfykphU-2jI_R_QbvXiQ",
-    "iv": "o9UdbokIbk8SZ4d6",
-    "tag": "ZD_R3V-cXZ3Xvr6MsE_jhw",
+    "ciphertext": "gyBAMgUBOTo1qxnJT9XbyPYiJLNvHJMBrwcDmznwd_0scEAnaFeindgsDw",
+    "iv": "S4oNY2NPy583El2u",
+    "tag": "sbLHwHPD6F1hKIjToc-m6A",
     "version": 1
   }
 }
