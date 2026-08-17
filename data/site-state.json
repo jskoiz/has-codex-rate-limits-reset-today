@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1786928792146,
-      "rationale": "This is just a conversational reply and gives no indication that limits have reset.",
-      "tweetId": "2089156180740379132",
-      "tweetUrl": "https://x.com/thsottiaux/status/2089156180740379132",
+      "decidedAt": 1786940905235,
+      "rationale": "This reply just offers extra credits and does not mention any limit or rate-limit reset.",
+      "tweetId": "2089206566998405162",
+      "tweetUrl": "https://x.com/thsottiaux/status/2089206566998405162",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2089156180740379132",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2089156180740379132",
+    "lastSeenTweetId": "2089206566998405162",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2089206566998405162",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1786906826584,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2089063967301730789"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1786940905235,
+        "inputTokens": 410,
+        "outputTokens": 96,
+        "rationale": "This reply just offers extra credits and does not mention any limit or rate-limit reset.",
+        "reasoningTokens": 51,
+        "totalTokens": 506,
+        "tweetId": "2089206566998405162",
+        "tweetText": "@theisaacmed I see from your comments you’ll actually try, nice. Tag me with feedback and I’ll send you some extra credits too",
+        "tweetUrl": "https://x.com/thsottiaux/status/2089206566998405162",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1786928792146,
@@ -279,29 +292,31 @@
         "tweetText": "@butter86396 Sorry, only 11pm over here.",
         "tweetUrl": "https://x.com/thsottiaux/status/2088868557128135006",
         "verdict": "uncertain"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1786859789836,
-        "inputTokens": 701,
-        "outputTokens": 99,
-        "rationale": "This post discusses token pricing and billing, not any rate-limit or usage-cap reset.",
-        "reasoningTokens": 54,
-        "totalTokens": 800,
-        "tweetId": "2088866513008873560",
-        "tweetText": "On tokens and prices per token.\n\nI said I’d write more about this, so here goes: an OpenAI token != another model’s token. We compare AI prices in dollars per million tokens as if a token were a standardized unit, like a gram or a kilowatt-hour. It isn’t. Different models use and produce the exact same text using different numbers of tokens, which means a lower price per token does not necessarily mean a lower bill.\n\nImagine two identical pizzas. One is cut into 8 slices at $2 each. The other is cut into 16 slices at $1.25 each. The second place advertises cheaper slices, but the whole pizza costs $20 instead of $16. Bummer ... your stomach doesn't actually care about the number of slices you just ate.\n\nI know you are hungry now, but back to tokens. In one small comparison spanning English, technical, multilingual, and numerical text, the tokenizer we use for GPT-5.6 Sol used 766 tokens versus an estimated 1,170 for Claude Opus 5. That's a very significant difference of about 34.5% fewer tokens. You can get the same exact text, but pay for all those extra tokens. The price per token doesn't really tell this story.\n\nEven correcting for tokenizer differences misses the bigger point. What actually matters is price per successful outcome, and for that you can use benchmarks as a starting point, but really you have to try it and measure on your own use cases.\n\nThat's all. May the tokens flow.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2088866513008873560",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 494825,
-      "totalOutputTokens": 129618,
-      "totalReasoningTokens": 71261,
-      "totalTokens": 624443
+      "totalInputTokens": 495235,
+      "totalOutputTokens": 129714,
+      "totalReasoningTokens": 71312,
+      "totalTokens": 624949
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1786940905235,
+      "inputTokens": 410,
+      "message": "",
+      "outputTokens": 96,
+      "rationale": "This reply just offers extra credits and does not mention any limit or rate-limit reset.",
+      "reasoningTokens": 51,
+      "totalTokens": 506,
+      "tweetId": "2089206566998405162",
+      "tweetText": "@theisaacmed I see from your comments you’ll actually try, nice. Tag me with feedback and I’ll send you some extra credits too",
+      "tweetUrl": "https://x.com/thsottiaux/status/2089206566998405162",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1786928792146,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2088725514542575903",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1786825958410,
-      "inputTokens": 501,
-      "message": "",
-      "outputTokens": 81,
-      "rationale": "This post is product promotion about multi-agent delegation, not a rate-limit reset.",
-      "reasoningTokens": 37,
-      "totalTokens": 582,
-      "tweetId": "2088725163923984638",
-      "tweetText": "Let Sol manage an efficient fleet of Luna agents for you.\n\nThese models know each other well and collaborate to achieve the result in an incredibly fast and efficient way.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2088725163923984638",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "shF8KRJZu3DGoS0ZgY7ghFtSrw45EajoIi7XOGQVEcDzo1Y6HIUdJUMBiA",
-    "iv": "fh68_Nb2Al4C5ijP",
-    "tag": "PxQ3wbbUeJnfuL-Kor9lug",
+    "ciphertext": "xrlhLv7VTfwi4HejL_1FA2C8TyU5DmPqYIYmo0CbGsDRC4mlRg_sNKfr2A",
+    "iv": "zEtY0aSge4TZrAGm",
+    "tag": "R7jmhp00e2VdHfQK3fB1mQ",
     "version": 1
   }
 }
