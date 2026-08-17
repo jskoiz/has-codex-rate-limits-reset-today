@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1786927231000,
-      "rationale": "This reply is generic and does not mention limits, caps, or a reset.",
-      "tweetId": "2089150288758243801",
-      "tweetUrl": "https://x.com/thsottiaux/status/2089150288758243801",
+      "decidedAt": 1786927857938,
+      "rationale": "This is just a conversational reply and does not mention limits or a reset.",
+      "tweetId": "2089152954519433599",
+      "tweetUrl": "https://x.com/thsottiaux/status/2089152954519433599",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2089150288758243801",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2089150288758243801",
+    "lastSeenTweetId": "2089152954519433599",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2089152954519433599",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1786906826584,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2089063967301730789"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1786927857938,
+        "inputTokens": 391,
+        "outputTokens": 74,
+        "rationale": "This is just a conversational reply and does not mention limits or a reset.",
+        "reasoningTokens": 31,
+        "totalTokens": 465,
+        "tweetId": "2089152954519433599",
+        "tweetText": "@ericmitchellai @willdepue Legend",
+        "tweetUrl": "https://x.com/thsottiaux/status/2089152954519433599",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1786927231000,
@@ -279,29 +292,31 @@
         "tweetText": "@RJMcGirr Sol can probably migrate you in a few hours. Why isn't it worth the many $$$ you would get back in return?",
         "tweetUrl": "https://x.com/thsottiaux/status/2088858208668614841",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1786857616668,
-        "inputTokens": 393,
-        "outputTokens": 83,
-        "rationale": "This reply discusses ZDR and does not mention limits, caps, or usage becoming available again.",
-        "reasoningTokens": 36,
-        "totalTokens": 476,
-        "tweetId": "2088857900903289192",
-        "tweetText": "@gusfeliciano We have ZDR, tell me more",
-        "tweetUrl": "https://x.com/thsottiaux/status/2088857900903289192",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 494048,
-      "totalOutputTokens": 129476,
-      "totalReasoningTokens": 71205,
-      "totalTokens": 623524
+      "totalInputTokens": 494439,
+      "totalOutputTokens": 129550,
+      "totalReasoningTokens": 71236,
+      "totalTokens": 623989
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1786927857938,
+      "inputTokens": 391,
+      "message": "",
+      "outputTokens": 74,
+      "rationale": "This is just a conversational reply and does not mention limits or a reset.",
+      "reasoningTokens": 31,
+      "totalTokens": 465,
+      "tweetId": "2089152954519433599",
+      "tweetText": "@ericmitchellai @willdepue Legend",
+      "tweetUrl": "https://x.com/thsottiaux/status/2089152954519433599",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1786927231000,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2088504253421846933",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1786773262990,
-      "inputTokens": 395,
-      "message": "",
-      "outputTokens": 103,
-      "rationale": "This reply gives usage advice and does not mention any limit or rate-cap reset.",
-      "reasoningTokens": 59,
-      "totalTokens": 498,
-      "tweetId": "2088504145573736896",
-      "tweetText": "@rezoundous Ask it to clean up 1 in 50 prompts",
-      "tweetUrl": "https://x.com/thsottiaux/status/2088504145573736896",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "5QtwFF_RwOCFX30xZKMFmW9gANbbEXz016qkegQEKzPKNcVRRHYYtFAiHw",
-    "iv": "LYXlRcRIyzi_h_RV",
-    "tag": "295DKmd_Clr4QKHfJGy2ig",
+    "ciphertext": "xim7iRWRYzCX2AR_2DDyVEP7wPXnOaqwickXiaHJm7LD6S7cFarFOBScpA",
+    "iv": "R7VCD1r3JZcAoh8v",
+    "tag": "e9jvUI62KEpTqLik1kWi1g",
     "version": 1
   }
 }
