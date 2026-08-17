@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1786916069946,
-      "rationale": "This is just a conversational reply and says nothing about limits or resets.",
-      "tweetId": "2089103028204765350",
-      "tweetUrl": "https://x.com/thsottiaux/status/2089103028204765350",
+      "decidedAt": 1786925364684,
+      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+      "tweetId": "2089141897017057754",
+      "tweetUrl": "https://x.com/thsottiaux/status/2089141897017057754",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2089103028204765350",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2089103028204765350",
+    "lastSeenTweetId": "2089141897017057754",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2089141897017057754",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1786906826584,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2089063967301730789"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1786925364684,
+        "inputTokens": 392,
+        "outputTokens": 92,
+        "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+        "reasoningTokens": 48,
+        "totalTokens": 484,
+        "tweetId": "2089141897017057754",
+        "tweetText": "@ajambrosino I had to do a double take",
+        "tweetUrl": "https://x.com/thsottiaux/status/2089141897017057754",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1786916069946,
@@ -279,29 +292,31 @@
         "tweetText": "@drgrandehead @nxc42 DM",
         "tweetUrl": "https://x.com/thsottiaux/status/2088853232177328603",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1786856382351,
-        "inputTokens": 386,
-        "outputTokens": 88,
-        "rationale": "This reply just says “DM” and does not mention limits, caps, or availability resetting.",
-        "reasoningTokens": 41,
-        "totalTokens": 474,
-        "tweetId": "2088851978524958868",
-        "tweetText": "@DustdrifterX DM",
-        "tweetUrl": "https://x.com/thsottiaux/status/2088851978524958868",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 491266,
-      "totalOutputTokens": 128814,
-      "totalReasoningTokens": 70816,
-      "totalTokens": 620080
+      "totalInputTokens": 491658,
+      "totalOutputTokens": 128906,
+      "totalReasoningTokens": 70864,
+      "totalTokens": 620564
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1786925364684,
+      "inputTokens": 392,
+      "message": "",
+      "outputTokens": 92,
+      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+      "reasoningTokens": 48,
+      "totalTokens": 484,
+      "tweetId": "2089141897017057754",
+      "tweetText": "@ajambrosino I had to do a double take",
+      "tweetUrl": "https://x.com/thsottiaux/status/2089141897017057754",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1786916069946,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2088493756391768252",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1786761766969,
-      "inputTokens": 391,
-      "message": "",
-      "outputTokens": 73,
-      "rationale": "This reply is just conversational and does not mention limits or a reset.",
-      "reasoningTokens": 31,
-      "totalTokens": 464,
-      "tweetId": "2088456062932598784",
-      "tweetText": "@ajambrosino @btraut Hype",
-      "tweetUrl": "https://x.com/thsottiaux/status/2088456062932598784",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "TMMRNDfVGDNmbntYX7fq4ZJLUCJAvx0FVzQIU551tJGdwDcxMPzEpcTW3g",
-    "iv": "eTL8BbB3dD4ahcFk",
-    "tag": "lhQth2rFnKL3YXb_r53d9g",
+    "ciphertext": "oZfCSDF0uCva8BplPmeooAz10yBYedoQtidhgxcfykphU-2jI_R_QbvXiQ",
+    "iv": "o9UdbokIbk8SZ4d6",
+    "tag": "ZD_R3V-cXZ3Xvr6MsE_jhw",
     "version": 1
   }
 }
