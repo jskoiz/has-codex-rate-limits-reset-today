@@ -14,16 +14,16 @@
   "updatedAt": 1786583136086,
   "automation": {
     "lastDecision": {
-      "confidence": 0.98,
-      "decidedAt": 1786925676964,
-      "rationale": "This announces a 1M context window feature for ChatGPT accounts, not a limit or rate-cap reset.",
-      "tweetId": "2089143488696705077",
-      "tweetUrl": "https://x.com/thsottiaux/status/2089143488696705077",
+      "confidence": 0.99,
+      "decidedAt": 1786926288271,
+      "rationale": "This reply only mentions Codex casually and does not indicate any limits or caps have reset.",
+      "tweetId": "2089146141388505191",
+      "tweetUrl": "https://x.com/thsottiaux/status/2089146141388505191",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2089143488696705077",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2089143488696705077",
+    "lastSeenTweetId": "2089146141388505191",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2089146141388505191",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1786906826584,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2089063967301730789"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1786926288271,
+        "inputTokens": 398,
+        "outputTokens": 79,
+        "rationale": "This reply only mentions Codex casually and does not indicate any limits or caps have reset.",
+        "reasoningTokens": 33,
+        "totalTokens": 477,
+        "tweetId": "2089146141388505191",
+        "tweetText": "@pwnies Courtesy of Codex https://t.co/z78bvVFGHp",
+        "tweetUrl": "https://x.com/thsottiaux/status/2089146141388505191",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.98,
         "evaluatedAt": 1786925676964,
@@ -279,29 +292,31 @@
         "tweetText": "@_hibana01 Yes",
         "tweetUrl": "https://x.com/thsottiaux/status/2088854576686612859",
         "verdict": "uncertain"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1786856695582,
-        "inputTokens": 388,
-        "outputTokens": 75,
-        "rationale": "This reply is conversational and does not mention limits, caps, or usage resetting.",
-        "reasoningTokens": 31,
-        "totalTokens": 463,
-        "tweetId": "2088854046987932154",
-        "tweetText": "@ns123abc Talking about sticker price?",
-        "tweetUrl": "https://x.com/thsottiaux/status/2088854046987932154",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 492460,
-      "totalOutputTokens": 129043,
-      "totalReasoningTokens": 70951,
-      "totalTokens": 621503
+      "totalInputTokens": 492858,
+      "totalOutputTokens": 129122,
+      "totalReasoningTokens": 70984,
+      "totalTokens": 621980
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1786926288271,
+      "inputTokens": 398,
+      "message": "",
+      "outputTokens": 79,
+      "rationale": "This reply only mentions Codex casually and does not indicate any limits or caps have reset.",
+      "reasoningTokens": 33,
+      "totalTokens": 477,
+      "tweetId": "2089146141388505191",
+      "tweetText": "@pwnies Courtesy of Codex https://t.co/z78bvVFGHp",
+      "tweetUrl": "https://x.com/thsottiaux/status/2089146141388505191",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.98,
       "createdAt": 1786925676964,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2088500028721832432",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1786772013033,
-      "inputTokens": 391,
-      "message": "",
-      "outputTokens": 103,
-      "rationale": "This reply is conversational and does not mention any limit or rate-limit reset.",
-      "reasoningTokens": 60,
-      "totalTokens": 494,
-      "tweetId": "2088498761488306264",
-      "tweetText": "@ajambrosino @scaling01 Concerning",
-      "tweetUrl": "https://x.com/thsottiaux/status/2088498761488306264",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "gyBAMgUBOTo1qxnJT9XbyPYiJLNvHJMBrwcDmznwd_0scEAnaFeindgsDw",
-    "iv": "S4oNY2NPy583El2u",
-    "tag": "sbLHwHPD6F1hKIjToc-m6A",
+    "ciphertext": "DppuLgIeX-49pgoVyd36EHEOsogqQCvq5H0-a6pNgCPGaNQ_ivxeI4WpPQ",
+    "iv": "fqMs6hOUtG3QWJrO",
+    "tag": "iUFeMbWENeVWKx76IjFW9Q",
     "version": 1
   }
 }
