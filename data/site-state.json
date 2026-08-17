@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1786944334873,
-      "rationale": "This reply is just a conversational comment and does not mention limits or a reset.",
-      "tweetId": "2089221530320519620",
-      "tweetUrl": "https://x.com/thsottiaux/status/2089221530320519620",
+      "decidedAt": 1786993908526,
+      "rationale": "He explicitly says the reset has not happened yet.",
+      "tweetId": "2089429099693699073",
+      "tweetUrl": "https://x.com/thsottiaux/status/2089429099693699073",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2089221530320519620",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2089221530320519620",
+    "lastSeenTweetId": "2089429099693699073",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2089429099693699073",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1786906826584,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2089063967301730789"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1786993908526,
+        "inputTokens": 387,
+        "outputTokens": 101,
+        "rationale": "He explicitly says the reset has not happened yet.",
+        "reasoningTokens": 63,
+        "totalTokens": 488,
+        "tweetId": "2089429099693699073",
+        "tweetText": "@FintechKristen not yet",
+        "tweetUrl": "https://x.com/thsottiaux/status/2089429099693699073",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1786944334873,
@@ -279,29 +292,31 @@
         "tweetText": "Sunday is for good vibes. As is any day of the week, but especially Sunday.",
         "tweetUrl": "https://x.com/thsottiaux/status/2089080720396317053",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.98,
-        "evaluatedAt": 1786910223195,
-        "inputTokens": 386,
-        "outputTokens": 151,
-        "rationale": "This reply is just conversational and does not itself indicate any rate-limit reset.",
-        "reasoningTokens": 108,
-        "totalTokens": 537,
-        "tweetId": "2089078705230377033",
-        "tweetText": "@Robertg761_ Indeed",
-        "tweetUrl": "https://x.com/thsottiaux/status/2089078705230377033",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 497595,
-      "totalOutputTokens": 130283,
-      "totalReasoningTokens": 71618,
-      "totalTokens": 627878
+      "totalInputTokens": 497982,
+      "totalOutputTokens": 130384,
+      "totalReasoningTokens": 71681,
+      "totalTokens": 628366
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1786993908526,
+      "inputTokens": 387,
+      "message": "",
+      "outputTokens": 101,
+      "rationale": "He explicitly says the reset has not happened yet.",
+      "reasoningTokens": 63,
+      "totalTokens": 488,
+      "tweetId": "2089429099693699073",
+      "tweetText": "@FintechKristen not yet",
+      "tweetUrl": "https://x.com/thsottiaux/status/2089429099693699073",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1786944334873,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2088851430325248376",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1786856079422,
-      "inputTokens": 413,
-      "message": "",
-      "outputTokens": 68,
-      "rationale": "This is a product/pricing question and does not mention any Codex or ChatGPT limit reset.",
-      "reasoningTokens": 20,
-      "totalTokens": 481,
-      "tweetId": "2088850995430477882",
-      "tweetText": "If you have a company and still use Opus instead of Sol, why so? Does price not matter to you? What's something that would convince you to switch?",
-      "tweetUrl": "https://x.com/thsottiaux/status/2088850995430477882",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "61yT2SUJSc_Hz-rKGbrkZymovHMniw5jHS_XgtjIX-0MzkxOjDkE62TdAg",
-    "iv": "S54YZrxwPo2bXR-f",
-    "tag": "7_OUX5lzFzptRe7FJRSJ2g",
+    "ciphertext": "PdgMKRL3sy0P_0j20lUSE76x2tb_1hWhsjo6ZQSsZIEqr5US49x90-xXQQ",
+    "iv": "hgC9r_2P--1Y_Z_5",
+    "tag": "b9sVcvth3B3FmLWDO-fyxg",
     "version": 1
   }
 }
