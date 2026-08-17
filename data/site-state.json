@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1786940905235,
-      "rationale": "This reply just offers extra credits and does not mention any limit or rate-limit reset.",
-      "tweetId": "2089206566998405162",
-      "tweetUrl": "https://x.com/thsottiaux/status/2089206566998405162",
+      "decidedAt": 1786940908378,
+      "rationale": "This reply is conversational and does not mention any limit or usage reset.",
+      "tweetId": "2089207201701544359",
+      "tweetUrl": "https://x.com/thsottiaux/status/2089207201701544359",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2089206566998405162",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2089206566998405162",
+    "lastSeenTweetId": "2089207201701544359",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2089207201701544359",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1786906826584,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2089063967301730789"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1786940908378,
+        "inputTokens": 394,
+        "outputTokens": 107,
+        "rationale": "This reply is conversational and does not mention any limit or usage reset.",
+        "reasoningTokens": 65,
+        "totalTokens": 501,
+        "tweetId": "2089207201701544359",
+        "tweetText": "@ThroughlineRSCH Grock you say. I’ll watch out",
+        "tweetUrl": "https://x.com/thsottiaux/status/2089207201701544359",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1786940905235,
@@ -279,29 +292,31 @@
         "tweetText": "@Ethan_Smartsys Happens to the best",
         "tweetUrl": "https://x.com/thsottiaux/status/2088875095733547066",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.79,
-        "evaluatedAt": 1786860102675,
-        "inputTokens": 393,
-        "outputTokens": 210,
-        "rationale": "This reply only mentions the time and does not clearly say limits have reset or are available again.",
-        "reasoningTokens": 163,
-        "totalTokens": 603,
-        "tweetId": "2088868557128135006",
-        "tweetText": "@butter86396 Sorry, only 11pm over here.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2088868557128135006",
-        "verdict": "uncertain"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 495235,
-      "totalOutputTokens": 129714,
-      "totalReasoningTokens": 71312,
-      "totalTokens": 624949
+      "totalInputTokens": 495629,
+      "totalOutputTokens": 129821,
+      "totalReasoningTokens": 71377,
+      "totalTokens": 625450
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1786940908378,
+      "inputTokens": 394,
+      "message": "",
+      "outputTokens": 107,
+      "rationale": "This reply is conversational and does not mention any limit or usage reset.",
+      "reasoningTokens": 65,
+      "totalTokens": 501,
+      "tweetId": "2089207201701544359",
+      "tweetText": "@ThroughlineRSCH Grock you say. I’ll watch out",
+      "tweetUrl": "https://x.com/thsottiaux/status/2089207201701544359",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1786940905235,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2088729222777094624",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1786825961548,
-      "inputTokens": 395,
-      "message": "",
-      "outputTokens": 83,
-      "rationale": "This is a general comment about OpenAI and does not mention any limit or usage reset.",
-      "reasoningTokens": 37,
-      "totalTokens": 478,
-      "tweetId": "2088725514542575903",
-      "tweetText": "Incredible things are happening at OpenAI right now. Energy is high.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2088725514542575903",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "xrlhLv7VTfwi4HejL_1FA2C8TyU5DmPqYIYmo0CbGsDRC4mlRg_sNKfr2A",
-    "iv": "zEtY0aSge4TZrAGm",
-    "tag": "R7jmhp00e2VdHfQK3fB1mQ",
+    "ciphertext": "GmTRr1ikdbQcLaG_rIHVomCgsz6euSqXTCle-fPu-SmPMrgaPMaRyzZ0hg",
+    "iv": "58sT4BetuQ80xicu",
+    "tag": "RWjW8_HcOHQIwxhJlHmZ7Q",
     "version": 1
   }
 }
