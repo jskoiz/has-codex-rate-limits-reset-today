@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1786993908526,
-      "rationale": "He explicitly says the reset has not happened yet.",
-      "tweetId": "2089429099693699073",
-      "tweetUrl": "https://x.com/thsottiaux/status/2089429099693699073",
+      "decidedAt": 1787010987489,
+      "rationale": "This is a general product-feedback question and does not mention limits, caps, or a reset.",
+      "tweetId": "2089500941842342287",
+      "tweetUrl": "https://x.com/thsottiaux/status/2089500941842342287",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2089429099693699073",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2089429099693699073",
+    "lastSeenTweetId": "2089500941842342287",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2089500941842342287",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1786906826584,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2089063967301730789"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1787010987489,
+        "inputTokens": 422,
+        "outputTokens": 82,
+        "rationale": "This is a general product-feedback question and does not mention limits, caps, or a reset.",
+        "reasoningTokens": 35,
+        "totalTokens": 504,
+        "tweetId": "2089500941842342287",
+        "tweetText": "What is an obvious thing that we should do with Codex, API or our models that we should just do but haven't yet? What is 100% within reach, but we just seem to be missing?",
+        "tweetUrl": "https://x.com/thsottiaux/status/2089500941842342287",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1786993908526,
@@ -279,29 +292,31 @@
         "tweetText": "Here is how to enable a 1M-token context window in Codex for GPT-5.6 Sol. \n\nEven though we have tuned the context limit in Codex to be set optimally when it comes to performance and cost, this is a common ask, so here it is documented.\n\nA larger context window lets Codex retain more code, tool output, and conversation history before summarizing older material. You need a model that supports it. And GPT-5.6 Sol, for example, has a documented 1,050,000-token window. \n\nOpen ~/.codex/config.toml and add or update these settings at the top level, before any [section] headers:\n\n```\nmodel = \"gpt-5.6-sol\"\nmodel_context_window = 1000000\nmodel_auto_compact_token_limit = 900000\n```\n\nThe first setting selects the model. The second tells Codex to use a one-million-token context budget. The third starts automatic history compaction around 900,000 tokens, leaving some headroom. Restart Codex client and start a new session after saving. \n\nTo try the configuration for a single CLI session without changing your defaults:\n\n```\ncodex -m gpt-5.6-sol \\\n  -c model_context_window=1000000 \\\n  -c model_auto_compact_token_limit=900000\n```\n\nHave fun, but also know that we tuned the default carefully!",
         "tweetUrl": "https://x.com/thsottiaux/status/2089082893804896524",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1786910843824,
-        "inputTokens": 398,
-        "outputTokens": 69,
-        "rationale": "This is a generic personal post and does not mention limits, caps, or availability resetting.",
-        "reasoningTokens": 23,
-        "totalTokens": 467,
-        "tweetId": "2089080720396317053",
-        "tweetText": "Sunday is for good vibes. As is any day of the week, but especially Sunday.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2089080720396317053",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 497982,
-      "totalOutputTokens": 130384,
-      "totalReasoningTokens": 71681,
-      "totalTokens": 628366
+      "totalInputTokens": 498404,
+      "totalOutputTokens": 130466,
+      "totalReasoningTokens": 71716,
+      "totalTokens": 628870
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1787010987489,
+      "inputTokens": 422,
+      "message": "",
+      "outputTokens": 82,
+      "rationale": "This is a general product-feedback question and does not mention limits, caps, or a reset.",
+      "reasoningTokens": 35,
+      "totalTokens": 504,
+      "tweetId": "2089500941842342287",
+      "tweetText": "What is an obvious thing that we should do with Codex, API or our models that we should just do but haven't yet? What is 100% within reach, but we just seem to be missing?",
+      "tweetUrl": "https://x.com/thsottiaux/status/2089500941842342287",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1786993908526,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2088851696952951204",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1786856083009,
-      "inputTokens": 385,
-      "message": "",
-      "outputTokens": 86,
-      "rationale": "This reply just says “DM” and does not mention limits or a reset.",
-      "reasoningTokens": 42,
-      "totalTokens": 471,
-      "tweetId": "2088851430325248376",
-      "tweetText": "@nxc42 DM",
-      "tweetUrl": "https://x.com/thsottiaux/status/2088851430325248376",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "PdgMKRL3sy0P_0j20lUSE76x2tb_1hWhsjo6ZQSsZIEqr5US49x90-xXQQ",
-    "iv": "hgC9r_2P--1Y_Z_5",
-    "tag": "b9sVcvth3B3FmLWDO-fyxg",
+    "ciphertext": "wpIv_iFNWnQU4068oOVy8E0leIQu40QulexR4yn7LyuDpJx0q4YJmbttfg",
+    "iv": "cYvuub04j_-wdTGg",
+    "tag": "T4ao_J0iw3Nfm2GJpYhrVQ",
     "version": 1
   }
 }
