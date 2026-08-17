@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1786927228384,
-      "rationale": "This reply is just conversational and does not indicate any limits or caps have reset.",
-      "tweetId": "2089149434235900033",
-      "tweetUrl": "https://x.com/thsottiaux/status/2089149434235900033",
+      "decidedAt": 1786927231000,
+      "rationale": "This reply is generic and does not mention limits, caps, or a reset.",
+      "tweetId": "2089150288758243801",
+      "tweetUrl": "https://x.com/thsottiaux/status/2089150288758243801",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2089149434235900033",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2089149434235900033",
+    "lastSeenTweetId": "2089150288758243801",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2089150288758243801",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1786906826584,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2089063967301730789"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1786927231000,
+        "inputTokens": 387,
+        "outputTokens": 87,
+        "rationale": "This reply is generic and does not mention limits, caps, or a reset.",
+        "reasoningTokens": 43,
+        "totalTokens": 474,
+        "tweetId": "2089150288758243801",
+        "tweetText": "@AnkanXplorer Always improving",
+        "tweetUrl": "https://x.com/thsottiaux/status/2089150288758243801",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1786927228384,
@@ -279,29 +292,31 @@
         "tweetText": "@gusfeliciano We have ZDR, tell me more",
         "tweetUrl": "https://x.com/thsottiaux/status/2088857900903289192",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1786857318091,
-        "inputTokens": 443,
-        "outputTokens": 87,
-        "rationale": "This reply discusses tokenizer efficiency and token costs, not any cap or rate-limit reset.",
-        "reasoningTokens": 42,
-        "totalTokens": 530,
-        "tweetId": "2088856449959276836",
-        "tweetText": "I'll write more extensively about this, but OpenAI token != A\\ token. We use different tokenizers. And OpenAI's tokenizer is significantly more efficient.\n\nThis is important given you pay per token over the API and in usage. The difference is ~30% in number of tokens, definitely significant.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2088856449959276836",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 493661,
-      "totalOutputTokens": 129389,
-      "totalReasoningTokens": 71162,
-      "totalTokens": 623050
+      "totalInputTokens": 494048,
+      "totalOutputTokens": 129476,
+      "totalReasoningTokens": 71205,
+      "totalTokens": 623524
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1786927231000,
+      "inputTokens": 387,
+      "message": "",
+      "outputTokens": 87,
+      "rationale": "This reply is generic and does not mention limits, caps, or a reset.",
+      "reasoningTokens": 43,
+      "totalTokens": 474,
+      "tweetId": "2089150288758243801",
+      "tweetText": "@AnkanXplorer Always improving",
+      "tweetUrl": "https://x.com/thsottiaux/status/2089150288758243801",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1786927228384,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2088504145573736896",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1786772626600,
-      "inputTokens": 389,
-      "message": "",
-      "outputTokens": 110,
-      "rationale": "This is just a brief reply and gives no indication that any limits or caps reset.",
-      "reasoningTokens": 65,
-      "totalTokens": 499,
-      "tweetId": "2088501704849534991",
-      "tweetText": "@SIGKITTEN 👀🙈",
-      "tweetUrl": "https://x.com/thsottiaux/status/2088501704849534991",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "JSBeEiQGdln_pmtInFi6iyZwg56SjqokR8hideMk6N_5fc3YNGAzeRCi6w",
-    "iv": "0EkQe1k_3kUBNWzc",
-    "tag": "81QNzscmZMw5u_0pRU7mjA",
+    "ciphertext": "5QtwFF_RwOCFX30xZKMFmW9gANbbEXz016qkegQEKzPKNcVRRHYYtFAiHw",
+    "iv": "LYXlRcRIyzi_h_RV",
+    "tag": "295DKmd_Clr4QKHfJGy2ig",
     "version": 1
   }
 }
