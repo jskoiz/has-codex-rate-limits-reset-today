@@ -14,16 +14,16 @@
   "updatedAt": 1786583136086,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1787011299834,
-      "rationale": "This reply is unrelated to any Codex or ChatGPT limit reset.",
-      "tweetId": "2089501754308337873",
-      "tweetUrl": "https://x.com/thsottiaux/status/2089501754308337873",
+      "confidence": 0.98,
+      "decidedAt": 1787035760555,
+      "rationale": "This is a playful Codex joke and does not mention limits, caps, or a reset.",
+      "tweetId": "2089604619936956778",
+      "tweetUrl": "https://x.com/thsottiaux/status/2089604619936956778",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2089501754308337873",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2089501754308337873",
+    "lastSeenTweetId": "2089604619936956778",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2089604619936956778",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1786906826584,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2089063967301730789"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.98,
+        "evaluatedAt": 1787035760555,
+        "inputTokens": 430,
+        "outputTokens": 112,
+        "rationale": "This is a playful Codex joke and does not mention limits, caps, or a reset.",
+        "reasoningTokens": 65,
+        "totalTokens": 542,
+        "tweetId": "2089604619936956778",
+        "tweetText": "Gimme, gimme, gimme Codex after midnight\nWon’t somebody make these failing tests all go away?\nGimme, gimme, gimme Codex after midnight\nShip it through the darkness by the start of the day",
+        "tweetUrl": "https://x.com/thsottiaux/status/2089604619936956778",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1787011299834,
@@ -279,29 +292,31 @@
         "tweetText": "@xikhar Banger",
         "tweetUrl": "https://x.com/thsottiaux/status/2089103028204765350",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1786916067118,
-        "inputTokens": 391,
-        "outputTokens": 93,
-        "rationale": "This reply is just a casual comment about a Codex sticker, not about limits or availability.",
-        "reasoningTokens": 46,
-        "totalTokens": 484,
-        "tweetId": "2089102679217742081",
-        "tweetText": "@MarieAdant That you're missing a Codex sticker",
-        "tweetUrl": "https://x.com/thsottiaux/status/2089102679217742081",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 498802,
-      "totalOutputTokens": 130547,
-      "totalReasoningTokens": 71755,
-      "totalTokens": 629349
+      "totalInputTokens": 499232,
+      "totalOutputTokens": 130659,
+      "totalReasoningTokens": 71820,
+      "totalTokens": 629891
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.98,
+      "createdAt": 1787035760555,
+      "inputTokens": 430,
+      "message": "",
+      "outputTokens": 112,
+      "rationale": "This is a playful Codex joke and does not mention limits, caps, or a reset.",
+      "reasoningTokens": 65,
+      "totalTokens": 542,
+      "tweetId": "2089604619936956778",
+      "tweetText": "Gimme, gimme, gimme Codex after midnight\nWon’t somebody make these failing tests all go away?\nGimme, gimme, gimme Codex after midnight\nShip it through the darkness by the start of the day",
+      "tweetUrl": "https://x.com/thsottiaux/status/2089604619936956778",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1787011299835,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2088851978524958868",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1786856379708,
-      "inputTokens": 395,
-      "message": "",
-      "outputTokens": 107,
-      "rationale": "This reply discusses model support and does not mention limits or a reset.",
-      "reasoningTokens": 65,
-      "totalTokens": 502,
-      "tweetId": "2088851940172280251",
-      "tweetText": "@AbdoKerdawy Sol supports 1M, tell me more?",
-      "tweetUrl": "https://x.com/thsottiaux/status/2088851940172280251",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "aZiyavwV1TmYMjdAe78MTXa5lh5fH9jJDwTNC68HGwx_Y_qn8syUoy_f3Q",
-    "iv": "SrTRdbN0YDC3zWC9",
-    "tag": "NCyNEpn93dmLJXoiEjQFXg",
+    "ciphertext": "T8fDlSTKQDuZaibOk6fF3upnAHZ_iPgqSZf3mbYvIvbn7Ka_emCSa8PgIw",
+    "iv": "8lYyCnjJN9UJsPNU",
+    "tag": "ssdd6bVHe0T_xXtO-4PKvg",
     "version": 1
   }
 }
