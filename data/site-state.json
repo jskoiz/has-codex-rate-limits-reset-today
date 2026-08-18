@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1787010987489,
-      "rationale": "This is a general product-feedback question and does not mention limits, caps, or a reset.",
-      "tweetId": "2089500941842342287",
-      "tweetUrl": "https://x.com/thsottiaux/status/2089500941842342287",
+      "decidedAt": 1787011299834,
+      "rationale": "This reply is unrelated to any Codex or ChatGPT limit reset.",
+      "tweetId": "2089501754308337873",
+      "tweetUrl": "https://x.com/thsottiaux/status/2089501754308337873",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2089500941842342287",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2089500941842342287",
+    "lastSeenTweetId": "2089501754308337873",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2089501754308337873",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1786906826584,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2089063967301730789"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1787011299834,
+        "inputTokens": 398,
+        "outputTokens": 81,
+        "rationale": "This reply is unrelated to any Codex or ChatGPT limit reset.",
+        "reasoningTokens": 39,
+        "totalTokens": 479,
+        "tweetId": "2089501754308337873",
+        "tweetText": "@kmdrfx @thdxr @jayair Dax is obviously the CEO",
+        "tweetUrl": "https://x.com/thsottiaux/status/2089501754308337873",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1787010987489,
@@ -279,29 +292,31 @@
         "tweetText": "@MarieAdant That you're missing a Codex sticker",
         "tweetUrl": "https://x.com/thsottiaux/status/2089102679217742081",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1786911153665,
-        "inputTokens": 698,
-        "outputTokens": 80,
-        "rationale": "This post is a Codex configuration tip about context window size, not a rate-limit or usage reset.",
-        "reasoningTokens": 31,
-        "totalTokens": 778,
-        "tweetId": "2089082893804896524",
-        "tweetText": "Here is how to enable a 1M-token context window in Codex for GPT-5.6 Sol. \n\nEven though we have tuned the context limit in Codex to be set optimally when it comes to performance and cost, this is a common ask, so here it is documented.\n\nA larger context window lets Codex retain more code, tool output, and conversation history before summarizing older material. You need a model that supports it. And GPT-5.6 Sol, for example, has a documented 1,050,000-token window. \n\nOpen ~/.codex/config.toml and add or update these settings at the top level, before any [section] headers:\n\n```\nmodel = \"gpt-5.6-sol\"\nmodel_context_window = 1000000\nmodel_auto_compact_token_limit = 900000\n```\n\nThe first setting selects the model. The second tells Codex to use a one-million-token context budget. The third starts automatic history compaction around 900,000 tokens, leaving some headroom. Restart Codex client and start a new session after saving. \n\nTo try the configuration for a single CLI session without changing your defaults:\n\n```\ncodex -m gpt-5.6-sol \\\n  -c model_context_window=1000000 \\\n  -c model_auto_compact_token_limit=900000\n```\n\nHave fun, but also know that we tuned the default carefully!",
-        "tweetUrl": "https://x.com/thsottiaux/status/2089082893804896524",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 498404,
-      "totalOutputTokens": 130466,
-      "totalReasoningTokens": 71716,
-      "totalTokens": 628870
+      "totalInputTokens": 498802,
+      "totalOutputTokens": 130547,
+      "totalReasoningTokens": 71755,
+      "totalTokens": 629349
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1787011299835,
+      "inputTokens": 398,
+      "message": "",
+      "outputTokens": 81,
+      "rationale": "This reply is unrelated to any Codex or ChatGPT limit reset.",
+      "reasoningTokens": 39,
+      "totalTokens": 479,
+      "tweetId": "2089501754308337873",
+      "tweetText": "@kmdrfx @thdxr @jayair Dax is obviously the CEO",
+      "tweetUrl": "https://x.com/thsottiaux/status/2089501754308337873",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1787010987489,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2088851940172280251",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1786856085536,
-      "inputTokens": 421,
-      "message": "",
-      "outputTokens": 84,
-      "rationale": "This reply discusses evals and pricing, not any limit, cap, or reset.",
-      "reasoningTokens": 39,
-      "totalTokens": 505,
-      "tweetId": "2088851696952951204",
-      "tweetText": "@AISupplyGuy1 Do you have evals? Quite surprising as I would expect for most things you would net out 40-50% cheaper per task with Sol.\n\nCan you share more?",
-      "tweetUrl": "https://x.com/thsottiaux/status/2088851696952951204",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "wpIv_iFNWnQU4068oOVy8E0leIQu40QulexR4yn7LyuDpJx0q4YJmbttfg",
-    "iv": "cYvuub04j_-wdTGg",
-    "tag": "T4ao_J0iw3Nfm2GJpYhrVQ",
+    "ciphertext": "aZiyavwV1TmYMjdAe78MTXa5lh5fH9jJDwTNC68HGwx_Y_qn8syUoy_f3Q",
+    "iv": "SrTRdbN0YDC3zWC9",
+    "tag": "NCyNEpn93dmLJXoiEjQFXg",
     "version": 1
   }
 }
