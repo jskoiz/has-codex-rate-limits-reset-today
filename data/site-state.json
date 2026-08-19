@@ -14,16 +14,16 @@
   "updatedAt": 1786583136086,
   "automation": {
     "lastDecision": {
-      "confidence": 0.97,
-      "decidedAt": 1787158114946,
-      "rationale": "This is a joking reply about a \"reset button\" and does not say limits have reset or are available again.",
-      "tweetId": "2090117067584491653",
-      "tweetUrl": "https://x.com/thsottiaux/status/2090117067584491653",
+      "confidence": 0.99,
+      "decidedAt": 1787162157103,
+      "rationale": "This reply is just a personal/joking post and does not mention limits or a reset.",
+      "tweetId": "2090134827450421604",
+      "tweetUrl": "https://x.com/thsottiaux/status/2090134827450421604",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2090117067584491653",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2090117067584491653",
+    "lastSeenTweetId": "2090134827450421604",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2090134827450421604",
     "pendingReview": {
       "confidence": 0.23,
       "createdAt": 1787157810829,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2090116476414136830"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1787162157103,
+        "inputTokens": 402,
+        "outputTokens": 91,
+        "rationale": "This reply is just a personal/joking post and does not mention limits or a reset.",
+        "reasoningTokens": 45,
+        "totalTokens": 493,
+        "tweetId": "2090134827450421604",
+        "tweetText": "Depiction of me receiving this very important item https://t.co/3Vyj8RYWDq",
+        "tweetUrl": "https://x.com/thsottiaux/status/2090134827450421604",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.97,
         "evaluatedAt": 1787158114946,
@@ -279,29 +292,31 @@
         "tweetText": "@Robertg761_ Haha",
         "tweetUrl": "https://x.com/thsottiaux/status/2089215083163599231",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1786940908378,
-        "inputTokens": 394,
-        "outputTokens": 107,
-        "rationale": "This reply is conversational and does not mention any limit or usage reset.",
-        "reasoningTokens": 65,
-        "totalTokens": 501,
-        "tweetId": "2089207201701544359",
-        "tweetText": "@ThroughlineRSCH Grock you say. I’ll watch out",
-        "tweetUrl": "https://x.com/thsottiaux/status/2089207201701544359",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 503620,
-      "totalOutputTokens": 132012,
-      "totalReasoningTokens": 72718,
-      "totalTokens": 635632
+      "totalInputTokens": 504022,
+      "totalOutputTokens": 132103,
+      "totalReasoningTokens": 72763,
+      "totalTokens": 636125
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1787162157103,
+      "inputTokens": 402,
+      "message": "",
+      "outputTokens": 91,
+      "rationale": "This reply is just a personal/joking post and does not mention limits or a reset.",
+      "reasoningTokens": 45,
+      "totalTokens": 493,
+      "tweetId": "2090134827450421604",
+      "tweetText": "Depiction of me receiving this very important item https://t.co/3Vyj8RYWDq",
+      "tweetUrl": "https://x.com/thsottiaux/status/2090134827450421604",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.97,
       "createdAt": 1787158114946,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2088877426483036646",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1786861661213,
-      "inputTokens": 391,
-      "message": "",
-      "outputTokens": 81,
-      "rationale": "This reply is conversational and does not mention limits or a reset.",
-      "reasoningTokens": 40,
-      "totalTokens": 472,
-      "tweetId": "2088875095733547066",
-      "tweetText": "@Ethan_Smartsys Happens to the best",
-      "tweetUrl": "https://x.com/thsottiaux/status/2088875095733547066",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "vJmYjrwXwZhyUFvQb7FEButLcpOdrmPhpsGg1VjcKyE9ZJUN4jomQhxyyQ",
-    "iv": "FB3_zFVahDwR6Viz",
-    "tag": "hcWCid3kGwRwlkOUmUPG7Q",
+    "ciphertext": "KQfddFF9GeZUKrGGcgxUSX3IDXevj9yNTAqhqs8j0XqJsx1idDIMqhKGjA",
+    "iv": "5wjcQvjNe7CYlRk-",
+    "tag": "kd7jm1iOuwYNcQzmiL8lqQ",
     "version": 1
   }
 }
