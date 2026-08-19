@@ -14,25 +14,38 @@
   "updatedAt": 1786583136086,
   "automation": {
     "lastDecision": {
-      "confidence": 0.94,
-      "decidedAt": 1787105835996,
-      "rationale": "This is just a conversational reply and does not say limits or rate caps reset.",
-      "tweetId": "2089898255597580328",
-      "tweetUrl": "https://x.com/thsottiaux/status/2089898255597580328",
-      "verdict": "not_reset"
+      "confidence": 0.92,
+      "decidedAt": 1787116087735,
+      "rationale": "It mentions a \"reset button\" but does not clearly say any user limit or rate cap has reset.",
+      "tweetId": "2089941380336644295",
+      "tweetUrl": "https://x.com/thsottiaux/status/2089941380336644295",
+      "verdict": "uncertain"
     },
     "lastError": null,
-    "lastSeenTweetId": "2089898255597580328",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2089898255597580328",
+    "lastSeenTweetId": "2089941380336644295",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2089941380336644295",
     "pendingReview": {
-      "confidence": 0.95,
-      "createdAt": 1786906826584,
-      "rationale": "This reply alone does not clearly say limits have reset or are available again now.",
-      "tweetId": "2089063967301730789",
-      "tweetText": "@Ananth7e Maybe",
-      "tweetUrl": "https://x.com/thsottiaux/status/2089063967301730789"
+      "confidence": 0.92,
+      "createdAt": 1787116087735,
+      "rationale": "It mentions a \"reset button\" but does not clearly say any user limit or rate cap has reset.",
+      "tweetId": "2089941380336644295",
+      "tweetText": "I was gifted a very fancy new reset button today",
+      "tweetUrl": "https://x.com/thsottiaux/status/2089941380336644295"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.92,
+        "evaluatedAt": 1787116087735,
+        "inputTokens": 391,
+        "outputTokens": 181,
+        "rationale": "It mentions a \"reset button\" but does not clearly say any user limit or rate cap has reset.",
+        "reasoningTokens": 132,
+        "totalTokens": 572,
+        "tweetId": "2089941380336644295",
+        "tweetText": "I was gifted a very fancy new reset button today",
+        "tweetUrl": "https://x.com/thsottiaux/status/2089941380336644295",
+        "verdict": "uncertain"
+      },
       {
         "confidence": 0.94,
         "evaluatedAt": 1787105835996,
@@ -279,29 +292,31 @@
         "tweetText": "Codex\n\n✅ Almost 100% reliable\n✅ Occasional resets\n✅ Open-source\n✅ (will have Astra) https://t.co/DxNdAgpag5",
         "tweetUrl": "https://x.com/thsottiaux/status/2089149255382438340",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1786926288271,
-        "inputTokens": 398,
-        "outputTokens": 79,
-        "rationale": "This reply only mentions Codex casually and does not indicate any limits or caps have reset.",
-        "reasoningTokens": 33,
-        "totalTokens": 477,
-        "tweetId": "2089146141388505191",
-        "tweetText": "@pwnies Courtesy of Codex https://t.co/z78bvVFGHp",
-        "tweetUrl": "https://x.com/thsottiaux/status/2089146141388505191",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 500856,
-      "totalOutputTokens": 131065,
-      "totalReasoningTokens": 72094,
-      "totalTokens": 631921
+      "totalInputTokens": 501247,
+      "totalOutputTokens": 131246,
+      "totalReasoningTokens": 72226,
+      "totalTokens": 632493
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.92,
+      "createdAt": 1787116087735,
+      "inputTokens": 391,
+      "message": "",
+      "outputTokens": 181,
+      "rationale": "It mentions a \"reset button\" but does not clearly say any user limit or rate cap has reset.",
+      "reasoningTokens": 132,
+      "totalTokens": 572,
+      "tweetId": "2089941380336644295",
+      "tweetText": "I was gifted a very fancy new reset button today",
+      "tweetUrl": "https://x.com/thsottiaux/status/2089941380336644295",
+      "type": "review_requested",
+      "verdict": "uncertain"
+    },
     {
       "confidence": 0.94,
       "createdAt": 1787105835996,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2088854763119280442",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.08,
-      "createdAt": 1786856998456,
-      "inputTokens": 386,
-      "message": "",
-      "outputTokens": 157,
-      "rationale": "This reply just says “Yes” without enough context to tell whether a limit reset is being confirmed.",
-      "reasoningTokens": 109,
-      "totalTokens": 543,
-      "tweetId": "2088854576686612859",
-      "tweetText": "@_hibana01 Yes",
-      "tweetUrl": "https://x.com/thsottiaux/status/2088854576686612859",
-      "type": "review_requested",
-      "verdict": "uncertain"
     }
   ],
   "privateState": {
-    "ciphertext": "9r8YTwJ-hmIhXeGAOWnxUcRTdmb8zVn7xoRhtjeduAf_svsPbaLFAkjSJw",
-    "iv": "uWo3xng04UEhvegA",
-    "tag": "CRqTe54O3kI_qNS2z_WBpQ",
+    "ciphertext": "YO_3R1MK5cdFEJMBfOJrMyt18-s3HqJXh6UF0ieynyuj3s8ZsDG9cFYb9g",
+    "iv": "D45kifX7EldnVlqH",
+    "tag": "WfQCWs3yUhdRnXrDrB13bQ",
     "version": 1
   }
 }
