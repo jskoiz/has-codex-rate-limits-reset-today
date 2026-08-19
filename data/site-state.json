@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1787121358620,
-      "rationale": "This reply is conversational and says nothing about limits or a reset.",
-      "tweetId": "2089963353674486142",
-      "tweetUrl": "https://x.com/thsottiaux/status/2089963353674486142",
+      "decidedAt": 1787121671614,
+      "rationale": "This reply only says they have compute and does not indicate any rate-limit or cap reset.",
+      "tweetId": "2089964604172673121",
+      "tweetUrl": "https://x.com/thsottiaux/status/2089964604172673121",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2089963353674486142",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2089963353674486142",
+    "lastSeenTweetId": "2089964604172673121",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2089964604172673121",
     "pendingReview": {
       "confidence": 0.92,
       "createdAt": 1787116087735,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2089941380336644295"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1787121671614,
+        "inputTokens": 391,
+        "outputTokens": 101,
+        "rationale": "This reply only says they have compute and does not indicate any rate-limit or cap reset.",
+        "reasoningTokens": 55,
+        "totalTokens": 492,
+        "tweetId": "2089964604172673121",
+        "tweetText": "@ClaudeDevs Do not worry, we have compute",
+        "tweetUrl": "https://x.com/thsottiaux/status/2089964604172673121",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1787121358620,
@@ -279,29 +292,31 @@
         "tweetText": "@adamlyttleapps Welcome",
         "tweetUrl": "https://x.com/thsottiaux/status/2089156180740379132",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1786927857938,
-        "inputTokens": 391,
-        "outputTokens": 74,
-        "rationale": "This is just a conversational reply and does not mention limits or a reset.",
-        "reasoningTokens": 31,
-        "totalTokens": 465,
-        "tweetId": "2089152954519433599",
-        "tweetText": "@ericmitchellai @willdepue Legend",
-        "tweetUrl": "https://x.com/thsottiaux/status/2089152954519433599",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 502422,
-      "totalOutputTokens": 131524,
-      "totalReasoningTokens": 72376,
-      "totalTokens": 633946
+      "totalInputTokens": 502813,
+      "totalOutputTokens": 131625,
+      "totalReasoningTokens": 72431,
+      "totalTokens": 634438
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1787121671614,
+      "inputTokens": 391,
+      "message": "",
+      "outputTokens": 101,
+      "rationale": "This reply only says they have compute and does not indicate any rate-limit or cap reset.",
+      "reasoningTokens": 55,
+      "totalTokens": 492,
+      "tweetId": "2089964604172673121",
+      "tweetText": "@ClaudeDevs Do not worry, we have compute",
+      "tweetUrl": "https://x.com/thsottiaux/status/2089964604172673121",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1787121358620,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2088866513008873560",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1786857619286,
-      "inputTokens": 408,
-      "message": "",
-      "outputTokens": 80,
-      "rationale": "This reply discusses migration costs and says nothing about limits or availability resetting.",
-      "reasoningTokens": 38,
-      "totalTokens": 488,
-      "tweetId": "2088858208668614841",
-      "tweetText": "@RJMcGirr Sol can probably migrate you in a few hours. Why isn't it worth the many $$$ you would get back in return?",
-      "tweetUrl": "https://x.com/thsottiaux/status/2088858208668614841",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "b59_zpIZVzRcyBBOna_pNha1pM9cq9Bkq1RP-NLrIcfxaZpO8RHFieTNyw",
-    "iv": "ZzdwCamgOEiKFyfs",
-    "tag": "MymeCt_YD3dfGVsDXUqlUw",
+    "ciphertext": "CXIytdse3NdUm1FkuVMShsVQQ5PEOyP5WYkL5lXe8BAEpwDO-n1hW9IMTA",
+    "iv": "-iL12OFM2v8Z8yAo",
+    "tag": "iKIgXCRRNArXBMY0_RcGLQ",
     "version": 1
   }
 }
