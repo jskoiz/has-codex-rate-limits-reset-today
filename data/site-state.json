@@ -14,16 +14,16 @@
   "updatedAt": 1786583136086,
   "automation": {
     "lastDecision": {
-      "confidence": 0.98,
-      "decidedAt": 1787035760555,
-      "rationale": "This is a playful Codex joke and does not mention limits, caps, or a reset.",
-      "tweetId": "2089604619936956778",
-      "tweetUrl": "https://x.com/thsottiaux/status/2089604619936956778",
+      "confidence": 0.99,
+      "decidedAt": 1787104285316,
+      "rationale": "This post is about Codex safety improvements and does not mention usage caps or rate-limit resets.",
+      "tweetId": "2089891927659585918",
+      "tweetUrl": "https://x.com/thsottiaux/status/2089891927659585918",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2089604619936956778",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2089604619936956778",
+    "lastSeenTweetId": "2089891927659585918",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2089891927659585918",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1786906826584,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2089063967301730789"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1787104285316,
+        "inputTokens": 838,
+        "outputTokens": 96,
+        "rationale": "This post is about Codex safety improvements and does not mention usage caps or rate-limit resets.",
+        "reasoningTokens": 49,
+        "totalTokens": 934,
+        "tweetId": "2089891927659585918",
+        "tweetText": "Hi!\n\nRecapping some changes we have rolled out over the last couple of weeks that have further reduced the risk associated to potentially destructive actions being performed by Codex during its work. \n\nA few weeks ago, we started investigating a small number of reports where GPT-5.6 in Codex took destructive actions outside what the user asked for. The most serious pattern we found was a command meant to clean up temporary work that could instead delete the user files. This should obviously not happen. \n\nHere’s what we found:\n- Codex sometimes creates temporary folders while working and cleans them up afterward. In rare cases, GPT-5.6 got that cleanup wrong. One pattern involved reusing a system environment variable like $HOME for temporary work. A malformed cleanup command could then point at the actual home directory instead of the temporary folder. \n- There were cases where the model tried to delete or overwrite a temporary path without checking what was already there.\n\nWe’ve added protections at several layers:\n- Codex is now explicitly instructed to check deletion targets before acting, create fresh temporary directories, avoid repurposing system environment variables, prefer recoverable actions, and stop when the scope is unclear.\n- We strengthened the execution checks that identify high-risk deletion commands and escalate them for review. If a command is rejected, the model is directed to take a safer approach.\n- We made Full access harder to enable accidentally, added clearer warnings, and further restricted especially risky permission combinations.\n- We updated Auto-review to better identify destructive actions.\n- We built targeted evaluations that replay the failures we observed. We’re also adding reinforcement-learning tasks and graders focused on these risks, and filtering destructive actions from training data.\n\nIn those replay evaluations, the changes substantially reduced the behavior while preserving Codex’s ability to complete normal coding work. \n\nTwo things to do on your end:\n- Keep the Codex app up to date. We are always improving safety, performance and many other things.\n- Use one of the sandbox modes: \"Ask for approval\" or \"Approve for me\". Only use Full access for environments you trust and can recover.\n\nThanks and happy Codexing out there!",
+        "tweetUrl": "https://x.com/thsottiaux/status/2089891927659585918",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.98,
         "evaluatedAt": 1787035760555,
@@ -279,29 +292,31 @@
         "tweetText": "@ajambrosino I had to do a double take",
         "tweetUrl": "https://x.com/thsottiaux/status/2089141897017057754",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1786916069946,
-        "inputTokens": 386,
-        "outputTokens": 75,
-        "rationale": "This is just a conversational reply and says nothing about limits or resets.",
-        "reasoningTokens": 33,
-        "totalTokens": 461,
-        "tweetId": "2089103028204765350",
-        "tweetText": "@xikhar Banger",
-        "tweetUrl": "https://x.com/thsottiaux/status/2089103028204765350",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 499232,
-      "totalOutputTokens": 130659,
-      "totalReasoningTokens": 71820,
-      "totalTokens": 629891
+      "totalInputTokens": 500070,
+      "totalOutputTokens": 130755,
+      "totalReasoningTokens": 71869,
+      "totalTokens": 630825
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1787104285316,
+      "inputTokens": 838,
+      "message": "",
+      "outputTokens": 96,
+      "rationale": "This post is about Codex safety improvements and does not mention usage caps or rate-limit resets.",
+      "reasoningTokens": 49,
+      "totalTokens": 934,
+      "tweetId": "2089891927659585918",
+      "tweetText": "Hi!\n\nRecapping some changes we have rolled out over the last couple of weeks that have further reduced the risk associated to potentially destructive actions being performed by Codex during its work. \n\nA few weeks ago, we started investigating a small number of reports where GPT-5.6 in Codex took destructive actions outside what the user asked for. The most serious pattern we found was a command meant to clean up temporary work that could instead delete the user files. This should obviously not happen. \n\nHere’s what we found:\n- Codex sometimes creates temporary folders while working and cleans them up afterward. In rare cases, GPT-5.6 got that cleanup wrong. One pattern involved reusing a system environment variable like $HOME for temporary work. A malformed cleanup command could then point at the actual home directory instead of the temporary folder. \n- There were cases where the model tried to delete or overwrite a temporary path without checking what was already there.\n\nWe’ve added protections at several layers:\n- Codex is now explicitly instructed to check deletion targets before acting, create fresh temporary directories, avoid repurposing system environment variables, prefer recoverable actions, and stop when the scope is unclear.\n- We strengthened the execution checks that identify high-risk deletion commands and escalate them for review. If a command is rejected, the model is directed to take a safer approach.\n- We made Full access harder to enable accidentally, added clearer warnings, and further restricted especially risky permission combinations.\n- We updated Auto-review to better identify destructive actions.\n- We built targeted evaluations that replay the failures we observed. We’re also adding reinforcement-learning tasks and graders focused on these risks, and filtering destructive actions from training data.\n\nIn those replay evaluations, the changes substantially reduced the behavior while preserving Codex’s ability to complete normal coding work. \n\nTwo things to do on your end:\n- Keep the Codex app up to date. We are always improving safety, performance and many other things.\n- Use one of the sandbox modes: \"Ask for approval\" or \"Approve for me\". Only use Full access for environments you trust and can recover.\n\nThanks and happy Codexing out there!",
+      "tweetUrl": "https://x.com/thsottiaux/status/2089891927659585918",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.98,
       "createdAt": 1787035760555,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2088853232177328603",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1786856382351,
-      "inputTokens": 386,
-      "message": "",
-      "outputTokens": 88,
-      "rationale": "This reply just says “DM” and does not mention limits, caps, or availability resetting.",
-      "reasoningTokens": 41,
-      "totalTokens": 474,
-      "tweetId": "2088851978524958868",
-      "tweetText": "@DustdrifterX DM",
-      "tweetUrl": "https://x.com/thsottiaux/status/2088851978524958868",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "T8fDlSTKQDuZaibOk6fF3upnAHZ_iPgqSZf3mbYvIvbn7Ka_emCSa8PgIw",
-    "iv": "8lYyCnjJN9UJsPNU",
-    "tag": "ssdd6bVHe0T_xXtO-4PKvg",
+    "ciphertext": "Xr6o0lQAkwvsOM0PUbeVpLrQxPol9cE01BW4PKpb6uzUxzB-CPEHI2umsg",
+    "iv": "y656XP4_mpA49ppP",
+    "tag": "X-9SqA8iB118zTbkzhbzCg",
     "version": 1
   }
 }
