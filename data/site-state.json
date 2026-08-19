@@ -14,16 +14,16 @@
   "updatedAt": 1786583136086,
   "automation": {
     "lastDecision": {
-      "confidence": 0.23,
-      "decidedAt": 1787157810829,
-      "rationale": "This mentions Codex usage but does not clearly say any limit or cap has reset or become available again.",
-      "tweetId": "2090116476414136830",
-      "tweetUrl": "https://x.com/thsottiaux/status/2090116476414136830",
-      "verdict": "uncertain"
+      "confidence": 0.97,
+      "decidedAt": 1787158114946,
+      "rationale": "This is a joking reply about a \"reset button\" and does not say limits have reset or are available again.",
+      "tweetId": "2090117067584491653",
+      "tweetUrl": "https://x.com/thsottiaux/status/2090117067584491653",
+      "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2090116476414136830",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2090116476414136830",
+    "lastSeenTweetId": "2090117067584491653",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2090117067584491653",
     "pendingReview": {
       "confidence": 0.23,
       "createdAt": 1787157810829,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2090116476414136830"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.97,
+        "evaluatedAt": 1787158114946,
+        "inputTokens": 397,
+        "outputTokens": 129,
+        "rationale": "This is a joking reply about a \"reset button\" and does not say limits have reset or are available again.",
+        "reasoningTokens": 78,
+        "totalTokens": 526,
+        "tweetId": "2090117067584491653",
+        "tweetText": "@anshgrows You would break the reset button? You would do such a thing?",
+        "tweetUrl": "https://x.com/thsottiaux/status/2090117067584491653",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.23,
         "evaluatedAt": 1787157810829,
@@ -279,29 +292,31 @@
         "tweetText": "@ThroughlineRSCH Grock you say. I’ll watch out",
         "tweetUrl": "https://x.com/thsottiaux/status/2089207201701544359",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1786940905235,
-        "inputTokens": 410,
-        "outputTokens": 96,
-        "rationale": "This reply just offers extra credits and does not mention any limit or rate-limit reset.",
-        "reasoningTokens": 51,
-        "totalTokens": 506,
-        "tweetId": "2089206566998405162",
-        "tweetText": "@theisaacmed I see from your comments you’ll actually try, nice. Tag me with feedback and I’ll send you some extra credits too",
-        "tweetUrl": "https://x.com/thsottiaux/status/2089206566998405162",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 503223,
-      "totalOutputTokens": 131883,
-      "totalReasoningTokens": 72640,
-      "totalTokens": 635106
+      "totalInputTokens": 503620,
+      "totalOutputTokens": 132012,
+      "totalReasoningTokens": 72718,
+      "totalTokens": 635632
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.97,
+      "createdAt": 1787158114946,
+      "inputTokens": 397,
+      "message": "",
+      "outputTokens": 129,
+      "rationale": "This is a joking reply about a \"reset button\" and does not say limits have reset or are available again.",
+      "reasoningTokens": 78,
+      "totalTokens": 526,
+      "tweetId": "2090117067584491653",
+      "tweetText": "@anshgrows You would break the reset button? You would do such a thing?",
+      "tweetUrl": "https://x.com/thsottiaux/status/2090117067584491653",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.23,
       "createdAt": 1787157810829,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2088875095733547066",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.79,
-      "createdAt": 1786860102675,
-      "inputTokens": 393,
-      "message": "",
-      "outputTokens": 210,
-      "rationale": "This reply only mentions the time and does not clearly say limits have reset or are available again.",
-      "reasoningTokens": 163,
-      "totalTokens": 603,
-      "tweetId": "2088868557128135006",
-      "tweetText": "@butter86396 Sorry, only 11pm over here.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2088868557128135006",
-      "type": "review_requested",
-      "verdict": "uncertain"
     }
   ],
   "privateState": {
-    "ciphertext": "qy1wTtv4Lyv9wE1W8OMVirsve95BPEuNpPpoFZfsNk_C-4WxXFzL-sBFEw",
-    "iv": "eM-QfvMZ_NxklFVM",
-    "tag": "-Udg8n9924a-dtYXusVmRg",
+    "ciphertext": "vJmYjrwXwZhyUFvQb7FEButLcpOdrmPhpsGg1VjcKyE9ZJUN4jomQhxyyQ",
+    "iv": "FB3_zFVahDwR6Viz",
+    "tag": "hcWCid3kGwRwlkOUmUPG7Q",
     "version": 1
   }
 }
