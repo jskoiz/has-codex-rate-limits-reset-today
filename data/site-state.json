@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1787162157103,
-      "rationale": "This reply is just a personal/joking post and does not mention limits or a reset.",
-      "tweetId": "2090134827450421604",
-      "tweetUrl": "https://x.com/thsottiaux/status/2090134827450421604",
+      "decidedAt": 1787171458936,
+      "rationale": "This post is about Zero Data Retention and Private Safety Processing, not usage limits or a reset.",
+      "tweetId": "2090173536010957128",
+      "tweetUrl": "https://x.com/thsottiaux/status/2090173536010957128",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2090134827450421604",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2090134827450421604",
+    "lastSeenTweetId": "2090173536010957128",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2090173536010957128",
     "pendingReview": {
       "confidence": 0.23,
       "createdAt": 1787157810829,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2090116476414136830"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1787171458936,
+        "inputTokens": 608,
+        "outputTokens": 82,
+        "rationale": "This post is about Zero Data Retention and Private Safety Processing, not usage limits or a reset.",
+        "reasoningTokens": 34,
+        "totalTokens": 690,
+        "tweetId": "2090173536010957128",
+        "tweetText": "Today we’re previewing Private Safety Processing, designed to let us keep offering Zero Data Retention while improving our safeguards. Even when benefiting from frontier intelligence, customers shouldn’t have to give up control of sensitive data.\n\nFor ZDR deployments, content stays on infrastructure the customer controls. Automated systems look for patterns across related interactions and return limited safety signals, without exposing the underlying prompts or responses to OpenAI employees (even me!).\n\nWe’re also developing an OpenAI-hosted option encrypted with customer-controlled keys. We’re testing this with early customers now and plan to begin rolling it out in September.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2090173536010957128",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1787162157103,
@@ -279,29 +292,31 @@
         "tweetText": "@Robertg761_ Robert, don’t go",
         "tweetUrl": "https://x.com/thsottiaux/status/2089216314498027657",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1786942776975,
-        "inputTokens": 386,
-        "outputTokens": 84,
-        "rationale": "This is just a casual reply and says nothing about limits or resets.",
-        "reasoningTokens": 42,
-        "totalTokens": 470,
-        "tweetId": "2089215083163599231",
-        "tweetText": "@Robertg761_ Haha",
-        "tweetUrl": "https://x.com/thsottiaux/status/2089215083163599231",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 504022,
-      "totalOutputTokens": 132103,
-      "totalReasoningTokens": 72763,
-      "totalTokens": 636125
+      "totalInputTokens": 504630,
+      "totalOutputTokens": 132185,
+      "totalReasoningTokens": 72797,
+      "totalTokens": 636815
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1787171458936,
+      "inputTokens": 608,
+      "message": "",
+      "outputTokens": 82,
+      "rationale": "This post is about Zero Data Retention and Private Safety Processing, not usage limits or a reset.",
+      "reasoningTokens": 34,
+      "totalTokens": 690,
+      "tweetId": "2090173536010957128",
+      "tweetText": "Today we’re previewing Private Safety Processing, designed to let us keep offering Zero Data Retention while improving our safeguards. Even when benefiting from frontier intelligence, customers shouldn’t have to give up control of sensitive data.\n\nFor ZDR deployments, content stays on infrastructure the customer controls. Automated systems look for patterns across related interactions and return limited safety signals, without exposing the underlying prompts or responses to OpenAI employees (even me!).\n\nWe’re also developing an OpenAI-hosted option encrypted with customer-controlled keys. We’re testing this with early customers now and plan to begin rolling it out in September.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2090173536010957128",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1787162157103,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2088878697998844277",
       "type": "review_requested",
       "verdict": "uncertain"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1786862275258,
-      "inputTokens": 388,
-      "message": "",
-      "outputTokens": 97,
-      "rationale": "This post is conversational and does not mention limits, caps, or availability resetting.",
-      "reasoningTokens": 53,
-      "totalTokens": 485,
-      "tweetId": "2088877426483036646",
-      "tweetText": "What's your /goal for the night?",
-      "tweetUrl": "https://x.com/thsottiaux/status/2088877426483036646",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "KQfddFF9GeZUKrGGcgxUSX3IDXevj9yNTAqhqs8j0XqJsx1idDIMqhKGjA",
-    "iv": "5wjcQvjNe7CYlRk-",
-    "tag": "kd7jm1iOuwYNcQzmiL8lqQ",
+    "ciphertext": "npgsnwb0hN9I7UfPzyzICYs16DAY4hY4BA4Ah1wDmcAZgR0GCqnCDT9ZdQ",
+    "iv": "SuMr8qynf3gtM8Um",
+    "tag": "mnDrh0OWQ3h38xrfOHpHug",
     "version": 1
   }
 }
