@@ -14,25 +14,38 @@
   "updatedAt": 1786583136086,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1787121671614,
-      "rationale": "This reply only says they have compute and does not indicate any rate-limit or cap reset.",
-      "tweetId": "2089964604172673121",
-      "tweetUrl": "https://x.com/thsottiaux/status/2089964604172673121",
-      "verdict": "not_reset"
+      "confidence": 0.23,
+      "decidedAt": 1787157810829,
+      "rationale": "This mentions Codex usage but does not clearly say any limit or cap has reset or become available again.",
+      "tweetId": "2090116476414136830",
+      "tweetUrl": "https://x.com/thsottiaux/status/2090116476414136830",
+      "verdict": "uncertain"
     },
     "lastError": null,
-    "lastSeenTweetId": "2089964604172673121",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2089964604172673121",
+    "lastSeenTweetId": "2090116476414136830",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2090116476414136830",
     "pendingReview": {
-      "confidence": 0.92,
-      "createdAt": 1787116087735,
-      "rationale": "It mentions a \"reset button\" but does not clearly say any user limit or rate cap has reset.",
-      "tweetId": "2089941380336644295",
-      "tweetText": "I was gifted a very fancy new reset button today",
-      "tweetUrl": "https://x.com/thsottiaux/status/2089941380336644295"
+      "confidence": 0.23,
+      "createdAt": 1787157810829,
+      "rationale": "This mentions Codex usage but does not clearly say any limit or cap has reset or become available again.",
+      "tweetId": "2090116476414136830",
+      "tweetText": "It has not been used yet, but would you look at that. Codex for scale. https://t.co/o1pulwoifd",
+      "tweetUrl": "https://x.com/thsottiaux/status/2090116476414136830"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.23,
+        "evaluatedAt": 1787157810829,
+        "inputTokens": 410,
+        "outputTokens": 258,
+        "rationale": "This mentions Codex usage but does not clearly say any limit or cap has reset or become available again.",
+        "reasoningTokens": 209,
+        "totalTokens": 668,
+        "tweetId": "2090116476414136830",
+        "tweetText": "It has not been used yet, but would you look at that. Codex for scale. https://t.co/o1pulwoifd",
+        "tweetUrl": "https://x.com/thsottiaux/status/2090116476414136830",
+        "verdict": "uncertain"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1787121671614,
@@ -279,29 +292,31 @@
         "tweetText": "@theisaacmed I see from your comments you’ll actually try, nice. Tag me with feedback and I’ll send you some extra credits too",
         "tweetUrl": "https://x.com/thsottiaux/status/2089206566998405162",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1786928792146,
-        "inputTokens": 386,
-        "outputTokens": 68,
-        "rationale": "This is just a conversational reply and gives no indication that limits have reset.",
-        "reasoningTokens": 25,
-        "totalTokens": 454,
-        "tweetId": "2089156180740379132",
-        "tweetText": "@adamlyttleapps Welcome",
-        "tweetUrl": "https://x.com/thsottiaux/status/2089156180740379132",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 502813,
-      "totalOutputTokens": 131625,
-      "totalReasoningTokens": 72431,
-      "totalTokens": 634438
+      "totalInputTokens": 503223,
+      "totalOutputTokens": 131883,
+      "totalReasoningTokens": 72640,
+      "totalTokens": 635106
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.23,
+      "createdAt": 1787157810829,
+      "inputTokens": 410,
+      "message": "",
+      "outputTokens": 258,
+      "rationale": "This mentions Codex usage but does not clearly say any limit or cap has reset or become available again.",
+      "reasoningTokens": 209,
+      "totalTokens": 668,
+      "tweetId": "2090116476414136830",
+      "tweetText": "It has not been used yet, but would you look at that. Codex for scale. https://t.co/o1pulwoifd",
+      "tweetUrl": "https://x.com/thsottiaux/status/2090116476414136830",
+      "type": "review_requested",
+      "verdict": "uncertain"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1787121671614,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2088868557128135006",
       "type": "review_requested",
       "verdict": "uncertain"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1786859789836,
-      "inputTokens": 701,
-      "message": "",
-      "outputTokens": 99,
-      "rationale": "This post discusses token pricing and billing, not any rate-limit or usage-cap reset.",
-      "reasoningTokens": 54,
-      "totalTokens": 800,
-      "tweetId": "2088866513008873560",
-      "tweetText": "On tokens and prices per token.\n\nI said I’d write more about this, so here goes: an OpenAI token != another model’s token. We compare AI prices in dollars per million tokens as if a token were a standardized unit, like a gram or a kilowatt-hour. It isn’t. Different models use and produce the exact same text using different numbers of tokens, which means a lower price per token does not necessarily mean a lower bill.\n\nImagine two identical pizzas. One is cut into 8 slices at $2 each. The other is cut into 16 slices at $1.25 each. The second place advertises cheaper slices, but the whole pizza costs $20 instead of $16. Bummer ... your stomach doesn't actually care about the number of slices you just ate.\n\nI know you are hungry now, but back to tokens. In one small comparison spanning English, technical, multilingual, and numerical text, the tokenizer we use for GPT-5.6 Sol used 766 tokens versus an estimated 1,170 for Claude Opus 5. That's a very significant difference of about 34.5% fewer tokens. You can get the same exact text, but pay for all those extra tokens. The price per token doesn't really tell this story.\n\nEven correcting for tokenizer differences misses the bigger point. What actually matters is price per successful outcome, and for that you can use benchmarks as a starting point, but really you have to try it and measure on your own use cases.\n\nThat's all. May the tokens flow.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2088866513008873560",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "CXIytdse3NdUm1FkuVMShsVQQ5PEOyP5WYkL5lXe8BAEpwDO-n1hW9IMTA",
-    "iv": "-iL12OFM2v8Z8yAo",
-    "tag": "iKIgXCRRNArXBMY0_RcGLQ",
+    "ciphertext": "qy1wTtv4Lyv9wE1W8OMVirsve95BPEuNpPpoFZfsNk_C-4WxXFzL-sBFEw",
+    "iv": "eM-QfvMZ_NxklFVM",
+    "tag": "-Udg8n9924a-dtYXusVmRg",
     "version": 1
   }
 }
