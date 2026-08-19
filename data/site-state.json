@@ -14,16 +14,16 @@
   "updatedAt": 1786583136086,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1787105831529,
-      "rationale": "This reply is conversational and says nothing about limits or a reset.",
-      "tweetId": "2089898146642157657",
-      "tweetUrl": "https://x.com/thsottiaux/status/2089898146642157657",
+      "confidence": 0.94,
+      "decidedAt": 1787105835996,
+      "rationale": "This is just a conversational reply and does not say limits or rate caps reset.",
+      "tweetId": "2089898255597580328",
+      "tweetUrl": "https://x.com/thsottiaux/status/2089898255597580328",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2089898146642157657",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2089898146642157657",
+    "lastSeenTweetId": "2089898255597580328",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2089898255597580328",
     "pendingReview": {
       "confidence": 0.95,
       "createdAt": 1786906826584,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2089063967301730789"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.94,
+        "evaluatedAt": 1787105835996,
+        "inputTokens": 389,
+        "outputTokens": 233,
+        "rationale": "This is just a conversational reply and does not say limits or rate caps reset.",
+        "reasoningTokens": 189,
+        "totalTokens": 622,
+        "tweetId": "2089898255597580328",
+        "tweetText": "@sama Oh… back to work then",
+        "tweetUrl": "https://x.com/thsottiaux/status/2089898255597580328",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1787105831530,
@@ -279,29 +292,31 @@
         "tweetText": "@pwnies Courtesy of Codex https://t.co/z78bvVFGHp",
         "tweetUrl": "https://x.com/thsottiaux/status/2089146141388505191",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.98,
-        "evaluatedAt": 1786925676964,
-        "inputTokens": 802,
-        "outputTokens": 137,
-        "rationale": "This announces a 1M context window feature for ChatGPT accounts, not a limit or rate-cap reset.",
-        "reasoningTokens": 87,
-        "totalTokens": 939,
-        "tweetId": "2089143488696705077",
-        "tweetText": "GPT-5.6 Sol 1M in Codex. This used to only work for API keys, but we just flipped the switch and works for usage through ChatGPT accounts now too. \n\nThe same warning applies, there is a reason the current context length is the default, we have tuned it to ~perfection. But you do you!",
-        "tweetUrl": "https://x.com/thsottiaux/status/2089143488696705077",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 500467,
-      "totalOutputTokens": 130832,
-      "totalReasoningTokens": 71905,
-      "totalTokens": 631299
+      "totalInputTokens": 500856,
+      "totalOutputTokens": 131065,
+      "totalReasoningTokens": 72094,
+      "totalTokens": 631921
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.94,
+      "createdAt": 1787105835996,
+      "inputTokens": 389,
+      "message": "",
+      "outputTokens": 233,
+      "rationale": "This is just a conversational reply and does not say limits or rate caps reset.",
+      "reasoningTokens": 189,
+      "totalTokens": 622,
+      "tweetId": "2089898255597580328",
+      "tweetText": "@sama Oh… back to work then",
+      "tweetUrl": "https://x.com/thsottiaux/status/2089898255597580328",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1787105831530,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2088854576686612859",
       "type": "review_requested",
       "verdict": "uncertain"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1786856695582,
-      "inputTokens": 388,
-      "message": "",
-      "outputTokens": 75,
-      "rationale": "This reply is conversational and does not mention limits, caps, or usage resetting.",
-      "reasoningTokens": 31,
-      "totalTokens": 463,
-      "tweetId": "2088854046987932154",
-      "tweetText": "@ns123abc Talking about sticker price?",
-      "tweetUrl": "https://x.com/thsottiaux/status/2088854046987932154",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "-WHi0OVt7efQVya7VC4ZQld5t5ggfHLH4KoXh_IqE7uZBnGv8AXzOBZWSw",
-    "iv": "5K0HIU2BcN7Zv600",
-    "tag": "ZjDyhKSQ_7FOh7TH5Sy9Gw",
+    "ciphertext": "9r8YTwJ-hmIhXeGAOWnxUcRTdmb8zVn7xoRhtjeduAf_svsPbaLFAkjSJw",
+    "iv": "uWo3xng04UEhvegA",
+    "tag": "CRqTe54O3kI_qNS2z_WBpQ",
     "version": 1
   }
 }
