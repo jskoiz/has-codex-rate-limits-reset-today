@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1787253231933,
-      "rationale": "This is a product feature announcement, not about limits or a reset.",
-      "tweetId": "2090517433199247741",
-      "tweetUrl": "https://x.com/thsottiaux/status/2090517433199247741",
+      "decidedAt": 1787253539681,
+      "rationale": "This post promotes ChatGPT Sites collaboration and does not mention any limits, caps, or reset.",
+      "tweetId": "2090518287532916854",
+      "tweetUrl": "https://x.com/thsottiaux/status/2090518287532916854",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2090517433199247741",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2090517433199247741",
+    "lastSeenTweetId": "2090518287532916854",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2090518287532916854",
     "pendingReview": {
       "confidence": 0.23,
       "createdAt": 1787157810829,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2090116476414136830"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1787253539681,
+        "inputTokens": 494,
+        "outputTokens": 86,
+        "rationale": "This post promotes ChatGPT Sites collaboration and does not mention any limits, caps, or reset.",
+        "reasoningTokens": 39,
+        "totalTokens": 580,
+        "tweetId": "2090518287532916854",
+        "tweetText": "Create a ChatGPT Site, share it and create something together. I've been building little games and sites with others and it is so much fun.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2090518287532916854",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1787253231933,
@@ -279,29 +292,31 @@
         "tweetText": "What is an obvious thing that we should do with Codex, API or our models that we should just do but haven't yet? What is 100% within reach, but we just seem to be missing?",
         "tweetUrl": "https://x.com/thsottiaux/status/2089500941842342287",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1786993908526,
-        "inputTokens": 387,
-        "outputTokens": 101,
-        "rationale": "He explicitly says the reset has not happened yet.",
-        "reasoningTokens": 63,
-        "totalTokens": 488,
-        "tweetId": "2089429099693699073",
-        "tweetText": "@FintechKristen not yet",
-        "tweetUrl": "https://x.com/thsottiaux/status/2089429099693699073",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 506278,
-      "totalOutputTokens": 132616,
-      "totalReasoningTokens": 73047,
-      "totalTokens": 638894
+      "totalInputTokens": 506772,
+      "totalOutputTokens": 132702,
+      "totalReasoningTokens": 73086,
+      "totalTokens": 639474
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1787253539681,
+      "inputTokens": 494,
+      "message": "",
+      "outputTokens": 86,
+      "rationale": "This post promotes ChatGPT Sites collaboration and does not mention any limits, caps, or reset.",
+      "reasoningTokens": 39,
+      "totalTokens": 580,
+      "tweetId": "2090518287532916854",
+      "tweetText": "Create a ChatGPT Site, share it and create something together. I've been building little games and sites with others and it is so much fun.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2090518287532916854",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1787253231933,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2089080720396317053",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.98,
-      "createdAt": 1786910223195,
-      "inputTokens": 386,
-      "message": "",
-      "outputTokens": 151,
-      "rationale": "This reply is just conversational and does not itself indicate any rate-limit reset.",
-      "reasoningTokens": 108,
-      "totalTokens": 537,
-      "tweetId": "2089078705230377033",
-      "tweetText": "@Robertg761_ Indeed",
-      "tweetUrl": "https://x.com/thsottiaux/status/2089078705230377033",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "I1GLIIYf9jkfqj2ZzyvFrbytqTeAPBQ7EIkfrT4yercUigIju4PopO6Prg",
-    "iv": "6hHnN8Txb0K1PzZC",
-    "tag": "58hg8hpHssjBm3QerYaeKw",
+    "ciphertext": "gy2xYS8sHFAPM8wWtsIuQtauKraQKUra_uPq2Gk6ms4TWlKES0KRTTa4Vw",
+    "iv": "z_DK2yBhieALKoOr",
+    "tag": "GXJkFDlzc1KMVZMIn9BCaw",
     "version": 1
   }
 }
