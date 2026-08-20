@@ -14,16 +14,16 @@
   "updatedAt": 1786583136086,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1787200825556,
-      "rationale": "This reply just comments on the model and does not mention limits or a reset.",
-      "tweetId": "2090297429107278000",
-      "tweetUrl": "https://x.com/thsottiaux/status/2090297429107278000",
+      "confidence": 0.98,
+      "decidedAt": 1787200829351,
+      "rationale": "This reply only says there is no double counting and does not indicate any limit reset or restored availability.",
+      "tweetId": "2090297494286774295",
+      "tweetUrl": "https://x.com/thsottiaux/status/2090297494286774295",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2090297429107278000",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2090297429107278000",
+    "lastSeenTweetId": "2090297494286774295",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2090297494286774295",
     "pendingReview": {
       "confidence": 0.23,
       "createdAt": 1787157810829,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2090116476414136830"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.98,
+        "evaluatedAt": 1787200829351,
+        "inputTokens": 391,
+        "outputTokens": 134,
+        "rationale": "This reply only says there is no double counting and does not indicate any limit reset or restored availability.",
+        "reasoningTokens": 86,
+        "totalTokens": 525,
+        "tweetId": "2090297494286774295",
+        "tweetText": "@ComebackCap @_clarktang No double counting",
+        "tweetUrl": "https://x.com/thsottiaux/status/2090297494286774295",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1787200825556,
@@ -279,29 +292,31 @@
         "tweetText": "@goldkey Oh no, bummer, another user. Welcome",
         "tweetUrl": "https://x.com/thsottiaux/status/2089220940345585839",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1786943397874,
-        "inputTokens": 399,
-        "outputTokens": 84,
-        "rationale": "This is a casual reply and does not mention any limit or reset.",
-        "reasoningTokens": 42,
-        "totalTokens": 483,
-        "tweetId": "2089217426378653864",
-        "tweetText": "@ns123abc I know you’re a fan, you just don’t want to admit it",
-        "tweetUrl": "https://x.com/thsottiaux/status/2089217426378653864",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 505019,
-      "totalOutputTokens": 132269,
-      "totalReasoningTokens": 72837,
-      "totalTokens": 637288
+      "totalInputTokens": 505410,
+      "totalOutputTokens": 132403,
+      "totalReasoningTokens": 72923,
+      "totalTokens": 637813
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.98,
+      "createdAt": 1787200829351,
+      "inputTokens": 391,
+      "message": "",
+      "outputTokens": 134,
+      "rationale": "This reply only says there is no double counting and does not indicate any limit reset or restored availability.",
+      "reasoningTokens": 86,
+      "totalTokens": 525,
+      "tweetId": "2090297494286774295",
+      "tweetText": "@ComebackCap @_clarktang No double counting",
+      "tweetUrl": "https://x.com/thsottiaux/status/2090297494286774295",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1787200825556,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2089063967301730789",
       "type": "review_requested",
       "verdict": "uncertain"
-    },
-    {
-      "confidence": 0,
-      "createdAt": 1786873778755,
-      "inputTokens": 0,
-      "message": "Tweet fetch failed: Tweet search failed: Request failed with status code 403; timeline fallback failed: Request failed with status code 403 (Request failed with status code 403) (Tweet search failed: Request failed with status code 403; timeline fallback failed: Request failed with status code 403)",
-      "outputTokens": 0,
-      "rationale": "",
-      "reasoningTokens": 0,
-      "totalTokens": 0,
-      "tweetId": null,
-      "tweetText": "",
-      "tweetUrl": null,
-      "type": "error",
-      "verdict": null
     }
   ],
   "privateState": {
-    "ciphertext": "zSzULRmOjk6C-NiYyTOAduRu8xFtRlpX0-BAX3Nx1WzwahBEyamLoNeNvg",
-    "iv": "0rAnlB7i_L2Lo7SM",
-    "tag": "yCL5ZsjplfXUOinvsQ376Q",
+    "ciphertext": "W4VVNLkrcL4RtfmqDwc9dZmsoQlUqq3oQwBLOtaTISdUBW2WOWCTkX8EMQ",
+    "iv": "XXyEgi_mQ3Cz3QdM",
+    "tag": "6ckikHh8tUE1-trZvnCSMw",
     "version": 1
   }
 }
