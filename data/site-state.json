@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1787171458936,
-      "rationale": "This post is about Zero Data Retention and Private Safety Processing, not usage limits or a reset.",
-      "tweetId": "2090173536010957128",
-      "tweetUrl": "https://x.com/thsottiaux/status/2090173536010957128",
+      "decidedAt": 1787200825556,
+      "rationale": "This reply just comments on the model and does not mention limits or a reset.",
+      "tweetId": "2090297429107278000",
+      "tweetUrl": "https://x.com/thsottiaux/status/2090297429107278000",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2090173536010957128",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2090173536010957128",
+    "lastSeenTweetId": "2090297429107278000",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2090297429107278000",
     "pendingReview": {
       "confidence": 0.23,
       "createdAt": 1787157810829,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2090116476414136830"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1787200825556,
+        "inputTokens": 389,
+        "outputTokens": 84,
+        "rationale": "This reply just comments on the model and does not mention limits or a reset.",
+        "reasoningTokens": 40,
+        "totalTokens": 473,
+        "tweetId": "2090297429107278000",
+        "tweetText": "@_clarktang It's a good model",
+        "tweetUrl": "https://x.com/thsottiaux/status/2090297429107278000",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1787171458936,
@@ -279,29 +292,31 @@
         "tweetText": "@ns123abc I know you’re a fan, you just don’t want to admit it",
         "tweetUrl": "https://x.com/thsottiaux/status/2089217426378653864",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1786943088517,
-        "inputTokens": 390,
-        "outputTokens": 79,
-        "rationale": "This reply is conversational and does not mention limits, caps, or availability resetting.",
-        "reasoningTokens": 35,
-        "totalTokens": 469,
-        "tweetId": "2089216314498027657",
-        "tweetText": "@Robertg761_ Robert, don’t go",
-        "tweetUrl": "https://x.com/thsottiaux/status/2089216314498027657",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 504630,
-      "totalOutputTokens": 132185,
-      "totalReasoningTokens": 72797,
-      "totalTokens": 636815
+      "totalInputTokens": 505019,
+      "totalOutputTokens": 132269,
+      "totalReasoningTokens": 72837,
+      "totalTokens": 637288
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1787200825556,
+      "inputTokens": 389,
+      "message": "",
+      "outputTokens": 84,
+      "rationale": "This reply just comments on the model and does not mention limits or a reset.",
+      "reasoningTokens": 40,
+      "totalTokens": 473,
+      "tweetId": "2090297429107278000",
+      "tweetText": "@_clarktang It's a good model",
+      "tweetUrl": "https://x.com/thsottiaux/status/2090297429107278000",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1787171458936,
@@ -886,27 +901,12 @@
       "tweetUrl": null,
       "type": "error",
       "verdict": null
-    },
-    {
-      "confidence": 0.1,
-      "createdAt": 1786862579295,
-      "inputTokens": 386,
-      "message": "",
-      "outputTokens": 183,
-      "rationale": "This reply only says “Yes” without enough visible context to confirm a rate-limit reset.",
-      "reasoningTokens": 137,
-      "totalTokens": 569,
-      "tweetId": "2088878697998844277",
-      "tweetText": "@NotiDivad Yes",
-      "tweetUrl": "https://x.com/thsottiaux/status/2088878697998844277",
-      "type": "review_requested",
-      "verdict": "uncertain"
     }
   ],
   "privateState": {
-    "ciphertext": "npgsnwb0hN9I7UfPzyzICYs16DAY4hY4BA4Ah1wDmcAZgR0GCqnCDT9ZdQ",
-    "iv": "SuMr8qynf3gtM8Um",
-    "tag": "mnDrh0OWQ3h38xrfOHpHug",
+    "ciphertext": "zSzULRmOjk6C-NiYyTOAduRu8xFtRlpX0-BAX3Nx1WzwahBEyamLoNeNvg",
+    "iv": "0rAnlB7i_L2Lo7SM",
+    "tag": "yCL5ZsjplfXUOinvsQ376Q",
     "version": 1
   }
 }
