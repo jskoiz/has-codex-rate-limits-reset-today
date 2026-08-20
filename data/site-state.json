@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.98,
-      "decidedAt": 1787200829351,
-      "rationale": "This reply only says there is no double counting and does not indicate any limit reset or restored availability.",
-      "tweetId": "2090297494286774295",
-      "tweetUrl": "https://x.com/thsottiaux/status/2090297494286774295",
+      "decidedAt": 1787206109725,
+      "rationale": "This reply is just a general comment and does not indicate any rate-limit reset or restored usage.",
+      "tweetId": "2090319049767174249",
+      "tweetUrl": "https://x.com/thsottiaux/status/2090319049767174249",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2090297494286774295",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2090297494286774295",
+    "lastSeenTweetId": "2090319049767174249",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2090319049767174249",
     "pendingReview": {
       "confidence": 0.23,
       "createdAt": 1787157810829,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2090116476414136830"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.98,
+        "evaluatedAt": 1787206109725,
+        "inputTokens": 391,
+        "outputTokens": 104,
+        "rationale": "This reply is just a general comment and does not indicate any rate-limit reset or restored usage.",
+        "reasoningTokens": 57,
+        "totalTokens": 495,
+        "tweetId": "2090319049767174249",
+        "tweetText": "@Im_IrushiK Leading vs lagging indicator",
+        "tweetUrl": "https://x.com/thsottiaux/status/2090319049767174249",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.98,
         "evaluatedAt": 1787200829351,
@@ -279,29 +292,31 @@
         "tweetText": "@gabrielchua @ChatGPT @OpenAIDevs Favorite recent quality feature",
         "tweetUrl": "https://x.com/thsottiaux/status/2089221530320519620",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1786944331880,
-        "inputTokens": 393,
-        "outputTokens": 136,
-        "rationale": "This reply does not say or imply that any Codex or ChatGPT limit has reset or been restored.",
-        "reasoningTokens": 87,
-        "totalTokens": 529,
-        "tweetId": "2089220940345585839",
-        "tweetText": "@goldkey Oh no, bummer, another user. Welcome",
-        "tweetUrl": "https://x.com/thsottiaux/status/2089220940345585839",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 505410,
-      "totalOutputTokens": 132403,
-      "totalReasoningTokens": 72923,
-      "totalTokens": 637813
+      "totalInputTokens": 505801,
+      "totalOutputTokens": 132507,
+      "totalReasoningTokens": 72980,
+      "totalTokens": 638308
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.98,
+      "createdAt": 1787206109725,
+      "inputTokens": 391,
+      "message": "",
+      "outputTokens": 104,
+      "rationale": "This reply is just a general comment and does not indicate any rate-limit reset or restored usage.",
+      "reasoningTokens": 57,
+      "totalTokens": 495,
+      "tweetId": "2090319049767174249",
+      "tweetText": "@Im_IrushiK Leading vs lagging indicator",
+      "tweetUrl": "https://x.com/thsottiaux/status/2090319049767174249",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.98,
       "createdAt": 1787200829351,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2089078284487139347",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.95,
-      "createdAt": 1786906826584,
-      "inputTokens": 386,
-      "message": "",
-      "outputTokens": 134,
-      "rationale": "This reply alone does not clearly say limits have reset or are available again now.",
-      "reasoningTokens": 90,
-      "totalTokens": 520,
-      "tweetId": "2089063967301730789",
-      "tweetText": "@Ananth7e Maybe",
-      "tweetUrl": "https://x.com/thsottiaux/status/2089063967301730789",
-      "type": "review_requested",
-      "verdict": "uncertain"
     }
   ],
   "privateState": {
-    "ciphertext": "W4VVNLkrcL4RtfmqDwc9dZmsoQlUqq3oQwBLOtaTISdUBW2WOWCTkX8EMQ",
-    "iv": "XXyEgi_mQ3Cz3QdM",
-    "tag": "6ckikHh8tUE1-trZvnCSMw",
+    "ciphertext": "Q1aV6ads6c3fhEqK3S0ESNkFSwJoYGRKN9L1NiH-5uFNgtmiUe7VYvpz6g",
+    "iv": "A2pA16xW1k9-xbjG",
+    "tag": "iIXJDi25EVM-jqTm1HbslQ",
     "version": 1
   }
 }
