@@ -14,16 +14,16 @@
   "updatedAt": 1786583136086,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1787280838872,
-      "rationale": "This reply is unrelated to Codex or ChatGPT limits and does not mention any reset.",
-      "tweetId": "2090632208872853889",
-      "tweetUrl": "https://x.com/thsottiaux/status/2090632208872853889",
+      "confidence": 0.98,
+      "decidedAt": 1787290789138,
+      "rationale": "This discusses fraud-related flagging and clarifies supported usage, not that any rate limits or caps have reset.",
+      "tweetId": "2090675027670978569",
+      "tweetUrl": "https://x.com/thsottiaux/status/2090675027670978569",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2090632208872853889",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2090632208872853889",
+    "lastSeenTweetId": "2090675027670978569",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2090675027670978569",
     "pendingReview": {
       "confidence": 0.23,
       "createdAt": 1787157810829,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2090116476414136830"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.98,
+        "evaluatedAt": 1787290789138,
+        "inputTokens": 513,
+        "outputTokens": 112,
+        "rationale": "This discusses fraud-related flagging and clarifies supported usage, not that any rate limits or caps have reset.",
+        "reasoningTokens": 62,
+        "totalTokens": 625,
+        "tweetId": "2090675027670978569",
+        "tweetText": "We've investigated a few messages about codex usage limits being different. That's not something we change without engaging the community and being transparent.\n\nWhat we did see is that when talking to affected users many were using sub2api. Converting a subscription into api traffic to then re-serve or share across many users is not something we support and this type of usage gets flagged by our fraud-prevention systems.\n\nYou are completely fine if you use your subscription through Sign in With ChatGPT, either through the official clients or through one of the many OSS clients (Pi, OpenCode, ...) that support signing in with your account and using your included usage.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2090675027670978569",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1787280838872,
@@ -279,29 +292,31 @@
         "tweetText": "Hi!\n\nRecapping some changes we have rolled out over the last couple of weeks that have further reduced the risk associated to potentially destructive actions being performed by Codex during its work. \n\nA few weeks ago, we started investigating a small number of reports where GPT-5.6 in Codex took destructive actions outside what the user asked for. The most serious pattern we found was a command meant to clean up temporary work that could instead delete the user files. This should obviously not happen. \n\nHere’s what we found:\n- Codex sometimes creates temporary folders while working and cleans them up afterward. In rare cases, GPT-5.6 got that cleanup wrong. One pattern involved reusing a system environment variable like $HOME for temporary work. A malformed cleanup command could then point at the actual home directory instead of the temporary folder. \n- There were cases where the model tried to delete or overwrite a temporary path without checking what was already there.\n\nWe’ve added protections at several layers:\n- Codex is now explicitly instructed to check deletion targets before acting, create fresh temporary directories, avoid repurposing system environment variables, prefer recoverable actions, and stop when the scope is unclear.\n- We strengthened the execution checks that identify high-risk deletion commands and escalate them for review. If a command is rejected, the model is directed to take a safer approach.\n- We made Full access harder to enable accidentally, added clearer warnings, and further restricted especially risky permission combinations.\n- We updated Auto-review to better identify destructive actions.\n- We built targeted evaluations that replay the failures we observed. We’re also adding reinforcement-learning tasks and graders focused on these risks, and filtering destructive actions from training data.\n\nIn those replay evaluations, the changes substantially reduced the behavior while preserving Codex’s ability to complete normal coding work. \n\nTwo things to do on your end:\n- Keep the Codex app up to date. We are always improving safety, performance and many other things.\n- Use one of the sandbox modes: \"Ask for approval\" or \"Approve for me\". Only use Full access for environments you trust and can recover.\n\nThanks and happy Codexing out there!",
         "tweetUrl": "https://x.com/thsottiaux/status/2089891927659585918",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.98,
-        "evaluatedAt": 1787035760555,
-        "inputTokens": 430,
-        "outputTokens": 112,
-        "rationale": "This is a playful Codex joke and does not mention limits, caps, or a reset.",
-        "reasoningTokens": 65,
-        "totalTokens": 542,
-        "tweetId": "2089604619936956778",
-        "tweetText": "Gimme, gimme, gimme Codex after midnight\nWon’t somebody make these failing tests all go away?\nGimme, gimme, gimme Codex after midnight\nShip it through the darkness by the start of the day",
-        "tweetUrl": "https://x.com/thsottiaux/status/2089604619936956778",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 507684,
-      "totalOutputTokens": 132878,
-      "totalReasoningTokens": 73167,
-      "totalTokens": 640562
+      "totalInputTokens": 508197,
+      "totalOutputTokens": 132990,
+      "totalReasoningTokens": 73229,
+      "totalTokens": 641187
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.98,
+      "createdAt": 1787290789138,
+      "inputTokens": 513,
+      "message": "",
+      "outputTokens": 112,
+      "rationale": "This discusses fraud-related flagging and clarifies supported usage, not that any rate limits or caps have reset.",
+      "reasoningTokens": 62,
+      "totalTokens": 625,
+      "tweetId": "2090675027670978569",
+      "tweetText": "We've investigated a few messages about codex usage limits being different. That's not something we change without engaging the community and being transparent.\n\nWhat we did see is that when talking to affected users many were using sub2api. Converting a subscription into api traffic to then re-serve or share across many users is not something we support and this type of usage gets flagged by our fraud-prevention systems.\n\nYou are completely fine if you use your subscription through Sign in With ChatGPT, either through the official clients or through one of the many OSS clients (Pi, OpenCode, ...) that support signing in with your account and using your included usage.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2090675027670978569",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1787280838872,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2089103028204765350",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1786916067118,
-      "inputTokens": 391,
-      "message": "",
-      "outputTokens": 93,
-      "rationale": "This reply is just a casual comment about a Codex sticker, not about limits or availability.",
-      "reasoningTokens": 46,
-      "totalTokens": 484,
-      "tweetId": "2089102679217742081",
-      "tweetText": "@MarieAdant That you're missing a Codex sticker",
-      "tweetUrl": "https://x.com/thsottiaux/status/2089102679217742081",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "9J2GO4xqsyS68ObZVgCkxrig4bU0jqkHTyPuWjp8ubl1g5UdZeBLEnwU6Q",
-    "iv": "3JvMXfl9CCLLVao_",
-    "tag": "oQ09oUabRJUow76xLFe_7w",
+    "ciphertext": "FExxIzLLHoCWly0GY41QX0cmDrqh1ACYm0LEwQP5UNZuKNr65_mm48tuUg",
+    "iv": "7f9j3Sjv_wWsfJ02",
+    "tag": "Of5aTwmugyChsoRDAlyFjw",
     "version": 1
   }
 }
