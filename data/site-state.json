@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1787280531360,
-      "rationale": "This post is about GPT-Image-2 transparent image support, not rate limits or usage caps resetting.",
-      "tweetId": "2090631723302469995",
-      "tweetUrl": "https://x.com/thsottiaux/status/2090631723302469995",
+      "decidedAt": 1787280838872,
+      "rationale": "This reply is unrelated to Codex or ChatGPT limits and does not mention any reset.",
+      "tweetId": "2090632208872853889",
+      "tweetUrl": "https://x.com/thsottiaux/status/2090632208872853889",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2090631723302469995",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2090631723302469995",
+    "lastSeenTweetId": "2090632208872853889",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2090632208872853889",
     "pendingReview": {
       "confidence": 0.23,
       "createdAt": 1787157810829,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2090116476414136830"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1787280838872,
+        "inputTokens": 391,
+        "outputTokens": 99,
+        "rationale": "This reply is unrelated to Codex or ChatGPT limits and does not mention any reset.",
+        "reasoningTokens": 53,
+        "totalTokens": 490,
+        "tweetId": "2090632208872853889",
+        "tweetText": "@paularambles Did you end up applying for funding?",
+        "tweetUrl": "https://x.com/thsottiaux/status/2090632208872853889",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1787280531360,
@@ -279,29 +292,31 @@
         "tweetText": "Gimme, gimme, gimme Codex after midnight\nWon’t somebody make these failing tests all go away?\nGimme, gimme, gimme Codex after midnight\nShip it through the darkness by the start of the day",
         "tweetUrl": "https://x.com/thsottiaux/status/2089604619936956778",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1787011299834,
-        "inputTokens": 398,
-        "outputTokens": 81,
-        "rationale": "This reply is unrelated to any Codex or ChatGPT limit reset.",
-        "reasoningTokens": 39,
-        "totalTokens": 479,
-        "tweetId": "2089501754308337873",
-        "tweetText": "@kmdrfx @thdxr @jayair Dax is obviously the CEO",
-        "tweetUrl": "https://x.com/thsottiaux/status/2089501754308337873",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 507293,
-      "totalOutputTokens": 132779,
-      "totalReasoningTokens": 73114,
-      "totalTokens": 640072
+      "totalInputTokens": 507684,
+      "totalOutputTokens": 132878,
+      "totalReasoningTokens": 73167,
+      "totalTokens": 640562
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1787280838872,
+      "inputTokens": 391,
+      "message": "",
+      "outputTokens": 99,
+      "rationale": "This reply is unrelated to Codex or ChatGPT limits and does not mention any reset.",
+      "reasoningTokens": 53,
+      "totalTokens": 490,
+      "tweetId": "2090632208872853889",
+      "tweetText": "@paularambles Did you end up applying for funding?",
+      "tweetUrl": "https://x.com/thsottiaux/status/2090632208872853889",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1787280531360,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2089102679217742081",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1786911153665,
-      "inputTokens": 698,
-      "message": "",
-      "outputTokens": 80,
-      "rationale": "This post is a Codex configuration tip about context window size, not a rate-limit or usage reset.",
-      "reasoningTokens": 31,
-      "totalTokens": 778,
-      "tweetId": "2089082893804896524",
-      "tweetText": "Here is how to enable a 1M-token context window in Codex for GPT-5.6 Sol. \n\nEven though we have tuned the context limit in Codex to be set optimally when it comes to performance and cost, this is a common ask, so here it is documented.\n\nA larger context window lets Codex retain more code, tool output, and conversation history before summarizing older material. You need a model that supports it. And GPT-5.6 Sol, for example, has a documented 1,050,000-token window. \n\nOpen ~/.codex/config.toml and add or update these settings at the top level, before any [section] headers:\n\n```\nmodel = \"gpt-5.6-sol\"\nmodel_context_window = 1000000\nmodel_auto_compact_token_limit = 900000\n```\n\nThe first setting selects the model. The second tells Codex to use a one-million-token context budget. The third starts automatic history compaction around 900,000 tokens, leaving some headroom. Restart Codex client and start a new session after saving. \n\nTo try the configuration for a single CLI session without changing your defaults:\n\n```\ncodex -m gpt-5.6-sol \\\n  -c model_context_window=1000000 \\\n  -c model_auto_compact_token_limit=900000\n```\n\nHave fun, but also know that we tuned the default carefully!",
-      "tweetUrl": "https://x.com/thsottiaux/status/2089082893804896524",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "ljspP1yi4QHRHthVyLGtpjnVQpb260bnjIkZelQdXtHPZCi-G7r6HaXcbg",
-    "iv": "ysYdbN54OP2TcVxQ",
-    "tag": "Pk6qzVBe3Iv62gIaiYIuZw",
+    "ciphertext": "9J2GO4xqsyS68ObZVgCkxrig4bU0jqkHTyPuWjp8ubl1g5UdZeBLEnwU6Q",
+    "iv": "3JvMXfl9CCLLVao_",
+    "tag": "oQ09oUabRJUow76xLFe_7w",
     "version": 1
   }
 }
