@@ -14,18 +14,38 @@
   "updatedAt": 1787312860918,
   "automation": {
     "lastDecision": {
-      "confidence": 0.98,
-      "decidedAt": 1787312860918,
-      "rationale": "The main tweet explicitly announces every Codex and ChatGPT Work user will be credited a banked reset during the day.",
-      "tweetId": "2090766694897619318",
-      "tweetUrl": "https://x.com/thsottiaux/status/2090766694897619318",
-      "verdict": "reset_confirmed"
+      "confidence": 0.87,
+      "decidedAt": 1787313170270,
+      "rationale": "This reply is too vague to confirm a current cap or rate-limit reset.",
+      "tweetId": "2090767169889992755",
+      "tweetUrl": "https://x.com/thsottiaux/status/2090767169889992755",
+      "verdict": "uncertain"
     },
     "lastError": null,
-    "lastSeenTweetId": "2090766694897619318",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2090766694897619318",
-    "pendingReview": null,
+    "lastSeenTweetId": "2090767169889992755",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2090767169889992755",
+    "pendingReview": {
+      "confidence": 0.87,
+      "createdAt": 1787313170270,
+      "rationale": "This reply is too vague to confirm a current cap or rate-limit reset.",
+      "tweetId": "2090767169889992755",
+      "tweetText": "@rxriqo Banked my friend, banked",
+      "tweetUrl": "https://x.com/thsottiaux/status/2090767169889992755"
+    },
     "recentEvaluations": [
+      {
+        "confidence": 0.87,
+        "evaluatedAt": 1787313170270,
+        "inputTokens": 391,
+        "outputTokens": 210,
+        "rationale": "This reply is too vague to confirm a current cap or rate-limit reset.",
+        "reasoningTokens": 167,
+        "totalTokens": 601,
+        "tweetId": "2090767169889992755",
+        "tweetText": "@rxriqo Banked my friend, banked",
+        "tweetUrl": "https://x.com/thsottiaux/status/2090767169889992755",
+        "verdict": "uncertain"
+      },
       {
         "confidence": 0.98,
         "evaluatedAt": 1787312860918,
@@ -272,29 +292,31 @@
         "tweetText": "@artlevy To the moon and beyond",
         "tweetUrl": "https://x.com/thsottiaux/status/2089942538769793355",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.92,
-        "evaluatedAt": 1787116087735,
-        "inputTokens": 391,
-        "outputTokens": 181,
-        "rationale": "It mentions a \"reset button\" but does not clearly say any user limit or rate cap has reset.",
-        "reasoningTokens": 132,
-        "totalTokens": 572,
-        "tweetId": "2089941380336644295",
-        "tweetText": "I was gifted a very fancy new reset button today",
-        "tweetUrl": "https://x.com/thsottiaux/status/2089941380336644295",
-        "verdict": "uncertain"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 509674,
-      "totalOutputTokens": 133379,
-      "totalReasoningTokens": 73477,
-      "totalTokens": 643053
+      "totalInputTokens": 510065,
+      "totalOutputTokens": 133589,
+      "totalReasoningTokens": 73644,
+      "totalTokens": 643654
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.87,
+      "createdAt": 1787313170270,
+      "inputTokens": 391,
+      "message": "",
+      "outputTokens": 210,
+      "rationale": "This reply is too vague to confirm a current cap or rate-limit reset.",
+      "reasoningTokens": 167,
+      "totalTokens": 601,
+      "tweetId": "2090767169889992755",
+      "tweetText": "@rxriqo Banked my friend, banked",
+      "tweetUrl": "https://x.com/thsottiaux/status/2090767169889992755",
+      "type": "review_requested",
+      "verdict": "uncertain"
+    },
     {
       "confidence": 0.98,
       "createdAt": 1787312860918,
@@ -879,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2089149255382438340",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1786926288271,
-      "inputTokens": 398,
-      "message": "",
-      "outputTokens": 79,
-      "rationale": "This reply only mentions Codex casually and does not indicate any limits or caps have reset.",
-      "reasoningTokens": 33,
-      "totalTokens": 477,
-      "tweetId": "2089146141388505191",
-      "tweetText": "@pwnies Courtesy of Codex https://t.co/z78bvVFGHp",
-      "tweetUrl": "https://x.com/thsottiaux/status/2089146141388505191",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "K8LCHxFdAJvOk5nL8eRRSGR4qxkmpn8Ke2w1LNRmrTuv8Y-3NDeFI8ayZQ",
-    "iv": "VkG7Ocp5Ad1AO7LO",
-    "tag": "8BnVnRIV026EwkstxNrcfw",
+    "ciphertext": "Zd0Os8SVTDX_-XFQnE7ghhQ_BYR11u-NNO4dJ0XuhzqPhjub94Foue5YlA",
+    "iv": "NI02_Ir-mUpkLgAi",
+    "tag": "s3KM-81GGXwe4gF3ahI9_A",
     "version": 1
   }
 }
