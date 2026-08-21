@@ -14,16 +14,16 @@
   "updatedAt": 1786583136086,
   "automation": {
     "lastDecision": {
-      "confidence": 0.98,
-      "decidedAt": 1787290789138,
-      "rationale": "This discusses fraud-related flagging and clarifies supported usage, not that any rate limits or caps have reset.",
-      "tweetId": "2090675027670978569",
-      "tweetUrl": "https://x.com/thsottiaux/status/2090675027670978569",
+      "confidence": 0.99,
+      "decidedAt": 1787291399781,
+      "rationale": "This reply is just asking a question and does not mention limits or a reset.",
+      "tweetId": "2090677311276499164",
+      "tweetUrl": "https://x.com/thsottiaux/status/2090677311276499164",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2090675027670978569",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2090675027670978569",
+    "lastSeenTweetId": "2090677311276499164",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2090677311276499164",
     "pendingReview": {
       "confidence": 0.23,
       "createdAt": 1787157810829,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2090116476414136830"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1787291399781,
+        "inputTokens": 391,
+        "outputTokens": 87,
+        "rationale": "This reply is just asking a question and does not mention limits or a reset.",
+        "reasoningTokens": 43,
+        "totalTokens": 478,
+        "tweetId": "2090677311276499164",
+        "tweetText": "@Jaytel What would you like to see with this?",
+        "tweetUrl": "https://x.com/thsottiaux/status/2090677311276499164",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.98,
         "evaluatedAt": 1787290789138,
@@ -279,29 +292,31 @@
         "tweetText": "@theo How dare they give poorly structured feedback. On the internet of all places.",
         "tweetUrl": "https://x.com/thsottiaux/status/2089898146642157657",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1787104285316,
-        "inputTokens": 838,
-        "outputTokens": 96,
-        "rationale": "This post is about Codex safety improvements and does not mention usage caps or rate-limit resets.",
-        "reasoningTokens": 49,
-        "totalTokens": 934,
-        "tweetId": "2089891927659585918",
-        "tweetText": "Hi!\n\nRecapping some changes we have rolled out over the last couple of weeks that have further reduced the risk associated to potentially destructive actions being performed by Codex during its work. \n\nA few weeks ago, we started investigating a small number of reports where GPT-5.6 in Codex took destructive actions outside what the user asked for. The most serious pattern we found was a command meant to clean up temporary work that could instead delete the user files. This should obviously not happen. \n\nHere’s what we found:\n- Codex sometimes creates temporary folders while working and cleans them up afterward. In rare cases, GPT-5.6 got that cleanup wrong. One pattern involved reusing a system environment variable like $HOME for temporary work. A malformed cleanup command could then point at the actual home directory instead of the temporary folder. \n- There were cases where the model tried to delete or overwrite a temporary path without checking what was already there.\n\nWe’ve added protections at several layers:\n- Codex is now explicitly instructed to check deletion targets before acting, create fresh temporary directories, avoid repurposing system environment variables, prefer recoverable actions, and stop when the scope is unclear.\n- We strengthened the execution checks that identify high-risk deletion commands and escalate them for review. If a command is rejected, the model is directed to take a safer approach.\n- We made Full access harder to enable accidentally, added clearer warnings, and further restricted especially risky permission combinations.\n- We updated Auto-review to better identify destructive actions.\n- We built targeted evaluations that replay the failures we observed. We’re also adding reinforcement-learning tasks and graders focused on these risks, and filtering destructive actions from training data.\n\nIn those replay evaluations, the changes substantially reduced the behavior while preserving Codex’s ability to complete normal coding work. \n\nTwo things to do on your end:\n- Keep the Codex app up to date. We are always improving safety, performance and many other things.\n- Use one of the sandbox modes: \"Ask for approval\" or \"Approve for me\". Only use Full access for environments you trust and can recover.\n\nThanks and happy Codexing out there!",
-        "tweetUrl": "https://x.com/thsottiaux/status/2089891927659585918",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 508197,
-      "totalOutputTokens": 132990,
-      "totalReasoningTokens": 73229,
-      "totalTokens": 641187
+      "totalInputTokens": 508588,
+      "totalOutputTokens": 133077,
+      "totalReasoningTokens": 73272,
+      "totalTokens": 641665
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1787291399781,
+      "inputTokens": 391,
+      "message": "",
+      "outputTokens": 87,
+      "rationale": "This reply is just asking a question and does not mention limits or a reset.",
+      "reasoningTokens": 43,
+      "totalTokens": 478,
+      "tweetId": "2090677311276499164",
+      "tweetText": "@Jaytel What would you like to see with this?",
+      "tweetUrl": "https://x.com/thsottiaux/status/2090677311276499164",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.98,
       "createdAt": 1787290789138,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2089141897017057754",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1786916069946,
-      "inputTokens": 386,
-      "message": "",
-      "outputTokens": 75,
-      "rationale": "This is just a conversational reply and says nothing about limits or resets.",
-      "reasoningTokens": 33,
-      "totalTokens": 461,
-      "tweetId": "2089103028204765350",
-      "tweetText": "@xikhar Banger",
-      "tweetUrl": "https://x.com/thsottiaux/status/2089103028204765350",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "FExxIzLLHoCWly0GY41QX0cmDrqh1ACYm0LEwQP5UNZuKNr65_mm48tuUg",
-    "iv": "7f9j3Sjv_wWsfJ02",
-    "tag": "Of5aTwmugyChsoRDAlyFjw",
+    "ciphertext": "aOuUvcathhHh1niDTeosmfCL6SQqha_2DbJo8TaJutephwwMmjChXJoeIQ",
+    "iv": "5iqqufpTWQREfxv0",
+    "tag": "2Tn5HQ1XF2FKzHMQxqdJHg",
     "version": 1
   }
 }
