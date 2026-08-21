@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1787341658372,
-      "rationale": "This post is about GPT-5.6 Sol pricing and performance, not rate-limit or cap resets.",
-      "tweetId": "2090887457915232269",
-      "tweetUrl": "https://x.com/thsottiaux/status/2090887457915232269",
+      "decidedAt": 1787355583678,
+      "rationale": "This reply just says “GPTChat” and does not mention limits or a reset.",
+      "tweetId": "2090946712647106988",
+      "tweetUrl": "https://x.com/thsottiaux/status/2090946712647106988",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2090887457915232269",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2090887457915232269",
+    "lastSeenTweetId": "2090946712647106988",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2090946712647106988",
     "pendingReview": {
       "confidence": 0.87,
       "createdAt": 1787313170270,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2090767169889992755"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1787355583678,
+        "inputTokens": 388,
+        "outputTokens": 79,
+        "rationale": "This reply just says “GPTChat” and does not mention limits or a reset.",
+        "reasoningTokens": 34,
+        "totalTokens": 467,
+        "tweetId": "2090946712647106988",
+        "tweetText": "@growing_daniel GPTChat",
+        "tweetUrl": "https://x.com/thsottiaux/status/2090946712647106988",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1787341658372,
@@ -279,29 +292,31 @@
         "tweetText": "@ClaudeDevs Do not worry, we have compute",
         "tweetUrl": "https://x.com/thsottiaux/status/2089964604172673121",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1787121358620,
-        "inputTokens": 392,
-        "outputTokens": 89,
-        "rationale": "This reply is conversational and says nothing about limits or a reset.",
-        "reasoningTokens": 48,
-        "totalTokens": 481,
-        "tweetId": "2089963353674486142",
-        "tweetText": "@jediahkatz You probably do have a blind spot",
-        "tweetUrl": "https://x.com/thsottiaux/status/2089963353674486142",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 510927,
-      "totalOutputTokens": 133764,
-      "totalReasoningTokens": 73726,
-      "totalTokens": 644691
+      "totalInputTokens": 511315,
+      "totalOutputTokens": 133843,
+      "totalReasoningTokens": 73760,
+      "totalTokens": 645158
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1787355583678,
+      "inputTokens": 388,
+      "message": "",
+      "outputTokens": 79,
+      "rationale": "This reply just says “GPTChat” and does not mention limits or a reset.",
+      "reasoningTokens": 34,
+      "totalTokens": 467,
+      "tweetId": "2090946712647106988",
+      "tweetText": "@growing_daniel GPTChat",
+      "tweetUrl": "https://x.com/thsottiaux/status/2090946712647106988",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1787341658372,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2089152954519433599",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1786927231000,
-      "inputTokens": 387,
-      "message": "",
-      "outputTokens": 87,
-      "rationale": "This reply is generic and does not mention limits, caps, or a reset.",
-      "reasoningTokens": 43,
-      "totalTokens": 474,
-      "tweetId": "2089150288758243801",
-      "tweetText": "@AnkanXplorer Always improving",
-      "tweetUrl": "https://x.com/thsottiaux/status/2089150288758243801",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "M8KeydzlXj8u0xDMQeII9KbruirVjsVll5vSBRXaj4Efeq3tawl3ml78Cw",
-    "iv": "oaBd3a8hkeXmKow_",
-    "tag": "Xq60FfGgT0I1AqE33mRlcA",
+    "ciphertext": "GiG2X_v2F4SP-C6G41wmgJPFbZaBCZEGIjy1v0QScBTi8jgNBEl3y0PfBw",
+    "iv": "up-Cb_FJyeNibRsv",
+    "tag": "OLeVIUfmk_N3C46txGTqHg",
     "version": 1
   }
 }
