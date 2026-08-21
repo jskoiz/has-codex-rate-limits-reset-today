@@ -1,5 +1,5 @@
 {
-  "currentState": "no",
+  "currentState": "yes",
   "autoResetHours": 20,
   "noSubtitles": [
     "Back to your local model peasant",
@@ -10,29 +10,35 @@
     "Limits reset, go crazy",
     "You can just build things"
   ],
-  "resetAt": null,
-  "updatedAt": 1786583136086,
+  "resetAt": 1787384860918,
+  "updatedAt": 1787312860918,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1787291402702,
-      "rationale": "This reply is conversational and does not mention limits, caps, or usage resetting.",
-      "tweetId": "2090677537072652418",
-      "tweetUrl": "https://x.com/thsottiaux/status/2090677537072652418",
-      "verdict": "not_reset"
+      "confidence": 0.98,
+      "decidedAt": 1787312860918,
+      "rationale": "The main tweet explicitly announces every Codex and ChatGPT Work user will be credited a banked reset during the day.",
+      "tweetId": "2090766694897619318",
+      "tweetUrl": "https://x.com/thsottiaux/status/2090766694897619318",
+      "verdict": "reset_confirmed"
     },
     "lastError": null,
-    "lastSeenTweetId": "2090677537072652418",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2090677537072652418",
-    "pendingReview": {
-      "confidence": 0.23,
-      "createdAt": 1787157810829,
-      "rationale": "This mentions Codex usage but does not clearly say any limit or cap has reset or become available again.",
-      "tweetId": "2090116476414136830",
-      "tweetText": "It has not been used yet, but would you look at that. Codex for scale. https://t.co/o1pulwoifd",
-      "tweetUrl": "https://x.com/thsottiaux/status/2090116476414136830"
-    },
+    "lastSeenTweetId": "2090766694897619318",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2090766694897619318",
+    "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.98,
+        "evaluatedAt": 1787312860918,
+        "inputTokens": 695,
+        "outputTokens": 221,
+        "rationale": "The main tweet explicitly announces every Codex and ChatGPT Work user will be credited a banked reset during the day.",
+        "reasoningTokens": 168,
+        "totalTokens": 916,
+        "tweetId": "2090766694897619318",
+        "tweetText": "It's me again. I come bearing great news. \n\nFirst of all, we have hit 20M active users for Codex some time this week. Second of all, this is cause for celebration and during the day we will credit every Codex and ChatGPT Work user with a BANKED reset that you can use at your own leisure. And we will have some other good news later too!\n\nNow, on usage limits draining faster, while we're not seeing anything abnormal, we do take it incredibly seriously and there is an ongoing investigation. I will share if we do find anything and my below post is really a clarification on a specific pattern that we did see that I wanted to call out.\n\nGo do something amazing today.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2090766694897619318",
+        "verdict": "reset_confirmed"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1787291402702,
@@ -279,29 +285,31 @@
         "tweetText": "I was gifted a very fancy new reset button today",
         "tweetUrl": "https://x.com/thsottiaux/status/2089941380336644295",
         "verdict": "uncertain"
-      },
-      {
-        "confidence": 0.94,
-        "evaluatedAt": 1787105835996,
-        "inputTokens": 389,
-        "outputTokens": 233,
-        "rationale": "This is just a conversational reply and does not say limits or rate caps reset.",
-        "reasoningTokens": 189,
-        "totalTokens": 622,
-        "tweetId": "2089898255597580328",
-        "tweetText": "@sama Oh… back to work then",
-        "tweetUrl": "https://x.com/thsottiaux/status/2089898255597580328",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 508979,
-      "totalOutputTokens": 133158,
-      "totalReasoningTokens": 73309,
-      "totalTokens": 642137
+      "totalInputTokens": 509674,
+      "totalOutputTokens": 133379,
+      "totalReasoningTokens": 73477,
+      "totalTokens": 643053
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.98,
+      "createdAt": 1787312860918,
+      "inputTokens": 695,
+      "message": "",
+      "outputTokens": 221,
+      "rationale": "The main tweet explicitly announces every Codex and ChatGPT Work user will be credited a banked reset during the day.",
+      "reasoningTokens": 168,
+      "totalTokens": 916,
+      "tweetId": "2090766694897619318",
+      "tweetText": "It's me again. I come bearing great news. \n\nFirst of all, we have hit 20M active users for Codex some time this week. Second of all, this is cause for celebration and during the day we will credit every Codex and ChatGPT Work user with a BANKED reset that you can use at your own leisure. And we will have some other good news later too!\n\nNow, on usage limits draining faster, while we're not seeing anything abnormal, we do take it incredibly seriously and there is an ongoing investigation. I will share if we do find anything and my below post is really a clarification on a specific pattern that we did see that I wanted to call out.\n\nGo do something amazing today.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2090766694897619318",
+      "type": "reset_confirmed",
+      "verdict": "reset_confirmed"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1787291402702,
@@ -886,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2089146141388505191",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.98,
-      "createdAt": 1786925676964,
-      "inputTokens": 802,
-      "message": "",
-      "outputTokens": 137,
-      "rationale": "This announces a 1M context window feature for ChatGPT accounts, not a limit or rate-cap reset.",
-      "reasoningTokens": 87,
-      "totalTokens": 939,
-      "tweetId": "2089143488696705077",
-      "tweetText": "GPT-5.6 Sol 1M in Codex. This used to only work for API keys, but we just flipped the switch and works for usage through ChatGPT accounts now too. \n\nThe same warning applies, there is a reason the current context length is the default, we have tuned it to ~perfection. But you do you!",
-      "tweetUrl": "https://x.com/thsottiaux/status/2089143488696705077",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "1wJgGWUKT5efjLxazv8BNpY6Tdz_qg4Sal0I1Gxh92wCCR5guFlIekOSbA",
-    "iv": "KZOkpf24KQ7h5xOv",
-    "tag": "EvM2fRi4FHRP2ZRWR3eXHw",
+    "ciphertext": "K8LCHxFdAJvOk5nL8eRRSGR4qxkmpn8Ke2w1LNRmrTuv8Y-3NDeFI8ayZQ",
+    "iv": "VkG7Ocp5Ad1AO7LO",
+    "tag": "8BnVnRIV026EwkstxNrcfw",
     "version": 1
   }
 }
