@@ -14,16 +14,16 @@
   "updatedAt": 1787312860918,
   "automation": {
     "lastDecision": {
-      "confidence": 0.87,
-      "decidedAt": 1787313170270,
-      "rationale": "This reply is too vague to confirm a current cap or rate-limit reset.",
-      "tweetId": "2090767169889992755",
-      "tweetUrl": "https://x.com/thsottiaux/status/2090767169889992755",
-      "verdict": "uncertain"
+      "confidence": 0.99,
+      "decidedAt": 1787314720301,
+      "rationale": "This is just a congratulatory reply and does not mention limits or availability resetting.",
+      "tweetId": "2090774982271848809",
+      "tweetUrl": "https://x.com/thsottiaux/status/2090774982271848809",
+      "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2090767169889992755",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2090767169889992755",
+    "lastSeenTweetId": "2090774982271848809",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2090774982271848809",
     "pendingReview": {
       "confidence": 0.87,
       "createdAt": 1787313170270,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2090767169889992755"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1787314720301,
+        "inputTokens": 385,
+        "outputTokens": 86,
+        "rationale": "This is just a congratulatory reply and does not mention limits or availability resetting.",
+        "reasoningTokens": 42,
+        "totalTokens": 471,
+        "tweetId": "2090774982271848809",
+        "tweetText": "@theo Congrats!!",
+        "tweetUrl": "https://x.com/thsottiaux/status/2090774982271848809",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.87,
         "evaluatedAt": 1787313170270,
@@ -279,29 +292,31 @@
         "tweetText": "@Tech_girl @AnthropicAI @claudeai Mari me",
         "tweetUrl": "https://x.com/thsottiaux/status/2089961732689326311",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1787116395088,
-        "inputTokens": 389,
-        "outputTokens": 86,
-        "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-        "reasoningTokens": 42,
-        "totalTokens": 475,
-        "tweetId": "2089942538769793355",
-        "tweetText": "@artlevy To the moon and beyond",
-        "tweetUrl": "https://x.com/thsottiaux/status/2089942538769793355",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 510065,
-      "totalOutputTokens": 133589,
-      "totalReasoningTokens": 73644,
-      "totalTokens": 643654
+      "totalInputTokens": 510450,
+      "totalOutputTokens": 133675,
+      "totalReasoningTokens": 73686,
+      "totalTokens": 644125
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1787314720301,
+      "inputTokens": 385,
+      "message": "",
+      "outputTokens": 86,
+      "rationale": "This is just a congratulatory reply and does not mention limits or availability resetting.",
+      "reasoningTokens": 42,
+      "totalTokens": 471,
+      "tweetId": "2090774982271848809",
+      "tweetText": "@theo Congrats!!",
+      "tweetUrl": "https://x.com/thsottiaux/status/2090774982271848809",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.87,
       "createdAt": 1787313170270,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2089149434235900033",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.97,
-      "createdAt": 1786927225693,
-      "inputTokens": 417,
-      "message": "",
-      "outputTokens": 166,
-      "rationale": "This is a general product comment mentioning occasional resets, not a current limit reset announcement.",
-      "reasoningTokens": 121,
-      "totalTokens": 583,
-      "tweetId": "2089149255382438340",
-      "tweetText": "Codex\n\n✅ Almost 100% reliable\n✅ Occasional resets\n✅ Open-source\n✅ (will have Astra) https://t.co/DxNdAgpag5",
-      "tweetUrl": "https://x.com/thsottiaux/status/2089149255382438340",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "Zd0Os8SVTDX_-XFQnE7ghhQ_BYR11u-NNO4dJ0XuhzqPhjub94Foue5YlA",
-    "iv": "NI02_Ir-mUpkLgAi",
-    "tag": "s3KM-81GGXwe4gF3ahI9_A",
+    "ciphertext": "9nk-1VcxewFaE_hZ3KXIF-hzf8T_9O8uQIvooVW9wZt6pZFDGOviIUBE_Q",
+    "iv": "lrjcoiVAbUYnLI59",
+    "tag": "-4VO_bH2IIx5pP6KLWPpZw",
     "version": 1
   }
 }
