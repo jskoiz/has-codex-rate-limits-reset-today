@@ -14,25 +14,38 @@
   "updatedAt": 1787312860918,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1787355583678,
-      "rationale": "This reply just says “GPTChat” and does not mention limits or a reset.",
-      "tweetId": "2090946712647106988",
-      "tweetUrl": "https://x.com/thsottiaux/status/2090946712647106988",
-      "verdict": "not_reset"
+      "confidence": 0.91,
+      "decidedAt": 1787355887864,
+      "rationale": "It mentions a reset arriving by 8pm PST, which is a future timing and not a clear confirmation that limits are reset…",
+      "tweetId": "2090947196107764189",
+      "tweetUrl": "https://x.com/thsottiaux/status/2090947196107764189",
+      "verdict": "uncertain"
     },
     "lastError": null,
-    "lastSeenTweetId": "2090946712647106988",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2090946712647106988",
+    "lastSeenTweetId": "2090947196107764189",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2090947196107764189",
     "pendingReview": {
-      "confidence": 0.87,
-      "createdAt": 1787313170270,
-      "rationale": "This reply is too vague to confirm a current cap or rate-limit reset.",
-      "tweetId": "2090767169889992755",
-      "tweetText": "@rxriqo Banked my friend, banked",
-      "tweetUrl": "https://x.com/thsottiaux/status/2090767169889992755"
+      "confidence": 0.91,
+      "createdAt": 1787355887864,
+      "rationale": "It mentions a reset arriving by 8pm PST, which is a future timing and not a clear confirmation that limits are reset…",
+      "tweetId": "2090947196107764189",
+      "tweetText": "The banked reset will be there by 8pm PST. For all paid users of ChatGPT Work and Codex. Do with this information what you may.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2090947196107764189"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.91,
+        "evaluatedAt": 1787355887864,
+        "inputTokens": 413,
+        "outputTokens": 344,
+        "rationale": "It mentions a reset arriving by 8pm PST, which is a future timing and not a clear confirmation that limits are reset…",
+        "reasoningTokens": 289,
+        "totalTokens": 757,
+        "tweetId": "2090947196107764189",
+        "tweetText": "The banked reset will be there by 8pm PST. For all paid users of ChatGPT Work and Codex. Do with this information what you may.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2090947196107764189",
+        "verdict": "uncertain"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1787355583678,
@@ -279,29 +292,31 @@
         "tweetText": "It has not been used yet, but would you look at that. Codex for scale. https://t.co/o1pulwoifd",
         "tweetUrl": "https://x.com/thsottiaux/status/2090116476414136830",
         "verdict": "uncertain"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1787121671614,
-        "inputTokens": 391,
-        "outputTokens": 101,
-        "rationale": "This reply only says they have compute and does not indicate any rate-limit or cap reset.",
-        "reasoningTokens": 55,
-        "totalTokens": 492,
-        "tweetId": "2089964604172673121",
-        "tweetText": "@ClaudeDevs Do not worry, we have compute",
-        "tweetUrl": "https://x.com/thsottiaux/status/2089964604172673121",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 511315,
-      "totalOutputTokens": 133843,
-      "totalReasoningTokens": 73760,
-      "totalTokens": 645158
+      "totalInputTokens": 511728,
+      "totalOutputTokens": 134187,
+      "totalReasoningTokens": 74049,
+      "totalTokens": 645915
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.91,
+      "createdAt": 1787355887864,
+      "inputTokens": 413,
+      "message": "",
+      "outputTokens": 344,
+      "rationale": "It mentions a reset arriving by 8pm PST, which is a future timing and not a clear confirmation that limits are reset…",
+      "reasoningTokens": 289,
+      "totalTokens": 757,
+      "tweetId": "2090947196107764189",
+      "tweetText": "The banked reset will be there by 8pm PST. For all paid users of ChatGPT Work and Codex. Do with this information what you may.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2090947196107764189",
+      "type": "review_requested",
+      "verdict": "uncertain"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1787355583678,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2089156180740379132",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1786927857938,
-      "inputTokens": 391,
-      "message": "",
-      "outputTokens": 74,
-      "rationale": "This is just a conversational reply and does not mention limits or a reset.",
-      "reasoningTokens": 31,
-      "totalTokens": 465,
-      "tweetId": "2089152954519433599",
-      "tweetText": "@ericmitchellai @willdepue Legend",
-      "tweetUrl": "https://x.com/thsottiaux/status/2089152954519433599",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "GiG2X_v2F4SP-C6G41wmgJPFbZaBCZEGIjy1v0QScBTi8jgNBEl3y0PfBw",
-    "iv": "up-Cb_FJyeNibRsv",
-    "tag": "OLeVIUfmk_N3C46txGTqHg",
+    "ciphertext": "tn1zgS8XF_8q5gBwxvmypBXNRfFxCtKXdsGFsbO-f7xsaQQViAtbYy1JcA",
+    "iv": "AoZDPnnW4qspLWVm",
+    "tag": "6obEPlyUVrhzJvP4jELUwg",
     "version": 1
   }
 }
