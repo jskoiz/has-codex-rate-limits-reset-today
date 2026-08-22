@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1787437619382,
-      "rationale": "This reply is conversational and does not mention limits, caps, or availability resetting.",
-      "tweetId": "2091290020388716914",
-      "tweetUrl": "https://x.com/thsottiaux/status/2091290020388716914",
+      "decidedAt": 1787437621915,
+      "rationale": "This reply discusses product comparison and says nothing about limits or resets.",
+      "tweetId": "2091290999381184620",
+      "tweetUrl": "https://x.com/thsottiaux/status/2091290999381184620",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2091290020388716914",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2091290020388716914",
+    "lastSeenTweetId": "2091290999381184620",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2091290999381184620",
     "pendingReview": {
       "confidence": 0.84,
       "createdAt": 1787379271451,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2091045457158103247"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1787437621915,
+        "inputTokens": 409,
+        "outputTokens": 71,
+        "rationale": "This reply discusses product comparison and says nothing about limits or resets.",
+        "reasoningTokens": 30,
+        "totalTokens": 480,
+        "tweetId": "2091290999381184620",
+        "tweetText": "@diegocabezas01 That's an odd comparison. Computer History is just a feature. Bot is the entire output of Cursor + XAI",
+        "tweetUrl": "https://x.com/thsottiaux/status/2091290999381184620",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1787437619382,
@@ -279,29 +292,31 @@
         "tweetText": "Sol shines brighter today. Efficiency, reliability and performance are the name of the game.",
         "tweetUrl": "https://x.com/thsottiaux/status/2090887457915232269",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1787314720301,
-        "inputTokens": 385,
-        "outputTokens": 86,
-        "rationale": "This is just a congratulatory reply and does not mention limits or availability resetting.",
-        "reasoningTokens": 42,
-        "totalTokens": 471,
-        "tweetId": "2090774982271848809",
-        "tweetText": "@theo Congrats!!",
-        "tweetUrl": "https://x.com/thsottiaux/status/2090774982271848809",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 518230,
-      "totalOutputTokens": 135784,
-      "totalReasoningTokens": 74917,
-      "totalTokens": 654014
+      "totalInputTokens": 518639,
+      "totalOutputTokens": 135855,
+      "totalReasoningTokens": 74947,
+      "totalTokens": 654494
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1787437621915,
+      "inputTokens": 409,
+      "message": "",
+      "outputTokens": 71,
+      "rationale": "This reply discusses product comparison and says nothing about limits or resets.",
+      "reasoningTokens": 30,
+      "totalTokens": 480,
+      "tweetId": "2091290999381184620",
+      "tweetText": "@diegocabezas01 That's an odd comparison. Computer History is just a feature. Bot is the entire output of Cursor + XAI",
+      "tweetUrl": "https://x.com/thsottiaux/status/2091290999381184620",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1787437619382,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2089961732689326311",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1787116395088,
-      "inputTokens": 389,
-      "message": "",
-      "outputTokens": 86,
-      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-      "reasoningTokens": 42,
-      "totalTokens": 475,
-      "tweetId": "2089942538769793355",
-      "tweetText": "@artlevy To the moon and beyond",
-      "tweetUrl": "https://x.com/thsottiaux/status/2089942538769793355",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "LnAwStvupIyXYCwQBRxqPtOg-kR3RPslnN_dfRVkvG_Ud4jHr1p7c4IAzA",
-    "iv": "dvcP4mulC8KtB1ES",
-    "tag": "XJp2pTztxhqx3-fDAMSGtQ",
+    "ciphertext": "HdMD5JiwFZYQtC9iGYfOFM2JlIoeSXCBiA0RmEm6pzP9WEi2O0VxLzfn_A",
+    "iv": "74CXMT-V0MClYsVi",
+    "tag": "sP70M5eYgjn0dKsDCyynYw",
     "version": 1
   }
 }
