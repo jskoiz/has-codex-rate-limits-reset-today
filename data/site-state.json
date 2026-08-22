@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1787437616205,
-      "rationale": "This reply just says \"Luna\" and does not mention limits, caps, or availability resetting.",
-      "tweetId": "2091289970153533592",
-      "tweetUrl": "https://x.com/thsottiaux/status/2091289970153533592",
+      "decidedAt": 1787437619382,
+      "rationale": "This reply is conversational and does not mention limits, caps, or availability resetting.",
+      "tweetId": "2091290020388716914",
+      "tweetUrl": "https://x.com/thsottiaux/status/2091290020388716914",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2091289970153533592",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2091289970153533592",
+    "lastSeenTweetId": "2091290020388716914",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2091290020388716914",
     "pendingReview": {
       "confidence": 0.84,
       "createdAt": 1787379271451,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2091045457158103247"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1787437619382,
+        "inputTokens": 386,
+        "outputTokens": 77,
+        "rationale": "This reply is conversational and does not mention limits, caps, or availability resetting.",
+        "reasoningTokens": 33,
+        "totalTokens": 463,
+        "tweetId": "2091290020388716914",
+        "tweetText": "@rezoundous Astra who?",
+        "tweetUrl": "https://x.com/thsottiaux/status/2091290020388716914",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1787437616205,
@@ -279,29 +292,31 @@
         "tweetText": "@theo Congrats!!",
         "tweetUrl": "https://x.com/thsottiaux/status/2090774982271848809",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.87,
-        "evaluatedAt": 1787313170270,
-        "inputTokens": 391,
-        "outputTokens": 210,
-        "rationale": "This reply is too vague to confirm a current cap or rate-limit reset.",
-        "reasoningTokens": 167,
-        "totalTokens": 601,
-        "tweetId": "2090767169889992755",
-        "tweetText": "@rxriqo Banked my friend, banked",
-        "tweetUrl": "https://x.com/thsottiaux/status/2090767169889992755",
-        "verdict": "uncertain"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 517844,
-      "totalOutputTokens": 135707,
-      "totalReasoningTokens": 74884,
-      "totalTokens": 653551
+      "totalInputTokens": 518230,
+      "totalOutputTokens": 135784,
+      "totalReasoningTokens": 74917,
+      "totalTokens": 654014
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1787437619382,
+      "inputTokens": 386,
+      "message": "",
+      "outputTokens": 77,
+      "rationale": "This reply is conversational and does not mention limits, caps, or availability resetting.",
+      "reasoningTokens": 33,
+      "totalTokens": 463,
+      "tweetId": "2091290020388716914",
+      "tweetText": "@rezoundous Astra who?",
+      "tweetUrl": "https://x.com/thsottiaux/status/2091290020388716914",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1787437616206,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2089942538769793355",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.92,
-      "createdAt": 1787116087735,
-      "inputTokens": 391,
-      "message": "",
-      "outputTokens": 181,
-      "rationale": "It mentions a \"reset button\" but does not clearly say any user limit or rate cap has reset.",
-      "reasoningTokens": 132,
-      "totalTokens": 572,
-      "tweetId": "2089941380336644295",
-      "tweetText": "I was gifted a very fancy new reset button today",
-      "tweetUrl": "https://x.com/thsottiaux/status/2089941380336644295",
-      "type": "review_requested",
-      "verdict": "uncertain"
     }
   ],
   "privateState": {
-    "ciphertext": "X7O7o8aHy8yvk_N9S6bDc983BinoBQfODP3m-DEvxksLgcZgomkQWPhIrg",
-    "iv": "W2jKd8dRGxIs-WuB",
-    "tag": "-noKxzy-1A_l4ZwfjRBHbA",
+    "ciphertext": "LnAwStvupIyXYCwQBRxqPtOg-kR3RPslnN_dfRVkvG_Ud4jHr1p7c4IAzA",
+    "iv": "dvcP4mulC8KtB1ES",
+    "tag": "XJp2pTztxhqx3-fDAMSGtQ",
     "version": 1
   }
 }
