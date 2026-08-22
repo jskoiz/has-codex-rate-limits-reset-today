@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1787371801664,
-      "rationale": "This reply discusses ChatGPT site-sharing availability, not any limit or rate-cap reset.",
-      "tweetId": "2091014652574732563",
-      "tweetUrl": "https://x.com/thsottiaux/status/2091014652574732563",
+      "decidedAt": 1787372413509,
+      "rationale": "This reply just shares a favorite link and does not mention any limit or reset.",
+      "tweetId": "2091016731020169488",
+      "tweetUrl": "https://x.com/thsottiaux/status/2091016731020169488",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2091014652574732563",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2091014652574732563",
+    "lastSeenTweetId": "2091016731020169488",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2091016731020169488",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1787372413509,
+        "inputTokens": 399,
+        "outputTokens": 99,
+        "rationale": "This reply just shares a favorite link and does not mention any limit or reset.",
+        "reasoningTokens": 55,
+        "totalTokens": 498,
+        "tweetId": "2091016731020169488",
+        "tweetText": "@ajambrosino Favorite is https://t.co/90lmgsf8J9",
+        "tweetUrl": "https://x.com/thsottiaux/status/2091016731020169488",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1787371801664,
@@ -272,29 +285,31 @@
         "tweetText": "@Im_IrushiK Leading vs lagging indicator",
         "tweetUrl": "https://x.com/thsottiaux/status/2090319049767174249",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.98,
-        "evaluatedAt": 1787200829351,
-        "inputTokens": 391,
-        "outputTokens": 134,
-        "rationale": "This reply only says there is no double counting and does not indicate any limit reset or restored availability.",
-        "reasoningTokens": 86,
-        "totalTokens": 525,
-        "tweetId": "2090297494286774295",
-        "tweetText": "@ComebackCap @_clarktang No double counting",
-        "tweetUrl": "https://x.com/thsottiaux/status/2090297494286774295",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 513863,
-      "totalOutputTokens": 134658,
-      "totalReasoningTokens": 74293,
-      "totalTokens": 648521
+      "totalInputTokens": 514262,
+      "totalOutputTokens": 134757,
+      "totalReasoningTokens": 74348,
+      "totalTokens": 649019
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1787372413509,
+      "inputTokens": 399,
+      "message": "",
+      "outputTokens": 99,
+      "rationale": "This reply just shares a favorite link and does not mention any limit or reset.",
+      "reasoningTokens": 55,
+      "totalTokens": 498,
+      "tweetId": "2091016731020169488",
+      "tweetText": "@ajambrosino Favorite is https://t.co/90lmgsf8J9",
+      "tweetUrl": "https://x.com/thsottiaux/status/2091016731020169488",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1787371801664,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2089220940345585839",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1786943397874,
-      "inputTokens": 399,
-      "message": "",
-      "outputTokens": 84,
-      "rationale": "This is a casual reply and does not mention any limit or reset.",
-      "reasoningTokens": 42,
-      "totalTokens": 483,
-      "tweetId": "2089217426378653864",
-      "tweetText": "@ns123abc I know you’re a fan, you just don’t want to admit it",
-      "tweetUrl": "https://x.com/thsottiaux/status/2089217426378653864",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "yyAAe59DnmlWLDQesR1yus-JEHd_nE-EcEpATiJJAVOgayPSU8F7Wb8tHw",
-    "iv": "LWE59XWtL8Ehgkoh",
-    "tag": "1SDqqtxHrODgBl0MF5blew",
+    "ciphertext": "Y5AIaxkwr9J4dCEJ3_dgKAsB4N5iN9wzfaF8uyN_qAxTXldU9tO_cK16pw",
+    "iv": "_EbgvtSOhp0tChKa",
+    "tag": "-1zog4wqz0foGnuEQwn5og",
     "version": 1
   }
 }
