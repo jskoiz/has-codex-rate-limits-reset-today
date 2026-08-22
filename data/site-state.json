@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1787371498890,
-      "rationale": "This is just a congratulatory reply and says nothing about limits or resets.",
-      "tweetId": "2091012711970906611",
-      "tweetUrl": "https://x.com/thsottiaux/status/2091012711970906611",
+      "decidedAt": 1787371797987,
+      "rationale": "This post promotes a music app on ChatGPT Sites and does not mention limits or resets.",
+      "tweetId": "2091014197144596734",
+      "tweetUrl": "https://x.com/thsottiaux/status/2091014197144596734",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2091012711970906611",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2091012711970906611",
+    "lastSeenTweetId": "2091014197144596734",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2091014197144596734",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1787371797987,
+        "inputTokens": 428,
+        "outputTokens": 75,
+        "rationale": "This post promotes a music app on ChatGPT Sites and does not mention limits or resets.",
+        "reasoningTokens": 29,
+        "totalTokens": 503,
+        "tweetId": "2091014197144596734",
+        "tweetText": "@ajambrosino thought it was too hard to upload music to twitter, so he just prompted a whole music app hosted on ChatGPT Sites into existence just to share his album\n\nhttps://t.co/vOI40Xmxyc",
+        "tweetUrl": "https://x.com/thsottiaux/status/2091014197144596734",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1787371498890,
@@ -272,29 +285,31 @@
         "tweetText": "@_clarktang It's a good model",
         "tweetUrl": "https://x.com/thsottiaux/status/2090297429107278000",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1787171458936,
-        "inputTokens": 608,
-        "outputTokens": 82,
-        "rationale": "This post is about Zero Data Retention and Private Safety Processing, not usage limits or a reset.",
-        "reasoningTokens": 34,
-        "totalTokens": 690,
-        "tweetId": "2090173536010957128",
-        "tweetText": "Today we’re previewing Private Safety Processing, designed to let us keep offering Zero Data Retention while improving our safeguards. Even when benefiting from frontier intelligence, customers shouldn’t have to give up control of sensitive data.\n\nFor ZDR deployments, content stays on infrastructure the customer controls. Automated systems look for patterns across related interactions and return limited safety signals, without exposing the underlying prompts or responses to OpenAI employees (even me!).\n\nWe’re also developing an OpenAI-hosted option encrypted with customer-controlled keys. We’re testing this with early customers now and plan to begin rolling it out in September.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2090173536010957128",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 513019,
-      "totalOutputTokens": 134489,
-      "totalReasoningTokens": 74215,
-      "totalTokens": 647508
+      "totalInputTokens": 513447,
+      "totalOutputTokens": 134564,
+      "totalReasoningTokens": 74244,
+      "totalTokens": 648011
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1787371797987,
+      "inputTokens": 428,
+      "message": "",
+      "outputTokens": 75,
+      "rationale": "This post promotes a music app on ChatGPT Sites and does not mention limits or resets.",
+      "reasoningTokens": 29,
+      "totalTokens": 503,
+      "tweetId": "2091014197144596734",
+      "tweetText": "@ajambrosino thought it was too hard to upload music to twitter, so he just prompted a whole music app hosted on ChatGPT Sites into existence just to share his album\n\nhttps://t.co/vOI40Xmxyc",
+      "tweetUrl": "https://x.com/thsottiaux/status/2091014197144596734",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1787371498890,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2089216314498027657",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1786942776975,
-      "inputTokens": 386,
-      "message": "",
-      "outputTokens": 84,
-      "rationale": "This is just a casual reply and says nothing about limits or resets.",
-      "reasoningTokens": 42,
-      "totalTokens": 470,
-      "tweetId": "2089215083163599231",
-      "tweetText": "@Robertg761_ Haha",
-      "tweetUrl": "https://x.com/thsottiaux/status/2089215083163599231",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "WxGrZCklG0QxdcwTInkXHNsis7QqQbM6gmrm1Px5aoNTKufd5bTd_P12Rw",
-    "iv": "iK32InnsavobdFFb",
-    "tag": "HwY_tQdcROgt9cOYAhB12g",
+    "ciphertext": "iXdEmOKYrEx-MRqODNGCttpBI2nZah7ZBCFPh67BVU85pcyiU7-07Dp_bw",
+    "iv": "Keu6A8vz9nCTgxc7",
+    "tag": "RjpjYbR_LiUnpqKkSXs-Mg",
     "version": 1
   }
 }
