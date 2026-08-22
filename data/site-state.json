@@ -1,5 +1,5 @@
 {
-  "currentState": "yes",
+  "currentState": "no",
   "autoResetHours": 20,
   "noSubtitles": [
     "Back to your local model peasant",
@@ -10,20 +10,20 @@
     "Limits reset, go crazy",
     "You can just build things"
   ],
-  "resetAt": 1787431978904,
+  "resetAt": null,
   "updatedAt": 1787359978904,
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1787431078605,
-      "rationale": "This reply just says “Luna” and gives no indication that any limits or caps reset.",
-      "tweetId": "2091262962480898537",
-      "tweetUrl": "https://x.com/thsottiaux/status/2091262962480898537",
+      "decidedAt": 1787437616205,
+      "rationale": "This reply just says \"Luna\" and does not mention limits, caps, or availability resetting.",
+      "tweetId": "2091289970153533592",
+      "tweetUrl": "https://x.com/thsottiaux/status/2091289970153533592",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2091262962480898537",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2091262962480898537",
+    "lastSeenTweetId": "2091289970153533592",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2091289970153533592",
     "pendingReview": {
       "confidence": 0.84,
       "createdAt": 1787379271451,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2091045457158103247"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1787437616205,
+        "inputTokens": 386,
+        "outputTokens": 99,
+        "rationale": "This reply just says \"Luna\" and does not mention limits, caps, or availability resetting.",
+        "reasoningTokens": 51,
+        "totalTokens": 485,
+        "tweetId": "2091289970153533592",
+        "tweetText": "@petergostev Luna",
+        "tweetUrl": "https://x.com/thsottiaux/status/2091289970153533592",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1787431078605,
@@ -279,29 +292,31 @@
         "tweetText": "@rxriqo Banked my friend, banked",
         "tweetUrl": "https://x.com/thsottiaux/status/2090767169889992755",
         "verdict": "uncertain"
-      },
-      {
-        "confidence": 0.98,
-        "evaluatedAt": 1787312860918,
-        "inputTokens": 695,
-        "outputTokens": 221,
-        "rationale": "The main tweet explicitly announces every Codex and ChatGPT Work user will be credited a banked reset during the day.",
-        "reasoningTokens": 168,
-        "totalTokens": 916,
-        "tweetId": "2090766694897619318",
-        "tweetText": "It's me again. I come bearing great news. \n\nFirst of all, we have hit 20M active users for Codex some time this week. Second of all, this is cause for celebration and during the day we will credit every Codex and ChatGPT Work user with a BANKED reset that you can use at your own leisure. And we will have some other good news later too!\n\nNow, on usage limits draining faster, while we're not seeing anything abnormal, we do take it incredibly seriously and there is an ongoing investigation. I will share if we do find anything and my below post is really a clarification on a specific pattern that we did see that I wanted to call out.\n\nGo do something amazing today.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2090766694897619318",
-        "verdict": "reset_confirmed"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 517458,
-      "totalOutputTokens": 135608,
-      "totalReasoningTokens": 74833,
-      "totalTokens": 653066
+      "totalInputTokens": 517844,
+      "totalOutputTokens": 135707,
+      "totalReasoningTokens": 74884,
+      "totalTokens": 653551
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1787437616206,
+      "inputTokens": 386,
+      "message": "",
+      "outputTokens": 99,
+      "rationale": "This reply just says \"Luna\" and does not mention limits, caps, or availability resetting.",
+      "reasoningTokens": 51,
+      "totalTokens": 485,
+      "tweetId": "2091289970153533592",
+      "tweetText": "@petergostev Luna",
+      "tweetUrl": "https://x.com/thsottiaux/status/2091289970153533592",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1787431078605,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2089941380336644295",
       "type": "review_requested",
       "verdict": "uncertain"
-    },
-    {
-      "confidence": 0.94,
-      "createdAt": 1787105835996,
-      "inputTokens": 389,
-      "message": "",
-      "outputTokens": 233,
-      "rationale": "This is just a conversational reply and does not say limits or rate caps reset.",
-      "reasoningTokens": 189,
-      "totalTokens": 622,
-      "tweetId": "2089898255597580328",
-      "tweetText": "@sama Oh… back to work then",
-      "tweetUrl": "https://x.com/thsottiaux/status/2089898255597580328",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "4SqTZ9iIjgfSIilrh1B9okGZPk6TL26hdZYyk6slkUBv_BQhQjMbTTGBsQ",
-    "iv": "7Gu7cXBr2xmGmEV3",
-    "tag": "72jRrnk05OJzcjDAN9MFaA",
+    "ciphertext": "X7O7o8aHy8yvk_N9S6bDc983BinoBQfODP3m-DEvxksLgcZgomkQWPhIrg",
+    "iv": "W2jKd8dRGxIs-WuB",
+    "tag": "-noKxzy-1A_l4ZwfjRBHbA",
     "version": 1
   }
 }
