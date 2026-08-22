@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1787380508157,
-      "rationale": "This reply just asks a question and does not mention limits or a reset.",
-      "tweetId": "2091050758091477274",
-      "tweetUrl": "https://x.com/thsottiaux/status/2091050758091477274",
+      "decidedAt": 1787380812637,
+      "rationale": "This reply is just a question and gives no indication that any limits have reset.",
+      "tweetId": "2091051557983015302",
+      "tweetUrl": "https://x.com/thsottiaux/status/2091051557983015302",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2091050758091477274",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2091050758091477274",
+    "lastSeenTweetId": "2091051557983015302",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2091051557983015302",
     "pendingReview": {
       "confidence": 0.84,
       "createdAt": 1787379271451,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2091045457158103247"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1787380812637,
+        "inputTokens": 387,
+        "outputTokens": 102,
+        "rationale": "This reply is just a question and gives no indication that any limits have reset.",
+        "reasoningTokens": 58,
+        "totalTokens": 489,
+        "tweetId": "2091051557983015302",
+        "tweetText": "@ericmitchellai ?",
+        "tweetUrl": "https://x.com/thsottiaux/status/2091051557983015302",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1787380508157,
@@ -279,29 +292,31 @@
         "tweetText": "@tammiesiew Codex has nothing to hide",
         "tweetUrl": "https://x.com/thsottiaux/status/2090677537072652418",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1787291399781,
-        "inputTokens": 391,
-        "outputTokens": 87,
-        "rationale": "This reply is just asking a question and does not mention limits or a reset.",
-        "reasoningTokens": 43,
-        "totalTokens": 478,
-        "tweetId": "2090677311276499164",
-        "tweetText": "@Jaytel What would you like to see with this?",
-        "tweetUrl": "https://x.com/thsottiaux/status/2090677311276499164",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 516686,
-      "totalOutputTokens": 135408,
-      "totalReasoningTokens": 74724,
-      "totalTokens": 652094
+      "totalInputTokens": 517073,
+      "totalOutputTokens": 135510,
+      "totalReasoningTokens": 74782,
+      "totalTokens": 652583
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1787380812637,
+      "inputTokens": 387,
+      "message": "",
+      "outputTokens": 102,
+      "rationale": "This reply is just a question and gives no indication that any limits have reset.",
+      "reasoningTokens": 58,
+      "totalTokens": 489,
+      "tweetId": "2091051557983015302",
+      "tweetText": "@ericmitchellai ?",
+      "tweetUrl": "https://x.com/thsottiaux/status/2091051557983015302",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1787380508157,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2089898146642157657",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1787104285316,
-      "inputTokens": 838,
-      "message": "",
-      "outputTokens": 96,
-      "rationale": "This post is about Codex safety improvements and does not mention usage caps or rate-limit resets.",
-      "reasoningTokens": 49,
-      "totalTokens": 934,
-      "tweetId": "2089891927659585918",
-      "tweetText": "Hi!\n\nRecapping some changes we have rolled out over the last couple of weeks that have further reduced the risk associated to potentially destructive actions being performed by Codex during its work. \n\nA few weeks ago, we started investigating a small number of reports where GPT-5.6 in Codex took destructive actions outside what the user asked for. The most serious pattern we found was a command meant to clean up temporary work that could instead delete the user files. This should obviously not happen. \n\nHere’s what we found:\n- Codex sometimes creates temporary folders while working and cleans them up afterward. In rare cases, GPT-5.6 got that cleanup wrong. One pattern involved reusing a system environment variable like $HOME for temporary work. A malformed cleanup command could then point at the actual home directory instead of the temporary folder. \n- There were cases where the model tried to delete or overwrite a temporary path without checking what was already there.\n\nWe’ve added protections at several layers:\n- Codex is now explicitly instructed to check deletion targets before acting, create fresh temporary directories, avoid repurposing system environment variables, prefer recoverable actions, and stop when the scope is unclear.\n- We strengthened the execution checks that identify high-risk deletion commands and escalate them for review. If a command is rejected, the model is directed to take a safer approach.\n- We made Full access harder to enable accidentally, added clearer warnings, and further restricted especially risky permission combinations.\n- We updated Auto-review to better identify destructive actions.\n- We built targeted evaluations that replay the failures we observed. We’re also adding reinforcement-learning tasks and graders focused on these risks, and filtering destructive actions from training data.\n\nIn those replay evaluations, the changes substantially reduced the behavior while preserving Codex’s ability to complete normal coding work. \n\nTwo things to do on your end:\n- Keep the Codex app up to date. We are always improving safety, performance and many other things.\n- Use one of the sandbox modes: \"Ask for approval\" or \"Approve for me\". Only use Full access for environments you trust and can recover.\n\nThanks and happy Codexing out there!",
-      "tweetUrl": "https://x.com/thsottiaux/status/2089891927659585918",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "jNyLb-jdR8CqpnKzvL_YT1bgNVZr9CJiSBF3b0kKjhZBszLwlBpMFMVEPA",
-    "iv": "VEfZWM2X_ihJ4_iq",
-    "tag": "pHUbMsq663Bz8GE_UC35vw",
+    "ciphertext": "jueTT4-3FGAXGKDGilljXIJwd_MW1ch0tcavp6KRVwFr74bq4_ycdcrrOw",
+    "iv": "5T8GO5GKoT-S0Szc",
+    "tag": "YZwX9GoaqJ76G-eONJpjBQ",
     "version": 1
   }
 }
