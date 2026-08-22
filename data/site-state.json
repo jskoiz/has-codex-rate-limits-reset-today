@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1787374918112,
-      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-      "tweetId": "2091027012832125027",
-      "tweetUrl": "https://x.com/thsottiaux/status/2091027012832125027",
+      "decidedAt": 1787376475541,
+      "rationale": "This reports an investigation into faster usage drain, not that limits have reset or been lifted.",
+      "tweetId": "2091033630147854385",
+      "tweetUrl": "https://x.com/thsottiaux/status/2091033630147854385",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2091027012832125027",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2091027012832125027",
+    "lastSeenTweetId": "2091033630147854385",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2091033630147854385",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1787376475541,
+        "inputTokens": 449,
+        "outputTokens": 93,
+        "rationale": "This reports an investigation into faster usage drain, not that limits have reset or been lifted.",
+        "reasoningTokens": 47,
+        "totalTokens": 542,
+        "tweetId": "2091033630147854385",
+        "tweetText": "Update on rate limits in Codex. We do see that for some users the cache hit rate has been worse this week than the stable state the weeks before. This could explain that usage is draining somewhat faster for those users as hitting the cache consistently is an important component of being efficient.\n\nWe are investigating and will have an update tomorrow.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2091033630147854385",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1787374918112,
@@ -272,29 +285,31 @@
         "tweetText": "Create a ChatGPT Site, share it and create something together. I've been building little games and sites with others and it is so much fun.",
         "tweetUrl": "https://x.com/thsottiaux/status/2090518287532916854",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1787253231933,
-        "inputTokens": 477,
-        "outputTokens": 109,
-        "rationale": "This is a product feature announcement, not about limits or a reset.",
-        "reasoningTokens": 67,
-        "totalTokens": 586,
-        "tweetId": "2090517433199247741",
-        "tweetText": "More context, better help",
-        "tweetUrl": "https://x.com/thsottiaux/status/2090517433199247741",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 514655,
-      "totalOutputTokens": 134831,
-      "totalReasoningTokens": 74378,
-      "totalTokens": 649486
+      "totalInputTokens": 515104,
+      "totalOutputTokens": 134924,
+      "totalReasoningTokens": 74425,
+      "totalTokens": 650028
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1787376475541,
+      "inputTokens": 449,
+      "message": "",
+      "outputTokens": 93,
+      "rationale": "This reports an investigation into faster usage drain, not that limits have reset or been lifted.",
+      "reasoningTokens": 47,
+      "totalTokens": 542,
+      "tweetId": "2091033630147854385",
+      "tweetText": "Update on rate limits in Codex. We do see that for some users the cache hit rate has been worse this week than the stable state the weeks before. This could explain that usage is draining somewhat faster for those users as hitting the cache consistently is an important component of being efficient.\n\nWe are investigating and will have an update tomorrow.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2091033630147854385",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1787374918112,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2089429099693699073",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1786944334873,
-      "inputTokens": 398,
-      "message": "",
-      "outputTokens": 79,
-      "rationale": "This reply is just a conversational comment and does not mention limits or a reset.",
-      "reasoningTokens": 35,
-      "totalTokens": 477,
-      "tweetId": "2089221530320519620",
-      "tweetText": "@gabrielchua @ChatGPT @OpenAIDevs Favorite recent quality feature",
-      "tweetUrl": "https://x.com/thsottiaux/status/2089221530320519620",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "msQS_gD5a1mf2k9eGvpsXJFHyzfZywDhv0Ve-_cVj7lyyf6h_nyLKP83YQ",
-    "iv": "Tv7CorWrF0WHyMe8",
-    "tag": "IKIHdugk_VV639gi_mLuxg",
+    "ciphertext": "inAahOecTva5kOep9v7W7PA9IErYqGyDTwUWeH75Ubmwh9dmVmGCVUea_Q",
+    "iv": "Bco_3sOvmfL7u5_k",
+    "tag": "Ge-SJii4APMFcRMy4Ssxcg",
     "version": 1
   }
 }
