@@ -14,18 +14,31 @@
   "updatedAt": 1787359978904,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1787376475541,
-      "rationale": "This reports an investigation into faster usage drain, not that limits have reset or been lifted.",
-      "tweetId": "2091033630147854385",
-      "tweetUrl": "https://x.com/thsottiaux/status/2091033630147854385",
+      "confidence": 0.97,
+      "decidedAt": 1787378008992,
+      "rationale": "This reply discusses investigating an issue and communicating updates, not that limits have reset or usage is…",
+      "tweetId": "2091040344943288474",
+      "tweetUrl": "https://x.com/thsottiaux/status/2091040344943288474",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2091033630147854385",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2091033630147854385",
+    "lastSeenTweetId": "2091040344943288474",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2091040344943288474",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.97,
+        "evaluatedAt": 1787378008992,
+        "inputTokens": 412,
+        "outputTokens": 122,
+        "rationale": "This reply discusses investigating an issue and communicating updates, not that limits have reset or usage is…",
+        "reasoningTokens": 73,
+        "totalTokens": 534,
+        "tweetId": "2091040344943288474",
+        "tweetText": "@RealEverNever That's quite intense. Let me know how I can communicate better, trying to keep you informed and currently with the team looking at logs and dashboards.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2091040344943288474",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1787376475541,
@@ -272,29 +285,31 @@
         "tweetText": "Yay, you can now make transparent images in ChatGPT and through the API with GPT-Image-2. Here is a cactus cactus I am about to print and put on my laptop. https://t.co/1WZd2VSH8y",
         "tweetUrl": "https://x.com/thsottiaux/status/2090631723302469995",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1787253539681,
-        "inputTokens": 494,
-        "outputTokens": 86,
-        "rationale": "This post promotes ChatGPT Sites collaboration and does not mention any limits, caps, or reset.",
-        "reasoningTokens": 39,
-        "totalTokens": 580,
-        "tweetId": "2090518287532916854",
-        "tweetText": "Create a ChatGPT Site, share it and create something together. I've been building little games and sites with others and it is so much fun.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2090518287532916854",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 515104,
-      "totalOutputTokens": 134924,
-      "totalReasoningTokens": 74425,
-      "totalTokens": 650028
+      "totalInputTokens": 515516,
+      "totalOutputTokens": 135046,
+      "totalReasoningTokens": 74498,
+      "totalTokens": 650562
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.97,
+      "createdAt": 1787378008992,
+      "inputTokens": 412,
+      "message": "",
+      "outputTokens": 122,
+      "rationale": "This reply discusses investigating an issue and communicating updates, not that limits have reset or usage is…",
+      "reasoningTokens": 73,
+      "totalTokens": 534,
+      "tweetId": "2091040344943288474",
+      "tweetText": "@RealEverNever That's quite intense. Let me know how I can communicate better, trying to keep you informed and currently with the team looking at logs and dashboards.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2091040344943288474",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1787376475541,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2089500941842342287",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1786993908526,
-      "inputTokens": 387,
-      "message": "",
-      "outputTokens": 101,
-      "rationale": "He explicitly says the reset has not happened yet.",
-      "reasoningTokens": 63,
-      "totalTokens": 488,
-      "tweetId": "2089429099693699073",
-      "tweetText": "@FintechKristen not yet",
-      "tweetUrl": "https://x.com/thsottiaux/status/2089429099693699073",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "inAahOecTva5kOep9v7W7PA9IErYqGyDTwUWeH75Ubmwh9dmVmGCVUea_Q",
-    "iv": "Bco_3sOvmfL7u5_k",
-    "tag": "Ge-SJii4APMFcRMy4Ssxcg",
+    "ciphertext": "5EWKA_4q1yY_jK9jSXBnsW2wDQsdtHZPKPa0yFHWik0xDAOAieQkNueCuA",
+    "iv": "heA8WaE9IwonkLPO",
+    "tag": "fN7Xkqif1-74xke5aNBo_g",
     "version": 1
   }
 }
