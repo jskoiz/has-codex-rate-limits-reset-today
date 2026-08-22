@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1787359978904,
-      "rationale": "The tweet explicitly says the banked reset has landed for paid ChatGPT Work and Codex users.",
-      "tweetId": "2090964822422949999",
-      "tweetUrl": "https://x.com/thsottiaux/status/2090964822422949999",
-      "verdict": "reset_confirmed"
+      "decidedAt": 1787360285379,
+      "rationale": "This reply discusses a feature being abused and says nothing about limits or a reset.",
+      "tweetId": "2090965871456026686",
+      "tweetUrl": "https://x.com/thsottiaux/status/2090965871456026686",
+      "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2090964822422949999",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2090964822422949999",
+    "lastSeenTweetId": "2090965871456026686",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2090965871456026686",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1787360285379,
+        "inputTokens": 434,
+        "outputTokens": 98,
+        "rationale": "This reply discusses a feature being abused and says nothing about limits or a reset.",
+        "reasoningTokens": 54,
+        "totalTokens": 532,
+        "tweetId": "2090965871456026686",
+        "tweetText": "@maria_rcks Hmmm. That’s unfortunate. We have this feature because it’s a nicer user experience overall.\n\nOf course you can abuse it and trick the system somewhat, but if done at scale then it will force us to revisit this nice feature.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2090965871456026686",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1787359978904,
@@ -272,29 +285,31 @@
         "tweetText": "Depiction of me receiving this very important item https://t.co/3Vyj8RYWDq",
         "tweetUrl": "https://x.com/thsottiaux/status/2090134827450421604",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.97,
-        "evaluatedAt": 1787158114946,
-        "inputTokens": 397,
-        "outputTokens": 129,
-        "rationale": "This is a joking reply about a \"reset button\" and does not say limits have reset or are available again.",
-        "reasoningTokens": 78,
-        "totalTokens": 526,
-        "tweetId": "2090117067584491653",
-        "tweetText": "@anshgrows You would break the reset button? You would do such a thing?",
-        "tweetUrl": "https://x.com/thsottiaux/status/2090117067584491653",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 512194,
-      "totalOutputTokens": 134315,
-      "totalReasoningTokens": 74128,
-      "totalTokens": 646509
+      "totalInputTokens": 512628,
+      "totalOutputTokens": 134413,
+      "totalReasoningTokens": 74182,
+      "totalTokens": 647041
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1787360285379,
+      "inputTokens": 434,
+      "message": "",
+      "outputTokens": 98,
+      "rationale": "This reply discusses a feature being abused and says nothing about limits or a reset.",
+      "reasoningTokens": 54,
+      "totalTokens": 532,
+      "tweetId": "2090965871456026686",
+      "tweetText": "@maria_rcks Hmmm. That’s unfortunate. We have this feature because it’s a nicer user experience overall.\n\nOf course you can abuse it and trick the system somewhat, but if done at scale then it will force us to revisit this nice feature.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2090965871456026686",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1787359978904,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2089207201701544359",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1786940905235,
-      "inputTokens": 410,
-      "message": "",
-      "outputTokens": 96,
-      "rationale": "This reply just offers extra credits and does not mention any limit or rate-limit reset.",
-      "reasoningTokens": 51,
-      "totalTokens": 506,
-      "tweetId": "2089206566998405162",
-      "tweetText": "@theisaacmed I see from your comments you’ll actually try, nice. Tag me with feedback and I’ll send you some extra credits too",
-      "tweetUrl": "https://x.com/thsottiaux/status/2089206566998405162",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "hMnIm6jRm_sfwX1hmCU8fhoPMcbfNFkNxpoZAgrdgEuMYGZfhdVHGJNFQw",
-    "iv": "P2dyoVlbpRZBjRTq",
-    "tag": "6QtMZSi8J6VyyHo6ycBhJw",
+    "ciphertext": "hH9otznH1mcW6xHCL9ehQk2otu0vKC11JuZ6PwOkRwWQQr-4msJASa4gtQ",
+    "iv": "pfGfGW0KLBYss0Ar",
+    "tag": "2Dxu7jcluN-JqxxEXYnUfg",
     "version": 1
   }
 }
