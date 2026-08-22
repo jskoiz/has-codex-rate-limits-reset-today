@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1787371797987,
-      "rationale": "This post promotes a music app on ChatGPT Sites and does not mention limits or resets.",
-      "tweetId": "2091014197144596734",
-      "tweetUrl": "https://x.com/thsottiaux/status/2091014197144596734",
+      "decidedAt": 1787371801664,
+      "rationale": "This reply discusses ChatGPT site-sharing availability, not any limit or rate-cap reset.",
+      "tweetId": "2091014652574732563",
+      "tweetUrl": "https://x.com/thsottiaux/status/2091014652574732563",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2091014197144596734",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2091014197144596734",
+    "lastSeenTweetId": "2091014652574732563",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2091014652574732563",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1787371801664,
+        "inputTokens": 416,
+        "outputTokens": 94,
+        "rationale": "This reply discusses ChatGPT site-sharing availability, not any limit or rate-cap reset.",
+        "reasoningTokens": 49,
+        "totalTokens": 510,
+        "tweetId": "2091014652574732563",
+        "tweetText": "@ajambrosino You can make your own sites (and share them!) in ChatGPT Work or on the ChatGPT desktop app if you are on the Plus plan or above.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2091014652574732563",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1787371797987,
@@ -272,29 +285,31 @@
         "tweetText": "@ComebackCap @_clarktang No double counting",
         "tweetUrl": "https://x.com/thsottiaux/status/2090297494286774295",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1787200825556,
-        "inputTokens": 389,
-        "outputTokens": 84,
-        "rationale": "This reply just comments on the model and does not mention limits or a reset.",
-        "reasoningTokens": 40,
-        "totalTokens": 473,
-        "tweetId": "2090297429107278000",
-        "tweetText": "@_clarktang It's a good model",
-        "tweetUrl": "https://x.com/thsottiaux/status/2090297429107278000",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 513447,
-      "totalOutputTokens": 134564,
-      "totalReasoningTokens": 74244,
-      "totalTokens": 648011
+      "totalInputTokens": 513863,
+      "totalOutputTokens": 134658,
+      "totalReasoningTokens": 74293,
+      "totalTokens": 648521
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1787371801664,
+      "inputTokens": 416,
+      "message": "",
+      "outputTokens": 94,
+      "rationale": "This reply discusses ChatGPT site-sharing availability, not any limit or rate-cap reset.",
+      "reasoningTokens": 49,
+      "totalTokens": 510,
+      "tweetId": "2091014652574732563",
+      "tweetText": "@ajambrosino You can make your own sites (and share them!) in ChatGPT Work or on the ChatGPT desktop app if you are on the Plus plan or above.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2091014652574732563",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1787371797987,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2089217426378653864",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1786943088517,
-      "inputTokens": 390,
-      "message": "",
-      "outputTokens": 79,
-      "rationale": "This reply is conversational and does not mention limits, caps, or availability resetting.",
-      "reasoningTokens": 35,
-      "totalTokens": 469,
-      "tweetId": "2089216314498027657",
-      "tweetText": "@Robertg761_ Robert, don’t go",
-      "tweetUrl": "https://x.com/thsottiaux/status/2089216314498027657",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "iXdEmOKYrEx-MRqODNGCttpBI2nZah7ZBCFPh67BVU85pcyiU7-07Dp_bw",
-    "iv": "Keu6A8vz9nCTgxc7",
-    "tag": "RjpjYbR_LiUnpqKkSXs-Mg",
+    "ciphertext": "yyAAe59DnmlWLDQesR1yus-JEHd_nE-EcEpATiJJAVOgayPSU8F7Wb8tHw",
+    "iv": "LWE59XWtL8Ehgkoh",
+    "tag": "1SDqqtxHrODgBl0MF5blew",
     "version": 1
   }
 }
