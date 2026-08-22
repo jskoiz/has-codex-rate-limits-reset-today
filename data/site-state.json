@@ -14,18 +14,38 @@
   "updatedAt": 1787359978904,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1787378638189,
-      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-      "tweetId": "2091042707334742221",
-      "tweetUrl": "https://x.com/thsottiaux/status/2091042707334742221",
-      "verdict": "not_reset"
+      "confidence": 0.84,
+      "decidedAt": 1787379271451,
+      "rationale": "The reply says something has fully propagated, but it does not explicitly say rate limits or caps have reset.",
+      "tweetId": "2091045457158103247",
+      "tweetUrl": "https://x.com/thsottiaux/status/2091045457158103247",
+      "verdict": "uncertain"
     },
     "lastError": null,
-    "lastSeenTweetId": "2091042707334742221",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2091042707334742221",
-    "pendingReview": null,
+    "lastSeenTweetId": "2091045457158103247",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2091045457158103247",
+    "pendingReview": {
+      "confidence": 0.84,
+      "createdAt": 1787379271451,
+      "rationale": "The reply says something has fully propagated, but it does not explicitly say rate limits or caps have reset.",
+      "tweetId": "2091045457158103247",
+      "tweetText": "@buildwithrajath Should be all propagated",
+      "tweetUrl": "https://x.com/thsottiaux/status/2091045457158103247"
+    },
     "recentEvaluations": [
+      {
+        "confidence": 0.84,
+        "evaluatedAt": 1787379271451,
+        "inputTokens": 389,
+        "outputTokens": 187,
+        "rationale": "The reply says something has fully propagated, but it does not explicitly say rate limits or caps have reset.",
+        "reasoningTokens": 138,
+        "totalTokens": 576,
+        "tweetId": "2091045457158103247",
+        "tweetText": "@buildwithrajath Should be all propagated",
+        "tweetUrl": "https://x.com/thsottiaux/status/2091045457158103247",
+        "verdict": "uncertain"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1787378638189,
@@ -272,29 +292,31 @@
         "tweetText": "We've investigated a few messages about codex usage limits being different. That's not something we change without engaging the community and being transparent.\n\nWhat we did see is that when talking to affected users many were using sub2api. Converting a subscription into api traffic to then re-serve or share across many users is not something we support and this type of usage gets flagged by our fraud-prevention systems.\n\nYou are completely fine if you use your subscription through Sign in With ChatGPT, either through the official clients or through one of the many OSS clients (Pi, OpenCode, ...) that support signing in with your account and using your included usage.",
         "tweetUrl": "https://x.com/thsottiaux/status/2090675027670978569",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1787280838872,
-        "inputTokens": 391,
-        "outputTokens": 99,
-        "rationale": "This reply is unrelated to Codex or ChatGPT limits and does not mention any reset.",
-        "reasoningTokens": 53,
-        "totalTokens": 490,
-        "tweetId": "2090632208872853889",
-        "tweetText": "@paularambles Did you end up applying for funding?",
-        "tweetUrl": "https://x.com/thsottiaux/status/2090632208872853889",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 515910,
-      "totalOutputTokens": 135123,
-      "totalReasoningTokens": 74531,
-      "totalTokens": 651033
+      "totalInputTokens": 516299,
+      "totalOutputTokens": 135310,
+      "totalReasoningTokens": 74669,
+      "totalTokens": 651609
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.84,
+      "createdAt": 1787379271451,
+      "inputTokens": 389,
+      "message": "",
+      "outputTokens": 187,
+      "rationale": "The reply says something has fully propagated, but it does not explicitly say rate limits or caps have reset.",
+      "reasoningTokens": 138,
+      "totalTokens": 576,
+      "tweetId": "2091045457158103247",
+      "tweetText": "@buildwithrajath Should be all propagated",
+      "tweetUrl": "https://x.com/thsottiaux/status/2091045457158103247",
+      "type": "review_requested",
+      "verdict": "uncertain"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1787378638189,
@@ -879,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2089604619936956778",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1787011299835,
-      "inputTokens": 398,
-      "message": "",
-      "outputTokens": 81,
-      "rationale": "This reply is unrelated to any Codex or ChatGPT limit reset.",
-      "reasoningTokens": 39,
-      "totalTokens": 479,
-      "tweetId": "2089501754308337873",
-      "tweetText": "@kmdrfx @thdxr @jayair Dax is obviously the CEO",
-      "tweetUrl": "https://x.com/thsottiaux/status/2089501754308337873",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "IKQleByFQrywWpcOmeokBBIr6_3xN-HoG2Iu87kHwyvPUuzK0AsXZCtSwA",
-    "iv": "v8W4tU2QpHH7WW5X",
-    "tag": "keUut3IqdNf2cpWZd0mUQg",
+    "ciphertext": "St_jm0sTJq4b6i6Y5r0FwBIh3IVu2G-G4Gxh7jEyLJ5mXGwDp6RpvS--6g",
+    "iv": "ZxtrrAL93U81G4Du",
+    "tag": "q6oLWU6ZlajnzKUW6i2ZEQ",
     "version": 1
   }
 }
