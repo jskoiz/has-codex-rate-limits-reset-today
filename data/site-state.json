@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1787380812637,
-      "rationale": "This reply is just a question and gives no indication that any limits have reset.",
-      "tweetId": "2091051557983015302",
-      "tweetUrl": "https://x.com/thsottiaux/status/2091051557983015302",
+      "decidedAt": 1787431078605,
+      "rationale": "This reply just says “Luna” and gives no indication that any limits or caps reset.",
+      "tweetId": "2091262962480898537",
+      "tweetUrl": "https://x.com/thsottiaux/status/2091262962480898537",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2091051557983015302",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2091051557983015302",
+    "lastSeenTweetId": "2091262962480898537",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2091262962480898537",
     "pendingReview": {
       "confidence": 0.84,
       "createdAt": 1787379271451,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2091045457158103247"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1787431078605,
+        "inputTokens": 385,
+        "outputTokens": 98,
+        "rationale": "This reply just says “Luna” and gives no indication that any limits or caps reset.",
+        "reasoningTokens": 51,
+        "totalTokens": 483,
+        "tweetId": "2091262962480898537",
+        "tweetText": "@kr0der Luna",
+        "tweetUrl": "https://x.com/thsottiaux/status/2091262962480898537",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1787380812637,
@@ -279,29 +292,31 @@
         "tweetText": "It's me again. I come bearing great news. \n\nFirst of all, we have hit 20M active users for Codex some time this week. Second of all, this is cause for celebration and during the day we will credit every Codex and ChatGPT Work user with a BANKED reset that you can use at your own leisure. And we will have some other good news later too!\n\nNow, on usage limits draining faster, while we're not seeing anything abnormal, we do take it incredibly seriously and there is an ongoing investigation. I will share if we do find anything and my below post is really a clarification on a specific pattern that we did see that I wanted to call out.\n\nGo do something amazing today.",
         "tweetUrl": "https://x.com/thsottiaux/status/2090766694897619318",
         "verdict": "reset_confirmed"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1787291402702,
-        "inputTokens": 391,
-        "outputTokens": 81,
-        "rationale": "This reply is conversational and does not mention limits, caps, or usage resetting.",
-        "reasoningTokens": 37,
-        "totalTokens": 472,
-        "tweetId": "2090677537072652418",
-        "tweetText": "@tammiesiew Codex has nothing to hide",
-        "tweetUrl": "https://x.com/thsottiaux/status/2090677537072652418",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 517073,
-      "totalOutputTokens": 135510,
-      "totalReasoningTokens": 74782,
-      "totalTokens": 652583
+      "totalInputTokens": 517458,
+      "totalOutputTokens": 135608,
+      "totalReasoningTokens": 74833,
+      "totalTokens": 653066
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1787431078605,
+      "inputTokens": 385,
+      "message": "",
+      "outputTokens": 98,
+      "rationale": "This reply just says “Luna” and gives no indication that any limits or caps reset.",
+      "reasoningTokens": 51,
+      "totalTokens": 483,
+      "tweetId": "2091262962480898537",
+      "tweetText": "@kr0der Luna",
+      "tweetUrl": "https://x.com/thsottiaux/status/2091262962480898537",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1787380812637,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2089898255597580328",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1787105831530,
-      "inputTokens": 397,
-      "message": "",
-      "outputTokens": 77,
-      "rationale": "This reply is conversational and says nothing about limits or a reset.",
-      "reasoningTokens": 36,
-      "totalTokens": 474,
-      "tweetId": "2089898146642157657",
-      "tweetText": "@theo How dare they give poorly structured feedback. On the internet of all places.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2089898146642157657",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "jueTT4-3FGAXGKDGilljXIJwd_MW1ch0tcavp6KRVwFr74bq4_ycdcrrOw",
-    "iv": "5T8GO5GKoT-S0Szc",
-    "tag": "YZwX9GoaqJ76G-eONJpjBQ",
+    "ciphertext": "4SqTZ9iIjgfSIilrh1B9okGZPk6TL26hdZYyk6slkUBv_BQhQjMbTTGBsQ",
+    "iv": "7Gu7cXBr2xmGmEV3",
+    "tag": "72jRrnk05OJzcjDAN9MFaA",
     "version": 1
   }
 }
