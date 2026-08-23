@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1787465895192,
-      "rationale": "This reply just says \"Posted\" and gives no indication that any limits reset.",
-      "tweetId": "2091408930635436341",
-      "tweetUrl": "https://x.com/thsottiaux/status/2091408930635436341",
+      "decidedAt": 1787466517175,
+      "rationale": "This is just a conversational reply and does not mention any limit or rate-limit reset.",
+      "tweetId": "2091411370243936661",
+      "tweetUrl": "https://x.com/thsottiaux/status/2091411370243936661",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2091408930635436341",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2091408930635436341",
+    "lastSeenTweetId": "2091411370243936661",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2091411370243936661",
     "pendingReview": {
       "confidence": 0.84,
       "createdAt": 1787379271451,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2091045457158103247"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1787466517175,
+        "inputTokens": 390,
+        "outputTokens": 64,
+        "rationale": "This is just a conversational reply and does not mention any limit or rate-limit reset.",
+        "reasoningTokens": 19,
+        "totalTokens": 454,
+        "tweetId": "2091411370243936661",
+        "tweetText": "@PaulSolt @OpenAI See you there",
+        "tweetUrl": "https://x.com/thsottiaux/status/2091411370243936661",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1787465895192,
@@ -279,29 +292,31 @@
         "tweetText": "@TheIshanGoswami Well done Ishan",
         "tweetUrl": "https://x.com/thsottiaux/status/2091012711970906611",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1787360285379,
-        "inputTokens": 434,
-        "outputTokens": 98,
-        "rationale": "This reply discusses a feature being abused and says nothing about limits or a reset.",
-        "reasoningTokens": 54,
-        "totalTokens": 532,
-        "tweetId": "2090965871456026686",
-        "tweetText": "@maria_rcks Hmmm. That’s unfortunate. We have this feature because it’s a nicer user experience overall.\n\nOf course you can abuse it and trick the system somewhat, but if done at scale then it will force us to revisit this nice feature.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2090965871456026686",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 520422,
-      "totalOutputTokens": 136306,
-      "totalReasoningTokens": 75223,
-      "totalTokens": 656728
+      "totalInputTokens": 520812,
+      "totalOutputTokens": 136370,
+      "totalReasoningTokens": 75242,
+      "totalTokens": 657182
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1787466517175,
+      "inputTokens": 390,
+      "message": "",
+      "outputTokens": 64,
+      "rationale": "This is just a conversational reply and does not mention any limit or rate-limit reset.",
+      "reasoningTokens": 19,
+      "totalTokens": 454,
+      "tweetId": "2091411370243936661",
+      "tweetText": "@PaulSolt @OpenAI See you there",
+      "tweetUrl": "https://x.com/thsottiaux/status/2091411370243936661",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1787465895192,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2090134827450421604",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.97,
-      "createdAt": 1787158114946,
-      "inputTokens": 397,
-      "message": "",
-      "outputTokens": 129,
-      "rationale": "This is a joking reply about a \"reset button\" and does not say limits have reset or are available again.",
-      "reasoningTokens": 78,
-      "totalTokens": 526,
-      "tweetId": "2090117067584491653",
-      "tweetText": "@anshgrows You would break the reset button? You would do such a thing?",
-      "tweetUrl": "https://x.com/thsottiaux/status/2090117067584491653",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "HD7ODo8ZwH3ZFC8QWYz4l_8JeUmD5qn4bQDiNIv_XfZC8LlhkvNYPz-RQg",
-    "iv": "vyc2qBl0h6i1ufjD",
-    "tag": "v7uRKd_u2QaQ9f_LdlhWjw",
+    "ciphertext": "K0dEKxIyD-AbyMWEfuRqnGS52hPlSzEG4f2o3BKW-AfeCw7DZV4TJud2xQ",
+    "iv": "LeRGw2NmJmG4CPjj",
+    "tag": "-tulHPtKC3uLVRN4OfKekA",
     "version": 1
   }
 }
