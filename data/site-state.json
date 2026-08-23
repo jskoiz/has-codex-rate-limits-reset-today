@@ -14,16 +14,16 @@
   "updatedAt": 1787359978904,
   "automation": {
     "lastDecision": {
-      "confidence": 0.98,
-      "decidedAt": 1787467427493,
-      "rationale": "This reply asks a question and does not state or imply that any limits have reset.",
-      "tweetId": "2091415069540401373",
-      "tweetUrl": "https://x.com/thsottiaux/status/2091415069540401373",
+      "confidence": 0.99,
+      "decidedAt": 1787502770939,
+      "rationale": "This reply discusses an analogy and does not mention limits, caps, or usage resetting.",
+      "tweetId": "2091563530189521277",
+      "tweetUrl": "https://x.com/thsottiaux/status/2091563530189521277",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2091415069540401373",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2091415069540401373",
+    "lastSeenTweetId": "2091563530189521277",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2091563530189521277",
     "pendingReview": {
       "confidence": 0.97,
       "createdAt": 1787466823105,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2091413240337326588"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1787502770939,
+        "inputTokens": 439,
+        "outputTokens": 91,
+        "rationale": "This reply discusses an analogy and does not mention limits, caps, or usage resetting.",
+        "reasoningTokens": 46,
+        "totalTokens": 530,
+        "tweetId": "2091563530189521277",
+        "tweetText": "A better analogy would be to say that your brain suddenly gets placed in the pencil for it to moved around when you need to do the exam. \n\nThese are entirely different things you are comparing. The harness is much more similar to the body than it is to the classroom and environment.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2091563530189521277",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.98,
         "evaluatedAt": 1787467427493,
@@ -279,29 +292,31 @@
         "tweetText": "Update on rate limits in Codex. We do see that for some users the cache hit rate has been worse this week than the stable state the weeks before. This could explain that usage is draining somewhat faster for those users as hitting the cache consistently is an important component of being efficient.\n\nWe are investigating and will have an update tomorrow.",
         "tweetUrl": "https://x.com/thsottiaux/status/2091033630147854385",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1787374918112,
-        "inputTokens": 393,
-        "outputTokens": 74,
-        "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-        "reasoningTokens": 30,
-        "totalTokens": 467,
-        "tweetId": "2091027012832125027",
-        "tweetText": "@immasiddx ai ai ai as we say in French",
-        "tweetUrl": "https://x.com/thsottiaux/status/2091027012832125027",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 522372,
-      "totalOutputTokens": 136823,
-      "totalReasoningTokens": 75518,
-      "totalTokens": 659195
+      "totalInputTokens": 522811,
+      "totalOutputTokens": 136914,
+      "totalReasoningTokens": 75564,
+      "totalTokens": 659725
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1787502770939,
+      "inputTokens": 439,
+      "message": "",
+      "outputTokens": 91,
+      "rationale": "This reply discusses an analogy and does not mention limits, caps, or usage resetting.",
+      "reasoningTokens": 46,
+      "totalTokens": 530,
+      "tweetId": "2091563530189521277",
+      "tweetText": "A better analogy would be to say that your brain suddenly gets placed in the pencil for it to moved around when you need to do the exam. \n\nThese are entirely different things you are comparing. The harness is much more similar to the body than it is to the classroom and environment.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2091563530189521277",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.98,
       "createdAt": 1787467427493,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2090517433199247741",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.98,
-      "createdAt": 1787206109725,
-      "inputTokens": 391,
-      "message": "",
-      "outputTokens": 104,
-      "rationale": "This reply is just a general comment and does not indicate any rate-limit reset or restored usage.",
-      "reasoningTokens": 57,
-      "totalTokens": 495,
-      "tweetId": "2090319049767174249",
-      "tweetText": "@Im_IrushiK Leading vs lagging indicator",
-      "tweetUrl": "https://x.com/thsottiaux/status/2090319049767174249",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "PjzUxIf2Bp4G-A7arMiIWHryzeFeNrUZJnmCvGw59KXuIt2RsfusbmcJ6w",
-    "iv": "sG20kPY_czttIz5N",
-    "tag": "Drfz2EGlSbvvu30dBMRnnA",
+    "ciphertext": "WnKBRUPOX8qEXk_Mk98TjY5HSqhr2Ot9o8HKHDfUm-Fizn-DXmhY1f8QUA",
+    "iv": "O6Zf77y_LPkD9NZM",
+    "tag": "zpnO1n7BG0c7HLd80Kx8Lw",
     "version": 1
   }
 }
