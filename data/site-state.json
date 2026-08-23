@@ -14,16 +14,16 @@
   "updatedAt": 1787359978904,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1787466517175,
-      "rationale": "This is just a conversational reply and does not mention any limit or rate-limit reset.",
-      "tweetId": "2091411370243936661",
-      "tweetUrl": "https://x.com/thsottiaux/status/2091411370243936661",
+      "confidence": 0.98,
+      "decidedAt": 1787466819895,
+      "rationale": "It refers to a reset happening tomorrow, not a reset that is available now.",
+      "tweetId": "2091412393368945027",
+      "tweetUrl": "https://x.com/thsottiaux/status/2091412393368945027",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2091411370243936661",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2091411370243936661",
+    "lastSeenTweetId": "2091412393368945027",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2091412393368945027",
     "pendingReview": {
       "confidence": 0.84,
       "createdAt": 1787379271451,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2091045457158103247"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.98,
+        "evaluatedAt": 1787466819895,
+        "inputTokens": 390,
+        "outputTokens": 150,
+        "rationale": "It refers to a reset happening tomorrow, not a reset that is available now.",
+        "reasoningTokens": 106,
+        "totalTokens": 540,
+        "tweetId": "2091412393368945027",
+        "tweetText": "Reset will land around 14pm PST tomorrow.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2091412393368945027",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1787466517175,
@@ -279,29 +292,31 @@
         "tweetText": "@ajambrosino thought it was too hard to upload music to twitter, so he just prompted a whole music app hosted on ChatGPT Sites into existence just to share his album\n\nhttps://t.co/vOI40Xmxyc",
         "tweetUrl": "https://x.com/thsottiaux/status/2091014197144596734",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1787371498890,
-        "inputTokens": 391,
-        "outputTokens": 76,
-        "rationale": "This is just a congratulatory reply and says nothing about limits or resets.",
-        "reasoningTokens": 33,
-        "totalTokens": 467,
-        "tweetId": "2091012711970906611",
-        "tweetText": "@TheIshanGoswami Well done Ishan",
-        "tweetUrl": "https://x.com/thsottiaux/status/2091012711970906611",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 520812,
-      "totalOutputTokens": 136370,
-      "totalReasoningTokens": 75242,
-      "totalTokens": 657182
+      "totalInputTokens": 521202,
+      "totalOutputTokens": 136520,
+      "totalReasoningTokens": 75348,
+      "totalTokens": 657722
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.98,
+      "createdAt": 1787466819895,
+      "inputTokens": 390,
+      "message": "",
+      "outputTokens": 150,
+      "rationale": "It refers to a reset happening tomorrow, not a reset that is available now.",
+      "reasoningTokens": 106,
+      "totalTokens": 540,
+      "tweetId": "2091412393368945027",
+      "tweetText": "Reset will land around 14pm PST tomorrow.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2091412393368945027",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1787466517175,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2090173536010957128",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1787162157103,
-      "inputTokens": 402,
-      "message": "",
-      "outputTokens": 91,
-      "rationale": "This reply is just a personal/joking post and does not mention limits or a reset.",
-      "reasoningTokens": 45,
-      "totalTokens": 493,
-      "tweetId": "2090134827450421604",
-      "tweetText": "Depiction of me receiving this very important item https://t.co/3Vyj8RYWDq",
-      "tweetUrl": "https://x.com/thsottiaux/status/2090134827450421604",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "K0dEKxIyD-AbyMWEfuRqnGS52hPlSzEG4f2o3BKW-AfeCw7DZV4TJud2xQ",
-    "iv": "LeRGw2NmJmG4CPjj",
-    "tag": "-tulHPtKC3uLVRN4OfKekA",
+    "ciphertext": "4cOlMhM52JPyBq1ppUxwz2NJbTRbcdQZqdwI06xlrkk8M-jmsu6nnV7TCQ",
+    "iv": "aINNAWVn3mj5m_yn",
+    "tag": "wpP3Ezv8s3btxAJzfShFGg",
     "version": 1
   }
 }
