@@ -14,16 +14,16 @@
   "updatedAt": 1787359978904,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1787465277773,
-      "rationale": "This reply is about unsupported sub2api usage, not a rate-limit or cap reset.",
-      "tweetId": "2091406082497552557",
-      "tweetUrl": "https://x.com/thsottiaux/status/2091406082497552557",
+      "confidence": 0.97,
+      "decidedAt": 1787465586221,
+      "rationale": "It announces a full usage reset for tomorrow, not that limits have reset now.",
+      "tweetId": "2091407991736332689",
+      "tweetUrl": "https://x.com/thsottiaux/status/2091407991736332689",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2091406082497552557",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2091406082497552557",
+    "lastSeenTweetId": "2091407991736332689",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2091407991736332689",
     "pendingReview": {
       "confidence": 0.84,
       "createdAt": 1787379271451,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2091045457158103247"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.97,
+        "evaluatedAt": 1787465586221,
+        "inputTokens": 614,
+        "outputTokens": 190,
+        "rationale": "It announces a full usage reset for tomorrow, not that limits have reset now.",
+        "reasoningTokens": 146,
+        "totalTokens": 804,
+        "tweetId": "2091407991736332689",
+        "tweetText": "Update on rate limits in Codex. \n\nWe’ve found (a) some inefficiencies when using images in long sessions with multiple compactions (b) high p95+ usage for Computer History (c) a feature that was meant to generate conversation titles that was draining a bit more usage than intended. And we have a tiger team combing through everything and shipping fixes tomorrow. We also found a novel approach to drive efficiency up significantly that is completely unrelated and we will be working on next week.\n\nAs part of some of the fixes tomorrow, we will also do a full reset of the usage for all paid subscriptions.\n\nSee you then.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2091407991736332689",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1787465277774,
@@ -279,29 +292,31 @@
         "tweetText": "The banked reset has landed, I repeat, the banked reset has landed. Have an amazing weekend.",
         "tweetUrl": "https://x.com/thsottiaux/status/2090964822422949999",
         "verdict": "reset_confirmed"
-      },
-      {
-        "confidence": 0.91,
-        "evaluatedAt": 1787355887864,
-        "inputTokens": 413,
-        "outputTokens": 344,
-        "rationale": "It mentions a reset arriving by 8pm PST, which is a future timing and not a clear confirmation that limits are reset…",
-        "reasoningTokens": 289,
-        "totalTokens": 757,
-        "tweetId": "2090947196107764189",
-        "tweetText": "The banked reset will be there by 8pm PST. For all paid users of ChatGPT Work and Codex. Do with this information what you may.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2090947196107764189",
-        "verdict": "uncertain"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 519422,
-      "totalOutputTokens": 136014,
-      "totalReasoningTokens": 75019,
-      "totalTokens": 655436
+      "totalInputTokens": 520036,
+      "totalOutputTokens": 136204,
+      "totalReasoningTokens": 75165,
+      "totalTokens": 656240
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.97,
+      "createdAt": 1787465586221,
+      "inputTokens": 614,
+      "message": "",
+      "outputTokens": 190,
+      "rationale": "It announces a full usage reset for tomorrow, not that limits have reset now.",
+      "reasoningTokens": 146,
+      "totalTokens": 804,
+      "tweetId": "2091407991736332689",
+      "tweetText": "Update on rate limits in Codex. \n\nWe’ve found (a) some inefficiencies when using images in long sessions with multiple compactions (b) high p95+ usage for Computer History (c) a feature that was meant to generate conversation titles that was draining a bit more usage than intended. And we have a tiger team combing through everything and shipping fixes tomorrow. We also found a novel approach to drive efficiency up significantly that is completely unrelated and we will be working on next week.\n\nAs part of some of the fixes tomorrow, we will also do a full reset of the usage for all paid subscriptions.\n\nSee you then.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2091407991736332689",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1787465277774,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2090116476414136830",
       "type": "review_requested",
       "verdict": "uncertain"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1787121671614,
-      "inputTokens": 391,
-      "message": "",
-      "outputTokens": 101,
-      "rationale": "This reply only says they have compute and does not indicate any rate-limit or cap reset.",
-      "reasoningTokens": 55,
-      "totalTokens": 492,
-      "tweetId": "2089964604172673121",
-      "tweetText": "@ClaudeDevs Do not worry, we have compute",
-      "tweetUrl": "https://x.com/thsottiaux/status/2089964604172673121",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "NUhMqJ4swzYP3pZ2KI3KUum6hGm7XP3ZBDcPvJ6sBncdooQUIvcrmkrLxQ",
-    "iv": "SILw5TV4-8CvGM2q",
-    "tag": "9c4mWpPoRIu4SdpP2SioMQ",
+    "ciphertext": "Z__9UB3fI64QuR9zEyZJT4zAk3EMhX6a93v79M9xTWRUPLNdQS0CEh9mDg",
+    "iv": "XSfGJM3nNuk1VsUD",
+    "tag": "g6O8BWGC-mVruHkLbdfasg",
     "version": 1
   }
 }
