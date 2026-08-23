@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1787502770939,
-      "rationale": "This reply discusses an analogy and does not mention limits, caps, or usage resetting.",
-      "tweetId": "2091563530189521277",
-      "tweetUrl": "https://x.com/thsottiaux/status/2091563530189521277",
+      "decidedAt": 1787507137251,
+      "rationale": "This post is a general comment about model efficiency and reliability, not about usage limits resetting.",
+      "tweetId": "2091581575108653374",
+      "tweetUrl": "https://x.com/thsottiaux/status/2091581575108653374",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2091563530189521277",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2091563530189521277",
+    "lastSeenTweetId": "2091581575108653374",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2091581575108653374",
     "pendingReview": {
       "confidence": 0.97,
       "createdAt": 1787466823105,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2091413240337326588"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1787507137251,
+        "inputTokens": 400,
+        "outputTokens": 78,
+        "rationale": "This post is a general comment about model efficiency and reliability, not about usage limits resetting.",
+        "reasoningTokens": 32,
+        "totalTokens": 478,
+        "tweetId": "2091581575108653374",
+        "tweetText": "2026 is the year companies start seriously caring about model efficiency and reliability as it becomes critical infrastructure",
+        "tweetUrl": "https://x.com/thsottiaux/status/2091581575108653374",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1787502770939,
@@ -279,29 +292,31 @@
         "tweetText": "@RealEverNever That's quite intense. Let me know how I can communicate better, trying to keep you informed and currently with the team looking at logs and dashboards.",
         "tweetUrl": "https://x.com/thsottiaux/status/2091040344943288474",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1787376475541,
-        "inputTokens": 449,
-        "outputTokens": 93,
-        "rationale": "This reports an investigation into faster usage drain, not that limits have reset or been lifted.",
-        "reasoningTokens": 47,
-        "totalTokens": 542,
-        "tweetId": "2091033630147854385",
-        "tweetText": "Update on rate limits in Codex. We do see that for some users the cache hit rate has been worse this week than the stable state the weeks before. This could explain that usage is draining somewhat faster for those users as hitting the cache consistently is an important component of being efficient.\n\nWe are investigating and will have an update tomorrow.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2091033630147854385",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 522811,
-      "totalOutputTokens": 136914,
-      "totalReasoningTokens": 75564,
-      "totalTokens": 659725
+      "totalInputTokens": 523211,
+      "totalOutputTokens": 136992,
+      "totalReasoningTokens": 75596,
+      "totalTokens": 660203
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1787507137251,
+      "inputTokens": 400,
+      "message": "",
+      "outputTokens": 78,
+      "rationale": "This post is a general comment about model efficiency and reliability, not about usage limits resetting.",
+      "reasoningTokens": 32,
+      "totalTokens": 478,
+      "tweetId": "2091581575108653374",
+      "tweetText": "2026 is the year companies start seriously caring about model efficiency and reliability as it becomes critical infrastructure",
+      "tweetUrl": "https://x.com/thsottiaux/status/2091581575108653374",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1787502770939,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2090518287532916854",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1787253231933,
-      "inputTokens": 477,
-      "message": "",
-      "outputTokens": 109,
-      "rationale": "This is a product feature announcement, not about limits or a reset.",
-      "reasoningTokens": 67,
-      "totalTokens": 586,
-      "tweetId": "2090517433199247741",
-      "tweetText": "More context, better help",
-      "tweetUrl": "https://x.com/thsottiaux/status/2090517433199247741",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "WnKBRUPOX8qEXk_Mk98TjY5HSqhr2Ot9o8HKHDfUm-Fizn-DXmhY1f8QUA",
-    "iv": "O6Zf77y_LPkD9NZM",
-    "tag": "zpnO1n7BG0c7HLd80Kx8Lw",
+    "ciphertext": "oC8mulL4RBYJGsM-pq7OPpphodE8stk7hckAICIVxot72xFk7rTh_G5k4w",
+    "iv": "wFh3JXtYZQkgadb-",
+    "tag": "2_zH2UzmExt4SDHhgsuWiA",
     "version": 1
   }
 }
