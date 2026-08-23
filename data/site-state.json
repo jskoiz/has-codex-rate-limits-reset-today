@@ -14,16 +14,16 @@
   "updatedAt": 1787359978904,
   "automation": {
     "lastDecision": {
-      "confidence": 0.97,
-      "decidedAt": 1787466823105,
-      "rationale": "This reply only corrects a time and does not clearly state that limits have reset.",
-      "tweetId": "2091413240337326588",
-      "tweetUrl": "https://x.com/thsottiaux/status/2091413240337326588",
-      "verdict": "uncertain"
+      "confidence": 0.99,
+      "decidedAt": 1787467124397,
+      "rationale": "This reply is conversational and says nothing about limits, caps, or resets.",
+      "tweetId": "2091414006145908899",
+      "tweetUrl": "https://x.com/thsottiaux/status/2091414006145908899",
+      "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2091413240337326588",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2091413240337326588",
+    "lastSeenTweetId": "2091414006145908899",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2091414006145908899",
     "pendingReview": {
       "confidence": 0.97,
       "createdAt": 1787466823105,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2091413240337326588"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1787467124397,
+        "inputTokens": 395,
+        "outputTokens": 71,
+        "rationale": "This reply is conversational and says nothing about limits, caps, or resets.",
+        "reasoningTokens": 28,
+        "totalTokens": 466,
+        "tweetId": "2091414006145908899",
+        "tweetText": "@maria_rcks No beef, lots of respect for Cursor and friends",
+        "tweetUrl": "https://x.com/thsottiaux/status/2091414006145908899",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.97,
         "evaluatedAt": 1787466823105,
@@ -279,29 +292,31 @@
         "tweetText": "@ajambrosino Favorite is https://t.co/90lmgsf8J9",
         "tweetUrl": "https://x.com/thsottiaux/status/2091016731020169488",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1787371801664,
-        "inputTokens": 416,
-        "outputTokens": 94,
-        "rationale": "This reply discusses ChatGPT site-sharing availability, not any limit or rate-cap reset.",
-        "reasoningTokens": 49,
-        "totalTokens": 510,
-        "tweetId": "2091014652574732563",
-        "tweetText": "@ajambrosino You can make your own sites (and share them!) in ChatGPT Work or on the ChatGPT desktop app if you are on the Plus plan or above.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2091014652574732563",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 521589,
-      "totalOutputTokens": 136669,
-      "totalReasoningTokens": 75452,
-      "totalTokens": 658258
+      "totalInputTokens": 521984,
+      "totalOutputTokens": 136740,
+      "totalReasoningTokens": 75480,
+      "totalTokens": 658724
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1787467124397,
+      "inputTokens": 395,
+      "message": "",
+      "outputTokens": 71,
+      "rationale": "This reply is conversational and says nothing about limits, caps, or resets.",
+      "reasoningTokens": 28,
+      "totalTokens": 466,
+      "tweetId": "2091414006145908899",
+      "tweetText": "@maria_rcks No beef, lots of respect for Cursor and friends",
+      "tweetUrl": "https://x.com/thsottiaux/status/2091414006145908899",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.97,
       "createdAt": 1787466823105,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2090297494286774295",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1787200825556,
-      "inputTokens": 389,
-      "message": "",
-      "outputTokens": 84,
-      "rationale": "This reply just comments on the model and does not mention limits or a reset.",
-      "reasoningTokens": 40,
-      "totalTokens": 473,
-      "tweetId": "2090297429107278000",
-      "tweetText": "@_clarktang It's a good model",
-      "tweetUrl": "https://x.com/thsottiaux/status/2090297429107278000",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "JjJjhpYZXVphtKLG4rS7LlRIHlK3Pt3gZ_MYXQbOU4xONBq1y9p_nYP6jA",
-    "iv": "j9YYLU60agDIZ8Eu",
-    "tag": "ZBMUHSTgRf5lN4ZFS0MGAA",
+    "ciphertext": "kKdLBIG-VmXGRrTRdOfpB80NB-9ZhASr7OyUaqHrwpBWQ3DkrJ0a0W3bfw",
+    "iv": "yYwp99Ebr1AEr3wX",
+    "tag": "-Gu9IyBdvOtoSEBRAPA3pQ",
     "version": 1
   }
 }
