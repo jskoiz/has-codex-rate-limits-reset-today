@@ -14,25 +14,38 @@
   "updatedAt": 1787359978904,
   "automation": {
     "lastDecision": {
-      "confidence": 0.98,
-      "decidedAt": 1787466819895,
-      "rationale": "It refers to a reset happening tomorrow, not a reset that is available now.",
-      "tweetId": "2091412393368945027",
-      "tweetUrl": "https://x.com/thsottiaux/status/2091412393368945027",
-      "verdict": "not_reset"
+      "confidence": 0.97,
+      "decidedAt": 1787466823105,
+      "rationale": "This reply only corrects a time and does not clearly state that limits have reset.",
+      "tweetId": "2091413240337326588",
+      "tweetUrl": "https://x.com/thsottiaux/status/2091413240337326588",
+      "verdict": "uncertain"
     },
     "lastError": null,
-    "lastSeenTweetId": "2091412393368945027",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2091412393368945027",
+    "lastSeenTweetId": "2091413240337326588",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2091413240337326588",
     "pendingReview": {
-      "confidence": 0.84,
-      "createdAt": 1787379271451,
-      "rationale": "The reply says something has fully propagated, but it does not explicitly say rate limits or caps have reset.",
-      "tweetId": "2091045457158103247",
-      "tweetText": "@buildwithrajath Should be all propagated",
-      "tweetUrl": "https://x.com/thsottiaux/status/2091045457158103247"
+      "confidence": 0.97,
+      "createdAt": 1787466823105,
+      "rationale": "This reply only corrects a time and does not clearly state that limits have reset.",
+      "tweetId": "2091413240337326588",
+      "tweetText": "Meant 2pm obviously",
+      "tweetUrl": "https://x.com/thsottiaux/status/2091413240337326588"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.97,
+        "evaluatedAt": 1787466823105,
+        "inputTokens": 387,
+        "outputTokens": 149,
+        "rationale": "This reply only corrects a time and does not clearly state that limits have reset.",
+        "reasoningTokens": 104,
+        "totalTokens": 536,
+        "tweetId": "2091413240337326588",
+        "tweetText": "Meant 2pm obviously",
+        "tweetUrl": "https://x.com/thsottiaux/status/2091413240337326588",
+        "verdict": "uncertain"
+      },
       {
         "confidence": 0.98,
         "evaluatedAt": 1787466819895,
@@ -279,29 +292,31 @@
         "tweetText": "@ajambrosino You can make your own sites (and share them!) in ChatGPT Work or on the ChatGPT desktop app if you are on the Plus plan or above.",
         "tweetUrl": "https://x.com/thsottiaux/status/2091014652574732563",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1787371797987,
-        "inputTokens": 428,
-        "outputTokens": 75,
-        "rationale": "This post promotes a music app on ChatGPT Sites and does not mention limits or resets.",
-        "reasoningTokens": 29,
-        "totalTokens": 503,
-        "tweetId": "2091014197144596734",
-        "tweetText": "@ajambrosino thought it was too hard to upload music to twitter, so he just prompted a whole music app hosted on ChatGPT Sites into existence just to share his album\n\nhttps://t.co/vOI40Xmxyc",
-        "tweetUrl": "https://x.com/thsottiaux/status/2091014197144596734",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 521202,
-      "totalOutputTokens": 136520,
-      "totalReasoningTokens": 75348,
-      "totalTokens": 657722
+      "totalInputTokens": 521589,
+      "totalOutputTokens": 136669,
+      "totalReasoningTokens": 75452,
+      "totalTokens": 658258
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.97,
+      "createdAt": 1787466823105,
+      "inputTokens": 387,
+      "message": "",
+      "outputTokens": 149,
+      "rationale": "This reply only corrects a time and does not clearly state that limits have reset.",
+      "reasoningTokens": 104,
+      "totalTokens": 536,
+      "tweetId": "2091413240337326588",
+      "tweetText": "Meant 2pm obviously",
+      "tweetUrl": "https://x.com/thsottiaux/status/2091413240337326588",
+      "type": "review_requested",
+      "verdict": "uncertain"
+    },
     {
       "confidence": 0.98,
       "createdAt": 1787466819895,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2090297429107278000",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1787171458936,
-      "inputTokens": 608,
-      "message": "",
-      "outputTokens": 82,
-      "rationale": "This post is about Zero Data Retention and Private Safety Processing, not usage limits or a reset.",
-      "reasoningTokens": 34,
-      "totalTokens": 690,
-      "tweetId": "2090173536010957128",
-      "tweetText": "Today we’re previewing Private Safety Processing, designed to let us keep offering Zero Data Retention while improving our safeguards. Even when benefiting from frontier intelligence, customers shouldn’t have to give up control of sensitive data.\n\nFor ZDR deployments, content stays on infrastructure the customer controls. Automated systems look for patterns across related interactions and return limited safety signals, without exposing the underlying prompts or responses to OpenAI employees (even me!).\n\nWe’re also developing an OpenAI-hosted option encrypted with customer-controlled keys. We’re testing this with early customers now and plan to begin rolling it out in September.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2090173536010957128",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "4cOlMhM52JPyBq1ppUxwz2NJbTRbcdQZqdwI06xlrkk8M-jmsu6nnV7TCQ",
-    "iv": "aINNAWVn3mj5m_yn",
-    "tag": "wpP3Ezv8s3btxAJzfShFGg",
+    "ciphertext": "JjJjhpYZXVphtKLG4rS7LlRIHlK3Pt3gZ_MYXQbOU4xONBq1y9p_nYP6jA",
+    "iv": "j9YYLU60agDIZ8Eu",
+    "tag": "ZBMUHSTgRf5lN4ZFS0MGAA",
     "version": 1
   }
 }
