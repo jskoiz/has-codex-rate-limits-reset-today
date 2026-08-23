@@ -14,16 +14,16 @@
   "updatedAt": 1787359978904,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1787467124397,
-      "rationale": "This reply is conversational and says nothing about limits, caps, or resets.",
-      "tweetId": "2091414006145908899",
-      "tweetUrl": "https://x.com/thsottiaux/status/2091414006145908899",
+      "confidence": 0.98,
+      "decidedAt": 1787467427493,
+      "rationale": "This reply asks a question and does not state or imply that any limits have reset.",
+      "tweetId": "2091415069540401373",
+      "tweetUrl": "https://x.com/thsottiaux/status/2091415069540401373",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2091414006145908899",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2091414006145908899",
+    "lastSeenTweetId": "2091415069540401373",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2091415069540401373",
     "pendingReview": {
       "confidence": 0.97,
       "createdAt": 1787466823105,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2091413240337326588"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.98,
+        "evaluatedAt": 1787467427493,
+        "inputTokens": 388,
+        "outputTokens": 83,
+        "rationale": "This reply asks a question and does not state or imply that any limits have reset.",
+        "reasoningTokens": 38,
+        "totalTokens": 471,
+        "tweetId": "2091415069540401373",
+        "tweetText": "@kimmonismus Chat is this true",
+        "tweetUrl": "https://x.com/thsottiaux/status/2091415069540401373",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1787467124397,
@@ -279,29 +292,31 @@
         "tweetText": "@immasiddx ai ai ai as we say in French",
         "tweetUrl": "https://x.com/thsottiaux/status/2091027012832125027",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1787372413509,
-        "inputTokens": 399,
-        "outputTokens": 99,
-        "rationale": "This reply just shares a favorite link and does not mention any limit or reset.",
-        "reasoningTokens": 55,
-        "totalTokens": 498,
-        "tweetId": "2091016731020169488",
-        "tweetText": "@ajambrosino Favorite is https://t.co/90lmgsf8J9",
-        "tweetUrl": "https://x.com/thsottiaux/status/2091016731020169488",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 521984,
-      "totalOutputTokens": 136740,
-      "totalReasoningTokens": 75480,
-      "totalTokens": 658724
+      "totalInputTokens": 522372,
+      "totalOutputTokens": 136823,
+      "totalReasoningTokens": 75518,
+      "totalTokens": 659195
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.98,
+      "createdAt": 1787467427493,
+      "inputTokens": 388,
+      "message": "",
+      "outputTokens": 83,
+      "rationale": "This reply asks a question and does not state or imply that any limits have reset.",
+      "reasoningTokens": 38,
+      "totalTokens": 471,
+      "tweetId": "2091415069540401373",
+      "tweetText": "@kimmonismus Chat is this true",
+      "tweetUrl": "https://x.com/thsottiaux/status/2091415069540401373",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1787467124397,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2090319049767174249",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.98,
-      "createdAt": 1787200829351,
-      "inputTokens": 391,
-      "message": "",
-      "outputTokens": 134,
-      "rationale": "This reply only says there is no double counting and does not indicate any limit reset or restored availability.",
-      "reasoningTokens": 86,
-      "totalTokens": 525,
-      "tweetId": "2090297494286774295",
-      "tweetText": "@ComebackCap @_clarktang No double counting",
-      "tweetUrl": "https://x.com/thsottiaux/status/2090297494286774295",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "kKdLBIG-VmXGRrTRdOfpB80NB-9ZhASr7OyUaqHrwpBWQ3DkrJ0a0W3bfw",
-    "iv": "yYwp99Ebr1AEr3wX",
-    "tag": "-Gu9IyBdvOtoSEBRAPA3pQ",
+    "ciphertext": "PjzUxIf2Bp4G-A7arMiIWHryzeFeNrUZJnmCvGw59KXuIt2RsfusbmcJ6w",
+    "iv": "sG20kPY_czttIz5N",
+    "tag": "Drfz2EGlSbvvu30dBMRnnA",
     "version": 1
   }
 }
