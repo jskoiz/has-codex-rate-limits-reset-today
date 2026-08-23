@@ -14,16 +14,16 @@
   "updatedAt": 1787359978904,
   "automation": {
     "lastDecision": {
-      "confidence": 0.97,
-      "decidedAt": 1787465586221,
-      "rationale": "It announces a full usage reset for tomorrow, not that limits have reset now.",
-      "tweetId": "2091407991736332689",
-      "tweetUrl": "https://x.com/thsottiaux/status/2091407991736332689",
+      "confidence": 0.99,
+      "decidedAt": 1787465895192,
+      "rationale": "This reply just says \"Posted\" and gives no indication that any limits reset.",
+      "tweetId": "2091408930635436341",
+      "tweetUrl": "https://x.com/thsottiaux/status/2091408930635436341",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2091407991736332689",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2091407991736332689",
+    "lastSeenTweetId": "2091408930635436341",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2091408930635436341",
     "pendingReview": {
       "confidence": 0.84,
       "createdAt": 1787379271451,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2091045457158103247"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1787465895192,
+        "inputTokens": 386,
+        "outputTokens": 102,
+        "rationale": "This reply just says \"Posted\" and gives no indication that any limits reset.",
+        "reasoningTokens": 58,
+        "totalTokens": 488,
+        "tweetId": "2091408930635436341",
+        "tweetText": "@buildwithrajath Posted",
+        "tweetUrl": "https://x.com/thsottiaux/status/2091408930635436341",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.97,
         "evaluatedAt": 1787465586221,
@@ -279,29 +292,31 @@
         "tweetText": "@maria_rcks Hmmm. That’s unfortunate. We have this feature because it’s a nicer user experience overall.\n\nOf course you can abuse it and trick the system somewhat, but if done at scale then it will force us to revisit this nice feature.",
         "tweetUrl": "https://x.com/thsottiaux/status/2090965871456026686",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1787359978904,
-        "inputTokens": 466,
-        "outputTokens": 128,
-        "rationale": "The tweet explicitly says the banked reset has landed for paid ChatGPT Work and Codex users.",
-        "reasoningTokens": 79,
-        "totalTokens": 594,
-        "tweetId": "2090964822422949999",
-        "tweetText": "The banked reset has landed, I repeat, the banked reset has landed. Have an amazing weekend.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2090964822422949999",
-        "verdict": "reset_confirmed"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 520036,
-      "totalOutputTokens": 136204,
-      "totalReasoningTokens": 75165,
-      "totalTokens": 656240
+      "totalInputTokens": 520422,
+      "totalOutputTokens": 136306,
+      "totalReasoningTokens": 75223,
+      "totalTokens": 656728
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1787465895192,
+      "inputTokens": 386,
+      "message": "",
+      "outputTokens": 102,
+      "rationale": "This reply just says \"Posted\" and gives no indication that any limits reset.",
+      "reasoningTokens": 58,
+      "totalTokens": 488,
+      "tweetId": "2091408930635436341",
+      "tweetText": "@buildwithrajath Posted",
+      "tweetUrl": "https://x.com/thsottiaux/status/2091408930635436341",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.97,
       "createdAt": 1787465586221,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2090117067584491653",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.23,
-      "createdAt": 1787157810829,
-      "inputTokens": 410,
-      "message": "",
-      "outputTokens": 258,
-      "rationale": "This mentions Codex usage but does not clearly say any limit or cap has reset or become available again.",
-      "reasoningTokens": 209,
-      "totalTokens": 668,
-      "tweetId": "2090116476414136830",
-      "tweetText": "It has not been used yet, but would you look at that. Codex for scale. https://t.co/o1pulwoifd",
-      "tweetUrl": "https://x.com/thsottiaux/status/2090116476414136830",
-      "type": "review_requested",
-      "verdict": "uncertain"
     }
   ],
   "privateState": {
-    "ciphertext": "Z__9UB3fI64QuR9zEyZJT4zAk3EMhX6a93v79M9xTWRUPLNdQS0CEh9mDg",
-    "iv": "XSfGJM3nNuk1VsUD",
-    "tag": "g6O8BWGC-mVruHkLbdfasg",
+    "ciphertext": "HD7ODo8ZwH3ZFC8QWYz4l_8JeUmD5qn4bQDiNIv_XfZC8LlhkvNYPz-RQg",
+    "iv": "vyc2qBl0h6i1ufjD",
+    "tag": "v7uRKd_u2QaQ9f_LdlhWjw",
     "version": 1
   }
 }
