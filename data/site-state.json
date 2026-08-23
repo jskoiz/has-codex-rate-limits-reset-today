@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1787464962209,
-      "rationale": "This reply is conversational and says nothing about limits or a reset.",
-      "tweetId": "2091405381235019793",
-      "tweetUrl": "https://x.com/thsottiaux/status/2091405381235019793",
+      "decidedAt": 1787465277773,
+      "rationale": "This reply is about unsupported sub2api usage, not a rate-limit or cap reset.",
+      "tweetId": "2091406082497552557",
+      "tweetUrl": "https://x.com/thsottiaux/status/2091406082497552557",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2091405381235019793",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2091405381235019793",
+    "lastSeenTweetId": "2091406082497552557",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2091406082497552557",
     "pendingReview": {
       "confidence": 0.84,
       "createdAt": 1787379271451,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2091045457158103247"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1787465277774,
+        "inputTokens": 392,
+        "outputTokens": 84,
+        "rationale": "This reply is about unsupported sub2api usage, not a rate-limit or cap reset.",
+        "reasoningTokens": 38,
+        "totalTokens": 476,
+        "tweetId": "2091406082497552557",
+        "tweetText": "@CtrlAltDwayne We don’t support sub2api",
+        "tweetUrl": "https://x.com/thsottiaux/status/2091406082497552557",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1787464962209,
@@ -279,29 +292,31 @@
         "tweetText": "The banked reset will be there by 8pm PST. For all paid users of ChatGPT Work and Codex. Do with this information what you may.",
         "tweetUrl": "https://x.com/thsottiaux/status/2090947196107764189",
         "verdict": "uncertain"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1787355583678,
-        "inputTokens": 388,
-        "outputTokens": 79,
-        "rationale": "This reply just says “GPTChat” and does not mention limits or a reset.",
-        "reasoningTokens": 34,
-        "totalTokens": 467,
-        "tweetId": "2090946712647106988",
-        "tweetText": "@growing_daniel GPTChat",
-        "tweetUrl": "https://x.com/thsottiaux/status/2090946712647106988",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 519030,
-      "totalOutputTokens": 135930,
-      "totalReasoningTokens": 74981,
-      "totalTokens": 654960
+      "totalInputTokens": 519422,
+      "totalOutputTokens": 136014,
+      "totalReasoningTokens": 75019,
+      "totalTokens": 655436
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1787465277774,
+      "inputTokens": 392,
+      "message": "",
+      "outputTokens": 84,
+      "rationale": "This reply is about unsupported sub2api usage, not a rate-limit or cap reset.",
+      "reasoningTokens": 38,
+      "totalTokens": 476,
+      "tweetId": "2091406082497552557",
+      "tweetText": "@CtrlAltDwayne We don’t support sub2api",
+      "tweetUrl": "https://x.com/thsottiaux/status/2091406082497552557",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1787464962209,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2089964604172673121",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1787121358620,
-      "inputTokens": 392,
-      "message": "",
-      "outputTokens": 89,
-      "rationale": "This reply is conversational and says nothing about limits or a reset.",
-      "reasoningTokens": 48,
-      "totalTokens": 481,
-      "tweetId": "2089963353674486142",
-      "tweetText": "@jediahkatz You probably do have a blind spot",
-      "tweetUrl": "https://x.com/thsottiaux/status/2089963353674486142",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "yzQh0q4dpxfuy2cEXoCIKWbk015IenUCA-t5yld-X-q67Sv2zpWddT5bTg",
-    "iv": "DB7LtpdTIFtVPkMJ",
-    "tag": "PByLxeDxUtKZpAIQRSe10Q",
+    "ciphertext": "NUhMqJ4swzYP3pZ2KI3KUum6hGm7XP3ZBDcPvJ6sBncdooQUIvcrmkrLxQ",
+    "iv": "SILw5TV4-8CvGM2q",
+    "tag": "9c4mWpPoRIu4SdpP2SioMQ",
     "version": 1
   }
 }
