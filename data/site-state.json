@@ -1,5 +1,5 @@
 {
-  "currentState": "yes",
+  "currentState": "no",
   "autoResetHours": 20,
   "noSubtitles": [
     "Back to your local model peasant",
@@ -10,22 +10,35 @@
     "Limits reset, go crazy",
     "You can just build things"
   ],
-  "resetAt": 1787604649941,
+  "resetAt": null,
   "updatedAt": 1787532649941,
   "automation": {
     "lastDecision": {
-      "confidence": 0.95,
-      "decidedAt": 1787598275072,
-      "rationale": "This reply discusses a 4/20 number and does not say caps or rate limits have reset or been restored.",
-      "tweetId": "2091964537385656335",
-      "tweetUrl": "https://x.com/thsottiaux/status/2091964537385656335",
+      "confidence": 0.99,
+      "decidedAt": 1787610945641,
+      "rationale": "This reply is just conversational speculation and does not mention limits or a reset.",
+      "tweetId": "2092017873023819856",
+      "tweetUrl": "https://x.com/thsottiaux/status/2092017873023819856",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2091964537385656335",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2091964537385656335",
+    "lastSeenTweetId": "2092017873023819856",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2092017873023819856",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1787610945641,
+        "inputTokens": 391,
+        "outputTokens": 73,
+        "rationale": "This reply is just conversational speculation and does not mention limits or a reset.",
+        "reasoningTokens": 30,
+        "totalTokens": 464,
+        "tweetId": "2092017873023819856",
+        "tweetText": "@ChatGPT What are they shipping over there 👀",
+        "tweetUrl": "https://x.com/thsottiaux/status/2092017873023819856",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.95,
         "evaluatedAt": 1787598275072,
@@ -272,29 +285,31 @@
         "tweetText": "@CtrlAltDwayne We don’t support sub2api",
         "tweetUrl": "https://x.com/thsottiaux/status/2091406082497552557",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1787464962209,
-        "inputTokens": 391,
-        "outputTokens": 75,
-        "rationale": "This reply is conversational and says nothing about limits or a reset.",
-        "reasoningTokens": 34,
-        "totalTokens": 466,
-        "tweetId": "2091405381235019793",
-        "tweetText": "@ForwardEditor 20M people nodded in unison",
-        "tweetUrl": "https://x.com/thsottiaux/status/2091405381235019793",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 526956,
-      "totalOutputTokens": 138218,
-      "totalReasoningTokens": 76410,
-      "totalTokens": 665174
+      "totalInputTokens": 527347,
+      "totalOutputTokens": 138291,
+      "totalReasoningTokens": 76440,
+      "totalTokens": 665638
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1787610945641,
+      "inputTokens": 391,
+      "message": "",
+      "outputTokens": 73,
+      "rationale": "This reply is just conversational speculation and does not mention limits or a reset.",
+      "reasoningTokens": 30,
+      "totalTokens": 464,
+      "tweetId": "2092017873023819856",
+      "tweetText": "@ChatGPT What are they shipping over there 👀",
+      "tweetUrl": "https://x.com/thsottiaux/status/2092017873023819856",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.95,
       "createdAt": 1787598275072,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2090947196107764189",
       "type": "review_requested",
       "verdict": "uncertain"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1787355583678,
-      "inputTokens": 388,
-      "message": "",
-      "outputTokens": 79,
-      "rationale": "This reply just says “GPTChat” and does not mention limits or a reset.",
-      "reasoningTokens": 34,
-      "totalTokens": 467,
-      "tweetId": "2090946712647106988",
-      "tweetText": "@growing_daniel GPTChat",
-      "tweetUrl": "https://x.com/thsottiaux/status/2090946712647106988",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "IhtYS11w1KMoVPomozsv6zf8AgqP_VQj21Pcx4c9RhuQmgmg9T-JkxBrqA",
-    "iv": "nGoObSxhctybHOnl",
-    "tag": "DMucQeXBQHHsXbktp3Ec_A",
+    "ciphertext": "VHN62eLcabXH-hJX3qCbUH8DFbPwukEbyUQ2DJZ044pMCOzRUhJoddh63A",
+    "iv": "6WbrEh05Qk6IkRnY",
+    "tag": "5-w1KhcqfVUmj7Mi9ZFCQw",
     "version": 1
   }
 }
