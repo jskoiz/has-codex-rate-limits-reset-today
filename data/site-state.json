@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1787532336311,
-      "rationale": "This reply is conversational and does not mention any limit, cap, or reset.",
-      "tweetId": "2091687884919349406",
-      "tweetUrl": "https://x.com/thsottiaux/status/2091687884919349406",
+      "decidedAt": 1787532339279,
+      "rationale": "This reply is generic status commentary and does not say limits or rate caps have reset.",
+      "tweetId": "2091688192240226784",
+      "tweetUrl": "https://x.com/thsottiaux/status/2091688192240226784",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2091687884919349406",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2091687884919349406",
+    "lastSeenTweetId": "2091688192240226784",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2091688192240226784",
     "pendingReview": {
       "confidence": 0.97,
       "createdAt": 1787466823105,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2091413240337326588"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1787532339279,
+        "inputTokens": 391,
+        "outputTokens": 82,
+        "rationale": "This reply is generic status commentary and does not say limits or rate caps have reset.",
+        "reasoningTokens": 37,
+        "totalTokens": 473,
+        "tweetId": "2091688192240226784",
+        "tweetText": "@TJeparskis We are hard at work.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2091688192240226784",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1787532336311,
@@ -279,29 +292,31 @@
         "tweetText": "@buildwithrajath Should be all propagated",
         "tweetUrl": "https://x.com/thsottiaux/status/2091045457158103247",
         "verdict": "uncertain"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1787378638189,
-        "inputTokens": 394,
-        "outputTokens": 77,
-        "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-        "reasoningTokens": 33,
-        "totalTokens": 471,
-        "tweetId": "2091042707334742221",
-        "tweetText": "@TheAhmadOsman Never let a good crisis go to waste",
-        "tweetUrl": "https://x.com/thsottiaux/status/2091042707334742221",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 523601,
-      "totalOutputTokens": 137094,
-      "totalReasoningTokens": 75654,
-      "totalTokens": 660695
+      "totalInputTokens": 523992,
+      "totalOutputTokens": 137176,
+      "totalReasoningTokens": 75691,
+      "totalTokens": 661168
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1787532339279,
+      "inputTokens": 391,
+      "message": "",
+      "outputTokens": 82,
+      "rationale": "This reply is generic status commentary and does not say limits or rate caps have reset.",
+      "reasoningTokens": 37,
+      "totalTokens": 473,
+      "tweetId": "2091688192240226784",
+      "tweetText": "@TJeparskis We are hard at work.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2091688192240226784",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1787532336311,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2090632208872853889",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1787280531360,
-      "inputTokens": 521,
-      "message": "",
-      "outputTokens": 77,
-      "rationale": "This post is about GPT-Image-2 transparent image support, not rate limits or usage caps resetting.",
-      "reasoningTokens": 28,
-      "totalTokens": 598,
-      "tweetId": "2090631723302469995",
-      "tweetText": "Yay, you can now make transparent images in ChatGPT and through the API with GPT-Image-2. Here is a cactus cactus I am about to print and put on my laptop. https://t.co/1WZd2VSH8y",
-      "tweetUrl": "https://x.com/thsottiaux/status/2090631723302469995",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "h_ugpmfRIfbCapCAhHUKpyILIrgWzn0SdNmYATKgNLMiPnf_12m2MX_tQg",
-    "iv": "fQvUujFnOxL0Oz8Y",
-    "tag": "iplhQA8jbZWGeP6Rv1__sA",
+    "ciphertext": "1ydMQ_GVzTBhgBxJRBtHBBcPZXpB1aI8prjFh6OWHXstG3B2QysOpN-WWw",
+    "iv": "6ekFCKO9qTq9kf_N",
+    "tag": "q397wROue_28gSYiByiz_w",
     "version": 1
   }
 }
