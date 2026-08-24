@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1787537589978,
-      "rationale": "This reply does not say or imply that any Codex or ChatGPT limits have reset.",
-      "tweetId": "2091709448817701117",
-      "tweetUrl": "https://x.com/thsottiaux/status/2091709448817701117",
+      "decidedAt": 1787537592517,
+      "rationale": "This reply is conversational and does not mention limits, caps, or usage resetting.",
+      "tweetId": "2091709537451687948",
+      "tweetUrl": "https://x.com/thsottiaux/status/2091709537451687948",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2091709448817701117",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2091709448817701117",
+    "lastSeenTweetId": "2091709537451687948",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2091709537451687948",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1787537592517,
+        "inputTokens": 387,
+        "outputTokens": 72,
+        "rationale": "This reply is conversational and does not mention limits, caps, or usage resetting.",
+        "reasoningTokens": 28,
+        "totalTokens": 459,
+        "tweetId": "2091709537451687948",
+        "tweetText": "@iwasrobbed Any time",
+        "tweetUrl": "https://x.com/thsottiaux/status/2091709537451687948",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1787537589978,
@@ -272,29 +285,31 @@
         "tweetText": "@rezoundous Astra who?",
         "tweetUrl": "https://x.com/thsottiaux/status/2091290020388716914",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1787437616205,
-        "inputTokens": 386,
-        "outputTokens": 99,
-        "rationale": "This reply just says \"Luna\" and does not mention limits, caps, or availability resetting.",
-        "reasoningTokens": 51,
-        "totalTokens": 485,
-        "tweetId": "2091289970153533592",
-        "tweetText": "@petergostev Luna",
-        "tweetUrl": "https://x.com/thsottiaux/status/2091289970153533592",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 525771,
-      "totalOutputTokens": 137635,
-      "totalReasoningTokens": 75967,
-      "totalTokens": 663406
+      "totalInputTokens": 526158,
+      "totalOutputTokens": 137707,
+      "totalReasoningTokens": 75995,
+      "totalTokens": 663865
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1787537592517,
+      "inputTokens": 387,
+      "message": "",
+      "outputTokens": 72,
+      "rationale": "This reply is conversational and does not mention limits, caps, or usage resetting.",
+      "reasoningTokens": 28,
+      "totalTokens": 459,
+      "tweetId": "2091709537451687948",
+      "tweetText": "@iwasrobbed Any time",
+      "tweetUrl": "https://x.com/thsottiaux/status/2091709537451687948",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1787537589978,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2090767169889992755",
       "type": "review_requested",
       "verdict": "uncertain"
-    },
-    {
-      "confidence": 0.98,
-      "createdAt": 1787312860918,
-      "inputTokens": 695,
-      "message": "",
-      "outputTokens": 221,
-      "rationale": "The main tweet explicitly announces every Codex and ChatGPT Work user will be credited a banked reset during the day.",
-      "reasoningTokens": 168,
-      "totalTokens": 916,
-      "tweetId": "2090766694897619318",
-      "tweetText": "It's me again. I come bearing great news. \n\nFirst of all, we have hit 20M active users for Codex some time this week. Second of all, this is cause for celebration and during the day we will credit every Codex and ChatGPT Work user with a BANKED reset that you can use at your own leisure. And we will have some other good news later too!\n\nNow, on usage limits draining faster, while we're not seeing anything abnormal, we do take it incredibly seriously and there is an ongoing investigation. I will share if we do find anything and my below post is really a clarification on a specific pattern that we did see that I wanted to call out.\n\nGo do something amazing today.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2090766694897619318",
-      "type": "reset_confirmed",
-      "verdict": "reset_confirmed"
     }
   ],
   "privateState": {
-    "ciphertext": "a0GI3fdakm-237rrIzB6ipV6NixOIieLUiSEE5GAma0SGxZhIXcWFDcrig",
-    "iv": "yAvTrZpFbcrXEJjt",
-    "tag": "shX2NDmIZ95gk6A0xHfwOw",
+    "ciphertext": "BxW-J_aQZcPYk5O22vitO0SZjV2050uAXNStTDdn1S8I2TqQqRSGkcLw8A",
+    "iv": "joCp2cBd11tQwRWS",
+    "tag": "wLEK6-r6y4BcnJ1EC4oVsA",
     "version": 1
   }
 }
