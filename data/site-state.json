@@ -14,18 +14,31 @@
   "updatedAt": 1787532649941,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1787537592517,
-      "rationale": "This reply is conversational and does not mention limits, caps, or usage resetting.",
-      "tweetId": "2091709537451687948",
-      "tweetUrl": "https://x.com/thsottiaux/status/2091709537451687948",
+      "confidence": 0.98,
+      "decidedAt": 1787596687166,
+      "rationale": "This reply discusses fixing issues but does not say any limits or rate caps have reset.",
+      "tweetId": "2091957224302092394",
+      "tweetUrl": "https://x.com/thsottiaux/status/2091957224302092394",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2091709537451687948",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2091709537451687948",
+    "lastSeenTweetId": "2091957224302092394",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2091957224302092394",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.98,
+        "evaluatedAt": 1787596687166,
+        "inputTokens": 401,
+        "outputTokens": 147,
+        "rationale": "This reply discusses fixing issues but does not say any limits or rate caps have reset.",
+        "reasoningTokens": 102,
+        "totalTokens": 548,
+        "tweetId": "2091957224302092394",
+        "tweetText": "@nicdunz Agreed. We're working to squash all of it and make sure it doesn't happen again.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2091957224302092394",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1787537592517,
@@ -272,29 +285,31 @@
         "tweetText": "@diegocabezas01 That's an odd comparison. Computer History is just a feature. Bot is the entire output of Cursor + XAI",
         "tweetUrl": "https://x.com/thsottiaux/status/2091290999381184620",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1787437619382,
-        "inputTokens": 386,
-        "outputTokens": 77,
-        "rationale": "This reply is conversational and does not mention limits, caps, or availability resetting.",
-        "reasoningTokens": 33,
-        "totalTokens": 463,
-        "tweetId": "2091290020388716914",
-        "tweetText": "@rezoundous Astra who?",
-        "tweetUrl": "https://x.com/thsottiaux/status/2091290020388716914",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 526158,
-      "totalOutputTokens": 137707,
-      "totalReasoningTokens": 75995,
-      "totalTokens": 663865
+      "totalInputTokens": 526559,
+      "totalOutputTokens": 137854,
+      "totalReasoningTokens": 76097,
+      "totalTokens": 664413
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.98,
+      "createdAt": 1787596687166,
+      "inputTokens": 401,
+      "message": "",
+      "outputTokens": 147,
+      "rationale": "This reply discusses fixing issues but does not say any limits or rate caps have reset.",
+      "reasoningTokens": 102,
+      "totalTokens": 548,
+      "tweetId": "2091957224302092394",
+      "tweetText": "@nicdunz Agreed. We're working to squash all of it and make sure it doesn't happen again.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2091957224302092394",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0,
       "createdAt": 1787587124512,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2090887457915232269",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1787314720301,
-      "inputTokens": 385,
-      "message": "",
-      "outputTokens": 86,
-      "rationale": "This is just a congratulatory reply and does not mention limits or availability resetting.",
-      "reasoningTokens": 42,
-      "totalTokens": 471,
-      "tweetId": "2090774982271848809",
-      "tweetText": "@theo Congrats!!",
-      "tweetUrl": "https://x.com/thsottiaux/status/2090774982271848809",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "NShoGPvLGstkzvBZWbGB-lrl2hueNk9FUYB7ZrpU5xRvSX4qm6Ii2yWHow",
-    "iv": "I5Y3hCAXbIHsigrG",
-    "tag": "_M5hQjbzKNdmQtA4GfexNg",
+    "ciphertext": "7myNQJVm2sYMSo90kai8mAYw8-4c4NoLqC_QID_S7-iFH917T8yP1lhsUg",
+    "iv": "ksQnDSv8Fw9lSo_l",
+    "tag": "4qIrSymHtAJWrKkJxSrhOw",
     "version": 1
   }
 }
