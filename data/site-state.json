@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1787532649941,
-      "rationale": "The main tweet explicitly says the reset has been propagated to accounts, confirming usage was reset now.",
-      "tweetId": "2091688655828246890",
-      "tweetUrl": "https://x.com/thsottiaux/status/2091688655828246890",
-      "verdict": "reset_confirmed"
+      "decidedAt": 1787532958107,
+      "rationale": "This reply is conversational and says nothing about limits or a reset.",
+      "tweetId": "2091689575878189547",
+      "tweetUrl": "https://x.com/thsottiaux/status/2091689575878189547",
+      "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2091688655828246890",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2091688655828246890",
+    "lastSeenTweetId": "2091689575878189547",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2091689575878189547",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1787532958107,
+        "inputTokens": 390,
+        "outputTokens": 74,
+        "rationale": "This reply is conversational and says nothing about limits or a reset.",
+        "reasoningTokens": 33,
+        "totalTokens": 464,
+        "tweetId": "2091689575878189547",
+        "tweetText": "@npm_startup Adam hurt itself in its confusion!",
+        "tweetUrl": "https://x.com/thsottiaux/status/2091689575878189547",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1787532649941,
@@ -272,29 +285,31 @@
         "tweetText": "@ericmitchellai ?",
         "tweetUrl": "https://x.com/thsottiaux/status/2091051557983015302",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1787380508157,
-        "inputTokens": 387,
-        "outputTokens": 98,
-        "rationale": "This reply just asks a question and does not mention limits or a reset.",
-        "reasoningTokens": 55,
-        "totalTokens": 485,
-        "tweetId": "2091050758091477274",
-        "tweetText": "@aarondotdev Which model?",
-        "tweetUrl": "https://x.com/thsottiaux/status/2091050758091477274",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 524578,
-      "totalOutputTokens": 137295,
-      "totalReasoningTokens": 75762,
-      "totalTokens": 661873
+      "totalInputTokens": 524968,
+      "totalOutputTokens": 137369,
+      "totalReasoningTokens": 75795,
+      "totalTokens": 662337
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1787532958107,
+      "inputTokens": 390,
+      "message": "",
+      "outputTokens": 74,
+      "rationale": "This reply is conversational and says nothing about limits or a reset.",
+      "reasoningTokens": 33,
+      "totalTokens": 464,
+      "tweetId": "2091689575878189547",
+      "tweetText": "@npm_startup Adam hurt itself in its confusion!",
+      "tweetUrl": "https://x.com/thsottiaux/status/2091689575878189547",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1787532649941,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2090677311276499164",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.98,
-      "createdAt": 1787290789138,
-      "inputTokens": 513,
-      "message": "",
-      "outputTokens": 112,
-      "rationale": "This discusses fraud-related flagging and clarifies supported usage, not that any rate limits or caps have reset.",
-      "reasoningTokens": 62,
-      "totalTokens": 625,
-      "tweetId": "2090675027670978569",
-      "tweetText": "We've investigated a few messages about codex usage limits being different. That's not something we change without engaging the community and being transparent.\n\nWhat we did see is that when talking to affected users many were using sub2api. Converting a subscription into api traffic to then re-serve or share across many users is not something we support and this type of usage gets flagged by our fraud-prevention systems.\n\nYou are completely fine if you use your subscription through Sign in With ChatGPT, either through the official clients or through one of the many OSS clients (Pi, OpenCode, ...) that support signing in with your account and using your included usage.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2090675027670978569",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "KJxXADHcxGBRyxCKqDMO1N5AsrvjgzlR4A8lRAI5Untf00fpXIhg7sOitg",
-    "iv": "BTWteB9ZXPe4GRtG",
-    "tag": "AXejqt9_Pj8fGchXU0W7Yw",
+    "ciphertext": "F0IQRp2NvlzVVCnFMlFGFWyqX7k71rCf7wZrCCmT7Wea-kPWWJRgF3CTqg",
+    "iv": "SRyDwi5mDYKOtfv6",
+    "tag": "Fwu7Kc19Tz3JJ4U5bypnZA",
     "version": 1
   }
 }
