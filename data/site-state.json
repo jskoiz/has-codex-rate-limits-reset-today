@@ -14,18 +14,31 @@
   "updatedAt": 1787532649941,
   "automation": {
     "lastDecision": {
-      "confidence": 0.98,
-      "decidedAt": 1787596687166,
-      "rationale": "This reply discusses fixing issues but does not say any limits or rate caps have reset.",
-      "tweetId": "2091957224302092394",
-      "tweetUrl": "https://x.com/thsottiaux/status/2091957224302092394",
+      "confidence": 0.95,
+      "decidedAt": 1787598275072,
+      "rationale": "This reply discusses a 4/20 number and does not say caps or rate limits have reset or been restored.",
+      "tweetId": "2091964537385656335",
+      "tweetUrl": "https://x.com/thsottiaux/status/2091964537385656335",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2091957224302092394",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2091957224302092394",
+    "lastSeenTweetId": "2091964537385656335",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2091964537385656335",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.95,
+        "evaluatedAt": 1787598275072,
+        "inputTokens": 397,
+        "outputTokens": 364,
+        "rationale": "This reply discusses a 4/20 number and does not say caps or rate limits have reset or been restored.",
+        "reasoningTokens": 313,
+        "totalTokens": 761,
+        "tweetId": "2091964537385656335",
+        "tweetText": "@AdamHoltererer It's now 4/20, because that's a nice number",
+        "tweetUrl": "https://x.com/thsottiaux/status/2091964537385656335",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.98,
         "evaluatedAt": 1787596687166,
@@ -272,29 +285,31 @@
         "tweetText": "@ForwardEditor 20M people nodded in unison",
         "tweetUrl": "https://x.com/thsottiaux/status/2091405381235019793",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1787437621915,
-        "inputTokens": 409,
-        "outputTokens": 71,
-        "rationale": "This reply discusses product comparison and says nothing about limits or resets.",
-        "reasoningTokens": 30,
-        "totalTokens": 480,
-        "tweetId": "2091290999381184620",
-        "tweetText": "@diegocabezas01 That's an odd comparison. Computer History is just a feature. Bot is the entire output of Cursor + XAI",
-        "tweetUrl": "https://x.com/thsottiaux/status/2091290999381184620",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 526559,
-      "totalOutputTokens": 137854,
-      "totalReasoningTokens": 76097,
-      "totalTokens": 664413
+      "totalInputTokens": 526956,
+      "totalOutputTokens": 138218,
+      "totalReasoningTokens": 76410,
+      "totalTokens": 665174
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.95,
+      "createdAt": 1787598275072,
+      "inputTokens": 397,
+      "message": "",
+      "outputTokens": 364,
+      "rationale": "This reply discusses a 4/20 number and does not say caps or rate limits have reset or been restored.",
+      "reasoningTokens": 313,
+      "totalTokens": 761,
+      "tweetId": "2091964537385656335",
+      "tweetText": "@AdamHoltererer It's now 4/20, because that's a nice number",
+      "tweetUrl": "https://x.com/thsottiaux/status/2091964537385656335",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.98,
       "createdAt": 1787596687166,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2090946712647106988",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1787341658372,
-      "inputTokens": 477,
-      "message": "",
-      "outputTokens": 89,
-      "rationale": "This post is about GPT-5.6 Sol pricing and performance, not rate-limit or cap resets.",
-      "reasoningTokens": 40,
-      "totalTokens": 566,
-      "tweetId": "2090887457915232269",
-      "tweetText": "Sol shines brighter today. Efficiency, reliability and performance are the name of the game.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2090887457915232269",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "7myNQJVm2sYMSo90kai8mAYw8-4c4NoLqC_QID_S7-iFH917T8yP1lhsUg",
-    "iv": "ksQnDSv8Fw9lSo_l",
-    "tag": "4qIrSymHtAJWrKkJxSrhOw",
+    "ciphertext": "IhtYS11w1KMoVPomozsv6zf8AgqP_VQj21Pcx4c9RhuQmgmg9T-JkxBrqA",
+    "iv": "nGoObSxhctybHOnl",
+    "tag": "DMucQeXBQHHsXbktp3Ec_A",
     "version": 1
   }
 }
