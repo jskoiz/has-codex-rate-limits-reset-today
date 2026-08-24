@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1787507137251,
-      "rationale": "This post is a general comment about model efficiency and reliability, not about usage limits resetting.",
-      "tweetId": "2091581575108653374",
-      "tweetUrl": "https://x.com/thsottiaux/status/2091581575108653374",
+      "decidedAt": 1787532336311,
+      "rationale": "This reply is conversational and does not mention any limit, cap, or reset.",
+      "tweetId": "2091687884919349406",
+      "tweetUrl": "https://x.com/thsottiaux/status/2091687884919349406",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2091581575108653374",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2091581575108653374",
+    "lastSeenTweetId": "2091687884919349406",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2091687884919349406",
     "pendingReview": {
       "confidence": 0.97,
       "createdAt": 1787466823105,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2091413240337326588"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1787532336311,
+        "inputTokens": 390,
+        "outputTokens": 102,
+        "rationale": "This reply is conversational and does not mention any limit, cap, or reset.",
+        "reasoningTokens": 58,
+        "totalTokens": 492,
+        "tweetId": "2091687884919349406",
+        "tweetText": "@maria_rcks Some people will believe you",
+        "tweetUrl": "https://x.com/thsottiaux/status/2091687884919349406",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1787507137251,
@@ -279,29 +292,31 @@
         "tweetText": "@TheAhmadOsman Never let a good crisis go to waste",
         "tweetUrl": "https://x.com/thsottiaux/status/2091042707334742221",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.97,
-        "evaluatedAt": 1787378008992,
-        "inputTokens": 412,
-        "outputTokens": 122,
-        "rationale": "This reply discusses investigating an issue and communicating updates, not that limits have reset or usage is…",
-        "reasoningTokens": 73,
-        "totalTokens": 534,
-        "tweetId": "2091040344943288474",
-        "tweetText": "@RealEverNever That's quite intense. Let me know how I can communicate better, trying to keep you informed and currently with the team looking at logs and dashboards.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2091040344943288474",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 523211,
-      "totalOutputTokens": 136992,
-      "totalReasoningTokens": 75596,
-      "totalTokens": 660203
+      "totalInputTokens": 523601,
+      "totalOutputTokens": 137094,
+      "totalReasoningTokens": 75654,
+      "totalTokens": 660695
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1787532336311,
+      "inputTokens": 390,
+      "message": "",
+      "outputTokens": 102,
+      "rationale": "This reply is conversational and does not mention any limit, cap, or reset.",
+      "reasoningTokens": 58,
+      "totalTokens": 492,
+      "tweetId": "2091687884919349406",
+      "tweetText": "@maria_rcks Some people will believe you",
+      "tweetUrl": "https://x.com/thsottiaux/status/2091687884919349406",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1787507137251,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2090631723302469995",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1787253539681,
-      "inputTokens": 494,
-      "message": "",
-      "outputTokens": 86,
-      "rationale": "This post promotes ChatGPT Sites collaboration and does not mention any limits, caps, or reset.",
-      "reasoningTokens": 39,
-      "totalTokens": 580,
-      "tweetId": "2090518287532916854",
-      "tweetText": "Create a ChatGPT Site, share it and create something together. I've been building little games and sites with others and it is so much fun.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2090518287532916854",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "oC8mulL4RBYJGsM-pq7OPpphodE8stk7hckAICIVxot72xFk7rTh_G5k4w",
-    "iv": "wFh3JXtYZQkgadb-",
-    "tag": "2_zH2UzmExt4SDHhgsuWiA",
+    "ciphertext": "h_ugpmfRIfbCapCAhHUKpyILIrgWzn0SdNmYATKgNLMiPnf_12m2MX_tQg",
+    "iv": "fQvUujFnOxL0Oz8Y",
+    "tag": "iplhQA8jbZWGeP6Rv1__sA",
     "version": 1
   }
 }
