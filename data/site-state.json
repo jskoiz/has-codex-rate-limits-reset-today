@@ -21,7 +21,7 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2091709537451687948",
       "verdict": "not_reset"
     },
-    "lastError": null,
+    "lastError": "fetch failed (other side closed)",
     "lastSeenTweetId": "2091709537451687948",
     "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2091709537451687948",
     "pendingReview": null,
@@ -295,6 +295,21 @@
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0,
+      "createdAt": 1787587124512,
+      "inputTokens": 0,
+      "message": "fetch failed (other side closed)",
+      "outputTokens": 0,
+      "rationale": "",
+      "reasoningTokens": 0,
+      "totalTokens": 0,
+      "tweetId": null,
+      "tweetText": "",
+      "tweetUrl": null,
+      "type": "error",
+      "verdict": null
+    },
     {
       "confidence": 0.99,
       "createdAt": 1787537592517,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2090774982271848809",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.87,
-      "createdAt": 1787313170270,
-      "inputTokens": 391,
-      "message": "",
-      "outputTokens": 210,
-      "rationale": "This reply is too vague to confirm a current cap or rate-limit reset.",
-      "reasoningTokens": 167,
-      "totalTokens": 601,
-      "tweetId": "2090767169889992755",
-      "tweetText": "@rxriqo Banked my friend, banked",
-      "tweetUrl": "https://x.com/thsottiaux/status/2090767169889992755",
-      "type": "review_requested",
-      "verdict": "uncertain"
     }
   ],
   "privateState": {
-    "ciphertext": "BxW-J_aQZcPYk5O22vitO0SZjV2050uAXNStTDdn1S8I2TqQqRSGkcLw8A",
-    "iv": "joCp2cBd11tQwRWS",
-    "tag": "wLEK6-r6y4BcnJ1EC4oVsA",
+    "ciphertext": "Yg7rejMWsUm9cFgRslcQdbd_tVNeiYqAWgq9gHHSJ5AcIAmcn-EHZptyCw",
+    "iv": "ThUOH6FOSujEOPLE",
+    "tag": "IDMNqkdnuGgRNWnULGVY8Q",
     "version": 1
   }
 }
