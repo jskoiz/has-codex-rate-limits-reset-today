@@ -14,18 +14,31 @@
   "updatedAt": 1787532649941,
   "automation": {
     "lastDecision": {
-      "confidence": 0.94,
-      "decidedAt": 1787537587287,
-      "rationale": "This reply only mentions rollout propagation to business accounts and does not clearly say limits or caps have reset.",
-      "tweetId": "2091709346371838240",
-      "tweetUrl": "https://x.com/thsottiaux/status/2091709346371838240",
+      "confidence": 0.99,
+      "decidedAt": 1787537589978,
+      "rationale": "This reply does not say or imply that any Codex or ChatGPT limits have reset.",
+      "tweetId": "2091709448817701117",
+      "tweetUrl": "https://x.com/thsottiaux/status/2091709448817701117",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2091709346371838240",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2091709346371838240",
+    "lastSeenTweetId": "2091709448817701117",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2091709448817701117",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1787537589978,
+        "inputTokens": 391,
+        "outputTokens": 87,
+        "rationale": "This reply does not say or imply that any Codex or ChatGPT limits have reset.",
+        "reasoningTokens": 41,
+        "totalTokens": 478,
+        "tweetId": "2091709448817701117",
+        "tweetText": "@ieqr_ Where are you getting your news from",
+        "tweetUrl": "https://x.com/thsottiaux/status/2091709448817701117",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.94,
         "evaluatedAt": 1787537587287,
@@ -272,29 +285,31 @@
         "tweetText": "@petergostev Luna",
         "tweetUrl": "https://x.com/thsottiaux/status/2091289970153533592",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1787431078605,
-        "inputTokens": 385,
-        "outputTokens": 98,
-        "rationale": "This reply just says “Luna” and gives no indication that any limits or caps reset.",
-        "reasoningTokens": 51,
-        "totalTokens": 483,
-        "tweetId": "2091262962480898537",
-        "tweetText": "@kr0der Luna",
-        "tweetUrl": "https://x.com/thsottiaux/status/2091262962480898537",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 525380,
-      "totalOutputTokens": 137548,
-      "totalReasoningTokens": 75926,
-      "totalTokens": 662928
+      "totalInputTokens": 525771,
+      "totalOutputTokens": 137635,
+      "totalReasoningTokens": 75967,
+      "totalTokens": 663406
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1787537589978,
+      "inputTokens": 391,
+      "message": "",
+      "outputTokens": 87,
+      "rationale": "This reply does not say or imply that any Codex or ChatGPT limits have reset.",
+      "reasoningTokens": 41,
+      "totalTokens": 478,
+      "tweetId": "2091709448817701117",
+      "tweetText": "@ieqr_ Where are you getting your news from",
+      "tweetUrl": "https://x.com/thsottiaux/status/2091709448817701117",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.94,
       "createdAt": 1787537587287,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2090766694897619318",
       "type": "reset_confirmed",
       "verdict": "reset_confirmed"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1787291402702,
-      "inputTokens": 391,
-      "message": "",
-      "outputTokens": 81,
-      "rationale": "This reply is conversational and does not mention limits, caps, or usage resetting.",
-      "reasoningTokens": 37,
-      "totalTokens": 472,
-      "tweetId": "2090677537072652418",
-      "tweetText": "@tammiesiew Codex has nothing to hide",
-      "tweetUrl": "https://x.com/thsottiaux/status/2090677537072652418",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "9QSA1e5aI68SElxzJkyzUw7vbN6BHGKIS9-Y91R9dmdClIswwk2lJ8-Bdw",
-    "iv": "rJkXJQXaTk2FSN9k",
-    "tag": "LCqAv-0fJXumzreC2a5UXg",
+    "ciphertext": "a0GI3fdakm-237rrIzB6ipV6NixOIieLUiSEE5GAma0SGxZhIXcWFDcrig",
+    "iv": "yAvTrZpFbcrXEJjt",
+    "tag": "shX2NDmIZ95gk6A0xHfwOw",
     "version": 1
   }
 }
