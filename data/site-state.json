@@ -14,16 +14,16 @@
   "updatedAt": 1787532649941,
   "automation": {
     "lastDecision": {
-      "confidence": 0.98,
-      "decidedAt": 1787682297807,
-      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-      "tweetId": "2092316228497063958",
-      "tweetUrl": "https://x.com/thsottiaux/status/2092316228497063958",
+      "confidence": 0.99,
+      "decidedAt": 1787689131301,
+      "rationale": "This is a product-plan promo saying the new Business Premium seat has no 5h limits, not that existing ChatGPT or…",
+      "tweetId": "2092345330272780499",
+      "tweetUrl": "https://x.com/thsottiaux/status/2092345330272780499",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2092316228497063958",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2092316228497063958",
+    "lastSeenTweetId": "2092345330272780499",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2092345330272780499",
     "pendingReview": {
       "confidence": 0.69,
       "createdAt": 1787680740824,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2092310229216338050"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1787689131301,
+        "inputTokens": 569,
+        "outputTokens": 108,
+        "rationale": "This is a product-plan promo saying the new Business Premium seat has no 5h limits, not that existing ChatGPT or…",
+        "reasoningTokens": 49,
+        "totalTokens": 677,
+        "tweetId": "2092345330272780499",
+        "tweetText": "So much demand for this one. Works similar to the Pro $100 plan but designed for teams and small companies.\n\n✅ All ChatGPT, ChatGPT Work, and Codex features\n✅ Connect to Google Workspace, Slack, GitHub, Microsoft 365, and more\n✅ Secure workspace with SAML, SSO, and MFA\n✅ Centralized billing and administration\n✅ Usage analytics and spend controls\n✅ No 5h limits",
+        "tweetUrl": "https://x.com/thsottiaux/status/2092345330272780499",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.98,
         "evaluatedAt": 1787682297807,
@@ -279,29 +292,31 @@
         "tweetText": "@ieqr_ Where are you getting your news from",
         "tweetUrl": "https://x.com/thsottiaux/status/2091709448817701117",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.94,
-        "evaluatedAt": 1787537587287,
-        "inputTokens": 412,
-        "outputTokens": 179,
-        "rationale": "This reply only mentions rollout propagation to business accounts and does not clearly say limits or caps have reset.",
-        "reasoningTokens": 131,
-        "totalTokens": 591,
-        "tweetId": "2091709346371838240",
-        "tweetText": "@hooftly It does include business accounts! Just checked and it was still propagating, but should be all done in 5 minutes for business accounts too.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2091709346371838240",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 533210,
-      "totalOutputTokens": 139731,
-      "totalReasoningTokens": 77254,
-      "totalTokens": 672941
+      "totalInputTokens": 533779,
+      "totalOutputTokens": 139839,
+      "totalReasoningTokens": 77303,
+      "totalTokens": 673618
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1787689131301,
+      "inputTokens": 569,
+      "message": "",
+      "outputTokens": 108,
+      "rationale": "This is a product-plan promo saying the new Business Premium seat has no 5h limits, not that existing ChatGPT or…",
+      "reasoningTokens": 49,
+      "totalTokens": 677,
+      "tweetId": "2092345330272780499",
+      "tweetText": "So much demand for this one. Works similar to the Pro $100 plan but designed for teams and small companies.\n\n✅ All ChatGPT, ChatGPT Work, and Codex features\n✅ Connect to Google Workspace, Slack, GitHub, Microsoft 365, and more\n✅ Secure workspace with SAML, SSO, and MFA\n✅ Centralized billing and administration\n✅ Usage analytics and spend controls\n✅ No 5h limits",
+      "tweetUrl": "https://x.com/thsottiaux/status/2092345330272780499",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.98,
       "createdAt": 1787682297807,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2091289970153533592",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1787431078605,
-      "inputTokens": 385,
-      "message": "",
-      "outputTokens": 98,
-      "rationale": "This reply just says “Luna” and gives no indication that any limits or caps reset.",
-      "reasoningTokens": 51,
-      "totalTokens": 483,
-      "tweetId": "2091262962480898537",
-      "tweetText": "@kr0der Luna",
-      "tweetUrl": "https://x.com/thsottiaux/status/2091262962480898537",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "FQwtwuMbu_SruORSAlyaCFVIu32KJQYR_HIERSyXBKVEFOAC3495OkLUbQ",
-    "iv": "Sp7btX-hlMsUAQzw",
-    "tag": "WB8REFBiwwHFr3Y-FPHqkQ",
+    "ciphertext": "lya1PksChkC0MjAKA7XzXUkoTBk7eSFNL_rOd2JZEMAUVvEM-QubwDdYLQ",
+    "iv": "A4wIY8UQDxeE44I1",
+    "tag": "IOW_DRFqz68__PH_buNOkA",
     "version": 1
   }
 }
