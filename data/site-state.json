@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1787692536437,
-      "rationale": "This reply is unrelated to Codex or ChatGPT usage limits resetting.",
-      "tweetId": "2092359619075314102",
-      "tweetUrl": "https://x.com/thsottiaux/status/2092359619075314102",
+      "decidedAt": 1787692539700,
+      "rationale": "This reply is about DevDay timing and does not mention limits or a reset.",
+      "tweetId": "2092360027013296458",
+      "tweetUrl": "https://x.com/thsottiaux/status/2092360027013296458",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2092359619075314102",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2092359619075314102",
+    "lastSeenTweetId": "2092360027013296458",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2092360027013296458",
     "pendingReview": {
       "confidence": 0.69,
       "createdAt": 1787680740824,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2092310229216338050"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1787692539700,
+        "inputTokens": 392,
+        "outputTokens": 97,
+        "rationale": "This reply is about DevDay timing and does not mention limits or a reset.",
+        "reasoningTokens": 53,
+        "totalTokens": 489,
+        "tweetId": "2092360027013296458",
+        "tweetText": "@damnGruz DevDay is 35 days away",
+        "tweetUrl": "https://x.com/thsottiaux/status/2092360027013296458",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1787692536437,
@@ -279,29 +292,31 @@
         "tweetText": "@nicdunz Agreed. We're working to squash all of it and make sure it doesn't happen again.",
         "tweetUrl": "https://x.com/thsottiaux/status/2091957224302092394",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1787537592517,
-        "inputTokens": 387,
-        "outputTokens": 72,
-        "rationale": "This reply is conversational and does not mention limits, caps, or usage resetting.",
-        "reasoningTokens": 28,
-        "totalTokens": 459,
-        "tweetId": "2091709537451687948",
-        "tweetText": "@iwasrobbed Any time",
-        "tweetUrl": "https://x.com/thsottiaux/status/2091709537451687948",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 534167,
-      "totalOutputTokens": 139928,
-      "totalReasoningTokens": 77350,
-      "totalTokens": 674095
+      "totalInputTokens": 534559,
+      "totalOutputTokens": 140025,
+      "totalReasoningTokens": 77403,
+      "totalTokens": 674584
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1787692539700,
+      "inputTokens": 392,
+      "message": "",
+      "outputTokens": 97,
+      "rationale": "This reply is about DevDay timing and does not mention limits or a reset.",
+      "reasoningTokens": 53,
+      "totalTokens": 489,
+      "tweetId": "2092360027013296458",
+      "tweetText": "@damnGruz DevDay is 35 days away",
+      "tweetUrl": "https://x.com/thsottiaux/status/2092360027013296458",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1787692536437,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2091290999381184620",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1787437619382,
-      "inputTokens": 386,
-      "message": "",
-      "outputTokens": 77,
-      "rationale": "This reply is conversational and does not mention limits, caps, or availability resetting.",
-      "reasoningTokens": 33,
-      "totalTokens": 463,
-      "tweetId": "2091290020388716914",
-      "tweetText": "@rezoundous Astra who?",
-      "tweetUrl": "https://x.com/thsottiaux/status/2091290020388716914",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "STRADfl8G3Fq-SW4vJbmsIMP_STF-uQxI-9oJrihJA_4B4vrFMFaYl4r7Q",
-    "iv": "5n6lxxTIINChqPTv",
-    "tag": "pORz5A6slJzoH62ohqtS6Q",
+    "ciphertext": "iFwY6TWAQ5MwE-0CqknTRa2A8DAsTH6VgRG0iG42yWh_8CkGWxydM2tZXw",
+    "iv": "VG4SEvdfrxvHH1bn",
+    "tag": "nvCBEjtBEwfO71TKpjGmZA",
     "version": 1
   }
 }
