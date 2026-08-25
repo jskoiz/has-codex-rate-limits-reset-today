@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1787668967818,
-      "rationale": "This reply is conversational and does not mention limits, caps, or usage becoming available again.",
-      "tweetId": "2092260761313890500",
-      "tweetUrl": "https://x.com/thsottiaux/status/2092260761313890500",
+      "decidedAt": 1787668971639,
+      "rationale": "This reply is just conversational and does not mention limits or a reset.",
+      "tweetId": "2092261054361543127",
+      "tweetUrl": "https://x.com/thsottiaux/status/2092261054361543127",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2092260761313890500",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2092260761313890500",
+    "lastSeenTweetId": "2092261054361543127",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2092261054361543127",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1787668971639,
+        "inputTokens": 393,
+        "outputTokens": 89,
+        "rationale": "This reply is just conversational and does not mention limits or a reset.",
+        "reasoningTokens": 47,
+        "totalTokens": 482,
+        "tweetId": "2092261054361543127",
+        "tweetText": "@NeilSanghrajka @OpenAI Let’s go!",
+        "tweetUrl": "https://x.com/thsottiaux/status/2092261054361543127",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1787668967818,
@@ -272,29 +285,31 @@
         "tweetText": "@maria_rcks No beef, lots of respect for Cursor and friends",
         "tweetUrl": "https://x.com/thsottiaux/status/2091414006145908899",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.97,
-        "evaluatedAt": 1787466823105,
-        "inputTokens": 387,
-        "outputTokens": 149,
-        "rationale": "This reply only corrects a time and does not clearly state that limits have reset.",
-        "reasoningTokens": 104,
-        "totalTokens": 536,
-        "tweetId": "2091413240337326588",
-        "tweetText": "Meant 2pm obviously",
-        "tweetUrl": "https://x.com/thsottiaux/status/2091413240337326588",
-        "verdict": "uncertain"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 529472,
-      "totalOutputTokens": 138745,
-      "totalReasoningTokens": 76669,
-      "totalTokens": 668217
+      "totalInputTokens": 529865,
+      "totalOutputTokens": 138834,
+      "totalReasoningTokens": 76716,
+      "totalTokens": 668699
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1787668971639,
+      "inputTokens": 393,
+      "message": "",
+      "outputTokens": 89,
+      "rationale": "This reply is just conversational and does not mention limits or a reset.",
+      "reasoningTokens": 47,
+      "totalTokens": 482,
+      "tweetId": "2092261054361543127",
+      "tweetText": "@NeilSanghrajka @OpenAI Let’s go!",
+      "tweetUrl": "https://x.com/thsottiaux/status/2092261054361543127",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1787668967818,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2091016731020169488",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1787371801664,
-      "inputTokens": 416,
-      "message": "",
-      "outputTokens": 94,
-      "rationale": "This reply discusses ChatGPT site-sharing availability, not any limit or rate-cap reset.",
-      "reasoningTokens": 49,
-      "totalTokens": 510,
-      "tweetId": "2091014652574732563",
-      "tweetText": "@ajambrosino You can make your own sites (and share them!) in ChatGPT Work or on the ChatGPT desktop app if you are on the Plus plan or above.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2091014652574732563",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "r4bb14g_Hu0ygDQ90gO7aN86Ye26VCH3ggjq2LcTuUQ7Fn6XT64dv2C5dA",
-    "iv": "uY7pZ4E0enwxZuZM",
-    "tag": "W9UO9T4Kh4PfshdPOS3aMw",
+    "ciphertext": "y4HQnSj5696VbLsU-X-VySP3lPx5os3i2UwCod7-gau4HhP0aMO9nwuMug",
+    "iv": "Y8QdBxxG7hNfo6lm",
+    "tag": "ofdUvIO6ghKjiTjOboIrMg",
     "version": 1
   }
 }
