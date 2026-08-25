@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1787681978226,
-      "rationale": "This post is unrelated to Codex or ChatGPT usage limits or resets.",
-      "tweetId": "2092315945700381084",
-      "tweetUrl": "https://x.com/thsottiaux/status/2092315945700381084",
+      "decidedAt": 1787682294608,
+      "rationale": "This reply is just a conversational comment and does not mention limits or a reset.",
+      "tweetId": "2092315999769117053",
+      "tweetUrl": "https://x.com/thsottiaux/status/2092315999769117053",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2092315945700381084",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2092315945700381084",
+    "lastSeenTweetId": "2092315999769117053",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2092315999769117053",
     "pendingReview": {
       "confidence": 0.69,
       "createdAt": 1787680740824,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2092310229216338050"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1787682294608,
+        "inputTokens": 386,
+        "outputTokens": 97,
+        "rationale": "This reply is just a conversational comment and does not mention limits or a reset.",
+        "reasoningTokens": 53,
+        "totalTokens": 483,
+        "tweetId": "2092315999769117053",
+        "tweetText": "@cerebras ftw!",
+        "tweetUrl": "https://x.com/thsottiaux/status/2092315999769117053",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1787681978226,
@@ -279,29 +292,31 @@
         "tweetText": "@npm_startup Adam hurt itself in its confusion!",
         "tweetUrl": "https://x.com/thsottiaux/status/2091689575878189547",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1787532649941,
-        "inputTokens": 586,
-        "outputTokens": 119,
-        "rationale": "The main tweet explicitly says the reset has been propagated to accounts, confirming usage was reset now.",
-        "reasoningTokens": 71,
-        "totalTokens": 705,
-        "tweetId": "2091688655828246890",
-        "tweetText": "Good Sunday. Reset has been propagated to accounts and we landed some fixes to usage for things mentioned yesterday as issues we found. You should feel a positive difference. More to come tomorrow and will keep communicating.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2091688655828246890",
-        "verdict": "reset_confirmed"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 532432,
-      "totalOutputTokens": 139491,
-      "totalReasoningTokens": 77102,
-      "totalTokens": 671923
+      "totalInputTokens": 532818,
+      "totalOutputTokens": 139588,
+      "totalReasoningTokens": 77155,
+      "totalTokens": 672406
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1787682294608,
+      "inputTokens": 386,
+      "message": "",
+      "outputTokens": 97,
+      "rationale": "This reply is just a conversational comment and does not mention limits or a reset.",
+      "reasoningTokens": 53,
+      "totalTokens": 483,
+      "tweetId": "2092315999769117053",
+      "tweetText": "@cerebras ftw!",
+      "tweetUrl": "https://x.com/thsottiaux/status/2092315999769117053",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1787681978226,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2091051557983015302",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1787380508157,
-      "inputTokens": 387,
-      "message": "",
-      "outputTokens": 98,
-      "rationale": "This reply just asks a question and does not mention limits or a reset.",
-      "reasoningTokens": 55,
-      "totalTokens": 485,
-      "tweetId": "2091050758091477274",
-      "tweetText": "@aarondotdev Which model?",
-      "tweetUrl": "https://x.com/thsottiaux/status/2091050758091477274",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "ODt69hV4BtvipfKZir3N9ILln3eV2kgDk7ygTim_4wS7r5XSyeIoThq86Q",
-    "iv": "pqfL_XcvlslnQDns",
-    "tag": "VeQTWujTfREsSMkadoi6tw",
+    "ciphertext": "5WAynwsr82wXheyhgUoBJzw_bMpecgK6Def6ha0vseW-0_NK3Zxy9uAQVA",
+    "iv": "rLRqQ2fn33NyJaxA",
+    "tag": "yt1kPO-Kjfld6iwyQfUcGw",
     "version": 1
   }
 }
