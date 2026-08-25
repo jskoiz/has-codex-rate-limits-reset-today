@@ -14,18 +14,31 @@
   "updatedAt": 1787532649941,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1787620198932,
-      "rationale": "This reply is conversational and says nothing about limits or a reset.",
-      "tweetId": "2092056698240536746",
-      "tweetUrl": "https://x.com/thsottiaux/status/2092056698240536746",
+      "confidence": 0.98,
+      "decidedAt": 1787620823434,
+      "rationale": "This announces a limit change for tomorrow, not that limits have reset or become available again now.",
+      "tweetId": "2092058556707344708",
+      "tweetUrl": "https://x.com/thsottiaux/status/2092058556707344708",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2092056698240536746",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2092056698240536746",
+    "lastSeenTweetId": "2092058556707344708",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2092058556707344708",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.98,
+        "evaluatedAt": 1787620823434,
+        "inputTokens": 515,
+        "outputTokens": 99,
+        "rationale": "This announces a limit change for tomorrow, not that limits have reset or become available again now.",
+        "reasoningTokens": 52,
+        "totalTokens": 614,
+        "tweetId": "2092058556707344708",
+        "tweetText": "Tomorrow we will bring back the 5h limit for Plus accounts across ChatGPT Work and Codex. I had mentioned this a while ago, but then postponed it.\n\nThis is necessary as (a) the 5h limit allows us to smoothen the load on our compute, allowing to keep the plan generous in terms of weekly usage and (b) users on the Plus plan are relatively casual and new users, but then also just accidentally eat through their whole weeks usage and then are confused, making it not a great experience.\n\nWe are for the upcoming months keeping the 5h limit not enabled for Pro $100 and Pro $200 subscriptions.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2092058556707344708",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1787620198932,
@@ -272,29 +285,31 @@
         "tweetText": "@buildwithrajath Posted",
         "tweetUrl": "https://x.com/thsottiaux/status/2091408930635436341",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.97,
-        "evaluatedAt": 1787465586221,
-        "inputTokens": 614,
-        "outputTokens": 190,
-        "rationale": "It announces a full usage reset for tomorrow, not that limits have reset now.",
-        "reasoningTokens": 146,
-        "totalTokens": 804,
-        "tweetId": "2091407991736332689",
-        "tweetText": "Update on rate limits in Codex. \n\nWe’ve found (a) some inefficiencies when using images in long sessions with multiple compactions (b) high p95+ usage for Computer History (c) a feature that was meant to generate conversation titles that was draining a bit more usage than intended. And we have a tiger team combing through everything and shipping fixes tomorrow. We also found a novel approach to drive efficiency up significantly that is completely unrelated and we will be working on next week.\n\nAs part of some of the fixes tomorrow, we will also do a full reset of the usage for all paid subscriptions.\n\nSee you then.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2091407991736332689",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 527736,
-      "totalOutputTokens": 138365,
-      "totalReasoningTokens": 76473,
-      "totalTokens": 666101
+      "totalInputTokens": 528251,
+      "totalOutputTokens": 138464,
+      "totalReasoningTokens": 76525,
+      "totalTokens": 666715
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.98,
+      "createdAt": 1787620823434,
+      "inputTokens": 515,
+      "message": "",
+      "outputTokens": 99,
+      "rationale": "This announces a limit change for tomorrow, not that limits have reset or become available again now.",
+      "reasoningTokens": 52,
+      "totalTokens": 614,
+      "tweetId": "2092058556707344708",
+      "tweetText": "Tomorrow we will bring back the 5h limit for Plus accounts across ChatGPT Work and Codex. I had mentioned this a while ago, but then postponed it.\n\nThis is necessary as (a) the 5h limit allows us to smoothen the load on our compute, allowing to keep the plan generous in terms of weekly usage and (b) users on the Plus plan are relatively casual and new users, but then also just accidentally eat through their whole weeks usage and then are confused, making it not a great experience.\n\nWe are for the upcoming months keeping the 5h limit not enabled for Pro $100 and Pro $200 subscriptions.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2092058556707344708",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1787620198932,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2090965871456026686",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1787359978904,
-      "inputTokens": 466,
-      "message": "",
-      "outputTokens": 128,
-      "rationale": "The tweet explicitly says the banked reset has landed for paid ChatGPT Work and Codex users.",
-      "reasoningTokens": 79,
-      "totalTokens": 594,
-      "tweetId": "2090964822422949999",
-      "tweetText": "The banked reset has landed, I repeat, the banked reset has landed. Have an amazing weekend.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2090964822422949999",
-      "type": "reset_confirmed",
-      "verdict": "reset_confirmed"
     }
   ],
   "privateState": {
-    "ciphertext": "Yc-MpNMC3381IePOXPAdXHZ-Nat1YgDh8cdczuZE2YJhuiVWFyn9f6_IUg",
-    "iv": "TIhkbpMdFA1CBPJF",
-    "tag": "WjLz9-GN67ZsPTH-uQdCgA",
+    "ciphertext": "EvcI_xOKxvfsaxmCeGmv9FGxpdnkIrOM-GtOs8j2Wbdf1jnJvzAVUzmiiw",
+    "iv": "g9CqlxlEnMouNyWJ",
+    "tag": "c38CoWSeNnT0DNnova1ZVQ",
     "version": 1
   }
 }
