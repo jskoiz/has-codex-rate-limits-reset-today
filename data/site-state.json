@@ -14,18 +14,31 @@
   "updatedAt": 1787532649941,
   "automation": {
     "lastDecision": {
-      "confidence": 0.98,
-      "decidedAt": 1787620823434,
-      "rationale": "This announces a limit change for tomorrow, not that limits have reset or become available again now.",
-      "tweetId": "2092058556707344708",
-      "tweetUrl": "https://x.com/thsottiaux/status/2092058556707344708",
+      "confidence": 0.99,
+      "decidedAt": 1787634779504,
+      "rationale": "This post is about DevDay and does not mention limits, caps, or availability resetting.",
+      "tweetId": "2092117461646856505",
+      "tweetUrl": "https://x.com/thsottiaux/status/2092117461646856505",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2092058556707344708",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2092058556707344708",
+    "lastSeenTweetId": "2092117461646856505",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2092117461646856505",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1787634779504,
+        "inputTokens": 406,
+        "outputTokens": 84,
+        "rationale": "This post is about DevDay and does not mention limits, caps, or availability resetting.",
+        "reasoningTokens": 38,
+        "totalTokens": 490,
+        "tweetId": "2092117461646856505",
+        "tweetText": "OpenAI DevDay 2026 will be our best DevDay in the history of the company. It will not be close.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2092117461646856505",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.98,
         "evaluatedAt": 1787620823434,
@@ -272,29 +285,31 @@
         "tweetText": "@PaulSolt @OpenAI See you there",
         "tweetUrl": "https://x.com/thsottiaux/status/2091411370243936661",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1787465895192,
-        "inputTokens": 386,
-        "outputTokens": 102,
-        "rationale": "This reply just says \"Posted\" and gives no indication that any limits reset.",
-        "reasoningTokens": 58,
-        "totalTokens": 488,
-        "tweetId": "2091408930635436341",
-        "tweetText": "@buildwithrajath Posted",
-        "tweetUrl": "https://x.com/thsottiaux/status/2091408930635436341",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 528251,
-      "totalOutputTokens": 138464,
-      "totalReasoningTokens": 76525,
-      "totalTokens": 666715
+      "totalInputTokens": 528657,
+      "totalOutputTokens": 138548,
+      "totalReasoningTokens": 76563,
+      "totalTokens": 667205
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1787634779504,
+      "inputTokens": 406,
+      "message": "",
+      "outputTokens": 84,
+      "rationale": "This post is about DevDay and does not mention limits, caps, or availability resetting.",
+      "reasoningTokens": 38,
+      "totalTokens": 490,
+      "tweetId": "2092117461646856505",
+      "tweetText": "OpenAI DevDay 2026 will be our best DevDay in the history of the company. It will not be close.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2092117461646856505",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.98,
       "createdAt": 1787620823434,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2091012711970906611",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1787360285379,
-      "inputTokens": 434,
-      "message": "",
-      "outputTokens": 98,
-      "rationale": "This reply discusses a feature being abused and says nothing about limits or a reset.",
-      "reasoningTokens": 54,
-      "totalTokens": 532,
-      "tweetId": "2090965871456026686",
-      "tweetText": "@maria_rcks Hmmm. That’s unfortunate. We have this feature because it’s a nicer user experience overall.\n\nOf course you can abuse it and trick the system somewhat, but if done at scale then it will force us to revisit this nice feature.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2090965871456026686",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "EvcI_xOKxvfsaxmCeGmv9FGxpdnkIrOM-GtOs8j2Wbdf1jnJvzAVUzmiiw",
-    "iv": "g9CqlxlEnMouNyWJ",
-    "tag": "c38CoWSeNnT0DNnova1ZVQ",
+    "ciphertext": "WbQCxaImxvFXoFdtgzQXeXjSq6MXxsrFIzUfuEYdATYwCsXv11aXBzwYcQ",
+    "iv": "C73hpkj9IlEqKtjW",
+    "tag": "ZEPC8DSqPECM1Qg4I8Yzyw",
     "version": 1
   }
 }
