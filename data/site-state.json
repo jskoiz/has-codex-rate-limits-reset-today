@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1787689131301,
-      "rationale": "This is a product-plan promo saying the new Business Premium seat has no 5h limits, not that existing ChatGPT or…",
-      "tweetId": "2092345330272780499",
-      "tweetUrl": "https://x.com/thsottiaux/status/2092345330272780499",
+      "decidedAt": 1787692536437,
+      "rationale": "This reply is unrelated to Codex or ChatGPT usage limits resetting.",
+      "tweetId": "2092359619075314102",
+      "tweetUrl": "https://x.com/thsottiaux/status/2092359619075314102",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2092345330272780499",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2092345330272780499",
+    "lastSeenTweetId": "2092359619075314102",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2092359619075314102",
     "pendingReview": {
       "confidence": 0.69,
       "createdAt": 1787680740824,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2092310229216338050"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1787692536437,
+        "inputTokens": 388,
+        "outputTokens": 89,
+        "rationale": "This reply is unrelated to Codex or ChatGPT usage limits resetting.",
+        "reasoningTokens": 47,
+        "totalTokens": 477,
+        "tweetId": "2092359619075314102",
+        "tweetText": "I want to see the polymarket",
+        "tweetUrl": "https://x.com/thsottiaux/status/2092359619075314102",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1787689131301,
@@ -279,29 +292,31 @@
         "tweetText": "@iwasrobbed Any time",
         "tweetUrl": "https://x.com/thsottiaux/status/2091709537451687948",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1787537589978,
-        "inputTokens": 391,
-        "outputTokens": 87,
-        "rationale": "This reply does not say or imply that any Codex or ChatGPT limits have reset.",
-        "reasoningTokens": 41,
-        "totalTokens": 478,
-        "tweetId": "2091709448817701117",
-        "tweetText": "@ieqr_ Where are you getting your news from",
-        "tweetUrl": "https://x.com/thsottiaux/status/2091709448817701117",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 533779,
-      "totalOutputTokens": 139839,
-      "totalReasoningTokens": 77303,
-      "totalTokens": 673618
+      "totalInputTokens": 534167,
+      "totalOutputTokens": 139928,
+      "totalReasoningTokens": 77350,
+      "totalTokens": 674095
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1787692536437,
+      "inputTokens": 388,
+      "message": "",
+      "outputTokens": 89,
+      "rationale": "This reply is unrelated to Codex or ChatGPT usage limits resetting.",
+      "reasoningTokens": 47,
+      "totalTokens": 477,
+      "tweetId": "2092359619075314102",
+      "tweetText": "I want to see the polymarket",
+      "tweetUrl": "https://x.com/thsottiaux/status/2092359619075314102",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1787689131301,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2091290020388716914",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1787437616206,
-      "inputTokens": 386,
-      "message": "",
-      "outputTokens": 99,
-      "rationale": "This reply just says \"Luna\" and does not mention limits, caps, or availability resetting.",
-      "reasoningTokens": 51,
-      "totalTokens": 485,
-      "tweetId": "2091289970153533592",
-      "tweetText": "@petergostev Luna",
-      "tweetUrl": "https://x.com/thsottiaux/status/2091289970153533592",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "lya1PksChkC0MjAKA7XzXUkoTBk7eSFNL_rOd2JZEMAUVvEM-QubwDdYLQ",
-    "iv": "A4wIY8UQDxeE44I1",
-    "tag": "IOW_DRFqz68__PH_buNOkA",
+    "ciphertext": "STRADfl8G3Fq-SW4vJbmsIMP_STF-uQxI-9oJrihJA_4B4vrFMFaYl4r7Q",
+    "iv": "5n6lxxTIINChqPTv",
+    "tag": "pORz5A6slJzoH62ohqtS6Q",
     "version": 1
   }
 }
