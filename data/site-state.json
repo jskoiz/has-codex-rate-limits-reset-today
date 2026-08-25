@@ -14,16 +14,16 @@
   "updatedAt": 1787532649941,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1787682294608,
-      "rationale": "This reply is just a conversational comment and does not mention limits or a reset.",
-      "tweetId": "2092315999769117053",
-      "tweetUrl": "https://x.com/thsottiaux/status/2092315999769117053",
+      "confidence": 0.98,
+      "decidedAt": 1787682297807,
+      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+      "tweetId": "2092316228497063958",
+      "tweetUrl": "https://x.com/thsottiaux/status/2092316228497063958",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2092315999769117053",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2092315999769117053",
+    "lastSeenTweetId": "2092316228497063958",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2092316228497063958",
     "pendingReview": {
       "confidence": 0.69,
       "createdAt": 1787680740824,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2092310229216338050"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.98,
+        "evaluatedAt": 1787682297807,
+        "inputTokens": 392,
+        "outputTokens": 143,
+        "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+        "reasoningTokens": 99,
+        "totalTokens": 535,
+        "tweetId": "2092316228497063958",
+        "tweetText": "@s_batzoglou Not so random, but yes",
+        "tweetUrl": "https://x.com/thsottiaux/status/2092316228497063958",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1787682294608,
@@ -279,29 +292,31 @@
         "tweetText": "@hooftly It does include business accounts! Just checked and it was still propagating, but should be all done in 5 minutes for business accounts too.",
         "tweetUrl": "https://x.com/thsottiaux/status/2091709346371838240",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1787532958107,
-        "inputTokens": 390,
-        "outputTokens": 74,
-        "rationale": "This reply is conversational and says nothing about limits or a reset.",
-        "reasoningTokens": 33,
-        "totalTokens": 464,
-        "tweetId": "2091689575878189547",
-        "tweetText": "@npm_startup Adam hurt itself in its confusion!",
-        "tweetUrl": "https://x.com/thsottiaux/status/2091689575878189547",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 532818,
-      "totalOutputTokens": 139588,
-      "totalReasoningTokens": 77155,
-      "totalTokens": 672406
+      "totalInputTokens": 533210,
+      "totalOutputTokens": 139731,
+      "totalReasoningTokens": 77254,
+      "totalTokens": 672941
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.98,
+      "createdAt": 1787682297807,
+      "inputTokens": 392,
+      "message": "",
+      "outputTokens": 143,
+      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+      "reasoningTokens": 99,
+      "totalTokens": 535,
+      "tweetId": "2092316228497063958",
+      "tweetText": "@s_batzoglou Not so random, but yes",
+      "tweetUrl": "https://x.com/thsottiaux/status/2092316228497063958",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1787682294608,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2091262962480898537",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1787380812637,
-      "inputTokens": 387,
-      "message": "",
-      "outputTokens": 102,
-      "rationale": "This reply is just a question and gives no indication that any limits have reset.",
-      "reasoningTokens": 58,
-      "totalTokens": 489,
-      "tweetId": "2091051557983015302",
-      "tweetText": "@ericmitchellai ?",
-      "tweetUrl": "https://x.com/thsottiaux/status/2091051557983015302",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "5WAynwsr82wXheyhgUoBJzw_bMpecgK6Def6ha0vseW-0_NK3Zxy9uAQVA",
-    "iv": "rLRqQ2fn33NyJaxA",
-    "tag": "yt1kPO-Kjfld6iwyQfUcGw",
+    "ciphertext": "FQwtwuMbu_SruORSAlyaCFVIu32KJQYR_HIERSyXBKVEFOAC3495OkLUbQ",
+    "iv": "Sp7btX-hlMsUAQzw",
+    "tag": "WB8REFBiwwHFr3Y-FPHqkQ",
     "version": 1
   }
 }
