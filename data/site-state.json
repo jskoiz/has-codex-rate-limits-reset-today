@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1787669276988,
-      "rationale": "This reply is conversational and gives no indication that any Codex or ChatGPT limits have reset.",
-      "tweetId": "2092261483619192975",
-      "tweetUrl": "https://x.com/thsottiaux/status/2092261483619192975",
+      "decidedAt": 1787669577874,
+      "rationale": "This reply is unrelated to rate limits or any reset announcement.",
+      "tweetId": "2092263085574950946",
+      "tweetUrl": "https://x.com/thsottiaux/status/2092263085574950946",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2092261483619192975",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2092261483619192975",
+    "lastSeenTweetId": "2092263085574950946",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2092263085574950946",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1787669577874,
+        "inputTokens": 392,
+        "outputTokens": 90,
+        "rationale": "This reply is unrelated to rate limits or any reset announcement.",
+        "reasoningTokens": 50,
+        "totalTokens": 482,
+        "tweetId": "2092263085574950946",
+        "tweetText": "@Ananth7e @victornunez No leaks",
+        "tweetUrl": "https://x.com/thsottiaux/status/2092263085574950946",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1787669276988,
@@ -272,29 +285,31 @@
         "tweetText": "A better analogy would be to say that your brain suddenly gets placed in the pencil for it to moved around when you need to do the exam. \n\nThese are entirely different things you are comparing. The harness is much more similar to the body than it is to the classroom and environment.",
         "tweetUrl": "https://x.com/thsottiaux/status/2091563530189521277",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.98,
-        "evaluatedAt": 1787467427493,
-        "inputTokens": 388,
-        "outputTokens": 83,
-        "rationale": "This reply asks a question and does not state or imply that any limits have reset.",
-        "reasoningTokens": 38,
-        "totalTokens": 471,
-        "tweetId": "2091415069540401373",
-        "tweetText": "@kimmonismus Chat is this true",
-        "tweetUrl": "https://x.com/thsottiaux/status/2091415069540401373",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 530258,
-      "totalOutputTokens": 138932,
-      "totalReasoningTokens": 76767,
-      "totalTokens": 669190
+      "totalInputTokens": 530650,
+      "totalOutputTokens": 139022,
+      "totalReasoningTokens": 76817,
+      "totalTokens": 669672
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1787669577874,
+      "inputTokens": 392,
+      "message": "",
+      "outputTokens": 90,
+      "rationale": "This reply is unrelated to rate limits or any reset announcement.",
+      "reasoningTokens": 50,
+      "totalTokens": 482,
+      "tweetId": "2092263085574950946",
+      "tweetText": "@Ananth7e @victornunez No leaks",
+      "tweetUrl": "https://x.com/thsottiaux/status/2092263085574950946",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1787669276988,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2091033630147854385",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1787374918112,
-      "inputTokens": 393,
-      "message": "",
-      "outputTokens": 74,
-      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-      "reasoningTokens": 30,
-      "totalTokens": 467,
-      "tweetId": "2091027012832125027",
-      "tweetText": "@immasiddx ai ai ai as we say in French",
-      "tweetUrl": "https://x.com/thsottiaux/status/2091027012832125027",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "2CPLwqDNJzB2jANyn1H5glp5YuLwNzSoc7D54NLnIwPnpb3Yd45kZ3E5xQ",
-    "iv": "TKmMbwVdYwLVObKH",
-    "tag": "7wugJInHRVEldob8sTDCJQ",
+    "ciphertext": "uGBQ0wQET_ixkE0w8QRTbzCvE_FhAtyfjgH_iKwxRb_gbAAxgrPh4pZp9w",
+    "iv": "kqdyyTi5SPKGlaOk",
+    "tag": "87wwptUweAadN3WKP7o-DA",
     "version": 1
   }
 }
