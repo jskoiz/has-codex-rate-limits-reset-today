@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1787634779504,
-      "rationale": "This post is about DevDay and does not mention limits, caps, or availability resetting.",
-      "tweetId": "2092117461646856505",
-      "tweetUrl": "https://x.com/thsottiaux/status/2092117461646856505",
+      "decidedAt": 1787635386711,
+      "rationale": "This reply discusses thread sharing in a browser, not any limit or rate-cap reset.",
+      "tweetId": "2092120021074133269",
+      "tweetUrl": "https://x.com/thsottiaux/status/2092120021074133269",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2092117461646856505",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2092117461646856505",
+    "lastSeenTweetId": "2092120021074133269",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2092120021074133269",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1787635386711,
+        "inputTokens": 420,
+        "outputTokens": 88,
+        "rationale": "This reply discusses thread sharing in a browser, not any limit or rate-cap reset.",
+        "reasoningTokens": 43,
+        "totalTokens": 508,
+        "tweetId": "2092120021074133269",
+        "tweetText": "@OpenAIDevs Hello!!! How did we all miss this?! \n\nYou can now share your threads and just load them in a browser?! Why aren’t we all talking about this",
+        "tweetUrl": "https://x.com/thsottiaux/status/2092120021074133269",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1787634779504,
@@ -272,29 +285,31 @@
         "tweetText": "Reset will land around 14pm PST tomorrow.",
         "tweetUrl": "https://x.com/thsottiaux/status/2091412393368945027",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1787466517175,
-        "inputTokens": 390,
-        "outputTokens": 64,
-        "rationale": "This is just a conversational reply and does not mention any limit or rate-limit reset.",
-        "reasoningTokens": 19,
-        "totalTokens": 454,
-        "tweetId": "2091411370243936661",
-        "tweetText": "@PaulSolt @OpenAI See you there",
-        "tweetUrl": "https://x.com/thsottiaux/status/2091411370243936661",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 528657,
-      "totalOutputTokens": 138548,
-      "totalReasoningTokens": 76563,
-      "totalTokens": 667205
+      "totalInputTokens": 529077,
+      "totalOutputTokens": 138636,
+      "totalReasoningTokens": 76606,
+      "totalTokens": 667713
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1787635386711,
+      "inputTokens": 420,
+      "message": "",
+      "outputTokens": 88,
+      "rationale": "This reply discusses thread sharing in a browser, not any limit or rate-cap reset.",
+      "reasoningTokens": 43,
+      "totalTokens": 508,
+      "tweetId": "2092120021074133269",
+      "tweetText": "@OpenAIDevs Hello!!! How did we all miss this?! \n\nYou can now share your threads and just load them in a browser?! Why aren’t we all talking about this",
+      "tweetUrl": "https://x.com/thsottiaux/status/2092120021074133269",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1787634779504,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2091014197144596734",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1787371498890,
-      "inputTokens": 391,
-      "message": "",
-      "outputTokens": 76,
-      "rationale": "This is just a congratulatory reply and says nothing about limits or resets.",
-      "reasoningTokens": 33,
-      "totalTokens": 467,
-      "tweetId": "2091012711970906611",
-      "tweetText": "@TheIshanGoswami Well done Ishan",
-      "tweetUrl": "https://x.com/thsottiaux/status/2091012711970906611",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "WbQCxaImxvFXoFdtgzQXeXjSq6MXxsrFIzUfuEYdATYwCsXv11aXBzwYcQ",
-    "iv": "C73hpkj9IlEqKtjW",
-    "tag": "ZEPC8DSqPECM1Qg4I8Yzyw",
+    "ciphertext": "DhVO63q4jL0aVXYxII1UFmbBvRcSIgdcTDHRljZ1gN8BlXz9PxFnAHtWPA",
+    "iv": "6lmHu6TmSzEq46Em",
+    "tag": "VMTkmUI_Aa49fOA9PrRVyw",
     "version": 1
   }
 }
