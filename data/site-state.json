@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1787610945641,
-      "rationale": "This reply is just conversational speculation and does not mention limits or a reset.",
-      "tweetId": "2092017873023819856",
-      "tweetUrl": "https://x.com/thsottiaux/status/2092017873023819856",
+      "decidedAt": 1787620198932,
+      "rationale": "This reply is conversational and says nothing about limits or a reset.",
+      "tweetId": "2092056698240536746",
+      "tweetUrl": "https://x.com/thsottiaux/status/2092056698240536746",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2092017873023819856",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2092017873023819856",
+    "lastSeenTweetId": "2092056698240536746",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2092056698240536746",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1787620198932,
+        "inputTokens": 389,
+        "outputTokens": 74,
+        "rationale": "This reply is conversational and says nothing about limits or a reset.",
+        "reasoningTokens": 33,
+        "totalTokens": 463,
+        "tweetId": "2092056698240536746",
+        "tweetText": "@ellenchen108 Looks like Claude saw Sol",
+        "tweetUrl": "https://x.com/thsottiaux/status/2092056698240536746",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1787610945641,
@@ -272,29 +285,31 @@
         "tweetText": "Update on rate limits in Codex. \n\nWe’ve found (a) some inefficiencies when using images in long sessions with multiple compactions (b) high p95+ usage for Computer History (c) a feature that was meant to generate conversation titles that was draining a bit more usage than intended. And we have a tiger team combing through everything and shipping fixes tomorrow. We also found a novel approach to drive efficiency up significantly that is completely unrelated and we will be working on next week.\n\nAs part of some of the fixes tomorrow, we will also do a full reset of the usage for all paid subscriptions.\n\nSee you then.",
         "tweetUrl": "https://x.com/thsottiaux/status/2091407991736332689",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1787465277774,
-        "inputTokens": 392,
-        "outputTokens": 84,
-        "rationale": "This reply is about unsupported sub2api usage, not a rate-limit or cap reset.",
-        "reasoningTokens": 38,
-        "totalTokens": 476,
-        "tweetId": "2091406082497552557",
-        "tweetText": "@CtrlAltDwayne We don’t support sub2api",
-        "tweetUrl": "https://x.com/thsottiaux/status/2091406082497552557",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 527347,
-      "totalOutputTokens": 138291,
-      "totalReasoningTokens": 76440,
-      "totalTokens": 665638
+      "totalInputTokens": 527736,
+      "totalOutputTokens": 138365,
+      "totalReasoningTokens": 76473,
+      "totalTokens": 666101
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1787620198932,
+      "inputTokens": 389,
+      "message": "",
+      "outputTokens": 74,
+      "rationale": "This reply is conversational and says nothing about limits or a reset.",
+      "reasoningTokens": 33,
+      "totalTokens": 463,
+      "tweetId": "2092056698240536746",
+      "tweetText": "@ellenchen108 Looks like Claude saw Sol",
+      "tweetUrl": "https://x.com/thsottiaux/status/2092056698240536746",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1787610945641,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2090964822422949999",
       "type": "reset_confirmed",
       "verdict": "reset_confirmed"
-    },
-    {
-      "confidence": 0.91,
-      "createdAt": 1787355887864,
-      "inputTokens": 413,
-      "message": "",
-      "outputTokens": 344,
-      "rationale": "It mentions a reset arriving by 8pm PST, which is a future timing and not a clear confirmation that limits are reset…",
-      "reasoningTokens": 289,
-      "totalTokens": 757,
-      "tweetId": "2090947196107764189",
-      "tweetText": "The banked reset will be there by 8pm PST. For all paid users of ChatGPT Work and Codex. Do with this information what you may.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2090947196107764189",
-      "type": "review_requested",
-      "verdict": "uncertain"
     }
   ],
   "privateState": {
-    "ciphertext": "VHN62eLcabXH-hJX3qCbUH8DFbPwukEbyUQ2DJZ044pMCOzRUhJoddh63A",
-    "iv": "6WbrEh05Qk6IkRnY",
-    "tag": "5-w1KhcqfVUmj7Mi9ZFCQw",
+    "ciphertext": "Yc-MpNMC3381IePOXPAdXHZ-Nat1YgDh8cdczuZE2YJhuiVWFyn9f6_IUg",
+    "iv": "TIhkbpMdFA1CBPJF",
+    "tag": "WjLz9-GN67ZsPTH-uQdCgA",
     "version": 1
   }
 }
