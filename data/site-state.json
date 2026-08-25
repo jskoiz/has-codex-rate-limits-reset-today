@@ -14,16 +14,16 @@
   "updatedAt": 1787532649941,
   "automation": {
     "lastDecision": {
-      "confidence": 0.69,
-      "decidedAt": 1787680740824,
-      "rationale": "This reply only says \"It's Tuesday\" and does not explicitly mention limits, caps, or usage being available again.",
-      "tweetId": "2092310229216338050",
-      "tweetUrl": "https://x.com/thsottiaux/status/2092310229216338050",
-      "verdict": "uncertain"
+      "confidence": 0.98,
+      "decidedAt": 1787681055329,
+      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+      "tweetId": "2092311059197808936",
+      "tweetUrl": "https://x.com/thsottiaux/status/2092311059197808936",
+      "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2092310229216338050",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2092310229216338050",
+    "lastSeenTweetId": "2092311059197808936",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2092311059197808936",
     "pendingReview": {
       "confidence": 0.69,
       "createdAt": 1787680740824,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2092310229216338050"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.98,
+        "evaluatedAt": 1787681055329,
+        "inputTokens": 391,
+        "outputTokens": 170,
+        "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+        "reasoningTokens": 126,
+        "totalTokens": 561,
+        "tweetId": "2092311059197808936",
+        "tweetText": "@dtzy_88 Ah yeah, forgot to say",
+        "tweetUrl": "https://x.com/thsottiaux/status/2092311059197808936",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.69,
         "evaluatedAt": 1787680740824,
@@ -279,29 +292,31 @@
         "tweetText": "@maria_rcks Some people will believe you",
         "tweetUrl": "https://x.com/thsottiaux/status/2091687884919349406",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1787507137251,
-        "inputTokens": 400,
-        "outputTokens": 78,
-        "rationale": "This post is a general comment about model efficiency and reliability, not about usage limits resetting.",
-        "reasoningTokens": 32,
-        "totalTokens": 478,
-        "tweetId": "2091581575108653374",
-        "tweetText": "2026 is the year companies start seriously caring about model efficiency and reliability as it becomes critical infrastructure",
-        "tweetUrl": "https://x.com/thsottiaux/status/2091581575108653374",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 531040,
-      "totalOutputTokens": 139193,
-      "totalReasoningTokens": 76937,
-      "totalTokens": 670233
+      "totalInputTokens": 531431,
+      "totalOutputTokens": 139363,
+      "totalReasoningTokens": 77063,
+      "totalTokens": 670794
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.98,
+      "createdAt": 1787681055329,
+      "inputTokens": 391,
+      "message": "",
+      "outputTokens": 170,
+      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
+      "reasoningTokens": 126,
+      "totalTokens": 561,
+      "tweetId": "2092311059197808936",
+      "tweetText": "@dtzy_88 Ah yeah, forgot to say",
+      "tweetUrl": "https://x.com/thsottiaux/status/2092311059197808936",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.69,
       "createdAt": 1787680740824,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2091042707334742221",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.97,
-      "createdAt": 1787378008992,
-      "inputTokens": 412,
-      "message": "",
-      "outputTokens": 122,
-      "rationale": "This reply discusses investigating an issue and communicating updates, not that limits have reset or usage is…",
-      "reasoningTokens": 73,
-      "totalTokens": 534,
-      "tweetId": "2091040344943288474",
-      "tweetText": "@RealEverNever That's quite intense. Let me know how I can communicate better, trying to keep you informed and currently with the team looking at logs and dashboards.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2091040344943288474",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "YRC1qtwRlY56IHYGnEG96p29Tca_vKyDED13hLol8pOWuwWhdLmP9eEOXQ",
-    "iv": "Fzm0Qjgmlkhjjx4g",
-    "tag": "cmRxCJndsLcZXfTXDuinzg",
+    "ciphertext": "DC7UMf-98KREuy3EPZoJuKOnOE-P8qRU0dqnQUDasF9ThrkO3VYOA72G1A",
+    "iv": "s6SDE8EkAexBxVRH",
+    "tag": "NezJCnJzwpXewWll08d30A",
     "version": 1
   }
 }
