@@ -14,18 +14,38 @@
   "updatedAt": 1787532649941,
   "automation": {
     "lastDecision": {
-      "confidence": 0.99,
-      "decidedAt": 1787669577874,
-      "rationale": "This reply is unrelated to rate limits or any reset announcement.",
-      "tweetId": "2092263085574950946",
-      "tweetUrl": "https://x.com/thsottiaux/status/2092263085574950946",
-      "verdict": "not_reset"
+      "confidence": 0.69,
+      "decidedAt": 1787680740824,
+      "rationale": "This reply only says \"It's Tuesday\" and does not explicitly mention limits, caps, or usage being available again.",
+      "tweetId": "2092310229216338050",
+      "tweetUrl": "https://x.com/thsottiaux/status/2092310229216338050",
+      "verdict": "uncertain"
     },
     "lastError": null,
-    "lastSeenTweetId": "2092263085574950946",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2092263085574950946",
-    "pendingReview": null,
+    "lastSeenTweetId": "2092310229216338050",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2092310229216338050",
+    "pendingReview": {
+      "confidence": 0.69,
+      "createdAt": 1787680740824,
+      "rationale": "This reply only says \"It's Tuesday\" and does not explicitly mention limits, caps, or usage being available again.",
+      "tweetId": "2092310229216338050",
+      "tweetText": "@jxnlco It's Tuesday Jason, it's Tuesday",
+      "tweetUrl": "https://x.com/thsottiaux/status/2092310229216338050"
+    },
     "recentEvaluations": [
+      {
+        "confidence": 0.69,
+        "evaluatedAt": 1787680740824,
+        "inputTokens": 390,
+        "outputTokens": 171,
+        "rationale": "This reply only says \"It's Tuesday\" and does not explicitly mention limits, caps, or usage being available again.",
+        "reasoningTokens": 120,
+        "totalTokens": 561,
+        "tweetId": "2092310229216338050",
+        "tweetText": "@jxnlco It's Tuesday Jason, it's Tuesday",
+        "tweetUrl": "https://x.com/thsottiaux/status/2092310229216338050",
+        "verdict": "uncertain"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1787669577874,
@@ -272,29 +292,31 @@
         "tweetText": "2026 is the year companies start seriously caring about model efficiency and reliability as it becomes critical infrastructure",
         "tweetUrl": "https://x.com/thsottiaux/status/2091581575108653374",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1787502770939,
-        "inputTokens": 439,
-        "outputTokens": 91,
-        "rationale": "This reply discusses an analogy and does not mention limits, caps, or usage resetting.",
-        "reasoningTokens": 46,
-        "totalTokens": 530,
-        "tweetId": "2091563530189521277",
-        "tweetText": "A better analogy would be to say that your brain suddenly gets placed in the pencil for it to moved around when you need to do the exam. \n\nThese are entirely different things you are comparing. The harness is much more similar to the body than it is to the classroom and environment.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2091563530189521277",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 530650,
-      "totalOutputTokens": 139022,
-      "totalReasoningTokens": 76817,
-      "totalTokens": 669672
+      "totalInputTokens": 531040,
+      "totalOutputTokens": 139193,
+      "totalReasoningTokens": 76937,
+      "totalTokens": 670233
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.69,
+      "createdAt": 1787680740824,
+      "inputTokens": 390,
+      "message": "",
+      "outputTokens": 171,
+      "rationale": "This reply only says \"It's Tuesday\" and does not explicitly mention limits, caps, or usage being available again.",
+      "reasoningTokens": 120,
+      "totalTokens": 561,
+      "tweetId": "2092310229216338050",
+      "tweetText": "@jxnlco It's Tuesday Jason, it's Tuesday",
+      "tweetUrl": "https://x.com/thsottiaux/status/2092310229216338050",
+      "type": "review_requested",
+      "verdict": "uncertain"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1787669577874,
@@ -879,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2091040344943288474",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1787376475541,
-      "inputTokens": 449,
-      "message": "",
-      "outputTokens": 93,
-      "rationale": "This reports an investigation into faster usage drain, not that limits have reset or been lifted.",
-      "reasoningTokens": 47,
-      "totalTokens": 542,
-      "tweetId": "2091033630147854385",
-      "tweetText": "Update on rate limits in Codex. We do see that for some users the cache hit rate has been worse this week than the stable state the weeks before. This could explain that usage is draining somewhat faster for those users as hitting the cache consistently is an important component of being efficient.\n\nWe are investigating and will have an update tomorrow.",
-      "tweetUrl": "https://x.com/thsottiaux/status/2091033630147854385",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "uGBQ0wQET_ixkE0w8QRTbzCvE_FhAtyfjgH_iKwxRb_gbAAxgrPh4pZp9w",
-    "iv": "kqdyyTi5SPKGlaOk",
-    "tag": "87wwptUweAadN3WKP7o-DA",
+    "ciphertext": "YRC1qtwRlY56IHYGnEG96p29Tca_vKyDED13hLol8pOWuwWhdLmP9eEOXQ",
+    "iv": "Fzm0Qjgmlkhjjx4g",
+    "tag": "cmRxCJndsLcZXfTXDuinzg",
     "version": 1
   }
 }
