@@ -15,17 +15,30 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1787668971639,
-      "rationale": "This reply is just conversational and does not mention limits or a reset.",
-      "tweetId": "2092261054361543127",
-      "tweetUrl": "https://x.com/thsottiaux/status/2092261054361543127",
+      "decidedAt": 1787669276988,
+      "rationale": "This reply is conversational and gives no indication that any Codex or ChatGPT limits have reset.",
+      "tweetId": "2092261483619192975",
+      "tweetUrl": "https://x.com/thsottiaux/status/2092261483619192975",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2092261054361543127",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2092261054361543127",
+    "lastSeenTweetId": "2092261483619192975",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2092261483619192975",
     "pendingReview": null,
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1787669276988,
+        "inputTokens": 393,
+        "outputTokens": 98,
+        "rationale": "This reply is conversational and gives no indication that any Codex or ChatGPT limits have reset.",
+        "reasoningTokens": 51,
+        "totalTokens": 491,
+        "tweetId": "2092261483619192975",
+        "tweetText": "@akokoi1 Uncle or father, you have to decide",
+        "tweetUrl": "https://x.com/thsottiaux/status/2092261483619192975",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1787668971639,
@@ -272,29 +285,31 @@
         "tweetText": "@kimmonismus Chat is this true",
         "tweetUrl": "https://x.com/thsottiaux/status/2091415069540401373",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1787467124397,
-        "inputTokens": 395,
-        "outputTokens": 71,
-        "rationale": "This reply is conversational and says nothing about limits, caps, or resets.",
-        "reasoningTokens": 28,
-        "totalTokens": 466,
-        "tweetId": "2091414006145908899",
-        "tweetText": "@maria_rcks No beef, lots of respect for Cursor and friends",
-        "tweetUrl": "https://x.com/thsottiaux/status/2091414006145908899",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 529865,
-      "totalOutputTokens": 138834,
-      "totalReasoningTokens": 76716,
-      "totalTokens": 668699
+      "totalInputTokens": 530258,
+      "totalOutputTokens": 138932,
+      "totalReasoningTokens": 76767,
+      "totalTokens": 669190
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1787669276988,
+      "inputTokens": 393,
+      "message": "",
+      "outputTokens": 98,
+      "rationale": "This reply is conversational and gives no indication that any Codex or ChatGPT limits have reset.",
+      "reasoningTokens": 51,
+      "totalTokens": 491,
+      "tweetId": "2092261483619192975",
+      "tweetText": "@akokoi1 Uncle or father, you have to decide",
+      "tweetUrl": "https://x.com/thsottiaux/status/2092261483619192975",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1787668971639,
@@ -879,27 +894,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2091027012832125027",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1787372413509,
-      "inputTokens": 399,
-      "message": "",
-      "outputTokens": 99,
-      "rationale": "This reply just shares a favorite link and does not mention any limit or reset.",
-      "reasoningTokens": 55,
-      "totalTokens": 498,
-      "tweetId": "2091016731020169488",
-      "tweetText": "@ajambrosino Favorite is https://t.co/90lmgsf8J9",
-      "tweetUrl": "https://x.com/thsottiaux/status/2091016731020169488",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "y4HQnSj5696VbLsU-X-VySP3lPx5os3i2UwCod7-gau4HhP0aMO9nwuMug",
-    "iv": "Y8QdBxxG7hNfo6lm",
-    "tag": "ofdUvIO6ghKjiTjOboIrMg",
+    "ciphertext": "2CPLwqDNJzB2jANyn1H5glp5YuLwNzSoc7D54NLnIwPnpb3Yd45kZ3E5xQ",
+    "iv": "TKmMbwVdYwLVObKH",
+    "tag": "7wugJInHRVEldob8sTDCJQ",
     "version": 1
   }
 }
