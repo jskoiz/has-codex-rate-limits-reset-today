@@ -15,15 +15,15 @@
   "automation": {
     "lastDecision": {
       "confidence": 0.99,
-      "decidedAt": 1787681058976,
-      "rationale": "This post discusses infrastructure and /ultrafast demand, not any rate-limit or usage-cap reset.",
-      "tweetId": "2092311315545239771",
-      "tweetUrl": "https://x.com/thsottiaux/status/2092311315545239771",
+      "decidedAt": 1787681978226,
+      "rationale": "This post is unrelated to Codex or ChatGPT usage limits or resets.",
+      "tweetId": "2092315945700381084",
+      "tweetUrl": "https://x.com/thsottiaux/status/2092315945700381084",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2092311315545239771",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2092311315545239771",
+    "lastSeenTweetId": "2092315945700381084",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2092315945700381084",
     "pendingReview": {
       "confidence": 0.69,
       "createdAt": 1787680740824,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2092310229216338050"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1787681978226,
+        "inputTokens": 386,
+        "outputTokens": 41,
+        "rationale": "This post is unrelated to Codex or ChatGPT usage limits or resets.",
+        "reasoningTokens": 0,
+        "totalTokens": 427,
+        "tweetId": "2092315945700381084",
+        "tweetText": "Do I need a haircut",
+        "tweetUrl": "https://x.com/thsottiaux/status/2092315945700381084",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.99,
         "evaluatedAt": 1787681058976,
@@ -279,29 +292,31 @@
         "tweetText": "Good Sunday. Reset has been propagated to accounts and we landed some fixes to usage for things mentioned yesterday as issues we found. You should feel a positive difference. More to come tomorrow and will keep communicating.",
         "tweetUrl": "https://x.com/thsottiaux/status/2091688655828246890",
         "verdict": "reset_confirmed"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1787532339279,
-        "inputTokens": 391,
-        "outputTokens": 82,
-        "rationale": "This reply is generic status commentary and does not say limits or rate caps have reset.",
-        "reasoningTokens": 37,
-        "totalTokens": 473,
-        "tweetId": "2091688192240226784",
-        "tweetText": "@TJeparskis We are hard at work.",
-        "tweetUrl": "https://x.com/thsottiaux/status/2091688192240226784",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 532046,
-      "totalOutputTokens": 139450,
+      "totalInputTokens": 532432,
+      "totalOutputTokens": 139491,
       "totalReasoningTokens": 77102,
-      "totalTokens": 671496
+      "totalTokens": 671923
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1787681978226,
+      "inputTokens": 386,
+      "message": "",
+      "outputTokens": 41,
+      "rationale": "This post is unrelated to Codex or ChatGPT usage limits or resets.",
+      "reasoningTokens": 0,
+      "totalTokens": 427,
+      "tweetId": "2092315945700381084",
+      "tweetText": "Do I need a haircut",
+      "tweetUrl": "https://x.com/thsottiaux/status/2092315945700381084",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.99,
       "createdAt": 1787681058976,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2091050758091477274",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.84,
-      "createdAt": 1787379271451,
-      "inputTokens": 389,
-      "message": "",
-      "outputTokens": 187,
-      "rationale": "The reply says something has fully propagated, but it does not explicitly say rate limits or caps have reset.",
-      "reasoningTokens": 138,
-      "totalTokens": 576,
-      "tweetId": "2091045457158103247",
-      "tweetText": "@buildwithrajath Should be all propagated",
-      "tweetUrl": "https://x.com/thsottiaux/status/2091045457158103247",
-      "type": "review_requested",
-      "verdict": "uncertain"
     }
   ],
   "privateState": {
-    "ciphertext": "iGEGC4dvbv5hreUjfXVM2gOEcXLY0YTzBmGAxWqYzR5RCteNiMvo_QvIvg",
-    "iv": "abgRQPaCky8WmxGE",
-    "tag": "iyy2PH2JyrRuNgYfu26U8g",
+    "ciphertext": "ODt69hV4BtvipfKZir3N9ILln3eV2kgDk7ygTim_4wS7r5XSyeIoThq86Q",
+    "iv": "pqfL_XcvlslnQDns",
+    "tag": "VeQTWujTfREsSMkadoi6tw",
     "version": 1
   }
 }
