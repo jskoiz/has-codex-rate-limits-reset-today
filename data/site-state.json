@@ -14,16 +14,16 @@
   "updatedAt": 1787532649941,
   "automation": {
     "lastDecision": {
-      "confidence": 0.98,
-      "decidedAt": 1787681055329,
-      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-      "tweetId": "2092311059197808936",
-      "tweetUrl": "https://x.com/thsottiaux/status/2092311059197808936",
+      "confidence": 0.99,
+      "decidedAt": 1787681058976,
+      "rationale": "This post discusses infrastructure and /ultrafast demand, not any rate-limit or usage-cap reset.",
+      "tweetId": "2092311315545239771",
+      "tweetUrl": "https://x.com/thsottiaux/status/2092311315545239771",
       "verdict": "not_reset"
     },
     "lastError": null,
-    "lastSeenTweetId": "2092311059197808936",
-    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2092311059197808936",
+    "lastSeenTweetId": "2092311315545239771",
+    "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2092311315545239771",
     "pendingReview": {
       "confidence": 0.69,
       "createdAt": 1787680740824,
@@ -33,6 +33,19 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2092310229216338050"
     },
     "recentEvaluations": [
+      {
+        "confidence": 0.99,
+        "evaluatedAt": 1787681058976,
+        "inputTokens": 615,
+        "outputTokens": 87,
+        "rationale": "This post discusses infrastructure and /ultrafast demand, not any rate-limit or usage-cap reset.",
+        "reasoningTokens": 39,
+        "totalTokens": 702,
+        "tweetId": "2092311315545239771",
+        "tweetText": "Excited about our Jalapeno results today. An incredible achievement from the team, taking a new chip from concept all the way to very impressive performance on real workloads in the lab.\n\nTomorrow’s fast will feel like today’s ultrafast. As I’ve mentioned before, we’re pushing to bring this to as many people as possible.\n\nWe’ve seen a TON of demand for /ultrafast, made possible by our deep partnership with Cerebras and their unique hardware, which will push the frontiers of tomorrow's ultrafast even further. I’m very much looking forward for the collaboration to continue pushing the absolute limits of how fast we can run our most capable models on Cerebras and bring this to the most demanding customers.",
+        "tweetUrl": "https://x.com/thsottiaux/status/2092311315545239771",
+        "verdict": "not_reset"
+      },
       {
         "confidence": 0.98,
         "evaluatedAt": 1787681055329,
@@ -279,29 +292,31 @@
         "tweetText": "@TJeparskis We are hard at work.",
         "tweetUrl": "https://x.com/thsottiaux/status/2091688192240226784",
         "verdict": "not_reset"
-      },
-      {
-        "confidence": 0.99,
-        "evaluatedAt": 1787532336311,
-        "inputTokens": 390,
-        "outputTokens": 102,
-        "rationale": "This reply is conversational and does not mention any limit, cap, or reset.",
-        "reasoningTokens": 58,
-        "totalTokens": 492,
-        "tweetId": "2091687884919349406",
-        "tweetText": "@maria_rcks Some people will believe you",
-        "tweetUrl": "https://x.com/thsottiaux/status/2091687884919349406",
-        "verdict": "not_reset"
       }
     ],
     "tokenUsage": {
-      "totalInputTokens": 531431,
-      "totalOutputTokens": 139363,
-      "totalReasoningTokens": 77063,
-      "totalTokens": 670794
+      "totalInputTokens": 532046,
+      "totalOutputTokens": 139450,
+      "totalReasoningTokens": 77102,
+      "totalTokens": 671496
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0.99,
+      "createdAt": 1787681058976,
+      "inputTokens": 615,
+      "message": "",
+      "outputTokens": 87,
+      "rationale": "This post discusses infrastructure and /ultrafast demand, not any rate-limit or usage-cap reset.",
+      "reasoningTokens": 39,
+      "totalTokens": 702,
+      "tweetId": "2092311315545239771",
+      "tweetText": "Excited about our Jalapeno results today. An incredible achievement from the team, taking a new chip from concept all the way to very impressive performance on real workloads in the lab.\n\nTomorrow’s fast will feel like today’s ultrafast. As I’ve mentioned before, we’re pushing to bring this to as many people as possible.\n\nWe’ve seen a TON of demand for /ultrafast, made possible by our deep partnership with Cerebras and their unique hardware, which will push the frontiers of tomorrow's ultrafast even further. I’m very much looking forward for the collaboration to continue pushing the absolute limits of how fast we can run our most capable models on Cerebras and bring this to the most demanding customers.",
+      "tweetUrl": "https://x.com/thsottiaux/status/2092311315545239771",
+      "type": "not_reset",
+      "verdict": "not_reset"
+    },
     {
       "confidence": 0.98,
       "createdAt": 1787681055329,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2091045457158103247",
       "type": "review_requested",
       "verdict": "uncertain"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1787378638189,
-      "inputTokens": 394,
-      "message": "",
-      "outputTokens": 77,
-      "rationale": "This reply is conversational and does not mention limits, caps, or a reset.",
-      "reasoningTokens": 33,
-      "totalTokens": 471,
-      "tweetId": "2091042707334742221",
-      "tweetText": "@TheAhmadOsman Never let a good crisis go to waste",
-      "tweetUrl": "https://x.com/thsottiaux/status/2091042707334742221",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "DC7UMf-98KREuy3EPZoJuKOnOE-P8qRU0dqnQUDasF9ThrkO3VYOA72G1A",
-    "iv": "s6SDE8EkAexBxVRH",
-    "tag": "NezJCnJzwpXewWll08d30A",
+    "ciphertext": "iGEGC4dvbv5hreUjfXVM2gOEcXLY0YTzBmGAxWqYzR5RCteNiMvo_QvIvg",
+    "iv": "abgRQPaCky8WmxGE",
+    "tag": "iyy2PH2JyrRuNgYfu26U8g",
     "version": 1
   }
 }
