@@ -21,7 +21,7 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2092360027013296458",
       "verdict": "not_reset"
     },
-    "lastError": null,
+    "lastError": "Tweet classification failed: 429 You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/. (429 You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.)",
     "lastSeenTweetId": "2092360027013296458",
     "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2092360027013296458",
     "pendingReview": {
@@ -302,6 +302,21 @@
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0,
+      "createdAt": 1787707438280,
+      "inputTokens": 0,
+      "message": "Tweet classification failed: 429 You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/. (429 You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.)",
+      "outputTokens": 0,
+      "rationale": "",
+      "reasoningTokens": 0,
+      "totalTokens": 0,
+      "tweetId": null,
+      "tweetText": "",
+      "tweetUrl": null,
+      "type": "error",
+      "verdict": null
+    },
     {
       "confidence": 0.99,
       "createdAt": 1787692539700,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2091405381235019793",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1787437621915,
-      "inputTokens": 409,
-      "message": "",
-      "outputTokens": 71,
-      "rationale": "This reply discusses product comparison and says nothing about limits or resets.",
-      "reasoningTokens": 30,
-      "totalTokens": 480,
-      "tweetId": "2091290999381184620",
-      "tweetText": "@diegocabezas01 That's an odd comparison. Computer History is just a feature. Bot is the entire output of Cursor + XAI",
-      "tweetUrl": "https://x.com/thsottiaux/status/2091290999381184620",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "iFwY6TWAQ5MwE-0CqknTRa2A8DAsTH6VgRG0iG42yWh_8CkGWxydM2tZXw",
-    "iv": "VG4SEvdfrxvHH1bn",
-    "tag": "nvCBEjtBEwfO71TKpjGmZA",
+    "ciphertext": "UMAv3tJOpq4sCrz3rRkIuhCxcWhWwhN1SW8Bwd_te5x5lC5lQK00U8koSQ",
+    "iv": "I2Ek9XGJl9xk5ixk",
+    "tag": "vuRbZHI4TIInA2CzyuPfsQ",
     "version": 1
   }
 }
