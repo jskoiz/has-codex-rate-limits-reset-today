@@ -21,7 +21,7 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2092360027013296458",
       "verdict": "not_reset"
     },
-    "lastError": "Tweet classification failed: 429 You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/. (429 You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.)",
+    "lastError": "Tweet classification failed: Request timed out. (Request timed out.)",
     "lastSeenTweetId": "2092360027013296458",
     "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2092360027013296458",
     "pendingReview": {
@@ -302,6 +302,21 @@
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0,
+      "createdAt": 1788201804332,
+      "inputTokens": 0,
+      "message": "Tweet classification failed: Request timed out. (Request timed out.)",
+      "outputTokens": 0,
+      "rationale": "",
+      "reasoningTokens": 0,
+      "totalTokens": 0,
+      "tweetId": null,
+      "tweetText": "",
+      "tweetUrl": null,
+      "type": "error",
+      "verdict": null
+    },
     {
       "confidence": 0,
       "createdAt": 1787707438280,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2091406082497552557",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1787464962209,
-      "inputTokens": 391,
-      "message": "",
-      "outputTokens": 75,
-      "rationale": "This reply is conversational and says nothing about limits or a reset.",
-      "reasoningTokens": 34,
-      "totalTokens": 466,
-      "tweetId": "2091405381235019793",
-      "tweetText": "@ForwardEditor 20M people nodded in unison",
-      "tweetUrl": "https://x.com/thsottiaux/status/2091405381235019793",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "UMAv3tJOpq4sCrz3rRkIuhCxcWhWwhN1SW8Bwd_te5x5lC5lQK00U8koSQ",
-    "iv": "I2Ek9XGJl9xk5ixk",
-    "tag": "vuRbZHI4TIInA2CzyuPfsQ",
+    "ciphertext": "riE8n1fwNgcpg1Epul68QPurH_5XKwzcgrK3VozeFvoVpEfZhK26MhDDIA",
+    "iv": "YVzOE6zMZTLvDLqW",
+    "tag": "7IjcQgD2-wOMwRxHT4QxNg",
     "version": 1
   }
 }
