@@ -21,7 +21,7 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2092360027013296458",
       "verdict": "not_reset"
     },
-    "lastError": "Tweet classification failed: Request timed out. (Request timed out.)",
+    "lastError": "Tweet classification failed: 429 You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/. (429 You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.)",
     "lastSeenTweetId": "2092360027013296458",
     "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2092360027013296458",
     "pendingReview": {
@@ -304,9 +304,9 @@
   "automationEvents": [
     {
       "confidence": 0,
-      "createdAt": 1788201804332,
+      "createdAt": 1788201815453,
       "inputTokens": 0,
-      "message": "Tweet classification failed: Request timed out. (Request timed out.)",
+      "message": "Tweet classification failed: 429 You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/. (429 You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.)",
       "outputTokens": 0,
       "rationale": "",
       "reasoningTokens": 0,
@@ -319,9 +319,9 @@
     },
     {
       "confidence": 0,
-      "createdAt": 1787707438280,
+      "createdAt": 1788201804332,
       "inputTokens": 0,
-      "message": "Tweet classification failed: 429 You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/. (429 You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.)",
+      "message": "Tweet classification failed: Request timed out. (Request timed out.)",
       "outputTokens": 0,
       "rationale": "",
       "reasoningTokens": 0,
@@ -904,9 +904,9 @@
     }
   ],
   "privateState": {
-    "ciphertext": "riE8n1fwNgcpg1Epul68QPurH_5XKwzcgrK3VozeFvoVpEfZhK26MhDDIA",
-    "iv": "YVzOE6zMZTLvDLqW",
-    "tag": "7IjcQgD2-wOMwRxHT4QxNg",
+    "ciphertext": "h8ZK-j7fXoF3IWuGrbTtae47oKbJvnZenJEiEdNjSxCJzTJKb4PaFypOcA",
+    "iv": "CcBgOU-RFJ0XQ2QD",
+    "tag": "G3HFGCnle2fVfpEtNXu7eA",
     "version": 1
   }
 }
