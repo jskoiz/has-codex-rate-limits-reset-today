@@ -21,7 +21,7 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2092360027013296458",
       "verdict": "not_reset"
     },
-    "lastError": "Tweet classification failed: 429 You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/. (429 You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.)",
+    "lastError": "Tweet fetch failed: Tweet search failed: Request failed with status code 403; timeline fallback failed: Request failed with status code 403 (Request failed with status code 403) (Tweet search failed: Request failed with status code 403; timeline fallback failed: Request failed with status code 403)",
     "lastSeenTweetId": "2092360027013296458",
     "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2092360027013296458",
     "pendingReview": {
@@ -302,6 +302,21 @@
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0,
+      "createdAt": 1789137716989,
+      "inputTokens": 0,
+      "message": "Tweet fetch failed: Tweet search failed: Request failed with status code 403; timeline fallback failed: Request failed with status code 403 (Request failed with status code 403) (Tweet search failed: Request failed with status code 403; timeline fallback failed: Request failed with status code 403)",
+      "outputTokens": 0,
+      "rationale": "",
+      "reasoningTokens": 0,
+      "totalTokens": 0,
+      "tweetId": null,
+      "tweetText": "",
+      "tweetUrl": null,
+      "type": "error",
+      "verdict": null
+    },
     {
       "confidence": 0,
       "createdAt": 1788203672764,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2091407991736332689",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1787465277774,
-      "inputTokens": 392,
-      "message": "",
-      "outputTokens": 84,
-      "rationale": "This reply is about unsupported sub2api usage, not a rate-limit or cap reset.",
-      "reasoningTokens": 38,
-      "totalTokens": 476,
-      "tweetId": "2091406082497552557",
-      "tweetText": "@CtrlAltDwayne We don’t support sub2api",
-      "tweetUrl": "https://x.com/thsottiaux/status/2091406082497552557",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "0pzItq33R35rQVu8KGlQwKJDYusawSoNdVhwaznRU0ucBemiwrNW5gWfRQ",
-    "iv": "x7ghFjQyrMDZf3AF",
-    "tag": "2Wt4dU5DFgjHl1cRXILWUw",
+    "ciphertext": "6Hh3G71GuhSqhSMVR2vmv_pr0XFXpNh9OBeOMlf4KGBjyVNpj52xmhwluQ",
+    "iv": "SuiNpDFrQIAFR7Ut",
+    "tag": "qMcAG91Oa2MkGENh-2LVjA",
     "version": 1
   }
 }
