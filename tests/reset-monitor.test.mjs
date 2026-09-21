@@ -364,6 +364,44 @@ test("runResetMonitor uses quoted reset context for future-looking tweets with a
   assert.equal(stored[0].verdict, "reset_confirmed");
 });
 
+test("runResetMonitor confirms an explicitly announced reset rollout even when the model calls it future", async () => {
+  const stored = [];
+  const tweet = createTweet("2079609157934886975", {
+    createdAt: "2026-07-21T16:47:15.000Z",
+    fullText:
+      "10M! New day, new usage reset for paid users of Codex and ChatGPT Work. Lands in the next hour. Enjoy.",
+  });
+
+  const result = await withAutomationEnv(() =>
+    runResetMonitor({
+      classifyTweet: async () => ({
+        confidence: 0.95,
+        rationale: "It announces a reset coming in the next hour, not that limits have reset already.",
+        verdict: "not_reset",
+      }),
+      fetchLatestTimelineTweets: async () => [tweet],
+      markTweetAsResetConfirmed: async (_tweet, classification) => {
+        stored.push(classification);
+      },
+      readSiteState: async () => ({
+        automation: {
+          lastSeenTweetId: "2079609000000000000",
+        },
+      }),
+    }),
+  );
+
+  assert.equal(stored.length, 1);
+  assert.equal(stored[0].rationale, "Post announces a usage reset that is rolling out now.");
+  assert.equal(stored[0].verdict, "reset_confirmed");
+  assert.deepEqual(result, {
+    outcome: "reset_confirmed",
+    processedCount: 1,
+    tweetId: "2079609157934886975",
+    tweetUrl: "https://x.com/thsottiaux/status/2079609157934886975",
+  });
+});
+
 test("runResetMonitor trims long rationales before they reach public state", async () => {
   const stored = [];
   const tweet = createTweet("402");
