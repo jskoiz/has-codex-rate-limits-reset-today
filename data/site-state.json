@@ -21,7 +21,7 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2092360027013296458",
       "verdict": "not_reset"
     },
-    "lastError": "Tweet classification failed: 429 You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/. (429 You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.)",
+    "lastError": "Tweet fetch failed: Unknown error (Unknown error)",
     "lastSeenTweetId": "2092360027013296458",
     "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2092360027013296458",
     "pendingReview": {
@@ -302,6 +302,21 @@
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0,
+      "createdAt": 1790207950205,
+      "inputTokens": 0,
+      "message": "Tweet fetch failed: Unknown error (Unknown error)",
+      "outputTokens": 0,
+      "rationale": "",
+      "reasoningTokens": 0,
+      "totalTokens": 0,
+      "tweetId": null,
+      "tweetText": "",
+      "tweetUrl": null,
+      "type": "error",
+      "verdict": null
+    },
     {
       "confidence": 0,
       "createdAt": 1790199846922,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2091411370243936661",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1787465895192,
-      "inputTokens": 386,
-      "message": "",
-      "outputTokens": 102,
-      "rationale": "This reply just says \"Posted\" and gives no indication that any limits reset.",
-      "reasoningTokens": 58,
-      "totalTokens": 488,
-      "tweetId": "2091408930635436341",
-      "tweetText": "@buildwithrajath Posted",
-      "tweetUrl": "https://x.com/thsottiaux/status/2091408930635436341",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "O3sh3rMZ-YjxHFL26usZlUNZqK4mie9Z5f_hCBUCYu8m0OAJ1LmZH0O6Cw",
-    "iv": "9CLfP7NxjDmiN6L4",
-    "tag": "d5srtf0r9cpHEVxMesPmTQ",
+    "ciphertext": "g19rMkhXOjTuNuxTf9LgTKWCnymMdpe4vG-1m8tloyLmqfnsDcvjCt_P_w",
+    "iv": "Px_Gm8l0YzsQZuv0",
+    "tag": "THRHCbhXUOpt1gRF_lc62w",
     "version": 1
   }
 }
