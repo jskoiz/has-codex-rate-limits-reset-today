@@ -21,7 +21,7 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2092360027013296458",
       "verdict": "not_reset"
     },
-    "lastError": "Tweet fetch failed: Tweet search failed: Unknown error; timeline fallback failed: Unknown error (Unknown error) (Tweet search failed: Unknown error; timeline fallback failed: Unknown error)",
+    "lastError": "Tweet classification failed: 429 You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/. (429 You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.)",
     "lastSeenTweetId": "2092360027013296458",
     "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2092360027013296458",
     "pendingReview": {
@@ -304,9 +304,9 @@
   "automationEvents": [
     {
       "confidence": 0,
-      "createdAt": 1790199539971,
+      "createdAt": 1790199846922,
       "inputTokens": 0,
-      "message": "Tweet fetch failed: Tweet search failed: Unknown error; timeline fallback failed: Unknown error (Unknown error) (Tweet search failed: Unknown error; timeline fallback failed: Unknown error)",
+      "message": "Tweet classification failed: 429 You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/. (429 You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.)",
       "outputTokens": 0,
       "rationale": "",
       "reasoningTokens": 0,
@@ -319,9 +319,9 @@
     },
     {
       "confidence": 0,
-      "createdAt": 1789138325157,
+      "createdAt": 1790199539971,
       "inputTokens": 0,
-      "message": "Tweet classification failed: 429 You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/. (429 You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.)",
+      "message": "Tweet fetch failed: Tweet search failed: Unknown error; timeline fallback failed: Unknown error (Unknown error) (Tweet search failed: Unknown error; timeline fallback failed: Unknown error)",
       "outputTokens": 0,
       "rationale": "",
       "reasoningTokens": 0,
@@ -904,9 +904,9 @@
     }
   ],
   "privateState": {
-    "ciphertext": "wKjY7Y_OTY-F49bi30eunDLAYQE6NS-phMqiZBLJP60FQopXnlO7Hb8vAA",
-    "iv": "bvmdh4E7cOgPE--t",
-    "tag": "bSFgIw97RYwsW7puIZeQFQ",
+    "ciphertext": "O3sh3rMZ-YjxHFL26usZlUNZqK4mie9Z5f_hCBUCYu8m0OAJ1LmZH0O6Cw",
+    "iv": "9CLfP7NxjDmiN6L4",
+    "tag": "d5srtf0r9cpHEVxMesPmTQ",
     "version": 1
   }
 }
