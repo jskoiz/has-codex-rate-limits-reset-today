@@ -21,7 +21,7 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2092360027013296458",
       "verdict": "not_reset"
     },
-    "lastError": "Tweet classification failed: 429 You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/. (429 You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.)",
+    "lastError": "Tweet fetch failed: Tweet search failed: Unknown error; timeline fallback failed: Unknown error (Unknown error) (Tweet search failed: Unknown error; timeline fallback failed: Unknown error)",
     "lastSeenTweetId": "2092360027013296458",
     "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2092360027013296458",
     "pendingReview": {
@@ -304,9 +304,9 @@
   "automationEvents": [
     {
       "confidence": 0,
-      "createdAt": 1790322685734,
+      "createdAt": 1790322979880,
       "inputTokens": 0,
-      "message": "Tweet classification failed: 429 You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/. (429 You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.)",
+      "message": "Tweet fetch failed: Tweet search failed: Unknown error; timeline fallback failed: Unknown error (Unknown error) (Tweet search failed: Unknown error; timeline fallback failed: Unknown error)",
       "outputTokens": 0,
       "rationale": "",
       "reasoningTokens": 0,
@@ -319,9 +319,9 @@
     },
     {
       "confidence": 0,
-      "createdAt": 1790322078855,
+      "createdAt": 1790322685734,
       "inputTokens": 0,
-      "message": "Tweet fetch failed: Tweet search failed: Unknown error; timeline fallback failed: Unknown error (Unknown error) (Tweet search failed: Unknown error; timeline fallback failed: Unknown error)",
+      "message": "Tweet classification failed: 429 You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/. (429 You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.)",
       "outputTokens": 0,
       "rationale": "",
       "reasoningTokens": 0,
@@ -904,9 +904,9 @@
     }
   ],
   "privateState": {
-    "ciphertext": "WLgpwCWJ1I6HequimGSqjl4zVeo3BNzDnn-7lSthua58gPDPo8IrBRf6Bg",
-    "iv": "HVSRMpO7YpC4H0Oc",
-    "tag": "aonM2BRLqzZIRdoftaaiuA",
+    "ciphertext": "b4fvrWU4jQTdqgZXjsVWdJjttDy0DnM9I_sSNBsbKmHalR15_az_HZ9-mA",
+    "iv": "nf4B92gt1uzLiczD",
+    "tag": "wcmJGiyZts3OcSsxtN4-5A",
     "version": 1
   }
 }
