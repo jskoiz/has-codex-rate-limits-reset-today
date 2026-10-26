@@ -21,7 +21,7 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2092360027013296458",
       "verdict": "not_reset"
     },
-    "lastError": "Tweet fetch failed: Tweet search failed: Unknown error; timeline fallback failed: Unknown error (Unknown error) (Tweet search failed: Unknown error; timeline fallback failed: Unknown error)",
+    "lastError": "Tweet fetch failed: Tweet search failed: Request failed with status code 503; timeline fallback failed: Unknown error (Unknown error) (Tweet search failed: Request failed with status code 503; timeline fallback failed: Unknown error)",
     "lastSeenTweetId": "2092360027013296458",
     "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2092360027013296458",
     "pendingReview": {
@@ -302,6 +302,21 @@
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0,
+      "createdAt": 1792979886962,
+      "inputTokens": 0,
+      "message": "Tweet fetch failed: Tweet search failed: Request failed with status code 503; timeline fallback failed: Unknown error (Unknown error) (Tweet search failed: Request failed with status code 503; timeline fallback failed: Unknown error)",
+      "outputTokens": 0,
+      "rationale": "",
+      "reasoningTokens": 0,
+      "totalTokens": 0,
+      "tweetId": null,
+      "tweetText": "",
+      "tweetUrl": null,
+      "type": "error",
+      "verdict": null
+    },
     {
       "confidence": 0,
       "createdAt": 1792880775891,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2091414006145908899",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.97,
-      "createdAt": 1787466823105,
-      "inputTokens": 387,
-      "message": "",
-      "outputTokens": 149,
-      "rationale": "This reply only corrects a time and does not clearly state that limits have reset.",
-      "reasoningTokens": 104,
-      "totalTokens": 536,
-      "tweetId": "2091413240337326588",
-      "tweetText": "Meant 2pm obviously",
-      "tweetUrl": "https://x.com/thsottiaux/status/2091413240337326588",
-      "type": "review_requested",
-      "verdict": "uncertain"
     }
   ],
   "privateState": {
-    "ciphertext": "bjnaLddpZJMZq280EVVNcOUb2iOlf2qT4m2dNnBb2erG-zV9fmac7wQatQ",
-    "iv": "l7D7SH8YP5RvaM37",
-    "tag": "RjNyDKBTEhcwl0NdOPZpBw",
+    "ciphertext": "vO7LcutTskxszYvnCVwXI9lwttN0Ntb8rCg4wZPCCV5s0-YIv8L90cDg8w",
+    "iv": "5iFwVTCurcN0G-9O",
+    "tag": "6d7ZJcfgGKCcxHC_z_iBTw",
     "version": 1
   }
 }
