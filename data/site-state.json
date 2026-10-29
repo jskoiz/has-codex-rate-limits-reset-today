@@ -21,7 +21,7 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2092360027013296458",
       "verdict": "not_reset"
     },
-    "lastError": "Tweet fetch failed: Tweet search failed: Request failed with status code 503; timeline fallback failed: Unknown error (Unknown error) (Tweet search failed: Request failed with status code 503; timeline fallback failed: Unknown error)",
+    "lastError": "Tweet fetch failed: Tweet search failed: Unknown error; timeline fallback failed: Unknown error (Unknown error) (Tweet search failed: Unknown error; timeline fallback failed: Unknown error)",
     "lastSeenTweetId": "2092360027013296458",
     "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2092360027013296458",
     "pendingReview": {
@@ -304,9 +304,9 @@
   "automationEvents": [
     {
       "confidence": 0,
-      "createdAt": 1793243931523,
+      "createdAt": 1793244231443,
       "inputTokens": 0,
-      "message": "Tweet fetch failed: Tweet search failed: Request failed with status code 503; timeline fallback failed: Unknown error (Unknown error) (Tweet search failed: Request failed with status code 503; timeline fallback failed: Unknown error)",
+      "message": "Tweet fetch failed: Tweet search failed: Unknown error; timeline fallback failed: Unknown error (Unknown error) (Tweet search failed: Unknown error; timeline fallback failed: Unknown error)",
       "outputTokens": 0,
       "rationale": "",
       "reasoningTokens": 0,
@@ -319,9 +319,9 @@
     },
     {
       "confidence": 0,
-      "createdAt": 1792980187523,
+      "createdAt": 1793243931523,
       "inputTokens": 0,
-      "message": "Tweet fetch failed: Tweet search failed: Unknown error; timeline fallback failed: Unknown error (Unknown error) (Tweet search failed: Unknown error; timeline fallback failed: Unknown error)",
+      "message": "Tweet fetch failed: Tweet search failed: Request failed with status code 503; timeline fallback failed: Unknown error (Unknown error) (Tweet search failed: Request failed with status code 503; timeline fallback failed: Unknown error)",
       "outputTokens": 0,
       "rationale": "",
       "reasoningTokens": 0,
@@ -904,9 +904,9 @@
     }
   ],
   "privateState": {
-    "ciphertext": "TnXky7lg9fDUJCEGEyTEIgEhYI0Xue___m8lkOWYAz53-ghRVnr-jJspRw",
-    "iv": "s5O1jD0uyW3ITp8t",
-    "tag": "UmHEdZCGiydSNlL2m8iOEw",
+    "ciphertext": "e4cYVzKkIrTN3Aq54GXq8DXaz02OE2j7bM6__yXr_saXqklgz3F314qAmQ",
+    "iv": "ISUuajA8nEhkhBh_",
+    "tag": "D9h_8VTFnAmS5MmmM7uNCQ",
     "version": 1
   }
 }
