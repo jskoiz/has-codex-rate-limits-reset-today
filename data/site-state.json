@@ -21,7 +21,7 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2092360027013296458",
       "verdict": "not_reset"
     },
-    "lastError": "Tweet fetch failed: Tweet search failed: Unknown error; timeline fallback failed: Unknown error (Unknown error) (Tweet search failed: Unknown error; timeline fallback failed: Unknown error)",
+    "lastError": "Tweet fetch failed: Tweet search failed: Cannot read properties of undefined (reading 'errors'); timeline fallback failed: Unknown error (Unknown error) (Tweet search failed: Cannot read properties of undefined (reading 'errors'); timeline fallback failed: Unknown error)",
     "lastSeenTweetId": "2092360027013296458",
     "lastSeenTweetUrl": "https://x.com/thsottiaux/status/2092360027013296458",
     "pendingReview": {
@@ -302,6 +302,21 @@
     }
   },
   "automationEvents": [
+    {
+      "confidence": 0,
+      "createdAt": 1793364801222,
+      "inputTokens": 0,
+      "message": "Tweet fetch failed: Tweet search failed: Cannot read properties of undefined (reading 'errors'); timeline fallback failed: Unknown error (Unknown error) (Tweet search failed: Cannot read properties of undefined (reading 'errors'); timeline fallback failed: Unknown error)",
+      "outputTokens": 0,
+      "rationale": "",
+      "reasoningTokens": 0,
+      "totalTokens": 0,
+      "tweetId": null,
+      "tweetText": "",
+      "tweetUrl": null,
+      "type": "error",
+      "verdict": null
+    },
     {
       "confidence": 0,
       "createdAt": 1793258348643,
@@ -886,27 +901,12 @@
       "tweetUrl": "https://x.com/thsottiaux/status/2091415069540401373",
       "type": "not_reset",
       "verdict": "not_reset"
-    },
-    {
-      "confidence": 0.99,
-      "createdAt": 1787467124397,
-      "inputTokens": 395,
-      "message": "",
-      "outputTokens": 71,
-      "rationale": "This reply is conversational and says nothing about limits, caps, or resets.",
-      "reasoningTokens": 28,
-      "totalTokens": 466,
-      "tweetId": "2091414006145908899",
-      "tweetText": "@maria_rcks No beef, lots of respect for Cursor and friends",
-      "tweetUrl": "https://x.com/thsottiaux/status/2091414006145908899",
-      "type": "not_reset",
-      "verdict": "not_reset"
     }
   ],
   "privateState": {
-    "ciphertext": "lvlJNY4DqsUtBSoDUtGdts2-kHqvnPx8GdKinkqk8hJSZRCNl39KuyCQlQ",
-    "iv": "4l0_FfI2K3G6_c7Y",
-    "tag": "Rdtgq1aBoC3ipRHLBCmYsA",
+    "ciphertext": "mg7EHhAn1hzaY6sGiX0MrkF56w-2_AfLmGif7fV0rWIgwG4Jxd2pHFn-eQ",
+    "iv": "drJOAMoUhtVW5al7",
+    "tag": "zi9d_weTBfUyq3i9iKFzpw",
     "version": 1
   }
 }
